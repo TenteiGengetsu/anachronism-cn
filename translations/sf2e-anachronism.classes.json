@@ -1,0 +1,44 @@
+{
+  "label": "职业",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    }
+  },
+  "entries": {
+    "FYCUzPaaCU4G66Wz": {
+      "name": "秘术师"
+    },
+    "PMX0vxZeLdaofMVd": {
+      "name": "机械师",
+      "description": "<p><em>说到科技，你的理解无人能及。你不断制作和改造装备，无论是计算机、爆炸物、工具、武器还是自己设计的物品。你制造了一个复杂的外皮层（Exocortex），这是一种定制的神经植入装置，可以将你自己的思维连接上最复杂的造物：无人机伙伴，遥控武器炮塔，或是爆炸性地雷。如果有东西坏了——或者需要被破坏——你就是那个人。</em></p>"
+    },
+    "QhD0tldbCGmGYeoQ": {
+      "name": "织维巫师",
+      "description": "<p><em>一场奇异荒诞的事件永久改变了你的存在本质，自此，你可将现实化为掌中丝弦。你探索多元宇宙中的无穷可能，乃至窥视不同时间线。足以颠覆时空的神秘场域随你意愿产生，为你的强大魔法铺就基石。而一段记忆、概念，或物体皆可作为你认知世界的锚点，你深知如何专注于此。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Qaue1LUZUrEFYfT0]{Witchwarper}</p>"
+    },
+    "cUWBC21I0XbzP44A": {
+      "name": "特工",
+      "description": "<p>你机敏警觉，是在激战中如鱼得水的专业人士。致命枪法和战术素养让你在较量中占尽上风——对你来说，最强大的敌手也不过是又一个靶子。在你的专精领域中，你更有惊人的造诣。</p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.e3x0k83hYe1awVvT]{Operative}</p>"
+    },
+    "hqRClk6ZQpjENv2C": {
+      "name": "科技法师",
+      "description": "<p><em>你知道魔法和科技都是同一种代码的一部分——一套你已懂得破解的代码。你精通一种魔法编程语言，它能让你的设备超频，性能更高，用途更广。你学会了越狱你的法术，让你的魔法突破极限。你是来骇入现实的。</em></p>"
+    },
+    "sGupLSC7oqsN18sI": {
+      "name": "士兵",
+      "description": "<p><em>你是使用区域武器、重甲和抗线的大师。你屹立于最激烈的前线，向敌人释放毁灭性的炮火，并抗下反击火力。通过强大的武器投射压制弹幕，迫使敌人集火自身，你能掩护盟友各行其道。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.KVjJqpDk71Q7MrWF]{Soldier}</p>"
+    },
+    "wu88dOKl86DTo427": {
+      "name": "使节",
+      "description": "<p><em>你是大师级别的意见领袖。你以迷人的微笑，聪敏的急智，敏锐的自我保护意识在物质宇宙中取得成功。你是位能激励队友，使他们超越极限，帮助他们度过难关的领袖。你擅长让他人依照你的意愿行事，但在事情变糟时，你又总能迎难而上。You might be a con artist, diplomat, performer, or military officer—or you might take on whatever role the situation demands.</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.r2bLZofQDDBIk6Ir]{Envoy}</p>"
+    },
+    "zAI2ugYWzbUnmaez": {
+      "name": "恒星武士",
+      "description": "<p><em>你是引导宇宙星辰之力的隧道——一名星辰骑士。重力与光分别位于这份力量天平的两极，而你可以则可以以身入道，调和其间。作为这一轮二元循环的代行者，你能够显现一系列恒星武装，并利用自身与星辰之力的联系来强化它们。无论你偏爱这星辰光谱的哪一极，你都能自如地改变自身同其二者间的调谐，并通过刻苦的冥想与锻炼来获取独一无二的特殊力量。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Nb6sw1oNTFwVPlLu]{Solarian}</p>"
+    }
+  }
+}
