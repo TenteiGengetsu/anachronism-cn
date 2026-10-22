@@ -8,6 +8,81 @@
       "converter": "sf2eAnachronismCnPrerequisites"
     }
   },
+  "folders": {
+    "Ancestry": "族裔",
+    "Elebrian": "灵脑人",
+    "Soldier": "士兵",
+    "Dragonkin": "龙人",
+    "Mystic": "秘术师",
+    "Archetype": "变体",
+    "Kalo": "卡洛鱼人",
+    "Skill": "技能",
+    "Operative": "特工",
+    "Ikeshti": "异客蜥人",
+    "General": "通用",
+    "Witchwarper": "织维巫师",
+    "Corpsefolk": "尸族",
+    "Space Pirate": "太空海盗",
+    "Class": "职业",
+    "Solarian": "恒星武士",
+    "Contemplative": "默思族",
+    "Sarcesian": "萨瑟蝶人",
+    "Envoy": "使节",
+    "Mechanic": "机械师",
+    "Vlaka": "弗拉卡狼人",
+    "Astrazoan": "星蛸族",
+    "Technomancer": "科技法师",
+    "Android": "仿生人",
+    "Starfinder Field Agent": "寻星者外勤探员",
+    "Barathu": "飞螅族",
+    "Shobhad": "绍贝德人",
+    "Augmented": "改造者",
+    "Human": "人类",
+    "Kasatha": "卡萨斯人",
+    "Borai": "活尸裔",
+    "Junkomancer": "废品法师",
+    "Nanocyte": "纳米行者",
+    "Prismeni": "棱光裔",
+    "Lashunta": "拉申塔人",
+    "Pharmacologist": "药理学家",
+    "Pahtra": "趴爪族",
+    "Shirren": "希伦虫人",
+    "Skittermander": "轻灵兽",
+    "Vesk": "维斯克蜥人",
+    "Khizar": "奇植族",
+    "Brenneri": "水獭人",
+    "Dwarf": "矮人",
+    "Elf": "精灵",
+    "Entu Colony": "因图菌群",
+    "Fonqugon": "方贡族",
+    "Formian": "弗米蚁族",
+    "G'folian": "火蟹族",
+    "Gnome": "侏儒",
+    "Goblin": "地精",
+    "Halfling": "半身人",
+    "Leshy": "莱西",
+    "Madrosarai": "马德罗萨莱人",
+    "Maraquoi": "马拉魁族",
+    "Novian": "新星族",
+    "Orc": "兽人",
+    "Orocoran": "奥罗科兰人",
+    "Raxilite": "拉西利特族",
+    "Ryphorian": "雷弗瑞亚人",
+    "Talphi": "鼹鼠人",
+    "Trox": "卓克斯虫人",
+    "Urog": "巫洛格",
+    "Standardized Ancestry Feats": "标准族裔专长",
+    "Copaxi": "珊瑚人",
+    "Vulkarisu": "松鼠狐人",
+    "Phasorq": "双相人",
+    "Ord": "奥德",
+    "Mecenaic": "四臂蜗族",
+    "Hardor": "坚叶族",
+    "Binnaquid": "沼栖族",
+    "Atraxid": "纺蛛人",
+    "SRO": "自主机器人",
+    "Verthani": "维萨尼"
+  },
   "entries": {
     "00ZSZtCvFuJzXgNn": {
       "name": "循环门徒",
@@ -241,7 +316,8 @@
       "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong>你在一次豁免或技能检定中失败或大失败，同时30尺内一名盟友在相同豁免或检定中成功或大成功。</p><hr /><p>你像许多纺蛛人一样争强好胜，无法忍受朋友成功时自己却失败。重掷触发检定，但你必须采用新的结果，即便它更差。</p>"
     },
     "0xhVTQwPdlwFljzj": {
-      "name": "士兵特性同步化"
+      "name": "士兵特性同步化",
+      "description": "<p>在判断所有士兵专长和职业特性时，你将手雷视为具有区域（爆发）特征的区域武器，包括主目标和压制火力。若你正持握1个手雷，那么你就能满足那些需要你持用区域武器的士兵专长的需求。</p>\n<p>当你以手雷使用主目标时，该手雷被视同为简易投掷武器，具有耗弹0和区域（爆发）特征，70尺射程（若具有长距离掷弹专长则为140尺）。打击对手雷的主目标造成1个伤害骰的伤害，该伤害骰与手雷具有相同的骰子大小以及伤害类型。若手雷为先进型或卓越型，该伤害会增加至2个伤害骰，精英型或终极型手雷为3个伤害骰，完美型手雷为4个伤害骰。若手雷本身不会造成伤害，那么使用主目标时它也不会造成伤害。</p>"
     },
     "0xqBLIhCmB9SrQ8K": {
       "name": "共情颤动"
@@ -549,7 +625,8 @@
       "name": "脱壳"
     },
     "2HSSwECdf2xpaIOh": {
-      "name": "烈焰展现"
+      "name": "烈焰展现",
+      "description": "<p><strong>触发</strong> 一个生物对你的@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.jjVH7W3IhgaJ5Yct]反射豁免失败。</p><hr /><p>Your flames are a fearsome sight to behold, blazing through all who oppose you. Choose one creature that failed its Reflex save against your @UUID[Compendium.sf2e-anachronism.ancestry-features.Item.jjVH7W3IhgaJ5Yct]. Attempt an Intimidation check to [[/act demoralize]] that enemy; you don't take a penalty for not sharing a language.</p>"
     },
     "2JUAex11tfZ5L0JZ": {
       "name": "首席继承人"
@@ -745,6 +822,7 @@
     },
     "3YWWEpymraa5vxQM": {
       "name": "远程改装",
+      "description": "<p>你获得远程改装职业特性（第39页）。然而，你不会获得通常在15级获得的额外增益。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -929,6 +1007,7 @@
     },
     "4fUYVzqPQTfz1cNd": {
       "name": "英勇坚毅",
+      "description": "<p>如同曾经激励你的英雄们一样，你悍不畏死。当你使用英勇抵抗时，你获得相当于你两倍等级的临时生命值，持续1分钟，而不是相当于你等级。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -1158,6 +1237,7 @@
     },
     "66QwnNVNQ7Z1oWgx": {
       "name": "基础科技法师施法",
+      "description": "<p>你获得基础施法增益（《玩家核心》174页）。每当你从科技法师变体获得一个新环级的法术位时，将两个对应环级的常见奥术法术添加到你的数据库中。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -1583,7 +1663,8 @@
       ]
     },
     "8ToT45Je3wD1ZJVH": {
-      "name": "逃吧，懦夫！"
+      "name": "逃吧，懦夫！",
+      "description": "<p>你用武器来驱赶惊慌失措的敌人。一个在对抗你区域射击或自动射击的豁免上大失败的敌人会@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]一轮。</p>"
     },
     "8VCGuAPwIs43qqFP": {
       "name": "道具柜"
@@ -1846,13 +1927,15 @@
       ]
     },
     "A4DqKN94cY008kWn": {
-      "name": "专家科技法师施法"
+      "name": "专家科技法师施法",
+      "description": "<p>你获得专家施法增益（《玩家核心》174页）。</p>"
     },
     "A4EDLmXBfCczp08E": {
       "name": "剃刀废料"
     },
     "A4w82Aoru4SCFCAL": {
-      "name": "受祝甲壳"
+      "name": "受祝甲壳",
+      "description": "<p>你甲壳上的文字已经演变成一种神圣的脚本，无论是献给一位神祇还是成为一种哲学。根据你为@UUID[Compendium.sf2e-anachronism.feats.Item.1VASwc82sDKVAbMd]所选择的法术，你会被祝佑，并获得圣洁或邪秽特征（@UUID[Compendium.pf2e.spells-srd.Item.lTDixrrNKaCvLKwX]为圣洁，@UUID[Compendium.pf2e.spells-srd.Item.29ytKctjg7qSW2ff]为邪秽）。你的@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.jjVH7W3IhgaJ5Yct]获得受祝特征，你可以选择造成精魂伤害而非火焰伤害。</p>"
     },
     "A5p9Et1KduEq1BhW": {
       "name": "扩展感官",
@@ -1894,6 +1977,7 @@
     },
     "AY1Go7mSSbsOfiBo": {
       "name": "额外反弹",
+      "description": "<p>你能让手雷在爆炸之前，至多在固体表面上反弹3次，而非原本的1次。你不需要看到这些表面，但是你需要对它们的位置有大致的了解。若手雷撞到了你未曾预期到的固体表面，它就会爆炸。举例说明，若你将1个手雷投掷到完全看不到的大厅之内，手雷会在大厅的墙壁和门上进行反弹，但如果它撞到了椅子或门房的推车就会爆炸。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -2066,7 +2150,8 @@
       ]
     },
     "BMe2Kjj7iCTBfXSI": {
-      "name": "可靠专家"
+      "name": "可靠专家",
+      "description": "<p>你凭借着专用于思考某个特定主题的大脑，使得你对该领域的知识变得尤为可靠。你选择一项学识，获得该学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]和@UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]专长。每日1次，当你在相关学识上使用驾轻就熟专长效果放弃投掷技能检定时，你能选择获得13+你的熟练度加值的结果（以取代10+你的熟练度加值）。</p>"
     },
     "BPFJubKDkcjj7txZ": {
       "name": "舞步无误"
@@ -2394,6 +2479,7 @@
     },
     "Cs73duFVDLIcTBZ7": {
       "name": "诡秘纽带",
+      "description": "<p>你从此现实之外引导诡秘之力，赋予你纽带中的生物力量，将其躯体变为强大的异怪造型。你获得@UUID[Compendium.sf2e-anachronism.spells.Item.Y8Y0LS6sh4pkxPsq]顿悟法术（377页）。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -2540,7 +2626,8 @@
       ]
     },
     "DnWPKyaMOcOghXQf": {
-      "name": "与石合一"
+      "name": "与石合一",
+      "description": "<p>你已经与岩石之灵建立了完全的联系，在你呼唤的瞬间便会给予你协助，矿物与你的身体融为一体。你每小时可以以原能内在法术的形式施展一次四环@UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]，法术的目标只能选择你自己。当你这样做时，在法术持续期间，你获得等同于你等级的临时生命值。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.EKRBg0ydRsHdvc7G]</p>"
     },
     "DqZbNm1hcq3ZWJc4": {
       "name": "以身作盾",
@@ -2730,7 +2817,8 @@
       "name": "电磁定位"
     },
     "Eddt2H7u6xjYTrWd": {
-      "name": "强化代谢适应"
+      "name": "强化代谢适应",
+      "description": "<p>你的身体能比大多数其他珊瑚人更快地适应和改变。你可以使用你的@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.rwdjsNymGgpO9UBK]特性在1周的休整期内进行重训，而不需要1个月。在13级时，你可以在每日准备期间使用再生进化来重训一个专长或技能提升。你不能使用再生进化来重训强化代谢适应。</p>"
     },
     "Ee3rEmM1ZSuGxohf": {
       "name": "定制恒星武器",
@@ -2841,7 +2929,8 @@
       "description": "<p>你创造了一种可适应性的涂层，能中和多种能量。你获得以下新改装。</p><ul><li><p><strong>Energy Neutralizer (armor):</strong> Select an energy type when you apply this mod: acid, cold, electricity, fire, or sonic. The item and the item's wearer gain resistance equal to your Intelligence modifier against the selected energy type. At 10th level, you can select two energy types, and at 15th level, you can select three energy types.</p></li></ul>"
     },
     "F6klXp8hxZS2bu58": {
-      "name": "纳米体竞技场"
+      "name": "纳米体竞技场",
+      "description": "<p>你合成大脑皮层中的纳米体向外激增，动态地相互连接，形成一个实光板状网络，持续1分钟或直到你使用一个交互动作将所有纳米体收回体内。当纳米体以此方式释放出来时，你具有以下性质。</p><ul><li>作为一个1动作行动，你可以在30尺内你能看见的一点上创造出一道1尺厚，5尺长的实光墙。墙拥有AC 10，硬度 30，和70点生命值，它免疫重击和精准伤害。墙会阻挡物理效果穿过，但不阻挡视线。</li><li>你可以如同你处于这些墙的位置使用你的感官。</li><li>如果一个生物在移动过程中与实光墙之一相邻，它可以花费5尺移动距离来传送到一个与任意其他实光墙相邻的方格。</li><li>当至少一个实光墙存在时，如果你与实光墙相邻，或它位于你与攻击者之间，你可以如同举起了盾牌一样使用@UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]，使用实光墙的硬度和生命值。在使用该反应动作后，墙会消失。</li></ul>"
     },
     "F6y2aWiufZPRoi8c": {
       "name": "适应型智识",
@@ -3082,7 +3171,8 @@
       "name": "专家织维巫师施法"
     },
     "GmRJYFPtVIiSViF8": {
-      "name": "谜题爆发"
+      "name": "谜题爆发",
+      "description": "<p>You quickly shout a mind-bending brainteaser at one creature within 30 feet. That creature must attempt a Will saving throw against your choice of your @Check[will|against:deception]{Deception} or your @Check[will|against:crafting]{Crafting}. Regardless of the result, the creature is then temporarily immune to your Puzzling Outburst for 24 hours.</p><hr /><p><strong>大成功</strong> 该生物瞬间猜出了你的谜语，以至于你的自尊心受挫。你在10分钟内无法使用谜题爆发。</p>\n<p><strong>成功</strong> 该生物不受影响。</p>\n<p><strong>失败</strong> 该生物被难住，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 1}，持续1分钟。</p>\n<p><strong>大失败</strong> 该生物彻底被你的谜语难住，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2}，持续1分钟。</p>"
     },
     "GnhT3k213Z6iBeFG": {
       "name": "拉申塔人学识",
@@ -3372,6 +3462,7 @@
     },
     "IPkqRIWf8riO0krc": {
       "name": "野性纽带",
+      "description": "<p>理解万物皆是生命织锦中的一部分，你便能触及宇宙法则，彻底改变纽带中生物的基因。你获得@UUID[Compendium.sf2e-anachronism.spells.Item.ssOpTABjuHAqNTPu]顿悟法术（377页）。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -3509,7 +3600,8 @@
       ]
     },
     "JEzClwVFM97EUKMX": {
-      "name": "趴爪尖啸"
+      "name": "趴爪尖啸",
+      "description": "<p>Your strange singing voice can cause a moment's reconsideration or hesitation. Attempt a @Check[performance|against:will] check against the Will DC of a target within 30 feet. The target then becomes temporarily immune to your Pahtra Caterwaul for 24 hours.</p><hr /><p><strong>大成功</strong> 目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 1}，并且惊惧持续期间内还获得@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 1}。</p>\n<p><strong>成功</strong> 目标陷入惊惧1</p>"
     },
     "JFPGW8OiYNYtOYOL": {
       "name": "人群控制",
@@ -3863,7 +3955,8 @@
       ]
     },
     "LA17Xqd7lQjHJHZs": {
-      "name": "阈限超链接"
+      "name": "阈限超链接",
+      "description": "<p>你可以骇入现实，用魔法超链接连接两个独立地点，实现它们之间的快速旅行。你获得@UUID[Compendium.sf2e-anachronism.spells.Item.CmzIZs20jwoaqhzy]魔法骇入（162页）。</p>"
     },
     "LCc4hWg33Gh1cOdO": {
       "name": "加德拉萨之赐",
@@ -4041,7 +4134,8 @@
       "name": "耐受携带者"
     },
     "MCHVeAMDvwFucbYs": {
-      "name": "拼凑超压"
+      "name": "拼凑超压",
+      "description": "<p>你设计了一个魔法应用程序来增强科技。你获得@UUID[Compendium.sf2e-anachronism.spells.Item.LwNwSSgQVbF00h7d]魔法骇入（162页）。</p>"
     },
     "MGAZi4VRdffd9cW1": {
       "name": "精准报复",
@@ -4180,7 +4274,8 @@
       "description": "<p>你以最快速度冲刺，无论是追击敌人还是逃离危险情况。你以四倍速度进行移动。你可以增加此行动所需动作数至3，以六倍速度进行移动。</p>"
     },
     "MlArjE4FjkYHNMCe": {
-      "name": "掷弹狂徒入门"
+      "name": "掷弹狂徒入门",
+      "description": "<p>You specialize in throwing highly explosive portable ordnances. You become trained with grenades. You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.OST8EbXzznPoGw9g] action.</p><hr /><p><strong>特殊</strong> 若你具有士兵变体入门专长（《玩家核心》179页），那么即便你还没有选择另外2个士兵变体专长，也可以选取该专长。在判断是否完成某个变体的专长选取时，士兵变体专长会被视同为掷弹狂徒变体专长，反之亦然。</p>"
     },
     "Mlz4rcLzi4HDxCuv": {
       "name": "利用规格",
@@ -4198,7 +4293,8 @@
       ]
     },
     "MoFlThCPOrJj5t5u": {
-      "name": "阿卡西超限"
+      "name": "阿卡西超限",
+      "description": "<p>你的灵视已窥见更高真理。@UUID[Compendium.sf2e-anachronism.feats.Item.xQQgbsRjFWp7dZhU]的使用频率提升至每轮1次（原为每10分钟1次）。</p>"
     },
     "Mopx3NvRrycYnxTv": {
       "name": "异质思维",
@@ -4213,7 +4309,8 @@
       "description": "<p><strong>需求</strong>你的量子场域激活并且具有一个划界效果</p><hr /><p>你制造第二个划界效果叠加在你的量子场域上。你可以选择另一个你能够制造的划界效果，或者再次应用现有的划界，依照如下加强其效果：@UUID[Compendium.sf2e-anachronism.feats.Item.ryCmTz9Z62qbtmQM]额外造成1点伤害；@UUID[Compendium.sf2e-anachronism.feats.Item.sW7AbeYfKc8OH7nG]变为高等困难地形；@UUID[Compendium.sf2e-anachronism.feats.Item.rTebGqlQpa420YQy]忽略生物因之前豁免大成功而获得的临时免疫1轮。</p>"
     },
     "MsH43TvmVSf7ewKj": {
-      "name": "适应殖装"
+      "name": "适应殖装",
+      "description": "<p>你通过将尖端的殖装融入身体来实现终极适应。选择一项物品等级为1或1以下的常见殖装。你初始时身体中已经安装了这个殖装（你不需要支付信用点来购买这个起始殖装）。该殖装不计入你的植入上限。</p>"
     },
     "Mt9aWD58GblCbuDL": {
       "name": "顽固如尸"
@@ -4292,7 +4389,8 @@
       ]
     },
     "N76aCEAQPK8qruze": {
-      "name": "通用法术总线"
+      "name": "通用法术总线",
+      "description": "<p>你可以搭载来自法术数据库的魔法频率，以访问你储存中的<em>法术芯片</em>和<em>法术宝石</em>。如果你的下个动作是从<em>法术芯片</em>或<em>法术宝石</em>中施法，你无需持握该物品即可启动它。</p>"
     },
     "N7B4Pj93XnI3A2Uz": {
       "name": "暂停按钮",
@@ -4360,6 +4458,7 @@
     },
     "NjdSm8KRwEhnQzIf": {
       "name": "选择性爆破",
+      "description": "<p>你在投掷手雷时能加入适当的旋转，从而避免命中你的伙伴或者自己。每当你以手雷进行区域射击时，能选择手雷区域内的至多4个生物；直至区域射击动作结束为止，这些生物都不会受到手雷的影响。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -4480,7 +4579,8 @@
       ]
     },
     "OPrs0Nbhdu9FKmgC": {
-      "name": "灵魂滋养"
+      "name": "灵魂滋养",
+      "description": "<p>你的灵魂光芒四射，能够无限期地维系你的躯体，无需外界滋养。你不需要进食或饮水，且在计算休息恢复的生命值时，将你的体质调整值视为高1点。</p>"
     },
     "OScdfD8SyVvGqnog": {
       "name": "绍贝德秘技",
@@ -4510,7 +4610,8 @@
       "description": "<p><strong>触发</strong>一个在你武器第一射程增量内的被压制生物进行一次远程攻击，或者使用移动动作时离开一个方格。</p><hr /><p>你将火力集中在于你武器威胁范围内行动的目标身上。对触发生物进行一次远程打击，忽视你这次打击持用的武器的笨重特征。如果你的攻击造成重击并且触发动作为移动动作，你打断该动作。</p>"
     },
     "OhEATZzWsLaRd9mb": {
-      "name": "裂殖萌芽"
+      "name": "裂殖萌芽",
+      "description": "<p><strong>Frequency</strong> once per day</p><hr /><p>你通过形态变换将两个身份分裂为独立的躯体，他们各自拥有独特的形态与身份。每个复制体行走至未被占据的方格。你与你的复制体在你的回合共同行动，共享动作、多重攻击减值与生命值池，但如果二者受到同一范围效果（如造成区域伤害的攻击或法术）影响，你只承受一次伤害。你在同时影响两个躯体的、需要进行豁免的效果中取较差的结果，并且同时作用于二者。效果结束时，选择其中一个躯体作为本体，另一个会向你行走，并在与你占据同一方格时，化为一条肢体与你的身体融合。如果你无法回收断肢，你将失去通过形态变换变为该复制体形态的能力，并且失去该肢体，直至一周后它再生。此效果在你的生命值降到0、与复制体占据同一方格或1分钟后自动终止。</p>"
     },
     "OhHpJ4GsW1uxFYeM": {
       "name": "进阶设计专精",
@@ -4602,7 +4703,8 @@
       "name": "身形精控"
     },
     "P7naikcqL9P6JTCU": {
-      "name": "扩展法术"
+      "name": "扩展法术",
+      "description": "<p>你操控法术的能量使其得以影响更为广阔的区域。如果你的下一个动作是使用施放法术动作施放一个区域是爆发、锥形或是线形且不具有持续时间的法术时，扩展法术的区域。至少拥有10尺半径的爆发法术其半径增加5尺（半径比10尺更小的爆发法术不受影响），15尺或更小区域的锥形或线形法术的长度增加5尺，更大区域的锥形或线形法术的长度则增加10尺。</p>"
     },
     "P8nPDOlSIiKnkQAy": {
       "name": "织维巫师入门",
@@ -4631,7 +4733,8 @@
       ]
     },
     "PLnos5N0yF3fADjD": {
-      "name": "阿肖克记忆"
+      "name": "阿肖克记忆",
+      "description": "<p>以无与伦比的专注力，你能够接入并筛选历代默思族的记忆。你每周可作为主要施法者施展一次@UUID[Compendium.pf2e.spells-srd.Item.hp6Q64dl7xbdn4gQ]（collective memories）仪式。此时你可以忽略稀有熏香的消耗,如果如此做，仪式完成后你获得@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 2}。</p>"
     },
     "PMTK69dBhvDkHBsx": {
       "name": "珍爱纪念品",
@@ -4757,6 +4860,7 @@
     },
     "PozTqQyUgos1diDI": {
       "name": "越狱系统",
+      "description": "<p>你获得越狱法术职业特性（第52页）。你获得你编程语言中列出的塑法和基础越狱增益。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -5319,7 +5423,8 @@
       ]
     },
     "T0e0FsTNilfJC58N": {
-      "name": "被动环境监测"
+      "name": "被动环境监测",
+      "description": "<p>即便专注于其他事务，你也能分配部分脑部来扫描周遭环境中的威胁。你能以原能内在戏法随意施放@UUID[Compendium.sf2e-anachronism.spells.Item.nf8q0zvJDnnkzANe]。该戏法会升阶至你的等级的一半（向上取整）的环级。即便你正在执行其他任务，也可以施放该法术，比如在休息、旅行、战斗或甚至施放其他法术之时，但无法在睡眠或其他@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]的时候施放该法术。此外，每日1次，当你施放<em>扫描环境</em>时，能将施法时间变更为1轮而非10分钟。</p>"
     },
     "T1qCX1q70OVDascg": {
       "name": "大砸特砸！",
@@ -5418,7 +5523,8 @@
       ]
     },
     "TUQeyu2vbjWWRlbQ": {
-      "name": "凝神气息"
+      "name": "凝神气息",
+      "description": "<p>You can recenter yourself with a familiar scent stored on your body, such as a favorite food, the scarf of a loved one, or a sample of dirt from your home world. Roll a @Check[flat|dc:5].</p><hr /><p><strong>Critical Success</strong> Reduce your @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} value by 2.</p>\n<p><strong>成功</strong> 将你的惊惧值减少1点。</p>"
     },
     "TWKoz5r5URESbsNf": {
       "name": "电子散布",
@@ -5641,6 +5747,7 @@
     },
     "ULTJ4nXo9Nq1l8sG": {
       "name": "颜料飞溅",
+      "description": "<p>注入了原能魔法后，你可以利用自己发光的颜料，以喷洒发光颜料的方式让敌人目眩神迷。你可以以原能内在法术的形式施展二环@UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]。但你需要花费 1 小时去采集新的颜料才能再次使用显光尘法术。如果身处富含适合制作颜料的矿物质的环境中，比如地下洞穴或汽车喷漆和车身修复店，那么寻找这些颜料只需要 10 分钟。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -5791,6 +5898,7 @@
     },
     "VEaZ2G0b3KSeKkJb": {
       "name": "研习法术抗力",
+      "description": "<p>人类虽缺乏天生魔法，但却苦修魔法技艺以自保。在你达到专家熟练度的技能对应的法术根源（奥法对应奥术、自然对应原能、神秘对应异能、宗教对应神术）中选择其一。对抗该根源法术与效果的所有豁免检定获得 +1 环境加值。</p>\n<p>若你在已经或将要在所选根源的对应技能上达到大师，则你可以选择另一个对应技能为受训的根源获得此好处。你可以重复此流程直到四个根源都获得次好处。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -5839,6 +5947,7 @@
     },
     "VRLHQPDkjy0gbxBY": {
       "name": "血清手艺",
+      "description": "<p>你可以用制作行动制造血清和带有消耗品特征的医疗用品，不过某些物品会有其它需求。选取此专长时，你立即将获得4件不超过2级的常见血清的配方。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -5863,6 +5972,7 @@
     },
     "VXRSUlpR84JyXi5K": {
       "name": "高效工匠",
+      "description": "<p>你是一位技艺高超的工匠，能够在相同时间内制作出比正常更大的批量。当你制作消耗品或弹药时，你一次性可制作的数量增加一半；例如，你一次可以制作6份而非4份某种消耗品。你仍需为额外物品支付原材料花费。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -5971,7 +6081,8 @@
       "description": "<p>你向前冲刺，不受障碍或墙壁阻碍。行走，然后@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]或@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]（以任意顺序）。你必须在水平面上开始移动。在此移动过程中，你可以忽视困难地形，并以全速沿垂直表面如墙壁奔跑。如果你在移动结束时不在水平面上，你将在进行下一个动作后或回合结束时坠落，以先发生者为准（但你可以尝试@UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]，如果可能的话）。</p>"
     },
     "WCcl2a8nzPEiqdfS": {
-      "name": "黑帽诡计"
+      "name": "黑帽诡计",
+      "description": "<p>你学会了如何利用故障生物的弱点，迫使它们在短时间内服从你的命令。你获得@UUID[Compendium.sf2e-anachronism.spells.Item.N1Xgt2NVCjCOUyhC]魔法骇入（162页）。</p>"
     },
     "WEZHkTqITGskZ55u": {
       "name": "改变重量",
@@ -6090,10 +6201,12 @@
       ]
     },
     "WcDJMMPoAO2v26TN": {
-      "name": "艾奥梅黛之炮"
+      "name": "艾奥梅黛之炮",
+      "description": "<p><strong>频率</strong> 每日1次</p><hr /><p>You channel your spirit into a mighty barrage from a celestial plasma cannon. Iomedae's barrage Auto-Fires in a @Template[type:cone|distance:15] or a @Template[type:line|distance:30], dealing @Damage[(floor(@actor.level/2 - 1))d6[fire], (floor(@actor.level/2 - 1))d6[spirit]|traits:holy] damage with the holy trait (@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)]). At 12th level and every 2 levels thereafter, the fire and spirit damage each increase by 1d6. A creature that gets a critical failure on this Reflex save is also @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round.</p>"
     },
     "WiDlxCrliqxY6RUL": {
-      "name": "速通"
+      "name": "速通",
+      "description": "<p>你可以短暂骇入现实，从而让你能够穿越墙壁、无视伤害并相位穿越敌人。你获得@UUID[Compendium.sf2e-anachronism.spells.Item.9Jam9fULcLHFDW32]魔法骇入（第162页）。</p>"
     },
     "WjHHwSWDDifmY800": {
       "name": "嬗变弹壳",
@@ -6144,6 +6257,7 @@
     },
     "WuSl6BGTt02jRxe6": {
       "name": "无情擒拿手",
+      "description": "<p>你那令人印象深刻的身材和额外的肢体，使你成为了一名凶猛的摔跤手。你获得了@UUID[Compendium.pf2e.feats-srd.Item.KxaYlC50zzHysJj8]（Titan Wrestler）技能专长，以及你在对抗@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]或@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]的强韧DC上获得+1环境加值。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -6213,6 +6327,7 @@
     },
     "XeL6uygxW4u2vMkF": {
       "name": "偏爱伪装",
+      "description": "<p>你可以创造一个随时可调用的偏爱伪装。当你进行乔装（Impersonate）时，可选择将该伪装设置为偏爱伪装。如果你有全息皮肤（holoskin ，241页）或具有变身（Change Shape）能力，你可以在乔装时总是启用你的偏爱伪装。你仍然需要进行欺骗检定，但将任何大失败结果视为失败。你初始可以拥有一套偏爱伪装，并在欺骗技能达到专家、大师和传奇熟练度时获得额外的偏爱伪装。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -6355,7 +6470,8 @@
       "description": "<p>有些希伦虫人天生拥有翅膀，另一些则在成长过程中长出翅膀。你进化出一对昆虫翅膀，赋予你20尺的飞行速度。此外，当你坠落时，你不会承受坠落伤害。</p><hr /><p><strong>特殊</strong>如果你是翼翅希伦虫人，你则会长出第二对翅膀，或者有翅膀蜕变为更强壮的翅膀，使你的飞行速度提升至25尺。</p>"
     },
     "YaS0LQv3YCfiBRgR": {
-      "name": "趋同演化"
+      "name": "趋同演化",
+      "description": "<p>你可以采样与你接触过的生物和人的基因编码，并模仿他们。当你获取此专长时，最多可选择3个与你有过重要接触的不同族裔。除了飞螅族的族裔专长外，你还可以从你选择的族裔中选择族裔专长。此外，你还可以从所选族裔之一中获得一项不高于5级的族裔专长。你每天可以在每日准备中重训一次所选专长。</p>"
     },
     "YcXjpKDgDWbpoDK7": {
       "name": "进阶魔法骇入",
@@ -7462,6 +7578,7 @@
     },
     "etGqtESfWwuOxRyc": {
       "name": "计划大师",
+      "description": "<p>你将生活安排到每一分钟，优先考虑严格的截止日期，以至于显现出神秘力量，最大化整个团队的生产力。你获得@UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]作为你能每天施放一次的8环异能内在法术。当你每天第一次施放此内在<em>加速术</em>时，你可以选择将其作为3环异能内在法术施放，而非8环。如果你如此做，你能够以3环内在法术的形式当天再施放它两次。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -7638,7 +7755,8 @@
       "description": "<p><strong>触发</strong>你施放一个未被越狱效果调整的法术。</p>\n<p><strong>需求</strong>你的装备处于超频状态。</p><hr /><p>你是测试科技装备的电子防御以及抵御来袭攻击的专家，并且知道当这些防御不可避免地遭到突破时，如何利用多余的魔法能量来排除科技故障。你以你100尺内数量至多等于触发法术环级的科技生物或物品为目标。你将目标的故障状态减少触发法术环级的一半（最小为1）。在接下来一分钟内，受影响的目标掷骰从故障状态恢复的纯骰检定两次，并使用较高结果；这是一个幸运效果。</p>"
     },
     "flwl4q64nDA1cHWC": {
-      "name": "血怒战纹"
+      "name": "血怒战纹",
+      "description": "<p><strong>需求</strong> 你和一只不免疫流血且在过去1分钟内死亡的生物相邻</p><hr /><p>You dip your fingers into the gushing wounds of the fallen, using their ichor to mask your face in a visceral ritual that pays homage to the fallen while calming yourself for in the din of battle. For 1 minute, you gain a +1 circumstance bonus to Intimidation checks to [[/act demoralize]], a +1 status bonus to Will saves against emotion effects, and at the end of your turn, reduce your @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} condition by 2 instead of 1.</p>"
     },
     "foPGmbZzGbIgUQgK": {
       "name": "脑波扫描"
@@ -7699,6 +7817,7 @@
     },
     "g7xhT2A6IqTohPCU": {
       "name": "基础曲织法术",
+      "description": "<p>你获得你悖论的初始曲织法术。如果你没有拥有聚能池，你还会获得一个具有1点聚能点的聚能池，你可以通过观想无限世界来进行再聚能。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -8124,6 +8243,7 @@
     },
     "i98LKe4OVRfvo33P": {
       "name": "神术纽带",
+      "description": "<p>作为神的信徒，你挥使着祂的部分神力。你在与神祇相关的神圣技能上成为受训，并将所列的牧师法术（见第35-39页）作为标志性法术添加到你的法术表与法术库中。如果你已经在所列神圣技能上受训，你改为自选一项其他技能成为受训。你受到该神祇的禁忌的约束，且能受到该神祇的神力祝佑。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -8246,6 +8366,7 @@
     },
     "ifQiKhl0Gt2CM7i9": {
       "name": "电话黑客",
+      "description": "<p>你掌握了非常规的入侵手段。当你尝试用计算机技能来解除装置（Disable a Device）或骇入（Hack）系统时，你可以使用任何计算机、通讯单元、或终端机，而不需要使用黑客工具包（hacking toolkit，见第212页）。如果你在计算机技能上拥有专家熟练度，并且你使用的设备至少有3级，那么你在解除装置或骇入系统时可以获得+1的物品加值。</p><hr /><p><strong>Special</strong> If you have the @UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4] or @UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf] skill feat, you can use this feat to Combat Hack or @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion} without a hacking toolkit.</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -8256,6 +8377,7 @@
     },
     "ilCc0A9YchWbb5S3": {
       "name": "老练子嗣",
+      "description": "<p>你将自身与方贡树的原能联系磨炼得更加紧密。选择一个1环原能法术和一个2环原能法术。你能以原能内在法术施放上述法术，每个法术每日各能施放1次。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -8378,7 +8500,8 @@
       "description": "<p>当困难来临时，顽强的人们会拼尽全力去创造更美好的生活。你的弗拉卡狼人同伴们心中可能怀揣着希望、梦想和无尽的乐观，但你却总觉得很难看到光明的一面，你也做过一些可疑的事情来勉强度日。无论你是撒过谎，骗过人，偷过东西，还是夺走过一些人的生命，你都知道，你所做的一切都是为了在这个冷酷无情的星系中生存和发展。你可以从以下技能中选择一项成为受训：欺骗，威吓和贼活。如果你选择欺骗，你获得@UUID[Compendium.pf2e.feats-srd.Item.HEBXaS656MZTiWFu]（Lengthy Diversion）技能专长。如果你选择威吓，你获得@UUID[Compendium.pf2e.feats-srd.Item.gUqvezs2zzoTXFAI]（Group Coercion）技能专长。如果你选择贼活，你获得@UUID[Compendium.pf2e.feats-srd.Item.hVZbnsDuXihggylt]（Subtle Theft）技能专长。</p>"
     },
     "jfJUaCjGmhR7mu6O": {
-      "name": "共鸣武器"
+      "name": "共鸣武器",
+      "description": "<p>你将一股精魂能量注入你持握的一件武器，使其与无形的灵魂物质共鸣。直到你下一个回合的开始，你的武器获得灭鬼武器强化模块（见273页）的效果。在17级时，它造成额外1d6精魂伤害。</p>"
     },
     "jgdEi8ZiDcSEqSQQ": {
       "name": "变形甲壳",
@@ -8577,7 +8700,8 @@
       "description": "<p>无论你的发明变得多么先进，你从不忽视基础。事实上，你甚至开发了一些改进来增强一些旧爱。</p><ul><li><p>当你将大爆炸改装应用于一件物品时，如果为爆发或锥形，则你增加物品半径10尺（而非5尺）；如果为线形，你增加区域20尺（而非10尺）。</p></li><li><p>当你将碉堡克星改装应用于一件物品时，你增加5点额外伤害（总共10点额外伤害，而非5点）。</p></li><li><p>当你将制伏改装应用于一件物品时，如果攻击为重击或被物品伤害的生物在豁免上大失败，则该生物还会陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 1}。</p></li><li><p>当你将长距推进器改装应用于一件物品时，你增加物品射程或射程增量60尺（而非30尺）。</p></li><li><p>当你将磁力悬浮器改装应用于一件物品时，穿戴者获得20尺飞行速度（而非10尺）。</p></li><li><p>当你将故障排除改装应用于一件物品时，你少其2点故障状态值（而非1点）。</p></li></ul>"
     },
     "kpQcCjZbCAKnQ5qW": {
-      "name": "魔法救主"
+      "name": "魔法救主",
+      "description": "<p>在危急关头，你愿意为盟友牺牲自己的生命。你每天可以施展一次@UUID[Compendium.pf2e.spells-srd.Item.yHujiDQPdtXW797e]作为三环神术内在法术。如果你对你的伴侣施展此法术，灵魂链接将提升至四环，并且你可以将灵魂链接的范围从30尺扩大到60尺。</p>"
     },
     "ktfCt5Vi1fLI5TUY": {
       "name": "异样人生",
@@ -8604,7 +8728,8 @@
       "description": "<p>无论通过天生肢体还是一些个人改造，你都能掘地。你获得等同于你族裔的掘地专家条目所列出的掘地速度。</p>"
     },
     "kxyys4AseS9UgFYf": {
-      "name": "察觉异常"
+      "name": "察觉异常",
+      "description": "<p>你对周遭的魔法具有一种第六感。你可以感觉到魔法灵光的存在，就好像你始终在使用1环@UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]。这个侦测范围仅在你视线之内。当你在@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]时，你对所见之物获得3环<em>侦测魔法</em>法术的效果（除了搜索的正常效果之外）。你在你的回合开始或结束时，可以使用自由动作关闭或开启这项感知能力。</p>"
     },
     "l5du4XGaN9jifIty": {
       "name": "隧道分离",
@@ -8717,6 +8842,7 @@
     },
     "mEIEIigEPpXfWo50": {
       "name": "隧道传承",
+      "description": "<p>你已磨炼了在阿泼斯忒隧道中的经验，现在几乎可在任何危险或环境威胁中使用。 你可将@UUID[Compendium.sf2e-anachronism.heritages.Item.62rt3ufujy6vnhq0]传承的重掷陷阱能力改为每小时1次而非每日1次。此外，该重掷可用于任何由危害造成的效果，而非仅限陷阱。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -8762,7 +8888,8 @@
       "description": "<p><span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">3</span></p>\n<p><strong>频率</strong>每日一次</p>\n<p><strong>需求</strong>你有至少一只空手。</p><hr /><p>You carefully balance with the aid of only a few arms, freeing the rest to snag anything around you. As you do, your limbs elongate and writhe. Until combat ends, you're knocked out, or you Dismiss All-Grabber Stance, you can make lashing limb Strikes. These deal @Damage[3d6[bludgeoning]] damage, are in the brawling group, have the grapple and unarmed traits, and have a reach of 15 feet. You can also use the @UUID[Compendium.sf2e-anachronism.actions.Item.e7Io0ZnzHuFD6yek] activity. If you spent 3 actions to use All-Grabber Stance, you can immediately Hug the World.</p>"
     },
     "mO7JBI2h1b58Chza": {
-      "name": "大师科技法师施法"
+      "name": "大师科技法师施法",
+      "description": "<p>你获得大师施法增益（《玩家核心》174页）。</p>"
     },
     "mQaqQIEtauUiqdDs": {
       "name": "魅惑信息素",
@@ -8785,6 +8912,7 @@
     },
     "mX0Xl6wY1WmhyuVO": {
       "name": "科技手艺",
+      "description": "<p>你可以制作1级或更高等级的科技物品（tech items，197页），尽管有些可能有其他要求。选择此专长时，你获得4个等级不超过2级的常见科技物品的配方。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -9069,7 +9197,8 @@
       "description": "<p>你可以阻止生物离开量子场域，回到现实之中。直到你的下个回合开始，任何在你量子场域内开始回合的生物需要在离开量子场域时进行一次@Check[will|against:witchwarper]对抗你的织维巫师职业DC。失败时，动作会被打断。豁免成功的生物会临时免疫你的量子纠缠24小时。</p>"
     },
     "oRZuA2FNSAcI9hO6": {
-      "name": "角色库"
+      "name": "角色库",
+      "description": "<p><strong>频率</strong> 每日1次</p><hr /><p>You've played many roles and picked up a surprising amount of eclectic knowledge while preparing to play them. Roll any [[/act recall-knowledge skill=performance]] check using Performance instead of Lore.</p>"
     },
     "oT7QplN1r4K7ZqJa": {
       "name": "坚固核心",
@@ -9128,7 +9257,8 @@
       "description": "<p>长期训练将你转变为一件人体兵器，时刻准备在关键时刻扣动扳机。在每个敌人回合开始时，你获得一个额外反应动作，可用于那一回合内的特工反应。</p>"
     },
     "p2buOu0jpzCHq7Yi": {
-      "name": "拥抱大师"
+      "name": "拥抱大师",
+      "description": "<p>一个坚实有力的拥抱能让一切都变得更美好。你将拥抱的天赋运用到了战场上。你获得@UUID[Compendium.pf2e.feats-srd.Item.KxaYlC50zzHysJj8]技能专长。你还会在@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]的运动检定上获得+1环境加值，此外，你在避免受擒的强韧DC上获得+1环境加值。</p>"
     },
     "p4sVc2zpovMrF1Q5": {
       "name": "腋袋",
@@ -10086,6 +10216,7 @@
     },
     "uJ8vngvIfDcOFDZy": {
       "name": "机动外皮层",
+      "description": "<p>你获得机动外皮层职业特性（第39页）。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -10095,7 +10226,8 @@
       ]
     },
     "uLZcelY6CTKJOOLU": {
-      "name": "跟踪微粒"
+      "name": "跟踪微粒",
+      "description": "<p>你对远程微粒的依赖已不亚于恒星武器。你的恒星耀斑射程增量提升3倍。当你对一个处于你第一射程增量内的目标进行恒星耀斑打击时，你无视目标的隐蔽和掩蔽。</p>"
     },
     "uQQ9v2KdOaKi67dY": {
       "name": "融汇顿悟",
@@ -10330,6 +10462,7 @@
     },
     "vpuzqeIPIDlxd2If": {
       "name": "机械师才智",
+      "description": "<p>你获得机械师才智职业特性（第39页）。不过你是在6级和14级获得所列增益。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -10793,7 +10926,8 @@
       ]
     },
     "yWUKpu1ImB0vfXvB": {
-      "name": "几丁质盾"
+      "name": "几丁质盾",
+      "description": "<p>你手臂上长有一块格外坚固的几丁质增生，可用作盾牌。此盾无需持握，且无法被卸武。你的盾牌提供+2 AC加值，硬度4，生命值12，破损阈值6。若盾牌破损，它无法被修理，直到你恢复满生命值并花费10分钟重新调整几丁质。你可花费1天休整期并消耗原材料（如UPB）来提升盾牌的品质，但最高不得超过你的角色等级（例如8级及以上可提升至先进型）。品质对应的等级、价格、硬度、生命值与破损阈值调整，参见《玩家核心》第251页的\"盾牌升级表\"。</p>"
     },
     "yasxZn3sgWv55kFC": {
       "name": "转换元素精粹",
@@ -10941,6 +11075,7 @@
     },
     "zEigmbJ6uQ7gwmMq": {
       "name": "至高子嗣",
+      "description": "<p>你是方贡树最强大的后代之一。选择一个3环原能法术和一个4环原能法术。你能以原能内在法术施放上述法术，每个法术每日各能施放1次。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -10981,6 +11116,7 @@
     },
     "zNsHuFBbMYHwP38n": {
       "name": "千变演化",
+      "description": "<p>你已将无数族裔的基因编码编入目录，可以利用其中任何一个来增强和进化你的身体。通过@UUID[Compendium.sf2e-anachronism.feats.Item.YaS0LQv3YCfiBRgR]可以选择的族裔数量增加到6个。你获得两个额外的13级及更低等级的族裔专长，从趋同演化所选择的族裔中进行选择。你每天可以在每日准备中重训所选专长中的一项或两项。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -11017,7 +11153,8 @@
       "description": "<p>没有比翱翔天空更让你心潮澎湃的事了。当你飞行时，向上（垂直或斜向）的移动不算作穿越困难地形。这不适用于使用喷射背包和悬浮板等设备或工具的飞行。</p>"
     },
     "zW0sKlxIJHMhkly8": {
-      "name": "迷宫迷失"
+      "name": "迷宫迷失",
+      "description": "<p>你不断穿梭于人生的迷宫之中，从一个兴趣转向下一个兴趣；因此，在深入其他领域时，过往的热忱很容易被遗忘。你获得@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]专长，且在该学识子类上获得@UUID[Compendium.pf2e.feats-srd.Item.XvX1EyxWbbBF32NV]（《玩家核心》230页）的增益，即便你不满足先决条件。你可以花费1天休整期时间将迷宫迷失重训为另一项不同的学识技能子类。</p>"
     },
     "zYGYNodDFQDbu5fu": {
       "name": "坚韧生存者"
@@ -11088,57 +11225,5 @@
       "name": "血液感知",
       "description": "<p>你有着敏锐的嗅觉，能够侦测到远处流血的伤口。你获得血液感知作为一种30尺范围的模糊感官。这意味着你可以使用你的嗅觉来判断生命值不满的活物的确切位置。没有血液的生物，例如构装体或泥怪，不能被你的血液感知侦测到。</p>"
     }
-  },
-  "folders": {
-    "Ancestry": "族裔",
-    "Elebrian": "灵脑人",
-    "Soldier": "士兵",
-    "Dragonkin": "龙人",
-    "Mystic": "秘术师",
-    "Archetype": "变体",
-    "Skill": "技能",
-    "Operative": "特工",
-    "Ikeshti": "异客蜥人",
-    "General": "通用",
-    "Witchwarper": "织维巫师",
-    "Corpsefolk": "尸族",
-    "Class": "职业",
-    "Solarian": "恒星武士",
-    "Contemplative": "默思族",
-    "Sarcesian": "萨瑟蝶人",
-    "Envoy": "使节",
-    "Mechanic": "机械师",
-    "Technomancer": "科技法师",
-    "Starfinder Field Agent": "寻星者外勤探员",
-    "Barathu": "飞螅族",
-    "Augmented": "改造者",
-    "Borai": "活尸裔",
-    "Prismeni": "棱光裔",
-    "Lashunta": "拉申塔人",
-    "Vesk": "维斯克蜥人",
-    "Brenneri": "水獭人",
-    "Entu Colony": "因图菌群",
-    "Fonqugon": "方贡族",
-    "Formian": "弗米蚁族",
-    "G'folian": "火蟹族",
-    "Goblin": "地精",
-    "Madrosarai": "马德罗萨莱人",
-    "Maraquoi": "马拉魁族",
-    "Novian": "新星族",
-    "Orocoran": "奥罗科兰人",
-    "Raxilite": "拉西利特族",
-    "Ryphorian": "雷弗瑞亚人",
-    "Talphi": "鼹鼠人",
-    "Trox": "卓克斯虫人",
-    "Urog": "巫洛格",
-    "Copaxi": "珊瑚人",
-    "Phasorq": "双相人",
-    "Ord": "奥德",
-    "Mecenaic": "四臂蜗族",
-    "Hardor": "坚叶族",
-    "Binnaquid": "沼栖族",
-    "Atraxid": "纺蛛人",
-    "SRO": "自主机器人/自律机器人",
-    "Verthani": "维萨尼"
   }
 }

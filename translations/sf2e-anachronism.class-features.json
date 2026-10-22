@@ -1,5 +1,5 @@
 {
-  "label": "职业能力",
+  "label": "职业特性",
   "mapping": {
     "name": "name",
     "description": "system.description.value",
@@ -7,6 +7,17 @@
       "path": "system.prerequisites.value",
       "converter": "sf2eAnachronismCnPrerequisites"
     }
+  },
+  "folders": {
+    "Anchors": "锚点",
+    "Envoy": "使节",
+    "Mystic": "秘术师",
+    "Operative": "特工",
+    "Solarian": "恒星武士",
+    "Soldier": "士兵",
+    "Witchwarper": "织维巫师",
+    "Mechanic": "机械师",
+    "Technomancer": "科技法师"
   },
   "entries": {
     "077cIuYZAcEX75aQ": {
@@ -615,16 +626,5 @@
       "name": "大师射手",
       "description": "<p>你是枪不离身的顶级神射手。你在简易和军用枪械上的熟练提升为大师，在进阶枪械上的熟练提升为专家。你获得所有你具有专家熟练度武器的重击专精效果。</p>"
     }
-  },
-  "folders": {
-    "Anchors": "锚点",
-    "Envoy": "使节",
-    "Mystic": "秘术师",
-    "Operative": "特工",
-    "Solarian": "恒星武士",
-    "Soldier": "士兵",
-    "Witchwarper": "织维巫师",
-    "Mechanic": "机械师",
-    "Technomancer": "科技法师"
   }
 }

@@ -1,0 +1,509 @@
+{
+  "label": "寻星者二版日志",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    },
+    "pages": {
+      "path": "pages",
+      "converter": "sf2eAnachronismCnPages"
+    }
+  },
+  "entries": {
+    "Cf6Ej0OgFpqg2VoF": {
+      "pages": [
+        {
+          "id": "dyusFHHyaQOaQhZ0",
+          "expectedName": "Android",
+          "name": "仿生人"
+        },
+        {
+          "id": "CFvzqUAC03CP6sJI",
+          "expectedName": "Barathu",
+          "name": "飞螅族"
+        },
+        {
+          "id": "7pU8yM7yPMw92SY3",
+          "expectedName": "Human",
+          "name": "人类"
+        },
+        {
+          "id": "PKGmC9bntc0F90mY",
+          "expectedName": "Kasatha",
+          "name": "卡萨斯人"
+        },
+        {
+          "id": "9ftj9N4Me4eKiz2T",
+          "expectedName": "Lashunta",
+          "name": "拉申塔人"
+        },
+        {
+          "id": "9ksnOvkrSXXFFFDX",
+          "expectedName": "Pahtra",
+          "name": "趴爪族"
+        },
+        {
+          "id": "RM78QDGhVPlPrcvG",
+          "expectedName": "Shirren",
+          "name": "希伦虫人"
+        },
+        {
+          "id": "kDLQjSlW2N1oEwji",
+          "expectedName": "Skittermander",
+          "name": "轻灵兽"
+        },
+        {
+          "id": "JxPJE2NPYNZ54EUO",
+          "expectedName": "Vesk",
+          "name": "维斯克蜥人"
+        },
+        {
+          "id": "EXSYGSHJh9ekPvj2",
+          "expectedName": "Astrazoan",
+          "name": "星蛸族"
+        },
+        {
+          "id": "8Opb2Tdkx6LQeINA",
+          "expectedName": "Contemplative",
+          "name": "默思族"
+        },
+        {
+          "id": "EybiktinX2zD2k45",
+          "expectedName": "Dragonkin",
+          "name": "龙人"
+        },
+        {
+          "id": "SZj7pxMnq5vKtc6K",
+          "expectedName": "Elebrian",
+          "name": "灵脑人"
+        },
+        {
+          "id": "2X81XNrc41Sma2Gy",
+          "expectedName": "Starfinder Society",
+          "name": "寻星者协会"
+        },
+        {
+          "id": "JAOE401MJvDWQsgU",
+          "expectedName": "Ikeshti",
+          "name": "异客蜥人"
+        },
+        {
+          "id": "4NBdb6i5jpPj7Fns",
+          "expectedName": "Kalo",
+          "name": "卡洛鱼人"
+        },
+        {
+          "id": "J8Koe6gDxk3dzwMl",
+          "expectedName": "Khizar",
+          "name": "奇植族"
+        },
+        {
+          "id": "ee8BWzMS4DI5xkOs",
+          "expectedName": "Sarcesian",
+          "name": "萨瑟蝶人"
+        },
+        {
+          "id": "74DsBZDbuChtrw3r",
+          "expectedName": "Shobhad",
+          "name": "绍贝德人"
+        },
+        {
+          "id": "K1V6GOyRxsqUKBY9",
+          "expectedName": "Vlaka",
+          "name": "弗拉卡狼人"
+        },
+        {
+          "id": "mQYhkosteTG2N9Hp",
+          "expectedName": "Standardized Ancestry Feats",
+          "name": "标准族裔专长"
+        },
+        {
+          "id": "7Wjf2DofXZg1cEZ2",
+          "expectedName": "Dwarf",
+          "name": "矮人"
+        },
+        {
+          "id": "YL5t9HQfv8YAsyw4",
+          "expectedName": "Elf",
+          "name": "精灵"
+        },
+        {
+          "id": "jYPaH2yArUQd4uQD",
+          "expectedName": "Gnome",
+          "name": "侏儒"
+        },
+        {
+          "id": "m4CLPTYdwujw6O7T",
+          "expectedName": "Goblin",
+          "name": "地精"
+        },
+        {
+          "id": "c0lw5fcT5pldx2Wo",
+          "expectedName": "Halfling",
+          "name": "半身人"
+        },
+        {
+          "id": "QQg7aOtPsNKAx416",
+          "expectedName": "Leshy",
+          "name": "莱西"
+        },
+        {
+          "id": "2fuShc4ogz1yIuAS",
+          "expectedName": "Orc",
+          "name": "兽人"
+        },
+        {
+          "id": "6yAJOHfrvkKeJYfy",
+          "expectedName": "Brenneri",
+          "name": "水獭人"
+        },
+        {
+          "id": "8f9r5sVKJdRKh8du",
+          "expectedName": "Copaxi",
+          "name": "珊瑚人"
+        },
+        {
+          "id": "qjNwFaio5xKTYjuN",
+          "expectedName": "Entu Colony",
+          "name": "因图菌群"
+        },
+        {
+          "id": "B22EiYVRXwn2ecve",
+          "expectedName": "Fonqugon",
+          "name": "方贡族"
+        },
+        {
+          "id": "fYn4p1tmavPS6Q7B",
+          "expectedName": "Formian",
+          "name": "弗米蚁族"
+        },
+        {
+          "id": "SlvjW6HgfmTaoMVl",
+          "expectedName": "G'folian",
+          "name": "火蟹族"
+        },
+        {
+          "id": "DYduQDqdZZkaqEcQ",
+          "expectedName": "Madrosarai",
+          "name": "马德罗萨莱人"
+        },
+        {
+          "id": "ekHYCO63kl6TQ5kr",
+          "expectedName": "Maraquoi",
+          "name": "马拉魁族"
+        },
+        {
+          "id": "2cRNeCylPnF0g5mT",
+          "expectedName": "Novian",
+          "name": "新星族"
+        },
+        {
+          "id": "qFDz9ZPAukZPEDAp",
+          "expectedName": "Orocoran",
+          "name": "奥罗科兰人"
+        },
+        {
+          "id": "88ECFV3AkpR9KUfq",
+          "expectedName": "Raxilite",
+          "name": "拉西利特族"
+        },
+        {
+          "id": "DW80wzTy6cnkVJ0l",
+          "expectedName": "Ryphorian",
+          "name": "雷弗瑞亚人"
+        },
+        {
+          "id": "8BBkU57uORXYK4fl",
+          "expectedName": "Talphi",
+          "name": "鼹鼠人"
+        },
+        {
+          "id": "SJRGbEwS6KkIAYol",
+          "expectedName": "Trox",
+          "name": "卓克斯虫人"
+        },
+        {
+          "id": "zPj0jzUVRNQBGevO",
+          "expectedName": "Urog",
+          "name": "巫洛格"
+        },
+        {
+          "id": "eAuJWfHXUYkQntoy",
+          "expectedName": "Vulkarisu",
+          "name": "松鼠狐人"
+        },
+        {
+          "id": "lqvEluwJvDSzgn33",
+          "expectedName": "Absalom Station",
+          "name": "艾巴萨罗姆空间站"
+        },
+        {
+          "id": "bVLORyUVTBBXPDgE",
+          "expectedName": "Atraxid",
+          "name": "纺蛛人"
+        },
+        {
+          "id": "rXAjicO1UNw2rIgp",
+          "expectedName": "Binnaquid",
+          "name": "沼栖族"
+        },
+        {
+          "id": "LUOcdDWKI9PflPNL",
+          "expectedName": "Hardor",
+          "name": "坚叶族"
+        },
+        {
+          "id": "KuRztwBUUmXP2z0e",
+          "expectedName": "Mecenaic",
+          "name": "四臂蜗族"
+        },
+        {
+          "id": "oLLS6Lr0N2clHVhB",
+          "expectedName": "Ord",
+          "name": "奥德"
+        },
+        {
+          "id": "PyfmBnLKNb84Yac1",
+          "expectedName": "Phasorq",
+          "name": "双相人"
+        }
+      ]
+    },
+    "S55aqwWIzpQRFhcq": {
+      "pages": [
+        {
+          "id": "ZrEmfrgDlmlhdvQg",
+          "expectedName": "Basic Actions",
+          "name": "基础动作"
+        },
+        {
+          "id": "QnqlEgRJdEsrdM9q",
+          "expectedName": "Falling",
+          "name": "坠落"
+        },
+        {
+          "id": "ga3hoHFR4l1dqEev",
+          "expectedName": "Treat Wounds",
+          "name": "治疗伤势"
+        },
+        {
+          "id": "E4Q7EiSG18sIvFwg",
+          "expectedName": "Counteracting",
+          "name": "反制"
+        },
+        {
+          "id": "q2chuQ4Am5puc9Cc",
+          "expectedName": "Senses",
+          "name": "感官"
+        },
+        {
+          "id": "qGZwh7wge4Z5iR0a",
+          "expectedName": "Detecting Creatures",
+          "name": "侦测生物"
+        },
+        {
+          "id": "DUOb8QrlC5t0adkL",
+          "expectedName": "Travel Speed",
+          "name": "旅行速度"
+        },
+        {
+          "id": "nhYDtKvrdKi55HU2",
+          "expectedName": "Skill Actions",
+          "name": "技能动作"
+        },
+        {
+          "id": "iufSTIPL6F63UTCv",
+          "expectedName": "Hero Points",
+          "name": "英雄点"
+        },
+        {
+          "id": "oEyx39yADr2OjfTz",
+          "expectedName": "Creature Identification",
+          "name": "辨识生物"
+        },
+        {
+          "id": "4UWkvpoPam213lQH",
+          "expectedName": "Running the Game",
+          "name": "、运行游戏"
+        },
+        {
+          "id": "I5V4dZlNV1R6KOQM",
+          "expectedName": "Earn Income Tasks",
+          "name": "赚取收入任务"
+        },
+        {
+          "id": "or9dAZfXyd01A8dS",
+          "expectedName": "Downtime Events",
+          "name": "休整事件"
+        },
+        {
+          "id": "GvJVd2Yj3Lk2zM6r",
+          "expectedName": "Automatic Bonus Progression",
+          "name": "自动加值成长"
+        },
+        {
+          "id": "LfRm7SNxoGyzBfOI",
+          "expectedName": "Free Archetype",
+          "name": "自由变体"
+        },
+        {
+          "id": "EgFKC3mPAUuccald",
+          "expectedName": "Proficiency without Level",
+          "name": "无等级熟练"
+        },
+        {
+          "id": "zkQJzslkiNQuUuKd",
+          "expectedName": "Research",
+          "name": "研究"
+        },
+        {
+          "id": "14gM2CIUCwZvxr3W",
+          "expectedName": "Infiltration",
+          "name": "潜入"
+        },
+        {
+          "id": "O357iNXwHotbecK1",
+          "expectedName": "Resting",
+          "name": "休息"
+        },
+        {
+          "id": "OiRwxbfLNUniLg15",
+          "expectedName": "Special Battles",
+          "name": "特殊战斗"
+        },
+        {
+          "id": "88TUbT8mHDRi3phl",
+          "expectedName": "Ancestry Paragon",
+          "name": "族裔典范"
+        },
+        {
+          "id": "1qy0J0h1tNq0yNOx",
+          "expectedName": "Galactic Hero Points",
+          "name": "星系英雄点"
+        },
+        {
+          "id": "AaF8b43Az4J8spHz",
+          "expectedName": "Skill Paragon",
+          "name": "技能典范"
+        },
+        {
+          "id": "j9m0NWNpeKNFwUhg",
+          "expectedName": "Level 0 Characters",
+          "name": "级角色"
+        }
+      ]
+    },
+    "kzxu2dI7tFxv6Ix6": {
+      "name": "、职业",
+      "pages": [
+        {
+          "id": "r2bLZofQDDBIk6Ir",
+          "expectedName": "Envoy",
+          "name": "使节"
+        },
+        {
+          "id": "yiqOagqH2NXjlisZ",
+          "expectedName": "Mystic",
+          "name": "秘术师"
+        },
+        {
+          "id": "e3x0k83hYe1awVvT",
+          "expectedName": "Operative",
+          "name": "特工"
+        },
+        {
+          "id": "Nb6sw1oNTFwVPlLu",
+          "expectedName": "Solarian",
+          "name": "恒星武士"
+        },
+        {
+          "id": "KVjJqpDk71Q7MrWF",
+          "expectedName": "Soldier",
+          "name": "士兵"
+        },
+        {
+          "id": "Qaue1LUZUrEFYfT0",
+          "expectedName": "Witchwarper",
+          "name": "织维巫师"
+        }
+      ]
+    },
+    "vx5FGEG34AxI2dow": {
+      "pages": [
+        {
+          "id": "ddYZx5lrWcBxo5xk",
+          "expectedName": "Dedication Details",
+          "name": "入门要点"
+        },
+        {
+          "id": "a6OpvookVlJDubSg",
+          "expectedName": "Additional Feats",
+          "name": "补充专长"
+        },
+        {
+          "id": "7gznjrW74f35EGz1",
+          "expectedName": "Feats that Grant Feats",
+          "name": "赋予专长的专长"
+        },
+        {
+          "id": "DOc3Pf8wmVxanTIv",
+          "expectedName": "Spellcasting Archetypes",
+          "name": "施法变体"
+        },
+        {
+          "id": "s7yMOPsFEu9qDuCB",
+          "expectedName": "Special Archetypes",
+          "name": "特殊变体"
+        },
+        {
+          "id": "hRwljfc61s3nmHe4",
+          "expectedName": "Multiclass Dedications",
+          "name": "兼职入门"
+        },
+        {
+          "id": "tJZr2a7hVMpeMvU0",
+          "expectedName": "Envoy",
+          "name": "使节"
+        },
+        {
+          "id": "qvvveaB7dnbiJjgG",
+          "expectedName": "Mystic",
+          "name": "秘术师"
+        },
+        {
+          "id": "GRlMj9GBfQurYjR0",
+          "expectedName": "Operative",
+          "name": "特工"
+        },
+        {
+          "id": "M0qBmGZ6Gbi9DHzE",
+          "expectedName": "Solarian",
+          "name": "恒星武士"
+        },
+        {
+          "id": "pNf6YRj0ilnSYwcn",
+          "expectedName": "Soldier",
+          "name": "士兵"
+        },
+        {
+          "id": "0zIwv4pBobwXGZvQ",
+          "expectedName": "Witchwarper",
+          "name": "织维巫师"
+        },
+        {
+          "id": "9W89zXYRobxnEOA3",
+          "expectedName": "Space Pirate",
+          "name": "太空海盗"
+        },
+        {
+          "id": "KeDD3FTsGyj5lSnT",
+          "expectedName": "Starfinder Field Agent",
+          "name": "寻星者外勤探员"
+        }
+      ]
+    }
+  }
+}

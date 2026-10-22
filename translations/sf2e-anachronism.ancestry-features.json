@@ -1,0 +1,199 @@
+{
+  "label": "族裔特性",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    }
+  },
+  "folders": {
+    "Hardor": "坚叶族",
+    "Binnaquid": "沼栖族",
+    "Vulkarisu": "松鼠狐人",
+    "Ord": "奥德",
+    "Atraxid": "纺蛛人",
+    "Goblin": "地精",
+    "Dragonkin": "龙人",
+    "Khizar": "奇植族",
+    "Kalo": "卡洛鱼人",
+    "Vlaka": "弗拉卡狼人",
+    "Brenneri": "水獭人",
+    "Fonqugon": "方贡族",
+    "Halfling": "半身人",
+    "Trox": "卓克斯虫人",
+    "Urog": "巫洛格",
+    "Astrazoan": "星蛸族",
+    "Verthani": "维萨尼",
+    "Ikeshti": "异客蜥人",
+    "Shobhad": "绍贝德人",
+    "G'folian": "火蟹族",
+    "SRO": "自主机器人",
+    "Contemplative": "默思族",
+    "Sarcesian": "萨瑟蝶人",
+    "Novian": "新星族",
+    "Copaxi": "珊瑚人",
+    "Dwarf": "矮人",
+    "Android": "仿生人",
+    "Raxilite": "拉西利特族",
+    "Ryphorian": "雷弗瑞亚人",
+    "Barathu": "飞螅族",
+    "Kasatha": "卡萨斯人",
+    "Skittermander": "轻灵兽",
+    "Elebrian": "灵脑人",
+    "Leshy": "莱西",
+    "Madrosarai": "马德罗萨莱人",
+    "Maraquoi": "马拉魁族"
+  },
+  "entries": {
+    "1UDBixyOSXzgK5AJ": {
+      "name": "语言精熟",
+      "description": "<p>你获得手语技能专长，即便你不满足此专长的先决条件。如果你掌握的某种语言拥有盲文版本，你也会学会这些语言的盲文版本。这意味着你知晓你所掌握的所有语言相关的口语，手语和盲文。</p>"
+    },
+    "3omvgq1I5syUA01Z": {
+      "name": "共情胡须"
+    },
+    "6Br8G6BBZ0xWw7Pj": {
+      "name": "魔法感官",
+      "description": "<p>你的大脑拥有一个能感知魔法能量的特殊器官。你能够以奥术内在法术的形式随意施放@UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]戏法。戏法升阶至等同于你等级一半的环级，向上取整。</p>"
+    },
+    "6P6aYbBM60Utfpvb": {
+      "name": "直接了当",
+      "description": "<p>高效的沟通没有时间用华丽的辞藻去绕弯子。你在欺骗和交涉检定中具有-1环境减值。</p>"
+    },
+    "6o7O13zkqKE1kvgQ": {
+      "name": "废土生存者",
+      "description": "<p>你已经习惯了阿基顿恶劣的气候，经常一周多不吃东西。在开始挨饿之前，你可以在7 +你的体质调整值的天数不吃不喝地生存。</p>"
+    },
+    "7bFmTijc6FFe3hGB": {
+      "name": "认知论",
+      "description": "<p>对你而言，获取知识是人生中高于一切的驱动原则。若你选择经验主义的学习方式，推崇通过亲身实践来获取知识，则在感知上获得属性提升。若你相信通过理性思维即可以推理认知真理，则在智力上获得属性提升。若你选择以两项自由属性提升来替代通常的族裔提升，则无法获得上述任何提升。</p>"
+    },
+    "7fmg8bbKHOinq4tR": {
+      "name": "萎缩附肢",
+      "description": "<p>你的四条退化的附肢可以用来抓握、抽出或收起轻负载物品，但无法用于攻击、持握武器或使用物品。</p>"
+    },
+    "83O5vLT0CiahoOds": {
+      "name": "基因适应",
+      "description": "<p>你可以重塑和调整身体，以适应新的环境。你可以用一天的休整期时间来重训一项族裔专长，而非一周。你可以重新训练任何族裔专长，甚至是血脉专长。</p>"
+    },
+    "937FNpjB502lr59N": {
+      "name": "水下呼吸",
+      "description": "<p>你的生理构造使你能够长时间屏住呼吸。你获得@UUID[Compendium.pf2e.feats-srd.Item.aJUXbe9HJVvv0Mxa]通用专长。此外，当你身体其余部分浸没在水中时，你可以通过头顶的突起呼吸。</p>"
+    },
+    "B7iYVc6y7zKniJkX": {
+      "name": "能量之翼"
+    },
+    "BBQnjwn8XylzVRP2": {
+      "name": "尖角",
+      "description": "<p>你锋利的角如同长矛般致命。你拥有一项角无武装攻击，造成1d8穿刺伤害，属于搏击武器组，并具有无武装特征。</p>"
+    },
+    "BIjTWXIbLqrFFBOx": {
+      "name": "偷渡客",
+      "description": "<p>你可以长时间依附在不宜居住的表面上生存。你因饥饿或口渴承受任何减值之前的时间增加1个月。</p>"
+    },
+    "GJi8gG8etFeRPFhB": {
+      "name": "重力之手",
+      "description": "<p>你可以引导你的引力场来操作物体并与周围环境互动。你拥有两只可以触及5尺远的手，不同之处在于你是使用引力来操作物体和周围环境，而非物理肢体。这些肢体看起来像是有形的能量触须。</p>"
+    },
+    "GSBkiEHvnSidFxvz": {
+      "name": "恒星光辉",
+      "description": "<p>你是一颗微型太阳，散发着光辉。你在20尺半径内发出明亮光照（并在更外的20尺发出昏暗光照）。此能力具有光亮和原能特征。</p>"
+    },
+    "GnuQeSpmucbSiAsU": {
+      "name": "引力调谐"
+    },
+    "HOYa3N9R5VLS1kvv": {
+      "name": "思维感知",
+      "description": "<p>你获得20尺范围的思维感知（朦胧感官）。这使你能够感知到范围内存在思维的生物——但无心智或免疫心灵效果的生物无法被此能力察觉。该能力不会让你能够读取或理解目标的思想。</p>"
+    },
+    "I26YI0Z054KpcbZo": {
+      "name": "重力精通"
+    },
+    "Ivsy7iTMPjhDMTYs": {
+      "name": "抓握尾"
+    },
+    "KRRhNw25Ys5PO9Zf": {
+      "name": "适应寒冷",
+      "description": "<p>你天生适应阿基顿的严寒气候。你将环境寒冷效果视为比实际低一级（酷寒变为极寒，极寒变为严寒，依此类推）。</p>"
+    },
+    "KdvAXgQjobP2bCDa": {
+      "name": "泥怪身躯",
+      "description": "<p>你是泥怪！你不需要尝试运动检定就能够在斜面上攀爬，即便该斜面异常光洁且与地面平行也没问题，如金属制的天花板，不过GM可能仍会要求你在危险状况下进行攀爬时尝试检定。此外，只要你的单个脑部能穿过某个缝隙，你的整个身体就可以从中漏过去：你能在不进行挤入动作时穿过至少2尺宽的缝隙，并且能在挤入时穿过至少1尺宽的缝隙。</p>"
+    },
+    "N9EDgQPjWcSS6rSb": {
+      "name": "有限心灵感应"
+    },
+    "NFwrlLWp7PmEFnOx": {
+      "name": "无视力",
+      "description": "<p>奥德没有眼睛或等同的物理器官。你免疫所有基于视觉的效果，并且在所有基于视觉的察觉检定中自动失败。</p>"
+    },
+    "QurWzrxrUpo2ywih": {
+      "name": "止息",
+      "description": "<p>你能在太空中短暂生存，通过暂停呼吸保护躯体免受危险环境的影响。每当你进入真空环境时，将暂时获得宇宙特征。该特征可存在至多1小时，期间如果脱离真空环境则失效。拥有宇宙特征的生物在太空或真空中无需呼吸，并且免疫太空环境的致命影响。</p>"
+    },
+    "R420OSfns4LUH5N2": {
+      "name": "双倍训练",
+      "description": "<p>因为你有两个大脑，你能够比大多数人研究更广泛的领域。当你获取额外学识技能专长时，你获得两个学识子类而非一个。</p>"
+    },
+    "STjiyuU7xqYmomSP": {
+      "name": "萎缩",
+      "description": "<p>你的肢体严重退化。你的最大负载与超载负载上限各减1。当你用手持握任何负载为2或更高的武器或装置时，你会获得@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}。</p>"
+    },
+    "ViiaTAW4zaoaYeim": {
+      "name": "补充水分"
+    },
+    "W0H7J1XQvkF1pfMD": {
+      "name": "外套膜",
+      "description": "<p>你石化的外壳保护着你最脆弱的部位。你获得等于你等级一半的对精准伤害的抗力（最小1点）。</p>"
+    },
+    "cIrL2cSC1rCIBVDa": {
+      "name": "六臂"
+    },
+    "cuEGqGBU1pRhMW1D": {
+      "name": "多样感官"
+    },
+    "dkvId5IU5loD1Yoj": {
+      "name": "龟息",
+      "description": "<p>你获得@UUID[Compendium.pf2e.feats-srd.Item.aJUXbe9HJVvv0Mxa]通用专长。</p>"
+    },
+    "fD4YQ2Hq7929t8p2": {
+      "name": "伴侣纽带",
+      "description": "<p>你可以与一位自愿的智慧生物（通常为非龙类）建立永久的共情纽带。建立此纽带需要一小时，且只有你和你的伴侣之间拥有深厚的情感纽带才能尝试。你和你的伴侣必须在此活动期间保持彼此触手可及的距离才能成功。一旦建立此纽带，除非你当前的伴侣死亡，否则你将无法再建立伴侣纽带。你和你的伴侣可以进行精神交流，如同你们拥有60尺范围的有限心灵感应能力。</p>"
+    },
+    "jjVH7W3IhgaJ5Yct": {
+      "name": "火焰吐息"
+    },
+    "jwBbIr07dlAfrow8": {
+      "name": "四臂"
+    },
+    "n9vli6v60O21ELYs": {
+      "name": "植性",
+      "description": "<p>你在对抗心灵，麻痹，毒素或睡眠效果的豁免上获得+1环境加值。如果你每天暴露在自然阳光下至少4小时，则你不需要进食，饮水，或睡眠。</p>"
+    },
+    "rwdjsNymGgpO9UBK": {
+      "name": "再生进化",
+      "description": "<p>你的虫体会根据你的生活经历与目标，持续且被动地随时间适应变化。你可以花费一个月的休整期来重训你的珊瑚人传承。此外，在重训期间你还可以进行其他休整期行动，但仅限于重训你的珊瑚人传承、珊瑚人族裔专长、初始受训技能、技能提升或技能专长时——不可在重训职业特性、职业专长等内容时进行。</p>"
+    },
+    "ry8LM7k59klVvYM8": {
+      "name": "精确听力",
+      "description": "<p>你通过一套超敏感器官网络感知声音。你的听觉是一种范围60尺的精确感官，超出该距离则为模糊感官（如常）。</p>"
+    },
+    "wVR5Ev1UozWrrHb9": {
+      "name": "完全清醒",
+      "description": "<p>你的身体以与大多数族裔大不相同的节律运作。你不需要睡眠，但仍需要每天至少4小时的休息时间。在此休息期间，你必须身体不活动，但能保持清醒并察觉周围环境。与睡眠类似，如果你太久不休息，你会陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]，并且直到休息4小时才能恢复。由于你与睡眠不寻常的关系，你在对抗具有睡眠特征效果的豁免中获得+2状态加值。</p>"
+    },
+    "y67VoRoZSeWhLw7f": {
+      "name": "平稳降落",
+      "description": "<p>你在空中本能地弯曲身体，以确保你总是平稳落地。当你坠落时，你只受到通常伤害的一半，且不会在落地时@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]。</p>"
+    },
+    "zQz0cKBVFfsf7F2c": {
+      "name": "攀爬专精",
+      "description": "<p>你用六条腿攀爬，始终有空手可用于其他用途。你获得@UUID[Compendium.pf2e.feats-srd.Item.09PurtIanNUPfNRq]技能专长，即使你不满足其先决条件。此外，你无需使用双臂攀爬，尽管你的六条腿都必须用于攀爬。</p>"
+    },
+    "zwWVolr4HkM5jjcQ": {
+      "description": "<p>你能变形为你所知的任意小型、中型或大型族裔，并自选特征；例如，你可以自选体型、性别等细节，但需要处于该物种的正常范围内。此形态可以模仿特定的个体，或完全由你独创。使用形态变换视作为乔装创造伪装的欺骗检定。你可以无限期维持此形态，并通过再次使用此动作切换回星蛸族的真实形态或其他形态。若你在使用形态变换能力期间死亡，你的躯体会逐渐恢复自然形态。</p>"
+    }
+  }
+}

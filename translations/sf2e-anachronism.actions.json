@@ -1,0 +1,316 @@
+{
+  "label": "动作",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    }
+  },
+  "folders": {
+    "Space Pirate": "太空海盗",
+    "Infiltration": "潜入",
+    "Technomancer": "科技法师",
+    "Atraxid": "纺蛛人",
+    "Spells": "法术",
+    "Envoy": "使节",
+    "Sarcesian": "萨瑟蝶人",
+    "Nanocyte": "纳米行者",
+    "Kasatha": "卡萨斯人",
+    "Mystic": "秘术师",
+    "Barathu": "飞螅族",
+    "Operative": "特工",
+    "Contemplative": "默思族",
+    "Solarian": "恒星武士",
+    "Archetype": "变体",
+    "Kalo": "卡洛鱼人",
+    "Soldier": "士兵",
+    "Skill": "技能",
+    "Ikeshti": "异客蜥人",
+    "Witchwarper": "织维巫师",
+    "Mechanic": "机械师",
+    "Class": "职业",
+    "Ancestry": "族裔",
+    "Android": "仿生人",
+    "Elebrian": "灵脑人",
+    "Subsystems": "、子系统",
+    "Borai": "活尸裔",
+    "Prismeni": "棱光裔",
+    "Lashunta": "拉申塔人",
+    "Shirren": "希伦虫人",
+    "Skittermander": "轻灵兽",
+    "Vesk": "维斯克蜥人",
+    "Brenneri": "水獭人",
+    "Copaxi": "珊瑚人",
+    "Entu Colony": "因图菌群",
+    "G'folian": "火蟹族",
+    "Goblin": "地精",
+    "Halfling": "半身人",
+    "Leshy": "莱西",
+    "Madrosarai": "马德罗萨莱人",
+    "Maraquoi": "马拉魁族",
+    "Novian": "新星族",
+    "Orocoran": "奥罗科兰人",
+    "Pahtra": "趴爪族",
+    "Talphi": "鼹鼠人",
+    "Urog": "巫洛格",
+    "SRO": "自主机器人",
+    "Verthani": "维萨尼"
+  },
+  "entries": {
+    "00RryKnz4fXq455m": {
+      "name": "初学者幸运",
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 的技能检定，并使用较好的结果。</p><hr /><p><strong>Effect</strong> Reroll the triggering check and use the better result.</p>"
+    },
+    "0vqXr3SYakIa19k3": {
+      "name": "专注感知",
+      "description": "<p>你获得回声定位（精确感官）30尺，直到你的下个回合结束。</p>"
+    },
+    "1lkfbLoteDlzoqxb": {
+      "name": "进入战位！"
+    },
+    "30Nw5q4vWKCQIBIZ": {
+      "name": "量子脉冲",
+      "description": "<p><strong>触发</strong> 你骰先攻。</p><hr /><p>你随时准备好施放你的矛盾力量，危急时刻只需思绪一动便能创造场域。在战斗开始时，你使用@UUID[Compendium.sf2e-anachronism.actions.Item.ZoMpqQgDdlT13Jp0]动作。</p>"
+    },
+    "36WO6WJzTz2Qsm16": {
+      "name": "移位外皮层",
+      "description": "<p><strong>需求</strong> 你的地雷或炮塔在150尺内。</p><hr /><p>You move your exocortex to a more tactically sound location. One of your deployed mines or turrets teleports to an unoccupied space you can see within 30 feet of its current location, remaining deployed in its new location. At 10th level and every 5 levels thereafter, the distance it can teleport increases by 10 feet.</p>"
+    },
+    "3xDhpvORBmK6AtcI": {
+      "name": "调和",
+      "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p>稳定身心，与所选的星辰面相调谐一致。你变得与光量子或引力子调谐。你可以也选择显现你的恒星显象，只要它们当前处于休眠状态，且你有一只空手来使用它们。</p><hr /><p><strong>特殊</strong> 除了上述用法外，你可以在掷骰先攻时，以自由动作使用调和。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.UlFxEP3YrbseKA62]</p>"
+    },
+    "4oIErnhDm0qCCpxs": {
+      "name": "数码评估！"
+    },
+    "5QuJ5nh2ZfkB4m4e": {
+      "name": "旋转制胜"
+    },
+    "6ctkxUnVwqooSvgg": {
+      "name": "自动射击"
+    },
+    "7KMyRISNqp7JTzMn": {
+      "name": "特技驾驶"
+    },
+    "8zWFGKRXg1SxIwFH": {
+      "name": "全息威吓",
+      "description": "<p><strong>触发</strong> 你掷骰先攻,</p><hr /><p><strong>Effect</strong> Your ship's fearsome holo-flag projects above you, lasting 1 minute. Attempt an Intimidation check to [[/act demoralize]] one enemy within 30 feet that can see your flag. While your flag is projected on a starship, you gain a +1 circumstance bonus to Intimidation checks to Demoralize.</p>"
+    },
+    "9P2ZptR0PrYyiJFl": {
+      "name": "重导能量",
+      "description": "<p><strong>触发</strong> 伤害的抗力。</p><hr /><p><strong>Effect</strong> You tap into the harmful energy directed at you and redirect its essence into a melee weapon you're holding. Until the end of your next turn, the selected weapon deals an additional 1d4 damage of the triggering damage type. During this time, you lose any resistance to the triggering damage type granted to you by Perfectly Balanced.</p>"
+    },
+    "CBULws7KXkyaDjxx": {
+      "name": "放电"
+    },
+    "CZ3o2xTAZ4hlISya": {
+      "name": "同步移动",
+      "description": "<p>你和无人机协同移动，高效地同步你们的行动。你和无人机各行走一次。</p>"
+    },
+    "E7HvICcH9CRAVzGc": {
+      "name": "独立法阵",
+      "description": "<p>如果你的下个动作是施展一个具有射程的法术，则将这个法术的射程提升至100尺。该法术只影响你量子场域内的目标，并且法术的区域不会延伸到你的量子场域之外。</p>"
+    },
+    "FF5KgZHj345s2moq": {
+      "name": "推动",
+      "description": "<p><strong>需求</strong> 你至少有一只手或一条腿（或合适的附肢）空闲，并且你处于失重状态。</p><hr /><p>你可以利用一个与你体型相同或更大的物体或生物作为支点，来改变你漂浮的方向。向你选择的方向漂浮至多你速度的一半的距离。在失重状态下，你在回合结束时的移动距离会变为你在这个动作中的移动距离。</p>\n<p>你可以在成功近战打击或@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]后立即使用自由动作进行推动。此时你仍需满足：至少有一只手或一条腿（或合适的附肢）空闲，并且你处于失重状态。</p>"
+    },
+    "Iy3IsWEfMLGiVAPv": {
+      "name": "植入殖装"
+    },
+    "JXQaCPCd10sE0Gaa": {
+      "name": "幽灵触击",
+      "description": "<p><strong>需求</strong> 你本轮内的上一个动作是对一个你对其而言处于@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]或@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]状态的目标的一次成功打击。</p><hr /><p>You throw an object, activate a hidden flare, or take some other action while your target is still disoriented from your attack. Attempt a @Check[deception|against:will] check against the Will DC of the target of your last Strike; on a success, you're hidden from the target or undetected on a critical success.</p>"
+    },
+    "K2wMNyK4JGwgrjVL": {
+      "name": "锁定射击",
+      "description": "<p><strong>需求</strong>  你正持用远程武器；</p><hr /><p><strong>Effect</strong> You take your time to line up the perfect shot with a required weapon, unharried by your surroundings. Until the end of your turn or your next attack (whichever comes first), double the range of the required weapon you're wielding. This does not apply to Area Fire and Auto-Fire attacks.</p>"
+    },
+    "LXqcXRayK58inaKo": {
+      "name": "制定航线",
+      "description": "<p>你为一次更长的星际旅行做准备，可能需要使用你的星舰的漂流引擎（Drift Engine，或类似的超光速设备）。进行一次驾驶检定，以确定你是否能绘制出一条合适的路径到达最终目的地。GM决定这项活动所需的时间和DC（参见《主持人核心》第52-53页）。</p><hr /><p><strong>大成功</strong> 你花费了预期时间的一半到达目的地（最少为1天）</p>\n<p><strong>成功</strong> 你制定了一个可用的导航计划，使你按时到达预定目的地。</p>\n<p><strong>失败</strong> 你的计划有几个问题，导致你迟到了。</p>\n<p><strong>大失败</strong> 你到达了一个陌生的星系，需要你重新制定一条到目的地的新航线（由于陌生的起点，DC可能会增加）。</p>"
+    },
+    "MZ65QZDqa9ignWXm": {
+      "name": "巧舌如簧",
+      "description": "<p><strong>频率</strong> 每种技能每天一次</p>\n<p><strong>触发</strong> 你掷骰下列任何你具有传奇熟练度的技能：欺骗，交涉，威吓或你的领导技能。</p><hr /><p>你重骰触发技能检定并采用较好的结果。</p>"
+    },
+    "OdKGpXP83uA1wdES": {
+      "name": "光子加速",
+      "description": "<p><strong>频率</strong> 每日一次；</p>\n<p><strong>触发</strong> 你受到来自激光武器或具有光亮特征的</p><hr /><p><strong>Effect</strong> You're @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} until the end of your next turn. You can use the extra action only to Stride or Strike.</p>"
+    },
+    "P5FKQOFiuApG9QyG": {
+      "name": "抓取物体",
+      "description": "<p><strong>触发</strong> 你@UUID[Compendium.sf2e-anachronism.feats.Item.YqAY8XtOL9u6pyiw]内一个生物丢下一件物品；</p>\n<p><strong>需求</strong> 你有一只空手；</p><hr /><p><strong>Effect</strong> You immediately use Gravity Grasp to pull the dropped item into one of your free hands.</p>"
+    },
+    "PKu1HhCbmhuwm82o": {
+      "name": "分析环境",
+      "description": "<p><strong>Requirements</strong> You have environmental protection on your armor or a @UUID[Compendium.sf2e-anachronism.equipment.Item.pEob2HYKeFtToeeC]{field scientist's kit}</p><hr /><p>你通过检查护甲或你手持的野外科学工具包上的仪表和传感器来分析环境，以确定其是否安全。你以半速或更慢的速度移动。你自动侦测到任何你的护甲能够防护的环境危害，包括环境条件的严重程度（例如温度、辐射水平、空气的存在与否等）。</p>"
+    },
+    "QMxO5Y1b9ORvlogx": {
+      "name": "借过"
+    },
+    "RF8xNJ8QsMwogerB": {
+      "name": "骇入",
+      "description": "<p><strong>Requirements</strong> You have a @UUID[Compendium.sf2e-anachronism.equipment.Item.qqjDcCW118ySAlAS]{hacking toolkit}.</p><hr /><p>你尝试访问、控制或更改一个活跃且受保护的系统。在大多数情况下，此操作针对本地计算机系统实施（通过黑客工具包直接或间接接入）。进行一次计算机检定，以确定你是否可以访问目标系统。具有强化系统的计算机可能需要多次成功才能访问。</p><hr /><p><strong>大成功</strong> 你成功访问系统，若系统需多次成功则计为两次成功。而且你没有留下任何操作痕迹。</p>\n<p><strong>成功</strong> 你成功访问系统，若系统需多次成功则计为一次成功。</p>\n<p><strong>失败</strong> 你未能访问系统，若系统需多次成功则未获得任何成功计数。部分计算机化系统可能在失败时触发安全机制。</p>\n<p><strong>大失败</strong> 你激活了特别内置的安全协议，或者彻底被系统锁定。被系统锁定意味着你在接下来的一个小时内无法再次尝试检定以访问它。</p>"
+    },
+    "RNilk6Evoi0xNbWX": {
+      "name": "准备武器！"
+    },
+    "TBLHu4RhvhPrKid6": {
+      "name": "威压风度",
+      "description": "<p><strong>频率</strong> 每轮一次。</p><hr /><p>你只需一个眼神就能让敌人怯懦，或者用微妙简单的动作和词语就能吸引其注意。选择一个60尺内能看见的敌人作为目标，其@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]直到你下个回合开始。如果目标敌人用一次打击或者其他进攻动作指定你为目标，其便会失去来自此效果的被压制状态。</p>"
+    },
+    "UeMHbnnaXDa3sGfG": {
+      "name": "转移命能",
+      "description": "<p>你能从你的命能网络中转移至多10点生命值（最小1点）到你自身或60尺内一名你能感知到纽带中的生物身上。这能对具有虚能治疗的生物生效，如同此动作具有虚能特征。你能转移的数值分别在5级，10级，15级和20级时增加10点。</p>"
+    },
+    "VIv5Gt3yndrk0qgb": {
+      "name": "靶向免疫",
+      "description": "<p><strong>触发</strong> 疾病或毒素。此免疫会持续到第二天或直到你再次使用靶向免疫。</p><hr /><p><strong>Effect</strong> You instinctively synthesize antigens that make you immune to the triggering disease or poison. This immunity lasts for the next day or until you next use Targeted Immunization.</p>"
+    },
+    "WFFYDg0sgjaXCeq6": {
+      "name": "即兴大师",
+      "description": "<p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 你将要使用你尚未拥有大师熟练度的技能进行技能检定，且你还未掷骰。</p><hr /><p>你相信自己的直觉会帮你渡过难关。你对于此技能检定，在触发技能上获得大师熟练度。</p>"
+    },
+    "XSMTalRsPwQ0beIE": {
+      "name": "网络法术",
+      "description": "<p>你引导你的法术从你的一个盟友而不是你自己身上显现。如果你下一个动作是施放具有区域、射程或目标的法术，取代你自身，该法术从你一个纽带中的盟友处显现。使用盟友的位置来确定法术的来源，射程和效果区域，但在法术被施放时，视线和效果线必须同时从你和盟友处满足。虽然这可能会愚弄那些只看到你的盟友的人，但除非你是@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]状态或该法术具有晦匿特征，否则任何能看到你和你的盟友的生物都能轻易确定你是法术的源头。如果该法术具有晦匿特征，你与盟友可通过特定施法方式使盟友看似施放了该法术且不具有晦匿特征。</p>"
+    },
+    "YAK0MtCcXeDuGmGw": {
+      "name": "超频装备",
+      "description": "<p><strong>频率</strong> 每轮一次</p>\n<p><strong>触发</strong> 你施放来自法术位的法术。</p><hr /><p>You siphon residual magic to unlock your gear's full potential. One tech item you hold, wield, wear, or one tech minion you're commanding (as determined by your programming language) becomes overclocked for 1 minute. You can have only one overclocked gear at a time; if you overclock a different target, your current overclocked gear stops being overclocked. As long as your gear is overclocked, you gain the benefits of your programming language's overclock boost and can use its unique Overclock Pulse action.</p>"
+    },
+    "Yn4jLPVWVE1vtAaF": {
+      "name": "接入信息圈",
+      "description": "<p><strong>Requirements</strong> You are using a device with infosphere access.</p><hr /><p>你尝试接入本地信息网络（通称信息圈）以获取特定主题的情报。这通常需要10分钟的研究时间来查找信息，结果类似于对某个主题回忆知识。更大规模的研究或主题可能需要数小时，而常见于该聚居地信息圈的简单答案可能只需一分钟，具体由GM决定。重大且长期的研究应使用研究子系统（见《主持人核心》）。GM根据你研究的主题确定DC。这可能受到当地信息圈质量、它可能拥有的关于该主题的信息以及其组织程度的影响。</p><hr /><p><strong>大成功</strong> 你查找到了你正在搜寻的信息。若该主题的信息本可以通过@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]来获取，则你查找信息的时间缩短至1分钟。</p>\n<p><strong>成功</strong> 你查找到了你正在搜寻的信息。</p>\n<p><strong>大失败</strong> 由于错误数据或网络恶作剧，你查找到了误导性信息。GM会向你提供关于调查主题的错误信息（或者决定不给你任何信息，如同失败一样）。</p>"
+    },
+    "Z8GMkB50OfXBX67a": {
+      "name": "板甲偏斜",
+      "description": "<p><strong>频率</strong> 每天一次,</p>\n<p><strong>触发</strong> 敌人对你造成重击,</p><hr /><p><strong>Effect</strong> You deflect the attack to a heavily armored part of your body. You don't take double damage from the critical hit but still take other effects.</p>"
+    },
+    "ZVzoIaWpXs62QVcu": {
+      "name": "穿刺尖刺"
+    },
+    "ZoMpqQgDdlT13Jp0": {
+      "name": "曲织现实",
+      "description": "<p><strong>需求</strong> 你的量子场域未激活。</p><hr /><p>Your quantum field activates and lasts as long as you Sustain it (up to 10 minutes) or until the end of your next turn. Your quantum field is a @Template[type:burst|distance:20] centered on a point you choose within 100 feet. While your quantum field is active, you can use actions that have the anchoring trait. Your quantum field's other specific effects are determined by your paradox. Choose whether any given creature in the area is affected by your quantum field when you Warp Reality, each time you Sustain it, and when a creature enters your quantum field. Each time you Sustain a quantum field with the Sustain action (instead of an anchoring action), you can move it to a new position within 100 feet.</p>\n<p>Your quantum field automatically deactivates if you're knocked out, if you Dismiss it, or if you move more than 100 feet away from it.</p>"
+    },
+    "d4vJxq49lUb7fGXq": {
+      "name": "安装强化模块",
+      "description": "<p><strong>Requirements</strong> You must use a @UUID[Compendium.sf2e-anachronism.equipment.Item.vLGDUFrg4yGzpTQX]{repair toolkit}.</p><hr /><p>你花费10分钟将一个强化模块安装到一件护甲或武器中，将强化模块放入一个空的强化槽中。你也可以使用这个行动来卸载强化模块。你不能安装比强化槽数量更多的强化模块。</p>"
+    },
+    "eBxEPfTafaJaK4Kf": {
+      "name": "反应迈步",
+      "description": "<p><strong>触发</strong> 一个在你触及内的生物在使用移动动作时离开一个方格。</p><hr /><p>你能够巧妙地在敌人身周移动，摆脱困境或设法将自己置于有利位置。你直接朝着触发生物快步两次。</p>"
+    },
+    "g9ZIUSXrLNGhS5Lh": {
+      "name": "反弹动能",
+      "description": "<p><strong>触发</strong> 你受到物理伤害；</p><hr /><p><strong>Effect</strong> You release the collected kinetic energy around you in a @Template[type:emanation|distance:10], dealing @Damage[1d4[force]|options:area-damage] damage for every 10 damage you took (minimum 1d4) to all creatures in the area. Affected creatures must attempt a @Check[fortitude|against:class|basic] save against your class DC. On a critical failure, they're additionally knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+    },
+    "gZr207z8Q7AuH2RT": {
+      "name": "坚持不懈！",
+      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>You encourage your allies to brace for impact or otherwise prepare for incoming damage. Allies within 60 feet who can sense you can spend 1 action on their turn to Brace For Impact. This action has the concentrate trait. Creatures that Brace for Impact gain temporary Hit Points equal to your Charisma modifier + your half your level for 1 minute.</p>\n<p><strong>Lead by Example</strong> If you spends two actions, you Brace For Impact. You and any ally who Braces for Impact before the start of your next turn also gain a +1 status bonus to saving throws against effects that deal damage for 1 minute.</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.RhmWzzEbiykniDHQ]</p>"
+    },
+    "hsUKPqTdAvWwsqH2": {
+      "name": "导航",
+      "description": "<p>你计划一次短途旅行。尽管这通常用于驾驶机甲、载具或星舰时，但同样的技能也可以用来确定徒步旅行时的最佳路线。这让你能够在一个小行星上规划大致的前进方向，或者指导你的星舰进行恒星系内的航行。如果你尝试导航短途旅行，你通常每日只需进行一次驾驶检定，但某些环境或变化可能需要更频繁的检定。GM决定DC以及这项活动所需的时间（通常只需一分钟左右）。对于不太寻常的地点或你不熟悉的地方，可能需要你具备一定的熟练度才能进行导航。</p><hr /><p><strong>大成功</strong> 你对自己所处的位置有极好的感知。如果你处在一个有方位的环境中，你能准确地知道方位。</p>\n<p><strong>成功</strong> 你获得足够的方向感以避免迷路。如果你处在一个有方位的环境中，你能有一些基本的方位感。</p>"
+    },
+    "i2EksIx4It5FW2NM": {
+      "name": "部署炮塔",
+      "description": "<p>你可以将炮塔部署到30尺内一个未被占据的方格中，并使其准备好开火，或者你从当前位置召回你的炮塔（即便它已破损），使其返回你的定制工具组中储存。</p>"
+    },
+    "j1Ag9v0ze3gTYApw": {
+      "name": "越狱法术"
+    },
+    "kF6CV5Jo4gfz4gVs": {
+      "name": "灵魂护盾",
+      "description": "<p><strong>频率</strong> 每天一次；</p>\n<p><strong>触发</strong> 你将要受到虚能伤害；</p><hr /><p><strong>Effect</strong> You push your soul out of your body and use it as a shield to protect your living form from the ravages of the void. You gain void healing until the beginning of your next turn, meaning you're damaged by vitality damage and healed by void effects that heal undead.</p>"
+    },
+    "lTxbKyZoxEJWqHjX": {
+      "name": "释放威严",
+      "description": "<p><strong>频率</strong> 每小时一次；</p><hr /><p><strong>Effect</strong> You unleash your full majesty for all to see. You attempt an Intimidation check to [[/act demoralize]] all enemies within 100 feet. Allies within 100 feet gain a +1 circumstance bonus to Will saves and Will DCs for 1 round. If you successfully Demoralize at least one creature this way, your allies gain temporary Hit Points equal to your level for 1 minute.</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.jA3fhbOp4nbUZ3PK]</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.HEdKj6rBmmvxRWRo]</p>"
+    },
+    "ljJlGPTH8ZNH6DZj": {
+      "name": "部署地雷",
+      "description": "<p>你部署一颗地雷，它飞行至60尺内你选择的一个未被占据的方格，并悬浮在那里。</p>"
+    },
+    "m4IGOcYt8TBpYD8T": {
+      "name": "压制打击",
+      "description": "<p><strong>触发</strong> 你打击命中你指定为标靶的生物并造成伤害。</p><hr /><p>直到你的下个回合结束前，目标陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}，@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]或@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]，由你选择。该生物直到你的下一个回合结束对压制打击临时免疫。</p>"
+    },
+    "n2QwzNZLrpVnM58K": {
+      "name": "直播",
+      "description": "<p><strong>需求</strong> 你必须拥有一件带有摄像头的物品和一只空手，支架或万向夹。</p><hr /><p>你使用通讯单元或其他带有摄像头的设备从你的视角录制视频片段。这些内容可以直播给现场观众，也可以存储在本地设备上。根据你录制的内容性质，GM决定这是否会显著影响你的旅行速度；简单的录像不会影响你的行进，而对着镜头表演或调整到最佳视角可能需要你以半速移动。</p>"
+    },
+    "oRdDgSC3RVpNgisd": {
+      "name": "永不放弃！"
+    },
+    "oW81CfM9ebxXnrw3": {
+      "name": "换手",
+      "description": "<p>你指定一对肢体作为你的主动手。同一时间内，你只能有一对肢体被指定为主动手。</p>"
+    },
+    "oXWJZMspGhDK93Nz": {
+      "name": "下载法术",
+      "description": "<p><strong>频率</strong> 每10分钟一次</p><hr /><p>你可以用法术缓存中的一个同环级或更低环级的法术覆写一个你已准备的法术。选择你一个尚未消耗的已准备法术位。该法术位会被清空，你缓存中的一个法术会立即被准备到其位置上，并升阶至其填充的法术位。</p>"
+    },
+    "oc0ZKnk5zD0GXqZi": {
+      "name": "区域射击"
+    },
+    "oxYfBuSCruRWTqJ9": {
+      "name": "沃洛西亚喷吐"
+    },
+    "q7UDeO9Ko1EbPRWm": {
+      "name": "光晕涌动",
+      "description": "<p><strong>触发</strong> 你触及范围内的一个生物使用操作或移动动作，进行远程攻击，或者使用移动动作时离开一个方格。</p><hr /><p>Your nimbus surges with energy, forcing an opening in your foe's defenses. Make a melee Strike against the triggering creature. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p>\n<p><strong>Graviton-Attuned</strong> If the Strike is a critical success, the target must succeed at a @Check[fortitude|against:solarian] save against your class DC or become @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} until the end of its turn.</p>\n<p><strong>Photon-Attuned</strong> If the Strike is a critical success, the target must succeed at a @Check[fortitude|against:solarian] save against your class DC or become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the start of its turn.</p>"
+    },
+    "qOh7Oq5r9uc3EswW": {
+      "name": "绝境逢生"
+    },
+    "qbyer2woEdGXZzoR": {
+      "name": "破坏"
+    },
+    "qeB3FN9AcGzEICjE": {
+      "name": "装备阵列"
+    },
+    "rlhZC1VPq3XixagS": {
+      "name": "来吧舞伴！"
+    },
+    "sLikawnrJJzHMYeC": {
+      "name": "瞄准",
+      "description": "<p><strong>需求</strong> 你持用一把不带有区域特征的远程武器。</p><hr /><p>你仔细瞄准一个你能感知到的生物，直到你的下一回合前将其指定为你的标靶。你使用需求的远程武器对标靶生物进行的远程打击会造成额外1d4精准伤害，并将你标靶从掩蔽中获得的环境AC加值降低1。这些增益只会在标靶处于你武器的第一射程增量内时有效。你同一时间只能有一个标靶。</p>\n<p>随着你的特工等级提升，你的瞄准技巧也得到改进。在5、11、17级时，精准伤害的伤害骰增加一个。11级时，你将标靶从掩蔽中获得的环境AC加值降低2而非1。17级时，你将标靶从掩蔽中获得的环境AC加值降低4而非2。</p>"
+    },
+    "uVDYsnxq3hNNtYB2": {
+      "name": "改造",
+      "description": "<p><strong>需求</strong> 你正持握或穿戴你的定制工具组。</p><hr /><p>Using your trusty custom rig, you quickly customize a piece of gear. Select one item in your possession or in the possession of a willing creature within your unarmed reach. If you select an item in your possession, you can Interact to draw or retrieve this item. Then, apply one of the mods you know to the item. The item remains modded until the end of your next turn.</p>\n<p>When you Modify an item, you can apply one of the following effects of your choice, called a mod, or any other mod you know. Some mods can only be applied to items of specific types or items with certain traits; these requirements are listed in parentheses.</p><ul><li><p><strong>Big Boom (grenade or area weapon):</strong> You cram a big payload of explosives into a small package. Increase the item's radius by 5 feet (if it's a burst), its area by 5 feet (if it's a cone), or its area by 10 feet (if it's a line).</p></li><li><p><strong>Bunker Buster (grenade or weapon):</strong> You amplify the destructive capabilities of an item. Whenever the item deals damage to an object, structure, vehicle, or creature with Hardness, the target takes 5 additional damage. If the modded item has the razing trait, apply the additional damage from both this mod and the razing trait.</p></li><li><p><strong>Incapacitant (grenade or weapon):</strong> You use dummy rounds. The item gains the nonlethal trait.</p></li><li><p><strong>Long-range Propulsors (grenade or ranged weapon):</strong> You increase the distance you can shoot or throw the item. Increase the item's range or range increment by 30 feet.</p></li><li><p><strong>Magnetic Levitators (armor):</strong> You activate powerful magnets in the armor that propel the wearer off the ground. The wearer's land Speed gains hover, and the wearer gains a fly Speed of 10 feet.</p></li><li><p><strong>Troubleshoot (item):</strong> You recalibrate a malfunctioning item. Reduce the item's glitching value by 1.</p></li></ul>"
+    },
+    "uvtdqSfKD6oXNA29": {
+      "name": "重铸恒星武器",
+      "description": "<p>你花费10分钟的时间专注于调整你恒星武器的构造。你可以更改武器的伤害类型（通常情况下在钝击、穿刺或挥砍之中选择），所选的武器特征，以及所属的武器组。恒星武器会始终保留你的选择，直至你下一次重铸恒星武器。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.UlFxEP3YrbseKA62]</p>"
+    },
+    "wI0g2nRfu2d0YFAd": {
+      "name": "傲慢防卫",
+      "description": "<p><strong>频率</strong> 每小时一次；</p>\n<p><strong>Trigger</strong> A creature other than you within range of your thoughtsense becomes @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened}, or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied}, or takes @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{persistent mental damage}</p><hr /><p><strong>Effect</strong> You can attempt an extra flat check immediately to end any persistent mental damage effect you have, and you reduce the flat check DC to 10. You then gain temporary Hit Points equal to your level. These temporary Hit Points last 1 minute.</p>"
+    },
+    "wWtBcshahm11stMY": {
+      "name": "操作设备",
+      "description": "<p><strong>需求</strong> 你正在使用计算机或类似设备</p><hr /><p>你通过数字设备执行基础操作，例如运行基本程序或游玩电子游戏。若设备包含物理交互组件（如需要3D追踪或特定动作启动的功能），也可使用此技能。GM将根据你执行的操作设定DC。</p><hr /><p><strong>大成功</strong> 你出色完成操作，从程序中发掘秘密或高级功能。如果你是在玩游戏，则以超过平均记录时长的速度通关。</p>\n<p><strong>成功</strong> 你以必要方式成功操作设备，包括获取基本功能，并从程序中获得常规信息。</p>\n<p><strong>失败</strong> 你未能理解程序或游戏，后续24小时内尝试访问或游玩该程序时承受-2环境减值。</p>\n<p><strong>大失败</strong> 你未能成功登录游戏，或因操作失误（如忘记密码导致程序锁定）致使24小时内无法访问该程序。</p>"
+    },
+    "x1XORr76jCEEDJJV": {
+      "name": "引爆地雷"
+    },
+    "x8jlqzfOXEYzJ0Mp": {
+      "name": "启动推进器",
+      "description": "<p><strong>频率</strong> 每10分钟一次；</p><hr /><p><strong>Effect</strong> Your drone Strides twice, moving through the spaces of any creatures in the way but not triggering reactions, and deals @Damage[5d6[bludgeoning]] damage to them with a @Check[reflex|against:class|basic] save against your class DC. A creature that critically fails its saving throw is additionally knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. At 12th level and every 2 levels thereafter, the bludgeoning damage increases by 1d6.</p>"
+    },
+    "xEBikxg5d7GygQiM": {
+      "name": "机动重构",
+      "description": "<p>你的无人机切换到其另一个机体。它保持此配置，直到你下次指挥它执行机动重构。</p>"
+    },
+    "ydUK0TjHlK8VKgbs": {
+      "name": "充能",
+      "description": "<p><strong>需求</strong> 你拥有一块没有剩余充能的电池。</p><hr /><p>你给一块耗尽的电池充能。如果使用充电站这需要1分钟，大多数建筑物和星舰中都可以找到充电站。</p>"
+    }
+  }
+}

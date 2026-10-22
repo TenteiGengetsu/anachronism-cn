@@ -1,0 +1,1614 @@
+{
+  "label": "规则书怪物",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    },
+    "publicNotes": "system.details.publicNotes",
+    "items": {
+      "path": "items",
+      "converter": "sf2eAnachronismCnItems"
+    }
+  },
+  "folders": {
+    "Hazards": "危害",
+    "Absalom Station": "艾巴萨罗姆空间站"
+  },
+  "entries": {
+    "1xS1vT7CSac90JOO": {
+      "name": "城市巡航车"
+    },
+    "2tnV0My0s36a5ctC": {
+      "name": "放贷人",
+      "publicNotes": "<p>放贷人在食物链的较高端运作。</p><hr /><h2>Gangsters</h2><p>Criminal guilds, crime families, protection rackets, and loan sharks are just a few of the many types of gangs in Absalom Station. Gangs are highly localized, predatory, and extremely territorial. Members join for different reasons, but most find that once they're in a gang, there's no easy way out.</p>\n<p>Gangsters always have hustles, criminal industries they use to make money, but most also operate protection rackets as a matter of course. Business owners within a gang's territory (or worse, in the overlapping territories of more than one gang) can expect to pay regularly or risk severe consequences.</p>",
+      "items": [
+        {
+          "id": "pCqPjUik3uKLznSK",
+          "expectedName": "Pulsecaster Pistol",
+          "name": "脉冲手枪"
+        },
+        {
+          "id": "LqstE5Rl4PmFXAa5",
+          "expectedName": "Abadarcorp Travel Suit",
+          "name": "阿巴达尔集团旅行服装"
+        },
+        {
+          "id": "8S2JV16ASWWmAh1T",
+          "expectedName": "Datapad (Loaded with financial and bookkeeping apps)",
+          "expectedDescription": "<p>These ubiquitous handheld computers incorporate a comm unit, microphone, speaker, camera, infosphere browser, and data storage. They can store thousands of hours of recordings, play games, and perform simple computing functions, such as time tracking and notifications, word processing, calculations, data processing, streaming media, and broadcasting emergency alerts from local governments. In most societies, commercial datapads are relatively flimsy, designed to rapidly wear out or fall behind on the latest features and updates to encourage the consumer to replace it with a newer model. In contrast, higher-end datapads are made to last and often include a sturdier chassis and extra functions.</p>",
+          "description": "<p>此类泛用手持计算机集成了通讯单元，麦克风，扬声器，摄像头，信息圈浏览器以及数据存储功能。其可以存储数千小时的记录，支持游玩游戏和执行简单的计算功能（如计时提醒，文本处理，计算，数据处理，流媒体以及当地政府的紧急广播）。在大多数社群里，商用型数据板相当脆弱，刻意设计以快速损坏或被最新的特性和更新淘汰，以此来刺激消费者置换更新的型号。相比之下，高端的数据板旨在长期使用，且通常包含更坚固的框架和额外功能。</p>"
+        },
+        {
+          "id": "iTdVtO0o9exqbBoV",
+          "expectedName": "Medpatch (Tactical)",
+          "name": "战术型医疗贴片"
+        },
+        {
+          "id": "7eZ4FqsvGLIjk55e",
+          "expectedName": "Pulsecaster Pistol",
+          "name": "脉冲手枪"
+        },
+        {
+          "id": "FLdDfpivhRW60Vox",
+          "expectedName": "Fist",
+          "name": "拳头"
+        },
+        {
+          "id": "PcWR8mcnuWdBVCa9",
+          "expectedName": "Loan Shark",
+          "name": "高利贷者"
+        },
+        {
+          "id": "npx4vyHm9EDQftDq",
+          "expectedName": "Blood in the Water",
+          "name": "水中血味"
+        },
+        {
+          "id": "BfTeDyKbp7zf0jRC",
+          "expectedName": "Pay Your Dues",
+          "name": "付出代价"
+        },
+        {
+          "id": "5AKbY6oL40YCDQmG",
+          "expectedName": "Make an Example",
+          "name": "杀鸡儆猴"
+        }
+      ]
+    },
+    "3ZNGYrsV4cj7TQVH": {
+      "name": "涡轮滑翔翼"
+    },
+    "4dp9eJNWmidbmHY6": {
+      "name": "安保打手",
+      "publicNotes": "<p>安保打手拥有令人望而生畏的肌肉，且对如何使用它们毫无顾忌。</p><h2>Security Guards</h2><p>Every corporation, church, and upscale neighborhood on the station has its own security.</p>",
+      "items": [
+        {
+          "id": "GYYdsMxVCbzAeFQE",
+          "expectedName": "Arc Pistol",
+          "name": "电弧手枪"
+        },
+        {
+          "id": "T8giafQCqA0ToXOG",
+          "expectedName": "Baton",
+          "name": "警棍"
+        },
+        {
+          "id": "EeAVRa14S2geX7k2",
+          "expectedName": "Estex Suit",
+          "name": "埃斯特克斯服装"
+        },
+        {
+          "id": "zcXZtRPZ8FREJwMg",
+          "expectedName": "Arc Pistol",
+          "name": "电弧手枪"
+        },
+        {
+          "id": "7FRD1afc9Dol0iIl",
+          "expectedName": "Baton",
+          "name": "警棍"
+        },
+        {
+          "id": "HARTgPh6BGmLTRak",
+          "expectedName": "Get Back!",
+          "name": "退后！"
+        },
+        {
+          "id": "tUNoXeISmbhGLZiB",
+          "expectedName": "License to Break Bones",
+          "name": "持证碎骨"
+        },
+        {
+          "id": "voKYub4QNXKZi8X6",
+          "expectedName": "Legal Lore",
+          "name": "法律学识"
+        }
+      ]
+    },
+    "4veMFvInbUyBcJNm": {
+      "name": "摩托艇"
+    },
+    "5OYZcNFkfTO8lGca": {
+      "name": "炸弹藤",
+      "publicNotes": "<p>炸弹藤是一种美丽但具有爆炸性的多肉植物，在协约世界的许多星舰上作为危险的乘客被发现。原产于卡斯卓韦的热带雨林，炸弹藤的爆炸性名称来源于其藤蔓上悬挂的微微发光的橙色豆荚。这些豆荚是为了防御卡斯卓韦的巨型掠食者而进化出来的防御机制，因为刺和藤蔓被证明是不够的威慑。由于植物的爆炸性豆荚直到完全成熟才会发育，炸弹藤看起来像其他无害的多肉植物（包括与之密切相关且无害的太阳藤），可能会被误认为是低维护的飞船绿化植物。许多园丁在它真正在他们面前爆炸之前，都没有意识到他们正在培育的危险。</p>\n<p>As the plant's explosive pods don't develop until full maturity, the string-of-bombs resembles other harmless succulents (including the closely related and harmless string-of-suns) and might be overlooked as low-maintenance ship greenery. Many gardeners remain unaware of the hazard they're cultivating until it literally blows up in their face.</p><hr /><h2>Infestations</h2><p>Invasive creatures plague Absalom Station and resist the most dedicated efforts to eliminate them. Whether lurking in the Ghost Levels or stowing away on starships, tenacious infestations are a constant problem in such a large and cosmopolitan station.</p>",
+      "items": [
+        {
+          "id": "eB4iFiBzOjlQyOoI",
+          "expectedName": "Volatile Pods",
+          "name": "不稳定豆荚"
+        },
+        {
+          "id": "mbdCRJc240AVDdne",
+          "expectedName": "Pod Panic",
+          "name": "豆荚恐慌"
+        },
+        {
+          "id": "Nw3fUtrEdRxoUani",
+          "expectedName": "Unruly Roots",
+          "name": "不羁之根"
+        }
+      ]
+    },
+    "6qjiEB0Fb0R8nAED": {
+      "name": "创业特工",
+      "publicNotes": "<p>自由职业的创业特工比坐办公室的企业员工承担更多风险。</p><hr /><h3>Corporate Assets</h3><p>Corporations hire and train special \"assets,\" or guards, to protect their interests.</p>",
+      "items": [
+        {
+          "id": "GWj4XNV9DQAvJTyj",
+          "expectedName": "Baton",
+          "name": "警棍"
+        },
+        {
+          "id": "Hhlc0x7g7GOy4fIK",
+          "expectedName": "Rotolaser",
+          "name": "转轮激光枪"
+        },
+        {
+          "id": "BajHn3BiX6FzyISs",
+          "expectedName": "Abadarcorp Travel Suit",
+          "name": "阿巴达尔集团旅行服装"
+        },
+        {
+          "id": "f8Dkr2Ih7p965C25",
+          "expectedName": "Baton",
+          "name": "警棍"
+        },
+        {
+          "id": "GXv0K7qJTrWJOcp8",
+          "expectedName": "Rotolaser",
+          "name": "转轮激光枪"
+        },
+        {
+          "id": "iDirEFrmRBAdEtW3",
+          "expectedName": "Rotolaser",
+          "name": "转轮激光枪"
+        },
+        {
+          "id": "1gA4noRhiuZo7lCS",
+          "expectedName": "Dirty Business",
+          "name": "肮脏勾当"
+        },
+        {
+          "id": "zuREpGFmFUwet4ZC",
+          "expectedName": "Tough Talker",
+          "name": "强硬谈判者"
+        },
+        {
+          "id": "X9PSSU1xuNgWMd8R",
+          "expectedName": "Corporate Lore",
+          "name": "企业学识"
+        }
+      ]
+    },
+    "7pMQSaf1vXZsiDVk": {
+      "name": "天空艇"
+    },
+    "7vppama47H9UstZB": {
+      "name": "高管保护特工",
+      "publicNotes": "<p>这些武装助理保护企业高管。</p><hr /><h3>Corporate Assets</h3><p>Corporations hire and train special \"assets,\" or guards, to protect their interests.</p>",
+      "items": [
+        {
+          "id": "v0fgttoJqct4sdXJ",
+          "expectedName": "Laser Pistol",
+          "name": "激光手枪"
+        },
+        {
+          "id": "QlJDOOaTeuyQVxIn",
+          "expectedName": "Assault Attaché Case",
+          "expectedDescription": "<p>A phase shield is an intricate but durable technological device often worn strapped to a limb or belt that projects a protective hardlight barrier when deployed. Phase shields are translucent and tinted, with a wide variety of fully customizable colors and image projectors. Many wielders choose an image of a favorite celebrity, loved one, or pleasant scenery to bolster their fighting spirit in a dire situation.</p>",
+          "description": "<p>绑在肢体上的相位盾是一种复杂但可靠的科技装置，他们在展开时会投射出保护性的光盾屏障。相位盾半透明且可以着色，拥有可以高度定制的色彩选项和图像投影。许多人会选择名人、爱人或者美景的图像投影，以在山穷水尽之时鼓舞士气。</p>"
+        },
+        {
+          "id": "7j5NiZL2EFtyhykY",
+          "expectedName": "Abadarcorp Travel Suit",
+          "name": "阿巴达尔集团旅行服装"
+        },
+        {
+          "id": "BSNfgQtd5zNxDu2S",
+          "expectedName": "Arc Pistol",
+          "name": "电弧手枪"
+        },
+        {
+          "id": "3QP1IMVO8iHZ3OUg",
+          "expectedName": "Laser Pistol",
+          "name": "激光手枪"
+        },
+        {
+          "id": "3koPB1SiG50M3H8j",
+          "expectedName": "Skilled Subduer",
+          "name": "熟练制服者",
+          "expectedDescription": "<p>The protection agent is an expert at minimizing collateral damage and taking foes alive for questioning. They can choose to add the nonlethal trait to their attacks without taking the –2 circumstance penalty.</p>",
+          "description": "<p>该保护特工是最大限度减少附带损害并活捉敌人进行审问的专家。他们可以选择在不承受-2环境减值的情况下为其攻击添加非致命特征。</p>"
+        },
+        {
+          "id": "LQXs1CeoUFPzpORk",
+          "expectedName": "Shield Block",
+          "name": "盾牌格挡"
+        },
+        {
+          "id": "XKIJ8qerrB3C6W60",
+          "expectedName": "Attaché Expert",
+          "name": "公文包专家"
+        },
+        {
+          "id": "lmfOg3aiLrDvY65w",
+          "expectedName": "Bodyguard's Shot",
+          "name": "保镖射击",
+          "expectedDescription": "<p>The agent's ranged Strikes deal an additional 2d6 precision damage if an ally of theirs is within 30 feet.</p>",
+          "description": "<p>如果特工的一名盟友在30尺内，其远程打击额外造成2d6精准伤害。</p>"
+        },
+        {
+          "id": "M1jpdgn14GE2xi5w",
+          "expectedName": "Corporate Lore",
+          "name": "企业学识"
+        }
+      ]
+    },
+    "8055yvw5H7ykFNsB": {
+      "items": [
+        {
+          "id": "erCOhUtckYctCU05",
+          "expectedName": "Hover",
+          "name": "悬浮"
+        }
+      ]
+    },
+    "80vCt0fhJvEqmaEp": {
+      "name": "掠浪艇"
+    },
+    "912gqYo8hMIpaq75": {
+      "name": "黑洞"
+    },
+    "9aA9Y0XDjCKh3DdW": {
+      "name": "悬浮滑板",
+      "items": [
+        {
+          "id": "G4rVP7ST3gSmfmeq",
+          "expectedName": "Hover",
+          "name": "悬浮"
+        }
+      ]
+    },
+    "CdetzaXWMajYsFaM": {
+      "name": "败蚁猎蚁",
+      "publicNotes": "<p>当败蚁的故事开始流传时，它们最初被视作阴森鬼祟的食腐者。待到寻求刺激的人开始为了取乐或研究而猎杀这些生物时，一种新型败蚁几乎在一夜之间出现了：败蚁猎蚁。与败蚁一群中体型较小的工蚁构件相比，猎蚁远为嗜血。它们不会从物件和地形中采撷微粒，而是强到足以从活物身上撕裂下大块的现实。</p><hr /><h2>Infestations</h2><p>Invasive creatures plague Absalom Station and resist the most dedicated efforts to eliminate them. Whether lurking in the Ghost Levels or stowing away on starships, tenacious infestations are a constant problem in such a large and cosmopolitan station.</p>",
+      "items": [
+        {
+          "id": "G2xLmJcEg4Z61FSW",
+          "expectedName": "Essence Rip",
+          "name": "撕扯精粹"
+        },
+        {
+          "id": "zlgskPvr5jXPhN2l",
+          "expectedName": "Mote Meal",
+          "name": "吞噬微粒"
+        }
+      ]
+    },
+    "EHW5Xg13F0U8RxbR": {
+      "items": [
+        {
+          "id": "x0vdjo018mcRyoPt",
+          "expectedName": "Hover",
+          "name": "悬浮"
+        }
+      ]
+    },
+    "F7myjrl77OB5K0lD": {
+      "items": [
+        {
+          "id": "D6xzbiBuHzLKy1aI",
+          "expectedName": "Force Field",
+          "name": "力场护盾"
+        }
+      ]
+    },
+    "Ff28vIs5fIVqefY2": {
+      "items": [
+        {
+          "id": "7NlXefjfn0RAVmrT",
+          "expectedName": "Drift Crash",
+          "name": "漂流崩溃"
+        }
+      ]
+    },
+    "IbD7Iy9gqwSiEmUx": {
+      "items": [
+        {
+          "id": "HUevG60qrY45gPjx",
+          "expectedName": "New Game",
+          "name": "开始游戏"
+        }
+      ]
+    },
+    "KLpOVxibZkkZlFZL": {
+      "items": [
+        {
+          "id": "50ZYgMqbf08JtukO",
+          "expectedName": "Auto-Fire",
+          "name": "自动射击"
+        }
+      ]
+    },
+    "KoD72XB1Iv5ntVZi": {
+      "name": "时间回锁"
+    },
+    "LW90AgREpCERQyNo": {
+      "items": [
+        {
+          "id": "ww58D0gKt2sPAK5X",
+          "expectedName": "Nanite",
+          "name": "纳米"
+        }
+      ]
+    },
+    "OqnB7YdmnVn8sAJo": {
+      "name": "鱼雷迷你潜艇"
+    },
+    "QNhmxvooLTWI8U51": {
+      "name": "星石哨兵",
+      "items": [
+        {
+          "id": "wEwecjGG7emipjDT",
+          "expectedName": "Divine Innate Spells",
+          "name": "神术内在法术"
+        },
+        {
+          "id": "Zk2OMaanuNUfnHmp",
+          "expectedName": "Speak with Computers (Constant)",
+          "expectedDescription": "<p>You can ask questions of and receive answers from the spirits inhabiting a computer. These synthetic spirits manifest within computer code and often have personalities colored by the nature of the device, its condition, and its applications and personalized settings. A computer's perspective, perception, and knowledge give it a worldview different enough from a human's that it doesn't consider the same details important. Computers can mostly answer questions about creatures that interfaced with them in the past and what information is concealed within their files.</p><hr /><p><strong>Heightened (6th)</strong> The duration is 8 hours.</p>",
+          "description": "<p>你可以向居住在电脑中的精魂提问，并从他们那里得到答案。这些合成灵魂会在计算机代码中显现，通常会因设备的性质、状态、应用和个性化设置而具有不同的个性。计算机的视角、感官和知识使它的世界观与人类的世界观大相径庭，以至于它认为某些细节并不重要。计算机能回答的大多数问题都与过去曾与它们互动的生物有关，还有它们的文件中隐藏的信息。</p><hr /><p><strong>升阶（6环）</strong>持续时间8小时。</p>"
+        },
+        {
+          "id": "iGnMvPSuNGatBH3k",
+          "expectedName": "Analyze Target",
+          "name": "分析目标",
+          "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+        },
+        {
+          "id": "W1SY3suyXYJ6YoE5",
+          "expectedName": "Detect Magic",
+          "name": "侦测魔法"
+        },
+        {
+          "id": "rP8KJvouXJK3R25J",
+          "expectedName": "Heal",
+          "name": "治疗术"
+        },
+        {
+          "id": "Kto8WiwV5la5vea2",
+          "expectedName": "Mending",
+          "name": "修复术"
+        },
+        {
+          "id": "E5TOf71hDj3HvHds",
+          "expectedName": "Prestidigitation",
+          "name": "魔法伎俩"
+        },
+        {
+          "id": "8igvMOCTQHX9rMzm",
+          "expectedName": "Sanctified Comms",
+          "name": "受祝通讯",
+          "expectedDescription": "<p>Special comms allow the Starstone sentry to speak over any distance with any other Starstone construct, as long as both they and their target are on Absalom Station.</p>",
+          "description": "<p>特殊的通讯器允许星石哨兵与任何其他星石构装体进行任意距离的通话，只要它们和其通话目标都位于艾巴萨罗姆空间站上。</p>"
+        },
+        {
+          "id": "dDp5L9ULNIq5gwdI",
+          "expectedName": "Constant Spells",
+          "name": "常驻法术"
+        },
+        {
+          "id": "dRRFsmRtgkUcVQRg",
+          "expectedName": "Aura of Stability",
+          "name": "稳定灵光",
+          "expectedDescription": "<p>30 feet. Any creatures or objects within the aura, chosen by the Starstone sentry, reduce the DC the flat check for the @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd] condition by 2.</p>",
+          "description": "<p>（灵光，神术） 30尺。灵光范围内任何被星石哨兵选定的生物或物体，其@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]状态的纯骰检定DC降低2。</p>"
+        },
+        {
+          "id": "1w1PwroNt7N9b0dJ",
+          "expectedName": "Maintenance Catechism",
+          "name": "维护规程",
+          "expectedDescription": "<p>The Starstone sentry forms an integrated tool from its crystalline arms: a hacking tool, maker's toolkit, or repair toolkit. The item lasts for 24 hours, until the Starstone sentry chooses to end it as a free action, or until it uses Maintenance Catechism again.</p>",
+          "description": "<p>（神术，操作） 星石哨兵的水晶手臂形成一件集成工具：一件黑客工具，创客工具包，或修理工具包。物品持续24小时，直到星石哨兵选择以一个自由动作结束它，或直到其再次使用维护规程。</p>"
+        }
+      ]
+    },
+    "QVdhSITToMwObJHR": {
+      "name": "暴徒",
+      "publicNotes": "<p>暴徒是低级帮派成员，充当更强大罪犯的望风者、信使或打手。哪里有一个暴徒，附近肯定还有更多。</p><hr /><h2>Gangsters</h2><p>Criminal guilds, crime families, protection rackets, and loan sharks are just a few of the many types of gangs in Absalom Station. Gangs are highly localized, predatory, and extremely territorial. Members join for different reasons, but most find that once they're in a gang, there's no easy way out.</p>\n<p>Gangsters always have hustles, criminal industries they use to make money, but most also operate protection rackets as a matter of course. Business owners within a gang's territory (or worse, in the overlapping territories of more than one gang) can expect to pay regularly or risk severe consequences.</p>",
+      "items": [
+        {
+          "id": "q9kzTBqIoeIctBPy",
+          "expectedName": "Frag Grenade (Commercial)",
+          "name": "商用型破片手雷",
+          "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> @Damage[1[bleed]]</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deal 1d8 piercing damage in a @Template[burst|distance:5] with a @Check[reflex|against:class|basic] save.</p>",
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1[bleed]]</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deal 1d8 piercing damage in a @Template[burst|distance:5] with a @Check[reflex|against:class|basic] save.</p>"
+        },
+        {
+          "id": "yMvzsDmAa0p0uSiZ",
+          "expectedName": "Scattergun",
+          "name": "霰弹枪"
+        },
+        {
+          "id": "fLputZyMwVRagPVS",
+          "expectedName": "Armored Coat",
+          "name": "衬甲外套"
+        },
+        {
+          "id": "Y9lEKhCRFOixO67v",
+          "expectedName": "Frag Grenade (Commercial)",
+          "name": "商用型破片手雷"
+        },
+        {
+          "id": "RSkcTougp0Tf9Jzz",
+          "expectedName": "Scattergun",
+          "name": "霰弹枪"
+        },
+        {
+          "id": "AsLarsqLCGoSK1un",
+          "expectedName": "Home Turf",
+          "name": "主场优势"
+        },
+        {
+          "id": "5Y7XSodczFxRVxpe",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        },
+        {
+          "id": "F7QEyBqqyXOWlFsK",
+          "expectedName": "Pile On",
+          "name": "一拥而上"
+        }
+      ]
+    },
+    "RTOFL1xhDDaCAwLT": {
+      "name": "量子克隆体"
+    },
+    "TdLUj5eeEJ6MtZNl": {
+      "name": "奇术胞",
+      "items": [
+        {
+          "id": "H2t036OHb17AVsNV",
+          "expectedName": "Motion Sense",
+          "name": "运动感知",
+          "expectedDescription": "<p>A thaumacyte can sense nearby creatures through vibration and air or water movement.</p>",
+          "description": "<p>奇术胞能在所列范围内以模糊感官通过空气或水中因生物移动产生的震动感知附近生物。</p>"
+        },
+        {
+          "id": "yCTFlxWU7BE6aGwU",
+          "expectedName": "No Breath",
+          "name": "无需呼吸"
+        },
+        {
+          "id": "dTTpmAwbDjSf5NzK",
+          "expectedName": "Spell Membrane",
+          "name": "法术外膜"
+        },
+        {
+          "id": "f7OI02DuLo4BSwhN",
+          "expectedName": "Thaumogen Haze",
+          "name": "奇气雾霭"
+        },
+        {
+          "id": "7fMWfNfPACa3J4vk",
+          "expectedName": "Magic Discharge",
+          "name": "魔力释放"
+        }
+      ]
+    },
+    "UmMqYpQxsvXHee8N": {
+      "name": "空投舱"
+    },
+    "UoHLshDZHt3RacNq": {
+      "name": "赏金猎人",
+      "publicNotes": "<p>无论是追捕逃犯、逃跑的债务人还是浪子继承人，赏金猎人只要钱到位就会无情地追逐猎物。虽然许多目标被通缉“不论死活”，或者干脆就是“死”，但下方的猎人擅长使用其磁力绳球和电击武器将目标活捉回来。</p><h2>Mercenaries</h2><p>So long as the almighty credit can buy power, safety, and comfort, it can also be used to buy violence from the desperate, irrational, and unsentimental. Absalom Station is home to countless mercenary companies and freelance soldiers-for-hire, all eagerly offering their services to the highest bidder.</p>\n<p>Some mercs have a moral code or sense of honor that limits what contracts they accept, and Absalom law strictly limits what jobs a paramilitary company can hand out to its members. Of course, this doesn't stop a festering underbelly of wetwork and worse from blooming in the darker reaches of the station, if one knows where to look.</p>\n<p>Mercenaries aren't always operatives or soldiers. Sometimes they're cunning spellcasters, powerful solarians, or treacherous envoys. Bounty hunters are one of the most common class of merc hanging around the station. The bounty hunter below is an example of an elite foe tracking down dangerous outlaws, but the statistics for gangsters can stand in for lower-level mercenaries.</p>",
+      "items": [
+        {
+          "id": "VEwjzuxCgeYJUHeo",
+          "expectedName": "Flash Grenade (Tactical)",
+          "name": "战术型闪光手雷",
+          "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 2 rounds</p><hr /><p>A flash grenade unleashes a blast of bright light that requires creatures in a @Template[burst|distance:10] to attempt a @Check[fortitude|against:class] save. On a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>",
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]2轮</p><hr /><p>闪光手雷会释放出一阵刺眼的光芒，要求@Template[burst|distance:10]范围内的生物进行@Check[fortitude|against:class]豁免。豁免失败时，该生物@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]1轮。</p>"
+        },
+        {
+          "id": "hvakJgGyLeRqxAu9",
+          "expectedName": "Pulse Gauntlet",
+          "name": "脉冲护手"
+        },
+        {
+          "id": "V8Ve6kQflmrhQUh5",
+          "expectedName": "Pulsecaster Pistol",
+          "name": "脉冲手枪"
+        },
+        {
+          "id": "JhAB5Br07g07YthH",
+          "expectedName": "Deflecting Field",
+          "name": "偏斜力场",
+          "expectedDescription": "<p>This shield isn't held—instead, it's installed as an armor or weapon upgrade. A deflecting field appears as a translucent panel integrated into the upgraded item and creates a temporary protective hardlight barrier when activated.</p>",
+          "description": "<p>这种盾牌并非需要持握——它会作为升级模块被安装在护甲或武器内。偏斜力场看起来如同一个集成到被升级的物品中的半透明面板，并在激活时创造出一个临时的保护性光盾。</p>"
+        },
+        {
+          "id": "QXkrfWEXzhXJBLtO",
+          "expectedName": "Hidden Soldier Armor",
+          "name": "隐匿士兵护甲"
+        },
+        {
+          "id": "v8K06obIEzZdY4Ot",
+          "expectedName": "Flash Grenade",
+          "name": "闪光手雷"
+        },
+        {
+          "id": "k6nXtDsvQF65Mq1V",
+          "expectedName": "Pulse Gauntlet",
+          "name": "脉冲护手"
+        },
+        {
+          "id": "jviSrvuAsXU8FQYo",
+          "expectedName": "Pulsecaster Pistol",
+          "name": "脉冲手枪"
+        },
+        {
+          "id": "DSKLDbuJc2B4i9DG",
+          "expectedName": "Not So Fast",
+          "name": "别那么快"
+        },
+        {
+          "id": "e4CkxnO6et9lDgbm",
+          "expectedName": "Shield Block",
+          "name": "盾牌格挡"
+        },
+        {
+          "id": "dBUYgBiKNoptvmHG",
+          "expectedName": "Gauntlet Flamethrower",
+          "name": "护手喷火器"
+        },
+        {
+          "id": "yIzC97Ebh84iKreZ",
+          "expectedName": "Magnet Trap",
+          "name": "磁力陷阱"
+        },
+        {
+          "id": "YxgmN0lDu5vwuGJp",
+          "expectedName": "Oppressive Presence",
+          "name": "威压风度"
+        }
+      ]
+    },
+    "WVdMD7qc47Hlx1EP": {
+      "items": [
+        {
+          "id": "qYQW73Zohx2n4QwZ",
+          "expectedName": "Hover",
+          "name": "悬浮"
+        }
+      ]
+    },
+    "WzwN4v7h1ea2pLsr": {
+      "name": "监视法师",
+      "publicNotes": "<p>监视法师是一名隐秘操作者，能让任何企业外勤团队或安全团队成为令人生畏的力量。</p><hr /><h3>Corporate Assets</h3><p>Corporations hire and train special \"assets,\" or guards, to protect their interests.</p>",
+      "items": [
+        {
+          "id": "8ViXzpaYosF2k7Yo",
+          "expectedName": "Planar Seal",
+          "name": "次元封固"
+        },
+        {
+          "id": "XuAtDMZMG3SLWzUI",
+          "expectedName": "Retrocognition",
+          "name": "回溯过去"
+        },
+        {
+          "id": "l1h4NZO2wRGAt15K",
+          "expectedName": "True Target",
+          "name": "洞烛机先"
+        },
+        {
+          "id": "VV6F9zT5K1d29NnH",
+          "expectedName": "Truesight",
+          "name": "真景术"
+        },
+        {
+          "id": "SLgeLLv7B0qzkKbj",
+          "expectedName": "Control Machine",
+          "name": "控制机器",
+          "expectedDescription": "<p>You take control of a technological creature or object and command it telepathically. If you issue an obviously self-destructive order to a sapient target, the target doesn't act until you issue a new order. The effect depends on its Will save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} as it fights off your commands.</p>\n<p><strong>Failure</strong> You control the target. It gains the controlled condition, but it can attempt a Will save at the end of each of its turns. On a success, the spell ends.</p>\n<p><strong>Critical Failure</strong> As a failure, but the target receives a new save only if it's sapient and you give it a new order that's against its nature, such as killing its allies.</p><hr /><p><strong>Heightened (10th)</strong> The duration is unlimited.</p>",
+          "description": "<p>你可以控制一个科技特征的生物或物体，并以心灵感应的方式命令它。如果你向有生命的目标发出明显的自毁命令，该目标在你发出新命令之前不会行动。效果取决于其意志豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标因为要抵抗你的命令而@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。</p>\n<p><strong>失败</strong>你控制了目标。目标将获得被控制状态，但可以在每个回合结束时尝试意志豁免。成功后，法术结束。</p>\n<p><strong>大失败</strong>与失败相同，但只有智慧目标，并且你给它下达了违背其本性的新命令（例如杀死它的盟友）时，才能进行新的意志豁免。</p><hr /><p><strong>升阶（10阶）</strong>持续时间不受限制。</p>"
+        },
+        {
+          "id": "JvXJWLd4eZeeOnzA",
+          "expectedName": "False Vision",
+          "name": "虚假景象"
+        },
+        {
+          "id": "rfvTKVk7rKsagKEP",
+          "expectedName": "Illusory Scene",
+          "name": "幻象场景"
+        },
+        {
+          "id": "evQRt1xcXj8yEdNr",
+          "expectedName": "Scouting Eye",
+          "name": "探视魔眼"
+        },
+        {
+          "id": "17U8kRtfMH86mhpy",
+          "expectedName": "Clairvoyance",
+          "name": "鹰眼术"
+        },
+        {
+          "id": "5EhcEr3flZXvAPp3",
+          "expectedName": "Planar Tether",
+          "name": "次元拴绳"
+        },
+        {
+          "id": "beQTaTY7A6AcWvd1",
+          "expectedName": "Speak with Computers",
+          "name": "计算机交谈",
+          "expectedDescription": "<p>You can ask questions of and receive answers from the spirits inhabiting a computer. These synthetic spirits manifest within computer code and often have personalities colored by the nature of the device, its condition, and its applications and personalized settings. A computer's perspective, perception, and knowledge give it a worldview different enough from a human's that it doesn't consider the same details important. Computers can mostly answer questions about creatures that interfaced with them in the past and what information is concealed within their files.</p><hr /><p><strong>Heightened (6th)</strong> The duration is 8 hours.</p>",
+          "description": "<p>你可以向居住在电脑中的精魂提问，并从他们那里得到答案。这些合成灵魂会在计算机代码中显现，通常会因设备的性质、状态、应用和个性化设置而具有不同的个性。计算机的视角、感官和知识使它的世界观与人类的世界观大相径庭，以至于它认为某些细节并不重要。计算机能回答的大多数问题都与过去曾与它们互动的生物有关，还有它们的文件中隐藏的信息。</p><hr /><p><strong>升阶（6环）</strong>持续时间8小时。</p>"
+        },
+        {
+          "id": "MZI0VPIl6XseTd13",
+          "expectedName": "Telepathy",
+          "name": "心灵感应"
+        },
+        {
+          "id": "kXK5e7suNZRsyW07",
+          "expectedName": "Translocate",
+          "name": "次元移位"
+        },
+        {
+          "id": "8BdKeCWL0mNM4IfD",
+          "expectedName": "Blindness",
+          "name": "目盲术"
+        },
+        {
+          "id": "ACeC69YhVehj5bFp",
+          "expectedName": "Clairaudience",
+          "name": "锐耳术"
+        },
+        {
+          "id": "OLQ83xGtQayKqc7P",
+          "expectedName": "Selective Invisibility",
+          "name": "选择性隐形",
+          "expectedDescription": "<p>A willing creature you touch becomes @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} to everyone except a second target within the spell's range. If the invisible creature uses a hostile action against anyone who isn't the target that can see them, the spell ends after that hostile action is completed.</p><hr /><p><strong>Heightened (5th)</strong> You can make up to 6 willing creatures within 30 feet invisible, but they all must have the same target.</p>",
+          "description": "<p>一个你接触的自愿生物对除射程内第二目标以外的人@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]。如果隐形生物对目标以外的任何人使用敌对行动，该敌对行动结束后，法术也随之结束。</p><hr /><p><strong>升阶（5环）</strong>你可以让30尺内最多6个自愿生物隐形，但他们的目标必须是同一人。</p>"
+        },
+        {
+          "id": "rdSkJE7AJcM9gv9L",
+          "expectedName": "Slow",
+          "name": "缓慢术"
+        },
+        {
+          "id": "o5PKlif0yYkxIjKO",
+          "expectedName": "Veil of Privacy",
+          "name": "回避帷幕"
+        },
+        {
+          "id": "GfuWZXkmRGEsmoC5",
+          "expectedName": "Blur",
+          "name": "朦胧术"
+        },
+        {
+          "id": "41n164wG1OIihVUG",
+          "expectedName": "Knock",
+          "name": "敲击术"
+        },
+        {
+          "id": "U1eHZgC0Hc423pBh",
+          "expectedName": "Revealing Light",
+          "name": "显光尘"
+        },
+        {
+          "id": "aeH1duZcflWhi1lX",
+          "expectedName": "Alarm",
+          "name": "警报术"
+        },
+        {
+          "id": "0QgFNnFbM1bfIeIG",
+          "expectedName": "Analyze Target",
+          "name": "分析目标",
+          "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+        },
+        {
+          "id": "oTCaU8g8uO9exijn",
+          "expectedName": "Detect Magic",
+          "name": "侦测魔法"
+        },
+        {
+          "id": "Nl152SxV8qH08vDV",
+          "expectedName": "Electric Arc",
+          "name": "电弧击"
+        },
+        {
+          "id": "cyceW12x8Dk8raf8",
+          "expectedName": "Fleet Step",
+          "name": "快速移动"
+        },
+        {
+          "id": "lNUnLt1WtTWXo4VU",
+          "expectedName": "Illusory Disguise",
+          "name": "幻象伪装"
+        },
+        {
+          "id": "lkSa8SShzEHVEIGZ",
+          "expectedName": "Implant Data",
+          "name": "植入数据",
+          "expectedDescription": "<p>You reprogram a computer or device to display a chosen piece of data when accessed. You can implant up to one piece of data per spell rank. A piece of data can be a simple fact, such as a creature or object's location or physical description; an image of a creature or object; or a simple statement of no more than 300 characters. When the target computer or device is accessed, this implanted data is the first data the accessing creature gains, regardless of what data the creature is looking for. Implanted data doesn't prevent a creature from accessing other information stored on a device, change how the device functions, or otherwise inhibit the device from functioning. If this spell's duration ends before a creature accesses the implanted data, the information vanishes.</p><hr /><p><strong>Heightened (3rd)</strong> The duration is one year.</p>\n<p><strong>Heightened (6th)</strong> The duration is unlimited.</p>",
+          "description": "<p>You reprogram a computer or device to display a chosen piece of data when accessed. You can implant up to one piece of data per spell rank. A piece of data can be a simple fact, such as a creature or object's location or physical description; an image of a creature or object; or a simple statement of no more than 300 characters. When the target computer or device is accessed, this implanted data is the first data the accessing creature gains, regardless of what data the creature is looking for. Implanted data doesn't prevent a creature from accessing other information stored on a device, change how the device functions, or otherwise inhibit the device from functioning. If this spell's duration ends before a creature accesses the implanted data, the information vanishes.</p><hr /><p><strong>升阶（3环）</strong>持续时间为一年。</p>\n<p><strong>升阶（6环）</strong>持续时间为无限。</p>"
+        },
+        {
+          "id": "lRdAjYWa5a6bO36g",
+          "expectedName": "Mindlink",
+          "name": "讯息传递"
+        },
+        {
+          "id": "Vfda558XkjdVtJnC",
+          "expectedName": "Read Aura",
+          "name": "阅读灵光"
+        },
+        {
+          "id": "esKeY9qqoWLxJ20u",
+          "expectedName": "Sure Strike",
+          "name": "料敌机先"
+        },
+        {
+          "id": "6mpTyiY41DEZh05Z",
+          "expectedName": "Laser Pistol",
+          "name": "激光手枪"
+        },
+        {
+          "id": "Uysr8DFYALSILlau",
+          "expectedName": "Nano-edge Rapier",
+          "name": "纳米锋刃刺剑"
+        },
+        {
+          "id": "9SFlvXZjpyOdBgrC",
+          "expectedName": "Tempweave",
+          "name": "保温织服"
+        },
+        {
+          "id": "GbnjQCYI3bRhHDqP",
+          "expectedName": "Darkvision Capacitors (Tactical)",
+          "name": "战术型黑视电容义眼",
+          "expectedDescription": "<p>These replacement cybernetic eyes grant you darkvision. Darkvision capacitors operate by emitting low-powered ultraviolet lasers that receptors in the capacitors can detect. These lasers are visible to creatures that can see on the ultraviolet light spectrum.</p>\n<p>These upgraded capacitors include a wide-spectrum ocular implant that allows you to see infrared and ultraviolet light, including the lasers from other darkvision capacitors. You gain darkvision and a +2 item bonus to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} if they involve sight.</p>",
+          "description": "<p>这种替换的机械眼能给予你黑暗视觉。黑视电容型义眼的运作原理是发射低功率的紫外光激光，并透过义眼中的感受器来侦测这些雷射。能看见紫外光的生物可以侦测到这些激光。</p>\n<p>These upgraded capacitors include a wide-spectrum ocular implant that allows you to see infrared and ultraviolet light, including the lasers from other darkvision capacitors. You gain darkvision and a +2 item bonus to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} if they involve sight.</p>"
+        },
+        {
+          "id": "npKerVDSt7HFERgb",
+          "expectedName": "Hacking Toolkit (Advanced)",
+          "name": "先进型黑客工具包"
+        },
+        {
+          "id": "nPNmOv2ZUZoRNdFU",
+          "expectedName": "Nano-Optics Node",
+          "name": "纳米光学节点",
+          "expectedDescription": "<p>A crystalline nanocarbon node implanted in your occipital lobe connects to optic nerves by microscopic fibers. You can activate the node to overlay your normal vision with X-ray data. You can deactivate the overlay as a single action, which has the concentrate trait.</p>\n<p><strong>Activate—X-Ray Overlay</strong> <span class=\"action-glyph\">1</span> (concentrate)</p><hr /><p><strong>Effect</strong> Your nano-optics node relays collected X-ray data directly to your eyes, overlaying your normal vision. You can see through most materials and walls within 60 feet. Your sight is blocked by 2 feet of wood or plastic, 1 foot of stone, 2 inches of common metal, or any amount of lead or any starmetal, and you can only see in black and white. Due to the distracting amount of visual information, you take a –2 circumstance penalty to Perception checks while the overlay is active.</p>",
+          "description": "<p>植入枕叶中的纳米碳结晶节点透过极细的光学纤维与你的视神经相连。你可以启动此节点，用X光数据覆盖你的正常视觉。你可以用单动作解除此视觉覆盖，此动作带有专注特征。</p>\n<p><strong>Activate—X-Ray Overlay</strong> <span class=\"action-glyph\">1</span> (concentrate)</p><hr /><p><strong>Effect</strong> Your nano-optics node relays collected X-ray data directly to your eyes, overlaying your normal vision. You can see through most materials and walls within 60 feet. Your sight is blocked by 2 feet of wood or plastic, 1 foot of stone, 2 inches of common metal, or any amount of lead or any starmetal, and you can only see in black and white. Due to the distracting amount of visual information, you take a –2 circumstance penalty to Perception checks while the overlay is active.</p>"
+        },
+        {
+          "id": "EzGUfSFRVQrOdJBX",
+          "expectedName": "Nano-edge Rapier",
+          "name": "纳米锋刃刺剑"
+        },
+        {
+          "id": "kWRUEzKwMYfYeamp",
+          "expectedName": "Laser Pistol",
+          "name": "激光手枪"
+        },
+        {
+          "id": "XEAZhvLA3fLnGvrB",
+          "expectedName": "Elusive Shot",
+          "name": "莫测射击"
+        },
+        {
+          "id": "rdY1KA7eVmbdqD46",
+          "expectedName": "Eyes on You",
+          "name": "盯上你了"
+        },
+        {
+          "id": "47rPbzDlQBUVAt0h",
+          "expectedName": "Spotter",
+          "name": "观察员"
+        },
+        {
+          "id": "kQW66R85mxYCfoAB",
+          "expectedName": "There You Are!",
+          "name": "你在这儿！"
+        }
+      ]
+    },
+    "Xn0UuVUodsBlGPZe": {
+      "name": "巡逻飞艇"
+    },
+    "aCYxSC8ddmzyivVl": {
+      "name": "引力子刺客",
+      "publicNotes": "<p>有人说当你凝视虚空时，虚空也凝视着你。但那些引导虚空的人呢？</p>\n<p>Assassins for hire tend to be cold pragmatists who might do anything for the right price, but many have their own strange philosophies or belong to obscure cults and religious sects. Deities popular with professional killers include the nihilistic Devourer and cunning Lao Shu Po. Some solarians, like the one below, justify their assassinations as a part of the Cycle necessary to balance the Universe.</p><h2>Mercenaries</h2><p>So long as the almighty credit can buy power, safety, and comfort, it can also be used to buy violence from the desperate, irrational, and unsentimental. Absalom Station is home to countless mercenary companies and freelance soldiers-for-hire, all eagerly offering their services to the highest bidder.</p>\n<p>Some mercs have a moral code or sense of honor that limits what contracts they accept, and Absalom law strictly limits what jobs a paramilitary company can hand out to its members. Of course, this doesn't stop a festering underbelly of wetwork and worse from blooming in the darker reaches of the station, if one knows where to look.</p>\n<p>Mercenaries aren't always operatives or soldiers. Sometimes they're cunning spellcasters, powerful solarians, or treacherous envoys. Bounty hunters are one of the most common class of merc hanging around the station. The bounty hunter below is an example of an elite foe tracking down dangerous outlaws, but the statistics for gangsters can stand in for lower-level mercenaries.</p>",
+      "items": [
+        {
+          "id": "eCRiOLrZOim7sFij",
+          "expectedName": "Shotalashu Armor",
+          "name": "念力巨蜥护甲"
+        },
+        {
+          "id": "MyE86tnJIA0uFURB",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        },
+        {
+          "id": "MMmPTudeWeT4uh23",
+          "expectedName": "Black Hole",
+          "name": "黑洞"
+        },
+        {
+          "id": "Fg2EzXS1YUQwPca2",
+          "expectedName": "Constrictive Gravity",
+          "name": "引力收缩"
+        },
+        {
+          "id": "rH0sP7cXutzVHoKT",
+          "expectedName": "Eclipse Swing",
+          "name": "日蚀挥击"
+        }
+      ]
+    },
+    "c2rqhARro9iIj8up": {
+      "name": "太空地精垃圾佬",
+      "publicNotes": "<p>太空地精垃圾佬潜伏在废铁场（Botscrap）的垃圾场、火花街（Sparks）的工程舱或管道镇（Pipetown）的蜿蜒迷宫中。他们对创造的热爱，与他们对毁灭的造诣不相上下，其中一些地精组成垃圾强盗帮，偷走大而闪亮的科技部件。这些被盗科技随后成为他们谋划建造的下一个科技奇迹的核心部件。</p><h2>Space Goblins</h2><p>Goblins are relatively common throughout Absalom Station. Their love of cramped, dark places makes the back alleys and pipelines of the station exceptionally appealing to them. Many goblins are content to live among the populace as merchants, artisans, and cartoonists (with a growing number of goblin publishing houses producing wordless and individualistic \"gobbo-comix\"), but other goblins have a tendency to make trouble. Some of these tricky troublemakers cause blackouts, fires, and even-greater problems throughout Absalom Station.</p>",
+      "items": [
+        {
+          "id": "6Vp7sgZJCFVtVlMP",
+          "expectedName": "Dogslicer",
+          "name": "屠狗刀"
+        },
+        {
+          "id": "vR8NZyqkRNND4MsT",
+          "expectedName": "Breaching Gun",
+          "name": "破障枪"
+        },
+        {
+          "id": "Lg0Gnexf3qQa5gPh",
+          "expectedName": "Frag Grenade (Commercial)",
+          "name": "商用型破片手雷",
+          "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> @Damage[1[bleed]]</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deal 1d8 piercing damage in a @Template[burst|distance:5] with a @Check[reflex|against:class|basic] save.</p>",
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1[bleed]]</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deal 1d8 piercing damage in a @Template[burst|distance:5] with a @Check[reflex|against:class|basic] save.</p>"
+        },
+        {
+          "id": "qgL4P0edWnVokyvP",
+          "expectedName": "Dogslicer",
+          "name": "屠狗刀"
+        },
+        {
+          "id": "D1gnHFbcnqa4rFsp",
+          "expectedName": "Frag Grenade",
+          "name": "破片手雷"
+        },
+        {
+          "id": "xXVr2w5CVT4phZjU",
+          "expectedName": "Breaching Gun",
+          "name": "破障枪"
+        },
+        {
+          "id": "h5TdSBw2ba7AFjq7",
+          "expectedName": "Goblin Scuttle",
+          "name": "地精疾走"
+        },
+        {
+          "id": "Z76Wf9lb8y1CQZKr",
+          "expectedName": "Gnash Gnash Gnash",
+          "name": "咬咬咬"
+        },
+        {
+          "id": "ukUIRtPcc4TBexG3",
+          "expectedName": "I Made It Better!",
+          "name": "我把它改得更好了！"
+        }
+      ]
+    },
+    "eUalXSohKGtlHvKr": {
+      "name": "星石守卫",
+      "items": [
+        {
+          "id": "5g0Dtym2B2FyFBQ8",
+          "expectedName": "Divine Innate Spells",
+          "name": "神术内在法术"
+        },
+        {
+          "id": "N8UOKroQJOH8DNIS",
+          "expectedName": "Sending",
+          "name": "短讯术"
+        },
+        {
+          "id": "sdT76zOHQDtXJ06O",
+          "expectedName": "Speak with Computers (Constant)",
+          "expectedDescription": "<p>You can ask questions of and receive answers from the spirits inhabiting a computer. These synthetic spirits manifest within computer code and often have personalities colored by the nature of the device, its condition, and its applications and personalized settings. A computer's perspective, perception, and knowledge give it a worldview different enough from a human's that it doesn't consider the same details important. Computers can mostly answer questions about creatures that interfaced with them in the past and what information is concealed within their files.</p><hr /><p><strong>Heightened (6th)</strong> The duration is 8 hours.</p>",
+          "description": "<p>你可以向居住在电脑中的精魂提问，并从他们那里得到答案。这些合成灵魂会在计算机代码中显现，通常会因设备的性质、状态、应用和个性化设置而具有不同的个性。计算机的视角、感官和知识使它的世界观与人类的世界观大相径庭，以至于它认为某些细节并不重要。计算机能回答的大多数问题都与过去曾与它们互动的生物有关，还有它们的文件中隐藏的信息。</p><hr /><p><strong>升阶（6环）</strong>持续时间8小时。</p>"
+        },
+        {
+          "id": "yNw7EahIHSj9mlbC",
+          "expectedName": "Analyze Target",
+          "name": "分析目标",
+          "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+        },
+        {
+          "id": "CySv9JlON0Frt32T",
+          "expectedName": "Detect Magic",
+          "name": "侦测魔法"
+        },
+        {
+          "id": "oKXTDiS0TgUpijXa",
+          "expectedName": "Heal",
+          "name": "治疗术"
+        },
+        {
+          "id": "tHvhTfXALbb00PpN",
+          "expectedName": "Mending",
+          "name": "修复术"
+        },
+        {
+          "id": "zvCcuaRStQX3S5GI",
+          "expectedName": "Prestidigitation",
+          "name": "魔法伎俩"
+        },
+        {
+          "id": "PvyfMvjusN6xJMo3",
+          "expectedName": "Integrated Advanced Riot Shield",
+          "expectedDescription": "<p>Riot shields are constructed from sheets of transparent aluminum reinforced with nanocarbon panels layered over polymers or resins. These sleek but sturdy shields are designed to protect most of the wielder's body when raised while allowing them to march in tight tactical formations. Sometimes they're transparent to allow inexperienced wielders to see the other side while the shield is raised, but most experienced warriors have no problem seeing around these shields, and the transparent material quickly becomes too scuffed to see through after a few hits.</p>",
+          "description": "<p>镇暴盾用透明铝板制成，以分层的纳米碳纤维板进行加固，在其间填充有聚合物和树脂。这些流线型而坚固的盾牌在举起时能保护持用者大部分身体，同时允许其在密集战术队形中行进。有时候它们透明的盾身便于新手在举盾时观察前方，但资深战士通常无需这样做，而且透明材质被几次命中后便会过度磨损难以看透。</p>"
+        },
+        {
+          "id": "Td06uuYvDwVNicVt",
+          "expectedName": "Sanctified Comms",
+          "name": "受祝通讯"
+        },
+        {
+          "id": "CTUMeRJhKSFQi6xX",
+          "expectedName": "Aura of Stability",
+          "name": "稳定灵光",
+          "expectedDescription": "<p>60 feet. Any creatures or objects within the aura, chosen by the Starstone sentry, reduce the DC the flat check for the @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd] condition by 4.</p>",
+          "description": "<p>（灵光，神术） 60尺。同星石哨兵，但减少4点@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]纯骰检定DC。</p>"
+        },
+        {
+          "id": "jlFjQ7akXHD7yUWS",
+          "expectedName": "Shield Block",
+          "name": "盾牌格挡"
+        },
+        {
+          "id": "54aC5HTHiQVbBq7c",
+          "expectedName": "Farstep Assault",
+          "name": "远步突袭",
+          "expectedDescription": "<p>The Starstone guardian teleports to an unoccupied space within 60 feet. It can make a projected blade or crystal laser Strike before or after teleporting.</p>",
+          "description": "<p>（传送） 星石守卫传送至60尺内一处未被占据的空间。它在传送前或传送后进行一次投射刀刃或水晶激光打击。</p>"
+        }
+      ]
+    },
+    "epV8z1LMMwqgW7bz": {
+      "name": "太空地精喷子",
+      "publicNotes": "<p>一些精通科技的施法者喜欢“刷屏”：使用他们的魔法在信息圈上惹恼人们直至暴怒。一些人也学会了在现实生活中喷人。</p><h2>Space Goblins</h2><p>Goblins are relatively common throughout Absalom Station. Their love of cramped, dark places makes the back alleys and pipelines of the station exceptionally appealing to them. Many goblins are content to live among the populace as merchants, artisans, and cartoonists (with a growing number of goblin publishing houses producing wordless and individualistic \"gobbo-comix\"), but other goblins have a tendency to make trouble. Some of these tricky troublemakers cause blackouts, fires, and even-greater problems throughout Absalom Station.</p>",
+      "items": [
+        {
+          "id": "krHi367F5WKAnj5r",
+          "expectedName": "Arcane Prepared Spells",
+          "name": "奥术准备法术"
+        },
+        {
+          "id": "blCUZA1qRkvsWbac",
+          "expectedName": "Speak with Computers",
+          "name": "计算机交谈",
+          "expectedDescription": "<p>You can ask questions of and receive answers from the spirits inhabiting a computer. These synthetic spirits manifest within computer code and often have personalities colored by the nature of the device, its condition, and its applications and personalized settings. A computer's perspective, perception, and knowledge give it a worldview different enough from a human's that it doesn't consider the same details important. Computers can mostly answer questions about creatures that interfaced with them in the past and what information is concealed within their files.</p><hr /><p><strong>Heightened (6th)</strong> The duration is 8 hours.</p>",
+          "description": "<p>你可以向居住在电脑中的精魂提问，并从他们那里得到答案。这些合成灵魂会在计算机代码中显现，通常会因设备的性质、状态、应用和个性化设置而具有不同的个性。计算机的视角、感官和知识使它的世界观与人类的世界观大相径庭，以至于它认为某些细节并不重要。计算机能回答的大多数问题都与过去曾与它们互动的生物有关，还有它们的文件中隐藏的信息。</p><hr /><p><strong>升阶（6环）</strong>持续时间8小时。</p>"
+        },
+        {
+          "id": "vTMEH30isbuHsSqr",
+          "expectedName": "Discharge",
+          "name": "断电术"
+        },
+        {
+          "id": "JPfKuIyoYHDncmXw",
+          "expectedName": "Electrotether",
+          "name": "闪电枷锁",
+          "expectedDescription": "<p>You supercharge the targets' electromagnetism and pull them with a tether of lightning. Make a ranged spell attack against each target. If you attack two targets, both attacks count toward your multiple attack penalty, but it doesn't increase until after both attacks. The targets each take 4d8 electricity damage and are pulled 5 feet closer to you, or 10 feet closer on a critical hit. If both attacks hit, you can choose to move the creatures closer to one another instead of closer to you. Moving a target into a barrier, creature, or obstacle causes the target to stop before entering that space.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d8.</p>",
+          "description": "<p>你使目标的电磁场过载，并以闪电锁链将其拽向自己。对每个目标进行一次远程法术攻击。若攻击两个目标，两次攻击均计入多重攻击减值，但该减值仅在两次攻击完成后生效。每个目标受到4d8电击伤害并且向着你的方向被拉拽5尺（大成功10尺）。如果两次攻击都命中，你可以选择让两个生物彼此靠近而不是被拉向你。如果目标在位移过程中碰到街垒、生物或障碍，目标会在进入那个方格之前停下。</p><hr /><p><strong>升阶（+1）</strong>该伤害增加1d8。</p>"
+        },
+        {
+          "id": "LOd8rLJxLtbNyE8e",
+          "expectedName": "Fireball",
+          "name": "火球术"
+        },
+        {
+          "id": "jrGO8xLAWufQs2MH",
+          "expectedName": "Lightning Bolt",
+          "name": "闪电束"
+        },
+        {
+          "id": "saczeOppj0CAd6HH",
+          "expectedName": "Slow",
+          "name": "缓慢术"
+        },
+        {
+          "id": "AZUaAfdBfKvz3pc8",
+          "expectedName": "Instant Virus",
+          "name": "瞬效病毒",
+          "expectedDescription": "<p>Your touch installs a dangerous self-replicating virus that disrupts a technological creature's programming. The target must attempt a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}.</p>\n<p><strong>Failure</strong> The target is glitching 1 and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2} and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p>",
+          "description": "<p>你通过接触安装一种危险的自增殖病毒，会扰乱科技生物的程序。目标必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]。</p>\n<p><strong>失败</strong>目标陷入故障1和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。</p>\n<p><strong>大失败</strong>目标陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 2}。</p>"
+        },
+        {
+          "id": "ZpVDp9RF1zwiPzUL",
+          "expectedName": "Invisibility",
+          "name": "隐形术"
+        },
+        {
+          "id": "qZufKs41NDlzSCdQ",
+          "expectedName": "Resist Energy",
+          "name": "抵抗能量伤害"
+        },
+        {
+          "id": "gRVPo1BEaoD5SDaN",
+          "expectedName": "Skim Data",
+          "name": "浏览数据"
+        },
+        {
+          "id": "UFQNMEIlkhszlBD5",
+          "expectedName": "Analyze Target",
+          "name": "分析目标",
+          "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+        },
+        {
+          "id": "Iy056WpiTtj75cJ2",
+          "expectedName": "Delete",
+          "name": "删除术",
+          "expectedDescription": "<p>You delete data from a device or object with a flamboyant magical gesture. This data might be handwritten, printed, or digital. You delete up to 1,500 words' worth of text, one page of content, or one display screen worth of text or other visual information. Non-magical writing in or on an unattended or held object is automatically deleted. Attempt a counteract check to delete digital or magical writing. If you fail to delete writing that's part of a hazard, you trigger the hazard. This can't be used to delete the contents of a spellbook or similar means of storing magical formulas or spells.</p>\n<p>If you target an attended tech item with the tracking trait, attempt a counteract check. On a success, the item becomes glitching 1. A creature holding the item can Interact to restart the software, reducing the glitching value by 1.</p><hr /><p><strong>Heightened (7th)</strong> You can delete all the data stored locally on a single device or book, or all the data on a device or book related to a specific name, topic, or category.</p>",
+          "description": "<p>你以华丽的魔法手势删除设备或物品中的数据。这些数据可以是手写的、打印的或电子的。你最多可以删除 1,500字的文本、一页内容或一显示屏的文本或其他视觉信息。无主物品或手持物品上的非魔法文字会自动删除。尝试反制检定删除数据或魔法文字。如果你尝试删除的文字是危害的一部分，且你失败，就会触发危害。这不能用于删除魔法书或类似的存储魔法公式或法术的内容。</p>\n<p>如果目标是具有追踪特征的科技物品，尝试一次反制检定。如果成功，该物品就会获得故障1。持有该物品的生物可以花费一个交互动作来重启用户界面，并将故障值降低1。</p><hr /><p><strong>升阶（7环）</strong>你可以删除单个设备或书籍中本地存储的所有数据，或者删除设备或书籍中与特定名称、主题或类别相关的所有数据。</p>"
+        },
+        {
+          "id": "1ZaSRnfNh5BJpcIP",
+          "expectedName": "Fleet Step",
+          "name": "快速移动"
+        },
+        {
+          "id": "txRyHQBUqavggXQf",
+          "expectedName": "Implant Data",
+          "name": "植入数据",
+          "expectedDescription": "<p>You reprogram a computer or device to display a chosen piece of data when accessed. You can implant up to one piece of data per spell rank. A piece of data can be a simple fact, such as a creature or object's location or physical description; an image of a creature or object; or a simple statement of no more than 300 characters. When the target computer or device is accessed, this implanted data is the first data the accessing creature gains, regardless of what data the creature is looking for. Implanted data doesn't prevent a creature from accessing other information stored on a device, change how the device functions, or otherwise inhibit the device from functioning. If this spell's duration ends before a creature accesses the implanted data, the information vanishes.</p><hr /><p><strong>Heightened (3rd)</strong> The duration is one year.</p>\n<p><strong>Heightened (6th)</strong> The duration is unlimited.</p>",
+          "description": "<p>You reprogram a computer or device to display a chosen piece of data when accessed. You can implant up to one piece of data per spell rank. A piece of data can be a simple fact, such as a creature or object's location or physical description; an image of a creature or object; or a simple statement of no more than 300 characters. When the target computer or device is accessed, this implanted data is the first data the accessing creature gains, regardless of what data the creature is looking for. Implanted data doesn't prevent a creature from accessing other information stored on a device, change how the device functions, or otherwise inhibit the device from functioning. If this spell's duration ends before a creature accesses the implanted data, the information vanishes.</p><hr /><p><strong>升阶（3环）</strong>持续时间为一年。</p>\n<p><strong>升阶（6环）</strong>持续时间为无限。</p>"
+        },
+        {
+          "id": "4DSaFcHWMCmK0JYV",
+          "expectedName": "Mending",
+          "name": "修复术"
+        },
+        {
+          "id": "gX2xz2HuODDhBtt1",
+          "expectedName": "Telekinetic Hand",
+          "name": "念动之手"
+        },
+        {
+          "id": "IiWk1gYFnhYJ93Km",
+          "expectedName": "Telekinetic Projectile",
+          "name": "念动射弹"
+        },
+        {
+          "id": "J0kXolBSzr9Hnt2w",
+          "expectedName": "Boom Pistol",
+          "name": "音爆手枪"
+        },
+        {
+          "id": "NWpwstf9OptPWVsR",
+          "expectedName": "Polyglove",
+          "name": "聚合手套"
+        },
+        {
+          "id": "bcar0l6zrsYdkGgu",
+          "expectedName": "Datapad",
+          "name": "数据板",
+          "expectedDescription": "<p>These ubiquitous handheld computers incorporate a comm unit, microphone, speaker, camera, infosphere browser, and data storage. They can store thousands of hours of recordings, play games, and perform simple computing functions, such as time tracking and notifications, word processing, calculations, data processing, streaming media, and broadcasting emergency alerts from local governments. In most societies, commercial datapads are relatively flimsy, designed to rapidly wear out or fall behind on the latest features and updates to encourage the consumer to replace it with a newer model. In contrast, higher-end datapads are made to last and often include a sturdier chassis and extra functions.</p>",
+          "description": "<p>此类泛用手持计算机集成了通讯单元，麦克风，扬声器，摄像头，信息圈浏览器以及数据存储功能。其可以存储数千小时的记录，支持游玩游戏和执行简单的计算功能（如计时提醒，文本处理，计算，数据处理，流媒体以及当地政府的紧急广播）。在大多数社群里，商用型数据板相当脆弱，刻意设计以快速损坏或被最新的特性和更新淘汰，以此来刺激消费者置换更新的型号。相比之下，高端的数据板旨在长期使用，且通常包含更坚固的框架和额外功能。</p>"
+        },
+        {
+          "id": "fCs4FKIPfUSRJViJ",
+          "expectedName": "Boom Pistol",
+          "name": "音爆手枪"
+        },
+        {
+          "id": "vCvSZxpFGmjp4gQC",
+          "expectedName": "Polyglove",
+          "name": "聚合手套"
+        },
+        {
+          "id": "VHV3VBgXSUgM3YUc",
+          "expectedName": "Online Infamy",
+          "name": "网络恶名"
+        },
+        {
+          "id": "iLq93wbYZUPpr2OH",
+          "expectedName": "Epic Haxx",
+          "name": "史诗黑客"
+        },
+        {
+          "id": "0Tsut3WqjjWpB47d",
+          "expectedName": "You Mad?",
+          "name": "你气不气？"
+        },
+        {
+          "id": "fiYslPMeVvrQDiKv",
+          "expectedName": "Infosphere Lore",
+          "name": "信息圈学识"
+        }
+      ]
+    },
+    "gKFUjdfdvbXMrRS6": {
+      "items": [
+        {
+          "id": "v16eKlF07bwgLNYd",
+          "expectedName": "Summon Elemental",
+          "name": "召唤元素"
+        }
+      ]
+    },
+    "guvzUoQGY5N8upTm": {
+      "name": "安保奥术科技特工",
+      "publicNotes": "<p>最稀有且最多才多艺的私人安保警卫类别是奥术科技特工。</p><h2>Security Guards</h2><p>Every corporation, church, and upscale neighborhood on the station has its own security.</p>",
+      "items": [
+        {
+          "id": "lfy4VwLhbZbp391C",
+          "expectedName": "Arcane Innate Spells",
+          "name": "奥术内在法术"
+        },
+        {
+          "id": "2oxrUsYGsgYbgIrH",
+          "expectedName": "Sending",
+          "name": "短讯术"
+        },
+        {
+          "id": "tj88zRO2v4cf9bfl",
+          "expectedName": "Telekinetic Haul",
+          "name": "念动移物"
+        },
+        {
+          "id": "1D2P0ZXUWHgSgftV",
+          "expectedName": "Speak with Computers",
+          "name": "计算机交谈",
+          "expectedDescription": "<p>You can ask questions of and receive answers from the spirits inhabiting a computer. These synthetic spirits manifest within computer code and often have personalities colored by the nature of the device, its condition, and its applications and personalized settings. A computer's perspective, perception, and knowledge give it a worldview different enough from a human's that it doesn't consider the same details important. Computers can mostly answer questions about creatures that interfaced with them in the past and what information is concealed within their files.</p><hr /><p><strong>Heightened (6th)</strong> The duration is 8 hours.</p>",
+          "description": "<p>你可以向居住在电脑中的精魂提问，并从他们那里得到答案。这些合成灵魂会在计算机代码中显现，通常会因设备的性质、状态、应用和个性化设置而具有不同的个性。计算机的视角、感官和知识使它的世界观与人类的世界观大相径庭，以至于它认为某些细节并不重要。计算机能回答的大多数问题都与过去曾与它们互动的生物有关，还有它们的文件中隐藏的信息。</p><hr /><p><strong>升阶（6环）</strong>持续时间8小时。</p>"
+        },
+        {
+          "id": "L9POQe52TkSvwgoc",
+          "expectedName": "Translocate",
+          "name": "次元移位"
+        },
+        {
+          "id": "bzf6qrjzyMwdVq2i",
+          "expectedName": "Discharge",
+          "name": "断电术"
+        },
+        {
+          "id": "K60mFXpFOaG1RW0l",
+          "expectedName": "Paralyze",
+          "name": "麻痹术"
+        },
+        {
+          "id": "olwGNrJCkRnW1Osh",
+          "expectedName": "Telekinetic Maneuver",
+          "name": "念动战技"
+        },
+        {
+          "id": "Wxv5KpjDzPUDJRB5",
+          "expectedName": "Alarm",
+          "name": "警报术"
+        },
+        {
+          "id": "jyESMkcxIvVQRW0M",
+          "expectedName": "Analyze Target",
+          "name": "分析目标",
+          "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+        },
+        {
+          "id": "koGFP0cH5vYcxeLU",
+          "expectedName": "Gentle Landing",
+          "name": "柔落术"
+        },
+        {
+          "id": "SoBkMlTunmDSrqV2",
+          "expectedName": "Measure",
+          "name": "测量术",
+          "expectedDescription": "<p>You learn the approximate measurements (length, width, depth, height, and weight) of creatures and objects you can observe in the area. If an object or creature extends out of the area, you learn only the measurements within the area, but nothing about what you can't observe. For example, you can't determine the thickness or weight of a wall you can observe only one side of, or the depth of water that extends beyond the spell's range. Each time you Sustain the spell, you learn the exact measurements of one creature or object in the area, including imprecisions or anomalies that might indicate structural weakness. Magically altered targets give you information that reflects what you observe rather than accurate measurements.</p><hr /><p><strong>Heightened (+1)</strong> Extend the range of measure by 100 feet.</p>",
+          "description": "<p>你可以了解周围生物和物体的大致尺寸（长度、宽度、深度、高度和重量）。如果物体或生物延伸出了该射程，你只能了解该区域内的测量值，而无法观察到的东西则无法了解。例如，你无法确定只能观察到一面的墙壁的厚度或重量，也无法确定超出法术射程的水深。每次维持法术时，你都会了解该区域内一种生物或物体的精确测量结果，包括可能揭示结构弱点的不精确或异常现象。被魔法改变的目标所提供的信息反映的是你所观察到的情况，而不是精确测量值。</p><hr /><p><strong>升阶（+1）</strong>延展测量距离100尺。</p>"
+        },
+        {
+          "id": "cXBi3DuLd9C2fvYW",
+          "expectedName": "Message",
+          "name": "传讯术"
+        },
+        {
+          "id": "OmK2BeqUToyqHSMT",
+          "expectedName": "Telekinetic Hand",
+          "name": "念动之手"
+        },
+        {
+          "id": "n8Esozr9Kwjterfp",
+          "expectedName": "Shock Truncheon",
+          "name": "电击警棍"
+        },
+        {
+          "id": "vze3PZXO6uh13po8",
+          "expectedName": "Zero Cannon",
+          "name": "零度炮"
+        },
+        {
+          "id": "JDxOZoIjrSok6oqW",
+          "expectedName": "Thinplate",
+          "name": "薄板甲"
+        },
+        {
+          "id": "FNMmuzPg57d7mu04",
+          "expectedName": "Datapad",
+          "name": "数据板",
+          "expectedDescription": "<p>These ubiquitous handheld computers incorporate a comm unit, microphone, speaker, camera, infosphere browser, and data storage. They can store thousands of hours of recordings, play games, and perform simple computing functions, such as time tracking and notifications, word processing, calculations, data processing, streaming media, and broadcasting emergency alerts from local governments. In most societies, commercial datapads are relatively flimsy, designed to rapidly wear out or fall behind on the latest features and updates to encourage the consumer to replace it with a newer model. In contrast, higher-end datapads are made to last and often include a sturdier chassis and extra functions.</p>",
+          "description": "<p>此类泛用手持计算机集成了通讯单元，麦克风，扬声器，摄像头，信息圈浏览器以及数据存储功能。其可以存储数千小时的记录，支持游玩游戏和执行简单的计算功能（如计时提醒，文本处理，计算，数据处理，流媒体以及当地政府的紧急广播）。在大多数社群里，商用型数据板相当脆弱，刻意设计以快速损坏或被最新的特性和更新淘汰，以此来刺激消费者置换更新的型号。相比之下，高端的数据板旨在长期使用，且通常包含更坚固的框架和额外功能。</p>"
+        },
+        {
+          "id": "DFhFOQNPn88GmJSU",
+          "expectedName": "Shock Truncheon",
+          "name": "电击警棍"
+        },
+        {
+          "id": "cvtrK5zo82pmUsNL",
+          "expectedName": "Zero Cannon",
+          "name": "零度炮"
+        },
+        {
+          "id": "zBZYmQ2rJnb91y3t",
+          "expectedName": "Arcanotech Datapad",
+          "name": "奥术科技数据平板",
+          "expectedDescription": "<p>The agent can cast spells only so long as their datapad is intact, not glitching, and on the agent's person.</p>",
+          "description": "<p>特工只有在数据板完好，未处于故障状态且在身上时才能施放法术。</p>"
+        },
+        {
+          "id": "bIwftTrtd01oe43n",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        },
+        {
+          "id": "ddGLTj1HMjvs5tOW",
+          "expectedName": "Arcanocharged Strike",
+          "name": "奥术充能打击"
+        },
+        {
+          "id": "iBbgati4blowwryg",
+          "expectedName": "White Helmet Protocol",
+          "name": "白盔协议",
+          "expectedDescription": "<p>The glitching values of all items worn or held by the agent are reduced by 1.</p>",
+          "description": "<p>特工穿戴或持握的所有物品的故障值减少1。</p>"
+        }
+      ]
+    },
+    "nppecukdT37pGuMA": {
+      "name": "安保狙击手",
+      "publicNotes": "<p>一名手术般精准、目光警觉的狙击手可以在客户意识到危险之前就进行干预。</p><h2>Security Guards</h2><p>Every corporation, church, and upscale neighborhood on the station has its own security.</p>",
+      "items": [
+        {
+          "id": "bN1OPbX2b4XEvJzy",
+          "expectedName": "Knife",
+          "name": "短刀"
+        },
+        {
+          "id": "TY8VQDaG6CGBTlNR",
+          "expectedName": "Laser Rifle",
+          "name": "激光步枪"
+        },
+        {
+          "id": "q8ReaqrH6s0EVgnY",
+          "expectedName": "Estex Suit",
+          "name": "埃斯特克斯服装"
+        },
+        {
+          "id": "sqaOvumFbRLJ9w7l",
+          "expectedName": "Datapad",
+          "name": "数据板",
+          "expectedDescription": "<p>These ubiquitous handheld computers incorporate a comm unit, microphone, speaker, camera, infosphere browser, and data storage. They can store thousands of hours of recordings, play games, and perform simple computing functions, such as time tracking and notifications, word processing, calculations, data processing, streaming media, and broadcasting emergency alerts from local governments. In most societies, commercial datapads are relatively flimsy, designed to rapidly wear out or fall behind on the latest features and updates to encourage the consumer to replace it with a newer model. In contrast, higher-end datapads are made to last and often include a sturdier chassis and extra functions.</p>",
+          "description": "<p>此类泛用手持计算机集成了通讯单元，麦克风，扬声器，摄像头，信息圈浏览器以及数据存储功能。其可以存储数千小时的记录，支持游玩游戏和执行简单的计算功能（如计时提醒，文本处理，计算，数据处理，流媒体以及当地政府的紧急广播）。在大多数社群里，商用型数据板相当脆弱，刻意设计以快速损坏或被最新的特性和更新淘汰，以此来刺激消费者置换更新的型号。相比之下，高端的数据板旨在长期使用，且通常包含更坚固的框架和额外功能。</p>"
+        },
+        {
+          "id": "uROliMqO8EqONIwQ",
+          "expectedName": "Knife",
+          "name": "短刀"
+        },
+        {
+          "id": "QBA7bLCqxr5i2ahx",
+          "expectedName": "Knife",
+          "name": "短刀"
+        },
+        {
+          "id": "fQyEEsge2EVbS4Xr",
+          "expectedName": "Laser Rifle",
+          "name": "激光步枪"
+        },
+        {
+          "id": "x5mxEo0YMixaeeMU",
+          "expectedName": "Chameleon Alloy",
+          "name": "变色龙合金"
+        },
+        {
+          "id": "iP48GYlDSoWAeqqE",
+          "expectedName": "Deploy Drone",
+          "name": "部署无人机"
+        },
+        {
+          "id": "7jzFcs0TzbNqWEmG",
+          "expectedName": "Dispersal Gas",
+          "name": "散布气体"
+        },
+        {
+          "id": "ma8idsQap2Sa9rah",
+          "expectedName": "Move Drone",
+          "name": "移动无人机",
+          "expectedDescription": "<p>The drone flies 30 feet.</p>",
+          "description": "<p>（操作） 无人机飞行30尺。</p>"
+        },
+        {
+          "id": "eCcDA051bgU054vB",
+          "expectedName": "Trick Shot",
+          "name": "诡计射击"
+        }
+      ]
+    },
+    "ocANFgNSYPmoROSM": {
+      "name": "败蚁蚁后",
+      "items": [
+        {
+          "id": "hZ68C4fUAiK9zpFm",
+          "expectedName": "Dominate",
+          "name": "支配术"
+        },
+        {
+          "id": "ddcxibkgNjAmu1S3",
+          "expectedName": "Slice Reality",
+          "name": "切割现实",
+          "expectedDescription": "<p>You slice through reality, forming a chasm of life-draining entropy in a straight line 20 feet high, 120 feet long, and 2 inches thick. The chasm provides cover. The chasm deals 7d8 void damage to each creature that's in the chasm's space when it's created, that attempts to pass through the chasm, or that ends its turn inside the chasm, with a basic Reflex save. A creature that succeeds at this save when the chasm is created is pushed to the nearest space on the side of its choice. Creatures trying to move through the chasm fail to do so if they critically fail the save, ending their movement next to the chasm.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d8.</p>",
+          "description": "<p>你划破现实，在一条20尺高、120尺长、2英寸厚的直线上形成一道能使生命流失的熵裂隙。裂隙提供掩蔽。裂隙会对在形成时位于其空间内、试图穿过裂隙或在裂隙内结束回合的每个生物造成7d8虚能伤害，具有一次基础反射豁免。如果生物在裂隙形成时豁免成功，则会被推到其选择的一侧最近的空间。试图穿过裂隙的生物如果豁免失败，就会在裂隙旁结束移动。</p><hr /><p><strong>升阶（+1）</strong>伤害增加 1d8。</p>"
+        },
+        {
+          "id": "BGI5jq3BV0TSs4xg",
+          "expectedName": "Teleport",
+          "name": "传送术"
+        },
+        {
+          "id": "yLZfs4vXwWNCuPDF",
+          "expectedName": "Illusory Scene",
+          "name": "幻象场景"
+        },
+        {
+          "id": "jKbchovdJAcYpLeo",
+          "expectedName": "Telekinetic Haul",
+          "name": "念动移物"
+        },
+        {
+          "id": "HborQfky6uGFFXqX",
+          "expectedName": "Wave of Despair",
+          "name": "极潮绝望"
+        },
+        {
+          "id": "TkKswYFDR45AQSBj",
+          "expectedName": "Rewrite Memory",
+          "name": "修订记忆"
+        },
+        {
+          "id": "LWcgW6omXFtMvpLL",
+          "expectedName": "Enthrall",
+          "name": "注目术"
+        },
+        {
+          "id": "EBmNVg48wEGcG4gd",
+          "expectedName": "Entropy Strike",
+          "name": "熵击",
+          "expectedDescription": "<p>You unleash a ray of entropy that rapidly and indiscriminately decays matter. Make a ranged spell attack against the target's AC. On a hit, the target takes 5d8 void damage, or it takes 2d6 persistent acid damage and is glitching 1 if it has the tech trait. On a critical hit, double the damage, and if the creature has the tech trait, it's glitching 2 and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1 die.</p>",
+          "description": "<p>你释放一束熵射线，迅速且无差别地分解物质。进行远程法术攻击对抗目标的AC。如果命中，目标受到5d8虚能伤害；或者如果目标生物有科技特征，则会受到2d6持续性酸蚀伤害并陷入故障1。如果重击，伤害翻倍，并且如果目标生物有科技特征，则陷入故障2和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。</p><hr /><p><strong>升阶 （+1）</strong>增加1个伤害骰。</p>"
+        },
+        {
+          "id": "GSgJjaklqSO74YcR",
+          "expectedName": "Status",
+          "name": "关照术"
+        },
+        {
+          "id": "cKnvG6YBlAZ1HJOv",
+          "expectedName": "Telekinetic Maneuver",
+          "name": "念动战技"
+        },
+        {
+          "id": "BoUmURxFY9E10eW2",
+          "expectedName": "Command",
+          "name": "命令术"
+        },
+        {
+          "id": "VinO69B9FfhMXa0o",
+          "expectedName": "Daze",
+          "name": "晕眩术"
+        },
+        {
+          "id": "5LqQzxlO9uwgrl6C",
+          "expectedName": "Detect Magic",
+          "name": "侦测魔法"
+        },
+        {
+          "id": "EIK1PW5ueWmwTq0z",
+          "expectedName": "Figment",
+          "name": "虚构幻术"
+        },
+        {
+          "id": "cwdrKCONARz6TUbo",
+          "expectedName": "Mindlink",
+          "name": "讯息传递"
+        },
+        {
+          "id": "0o2vMqbyGvkbBeTQ",
+          "expectedName": "Telekinetic Projectile",
+          "name": "念动射弹"
+        },
+        {
+          "id": "rgV0TmFIo0w6jbOt",
+          "expectedName": "Royal Tithe",
+          "name": "皇家税收"
+        },
+        {
+          "id": "48E8BpFVijeHpdkF",
+          "expectedName": "Queen's Sacrifice",
+          "name": "蚁后的牺牲"
+        }
+      ]
+    },
+    "p2FidtuGWhxZoLQM": {
+      "name": "太空地精恶棍",
+      "publicNotes": "<p>年轻或不明智的太空地精令人沮丧地容易被说服参与盗窃或暴力。这些小家伙在事情出错时逃跑的速度与投入战斗的速度一样快，他们困扰着任何愚蠢到敢在艾巴萨罗姆空间站粗野街区旅行的外来者。</p><h2>Space Goblins</h2><p>Goblins are relatively common throughout Absalom Station. Their love of cramped, dark places makes the back alleys and pipelines of the station exceptionally appealing to them. Many goblins are content to live among the populace as merchants, artisans, and cartoonists (with a growing number of goblin publishing houses producing wordless and individualistic \"gobbo-comix\"), but other goblins have a tendency to make trouble. Some of these tricky troublemakers cause blackouts, fires, and even-greater problems throughout Absalom Station.</p>",
+      "items": [
+        {
+          "id": "6zpYnGLped5mf3Z0",
+          "expectedName": "Dogslicer",
+          "name": "屠狗刀"
+        },
+        {
+          "id": "sUeOl2wrQKpABxvY",
+          "expectedName": "Dogslicer",
+          "name": "屠狗刀"
+        },
+        {
+          "id": "kHlZUYgjy5MhedgB",
+          "expectedName": "Goblin Scuttle",
+          "name": "地精疾走"
+        }
+      ]
+    },
+    "r7sLIKs7Lo2PQVW7": {
+      "name": "叉车"
+    },
+    "sFTw0auUZJKhGz3F": {
+      "name": "败蚁工蚁",
+      "items": [
+        {
+          "id": "qzQXxr5LfpQKETid",
+          "expectedName": "Digest Reality",
+          "name": "消化现实"
+        },
+        {
+          "id": "RpGqlTp1il9KNHou",
+          "expectedName": "Reality Tunnel",
+          "name": "现实隧穿"
+        }
+      ]
+    },
+    "t3sNNPb0oJBjGmVY": {
+      "name": "能量摩托"
+    },
+    "tziikrgm9Cwe6POs": {
+      "items": [
+        {
+          "id": "I3afglo5lm08iv58",
+          "expectedName": "Fire Breath",
+          "name": "火焰吐息"
+        }
+      ]
+    },
+    "xZf2UldYXXvVZe3p": {
+      "name": "帮派头目",
+      "publicNotes": "<p>只有最无情的人才能爬上顶端成为帮派头目。</p><hr /><h2>Gangsters</h2><p>Criminal guilds, crime families, protection rackets, and loan sharks are just a few of the many types of gangs in Absalom Station. Gangs are highly localized, predatory, and extremely territorial. Members join for different reasons, but most find that once they're in a gang, there's no easy way out.</p>\n<p>Gangsters always have hustles, criminal industries they use to make money, but most also operate protection rackets as a matter of course. Business owners within a gang's territory (or worse, in the overlapping territories of more than one gang) can expect to pay regularly or risk severe consequences.</p>",
+      "items": [
+        {
+          "id": "MuywpR6f0xteZ6TF",
+          "expectedName": "Breaching Gun",
+          "name": "破障枪"
+        },
+        {
+          "id": "uwrU6mvGlaL9lqvl",
+          "expectedName": "Deflecting Field",
+          "name": "偏斜力场",
+          "expectedDescription": "<p>This shield isn't held—instead, it's installed as an armor or weapon upgrade. A deflecting field appears as a translucent panel integrated into the upgraded item and creates a temporary protective hardlight barrier when activated.</p>",
+          "description": "<p>这种盾牌并非需要持握——它会作为升级模块被安装在护甲或武器内。偏斜力场看起来如同一个集成到被升级的物品中的半透明面板，并在激活时创造出一个临时的保护性光盾。</p>"
+        },
+        {
+          "id": "YDUEMyc5DUGv6oUQ",
+          "expectedName": "Armored Coat",
+          "name": "衬甲外套"
+        },
+        {
+          "id": "57xYGmqiCn6lR9BW",
+          "expectedName": "Breaching Gun",
+          "name": "破障枪"
+        },
+        {
+          "id": "YGfNORe78g7MYl0F",
+          "expectedName": "Fist",
+          "name": "拳头"
+        },
+        {
+          "id": "vZlKajZVqG54JUfA",
+          "expectedName": "Lead Through Fear",
+          "name": "以威慑众",
+          "expectedDescription": "<p>100 feet. Each allied gang member in the aura gains a +2 circumstance bonus to their Will DC and on Will saves against fear effects, unless those effects come from the ganglord.</p>",
+          "description": "<p>（灵光，情绪）100尺。灵光内每个友方帮派成员在对抗恐惧效果的意志DC和意志豁免上获得+2环境加值，除非这些效果来自帮派头目。</p>"
+        },
+        {
+          "id": "r4vGjVzw7CQGxsCo",
+          "expectedName": "Raise a Shield",
+          "name": "举起盾牌"
+        },
+        {
+          "id": "IejSfTOKhgtfidGM",
+          "expectedName": "Shield Block",
+          "name": "盾牌格挡"
+        },
+        {
+          "id": "30h2yRR4BrFKYJ1T",
+          "expectedName": "Into the Fray",
+          "name": "加入火拼"
+        },
+        {
+          "id": "NYNBfqUbRFq9r2w1",
+          "expectedName": "Kneecapper",
+          "name": "碎膝者"
+        },
+        {
+          "id": "HjGNqy2S2SoPp1qz",
+          "expectedName": "Scattershot Surgeon",
+          "name": "霰弹外科医生",
+          "expectedDescription": "<p>Creatures within 5 feet of the ganglord are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the ganglord's breaching gun Strikes.</p>",
+          "description": "<p>位于帮派头目5尺内的生物对该帮派头目的破障枪打击@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]。</p>"
+        },
+        {
+          "id": "BkBeqrtwYSiqGrcK",
+          "expectedName": "Sneak Attack",
+          "name": "偷袭",
+          "expectedDescription": "<p>The ganglord's Strikes deal an additional 2d6 precision damage to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} creatures.</p>",
+          "description": "<p>帮派头目对@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]的生物的打击额外造成2d6精准伤害。</p>"
+        }
+      ]
+    },
+    "yAYVKKDNaPQi485q": {
+      "name": "能量直升机"
+    }
+  }
+}

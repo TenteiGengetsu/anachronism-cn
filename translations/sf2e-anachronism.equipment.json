@@ -8,6 +8,19 @@
       "converter": "sf2eAnachronismCnPrerequisites"
     }
   },
+  "folders": {
+    "Consumables": "消耗品",
+    "Ammunition": "弹药",
+    "Apex": "巅峰",
+    "Shields": "盾牌",
+    "Tech": "科技",
+    "Biotech": "生物工程",
+    "Necrograft": "死灵植入",
+    "Medical Items": "医疗用品",
+    "Magitech": "魔法科技",
+    "Spell Gems": "法术宝石",
+    "Augmentations": "殖装"
+  },
   "entries": {
     "05fb97mQM2HkKCxD": {
       "name": "精英型骨化手雷",
@@ -16,6 +29,12 @@
     "0Hdg9aWMIYVGjvj0": {
       "name": "商用型电击模组",
       "description": "<p>该回路可在武器中安全地传导电流，使每次命中时额外造成1d6点电击伤害。重击时，电流会弧射而出，对目标10尺范围内你选择的另外两个生物造成等量的电击伤害。</p>"
+    },
+    "0HgNsKaV32Lez2rt": {
+      "name": "战术型衰竭之手"
+    },
+    "0IqCiMjjJQR6BItB": {
+      "name": "战术型量子多用工具肢"
     },
     "0J8PMTLDGIIP1KGE": {
       "name": "人造不朽脏器",
@@ -64,9 +83,18 @@
     "120680FW1mXo1vgt": {
       "name": "卓越型真皮镀层"
     },
+    "141RvMyC8ig8a8Fm": {
+      "name": "商用型弹性皮肤"
+    },
     "1RDZDwqABlAXeaor": {
       "name": "战术型虫群肾上腺移植",
       "description": "<p>虫群的肾上腺进行进行令人疲惫的短时加速。</p>\n<p><strong>Activate—Adrenal Boost</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>频率</strong>每天两次</p>\n<p><strong>Requirements</strong> You're not @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}</p>\n<p><strong>Trigger</strong> Your turn begins</p><hr /><p><strong>Effect</strong> You become @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} until the end of the turn and can use the extra action only to Strike or Stride. When this effect ends, you become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} and fatigued until you rest for at least 10 minutes.</p>\n<p>You become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} the second time a day you Adrenal Boost.</p>"
+    },
+    "1SulTzN71IrTFUTY": {
+      "name": "商用型食尸鬼胃"
+    },
+    "1a5qIKEx2bVE979w": {
+      "name": "商用型死灵皮层"
     },
     "1b6IoC0K0EqGu0Th": {
       "name": "商用型欺诈点棒",
@@ -78,6 +106,9 @@
     },
     "1cSlAefjEmcQd4h1": {
       "name": "霰弹枪"
+    },
+    "1iAl59GeVCkgxKSh": {
+      "name": "商用型空腔耳膜"
     },
     "1kYUux9KdGkPggB4": {
       "name": "自动心肺复苏器",
@@ -106,12 +137,27 @@
     "2BrT2UOFKWbXncAd": {
       "name": "击音矛"
     },
+    "2G6aRZbBrwOJKFvk": {
+      "name": "先进型劫掠之喉"
+    },
     "2GvHO9VAUNqY4hUX": {
       "name": "快速锁定",
       "description": "<p>快速锁定武器包括多个追踪设备与额外的计算处理器，能提升内建瞄准系统的速度，从而让持用者能够更快速地发动攻击。持用快速锁定武器时，你获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]状态，但是该额外动作你只能用来以该武器进行一次打击。</p>"
     },
+    "2MCHcOiW3I6AngsZ": {
+      "name": "战术型翼膜"
+    },
+    "2WFDvSWQ0LnntftC": {
+      "name": "卓越型尸皮"
+    },
+    "2YGnPScx3W1c9NRE": {
+      "name": "商用型火箭拳"
+    },
     "2d2hwUm4sSYIVfJ1": {
       "name": "骨罩护甲"
+    },
+    "2dVw2sMcrrw8GBDB": {
+      "name": "精英型纤丝网"
     },
     "2gIo208O7zxPTL5J": {
       "name": "追猎者步枪"
@@ -120,6 +166,18 @@
       "name": "隐形术法术安瓿",
       "description": "<p>在多数世界被称为“法术安瓿”的法术安瓿瓶，是一种即用型魔法注射剂，可赋予使用者特定环阶法术的好处</p>\n<p><strong>Activate—Inject</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility} spell</p>"
     },
+    "2q0Khm1G7AeJSfM5": {
+      "name": "战术型月光纤维"
+    },
+    "2tmCGVlyMupxHLiZ": {
+      "name": "战术型内耳前庭强化"
+    },
+    "31ZDfz0lPyItVgP9": {
+      "name": "战术型魅惑微笑"
+    },
+    "39Kc763e0Y1S8Pg1": {
+      "name": "先进型机械跳跃加速器"
+    },
     "3JjtrfGhWJ3xRvIO": {
       "name": "先进型现实拼接手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>Radius</strong> @Template[burst|distance:20]</p><hr /><p>This grenade is constantly changing, appearing as different colors, materials, and sizes. When detonated, it taps into another plane or reality. Roll a d20 to determine the effect, and use your class DC if the effect calls for a saving throw.</p><h3>REALITY SPLICING GRENADE EFFECTS</h3><table class=\"pf2e remaster\"><tbody><tr><th><p>Result</p></th><th><p>效果</p></th></tr><tr><td><p>1</p></td><td><p>Each creature in the blast radius switches positions with another randomly determined creature in the blast radius (no save).</p></td></tr><tr><td><p>2</p></td><td><p>The area is cloaked in magical darkness that darkvision doesn't penetrate for 1 minute.</p></td></tr><tr><td><p>3</p></td><td><p>The blast radius becomes an area of zero gravity for [[/gmr 2d4 #rounds]]{2d4 rounds}.</p></td></tr><tr><td><p>4</p></td><td><p>Each creature in the blast radius is affected by a 1st-rank wisp ally spell for 1 round.</p></td></tr><tr><td><p>5</p></td><td><p>Each creature in the blast radius is affected by a 2nd-rank invisibility spell.</p></td></tr><tr><td><p>6</p></td><td><p>Creatures in the blast radius are affected as if by a 3rd-rank fireball spell.</p></td></tr><tr><td><p>8</p></td><td><p>About 5,000 harmless, beautiful flying insects appear within the blast radius, granting everyone in the area concealment for [[/gmr 2d4 #rounds]]{2d4 rounds}.</p></td></tr><tr><td><p>9</p></td><td><p>Radiation fills the area. Creatures in the area are exposed to severe radiation sickness with a Fortitude DC equal to your class DC.</p></td></tr><tr><td><p>10</p></td><td><p>The blast radius becomes an area of high gravity for [[/gmr 2d4 #rounds]]{2d4 rounds}.</p></td></tr><tr><td><p>11</p></td><td><p>The blast radius fills with a windstorm dealing @Damage[8d8[bludgeoning]] damage (@Check[fortitude|against:class|basic] save).</p></td></tr><tr><td><p>12</p></td><td><p>A laser light show begins. Each creature in the blast radius must succeed at a @Check[reflex|against:class] save or be @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round.</p></td></tr><tr><td><p>13</p></td><td><p>Relaxing music fills the area. Each creature in the blast radius gains 10 temporary Hit Points for 1 round.</p></td></tr><tr><td><p>14</p></td><td><p>Loud screeching noises burst forth, dealing @Damage[8d8[sonic]] damage (@Check[fortitude|against:class|basic] save).</p></td></tr><tr><td><p>15</p></td><td><p>The blast radius becomes the area of a 6th-rank pocket vacuum spell for 1 round.</p></td></tr><tr><td><p>16</p></td><td><p>Each creature in the blast radius changes color to a random neon hue for 24 hours.</p></td></tr><tr><td><p>17</p></td><td><p>Ghosts fill the area, floating through everyone present. Creatures in the blast radius take @Damage[8d8[void]] damage (@Check[fortitude|against:class|basic] save).</p></td></tr><tr><td><p>18</p></td><td><p>Dozens of adorable, harmless Tiny animals appear in the blast radius, covering the ground. This horde makes the blast radius difficult terrain for 5 rounds.</p></td></tr><tr><td><p>19</p></td><td><p>The blast radius becomes the area of a 6th-rank corrosive haze spell for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p></td></tr><tr><td><p>20</p></td><td><p>Roll twice more on this table and choose one effect to happen.</p></td></tr></tbody></table>"
@@ -127,6 +185,9 @@
     "3TQ2WCBNaFwEUDHo": {
       "name": "商用型数据接口",
       "description": "<p>这种电控殖装是一种可编程的数据端口，并与你的身体整合，让你能够存取计算机与数位储存装置。任何手持式计算机都可以直接插入端口，而更大型的系统则通常需要转接线。你不需要透过介面来存取系统，因为它会透过数据接口直接连入你的神经系统。你仍然必须进行任何与操作该装置有关的技能检定，例如用计算机来访问系统。有些封闭系统完全禁止直接访问数据。</p>"
+    },
+    "3ZDIJaa4gaZm00Yo": {
+      "name": "战术型机械跳跃加速器"
     },
     "3gQ8AI0DUEJE7s9t": {
       "name": "爆燃喷射仓",
@@ -157,7 +218,8 @@
       "description": "<p>通过尖端手术，你的喉咙深处被植入了一个适配你所属族裔的生理结构的魔法性腺体。当该器官为生体构造时，从以下列表中选择你的殖装伤害类型：强酸、寒冷、电击、火焰或音波。你获得以下启动效果。</p>\n<p><strong>Activate—Exhale</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>频率</strong>每10分钟一次</p><hr /><p><strong>Effect</strong> Each creature in a @Template[type:cone|distance:15] takes @Damage[(2d6)[untyped]] damage with a @Check[reflex|dc:16|basic] save. The damage depends on the augmentation's version.</p>"
     },
     "4VCu9twspnutP89l": {
-      "name": "反叛者的雕像"
+      "name": "反叛者的雕像",
+      "description": "<p>这块石头上刻着一只有翼四足兽，装饰有王权标志，并放射出光芒。</p>\n<p><strong>Activate—Join the Cause</strong> <span class=\"action-glyph\">1</span> (concentrate, manipulate) You grasp the effigy tightly, causing it to discorporate with a gentle glow. For 1 minute, you and your Strikes gain the holy trait. Additionally, your Strikes against fiends deal an additional @Damage[1[spirit]] damage per damage dice.</p>"
     },
     "4X0L8oORH8ty2tH4": {
       "name": "刺客步枪"
@@ -176,6 +238,12 @@
       "name": "商用型匿踪设备",
       "description": "<p>该投影器曲折你周身的光线。</p>\n<p><strong>Activate—Bend Light</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You become @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} for 1 minute, gaining the effects of a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility} spell.</p>"
     },
+    "4uupAXpTwpQp3nsr": {
+      "name": "先进型尸皮"
+    },
+    "51jfNYFcvRLXaukQ": {
+      "name": "尖啸调制器"
+    },
     "54kRtg5Dies13GLc": {
       "name": "先进型歌姬麦克风",
       "description": "<p>This ostentatious crystal microphone is embellished with glimmering jewels and delicate lights that pulse in time to music. It functions as both a microphone and speaker, amplifying your voice loud enough for you to be heard clearly by all listeners up to 500 feet away, even if other ambient noise would otherwise block the sound. This doesn't increase the range or area of other auditory or linguistic effects, and physical barriers such as walls still block or muffle your voice as normal.</p>\n<p>The <em>diva's microphone</em> grants a +3 item bonus to Performance checks attempted with it.</p>\n<p><strong>Activate—Grand Finale</strong> <span class=\"action-glyph\">2</span> (auditory)</p>\n<p><strong>频率</strong>每10分钟一次</p><hr /><p><strong>Effect</strong> Your song reaches an eardrum-bursting climax as you cast a 8th-rank @UUID[Compendium.sf2e-anachronism.spells.Item.QpP30fcEl4NGjHwo] originating from your space (DC 38).</p>"
@@ -186,12 +254,18 @@
     "55nSLw1aQ0K0rK2L": {
       "name": "先进型医疗贴片"
     },
+    "58dqj75KPYcyrQIb": {
+      "name": "精英型死灵皮层"
+    },
     "5GeONzHSxmn3uvtw": {
       "name": "紧急信标"
     },
     "5IayDQk6oasOBPOM": {
       "name": "闪晶石血清",
       "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>这份蓝色酊剂由闪晶石蒸馏而成。10分钟内，你在对抗心灵效果的豁免掷骰上获得+1物品加值，在@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+2物品加值。</p>"
+    },
+    "5Q33ZY9GVdBGRGta": {
+      "name": "战术型纤丝网"
     },
     "5Tc2Eaaf15LVByBJ": {
       "name": "战术型烟雾手雷",
@@ -208,6 +282,9 @@
     "5ct4frwa9ugXUwLf": {
       "name": "先进型撬门数据挖掘器"
     },
+    "5drYSPTfZ74lmNht": {
+      "name": "商用型闪粉腺"
+    },
     "5esAuSMPfXOGd0P2": {
       "name": "战术型恐惧投射器",
       "description": "<p>这种整合型全息投影仪能让此武器造成的伤势看上去比实际更为严重。当你用此武器重击时，目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>"
@@ -222,9 +299,18 @@
     "5o7wOnkxEsyBwBNj": {
       "name": "战术型黑客工具包"
     },
+    "5oyICJH03mXK4xQ1": {
+      "name": "卓越型机械跳跃加速器"
+    },
+    "61INsrSj0gA69Reg": {
+      "name": "战术型利爪"
+    },
     "67OvC3ZhEwabDVLg": {
       "name": "战术型抑法手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>Failure</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round</p>\n<p><strong>Critical</strong> stupefied 1 for 2 rounds</p><hr /><p>These grenades discharge waves of psychic energy that deal mental damage with a @Check[will|against:class|basic|showDC:all|options:area-effect,inflicts:stupefied] save.</p>\n<p>The burst radius is @Template[burst|distance:10], and the mental damage is 2d8.</p>"
+    },
+    "691js1diszFah52p": {
+      "name": "战术型肠索"
     },
     "6IV5CUbzktPfl9EW": {
       "name": "先进型霜冻手雷",
@@ -233,6 +319,9 @@
     "6JzH3VDHqv2rZJer": {
       "name": "终极型皮下注射剂",
       "description": "<p>这根细微的圆柱体容纳着特种纳米机器人。不同类型有着不同的效果。</p><ul><li>Remove the @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} or @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} condition</li><li>Decrease the value of the @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy} or @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened} condition by 1.</li><li>Attempt a counteract check against one poison or disease afflicting the target. Use your @Check[medicine] modifier for the counteract modifier and a counteract rank of 7.</li><li>Attempt a flat check to end persistent poison or bleed damage. As this is particularly effective assistance, the DC of the flat check is reduced from 15 to 10 for this check.</li><li>Allow you to become @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for 1 minute. You can use the extra action to Step, Stride, or Strike.</li><li><p>Grant you fast healing 10 for 1 minute. If you have the @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained} condition, decrease its value by 1 instead of gaining fast healing.</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.NqP5f6IChp8XNCrJ]</p></li></ul>"
+    },
+    "6RYF6JkqZOM1Y9S5": {
+      "name": "商用型应急浮力囊"
     },
     "6VDHl7xkSp8Sc8yy": {
       "name": "卓越型医疗贴片"
@@ -309,6 +398,9 @@
     "7aGluzZ4bjfXbygG": {
       "name": "战术型野外科学工具包"
     },
+    "7aLO3tZS9YAGxOTs": {
+      "name": "战术型火箭拳"
+    },
     "7cpnKlkU5QEiuISo": {
       "name": "绍贝德长步枪"
     },
@@ -334,6 +426,12 @@
       "name": "商用型烟雾手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>This grenade unleashes a cloud of concealing smoke in a @Template[burst|distance:5]. Creatures within the area have the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} condition, and all other creatures are concealed to them. The smoke lasts for 1 minute or until dissipated by a strong wind or similar effect.</p>"
     },
+    "7yjN0tw6Ieo0uokm": {
+      "name": "战术型尖啸调制器"
+    },
+    "802QvCW5TyhKSBqV": {
+      "name": "商用型内耳前庭强化"
+    },
     "84ae9kFPqWmqUZDC": {
       "name": "古代文献",
       "description": "<p>这本书或为宗教典籍，或是古代的配方集，或是一本浪漫小说，抑或是旧式机械原理图。</p>"
@@ -344,6 +442,9 @@
     },
     "8CgzoVKwSX9TiAaM": {
       "name": "先进型灭火器"
+    },
+    "8KG8cSg4tDinndlN": {
+      "name": "卓越型食尸鬼胃"
     },
     "8ThQnRVi44idLq8T": {
       "name": "卓越型破片手雷",
@@ -386,6 +487,9 @@
     "9gKyKIMhT4AnUwr5": {
       "name": "战术型手电筒"
     },
+    "9hUbLRMOy2aOaTuB": {
+      "name": "战术型尸皮"
+    },
     "9huJDWkgN0zK5jNw": {
       "name": "便携式放大器",
       "description": "<p>这款小型设备通常同步连接至乐器，麦克风或数据板的音频播放器上。其能放大音频音量，将听到音频的察觉检定的DC降低5点。</p>"
@@ -398,9 +502,15 @@
       "name": "无限牌组",
       "description": "<p>这是大断层时期一个神器的复刻版。这套卡牌被用于游玩无数的游戏。</p>"
     },
+    "9ph9STvXA0HgSOfk": {
+      "name": "先进型语言协处理器"
+    },
     "9u9HHjFJuCQeYhSq": {
       "name": "往昔之颅",
       "description": "<p>这枚泛黄的颅骨以难以捉摸的狞笑凝视着你。当被持握或作为配件穿戴时，这件魔法护符赋予用于辨识不死生物的@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]检定+1物品加值。</p>"
+    },
+    "A4kEIWq9et0nxiRF": {
+      "name": "战术型地狱凝视"
     },
     "AC3JoQwYNbmYaaqu": {
       "name": "安防手电筒",
@@ -413,12 +523,18 @@
       "name": "肌肉活跃器",
       "description": "<p>此殖装能让你的肌肉保持在巅峰状态。你在运动检定上获得+3物品加值。当你获得此殖装时，你的力量调整值提升1点，或者其调整值提升至+4，二者取高。</p>\n<p><strong>Activate—Strength of the Colossi</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You temporarily become as destructive and powerful as a colossus. For 1 hour, your melee Strikes ignore the hardness of all objects and structures not made of adamantine or a harder material.</p>"
     },
+    "APqwg0Sg34bZ0dMa": {
+      "name": "商用型月光纤维"
+    },
     "ASYV7hnQ7PzICUzp": {
       "name": "战术型零空间腔室"
     },
     "ASkkCyR6IDmuzIP6": {
       "name": "完美型声波手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1d8[bleed]]</p><hr /><p>The aural grenade contains a speaker that emits a dissonant, shrill sound that debilitates those closest to it when it triggers.</p>\n<p>The burst radius is @Template[burst|distance:20], and the nonlethal sonic damage is 14d8.</p>"
+    },
+    "AVaBrqOMNlZOa3BV": {
+      "name": "先进型火箭拳"
     },
     "AYO3o8WwiYwaP77B": {
       "name": "战术型预测眼"
@@ -462,9 +578,15 @@
     "BUhgnYrcT1GtChox": {
       "name": "雕刻之歌"
     },
+    "BVCjA91bdwrJGIzj": {
+      "name": "商用型棘刺"
+    },
     "Bg0H9BijujCuS1zg": {
       "name": "商用型幽灵罩衣",
       "description": "<p>这件带兜帽的罩衣会在穿戴者身体上投下一片微小的遮蔽阴影，其采用的光学编织工艺会在特定角度下闪烁并变换色调。至多L负载的物品，在收纳于罩衣内或穿在罩衣下时，获得易藏特征。穿戴者可通过交互动作拉起或放下兜帽，遮住头部和面部能隐藏身份。</p>"
+    },
+    "BkV5PnZNfccQ7VNU": {
+      "name": "精英型快充手"
     },
     "BkuST2BKPUKvAqLe": {
       "name": "商用型虫群酸液移植",
@@ -485,6 +607,9 @@
       "name": "卓越型全息手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>Critical</strong> @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round</p><hr /><p>Stickers adorning this baseball-sized metallic grenade indicate the hologram it generates. When detonated, hundreds of small holograms burst forth, swarming around everyone in a @Template[burst|distance:20] for 1 minute. Creatures in the area that fail a @Check[will|against:class] save are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while they remain in the area, though they can attempt a new save at the beginning of each of their turns to end the effect. Those who critically fail the initial save can't attempt new saves and are also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round.</p>"
     },
+    "C6RE9jaJwJr4b0lM": {
+      "name": "战术型额外附肢"
+    },
     "CBFbt7Xg5YP856ld": {
       "name": "商用型死灵肺"
     },
@@ -495,8 +620,15 @@
     "CJwfbmQO91Q9v3kg": {
       "name": "战术型太阳镜"
     },
+    "CYKuwMzXsqkAzXa2": {
+      "name": "战术型真空适应肺"
+    },
     "CcN2GgKeeau0IUJk": {
       "name": "商用型寒霜模组"
+    },
+    "ChLl3aPFMYA6m8J5": {
+      "name": "活墨刺青",
+      "description": "<p>这幅精细的刺青以铁磁流体绘制，会自行在你身体上移动，似乎具有最低程度的智能。它有多种颜色和图案，但其魔法要求它必须与你的肤色形成鲜明对比，因此十分醒目。刺青会对伤害作出反应，展开魔法电磁防御来保护宿主。</p>\n<p><strong>Activate—Magnetic Shielding</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p><strong>Trigger</strong> You would take physical damage from an attack</p><hr /><p>启动—磁力护盾 Magnetic Shielding 频率 每10分钟1次；触发 你将受到来自攻击的物理伤害；<strong>效果</strong> 刺青创造出一道电磁护盾，持续至你下回合开始，如同环级等于你等级一半（向上取整）的护盾术戏法。你利用它对触发攻击获得盾牌格挡的效果。与通常的护盾术戏法不同，以此方式进行盾牌格挡后，该效果不会结束。</p>"
     },
     "CiGu0DmW03OiYkLY": {
       "name": "先进型肩上悬吊器"
@@ -510,6 +642,9 @@
     },
     "D4KuxPi9gqFkvZ3h": {
       "name": "警棍"
+    },
+    "DCIxwY5FGv9BBLFU": {
+      "name": "战术型吐丝器"
     },
     "DJJ4hlQLN0iTFP9N": {
       "name": "商用型拦截耳",
@@ -526,8 +661,12 @@
       "name": "商用型骨化手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}，持续1轮</p><hr /><p>This grenade was invented by the Eoxian navy, its designs later stolen by the early Corpse Fleet. When it explodes, the grenade rapidly releases calcifying agents which transform living flesh to bone, dealing 1d8 void damage. Living creatures in a @Template[burst|distance:5] must attempt a basic Reflex save. If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw become clumsy.</p>"
     },
+    "DiqpHv1N4PLND2qv": {
+      "name": "先进型尖啸调制器"
+    },
     "Dmwb9DcWLf9y8JmC": {
-      "name": "心灵感应节点"
+      "name": "心灵感应节点",
+      "description": "<p>将一颗由经过处理的合金制成、约鹅卵石大小并且刻有符文的球体植入你的大脑沟通中枢。你可以在30尺范围内获得有限心灵感应（58页）。</p>"
     },
     "DnuTMCJFBDj9nNRx": {
       "name": "战术型喷射背包",
@@ -546,6 +685,9 @@
       "name": "商用型声波手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1[bleed]]</p><hr /><p>The aural grenade contains a speaker that emits a dissonant, shrill sound that debilitates those closest to it when it triggers.</p>\n<p>The burst radius is @Template[burst|distance:5], and the nonlethal sonic damage is 1d8.</p>"
     },
+    "EPJCt9DxlUJvBAZR": {
+      "name": "战术型空无尸凝视"
+    },
     "EgAVqAYCrSJzxF1j": {
       "name": "商用型爆燃手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>击退5尺</p><hr /><p>These grenades use an ignited chemical to explode in a blast of intense heat and deal 1d8 fire damage with a @Check[reflex|against:class|basic] save (@Template[burst|distance:5]). If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw against incendiary grenades are knocked away from the grenade.</p>"
@@ -558,6 +700,9 @@
     },
     "EnufuFPBa1U2pPDn": {
       "name": "机枪"
+    },
+    "EsiFoyalwzmyeWzx": {
+      "name": "先进型弹性皮肤"
     },
     "F3xHu12Jmk8GgPGI": {
       "name": "先进型能量屏障"
@@ -574,8 +719,14 @@
       "name": "基础环境防护模块",
       "description": "<p>该强化模块能保护使用者免受太空环境及大气层厚重或稀薄的影响。在强化模块安装期间，此护甲将失去暴露特征。</p>"
     },
+    "FfYPqp4OggsZu5M2": {
+      "name": "先进型空腔耳膜"
+    },
     "FlAVujPTRhJ3U5Bl": {
       "name": "地狱骑士板甲"
+    },
+    "Fm8Kw4Xfep5u16uo": {
+      "name": "战术型棘刺"
     },
     "FySX3VPYY1YkdBZg": {
       "name": "埃斯特克斯服装"
@@ -606,6 +757,9 @@
       "name": "商用型干扰手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>Whether crafted from genuine szynegator components or synthetic imitations, these grenades mimic some of the effects of the Swarm creature while dealing damage like its acidic blood. Szynegation grenades deal the listed amount of persistent acid damage with a @Check[reflex|against:class|basic] Save. If you have access to the critical specialization effect of grenades, a creature that critically fails its saving throw against a szynegation grenade cannot use electronic or telepathic communication and become @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}. These effects last as long as an affected creature is taking persistent acid damage from the grenade.</p>\n<p>The burst radius is @Template[burst|distance:5], and the persistent acid damage is 1d4.</p>"
     },
+    "GMIzTbP7IIJGzOHK": {
+      "name": "地狱凝视"
+    },
     "GPpnvZSXFFFytG5v": {
       "name": "商用型视频擦除数据挖掘器",
       "description": "<p>这张灰色的小光盘可以擦除至多1小时的已录制好的视频，并且可以附着在任何录制或视频存储设备上。它为用于骇入计算机以删除已存在的视频的计算机检定提供+2状态加值，持续1分钟。</p>\n<p><strong>Activate—Datamine Autohack</strong> <span class=\"action-glyph\">2</span> (manipulate) The datamine replaces the video output of the attached system with the recording. It attempts a Computers check to Hack the broadcast with a +7 modifier and trained skill proficiency.</p>"
@@ -617,6 +771,9 @@
     "GXq5CGCuz4xd2Hps": {
       "name": "跳跃术法术安瓿",
       "description": "<p>在多数世界被称为“法术安瓿”的法术安瓿瓶，是一种即用型魔法注射剂，可赋予使用者特定环阶法术的好处</p>\n<p><strong>Activate—Inject</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.Q7QQ91vQtyi1Ux36]{Jump} spell</p>"
+    },
+    "GcKuR10qNttWUXR7": {
+      "name": "卓越型衰竭之手"
     },
     "Gf4NskyoCXy4IsCB": {
       "name": "商用型现实拼接手雷",
@@ -632,6 +789,9 @@
     "Gvd406aqaxjBcnFI": {
       "name": "战术型榴弹发射器",
       "description": "<p><strong>强化模块</strong> 1</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span>区域射击</p><hr /><p>The rotating barrel of this automatic breechloading launcher holds up to six grenades of any variety with smart loading technology, allowing its wielder to choose a different grenade each time they fire. A grenade launcher is a martial ranged weapon, has a reload of 2, and a range 350 feet.</p>"
+    },
+    "H0BKgB6FgVBkQhvp": {
+      "name": "卓越型语言协处理器"
     },
     "HHasuyLvKgVdv5r5": {
       "name": "战术型骨化手雷",
@@ -651,6 +811,9 @@
     "HZPVRQWgGreue272": {
       "name": "商用型加速悬载系统",
       "description": "<p>以高性能的电控机械取代你腿部的关节与肌腱。你在陆地速度上获得+5尺物品加值。</p>"
+    },
+    "HkZ5P0i7SPzGknfd": {
+      "name": "战术型语言协处理器"
     },
     "HlrNSzynsQuZrc2o": {
       "name": "先进型烟雾手雷",
@@ -691,9 +854,15 @@
       "name": "精英型霜冻手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>Critical</strong> 15 foot cirumstance penalty to base Speed for 1 round</p><hr /><p>A frost grenade explodes into ice shards, dealing cold damage in a @Template[burst|distance:15] with a @Check[reflex|against:class|basic] save. If you have the critical weapon specialization of grenades, creatures that critically fail their saving throw against frost grenades gain a circumstance penalty of 15 feet to their base Speed for 1 round.</p>"
     },
+    "Iq4dAtyGFtboJZHL": {
+      "name": "先进型记忆扩容器"
+    },
     "Ix4mqtmib554dQxl": {
       "name": "精英型光尘炸弹",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>This grenade explodes into a cloud of glitter. All creatures in the @Template[burst|distance:40] must attempt a @Check[reflex|against:class] save. While the glitter is merely an annoyance for most, it interferes with creatures that are @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} (or that later become invisible). The glitter lasts for 1 hour.</p>\n<p><strong>Critical Success</strong> The creature avoids the glitter entirely.</p>\n<p><strong>Success</strong> The creature avoids most of the glitter and is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} instead of invisible.</p>\n<p><strong>Failure</strong> The creature is covered in glitter and can be targeted with no flat check due to being invisible.</p>\n<p><strong>Critical Failure</strong> As failure, and the creature is also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 minute as the glitter gets in their eyes, though they can end the dazzled condition with an Interact action.</p>"
+    },
+    "J3xiaG76kjpUYaTx": {
+      "name": "战术型空腔耳膜"
     },
     "JGbmqiZS3kurgKFu": {
       "name": "商用型熵力破坏器",
@@ -801,6 +970,9 @@
       "name": "卓越型烟雾手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>This grenade unleashes a cloud of concealing smoke in a @Template[burst|distance:30]. Creatures within the area have the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} condition, and all other creatures are concealed to them. The smoke lasts for 1 minute or until dissipated by a strong wind or similar effect.</p>"
     },
+    "LzZRVQdBTlpkKveF": {
+      "name": "战术型快充手"
+    },
     "M0PsUbGLkBk878YZ": {
       "name": "电弧手枪"
     },
@@ -820,9 +992,21 @@
       "name": "卓越型心能软呢帽",
       "description": "<p>这顶不起眼的软呢帽能增强穿戴者的心能力量。如果你拥有有限心灵感应，则位于你有限心灵感应范围内且你能向其发送讯息的生物，在对抗心灵飞镖、@UUID[Compendium.sf2e-anachronism.feats.Item.sOPJdbmdO9LPj9Ku], @UUID[Compendium.sf2e-anachronism.feats.Item.rv6hhsxfZwI7vfyR]以及@UUID[Compendium.sf2e-anachronism.equipment.Item.DJJ4hlQLN0iTFP9N]{intercepting ears}.</p>\n<p><strong>Activate—Mental Dart</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate, mental)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You run your hand along the fedora's brim, pushing your thoughts into the mind of a creature within 30 feet. That target takes @Damage[8d6[mental]|traits:nonlethal|shortLabel] nonlethal mental damage (@Check[will|dc:34|basic] save).</p>"
     },
+    "MPTF42426GMrD6Kb": {
+      "name": "商用型掠食者利齿"
+    },
+    "MQohluLHBTZRaKaX": {
+      "name": "战术型脊柱支撑杆"
+    },
+    "MQwVtsSfIWgbWmR3": {
+      "name": "战术型危险传感器"
+    },
     "MU6FApzuFhTccPaT": {
       "name": "先进型马拉塔头痛",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 sickened 1}</p><hr /><p>Maratan headaches are made from brittle hollow gourds filled with a putrid sludge, dealing 3d8 nonlethal poison damage in a @Template[burst|distance:10] with a @Check[fortitude|against:class|basic] save.</p>"
+    },
+    "MZ4Rwf1RCyuN1cPY": {
+      "name": "商用型灵魂之眼"
     },
     "MeV8qRq6cMlSBC2E": {
       "name": "卓越型实光缠手带",
@@ -835,18 +1019,25 @@
       "name": "精英型硬化泡沫手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续2轮</p><hr /><p>A grenade erupts and expands as rapidly hardening foam, restricting the movements of creatures caught in its area with a @Check[reflex|against:class|basic] save. If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw against hardening foam grenades are @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, with your class DC as the escape DC.</p>\n<p>The burst radius is @Template[burst|distance:15], and on a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round.</p>"
     },
+    "MyP7tzmpyYHjhm9b": {
+      "name": "商用型衰竭之手"
+    },
     "Myr4T1uWznTNsWhZ": {
       "name": "虹圈盾",
       "description": "<p>一面虹圈盾以可折叠的柔性聚氯乙烯制成。在盾牌折叠时，虹圈盾就如同一个装饰性的手镯、铁手套或手套。当展开时，它的盾面会骤然绽放开来，构成一面微型圆盾。</p>"
     },
     "NAa1537jLii1129F": {
-      "name": "露营工具包"
+      "name": "露营工具包",
+      "description": "<p>一个露营工具包包含一顶可容纳四个中型生物或两个大型生物的耐候性帐篷，铺盖卷，一个引火器，一周的口粮以及一把求生刀具。</p>"
     },
     "NE6LenCQSFEAhWwX": {
       "name": "战术型锁"
     },
     "NENPU3uX5dtxdakS": {
       "name": "拼装刃"
+    },
+    "NEPd8O5lQqqskplC": {
+      "name": "先进型闪粉腺"
     },
     "NN0cdTkaj69R2B2u": {
       "name": "先进型力场护盾"
@@ -862,11 +1053,17 @@
     "NrP9WazrcBuJfjxR": {
       "name": "精英型水晶电震碎片"
     },
+    "NrfdGDD1TOuR7yfg": {
+      "name": "战术型弹性皮肤"
+    },
     "NvchdxN8P3W2rLJo": {
       "name": "力场注射器"
     },
     "O0KEtdKLfsqmRwrN": {
       "name": "屠狗刀"
+    },
+    "O1axom3ZtD3mZv4P": {
+      "name": "商用型尖啸调制器"
     },
     "O3QRrXVfhNpF0XyY": {
       "name": "零度手枪"
@@ -874,6 +1071,9 @@
     "O5NUuLG5fECaz8dQ": {
       "name": "量子掠夺者",
       "description": "<p>这柄数尺长的发光利刃边缘摇曳模糊，挥动时现实仿佛碎裂开来，沿着刃迹闪现出其他世界的片段景象。量子掠夺者属于先进型品质武器，可以如常升级。</p>\n<p><strong>Activate—Spatial Slice</strong> <span class=\"action-glyph\">2</span></p>\n<p><strong>频率</strong>每10分钟一次</p><hr /><p><strong>Effect</strong> You phase the quantum reaver through space-time, making a melee Strike against any creature within 30 feet as if you were adjacent to it. On a critical hit, the target is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 3 rounds.</p>"
+    },
+    "O9FIooWkO3cDigNN": {
+      "name": "卓越型快充手"
     },
     "OCdIvH35ibjWLrjc": {
       "name": "精英型反魔法手雷",
@@ -968,6 +1168,9 @@
       "name": "战术型数据接口",
       "description": "<p>这种电控殖装是一种可编程的数据端口，并与你的身体整合，让你能够存取计算机与数位储存装置。任何手持式计算机都可以直接插入端口，而更大型的系统则通常需要转接线。你不需要透过介面来存取系统，因为它会透过数据接口直接连入你的神经系统。你仍然必须进行任何与操作该装置有关的技能检定，例如用计算机来访问系统。有些封闭系统完全禁止直接访问数据。</p>\n<p>You gain a +1 item bonus to Computers checks when accessing a system with a tactical datajack.</p>"
     },
+    "Ps4IxLRbr5Xkf7qT": {
+      "name": "战术型黏液腺"
+    },
     "PwEKIutKVOwGmk4o": {
       "name": "战术型活性迷彩"
     },
@@ -979,6 +1182,9 @@
       "name": "终极型衰退手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1d8[persistent,acid]]伤害</p><hr /><p>Degradation grenades create violent blasts of magic that rip matter into different realities, leaving behind blackened hunks of matter that dissipate into nothingness. When the grenade explodes, it deals 12d8 acid damage in a @Template[burst|distance:20] with a @Check[reflex|against:class|basic] save.</p>"
     },
+    "Q9Eull0MJVlCLIxs": {
+      "name": "战术型闪粉腺"
+    },
     "QCzqkk6x05wG7qWV": {
       "name": "调声系统",
       "description": "<p>一系列微型促动器与动态超共鸣腔重塑了你的喉部。调声系统可让你改变声音的音高、音色与音调，因此你可以模仿口音或发出外星语言的音。当你使用欺骗来进行乔装时，若你的声音能够完善你的伪装的话（由GM定夺），你在该检定上获得+1物品加值。</p>"
@@ -989,6 +1195,12 @@
     "QGV4NiKDCHYOK5Dj": {
       "name": "大艾巴萨罗姆接力赛奖章",
       "description": "<p>此奖章代表着你是大艾巴萨罗姆接力赛的胜者，内置的数据驱动完整收录了赛事直播录像。穿戴此奖章时，赛事粉丝会认出你并更愿意提供协助。你在与艾巴萨罗姆空间站的居民交流时进行的交涉检定上获得+1物品加值。</p>"
+    },
+    "QGillK34u008bz74": {
+      "name": "战术型漂流域阀门"
+    },
+    "QKC6mFBzruml847Y": {
+      "name": "精英型尸皮"
     },
     "QTc6Z2G5G3PORbcB": {
       "name": "商用型灭火器"
@@ -1016,6 +1228,9 @@
     "QzG4mOFftnN2v9Wd": {
       "name": "音波步枪"
     },
+    "R4BudvV69l4LVL3p": {
+      "name": "战术型劫掠之喉"
+    },
     "R8dEureCA93msBsa": {
       "name": "精英型爆燃手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>击退10尺</p><hr /><p>These grenades use an ignited chemical to explode in a blast of intense heat and deal 10d8 fire damage with a @Check[reflex|against:class|basic] save (@Template[burst|distance:15]). If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw against incendiary grenades are knocked away from the grenade.</p>"
@@ -1033,6 +1248,9 @@
     "RMrZyCh0sdhEF8Mp": {
       "name": "终极型龙喉腺体",
       "description": "<p>通过尖端手术，你的喉咙深处被植入了一个适配你所属族裔的生理结构的魔法性腺体。当该器官为生体构造时，从以下列表中选择你的殖装伤害类型：强酸、寒冷、电击、火焰或音波。你获得以下启动效果。</p>\n<p><strong>Activate—Exhale</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>频率</strong>每10分钟一次</p><hr /><p><strong>Effect</strong> Each creature in a @Template[type:cone|distance:15] takes @Damage[(14d6)[untyped]] damage with a @Check[reflex|dc:43|basic] save. The damage depends on the augmentation's version.</p>"
+    },
+    "RaBdt017eZHPPHhf": {
+      "name": "先进型鳍"
     },
     "RfKBzZcysjL6f4Vq": {
       "name": "先进型真皮镀层"
@@ -1052,12 +1270,24 @@
       "name": "卓越型内爆手雷",
       "description": "<p>启动<span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1d6[bleed]]</p><hr /><p>Implosion grenades harness a small piece of the Devourer's power to create an implosion that leaves bloody wounds. When the grenade explodes, it deals 8d8 bludgeoning damage in a @Template[type:burst|distance:15] with @Check[reflex|against:class|basic] save.</p>"
     },
+    "RwoDhWdilV3poS8a": {
+      "name": "战术型毒臭汗液"
+    },
+    "Rxrdy9y8VrLuE9nv": {
+      "name": "商用型鳍"
+    },
+    "S10um3l3nXkGWxb5": {
+      "name": "卓越型棘刺"
+    },
     "S12VloOQmRvzHN4D": {
       "name": "全息星火",
       "description": "<p>这款微型的全息投影仪通常伪装成耳环，襟章或是挂饰。其可存储个性化虚像的简单视觉投影（如光环或翅膀），伴随着短暂的音频（如流行乐曲的片段或是音效）。你的全息星火可以被计算机编程，例如你的通讯单元。</p>"
     },
     "S3oO7nV7gapZYjlp": {
       "name": "甲壳护甲"
+    },
+    "S5BIhVJAorjpbihi": {
+      "name": "战术型死灵皮层"
     },
     "SFgmhbrinHfYVgKB": {
       "name": "先进型硬化泡沫手雷",
@@ -1090,6 +1320,9 @@
     "SYyG6ZKYlLLO6XAU": {
       "name": "卓越型虫群酸液移植",
       "description": "<p>这个腺体能让你吐出许多虫群物种武器化的酸液，但并不能保护你免受喷吐物的伤害。</p>\n<p><strong>Activate—Acid Spew</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<p><strong>Requirements</strong> You're not sickened</p>\n<p><strong>频率</strong>每10分钟一次</p><hr /><p><strong>Effect</strong> Each creature in a @Template[type:cone|distance:15] takes @Damage[5d8[acid]|options:area-damage] damage with a @Check[reflex|dc:27|basic] save. You take @Damage[5[acid]] damage and become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>"
+    },
+    "ScUqoxcbElmOvbLv": {
+      "name": "颈褶"
     },
     "SiYdlPu9zfqZrBdR": {
       "name": "解离鞭"
@@ -1135,6 +1368,9 @@
       "name": "精英型电磁手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]</p><hr /><p>These grenades discharge a shocking field that deals 10d8 electricity damage in a @Template[burst|distance:15] with a @Check[reflex|against:class|basic] save. If you have access to the critical specialization effect of grenades, tech creatures and unattended tech items that critically fail their saving throw against electromag grenades become glitching.</p>"
     },
+    "Tb1048IAUFAtCu30": {
+      "name": "绊足藤催芽器"
+    },
     "TgJMTB1ub5Eh4xJO": {
       "name": "灭鬼",
       "description": "<p>此强化能让你伤害没有实体存在的生物。灭鬼武器对付虚体生物时尤其有效，因为这类生物大多都特别容易受到灭鬼武器的伤害。虚体生物可以碰触、持握与持用灭鬼武器（有别于大多数实体物品）。</p>"
@@ -1150,15 +1386,30 @@
     "TvFBj3qzCP5zNHX7": {
       "name": "战术型钩爪"
     },
+    "UCypmb23DqrESnwG": {
+      "name": "卓越型异次元体腔"
+    },
+    "UNOzJIywKggJ9xhr": {
+      "name": "几丁质盾"
+    },
     "UbgiYNUHFy0pycfS": {
       "name": "商用型下挂式榴弹发射器"
     },
     "UlKke1R62YMFXrdG": {
       "name": "完美型真皮镀层"
     },
+    "UmcG2RjfqaE7tx2y": {
+      "name": "商用型劫掠之喉"
+    },
+    "UmsxwI3IEaSnEZh6": {
+      "name": "卓越型纤丝网"
+    },
     "UtAWKbJ39jj3w0Lv": {
       "name": "完美型干扰手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>Whether crafted from genuine szynegator components or synthetic imitations, these grenades mimic some of the effects of the Swarm creature while dealing damage like its acidic blood. Szynegation grenades deal the listed amount of persistent acid damage with a @Check[reflex|against:class|basic] Save. If you have access to the critical specialization effect of grenades, a creature that critically fails its saving throw against a szynegation grenade cannot use electronic or telepathic communication and become @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}. These effects last as long as an affected creature is taking persistent acid damage from the grenade.</p>\n<p>The burst radius is @Template[burst|distance:20], and the persistent acid damage is 8d8.</p>"
+    },
+    "UxyUeZKfzDBvvJgC": {
+      "name": "战术型灵魂之眼"
     },
     "V02hmKhF0g6s6jHA": {
       "name": "终极型电击棍",
@@ -1226,9 +1477,18 @@
       "name": "卓越型龙喉腺体",
       "description": "<p>通过尖端手术，你的喉咙深处被植入了一个适配你所属族裔的生理结构的魔法性腺体。当该器官为生体构造时，从以下列表中选择你的殖装伤害类型：强酸、寒冷、电击、火焰或音波。你获得以下启动效果。</p>\n<p><strong>Activate—Exhale</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>频率</strong>每10分钟一次</p><hr /><p><strong>Effect</strong> Each creature in a @Template[type:cone|distance:15] takes @Damage[(6d6)[untyped]] damage with a @Check[reflex|dc:29|basic] save. The damage depends on the augmentation's version.</p>"
     },
+    "WFrm5Gz145fHVNLk": {
+      "name": "战术型掠食者利齿"
+    },
+    "WG2ka7PFCfm3uUo6": {
+      "name": "战术型记忆扩容器"
+    },
     "WGdcokSMynEyF332": {
       "name": "探险者餐盒",
       "description": "<p>这个保温壶有着两个隔层。上层隔层包含纳米机器和针对常见污染物的过滤器，使大部分食物和水可以安全使用，并在对抗任何食物或水中的毒素或疾病的豁免中给予+1物品加值。下层隔层将插入的通用聚合物基材（UPB）以2UPB换取1天份营养量的比例转化为可食用的营养膏。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.52tyG1y50LmTqCA9]</p>"
+    },
+    "WMt7xUke0gPagk2q": {
+      "name": "商用型尸皮"
     },
     "WOvRpqLDNOatDgcO": {
       "name": "商用型衰退手雷",
@@ -1320,6 +1580,9 @@
     "YkwoE8FiD0UJXDkl": {
       "name": "反抗套装"
     },
+    "Yt6JF5pzmk5ysAzN": {
+      "name": "先进型危险传感器"
+    },
     "Yuws1too4LhO7Cu9": {
       "name": "突击队血清",
       "description": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p>这种味道浓烈的深红色灵药给予你持续1分钟的1d10+5点临时生命值，以及你所拥有的任何速度上的+5尺物品加值。当你饮用这个血清时，你的静脉会外凸，而你的眼睛会呈现微红色调。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.uf3Fb7Fm7dSzc7Os]</p>"
@@ -1335,6 +1598,9 @@
     "ZIm4WMr5CYblEBHF": {
       "name": "完美型爆燃手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>击退10尺</p><hr /><p>These grenades use an ignited chemical to explode in a blast of intense heat and deal 14d8 fire damage with a @Check[reflex|against:class|basic] save (@Template[burst|distance:20]). If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw against incendiary grenades are knocked away from the grenade.</p>"
+    },
+    "ZSYJxfdQhophWsLZ": {
+      "name": "先进型食尸鬼胃"
     },
     "ZTTC6SoRggi3HIoq": {
       "name": "先进型狙击镜",
@@ -1375,6 +1641,9 @@
     "a2e5svVQ20WrzRTK": {
       "name": "决斗剑"
     },
+    "aAfusONUgf3vLwB9": {
+      "name": "商用型翼膜"
+    },
     "aDsdYMPpVc8hOnM5": {
       "name": "战术型修理工具包"
     },
@@ -1390,6 +1659,9 @@
     },
     "aac5hRRU0wbqSHki": {
       "name": "先进型过滤式循环呼吸器"
+    },
+    "akKbJQEIGHjBMbg2": {
+      "name": "先进型死灵皮层"
     },
     "ao5MC3I1b4Gx9LNC": {
       "name": "战术型渗透者工具包"
@@ -1411,6 +1683,9 @@
     "bHHFXS2nmfOQFQyu": {
       "name": "磁星步枪"
     },
+    "bKuDqwxYAoUZIItq": {
+      "name": "商用型黏液腺"
+    },
     "bMgxTWp5PGp30uQ8": {
       "name": "先进型数据接口",
       "description": "<p>这种电控殖装是一种可编程的数据端口，并与你的身体整合，让你能够存取计算机与数位储存装置。任何手持式计算机都可以直接插入端口，而更大型的系统则通常需要转接线。你不需要透过介面来存取系统，因为它会透过数据接口直接连入你的神经系统。你仍然必须进行任何与操作该装置有关的技能检定，例如用计算机来访问系统。有些封闭系统完全禁止直接访问数据。</p>\n<p>You gain a +2 item bonus to Computers checks when accessing a system with an advanced datajack.</p>"
@@ -1418,6 +1693,9 @@
     "bU7hbVlqO6RGrXsH": {
       "name": "先进型电击棍",
       "description": "<p><strong>Upgrades:</strong> 2</p><hr /><p>Eyeswide detectives use this advanced @UUID[Compendium.sf2e-anachronism.equipment.Item.D4KuxPi9gqFkvZ3h] to subdue unruly perpetrators nonlethally. The handle gives the wielder a very mild electrical shock each time it's picked up or unsheathed, so agents tend to wear insulated gloves when they think a <em>stun stick</em> might be needed on a case.</p>\n<p><strong>Activate—Short, Sharp Shock</strong> <span class=\"action-glyph\">A</span></p>\n<p><strong>频率</strong>每小时一次</p><hr /><p><strong>Effect</strong> The length of the baton becomes wreathed in electrical energy that can temporarily wreak havoc on a creature's motor skills. Make a melee Strike with the stun stick. On a hit, you deal electricity damage instead of bludgeoning damage, and the target must succeed at a @Check[fortitude|dc:20|options:inflicts:stunned|traits:incapacitation] save or become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} for 1 round; this is an incapacitation effect.</p>"
+    },
+    "bULYtMu8OL6kd4YR": {
+      "name": "商用型真空适应肺"
     },
     "bUgSXBXfvEEuKioO": {
       "name": "漂流者夹克"
@@ -1441,8 +1719,15 @@
       "name": "战术型全息手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>Critical</strong> @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round</p><hr /><p>Stickers adorning this baseball-sized metallic grenade indicate the hologram it generates. When detonated, hundreds of small holograms burst forth, swarming around everyone in a @Template[burst|distance:10] for 1 minute. Creatures in the area that fail a @Check[will|against:class] save are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while they remain in the area, though they can attempt a new save at the beginning of each of their turns to end the effect. Those who critically fail the initial save can't attempt new saves and are also @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 round.</p>"
     },
+    "c0D9h5UysoObUs5B": {
+      "name": "先进型快充手"
+    },
     "cDRxtKbxzHQ7t5sb": {
       "name": "保温织服"
+    },
+    "ccOsKNnt95e30MCN": {
+      "name": "装饰义体",
+      "description": "<p>大多数生物接受义体植入物是为了强化身心或恢复失去的能力，而其中许多人会选择让这些强化尽可能炫目，以契合自己的审美或鲜明地表达自我。不过，也有些人只想要炫目的外表，而不需要强化功能。装饰义体不会提供规则上的增益，但会以显眼而夸张的方式改变你的外貌。它们可能是从你的头部或四肢延伸出的缆线与电线、无法持物的额外肢体、无法飞行的翅膀、不提供实际照明的皮下发光图案、光纤莫霍克发型，或其他数百种选择，其中还包括外观类似其他类型殖装的款式。此殖装不计入你的植入物上限。</p>"
     },
     "cjOdJfGUs5IDw8Pi": {
       "name": "商用型手电筒",
@@ -1518,6 +1803,9 @@
     "dxkmvJZOblZ8oImW": {
       "name": "自瞄步枪"
     },
+    "dznYVFMMDnu59Ool": {
+      "name": "商用型记忆扩容器"
+    },
     "eBWGwv3rFyQkHfh4": {
       "name": "猛虫锋刃"
     },
@@ -1540,6 +1828,9 @@
     "ejsPnjUVXf2TJgeD": {
       "name": "商用型龙喉腺体",
       "description": "<p>通过尖端手术，你的喉咙深处被植入了一个适配你所属族裔的生理结构的魔法性腺体。当该器官为生体构造时，从以下列表中选择你的殖装伤害类型：强酸、寒冷、电击、火焰或音波。你获得以下启动效果。</p>\n<p><strong>Activate—Exhale</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>频率</strong>每10分钟一次</p><hr /><p><strong>Effect</strong> Each creature in a @Template[type:cone|distance:15] takes @Damage[(1d6)[untyped]] damage with a @Check[reflex|dc:15|basic] save. The damage depends on the augmentation's version.</p>"
+    },
+    "ewDxanMgMgFkXNcs": {
+      "name": "木乃伊裹布"
     },
     "fAWMLqyaCsFm0Oxg": {
       "name": "完美型水晶电震碎片"
@@ -1583,6 +1874,9 @@
     "fvKj2J4p6MwXeupx": {
       "name": "卓越型爆燃手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>击退10尺</p><hr /><p>These grenades use an ignited chemical to explode in a blast of intense heat and deal 8d8 fire damage with a @Check[reflex|against:class|basic] save (@Template[burst|distance:15]). If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw against incendiary grenades are knocked away from the grenade.</p>"
+    },
+    "fzfCJd4irv3RdZYS": {
+      "name": "先进型异次元体腔"
     },
     "g00dmHOWZiRVk3yU": {
       "name": "驱鬼弹药"
@@ -1630,6 +1924,9 @@
     "hGcLyCanlhHkXjLD": {
       "name": "卓越型撬门数据挖掘器"
     },
+    "hR89c0o9MqY7eezz": {
+      "name": "先进型纤丝网"
+    },
     "he1AD9ck10fLSvWn": {
       "name": "商用型圣洁模组"
     },
@@ -1662,9 +1959,15 @@
       "name": "缩小术法术安瓿",
       "description": "<p>在多数世界被称为“法术安瓿”的法术安瓿瓶，是一种即用型魔法注射剂，可赋予使用者特定环阶法术的好处</p>\n<p><strong>Activate—Inject</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.PjhUmyKnq6K5uDby]{Shrink} spell</p>"
     },
+    "iTVDauj1U4hyiS96": {
+      "name": "商用型异次元体腔"
+    },
     "iXnHjgQcBR9wEvMk": {
       "name": "冷冻射线步枪",
       "description": "<p><strong>强化模块</strong> 1</p><hr /><p>The numbing beam rifle was designed with the same technology used for numbing beam pistols but is calibrated to take down tougher foes. Numbing beam rifles are often deployed against burly threats so they can be properly apprehended.</p>"
+    },
+    "ia4rh2XIYrF99jaM": {
+      "name": "卓越型劫掠之喉"
     },
     "iayCU2A9X5rIYvsm": {
       "name": "精英型心能软呢帽",
@@ -1680,8 +1983,15 @@
     "ijUVS3a2PODx9u9H": {
       "name": "“砰！”弹药"
     },
+    "ipI8RWIRwXU8IzwB": {
+      "name": "商用型利爪"
+    },
+    "iyOsSYO6iABWL0P8": {
+      "name": "先进型毒臭汗液"
+    },
     "j0KUy9uh46bdpO7r": {
-      "name": "原型太阳"
+      "name": "原型太阳",
+      "description": "<p>这个奇怪的发光球荚触感温热，由星体能量构成。</p>\n<p><strong>Activate—Absorb Stellar Energy</strong> <span class=\"action-glyph\">1</span> (manipulate) You rub the protosol's surface, absorbing the stellar energy from the pod into your own body. You gain a +5-foot status bonus to your Speeds for 1 minute. At any time during this duration, you can end the effect as a single action to expel the stellar energy around you, dealing @Damage[2d8[fire]] damage to all adjacent creatures (@Check[reflex|dc:17|basic] save).</p>"
     },
     "j66fZJrm1nECG3UM": {
       "name": "商用型真皮镀层",
@@ -1699,6 +2009,9 @@
     "jYBxzNbdEanJ89rA": {
       "name": "战术型真视瞄准镜"
     },
+    "jd0EmVHLlxVcdpyS": {
+      "name": "先进型黏液腺"
+    },
     "jgs0PtcFQqpRvIsN": {
       "name": "多线程项链",
       "description": "<p>The large jewels that make up this showy necklace are etched with intricate circuitry that activates when worn against the body. The circuits can take on some of a wearer's cognitive load, increasing the speed of their thoughts. The <em>multithreaded carcanet</em> makes your reasoning more efficient, granting you a +2 item bonus to Computers checks.</p>\n<p><strong>Activate—Multitask Recall</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>频率</strong>每10分钟一次</p><hr /><p><strong>Effect</strong> You @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} twice. If you have any special abilities or free actions that would normally be triggered when you Recall Knowledge, you can't use them for these actions.</p>"
@@ -1706,6 +2019,9 @@
     "jlqSlawTivhHODKE": {
       "name": "终极型硬化泡沫手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续1分钟</p><hr /><p>A grenade erupts and expands as rapidly hardening foam, restricting the movements of creatures caught in its area with a @Check[reflex|against:class|basic] save. If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw against hardening foam grenades are @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, with your class DC as the escape DC.</p>\n<p>The burst radius is @Template[burst|distance:20], and on a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round.</p>"
+    },
+    "joovle7gQuMEopjo": {
+      "name": "商用型信息素腺"
     },
     "k1fLpwMmXM5RKdGI": {
       "name": "现实扭曲器",
@@ -1715,12 +2031,18 @@
       "name": "先进型虫群肾上腺移植",
       "description": "<p>虫群的肾上腺进行进行令人疲惫的短时加速。</p>\n<p><strong>Activate—Adrenal Boost</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>Frequency</strong> three times per day</p>\n<p><strong>Requirements</strong> You're not @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}</p>\n<p><strong>Trigger</strong> Your turn begins</p><hr /><p><strong>Effect</strong> You become @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} until the end of the turn and can use the extra action only to Strike or Stride. When this effect ends, you become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} and fatigued until you rest for at least 10 minutes.</p>\n<p>You become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} the second time a day you Adrenal Boost, and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} the third time a day.</p>"
     },
+    "k5Ukt81hNMtcdgep": {
+      "name": "战术型骨刃"
+    },
     "kFfYq4ONuKMgISRi": {
       "name": "抬升万古石"
     },
     "kJmAAmnck30kNx2X": {
       "name": "卓越型皮下注射剂",
       "description": "<p>这根细微的圆柱体容纳着特种纳米机器人。不同类型有着不同的效果。</p><ul><li>Remove the @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} or @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} condition</li><li>Decrease the value of the @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy} or @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened} condition by 1.</li><li>Attempt a counteract check against one poison or disease afflicting the target. Use your @Check[medicine] modifier for the counteract modifier and a counteract rank of 5.</li><li>Attempt a flat check to end persistent poison or bleed damage. As this is particularly effective assistance, the DC of the flat check is reduced from 15 to 10 for this check.</li></ul>"
+    },
+    "kLMwpp1TItCghPZb": {
+      "name": "商用型漂流域阀门"
     },
     "kUfQvnJzmB1GO1Lh": {
       "name": "精英型马拉塔头痛",
@@ -1775,6 +2097,12 @@
       "name": "商用型霜冻手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>Critical</strong> 5 foot cirumstance penalty to base Speed for 1 round</p><hr /><p>A frost grenade explodes into ice shards, dealing cold damage in a @Template[burst|distance:5] with a @Check[reflex|against:class|basic] save. If you have the critical weapon specialization of grenades, creatures that critically fail their saving throw against frost grenades gain a circumstance penalty of 5 feet to their base Speed for 1 round.</p>"
     },
+    "lDFEQetYGVyvtP0u": {
+      "name": "精英型劫掠之喉"
+    },
+    "lKUct3YKy7eDqxvl": {
+      "name": "卓越型鳍"
+    },
     "lLBKptoIh0mj2KV4": {
       "name": "战术型辐射缓冲器"
     },
@@ -1820,6 +2148,9 @@
       "name": "协约保卫者护甲",
       "description": "<p>这套理事军标准制式全身护甲设计简洁实用，并留有空间用于在获得功勋后佩戴装饰和勋章。</p>"
     },
+    "mQJV7Nex8OkY18HB": {
+      "name": "先进型应急浮力囊"
+    },
     "mkMWda6ivlhnXq4d": {
       "name": "衬甲外套"
     },
@@ -1850,6 +2181,12 @@
       "name": "先进型电磁手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]</p><hr /><p>These grenades discharge a shocking field that deals 3d8 electricity damage in a @Template[burst|distance:10] with a @Check[reflex|against:class|basic] save. If you have access to the critical specialization effect of grenades, tech creatures and unattended tech items that critically fail their saving throw against electromag grenades become glitching.</p>"
     },
+    "nWqHGPsjqWsenAZQ": {
+      "name": "商用型毒臭汗液"
+    },
+    "nYGX2d000Pbrv7hO": {
+      "name": "商用型额外附肢"
+    },
     "nYzvVgdK4iS4r2Mk": {
       "name": "战术型自动爪钩",
       "description": "<p>你可以以一个交互动作将这个锚定装置固定在一根缆索上。基座将沿缆索自动滑出钳爪，使其可以如绳结一般攀爬。你可以用你的简易武器熟练进行一次远程攻击检定来对抗取决于目标的DC（通常最少是DC20）以投掷自动爪钩使其固定到一个固体表面。这次攻击具有秘密特征。在成功时，你的自动爪钩牢牢固定。但在大失败时，爪钩看似已经固定但实际上会在你攀爬途中脱落。</p>\n<p>A tactical autograppler has a sensor to detect whether it has a firm hold, causing it to automatically retract if you critically fail your ranged attack to attach it.</p>"
@@ -1865,12 +2202,21 @@
     "nl4tBzrHddJgpgbs": {
       "name": "战术型电击模组"
     },
+    "noPK2RzngTyp0n7Q": {
+      "name": "战术型震颤足底"
+    },
     "oBIUI95iuUisM7fZ": {
       "name": "卓越型电磁手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]</p><hr /><p>These grenades discharge a shocking field that deals 8d8 electricity damage in a @Template[burst|distance:15] with a @Check[reflex|against:class|basic] save. If you have access to the critical specialization effect of grenades, tech creatures and unattended tech items that critically fail their saving throw against electromag grenades become glitching.</p>"
     },
     "oBmL3AYC9mPIxci0": {
       "name": "战术型异心魔眼"
+    },
+    "oFio0fHt4jPyhkMJ": {
+      "name": "商用型骨刃"
+    },
+    "oHSYGb6V7HVvhb4K": {
+      "name": "卓越型死灵皮层"
     },
     "oVIp7s2QLj99b7qJ": {
       "name": "卓越型骨髓膏"
@@ -1881,6 +2227,9 @@
     },
     "on8hik5UAQRzJTjN": {
       "name": "战术型能量屏障"
+    },
+    "p47r2P6qrDUJvdxo": {
+      "name": "战术型吸血鬼之牙"
     },
     "p4S4iBqbVkpvWP6Z": {
       "name": "终极型闪光手雷",
@@ -1910,8 +2259,18 @@
       "name": "先进型衰退手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1d6[persistent,acid]]伤害</p><hr /><p>Degradation grenades create violent blasts of magic that rip matter into different realities, leaving behind blackened hunks of matter that dissipate into nothingness. When the grenade explodes, it deals 3d8 acid damage in a @Template[burst|distance:10] with a @Check[reflex|against:class|basic] save.</p>"
     },
+    "pVVEKqbVr22IfmF0": {
+      "name": "战术型食尸鬼胃"
+    },
+    "pbLE3DpMOtjjaSi2": {
+      "name": "战术型鳍"
+    },
     "pcPU3BjbNclch4lS": {
       "name": "实光套装"
+    },
+    "phawrsDiMhj06BlZ": {
+      "name": "时视眼",
+      "description": "<p><em>时视眼</em>是一种眼部植入物，能够让你看见宽广波长范围内的光线，并在一定程度上预知未来。你获得黑暗视觉，不会对等级不高于你的藏匿、无踪或夹击生物陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]，并在先攻的察觉检定中获得+2物品加值。</p><hr /><p><strong>Activate—Wide-Spectrum Scan</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>Frequency</strong> once per 10 minutes</p>\n<p>启动—宽谱扫描 Wide-Spectrum Scan 频率 每10分钟1次；<strong>效果</strong> 直到你下回合开始，你获得7环真景术的效果，并且能够看见红外线、紫外线，以及所有其他波长的光线与辐射。</p><hr /><p><strong>Activate—Future Sight</strong> <span class=\"action-glyph\">r</span> (fortune)</p>\n<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> You fail or critically fail an attack roll or saving throw</p>\n<p>启动—未来视 Future Sight （幸运） 频率 每小时1次；触发 你的攻击骰或豁免骰失败或大失败；<strong>效果</strong> 你重骰触发的攻击骰或豁免骰，并采用第2次结果。</p>"
     },
     "plBUD8dy3M3gGiHK": {
       "name": "掠夺者护甲"
@@ -1931,11 +2290,17 @@
     "q0qabDaBo7MPOBy3": {
       "name": "商用型水晶电震碎片"
     },
+    "q2XbUh50CTN4JySj": {
+      "name": "战术型异次元体腔"
+    },
     "q5vKWIwkpKECVPN1": {
       "name": "战术型加速悬载系统"
     },
     "q8FqlWg5u1Qvih0r": {
       "name": "先进型阻隔性表皮"
+    },
+    "qGjFXzOCgWgdziFL": {
+      "name": "战术型应急浮力囊"
     },
     "qIgcUV22LaDCzmb2": {
       "name": "激光手枪"
@@ -1953,6 +2318,9 @@
     },
     "qbmzVsnSWfneGlI9": {
       "name": "战术型生成式智慧"
+    },
+    "qcE7sH3cchRugNKm": {
+      "name": "商用型死灵注能"
     },
     "qqFSu3Ed6zirmoXn": {
       "name": "卓越型榴弹发射器",
@@ -1974,6 +2342,9 @@
     },
     "r508fWqEEtoYOLeI": {
       "name": "巧舌植入"
+    },
+    "r9yYN25ACXsvb4yP": {
+      "name": "商用型吐丝器"
     },
     "rAjQodk6M3JHhWaF": {
       "name": "完美型衰退手雷",
@@ -2041,6 +2412,12 @@
     "sTe6qQmJ1lC1xDfC": {
       "name": "电击垫"
     },
+    "sd2GVXkttjn3k80z": {
+      "name": "商用型语言协处理器"
+    },
+    "sdUDVj6VcamRcijv": {
+      "name": "商用型危险传感器"
+    },
     "smVXwWM9sOwqoQcV": {
       "name": "商用型突击公文包",
       "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>You can Install a one-handed ranged weapon of 1 Bulk or less into the assault briefcase. You gain a +2 item bonus to Stealth checks and DCs to @UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]{Conceal} a Weapon installed in the assault briefcase (+4 if the weapon has the concealable trait). You can deploy the installed weapon with an Interact action, allowing you to wield it in one hand while holding the briefcase.</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
@@ -2058,6 +2435,9 @@
     "tMVTprjg28EEYqz9": {
       "name": "商用型增音器",
       "description": "<p>这种经过特殊设计的扩音锥安装于武器的枪口或柄处。利用气压脉冲与被动声学效应来增加其攻击时声音的音量，使武器打击成功时额外造成1d6点音波伤害。重击时，目标必须成功通过@Check[fortitude|dc:24]，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]，持续1分钟（大失败时则为1小时）。</p>"
+    },
+    "tmZrOQrOZsE9zLPN": {
+      "name": "魅惑微笑"
     },
     "tpwhJakfQGmJSES0": {
       "name": "商用型反魔法手雷",
@@ -2091,12 +2471,28 @@
       "name": "商用型快干泡沫手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>This grenade releases rapidly expanding foam that sticks to creatures, preventing movement. Creatures in the @Template[burst|distance:5] that fail a @Check[reflex|against:class] save are @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} for 1 minute, at which point the foam dries out, or until they successfully Escape against the original Reflex save DC.</p>"
     },
+    "uLClojocGd90z7zQ": {
+      "name": "商用型震颤足底"
+    },
+    "uNx2TvNYhS9tzwQn": {
+      "name": "强制进化"
+    },
+    "uTLxLT2HHNtNY5KX": {
+      "name": "商用型空无尸凝视"
+    },
+    "uTZbnQMxA5KuMzom": {
+      "name": "战术型信息素腺"
+    },
     "uZc036NvIdxm38jA": {
       "name": "卓越型干扰手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>Whether crafted from genuine szynegator components or synthetic imitations, these grenades mimic some of the effects of the Swarm creature while dealing damage like its acidic blood. Szynegation grenades deal the listed amount of persistent acid damage with a @Check[reflex|against:class|basic] Save. If you have access to the critical specialization effect of grenades, a creature that critically fails its saving throw against a szynegation grenade cannot use electronic or telepathic communication and become @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}. These effects last as long as an affected creature is taking persistent acid damage from the grenade.</p>\n<p>The burst radius is @Template[burst|distance:15], and the persistent acid damage is 4d8.</p>"
     },
     "uk9u5cX31uEuFMEa": {
       "name": "电弧发射器"
+    },
+    "uo8skyT3okFn1x2R": {
+      "name": "人造仆役义肢",
+      "description": "<p>你的手（或同等附肢）是一件魔法科技义肢，可以脱离身体并半自主行动。你可以用1个交互动作将手拆下，使它成为你所处空间地面上的1个微型构装体，具有魔法与魔法科技特征。它还具有仆从特征，这意味着，若你对它下达命令，它便会在你的回合中获得2个动作。你的手在脱离身体时不能进行打击或使用武器。你的手脱离身体期间，你只能通过对它下达命令来使用它。只要你的手与你处于同一空间，你就可以用1个交互动作将它重新接回。如果你的手被摧毁，接回后仍可正常使用，但在修复前不能再次拆下，也不能对其下达命令。</p>\n<p>你的手的等级、豁免调整值和AC与你相同。它进行特技、察觉及隐秘检定时使用3+你的等级作为调整值；进行其他技能检定时，调整值等于你的等级或你的该项技能调整值，取较低者。它没有也不使用自己的属性调整值，且永远不能受益于物品加值。你的手的HP等于你等级的5倍。</p>\n<p>你的手具有昏暗视觉，只要它位于在你100尺以内，你就能通过它的传感器观察。它具有25尺速度和25尺攀爬速度。它可以用整个身体执行操作动作，视为具有1只手；但除非所持物品的负载可忽略不计，否则它持有物品时不能移动。</p>"
     },
     "utPFW3Cg5iPOUMPO": {
       "name": "奥克腾岩飞轮"
@@ -2122,6 +2518,9 @@
     "vLGDUFrg4yGzpTQX": {
       "name": "商用型修理工具包",
       "description": "<p>修理工具包包含各种各样的允许你在旅行途中进行简单修理的精密工具和供应品。你可以用修理工具包使用手艺技能修理物品。如果你穿戴着修理工具包，你可以抽出和替换一个穿戴在身上的修理工具包，作为使用动作的一部分。</p>"
+    },
+    "vNAxabaACsyXojHB": {
+      "name": "先进型棘刺"
     },
     "va3s4FMkaa1kiNDX": {
       "name": "战术型内爆手雷",
@@ -2194,6 +2593,13 @@
       "name": "精英型声波手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1d6[bleed]]</p><hr /><p>The aural grenade contains a speaker that emits a dissonant, shrill sound that debilitates those closest to it when it triggers.</p>\n<p>The burst radius is @Template[burst|distance:15], and the nonlethal sonic damage is 10d8.</p>"
     },
+    "x01nc9rre7YOOWF2": {
+      "name": "相位肢体",
+      "description": "<p>你的一只手内植入了灌注灵界精质的符文网，使你能够伸入那个位面。你可以用选定的手，以及该手所持的任何物品，触碰虚体生物和物体。用选定的手进行的无武装攻击，以及你用该手使用的单手武器，在触发弱点与穿透抗力时，视为具有灭鬼强化模块。</p>"
+    },
+    "x1EiTU2D71TegZo7": {
+      "name": "先进型衰竭之手"
+    },
     "x6gjdASwtFcMmGWf": {
       "name": "手织帽",
       "description": "<p>这顶粉色针织帽顶部缀有绒球，由毛线与母亲的爱手工编织而成。它已褪色，起了毛边，与时尚背道而驰。佩戴此帽向世人宣告你无所畏惧。</p>\n<p><strong>Activate—Nevertheless, Persist</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>频率</strong>每轮一次</p>\n<p><strong>Requirements</strong> You have the frightened condition</p><hr /><p><strong>Effect</strong> As part of the activation, you denounce the source of your fear and oppression. You and each ally in a @Template[type:emanation|distance:5] reduce your frightened values by 1.</p>"
@@ -2223,6 +2629,9 @@
       "name": "商用型黑视电容义眼",
       "description": "<p>这种替换的机械眼能给予你黑暗视觉。黑视电容型义眼的运作原理是发射低功率的紫外光激光，并透过义眼中的感受器来侦测这些雷射。能看见紫外光的生物可以侦测到这些激光。</p>"
     },
+    "xLAAaq0EuLfnF3Zx": {
+      "name": "商用型纤丝网"
+    },
     "xLxqq8NKbZsFt7EC": {
       "name": "平行协定",
       "description": "<p>平行协定是一张镶嵌着跨现实魔法符文的金属圆盘，作为你的多个平行自我的枢纽。当被启动时，它会如王冠般悬浮于你头顶。</p>\n<p><strong>Activate—Parallel Positioning</strong> <span class=\"action-glyph\">r</span> (concentration, teleportation)</p>\n<p><strong>Trigger</strong> You succeed at a saving throw against a spell or a Strike misses you</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You tap into one of the alternate realities linked to your parallel accord, repositioning yourself into a location you occupy in another reality. You teleport to any unoccupied square you can see within 20 feet. If you critically succeeded at the triggering saving throw or were critically missed by the triggering Strike, you additionally become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} until the beginning of your next turn, as your body is shrouded in fragmented reflections of other realities.</p>"
@@ -2232,6 +2641,12 @@
     },
     "xTbGz4uDeCWwMyVA": {
       "name": "商用型藏物义肢"
+    },
+    "xUksoxrmJsxXDlxL": {
+      "name": "商用型量子多用工具肢"
+    },
+    "xecn2EYcTmZqyeJo": {
+      "name": "商用型脊柱支撑杆"
     },
     "xgeRYUg32Jex5GSY": {
       "name": "商用型两脚架"
@@ -2265,6 +2680,9 @@
       "name": "战术型干扰手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>Whether crafted from genuine szynegator components or synthetic imitations, these grenades mimic some of the effects of the Swarm creature while dealing damage like its acidic blood. Szynegation grenades deal the listed amount of persistent acid damage with a @Check[reflex|against:class|basic] Save. If you have access to the critical specialization effect of grenades, a creature that critically fails its saving throw against a szynegation grenade cannot use electronic or telepathic communication and become @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled}. These effects last as long as an affected creature is taking persistent acid damage from the grenade.</p>\n<p>The burst radius is @Template[burst|distance:10], and the persistent acid damage is 1d8.</p>"
     },
+    "z4Ix3daVXiDL42qg": {
+      "name": "商用型肠索"
+    },
     "z4hYYCFlMRypJ6Wd": {
       "name": "卓越型闪光手雷",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]1轮</p><hr /><p>闪光手雷会释放出一阵刺眼的光芒，要求@Template[burst|distance:15]范围内的生物进行@Check[fortitude|against:class]豁免。豁免失败时，该生物@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]2轮。</p>"
@@ -2276,6 +2694,12 @@
     "z9B1rE6L3ICLyKsG": {
       "name": "商用型程序员玩具",
       "description": "<p>这些小物件有很多外形，通常是程序员个人虚拟形象或流行媒体角色，例如礼宾队长或丧！。该玩具能协助整理思绪；你在计算机检定上获得+1物品加值。</p>\n<p><strong>Activate—Secret Password</strong> <span class=\"action-glyph\">2</span> (auditory)</p><hr /><p><strong>Effect</strong> You whisper a secret passcode known only to yourself and your programmer's plushie, securing a computer, container, door, or lock from intrusion as a 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.Azoh0BSoCASrA1lr]{Lock} with a DC of 18. Any creature can bypass this lock using the passcode while touching the target with the programmer's plushie.</p>"
+    },
+    "zF6vCMrLBIAiSLg9": {
+      "name": "商用型快充手"
+    },
+    "zGdcOTcaXr851tua": {
+      "name": "商用型吸血鬼之牙"
     },
     "zKN34oTLfRgyJw5x": {
       "name": "战术型快干泡沫手雷",
@@ -2296,17 +2720,18 @@
       "name": "骨语者摇头娃娃",
       "description": "<p>这些节日玩偶专为协约港（Pact Port）的活人游客设计，造型模仿知名骨贤的形象，其中最受欢迎的是媒体大亨丧。任何活着的生物只要单手携带一只骨语者摇头娃娃，便能说出和理解死灵语。但这无法让他们理解密码、暗语等内容，除非你能绕过计算机辅助翻译应用的限制，例如通过@UUID[Compendium.sf2e-anachronism.feats.Item.Bi0wdUuHsLxvSqrJ]技能专长。</p>"
     },
+    "zjIIGaYIsrYjDRSc": {
+      "name": "商用型机械跳跃加速器"
+    },
     "zqwCBoDQOCW5l8f9": {
       "name": "战术型视频擦除数据挖掘器"
+    },
+    "zs3L56oK92jFYdx0": {
+      "name": "先进型魅惑微笑"
     },
     "zyrPSFBAwL58wCUB": {
       "name": "鳃鞘",
       "description": "<p>在水中呼吸时，该鳃鞘将氧气过滤至肺部。这让你能够在水下或空气中呼吸，你如常吐气。</p>"
     }
-  },
-  "folders": {
-    "Biotech": "生物工程",
-    "Necrograft": "死灵植入",
-    "Magitech": "魔法科技"
   }
 }

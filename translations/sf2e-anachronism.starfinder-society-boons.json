@@ -1,0 +1,16 @@
+{
+  "label": "寻星者协会恩惠",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    }
+  },
+  "entries": {
+    "JETLVXJc0NtTthe9": {
+      "name": "眩光发生器"
+    }
+  }
+}

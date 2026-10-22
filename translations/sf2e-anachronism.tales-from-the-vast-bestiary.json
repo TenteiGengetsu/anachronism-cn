@@ -1,0 +1,1412 @@
+{
+  "label": "浩界故事集",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    },
+    "items": {
+      "path": "items",
+      "converter": "sf2eAnachronismCnItems"
+    }
+  },
+  "entries": {
+    "02LDFGeV0zA4sPkC": {
+      "items": [
+        {
+          "id": "uLBaKdUxxF3jPL4g",
+          "expectedName": "Lifesense",
+          "name": "生命感知"
+        },
+        {
+          "id": "Of8t0XQdHTZMxl5A",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        }
+      ]
+    },
+    "0Y1m7suv1XMXh3wP": {
+      "items": [
+        {
+          "id": "wYRbckV1PVTXztBV",
+          "expectedName": "Fist",
+          "name": "拳头"
+        }
+      ]
+    },
+    "0lMVLGU0Pygh1V8Z": {
+      "items": [
+        {
+          "id": "BWXNNLYYDufZKBVO",
+          "expectedName": "Shield",
+          "name": "护盾术"
+        },
+        {
+          "id": "Z03HioOws1ShYwfp",
+          "expectedName": "Aeon Rifle",
+          "name": "万古步枪"
+        },
+        {
+          "id": "zofLPu7cg9aBOrXC",
+          "expectedName": "Aeon Stone (Life-Giving)",
+          "name": "赋生万古石"
+        },
+        {
+          "id": "hTP82ZrKVDMXDXxV",
+          "expectedName": "Aeon Rifle",
+          "name": "万古步枪"
+        },
+        {
+          "id": "WClFdvLJiKhpLy6B",
+          "expectedName": "Fist",
+          "name": "拳头"
+        }
+      ]
+    },
+    "15npUAVmcGGy5RDk": {
+      "items": [
+        {
+          "id": "qJTp8f1zeMbaplA9",
+          "expectedName": "Crisis of Faith",
+          "name": "信念崩塌"
+        },
+        {
+          "id": "yozV2KWPf63XGtMi",
+          "expectedName": "Electrotether",
+          "name": "闪电枷锁",
+          "expectedDescription": "<p>You supercharge the targets' electromagnetism and pull them with a tether of lightning. Make a ranged spell attack against each target. If you attack two targets, both attacks count toward your multiple attack penalty, but it doesn't increase until after both attacks. The targets each take 4d8 electricity damage and are pulled 5 feet closer to you, or 10 feet closer on a critical hit. If both attacks hit, you can choose to move the creatures closer to one another instead of closer to you. Moving a target into a barrier, creature, or obstacle causes the target to stop before entering that space.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d8.</p>",
+          "description": "<p>你使目标的电磁场过载，并以闪电锁链将其拽向自己。对每个目标进行一次远程法术攻击。若攻击两个目标，两次攻击均计入多重攻击减值，但该减值仅在两次攻击完成后生效。每个目标受到4d8电击伤害并且向着你的方向被拉拽5尺（大成功10尺）。如果两次攻击都命中，你可以选择让两个生物彼此靠近而不是被拉向你。如果目标在位移过程中碰到街垒、生物或障碍，目标会在进入那个方格之前停下。</p><hr /><p><strong>升阶（+1）</strong>该伤害增加1d8。</p>"
+        },
+        {
+          "id": "R6wffc1xSkhRyKCj",
+          "expectedName": "Vampiric Feast",
+          "name": "血族盛宴"
+        },
+        {
+          "id": "NZoqaQmlMIPqWES9",
+          "expectedName": "Augury",
+          "name": "卜筮术"
+        },
+        {
+          "id": "6Rn1KTTApXbyZdWl",
+          "expectedName": "Dispel Magic",
+          "name": "解除魔法"
+        },
+        {
+          "id": "Ged3nWP5T15ZQTwV",
+          "expectedName": "Doom Scroll",
+          "name": "末日刷屏",
+          "expectedDescription": "<p>You magically broadcast grim news onto nearby devices, holo projectors, screens, and other displays (including comm units on armor). Creatures in the area who can see one or more displays must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the display.</p>\n<p><strong>Failure</strong> The creature is fascinated by the display and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (even if the fascination ends).</p>\n<p><strong>Critical Failure</strong> The creature is fascinated by the display, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}, and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (even if the fascination ends).</p>",
+          "description": "<p>你可以用魔法在附近的设备、全息投影仪、屏幕和其他显示器（包括护甲上的通讯单元）上播报可怕的消息。区域内能看到一个或多个显示屏的生物必须尝试意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物因显示内容@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]。</p>\n<p><strong>失败</strong>该生物因显示内迷魂并@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}（即使迷魂结束）。</p>\n<p><strong>大失败</strong>该生物因显示内迷魂，@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 3}，并且@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭 Doomed 1}（即使迷魂结束）。</p>"
+        },
+        {
+          "id": "Ft2LFQYKcd4tFggW",
+          "expectedName": "Soul Surge",
+          "name": "灵魂激涌",
+          "expectedDescription": "<p>You channel your life force into a spear of energy. You lose 6 Hit Points or, if you're in a bond with a vitality network that has at least 12 Hit Points, you can reduce the vitality bond's Hit Points by 12 instead. Make a ranged spell attack against the target's AC. On a hit, you deal 6d6 spirit damage. On a critical hit, the target takes double damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p><hr /><p><strong>Heightened (+1)</strong> Increase the damage dealt by 2d6 and the Hit Points lost by 2 (or by 4 if you spend Hit Points from a vitality network).</p>",
+          "description": "<p>你将生命力凝聚为一支能量长矛。你失去6点生命值，或者如果你和一个至少有12点生命值的活力网络建立纽带，则可以从活力网络中扣除12点生命值。尝试一次远程法术攻击对抗目标AC。在命中时，你造成6d6精魂伤害。如果重击，目标受到双倍伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 1}。</p><hr /><p><strong>Heightened (+1)</strong> Increase the damage dealt by 2d6 and the Hit Points lost by 2 (or by 4 if you spend Hit Points from a vitality network).</p>"
+        },
+        {
+          "id": "YQKtKL5YkvadIby4",
+          "expectedName": "Eldritch Lance",
+          "name": "诡枪术",
+          "expectedDescription": "<p>You condense a beam of mind-assaulting eldritch energy from the dark spaces between the stars and fire it at a target. Make a ranged spell attack roll against the target's AC. If you hit, you deal 2d6 mental damage. On a critical success, you deal double damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>",
+          "description": "<p>你自星辰之间的幽深领域凝聚一束袭魂慑魄的怪异能量攻击目标。尝试一次远程法术攻击骰对抗目标的AC，如果命中，你造成2d6心灵伤害，在大成功时造成双倍伤害。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6。</p>"
+        },
+        {
+          "id": "X1ipQ7edNnH3BNam",
+          "expectedName": "Enfeeble",
+          "name": "衰弱术"
+        },
+        {
+          "id": "OTjL2yD2siG8lshI",
+          "expectedName": "Guidance",
+          "name": "指引者"
+        },
+        {
+          "id": "RGGPVaqUatySld7n",
+          "expectedName": "Mind Skewer",
+          "name": "心灵穿刺",
+          "expectedDescription": "<p>You overload a creature's mind with a glut of psychic information or divine judgments. The mental onslaught deals 2d6 mental damage. On a critical failure, the target is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
+          "description": "<p>你可以用大量的精神信息或神圣审判使一个生物的精神超负荷。心灵冲击会造成2d6心灵伤害。在重击时，目标还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2}，持续1轮。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加 2d6。</p>"
+        },
+        {
+          "id": "JxvniUVInQSg6xXt",
+          "expectedName": "Shield",
+          "name": "护盾术"
+        },
+        {
+          "id": "iHZSUKEj9eUTWmAV",
+          "expectedName": "Spirit Link",
+          "name": "灵魂链接"
+        },
+        {
+          "id": "5HtBH22USAJaSzLU",
+          "expectedName": "Stabilize",
+          "name": "稳定伤势"
+        },
+        {
+          "id": "wTtCZNhJiG6f5uYc",
+          "expectedName": "Machine Gun",
+          "name": "机枪"
+        },
+        {
+          "id": "gjPqxgtl56DhZggB",
+          "expectedName": "Area Fire",
+          "name": "区域射击"
+        },
+        {
+          "id": "OhlxJTIMB26Zk6Cf",
+          "expectedName": "Machine Gun",
+          "name": "机枪"
+        },
+        {
+          "id": "jR2jiHnsB8sm6U63",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "3Fi9xhh5YlFmyuKe": {
+      "items": [
+        {
+          "id": "5s74i5JPnFQtIAaI",
+          "expectedName": "Arc Pistol",
+          "name": "电弧手枪"
+        },
+        {
+          "id": "6BCxOWCvM5Aqp42U",
+          "expectedName": "Knife",
+          "name": "短刀"
+        },
+        {
+          "id": "QZ2Iu1bN78thW8Nk",
+          "expectedName": "Shock Pad",
+          "name": "电击垫"
+        },
+        {
+          "id": "yQKwZ3IQAmVEdXiS",
+          "expectedName": "Armored Coat",
+          "name": "衬甲外套"
+        },
+        {
+          "id": "djft35XHxl6lnXz5",
+          "expectedName": "Maker's Toolkit (Commercial)",
+          "name": "商用型创客工具包",
+          "expectedDescription": "<p>You need a maker's toolkit to create items from UPBs with the Craft skill.</p>",
+          "description": "<p>你需要创客工具包来用手艺技能通过通用聚合物基材创造物品。</p>"
+        },
+        {
+          "id": "W9BL2CESMkq80sVQ",
+          "expectedName": "Arc Pistol",
+          "name": "电弧手枪"
+        },
+        {
+          "id": "8RiYOgjlo3p6Q4Zd",
+          "expectedName": "Shock Pad",
+          "name": "电击垫"
+        }
+      ]
+    },
+    "4qBA870aD789efnm": {
+      "items": [
+        {
+          "id": "t2MVyNhLXiDmErON",
+          "expectedName": "Estex Suit",
+          "name": "埃斯特克斯服装"
+        },
+        {
+          "id": "83yrke5lxXCMoa4m",
+          "expectedName": "Venom Spur",
+          "name": "毒刺"
+        },
+        {
+          "id": "iyT19jNgFU20wZek",
+          "expectedName": "Corporate Lore",
+          "name": "企业学识"
+        },
+        {
+          "id": "DraQOD5MumwXY5kb",
+          "expectedName": "Life Science Lore",
+          "name": "生命科学学识"
+        }
+      ]
+    },
+    "5cHzURn6ShrV8tzZ": {
+      "items": [
+        {
+          "id": "unaKpkBiXXs6ZHt2",
+          "expectedName": "Pulsecaster Pistol",
+          "name": "脉冲手枪"
+        },
+        {
+          "id": "ZxgV1dWr2rfAqZwI",
+          "expectedName": "Pulsecaster Pistol",
+          "name": "脉冲手枪"
+        },
+        {
+          "id": "yNoR4V4HhAE3oNVt",
+          "expectedName": "Fist",
+          "name": "拳头"
+        }
+      ]
+    },
+    "63Jn2gSyeDEem19d": {
+      "items": [
+        {
+          "id": "bVXxsAhF3tnrQMst",
+          "expectedName": "Shock Pad",
+          "name": "电击垫"
+        }
+      ]
+    },
+    "6mIEX8En6mXcSfYe": {
+      "items": [
+        {
+          "id": "ldTXR2Rp6RYilZ0d",
+          "expectedName": "Entropy Strike",
+          "name": "熵击",
+          "expectedDescription": "<p>You unleash a ray of entropy that rapidly and indiscriminately decays matter. Make a ranged spell attack against the target's AC. On a hit, the target takes 5d8 void damage, or it takes 2d6 persistent acid damage and is glitching 1 if it has the tech trait. On a critical hit, double the damage, and if the creature has the tech trait, it's glitching 2 and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1 die.</p>",
+          "description": "<p>你释放一束熵射线，迅速且无差别地分解物质。进行远程法术攻击对抗目标的AC。如果命中，目标受到5d8虚能伤害；或者如果目标生物有科技特征，则会受到2d6持续性酸蚀伤害并陷入故障1。如果重击，伤害翻倍，并且如果目标生物有科技特征，则陷入故障2和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。</p><hr /><p><strong>升阶 （+1）</strong>增加1个伤害骰。</p>"
+        },
+        {
+          "id": "OQvtARUJwiwQgLN3",
+          "expectedName": "Void Whispers",
+          "name": "虚空低语",
+          "expectedDescription": "<p>The target hears ominous sounds containing unspeakable mysteries from beyond the stars that disorient its mind. The target attempts a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The target hears the strange whispers, becoming @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</p>\n<p><strong>Failure</strong> The target begins to wander aimlessly, using each action to Step in a random direction. When it moves, the target takes the safest route and doesn't enter hazardous terrain. The spell has a duration of 1 minute or until a creature uses a hostile action against the target.</p>\n<p><strong>Critical Failure</strong> As failure, except the target babbles incoherently. Any creature that begins its turn within 20 feet of the target must attempt a Will saving throw. On a failure, it must use its first action on its next turn to Step in a random direction and becomes immune to this spell for 24 hours. This is an incapacitation effect.</p>",
+          "description": "<p>目标耳边响起蕴含星辰之外不可名状奥秘的不祥之音，使其神智混乱。目标需要尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>目标听到了诡异的低语，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 1}，持续1轮。</p>\n<p><strong>失败</strong>目标开始漫无目的地游荡，使用每个动作来快步（方向随机）。当其移动时，其会采取最安全的路线并且不会进入有害地形。法术会持续1分钟或者直到目标被敌对动作瞄准。</p>\n<p><strong>大失败</strong>类似失败，除了目标还会语无伦次地喋喋不休。任何在其20尺内开始回合的生物也需要尝试一次意志豁免。在失败时，这些生物也需要在下回合开始时花费第一个动作来进行快步（随机方向），随后临时免疫此法术24小时。这是一个失能效果。</p>"
+        },
+        {
+          "id": "qQuRbOwMM3Z2UB5l",
+          "expectedName": "Doom Scroll",
+          "name": "末日刷屏",
+          "expectedDescription": "<p>You magically broadcast grim news onto nearby devices, holo projectors, screens, and other displays (including comm units on armor). Creatures in the area who can see one or more displays must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the display.</p>\n<p><strong>Failure</strong> The creature is fascinated by the display and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (even if the fascination ends).</p>\n<p><strong>Critical Failure</strong> The creature is fascinated by the display, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}, and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (even if the fascination ends).</p>",
+          "description": "<p>你可以用魔法在附近的设备、全息投影仪、屏幕和其他显示器（包括护甲上的通讯单元）上播报可怕的消息。区域内能看到一个或多个显示屏的生物必须尝试意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物因显示内容@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]。</p>\n<p><strong>失败</strong>该生物因显示内迷魂并@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}（即使迷魂结束）。</p>\n<p><strong>大失败</strong>该生物因显示内迷魂，@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 3}，并且@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭 Doomed 1}（即使迷魂结束）。</p>"
+        },
+        {
+          "id": "RTOU70ZlQzsiisZk",
+          "expectedName": "Telekinetic Maneuver",
+          "name": "念动战技"
+        },
+        {
+          "id": "sAC0NzMlrRL6deIU",
+          "expectedName": "Vibe Check",
+          "name": "情绪控制"
+        },
+        {
+          "id": "ZbEb6LmaciZi29DS",
+          "expectedName": "Analyze Target",
+          "name": "分析目标",
+          "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+        },
+        {
+          "id": "yjGgFogIcfIsHo8g",
+          "expectedName": "Bane",
+          "name": "绝望术"
+        },
+        {
+          "id": "Is0SH9LOM33x2EZQ",
+          "expectedName": "Command",
+          "name": "命令术"
+        },
+        {
+          "id": "W0e24Br1e1TKVLrw",
+          "expectedName": "Eldritch Lance",
+          "name": "诡枪术",
+          "expectedDescription": "<p>You condense a beam of mind-assaulting eldritch energy from the dark spaces between the stars and fire it at a target. Make a ranged spell attack roll against the target's AC. If you hit, you deal 2d6 mental damage. On a critical success, you deal double damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>",
+          "description": "<p>你自星辰之间的幽深领域凝聚一束袭魂慑魄的怪异能量攻击目标。尝试一次远程法术攻击骰对抗目标的AC，如果命中，你造成2d6心灵伤害，在大成功时造成双倍伤害。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6。</p>"
+        },
+        {
+          "id": "re6gh5lQjNYClNi8",
+          "expectedName": "Message",
+          "name": "传讯术"
+        },
+        {
+          "id": "Xypp8r1EkyBJPTRN",
+          "expectedName": "Prestidigitation",
+          "name": "魔法伎俩"
+        },
+        {
+          "id": "7zLGd2vJ6xTaoUWw",
+          "expectedName": "Sonic Scream",
+          "name": "音波尖啸",
+          "expectedDescription": "<p>You unleash a painfully rapid cone of vibrations by letting out a cathartic scream, dealing 1d8 sonic damage to creatures in the area with a basic Fortitude save. A creature that fails its saving throw also becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><hr /><p><strong>Heightened (+1)</strong> Increases the damage by 1d8.</p>",
+          "description": "<p>你发出一声宣泄性的痛苦尖啸，释放锥形的振动波，对区域内的生物造成1d8音波伤害，这具有基础强韧豁免。豁免失败的生物获得@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d8</p>"
+        },
+        {
+          "id": "75CTF4AuOZWGV9kP",
+          "expectedName": "Telekinetic Hand",
+          "name": "念动之手"
+        }
+      ]
+    },
+    "6yjddYWGOaX2xNGA": {
+      "items": [
+        {
+          "id": "eLKjjFLeQaTc6m8C",
+          "expectedName": "Delete",
+          "name": "删除术",
+          "expectedDescription": "<p>You delete data from a device or object with a flamboyant magical gesture. This data might be handwritten, printed, or digital. You delete up to 1,500 words' worth of text, one page of content, or one display screen worth of text or other visual information. Non-magical writing in or on an unattended or held object is automatically deleted. Attempt a counteract check to delete digital or magical writing. If you fail to delete writing that's part of a hazard, you trigger the hazard. This can't be used to delete the contents of a spellbook or similar means of storing magical formulas or spells.</p>\n<p>If you target an attended tech item with the tracking trait, attempt a counteract check. On a success, the item becomes glitching 1. A creature holding the item can Interact to restart the software, reducing the glitching value by 1.</p><hr /><p><strong>Heightened (7th)</strong> You can delete all the data stored locally on a single device or book, or all the data on a device or book related to a specific name, topic, or category.</p>",
+          "description": "<p>你以华丽的魔法手势删除设备或物品中的数据。这些数据可以是手写的、打印的或电子的。你最多可以删除 1,500字的文本、一页内容或一显示屏的文本或其他视觉信息。无主物品或手持物品上的非魔法文字会自动删除。尝试反制检定删除数据或魔法文字。如果你尝试删除的文字是危害的一部分，且你失败，就会触发危害。这不能用于删除魔法书或类似的存储魔法公式或法术的内容。</p>\n<p>如果目标是具有追踪特征的科技物品，尝试一次反制检定。如果成功，该物品就会获得故障1。持有该物品的生物可以花费一个交互动作来重启用户界面，并将故障值降低1。</p><hr /><p><strong>升阶（7环）</strong>你可以删除单个设备或书籍中本地存储的所有数据，或者删除设备或书籍中与特定名称、主题或类别相关的所有数据。</p>"
+        },
+        {
+          "id": "PKyEa8Q3xiAdKADT",
+          "expectedName": "Figment",
+          "name": "虚构幻术"
+        },
+        {
+          "id": "yV6kGxZCmZcmHC9q",
+          "expectedName": "Mind Skewer",
+          "name": "心灵穿刺",
+          "expectedDescription": "<p>You overload a creature's mind with a glut of psychic information or divine judgments. The mental onslaught deals 2d6 mental damage. On a critical failure, the target is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
+          "description": "<p>你可以用大量的精神信息或神圣审判使一个生物的精神超负荷。心灵冲击会造成2d6心灵伤害。在重击时，目标还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2}，持续1轮。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加 2d6。</p>"
+        },
+        {
+          "id": "1GOaPtZL9aHvD43L",
+          "expectedName": "Shield",
+          "name": "护盾术"
+        },
+        {
+          "id": "Qw65Tf5FapoH0KUy",
+          "expectedName": "Telekinetic Hand",
+          "name": "念动之手"
+        }
+      ]
+    },
+    "9CqhC4cNKMKVcmw5": {
+      "items": [
+        {
+          "id": "tcvvflXyXvHyrk1w",
+          "expectedName": "Claws",
+          "name": "利爪"
+        },
+        {
+          "id": "RQL8JXjZ2mrbWTc7",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "9I22cN369SkyandY": {
+      "items": [
+        {
+          "id": "MGgtuCuYqpw5Cp2V",
+          "expectedName": "Knife",
+          "name": "短刀"
+        },
+        {
+          "id": "ZJFxWFH1eIoBD6zH",
+          "expectedName": "Medpatch (Commercial)",
+          "name": "商用型医疗贴片"
+        },
+        {
+          "id": "Vu3aEJDEpbLfB5HW",
+          "expectedName": "Knife",
+          "name": "短刀"
+        },
+        {
+          "id": "5uhckwAQOQZ3bjcC",
+          "expectedName": "Knife",
+          "name": "短刀"
+        }
+      ]
+    },
+    "BvS1cWE6Mo1viBNQ": {
+      "items": [
+        {
+          "id": "aYZ2r0RmIRvODFTP",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        }
+      ]
+    },
+    "Bxj8boIi8TKxn9hQ": {
+      "items": [
+        {
+          "id": "LK3St1I90ZPmv3j9",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        }
+      ]
+    },
+    "Cajy8A0lPNIqFfxS": {
+      "items": [
+        {
+          "id": "W8CgqiZRfikMHaUX",
+          "expectedName": "Acid Grip",
+          "name": "强酸爪"
+        },
+        {
+          "id": "vuCwswfhltr6NLcA",
+          "expectedName": "Create Water",
+          "name": "造水术"
+        }
+      ]
+    },
+    "CbjxNI5Btx5XbLTX": {
+      "items": [
+        {
+          "id": "eUxHNfLTL4bFj4QG",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "EOXPrb2UlPgEKhLU": {
+      "items": [
+        {
+          "id": "mi4CLGngWm67yiuj",
+          "expectedName": "Shooting Starknife",
+          "name": "弹射星刃"
+        },
+        {
+          "id": "z2bJBHYR2g6za7K9",
+          "expectedName": "Medpatch (Tactical)",
+          "name": "战术型医疗贴片"
+        },
+        {
+          "id": "HOQfqr9upWBjt9WO",
+          "expectedName": "Shooting Starknife",
+          "name": "弹射星刃"
+        },
+        {
+          "id": "Yx6uoqpVCVtQRDpS",
+          "expectedName": "Shooting Starknife",
+          "name": "弹射星刃"
+        },
+        {
+          "id": "elijfX1GeAsOo5K0",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        }
+      ]
+    },
+    "FKpcnpWbtbpbXL7c": {
+      "items": [
+        {
+          "id": "YKcwR9qA7MDHqcQx",
+          "expectedName": "Fist",
+          "name": "拳头"
+        },
+        {
+          "id": "7gkG0urD4dm6NW01",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "HLK1fibTZvpf2IJ7": {
+      "items": [
+        {
+          "id": "BWXNNLYYDufZKBVO",
+          "expectedName": "Shield",
+          "name": "护盾术"
+        },
+        {
+          "id": "9Ujl7vDoU3PO41cc",
+          "expectedName": "Flash Grenade (Advanced)",
+          "name": "先进型闪光手雷",
+          "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round</p><hr /><p>A flash grenade unleashes a blast of bright light that requires creatures in a @Template[burst|distance:10] to attempt a @Check[fortitude|against:class] save. On a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 2 rounds.</p>",
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]1轮</p><hr /><p>闪光手雷会释放出一阵刺眼的光芒，要求@Template[burst|distance:10]范围内的生物进行@Check[fortitude|against:class]豁免。豁免失败时，该生物@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]2轮。</p>"
+        },
+        {
+          "id": "Z03HioOws1ShYwfp",
+          "expectedName": "Aeon Rifle",
+          "name": "万古步枪"
+        },
+        {
+          "id": "6Qo694t86kXO6E8U",
+          "expectedName": "Battleglove",
+          "name": "战斗手套"
+        },
+        {
+          "id": "zofLPu7cg9aBOrXC",
+          "expectedName": "Aeon Stone (Life-Giving)",
+          "name": "赋生万古石"
+        },
+        {
+          "id": "hTP82ZrKVDMXDXxV",
+          "expectedName": "Aeon Rifle",
+          "name": "万古步枪"
+        },
+        {
+          "id": "kOjHKdlDp8X8POXH",
+          "expectedName": "Battleglove",
+          "name": "战斗手套"
+        },
+        {
+          "id": "tBi2Bt7c9offoK2L",
+          "expectedName": "Flash Grenade",
+          "name": "闪光手雷"
+        }
+      ]
+    },
+    "MhoZ5bFnRevAXGg9": {
+      "items": [
+        {
+          "id": "UhQiydDYzjeKywK7",
+          "expectedName": "Shield",
+          "name": "护盾术"
+        },
+        {
+          "id": "MNaTwLPkvpNH2hYB",
+          "expectedName": "Sure Strike",
+          "name": "料敌机先"
+        },
+        {
+          "id": "ImlUALvsKgL6QkNN",
+          "expectedName": "Self-Destruct",
+          "name": "自毁"
+        }
+      ]
+    },
+    "Mq6JdLWdUL6NI01r": {
+      "items": [
+        {
+          "id": "NMx38ghawrakaKk7",
+          "expectedName": "Enthrall",
+          "name": "注目术"
+        },
+        {
+          "id": "xlqzgfXZrT98uIjr",
+          "expectedName": "Share Pain",
+          "name": "分担痛苦",
+          "expectedDescription": "<p>You telepathically share the sensation of agonizing pain with a creature. The target takes 3d12 mental damage and attempts a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} for 1 minute.</p><hr /><p><strong>Heightened (6th)</strong> The spell targets up to four creatures and deals 6d12 mental damage.</p>",
+          "description": "<p>你以心灵感应的方式与一个生物分享痛苦的感觉。目标受到3d12精神伤害，并尝试意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全额伤害，并且@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}，持续1分钟。</p>\n<p><strong>大失败</strong>该生物受到全额伤害，并且@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}，持续1分钟。</p><hr /><p><strong>升阶（6环）</strong>该法术最多可瞄准四个生物，并造成6d12心灵伤害。</p>"
+        },
+        {
+          "id": "vY0hO9NFXC6DNJDZ",
+          "expectedName": "Time's Edge",
+          "name": "时间尖锋",
+          "expectedDescription": "<p>You refract latent energy from the Dimension of Time into your current plane in the form of a massive blade. The blade deals 5d6 slashing damage to all creatures in the area as it causes time to pass rapidly in a thin slice of their bodies. Creatures in the area must attempt a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
+          "description": "<p>你将时间维度上的巨大能量折射入当前位面，化为巨大的刀锋。刀锋对区域内所有生物造成5d6挥砍伤害，这表示刀锋令其身体的一小部分迅速流逝时间。该区域内的生物必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全部伤害并且陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p>\n<p><strong>大失败</strong>目标受到两倍伤害并且陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 2}。</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        {
+          "id": "TmHbOKVBtrndWPfq",
+          "expectedName": "Void Whispers",
+          "name": "虚空低语",
+          "expectedDescription": "<p>The target hears ominous sounds containing unspeakable mysteries from beyond the stars that disorient its mind. The target attempts a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The target hears the strange whispers, becoming @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</p>\n<p><strong>Failure</strong> The target begins to wander aimlessly, using each action to Step in a random direction. When it moves, the target takes the safest route and doesn't enter hazardous terrain. The spell has a duration of 1 minute or until a creature uses a hostile action against the target.</p>\n<p><strong>Critical Failure</strong> As failure, except the target babbles incoherently. Any creature that begins its turn within 20 feet of the target must attempt a Will saving throw. On a failure, it must use its first action on its next turn to Step in a random direction and becomes immune to this spell for 24 hours. This is an incapacitation effect.</p>",
+          "description": "<p>目标耳边响起蕴含星辰之外不可名状奥秘的不祥之音，使其神智混乱。目标需要尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>目标听到了诡异的低语，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 1}，持续1轮。</p>\n<p><strong>失败</strong>目标开始漫无目的地游荡，使用每个动作来快步（方向随机）。当其移动时，其会采取最安全的路线并且不会进入有害地形。法术会持续1分钟或者直到目标被敌对动作瞄准。</p>\n<p><strong>大失败</strong>类似失败，除了目标还会语无伦次地喋喋不休。任何在其20尺内开始回合的生物也需要尝试一次意志豁免。在失败时，这些生物也需要在下回合开始时花费第一个动作来进行快步（随机方向），随后临时免疫此法术24小时。这是一个失能效果。</p>"
+        },
+        {
+          "id": "e8pEvQT6FMienG2i",
+          "expectedName": "Doom Scroll",
+          "name": "末日刷屏",
+          "expectedDescription": "<p>You magically broadcast grim news onto nearby devices, holo projectors, screens, and other displays (including comm units on armor). Creatures in the area who can see one or more displays must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the display.</p>\n<p><strong>Failure</strong> The creature is fascinated by the display and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (even if the fascination ends).</p>\n<p><strong>Critical Failure</strong> The creature is fascinated by the display, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}, and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (even if the fascination ends).</p>",
+          "description": "<p>你可以用魔法在附近的设备、全息投影仪、屏幕和其他显示器（包括护甲上的通讯单元）上播报可怕的消息。区域内能看到一个或多个显示屏的生物必须尝试意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物因显示内容@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]。</p>\n<p><strong>失败</strong>该生物因显示内迷魂并@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}（即使迷魂结束）。</p>\n<p><strong>大失败</strong>该生物因显示内迷魂，@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 3}，并且@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭 Doomed 1}（即使迷魂结束）。</p>"
+        },
+        {
+          "id": "QvfT0UpJUUBN8gDK",
+          "expectedName": "Paranoia",
+          "name": "狂乱偏执"
+        },
+        {
+          "id": "W9gqVYDrM0ZlJ0e0",
+          "expectedName": "Vibe Check",
+          "name": "情绪控制"
+        },
+        {
+          "id": "s8d5iLF0p1MYH6A8",
+          "expectedName": "Analyze Target",
+          "name": "分析目标",
+          "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+        },
+        {
+          "id": "qkE8pzCp4kGIfltO",
+          "expectedName": "Bane",
+          "name": "绝望术"
+        },
+        {
+          "id": "PxrATOYqLYMT0igH",
+          "expectedName": "Eldritch Lance",
+          "name": "诡枪术",
+          "expectedDescription": "<p>You condense a beam of mind-assaulting eldritch energy from the dark spaces between the stars and fire it at a target. Make a ranged spell attack roll against the target's AC. If you hit, you deal 2d6 mental damage. On a critical success, you deal double damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>",
+          "description": "<p>你自星辰之间的幽深领域凝聚一束袭魂慑魄的怪异能量攻击目标。尝试一次远程法术攻击骰对抗目标的AC，如果命中，你造成2d6心灵伤害，在大成功时造成双倍伤害。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6。</p>"
+        },
+        {
+          "id": "dQzwYHmtNyC76WB3",
+          "expectedName": "Enfeeble",
+          "name": "衰弱术"
+        },
+        {
+          "id": "HcKNzbAYoZQ4x1Dz",
+          "expectedName": "Grim Tendrils",
+          "name": "邪影触须"
+        },
+        {
+          "id": "5xOQIdC46JYCp31x",
+          "expectedName": "Mind Skewer",
+          "name": "心灵穿刺",
+          "expectedDescription": "<p>You overload a creature's mind with a glut of psychic information or divine judgments. The mental onslaught deals 2d6 mental damage. On a critical failure, the target is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
+          "description": "<p>你可以用大量的精神信息或神圣审判使一个生物的精神超负荷。心灵冲击会造成2d6心灵伤害。在重击时，目标还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2}，持续1轮。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加 2d6。</p>"
+        },
+        {
+          "id": "NjS3JwoX9oHxzkZc",
+          "expectedName": "Fangblade",
+          "name": "链锯剑"
+        },
+        {
+          "id": "ADY2V4NCqbWGjo4K",
+          "expectedName": "Scattergun",
+          "name": "霰弹枪"
+        },
+        {
+          "id": "pPJMYeXI7u4qQdvx",
+          "expectedName": "Scattergun",
+          "name": "霰弹枪"
+        }
+      ]
+    },
+    "PFQ8Xa1wQLedLOob": {
+      "items": [
+        {
+          "id": "5GmC90uMVP2UXYXS",
+          "expectedName": "Fangblade",
+          "name": "链锯剑"
+        },
+        {
+          "id": "V37DiezFhvKSIXiM",
+          "expectedName": "Semi-Auto Pistol",
+          "name": "半自动手枪"
+        },
+        {
+          "id": "QmL8CzhHqOH3WOD1",
+          "expectedName": "Armored Coat",
+          "name": "衬甲外套"
+        },
+        {
+          "id": "hsUzg4LlTlSqGnFZ",
+          "expectedName": "Fangblade",
+          "name": "链锯剑"
+        },
+        {
+          "id": "nMDzHnWVaskqaKj3",
+          "expectedName": "Semi-Auto Pistol",
+          "name": "半自动手枪"
+        }
+      ]
+    },
+    "TBNHBNLPwC0G9eOJ": {
+      "items": [
+        {
+          "id": "5OI50l6QpuO4teBp",
+          "expectedName": "Boom Pistol",
+          "name": "音爆手枪"
+        },
+        {
+          "id": "za2lAkrRImpq3TiG",
+          "expectedName": "Fangblade",
+          "name": "链锯剑"
+        },
+        {
+          "id": "kfiS3TKBuBamF8uL",
+          "expectedName": "Armored Coat",
+          "name": "衬甲外套"
+        },
+        {
+          "id": "kOsD4aKegzQvHdZs",
+          "expectedName": "Boom Pistol",
+          "name": "音爆手枪"
+        },
+        {
+          "id": "cWFEEVjku1xYhnah",
+          "expectedName": "Fangblade",
+          "name": "链锯剑"
+        }
+      ]
+    },
+    "TUpiPViZWmIWhs4D": {
+      "items": [
+        {
+          "id": "0qvsmlTsXR6CJ0Rb",
+          "expectedName": "Turret",
+          "name": "炮塔"
+        }
+      ]
+    },
+    "YDFBJtOBR0iGcql5": {
+      "items": [
+        {
+          "id": "26ARFzzyToBLbMFO",
+          "expectedName": "Read Omens",
+          "name": "阅读机运"
+        },
+        {
+          "id": "hiO1AjbiGHheC7Aq",
+          "expectedName": "Detect Magic",
+          "name": "侦测魔法"
+        },
+        {
+          "id": "YQuirmtAd16rBtsT",
+          "expectedName": "At-Will Spells",
+          "name": "随意施法"
+        }
+      ]
+    },
+    "YWRl0Ae5luYHyNsB": {
+      "items": [
+        {
+          "id": "MGgtuCuYqpw5Cp2V",
+          "expectedName": "Knife",
+          "name": "短刀"
+        },
+        {
+          "id": "Vu3aEJDEpbLfB5HW",
+          "expectedName": "Knife",
+          "name": "短刀"
+        },
+        {
+          "id": "5uhckwAQOQZ3bjcC",
+          "expectedName": "Knife",
+          "name": "短刀"
+        }
+      ]
+    },
+    "Yw2gCuFQ65YTqWpW": {
+      "items": [
+        {
+          "id": "E6zbrpCOCitafa2W",
+          "expectedName": "Earthquake",
+          "name": "地震术"
+        }
+      ]
+    },
+    "a9mnXJ2URQkqLSqe": {
+      "items": [
+        {
+          "id": "lCWOfz39FnjMuLGi",
+          "expectedName": "Water Walk",
+          "name": "水面行走"
+        },
+        {
+          "id": "yXuc22WtxkVO0KLb",
+          "expectedName": "Detect Magic",
+          "name": "侦测魔法"
+        },
+        {
+          "id": "jqyUkEgFKTidrWUw",
+          "expectedName": "Grease",
+          "name": "油腻术"
+        },
+        {
+          "id": "CYNsW1BA1rEulXdJ",
+          "expectedName": "Hydraulic Push",
+          "name": "水流冲击"
+        }
+      ]
+    },
+    "fu3Dex1YlMmZL8oE": {
+      "items": [
+        {
+          "id": "B0y7SOrLU1bdCs8D",
+          "expectedName": "Divine Immolation",
+          "name": "神圣魂焰"
+        },
+        {
+          "id": "lBfyolUX2mNEZZ0X",
+          "expectedName": "Wave of Despair",
+          "name": "极潮绝望"
+        },
+        {
+          "id": "T6zB9TSmXg7Jl71v",
+          "expectedName": "Eldritch Wrath",
+          "name": "怪异怒火",
+          "expectedDescription": "<p>You channel the bizarre powers that exist beyond the outer reaches of the universe, dealing 3d12 mental damage to each creature in the area as phantasmal claws, jaws, and tentacles lash out at each target. Each creature in the area must attempt a Will save. The area is difficult terrain for any creature sickened by the effects of this spell.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d12.</p>",
+          "description": "<p>你引导存在于宇宙之外，不可名状的力量，对区域内所有生物造成3d12心灵伤害，如同幻影尖爪、啃咬或是触须击中每个目标。区域中的每个生物都需要尝试一次意志豁免。区域对每个因该法术效果陷入恶心的生物都视为困难地形。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全部伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p>\n<p><strong>大失败</strong>该生物受到两倍伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 2}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d12。</p>"
+        },
+        {
+          "id": "HQNPCHiZhel05nQr",
+          "expectedName": "Explosion of Rot",
+          "name": "腐朽激爆",
+          "expectedDescription": "<p>A giant pustule swells and explodes, coating everything around it in life-draining rot. Creatures and plants in the area take 6d6 poison damage and must attempt a Reflex save. Foliage and plant matter in the area damaged by the spell no longer provide cover.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1}.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, @Damage[(floor((@item.rank - 2)/2))d6[persistent,poison]] damage, and is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 2d6, and the persistent damage on a critical failure increases by 1d6.</p>",
+          "description": "<p>一个巨大的脓庖膨胀爆裂，为其周围的一切事物覆上一层汲取生命的朽物。在区域内的生物和植物受到6d6毒素伤害并必须尝试一次反射豁免。该区域内受到法术伤害的叶子和植物不再能够提供掩蔽。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全部伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}。</p>\n<p><strong>Critical Failure</strong> The target takes double damage, @Damage[(floor((@item.rank - 2)/2))d6[persistent,poison]] damage, and is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 2d6, and the persistent damage on a critical failure increases by 1d6.</p>"
+        },
+        {
+          "id": "p0npap4YXvQvog4r",
+          "expectedName": "Daze",
+          "name": "晕眩术"
+        },
+        {
+          "id": "VtXBRGDzk92AgI1k",
+          "expectedName": "Detect Magic",
+          "name": "侦测魔法"
+        },
+        {
+          "id": "C9AkN1Y8x7wJNlM0",
+          "expectedName": "Divine Lance",
+          "name": "圣枪术"
+        },
+        {
+          "id": "mSzVxDPEY9wb9vCp",
+          "expectedName": "Shield",
+          "name": "护盾术"
+        },
+        {
+          "id": "hxyRzA0KjjLoCvni",
+          "expectedName": "Medpatch (Tactical)",
+          "name": "战术型医疗贴片"
+        },
+        {
+          "id": "IiPBSvU0hiFtQtU9",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        },
+        {
+          "id": "kGkT6LYXzIn9vMYD",
+          "expectedName": "Binaric Assault",
+          "name": "耀武连击"
+        },
+        {
+          "id": "9OcT2MxuapNgFeDH",
+          "expectedName": "Flicker Strike",
+          "name": "闪烁打击"
+        },
+        {
+          "id": "7wNpoypuOkoRojqj",
+          "expectedName": "Warfare Lore",
+          "name": "战争学识"
+        }
+      ]
+    },
+    "hnUEp4dd4rzPAPPs": {
+      "items": [
+        {
+          "id": "MGgtuCuYqpw5Cp2V",
+          "expectedName": "Knife",
+          "name": "短刀"
+        },
+        {
+          "id": "vb3VCgZkOC8jN2Kj",
+          "expectedName": "Smoke Grenade (Commercial)",
+          "name": "商用型烟雾手雷",
+          "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p><hr /><p>This grenade unleashes a cloud of concealing smoke in a @Template[burst|distance:5]. Creatures within the area have the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} condition, and all other creatures are concealed to them. The smoke lasts for 1 minute or until dissipated by a strong wind or similar effect.</p>",
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>This grenade unleashes a cloud of concealing smoke in a @Template[burst|distance:5]. Creatures within the area have the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} condition, and all other creatures are concealed to them. The smoke lasts for 1 minute or until dissipated by a strong wind or similar effect.</p>"
+        },
+        {
+          "id": "LW6IYXNVgzt4F31r",
+          "expectedName": "Armored Coat",
+          "name": "衬甲外套"
+        },
+        {
+          "id": "Vu3aEJDEpbLfB5HW",
+          "expectedName": "Knife",
+          "name": "短刀"
+        },
+        {
+          "id": "5uhckwAQOQZ3bjcC",
+          "expectedName": "Knife",
+          "name": "短刀"
+        }
+      ]
+    },
+    "nID7bQHIDxI9HSQu": {
+      "items": [
+        {
+          "id": "YFh9rBaQ24LdRRmD",
+          "expectedName": "Share Pain",
+          "name": "分担痛苦",
+          "expectedDescription": "<p>You telepathically share the sensation of agonizing pain with a creature. The target takes 3d12 mental damage and attempts a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} for 1 minute.</p><hr /><p><strong>Heightened (6th)</strong> The spell targets up to four creatures and deals 6d12 mental damage.</p>",
+          "description": "<p>你以心灵感应的方式与一个生物分享痛苦的感觉。目标受到3d12精神伤害，并尝试意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全额伤害，并且@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}，持续1分钟。</p>\n<p><strong>大失败</strong>该生物受到全额伤害，并且@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}，持续1分钟。</p><hr /><p><strong>升阶（6环）</strong>该法术最多可瞄准四个生物，并造成6d12心灵伤害。</p>"
+        },
+        {
+          "id": "9g3nGIgI9oXaCTu3",
+          "expectedName": "Augury",
+          "name": "卜筮术"
+        },
+        {
+          "id": "ghvgc5t4Nw9r4jyO",
+          "expectedName": "Dispel Magic",
+          "name": "解除魔法"
+        },
+        {
+          "id": "KFdswfrRmWMQepbp",
+          "expectedName": "Doom Scroll",
+          "name": "末日刷屏",
+          "expectedDescription": "<p>You magically broadcast grim news onto nearby devices, holo projectors, screens, and other displays (including comm units on armor). Creatures in the area who can see one or more displays must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the display.</p>\n<p><strong>Failure</strong> The creature is fascinated by the display and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (even if the fascination ends).</p>\n<p><strong>Critical Failure</strong> The creature is fascinated by the display, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}, and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (even if the fascination ends).</p>",
+          "description": "<p>你可以用魔法在附近的设备、全息投影仪、屏幕和其他显示器（包括护甲上的通讯单元）上播报可怕的消息。区域内能看到一个或多个显示屏的生物必须尝试意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物因显示内容@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]。</p>\n<p><strong>失败</strong>该生物因显示内迷魂并@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}（即使迷魂结束）。</p>\n<p><strong>大失败</strong>该生物因显示内迷魂，@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 3}，并且@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭 Doomed 1}（即使迷魂结束）。</p>"
+        },
+        {
+          "id": "XSHHfCoBb4oofiM2",
+          "expectedName": "Soul Surge",
+          "name": "灵魂激涌",
+          "expectedDescription": "<p>You channel your life force into a spear of energy. You lose 6 Hit Points or, if you're in a bond with a vitality network that has at least 12 Hit Points, you can reduce the vitality bond's Hit Points by 12 instead. Make a ranged spell attack against the target's AC. On a hit, you deal 6d6 spirit damage. On a critical hit, the target takes double damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p><hr /><p><strong>Heightened (+1)</strong> Increase the damage dealt by 2d6 and the Hit Points lost by 2 (or by 4 if you spend Hit Points from a vitality network).</p>",
+          "description": "<p>你将生命力凝聚为一支能量长矛。你失去6点生命值，或者如果你和一个至少有12点生命值的活力网络建立纽带，则可以从活力网络中扣除12点生命值。尝试一次远程法术攻击对抗目标AC。在命中时，你造成6d6精魂伤害。如果重击，目标受到双倍伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 1}。</p><hr /><p><strong>Heightened (+1)</strong> Increase the damage dealt by 2d6 and the Hit Points lost by 2 (or by 4 if you spend Hit Points from a vitality network).</p>"
+        },
+        {
+          "id": "WRULcn8ip4mCMAPo",
+          "expectedName": "Bless",
+          "name": "祝福术"
+        },
+        {
+          "id": "EVIWkxF8VWURcKZq",
+          "expectedName": "Command",
+          "name": "命令术"
+        },
+        {
+          "id": "ycEWIqoT0y8hT0Qq",
+          "expectedName": "Enfeeble",
+          "name": "衰弱术"
+        },
+        {
+          "id": "7pDx9HyidWCpYTwO",
+          "expectedName": "Harm",
+          "name": "伤害术"
+        },
+        {
+          "id": "GQI93APkxSyGH4Fb",
+          "expectedName": "Mind Skewer",
+          "name": "心灵穿刺",
+          "expectedDescription": "<p>You overload a creature's mind with a glut of psychic information or divine judgments. The mental onslaught deals 2d6 mental damage. On a critical failure, the target is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
+          "description": "<p>你可以用大量的精神信息或神圣审判使一个生物的精神超负荷。心灵冲击会造成2d6心灵伤害。在重击时，目标还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2}，持续1轮。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加 2d6。</p>"
+        },
+        {
+          "id": "cpBmuIQjALnv8jKr",
+          "expectedName": "Knife",
+          "name": "短刀"
+        },
+        {
+          "id": "1hgOuBekZJWJ9DWD",
+          "expectedName": "Transfer Vitality",
+          "name": "转移命能"
+        }
+      ]
+    },
+    "nsqzIXHkfdCqcs8m": {
+      "items": [
+        {
+          "id": "XqYvEE7iGqGKbQLy",
+          "expectedName": "Wall of Stone",
+          "name": "石墙术"
+        },
+        {
+          "id": "140O0MywtzlXnv2B",
+          "expectedName": "Detect Magic",
+          "name": "侦测魔法"
+        },
+        {
+          "id": "8Z1z3s7cdN13fcDz",
+          "expectedName": "Hidden Soldier Armor",
+          "name": "隐匿士兵护甲"
+        },
+        {
+          "id": "2G7oKQki3OUgn6ru",
+          "expectedName": "Fist",
+          "name": "拳头"
+        }
+      ]
+    },
+    "o6BRws8Ctrm2ExkL": {
+      "items": [
+        {
+          "id": "44Eruma3M5Y5dkb6",
+          "expectedName": "Overload Systems",
+          "name": "系统超荷",
+          "expectedDescription": "<p>You flood the area with a wave of electrical interference. You deal 7d8 electricity damage to creatures in the area. Each creature in the area must attempt a Reflex save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage, and any of its items with the tech trait become glitching 1 for 1 minute or until the condition is removed.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, and any of its items with the tech trait become glitching 2 for 1 minute or until the condition is removed.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d8.</p>",
+          "description": "<p>你用电磁干涉淹没区域。对区域内所有其他生物造成7d8电击伤害。每个区域内的生物都必须尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全部伤害并且所有具有科技特征的物品会陷入故障1持续1分钟或者被移除。</p>\n<p><strong>大失败</strong>目标受到两倍伤害并且所有具有科技特征的物品会陷入故障2持续1分钟或者被移除。</p><hr /><p><strong>升阶（+1） </strong>伤害增加 1d8。</p>"
+        },
+        {
+          "id": "F1uVr1I6kUeKfiQS",
+          "expectedName": "Caustic Conversion",
+          "name": "腐蚀转化",
+          "expectedDescription": "<p>You launch a torrent of magical nanites that begin dissolving your target. Make a ranged spell attack against the target. On a hit, you deal 3d8 acid damage plus 1d6 persistent acid damage. On a critical hit, double the initial damage, but not the persistent damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 2d8, and the persistent acid damage increases by 1d6.</p>",
+          "description": "<p>你发射出一股魔法纳米粒子，开始溶解你的目标。对目标进行远程法术攻击检定。命中时，你会造成3d8酸蚀伤害加1d6持续酸蚀伤害。如果大成功，初始伤害加倍，但持续伤害不加倍。</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加2d8，持续酸蚀伤害增加1d6。</p>"
+        },
+        {
+          "id": "6RRcc0KYEZK0WtR6",
+          "expectedName": "Analyze Target",
+          "name": "分析目标",
+          "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+        },
+        {
+          "id": "NDLSj346hrDFrGpd",
+          "expectedName": "Detect Magic",
+          "name": "侦测魔法"
+        },
+        {
+          "id": "AQwpEwmPXuCmdvlm",
+          "expectedName": "Injury Echo",
+          "name": "伤口回响",
+          "expectedDescription": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 1d8, and the persistent damage on a failure increases by 1d4.</p>",
+          "description": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加1d8，豁免失败时的持续伤害增加1d4。</p>"
+        },
+        {
+          "id": "UL1sX0JveeKwiNir",
+          "expectedName": "Recharge Weapon",
+          "name": "重填武器",
+          "expectedDescription": "<p>You touch a weapon with no remaining ammunition and recharge it with magical energy. The target gains ammunition or charges equal to its expend until the end of your next turn, allowing anyone holding the target to make one Strike with the weapon. This spell only recharges weapons that use ammunition with a cost of 10 credits or less.</p><hr /><p><strong>Heightened (3rd)</strong> The target gains ammunition or charges equal to double its expend.</p>\n<p><strong>Heightened (6th)</strong> The target gains ammunition or charges equal to triple its expend.</p>\n<p><strong>Heightened (9th)</strong> The target gains ammunition or charges equal to quadruple its expend.</p>",
+          "description": "<p>你触碰一件没有剩余弹药的武器，用魔法能量为其充能。直到你的下一回合结束时，目标会获得与其“耗弹”相等的弹药或充能，并允许任何持有目标的人使用该武器进行一次打击。该法术只能为使用弹药且弹药价格不超过10个信用点的武器充能。</p><hr /><p><strong>Heightened (3rd)</strong> The target gains ammunition or charges equal to double its expend.</p>\n<p><strong>Heightened (6th)</strong> The target gains ammunition or charges equal to triple its expend.</p>\n<p><strong>Heightened (9th)</strong> The target gains ammunition or charges equal to quadruple its expend.</p>"
+        },
+        {
+          "id": "Qy23zjSSpBQWQN06",
+          "expectedName": "Supercharge Weapon",
+          "name": "超载武器",
+          "expectedDescription": "<p>You draw in and condense ambient magical energy from around you to power up a weapon. The next Strike made using that weapon is supercharged. That Strike deals an additional 1d6 damage of the same type as the weapon's normal damage.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.zzOekbiIKePQDQKy]</p><hr /><p><strong>Heightened (+2)</strong> The extra damage increases by 1d6.</p>",
+          "description": "<p>你吸取并凝聚周围的魔法能量，为武器提供能量。使用该武器进行的下一次打击将被强化。这次攻击会额外造成1d6伤害，伤害类型与武器的正常伤害类型相同。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.zzOekbiIKePQDQKy]</p><hr /><p><strong>升阶（+2）</strong>额外伤害增加1d6。</p>"
+        },
+        {
+          "id": "4RdVSEdk0QnvWnZ9",
+          "expectedName": "Aeon Rifle",
+          "name": "万古步枪"
+        },
+        {
+          "id": "euttb2Z4lQEAHx1p",
+          "expectedName": "Battleglove",
+          "name": "战斗手套"
+        },
+        {
+          "id": "afGcjujkco629SZm",
+          "expectedName": "Aeon Stone (Life-Giving)",
+          "name": "赋生万古石"
+        },
+        {
+          "id": "hlxtBavzt09sMv3z",
+          "expectedName": "Aeon Rifle",
+          "name": "万古步枪"
+        },
+        {
+          "id": "XxkA1e62PC0jaeEu",
+          "expectedName": "Battleglove",
+          "name": "战斗手套"
+        }
+      ]
+    },
+    "oBGcMjyBZmjjy5GC": {
+      "items": [
+        {
+          "id": "UyhkzPPg9iPCPLxx",
+          "expectedName": "Aeon Rifle",
+          "name": "万古步枪"
+        },
+        {
+          "id": "oc3nqhvDwVIi2Lwn",
+          "expectedName": "Baton",
+          "name": "警棍"
+        },
+        {
+          "id": "ILfyTSxltdfWr15Y",
+          "expectedName": "Aeon Stone (Uplifting)",
+          "name": "抬升万古石"
+        },
+        {
+          "id": "P8n7jU4hBsqnuTdg",
+          "expectedName": "Aeon Rifle",
+          "name": "万古步枪"
+        },
+        {
+          "id": "JkI0HbpXSiAkqAlQ",
+          "expectedName": "Baton",
+          "name": "警棍"
+        }
+      ]
+    },
+    "owZo5qgtC8my1LQ7": {
+      "items": [
+        {
+          "id": "4aKh5eWoMFDOjpra",
+          "expectedName": "Daze",
+          "name": "晕眩术"
+        },
+        {
+          "id": "EdDVR1w4hkG9csuE",
+          "expectedName": "Ignition",
+          "name": "引火术"
+        }
+      ]
+    },
+    "p97pGDZOIKbFxG1C": {
+      "items": [
+        {
+          "id": "Wl93Ivi2JzoY265o",
+          "expectedName": "One with Stone",
+          "name": "融身化石"
+        }
+      ]
+    },
+    "pofXR6mCcgwvcbPC": {
+      "items": [
+        {
+          "id": "XC7dSByTpkC7V5FU",
+          "expectedName": "Constrict",
+          "name": "紧勒"
+        },
+        {
+          "id": "74Hxhna2dmhaZCkd",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "ppXLVjsdWMYW5UeG": {
+      "items": [
+        {
+          "id": "hxyRzA0KjjLoCvni",
+          "expectedName": "Medpatch (Tactical)",
+          "name": "战术型医疗贴片"
+        },
+        {
+          "id": "ZI1rMUZebwUqz1kp",
+          "expectedName": "Personal Gravity",
+          "name": "私人重力"
+        },
+        {
+          "id": "IiPBSvU0hiFtQtU9",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        },
+        {
+          "id": "kGkT6LYXzIn9vMYD",
+          "expectedName": "Binaric Assault",
+          "name": "耀武连击"
+        },
+        {
+          "id": "9OcT2MxuapNgFeDH",
+          "expectedName": "Flicker Strike",
+          "name": "闪烁打击"
+        },
+        {
+          "id": "7wNpoypuOkoRojqj",
+          "expectedName": "Warfare Lore",
+          "name": "战争学识"
+        }
+      ]
+    },
+    "pyvr9GOYkdQ1ZiAH": {
+      "items": [
+        {
+          "id": "CxeQ1cizJZLkX53n",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        }
+      ]
+    },
+    "qqn4KTi4pJOXS1iE": {
+      "items": [
+        {
+          "id": "aYZ2r0RmIRvODFTP",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        }
+      ]
+    },
+    "sQcL1BxWO8pDL32e": {
+      "items": [
+        {
+          "id": "HjD3D6OxXtzVePnp",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        }
+      ]
+    },
+    "tanRfKmub0E61I8q": {
+      "items": [
+        {
+          "id": "T2fQ9hhrGQlzgAZ0",
+          "expectedName": "Trample",
+          "name": "践踏"
+        }
+      ]
+    },
+    "uAWnNaLq92Yas95U": {
+      "items": [
+        {
+          "id": "XywtglolP4FtywMT",
+          "expectedName": "Analyze Target",
+          "name": "分析目标",
+          "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+        },
+        {
+          "id": "ELfRVMq6LM6EToHj",
+          "expectedName": "Measure",
+          "name": "测量术",
+          "expectedDescription": "<p>You learn the approximate measurements (length, width, depth, height, and weight) of creatures and objects you can observe in the area. If an object or creature extends out of the area, you learn only the measurements within the area, but nothing about what you can't observe. For example, you can't determine the thickness or weight of a wall you can observe only one side of, or the depth of water that extends beyond the spell's range. Each time you Sustain the spell, you learn the exact measurements of one creature or object in the area, including imprecisions or anomalies that might indicate structural weakness. Magically altered targets give you information that reflects what you observe rather than accurate measurements.</p><hr /><p><strong>Heightened (+1)</strong> Extend the range of measure by 100 feet.</p>",
+          "description": "<p>你可以了解周围生物和物体的大致尺寸（长度、宽度、深度、高度和重量）。如果物体或生物延伸出了该射程，你只能了解该区域内的测量值，而无法观察到的东西则无法了解。例如，你无法确定只能观察到一面的墙壁的厚度或重量，也无法确定超出法术射程的水深。每次维持法术时，你都会了解该区域内一种生物或物体的精确测量结果，包括可能揭示结构弱点的不精确或异常现象。被魔法改变的目标所提供的信息反映的是你所观察到的情况，而不是精确测量值。</p><hr /><p><strong>升阶（+1）</strong>延展测量距离100尺。</p>"
+        },
+        {
+          "id": "dA5hXC4twqetZ5i6",
+          "expectedName": "Scan Environment",
+          "name": "扫描环境",
+          "expectedDescription": "<p>You analyze the natural environment in the area within 1 mile, learning general information about the atmosphere, biomes, and gravity. You forecast the weather for the next hour, including the direction it will come from; learn which atmospheres, biomes, and gravity are in the area, as well as the direction and distance to those elements; and learn if anything in the area presents an environmental hazard, including cold or heat dangers (at what temperature range), radiation (at what severity), smoke effects, and underwater conditions. This is enough to detect large effects that span spaces over 30 feet in diameter only. You gain a general sense of where and how far away these dangers are.</p><hr /><p><strong>Heightened (+1)</strong> The scanned area increases in radius by 1 mile.</p>",
+          "description": "<p>你分析1英里范围内的自然环境，了解大气层、生物群落和重力的一般信息。预测未来一小时的天气，包括天气自哪而来；了解该区域有哪些大气、生物群落和重力，以及与这些元素的方向和距离；了解该区域是否存在环境危害，包括冷热危险（在什么温度范围）、辐射（严重程度）、烟雾效果和水下条件。这足以探测到直径超过30英尺的大型效果。你可以大致了解这些危险的位置和距离。</p><hr /><p><strong>升阶（+1）</strong>扫描范围增加1英里。</p>"
+        },
+        {
+          "id": "6RDQsXNqNnEjYZiu",
+          "expectedName": "Seek the Stars",
+          "name": "寻觅星辰",
+          "expectedDescription": "<p>In your mind's eye, you chart a path through the cosmos. If you're in Pact Worlds space, you immediately know which direction to travel in order to reach the Starstone on Absalom Station. If you're outside the Pact System, you know the direction to the nearest Drift beacon or the Starstone.</p><hr /><p><strong>Heightened (7th)</strong> You can instead know the direction to a familiar location, such as a world or way station you've visited.</p>",
+          "description": "<p>在你的脑海中，你绘制了一条穿越宇宙的路径。如果你在协约世界的空间中，你就能立刻知道前往星石和艾巴萨罗姆空间站的方向。如果你在协约世界以外的空间，你会知道前往最近的漂流信标或星石的方向。</p><hr /><p><strong>升阶（7环）</strong>你可以知道前往熟悉地点的方向，例如你曾经去过的世界或中转站。</p>"
+        },
+        {
+          "id": "pISGlIi3L9hmhaFb",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "uZHdo8Vlc0z7deYA": {
+      "items": [
+        {
+          "id": "4LcHofHb5D9VPG7v",
+          "expectedName": "All-Around Vision",
+          "name": "全域视野"
+        },
+        {
+          "id": "pjkfYrdSFEv0Uv6q",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        }
+      ]
+    },
+    "voJb8Ac4I2Vryb5e": {
+      "items": [
+        {
+          "id": "ATdgz8nUuG1mVg6f",
+          "expectedName": "Daze",
+          "name": "晕眩术"
+        },
+        {
+          "id": "Ew7X31gpQ1JPkKU6",
+          "expectedName": "Eldritch Lance",
+          "name": "诡枪术",
+          "expectedDescription": "<p>You condense a beam of mind-assaulting eldritch energy from the dark spaces between the stars and fire it at a target. Make a ranged spell attack roll against the target's AC. If you hit, you deal 2d6 mental damage. On a critical success, you deal double damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>",
+          "description": "<p>你自星辰之间的幽深领域凝聚一束袭魂慑魄的怪异能量攻击目标。尝试一次远程法术攻击骰对抗目标的AC，如果命中，你造成2d6心灵伤害，在大成功时造成双倍伤害。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6。</p>"
+        },
+        {
+          "id": "ePDEoDB2tMQRk6vC",
+          "expectedName": "Injury Echo",
+          "name": "伤口回响",
+          "expectedDescription": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 1d8, and the persistent damage on a failure increases by 1d4.</p>",
+          "description": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加1d8，豁免失败时的持续伤害增加1d4。</p>"
+        },
+        {
+          "id": "vfoFUlaugFJYXjPn",
+          "expectedName": "Message",
+          "name": "传讯术"
+        },
+        {
+          "id": "yV6kGxZCmZcmHC9q",
+          "expectedName": "Mind Skewer",
+          "name": "心灵穿刺",
+          "expectedDescription": "<p>You overload a creature's mind with a glut of psychic information or divine judgments. The mental onslaught deals 2d6 mental damage. On a critical failure, the target is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
+          "description": "<p>你可以用大量的精神信息或神圣审判使一个生物的精神超负荷。心灵冲击会造成2d6心灵伤害。在重击时，目标还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2}，持续1轮。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加 2d6。</p>"
+        },
+        {
+          "id": "GWOtZvTDcdjjlUcD",
+          "expectedName": "Soothe",
+          "name": "安抚术"
+        }
+      ]
+    },
+    "vtUGiHqXCVOclyYV": {
+      "items": [
+        {
+          "id": "6IFGDrQsFvVHC2h0",
+          "expectedName": "Spike",
+          "name": "尖峰区"
+        }
+      ]
+    },
+    "yA1v9qJMw0JzQ1GM": {
+      "items": [
+        {
+          "id": "aYZ2r0RmIRvODFTP",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        }
+      ]
+    },
+    "yAehKdf6VbisiXM6": {
+      "items": [
+        {
+          "id": "hve8idhiR3dro8tj",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        }
+      ]
+    },
+    "ynIk8SHVRjC2NdTz": {
+      "items": [
+        {
+          "id": "FeD5wa3X0YLVtUw9",
+          "expectedName": "Eldritch Wrath",
+          "name": "怪异怒火",
+          "expectedDescription": "<p>You channel the bizarre powers that exist beyond the outer reaches of the universe, dealing 3d12 mental damage to each creature in the area as phantasmal claws, jaws, and tentacles lash out at each target. Each creature in the area must attempt a Will save. The area is difficult terrain for any creature sickened by the effects of this spell.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d12.</p>",
+          "description": "<p>你引导存在于宇宙之外，不可名状的力量，对区域内所有生物造成3d12心灵伤害，如同幻影尖爪、啃咬或是触须击中每个目标。区域中的每个生物都需要尝试一次意志豁免。区域对每个因该法术效果陷入恶心的生物都视为困难地形。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全部伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p>\n<p><strong>大失败</strong>该生物受到两倍伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 2}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d12。</p>"
+        },
+        {
+          "id": "ynBRNSLcpu9R2nB5",
+          "expectedName": "Weight of Ages",
+          "name": "岁月重担",
+          "expectedDescription": "<p>You burden a creature's body and mind with the pains and sorrows of a lifetime. The target takes 3d8 bludgeoning damage and 3d8 mental damage and must attempt a Will saving throw.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Encumbered} for 1 round.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and is encumbered for 1 minute.</p><hr /><p><strong>Heightened (+1)</strong> The mental damage increases by 2d8.</p>",
+          "description": "<p>你将目标毕生的苦痛与哀伤化作沉重枷锁，压垮目标的身心。尝试一次远程法术攻击骰。目标受到3d8钝击伤害和3d8心灵，并且必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全伤害并且@UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]1轮。</p>\n<p><strong>大失败</strong>目标受到全伤害并且超载1分钟。</p><hr /><p><strong>升阶（+1）</strong>心灵伤害增加2d8</p>"
+        },
+        {
+          "id": "9wwnnoISKrx6SvDj",
+          "expectedName": "Entropy Strike",
+          "name": "熵击",
+          "expectedDescription": "<p>You unleash a ray of entropy that rapidly and indiscriminately decays matter. Make a ranged spell attack against the target's AC. On a hit, the target takes 5d8 void damage, or it takes 2d6 persistent acid damage and is glitching 1 if it has the tech trait. On a critical hit, double the damage, and if the creature has the tech trait, it's glitching 2 and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1 die.</p>",
+          "description": "<p>你释放一束熵射线，迅速且无差别地分解物质。进行远程法术攻击对抗目标的AC。如果命中，目标受到5d8虚能伤害；或者如果目标生物有科技特征，则会受到2d6持续性酸蚀伤害并陷入故障1。如果重击，伤害翻倍，并且如果目标生物有科技特征，则陷入故障2和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。</p><hr /><p><strong>升阶 （+1）</strong>增加1个伤害骰。</p>"
+        },
+        {
+          "id": "voHb6P8ri90OwvQB",
+          "expectedName": "Void Whispers",
+          "name": "虚空低语",
+          "expectedDescription": "<p>The target hears ominous sounds containing unspeakable mysteries from beyond the stars that disorient its mind. The target attempts a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The target hears the strange whispers, becoming @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</p>\n<p><strong>Failure</strong> The target begins to wander aimlessly, using each action to Step in a random direction. When it moves, the target takes the safest route and doesn't enter hazardous terrain. The spell has a duration of 1 minute or until a creature uses a hostile action against the target.</p>\n<p><strong>Critical Failure</strong> As failure, except the target babbles incoherently. Any creature that begins its turn within 20 feet of the target must attempt a Will saving throw. On a failure, it must use its first action on its next turn to Step in a random direction and becomes immune to this spell for 24 hours. This is an incapacitation effect.</p>",
+          "description": "<p>目标耳边响起蕴含星辰之外不可名状奥秘的不祥之音，使其神智混乱。目标需要尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>目标听到了诡异的低语，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 1}，持续1轮。</p>\n<p><strong>失败</strong>目标开始漫无目的地游荡，使用每个动作来快步（方向随机）。当其移动时，其会采取最安全的路线并且不会进入有害地形。法术会持续1分钟或者直到目标被敌对动作瞄准。</p>\n<p><strong>大失败</strong>类似失败，除了目标还会语无伦次地喋喋不休。任何在其20尺内开始回合的生物也需要尝试一次意志豁免。在失败时，这些生物也需要在下回合开始时花费第一个动作来进行快步（随机方向），随后临时免疫此法术24小时。这是一个失能效果。</p>"
+        },
+        {
+          "id": "mqnLM4QVHQHwpcDS",
+          "expectedName": "Detect Thoughts",
+          "name": "侦测思想",
+          "expectedDescription": "<p>You sense the presence of thinking creatures around you. You detect the presence or absence of thoughts from conscious creatures that have Intelligence modifiers of –3 or higher. You can choose to ignore the thoughts of creatures you're familiar with so they don't interfere with your detection of other thoughts. The spell can penetrate some barriers, but 3 feet of dirt or wood, 1 foot of stone, 1 inch of metal, a thin sheet of lead, or any force barrier blocks it. Creatures who are immune to mental effects are immune to detection by this spell.</p><hr /><p><strong>Heightened (4th)</strong> You detect the number of thinking minds and whether or not the creatures are telepathic. Creatures with telepathy have louder thoughts than creatures who don't have telepathy and might be able to sense your intrusion, at the GM's discretion.</p>",
+          "description": "<p>你能感知周围生物的想法。你可以侦测周围是否存在智力调整值不低于-3的清醒生物的思维。可选择忽略熟悉生物的思维，避免干扰其他目标的侦测。该法术可以穿透一些障碍，但3尺的泥土或木头、1尺的石头、1英寸的金属、薄薄的铅片或任何立场障碍都会阻挡它。对心灵效果免疫的生物对该法术的侦测免疫。</p><hr /><p><strong>升阶（4环）</strong>你可侦测范围内存在思维活动的意识体数量，并判断其是否具备心灵感应能力。拥有心灵感应能力的生物思维波动更强，普通生物思维信号较弱且无反馈，具体由GM裁定。</p>"
+        },
+        {
+          "id": "Sa5lVXHCYGKInC8N",
+          "expectedName": "Doom Scroll",
+          "name": "末日刷屏",
+          "expectedDescription": "<p>You magically broadcast grim news onto nearby devices, holo projectors, screens, and other displays (including comm units on armor). Creatures in the area who can see one or more displays must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the display.</p>\n<p><strong>Failure</strong> The creature is fascinated by the display and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (even if the fascination ends).</p>\n<p><strong>Critical Failure</strong> The creature is fascinated by the display, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}, and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (even if the fascination ends).</p>",
+          "description": "<p>你可以用魔法在附近的设备、全息投影仪、屏幕和其他显示器（包括护甲上的通讯单元）上播报可怕的消息。区域内能看到一个或多个显示屏的生物必须尝试意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物因显示内容@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]。</p>\n<p><strong>失败</strong>该生物因显示内迷魂并@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}（即使迷魂结束）。</p>\n<p><strong>大失败</strong>该生物因显示内迷魂，@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 3}，并且@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭 Doomed 1}（即使迷魂结束）。</p>"
+        },
+        {
+          "id": "ULtwuow37NuVUq9w",
+          "expectedName": "Temporal Bullets",
+          "name": "时间子弹",
+          "expectedDescription": "<p><strong>Trigger</strong> You fail (but not critically fail) an attack roll with a weapon.</p><hr /><p>You rewind time and adjust probability to ensure an attack that just missed still does damage to its intended target. Roll damage as though you hit the target with the Strike, but the target only takes half the damage. You are then immune to temporal bullets for 10 minutes.</p>",
+          "description": "<p><strong>触发</strong>你用武器的攻击检定失败（但非大失败）。</p><hr /><p>你可以倒退时间并调整概率，以确保刚刚失误的攻击仍能对目标造成伤害。你进行一次伤害骰，就像你用打击命中了目标，但目标只受到一半的伤害。你之后会临时免疫时间子弹10分钟。</p>"
+        },
+        {
+          "id": "SXvoQZyoaNha60xg",
+          "expectedName": "Analyze Target",
+          "name": "分析目标",
+          "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+        },
+        {
+          "id": "50WscMYcYmxRoN2J",
+          "expectedName": "Eldritch Lance",
+          "name": "诡枪术",
+          "expectedDescription": "<p>You condense a beam of mind-assaulting eldritch energy from the dark spaces between the stars and fire it at a target. Make a ranged spell attack roll against the target's AC. If you hit, you deal 2d6 mental damage. On a critical success, you deal double damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>",
+          "description": "<p>你自星辰之间的幽深领域凝聚一束袭魂慑魄的怪异能量攻击目标。尝试一次远程法术攻击骰对抗目标的AC，如果命中，你造成2d6心灵伤害，在大成功时造成双倍伤害。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6。</p>"
+        },
+        {
+          "id": "AfHVB3MYbhB9cBeN",
+          "expectedName": "Injury Echo",
+          "name": "伤口回响",
+          "expectedDescription": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 1d8, and the persistent damage on a failure increases by 1d4.</p>",
+          "description": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加1d8，豁免失败时的持续伤害增加1d4。</p>"
+        },
+        {
+          "id": "VsXOuhDl8zrmGa12",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        }
+      ]
+    }
+  }
+}

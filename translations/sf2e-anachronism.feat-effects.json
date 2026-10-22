@@ -1,0 +1,388 @@
+{
+  "label": "专长与特性效果",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    }
+  },
+  "entries": {
+    "0kdfFVZuHoHTG5c0": {
+      "name": "效果: 掩护火力"
+    },
+    "0vdPkTib9LO8dj2y": {
+      "name": "效果: 以身作盾"
+    },
+    "1RrwaWFGv4yI0T07": {
+      "name": "效果: 强化甲壳"
+    },
+    "22BLEySiAaQwoO6f": {
+      "name": "效果: 细胞再生"
+    },
+    "2Iuhg4udP9eQF3oM": {
+      "name": "效果: 数码评估！"
+    },
+    "2i0i7JDaUdAXc0bJ": {
+      "name": "效果: 毒性鸡尾酒"
+    },
+    "3sB7LkiM8MPMugBm": {
+      "name": "效果: 乐于效劳！"
+    },
+    "4DiN5KNJSrBkV1BA": {
+      "name": "效果: 心智漫游"
+    },
+    "4UOU2S5uUB7AlH0r": {
+      "name": "效果: 肾上腺素飙升"
+    },
+    "5da0ZOocaoySCSJ2": {
+      "name": "效果: 锚定冲击"
+    },
+    "6gduthFziKA5pU53": {
+      "name": "效果: 防御阵型"
+    },
+    "7o4KWymf4Yy2n2Qx": {
+      "name": "效果: 瞄准"
+    },
+    "7pjshxAsWzyJRcze": {
+      "name": "效果: 非致命武力"
+    },
+    "7tSTaSqLPYwPzbMx": {
+      "name": "效果: 造谣话术"
+    },
+    "8eqdNadBEcXMvjng": {
+      "name": "效果: 当心！"
+    },
+    "8uHTQ6ha3CT79fS6": {
+      "name": "效果: 别打脸！"
+    },
+    "9AYamzd9VOGXn8KM": {
+      "name": "效果: 酸液喷吐"
+    },
+    "9ShdNY94n869OXem": {
+      "name": "效果: 辅助粘液喷涌"
+    },
+    "9Sq4P1Pxr1owEv6R": {
+      "name": "效果: 纽带增强"
+    },
+    "9Zp0f8bUTq4iZNBT": {
+      "name": "效果: 藏匿计划"
+    },
+    "9wWPl1LVWgqiZ2Wz": {
+      "name": "效果: 全息威吓"
+    },
+    "A8NpjGmBeDx3taOP": {
+      "name": "效果: 有本事跨过我！"
+    },
+    "Ag1xeFKjsdO3L566": {
+      "name": "效果: 自适应凝结"
+    },
+    "B0ZDwyk4qOr7hp4e": {
+      "name": "效果: 威吓嘲讽"
+    },
+    "CIO1HR8vbx61qpXw": {
+      "name": "效果: 骨片飞射"
+    },
+    "DqJVydBDD48StDVh": {
+      "name": "效果: 炼狱武装"
+    },
+    "E5oRUzuYh5rLlPzu": {
+      "name": "效果: 四处找找!"
+    },
+    "EKRBg0ydRsHdvc7G": {
+      "name": "效果: 与石合一"
+    },
+    "F8kgMkcz23UXS7k7": {
+      "name": "效果: 守护之物"
+    },
+    "FIdFX4WI50vzf6Pc": {
+      "name": "效果: 为了蚁后！"
+    },
+    "GnxVwCUqrLS2P2RF": {
+      "name": "效果: 文化消费"
+    },
+    "Gt6n0nYxHlPSmWVH": {
+      "name": "效果: 协助推撞"
+    },
+    "HB8lDFxU86aAl50M": {
+      "name": "效果: 无阻指令"
+    },
+    "INyimlbeeR3Blqk3": {
+      "name": "效果: 牺牲外壳"
+    },
+    "IaICLG7zwOV4OKgM": {
+      "name": "效果: 混入人群"
+    },
+    "IgDTjR6XT2nlZU26": {
+      "name": "效果: 未授权地狱引擎"
+    },
+    "ItKEn1ikbsZROaBL": {
+      "name": "效果: 疗愈变形"
+    },
+    "JCLJ0NqggwDuoCeQ": {
+      "name": "效果: 同袍协力！"
+    },
+    "KbklfQccpb5EuP7N": {
+      "name": "效果: 战意盎然"
+    },
+    "KiCwXxBqYjxS0u2Q": {
+      "name": "效果: 弹火激灼"
+    },
+    "LhknLKoC69iOEtHy": {
+      "name": "效果: 狂躁"
+    },
+    "Ll3uZdiSqaszP3fn": {
+      "name": "效果: 碎星冲击"
+    },
+    "MVoUvf0bzUUSUkiR": {
+      "name": "效果: 傲然抗命"
+    },
+    "MXV9PRH3mK7o6TDP": {
+      "name": "效果: 爆发激增"
+    },
+    "MZzCPh8IHQwe4xP3": {
+      "name": "效果: 断尾"
+    },
+    "MlcCtlwwJEKusoUK": {
+      "name": "效果: 唤临海怪"
+    },
+    "N2sUfIzHp08G5fUA": {
+      "name": "效果: 古龙之态"
+    },
+    "NEgZy4YHA1TGlF6T": {
+      "name": "效果: 朝这打！"
+    },
+    "NhV64Budza1tG6ah": {
+      "name": "效果: 排气"
+    },
+    "O4Ck3SKtbPWN3WKU": {
+      "name": "效果: 光合再生"
+    },
+    "Pdm2JmwnKc6yB1y5": {
+      "name": "效果: 进入暴怒状态"
+    },
+    "QFglrJ1STC0L82aP": {
+      "name": "效果: 启动感觉毛"
+    },
+    "RhmWzzEbiykniDHQ": {
+      "name": "效果: 坚持不懈！"
+    },
+    "S3GNkuot8Ll6m0vK": {
+      "name": "效果: 心能楔子"
+    },
+    "SS3He5Oh41NZjmf7": {
+      "name": "效果: 跟踪微粒"
+    },
+    "SjZYAWpzpGWhICVF": {
+      "name": "效果: 血怒战纹"
+    },
+    "SjauZALDFxxkSNbl": {
+      "name": "效果: 双重瞄准"
+    },
+    "Stvn3BZz9B9otBJl": {
+      "name": "效果: 虚空同调"
+    },
+    "T9vJgdL1zidgsPJi": {
+      "name": "效果: 蜕皮"
+    },
+    "TCTBI4kVQVqRh9XN": {
+      "name": "效果: 绝不倒下"
+    },
+    "TMarUs51Jg7v3g3f": {
+      "name": "效果: 技艺激励"
+    },
+    "U7ZWScb2rLlZYxpF": {
+      "name": "效果: 能量灌注"
+    },
+    "UlFxEP3YrbseKA62": {
+      "name": "效果: 恒星武器"
+    },
+    "Uwb0PSFXd4QGG9Q1": {
+      "name": "效果: 机动瞄准"
+    },
+    "V2RD3qNBmkrzXb4K": {
+      "name": "效果: 预判心绪"
+    },
+    "WNCJ8ZgkqU7LhJNk": {
+      "name": "效果: 联结法术"
+    },
+    "WUHSeAxZXX3Fin3S": {
+      "name": "效果: 谐波收敛"
+    },
+    "WUXWS9SkVMDS1ri2": {
+      "name": "效果: 纳米体武装充能"
+    },
+    "XmdJvu33YRjQbLsz": {
+      "name": "效果: 荡涤心灵，激昂斗志"
+    },
+    "YbBoPkBHnyyy3xLd": {
+      "name": "效果: 专注感知"
+    },
+    "ZQM4vfHEKgxvNJik": {
+      "name": "效果: 轻易支配者"
+    },
+    "ZYokE0rZII1J7YSr": {
+      "name": "效果: 石面莫测"
+    },
+    "a9EaJsV7mwXohaY1": {
+      "name": "效果: 加德拉萨之赐"
+    },
+    "a9Kooj6ihx2LpnbE": {
+      "name": "效果: 附毒弹匣"
+    },
+    "af3dMl0TEkqOp2K9": {
+      "name": "效果: 傲慢防卫"
+    },
+    "aw4sF8U2odkls99H": {
+      "name": "效果: 纳米体形态"
+    },
+    "b09qH19WK3FQi2QF": {
+      "name": "效果: 愈战愈勇"
+    },
+    "b3bGLDuzs0lKS1Oq": {
+      "name": "效果: 大啖"
+    },
+    "bbdg6JeElvGWb20A": {
+      "name": "效果: 据我推算"
+    },
+    "bynA4hR6QPQbiyJY": {
+      "name": "效果: 光晕结界"
+    },
+    "cnmur02H1qW03Gwi": {
+      "name": "效果: 英勇抵抗"
+    },
+    "dAcHJiPDtqxxrR4Z": {
+      "name": "效果: 到那去！"
+    },
+    "dug2BtLbknb8AlJs": {
+      "name": "效果: 同步共鸣"
+    },
+    "fYZ1vNXDqgkG4e48": {
+      "name": "效果: 先祖交感"
+    },
+    "fzsAxccVTPTMlpih": {
+      "name": "效果: 神鬼莫测"
+    },
+    "g1J6DOxBQkacvbyE": {
+      "name": "效果: 能量消耗"
+    },
+    "gFELDtZR5N3jx7fl": {
+      "name": "效果: 念控泰坦"
+    },
+    "gKDw3GcOiOYMMK1k": {
+      "name": "效果: 心灵干预"
+    },
+    "gWDgX4Zs8O1lxfcQ": {
+      "name": "效果: 沟通世界之核"
+    },
+    "hJI3OxpC4qcr7uxp": {
+      "name": "效果: 不稳定过载"
+    },
+    "hcH7IdEjC2wUVfaK": {
+      "name": "效果: 废品匠的巧思"
+    },
+    "ii1NY1YvM7lsql6n": {
+      "name": "效果: 音乐响起"
+    },
+    "jA3fhbOp4nbUZ3PK": {
+      "name": "效果: 释放威严"
+    },
+    "jJX6rYoKEW0neDu6": {
+      "name": "效果: 携手共进"
+    },
+    "jeYrs3IIaZTwSWT3": {
+      "name": "效果: 星耀继承者"
+    },
+    "jtlZPjobJNXLol7S": {
+      "name": "效果: 亡灵猎手"
+    },
+    "k2Sal2fpeoUsGZAv": {
+      "name": "效果: 不屈不挠"
+    },
+    "kJR7VvSqPzhA6lR2": {
+      "name": "效果: 星辰烙印"
+    },
+    "kUsIxlsS2CzXnwyB": {
+      "name": "效果: 船体弹跳"
+    },
+    "kxaRFiXRKMNpasnu": {
+      "name": "效果: 冥想辨析"
+    },
+    "lRXqkQTrtVRqqDWH": {
+      "name": "效果: 即兴大师"
+    },
+    "mrZQiNQDUOao8Qvc": {
+      "name": "效果: 失重防御"
+    },
+    "ohgzmXpRpt3meJX6": {
+      "name": "效果: 喷火狂魔"
+    },
+    "onpjKbg3rIhq0JBa": {
+      "name": "效果: 菌丝护甲"
+    },
+    "pZabAZDrrIENU803": {
+      "name": "效果: 法涌军火"
+    },
+    "piyxWlJUtjJIKdW4": {
+      "name": "效果: 永不放弃！"
+    },
+    "q5W7fV1wXvqBFxt8": {
+      "name": "效果: 恒星护盾"
+    },
+    "q9gRPJBtyyJwgTRb": {
+      "name": "效果: 自适应抗力"
+    },
+    "qA3xFKVmtZCXSgsg": {
+      "name": "效果: 调谐结界"
+    },
+    "qWKEoeSiev5IosQ8": {
+      "name": "效果: 灵魂誓言之英勇"
+    },
+    "qbnXMOmVMMKphIgg": {
+      "name": "效果: 适应性防御"
+    },
+    "qljNFYceOwaYUcR1": {
+      "name": "效果: 吸收火焰"
+    },
+    "rb5747jApJjOApkA": {
+      "name": "效果: 坚守阵线"
+    },
+    "rmKcSjjP9gdzirRt": {
+      "name": "效果: 聚合莱西"
+    },
+    "rxk6UxIuCushWnId": {
+      "name": "效果: 蒸汽脑袋"
+    },
+    "sEPdCQ7J3hF6mjHi": {
+      "name": "效果: 硬举"
+    },
+    "vILFwvPBAb3EcpTq": {
+      "name": "效果: 生物纳米皮肤"
+    },
+    "w9PcqHsnbIm11p8M": {
+      "name": "效果: 赋生之光"
+    },
+    "x4fR05693ijNBCii": {
+      "name": "效果: 燃火之躯"
+    },
+    "xBbC7n21cv29kMOq": {
+      "name": "效果: 伤口撒盐"
+    },
+    "xQvyfiOh05xK2A5A": {
+      "name": "效果: 带电卡洛鱼人"
+    },
+    "xYipnklm52BcgwSD": {
+      "name": "效果: 团结合作"
+    },
+    "xtEwtA0CRNU6O17Y": {
+      "name": "效果: 医疗纪念品"
+    },
+    "yDgrjb3OuB51axy7": {
+      "name": "效果: 大气层飞行"
+    },
+    "yYafOxeNKG7n3WQn": {
+      "name": "效果: 重导能量"
+    }
+  }
+}

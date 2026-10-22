@@ -1,0 +1,16 @@
+{
+  "label": "怪物效果",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    }
+  },
+  "entries": {
+    "x9nA4lIcHmE7x8Tt": {
+      "name": "效果: 协调射击"
+    }
+  }
+}

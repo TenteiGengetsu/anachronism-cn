@@ -1,0 +1,91 @@
+{
+  "label": "法术效果",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    }
+  },
+  "entries": {
+    "16Li37zRYKClxqsv": {
+      "name": "法术效果: 蟹化术"
+    },
+    "1Ut6QrRtIZzjmqZW": {
+      "name": "法术效果: 猫科感官"
+    },
+    "4BwlNXei3xMKygMv": {
+      "name": "法术效果: 元素屏障"
+    },
+    "4P2rPLVKjSpUbOWI": {
+      "name": "法术效果: 主观现实"
+    },
+    "4cFhz9knnHUHj3wi": {
+      "name": "法术效果: 基因再生"
+    },
+    "7r6mw8H87SUaj9Tq": {
+      "name": "法术效果: 分析目标"
+    },
+    "80ciNFwm19EKBONT": {
+      "name": "法术效果: 复响再奏"
+    },
+    "LXi2h0q58zg9EFCN": {
+      "name": "法术效果: 野性纽带"
+    },
+    "Mjzoqg7MpTst3koD": {
+      "name": "法术效果: 冷葬"
+    },
+    "NP75qOKsF43zLaiZ": {
+      "name": "法术效果: 朦胧念头"
+    },
+    "NWNXwJhNpNvNdyLd": {
+      "name": "法术效果: 虚空行者"
+    },
+    "NcPiz5TOhnel5ZoX": {
+      "name": "法术效果: 科技直觉"
+    },
+    "NmhqKZyMgQSHbyHj": {
+      "name": "法术效果: 激励铃声"
+    },
+    "VacLbml5QIO0jqlO": {
+      "name": "法术效果: 赞歌"
+    },
+    "bFy8NADnVR95YKyx": {
+      "name": "法术效果: 曲织时间"
+    },
+    "bfimY3Rbx3lrsFAJ": {
+      "name": "法术效果: 量子分析"
+    },
+    "cGBjkNm9P7Ra09rp": {
+      "name": "法术效果: 诡秘纽带"
+    },
+    "h1i8c47U0IOrMrHJ": {
+      "name": "法术效果: 阿卡西下载"
+    },
+    "hOp5ybOzyJlECU6B": {
+      "name": "法术效果: 焕发光彩"
+    },
+    "ikNI8DM5DRa1k4G3": {
+      "name": "法术效果: 虚能之种"
+    },
+    "oGUuRPGJHouppf8V": {
+      "name": "法术效果: 强化躯体"
+    },
+    "pWm0NCsxjxTUCJ7y": {
+      "name": "法术效果: 移变激涌"
+    },
+    "q47pDFylqDY1VYEk": {
+      "name": "法术效果: 科技沟通"
+    },
+    "v724q5Xi7KPPnLQ3": {
+      "name": "法术效果: 石塑形体"
+    },
+    "yopd0S7smKU5eB07": {
+      "name": "法术效果: 强化武器"
+    },
+    "zzOekbiIKePQDQKy": {
+      "name": "法术效果: 超载武器"
+    }
+  }
+}

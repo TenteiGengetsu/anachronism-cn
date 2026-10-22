@@ -1,0 +1,1810 @@
+{
+  "label": "寻星者协会",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    },
+    "items": {
+      "path": "items",
+      "converter": "sf2eAnachronismCnItems"
+    },
+    "publicNotes": "system.details.publicNotes"
+  },
+  "entries": {
+    "03CDlYI30GF5Pep1": {
+      "items": [
+        {
+          "id": "SD3RGeWJWpAVI97x",
+          "expectedName": "Void Warp",
+          "name": "虚能噬"
+        },
+        {
+          "id": "cgqqob6BdWvBykAx",
+          "expectedName": "Thoughtsense",
+          "name": "思维感知"
+        },
+        {
+          "id": "0k87XevHvNnpuLw6",
+          "expectedName": "Swallow Whole",
+          "name": "活吞"
+        },
+        {
+          "id": "eMtBXhbvbVFCp7j4",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "0ODr0WRuhSB5kxpz": {
+      "items": [
+        {
+          "id": "JrkUXqYEoOqJxY0R",
+          "expectedName": "Augury",
+          "name": "卜筮术"
+        },
+        {
+          "id": "Z1fT1RpeOWwjvUCR",
+          "expectedName": "Daze",
+          "name": "晕眩术"
+        }
+      ]
+    },
+    "0U869OVc1YRUfjqB": {
+      "items": [
+        {
+          "id": "Nj2Qf1qSpA1vBwKo",
+          "expectedName": "Semi-Auto Pistol",
+          "name": "半自动手枪"
+        },
+        {
+          "id": "UTBez7KIuxHN2Phu",
+          "expectedName": "Plasma Sword",
+          "name": "等离子剑"
+        },
+        {
+          "id": "06eYcwetp9ywdZYB",
+          "expectedName": "Incendiary Grenade (Commercial)",
+          "name": "商用型爆燃手雷",
+          "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> 5 feet</p><hr /><p>These grenades use an ignited chemical to explode in a blast of intense heat and deal 1d8 fire damage with a @Check[reflex|against:class|basic] save (@Template[burst|distance:5]). If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw against incendiary grenades are knocked away from the grenade.</p>",
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>击退5尺</p><hr /><p>These grenades use an ignited chemical to explode in a blast of intense heat and deal 1d8 fire damage with a @Check[reflex|against:class|basic] save (@Template[burst|distance:5]). If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw against incendiary grenades are knocked away from the grenade.</p>"
+        },
+        {
+          "id": "WlKv8eSrK6T1QJZV",
+          "expectedName": "Carbon Shield",
+          "name": "碳素盾",
+          "expectedDescription": "<p>This durable yet lightweight defensive plate comes in a variety of shapes and sizes, and it's often customized with LED displays that broadcast personal insignia or an organization's colors and symbols.</p>",
+          "description": "<p>这种耐用而轻便的防护板有各种形状和大小，并且通常以定制的LED显示屏作为装饰，用以播放个人的徽记或某些组织的标志性颜色与符号。</p>"
+        },
+        {
+          "id": "Hg7jEjACGnNs0rkv",
+          "expectedName": "Defiance Series",
+          "name": "反抗套装"
+        },
+        {
+          "id": "uIWyL0q5jkWbHNRa",
+          "expectedName": "Plasma Sword",
+          "name": "等离子剑"
+        },
+        {
+          "id": "RWD2MNTzTJVslhzc",
+          "expectedName": "Semi-Auto Pistol",
+          "name": "半自动手枪"
+        },
+        {
+          "id": "Tpe6P1OefKbh5vdH",
+          "expectedName": "Incendiary Grenade (Commercial)",
+          "name": "商用型爆燃手雷"
+        },
+        {
+          "id": "mLQ4tTmTrd4BSYFj",
+          "expectedName": "Shield Bash",
+          "name": "盾击"
+        },
+        {
+          "id": "uWc0Fz6IptXFVslq",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        },
+        {
+          "id": "UncU6banVX9gpmPe",
+          "expectedName": "Shield Block",
+          "name": "盾牌格挡"
+        }
+      ]
+    },
+    "4miww4pZSgjTMMIw": {
+      "items": [
+        {
+          "id": "9sByLUEeVftEaubX",
+          "expectedName": "Augury",
+          "name": "卜筮术"
+        },
+        {
+          "id": "WGEWrkDSiIfEpAeP",
+          "expectedName": "Daze",
+          "name": "晕眩术"
+        },
+        {
+          "id": "S8ksFz6mfcSoV1iD",
+          "expectedName": "Reaction Breacher",
+          "name": "破障反冲炮"
+        },
+        {
+          "id": "LsqTZdEkD7b2Xlvv",
+          "expectedName": "Armored Coat",
+          "name": "衬甲外套"
+        },
+        {
+          "id": "Y7Ok5WLXNIT8G52V",
+          "expectedName": "Reaction Breacher",
+          "name": "破障反冲炮"
+        }
+      ]
+    },
+    "6qjiEB0Fb0R8nAED": {
+      "items": [
+        {
+          "id": "GWj4XNV9DQAvJTyj",
+          "expectedName": "Baton",
+          "name": "警棍"
+        },
+        {
+          "id": "Hhlc0x7g7GOy4fIK",
+          "expectedName": "Rotolaser",
+          "name": "转轮激光枪"
+        },
+        {
+          "id": "BajHn3BiX6FzyISs",
+          "expectedName": "Abadarcorp Travel Suit",
+          "name": "阿巴达尔集团旅行服装"
+        },
+        {
+          "id": "f8Dkr2Ih7p965C25",
+          "expectedName": "Baton",
+          "name": "警棍"
+        },
+        {
+          "id": "GXv0K7qJTrWJOcp8",
+          "expectedName": "Rotolaser",
+          "name": "转轮激光枪"
+        },
+        {
+          "id": "iDirEFrmRBAdEtW3",
+          "expectedName": "Rotolaser",
+          "name": "转轮激光枪"
+        },
+        {
+          "id": "X9PSSU1xuNgWMd8R",
+          "expectedName": "Corporate Lore",
+          "name": "企业学识"
+        }
+      ]
+    },
+    "84hybkFRLr2jD6KB": {
+      "items": [
+        {
+          "id": "zUKvP7t0f4n2OGir",
+          "expectedName": "Invisibility",
+          "name": "隐形术"
+        },
+        {
+          "id": "N8rzuYK2Pu06jvE8",
+          "expectedName": "Resist Energy",
+          "name": "抵抗能量伤害"
+        },
+        {
+          "id": "8Go0jI15y72GUO0E",
+          "expectedName": "Void Seed",
+          "name": "虚能之种",
+          "expectedDescription": "<p>You plant a seed of entropy within a creature. The target gains the void healing ability. If the target would be healed by a non-void effect with the healing trait, it takes damage instead. An unwilling target can attempt a Will save to negate the effects.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.ikNI8DM5DRa1k4G3]</p><hr /><p><strong>Heightened (5th)</strong> You can target up to six living creatures.</p>",
+          "description": "<p>你在生物体内种下一颗熵增种子。目标获得虚能治疗能力（p456）。如果目标会被一个具有治疗特征的非虚能效果治疗，其改为受到伤害。非自愿生物可以尝试一次意志豁免来避免此效果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.ikNI8DM5DRa1k4G3]</p><hr /><p><strong>Heightened (5th)</strong> You can target up to six living creatures.</p>"
+        },
+        {
+          "id": "TDfdz9ga2Txqwnhs",
+          "expectedName": "Bane",
+          "name": "绝望术"
+        },
+        {
+          "id": "jXXdDb0rLaCoXsvi",
+          "expectedName": "Daze",
+          "name": "晕眩术"
+        },
+        {
+          "id": "pOeUFssLONVzQ0JT",
+          "expectedName": "Divine Lance",
+          "name": "圣枪术"
+        },
+        {
+          "id": "jjPJrJMNW77865hw",
+          "expectedName": "Enfeeble",
+          "name": "衰弱术"
+        },
+        {
+          "id": "eDQZ5sYC1SYqamET",
+          "expectedName": "Figment",
+          "name": "虚构幻术"
+        },
+        {
+          "id": "VJk6Yx0OGwPfCCp6",
+          "expectedName": "Grim Tendrils",
+          "name": "邪影触须"
+        },
+        {
+          "id": "70FMGyGKFvCfRDYW",
+          "expectedName": "Guidance",
+          "name": "指引者"
+        },
+        {
+          "id": "oKIJ6d90V6ExDbqN",
+          "expectedName": "Harm",
+          "name": "伤害术"
+        },
+        {
+          "id": "0PSCr4WiENNoI1yt",
+          "expectedName": "Shadow Snap",
+          "name": "阴影弹指",
+          "expectedDescription": "<p>With a snap of your fingers, you beckon the target's shadow to obey you. When you Cast this Spell and the first time you Sustain it each turn on subsequent rounds, you can choose to either attack or stalk the target with its shadow. If you choose to attack, attempt a spell attack roll against the target's AC, dealing 1d10 cold damage on a hit (or double damage on a critical hit). This attack uses and contributes to your multiple attack penalty.</p>\n<p>If you stalk, attempt a spell attack roll against the target's AC the first time the target uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using until the end of your next turn; dealing 1d10 cold damage on a hit. If the attack is a critical hit, the shadow disrupts that action.</p>\n<p>Each time you Sustain the spell, you can choose to either attack the target or command the shadow to stalk the target until the end of your next turn.</p><hr /><p><strong>Heightened (+1)</strong> The cold damage increases by 1d10.</p>",
+          "description": "<p>With a snap of your fingers, you beckon the target's shadow to obey you. When you Cast this Spell and the first time you Sustain it each turn on subsequent rounds, you can choose to either attack or stalk the target with its shadow. If you choose to attack, attempt a spell attack roll against the target's AC, dealing 1d10 cold damage on a hit (or double damage on a critical hit). This attack uses and contributes to your multiple attack penalty.</p>\n<p>If you stalk, attempt a spell attack roll against the target's AC the first time the target uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using until the end of your next turn; dealing 1d10 cold damage on a hit. If the attack is a critical hit, the shadow disrupts that action.</p>\n<p>Each time you Sustain the spell, you can choose to either attack the target or command the shadow to stalk the target until the end of your next turn.</p><hr /><p><strong>升阶（+1）</strong>寒冷伤害增加1d10。</p>"
+        },
+        {
+          "id": "rKgIj9CXuk2KgnCn",
+          "expectedName": "Shield",
+          "name": "护盾术"
+        },
+        {
+          "id": "nKv4ZQPI0VeJceaC",
+          "expectedName": "Cryopike",
+          "name": "冻寒长矛"
+        },
+        {
+          "id": "ZFnttHafHOUZkt8O",
+          "expectedName": "Medpatch (Tactical)",
+          "name": "战术型医疗贴片"
+        },
+        {
+          "id": "ZAjAS3TIS7vNWUtI",
+          "expectedName": "Cryopike",
+          "name": "冻寒长矛"
+        },
+        {
+          "id": "yuuZOuAB3Ea2RsXh",
+          "expectedName": "Mystic Bond",
+          "name": "秘术纽带"
+        },
+        {
+          "id": "acwk1TdMsDXE5aeR",
+          "expectedName": "Transfer Vitality",
+          "name": "转移命能"
+        }
+      ]
+    },
+    "8awVBEcXh9GPsOtP": {
+      "items": [
+        {
+          "id": "FIZjgRcrLvbb3OQM",
+          "expectedName": "Rotolaser",
+          "name": "转轮激光枪"
+        },
+        {
+          "id": "86wVtldOTfTtO2Tn",
+          "expectedName": "Freebooter Armor",
+          "name": "掠夺者护甲"
+        },
+        {
+          "id": "Gnct8TuQh4bqkIfq",
+          "expectedName": "Rotolaser",
+          "name": "转轮激光枪"
+        },
+        {
+          "id": "6gHXdBZw5F9dHNWy",
+          "expectedName": "Rotolaser",
+          "name": "转轮激光枪"
+        },
+        {
+          "id": "LXuR46qqY4QpvRwx",
+          "expectedName": "Fist",
+          "name": "拳头"
+        }
+      ]
+    },
+    "AFAUivepT8nW1efj": {
+      "items": [
+        {
+          "id": "2fjLj0WQ4jeUJsOz",
+          "expectedName": "Augury",
+          "name": "卜筮术"
+        },
+        {
+          "id": "7FnOEg1z2SuO6zE9",
+          "expectedName": "Daze",
+          "name": "晕眩术"
+        },
+        {
+          "id": "Hj0FlVKNy4EFhLdf",
+          "expectedName": "Freebooter Armor",
+          "name": "掠夺者护甲"
+        },
+        {
+          "id": "7w9qXQxiXybJov20",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "AbnUJaMIAK3l3mgN": {
+      "items": [
+        {
+          "id": "NEGReWDmDUII1nZb",
+          "expectedName": "Caustic Blast",
+          "name": "酸液喷溅"
+        },
+        {
+          "id": "yuhMx45XBEuQoVfM",
+          "expectedName": "Fleet Step",
+          "name": "快速移动"
+        },
+        {
+          "id": "Aa2YGpkjOX9UWjZV",
+          "expectedName": "Frostbite",
+          "name": "冻伤术"
+        },
+        {
+          "id": "rSvWkQEsZCk1xuwa",
+          "expectedName": "Heal",
+          "name": "治疗术"
+        },
+        {
+          "id": "uUtfiqH4tuNH56oc",
+          "expectedName": "Stabilize",
+          "name": "稳定伤势"
+        },
+        {
+          "id": "X3x8nTOvunjQZRMW",
+          "expectedName": "Thunderstrike",
+          "name": "雷击术"
+        },
+        {
+          "id": "VCfyhUOndywbMyeI",
+          "expectedName": "Baton",
+          "name": "警棍"
+        },
+        {
+          "id": "0EJbsPaAWFPOGile",
+          "expectedName": "Zero Pistol",
+          "name": "零度手枪"
+        },
+        {
+          "id": "9bLzybXdf0T4Eykq",
+          "expectedName": "Armored Coat",
+          "name": "衬甲外套"
+        },
+        {
+          "id": "kvIvWktp4DmkCxBW",
+          "expectedName": "Medpatch (Commercial)",
+          "name": "商用型医疗贴片"
+        },
+        {
+          "id": "WRnrkBnrB0I9701I",
+          "expectedName": "Baton",
+          "name": "警棍"
+        },
+        {
+          "id": "0wTOeEezSa0ruBfF",
+          "expectedName": "Zero Pistol",
+          "name": "零度手枪"
+        }
+      ]
+    },
+    "BG73XJoTgKsaYSle": {
+      "items": [
+        {
+          "id": "8LATEmuvePYpn6lh",
+          "expectedName": "Hardlight Handwraps (Advanced)",
+          "name": "先进型实光缠手带",
+          "expectedDescription": "<p><strong>Upgrades</strong> 2</p><hr /><p>These handwraps can be customized to shine in any color in the visible spectrum when used, and some manufacturers offer custom firmware that modifies their appearance to manifest as a claw, oversized fist, or hammerhead. They can even be worn in alternate ways on other parts of the body. These handwraps enhance your unarmed attacks as if they were manufactured weapons, allowing you to add an upgrade to your unarmed attacks. Treat the handwraps as melee weapons in the brawling group with light Bulk for these purposes.</p>\n<p>Your unarmed attacks gain the tracking +1 trait and increase the damage to two dice.</p>",
+          "description": "<p><strong>强化模块</strong> 2</p><hr /><p>These handwraps can be customized to shine in any color in the visible spectrum when used, and some manufacturers offer custom firmware that modifies their appearance to manifest as a claw, oversized fist, or hammerhead. They can even be worn in alternate ways on other parts of the body. These handwraps enhance your unarmed attacks as if they were manufactured weapons, allowing you to add an upgrade to your unarmed attacks. Treat the handwraps as melee weapons in the brawling group with light Bulk for these purposes.</p>\n<p>Your unarmed attacks gain the tracking +1 trait and increase the damage to two dice.</p>"
+        },
+        {
+          "id": "K4hefoVUBn7ptJLq",
+          "expectedName": "Painglaive",
+          "name": "苦痛大砍刀"
+        },
+        {
+          "id": "XhWXbg98zo2jpvXd",
+          "expectedName": "Grenade Launcher (Tactical)",
+          "name": "战术型榴弹发射器",
+          "expectedDescription": "<p><strong>Upgrades</strong> 1</p>\n<p><strong>Activate</strong> <span class=\"action-glyph\">2</span> Area Fire</p><hr /><p>The rotating barrel of this automatic breechloading launcher holds up to six grenades of any variety with smart loading technology, allowing its wielder to choose a different grenade each time they fire. A grenade launcher is a martial ranged weapon, has a reload of 2, and a range 350 feet.</p>",
+          "description": "<p><strong>强化模块</strong> 1</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span>区域射击</p><hr /><p>The rotating barrel of this automatic breechloading launcher holds up to six grenades of any variety with smart loading technology, allowing its wielder to choose a different grenade each time they fire. A grenade launcher is a martial ranged weapon, has a reload of 2, and a range 350 feet.</p>"
+        },
+        {
+          "id": "ycThW2SCcDXHz8D5",
+          "expectedName": "Frag Grenade (Advanced)",
+          "name": "先进型破片手雷",
+          "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> @Damage[1d6[bleed]]</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deal 3d8 piercing damage in a @Template[burst|distance:10] with a @Check[reflex|against:class|basic] save.</p>",
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1d6[bleed]]</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deal 3d8 piercing damage in a @Template[burst|distance:10] with a @Check[reflex|against:class|basic] save.</p>"
+        },
+        {
+          "id": "AWazZc1ay2evLzke",
+          "expectedName": "Armored Coat",
+          "name": "衬甲外套"
+        },
+        {
+          "id": "Qagpddr8Q0z1N34J",
+          "expectedName": "Frag Grenade",
+          "name": "破片手雷"
+        },
+        {
+          "id": "EwVj0txhnXJ8rXte",
+          "expectedName": "Painglaive",
+          "name": "苦痛大砍刀"
+        },
+        {
+          "id": "dL8fm2elpC2OhI9e",
+          "expectedName": "Fist",
+          "name": "拳头"
+        },
+        {
+          "id": "CxTidI2Yy2U7f0tD",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        }
+      ]
+    },
+    "BepIu97cood0onql": {
+      "items": [
+        {
+          "id": "0GdCji7nokybtYYd",
+          "expectedName": "Frostbite",
+          "name": "冻伤术"
+        },
+        {
+          "id": "cfN6F6iW9AcEwSH5",
+          "expectedName": "Ignition",
+          "name": "引火术"
+        },
+        {
+          "id": "0lbersVx8gyr1t7L",
+          "expectedName": "Swallow Whole",
+          "name": "活吞"
+        },
+        {
+          "id": "hbfZnxZ9iUE4OO34",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "FG5LKENqeKaVqCMn": {
+      "items": [
+        {
+          "id": "fQQrOC4urCFM7ocA",
+          "expectedName": "Create Water",
+          "name": "造水术"
+        },
+        {
+          "id": "yFn98NwmwnXQlqZv",
+          "expectedName": "Detect Magic",
+          "name": "侦测魔法"
+        },
+        {
+          "id": "RzRkHWEGTiTh7acR",
+          "expectedName": "Elemental Weapon",
+          "name": "元素武器",
+          "expectedDescription": "<p>You create an advanced, martial, or simple weapon out of elemental energy that materializes in the hands of a bonded creature. Select an elemental trait for the created weapon: air, earth, fire, metal, water, or wood. The weapon is tactical grade and comes fully charged and loaded with basic ammunition. It cannot be made of any special materials.</p>\n<p>The weapon has one fewer upgrade slot but can be upgraded with any upgrades you hold in your hands as a locus when casting this spell, which become inert until the spell ends. The weapon deals damage as normal plus 1d4 additional damage based on the chosen trait: electricity for air, bludgeoning for earth, fire for fire, acid for metal, cold for water, or poison for wood.</p><hr /><p><strong>Heightened (2nd)</strong> You can create an advanced weapon.</p>\n<p><strong>Heightened (5th)</strong> You can create a superior weapon.</p>\n<p><strong>Heightened (6th)</strong> You can create an elite weapon.</p>\n<p><strong>Heightened (8th)</strong> You can create an ultimate weapon.</p>\n<p><strong>Heightened (9th)</strong> You can create a paragon weapon.</p>",
+          "description": "<p>你用元素能量制造出一件进阶、军用或简易武器，并将其实体化于一名纽带中的生物的手中。为制造的武器选择一个元素特征：气、土、火、金、水或木。该武器是一件战术型装备，并且已经完全充能并装填有基础弹药。它不能由任何特殊材料制成。</p>\n<p>该武器有一个次等强化槽位，但可以用你在施放该法术时手中持握的强化模块进行强化，你将强化模块用作法器，这些强化模组在法术结束前变为惰性。武器在造成正常伤害以外，还会额外造成1d4基于所选特征的伤害：气为电击，土为钝击，火为火焰，金为酸蚀，水为寒冷，木为毒素。</p><hr /><p><strong>升阶（2环）</strong>你可以制造先进型武器。</p>\n<p><strong>升阶（5环）</strong>你可以制造卓越型武器。</p>\n<p><strong>升阶（6环）</strong>你可以制造精英型武器。</p>\n<p><strong>升阶（8环）</strong>你可以制造终极型武器。</p>\n<p><strong>升阶（9环）</strong>你可以制造完美型武器。</p>"
+        },
+        {
+          "id": "XumK1TK55d7vNXo0",
+          "expectedName": "Gust of Wind",
+          "name": "造风术"
+        },
+        {
+          "id": "x7PrJtTn7BY3pow2",
+          "expectedName": "Heal",
+          "name": "治疗术"
+        },
+        {
+          "id": "T8Z66toPenvTA5XN",
+          "expectedName": "Recharge Weapon",
+          "name": "重填武器",
+          "expectedDescription": "<p>You touch a weapon with no remaining ammunition and recharge it with magical energy. The target gains ammunition or charges equal to its expend until the end of your next turn, allowing anyone holding the target to make one Strike with the weapon. This spell only recharges weapons that use ammunition with a cost of 10 credits or less.</p><hr /><p><strong>Heightened (3rd)</strong> The target gains ammunition or charges equal to double its expend.</p>\n<p><strong>Heightened (6th)</strong> The target gains ammunition or charges equal to triple its expend.</p>\n<p><strong>Heightened (9th)</strong> The target gains ammunition or charges equal to quadruple its expend.</p>",
+          "description": "<p>你触碰一件没有剩余弹药的武器，用魔法能量为其充能。直到你的下一回合结束时，目标会获得与其“耗弹”相等的弹药或充能，并允许任何持有目标的人使用该武器进行一次打击。该法术只能为使用弹药且弹药价格不超过10个信用点的武器充能。</p><hr /><p><strong>Heightened (3rd)</strong> The target gains ammunition or charges equal to double its expend.</p>\n<p><strong>Heightened (6th)</strong> The target gains ammunition or charges equal to triple its expend.</p>\n<p><strong>Heightened (9th)</strong> The target gains ammunition or charges equal to quadruple its expend.</p>"
+        },
+        {
+          "id": "gST78rTic7RT7RFd",
+          "expectedName": "Scan Environment",
+          "name": "扫描环境",
+          "expectedDescription": "<p>You analyze the natural environment in the area within 1 mile, learning general information about the atmosphere, biomes, and gravity. You forecast the weather for the next hour, including the direction it will come from; learn which atmospheres, biomes, and gravity are in the area, as well as the direction and distance to those elements; and learn if anything in the area presents an environmental hazard, including cold or heat dangers (at what temperature range), radiation (at what severity), smoke effects, and underwater conditions. This is enough to detect large effects that span spaces over 30 feet in diameter only. You gain a general sense of where and how far away these dangers are.</p><hr /><p><strong>Heightened (+1)</strong> The scanned area increases in radius by 1 mile.</p>",
+          "description": "<p>你分析1英里范围内的自然环境，了解大气层、生物群落和重力的一般信息。预测未来一小时的天气，包括天气自哪而来；了解该区域有哪些大气、生物群落和重力，以及与这些元素的方向和距离；了解该区域是否存在环境危害，包括冷热危险（在什么温度范围）、辐射（严重程度）、烟雾效果和水下条件。这足以探测到直径超过30英尺的大型效果。你可以大致了解这些危险的位置和距离。</p><hr /><p><strong>升阶（+1）</strong>扫描范围增加1英里。</p>"
+        },
+        {
+          "id": "lott5AJpc4q8urIz",
+          "expectedName": "Shifting Surge",
+          "name": "移变激涌",
+          "expectedDescription": "<p>You release a surge of magical energy that temporarily changes the type of damage dealt by a weapon. The next Strike the weapon makes deals your choice of acid, cold, electricity, fire, or sonic damage and deals an additional 1d6 extra damage of the same type as the weapon's normal damage.</p><hr /><p><strong>Heightened (+2)</strong> The extra damage increases by 1d6.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.pWm0NCsxjxTUCJ7y]</p>",
+          "description": "<p>你释放出一股魔法能量，暂时改变目标武器造成的伤害类型。使用该武器的下一次打击会造成酸蚀、寒冷、电击、火焰、音波中由你选择的一种伤害类型，并且额外造成1d6伤害，类型为武器正常的伤害类型。</p><hr /><p><strong>升阶（+2）</strong>额外伤害增加1d6。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.pWm0NCsxjxTUCJ7y]</p>"
+        },
+        {
+          "id": "h2TlKpREB0Tvf4mW",
+          "expectedName": "Stabilize",
+          "name": "稳定伤势"
+        },
+        {
+          "id": "FMPjVAPYmdDBB5rs",
+          "expectedName": "Shobhad Longrifle",
+          "name": "绍贝德长步枪"
+        },
+        {
+          "id": "CXIDXFnna1Ytg1VN",
+          "expectedName": "Microcord Armor",
+          "name": "微纤护甲"
+        },
+        {
+          "id": "cmHfIqt8i46FbucK",
+          "expectedName": "Silencer (Commercial)",
+          "name": "商用型消音器",
+          "expectedDescription": "<p>A cylinder is filled with internal sound baffles to reduce noise. The weapon doesn't make a loud noise when fired. However, creatures hit by the ammunition might still cry out in pain.</p>",
+          "description": "<p>该金属圆筒内填充了隔音材质，能够减少火器发出的噪音。火器开火时不会发出巨大的噪音。不过，被子弹命中的生物还是有可能会因为痛苦而喊叫出声。</p>"
+        },
+        {
+          "id": "7BnfaxPinBhdUE6j",
+          "expectedName": "Sniper's Scope (Commercial)",
+          "name": "商用型狙击镜",
+          "expectedDescription": "<p>A telescopic sighting attachment helps view distant targets.</p><hr /><p><strong>Activate—Adjust Sight</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Effect</strong> Increase the range increment of the weapon the scope is attached to by 10 feet. If the weapon has a base range increment of 50 feet or more, increase the range of the weapon by 20 feet instead. This lasts until the beginning of your next turn or until you're no longer wielding the weapon this scope is attached to, whichever comes first. This does not increase the size of area attacks.</p>",
+          "description": "<p>该望远瞄准装置有助于观察远处目标。</p><hr /><p><strong>Activate—Adjust Sight</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Effect</strong> Increase the range increment of the weapon the scope is attached to by 10 feet. If the weapon has a base range increment of 50 feet or more, increase the range of the weapon by 20 feet instead. This lasts until the beginning of your next turn or until you're no longer wielding the weapon this scope is attached to, whichever comes first. This does not increase the size of area attacks.</p>"
+        },
+        {
+          "id": "Y8kh0h6nDcJkfuwj",
+          "expectedName": "Shobhad Longrifle",
+          "name": "绍贝德长步枪"
+        },
+        {
+          "id": "fOWhODSVo5QFqq2x",
+          "expectedName": "Fist",
+          "name": "拳头"
+        },
+        {
+          "id": "faL5Wvi6rh3wF8GO",
+          "expectedName": "Transfer Vitality",
+          "name": "转移命能"
+        },
+        {
+          "id": "1BNnkK5fk9Rghq2q",
+          "expectedName": "Shobhad Lore",
+          "name": "绍贝德人学识"
+        }
+      ]
+    },
+    "I6y9ktiUErMkTlVB": {
+      "items": [
+        {
+          "id": "rRDwVRmrvjNoOb4V",
+          "expectedName": "Incendiary Grenade (Commercial)",
+          "name": "商用型爆燃手雷",
+          "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> 5 feet</p><hr /><p>These grenades use an ignited chemical to explode in a blast of intense heat and deal 1d8 fire damage with a @Check[reflex|against:class|basic] save (@Template[burst|distance:5]). If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw against incendiary grenades are knocked away from the grenade.</p>",
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>击退5尺</p><hr /><p>These grenades use an ignited chemical to explode in a blast of intense heat and deal 1d8 fire damage with a @Check[reflex|against:class|basic] save (@Template[burst|distance:5]). If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw against incendiary grenades are knocked away from the grenade.</p>"
+        },
+        {
+          "id": "TadIBHiTNFxw8tT9",
+          "expectedName": "Incendiary Grenade",
+          "name": "爆燃手雷"
+        },
+        {
+          "id": "3rbk1itTkYeXdPBv",
+          "expectedName": "Push",
+          "name": "推离"
+        }
+      ]
+    },
+    "JvX6eYrXNanEGLUm": {
+      "items": [
+        {
+          "id": "ZlEOEpOFH8eq8s9P",
+          "expectedName": "Laser Rifle",
+          "name": "激光步枪"
+        },
+        {
+          "id": "vH5vXo5gXfUYsXCi",
+          "expectedName": "Shotalashu Armor",
+          "name": "念力巨蜥护甲"
+        },
+        {
+          "id": "28MQt0iKyyV2q9pE",
+          "expectedName": "Medpatch (Commercial)",
+          "name": "商用型医疗贴片"
+        },
+        {
+          "id": "H42puxEPfknz2kdN",
+          "expectedName": "Laser Rifle",
+          "name": "激光步枪"
+        },
+        {
+          "id": "CAOjznkp9qfOiF05",
+          "expectedName": "Dragonkin Breath",
+          "name": "龙之吐息"
+        }
+      ]
+    },
+    "KADM4F14urfQR9Cu": {
+      "items": [
+        {
+          "id": "B9jPIzczfg739Jm9",
+          "expectedName": "Blur",
+          "name": "朦胧术"
+        },
+        {
+          "id": "AeigOSaXuBPDsyhu",
+          "expectedName": "Caustic Conversion",
+          "name": "腐蚀转化",
+          "expectedDescription": "<p>You launch a torrent of magical nanites that begin dissolving your target. Make a ranged spell attack against the target. On a hit, you deal 3d8 acid damage plus 1d6 persistent acid damage. On a critical hit, double the initial damage, but not the persistent damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 2d8, and the persistent acid damage increases by 1d6.</p>",
+          "description": "<p>你发射出一股魔法纳米粒子，开始溶解你的目标。对目标进行远程法术攻击检定。命中时，你会造成3d8酸蚀伤害加1d6持续酸蚀伤害。如果大成功，初始伤害加倍，但持续伤害不加倍。</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加2d8，持续酸蚀伤害增加1d6。</p>"
+        },
+        {
+          "id": "NIvaK0cRcSdQ0TS7",
+          "expectedName": "Dispel Magic",
+          "name": "解除魔法"
+        },
+        {
+          "id": "5Ovtcf8k8QG32WZX",
+          "expectedName": "Resist Energy",
+          "name": "抵抗能量伤害"
+        },
+        {
+          "id": "vgC37TKIovdVXQYp",
+          "expectedName": "Sift the Sphere",
+          "name": "网络筛查"
+        },
+        {
+          "id": "vmCMQzv3tHXpKGR5",
+          "expectedName": "Analyze Target",
+          "name": "分析目标",
+          "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+        },
+        {
+          "id": "gnAne2lDKenmHAEG",
+          "expectedName": "Daze",
+          "name": "晕眩术"
+        },
+        {
+          "id": "KVAZOvLNQvmGn3Cv",
+          "expectedName": "Detect Magic",
+          "name": "侦测魔法"
+        },
+        {
+          "id": "hGOjibyT8NFwsgHZ",
+          "expectedName": "Enfeeble",
+          "name": "衰弱术"
+        },
+        {
+          "id": "It6E8CSwtGVIhFzp",
+          "expectedName": "Force Barrage",
+          "name": "力场飞弹"
+        },
+        {
+          "id": "T4ch2daj9T3hkxhf",
+          "expectedName": "Injury Echo",
+          "name": "伤口回响",
+          "expectedDescription": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 1d8, and the persistent damage on a failure increases by 1d4.</p>",
+          "description": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加1d8，豁免失败时的持续伤害增加1d4。</p>"
+        },
+        {
+          "id": "0XUV8UoWqLpq1kIA",
+          "expectedName": "Mindlink",
+          "name": "讯息传递"
+        },
+        {
+          "id": "E5OOI3MOxq44xYgf",
+          "expectedName": "Sure Strike",
+          "name": "料敌机先"
+        },
+        {
+          "id": "7yYtI9QE3axs436R",
+          "expectedName": "Telekinetic Projectile",
+          "name": "念动射弹"
+        },
+        {
+          "id": "qNvLxPYSe6DAYf0l",
+          "expectedName": "Warp Probability",
+          "name": "曲织或然",
+          "expectedDescription": "<p><strong>Trigger</strong> You fail an attack roll or saving throw.</p><hr /><p>You open your mind to read the underlying probability of the multiverse. Reroll the failed check and take the better result.</p>",
+          "description": "<p><strong>触发</strong>你在一次攻击检定或者豁免骰中失败。</p><hr /><p>你展开思维来阅读多元宇宙中的潜藏可能。重骰失败的检定并使用其中较高的结果。</p>"
+        },
+        {
+          "id": "Nb3QRw925sJv4HqZ",
+          "expectedName": "Zero Pistol",
+          "name": "零度手枪"
+        },
+        {
+          "id": "FhPvHYWfgtQqVBGb",
+          "expectedName": "Carbon Skin",
+          "name": "碳素皮肤"
+        },
+        {
+          "id": "YRShtsgb1uOC4yAL",
+          "expectedName": "Parallel Accord",
+          "name": "平行协定",
+          "expectedDescription": "<p>A parallel accord is a small metallic disk ringed with magical runes that transcend reality, serving as a nexus for a number of your parallel selves. When invested, a parallel accord hovers over your head like a crown.</p>\n<p><strong>Activate—Parallel Positioning</strong> <span class=\"action-glyph\">r</span> (concentration, teleportation)</p>\n<p><strong>Trigger</strong> You succeed at a saving throw against a spell or a Strike misses you</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You tap into one of the alternate realities linked to your parallel accord, repositioning yourself into a location you occupy in another reality. You teleport to any unoccupied square you can see within 20 feet. If you critically succeeded at the triggering saving throw or were critically missed by the triggering Strike, you additionally become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} until the beginning of your next turn, as your body is shrouded in fragmented reflections of other realities.</p>",
+          "description": "<p>平行协定是一张镶嵌着跨现实魔法符文的金属圆盘，作为你的多个平行自我的枢纽。当被启动时，它会如王冠般悬浮于你头顶。</p>\n<p><strong>Activate—Parallel Positioning</strong> <span class=\"action-glyph\">r</span> (concentration, teleportation)</p>\n<p><strong>Trigger</strong> You succeed at a saving throw against a spell or a Strike misses you</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You tap into one of the alternate realities linked to your parallel accord, repositioning yourself into a location you occupy in another reality. You teleport to any unoccupied square you can see within 20 feet. If you critically succeeded at the triggering saving throw or were critically missed by the triggering Strike, you additionally become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} until the beginning of your next turn, as your body is shrouded in fragmented reflections of other realities.</p>"
+        },
+        {
+          "id": "JumKak78IX3gkD7u",
+          "expectedName": "Zero Pistol",
+          "name": "零度手枪"
+        },
+        {
+          "id": "rFzAikq5ijIQftWA",
+          "expectedName": "Fist",
+          "name": "拳头"
+        },
+        {
+          "id": "52JyB9DUuHbnVPGd",
+          "expectedName": "Quantum Pulse",
+          "name": "量子脉冲"
+        },
+        {
+          "id": "j7Xy554qVqKoutuX",
+          "expectedName": "Quantum Recycle",
+          "name": "量子循环"
+        },
+        {
+          "id": "mON1Hrm7IePhtYTE",
+          "expectedName": "Warp Reality",
+          "name": "曲织现实"
+        }
+      ]
+    },
+    "KJU9yXcN1C3C2YXY": {
+      "items": [
+        {
+          "id": "O6NKqgzYQz0tdM01",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "LMI8A83YFnoSEKFn": {
+      "items": [
+        {
+          "id": "Y85KTUU7R5dp87VY",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        },
+        {
+          "id": "w0yT9j9lkMkzmkek",
+          "expectedName": "Gorge",
+          "name": "大啖"
+        }
+      ]
+    },
+    "LrUufeCKPWfiIlB5": {
+      "items": [
+        {
+          "id": "7O1QPPHkkr3SJscf",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "MJ4l0d89SqAfy1Tz": {
+      "items": [
+        {
+          "id": "jvai2PIIDYL6BFS2",
+          "expectedName": "Horns",
+          "name": "尖角"
+        }
+      ]
+    },
+    "MZuAysCxMqSQNZW9": {
+      "items": [
+        {
+          "id": "kHdhwQAhvXz5uTMq",
+          "expectedName": "Lightning Bolt",
+          "name": "闪电束"
+        }
+      ]
+    },
+    "NdqOLPOwZ1YweqII": {
+      "items": [
+        {
+          "id": "AUVeykQYZSOjAKlE",
+          "expectedName": "Command",
+          "name": "命令术"
+        },
+        {
+          "id": "LbtNl0Se1x0zGMlx",
+          "expectedName": "Daze",
+          "name": "晕眩术"
+        },
+        {
+          "id": "ZLJ9GzBw89ieEVAZ",
+          "expectedName": "Detect Magic",
+          "name": "侦测魔法"
+        },
+        {
+          "id": "y10jyKm5q5bBFZrV",
+          "expectedName": "Force Barrage",
+          "name": "力场飞弹"
+        },
+        {
+          "id": "qVwdS3bEdDoCsugx",
+          "expectedName": "Mind Skewer",
+          "name": "心灵穿刺",
+          "expectedDescription": "<p>You overload a creature's mind with a glut of psychic information or divine judgments. The mental onslaught deals 2d6 mental damage. On a critical failure, the target is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
+          "description": "<p>你可以用大量的精神信息或神圣审判使一个生物的精神超负荷。心灵冲击会造成2d6心灵伤害。在重击时，目标还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2}，持续1轮。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加 2d6。</p>"
+        },
+        {
+          "id": "WrO3R8uemMyCrVW8",
+          "expectedName": "Shield",
+          "name": "护盾术"
+        },
+        {
+          "id": "M50btrq2Q5iOG80Z",
+          "expectedName": "Void Warp",
+          "name": "虚能噬"
+        },
+        {
+          "id": "Ly0DfPYuRk08tBqY",
+          "expectedName": "Semi-Auto Pistol",
+          "name": "半自动手枪"
+        },
+        {
+          "id": "ZesUTX94v9vFVq6N",
+          "expectedName": "Shock Pad",
+          "name": "电击垫"
+        },
+        {
+          "id": "svJL32cVgOOq6ilZ",
+          "expectedName": "Hardlight Series",
+          "name": "实光套装"
+        },
+        {
+          "id": "Cwex4MQ4eiJ1pVV3",
+          "expectedName": "Hacking Toolkit (Commercial)",
+          "name": "商用型黑客工具包"
+        },
+        {
+          "id": "X4m7uAVuPE1NwpuL",
+          "expectedName": "Infiltrator's Toolkit (Commercial)",
+          "name": "商用型渗透者工具包"
+        },
+        {
+          "id": "G8TuxEyQhUd8x7KL",
+          "expectedName": "Repair Toolkit (Commercial)",
+          "name": "商用型修理工具包",
+          "expectedDescription": "<p>A repair toolkit contains a variety of delicate tools and supplies that allows you to perform simple repairs while traveling. You can use a repair toolkit to Repair items using the Crafting skill. You can draw and replace a worn repair toolkit as part of the action that uses it.</p>",
+          "description": "<p>修理工具包包含各种各样的允许你在旅行途中进行简单修理的精密工具和供应品。你可以用修理工具包使用手艺技能修理物品。如果你穿戴着修理工具包，你可以抽出和替换一个穿戴在身上的修理工具包，作为使用动作的一部分。</p>"
+        },
+        {
+          "id": "AYtPIzAx02z4Tu5h",
+          "expectedName": "Semi-Auto Pistol",
+          "name": "半自动手枪"
+        },
+        {
+          "id": "pXzCz2OvWdym8dAa",
+          "expectedName": "Shock Pad",
+          "name": "电击垫"
+        },
+        {
+          "id": "sVr3EyvFbmnIyxl7",
+          "expectedName": "Nanite Surge",
+          "name": "纳米体激增"
+        },
+        {
+          "id": "rDFDHa2TMo4SwSir",
+          "expectedName": "Reach Spell",
+          "name": "及远法术"
+        }
+      ]
+    },
+    "P7sZxfsmVhDWjvLY": {
+      "items": [
+        {
+          "id": "J4xAxroWi0KDxQ5x",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        },
+        {
+          "id": "6wt97h0GfxV5VtYH",
+          "expectedName": "Constrict",
+          "name": "紧勒"
+        },
+        {
+          "id": "3a17FJCadqx9jY5m",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "QkYQX3jAZJwFmWPc": {
+      "items": [
+        {
+          "id": "4FKDdIIKTpugtyEk",
+          "expectedName": "Push",
+          "name": "推离"
+        }
+      ]
+    },
+    "SM8LX6gYc0S0uVnV": {
+      "items": [
+        {
+          "id": "ZYl2s2PZ63vOtwP0",
+          "expectedName": "Shobhad Longrifle",
+          "name": "绍贝德长步枪"
+        },
+        {
+          "id": "2OjYTDSQwZMHhHzz",
+          "expectedName": "Shobhad Longrifle",
+          "name": "绍贝德长步枪"
+        },
+        {
+          "id": "Fa8jQq2T5XgpG1mM",
+          "expectedName": "Fist",
+          "name": "拳头"
+        },
+        {
+          "id": "pjtpRcsUWnAfj5Pj",
+          "expectedName": "Grab",
+          "name": "擒获"
+        },
+        {
+          "id": "fleIeCyfqbUF5sCO",
+          "expectedName": "Knockdown",
+          "name": "击倒"
+        }
+      ]
+    },
+    "T64s65XbZIdo5SJp": {
+      "items": [
+        {
+          "id": "9AkRxgvUN33CPYQ3",
+          "expectedName": "Laser Eye",
+          "name": "激光眼"
+        },
+        {
+          "id": "gGF5aZ1x8aaVjPiT",
+          "expectedName": "Ferocity",
+          "name": "凶猛"
+        }
+      ]
+    },
+    "TUDnG2r3f2YDF0Jx": {
+      "items": [
+        {
+          "id": "7DW3DxyamYXK78be",
+          "expectedName": "Lightning Bolt",
+          "name": "闪电束"
+        }
+      ]
+    },
+    "UZkkTncVBSPb1SHn": {
+      "items": [
+        {
+          "id": "gWLVgnpi9tbctYSI",
+          "expectedName": "Eldritch Lance",
+          "name": "诡枪术",
+          "expectedDescription": "<p>You condense a beam of mind-assaulting eldritch energy from the dark spaces between the stars and fire it at a target. Make a ranged spell attack roll against the target's AC. If you hit, you deal 2d6 mental damage. On a critical success, you deal double damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>",
+          "description": "<p>你自星辰之间的幽深领域凝聚一束袭魂慑魄的怪异能量攻击目标。尝试一次远程法术攻击骰对抗目标的AC，如果命中，你造成2d6心灵伤害，在大成功时造成双倍伤害。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6。</p>"
+        },
+        {
+          "id": "K6rzhrEUrm68ZpEG",
+          "expectedName": "Recharge Weapon",
+          "name": "重填武器",
+          "expectedDescription": "<p>You touch a weapon with no remaining ammunition and recharge it with magical energy. The target gains ammunition or charges equal to its expend until the end of your next turn, allowing anyone holding the target to make one Strike with the weapon. This spell only recharges weapons that use ammunition with a cost of 10 credits or less.</p><hr /><p><strong>Heightened (3rd)</strong> The target gains ammunition or charges equal to double its expend.</p>\n<p><strong>Heightened (6th)</strong> The target gains ammunition or charges equal to triple its expend.</p>\n<p><strong>Heightened (9th)</strong> The target gains ammunition or charges equal to quadruple its expend.</p>",
+          "description": "<p>你触碰一件没有剩余弹药的武器，用魔法能量为其充能。直到你的下一回合结束时，目标会获得与其“耗弹”相等的弹药或充能，并允许任何持有目标的人使用该武器进行一次打击。该法术只能为使用弹药且弹药价格不超过10个信用点的武器充能。</p><hr /><p><strong>Heightened (3rd)</strong> The target gains ammunition or charges equal to double its expend.</p>\n<p><strong>Heightened (6th)</strong> The target gains ammunition or charges equal to triple its expend.</p>\n<p><strong>Heightened (9th)</strong> The target gains ammunition or charges equal to quadruple its expend.</p>"
+        },
+        {
+          "id": "SN38OOVVkFDXEP7i",
+          "expectedName": "Stumble",
+          "name": "跌绊术",
+          "expectedDescription": "<p>A burst of microgravity causes a tremor around the target, pulling it toward the ground. The target must attempt a Reflex save.</p><hr /><p><strong>Failure</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round. If the target was flying, swimming, or floating, it falls 10 feet downward.</p>\n<p><strong>Critical Failure</strong> The target falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. If the target was flying, swimming, or floating, it falls 20 feet downward.</p><hr /><p><strong>Heightened (+1)</strong> If the target falls, it falls an additional 5 feet on a failure and 10 feet on a critical failure.</p>",
+          "description": "<p>一阵微弱重力会在目标周围造成震颤，将其拉向地面。目标尝试反射豁免。</p><hr /><p><strong>失败</strong>目标会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]1轮。如果目标是在飞行、游泳或漂浮，则会向下坠落10尺。</p>\n<p><strong>大失败</strong>目标@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]。如果目标正在飞行、游泳或漂浮，则会向下坠落20尺。</p><hr /><p><strong>升阶（+1） </strong>如果目标在飞行，失败时会额外向下坠落5尺，大失败时会额外向下坠落10尺。</p>"
+        },
+        {
+          "id": "KNukzFLiRRv1nQIO",
+          "expectedName": "Aucturnite Chakram",
+          "name": "奥克腾岩飞轮"
+        },
+        {
+          "id": "dztKG6duAx4YGPid",
+          "expectedName": "Laser Pistol",
+          "name": "激光手枪"
+        },
+        {
+          "id": "iCVuPeP7o5hqfgVm",
+          "expectedName": "Aucturnite Chakram",
+          "name": "奥克腾岩飞轮"
+        },
+        {
+          "id": "AtwIFUU7aZedeNoK",
+          "expectedName": "Aucturnite Chakram",
+          "name": "奥克腾岩飞轮"
+        },
+        {
+          "id": "ACTLZumxKuXGr8Q6",
+          "expectedName": "Laser Pistol",
+          "name": "激光手枪"
+        }
+      ]
+    },
+    "V3J4tYJ2Os58ZRg9": {
+      "name": "尸骸舰队步兵",
+      "publicNotes": "<p>尸骸舰队的普通步兵都经过协同作战的训练。</p><hr /><p>The Corpse Fleet is an army made up of undead supremacists who refuse to bow to the will of the living. Founded by defectors from the Eoxian navy, the Corpse Fleet aims to shatter Pact Worlds unity and liberate Eox from the influence of the living and those bone sages who sided with them. Unyielding and utterly ruthless, the Corpse Fleet deals in death and destruction, feeding on the living and exploiting the dead.</p>",
+      "items": [
+        {
+          "id": "mwa7HagIIb0vNq8M",
+          "expectedName": "Arc Pistol",
+          "name": "电弧手枪"
+        },
+        {
+          "id": "V4XVoH7HnpI7edAZ",
+          "expectedName": "Autotarget Rifle",
+          "name": "自瞄步枪"
+        },
+        {
+          "id": "zD0PtqI0SMu9TIvt",
+          "expectedName": "Battleglove",
+          "name": "战斗手套"
+        },
+        {
+          "id": "9NHl8lYJ4iaZsysl",
+          "expectedName": "Ossifying Grenade (Tactical)",
+          "name": "战术型骨化手雷",
+          "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round</p><hr /><p>This grenade was invented by the Eoxian navy, its designs later stolen by the early Corpse Fleet. When it explodes, the grenade rapidly releases calcifying agents which transform living flesh to bone, dealing 2d8 void damage. Living creatures in a @Template[burst|distance:10] must attempt a basic Reflex save. If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw become clumsy.</p>",
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}，持续1轮</p><hr /><p>This grenade was invented by the Eoxian navy, its designs later stolen by the early Corpse Fleet. When it explodes, the grenade rapidly releases calcifying agents which transform living flesh to bone, dealing 2d8 void damage. Living creatures in a @Template[burst|distance:10] must attempt a basic Reflex save. If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw become clumsy.</p>"
+        },
+        {
+          "id": "Z1wjPvhe6nO17eHP",
+          "expectedName": "Shotalashu Armor",
+          "name": "念力巨蜥护甲"
+        },
+        {
+          "id": "42wccQrv4WdXLvzB",
+          "expectedName": "Arc Pistol",
+          "name": "电弧手枪"
+        },
+        {
+          "id": "6lArx9jRAxNzwvzO",
+          "expectedName": "Autotarget Rifle",
+          "name": "自瞄步枪"
+        },
+        {
+          "id": "UTBvqeaEw4tGa4me",
+          "expectedName": "Battleglove",
+          "name": "战斗手套"
+        },
+        {
+          "id": "vD3owkWALc6nTTiX",
+          "expectedName": "Autotarget Rifle",
+          "name": "自瞄步枪"
+        },
+        {
+          "id": "F9q0P4nKR7eusFh1",
+          "expectedName": "Ossifying Grenade (Tactical)",
+          "name": "战术型骨化手雷"
+        },
+        {
+          "id": "rZMhXvwmWfYqxdWu",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        },
+        {
+          "id": "zDhm0Ul1KIbLhKYB",
+          "expectedName": "Fusillade",
+          "name": "齐射",
+          "expectedDescription": "<p>The Corpse Fleet infantry's ranged Strikes deal an additional 1d4 precision damage when the Corpse Fleet infantry is within the first range increment of at least one other member of the Corpse Fleet wielding a ranged weapon.</p>",
+          "description": "<p>当尸骸舰队步兵处于至少一名持用有远程武器的其他尸骸舰队成员的第一个射程增量内时，其远程打击造成额外1d4精准伤害。</p>"
+        }
+      ]
+    },
+    "XytZxY2FixC9e5T9": {
+      "items": [
+        {
+          "id": "VHT5E7D9eT3IjTUF",
+          "expectedName": "Plasma Caster",
+          "name": "等离子爆能枪"
+        },
+        {
+          "id": "IAjZADvjyRPmMvEL",
+          "expectedName": "Tempweave",
+          "name": "保温织服"
+        },
+        {
+          "id": "CcckwiCPchpkQgrh",
+          "expectedName": "Plasma Caster",
+          "name": "等离子爆能枪"
+        }
+      ]
+    },
+    "ZsuOvgpjK3QnY076": {
+      "items": [
+        {
+          "id": "gONRyXSfNZ5WCLGh",
+          "expectedName": "Reality Ripper",
+          "name": "现实撕裂者"
+        }
+      ]
+    },
+    "ayOJu6R5zjVxiVkw": {
+      "items": [
+        {
+          "id": "9Br83vm6jVMDIT7l",
+          "expectedName": "Nanite Repair",
+          "name": "纳米体修理"
+        }
+      ]
+    },
+    "bYzdDu0dcWV6wMyQ": {
+      "items": [
+        {
+          "id": "2XHj9YEKAYpcWSR9",
+          "expectedName": "Dizzying Anesthetic",
+          "name": "致眩麻醉剂"
+        }
+      ]
+    },
+    "cHhQgQTfJvwdJtBV": {
+      "items": [
+        {
+          "id": "dDpbhwxNPpWrU3n7",
+          "expectedName": "Electrolocation",
+          "name": "电磁定位"
+        },
+        {
+          "id": "I7V0OY844Dh8EUJv",
+          "expectedName": "Constrict",
+          "name": "紧勒"
+        },
+        {
+          "id": "VGcLAMn1TOra05G2",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "dbCj6r0Y6FitWR1d": {
+      "items": [
+        {
+          "id": "m19F2wnWaAPdujJs",
+          "expectedName": "Darkvision",
+          "name": "黑暗视觉"
+        },
+        {
+          "id": "hWm8n80vodteaCcS",
+          "expectedName": "Constant Spells",
+          "name": "常驻法术"
+        }
+      ]
+    },
+    "f1ikMjMJYAb2Mk6M": {
+      "items": [
+        {
+          "id": "JoVf0XpIC3pAhuDt",
+          "expectedName": "Arc Pistol",
+          "name": "电弧手枪"
+        },
+        {
+          "id": "ffUqJ0JOfKJrj7S8",
+          "expectedName": "Tempweave",
+          "name": "保温织服"
+        },
+        {
+          "id": "uV8OKl2ztkF2VlnL",
+          "expectedName": "Arc Pistol",
+          "name": "电弧手枪"
+        }
+      ]
+    },
+    "hSI6SiSZOSu6gB6I": {
+      "items": [
+        {
+          "id": "D5CM1iit65tQeWTB",
+          "expectedName": "Eldritch Wrath",
+          "name": "怪异怒火",
+          "expectedDescription": "<p>You channel the bizarre powers that exist beyond the outer reaches of the universe, dealing 3d12 mental damage to each creature in the area as phantasmal claws, jaws, and tentacles lash out at each target. Each creature in the area must attempt a Will save. The area is difficult terrain for any creature sickened by the effects of this spell.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d12.</p>",
+          "description": "<p>你引导存在于宇宙之外，不可名状的力量，对区域内所有生物造成3d12心灵伤害，如同幻影尖爪、啃咬或是触须击中每个目标。区域中的每个生物都需要尝试一次意志豁免。区域对每个因该法术效果陷入恶心的生物都视为困难地形。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全部伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p>\n<p><strong>大失败</strong>该生物受到两倍伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 2}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d12。</p>"
+        },
+        {
+          "id": "Cmxnrd2rr3bpM4Po",
+          "expectedName": "Vision of Death",
+          "name": "魅影杀机"
+        },
+        {
+          "id": "KVwGWNJMe69ENxhA",
+          "expectedName": "Weight of Ages",
+          "name": "岁月重担",
+          "expectedDescription": "<p>You burden a creature's body and mind with the pains and sorrows of a lifetime. The target takes 3d8 bludgeoning damage and 3d8 mental damage and must attempt a Will saving throw.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Encumbered} for 1 round.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and is encumbered for 1 minute.</p><hr /><p><strong>Heightened (+1)</strong> The mental damage increases by 2d8.</p>",
+          "description": "<p>你将目标毕生的苦痛与哀伤化作沉重枷锁，压垮目标的身心。尝试一次远程法术攻击骰。目标受到3d8钝击伤害和3d8心灵，并且必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全伤害并且@UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]1轮。</p>\n<p><strong>大失败</strong>目标受到全伤害并且超载1分钟。</p><hr /><p><strong>升阶（+1）</strong>心灵伤害增加2d8</p>"
+        },
+        {
+          "id": "dbiZ1yOA4vQedDHu",
+          "expectedName": "Entropy Strike",
+          "name": "熵击",
+          "expectedDescription": "<p>You unleash a ray of entropy that rapidly and indiscriminately decays matter. Make a ranged spell attack against the target's AC. On a hit, the target takes 5d8 void damage, or it takes 2d6 persistent acid damage and is glitching 1 if it has the tech trait. On a critical hit, double the damage, and if the creature has the tech trait, it's glitching 2 and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1 die.</p>",
+          "description": "<p>你释放一束熵射线，迅速且无差别地分解物质。进行远程法术攻击对抗目标的AC。如果命中，目标受到5d8虚能伤害；或者如果目标生物有科技特征，则会受到2d6持续性酸蚀伤害并陷入故障1。如果重击，伤害翻倍，并且如果目标生物有科技特征，则陷入故障2和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。</p><hr /><p><strong>升阶 （+1）</strong>增加1个伤害骰。</p>"
+        },
+        {
+          "id": "mzzz0nn1fmeOaT4h",
+          "expectedName": "Time's Edge",
+          "name": "时间尖锋",
+          "expectedDescription": "<p>You refract latent energy from the Dimension of Time into your current plane in the form of a massive blade. The blade deals 5d6 slashing damage to all creatures in the area as it causes time to pass rapidly in a thin slice of their bodies. Creatures in the area must attempt a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
+          "description": "<p>你将时间维度上的巨大能量折射入当前位面，化为巨大的刀锋。刀锋对区域内所有生物造成5d6挥砍伤害，这表示刀锋令其身体的一小部分迅速流逝时间。该区域内的生物必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全部伤害并且陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p>\n<p><strong>大失败</strong>目标受到两倍伤害并且陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 2}。</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        {
+          "id": "6bWrWoZfto2OekZL",
+          "expectedName": "Void Whispers",
+          "name": "虚空低语",
+          "expectedDescription": "<p>The target hears ominous sounds containing unspeakable mysteries from beyond the stars that disorient its mind. The target attempts a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The target hears the strange whispers, becoming @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</p>\n<p><strong>Failure</strong> The target begins to wander aimlessly, using each action to Step in a random direction. When it moves, the target takes the safest route and doesn't enter hazardous terrain. The spell has a duration of 1 minute or until a creature uses a hostile action against the target.</p>\n<p><strong>Critical Failure</strong> As failure, except the target babbles incoherently. Any creature that begins its turn within 20 feet of the target must attempt a Will saving throw. On a failure, it must use its first action on its next turn to Step in a random direction and becomes immune to this spell for 24 hours. This is an incapacitation effect.</p>",
+          "description": "<p>目标耳边响起蕴含星辰之外不可名状奥秘的不祥之音，使其神智混乱。目标需要尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>目标听到了诡异的低语，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 1}，持续1轮。</p>\n<p><strong>失败</strong>目标开始漫无目的地游荡，使用每个动作来快步（方向随机）。当其移动时，其会采取最安全的路线并且不会进入有害地形。法术会持续1分钟或者直到目标被敌对动作瞄准。</p>\n<p><strong>大失败</strong>类似失败，除了目标还会语无伦次地喋喋不休。任何在其20尺内开始回合的生物也需要尝试一次意志豁免。在失败时，这些生物也需要在下回合开始时花费第一个动作来进行快步（随机方向），随后临时免疫此法术24小时。这是一个失能效果。</p>"
+        },
+        {
+          "id": "2buBPGvZDVOMvQqm",
+          "expectedName": "Clear Mind",
+          "name": "清神醒脑"
+        },
+        {
+          "id": "KhEehCvFWkNUsWnC",
+          "expectedName": "Dispel Magic",
+          "name": "解除魔法"
+        },
+        {
+          "id": "X5iHg8Zll4YnzLp8",
+          "expectedName": "Sound Body",
+          "name": "身健体康"
+        },
+        {
+          "id": "exZ01IWJakErpVJ7",
+          "expectedName": "Stupefy",
+          "name": "愚者之思"
+        },
+        {
+          "id": "puwoWCb7Q744E5VE",
+          "expectedName": "Translate",
+          "name": "通译语言"
+        },
+        {
+          "id": "A3Y2FTPovc7XL2U7",
+          "expectedName": "Alarm",
+          "name": "警报术"
+        },
+        {
+          "id": "1mfOke63fvDXCb0W",
+          "expectedName": "Daze",
+          "name": "晕眩术"
+        },
+        {
+          "id": "fXCEcjgFFn4OVqdT",
+          "expectedName": "Dizzying Colors",
+          "name": "眩彩喷射"
+        },
+        {
+          "id": "gxtgtIa1xQc6qUsG",
+          "expectedName": "Enfeeble",
+          "name": "衰弱术"
+        },
+        {
+          "id": "cKJ5UvDWBArE3ikq",
+          "expectedName": "Injury Echo",
+          "name": "伤口回响",
+          "expectedDescription": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 1d8, and the persistent damage on a failure increases by 1d4.</p>",
+          "description": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加1d8，豁免失败时的持续伤害增加1d4。</p>"
+        },
+        {
+          "id": "V1I5pKZ1AS22zq30",
+          "expectedName": "Read Aura",
+          "name": "阅读灵光"
+        },
+        {
+          "id": "6ebinvURnGgOn6bA",
+          "expectedName": "Telekinetic Projectile",
+          "name": "念动射弹"
+        },
+        {
+          "id": "NOdqNhIOYL75zyot",
+          "expectedName": "Void Warp",
+          "name": "虚能噬"
+        },
+        {
+          "id": "gHm1mow5bYX8fbSq",
+          "expectedName": "Constant Spells",
+          "name": "常驻法术"
+        }
+      ]
+    },
+    "hlGdpDtynomGpD4P": {
+      "name": "眼泪圣物",
+      "items": [
+        {
+          "id": "C06IaNAHfKxoiLmy",
+          "expectedName": "Fangblade",
+          "name": "链锯剑"
+        },
+        {
+          "id": "9mpub8mOSEXCqNnX",
+          "expectedName": "Semi-Auto Pistol",
+          "name": "半自动手枪"
+        },
+        {
+          "id": "V1KGWwRNMziRXtvL",
+          "expectedName": "Freebooter Armor",
+          "name": "掠夺者护甲"
+        },
+        {
+          "id": "5zAlgjUbToneCUIB",
+          "expectedName": "Fangblade",
+          "name": "链锯剑"
+        },
+        {
+          "id": "BUI6DaIKqPXZdmMw",
+          "expectedName": "Semi-Auto Pistol",
+          "name": "半自动手枪"
+        },
+        {
+          "id": "oK5poyBgkfZc2guG",
+          "expectedName": "Fist",
+          "name": "拳头"
+        },
+        {
+          "id": "2vBtkxbxkRdVoJ2b",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        }
+      ]
+    },
+    "ilRv1Lty4l6vcFEJ": {
+      "items": [
+        {
+          "id": "yssQkqY3gRbOVfEZ",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        }
+      ]
+    },
+    "kkHAbz2iZbL9nztb": {
+      "items": [
+        {
+          "id": "xHojGsCZled1VN9z",
+          "expectedName": "Laser Rifle",
+          "name": "激光步枪"
+        },
+        {
+          "id": "5241QDOZp055quoL",
+          "expectedName": "Semi-Auto Pistol",
+          "name": "半自动手枪"
+        },
+        {
+          "id": "NHfGUkJrAOrBMU7A",
+          "expectedName": "Shock Pad",
+          "name": "电击垫"
+        },
+        {
+          "id": "YbndOMA31skPHXv4",
+          "expectedName": "Second Skin",
+          "name": "第二皮肤"
+        },
+        {
+          "id": "zkPogNE95DvPV3DX",
+          "expectedName": "Laser Rifle",
+          "name": "激光步枪"
+        },
+        {
+          "id": "fgBBEv7OUSRPzpFr",
+          "expectedName": "Semi-Auto Pistol",
+          "name": "半自动手枪"
+        },
+        {
+          "id": "qOoHUOQhmCdiIhEw",
+          "expectedName": "Shock Pad",
+          "name": "电击垫"
+        }
+      ]
+    },
+    "lC5aBmJZD31Gv6kA": {
+      "name": "沙车",
+      "items": [
+        {
+          "id": "UCwR3xXa3KJPVqHC",
+          "expectedName": "Hover",
+          "name": "悬浮"
+        }
+      ]
+    },
+    "m4WJQtfujY5Q0vAE": {
+      "items": [
+        {
+          "id": "7FtBaDDonULsQg3C",
+          "expectedName": "Blindness",
+          "name": "目盲术"
+        },
+        {
+          "id": "lcK8QPs4hXoy5VWC",
+          "expectedName": "Vampiric Feast",
+          "name": "血族盛宴"
+        },
+        {
+          "id": "jYmvZrwJSB48LXtt",
+          "expectedName": "Blazing Bolt",
+          "name": "灼热火矢"
+        },
+        {
+          "id": "uegVZ61iS77rrGWh",
+          "expectedName": "Enlarge",
+          "name": "变巨术"
+        },
+        {
+          "id": "Z7mHQEB7Dzj23bGn",
+          "expectedName": "Stupefy",
+          "name": "愚者之思"
+        },
+        {
+          "id": "MUFPFKGP4vVNz0Ml",
+          "expectedName": "Enfeeble",
+          "name": "衰弱术"
+        },
+        {
+          "id": "NOWRid8eekUIyy5w",
+          "expectedName": "Frostbite",
+          "name": "冻伤术"
+        },
+        {
+          "id": "BTThkl2vm0SMpDlw",
+          "expectedName": "Grim Tendrils",
+          "name": "邪影触须"
+        },
+        {
+          "id": "jzjgLirmIBnZUFs6",
+          "expectedName": "Injury Echo",
+          "name": "伤口回响",
+          "expectedDescription": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 1d8, and the persistent damage on a failure increases by 1d4.</p>",
+          "description": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加1d8，豁免失败时的持续伤害增加1d4。</p>"
+        },
+        {
+          "id": "086t2G55CHbJ9fZQ",
+          "expectedName": "Shield",
+          "name": "护盾术"
+        },
+        {
+          "id": "X53BBoJBaSqYsiju",
+          "expectedName": "Stumble",
+          "name": "跌绊术",
+          "expectedDescription": "<p>A burst of microgravity causes a tremor around the target, pulling it toward the ground. The target must attempt a Reflex save.</p><hr /><p><strong>Failure</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round. If the target was flying, swimming, or floating, it falls 10 feet downward.</p>\n<p><strong>Critical Failure</strong> The target falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. If the target was flying, swimming, or floating, it falls 20 feet downward.</p><hr /><p><strong>Heightened (+1)</strong> If the target falls, it falls an additional 5 feet on a failure and 10 feet on a critical failure.</p>",
+          "description": "<p>一阵微弱重力会在目标周围造成震颤，将其拉向地面。目标尝试反射豁免。</p><hr /><p><strong>失败</strong>目标会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]1轮。如果目标是在飞行、游泳或漂浮，则会向下坠落10尺。</p>\n<p><strong>大失败</strong>目标@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]。如果目标正在飞行、游泳或漂浮，则会向下坠落20尺。</p><hr /><p><strong>升阶（+1） </strong>如果目标在飞行，失败时会额外向下坠落5尺，大失败时会额外向下坠落10尺。</p>"
+        },
+        {
+          "id": "u0CYkKRRzkuBjCpH",
+          "expectedName": "Void Warp",
+          "name": "虚能噬"
+        },
+        {
+          "id": "S7u7vMBTTKBV9IFH",
+          "expectedName": "Laser Pistol",
+          "name": "激光手枪"
+        },
+        {
+          "id": "jS6foDXn51F8cb5T",
+          "expectedName": "Defiance Series",
+          "name": "反抗套装"
+        },
+        {
+          "id": "hCfDnwxq4LubotYs",
+          "expectedName": "Laser Pistol",
+          "name": "激光手枪"
+        },
+        {
+          "id": "j7tU0GnfaO8zuutD",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        }
+      ]
+    },
+    "mIHt20etMrH2hPqJ": {
+      "items": [
+        {
+          "id": "Fn74BbTYa46ber0b",
+          "expectedName": "Arc Rifle",
+          "name": "电弧步枪"
+        },
+        {
+          "id": "Ep4KEfQQDiY9yAHq",
+          "expectedName": "Cryopike",
+          "name": "冻寒长矛"
+        },
+        {
+          "id": "jYmE71D8BbJ5Jane",
+          "expectedName": "Frag Grenade (Advanced)",
+          "name": "先进型破片手雷",
+          "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> @Damage[1d6[bleed]]</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deal 3d8 piercing damage in a @Template[burst|distance:10] with a @Check[reflex|against:class|basic] save.</p>",
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1d6[bleed]]</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deal 3d8 piercing damage in a @Template[burst|distance:10] with a @Check[reflex|against:class|basic] save.</p>"
+        },
+        {
+          "id": "jCtEJTjn3cfWucfS",
+          "expectedName": "Second Skin",
+          "name": "第二皮肤"
+        },
+        {
+          "id": "mQDYhNfvyPwDgMuf",
+          "expectedName": "Functionary's Mask",
+          "name": "官员的面具"
+        },
+        {
+          "id": "tE740b0Y2UUuknwJ",
+          "expectedName": "Frag Grenade (Advanced)",
+          "name": "先进型破片手雷"
+        },
+        {
+          "id": "gMBvpVVyxF30pS13",
+          "expectedName": "Arc Rifle",
+          "name": "电弧步枪"
+        },
+        {
+          "id": "mwCAc1xwBWGbvHs2",
+          "expectedName": "Cryopike",
+          "name": "冻寒长矛"
+        }
+      ]
+    },
+    "mV3dWqSibGVyRwLu": {
+      "items": [
+        {
+          "id": "3j6NsMt7lRbvpOeG",
+          "expectedName": "Trample",
+          "name": "践踏"
+        }
+      ]
+    },
+    "nsQIOoOpAbOLxhGl": {
+      "items": [
+        {
+          "id": "X7IiUbQIfQFYIqKy",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "pqixotYFPLMMmEnU": {
+      "items": [
+        {
+          "id": "ycccToFYC1ySByq2",
+          "expectedName": "Incendiary Grenade (Commercial)",
+          "name": "商用型爆燃手雷",
+          "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> 5 feet</p><hr /><p>These grenades use an ignited chemical to explode in a blast of intense heat and deal 1d8 fire damage with a @Check[reflex|against:class|basic] save (@Template[burst|distance:5]). If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw against incendiary grenades are knocked away from the grenade.</p>",
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>击退5尺</p><hr /><p>These grenades use an ignited chemical to explode in a blast of intense heat and deal 1d8 fire damage with a @Check[reflex|against:class|basic] save (@Template[burst|distance:5]). If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw against incendiary grenades are knocked away from the grenade.</p>"
+        },
+        {
+          "id": "X6aPvQktny6ix8PW",
+          "expectedName": "Pulsecaster Pistol",
+          "name": "脉冲手枪"
+        },
+        {
+          "id": "sPUTNZ8G1TPt1lwC",
+          "expectedName": "Singing Spear",
+          "name": "击音矛"
+        },
+        {
+          "id": "nQW84QFxQboa8cLi",
+          "expectedName": "Armored Coat",
+          "name": "衬甲外套"
+        },
+        {
+          "id": "627QZAikuYP0lnXA",
+          "expectedName": "Singing Spear",
+          "name": "击音矛"
+        },
+        {
+          "id": "3khNQSVz4Sfqp1pC",
+          "expectedName": "Pulsecaster Pistol",
+          "name": "脉冲手枪"
+        },
+        {
+          "id": "SNT5B600jQLSIIvY",
+          "expectedName": "Incendiary Grenade",
+          "name": "爆燃手雷"
+        }
+      ]
+    },
+    "qfdfi0hQZNxKgomJ": {
+      "items": [
+        {
+          "id": "BKbgt5Izmrq1FRtH",
+          "expectedName": "Breathe Fire",
+          "name": "燃烧之息"
+        },
+        {
+          "id": "wT5xGL3IeuE9ZlLv",
+          "expectedName": "Caustic Blast",
+          "name": "酸液喷溅"
+        },
+        {
+          "id": "VGc5CXDQnPPC9GJy",
+          "expectedName": "Electric Arc",
+          "name": "电弧击"
+        },
+        {
+          "id": "NDxk3Wu8AsfLA6fG",
+          "expectedName": "Grease",
+          "name": "油腻术"
+        },
+        {
+          "id": "etedeBZDSNocNSP8",
+          "expectedName": "Shield",
+          "name": "护盾术"
+        },
+        {
+          "id": "ExtH7fDLwWrrhjHJ",
+          "expectedName": "Tangle Vine",
+          "name": "绊足藤"
+        },
+        {
+          "id": "jB8gBxcs569wC4v5",
+          "expectedName": "Laser Pistol",
+          "name": "激光手枪"
+        },
+        {
+          "id": "fv4azFzDkxJXZgJg",
+          "expectedName": "Microcord Armor",
+          "name": "微纤护甲"
+        },
+        {
+          "id": "R3YWuUZqj9F6NCqi",
+          "expectedName": "Laser Pistol",
+          "name": "激光手枪"
+        },
+        {
+          "id": "Moga6A0S9DerLsrk",
+          "expectedName": "Reach Spell",
+          "name": "及远法术"
+        }
+      ]
+    },
+    "uDXp1amRSKObcGj1": {
+      "items": [
+        {
+          "id": "27aHZPicdOIGcP5r",
+          "expectedName": "Knife",
+          "name": "短刀"
+        },
+        {
+          "id": "tzIwvo1nTgzjlBkH",
+          "expectedName": "Laser Rifle",
+          "name": "激光步枪"
+        },
+        {
+          "id": "lM8nHPkYb4fE0mbO",
+          "expectedName": "Skyfire Armor",
+          "name": "天火护甲"
+        },
+        {
+          "id": "R1BzI3RQuNSA38eW",
+          "expectedName": "Laser Rifle",
+          "name": "激光步枪"
+        },
+        {
+          "id": "vh76Sm2PHdPquJJ4",
+          "expectedName": "Knife",
+          "name": "短刀"
+        },
+        {
+          "id": "QRfr1vJeZEHGl8cQ",
+          "expectedName": "Knife",
+          "name": "短刀"
+        }
+      ]
+    },
+    "vRPjDT1NWrzZ53rl": {
+      "items": [
+        {
+          "id": "TSPMNQ9pWyhdjVYF",
+          "expectedName": "Degradation Grenade (Commercial)",
+          "name": "商用型衰退手雷",
+          "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> @Damage[1[persistent,acid]] damage</p><hr /><p>Degradation grenades create violent blasts of magic that rip matter into different realities, leaving behind blackened hunks of matter that dissipate into nothingness. When the grenade explodes, it deals 1d8 acid damage in a @Template[burst|distance:5] with a @Check[reflex|against:class|basic] save.</p>",
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1[persistent,acid]]伤害</p><hr /><p>Degradation grenades create violent blasts of magic that rip matter into different realities, leaving behind blackened hunks of matter that dissipate into nothingness. When the grenade explodes, it deals 1d8 acid damage in a @Template[burst|distance:5] with a @Check[reflex|against:class|basic] save.</p>"
+        },
+        {
+          "id": "vTu7ETaPBxKAm9CU",
+          "expectedName": "Hammer",
+          "name": "锤子"
+        },
+        {
+          "id": "C3hg9fSs1a0wKT9I",
+          "expectedName": "Laser Rifle",
+          "name": "激光步枪"
+        },
+        {
+          "id": "nLC1rZmlM6hJJgwc",
+          "expectedName": "Armored Coat",
+          "name": "衬甲外套"
+        },
+        {
+          "id": "dLkdwvdMfgfjua7k",
+          "expectedName": "Medpatch (Commercial)",
+          "name": "商用型医疗贴片"
+        },
+        {
+          "id": "e88IyfBeTv4CoE5U",
+          "expectedName": "Degradation Grenade (Commercial)",
+          "name": "商用型衰退手雷"
+        },
+        {
+          "id": "m9E7gB5NVfsrPeRH",
+          "expectedName": "Hammer",
+          "name": "锤子"
+        },
+        {
+          "id": "CLWhynkMTipwvJA3",
+          "expectedName": "Laser Rifle",
+          "name": "激光步枪"
+        }
+      ]
+    },
+    "vs2a0zM7cH4sdsii": {
+      "items": [
+        {
+          "id": "gAXYrk7OjgqO5bYH",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        }
+      ]
+    },
+    "wOfIPn7lK7Cv641K": {
+      "items": [
+        {
+          "id": "vHsLH7FVNJVQbUbW",
+          "expectedName": "Baton",
+          "name": "警棍"
+        },
+        {
+          "id": "dJKSRqPQ6ZVIqsdx",
+          "expectedName": "Pulsecaster Pistol",
+          "name": "脉冲手枪"
+        },
+        {
+          "id": "EdjvtcVPMk5CArxG",
+          "expectedName": "Armored Coat",
+          "name": "衬甲外套"
+        },
+        {
+          "id": "EI6Gs6wGgNuxu9zh",
+          "expectedName": "Pulsecaster Pistol",
+          "name": "脉冲手枪"
+        },
+        {
+          "id": "mNuAFbXjp5RDhbkD",
+          "expectedName": "Baton",
+          "name": "警棍"
+        }
+      ]
+    },
+    "wbsGRFPjCKeFzAxS": {
+      "items": [
+        {
+          "id": "1s9NjuHM201dAFYy",
+          "expectedName": "Zero Pistol",
+          "name": "零度手枪"
+        },
+        {
+          "id": "aojaeIlxKNjVWQ8W",
+          "expectedName": "Phase Cutlass",
+          "name": "相位弯刀"
+        },
+        {
+          "id": "4byKaSaDswrxwtOx",
+          "expectedName": "Freebooter Armor",
+          "name": "掠夺者护甲"
+        },
+        {
+          "id": "2kDxIl4Ds5nGDwiI",
+          "expectedName": "phase cutlass",
+          "name": "相位弯刀"
+        },
+        {
+          "id": "XhMyIhbe99xqhaSr",
+          "expectedName": "zero pistol",
+          "name": "零度手枪"
+        }
+      ]
+    }
+  }
+}

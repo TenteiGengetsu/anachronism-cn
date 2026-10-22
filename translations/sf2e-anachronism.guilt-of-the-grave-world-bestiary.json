@@ -1,0 +1,792 @@
+{
+  "label": "墓界之恶",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    },
+    "items": {
+      "path": "items",
+      "converter": "sf2eAnachronismCnItems"
+    },
+    "publicNotes": "system.details.publicNotes"
+  },
+  "entries": {
+    "6r1fVn61okoxeQ1Q": {
+      "items": [
+        {
+          "id": "5kz2i7QRj2z4mUP0",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        }
+      ]
+    },
+    "Bof81QpbW3jmHZYc": {
+      "items": [
+        {
+          "id": "dqPWx3WyZda5j2Yt",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        }
+      ]
+    },
+    "Bv8sq5fogXIQcehn": {
+      "name": "魅影杰夫",
+      "items": [
+        {
+          "id": "KJXoKvaGMYTvEdHf",
+          "expectedName": "Ghostly Form",
+          "name": "幽灵形态",
+          "expectedDescription": "<p>A phantom gef is always @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}. When a phantom gef takes area damage, it's no longer concealed until the beginning of its next turn.</p>",
+          "description": "<p>魅影杰夫永远处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]状态。当一只魅影杰夫受到区域伤害时，它不再隐蔽，持续到它的下个回合开始。</p>"
+        },
+        {
+          "id": "FezqBZErkokw1xsU",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        },
+        {
+          "id": "Ouk0kscWIf9OLJLH",
+          "expectedName": "Tug-of-War",
+          "name": "拔河比赛"
+        },
+        {
+          "id": "fqpdlOzFnqV3662o",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "HOgqslwrHCeXlYp8": {
+      "name": "冻骸",
+      "publicNotes": "<p>冻骸是为了尸骸舰队中队在深空中登舰作战而设计的字面意义上的“炮”灰。古冢臭名昭著的研发部门将重伤士兵的残骸回收利用，嫁接到动力装甲中制造出这些不生武器。冻骸既是弹药也是突击队员，他们既能轰穿舰体或砸向行星地表——并在冲击中持续作战而不解体。</p><h2>Forging a Rigor Mortic</h2><p>Rigor mortics are built from chunks of soldiers left behind on the battlefield, grafted into heavy armor and reanimated by necromagitech. Some rigor mortics are forged from the corpses of Corpse Fleet heroes whose bodies are too broken to continue fighting, but most are amalgams of Corpse Fleet survivors, dead enemies, and living conscripts cruelly forced to endure this fate. Once a collection of parts is grafted permanently into a suit of armor, the final step is coating the rigor mortic in a shell of supernatural ice, turning them into projectiles that can be fired from starship cannons in squads of two to four per shot. These \"rigor mortars,\" as they've been nicknamed by some fleet captains, are stored in cryohangars until the moment they're loaded into a cannon. The ice melts away during the rigor mortic's flight, releasing the thawed undead from their shell.</p>",
+      "items": [
+        {
+          "id": "BMajOEk7NXxGvGBR",
+          "expectedName": "Breaching Strikes",
+          "name": "突破打击",
+          "expectedDescription": "<p>A rigor mortic's melee Strikes treats the Hardness of all other creatures and objects as though they were 5 less than their normal value.</p>",
+          "description": "<p>冻骸的近战打击将所有其他生物和物体的硬度视作比实际值少5点。</p>"
+        },
+        {
+          "id": "6nIc7nKaRlKFn05X",
+          "expectedName": "Cocoon Projectile",
+          "name": "茧状弹体",
+          "expectedDescription": "<p>A fully-encased rigor mortic can be fired from a starship weapon into another vehicle or from a starship onto the ground. When delivered onto a battlefield in this fashion, the rigor mortic ignores all falling damage even if they're dropped from orbit. For 1 hour after a drop, a rigor mortic rolls initiative with a –2 penalty and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} for the first round of combat.</p>",
+          "description": "<p>全封闭的冻骸可由星舰武器发射至其他载具，或从星舰投射至地面。当以这种方式投放至战场时，冻骸可完全无视坠落伤害，哪怕它们从轨道投放。投放后1小时内，冻骸进行先攻检定时承受-2减值，并在战斗的第一轮中处于@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。</p>"
+        },
+        {
+          "id": "uKNj8g2zSmtO9ncl",
+          "expectedName": "Construct Armor",
+          "name": "构装盾牌"
+        },
+        {
+          "id": "c3a8OeEbmB2NhX7s",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        }
+      ]
+    },
+    "JWj8jwhBc13XUgrP": {
+      "items": [
+        {
+          "id": "jbU2k4x1uErjWMtM",
+          "expectedName": "Seeker Rifle",
+          "name": "追猎者步枪"
+        }
+      ]
+    },
+    "KiYitJyREH4Zjmd8": {
+      "items": [
+        {
+          "id": "Ue3A6YrTZKiGb6dz",
+          "expectedName": "Reaction Breacher",
+          "name": "破障反冲炮"
+        },
+        {
+          "id": "3C30fMkRGGD1UAg5",
+          "expectedName": "Vertebralis Thorn",
+          "name": "脊刺",
+          "expectedDescription": "<p><strong>Upgrades</strong> 1</p><hr /><p>The vertebralis thorn is a weapon forged in the Corpse Fleet armory, repurposed from the spinal columns of slain enemies and fitted with specialized fiber-optic cables. Corpse Fleet officers favor this weapon, primarily because a ceremonial version is presented to them after their first major conquest, generally created from the spine of a creature they personally killed.</p>",
+          "description": "<p><strong>强化模块</strong> 1</p><hr /><p>The vertebralis thorn is a weapon forged in the Corpse Fleet armory, repurposed from the spinal columns of slain enemies and fitted with specialized fiber-optic cables. Corpse Fleet officers favor this weapon, primarily because a ceremonial version is presented to them after their first major conquest, generally created from the spine of a creature they personally killed.</p>"
+        },
+        {
+          "id": "lWzWPYKRwebYkcNU",
+          "expectedName": "Defrex Hide",
+          "name": "裂爪兽革甲"
+        },
+        {
+          "id": "DJp6ByTuoViiPVbX",
+          "expectedName": "Vertebralis Thorn",
+          "name": "脊刺"
+        },
+        {
+          "id": "Y9tvsW8ac6HcOVQl",
+          "expectedName": "Reaction Breacher",
+          "name": "破障反冲炮"
+        },
+        {
+          "id": "2NtBaBFAkKek8Jhn",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        }
+      ]
+    },
+    "LAIUEywNsyyCMRg4": {
+      "items": [
+        {
+          "id": "KNmmWyfntgZbpRnn",
+          "expectedName": "Auto-Fire",
+          "name": "自动射击"
+        }
+      ]
+    },
+    "Mc2pC10GG2z13rOU": {
+      "name": "无脸灵",
+      "items": [
+        {
+          "id": "UL7kvMqQrgI2TElq",
+          "expectedName": "Deadly Vitality",
+          "name": "致命生机",
+          "expectedDescription": "<p>You reach out across the strands of the universe and strangle the root of life that might flow into a living creature, cursing them to suffer for every bit of vitality they recover. If the target creature would receive any form of healing while under the effects of this spell, they afterward take damage from <em>deadly vitality</em>, potentially canceling out any healing they might have just received. This damage is dependent on the results of the creature's saving throw, made when the spell is first cast.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes an amount of void damage equal to half the amount of healing they just received (rounded down), to a maximum of 5 damage.</p>\n<p><strong>Failure</strong> The creature takes an amount of void damage equal to the amount of healing they just received, to a maximum of 10 damage.</p>\n<p><strong>Critical Failure</strong> The creatures takes an amount of void damage equal to the amount of healing they just received, to a maximum of 20 damage.</p><hr /><p><strong>Heightened (+2)</strong> Increase the amount of damage dealt by this spell's success condition by 5, its failure condition by 10, and its critical failure condition by 20.</p>",
+          "description": "<p>You reach out across the strands of the universe and strangle the root of life that might flow into a living creature, cursing them to suffer for every bit of vitality they recover. If the target creature would receive any form of healing while under the effects of this spell, they afterward take damage from <em>deadly vitality</em>, potentially canceling out any healing they might have just received. This damage is dependent on the results of the creature's saving throw, made when the spell is first cast.</p><hr /><p><strong>大成功</strong>生物不受影响。</p>\n<p><strong>成功</strong>生物受到等同于刚接受的治疗量一半（向下取整）的虚能伤害，至多到5点伤害。</p>\n<p><strong>失败</strong>生物受到等同于刚接受的治疗量的虚能伤害，至多到10点伤害。</p>\n<p><strong>大失败</strong>生物受到等同于刚接受的治疗量的虚能伤害，至多到20点伤害。</p><hr /><p><strong>升阶（+2）</strong>此法术成功时造成的伤害值增加5点，失败时增加10点，大失败时增加20点。</p>"
+        },
+        {
+          "id": "0GjE24VrtcefA0jU",
+          "expectedName": "Detect Thoughts",
+          "name": "侦测思想",
+          "expectedDescription": "<p>You sense the presence of thinking creatures around you. You detect the presence or absence of thoughts from conscious creatures that have Intelligence modifiers of –3 or higher. You can choose to ignore the thoughts of creatures you're familiar with so they don't interfere with your detection of other thoughts. The spell can penetrate some barriers, but 3 feet of dirt or wood, 1 foot of stone, 1 inch of metal, a thin sheet of lead, or any force barrier blocks it. Creatures who are immune to mental effects are immune to detection by this spell.</p><hr /><p><strong>Heightened (4th)</strong> You detect the number of thinking minds and whether or not the creatures are telepathic. Creatures with telepathy have louder thoughts than creatures who don't have telepathy and might be able to sense your intrusion, at the GM's discretion.</p>",
+          "description": "<p>你能感知周围生物的想法。你可以侦测周围是否存在智力调整值不低于-3的清醒生物的思维。可选择忽略熟悉生物的思维，避免干扰其他目标的侦测。该法术可以穿透一些障碍，但3尺的泥土或木头、1尺的石头、1英寸的金属、薄薄的铅片或任何立场障碍都会阻挡它。对心灵效果免疫的生物对该法术的侦测免疫。</p><hr /><p><strong>升阶（4环）</strong>你可侦测范围内存在思维活动的意识体数量，并判断其是否具备心灵感应能力。拥有心灵感应能力的生物思维波动更强，普通生物思维信号较弱且无反馈，具体由GM裁定。</p>"
+        },
+        {
+          "id": "TxmQFxZ6uRsJwthg",
+          "expectedName": "Twisted Vision",
+          "name": "扭曲视觉",
+          "expectedDescription": "<p>You blur a creature's senses, preventing them from recognizing their own allies in the heat of battle. This spell was developed by the Corpse Fleet to target living mystics and envoys who might heal or coordinate the actions of living enemies standing against their dread fleets. How badly this debilitates the target depends on the result of its saving throw.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the end of its next turn, but only for purposes of targeting their allies with beneficial effects or abilities.</p>\n<p><strong>Failure</strong> The creature treats all of its allies as though they were undetected for purposes of targeting their allies with beneficial effects, abilities, or tactical movement. If the creature succeeds at the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action against this spell's save DC, they can treat their allies as hidden for the duration of the spell.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature cannot attempt to use the Seek action to find their allies while this spell is sustained.</p>",
+          "description": "<p>你模糊生物的感官，使其在激战中无法辨认己方盟友。此法术由尸骸舰队研发，专用于针对活着的秘术师与使节——这些存在可能为对抗其恐怖舰队的活体敌人提供治疗或协调行动。法术对目标的削弱程度取决于其豁免骰结果。</p><hr /><p><strong>大成功</strong>生物不受影响。</p>\n<p><strong>成功</strong>生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]直到其下个回合结束，但仅限于其以其盟友为目标使用的增益效果或能力。</p>\n<p><strong>失败</strong>生物以其盟友为目标使用的增益效果，能力，或战术移动时，会将其所有盟友视作无踪。如果该生物在@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]动作中成功对抗此法术的豁免DC，那么在法术持续期间他可以将盟友视作藏匿。</p>\n<p><strong>大失败</strong>同失败，但该生物在法术维持期间内不能尝试使用搜索动作来找到盟友。</p>"
+        },
+        {
+          "id": "rED6ynvMcprv8aWF",
+          "expectedName": "Eldritch Lance",
+          "name": "诡枪术",
+          "expectedDescription": "<p>You condense a beam of mind-assaulting eldritch energy from the dark spaces between the stars and fire it at a target. Make a ranged spell attack roll against the target's AC. If you hit, you deal 2d6 mental damage. On a critical success, you deal double damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>",
+          "description": "<p>你自星辰之间的幽深领域凝聚一束袭魂慑魄的怪异能量攻击目标。尝试一次远程法术攻击骰对抗目标的AC，如果命中，你造成2d6心灵伤害，在大成功时造成双倍伤害。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6。</p>"
+        },
+        {
+          "id": "QvEAMZzfzhP75UnC",
+          "expectedName": "Injury Echo",
+          "name": "伤口回响",
+          "expectedDescription": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 1d8, and the persistent damage on a failure increases by 1d4.</p>",
+          "description": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加1d8，豁免失败时的持续伤害增加1d4。</p>"
+        },
+        {
+          "id": "D7u3IvrKdSEgPgYy",
+          "expectedName": "Mind Skewer",
+          "name": "心灵穿刺",
+          "expectedDescription": "<p>You overload a creature's mind with a glut of psychic information or divine judgments. The mental onslaught deals 2d6 mental damage. On a critical failure, the target is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
+          "description": "<p>你可以用大量的精神信息或神圣审判使一个生物的精神超负荷。心灵冲击会造成2d6心灵伤害。在重击时，目标还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2}，持续1轮。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加 2d6。</p>"
+        },
+        {
+          "id": "6Yssni0xL3AaBbJo",
+          "expectedName": "Sonic Scream",
+          "name": "音波尖啸",
+          "expectedDescription": "<p>You unleash a painfully rapid cone of vibrations by letting out a cathartic scream, dealing 1d8 sonic damage to creatures in the area with a basic Fortitude save. A creature that fails its saving throw also becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><hr /><p><strong>Heightened (+1)</strong> Increases the damage by 1d8.</p>",
+          "description": "<p>你发出一声宣泄性的痛苦尖啸，释放锥形的振动波，对区域内的生物造成1d8音波伤害，这具有基础强韧豁免。豁免失败的生物获得@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d8</p>"
+        },
+        {
+          "id": "etwtOXlvtXhBkoQj",
+          "expectedName": "Void Warp",
+          "name": "虚能噬"
+        },
+        {
+          "id": "vX7eFGDIBtQg4BwU",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        },
+        {
+          "id": "KFas7auQFCPaHX8n",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "QgcpbGsOgx3Vh8iV": {
+      "items": [
+        {
+          "id": "VzsbKWB5NBkOxz1a",
+          "expectedName": "Constant Spells",
+          "name": "常驻法术"
+        }
+      ]
+    },
+    "T3m2zy7JAl8boymY": {
+      "items": [
+        {
+          "id": "dbynQ5aPTMFZD7oL",
+          "expectedName": "Skyfire Wings",
+          "name": "天火之翼",
+          "expectedDescription": "<p>Wings of plasma grow from your body that propel you to soar high above your enemies, or scorch them for getting too close. You gain a fly Speed equal to your Speed or 20 feet, whichever is greater. Your arms (or primary set of arms) turn into wings that can't hold items or wield weapons. You drop any held equipment in those arms. You gain a wing unarmed attack that deals 1d8 fire damage and has the backswing, reach, and unarmed traits. On a critical hit, a target of your wing attack takes 2 persistent electricity damage.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.kT8REROKKaXF2QK1]</p><hr /><p><strong>Heightened (5th)</strong> Your wings deal 2d8 fire damage and 4 persistent electricity damage on a critical hit. The duration increases to 5 minutes.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.IHIQ7PcirTwjJQev]</p>\n<p><strong>Heightened (7th)</strong> Your wings deal 3d8 fire damage and 6 persistent electricity damage on a critical hit. The duration increases to 1 hour.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.9DZ8819QPDnxcnFw]</p>\n<p><strong>Heightened (9th)</strong> Your wings deal 4d8 fire damage and 8 persistent electricity damage on a critical hit. The duration increases to 8 hours.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.sElqtOTF8X0LUcnZ]</p>",
+          "description": "<p>等离子体之翼从你的身体中长出，推动你在敌人头顶翱翔，烧灼过于靠近的敌人。你获得飞行速度，等于你的速度或20尺，以较大者为准。你的双臂（或主要的双手）会变成翅膀，无法手持物品或持用武器。你会丢弃手持的任何装备。你会获得翼击无武装攻击，造成1d8火焰伤害，并具有回摆、长触及和无武装特征。如果重击，翼击目标会受到2点持续电击伤害。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.kT8REROKKaXF2QK1]</p><hr /><p><strong>升阶（5环）</strong>你的翼击会造成2d8火焰伤害和重击时4持续电击伤害。持续时间延长至5分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.IHIQ7PcirTwjJQev]</p>\n<p><strong>升阶（7环）</strong>你的翼击会造成3d8火焰伤害和重击时6持续电击伤害。持续时间延长至1小时。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.9DZ8819QPDnxcnFw]</p>\n<p><strong>升阶（9环）</strong>你的翼击会造成4d8火焰伤害和重击时8持续电击伤害。持续时间延长至8小时。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.sElqtOTF8X0LUcnZ]</p>"
+        },
+        {
+          "id": "XRcgvBWR4ub8b26M",
+          "expectedName": "Caustic Conversion",
+          "name": "腐蚀转化",
+          "expectedDescription": "<p>You launch a torrent of magical nanites that begin dissolving your target. Make a ranged spell attack against the target. On a hit, you deal 3d8 acid damage plus 1d6 persistent acid damage. On a critical hit, double the initial damage, but not the persistent damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 2d8, and the persistent acid damage increases by 1d6.</p>",
+          "description": "<p>你发射出一股魔法纳米粒子，开始溶解你的目标。对目标进行远程法术攻击检定。命中时，你会造成3d8酸蚀伤害加1d6持续酸蚀伤害。如果大成功，初始伤害加倍，但持续伤害不加倍。</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加2d8，持续酸蚀伤害增加1d6。</p>"
+        },
+        {
+          "id": "yK6FxRmwpEClWmh9",
+          "expectedName": "Liquid Siphon",
+          "name": "液体虹吸",
+          "expectedDescription": "<p>You drain the moisture out of your target, crumpling them up like an empty beverage can and potentially leaving them a desiccated husk of what they once were. A nonliving target with liquid in its body (such as a vampire, water elemental, or keg of alcohol) can be affected by this spell, but a living creature with no vital liquids is immune. The target creature takes 4d6 bludgeoning damage, depending on the results of its saving throw.</p>\n<p>A target that fails its saving throw creates water that flows into your hands or a held container (1 gallon for Tiny, 2 gallons for Small, 4 for Medium, 6 for Large, 8 for Huge). If the target critically fails its saving throw, double this amount.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p>\n<p><strong>Critical Failure</strong> As failure, but double damage and the target is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}.</p><hr /><p><strong>Heightened (+1)</strong> Increase the damage by 2d6.</p>",
+          "description": "<p>You drain the moisture out of your target, crumpling them up like an empty beverage can and potentially leaving them a desiccated husk of what they once were. A nonliving target with liquid in its body (such as a vampire, water elemental, or keg of alcohol) can be affected by this spell, but a living creature with no vital liquids is immune. The target creature takes 4d6 bludgeoning damage, depending on the results of its saving throw.</p>\n<p>A target that fails its saving throw creates water that flows into your hands or a held container (1 gallon for Tiny, 2 gallons for Small, 4 for Medium, 6 for Large, 8 for Huge). If the target critically fails its saving throw, double this amount.</p><hr /><p><strong>大成功</strong>生物不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全额伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 1}。</p>\n<p><strong>大失败</strong>同失败，但目标受到双倍伤害且陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 2}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
+        },
+        {
+          "id": "SC0eqLtx9eEMcadH",
+          "expectedName": "Adhere",
+          "name": "附着术"
+        },
+        {
+          "id": "wIxJa34fJq43ImXR",
+          "expectedName": "Cellular Stimulant",
+          "name": "刺激细胞",
+          "expectedDescription": "<p>You vitalize and stimulate the target at a cellular level, giving it a temporary burst of energy that unfortunately takes an exhausting toll. The target gains the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} condition and can use the extra action to Stride or Strike. After that round ends, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} until it can rest for 10 minutes.</p><hr /><p><strong>Heightened (6th)</strong> You can target up to six creatures by using 2 actions to Cast this Spell.</p>",
+          "description": "<p>你从细胞层面激发目标的活力，使其获得短暂的能量爆发，但不幸的是，这将使其精疲力竭。目标获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]状态，并可以使用额外的行动行走或打击。该轮结束后，目标会变得@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]，直到休息10分钟。</p><hr /><p><strong>Heightened (6th)</strong> You can target up to six creatures by using 2 actions to Cast this Spell.</p>"
+        },
+        {
+          "id": "dqTWxJTxyWekjOlF",
+          "expectedName": "Chill Gaze",
+          "name": "冻寒凝视",
+          "expectedDescription": "<p>Your eyes turn an icy blue color as the temperature in the area drops. Your cold, hard gaze literally chills the air around your foe's body, making it harder for them to move. When you cast chill gaze, choose clumsy or enfeebled. Your foe takes effects depending on your choice, based on the result of its saving throw.</p><hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (depending on your choice) for the duration of the spell.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}.</p><hr /><p><strong>Heightened (4th)</strong> You can target up to five creatures.</p>\n<p><strong>Heightened (7th)</strong> You can target up to ten creatures.</p>",
+          "description": "<p>随着你的双眼化作冰蓝之色，区域温度骤降。你那冰冷而坚毅的凝视令敌人周身寒气凝结，使其行动迟滞。当你施放冻寒凝视时，选择笨拙或力竭。你的敌人基于其豁免检定结果，根据你的选择承受效果。</p><hr /><p><strong>成功</strong>生物不受影响。</p>\n<p><strong>失败</strong>生物在法术持续时间内陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}（根据你的选择）。</p>\n<p><strong>大失败</strong>同失败，但目标为@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}。</p><hr /><p><strong>Heightened (4th)</strong> You can target up to five creatures.</p>\n<p><strong>Heightened (7th)</strong> You can target up to ten creatures.</p>"
+        },
+        {
+          "id": "8L917LZDjX0cG8Vx",
+          "expectedName": "Electric Arc",
+          "name": "电弧击"
+        },
+        {
+          "id": "nCcMP6Q2rBQXi3vO",
+          "expectedName": "Glow Up",
+          "name": "焕发光彩",
+          "expectedDescription": "<p>You create an illusion that causes the target to appear more charming and genteel to observers. The spell accentuates the target's appearance, clothing, voice, and mannerisms according to what an observer finds appealing. Held items are unaffected, and any worn item removed from the creature returns to its true appearance.</p>\n<p>The target gains a +1 status bonus to Diplomacy checks to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} and lets the target add its level to Diplomacy checks if untrained. In addition, the target can attempt a Diplomacy check to Gather Information in only 10 minutes. You can Dismiss this spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.hOp5ybOzyJlECU6B]</p><hr /><p><strong>Heightened (+2)</strong> The bonus increases by 1, to a maximum of +4 at 7th rank.</p>",
+          "description": "<p>你制造一种幻象，使目标在观察者面前显得更加迷人和优雅。该法术会根据观察者认为吸引人的地方来突出目标的外表、衣着、声音和举止。手持物品不受影响，从生物身上取下的任何穿戴物品都会恢复原貌。</p>\n<p>目标在进行@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]的交涉检定中获得+1状态加值，如果目标未受训，则可以在进行交涉检定时加上其等级。此外，目标还可以只花10分钟尝试交涉检定进行收集信息。你可以解消此法术。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.hOp5ybOzyJlECU6B]</p><hr /><p><strong>升阶（+2）</strong>加值提升1，最多在7环时提升至+4。</p>"
+        },
+        {
+          "id": "JPZnIO8PyutpbASB",
+          "expectedName": "Ignition",
+          "name": "引火术"
+        },
+        {
+          "id": "28hAektxW9UJqxC1",
+          "expectedName": "Sonic Scream",
+          "name": "音波尖啸",
+          "expectedDescription": "<p>You unleash a painfully rapid cone of vibrations by letting out a cathartic scream, dealing 1d8 sonic damage to creatures in the area with a basic Fortitude save. A creature that fails its saving throw also becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><hr /><p><strong>Heightened (+1)</strong> Increases the damage by 1d8.</p>",
+          "description": "<p>你发出一声宣泄性的痛苦尖啸，释放锥形的振动波，对区域内的生物造成1d8音波伤害，这具有基础强韧豁免。豁免失败的生物获得@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d8</p>"
+        },
+        {
+          "id": "1ZE1VERjj1eAmKQT",
+          "expectedName": "Stumble",
+          "name": "跌绊术",
+          "expectedDescription": "<p>A burst of microgravity causes a tremor around the target, pulling it toward the ground. The target must attempt a Reflex save.</p><hr /><p><strong>Failure</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round. If the target was flying, swimming, or floating, it falls 10 feet downward.</p>\n<p><strong>Critical Failure</strong> The target falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. If the target was flying, swimming, or floating, it falls 20 feet downward.</p><hr /><p><strong>Heightened (+1)</strong> If the target falls, it falls an additional 5 feet on a failure and 10 feet on a critical failure.</p>",
+          "description": "<p>一阵微弱重力会在目标周围造成震颤，将其拉向地面。目标尝试反射豁免。</p><hr /><p><strong>失败</strong>目标会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]1轮。如果目标是在飞行、游泳或漂浮，则会向下坠落10尺。</p>\n<p><strong>大失败</strong>目标@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]。如果目标正在飞行、游泳或漂浮，则会向下坠落20尺。</p><hr /><p><strong>升阶（+1） </strong>如果目标在飞行，失败时会额外向下坠落5尺，大失败时会额外向下坠落10尺。</p>"
+        },
+        {
+          "id": "RxkFmeMFXdoxjoB7",
+          "expectedName": "Fire Shield",
+          "name": "火焰护盾"
+        },
+        {
+          "id": "Gc28NcOLvC5m0KBB",
+          "expectedName": "Shield Block",
+          "name": "盾牌格挡"
+        },
+        {
+          "id": "bzTCkklRROHIWKwE",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        },
+        {
+          "id": "L5iyJ7YedXaz7vc1",
+          "expectedName": "Fire Shield",
+          "name": "火焰护盾"
+        }
+      ]
+    },
+    "T9uucuCG6UFWZLOB": {
+      "name": "木乃伊黄蜂群",
+      "items": [
+        {
+          "id": "rzmjaCKDmulmMfss",
+          "expectedName": "Mummy Storm",
+          "name": "木乃伊风暴"
+        },
+        {
+          "id": "IjpxnAgLYVXLKmDu",
+          "expectedName": "Rejuvenation",
+          "name": "复生"
+        },
+        {
+          "id": "Z1ZpQPwm1120YgcJ",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        },
+        {
+          "id": "EoFbZoI2qigSRNk0",
+          "expectedName": "Unliving Stings",
+          "name": "不生蜇刺"
+        }
+      ]
+    },
+    "UuRslEeJPQaLc1Fq": {
+      "items": [
+        {
+          "id": "zvAwmy5L5EwTErPr",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        },
+        {
+          "id": "8tmInLQ4gCDOwlds",
+          "expectedName": "Trample",
+          "name": "践踏"
+        }
+      ]
+    },
+    "WOH7D2wZcemQrT8V": {
+      "name": "丧",
+      "items": [
+        {
+          "id": "ZY0FCu5kK9oww9Ct",
+          "expectedName": "New Game",
+          "name": "开始游戏",
+          "expectedDescription": "<p>You draw creatures into a vidgame, digitizing their bodies and minds, including equipment, to play in virtual reality. The genre of the game and effect of the spell depend on who you target when you cast it. Any creature targeted by this spell becomes immune to it for 24 hours, no matter what genre they experience.</p><ul><li>If you cast the spell targeting yourself and any number of willing allies, the targets enter a relaxing slice-of-life social simulation game where they can perform up to 1 hour of activities for the duration of the spell, including Refocusing, Repairing items, or simply evading an enemy by hiding in this virtual extradimensional space.</li><li>If you cast this spell targeting yourself or one willing ally, and one enemy, the targets enter a PvP game and are instructed to fight, using their current initiative. For the duration of the spell, either creature can manipulate fate once on each of its turns. This allows it to either roll twice and take the higher result on an attack roll or skill check it attempts against its opponent (a fortune effect) or force the opponent to roll twice on a saving throw against one of its abilities and take the lower result (a misfortune effect). The GM might decide that other genres of games exist that add additional rules or subsystems to resolving the spell. The spell ends if either target becomes unable to act or if they both agree to cease hostilities. Any results of the game, such as damage or conditions, persist after the game is over. If a player dies in this game, they die in real life.</li><li>If you cast this spell targeting one enemy, the target enters a PvE or puzzle game that traps them until they can complete the game. Once each turn, the target can spend 1 action to attempt a Computers or Perception check against your spell DC to escape the game. Teleportation magic doesn't help the creature escape unless the magic can transport someone into or out of a virtual space. When the spell ends, either because the target escaped or the duration ran out, the target returns to the space it occupied when it was digitized, or to the nearest space if the original is now filled. The GM might decide that other genres of games allow for different skill checks but should only do so if the target has proficiency in the listed skill.</li></ul><hr /><p><strong>Critical Success</strong> The target completes the game and the spell ends.</p>\n<p><strong>Success</strong> The target makes progress toward completing the game. If the target already made progress, it completes the game and the spell ends.</p>\n<p><strong>Failure</strong> The target makes no progress toward completing the game.</p>\n<p><strong>Critical Failure</strong> The target loses the game and has to start over. It loses all progress it made.</p>",
+          "description": "<p>You draw creatures into a vidgame, digitizing their bodies and minds, including equipment, to play in virtual reality. The genre of the game and effect of the spell depend on who you target when you cast it. Any creature targeted by this spell becomes immune to it for 24 hours, no matter what genre they experience.</p><ul><li>If you cast the spell targeting yourself and any number of willing allies, the targets enter a relaxing slice-of-life social simulation game where they can perform up to 1 hour of activities for the duration of the spell, including Refocusing, Repairing items, or simply evading an enemy by hiding in this virtual extradimensional space.</li><li>If you cast this spell targeting yourself or one willing ally, and one enemy, the targets enter a PvP game and are instructed to fight, using their current initiative. For the duration of the spell, either creature can manipulate fate once on each of its turns. This allows it to either roll twice and take the higher result on an attack roll or skill check it attempts against its opponent (a fortune effect) or force the opponent to roll twice on a saving throw against one of its abilities and take the lower result (a misfortune effect). The GM might decide that other genres of games exist that add additional rules or subsystems to resolving the spell. The spell ends if either target becomes unable to act or if they both agree to cease hostilities. Any results of the game, such as damage or conditions, persist after the game is over. If a player dies in this game, they die in real life.</li><li>If you cast this spell targeting one enemy, the target enters a PvE or puzzle game that traps them until they can complete the game. Once each turn, the target can spend 1 action to attempt a Computers or Perception check against your spell DC to escape the game. Teleportation magic doesn't help the creature escape unless the magic can transport someone into or out of a virtual space. When the spell ends, either because the target escaped or the duration ran out, the target returns to the space it occupied when it was digitized, or to the nearest space if the original is now filled. The GM might decide that other genres of games allow for different skill checks but should only do so if the target has proficiency in the listed skill.</li></ul><hr /><p><strong>大成功</strong>目标完成游戏，法术结束。</p>\n<p><strong>成功</strong>目标在完成游戏方面取得进展。如果目标已经取得进展，则完成游戏并结束法术。</p>\n<p><strong>失败</strong>目标在完成游戏方面没有进展。</p>\n<p><strong>大失败</strong>目标输掉游戏，必须重新开始。目标失去所有游戏进度。</p>"
+        },
+        {
+          "id": "TsmSAgkYslthea2C",
+          "expectedName": "Foresight",
+          "name": "预警术"
+        },
+        {
+          "id": "hddiYdCTlHeBfwhf",
+          "expectedName": "Telekinetic Tantrum",
+          "name": "念动爆发"
+        },
+        {
+          "id": "czG3U1EYtwcCEMfB",
+          "expectedName": "Phantasmal Fleet",
+          "name": "魅影舰队",
+          "expectedDescription": "<p>A menacing vision of a fleet of hostile starships fills the mind of each creature in the area. The ships appear to be 1,000 feet overhead bombarding the ground with laser fire. The vision deals 10d8 mental damage with a basic Will save. On a critical failure, the target also believes it's being pursued and moves to take cover. It must spend an action to @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} on each of its turns, which may require it to first move to a new space or Drop Prone. It can attempt a new Will save at the end of each of its turns, and on a success, it disbelieves the phantasm and stops being forced to Take Cover.</p>",
+          "description": "<p>该区域内的每只生物脑海中都会浮现出敌对星舰舰队的可怕景象。这些飞船看起来就在头顶上 1,000 英尺处，会用激光炮火轰击地面。该幻象会造成10d8心灵伤害，需要进行基础意志豁免。如果大失败，目标会认为自己被追击，并移动躲避。他必须在每个回合都花费一个动作@UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]，这意味着他必须使用第一个动作移动到一个新空间或执行趴下（Drop Prone）动作。他可以在每个回合结束时尝试新的意志豁免，如果成功，目标就会识破幻象，并停止逃跑或畏缩。</p>"
+        },
+        {
+          "id": "vXXeKs1IUDaRz4Xa",
+          "expectedName": "Uncontrollable Dance",
+          "name": "强迫起舞"
+        },
+        {
+          "id": "Pxm0PHNvsN4aKInL",
+          "expectedName": "Absolute Zero",
+          "name": "绝对零度",
+          "expectedDescription": "<p>A swirling vortex flash freezes the air, dealing 10d8 cold damage. Each creature in the area must attempt a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until the start of your next turn.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} by a layer of ice, and is slowed 1 as long as it's immobilized. The ice is an object with 50 Hit Points, Hardness 5, immunity to cold damage, and vulnerability 10 to fire. It has object immunities and is destroyed if the target Escapes.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d8 and the ice's Hit Points increase by 5.</p>",
+          "description": "<p>漩涡形的闪光冻住了空气，造成10d8寒冷伤害。区域内的每个生物都必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全额伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1} 直到你的下一回合开始。</p>\n<p><strong>大失败</strong>该生物承受双倍伤害，由于一层厚厚的冰而@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]，只要它被禁足，就会获得缓慢1。这冰层是物体，具有50生命值、5硬度、免疫寒冷伤害，并且有10点火焰弱点。它具有物品免疫并且如果目标逃脱会被摧毁。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加1d8。冰的生命值增加5。</p>"
+        },
+        {
+          "id": "XZBMCCvzYqsj1MHv",
+          "expectedName": "Contingency",
+          "name": "触发术"
+        },
+        {
+          "id": "mPVJKHkuG0VRdqC4",
+          "expectedName": "Warp Mind",
+          "name": "心灵扭曲"
+        },
+        {
+          "id": "cUbEFGzq2mOvXUrD",
+          "expectedName": "Pocket Vacuum",
+          "name": "口袋真空",
+          "expectedDescription": "<p>You create a sudden vacuum, forcing creatures in the area to hold their breath or fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} and start suffocating. The explosive decompression deals 5d12 bludgeoning damage to each creature in the area when the spell is cast or that enters the area during the duration (unless they were already in a vacuum), with a basic Fortitude save. Creatures who critically fail the save are also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d12.</p>",
+          "description": "<p>You create a sudden vacuum, forcing creatures in the area to hold their breath or fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} and start suffocating. The explosive decompression deals 5d12 bludgeoning damage to each creature in the area when the spell is cast or that enters the area during the duration (unless they were already in a vacuum), with a basic Fortitude save. Creatures who critically fail the save are also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><hr /><p><strong>升阶 （+1） </strong>伤害增加1d12。</p>"
+        },
+        {
+          "id": "rAi6yhMBJfsKcTAb",
+          "expectedName": "X-Ray Vision",
+          "name": "X光视域",
+          "expectedDescription": "<p>You empower yourself to see through most materials and walls within 60 feet. Your sight is blocked by 2 feet of wood or plastic, 1 foot of stone, 2 inches of common metal, or any amount of lead or any starmetal, and you can only see in black and white.</p>",
+          "description": "<p>你激活透视能力，可看穿60尺内大多数材质与墙体。你的视线会被2尺厚的木材或塑料，1尺厚的岩石，2寸厚的普通金属或者任意厚度的铅或星金阻隔，并且你的视野为黑白的。</p>"
+        },
+        {
+          "id": "L0E7U8GqetqPdau3",
+          "expectedName": "Overload Systems",
+          "name": "系统超荷",
+          "expectedDescription": "<p>You flood the area with a wave of electrical interference. You deal 7d8 electricity damage to creatures in the area. Each creature in the area must attempt a Reflex save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage, and any of its items with the tech trait become glitching 1 for 1 minute or until the condition is removed.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, and any of its items with the tech trait become glitching 2 for 1 minute or until the condition is removed.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d8.</p>",
+          "description": "<p>你用电磁干涉淹没区域。对区域内所有其他生物造成7d8电击伤害。每个区域内的生物都必须尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全部伤害并且所有具有科技特征的物品会陷入故障1持续1分钟或者被移除。</p>\n<p><strong>大失败</strong>目标受到两倍伤害并且所有具有科技特征的物品会陷入故障2持续1分钟或者被移除。</p><hr /><p><strong>升阶（+1） </strong>伤害增加 1d8。</p>"
+        },
+        {
+          "id": "MX2ysU5VNZGat0fV",
+          "expectedName": "Sending",
+          "name": "短讯术"
+        },
+        {
+          "id": "WS6OKMAjABzhlV2X",
+          "expectedName": "Confusion",
+          "name": "困惑术"
+        },
+        {
+          "id": "E6B2ERxDJUy4Cox3",
+          "expectedName": "Discharge",
+          "name": "断电术"
+        },
+        {
+          "id": "XT3BeMuwnpzFNgVO",
+          "expectedName": "Life Seal",
+          "name": "生命容器",
+          "expectedDescription": "<p><strong>Trigger</strong> A creature within range enters an environment that would be harmful to it.</p>\n<p>A shimmering bubble envelops the target's body, allowing it to breathe normally in a vacuum or other unsafe environment and protecting it from severe temperatures and radiation.</p><hr /><p><strong>Heightened (7th)</strong> You can target up to 5 additional creatures to gain protection against the environment the triggering creature entered. The spell lasts for 8 hours and also protects against extreme temperatures and radiation.</p>\n<p><strong>Heightened (10th)</strong> You can target up to 10 additional creatures to gain protection against the environment the triggering creature entered. The spell lasts until your next daily preparations and also protects against incredible temperatures and radiation.</p>",
+          "description": "<p><strong>触发</strong>射程内的生物进入对其有害的环境。</p>\n<p>一个闪亮的气泡包裹目标的身体，让它在真空或其他不安全的环境中正常呼吸，并保护它免受严重（severe）温度和辐射的伤害。</p><hr /><p><strong>升阶（7环）</strong>你可指定最多5个额外生物为目标，使其获得针对触发生物所处环境的防护效果。法术持续8小时，并且可以抵御极端（extreme ）温度和辐射。</p>\n<p><strong>升阶（10环）</strong>你可指定最多10个额外生物为目标，使其获得针对触发生物所处环境的防护效果。法术持续到你下次日常准备，并能抵御严酷（incredible ）温度和辐射。</p>"
+        },
+        {
+          "id": "e3ANDCpOauct6Htd",
+          "expectedName": "Personal Gravity",
+          "name": "私人重力",
+          "expectedDescription": "<p>You alter gravity's effects on you. You treat gravity as if it were your choice of one step higher or lower (for example, if you were in an area of low gravity, you could choose either standard gravity or zero-g). While the spell is active, you reduce the distance of any forced movement that would affect you by 5 feet (minimum 0 feet), and you ignore being clumsy and untethered because of gravity effects on you. You can Dismiss the spell.</p>",
+          "description": "<p>你可以改变重力对你的影响。你可以选择将重力提升或降低一级（例如，如果你身处低重力的区域，你可以选择标准重力或零重力）。当该法术起效时，你降低任何影响你的强制移动的距离5尺（最小0尺），而且你不会因为重力的影响而变得笨拙和失重untethered。你可以解消该法术。</p>"
+        },
+        {
+          "id": "QoTSYd58ynSdpYns",
+          "expectedName": "Selective Invisibility",
+          "name": "选择性隐形",
+          "expectedDescription": "<p>A willing creature you touch becomes @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} to everyone except a second target within the spell's range. If the invisible creature uses a hostile action against anyone who isn't the target that can see them, the spell ends after that hostile action is completed.</p><hr /><p><strong>Heightened (5th)</strong> You can make up to 6 willing creatures within 30 feet invisible, but they all must have the same target.</p>",
+          "description": "<p>一个你接触的自愿生物对除射程内第二目标以外的人@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]。如果隐形生物对目标以外的任何人使用敌对行动，该敌对行动结束后，法术也随之结束。</p><hr /><p><strong>升阶（5环）</strong>你可以让30尺内最多6个自愿生物隐形，但他们的目标必须是同一人。</p>"
+        },
+        {
+          "id": "PRVQyBQHcrUjX4WV",
+          "expectedName": "Doom Scroll",
+          "name": "末日刷屏",
+          "expectedDescription": "<p>You magically broadcast grim news onto nearby devices, holo projectors, screens, and other displays (including comm units on armor). Creatures in the area who can see one or more displays must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the display.</p>\n<p><strong>Failure</strong> The creature is fascinated by the display and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (even if the fascination ends).</p>\n<p><strong>Critical Failure</strong> The creature is fascinated by the display, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}, and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (even if the fascination ends).</p>",
+          "description": "<p>你可以用魔法在附近的设备、全息投影仪、屏幕和其他显示器（包括护甲上的通讯单元）上播报可怕的消息。区域内能看到一个或多个显示屏的生物必须尝试意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物因显示内容@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]。</p>\n<p><strong>失败</strong>该生物因显示内迷魂并@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}（即使迷魂结束）。</p>\n<p><strong>大失败</strong>该生物因显示内迷魂，@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 3}，并且@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭 Doomed 1}（即使迷魂结束）。</p>"
+        },
+        {
+          "id": "re3ZmGmp4UUXbntj",
+          "expectedName": "Liquid Siphon",
+          "name": "液体虹吸",
+          "expectedDescription": "<p>You drain the moisture out of your target, crumpling them up like an empty beverage can and potentially leaving them a desiccated husk of what they once were. A nonliving target with liquid in its body (such as a vampire, water elemental, or keg of alcohol) can be affected by this spell, but a living creature with no vital liquids is immune. The target creature takes 4d6 bludgeoning damage, depending on the results of its saving throw.</p>\n<p>A target that fails its saving throw creates water that flows into your hands or a held container (1 gallon for Tiny, 2 gallons for Small, 4 for Medium, 6 for Large, 8 for Huge). If the target critically fails its saving throw, double this amount.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p>\n<p><strong>Critical Failure</strong> As failure, but double damage and the target is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}.</p><hr /><p><strong>Heightened (+1)</strong> Increase the damage by 2d6.</p>",
+          "description": "<p>You drain the moisture out of your target, crumpling them up like an empty beverage can and potentially leaving them a desiccated husk of what they once were. A nonliving target with liquid in its body (such as a vampire, water elemental, or keg of alcohol) can be affected by this spell, but a living creature with no vital liquids is immune. The target creature takes 4d6 bludgeoning damage, depending on the results of its saving throw.</p>\n<p>A target that fails its saving throw creates water that flows into your hands or a held container (1 gallon for Tiny, 2 gallons for Small, 4 for Medium, 6 for Large, 8 for Huge). If the target critically fails its saving throw, double this amount.</p><hr /><p><strong>大成功</strong>生物不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全额伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 1}。</p>\n<p><strong>大失败</strong>同失败，但目标受到双倍伤害且陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 2}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
+        },
+        {
+          "id": "AWoTnKBRNOqPJHjH",
+          "expectedName": "Akashic Download",
+          "name": "阿卡西下载",
+          "expectedDescription": "<p>You execute a psychic search of the Akashic Record for information about a specific topic and magically transfer this data to your comm unit or computer. When you Cast this Spell, choose any skill in which you're trained that has the @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} action.</p>\n<p>Any time during the duration, you can consult your comm unit while attempting a Recall Knowledge check using your chosen skill. This check gains a +1 status bonus. Checking your comm unit is part of the action to Recall Knowledge. You must be holding the comm unit to do so. The comm unit instantly compiles and displays snippets and selections from various media relevant to the topic, which grants you the bonus. If you roll a critical failure on this check, you get a failure instead. If the check is successful and the subject is a creature, you gain additional information or context about the creature. Once you reference the comm unit, the spell ends. When the spell ends, your access to the Akashic Record ends, and all the information you downloaded returns to the Akashic Record.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.h1i8c47U0IOrMrHJ]</p><hr /><p><strong>Heightened (3rd)</strong> You can reference your comm unit three times before the spell ends.</p>",
+          "description": "<p>你通过灵能搜索阿卡西记录，获取特定主题的信息，并将数据魔法传输至通讯单元或计算机。施放此法术时，选择任何你至少为受训熟练度且能进行@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]动作的技能。</p>\n<p>在持续时间内的任何时候，你都可以在使用所选技能进行回忆知识检查时查询通讯单元。该检定会获得+1状态加值。检查通讯单元是回忆知识动作的一部分。你必须手持通讯单元才能这样做。通讯单元会立即编译并显示与主题相关的各种媒体片段和精选内容，从而为你带来加值。如果你在检定中掷出大失败，改为失败。如果检定成功，且对象是生物，你将获得有关该生物的额外信息或内容。一旦你查询了通讯单元的信息，法术就会结束。当法术结束时，你对阿卡西记录的访问也会结束，你下载的所有信息都会返回阿卡西记录。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.h1i8c47U0IOrMrHJ]</p><hr /><p><strong>Heightened (3rd)</strong> You can reference your comm unit three times before the spell ends.</p>"
+        },
+        {
+          "id": "XclV4E1XnthFwWCO",
+          "expectedName": "Chill Gaze",
+          "name": "冻寒凝视",
+          "expectedDescription": "<p>Your eyes turn an icy blue color as the temperature in the area drops. Your cold, hard gaze literally chills the air around your foe's body, making it harder for them to move. When you cast chill gaze, choose clumsy or enfeebled. Your foe takes effects depending on your choice, based on the result of its saving throw.</p><hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (depending on your choice) for the duration of the spell.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}.</p><hr /><p><strong>Heightened (4th)</strong> You can target up to five creatures.</p>\n<p><strong>Heightened (7th)</strong> You can target up to ten creatures.</p>",
+          "description": "<p>随着你的双眼化作冰蓝之色，区域温度骤降。你那冰冷而坚毅的凝视令敌人周身寒气凝结，使其行动迟滞。当你施放冻寒凝视时，选择笨拙或力竭。你的敌人基于其豁免检定结果，根据你的选择承受效果。</p><hr /><p><strong>成功</strong>生物不受影响。</p>\n<p><strong>失败</strong>生物在法术持续时间内陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}（根据你的选择）。</p>\n<p><strong>大失败</strong>同失败，但目标为@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}。</p><hr /><p><strong>Heightened (4th)</strong> You can target up to five creatures.</p>\n<p><strong>Heightened (7th)</strong> You can target up to ten creatures.</p>"
+        },
+        {
+          "id": "qlWtfcyFkAhywpNy",
+          "expectedName": "Chill Gaze",
+          "name": "冻寒凝视",
+          "expectedDescription": "<p>Your eyes turn an icy blue color as the temperature in the area drops. Your cold, hard gaze literally chills the air around your foe's body, making it harder for them to move. When you cast chill gaze, choose clumsy or enfeebled. Your foe takes effects depending on your choice, based on the result of its saving throw.</p><hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (depending on your choice) for the duration of the spell.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}.</p><hr /><p><strong>Heightened (4th)</strong> You can target up to five creatures.</p>\n<p><strong>Heightened (7th)</strong> You can target up to ten creatures.</p>",
+          "description": "<p>随着你的双眼化作冰蓝之色，区域温度骤降。你那冰冷而坚毅的凝视令敌人周身寒气凝结，使其行动迟滞。当你施放冻寒凝视时，选择笨拙或力竭。你的敌人基于其豁免检定结果，根据你的选择承受效果。</p><hr /><p><strong>成功</strong>生物不受影响。</p>\n<p><strong>失败</strong>生物在法术持续时间内陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}（根据你的选择）。</p>\n<p><strong>大失败</strong>同失败，但目标为@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}。</p><hr /><p><strong>Heightened (4th)</strong> You can target up to five creatures.</p>\n<p><strong>Heightened (7th)</strong> You can target up to ten creatures.</p>"
+        },
+        {
+          "id": "G0WdaWLjLlwQTn4R",
+          "expectedName": "Daze",
+          "name": "晕眩术"
+        },
+        {
+          "id": "4EAHhQvgIWH5BuQD",
+          "expectedName": "Delete",
+          "name": "删除术",
+          "expectedDescription": "<p>You delete data from a device or object with a flamboyant magical gesture. This data might be handwritten, printed, or digital. You delete up to 1,500 words' worth of text, one page of content, or one display screen worth of text or other visual information. Non-magical writing in or on an unattended or held object is automatically deleted. Attempt a counteract check to delete digital or magical writing. If you fail to delete writing that's part of a hazard, you trigger the hazard. This can't be used to delete the contents of a spellbook or similar means of storing magical formulas or spells.</p>\n<p>If you target an attended tech item with the tracking trait, attempt a counteract check. On a success, the item becomes glitching 1. A creature holding the item can Interact to restart the software, reducing the glitching value by 1.</p><hr /><p><strong>Heightened (7th)</strong> You can delete all the data stored locally on a single device or book, or all the data on a device or book related to a specific name, topic, or category.</p>",
+          "description": "<p>你以华丽的魔法手势删除设备或物品中的数据。这些数据可以是手写的、打印的或电子的。你最多可以删除 1,500字的文本、一页内容或一显示屏的文本或其他视觉信息。无主物品或手持物品上的非魔法文字会自动删除。尝试反制检定删除数据或魔法文字。如果你尝试删除的文字是危害的一部分，且你失败，就会触发危害。这不能用于删除魔法书或类似的存储魔法公式或法术的内容。</p>\n<p>如果目标是具有追踪特征的科技物品，尝试一次反制检定。如果成功，该物品就会获得故障1。持有该物品的生物可以花费一个交互动作来重启用户界面，并将故障值降低1。</p><hr /><p><strong>升阶（7环）</strong>你可以删除单个设备或书籍中本地存储的所有数据，或者删除设备或书籍中与特定名称、主题或类别相关的所有数据。</p>"
+        },
+        {
+          "id": "RE2Ts26cU9AUjres",
+          "expectedName": "Glow Up",
+          "name": "焕发光彩",
+          "expectedDescription": "<p>You create an illusion that causes the target to appear more charming and genteel to observers. The spell accentuates the target's appearance, clothing, voice, and mannerisms according to what an observer finds appealing. Held items are unaffected, and any worn item removed from the creature returns to its true appearance.</p>\n<p>The target gains a +1 status bonus to Diplomacy checks to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} and lets the target add its level to Diplomacy checks if untrained. In addition, the target can attempt a Diplomacy check to Gather Information in only 10 minutes. You can Dismiss this spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.hOp5ybOzyJlECU6B]</p><hr /><p><strong>Heightened (+2)</strong> The bonus increases by 1, to a maximum of +4 at 7th rank.</p>",
+          "description": "<p>你制造一种幻象，使目标在观察者面前显得更加迷人和优雅。该法术会根据观察者认为吸引人的地方来突出目标的外表、衣着、声音和举止。手持物品不受影响，从生物身上取下的任何穿戴物品都会恢复原貌。</p>\n<p>目标在进行@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]的交涉检定中获得+1状态加值，如果目标未受训，则可以在进行交涉检定时加上其等级。此外，目标还可以只花10分钟尝试交涉检定进行收集信息。你可以解消此法术。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.hOp5ybOzyJlECU6B]</p><hr /><p><strong>升阶（+2）</strong>加值提升1，最多在7环时提升至+4。</p>"
+        },
+        {
+          "id": "F5IuCyamrHEppC3S",
+          "expectedName": "Implant Data",
+          "name": "植入数据",
+          "expectedDescription": "<p>You reprogram a computer or device to display a chosen piece of data when accessed. You can implant up to one piece of data per spell rank. A piece of data can be a simple fact, such as a creature or object's location or physical description; an image of a creature or object; or a simple statement of no more than 300 characters. When the target computer or device is accessed, this implanted data is the first data the accessing creature gains, regardless of what data the creature is looking for. Implanted data doesn't prevent a creature from accessing other information stored on a device, change how the device functions, or otherwise inhibit the device from functioning. If this spell's duration ends before a creature accesses the implanted data, the information vanishes.</p><hr /><p><strong>Heightened (3rd)</strong> The duration is one year.</p>\n<p><strong>Heightened (6th)</strong> The duration is unlimited.</p>",
+          "description": "<p>You reprogram a computer or device to display a chosen piece of data when accessed. You can implant up to one piece of data per spell rank. A piece of data can be a simple fact, such as a creature or object's location or physical description; an image of a creature or object; or a simple statement of no more than 300 characters. When the target computer or device is accessed, this implanted data is the first data the accessing creature gains, regardless of what data the creature is looking for. Implanted data doesn't prevent a creature from accessing other information stored on a device, change how the device functions, or otherwise inhibit the device from functioning. If this spell's duration ends before a creature accesses the implanted data, the information vanishes.</p><hr /><p><strong>升阶（3环）</strong>持续时间为一年。</p>\n<p><strong>升阶（6环）</strong>持续时间为无限。</p>"
+        },
+        {
+          "id": "w3vN0MMmRhABp3h3",
+          "expectedName": "Injury Echo",
+          "name": "伤口回响",
+          "expectedDescription": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 1d8, and the persistent damage on a failure increases by 1d4.</p>",
+          "description": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加1d8，豁免失败时的持续伤害增加1d4。</p>"
+        },
+        {
+          "id": "e5z2BIspqB5N8bbw",
+          "expectedName": "Ricochet",
+          "name": "回旋弹",
+          "expectedDescription": "<p>A spinning disk or smooth orb of shimmering steel leaps from one target to another. You deal 2d4 bludgeoning or slashing damage (with a basic Reflex save).</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>",
+          "description": "<p>一道由闪烁钢铁构成的旋转圆盘或光滑球体在目标之间弹射跃动。造成2d4钝击或挥砍伤害，需要进行基础反射豁免。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加1d4。</p>"
+        },
+        {
+          "id": "8lEXKWcQ4uWObjRc",
+          "expectedName": "Telekinetic Projectile",
+          "name": "念动射弹"
+        },
+        {
+          "id": "5PANUBue74Ah9npv",
+          "expectedName": "Ivory Chompers",
+          "name": "象牙牙套"
+        },
+        {
+          "id": "jpbMr4wtnwtoQuYk",
+          "expectedName": "Second Skin",
+          "name": "第二皮肤"
+        },
+        {
+          "id": "0MfZKQBWKuAS4PH3",
+          "expectedName": "Holoskin (Tactical)",
+          "name": "战术型全息皮肤"
+        },
+        {
+          "id": "n0dwDIs2tYRS7wzF",
+          "expectedName": "Ivory Chompers",
+          "name": "象牙牙套"
+        },
+        {
+          "id": "PIZumdzNduz4BEVq",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        }
+      ]
+    },
+    "YLo7jNSMWVP9skOm": {
+      "items": [
+        {
+          "id": "6buINdIWV8HohknY",
+          "expectedName": "Doshko",
+          "name": "多什斧"
+        },
+        {
+          "id": "mCsjdJzyi6MuFkj9",
+          "expectedName": "Flamethrower",
+          "name": "喷火器"
+        },
+        {
+          "id": "rZl5Azkcf7rmSkDm",
+          "expectedName": "Veskarium Imperial Plate",
+          "name": "维斯卡里姆帝国板甲"
+        },
+        {
+          "id": "teLSMIya0rgTZMPg",
+          "expectedName": "Doshko",
+          "name": "多什斧"
+        },
+        {
+          "id": "mmJov9O2U39hscV3",
+          "expectedName": "Flamethrower",
+          "name": "喷火器"
+        },
+        {
+          "id": "K03zN0wBxOQaPEY5",
+          "expectedName": "Warfare Lore",
+          "name": "战争学识"
+        }
+      ]
+    },
+    "aONi4XH2mT0qWuzB": {
+      "items": [
+        {
+          "id": "KaGgFpTNXNR4q9Dl",
+          "expectedName": "Phase Cutlass",
+          "name": "相位弯刀"
+        },
+        {
+          "id": "hMT7vDlmTHVHfCIB",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        },
+        {
+          "id": "HxJnpeQUi8RixGA8",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        },
+        {
+          "id": "KDk8tj1V1w29RvFm",
+          "expectedName": "Auto-Fire",
+          "name": "自动射击"
+        }
+      ]
+    },
+    "iWP43xPPy9JVLhFr": {
+      "items": [
+        {
+          "id": "HRnzRDiSAGpwCncY",
+          "expectedName": "Battleglove",
+          "name": "战斗手套"
+        },
+        {
+          "id": "NGblOQCHwO3kFtwY",
+          "expectedName": "Laser Pistol",
+          "name": "激光手枪"
+        },
+        {
+          "id": "maWAXNCwZQ9wTT8z",
+          "expectedName": "Microcord Armor",
+          "name": "微纤护甲"
+        },
+        {
+          "id": "vI0u7Kmti2t4Wwca",
+          "expectedName": "Battleglove",
+          "name": "战斗手套"
+        },
+        {
+          "id": "AxecY8JA2ruiifGD",
+          "expectedName": "Laser Pistol",
+          "name": "激光手枪"
+        },
+        {
+          "id": "qgAaq1XsOXXMAhBM",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        }
+      ]
+    },
+    "itxkgEs0mkwcxNhg": {
+      "items": [
+        {
+          "id": "VawFqTnkFinl9hMu",
+          "expectedName": "Semi-Auto Pistol",
+          "name": "半自动手枪"
+        },
+        {
+          "id": "1ynlPaoRcUBmZAr1",
+          "expectedName": "Tempweave",
+          "name": "保温织服"
+        },
+        {
+          "id": "hI0y34zfhI7p9w8c",
+          "expectedName": "Datapad",
+          "name": "数据板",
+          "expectedDescription": "<p>These ubiquitous handheld computers incorporate a comm unit, microphone, speaker, camera, infosphere browser, and data storage. They can store thousands of hours of recordings, play games, and perform simple computing functions, such as time tracking and notifications, word processing, calculations, data processing, streaming media, and broadcasting emergency alerts from local governments. In most societies, commercial datapads are relatively flimsy, designed to rapidly wear out or fall behind on the latest features and updates to encourage the consumer to replace it with a newer model. In contrast, higher-end datapads are made to last and often include a sturdier chassis and extra functions.</p>",
+          "description": "<p>此类泛用手持计算机集成了通讯单元，麦克风，扬声器，摄像头，信息圈浏览器以及数据存储功能。其可以存储数千小时的记录，支持游玩游戏和执行简单的计算功能（如计时提醒，文本处理，计算，数据处理，流媒体以及当地政府的紧急广播）。在大多数社群里，商用型数据板相当脆弱，刻意设计以快速损坏或被最新的特性和更新淘汰，以此来刺激消费者置换更新的型号。相比之下，高端的数据板旨在长期使用，且通常包含更坚固的框架和额外功能。</p>"
+        },
+        {
+          "id": "sHg7pOsKy6CCEn60",
+          "expectedName": "Marrow Paste (Commercial)",
+          "name": "商用型骨髓膏"
+        },
+        {
+          "id": "mjsiOUCtXeXpaXxJ",
+          "expectedName": "Semi-Auto Pistol",
+          "name": "半自动手枪"
+        },
+        {
+          "id": "A5M3luApCsi7a24T",
+          "expectedName": "Bone Blade",
+          "name": "骨刃"
+        },
+        {
+          "id": "eBXR3EOzRV3HriQh",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        }
+      ]
+    },
+    "iv2NsIIE0wUX5Ktr": {
+      "items": [
+        {
+          "id": "wOkHQN8ELSDh7T1f",
+          "expectedName": "Fist",
+          "name": "拳头"
+        },
+        {
+          "id": "eulyI60JHNUYs39w",
+          "expectedName": "Slow",
+          "name": "缓慢术"
+        },
+        {
+          "id": "q1OobVjFqRsc58KI",
+          "expectedName": "Void Healing",
+          "name": "虚能治疗"
+        },
+        {
+          "id": "Qknp3UNQSMjNTUmL",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "mxxkISfJoQJ8i8ms": {
+      "items": [
+        {
+          "id": "WK37QP2y4LLPvgL7",
+          "expectedName": "Confusion",
+          "name": "困惑术"
+        }
+      ]
+    },
+    "nPSciVswzRhnBCCZ": {
+      "items": [
+        {
+          "id": "fPddDpsrY8UcDvXP",
+          "expectedName": "Knockdown",
+          "name": "击倒"
+        }
+      ]
+    },
+    "qSJT92ktGSjVvuAS": {
+      "items": [
+        {
+          "id": "PX1qjuqdMiET6ZkO",
+          "expectedName": "Fist",
+          "name": "拳头"
+        },
+        {
+          "id": "FzpY5d4eSizoCBCH",
+          "expectedName": "Piracy Lore",
+          "name": "海盗学识"
+        }
+      ]
+    },
+    "tNnp30Dsy4lwP1dY": {
+      "items": [
+        {
+          "id": "deTg0SNavKLGwWvw",
+          "expectedName": "Swallow Whole",
+          "name": "活吞"
+        }
+      ]
+    },
+    "zVmwnoVD1jNocpdp": {
+      "name": "雷氏无足兽",
+      "items": [
+        {
+          "id": "6XoA4zNtYnOhRH3E",
+          "expectedName": "Chameleon Coloration",
+          "name": "变色匿踪",
+          "expectedDescription": "<p>The reculobutapus changes its coloration to match its surroundings. It doesn't need cover to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} with a Stealth check.</p>",
+          "description": "<p>雷氏无足兽能变化体色以贴合环境。它不需要掩蔽就能用隐秘技能@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]。</p>"
+        },
+        {
+          "id": "JUnI5xfey5PzvyQl",
+          "expectedName": "Swallow Whole",
+          "name": "活吞"
+        },
+        {
+          "id": "IW6ymPBWR6uA1aS8",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    }
+  }
+}

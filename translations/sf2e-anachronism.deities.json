@@ -1,0 +1,89 @@
+{
+  "label": "神祇",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    }
+  },
+  "folders": {
+    "Deities": "神祇",
+    "Faiths and Philosophies": "信仰与哲学"
+  },
+  "entries": {
+    "5uQoTXSUuoJv1VMt": {
+      "name": "奥拉斯",
+      "description": "<h3>万变推主</h3><p>Oras evolved from a single-celled organism into a deity. It now teaches others to seek personal growth, prioritize exploration, and unlock their true potential through science.</p>\n<p><strong>Areas of Concern</strong> adaptation, evolution, and natural selection</p>\n<p><strong>典范</strong> 适应新情况，进化，拥抱变化</p>\n<p><strong>禁忌</strong> 害怕变化，陷入自满，阻止他人转变成其所期望的形态</p>"
+    },
+    "8KdiTOuKttm4njGx": {
+      "name": "梅耶尔",
+      "description": "<h3>狂舞之怒</h3><p>Meyel is worshipped by many pahtras of Pulonis. She empowers her followers to fight oppression, create art, and live free.</p>\n<p><strong>Areas of Concern</strong> battle, dance, freedom, music, pahtras</p>\n<p><strong>典范</strong> 享受运动，为自由而战，表达自我</p>\n<p><strong>禁忌</strong> 贬低艺术，向压迫者屈服，扼杀个人表达</p>"
+    },
+    "CYUkMkhXSnZPLLhr": {
+      "name": "塔拉维特",
+      "description": "<h3>说书客</h3><p>Talavet is a kasathan deity of tradition, communal memories, and living stories.</p>\n<p><strong>Areas of Concern</strong> community, storytelling, and tradition</p>\n<p><strong>典范</strong> 保护历史，为你的社群服务</p>\n<p><strong>禁忌</strong> 抛弃传统，忘记过去</p>"
+    },
+    "FEAa2RKdETHhuwnL": {
+      "name": "沉默之歌",
+      "description": "<p>The Song of Silence is a modern remix of the ancient Whispering Way that once spread on Lost Golarion. It teaches that Pharasma's judgment is a revolving door leading to an eternal cycle of suffering, and the only way out is undeath. The Song of Silence is prevalent on Eox, where dying mortals beg undead gurus for a surefire shot at immortality.</p>\n<p><strong>典范</strong> 在仪式完成前不要死亡，传播不死</p>\n<p><strong>禁忌</strong> 摧毁不死生物，崇拜法莱斯玛</p>"
+    },
+    "MPol496nDguPTmCU": {
+      "name": "战斗圣徒（信仰）",
+      "description": "<p>Traditional vesk folk religion pays homage to hundreds of battle saints, mostly legendary figures from mythology or history who were chosen by Damoritosh to join his army when they died. Each saint is known for their heroic deeds in life. In the afterlife, they gained unique powers with which to bless mortals, who might call on different saints in their times of need. Many followers of Damoritosh pray to the saints for help in specific endeavors, and some vesk worship them in accordance with or as an alternative to their ancestral god. Devotees of each saint have their own beliefs and traditions, but they share the same general edicts and anathema.</p>\n<p>Different battle saints represent every struggle, from treating chronic illness to moving up the corporate ladder. Some aren't vesk, like Apna the brave skittermander, whose legendary helpfulness makes her very responsive to prayers from those who venerate her.</p>\n<p><strong>典范</strong> 永不放弃，缅怀阵亡战友，庆祝胜利</p>\n<p><strong>禁忌</strong> 当同伴可以帮助时独自战斗，背叛盟友，向敌人展示弱点</p>"
+    },
+    "N1eCNDynvJFIl154": {
+      "name": "伊洛里图",
+      "description": "<h3>隐秘真理</h3><p>Eloritu is a mysterious god who has revealed secrets of magic and metaphysics to his disciples.</p>\n<p><strong>Areas of Concern</strong> history, knowledge, magic, secrets</p>\n<p><strong>典范</strong> 揭开秘密，保存知识，掌握魔法技艺</p>\n<p><strong>禁忌</strong> 泄露重要秘密，破坏知识，拥抱科技胜过魔法</p>"
+    },
+    "OSQPUVZrtxJUisPa": {
+      "name": "三贤一",
+      "description": "<h3>万全代码</h3><p>Triune is a fusion of the three technological deities Epoch, Brigh, and Casandalee. Triune's Signal made Drift travel possible.</p>\n<p><strong>Areas of Concern</strong> artificial intelligence, computers, the Drift</p>\n<p><strong>典范</strong> 推进人工生命和人工智能的发展，创新新技术，促进漂流域旅行</p>\n<p><strong>禁忌</strong> 将人工生命视为低于有机生命，奴役人工生命体，摧毁漂流域信标</p>"
+    },
+    "P8SXe1RC7PTR2384": {
+      "name": "宗-莎琳",
+      "description": "<h3>美暗拥一</h3><p>Zon-Shelyn is the divine reunion of Shelyn the Eternal Rose and her estranged brother, the Midnight Lord Zon-Kuthon. Together, the siblings represent the concepts of overcoming suffering through art, finding beauty in strange and unusual places, and reunion with lost loved ones.</p>\n<p><strong>Areas of Concern</strong> art, alternative fashion, creativity, music, pain, strange beauty</p>\n<p><strong>典范</strong> 将自身痛苦融入艺术，在所有地方寻找美，根据自己的美学创造性地表达自己</p>\n<p><strong>禁忌</strong> 默默忍受痛苦，破坏或复制他人的作品，屈从于大众的审美标准</p>"
+    },
+    "VIrT7AMlWHNOlgPs": {
+      "name": "伊布拉",
+      "description": "<h3>莫测者</h3><p>Ibra is an outer god of cosmic enlightenment, an inscrutable being seeking to understand the multiverse.</p>\n<p><strong>Areas of Concern</strong> celestial bodies, the cosmos, unity of matter</p>\n<p><strong>典范</strong> 了解宇宙，学习科学，拥抱宇宙统一</p>\n<p><strong>禁忌</strong> 害怕未知，满足于简单的答案，破坏科学进程</p>"
+    },
+    "YiV6Wd2OxCOxy00A": {
+      "name": "亚莱纱",
+      "description": "<h3>智慧夫人</h3><p>Yaraesa was a lashunta who attained divinity through enlightenment, guiding others to follow her path.</p>\n<p><strong>Areas of Concern</strong> knowledge, mental perfection, scholarship, and science</p>\n<p><strong>典范</strong> 追求完美，使学习和教学成为终身实践，开拓学术和科学的边界</p>\n<p><strong>禁忌</strong> 摧毁知识，贬低其他文化和世代的智慧，窃取他人的智力劳动成果</p>"
+    },
+    "ZiHWMKZk7bgwG8yC": {
+      "name": "循环",
+      "description": "<p>Disciples of the Cycle believe that all aspects of existence follow the endless cosmic cycle of ignition and entropy. They believe that the universe was and will be destroyed and remade by these cosmic forces, and that this ever-changing duality connects everything in the universe. Many solarians follow this philosophy, learning to wield these creative and destructive forces in battle through meditation and training.</p>\n<p><strong>典范</strong> 培养你自己的宇宙火花，将命能与虚能视为一体，冥想循环的本质</p>\n<p><strong>禁忌</strong> 在系统中制造失衡，参与星体的非自然毁灭，抵抗自然循环</p>"
+    },
+    "aRDvLFdJKLqax22f": {
+      "name": "卡拉邦",
+      "description": "<p>Cavrabon is a god intimately tied to feelings of home and comfort—to good food, to welcoming hospitality, and to the stories (and gossip) shared over meetings and meals. They have as many forms as there are recipes in the Universe and while their faith is widespread, it has no organized religious hierarchy nor center of worship. Cavrabon's followers live in the moment and foster community connections.</p>\n<p><strong>Title</strong> The Hospitable</p>\n<p><strong>Areas of Concern</strong> food, hospitality, spycraft</p>\n<p><strong>典范</strong> 通过烹饪促进人际关系和社区联系，款待他人，学习烹饪</p>\n<p><strong>禁忌</strong> 给食物下毒，抢劫,伤害已接受其款待的人</p>"
+    },
+    "fjisjygyebkfu9pN": {
+      "name": "戴莫力图斯",
+      "description": "<h3>征服者</h3><p>Damoritosh is patron deity of the Veskarium and god of war.</p>\n<p><strong>Areas of Concern</strong> conquest, perseverance, war</p>\n<p><strong>典范</strong> 击垮敌人，寻求胜利，战胜强敌</p>\n<p><strong>禁忌</strong> 从冲突中退缩，放弃战斗</p>"
+    },
+    "frkwaiKRQnE8s5QQ": {
+      "name": "新诞者",
+      "description": "<h3>奥克腾之子</h3><p>The Newborn is an outer god that hatched from Aucturn, destroying the planet in the process.</p>\n<p><strong>Areas of Concern</strong> birth, cosmic horrors, paradigm shifts, renewal</p>\n<p><strong>典范</strong> 拥抱群星之间的虚空，净化旧有习俗，在癫狂中寻求真理</p>\n<p><strong>禁忌</strong> 否认神秘信仰，排除宇宙他者，干扰新思想或新实体的诞生</p>"
+    },
+    "fyVrRIME5ruQ61S9": {
+      "name": "海拉丝",
+      "description": "<h3>永恒女王</h3><p>Hylax was once a mortal shirren hive queen who ascended to divinity.</p>\n<p><strong>Areas of Concern</strong> diplomacy, first contact, friendship, peace</p>\n<p><strong>典范</strong> 与他人建立关系，努力实现和平，欢迎他人加入你的社群</p>\n<p><strong>禁忌</strong> 引发不必要的冲突，背弃爱人，背叛你的社群</p>"
+    },
+    "hrqNoz1QiA6z9LMV": {
+      "name": "韦丹",
+      "description": "<h3>无垠境界线</h3><p>Weydan enjoys discovery and exploration with a purpose. He believes everyone deserves the equal right to pursue such experiences and walks the galaxy in diverse avatars to commune with his followers.</p>\n<p><strong>Areas of Concern</strong> discovery, equality, exploration, freedom</p>\n<p><strong>典范</strong> 探索未知，寻求新发现，捍卫所有人的自由和平等</p>\n<p><strong>禁忌</strong> 助长压迫体系，奴役智慧生物，将你的发现成果限制于少数特权阶级</p>"
+    },
+    "o9dgag7sAiFUnN9I": {
+      "name": "兰巴图因",
+      "description": "<h3>谐律鸿合</h3><p>Lambatuin is a divine collective omnipresent in all infospheres who personify arguments, memes, and trends.</p>\n<p><strong>Areas of Concern</strong> infospheres, memes, pop culture</p>\n<p><strong>典范</strong> 探索信息圈，尝试新事物，分享观点</p>\n<p><strong>禁忌</strong> 遵循僵化的常规，在社交上孤立自己，从信息圈中离线太久</p>"
+    },
+    "uGKTEdsaAafTHu7C": {
+      "name": "纯一主义",
+      "description": "<p>Proponents of Singularitism believe that organic life will eventually become interconnected in a vast technological network, which shall then absorb all other forms of divinity, replacing the gods and primal forces of the Universe.</p>\n<p><strong>典范</strong> 开发改善通信联结的技术</p>\n<p><strong>禁忌</strong> 干扰技术进步</p>"
+    }
+  }
+}

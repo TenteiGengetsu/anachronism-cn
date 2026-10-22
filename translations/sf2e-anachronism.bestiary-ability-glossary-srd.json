@@ -1,0 +1,23 @@
+{
+  "label": "怪物能力词汇表",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    }
+  },
+  "folders": {
+    "Malevolent AI": "恶意AI",
+    "Necrovite": "死灵妖"
+  },
+  "entries": {
+    "eqmLD72i3cG8ybAn": {
+      "name": "悬浮"
+    },
+    "rePdFswJLQfoeDSp": {
+      "name": "无需呼吸"
+    }
+  }
+}

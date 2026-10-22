@@ -8,6 +8,15 @@
       "converter": "sf2eAnachronismCnPrerequisites"
     }
   },
+  "folders": {
+    "Witchwarper": "织维巫师",
+    "Mystic": "秘术师",
+    "Rituals": "仪式",
+    "Technomancer": "科技法师",
+    "Spells": "法术",
+    "Focus": "聚能",
+    "Cantrip": "戏法"
+  },
   "entries": {
     "0BaSs02dBiL2ASBO": {
       "name": "超充能护甲",
@@ -97,7 +106,8 @@
       "description": "<p>你轻碰自己或附近一个生物的记忆，帮助其回忆起部分信息，代价是其部分视觉敏锐度。自愿目标可以主动选择接受失败豁免的效果。</p><hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the end of its next turn, but receives a +1 circumstance bonus on all checks to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} until the end of its next turn.</p><hr /><p><strong>升阶（4环）</strong>环境加值提升至+2。</p>\n<p><strong>升阶（7环）</strong>环境加值提升至+3。</p>\n<p><strong>升阶（10环）</strong>环境加值提升至+4。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.NP75qOKsF43zLaiZ]</p>"
     },
     "9Jam9fULcLHFDW32": {
-      "name": "速通"
+      "name": "速通",
+      "description": "<p>你会变成一道闪烁的回声，穿过现实的正常参数。你获得全伤害（力场除外）的抗力10。你获得宇宙和虚体特征，使你可以像正常行走一样轻松穿越墙壁和在空中移动。你可以穿过敌人所处方格（除非敌人是虚体），不过你的移动仍然会触发反应动作。如果你的装备处于超频状态，你可以通过使装备不再超频来延长一轮持续时间。</p>"
     },
     "9w90nlUdV5HBRWFm": {
       "name": "曲织世界",
@@ -150,8 +160,12 @@
       "name": "诡枪术",
       "description": "<p>你自星辰之间的幽深领域凝聚一束袭魂慑魄的怪异能量攻击目标。尝试一次远程法术攻击骰对抗目标的AC，如果命中，你造成2d6心灵伤害，在大成功时造成双倍伤害。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6。</p>"
     },
+    "FIM54CSlkvBwwzdA": {
+      "name": "计算机启蒙术"
+    },
     "FIW0VpGULprL2u8J": {
-      "name": "虚能之种"
+      "name": "虚能之种",
+      "description": "<p>你在生物体内种下一颗熵增种子。目标获得虚能治疗能力（p456）。如果目标会被一个具有治疗特征的非虚能效果治疗，其改为受到伤害。非自愿生物可以尝试一次意志豁免来避免此效果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.ikNI8DM5DRa1k4G3]</p><hr /><p><strong>Heightened (5th)</strong> You can target up to six living creatures.</p>"
     },
     "Fa1f7VtZitQYrArX": {
       "name": "战斗奏鸣曲",
@@ -170,7 +184,8 @@
       "description": "<p>你将时间维度上的巨大能量折射入当前位面，化为巨大的刀锋。刀锋对区域内所有生物造成5d6挥砍伤害，这表示刀锋令其身体的一小部分迅速流逝时间。该区域内的生物必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全部伤害并且陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p>\n<p><strong>大失败</strong>目标受到两倍伤害并且陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 2}。</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
     },
     "GmeI009NbLbR6sR5": {
-      "name": "强化躯体"
+      "name": "强化躯体",
+      "description": "<p>你将魔力注入目标体内。它所有的无武装攻击获得追踪+1特征，并且武器伤害骰增加到2个。</p><hr /><p><strong>Heightened (6th)</strong> The unarmed attacks gain the tracking +2 trait, and increase the number of weapon damage dice to three.</p>\n<p><strong>Heightened (9th)</strong> The unarmed attacks gain the tracking +3 trait, and increase the number of weapon damage dice to four.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.oGUuRPGJHouppf8V]</p>"
     },
     "H0WECXb2wvTHT9yk": {
       "name": "时间子弹",
@@ -229,7 +244,8 @@
       "description": "<p>你使用魔法加速和并行化你的思维过程，骇入并增强你盟友科技系统的内部运作。当你施放此法术，以及随后每轮你第一次维持它时，目标获得以下增益之一（由其选择，如果目标为无心智或仆从则由你选择），持续1轮。</p><ul><li><p>目标的速度获得+10尺状态加值。</p></li><li><p>目标的攻击掷骰获得+1状态加值。</p></li><li><p>目标的技能检定获得+1状态加值。</p></li><li><p>目标的AC和豁免获得+1状态加值。</p></li></ul><hr /><p><strong>升阶（+2）</strong>你可以额外以一个生物为目标。</p>"
     },
     "MTulATAiOZfZNQ9d": {
-      "name": "生命再延"
+      "name": "生命再延",
+      "description": "<p><strong>触发</strong> 1个射程内的纽带中的生物将要死亡</p><hr /><p>Your network catches the soul of a bonded creature before it departs and forcefully resuscitates their body with a jolt of energy. You prevent the target from dying and @UUID[Compendium.sf2e-anachronism.actions.Item.UeMHbnnaXDa3sGfG] to the triggering ally. The target becomes immune to <em>vital rebirth</em> for 24 hours. <em>Vital rebirth</em> has no effect if the triggering effect was @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{Disintegrate}, @UUID[Compendium.sf2e-anachronism.spells.Item.xS4bqHnbodCwjpqI], or a death effect. You must have at least 1 Hit Point in your vitality network to cast this spell.</p>"
     },
     "MfsxPjshwZJZuNpN": {
       "name": "辐射术",
@@ -248,7 +264,8 @@
       "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
     },
     "OudLZtxmg6gI1UEL": {
-      "name": "念动绞扼"
+      "name": "念动绞扼",
+      "description": "<p>你以精神力量牢牢扼住一个生物的咽喉或者类似重要生理结构，将其提起离地数寸，难以呼吸。尝试一次远程法术攻击对抗目标的AC，在命中时，你造成6d12钝击伤害，并且目标被@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]。当以这种方式被禁足时，目标需要屏住呼吸，否则便会开始窒息（429页）。当你每轮第一次维持该法术时，目标都会再受到1d12持续钝击伤害并保持禁足，并需要继续屏住呼吸。目标可以尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]（逃脱DC为你的法术DC，并且逃脱的尝试会受到失能特征的影响）。</p>"
     },
     "QiW8VNdBf0SFUq69": {
       "name": "刺激细胞",
@@ -355,7 +372,8 @@
       "description": "<p>A tiny particle of incredibly dense mass magically blossoms into a gravitational singularity that pulls creatures toward it and spatially compresses any creatures that are moved into it. You create a singularity in a 5-foot square that is unoccupied by any creatures. All creatures and unsecured objects in a @Template[type:emanation|distance:50] around the singularity are moved toward the singularity when the spell is cast, depending on their Reflex save (see below). Creatures and objects are moved starting with those closest to the singularity, so they might block the path of other creatures and objects that are pulled in later.</p>\n<p>Creatures' spaces can overlap in the square that contains the singularity. A creature or object that enters the singularity or ends its turn there takes 10d10 bludgeoning damage with no saving throw. While in the singularity, a creature can take no actions except to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} against your Spell DC. When the spell ends, the singularity disappears, and overlapping creatures are moved to the closest unoccupied space, as determined by the GM.</p>\n<p>Squares in the emanation are difficult terrain for creatures moving away from the singularity, and creatures moving toward the singularity can move 10 feet for each 5 feet of movement they spend.</p>\n<p>A creature needs to attempt a Reflex save if it's in the area when the spell is cast and when it ends its turn in the area.</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物被拉向奇点10尺。</p>\n<p><strong>失败</strong>该生物被拉向奇点20尺。</p>\n<p><strong>大失败</strong>该生被拉向奇点30尺。</p>"
     },
     "ahXTkKpQtOTAQOFm": {
-      "name": "强化武器"
+      "name": "强化武器",
+      "description": "<p>你将魔力灌注至武器中，使其能安全突破常规运作极限。如果目标是商用型或战术型武器，它变为先进型武器，在攻击骰上获得+1物品价值，并且伤害骰增加到2个。</p><hr /><p><strong>Heightened (6th)</strong> If the target is a commercial, tactical, advanced, or superior weapon, it becomes an elite weapon, gaining a +2 item bonus to attack rolls and increasing the number of weapon damage dice to three.</p>\n<p><strong>Heightened (9th)</strong> The target becomes a paragon weapon, gaining a +3 to item bonus to attack rolls and increasing the number of weapon damage dice to four.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.yopd0S7smKU5eB07]</p>"
     },
     "bBQ83xDvjQS3W1CG": {
       "name": "测量术",
@@ -464,6 +482,9 @@
     "nf8q0zvJDnnkzANe": {
       "name": "扫描环境",
       "description": "<p>你分析1英里范围内的自然环境，了解大气层、生物群落和重力的一般信息。预测未来一小时的天气，包括天气自哪而来；了解该区域有哪些大气、生物群落和重力，以及与这些元素的方向和距离；了解该区域是否存在环境危害，包括冷热危险（在什么温度范围）、辐射（严重程度）、烟雾效果和水下条件。这足以探测到直径超过30英尺的大型效果。你可以大致了解这些危险的位置和距离。</p><hr /><p><strong>升阶（+1）</strong>扫描范围增加1英里。</p>"
+    },
+    "ogEFxmaTBlXcpdoS": {
+      "name": "铸造漂流信标"
     },
     "p83iYWlcJRqe0PxL": {
       "name": "适应性迷彩",
@@ -579,12 +600,5 @@
     "zzi7LUKxKNWr5GsG": {
       "name": "命能新星"
     }
-  },
-  "folders": {
-    "Witchwarper": "织维巫师",
-    "Mystic": "秘术师",
-    "Rituals": "仪式",
-    "Technomancer": "科技法师",
-    "Spells": "法术"
   }
 }

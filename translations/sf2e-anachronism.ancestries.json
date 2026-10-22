@@ -1,0 +1,168 @@
+{
+  "label": "族裔",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    }
+  },
+  "entries": {
+    "06FBb4UDg64S5AYI": {
+      "name": "维斯克蜥人",
+      "description": "<p><em>维斯克蜥人是好战的，爬行类人种，他们在发展出了空间飞行技术之后不久便征服了自己恒星系的八个世界，建立了维斯卡里姆帝国。维斯克蜥人往往青睐征战，尊重力量和军事实力。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.JxPJE2NPYNZ54EUO]{Vesk}</p>"
+    },
+    "0qcXAQo7iZkZXNO9": {
+      "name": "轻灵兽"
+    },
+    "1PqfYUqdVQGtLdfr": {
+      "name": "四臂蜗族",
+      "description": "<p><em>从出生之日起就知道自己确切的死亡日期，这赋予了这些具有心能能力、软体动物状的异怪一种近乎普遍的紧迫感，促使他们行动。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.KuRztwBUUmXP2z0e]{Mecenaic}</p>"
+    },
+    "1gJeLPnHFATPQej2": {
+      "name": "巫洛格",
+      "description": "<p><em>巫洛格族是深思熟虑的硅基生命体，以几何图形为灵感，并常常游荡在星际之间，探索星系最神秘问题的答案。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.zPj0jzUVRNQBGevO]{Urog}</p>"
+    },
+    "23MA5Ee7ExUfzrqk": {
+      "name": "卡洛鱼人",
+      "description": "<p><em>卡洛鱼人来自环绕布雷瑟达的水卫星。这些水生的类人生物以艺术与创造力为核心文化，在战斗中运用流畅的格斗风格。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.4NBdb6i5jpPj7Fns]{Kalo}</p>"
+    },
+    "3Wox3ai1kgji07FE": {
+      "name": "星蛸族",
+      "description": "<p><em>星蛸族没有明确的起源或已知的母星。他们可塑的身躯隐藏着一种极少向他人展示的奇特自然形态。但通过改变身体以适应新的环境，星蛸族已在星系各色各样的文化中建立了与身份数量相当的家园。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.EXSYGSHJh9ekPvj2]{Astrazoan}</p>"
+    },
+    "3iuWdarohpDFhlxX": {
+      "name": "飞螅族",
+      "description": "<p><em>飞螅族是在气态巨行星布雷瑟达上进化而来的漂浮水母状生物。飞螅族能本能地随意改写自己的基因编码，将自己的身体塑造成各种令人惊叹的独特形态。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.CFvzqUAC03CP6sJI]{Barathu}</p>"
+    },
+    "5GW7nKNbRjjruxIc": {
+      "name": "双相人",
+      "description": "<p><em>在长达数以年计的沉睡与清醒阶段之间交替，双相人必须依靠他们无穷无尽的精力以及两颗头脑的求知欲，来跟上时事、科学突破和流行文化。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.PyfmBnLKNb84Yac1]{Phasorq}</p>"
+    },
+    "6BG5tO0g9kCFfTym": {
+      "name": "奥罗科兰人"
+    },
+    "75TqHknsQuinDLjn": {
+      "name": "趴爪族",
+      "description": "<p><em>趴爪族是一种来自临近星系的猫形类人生物。他们竞争意识极强，以在魔法、音乐和战争方面的成就而闻名。他们的家园世界最近从维斯卡里姆的占领中得到了解放，在那之后他们加入了协约世界。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.9ksnOvkrSXXFFFDX]{Pahtra}</p>"
+    },
+    "9p9GNLHDRocLlKVU": {
+      "name": "水獭人",
+      "description": "<p><em>长相酷似水獭的水獭人通常友善且善于社交，但被逼到绝境时也会展现出强大的攻击性。它们利用特化的胡须感知周围人的情绪，通常能培养出共情能力。但当情绪强烈或充满攻击性时，性情温和的水獭人可能会紧紧抓住朋友的手或紧紧抱住自己最喜欢的石头以求安慰，而好斗的水獭人则可能义无反顾地冲入冲突之中。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.6yAJOHfrvkKeJYfy]{Brenneri}</p>"
+    },
+    "AjSZKAwWEw0AfAJR": {
+      "name": "奇植族"
+    },
+    "Bgn9LCnpSZNJdXht": {
+      "name": "松鼠狐人",
+      "description": "<p><em>松鼠狐人是一种智慧的、两足行走的类人生物，外形介于狐狸和松鼠之间。他们可爱且毛茸茸的，经常被误认为是松鼠狐。松鼠狐人充满好奇心，适应能力强，在语言学方面有着令人印象深刻的天赋，并且对探索宇宙充满热情。</em></p>"
+    },
+    "CURlEp5fEl0WJq9L": {
+      "name": "绍贝德人",
+      "description": "<p><em>绍贝德人，或他们自称的绍贝德族（shobhad-neh），是阿基顿星球上的游牧民族。尽管其他物种猜测绍贝德人可能是位面旅行者的后裔，甚至可能是其他物种的变异后代，但绍贝德人知道他们一直都是阿基顿星球的一部分。这些巨大的四臂类人生物认为自己是阿基顿星球的原住民，在星球表面进行着长达千年的迁徙。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.74DsBZDbuChtrw3r]{Shobhad}</p>"
+    },
+    "Fhhxk7toaVGjwoMY": {
+      "name": "鼹鼠人"
+    },
+    "FjBJNHdiWAvu1lV7": {
+      "name": "希伦虫人",
+      "description": "<p><em>形似昆虫的希伦虫人自嗜杀虫群中分裂而出，抛弃了残酷的蜂巢思维，转而追求个人的自由，最终摆脱了他们生而参与的横跨星际的暴力循环。希伦虫族具备心灵感应的能力，投身于个人自由、社区集体以及多民族和谐共处的事业。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.RM78QDGhVPlPrcvG]{Shirren}</p>"
+    },
+    "H6dkr1GtoQhuQqJm": {
+      "name": "卡萨斯人",
+      "description": "<p><em>卡萨斯人承袭着遥远家园星球的古老传统，那是一颗环绕着垂死恒星的星球，他们是一种乘坐者名为伊达里号的巨型世界舰抵达协约世界的四臂类人生物。卡萨斯人追求万物间的宇宙平衡，以祖先的智慧淬炼科技进步为荣。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.PKGmC9bntc0F90mY]{Kasatha}</p>"
+    },
+    "HFVQhUxBt6UTtuny": {
+      "name": "异客蜥人"
+    },
+    "HIfj37OghTgagFkx": {
+      "name": "因图菌群",
+      "description": "<p><em>因图是可以与动物宿主完美共生的心灵感应真菌菌落。一个自愿的因图宿主会转变为一个拥有双重灵魂、与因图伙伴永久和谐融合的被拔擢的智慧生物。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.qjNwFaio5xKTYjuN]{Entu Colony}</p>"
+    },
+    "KFNOUfQWPUBW5zSC": {
+      "name": "默思族",
+      "description": "<p><em>在无数代追求心智自我完善的过程中，默思族进化出了既擅长数理又精通魔法的巨型大脑。他们天生的念动能力推动他们在空中行进，而审慎的好奇心则驱使着他们不断探索与创新。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.8Opb2Tdkx6LQeINA]{Contemplative}</p>"
+    },
+    "PlNDe6phAadFXxCN": {
+      "name": "坚叶族",
+      "description": "<p><em>坚叶族习惯于一个充满沙尘暴和微观掠食者集群的危险家园世界，发展出了强健的体质、厚实的皮肤和足以应对大多数威胁的天生防御。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.LUOcdDWKI9PflPNL]{Hardor}</p>"
+    },
+    "RKv77bXjesIUAPxG": {
+      "name": "奥德",
+      "description": "<p><em>拉泽尔（Lazel）这颗遍布陨石坑的星球上的地下居民，在庞大而相互连接的洞穴群系中生活，发展出了丰富而富有音乐性的文化。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.oLLS6Lr0N2clHVhB]{Ord}</p>"
+    },
+    "RP7fqj4Rpu0IBf6t": {
+      "description": "<p><em>被俗称为石面鱿（stone-faced squids）的石面鱿族用岩石外壳保护它们柔软的外套膜 。一旦变态发育成成体，每只石面鱿族就会加入它们能找到的最近的群体，急切地融入它们新认的大家庭。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.XqrIC6bVeCGHorx6]{Ijtikri}</p>"
+    },
+    "SVj4h0ca15YwThuX": {
+      "name": "沼栖族",
+      "description": "<p><em>沼栖族是来自泽勒星（Czelle）的安静沼泽居民，以耐心、潜行和家族忠诚而闻名。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.rXAjicO1UNw2rIgp]{Binnaquid}</p>"
+    },
+    "WfllaPpt1pxGVMAG": {
+      "name": "雷弗瑞亚人"
+    },
+    "WmgIz3fJAh4xJ9Gk": {
+      "name": "维萨尼"
+    },
+    "XKW1SziWusHoaCRd": {
+      "name": "灵脑人",
+      "description": "<p><em>灵脑人是一种头骨异常增大且具有内在魔法天赋的类人生物。在灾变摧毁他们的星球之前，他们曾是伊奥克斯的主导物种，如今仅有少数幸存者栖身于孤立的地下堡垒社区，或沦为企业设施中的活体娱乐品。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.SZj7pxMnq5vKtc6K]{Elebrian}</p>"
+    },
+    "XcmRKGimGvezRawa": {
+      "name": "马拉魁族"
+    },
+    "ZDExBZqdqYUtv5dg": {
+      "name": "拉申塔人",
+      "description": "<p><em>很久以前，拉申塔人进化出心能能力与独特的二态性，助其在家园世界卡斯卓韦生存。现代拉申塔人会在青春期操控自身基因，使个体发展为更偏向于学者或战士，但并非所有拉申塔人都遵循这些传统选择。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.9ftj9N4Me4eKiz2T]{Lashunta}</p>"
+    },
+    "aprkTkhSLZpceLDG": {
+      "name": "自主机器人"
+    },
+    "fqn2WK47MN0gqax3": {
+      "name": "火蟹族",
+      "description": "<p><em>火蟹族是一种富有哲思的六足生物，已知栖息在被称作卡兹穆格的荒诞星域的破碎太空区域。它们胃里独特的化学成分使他们能喷出火焰。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.SlvjW6HgfmTaoMVl]{G'folian}</p>"
+    },
+    "i1fnTVBTRYSqFY2c": {
+      "name": "萨瑟蝶人",
+      "description": "<p><em>萨瑟蝶人是天生的太空旅行者，凭借能量与光构成的蝶翼滑翔着穿越宇宙的虚空。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.ee8BWzMS4DI5xkOs]{Sarcesian}</p>"
+    },
+    "jNE2Zq46a9kQj7bi": {
+      "name": "龙人",
+      "description": "<p><em>龙人外貌与龙类似，相当忠诚，他们具有深刻的共情能力，能与其他生物形成几乎牢不可破的精神纽带，外显为心灵感应和战术协同。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.EybiktinX2zD2k45]{Dragonkin}</p>"
+    },
+    "lU4TJFs95esViIHI": {
+      "name": "拉西利特族"
+    },
+    "mBsOLC7cRc7nkzV2": {
+      "name": "弗拉卡狼人",
+      "description": "<p><em>弗拉卡狼人是有着狼一样外貌的游牧民族，厚毛皮帮助他们在严寒中生存，就如同在他们的家园世界拉约克那样。他们有惊人的嗅觉，通常天生耳聋、目盲或又瞎又聋。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.K1V6GOyRxsqUKBY9]{Vlaka}</p>"
+    },
+    "mvomk7uS0Gfh72sg": {
+      "name": "卓克斯虫人"
+    },
+    "oHnxW7Wgf0EaGK14": {
+      "name": "纺蛛人",
+      "description": "<p><em>纺蛛人作为桑迪特联合体的工匠而闻名，是来自祖尔凡星、狡黠而蜘蛛般的民族。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.bVLORyUVTBBXPDgE]{Atraxid}</p>"
+    },
+    "q6fTXrRTneiqXs63": {
+      "name": "马德罗萨莱人"
+    },
+    "tvjMyXjibIywAPh2": {
+      "name": "珊瑚人",
+      "description": "<p><em>珊瑚人曾居住在宏伟的浮空城中，与宇宙的自然引力有着与生俱来的连结。他们对家园世界环境的滥用导致了极为惨烈的内战，并摧毁了这颗星球——如今，他们必须开辟新的道路。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.8f9r5sVKJdRKh8du]{Copaxi}</p>"
+    },
+    "vlYBDZbj6zWBFR0b": {
+      "name": "方贡族",
+      "description": "<p><em>方贡族拥有复数脑部，并且继承了源自和平联盟行星组成的古老网络的知识，它们是杰出的数学家与科学家。凭借着泥怪一般的身躯与卓越的智慧，方贡族得以在其危机四伏的家园世界中那严酷且不可预料的气候中生存下来。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.B22EiYVRXwn2ecve]{Fonqugon}</p>"
+    },
+    "waaL4y6dUPzy8Emb": {
+      "name": "新星族",
+      "description": "<p><em>新星族是迷你的太阳——由恒星死亡诞生，超热的等离子和火焰构成超小型飞行粒子。尽管体型微小，星族密度极高，散发着强大的引力场，使他们能够移动和操作物体，以及对他人施加自己的力量。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.2cRNeCylPnF0g5mT]{Novian}</p>"
+    },
+    "yOnW818fHTfnwg2k": {
+      "name": "弗米蚁族",
+      "description": "<p><em>弗米蚁族是形似巨型蚂蚁的心能昆虫类人生物。他们与拉申塔人和精灵共同生活在卡斯卓韦，但弗米蚁群和拉申塔城邦之间残酷的世代战争仍然在生者的记忆中挥之不去。尽管弗米蚁族是巢群意识的一部分，但他们的社会性和心能联系仍然是他们身份的核心体现。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.fYn4p1tmavPS6Q7B]{Formian}</p>"
+    }
+  }
+}

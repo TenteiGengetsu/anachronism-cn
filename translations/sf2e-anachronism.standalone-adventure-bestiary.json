@@ -1,0 +1,709 @@
+{
+  "label": "独立冒险",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    },
+    "items": {
+      "path": "items",
+      "converter": "sf2eAnachronismCnItems"
+    },
+    "publicNotes": "system.details.publicNotes"
+  },
+  "entries": {
+    "72CtlZtcyALXu6VB": {
+      "name": "蕈爪兽",
+      "items": [
+        {
+          "id": "au5Rve8OzRV4hnep",
+          "expectedName": "Entangling Mycelia",
+          "name": "缠绕菌丝",
+          "expectedDescription": "<p>Creatures hit by a shroomclaw's claw Strike are @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round.</p>",
+          "description": "<p>被蕈爪兽爪打击命中的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}，持续1轮。</p>"
+        },
+        {
+          "id": "UdBJP2s2IOT8CKkU",
+          "expectedName": "Pounce",
+          "name": "扑击",
+          "expectedDescription": "<p>The shroomclaw Strides and makes a Strike at the end of that movement. If the shroomclaw began this action @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, it remains hidden until after its Strike.</p>",
+          "description": "<p>蕈爪兽行走并在此次移动结束时进行一次抓打击。如果蕈爪兽在此动作开始时处于@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]状态，则它保持藏匿直到打击结束。</p>"
+        },
+        {
+          "id": "FLaVpQZc5e83Hvyd",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "B9kkrYVntS3706a9": {
+      "name": "实光微龙",
+      "items": [
+        {
+          "id": "CQs8rMQBAQgCoRIS",
+          "expectedName": "Adhere",
+          "name": "附着术"
+        },
+        {
+          "id": "VFVqGfzloVxq7JNi",
+          "expectedName": "Akashic Download",
+          "name": "阿卡西下载",
+          "expectedDescription": "<p>You execute a psychic search of the Akashic Record for information about a specific topic and magically transfer this data to your comm unit or computer. When you Cast this Spell, choose any skill in which you're trained that has the @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} action.</p>\n<p>Any time during the duration, you can consult your comm unit while attempting a Recall Knowledge check using your chosen skill. This check gains a +1 status bonus. Checking your comm unit is part of the action to Recall Knowledge. You must be holding the comm unit to do so. The comm unit instantly compiles and displays snippets and selections from various media relevant to the topic, which grants you the bonus. If you roll a critical failure on this check, you get a failure instead. If the check is successful and the subject is a creature, you gain additional information or context about the creature. Once you reference the comm unit, the spell ends. When the spell ends, your access to the Akashic Record ends, and all the information you downloaded returns to the Akashic Record.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.h1i8c47U0IOrMrHJ]</p><hr /><p><strong>Heightened (3rd)</strong> You can reference your comm unit three times before the spell ends.</p>",
+          "description": "<p>你通过灵能搜索阿卡西记录，获取特定主题的信息，并将数据魔法传输至通讯单元或计算机。施放此法术时，选择任何你至少为受训熟练度且能进行@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]动作的技能。</p>\n<p>在持续时间内的任何时候，你都可以在使用所选技能进行回忆知识检查时查询通讯单元。该检定会获得+1状态加值。检查通讯单元是回忆知识动作的一部分。你必须手持通讯单元才能这样做。通讯单元会立即编译并显示与主题相关的各种媒体片段和精选内容，从而为你带来加值。如果你在检定中掷出大失败，改为失败。如果检定成功，且对象是生物，你将获得有关该生物的额外信息或内容。一旦你查询了通讯单元的信息，法术就会结束。当法术结束时，你对阿卡西记录的访问也会结束，你下载的所有信息都会返回阿卡西记录。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.h1i8c47U0IOrMrHJ]</p><hr /><p><strong>Heightened (3rd)</strong> You can reference your comm unit three times before the spell ends.</p>"
+        },
+        {
+          "id": "OQyyZWdHLiSj5e7l",
+          "expectedName": "Analyze Target",
+          "name": "分析目标",
+          "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+        },
+        {
+          "id": "N2yYKIQmdifvWBor",
+          "expectedName": "Delete",
+          "name": "删除术",
+          "expectedDescription": "<p>You delete data from a device or object with a flamboyant magical gesture. This data might be handwritten, printed, or digital. You delete up to 1,500 words' worth of text, one page of content, or one display screen worth of text or other visual information. Non-magical writing in or on an unattended or held object is automatically deleted. Attempt a counteract check to delete digital or magical writing. If you fail to delete writing that's part of a hazard, you trigger the hazard. This can't be used to delete the contents of a spellbook or similar means of storing magical formulas or spells.</p>\n<p>If you target an attended tech item with the tracking trait, attempt a counteract check. On a success, the item becomes glitching 1. A creature holding the item can Interact to restart the software, reducing the glitching value by 1.</p><hr /><p><strong>Heightened (7th)</strong> You can delete all the data stored locally on a single device or book, or all the data on a device or book related to a specific name, topic, or category.</p>",
+          "description": "<p>你以华丽的魔法手势删除设备或物品中的数据。这些数据可以是手写的、打印的或电子的。你最多可以删除 1,500字的文本、一页内容或一显示屏的文本或其他视觉信息。无主物品或手持物品上的非魔法文字会自动删除。尝试反制检定删除数据或魔法文字。如果你尝试删除的文字是危害的一部分，且你失败，就会触发危害。这不能用于删除魔法书或类似的存储魔法公式或法术的内容。</p>\n<p>如果目标是具有追踪特征的科技物品，尝试一次反制检定。如果成功，该物品就会获得故障1。持有该物品的生物可以花费一个交互动作来重启用户界面，并将故障值降低1。</p><hr /><p><strong>升阶（7环）</strong>你可以删除单个设备或书籍中本地存储的所有数据，或者删除设备或书籍中与特定名称、主题或类别相关的所有数据。</p>"
+        },
+        {
+          "id": "9eZYIETe6KZmDXkk",
+          "expectedName": "Detect Magic",
+          "name": "侦测魔法"
+        },
+        {
+          "id": "wR1B0YXEHHKU79Kc",
+          "expectedName": "Measure",
+          "name": "测量术",
+          "expectedDescription": "<p>You learn the approximate measurements (length, width, depth, height, and weight) of creatures and objects you can observe in the area. If an object or creature extends out of the area, you learn only the measurements within the area, but nothing about what you can't observe. For example, you can't determine the thickness or weight of a wall you can observe only one side of, or the depth of water that extends beyond the spell's range. Each time you Sustain the spell, you learn the exact measurements of one creature or object in the area, including imprecisions or anomalies that might indicate structural weakness. Magically altered targets give you information that reflects what you observe rather than accurate measurements.</p><hr /><p><strong>Heightened (+1)</strong> Extend the range of measure by 100 feet.</p>",
+          "description": "<p>你可以了解周围生物和物体的大致尺寸（长度、宽度、深度、高度和重量）。如果物体或生物延伸出了该射程，你只能了解该区域内的测量值，而无法观察到的东西则无法了解。例如，你无法确定只能观察到一面的墙壁的厚度或重量，也无法确定超出法术射程的水深。每次维持法术时，你都会了解该区域内一种生物或物体的精确测量结果，包括可能揭示结构弱点的不精确或异常现象。被魔法改变的目标所提供的信息反映的是你所观察到的情况，而不是精确测量值。</p><hr /><p><strong>升阶（+1）</strong>延展测量距离100尺。</p>"
+        },
+        {
+          "id": "cGyV7dam9ImFfvrd",
+          "expectedName": "Summon Robot",
+          "name": "召唤机器人",
+          "expectedDescription": "<p>You summon a creature that has the tech trait and whose level is –1 to fight for you.</p><hr /><p><strong>Heightened</strong> As listed in the @UUID[Compendium.sf2e-anachronism.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.8gcp880pEWZ9VPnF]{summon} trait.</p>",
+          "description": "<p>你可以召唤一个拥有科技特征并且等级为-1的常见生物为你而战。</p><hr /><p><strong>Heightened</strong> As listed in the @UUID[Compendium.sf2e-anachronism.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.8gcp880pEWZ9VPnF]{summon} trait.</p>"
+        },
+        {
+          "id": "Prvm65tnduY9LSvZ",
+          "expectedName": "Super Quick",
+          "name": "超级迅速",
+          "expectedDescription": "<p>When the hardlight dragonet Casts a Spell, they can Step or Stride as part of the activity.</p>",
+          "description": "<p>当实光微龙施法时，它可以作为此行动的一部分进行快步或行走。</p>"
+        }
+      ]
+    },
+    "CMsLlMOHgoEzaVkt": {
+      "name": "烬蛛族哨兵",
+      "publicNotes": "<p>哨兵是在漂流危机中首次登上军阀战舰的新手船员。</p><hr /><p>A few scattered groups of jinsuls have established isolated bases on Aballon. Most are small squads of troopers attached to an officer, usually a mystic or tactical leader who they all respect or fear and have agreed to serve.</p><h2>Teardrop Ice Well Jinsuls</h2><p>The jinsuls in this adventure follow a commander called Warlord Hura. On the verge of a hostile takeover of a neighboring system controlled by a weaker warlord, Hura was positioned to significantly expand their holdings in Near Space—until the Drift Crisis spat them and their loyal crew out in Pact Worlds space over Aballon. Crashing on an inhospitable world deep behind enemy lines, Hura and their followers fled underground from the brutal sun. The jinsuls gradually carved tunnels into the rock, some wearing their leg blades down until they were smooth, before they finally emerged into an underground cave—Teardrop Ice Well.</p><h2>Undercurrents of Mutiny</h2><p>Over time, under the oppressive conditions of the Ice Well, facing hazards both natural and supernatural, Hura and their followers grew weaker, more isolated, and more desperate than others of their kind. It's only a matter of time before Hura's sworn blades—conditioned from birth to protect them—abandon everything they believe in, kill their leader, and flee in search of salvation and spoils elsewhere.</p>",
+      "items": [
+        {
+          "id": "ZHNSEyCmBqaFUFrI",
+          "expectedName": "Incendiary Grenade (Commercial)",
+          "name": "商用型爆燃手雷",
+          "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> 5 feet</p><hr /><p>These grenades use an ignited chemical to explode in a blast of intense heat and deal 1d8 fire damage with a @Check[reflex|against:class|basic] save (@Template[burst|distance:5]). If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw against incendiary grenades are knocked away from the grenade.</p>",
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>击退5尺</p><hr /><p>These grenades use an ignited chemical to explode in a blast of intense heat and deal 1d8 fire damage with a @Check[reflex|against:class|basic] save (@Template[burst|distance:5]). If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw against incendiary grenades are knocked away from the grenade.</p>"
+        },
+        {
+          "id": "dKnBB4QUibwrAHqr",
+          "expectedName": "Seeker Rifle",
+          "name": "追猎者步枪"
+        },
+        {
+          "id": "HaTWx0FAWyeNETx0",
+          "expectedName": "Seeker Rifle",
+          "name": "追猎者步枪"
+        },
+        {
+          "id": "lKjwdqJZNj5UtFRM",
+          "expectedName": "All-Around Vision",
+          "name": "全域视野"
+        },
+        {
+          "id": "xKVmqP8AbmDmeTTd",
+          "expectedName": "Area Fire",
+          "name": "区域射击"
+        },
+        {
+          "id": "dxaYpcGVpeiNd4Mv",
+          "expectedName": "Ocular Scopes",
+          "name": "眼球望远镜",
+          "expectedDescription": "<p>The lookout overlays ocular implants allowing them to aim through punishing weather conditions and gather data through infravision. The lookout ignores any non-magical sources of concealment until the end of its turn.</p>",
+          "description": "<p>哨兵覆盖在眼球上的植入体允许他们在恶劣天气条件下精准瞄准，并通过红外视觉收集数据。哨兵忽略所有非魔法来源的隐蔽，直到其回合结束。</p>"
+        }
+      ]
+    },
+    "G1d564VXPDPdsoTp": {
+      "name": "恐蕈爪兽",
+      "publicNotes": "<p>恐蕈爪兽，它们有时被如此戏称，对准备不足的探险者来说非常危险。它们是机会主义的掠食者，虽然它们可以击败最经验丰富、装备精良的队伍，但也会考验新手，或追击虚弱或无助的生物。</p><hr /><p>Called shroomclaws by the first explorers who encountered them, these predators have evolved to thrive in the frosty depths of Aballon's Ice Wells. Every spring, shroomclaws take root deep in the Gloaming and spawn. Weeks later, glimmering kittens with strange sporelike growths wriggling throughout their fur emerge from the depths and wander into camps. The survivors that aren't picked off by predators or poached for a lucrative export business grow quickly on a diet of flora and insects.</p>",
+      "items": [
+        {
+          "id": "xtKxxWGlYegmmFbd",
+          "expectedName": "Entangling Mycelia",
+          "name": "缠绕菌丝",
+          "expectedDescription": "<p>Creatures hit by a shroomclaw's claw Strike are @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round.</p>",
+          "description": "<p>被蕈爪兽爪打击命中的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}，持续1轮。</p>"
+        },
+        {
+          "id": "fjzqjF3Inwip84zH",
+          "expectedName": "Pounce",
+          "name": "扑击",
+          "expectedDescription": "<p>The shroomclaw Strides and makes a Strike at the end of that movement. If the shroomclaw began this action @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, it remains hidden until after its Strike.</p>",
+          "description": "<p>蕈爪兽行走并在此次移动结束时进行一次抓打击。如果蕈爪兽在此动作开始时处于@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]状态，则它保持藏匿直到打击结束。</p>"
+        },
+        {
+          "id": "uEbT0LAakdeIaitB",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "Ik87v6WqY9xjgCIU": {
+      "items": [
+        {
+          "id": "1M9UmFtZ9lXVvBfl",
+          "expectedName": "Quantum Field",
+          "name": "量子场域"
+        }
+      ]
+    },
+    "JDhx6HgslZXqaK9Q": {
+      "name": "新械族飞翼机",
+      "publicNotes": "<p>新械族飞翼机非常常见。飞翼机几乎与无人机无异，由虚拟智能（VI）程序驾驶，为洞悉阵列及其代表服务。阿巴隆的大部分大都市区都安装了间隔均匀的发射器，飞翼机可以随时将视频信息传输给其VI“操作员”。飞翼机的机翼上安装了太阳能电池板，可以在飞行中进行充电。</p><hr /><p>Recording the countless forms and upgrades anacites have taken in the long period since their creators abandoned them would be impossible, as nearly every shape and function one might imagine can be found among this industrious species.</p>\n<p>Many anacites share common design principles, such as silvery, metallic bodies, multiple legs, and forms that resemble arthropods. They often have grasping claws to accomplish generic tasks, though some might have limbs or appendages suited to extremely specific purposes. The most basic anacites, such as wingbots, who lack minds of their own, are the most likely to look \"standardized,\" but most anacites are unique. Their specific role might dictate that an anacite must be able to lift heavy loads, in which case the anacite might resemble a forklift more than a bug or perhaps have the features of both. Anacite culture prizes innovation, and most anacites view their bodies and programming as no exception, always willing to try new parts and builds or download skill modules to broaden their horizons.</p>\n<p>The other types of anacites most often found in Striving include bulky laborers, spindly bureaucrats, and civil servants of all types. In neighborhoods that cater mostly to off-worlders and organics, some anacites have specialized roles to make the area more appealing to non-anacite life. Such anacites might receive assignments from Insight Array to \"visit every club and eatery in the area,\" \"chat with strangers in public spaces,\" or \"routinely ask tourists for help crossing the street.\" These chosen anacites take these roles as seriously as any other.</p><h2>Anacite Augmentations</h2><p>Almost all anacites augment their bodies in some way, either to directly enhance their ability to perform their specific function in society or to set them apart from other anacites with a unique feature. On Aballon, such augmentations are easy to come by, and if the anacite can prove the augmentation will contribute to their society, they're often completely free. Some anacites take advantage of this availability to swap their augmentations on a regular basis.</p><h2>Anacite Programming</h2><p>Because they're robots, anacites are programmed for specialized tasks and abilities, but each has free will and a complex inner life. Every anacite also has a purpose assigned at manufacture, which most take very seriously. In their lifetime, an anacite is likely to pursue different types of work as determined by Insight Array. Following programming and serving the algorithm are edicts for almost all anacites. Following these edicts brings fulfillment and pleasure, while anacites who go against their programming may feel guilt or even physical discomfort,</p>",
+      "items": [
+        {
+          "id": "QSCuX8LWpD5NGJn5",
+          "expectedName": "Always Watching",
+          "name": "时刻监视"
+        },
+        {
+          "id": "7P9fetbhgPjU7FFq",
+          "expectedName": "Shortwave",
+          "name": "短波通讯",
+          "expectedDescription": "<p>The anacite can communicate using wireless shortwave signals. This functions as telepathy with other creatures who have shortwave and with creatures with both the construct and tech traits.</p>",
+          "description": "<p>新械族可以使用无线短波信号进行交流。这视作可以与其他具有短波通讯能力的生物以及同时具有构装体和科技特征的生物进行心灵感应。</p>"
+        },
+        {
+          "id": "iUvEzEgtm6gUnq8m",
+          "expectedName": "Sunlight Dependency",
+          "name": "阳光依赖"
+        },
+        {
+          "id": "9iNiD6x5r3lbwnlu",
+          "expectedName": "Nanites",
+          "name": "纳米体"
+        }
+      ]
+    },
+    "JGiPw7ZlblpZA4Uh": {
+      "name": "机械教破坏者",
+      "items": [
+        {
+          "id": "d2D0xKFW53yWSETY",
+          "expectedName": "Laser Rifle",
+          "name": "激光步枪"
+        },
+        {
+          "id": "5Us36olX6Ad0WkRD",
+          "expectedName": "Microcord Armor",
+          "name": "微纤护甲"
+        },
+        {
+          "id": "e82k3SR0TjbXK7ET",
+          "expectedName": "Cellular Stimulant Spell Amp",
+          "name": "刺激细胞法术安瓿",
+          "expectedDescription": "<p>Known on most worlds as \"spell amps,\" spell ampoules are ready-to-use magic injections that confer the benefits of a spell of the specified rank.</p>\n<p><strong>Activate—Inject</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> 1st-rank @UUID[Compendium.sf2e-anachronism.spells.Item.QiW8VNdBf0SFUq69] spell (DC 15)</p>",
+          "description": "<p>在多数世界被称为“法术安瓿”的法术安瓿瓶，是一种即用型魔法注射剂，可赋予使用者特定环阶法术的好处</p>\n<p><strong>Activate—Inject</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> 1st-rank @UUID[Compendium.sf2e-anachronism.spells.Item.QiW8VNdBf0SFUq69] spell (DC 15)</p>"
+        },
+        {
+          "id": "Uw0Ayj223vtwnPwC",
+          "expectedName": "Knife",
+          "name": "短刀"
+        },
+        {
+          "id": "0USEiw9POH7TlFgm",
+          "expectedName": "Laser Rifle",
+          "name": "激光步枪"
+        },
+        {
+          "id": "4iVQwqTkXTQpFapS",
+          "expectedName": "Jump",
+          "name": "跳跃",
+          "expectedDescription": "<p>The Mechanizer saboteur activates jump jets installed in their body to Fly up to 20 feet with a maximum height of 10 feet, or up to 20 feet straight up. They must land at the end of this movement or fall. The jump jets don't function if removed from the Mechanizer's body.</p>",
+          "description": "<p>（操作） 机械教破坏者激活安装在身体上的跳跃喷射器，可以飞行至多20尺，最高高度为10尺，或则至多直线向上飞行20尺。他们必须在动作结束时着陆，否则将会坠落。跳跃喷射器从机械教徒的身体上拆下后无法使用。</p>"
+        },
+        {
+          "id": "0TmGdxWh7avrBWq0",
+          "expectedName": "Plugged Into the Singularity",
+          "name": "接入纯一",
+          "expectedDescription": "<p>Mechanizer saboteurs have telepathy at a 120 foot range with other Mechanizers. They don't need a hacker's toolkit to Hack and can do so remotely within 120 feet of a device they can see.</p>",
+          "description": "<p>（科技） 机械教徒破坏者与其他机械教徒之间拥有 120尺范围的心灵感应。他们无需黑客工具包即可进行骇入，并能对120尺内的可见设备进行远程骇入。</p>"
+        }
+      ]
+    },
+    "NnQBKncquo3jiUZo": {
+      "items": [
+        {
+          "id": "jnWsuuJyg6seZKQx",
+          "expectedName": "Hardlight Handwraps (Tactical)",
+          "name": "战术型实光缠手带"
+        },
+        {
+          "id": "RYtm1HE0ui5rzhCJ",
+          "expectedName": "Microcord Armor",
+          "name": "微纤护甲"
+        },
+        {
+          "id": "e5kB1zlqgPReMvuc",
+          "expectedName": "Augmentation Lore",
+          "name": "殖装学识"
+        },
+        {
+          "id": "QImFPccYHY0Ebk4Q",
+          "expectedName": "Life Science Lore",
+          "name": "生命科学学识"
+        }
+      ]
+    },
+    "P4cBLtXZErTqGVY8": {
+      "items": [
+        {
+          "id": "eJXmsfyjSfk8KTqM",
+          "expectedName": "Acid Dart Rifle",
+          "name": "酸镖步枪"
+        },
+        {
+          "id": "OyeXfcX1eZ0CHTai",
+          "expectedName": "Acid Dart Rifle",
+          "name": "酸镖步枪"
+        },
+        {
+          "id": "nKHxqF2F0FewRMvB",
+          "expectedName": "All-Around Vision",
+          "name": "全域视野"
+        },
+        {
+          "id": "nMAqz56YYqRaCnef",
+          "expectedName": "Aim",
+          "name": "瞄准"
+        }
+      ]
+    },
+    "YY81oi1GkgEX9d19": {
+      "name": "盾之誓刃",
+      "publicNotes": "<p>盾之誓刃以致命精准的动作挥舞着腿部利刃攻击敌人。</p><hr /><p>A few scattered groups of jinsuls have established isolated bases on Aballon. Most are small squads of troopers attached to an officer, usually a mystic or tactical leader who they all respect or fear and have agreed to serve.</p><h2>Teardrop Ice Well Jinsuls</h2><p>The jinsuls in this adventure follow a commander called Warlord Hura. On the verge of a hostile takeover of a neighboring system controlled by a weaker warlord, Hura was positioned to significantly expand their holdings in Near Space—until the Drift Crisis spat them and their loyal crew out in Pact Worlds space over Aballon. Crashing on an inhospitable world deep behind enemy lines, Hura and their followers fled underground from the brutal sun. The jinsuls gradually carved tunnels into the rock, some wearing their leg blades down until they were smooth, before they finally emerged into an underground cave—Teardrop Ice Well.</p><h2>Undercurrents of Mutiny</h2><p>Over time, under the oppressive conditions of the Ice Well, facing hazards both natural and supernatural, Hura and their followers grew weaker, more isolated, and more desperate than others of their kind. It's only a matter of time before Hura's sworn blades—conditioned from birth to protect them—abandon everything they believe in, kill their leader, and flee in search of salvation and spoils elsewhere.</p>",
+      "items": [
+        {
+          "id": "bbNgLxI8MsSaG7KO",
+          "expectedName": "All-Around Vision",
+          "name": "全域视野"
+        },
+        {
+          "id": "t0AFkvBMvqVzYwvT",
+          "expectedName": "Reactive Strike",
+          "name": "反应打击"
+        }
+      ]
+    },
+    "bv2A6D8Z3EJSm4uG": {
+      "items": [
+        {
+          "id": "vn8B9JD1hoivGhCq",
+          "expectedName": "Grindblade",
+          "name": "断切刃"
+        },
+        {
+          "id": "8NsRbQt8EKgZvTpH",
+          "expectedName": "Semi-Auto Pistol",
+          "name": "半自动手枪"
+        },
+        {
+          "id": "EkvaqYTGUXkoWLUu",
+          "expectedName": "Armored Coat",
+          "name": "衬甲外套"
+        },
+        {
+          "id": "ilhoMGGXPNxTdjHw",
+          "expectedName": "Grindblade",
+          "name": "断切刃"
+        },
+        {
+          "id": "2iJe7NNAVisxpuVF",
+          "expectedName": "Semi-Auto Pistol",
+          "name": "半自动手枪"
+        },
+        {
+          "id": "hGy6YiLZRK7uBL03",
+          "expectedName": "Kill Steal",
+          "name": "抢人头"
+        },
+        {
+          "id": "BpCpwPLzpSpqaf3e",
+          "expectedName": "Piracy Lore",
+          "name": "海盗学识"
+        }
+      ]
+    },
+    "cr8v2eWjcarLwjFY": {
+      "name": "铁翼兽",
+      "publicNotes": "<p>异星卫士谴责将动物的身体与机器部件融合的做法，声称这些实验原型是对自然的残酷嘲弄。爱好者们则认为，利用技术增强野生动物与通过魔法启蒙它们并无区别。争议愈演愈烈，但《协约法》对这一骇人听闻的实践仍迟迟未予认可。铁翼兽是一种被设计为侦察无人机的简易信号，能够自我防护并保护所携带的敏感信息或货物。</p><hr /><p>Concentrated in Aballon's frigid Ice Wells, sharpwings roost together by the hundreds or even thousands, emerging at dawn and dusk to hunt for prey in the upper shelves.</p><h2>Rare Sightings</h2><p>Sharpwings don't frequently emerge from the Ice Wells, so they can cause a stir when seen near megaplexes such as Striving. They don't pose much of a threat individually, but horror stories of vicious attacks by large flocks of sharpwings and disturbing videos captured by reckless explorers scare many tourists into shooting the creatures on sight.</p>",
+      "items": [
+        {
+          "id": "FKvCGjSKc97te6Ff",
+          "expectedName": "All-Around Vision",
+          "name": "全域视野"
+        }
+      ]
+    },
+    "d3VwBxBy5VMwfgxG": {
+      "items": [
+        {
+          "id": "Oig6V7nEl9MCdGZs",
+          "expectedName": "Grab",
+          "name": "擒获"
+        }
+      ]
+    },
+    "etsfYvKACdEaTiNw": {
+      "items": [
+        {
+          "id": "cGxqIihP1HGgVhhR",
+          "expectedName": "Phase Cutlass",
+          "name": "相位弯刀"
+        },
+        {
+          "id": "cDaFuKpznYRpNqNq",
+          "expectedName": "Laser Pistol",
+          "name": "激光手枪"
+        },
+        {
+          "id": "JZUC2l9jxF1ChGcA",
+          "expectedName": "Frag Grenade (Commercial)",
+          "name": "商用型破片手雷",
+          "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> @Damage[1[bleed]]</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deal 1d8 piercing damage in a @Template[burst|distance:5] with a @Check[reflex|against:class|basic] save.</p>",
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1[bleed]]</p><hr /><p>These fragmentary grenades explode in a cloud of shrapnel and deal 1d8 piercing damage in a @Template[burst|distance:5] with a @Check[reflex|against:class|basic] save.</p>"
+        },
+        {
+          "id": "7t95tefBvLQz27MB",
+          "expectedName": "Estex Suit",
+          "name": "埃斯特克斯服装"
+        },
+        {
+          "id": "YCcwi1ZvE2v63470",
+          "expectedName": "Phase Cutlass",
+          "name": "相位弯刀"
+        },
+        {
+          "id": "GIMKcjJqcyuIJ1HN",
+          "expectedName": "Laser Pistol",
+          "name": "激光手枪"
+        },
+        {
+          "id": "JTjBCwFMa8Z46Pj2",
+          "expectedName": "Frag Grenade (Commercial)",
+          "name": "商用型破片手雷"
+        }
+      ]
+    },
+    "k1AgdPDa4HEZC51V": {
+      "name": "青年锐翼兽",
+      "publicNotes": "<p>在过去的五年里，锐翼兽的数量急剧下降。在巨型综合体的郊外，经常可以看到孤零零、饥肠辘辘的青年锐翼兽或成对栖息的锐翼兽，这令人感到担忧。异星卫士们正在争分夺秒地寻找威胁锐翼兽的因素，以免为时过晚。</p><hr /><p>Concentrated in Aballon's frigid Ice Wells, sharpwings roost together by the hundreds or even thousands, emerging at dawn and dusk to hunt for prey in the upper shelves.</p><h2>Rare Sightings</h2><p>Sharpwings don't frequently emerge from the Ice Wells, so they can cause a stir when seen near megaplexes such as Striving. They don't pose much of a threat individually, but horror stories of vicious attacks by large flocks of sharpwings and disturbing videos captured by reckless explorers scare many tourists into shooting the creatures on sight.</p>",
+      "items": [
+        {
+          "id": "HYj5DpFOvVZEDqzX",
+          "expectedName": "All-Around Vision",
+          "name": "全域视野"
+        },
+        {
+          "id": "wk6pW3Oc5i5TwNAA",
+          "expectedName": "Talon",
+          "name": "爪刃"
+        }
+      ]
+    },
+    "oXnubvlxTtwyWHOH": {
+      "items": [
+        {
+          "id": "fRP9RDUu89f1vI6Y",
+          "expectedName": "Trigger",
+          "name": "触发"
+        }
+      ]
+    },
+    "wkdA38GonUSrOwTr": {
+      "name": "符之誓刃",
+      "publicNotes": "<p>和盾之誓刃一样，符之誓刃也宣誓效忠其上级。这些烬蛛族将全部精力都投入到保护上级身上。</p><hr /><p>A few scattered groups of jinsuls have established isolated bases on Aballon. Most are small squads of troopers attached to an officer, usually a mystic or tactical leader who they all respect or fear and have agreed to serve.</p><h2>Teardrop Ice Well Jinsuls</h2><p>The jinsuls in this adventure follow a commander called Warlord Hura. On the verge of a hostile takeover of a neighboring system controlled by a weaker warlord, Hura was positioned to significantly expand their holdings in Near Space—until the Drift Crisis spat them and their loyal crew out in Pact Worlds space over Aballon. Crashing on an inhospitable world deep behind enemy lines, Hura and their followers fled underground from the brutal sun. The jinsuls gradually carved tunnels into the rock, some wearing their leg blades down until they were smooth, before they finally emerged into an underground cave—Teardrop Ice Well.</p><h2>Undercurrents of Mutiny</h2><p>Over time, under the oppressive conditions of the Ice Well, facing hazards both natural and supernatural, Hura and their followers grew weaker, more isolated, and more desperate than others of their kind. It's only a matter of time before Hura's sworn blades—conditioned from birth to protect them—abandon everything they believe in, kill their leader, and flee in search of salvation and spoils elsewhere.</p>",
+      "items": [
+        {
+          "id": "IdCTOq0ety9fKHxH",
+          "expectedName": "Occult Spontaneous Spells",
+          "name": "异能自发法术"
+        },
+        {
+          "id": "lEvPcgS0UkyHf2JE",
+          "expectedName": "Detect Magic",
+          "name": "侦测魔法"
+        },
+        {
+          "id": "2A1WORNHHBnYCuWV",
+          "expectedName": "Eldritch Lance",
+          "name": "诡枪术",
+          "expectedDescription": "<p>You condense a beam of mind-assaulting eldritch energy from the dark spaces between the stars and fire it at a target. Make a ranged spell attack roll against the target's AC. If you hit, you deal 2d6 mental damage. On a critical success, you deal double damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>",
+          "description": "<p>你自星辰之间的幽深领域凝聚一束袭魂慑魄的怪异能量攻击目标。尝试一次远程法术攻击骰对抗目标的AC，如果命中，你造成2d6心灵伤害，在大成功时造成双倍伤害。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6。</p>"
+        },
+        {
+          "id": "Kfg1eErbg0dJ7PuP",
+          "expectedName": "Injury Echo",
+          "name": "伤口回响",
+          "expectedDescription": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 1d8, and the persistent damage on a failure increases by 1d4.</p>",
+          "description": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加1d8，豁免失败时的持续伤害增加1d4。</p>"
+        },
+        {
+          "id": "sdSOVoN8TO5jHnuP",
+          "expectedName": "Mind Skewer",
+          "name": "心灵穿刺",
+          "expectedDescription": "<p>You overload a creature's mind with a glut of psychic information or divine judgments. The mental onslaught deals 2d6 mental damage. On a critical failure, the target is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
+          "description": "<p>你可以用大量的精神信息或神圣审判使一个生物的精神超负荷。心灵冲击会造成2d6心灵伤害。在重击时，目标还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2}，持续1轮。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加 2d6。</p>"
+        },
+        {
+          "id": "kaob5KImotpjiHpc",
+          "expectedName": "Shield",
+          "name": "护盾术"
+        },
+        {
+          "id": "99e6ri5Tcn6xpaoO",
+          "expectedName": "Sonic Scream",
+          "name": "音波尖啸",
+          "expectedDescription": "<p>You unleash a painfully rapid cone of vibrations by letting out a cathartic scream, dealing 1d8 sonic damage to creatures in the area with a basic Fortitude save. A creature that fails its saving throw also becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><hr /><p><strong>Heightened (+1)</strong> Increases the damage by 1d8.</p>",
+          "description": "<p>你发出一声宣泄性的痛苦尖啸，释放锥形的振动波，对区域内的生物造成1d8音波伤害，这具有基础强韧豁免。豁免失败的生物获得@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d8</p>"
+        },
+        {
+          "id": "gT6reMUwoO29OpuD",
+          "expectedName": "All-Around Vision",
+          "name": "全域视野"
+        },
+        {
+          "id": "LcH2V7cbqVkLj3gG",
+          "expectedName": "Vitality Network",
+          "name": "活力网络",
+          "expectedDescription": "<p>The sworn blade of sigils has a vitality network they share with up to 10 bonded allies. This network can store a maximum of 10 Hit Points and begins combat full.</p>",
+          "description": "<p>符之誓刃能与至多10个建立纽带的盟友共享活力网络。此网络能最多储存10带你生命值并在战斗开始时恢复满。</p>"
+        },
+        {
+          "id": "2y75IN7VCZsvNlCL",
+          "expectedName": "Refill Vitality",
+          "name": "补充活力"
+        },
+        {
+          "id": "xRsBQHpTWiL3KMQT",
+          "expectedName": "Transfer Vitality",
+          "name": "转移活力",
+          "expectedDescription": "<p>The sworn blade of sigils transfers any number of Hit Points from their vitality network to heal a visible bonded target.</p>",
+          "description": "<p>符之誓刃转移活力网络中任意数量的生命值用于治疗一个可见的建立了纽带的目标。</p>"
+        }
+      ]
+    },
+    "zrKGbUHWcHcXanwN": {
+      "items": [
+        {
+          "id": "hOwbWyheK71mYRtO",
+          "expectedName": "Entropy Strike",
+          "name": "熵击",
+          "expectedDescription": "<p>You unleash a ray of entropy that rapidly and indiscriminately decays matter. Make a ranged spell attack against the target's AC. On a hit, the target takes 5d8 void damage, or it takes 2d6 persistent acid damage and is glitching 1 if it has the tech trait. On a critical hit, double the damage, and if the creature has the tech trait, it's glitching 2 and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1 die.</p>",
+          "description": "<p>你释放一束熵射线，迅速且无差别地分解物质。进行远程法术攻击对抗目标的AC。如果命中，目标受到5d8虚能伤害；或者如果目标生物有科技特征，则会受到2d6持续性酸蚀伤害并陷入故障1。如果重击，伤害翻倍，并且如果目标生物有科技特征，则陷入故障2和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。</p><hr /><p><strong>升阶 （+1）</strong>增加1个伤害骰。</p>"
+        },
+        {
+          "id": "NkKhJ7ZXf69MoqZu",
+          "expectedName": "Time's Edge",
+          "name": "时间尖锋",
+          "expectedDescription": "<p>You refract latent energy from the Dimension of Time into your current plane in the form of a massive blade. The blade deals 5d6 slashing damage to all creatures in the area as it causes time to pass rapidly in a thin slice of their bodies. Creatures in the area must attempt a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
+          "description": "<p>你将时间维度上的巨大能量折射入当前位面，化为巨大的刀锋。刀锋对区域内所有生物造成5d6挥砍伤害，这表示刀锋令其身体的一小部分迅速流逝时间。该区域内的生物必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全部伤害并且陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p>\n<p><strong>大失败</strong>目标受到两倍伤害并且陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 2}。</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>"
+        },
+        {
+          "id": "10tZONmHG9iClklS",
+          "expectedName": "Doom Scroll",
+          "name": "末日刷屏",
+          "expectedDescription": "<p>You magically broadcast grim news onto nearby devices, holo projectors, screens, and other displays (including comm units on armor). Creatures in the area who can see one or more displays must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the display.</p>\n<p><strong>Failure</strong> The creature is fascinated by the display and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (even if the fascination ends).</p>\n<p><strong>Critical Failure</strong> The creature is fascinated by the display, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}, and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (even if the fascination ends).</p>",
+          "description": "<p>你可以用魔法在附近的设备、全息投影仪、屏幕和其他显示器（包括护甲上的通讯单元）上播报可怕的消息。区域内能看到一个或多个显示屏的生物必须尝试意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物因显示内容@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]。</p>\n<p><strong>失败</strong>该生物因显示内迷魂并@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}（即使迷魂结束）。</p>\n<p><strong>大失败</strong>该生物因显示内迷魂，@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 3}，并且@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭 Doomed 1}（即使迷魂结束）。</p>"
+        },
+        {
+          "id": "yuVFaDYoUQMpkdxx",
+          "expectedName": "Temporal Bullets",
+          "name": "时间子弹",
+          "expectedDescription": "<p><strong>Trigger</strong> You fail (but not critically fail) an attack roll with a weapon.</p><hr /><p>You rewind time and adjust probability to ensure an attack that just missed still does damage to its intended target. Roll damage as though you hit the target with the Strike, but the target only takes half the damage. You are then immune to temporal bullets for 10 minutes.</p>",
+          "description": "<p><strong>触发</strong>你用武器的攻击检定失败（但非大失败）。</p><hr /><p>你可以倒退时间并调整概率，以确保刚刚失误的攻击仍能对目标造成伤害。你进行一次伤害骰，就像你用打击命中了目标，但目标只受到一半的伤害。你之后会临时免疫时间子弹10分钟。</p>"
+        },
+        {
+          "id": "NyR9x14mdNk8o31Y",
+          "expectedName": "Akashic Download",
+          "name": "阿卡西下载",
+          "expectedDescription": "<p>You execute a psychic search of the Akashic Record for information about a specific topic and magically transfer this data to your comm unit or computer. When you Cast this Spell, choose any skill in which you're trained that has the @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} action.</p>\n<p>Any time during the duration, you can consult your comm unit while attempting a Recall Knowledge check using your chosen skill. This check gains a +1 status bonus. Checking your comm unit is part of the action to Recall Knowledge. You must be holding the comm unit to do so. The comm unit instantly compiles and displays snippets and selections from various media relevant to the topic, which grants you the bonus. If you roll a critical failure on this check, you get a failure instead. If the check is successful and the subject is a creature, you gain additional information or context about the creature. Once you reference the comm unit, the spell ends. When the spell ends, your access to the Akashic Record ends, and all the information you downloaded returns to the Akashic Record.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.h1i8c47U0IOrMrHJ]</p><hr /><p><strong>Heightened (3rd)</strong> You can reference your comm unit three times before the spell ends.</p>",
+          "description": "<p>你通过灵能搜索阿卡西记录，获取特定主题的信息，并将数据魔法传输至通讯单元或计算机。施放此法术时，选择任何你至少为受训熟练度且能进行@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]动作的技能。</p>\n<p>在持续时间内的任何时候，你都可以在使用所选技能进行回忆知识检查时查询通讯单元。该检定会获得+1状态加值。检查通讯单元是回忆知识动作的一部分。你必须手持通讯单元才能这样做。通讯单元会立即编译并显示与主题相关的各种媒体片段和精选内容，从而为你带来加值。如果你在检定中掷出大失败，改为失败。如果检定成功，且对象是生物，你将获得有关该生物的额外信息或内容。一旦你查询了通讯单元的信息，法术就会结束。当法术结束时，你对阿卡西记录的访问也会结束，你下载的所有信息都会返回阿卡西记录。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.h1i8c47U0IOrMrHJ]</p><hr /><p><strong>Heightened (3rd)</strong> You can reference your comm unit three times before the spell ends.</p>"
+        },
+        {
+          "id": "n3cX0bfsrkPP9VXF",
+          "expectedName": "Analyze Target",
+          "name": "分析目标",
+          "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+        },
+        {
+          "id": "G55xB4DQnVUspe4Z",
+          "expectedName": "Detect Magic",
+          "name": "侦测魔法"
+        },
+        {
+          "id": "GKIUFx1Q7RVju9qT",
+          "expectedName": "Eldritch Lance",
+          "name": "诡枪术",
+          "expectedDescription": "<p>You condense a beam of mind-assaulting eldritch energy from the dark spaces between the stars and fire it at a target. Make a ranged spell attack roll against the target's AC. If you hit, you deal 2d6 mental damage. On a critical success, you deal double damage.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>",
+          "description": "<p>你自星辰之间的幽深领域凝聚一束袭魂慑魄的怪异能量攻击目标。尝试一次远程法术攻击骰对抗目标的AC，如果命中，你造成2d6心灵伤害，在大成功时造成双倍伤害。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6。</p>"
+        },
+        {
+          "id": "RND0f5k4Sc9EJifz",
+          "expectedName": "Injury Echo",
+          "name": "伤口回响",
+          "expectedDescription": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 1d8, and the persistent damage on a failure increases by 1d4.</p>",
+          "description": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加1d8，豁免失败时的持续伤害增加1d4。</p>"
+        },
+        {
+          "id": "tK8B30CkLWaW9RKZ",
+          "expectedName": "Mind Skewer",
+          "name": "心灵穿刺",
+          "expectedDescription": "<p>You overload a creature's mind with a glut of psychic information or divine judgments. The mental onslaught deals 2d6 mental damage. On a critical failure, the target is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
+          "description": "<p>你可以用大量的精神信息或神圣审判使一个生物的精神超负荷。心灵冲击会造成2d6心灵伤害。在重击时，目标还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2}，持续1轮。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加 2d6。</p>"
+        },
+        {
+          "id": "DAtLi81aIZdhOXcg",
+          "expectedName": "Shield",
+          "name": "护盾术"
+        },
+        {
+          "id": "Np8AIWdEwpV6I6SY",
+          "expectedName": "Shifting Surge",
+          "name": "移变激涌",
+          "expectedDescription": "<p>You release a surge of magical energy that temporarily changes the type of damage dealt by a weapon. The next Strike the weapon makes deals your choice of acid, cold, electricity, fire, or sonic damage and deals an additional 1d6 extra damage of the same type as the weapon's normal damage.</p><hr /><p><strong>Heightened (+2)</strong> The extra damage increases by 1d6.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.pWm0NCsxjxTUCJ7y]</p>",
+          "description": "<p>你释放出一股魔法能量，暂时改变目标武器造成的伤害类型。使用该武器的下一次打击会造成酸蚀、寒冷、电击、火焰、音波中由你选择的一种伤害类型，并且额外造成1d6伤害，类型为武器正常的伤害类型。</p><hr /><p><strong>升阶（+2）</strong>额外伤害增加1d6。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.pWm0NCsxjxTUCJ7y]</p>"
+        },
+        {
+          "id": "t1EqMzRO2Eq0I3d0",
+          "expectedName": "Battleglove",
+          "name": "战斗手套"
+        },
+        {
+          "id": "J7AxIjdfQHCKzqSv",
+          "expectedName": "Seeker Rifle",
+          "name": "追猎者步枪"
+        },
+        {
+          "id": "5Ef5GCCwP7Y318iq",
+          "expectedName": "Tempweave",
+          "name": "保温织服"
+        },
+        {
+          "id": "QHUgrXzclLqsX8h1",
+          "expectedName": "Flashlight (Commercial)",
+          "name": "商用型手电筒",
+          "expectedDescription": "<p>A flashlight sheds bright light. A commercial flashlight emits light in a 30-foot emanation (and dim light in the next 30 feet).</p>",
+          "description": "<p>手电筒发出明亮光芒。商用型手电筒发出30尺弥漫的明亮光照（以及邻接着的30尺的昏暗光照）。</p>"
+        },
+        {
+          "id": "CuA0wBp8fEgMhJbG",
+          "expectedName": "Hacking Toolkit (Commercial)",
+          "name": "商用型黑客工具包"
+        },
+        {
+          "id": "g4UfeDYIDjg7x5FH",
+          "expectedName": "Infiltrator's Toolkit (Commercial)",
+          "name": "商用型渗透者工具包"
+        },
+        {
+          "id": "c5XpDOSLFZttdxBZ",
+          "expectedName": "Hypopen (Tactical)",
+          "name": "战术型皮下注射剂",
+          "expectedDescription": "<p>This tiny cylinder contains specialized nanites that either</p><ul><li>Remove the @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} or @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} condition</li><li>Decrease the value of the @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy} or @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened} condition by 1.</li></ul>",
+          "description": "<p>这根细微的圆柱体容纳着特种纳米机器人。不同类型有着不同的效果。</p><ul><li>Remove the @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} or @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} condition</li><li>Decrease the value of the @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy} or @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened} condition by 1.</li></ul>"
+        },
+        {
+          "id": "8neFNaoxWpcrr3Q1",
+          "expectedName": "Medpatch (Tactical)",
+          "name": "战术型医疗贴片"
+        },
+        {
+          "id": "zrMnawEF6b9wKuwA",
+          "expectedName": "Battleglove",
+          "name": "战斗手套"
+        },
+        {
+          "id": "uVOoYxjjL8NpLaVJ",
+          "expectedName": "Seeker Rifle",
+          "name": "追猎者步枪"
+        },
+        {
+          "id": "8TVPnRJDLYzqHQqj",
+          "expectedName": "Isolated Spell Matrix",
+          "name": "独立法阵"
+        },
+        {
+          "id": "WSEZaDyirY0oV3tn",
+          "expectedName": "Quantum Pulse",
+          "name": "量子脉冲"
+        },
+        {
+          "id": "80BD1qzeuRJ9Lmsc",
+          "expectedName": "Warp Reality",
+          "name": "曲织现实"
+        }
+      ]
+    },
+    "zzMAFBbKstYwWGDf": {
+      "name": "新械族防卫机",
+      "publicNotes": "<p>这些威严的新械族，被钢城的大多数居民亲切地称为“卫兵机器人”，是维护和平的守护者。洞悉阵列通常会迅速派遣它们以2的倍数（例如 2、4、8、16 或更多）组成小组，前往城市中的任何麻烦现场。新械族防卫机还可以充当哨兵、护卫或私人保安，但使用它们作为私人保安的人应该知道，奋进城的大多数新械族防卫机首先是为洞悉阵列（以及整个新械族）服务的。</p><hr /><p>Recording the countless forms and upgrades anacites have taken in the long period since their creators abandoned them would be impossible, as nearly every shape and function one might imagine can be found among this industrious species.</p>\n<p>Many anacites share common design principles, such as silvery, metallic bodies, multiple legs, and forms that resemble arthropods. They often have grasping claws to accomplish generic tasks, though some might have limbs or appendages suited to extremely specific purposes. The most basic anacites, such as wingbots, who lack minds of their own, are the most likely to look \"standardized,\" but most anacites are unique. Their specific role might dictate that an anacite must be able to lift heavy loads, in which case the anacite might resemble a forklift more than a bug or perhaps have the features of both. Anacite culture prizes innovation, and most anacites view their bodies and programming as no exception, always willing to try new parts and builds or download skill modules to broaden their horizons.</p>\n<p>The other types of anacites most often found in Striving include bulky laborers, spindly bureaucrats, and civil servants of all types. In neighborhoods that cater mostly to off-worlders and organics, some anacites have specialized roles to make the area more appealing to non-anacite life. Such anacites might receive assignments from Insight Array to \"visit every club and eatery in the area,\" \"chat with strangers in public spaces,\" or \"routinely ask tourists for help crossing the street.\" These chosen anacites take these roles as seriously as any other.</p><h2>Anacite Augmentations</h2><p>Almost all anacites augment their bodies in some way, either to directly enhance their ability to perform their specific function in society or to set them apart from other anacites with a unique feature. On Aballon, such augmentations are easy to come by, and if the anacite can prove the augmentation will contribute to their society, they're often completely free. Some anacites take advantage of this availability to swap their augmentations on a regular basis.</p><h2>Anacite Programming</h2><p>Because they're robots, anacites are programmed for specialized tasks and abilities, but each has free will and a complex inner life. Every anacite also has a purpose assigned at manufacture, which most take very seriously. In their lifetime, an anacite is likely to pursue different types of work as determined by Insight Array. Following programming and serving the algorithm are edicts for almost all anacites. Following these edicts brings fulfillment and pleasure, while anacites who go against their programming may feel guilt or even physical discomfort,</p>",
+      "items": [
+        {
+          "id": "Neb8lC0VhoPJ6JpK",
+          "expectedName": "Shielding Instinct",
+          "name": "护盾本能"
+        },
+        {
+          "id": "FfNsV5M9TxtVC5hx",
+          "expectedName": "Fist",
+          "name": "拳头"
+        },
+        {
+          "id": "ipDaGoyYFc2y1nhh",
+          "expectedName": "Streetsweeper",
+          "name": "除垒炮"
+        },
+        {
+          "id": "Nu55Wx4jI5MAktTP",
+          "expectedName": "Shortwave",
+          "name": "短波通讯",
+          "expectedDescription": "<p>The anacite can communicate using wireless shortwave signals. This functions as telepathy with other creatures who have shortwave and with creatures with both the construct and tech traits.</p>",
+          "description": "<p>新械族可以使用无线短波信号进行交流。这视作可以与其他具有短波通讯能力的生物以及同时具有构装体和科技特征的生物进行心灵感应。</p>"
+        },
+        {
+          "id": "g8bnfCDXlvaMuSOY",
+          "expectedName": "Sunlight Dependency",
+          "name": "阳光依赖"
+        },
+        {
+          "id": "LQR8IGHnoPApBtvV",
+          "expectedName": "Peacekeeper",
+          "name": "和平卫士",
+          "expectedDescription": "<p>The anacite protector can choose to grant the nonlethal trait to any of its attacks that deal bludgeoning or sonic damage.</p>",
+          "description": "<p>新械族防卫机可以选择将非致命特征赋予其所有造成钝击或音波伤害的攻击。</p>"
+        },
+        {
+          "id": "qE1PLMfRwfMBM7zW",
+          "expectedName": "Shielding Instinct",
+          "name": "护盾本能",
+          "expectedDescription": "<p>The anacite protector can raise any two-handed weapon to gain the benefits of Raising a Shield.</p>",
+          "description": "<p>新械族防卫机可以举起任何双手武器，获得举起盾牌的增益。</p>"
+        }
+      ]
+    }
+  }
+}

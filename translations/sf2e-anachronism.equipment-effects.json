@@ -1,0 +1,49 @@
+{
+  "label": "装备效果",
+  "mapping": {
+    "name": "name",
+    "description": "system.description.value",
+    "cnPrerequisites": {
+      "path": "system.prerequisites.value",
+      "converter": "sf2eAnachronismCnPrerequisites"
+    }
+  },
+  "entries": {
+    "0kP4P73w0PykYkPY": {
+      "name": "效果: 喷射背包"
+    },
+    "52tyG1y50LmTqCA9": {
+      "name": "效果: 探险者餐盒"
+    },
+    "68zoB7dwKUcmEO1R": {
+      "name": "效果: 人造不朽脏器"
+    },
+    "7CtHz1DQcMXLafOS": {
+      "name": "效果: 力场护盾"
+    },
+    "Crg77XKCHxittH5a": {
+      "name": "效果: 白骨血清"
+    },
+    "UB0yKVxoS0EBXyCO": {
+      "name": "效果: 神枪手血清"
+    },
+    "VKSOvJQMwUby4fba": {
+      "name": "效果: 医疗贴片"
+    },
+    "dCDZQr7EBfCALmT2": {
+      "name": "效果: 名人血清"
+    },
+    "kUSHgMCK1Uvyhkx0": {
+      "name": "效果: 悬浮飞轮"
+    },
+    "uf3Fb7Fm7dSzc7Os": {
+      "name": "效果: 突击队血清"
+    },
+    "xZ5XMY55S42aGyjg": {
+      "name": "效果: 抬升万古石"
+    },
+    "zXZoUqxzXFisGqmw": {
+      "name": "效果: 渗透者血清"
+    }
+  }
+}
