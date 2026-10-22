@@ -18,24 +18,38 @@ jobs:
         with:
           ref: ${{ github.event.release.tag_name }}
 
-      - name: Validate manifest
+      - name: Generate versioned manifest
         env:
           TAG: ${{ github.event.release.tag_name }}
         run: |
           python3 - <<'PY'
           import json
           import os
+          import re
+
+          tag = os.environ["TAG"]
+          if not re.fullmatch(r"[vV]\d+\.\d+\.\d+", tag):
+              raise ValueError(f"Invalid release tag: {tag}")
 
           with open("module.json", encoding="utf-8") as f:
               data = json.load(f)
 
-          tag = os.environ["TAG"]
-          assert tag.lower() == "v" + data["version"], "Version mismatch"
-          assert data["id"] == "sf2e-anachronism-zh-cn"
-          assert data["manifest"]
-          assert data["download"]
-          assert f"/{tag}/" in data["download"]
-          print("Validation passed")
+          data["version"] = tag[1:]
+          data["manifest"] = (
+              "https://raw.githubusercontent.com/"
+              "TenteiGengetsu/anachronism-cn/main/module.json"
+          )
+          data["download"] = (
+              "https://github.com/"
+              "TenteiGengetsu/anachronism-cn/"
+              f"releases/download/{tag}/anachronism-cn.zip"
+          )
+
+          with open("module.json", "w", encoding="utf-8") as f:
+              json.dump(data, f, ensure_ascii=False, indent=2)
+              f.write("\n")
+
+          print(f"Generated manifest for {tag}")
           PY
 
       - name: Package module
@@ -47,11 +61,12 @@ jobs:
             translations \
             README.md
 
-      - name: Upload release ZIP
+      - name: Upload release assets
         env:
           GH_TOKEN: ${{ github.token }}
           TAG: ${{ github.event.release.tag_name }}
         run: |
           gh release upload "$TAG" \
             anachronism-cn.zip \
+            module.json \
             --clobber
