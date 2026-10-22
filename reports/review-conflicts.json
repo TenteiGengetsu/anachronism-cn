@@ -1,0 +1,218 @@
+{
+  "sf2e-anachronism.alien-core-bestiary.json|/entries/Juvenile Nyssholora/items/4/system/description/value": {
+    "reason": "Wiki says precise; source requires imprecise.",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Creatures-Juvenile Nyssholora.json",
+        "title": "Data:Creatures-Juvenile Nyssholora.json",
+        "revision": 15177,
+        "section": "被动能力: Telepathy Sense",
+        "accessed_at": "2026-10-23",
+        "match_note": "Exact English identity; text transferred only into compatible source slots."
+      }
+    ]
+  },
+  "sf2e-anachronism.alien-core-bestiary.json|/entries/Proog Swarm/items/2/system/description/value": {
+    "reason": "Wiki only refers to another creature; source contains the full Mimicry ability.",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Creatures-Proog Swarm.json",
+        "title": "Data:Creatures-Proog Swarm.json",
+        "revision": 14573,
+        "section": "攻击能力: Mimic Object",
+        "accessed_at": "2026-10-23",
+        "match_note": "Exact English identity; text transferred only into compatible source slots."
+      }
+    ]
+  },
+  "sf2e-anachronism.alien-core-bestiary.json|/entries/Daipex/items/9/system/description/value": {
+    "reason": "Wiki omits the optional -2 circumstance penalty to avoid forced movement.",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Creatures-Daipex.json",
+        "title": "Data:Creatures-Daipex.json",
+        "revision": 16570,
+        "section": "攻击能力: Recoil",
+        "accessed_at": "2026-10-23",
+        "match_note": "Exact English identity; text transferred only into compatible source slots."
+      }
+    ]
+  },
+  "sf2e-anachronism.alien-core-bestiary.json|/entries/Akata/items/2/system/description/value": {
+    "reason": "Wiki omits the status type of the Perception penalty.",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Creatures-Akata.json",
+        "title": "Data:Creatures-Akata.json",
+        "revision": 14787,
+        "section": "被动能力: No Hearing",
+        "accessed_at": "2026-10-23",
+        "match_note": "Exact English identity; text transferred only into compatible source slots."
+      }
+    ]
+  },
+  "sf2e-anachronism.backgrounds.json|/entries/Lodge Administrator/system/description/value": {
+    "reason": "Wiki grants Society; source grants Diplomacy.",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Backgrounds-Lodge Administrator.json",
+        "title": "Data:Backgrounds-Lodge Administrator.json",
+        "revision": 13874,
+        "section": "描述",
+        "accessed_at": "2026-10-23",
+        "match_note": "Exact English identity; text transferred only into compatible source slots."
+      }
+    ]
+  },
+  "sf2e-anachronism.backgrounds.json|/entries/Tech Troll/system/description/value": {
+    "reason": "Wiki grants Computers; source grants Deception.",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Backgrounds-Tech Troll.json",
+        "title": "Data:Backgrounds-Tech Troll.json",
+        "revision": 13928,
+        "section": "描述",
+        "accessed_at": "2026-10-23",
+        "match_note": "Exact English identity; text transferred only into compatible source slots."
+      }
+    ]
+  },
+  "sf2e-anachronism.heritages.json|/entries/Borai/system/description/value": {
+    "reason": "Wiki section is an introductory lore paragraph rather than the versatile-heritage mechanics.",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/多用传承",
+        "title": "多用传承",
+        "revision": 19784,
+        "section": "活尸裔 BORAI",
+        "accessed_at": "2026-10-23",
+        "match_note": "Exact English identity; text transferred only into compatible source slots."
+      }
+    ]
+  },
+  "sf2e-anachronism.backgrounds.json|/entries/Lorespire Archivist/system/description/value": {
+    "reason": "Wiki omits that Assurance applies specifically to Society."
+  },
+  "sf2e-anachronism.alien-core-bestiary.json|/entries/Animated Tech Armor/items/1/system/description/value": {
+    "reason": "Wiki adds condition value 1 to an unvalued Broken condition.",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Creatures-Animated Tech Armor.json",
+        "title": "Data:Creatures-Animated Tech Armor.json",
+        "revision": 14520,
+        "section": "防御能力: Unreliable Tech",
+        "accessed_at": "2026-10-23",
+        "match_note": "Exact English identity; text transferred only into compatible source slots."
+      }
+    ]
+  },
+  "sf2e-anachronism.alien-core-bestiary.json|/entries/Irradiated Undead Charger/items/3/system/description/value": {
+    "reason": "Wiki aura is 30 feet; source aura is 20 feet.",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Creatures-Irradiated Undead Charger.json",
+        "title": "Data:Creatures-Irradiated Undead Charger.json",
+        "revision": 15582,
+        "section": "防御能力: Radioactive Remains",
+        "accessed_at": "2026-10-23",
+        "match_note": "Exact English identity; text transferred only into compatible source slots."
+      }
+    ]
+  },
+  "sf2e-anachronism.alien-core-bestiary.json|/entries/Animated Firearm/items/2/system/description/value": {
+    "reason": "Wiki adds condition value 1 to an unvalued Broken condition.",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Creatures-Animated Firearm.json",
+        "title": "Data:Creatures-Animated Firearm.json",
+        "revision": 14519,
+        "section": "防御能力: Unreliable Tech",
+        "accessed_at": "2026-10-23",
+        "match_note": "Exact English identity; text transferred only into compatible source slots."
+      }
+    ]
+  },
+  "sf2e-anachronism.alien-core-bestiary.json|/entries/Temporai/items/34/system/description/value": {
+    "reason": "Wiki says 5d4; source says 5d6.",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Creatures-Temporai.json",
+        "title": "Data:Creatures-Temporai.json",
+        "revision": 15160,
+        "section": "攻击能力: Shepherd’s Touch",
+        "accessed_at": "2026-10-23",
+        "match_note": "Exact English identity; text transferred only into compatible source slots."
+      }
+    ]
+  },
+  "sf2e-anachronism.guilt-of-the-grave-world-bestiary.json|/entries/Rigor Mortic/items/5/system/description/value": {
+    "reason": "Wiki describes Raise a Shield rather than the full construct armor ability.",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Creatures-Rigor Mortic.json",
+        "title": "Data:Creatures-Rigor Mortic.json",
+        "revision": 14418,
+        "section": "防御能力: Construct Armor",
+        "accessed_at": "2026-10-23",
+        "match_note": "Exact English identity; text transferred only into compatible source slots."
+      }
+    ]
+  },
+  "sf2e-anachronism.rulebook-bestiaries.json|/entries/Space Goblin Junker/items/8/system/description/value": {
+    "reason": "Wiki adds a condition value not present in the source.",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Creatures-Space Goblin Junker.json",
+        "title": "Data:Creatures-Space Goblin Junker.json",
+        "revision": 20547,
+        "section": "攻击能力: Gnash Gnash Gnash",
+        "accessed_at": "2026-10-23",
+        "match_note": "Exact English identity; text transferred only into compatible source slots."
+      }
+    ]
+  },
+  "sf2e-anachronism.standalone-adventure-bestiary.json|/entries/Anacite Wingbot/items/4/system/description/value": {
+    "reason": "Wiki adds a condition value not present in the source.",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Creatures-Anacite Wingbot.json",
+        "title": "Data:Creatures-Anacite Wingbot.json",
+        "revision": 14355,
+        "section": "被动能力: Sunlight Dependency",
+        "accessed_at": "2026-10-23",
+        "match_note": "Exact English identity; text transferred only into compatible source slots."
+      }
+    ]
+  },
+  "sf2e-anachronism.standalone-adventure-bestiary.json|/entries/Anacite Protector/items/5/system/description/value": {
+    "reason": "Wiki adds a condition value not present in the source.",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Creatures-Anacite Protector.json",
+        "title": "Data:Creatures-Anacite Protector.json",
+        "revision": 14396,
+        "section": "被动能力: Sunlight Dependency",
+        "accessed_at": "2026-10-23",
+        "match_note": "Exact English identity; text transferred only into compatible source slots."
+      }
+    ]
+  },
+  "sf2e-anachronism.ancestry-features.json|/entries/Six-Armed/system/description/value": {
+    "reason": "Wiki says only active hands may perform actions; source only restricts wielding items. The broader restriction is not copied."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "babeleVersion": "2.9.1",
+  "objectsChecked": 5616,
+  "matchedTranslations": 4068,
+  "nativeMappedFields": 7560,
+  "nativeEntryMatching": true,
+  "nativeFieldMapping": true,
+  "inputUnchanged": true,
+  "completeTargetComparison": true,
+  "staleTextGuards": true,
+  "reorderedEmbeddedItems": true,
+  "registrationGuards": true,
+  "liveFoundryTested": false,
+  "changedStringsChecked": 12560,
+  "orderedHtmlTagsUnchanged": true,
+  "orderedMacroBodiesUnchanged": true,
+  "originalSourceBytesUnchanged": true,
+  "ruleDataUnchanged": true
+}

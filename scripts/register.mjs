@@ -13,6 +13,36 @@ export function translatePrerequisites({value, translation}) {
     return result;
 }
 
+// Match embedded documents by stable ID and expected English text. Only display fields are copied.
+function translateEmbedded(value, translation, descriptions) {
+    if (!Array.isArray(value) || !Array.isArray(translation) || translation.length === 0) return undefined;
+    const ids = new Set();
+    for (const patch of translation) {
+        if (typeof patch?.id !== "string" || ids.has(patch.id) || typeof patch.expectedName !== "string") return undefined;
+        if (patch.name !== undefined && (typeof patch.name !== "string" || !patch.name.trim())) return undefined;
+        if (patch.description !== undefined && (!descriptions || typeof patch.description !== "string" || typeof patch.expectedDescription !== "string")) return undefined;
+        ids.add(patch.id);
+    }
+    const result = structuredClone(value);
+    for (const patch of translation) {
+        const item = result.find((entry) => entry._id === patch.id);
+        if (!item || item.name !== patch.expectedName) continue;
+        if (patch.name !== undefined) item.name = patch.name;
+        if (patch.description !== undefined && item.system?.description?.value === patch.expectedDescription) {
+            item.system.description.value = patch.description;
+        }
+    }
+    return result;
+}
+
+export function translateItems({value, translation}) {
+    return translateEmbedded(value, translation, true);
+}
+
+export function translatePages({value, translation}) {
+    return translateEmbedded(value, translation, false);
+}
+
 Hooks.once("babele.init", (babele) => {
     if (game.system.id !== "pf2e") return;
     const source = game.modules.get("sf2e-anachronism");
@@ -21,7 +51,10 @@ Hooks.once("babele.init", (babele) => {
         return;
     }
     babele.registerConverter("sf2eAnachronismCnPrerequisites", {translate: translatePrerequisites});
+    babele.registerConverter("sf2eAnachronismCnItems", {translate: translateItems});
+    babele.registerConverter("sf2eAnachronismCnPages", {translate: translatePages});
     for (const lang of ["cn", "zh", "zh-CN", "zh-cn", "zh-Hans", "zh-hans"]) {
         babele.register({module: "sf2e-anachronism-zh-cn", lang, dir: "translations"});
     }
 });
+
