@@ -8,17 +8,22 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: foundry-release
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout release
+      - name: Checkout main
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.release.tag_name }}
+          ref: main
+          persist-credentials: true
 
-      - name: Generate versioned manifest
+      - name: Generate manifest
         env:
           TAG: ${{ github.event.release.tag_name }}
         run: |
@@ -28,29 +33,41 @@ jobs:
           import re
 
           tag = os.environ["TAG"]
+
           if not re.fullmatch(r"[vV]\d+\.\d+\.\d+", tag):
-              raise ValueError(f"Invalid release tag: {tag}")
+              raise ValueError(f"Invalid tag: {tag}")
+
+          version = tag[1:]
 
           with open("module.json", encoding="utf-8") as f:
               data = json.load(f)
 
-          data["version"] = tag[1:]
+          data["version"] = version
           data["manifest"] = (
               "https://raw.githubusercontent.com/"
-              "TenteiGengetsu/anachronism-cn/main/module.json"
+              "TenteiGengetsu/anachronism-cn/"
+              "main/module.json"
           )
           data["download"] = (
               "https://github.com/"
               "TenteiGengetsu/anachronism-cn/"
-              f"releases/download/{tag}/anachronism-cn.zip"
+              f"releases/download/{tag}/"
+              "anachronism-cn.zip"
           )
 
           with open("module.json", "w", encoding="utf-8") as f:
               json.dump(data, f, ensure_ascii=False, indent=2)
               f.write("\n")
 
-          print(f"Generated manifest for {tag}")
+          print(f"Prepared version {version}")
           PY
+
+      - name: Validate module files
+        run: |
+          python3 -m json.tool module.json > /dev/null
+          test -f scripts/register.mjs
+          test -d translations
+          echo "Validation passed"
 
       - name: Package module
         run: |
@@ -70,3 +87,18 @@ jobs:
             anachronism-cn.zip \
             module.json \
             --clobber
+
+      - name: Update main manifest
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add module.json
+
+          if git diff --cached --quiet; then
+            echo "Manifest already up to date"
+          else
+            git commit -m "chore: update Foundry manifest"
+            git push origin HEAD:main
+          fi
