@@ -1,5 +1,5 @@
 {
-  "version": "0.2.0",
+  "version": "0.2.1",
   "sourceSha256": "a0930bc5b32fbf533630128b11bd893b4bd0aedd18709e975302efd543fd5e1a",
   "glossarySha256": "868394c0ec129f215af1525d86814aaa78ae07fb95298f215b055e67c5bc680f",
   "wiki": {
@@ -257,6 +257,24 @@
     "orderedHtmlTagsUnchanged": true,
     "orderedMacroBodiesUnchanged": true,
     "originalSourceBytesUnchanged": true,
-    "ruleDataUnchanged": true
+    "ruleDataUnchanged": true,
+    "nativeLanguageSourceDiscovery": true,
+    "languagesChecked": [
+      "cn",
+      "cn.foundry_chn",
+      "zh",
+      "zh-CN",
+      "zh-cn",
+      "zh-Hans",
+      "zh-hans",
+      "zh-Hans.custom",
+      "en"
+    ],
+    "nativeSessionTranslation": true,
+    "translationFilesDiscovered": 29,
+    "envoyTranslated": true,
+    "englishLanguageInactive": true,
+    "versionMismatchNotification": true,
+    "translationBytesUnchangedFrom020": true
   }
 }

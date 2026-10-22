@@ -15,5 +15,23 @@
   "orderedHtmlTagsUnchanged": true,
   "orderedMacroBodiesUnchanged": true,
   "originalSourceBytesUnchanged": true,
-  "ruleDataUnchanged": true
+  "ruleDataUnchanged": true,
+  "nativeLanguageSourceDiscovery": true,
+  "languagesChecked": [
+    "cn",
+    "cn.foundry_chn",
+    "zh",
+    "zh-CN",
+    "zh-cn",
+    "zh-Hans",
+    "zh-hans",
+    "zh-Hans.custom",
+    "en"
+  ],
+  "nativeSessionTranslation": true,
+  "translationFilesDiscovered": 29,
+  "envoyTranslated": true,
+  "englishLanguageInactive": true,
+  "versionMismatchNotification": true,
+  "translationBytesUnchangedFrom020": true
 }

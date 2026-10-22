@@ -18,3 +18,9 @@ https://raw.githubusercontent.com/TenteiGengetsu/anachronism-cn/main/module.json
 
 [校验结果](reports/validation.json) 包括 Babele 2.9.1 原生条目匹配、字段映射、完整目标比较、输入不变和过期文本保护。未在运行中的 Foundry 世界实测。审校记录压缩包位于 `reports/localization-audit.zip`，包含每个改动字段的来源定位、Wiki 修订号、已确认冲突及待译字段清单。本次未执行 AoN／原书补证，也未用新译填补缺失的中文来源。
 
+
+## 0.2.1 加载修复
+
+修复中文语言代码 cn.foundry_chn 未注册导致 Babele 找不到译文的问题，并支持当前中文语言扩展的完整代码。源模组未启用或版本不匹配时会向 GM 显示提示。
+
+通过 GitHub 清单安装的用户：上传此包中的仓库文件时，必须同时覆盖根目录 module.json、scripts/register.mjs 和 dist/anachronism-cn.zip；随后在 Foundry 更新本汉化至 0.2.1，重新进入世界。请同时启用本汉化、Babele 2.9.1 或更新版和 Anachronism 2.4.0，并选择中文界面。译文用于合集中加载的文档；已导入世界的旧副本需另行更新。
