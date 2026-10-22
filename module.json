@@ -1,41 +1,42 @@
 {
-  "id": "sf2e-anachronism-zh-cn",
-  "title": "SF2e Anachronism 中文补丁（Wiki 译文版）",
-  "description": "基于用户 Babele 导出、SF2 译名表及 SF2 中文 Wiki 的独立中文补丁。覆盖职业、职业能力、专长、法术和装备；缺失或无法安全对应的文本保留英文。",
-  "version": "0.1.1",
-  "compatibility": {
-    "minimum": "14.360",
-    "maximum": "14"
-  },
-  "esmodules": [
-    "scripts/register.mjs"
-  ],
-  "relationships": {
-    "systems": [
-      {
-        "id": "pf2e",
-        "type": "system",
-        "compatibility": {
-          "minimum": "8.6.0"
-        }
-      }
-    ],
-    "requires": [
-      {
-        "id": "babele",
-        "type": "module",
-        "compatibility": {
-          "minimum": "2.9.1"
-        }
-      },
-      {
-        "id": "sf2e-anachronism",
-        "type": "module",
-        "compatibility": {
-          "minimum": "2.4.0",
-          "maximum": "2.4.0"
-        }
-      }
-    ]
-  }
+	"id": "sf2e-anachronism-zh-cn",
+	"title": "SF2e Anachronism 中文补丁（Wiki 译文版）",
+	"description": "基于用户 Babele 导出、SF2 译名表及 SF2 中文 Wiki 的独立中文补丁。覆盖职业、职业能力、专长、法术和装备；缺失或无法安全对应的文本保留英文。",
+	"version": "0.1.1",
+	"compatibility": {
+		"minimum": "14.360",
+		"maximum": "14"
+	},
+	"manifest": "https://raw.githubusercontent.com/TenteiGengetsu/anachronism-cn/main/module.json",
+	"download": "https://github.com/TenteiGengetsu/anachronism-cn/releases/download/v0.1.1/anachronism-cn.zip",
+	"url": "https://github.com/TenteiGengetsu/anachronism-cn",
+	"esmodules": ["scripts/register.mjs"],
+	"relationships": {
+		"systems": [
+			{
+				"id": "pf2e",
+				"type": "system",
+				"compatibility": {
+					"minimum": "8.6.0"
+				}
+			}
+		],
+		"requires": [
+			{
+				"id": "babele",
+				"type": "module",
+				"compatibility": {
+					"minimum": "2.9.1"
+				}
+			},
+			{
+				"id": "sf2e-anachronism",
+				"type": "module",
+				"compatibility": {
+					"minimum": "2.4.0",
+					"maximum": "2.4.0"
+				}
+			}
+		]
+	}
 }
