@@ -1,32 +1,57 @@
-# This is a basic workflow that is manually triggered
 
-name: Manual workflow
+name: Build Foundry VTT Module
 
-# Controls when the action will run. Workflow runs when manually triggered using the UI
-# or API.
 on:
-  workflow_dispatch:
-    # Inputs the workflow accepts.
-    inputs:
-      name:
-        # Friendly description to be shown in the UI instead of 'name'
-        description: 'Person to greet'
-        # Default value if no value is explicitly provided
-        default: 'World'
-        # Input has to be provided for the workflow to run
-        required: true
-        # The data type of the input
-        type: string
+  release:
+    types: [published]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+permissions:
+  contents: write
+
 jobs:
-  # This workflow contains a single job called "greet"
-  greet:
-    # The type of runner that the job will run on
+  build:
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Runs a single command using the runners shell
-    - name: Send greeting
-      run: echo "Hello ${{ inputs.name }}"
+      - name: Checkout release
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.release.tag_name }}
+
+      - name: Validate manifest
+        env:
+          TAG: ${{ github.event.release.tag_name }}
+        run: |
+          python3 - <<'PY'
+          import json
+          import os
+
+          with open("module.json", encoding="utf-8") as f:
+              data = json.load(f)
+
+          tag = os.environ["TAG"]
+          assert tag == "v" + data["version"], "Version mismatch"
+          assert data["id"] == "sf2e-anachronism-zh-cn"
+          assert data["manifest"]
+          assert data["download"]
+          assert f"/{tag}/" in data["download"]
+          print("Validation passed")
+          PY
+
+      - name: Package module
+        run: |
+          zip -r anachronism-cn.zip \
+            module.json \
+            coverage.json \
+            scripts \
+            translations \
+            README.md
+
+      - name: Upload release ZIP
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.event.release.tag_name }}
+        run: |
+          gh release upload "$TAG" \
+            anachronism-cn.zip \
+            --clobber
