@@ -46,6 +46,7 @@ export function translatePages({value, translation}) {
 const MODULE_ID = "sf2e-anachronism-zh-cn";
 const LANGUAGES = ["cn", "cn.foundry_chn", "zh", "zh-CN", "zh-cn", "zh-Hans", "zh-hans"];
 let registrationResult = null;
+let babeleFacade = null;
 
 export function isChineseLanguage(language) {
     return typeof language === "string" && /^(?:cn|zh)(?:$|[-_.])/i.test(language);
@@ -61,7 +62,8 @@ export function registerLocalization(babele) {
     babele.registerConverter("sf2eAnachronismCnItems", {translate: translateItems});
     babele.registerConverter("sf2eAnachronismCnPages", {translate: translatePages});
     const languages = new Set(LANGUAGES);
-    for (const lang of [game.settings?.get?.("core", "language"), game.i18n?.lang]) {
+    // Core settings and the resolved UI language may not exist during babele.init.
+    for (const lang of [game.i18n?.lang]) {
         if (isChineseLanguage(lang)) languages.add(lang);
     }
     for (const lang of languages) {
@@ -71,18 +73,39 @@ export function registerLocalization(babele) {
 }
 
 Hooks.once("babele.init", (babele) => {
-    registrationResult = registerLocalization(babele);
-    if (registrationResult.reason === "source") {
-        console.warn("SF2e 中文汉化：本版仅面向 Anachronism 2.4.0，已跳过注册。", registrationResult);
+    babeleFacade = babele;
+    try {
+        registrationResult = registerLocalization(babele);
+        if (registrationResult.reason === "source") {
+            console.warn("SF2e 中文汉化：本版仅面向 Anachronism 2.4.0，已跳过注册。", registrationResult);
+        }
+    } catch (error) {
+        registrationResult = {registered: false, reason: "error", message: error.message};
+        console.error("SF2e 中文汉化注册失败", error);
+    }
+});
+
+// setup runs after localization is initialized and before Babele loads its ready session.
+Hooks.once("setup", () => {
+    if (!registrationResult?.registered) return;
+    const language = game.i18n?.lang;
+    if (isChineseLanguage(language) && !registrationResult.languages.includes(language)) {
+        try {
+            babeleFacade.register({module: MODULE_ID, lang: language, dir: "translations"});
+            registrationResult.languages.push(language);
+        } catch (error) {
+            registrationResult = {registered: false, reason: "error", message: error.message};
+            console.error("SF2e 中文汉化语言注册失败", error);
+        }
     }
 });
 
 Hooks.once("ready", () => {
-    if (!game.user?.isGM) return;
-    const language = game.settings?.get?.("core", "language") ?? game.i18n?.lang;
-    if (!isChineseLanguage(language)) return;
+    if (!game.user?.isGM || !isChineseLanguage(game.i18n?.lang)) return;
     if (registrationResult?.reason === "source") {
         ui.notifications.warn("SF2e 中文汉化未加载：请启用 Anachronism 2.4.0；当前版本：" + (registrationResult.sourceVersion ?? "未安装"));
+    } else if (registrationResult?.reason === "error") {
+        ui.notifications.warn("SF2e 中文汉化注册失败：" + registrationResult.message);
     } else if (!registrationResult) {
         ui.notifications.warn("SF2e 中文汉化未加载：未收到 Babele 初始化事件，请确认 Babele 2.9.1 或更新版本已启用。");
     }

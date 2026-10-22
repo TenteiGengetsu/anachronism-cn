@@ -24,3 +24,9 @@ https://raw.githubusercontent.com/TenteiGengetsu/anachronism-cn/main/module.json
 修复中文语言代码 cn.foundry_chn 未注册导致 Babele 找不到译文的问题，并支持当前中文语言扩展的完整代码。源模组未启用或版本不匹配时会向 GM 显示提示。
 
 通过 GitHub 清单安装的用户：上传此包中的仓库文件时，必须同时覆盖根目录 module.json、scripts/register.mjs 和 dist/anachronism-cn.zip；随后在 Foundry 更新本汉化至 0.2.1，重新进入世界。请同时启用本汉化、Babele 2.9.1 或更新版和 Anachronism 2.4.0，并选择中文界面。译文用于合集中加载的文档；已导入世界的旧副本需另行更新。
+
+## 0.2.2 初始化修复
+
+根据实际控制台日志修复：Babele 初始化早于 Foundry 核心语言设置的注册，0.2.1 在此时读取 core.language 会抛出异常，导致未注册译文。现于初始化阶段直接注册已知中文语言代码，扩展语言代码在 setup 阶段按 game.i18n.lang 补充，彻底移除汉化代码对 core.language 设置的访问；注册异常与未收到初始化事件分别显示提示。
+
+通过清单安装的用户仍须将本版根目录 module.json、scripts/register.mjs 及 dist/anachronism-cn.zip 一并更新到仓库，然后在 Foundry 更新至 0.2.2 并重新进入世界。

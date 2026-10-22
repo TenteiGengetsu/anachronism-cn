@@ -28,10 +28,15 @@
     "zh-Hans.custom",
     "en"
   ],
+  "earlyUnregisteredCoreSettingReproduced": true,
+  "coreLanguageSettingReads": 0,
+  "unresolvedLanguageAtInit": true,
+  "lateLanguageRegisteredAtSetup": true,
   "nativeSessionTranslation": true,
   "translationFilesDiscovered": 29,
   "envoyTranslated": true,
   "englishLanguageInactive": true,
   "versionMismatchNotification": true,
+  "registrationFailureNotification": true,
   "translationBytesUnchangedFrom020": true
 }
