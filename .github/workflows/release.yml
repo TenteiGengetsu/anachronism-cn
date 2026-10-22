@@ -30,7 +30,7 @@ jobs:
               data = json.load(f)
 
           tag = os.environ["TAG"]
-          assert tag == "v" + data["version"], "Version mismatch"
+          assert tag.lower() == "v" + data["version"], "Version mismatch"
           assert data["id"] == "sf2e-anachronism-zh-cn"
           assert data["manifest"]
           assert data["download"]
