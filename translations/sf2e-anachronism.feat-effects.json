@@ -10,379 +10,820 @@
   },
   "entries": {
     "0kdfFVZuHoHTG5c0": {
-      "name": "效果: 掩护火力"
+      "name": "效果: 掩护火力",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.bSNHMpq5e4ZYOyWo]赋予</p>\n<p>你对被标记目标的攻击承受–2环境减值。</p>"
     },
     "0vdPkTib9LO8dj2y": {
-      "name": "效果: 以身作盾"
+      "name": "效果: 以身作盾",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.DqZbNm1hcq3ZWJc4]赋予</p>\n<p>你的AC承受–1环境减值。</p>"
     },
     "1RrwaWFGv4yI0T07": {
-      "name": "效果: 强化甲壳"
+      "name": "效果: 强化甲壳",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.i3g1VSl1fnDgZLUH]赋予</p>\n<p>你的AC获得+2状态加值，并获得物理伤害抗力10，但你的速度承受–10尺状态减值。</p>"
     },
     "22BLEySiAaQwoO6f": {
-      "name": "效果: 细胞再生"
+      "name": "效果: 细胞再生",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.SiVWK0ksapz0Y8UU]赋予</p>\n<p>你获得等于自身等级一半的再生。</p>"
     },
     "2Iuhg4udP9eQF3oM": {
-      "name": "效果: 数码评估！"
+      "name": "效果: 数码评估！",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.4oIErnhDm0qCCpxs]赋予</p>\n<p>你对抗被标记生物攻击的AC获得+1环境加值。</p>"
     },
     "2i0i7JDaUdAXc0bJ": {
-      "name": "效果: 毒性鸡尾酒"
+      "name": "效果: 毒性鸡尾酒",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.SuzoBwGsO1myKR8w]赋予</p>\n<p>为你用毒颚进行的下一次打击添加毒素伤害。</p>"
     },
     "3sB7LkiM8MPMugBm": {
-      "name": "效果: 乐于效劳！"
+      "name": "效果: 乐于效劳！",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.PyNKBPDCJIjPXXzE]赋予</p>\n<p>当你使用与你所援助的盟友相同的技能进行技能检定时，获得+1环境加值。</p>"
     },
     "4DiN5KNJSrBkV1BA": {
-      "name": "效果: 心智漫游"
+      "name": "效果: 心智漫游",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.U0g9zLZAat8RMJvx]赋予</p>\n<p>你对抗心灵效果的豁免获得+2状态加值，直到你下个回合开始。</p>"
     },
     "4UOU2S5uUB7AlH0r": {
-      "name": "效果: 肾上腺素飙升"
+      "name": "效果: 肾上腺素飙升",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.9XB03rIA5j5OvHTE]赋予</p>\n<p>你无视超载状态，运动检定获得+2环境加值。在此效果持续期间，当你没有超载时，你的速度获得+5尺环境加值。</p>"
     },
     "5da0ZOocaoySCSJ2": {
-      "name": "效果: 锚定冲击"
+      "name": "效果: 锚定冲击",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.jlfPjyWEzxQ2GiDh]赋予</p>\n<p>你因被压制状态承受的速度减值提高至–20尺状态减值。</p>"
     },
     "6gduthFziKA5pU53": {
-      "name": "效果: 防御阵型"
+      "name": "效果: 防御阵型",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.xF4Vse5IwmWveqxI]赋予</p>\n<p>你的AC和反射豁免获得+1环境加值。</p>"
     },
     "7o4KWymf4Yy2n2Qx": {
-      "name": "效果: 瞄准"
+      "name": "效果: 瞄准",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC]赋予</p>\n<p>你标记一个生物。你使用所需远程武器对标记目标进行的远程打击额外造成精准伤害，并降低标记目标从掩蔽获得的AC环境加值。只有当标记目标位于武器的第一个射程增量内时，这些益处才生效。</p>"
     },
     "7pjshxAsWzyJRcze": {
-      "name": "效果: 非致命武力"
+      "name": "效果: 非致命武力",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.9ilguOX3mtpkUTVS]赋予</p>\n<p>你持用指定武器时，它获得非致命特征。</p>"
     },
     "7tSTaSqLPYwPzbMx": {
-      "name": "效果: 造谣话术"
+      "name": "效果: 造谣话术",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.6ErQf23Gm9km8YSz]赋予</p>\n<p>你的意志DC获得+2环境加值。</p>"
     },
     "8eqdNadBEcXMvjng": {
-      "name": "效果: 当心！"
+      "name": "效果: 当心！",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.60BRmtuNHT6mpJOH]赋予</p>\n<p>你的AC获得+2环境加值。如果来源生物拥有精神点专长，此加值也适用于你的反射豁免。</p>"
     },
     "8uHTQ6ha3CT79fS6": {
-      "name": "效果: 别打脸！"
+      "name": "效果: 别打脸！",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.OlIuxKxrKAeDklfN]赋予</p>\n<p>你对来源生物的攻击检定和伤害掷骰承受状态减值。失败时，你改为仅对触发攻击检定承受–1状态减值。</p>"
     },
     "9AYamzd9VOGXn8KM": {
-      "name": "效果: 酸液喷吐"
+      "name": "效果: 酸液喷吐",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.zFdo4ZUj9TckfJvQ]赋予</p>\n<p>你获得穿刺伤害弱点5。</p>"
     },
     "9ShdNY94n869OXem": {
-      "name": "效果: 辅助粘液喷涌"
+      "name": "效果: 辅助粘液喷涌",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.PV6rk7NtshEwxX9I]赋予</p>\n<p>你为摆脱持续伤害而进行的任何纯骰检定，其DC如同受到协助一般降低。</p>"
     },
     "9Sq4P1Pxr1owEv6R": {
-      "name": "效果: 纽带增强"
+      "name": "效果: 纽带增强",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.LGrCVzOvUayHW1Pu]赋予</p>\n<p>你的下一次豁免获得+1状态加值。如果此次对抗命能或虚能效果的豁免取得成功，则改为获得大成功。</p>"
     },
     "9Zp0f8bUTq4iZNBT": {
-      "name": "效果: 藏匿计划"
+      "name": "效果: 藏匿计划",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.class-features.Item.M9TRPDyDZI4dDFCJ]通过临时效果赋予</p>\n<p>当你对来源生物察言观色取得大成功时，改为获得成功。</p>"
     },
     "9wWPl1LVWgqiZ2Wz": {
-      "name": "效果: 全息威吓"
+      "name": "效果: 全息威吓",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.8zWFGKRXg1SxIwFH]赋予</p>\n<p>你用于挫败士气的威吓检定获得+1环境加值。</p>"
     },
     "A8NpjGmBeDx3taOP": {
-      "name": "效果: 有本事跨过我！"
+      "name": "效果: 有本事跨过我！",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.M8kAxAXWRRWMRTzT]赋予</p>\n<p>你获得活体盾牌反应。</p>"
     },
     "Ag1xeFKjsdO3L566": {
-      "name": "效果: 自适应凝结"
+      "name": "效果: 自适应凝结",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.YNYPV8UsU4xGt3Rh]赋予</p>\n<p>你对一种自选类型的持续伤害获得抗力，数值等于自身等级的一半。</p>"
     },
     "B0ZDwyk4qOr7hp4e": {
-      "name": "效果: 威吓嘲讽"
+      "name": "效果: 威吓嘲讽",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.8EnKNTqKEZJBoIQb]赋予</p>\n<p>当你的敌对动作未将来源生物列为目标时，该动作的攻击检定和豁免DC承受–2环境减值。成功时，只有你进行的第一个敌对动作受到影响。</p>"
     },
     "CIO1HR8vbx61qpXw": {
-      "name": "效果: 骨片飞射"
+      "name": "效果: 骨片飞射",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.6EULnMpte8cl2EET]赋予</p>\n<p>你获得造成1d8穿刺伤害的碎骨无武装攻击。碎骨属于弹射武器组，具有区域（锥形）特征，射程为15尺。</p>"
     },
     "DqJVydBDD48StDVh": {
-      "name": "效果: 炼狱武装"
+      "name": "效果: 炼狱武装",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.WpJCB3dCycbIzG3w]赋予</p>\n<p>你每轮第一次武器打击的伤害获得等于武器伤害骰数量两倍的状态加值。这份额外伤害的伤害类型由你的地狱骑士骑士团决定。</p>"
     },
     "E5oRUzuYh5rLlPzu": {
-      "name": "效果: 四处找找!"
+      "name": "效果: 四处找找!",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.GYk8nKT8abT5S5NO]赋予</p>\n<p>你用于搜寻的察觉检定获得+2环境加值。随着来源生物等级提高，此加值在7级时提高至+3，12级时提高至+4，17级时提高至+5。</p>"
     },
     "EKRBg0ydRsHdvc7G": {
-      "name": "效果: 与石合一"
+      "name": "效果: 与石合一",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.DnWPKyaMOcOghXQf]赋予</p>\n<p>只要@UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{变巨术}仍在生效，你就获得等于自身等级的临时生命值。</p>"
     },
     "F8kgMkcz23UXS7k7": {
-      "name": "效果: 守护之物"
+      "name": "效果: 守护之物",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.zmpqzYgqpQxLyARh]赋予</p>\n<p>你获得等于自身等级的临时生命值，且意志豁免、AC和攻击获得+1状态加值。</p>"
     },
     "FIdFX4WI50vzf6Pc": {
-      "name": "效果: 为了蚁后！"
+      "name": "效果: 为了蚁后！",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.3pKkqpj3tlefnJ83]赋予</p>\n<p>你变为迅捷，并且对抗心灵效果的豁免获得+2状态加值。</p>"
     },
     "GnxVwCUqrLS2P2RF": {
-      "name": "效果: 文化消费"
+      "name": "效果: 文化消费",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.bX2U1gmiLwmU6p4V]赋予</p>\n<p>你对与该文化有关的生物进行基于魅力的技能检定时，获得+2环境加值。</p>"
     },
     "Gt6n0nYxHlPSmWVH": {
-      "name": "效果: 协助推撞"
+      "name": "效果: 协助推撞",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.TD9g4O6m7jngmFag]赋予</p>\n<p>你的AC获得+2环境加值。</p>"
     },
     "HB8lDFxU86aAl50M": {
-      "name": "效果: 无阻指令"
+      "name": "效果: 无阻指令",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.Byflan3ypJEPDwby]赋予</p>\n<p>你获得等于来源生物等级一半的临时生命值。</p>"
     },
     "INyimlbeeR3Blqk3": {
-      "name": "效果: 牺牲外壳"
+      "name": "效果: 牺牲外壳",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.Xwf4AbAjYRqxenZ5]赋予</p>\n<p>你陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}，并失去外套膜能力赋予你的精准伤害抗力。</p>"
     },
     "IaICLG7zwOV4OKgM": {
-      "name": "效果: 混入人群"
+      "name": "效果: 混入人群",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.N68CjcvYmLF35KrD]赋予</p>\n<p>处于至少10个生物的人群中时，你的隐秘检定获得+2环境加值；处于至少100个生物的人群中时，则获得+4环境加值。如果你的欺骗为大师，你只需5个生物便能获得这些加值。</p>"
     },
     "IgDTjR6XT2nlZU26": {
-      "name": "效果: 未授权地狱引擎"
+      "name": "效果: 未授权地狱引擎",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.0To4quWfTncrY5ON]赋予</p>\n<p>你的驾驶检定获得+1环境加值。</p>"
     },
     "ItKEn1ikbsZROaBL": {
-      "name": "效果: 疗愈变形"
+      "name": "效果: 疗愈变形",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.7yIxWfNZ7yEKs0Fd]赋予</p>\n<p>你获得等于自身等级一半的临时生命值。</p>"
     },
     "JCLJ0NqggwDuoCeQ": {
-      "name": "效果: 同袍协力！"
+      "name": "效果: 同袍协力！",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.jsHIAHWseRSVILx0]赋予</p>\n<p>你的攻击检定获得+1环境加值。</p>"
     },
     "KbklfQccpb5EuP7N": {
-      "name": "效果: 战意盎然"
+      "name": "效果: 战意盎然",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.0c7nXTrqhEh7vyFh]赋予</p>\n<p>在接下来的1分钟内，每当你将一个敌对生物的生命值降至0，就恢复@Damage[@actor.level[healing]]生命值，数量等于你的等级。如果你处于@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{受伤}，可以改为将受伤状态值降低1，而不恢复生命值。</p>"
     },
     "KiCwXxBqYjxS0u2Q": {
-      "name": "效果: 弹火激灼"
+      "name": "效果: 弹火激灼",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.9RqJNPSx5T6b2WoB]赋予</p>\n<p>你获得等于自身等级一半的临时生命值，如同已瞄准一般对所有目标施加精准伤害，并且AC和意志豁免承受–1环境减值。</p>"
     },
     "LhknLKoC69iOEtHy": {
-      "name": "效果: 狂躁"
+      "name": "效果: 狂躁",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.TzaICdHvT6I8RMTP]赋予</p>\n<p>你的近战攻击检定获得+2状态加值，AC承受-2状态减值。</p>"
     },
     "Ll3uZdiSqaszP3fn": {
-      "name": "效果: 碎星冲击"
+      "name": "效果: 碎星冲击",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.4XYoe783SsKoVCsA]赋予</p>\n<p>你的速度承受–10尺状态减值。</p>"
     },
     "MVoUvf0bzUUSUkiR": {
-      "name": "效果: 傲然抗命"
+      "name": "效果: 傲然抗命",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.NUZClDNinM6oVgJN]赋予</p>\n<p>对抗被标记生物的攻击、法术和其他效果时，你的AC和豁免获得+1环境加值。</p>"
     },
     "MXV9PRH3mK7o6TDP": {
-      "name": "效果: 爆发激增"
+      "name": "效果: 爆发激增",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.wVeEm29sNY7FKYGn]赋予。</p>\n<p>你的电路在@Template[emanation|distance:10]内发出明亮光照，并在其外的10尺范围内发出昏暗光照。</p>"
     },
     "MZzCPh8IHQwe4xP3": {
-      "name": "效果: 断尾"
+      "name": "效果: 断尾",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.8jmGw4nCmoq7pLWV]赋予</p>\n<p>你的速度降低5尺，且特技检定承受–2状态减值。</p>"
     },
     "MlcCtlwwJEKusoUK": {
-      "name": "效果: 唤临海怪"
+      "name": "效果: 唤临海怪",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.ylKh9o44H479jxCc]赋予</p>\n<p>你变为超巨型石面鱿族利维坦战斗形态。</p>\n<p>你获得以下数据和能力。</p><ul><li>AC＝22＋你的等级。无视护甲的检定减值和速度减值。</li><li>10点临时生命值。</li><li>速度10尺、飞行40尺、游泳60尺。</li><li>以下无武装近战攻击。你受训于此攻击，攻击调整值为+25。此攻击基于力量。如果你自身的无武装攻击调整值更高，则可以改用自己的调整值。<strong>近战</strong> <span class=\"action-glyph\">1</span> 触手（回摆、擒拿、长触及30尺），伤害3d10+15钝击；<strong>区域射击</strong> <span class=\"action-glyph\">2</span> 哀嚎（@Template[cone|distance:60]），伤害3d10+15音波（对抗你的职业DC或法术DC中较高者进行基础反射豁免）。</li><li>特技调整值+15，运动调整值+25，除非你自身的调整值更高。</li></ul>"
     },
     "N2sUfIzHp08G5fUA": {
-      "name": "效果: 古龙之态"
+      "name": "效果: 古龙之态",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.ri5qV0g9RwwWLiBk]赋予</p>\n<p>你的体型增大为巨型。你的触及增加5尺（如果你是船生龙人，则增加10尺），近战伤害获得+4状态加值。</p>"
     },
     "NEgZy4YHA1TGlF6T": {
-      "name": "效果: 朝这打！"
+      "name": "效果: 朝这打！",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.3mMNEAr5wgTFC9mC]赋予</p>\n<p>你的AC承受–2环境减值，并获得对所有伤害的抗力，数值等于自身等级的一半。如果你拥有护甲风暴战斗风格，则对抗来自被压制生物的攻击时，此抗力翻倍。</p>"
     },
     "NhV64Budza1tG6ah": {
-      "name": "效果: 排气"
+      "name": "效果: 排气",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.e9uXXN7GOtWBGz09]赋予</p>\n<p>你的所有速度获得+10尺环境加值。</p>"
     },
     "O4Ck3SKtbPWN3WKU": {
-      "name": "效果: 光合再生"
+      "name": "效果: 光合再生",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.ywM6SzmYVXtYExQn]赋予</p>\n<p>你获得再生20。</p>"
     },
     "Pdm2JmwnKc6yB1y5": {
-      "name": "效果: 进入暴怒状态"
+      "name": "效果: 进入暴怒状态",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.kxXC7sNk5GCDqKeZ]赋予</p>\n<p>你变为大型。触及增加5尺，近战伤害获得+2状态加值。你陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}。</p>"
     },
     "QFglrJ1STC0L82aP": {
-      "name": "效果: 启动感觉毛"
+      "name": "效果: 启动感觉毛",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.OjxLbgV4KSq6NIYm]赋予</p>\n<p>你获得模糊震颤感知。</p>"
     },
     "RhmWzzEbiykniDHQ": {
-      "name": "效果: 坚持不懈！"
+      "name": "效果: 坚持不懈！",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.gZr207z8Q7AuH2RT]赋予</p>\n<p>你获得等于来源生物的魅力调整值加其等级一半的临时生命值。</p>\n<p><strong>以身作则</strong> 你对抗造成伤害的效果时，豁免获得+1状态加值。</p>"
     },
     "S3GNkuot8Ll6m0vK": {
-      "name": "效果: 心能楔子"
+      "name": "效果: 心能楔子",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.VPvxhpKUiRCPYxhv]赋予</p>\n<p>你对抗来源生物其他内在法术的豁免承受–1状态减值。</p>"
     },
     "SS3He5Oh41NZjmf7": {
-      "name": "效果: 跟踪微粒"
+      "name": "效果: 跟踪微粒",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.uLZcelY6CTKJOOLU]通过临时效果赋予</p>\n<p>来源生物无视你的掩蔽加值和隐蔽。</p>"
     },
     "SjZYAWpzpGWhICVF": {
-      "name": "效果: 血怒战纹"
+      "name": "效果: 血怒战纹",
+      "description": "<p>你用于[[/act demoralize]]的威吓检定获得+1环境加值，对抗情绪效果的意志豁免获得+1状态加值，并在回合结束时将@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}状态值降低2，而非1。</p>"
     },
     "SjauZALDFxxkSNbl": {
-      "name": "效果: 双重瞄准"
+      "name": "效果: 双重瞄准",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.hE7UxbuJvB1PsB6x]赋予</p>\n<p>你选择第二个生物作为标记目标。</p>"
     },
     "Stvn3BZz9B9otBJl": {
-      "name": "效果: 虚空同调"
+      "name": "效果: 虚空同调",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.u05dG8Wwt5N3K6lh]赋予</p>\n<p>你获得虚能治疗。</p>"
     },
     "T9vJgdL1zidgsPJi": {
-      "name": "效果: 蜕皮"
+      "name": "效果: 蜕皮",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.Wb4vtGqg2Cl2FF1k]赋予</p>\n<p>你逃脱时获得+2环境加值。</p>"
     },
     "TCTBI4kVQVqRh9XN": {
-      "name": "效果: 绝不倒下"
+      "name": "效果: 绝不倒下",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.tZpDvVvEqBGIKJ2n]赋予</p>\n<p>你的AC获得+1环境加值，速度获得+5尺状态加值。</p>"
     },
     "TMarUs51Jg7v3g3f": {
-      "name": "效果: 技艺激励"
+      "name": "效果: 技艺激励",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.EFkWRLQwain42TFm]赋予</p>\n<p>你的技能检定获得+2环境加值。</p>"
     },
     "U7ZWScb2rLlZYxpF": {
-      "name": "效果: 能量灌注"
+      "name": "效果: 能量灌注",
+      "description": "<p>你的打击变为魔法打击，并获得以下一种效果：对抗活物时额外造成1点精魂伤害并获得邪秽特征，或对抗不死生物时额外造成1点精魂伤害并获得神圣特征。</p>"
     },
     "UlFxEP3YrbseKA62": {
-      "name": "效果: 恒星武器"
+      "name": "效果: 恒星武器",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.class-features.Item.uUzVTZ7XohXlavB6]赋予</p>\n<p>你获得恒星武器打击。</p>"
     },
     "Uwb0PSFXd4QGG9Q1": {
-      "name": "效果: 机动瞄准"
+      "name": "效果: 机动瞄准",
+      "description": "<p>伊兰指挥官使用所选武器进行的攻击额外造成2d6精准伤害，并将目标从掩蔽获得的AC加值降低1。</p>"
     },
     "V2RD3qNBmkrzXb4K": {
-      "name": "效果: 预判心绪"
+      "name": "效果: 预判心绪",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.bqQ80aCjgigKSJMY]赋予</p>\n<p>你以该生物为目标的欺骗和威吓检定，以及对抗该目标具有恐惧特征效果的豁免获得+1环境加值。如果你对目标造成心灵伤害，此加值提高至+2。</p>"
     },
     "WNCJ8ZgkqU7LhJNk": {
-      "name": "效果: 联结法术"
+      "name": "效果: 联结法术",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.ANmwfBz6O24D5Zje]赋予</p>\n<p>你的法术伤害或治疗量获得等于其环阶的状态加值。</p>"
     },
     "WUHSeAxZXX3Fin3S": {
-      "name": "效果: 谐波收敛"
+      "name": "效果: 谐波收敛",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.ELkCf9SO5URWXP0R]赋予</p>\n<p>你获得等于自身等级一半的临时生命值。</p>"
     },
     "WUXWS9SkVMDS1ri2": {
-      "name": "效果: 纳米体武装充能"
+      "name": "效果: 纳米体武装充能",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.PYOgmegDpeiynDiK]赋予</p>\n<p>该武器造成电击伤害，并获得过充能特征。</p>"
     },
     "XmdJvu33YRjQbLsz": {
-      "name": "效果: 荡涤心灵，激昂斗志"
+      "name": "效果: 荡涤心灵，激昂斗志",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.ypSQT2urAcrgaoQ1]赋予</p>\n<p>你的意志豁免获得+1环境加值。</p>"
     },
     "YbBoPkBHnyyy3xLd": {
-      "name": "效果: 专注感知"
+      "name": "效果: 专注感知",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.0vqXr3SYakIa19k3]赋予</p>\n<p>你获得30尺回声定位（精确）。</p>"
     },
     "ZQM4vfHEKgxvNJik": {
-      "name": "效果: 轻易支配者"
+      "name": "效果: 轻易支配者",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.cMbBH7RBX6Qtrym3]赋予</p>\n<p>你使用所选技能进行的下一次检定获得+1状态加值（如果你的检定为大成功，则为+2加值）。</p>"
     },
     "ZYokE0rZII1J7YSr": {
-      "name": "效果: 石面莫测"
+      "name": "效果: 石面莫测",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.tbJwCh7o7TfxGsnw]赋予</p>\n<p>你对来源生物察言观色的察觉检定承受–2环境减值。</p>"
     },
     "a9EaJsV7mwXohaY1": {
-      "name": "效果: 加德拉萨之赐"
+      "name": "效果: 加德拉萨之赐",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.LCc4hWg33Gh1cOdO]赋予</p>\n<p>你获得等于陆地速度的飞行速度，持续10分钟。</p>"
     },
     "a9Kooj6ihx2LpnbE": {
-      "name": "效果: 附毒弹匣"
+      "name": "效果: 附毒弹匣",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.bcsiq3UyaOKTMuJi]赋予</p>\n<p>你使用所选武器进行的每次打击或自动射击，若造成酸蚀、钝击、毒素、穿刺或挥砍伤害，还会额外造成2d6毒素伤害。</p>"
     },
     "af3dMl0TEkqOp2K9": {
-      "name": "效果: 傲慢防卫"
+      "name": "效果: 傲慢防卫",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.wI0g2nRfu2d0YFAd]赋予</p>\n<p>你获得等于自身等级的临时生命值。</p>"
     },
     "aw4sF8U2odkls99H": {
-      "name": "效果: 纳米体形态"
+      "name": "效果: 纳米体形态",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.OlSfsaJSE4Lk7wkt]赋予</p>\n<p>你变为巨型，获得集群特征和40尺飞行速度。作为集群，你具有以下性质。</p><ul><li>你免疫@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}、@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}和@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{（被）束缚}状态。</li><li>你具有区域伤害和溅射伤害弱点5。</li><li>你可以与其他生物占据相同的空间，且必须如此才能使用你的伤害能力。</li><li>你可以进行一个2动作活动，对所有与你共享空间的生物造成@Damage[10d6[acid]]伤害（基础反射豁免，DC等于你的职业DC或法术DC，取较高者）。</li><li>你无法说话、施放法术、使用需要手部的操作动作、启动魔法物品，或以平时的身体进行任何打击。</li><li>你不会获得集群心智能力，因此仍会正常受到心灵效果影响。</li></ul>"
     },
     "b09qH19WK3FQi2QF": {
-      "name": "效果: 愈战愈勇"
+      "name": "效果: 愈战愈勇",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.HKmLMpA5esbUsxTB]赋予</p>\n<p>你获得等于自身等级的临时生命值。</p>"
     },
     "b3bGLDuzs0lKS1Oq": {
-      "name": "效果: 大啖"
+      "name": "效果: 大啖",
+      "description": "<p>你获得等于10加上自身等级一半的临时生命值，向下取整。</p>"
     },
     "bbdg6JeElvGWb20A": {
-      "name": "效果: 据我推算"
+      "name": "效果: 据我推算",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.IJvX7FJ40i84XPuR]赋予</p>\n<p>根据结果，你的下一次技能检定或攻击检定获得环境加值或承受环境减值。</p>"
     },
     "bynA4hR6QPQbiyJY": {
-      "name": "效果: 光晕结界"
+      "name": "效果: 光晕结界",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.hAOjYvcgTbWQffbT]赋予</p>\n<p>根据你当前的调谐选择一种伤害类型。你对所选伤害类型获得抗力，数值等于自身等级的一半（向上取整）。</p>"
     },
     "cnmur02H1qW03Gwi": {
-      "name": "效果: 英勇抵抗"
+      "name": "效果: 英勇抵抗",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.a9ER2amvCuQEJODm]赋予</p>\n<p>你获得等于自身等级的临时生命值。只要仍拥有这些临时生命值，你对抗恐惧效果的意志豁免就获得+1环境加值，对抗以你为目标的挫败士气检定时，意志DC获得+2环境加值。</p>"
     },
     "dAcHJiPDtqxxrR4Z": {
-      "name": "效果: 到那去！"
+      "name": "效果: 到那去！",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.ndYnIz8DvI8RpAup]赋予</p>\n<p>你的速度获得+5尺状态加值。此距离在7级、12级和17级时各额外增加5尺。</p>"
     },
     "dug2BtLbknb8AlJs": {
-      "name": "效果: 同步共鸣"
+      "name": "效果: 同步共鸣",
+      "description": "<p>你变为@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}，持续3轮，且只能将额外动作用于快步、行走或准备援助。在持续时间内，你无法被夹击。如果你对一个正被集体心智中另外两位盟友夹击的目标进行远程打击，该目标对这次打击视为@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>"
     },
     "fYZ1vNXDqgkG4e48": {
-      "name": "效果: 先祖交感"
+      "name": "效果: 先祖交感",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.1UMvx9gjV6ekxT4Z]赋予</p>\n<p>你所选的技能获得+2状态加值，并且可以尝试通常需要该技能达到大师熟练度的任何技能检定。如果你未受训于该技能，你对该未受训技能检定的熟练加值等于自身等级。</p>"
     },
     "fzsAxccVTPTMlpih": {
-      "name": "效果: 神鬼莫测"
+      "name": "效果: 神鬼莫测",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.class-features.Item.8bE9icPZbaqFDGlC]通过临时效果赋予</p>\n<p>当你对来源生物察言观色取得大成功或成功时，改为获得失败。</p>"
     },
     "g1J6DOxBQkacvbyE": {
-      "name": "效果: 能量消耗"
+      "name": "效果: 能量消耗",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.3RqBU4dfoegOPzqw]赋予</p>\n<p>你获得等于自身等级的临时生命值，以及能量屏障专长。</p>"
     },
     "gFELDtZR5N3jx7fl": {
-      "name": "效果: 念控泰坦"
+      "name": "效果: 念控泰坦",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.Cj9UI2RZL6WBJ6EB]赋予</p>\n<p>你可以携带等于7＋所选属性调整值的负载而不超载，并且能够持握和携带的总负载为12＋所选属性调整值。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.gNUrQ8jimAvAA0xg]动作。</p>"
     },
     "gKDw3GcOiOYMMK1k": {
-      "name": "效果: 心灵干预"
+      "name": "效果: 心灵干预",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.pOQv4G8pLP6SWbmr]赋予</p>\n<p>你的攻击检定和意志豁免承受–1状态减值（大成功时为–2）。</p>"
     },
     "gWDgX4Zs8O1lxfcQ": {
-      "name": "效果: 沟通世界之核"
+      "name": "效果: 沟通世界之核",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.hfICrKOU1m8UChoi]赋予</p>\n<p>你用武器进行的下一次攻击，每个武器伤害骰额外造成1d4伤害。</p>"
     },
     "hJI3OxpC4qcr7uxp": {
-      "name": "效果: 不稳定过载"
+      "name": "效果: 不稳定过载",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.8Xp7Pj7w0jcoQVvW]赋予</p>\n<p>你变为迅捷并陷入故障1。以此方式处于迅捷状态时，你的AC、攻击检定和豁免获得+2状态加值。在失去迅捷状态之前，你无法降低故障值。</p>"
     },
     "hcH7IdEjC2wUVfaK": {
-      "name": "效果: 废品匠的巧思"
+      "name": "效果: 废品匠的巧思",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.U9Cv3DBWBjTPg1eR]赋予</p>\n<p>你下一次用于制造或修理的手艺检定获得环境加值。</p>"
     },
     "ii1NY1YvM7lsql6n": {
-      "name": "效果: 音乐响起"
+      "name": "效果: 音乐响起",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.BR7x21W93kN3DP2m]赋予</p>\n<p>你的先攻检定和对抗情绪效果的豁免获得+1状态加值。</p>"
     },
     "jA3fhbOp4nbUZ3PK": {
-      "name": "效果: 释放威严"
+      "name": "效果: 释放威严",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.lTxbKyZoxEJWqHjX]赋予</p>\n<p>你的意志豁免获得+1环境加值。</p>"
     },
     "jJX6rYoKEW0neDu6": {
-      "name": "效果: 携手共进"
+      "name": "效果: 携手共进",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.0kaAco73HPrhxUvf]赋予</p>\n<p>你对抗以你为目标的挫败士气、移位、推撞或摔绊尝试时，豁免获得+2环境加值。</p>"
     },
     "jeYrs3IIaZTwSWT3": {
-      "name": "效果: 星耀继承者"
+      "name": "效果: 星耀继承者",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.k6nITfPqPA04zc6K]赋予</p>\n<p>你变为小型（如果你是巨大新星族，则为中型）。你的近战伤害和威吓检定获得+2状态加值。</p>"
     },
     "jtlZPjobJNXLol7S": {
-      "name": "效果: 亡灵猎手"
+      "name": "效果: 亡灵猎手",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.kC42tjY689rma6Uc]赋予</p>\n<p>你以所有武器和徒手攻击对被标记生物进行攻击时，可以使用其重击专精效果。</p>"
     },
     "k2Sal2fpeoUsGZAv": {
-      "name": "效果: 不屈不挠"
+      "name": "效果: 不屈不挠",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.o2Tknvim2UP2W6Yk]赋予</p>\n<p>你获得1d8+4点临时生命值。这些临时生命值在6级以及此后每4级增加1d8+4。</p>"
     },
     "kJR7VvSqPzhA6lR2": {
-      "name": "效果: 星辰烙印"
+      "name": "效果: 星辰烙印",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.3HmrwfbkjMHn6jw0]赋予</p>\n<p>你标记一个生物。以被标记生物为目标时，你的恒星耀斑射程增量增加60尺。</p>"
     },
     "kUsIxlsS2CzXnwyB": {
-      "name": "效果: 船体弹跳"
+      "name": "效果: 船体弹跳",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.qKU2thbKGqrpplnD]赋予</p>\n<p>你获得等于陆地速度的飞行速度，持续10分钟。</p>"
     },
     "kxaRFiXRKMNpasnu": {
-      "name": "效果: 冥想辨析"
+      "name": "效果: 冥想辨析",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.d8ekF23HTScyOrbr]赋予</p>\n<p>你的下一次恒星武器打击获得+1环境加值。</p>"
     },
     "lRXqkQTrtVRqqDWH": {
-      "name": "效果: 即兴大师"
+      "name": "效果: 即兴大师",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.WFFYDg0sgjaXCeq6]赋予</p>\n<p>你获得所选技能的大师熟练度；如果你拥有传奇即兴发挥，则获得传奇熟练度。</p>"
     },
     "mrZQiNQDUOao8Qvc": {
-      "name": "效果: 失重防御"
+      "name": "效果: 失重防御",
+      "description": "<p>你失去因失重状态而获得的@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态，并且AC和反射豁免获得+1环境加值，直到你不再失重，或使用具有操作特征的动作。</p><hr /><p><strong>特殊</strong> 如果你是虚空侍僧卡萨斯人，使用具有操作特征的动作不会使你失去失重防御的益处。</p>"
     },
     "ohgzmXpRpt3meJX6": {
-      "name": "效果: 喷火狂魔"
+      "name": "效果: 喷火狂魔",
+      "description": "<p>每日准备期间，你可以改装一件科技武器，占用一个强化槽为其加装化学罐，直到你的下次每日准备。该武器造成火焰伤害，并获得过充能1d6和重击（火焰）特征。如果它原本就造成火焰伤害，则改为获得过充能1d8特征。每次为该武器过充能时，消耗1单位化学剂。</p>"
     },
     "onpjKbg3rIhq0JBa": {
-      "name": "效果: 菌丝护甲"
+      "name": "效果: 菌丝护甲",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.z2svGGsaTEx65Ovg]赋予</p>\n<p>你的AC获得+2状态加值，并获得物理伤害抗力10，且陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}。</p>\n<p>此能力生效期间，如果你获得生命值或临时生命值，直到你下个回合结束，你的所有近战徒手打击都会额外造成2d6毒素伤害。</p>"
     },
     "pZabAZDrrIENU803": {
-      "name": "效果: 法涌军火"
+      "name": "效果: 法涌军火",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.nygEe8US6gwSPJ9t]赋予</p>\n<p>你的武器或手雷额外造成等于该法术环级的力场伤害，并获得魔法特征。如果该法术造成伤害，则此额外伤害的类型改为与触发法术相同。</p>"
     },
     "piyxWlJUtjJIKdW4": {
-      "name": "效果: 永不放弃！"
+      "name": "效果: 永不放弃！",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.oRdDgSC3RVpNgisd]赋予</p>\n<p>你下一次受到的治疗量增加，增加值等于来源生物的魅力调整值加其等级的一半。</p>"
     },
     "q5W7fV1wXvqBFxt8": {
-      "name": "效果: 恒星护盾"
+      "name": "效果: 恒星护盾",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.hKkUTNTjRztyRSJr]赋予</p>\n<p>你可以举起盾牌，使你的AC获得+1环境加值。举盾期间，你可以用这面盾牌进行盾牌格挡反应。</p>"
     },
     "q9gRPJBtyyJwgTRb": {
-      "name": "效果: 自适应抗力"
+      "name": "效果: 自适应抗力",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.ML54yt0PcuEz4DdO]赋予</p>\n<p>选择目标具有抗力或免疫的一种伤害类型。你对该伤害类型获得等于自身等级一半的抗力，持续1分钟。如果该生物的抗力或免疫涵盖多个伤害类型，则选择其中一种；例如，若一个生物对所有物理伤害具有抗力，你可以选择钝击、穿刺或挥砍。</p>\n<p>如果你不知道目标的抗力或免疫，则随机选择你获得的抗力。如果目标没有任何免疫或抗力，你便不会获得抗力，且此次使用不计入适应性抗力的频率。</p>"
     },
     "qA3xFKVmtZCXSgsg": {
-      "name": "效果: 调谐结界"
+      "name": "效果: 调谐结界",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.eTefuy0BRvwAcqbQ]通过临时效果赋予</p>\n<p>你陷入笨拙1和措手不及，持续1轮。如果这是你本回合第二次命中来源生物，则提高为笨拙2。</p>"
     },
     "qWKEoeSiev5IosQ8": {
-      "name": "效果: 灵魂誓言之英勇"
+      "name": "效果: 灵魂誓言之英勇",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.BVmjMAwYKs83RG1d]赋予</p>\n<p>你对抗恐惧效果的意志豁免获得+1环境加值。</p>"
     },
     "qbnXMOmVMMKphIgg": {
-      "name": "效果: 适应性防御"
+      "name": "效果: 适应性防御",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.y0dtKu1ZuwqMUFEf]赋予</p>\n<p>你对一种伤害类型获得等于该法术环级的抗力。</p>"
     },
     "qljNFYceOwaYUcR1": {
-      "name": "效果: 吸收火焰"
+      "name": "效果: 吸收火焰",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.Y5mpjkk8s6UQJYvQ]赋予</p>\n<p>你的下一次打击额外造成等于自身等级一半的火焰伤害（向上取整）。</p>"
     },
     "rb5747jApJjOApkA": {
-      "name": "效果: 坚守阵线"
+      "name": "效果: 坚守阵线",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.FY7tx79zrMwmo5OQ]赋予</p>\n<p>你的速度获得5尺状态加值，第一次攻击获得+1状态加值。</p>"
     },
     "rmKcSjjP9gdzirRt": {
-      "name": "效果: 聚合莱西"
+      "name": "效果: 聚合莱西",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.h1tBbW1xX0nKzkpm]赋予</p>\n<p>你的触及增加5尺，近战伤害掷骰获得+2状态加值，并陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}。</p>"
     },
     "rxk6UxIuCushWnId": {
-      "name": "效果: 蒸汽脑袋"
+      "name": "效果: 蒸汽脑袋",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.wCZL42wzt33CuCSX]赋予</p>\n<p>你的速度增加5尺。</p>"
     },
     "sEPdCQ7J3hF6mjHi": {
-      "name": "效果: 硬举"
+      "name": "效果: 硬举",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.Wc26O3XFKxWfxY5N]赋予</p>\n<p>你在超载前可以比平时多携带4负载。额外携带量在专家时提高至6，大师时提高至8，传奇时提高至10。</p>"
     },
     "vILFwvPBAb3EcpTq": {
-      "name": "效果: 生物纳米皮肤"
+      "name": "效果: 生物纳米皮肤",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.Pow1h2QqTny9Ycmz]赋予</p>\n<p>你的乔装检定获得+2状态加值。</p>"
     },
     "w9PcqHsnbIm11p8M": {
-      "name": "效果: 赋生之光"
+      "name": "效果: 赋生之光",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.ZPBbez3ZvXHCJKtY]赋予</p>\n<p>你获得等于来源生物等级一半的临时生命值。</p>"
     },
     "x4fR05693ijNBCii": {
-      "name": "效果: 燃火之躯"
+      "name": "效果: 燃火之躯",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.dp3jTnxAb98E2BCk]赋予</p>\n<p>你在30尺半径内发出明亮光照，并在其外的30尺范围内发出昏暗光照。你对抗具有寒冷特征的攻击、法术和其他效果的豁免还获得+1环境加值。</p>"
     },
     "xBbC7n21cv29kMOq": {
-      "name": "效果: 伤口撒盐"
+      "name": "效果: 伤口撒盐",
+      "description": "<p>该敌人在其下个回合结束前进行的下一次豁免、技能检定或攻击检定承受–1环境减值。</p>"
     },
     "xQvyfiOh05xK2A5A": {
-      "name": "效果: 带电卡洛鱼人"
+      "name": "效果: 带电卡洛鱼人",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.heritages.Item.ZAOKze0PTYPPbUua]赋予</p>\n<p>你获得等于自身等级一半的电击抗力（最低为1）。</p>"
     },
     "xYipnklm52BcgwSD": {
-      "name": "效果: 团结合作"
+      "name": "效果: 团结合作",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.LHtaCR4gS4kozJyP]赋予</p>\n<p>你的援助检定获得+2环境加值。</p>"
     },
     "xtEwtA0CRNU6O17Y": {
-      "name": "效果: 医疗纪念品"
+      "name": "效果: 医疗纪念品",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.TRnzPCxk7caxPtaG]赋予</p>\n<p>你获得等于自身等级的临时生命值。</p>"
     },
     "yDgrjb3OuB51axy7": {
-      "name": "效果: 大气层飞行"
+      "name": "效果: 大气层飞行",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.wZyBTTRM2BjC93gg]赋予</p>\n<p>你获得等于陆地速度加10尺的飞行速度。</p>"
     },
     "yYafOxeNKG7n3WQn": {
-      "name": "效果: 重导能量"
+      "name": "效果: 重导能量",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.9P2ZptR0PrYyiJFl]赋予</p>\n<p>所选武器额外造成1d4伤害，类型与触发伤害相同。在此期间，你失去完美平衡赋予的对触发伤害类型的任何抗力。</p>"
+    },
+    "0sNnWNSToD3FrbtF": {
+      "name": "效果：变肤伪装",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.pWMwGj8lnOpkU3Hr]赋予</p>\n<p>你用于<span>躲藏</span>和<span>潜行</span>的隐秘检定获得+2环境加值。</p>"
+    },
+    "1KLuThhsYQMPO5Qj": {
+      "name": "效果：适应性移动",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.iIESt0oV0vobl41N]赋予</p>\n<p>如果选择鳍足，你获得20尺游泳速度。如果选择带钩伪足，你获得20尺攀爬速度。此次变形持续10分钟。</p>"
+    },
+    "2xon6Q6ukZK5BXnX": {
+      "name": "效果：背靠背联结",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.H01khd3YKhjq4Oju]赋予</p>\n<p>等级等于或低于你的生物无法夹击你。</p>"
+    },
+    "4CVM1CKudi7K92yN": {
+      "name": "效果：LFAN通电",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.yczQG8ddfMLyaQgq]赋予</p>\n<p>你的打击每有一个武器伤害骰，便额外造成d6电击伤害。</p>"
+    },
+    "4ZemlTXd2mq2S7EL": {
+      "name": "效果：外交撤退（成功）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.PbGi8qVbMWTqq3Bd]赋予</p>\n<p>当你的敌对动作以来源生物为目标，或将其包含在区域内时，该动作的攻击检定和豁免DC承受–2环境减值。</p>"
+    },
+    "5DDF5QmysOpq5bGF": {
+      "name": "效果：牺牲外壳（拾荒蜗族）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.Av2O9p1vv6tfSVek]赋予</p>\n<p>你获得等于自身等级两倍的临时生命值。</p>"
+    },
+    "5KDHxCnc923wtc9M": {
+      "name": "效果：多臂擒握",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.P7RFvoUU2kssme4q]赋予</p>\n<p>你尝试从来源生物逃脱时承受–2环境减值。</p>"
+    },
+    "6lT9d0YrRkdWOJ7u": {
+      "name": "效果：集结部队",
+      "description": "<p>你获得5点临时生命值；如果你在移动结束时与指挥官相邻，则获得的临时生命值翻倍。</p>"
+    },
+    "73I9yj9XlxcBLXfa": {
+      "name": "效果：干得好！",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.15v6nXEIi10i0CNI]赋予</p>\n<p>你的伤害获得等于来源生物魅力调整值的状态加值。</p>"
+    },
+    "81igjVgKBDXMomwb": {
+      "name": "效果：显现能量之翼",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.NEYVJWYtgl0rRSwg]赋予</p>\n<p>你获得等于陆地速度加10尺的飞行速度。</p>"
+    },
+    "8HDUnGy6hfvj6p37": {
+      "name": "效果：念动冲刺",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.r1bUsyDwcwuN3MUG]赋予</p>\n<p>你的速度获得+5尺状态加值。</p>"
+    },
+    "Ac1PiEOOGQQu8DrW": {
+      "name": "效果：决心不减",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.bvKTmO6DfZMYca9H]赋予</p>\n<p>你所选的技能获得+1环境加值。</p>"
+    },
+    "Ax22CnvK5FeXLt6g": {
+      "name": "效果：滑溜黏液",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.TilhFOG89jo02XsE]赋予</p>\n<p>你逃脱时获得+2环境加值。随后你可以行走，在此次行走期间，你的速度获得+10尺环境加值。</p>"
+    },
+    "B4JhFkbk5WHmWcOZ": {
+      "name": "效果：坚持住！",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.YRy857LORIhKOgbY]赋予</p>\n<p>你获得临时生命值。</p>"
+    },
+    "B8kDmWVlRX1uJb1o": {
+      "name": "效果：机动瞄准（临时效果）",
+      "description": "<p>你从掩蔽获得的AC加值降低1。</p>"
+    },
+    "BJ5qmGeMTxQrfn3g": {
+      "name": "效果：杂波护盾",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.qjcTcdQpCVMJcNgi]赋予</p>\n<p>你对抗心灵效果的豁免获得+2环境加值。</p>"
+    },
+    "CoQvuLMyHZxaHKNC": {
+      "name": "姿态：松鼠狐架势",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.HIhTJqC2UJ9G2YBr]赋予</p>\n<p>对抗推撞、移位或摔绊你的尝试时，你的强韧DC和反射DC获得+1环境加值。此加值也适用于对抗试图移动你或将你击倒在地的法术或效果的豁免。</p>"
+    },
+    "DrC3IJz3ePwm6Bmk": {
+      "name": "效果：异食饕客（成功）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.iDuGse1UVEfFnfom]赋予</p>\n<p>你获得等于异食饕客等级的临时生命值。</p>"
+    },
+    "F2VaEGedUJJ5aPqF": {
+      "name": "效果：瞄准（削弱掩蔽）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC]通过临时效果赋予</p>\n<p>你从掩蔽获得的环境加值降低。</p>"
+    },
+    "FDhS17NbYyFKt3pG": {
+      "name": "效果：不死理解（失败）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.pNhvzqasjOsMyxcW]赋予</p>\n<p>如果你是无心智的不死生物，你失去对心灵效果的免疫。</p>"
+    },
+    "FaLV7NboBARQ1PG5": {
+      "name": "效果：外交撤退（大失败）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.PbGi8qVbMWTqq3Bd]赋予</p>\n<p>当你的敌对动作以来源生物为目标，或将其包含在区域内时，该动作的攻击检定和豁免DC获得+1环境加值。</p>"
+    },
+    "FqUokahAJwpV6lbE": {
+      "name": "效果：巨蜗形态",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.bovfLCEE0ZzoSQwZ]赋予</p>\n<p>你的战斗形态是一只异怪，具有30尺速度和30尺攀爬速度、酸蚀和毒素伤害抗力10、黑暗视觉、60尺精确嗅觉，以及一种触手无武装打击（长触及15尺），造成2d10钝击伤害外加2d6酸蚀伤害。你用触手命中一个生物后，可以花费一个动作攫抓目标。处于此战斗形态时，你还获得@UUID[Compendium.sf2e-anachronism.actions.Item.Wt3PzHoo3BauvifP]能力。</p>"
+    },
+    "GsiH3fTqaDRkR52l": {
+      "name": "效果：吸收情绪",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.B7kPbNFc2xKzfuwa]赋予</p>\n<p>你获得等于来源生物等级的临时生命值。</p>"
+    },
+    "HEdKj6rBmmvxRWRo": {
+      "name": "效果：释放威严（挫败士气成功）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.lTxbKyZoxEJWqHjX]赋予</p>\n<p>你获得等于来源生物等级的临时生命值。</p>"
+    },
+    "HK97RHpmtXVCpRKr": {
+      "name": "效果：受控狂暴",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.Mfih4GjatO1sw2Ug]赋予</p>\n<p>你获得等于自身等级的临时生命值。你的近战打击伤害还获得+1状态加值。</p>"
+    },
+    "INAjtUZaCtApbpfe": {
+      "name": "效果：涂抹胆汁",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.iUdoilRjGH6dI9qI]赋予</p>\n<p>你使用所选武器进行的打击额外造成毒素伤害。</p>"
+    },
+    "IPIYAY9bTGetPw12": {
+      "name": "效果：戏剧朗读（成功）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.QYQmAFvXirWpHeC3]赋予</p>\n<p>你的察觉和意志豁免承受–1状态减值。</p>"
+    },
+    "IhxBLx9JmeZxiTe5": {
+      "name": "效果：协作本能",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.2ZPvgNZ9CfrsPWtY]赋予</p>\n<p>你援助来源生物的检定获得+2环境加值。</p>"
+    },
+    "JDvBWzG4ivMPPYfI": {
+      "name": "效果：灼热命血",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.1V710YUwzCDNcGfM]赋予</p>\n<p>任何触碰你、对你造成穿刺或挥砍伤害，或以近战无武装攻击命中你的生物，都会受到3d6火焰伤害。</p>"
+    },
+    "JNIAimpO48hgxhfN": {
+      "name": "效果：炫耀成性",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.TY7Jtspbyg5ALLgS]赋予</p>\n<p>你的表演检定获得+2环境加值。</p>"
+    },
+    "JYc2d8FHhg3t3gea": {
+      "name": "效果：贪婪噬咬（临时生命值）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.4DEjy5LsbZQWl892]赋予</p>\n<p>你获得等于自身等级一半的临时生命值。</p>"
+    },
+    "JsggylQc0omAsExA": {
+      "name": "效果：怒意释放",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.SAkw1zr6z8PKV3ZF]赋予</p>\n<p>你的体型增大为大型，并陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}。你的近战伤害获得+1状态加值。</p>"
+    },
+    "K0hYQZcHLRa3GdfK": {
+      "name": "效果：进入战位！（以身作则）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.1lkfbLoteDlzoqxb]通过以身作则赋予。</p>\n<p>你对其他生物的攻击承受–1环境减值。</p>"
+    },
+    "NNBc9roYRnFmB3dF": {
+      "name": "效果：叛逆抗争",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.nAJeT29ZJvqeg98h]赋予</p>\n<p>你对被标记生物的攻击检定获得+1环境加值。对抗该生物的攻击、法术和效果的豁免也获得此加值。</p>"
+    },
+    "NSGtb7a9NrcwIpcu": {
+      "name": "效果：贪婪噬咬（回忆知识）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.4DEjy5LsbZQWl892]赋予</p>\n<p>你下一次回忆与目标具有相同特征的生物信息的回忆知识检定，获得+2状态加值。</p>"
+    },
+    "NoHJfHeFdbn0FaDv": {
+      "name": "效果：压抑情绪",
+      "description": "<p>用于@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.NGInnZ5bj0dF1fo7]的临时效果</p>\n<p>你的察言观色检定承受–2环境减值。</p>"
+    },
+    "Ojy9y4WYGjQJjUwj": {
+      "name": "效果：不羁心灵",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.j1FsKMy7CTtrp3Fu]赋予</p>\n<p>你对抗心灵效果的豁免获得+1环境加值。</p>"
+    },
+    "P17W2LiaziPOkT8f": {
+      "name": "效果：外交撤退（大成功）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.PbGi8qVbMWTqq3Bd]赋予</p>\n<p>当你的敌对动作以来源生物为目标，或将其包含在区域内时，该动作的攻击检定和豁免DC承受–2环境减值。</p>"
+    },
+    "P5r9ZR5tOvzQnTyb": {
+      "name": "效果：化为软泥",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.pO1wkgklxp9j1taY]赋予</p>\n<p>你获得对挥砍和穿刺伤害的抗力，数值等于自身等级的一半。</p>"
+    },
+    "UaDoTYe6CamzrAKh": {
+      "name": "效果：不懈滚行",
+      "description": "<p>你的所有速度获得+20尺状态加值，持续1轮。</p>"
+    },
+    "VVoZLSzfIMN0fj06": {
+      "name": "姿态：万物抓取架势",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.mKKbDTcRiCzazHis]赋予</p>\n<p>你可以进行鞭挞肢体打击，造成3d6钝击伤害，属于拳斗武器组，具有擒拿和无武装特征，触及为15尺。你还可以使用拥抱世界活动。</p>"
+    },
+    "VhJBxcduyXuNED74": {
+      "name": "效果：轻巧分形",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.CSAHq7DUJIKqUH3B]赋予</p>\n<p>你失去所有AC物品加值，以及护甲提供的其他一切效果和加值，并使用无甲防御的熟练等级。你获得物理伤害抗力8，且免疫精准伤害。如果你尚无飞行速度，则获得10尺飞行速度。</p>"
+    },
+    "W2flbcSZF5o0oPV3": {
+      "name": "效果：不恕之怒",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.vCDJybbGPmPErHQV]赋予</p>\n<p>你获得等于自身魅力调整值的临时生命值。</p>"
+    },
+    "WV7zGeEKrGlL7XlH": {
+      "name": "效果：维系链接",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.YS5Kia3d15gzwIpi]赋予</p>\n<p>你对抗心灵效果的豁免承受-1状态减值，并获得对心灵效果的弱点。</p>"
+    },
+    "WloLZGDERsq9JDP7": {
+      "name": "效果：不死理解（大失败）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.pNhvzqasjOsMyxcW]赋予</p>\n<p>如果你是无心智的不死生物，你失去对心灵效果的免疫。</p>"
+    },
+    "XgiT7DKIXpi4L05j": {
+      "name": "效果：为倒下者奋战",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.xiETkup8Lwj4LWAM]赋予</p>\n<p>进行一次打击，攻击检定掷骰两次并取较好结果。</p>"
+    },
+    "YI60jVAgutn1YrI7": {
+      "name": "效果：扰乱演讲（失败）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.WR4Ziq4PIq2HFWyv]赋予</p>\n<p>你的察觉检定和意志豁免承受–1状态减值。</p>"
+    },
+    "YSEse0Vs6r639go5": {
+      "name": "效果：出发吧",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.crBuXVSCLtVwy4py]赋予</p>\n<p>你的速度获得+10尺状态加值，并获得迅捷状态。每轮的额外动作只能用于行走。</p>\n<p>如果来源生物拥有超音速专长，当你在出发吧赋予的迅捷状态下行走时，你获得隐蔽，直到你下个回合开始。如同其他带有明显视觉表现的隐蔽一样，你不能利用此隐蔽躲藏。</p>"
+    },
+    "YdijKJgLnRTNQR7v": {
+      "name": "效果：侦察（灾变人类）",
+      "description": "<p>@UUID[Compendium.sf2e-anachronism.heritages.Item.t4Tq3fnDqou4slBY]</p>\n<p>你的先攻检定获得+2环境加值。</p>"
+    },
+    "Yi6NrMHTkm6qgbGS": {
+      "name": "效果：异食饕客（大成功）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.iDuGse1UVEfFnfom]赋予</p>\n<p>你获得等于异食饕客等级的临时生命值。</p>"
+    },
+    "ZLGe31v4jLANtk91": {
+      "name": "效果：渗透者强化绝技",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.class-features.Item.u4hB3FGFJwGtjrZB]通过临时效果赋予</p>\n<p>每当你对来源生物的近战攻击检定大失败时，来源生物可以用一个反应进行破坏。</p>"
+    },
+    "c8sAqdlyyYzg2FeT": {
+      "name": "效果：纺蛛人毒液",
+      "description": "<p>直到你下个回合开始，你使用所选武器进行的下一次造成钝击、穿刺或挥砍伤害的打击或自动射击，还会额外造成@Damage[1d6[poison]]伤害。</p>"
+    },
+    "cHVdr5CxC6SKYjv1": {
+      "name": "效果：攻击眼睛！（临时效果）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.dbBfOhJWZwbWbmVG]通过临时效果赋予</p>\n<p>你对抗佯攻的察觉DC承受–2环境减值。</p>"
+    },
+    "eETBTvKEhaCxCnG8": {
+      "name": "效果：蒸汽形态",
+      "description": "<p>你失去所有AC物品加值，以及护甲提供的其他一切效果和加值，并使用无甲防御的熟练等级。你获得物理伤害抗力8，且免疫精准伤害。你无法施放法术、启动物品，或使用具有攻击或操作特征的动作。你获得等于正常飞行速度的飞行速度，且可以穿过细小裂缝。此形态持续5分钟，或直到你解消它。</p>"
+    },
+    "eFimVmrn9gJ9ugoH": {
+      "name": "效果：原能活力",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.bRZsZmonloMTwjcE]赋予</p>\n<p>你在移动结束时获得等于自身等级的临时生命值，持续1分钟。</p>"
+    },
+    "ey2zSEnprAGgvrij": {
+      "name": "效果：干掉他！",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.cmCtfURzpbzkxWsy]赋予</p>\n<p>你对被标记目标的攻击获得+1状态加值。</p>\n<p><strong>以身作则</strong> 来源生物对被标记目标的首次打击获得等于其魅力调整值的状态加值。直到你下个回合开始，你随后对该敌人进行的打击获得伤害状态加值。</p>"
+    },
+    "f92GBWr5lfx4tKot": {
+      "name": "效果：元素完美和谐",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.class-features.Item.AurhNoZmNNhHktx6]赋予</p>\n<p>你对秘术师在每日准备期间选择的两种元素获得抗力。</p>"
+    },
+    "fa4T1oR8S0lF5888": {
+      "name": "效果：留活口",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.86YwN8XwJdk2kTgQ]赋予</p>\n<p>你为武器攻击，以及会造成伤害且不具有死亡或虚能特征的法术添加非致命特征。</p>\n<p><strong>以身作则</strong> 如果来源生物的首次打击成功，其伤害获得等于你的魅力调整值的状态加值。</p>"
+    },
+    "g2m4vNyluDrkuZYt": {
+      "name": "效果：黏附擒握",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.0z6N6876SD83JfgY]赋予</p>\n<p>当被你擒获的生物在逃脱检定中取得失败时，改为获得大失败；如果取得大成功，则改为获得成功。</p>"
+    },
+    "gABm4VTVRcfbv5sG": {
+      "name": "效果：恒星武器（双武器）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.Mett2INmoUZxE0CR]赋予</p>\n<p>你获得第二个恒星武器打击。</p>"
+    },
+    "hi8MzgUdx532I1Gt": {
+      "name": "效果：人肉炮弹",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.q5wpA72zrimqgAXW]赋予</p>\n<p>你可以用一个反应，以来源生物的身体进行一次远程打击，将其作为造成1d10钝击伤害的徒手攻击。此徒手攻击属于拳斗武器组，具有灵巧、非电子、凶暴和投掷（20尺）特征，并获得来源生物所穿戴<em>硬光缠手带</em>的益处。</p>"
+    },
+    "iMh34rzRpLOoKNbL": {
+      "name": "效果：适应性真皮",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.v6wKk4pHYdaH7Ubj]赋予</p>\n<p>你对所选伤害类型获得抗力5。</p>"
+    },
+    "iOkzEDtx1953uD26": {
+      "name": "效果：咬住不放",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.U9AtNbpmav4v6ZPh]赋予</p>\n<p>你获得等于自身等级一半的临时生命值。</p>"
+    },
+    "j8PdZa8f0ekkdIYw": {
+      "name": "效果：闲聊疗愈",
+      "description": "<p>当你能与盟友交流时，你的身体会得到实际的治疗。你可以选择与盟友进行听觉或视觉交流，使用此动作时，它获得对应特征。你获得等于自身等级一半的快速治疗，持续1分钟。在闲聊疗愈生效期间，如果你不再满足需求，此快速治疗便会结束。</p>"
+    },
+    "jp73xHXJgb5GwQtP": {
+      "name": "效果：蠕动尾巴（减值）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.z3cF7KHZKCl3LNu1]赋予</p>\n<p>你的保持平衡检定承受–2环境减值。</p>"
+    },
+    "lBNPZGhjrJy38W4P": {
+      "name": "效果：宽广视野",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.JpSwlkJJtj9uo8UH]赋予</p>\n<p>你获得全域视野。</p>"
+    },
+    "lx8R8RLgmxIEkT04": {
+      "name": "效果：上下夹攻",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.bzrvvxwRs9XMn1hN]赋予</p>\n<p>你对抗卸武、佯攻、移位、推撞、摔绊和翻滚尝试的DC承受–2环境减值。</p>"
+    },
+    "mKWPyxaEKvO5RrZx": {
+      "name": "效果：腌菜核音乐（大成功）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.7Lfk5mDqLNQYhROJ]赋予</p>\n<p>你的速度获得+5尺状态加值。</p>"
+    },
+    "mmT4wCspLVjiGnND": {
+      "name": "效果：启示录斩击",
+      "description": "<p>獠牙对被标记目标额外造成2d8虚能伤害。</p>"
+    },
+    "mpoTONLPMyb14mO9": {
+      "name": "效果：戏剧朗读（大成功）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.QYQmAFvXirWpHeC3]赋予</p>\n<p>你的察觉和意志豁免承受–1状态减值。</p>"
+    },
+    "n33jAVZDDWQ7ifvl": {
+      "name": "效果：战术指导",
+      "description": "<p>你额外造成2d4精准伤害，并将目标从掩蔽获得的AC加值降低1。</p>"
+    },
+    "nZ5a2t2oZcR5CdF5": {
+      "name": "效果：肾上腺素激涌",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.JnpK0Ka0vj91Wilr]赋予</p>\n<p>你获得等于自身等级的临时生命值。</p>"
+    },
+    "nvB1852vEPVqjxhR": {
+      "name": "效果：真切物件（锚定效果）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.class-features.Item.Z1sThY5XgXiXQBIy]赋予</p>\n<p>你对抗恐惧效果的意志豁免获得+1环境加值，对抗以你为目标的挫败士气检定时，意志DC获得+2环境加值。</p>"
+    },
+    "ppKeWbPcSaVqD1Cj": {
+      "name": "效果：战术打击",
+      "description": "<p>你的攻击检定和伤害掷骰获得+1状态加值。</p>"
+    },
+    "tBkIC1NHTuwmXXmX": {
+      "name": "效果：滑不留手",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.EgclcqDiOi0CvNse]赋予</p>\n<p>每当一个生物在擒拿、推撞或摔绊你的检定中取得失败时，改为获得大失败。</p>"
+    },
+    "ue31mD8kFdI3AlYM": {
+      "name": "效果：汇聚烧蚀",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.vcacDqeCGBqpBp4u]赋予</p>\n<p>你对触发伤害的能量类型获得等于自身等级的抗力。</p>"
+    },
+    "xoUfhVC7gCK716ut": {
+      "name": "效果：元素和谐",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.class-features.Item.AurhNoZmNNhHktx6]赋予</p>\n<p>你的下一次打击造成所选类型的伤害，取代其通常的伤害类型。</p>"
+    },
+    "y6VGOjPa8TtVVvYR": {
+      "name": "效果：相位转移",
+      "description": "<p>集群变为虚体，直到其下个回合开始。它还获得对所有伤害的抗力10（力场、幽冥或精魂除外；对非魔法伤害的抗力翻倍）。处于虚体状态时，集群对未通过集群噬咬豁免的生物额外造成1d10精准伤害。</p>"
+    },
+    "yNCAi4KGVSur8i26": {
+      "name": "效果：老练领袖",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.jLcgJnDgWMkD2HF3]赋予</p>\n<p>你从@UUID[Compendium.pf2e.actionspf2e.Item.tfa4Sh7wcxCEqL29]{跟随专家}获得的环境加值增加1。</p>"
     }
   }
 }

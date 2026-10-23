@@ -11,30 +11,358 @@
       "path": "items",
       "converter": "sf2eAnachronismCnItems"
     },
-    "publicNotes": "system.details.publicNotes"
+    "publicNotes": "system.details.publicNotes",
+    "cnText_prototypeToken_name": {
+      "path": "prototypeToken.name",
+      "converter": "sf2eAnachronismCnText"
+    },
+    "cnText_system_attributes_ac_details": {
+      "path": "system.attributes.ac.details",
+      "converter": "sf2eAnachronismCnText"
+    },
+    "cnText_system_attributes_hp_details": {
+      "path": "system.attributes.hp.details",
+      "converter": "sf2eAnachronismCnText"
+    },
+    "cnText_system_attributes_stealth_details": {
+      "path": "system.attributes.stealth.details",
+      "converter": "sf2eAnachronismCnText"
+    },
+    "cnText_system_details_blurb": {
+      "path": "system.details.blurb",
+      "converter": "sf2eAnachronismCnText"
+    },
+    "cnText_system_details_description": {
+      "path": "system.details.description",
+      "converter": "sf2eAnachronismCnText"
+    },
+    "cnText_system_details_disable": {
+      "path": "system.details.disable",
+      "converter": "sf2eAnachronismCnText"
+    },
+    "cnText_system_details_languages_details": {
+      "path": "system.details.languages.details",
+      "converter": "sf2eAnachronismCnText"
+    },
+    "cnText_system_details_reset": {
+      "path": "system.details.reset",
+      "converter": "sf2eAnachronismCnText"
+    },
+    "cnText_system_details_routine": {
+      "path": "system.details.routine",
+      "converter": "sf2eAnachronismCnText"
+    },
+    "cnText_system_perception_details": {
+      "path": "system.perception.details",
+      "converter": "sf2eAnachronismCnText"
+    },
+    "cnText_system_skills_athletics_special_0_label": {
+      "path": "system.skills.athletics.special.0.label",
+      "converter": "sf2eAnachronismCnText"
+    }
   },
   "entries": {
+    "1HDdV0YxZoA0trLs": {
+      "name": "剥骨者",
+      "items": [
+        {
+          "id": "X4zMB74suOhOC4SR",
+          "expectedName": "Integrated Advanced Machine Gun",
+          "name": "内置先进型机枪",
+          "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>These proven and reliable automatic weapons are capable of firing in short bursts or completely emptying their magazines to clear a battlefield.</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这些久经考验、可靠耐用的自动武器，既可以短点射，也能彻底打空弹匣，扫清战场。</p>"
+        },
+        {
+          "id": "v5uuoV4yy1Y6NG9T",
+          "expectedName": "Slam",
+          "name": "猛击"
+        },
+        {
+          "id": "Lj7NNv8PRfifErox",
+          "expectedName": "Integrated Advanced Machine Gun",
+          "name": "内置先进型机枪"
+        },
+        {
+          "id": "2WvpvBX1nzrbUenv",
+          "expectedName": "Counter-fire",
+          "name": "反击射击",
+          "expectedDescription": "<p><strong>Trigger</strong> An enemy target attempts a ranged Strike against the boneflayer</p>\n<p><strong>Requirements</strong> The boneflayer is currently outside the melee reach of the enemy target</p><hr /><p><strong>Effect</strong> The boneflayer attempts a ranged Strike. If the result of this Strike is equal to or greater than the result of the triggering Strike, the triggering Strike is treated as though it were a critical miss.</p>",
+          "description": "<p><strong>触发</strong> 一个敌方目标对剥骨者尝试远程打击</p>\n<p><strong>需求</strong> 剥骨者当前处于该敌方目标的近战触及范围外</p><hr /><p><strong>效果</strong> 剥骨者尝试一次远程打击。若此次打击的结果等于或大于触发打击的结果，触发打击便视为大失败。</p>"
+        },
+        {
+          "id": "9TAy3MvWSGL3tVJD",
+          "expectedName": "Hypersonic Burst",
+          "name": "超音速爆发",
+          "expectedDescription": "<p><strong>Effect</strong> The boneflayer Steps or Strides twice.</p>",
+          "description": "<p><strong>效果</strong> 剥骨者快步或行走两次。</p>"
+        },
+        {
+          "id": "IESFWkysnPJGQktZ",
+          "expectedName": "Rampage Strikes",
+          "name": "狂暴打击",
+          "expectedDescription": "<p>The boneflayer Steps or Strides, then makes two Strikes against the same target. Both Strikes count toward its multiple attack penalty, but its multiple attack penalty does not increase until after it makes both Strikes.</p>",
+          "description": "<p>剥骨者快步或行走，然后对同一目标进行两次打击。两次打击均计入其多重攻击减值，但多重攻击减值直至两次打击完成后才会增加。</p>"
+        }
+      ],
+      "cnText_system_details_languages_details": {
+        "expected": "can't speak any language",
+        "text": "无法说任何语言"
+      },
+      "cnText_system_details_blurb": {
+        "expected": "Variant robotic advanced war machine",
+        "text": "变体机器人先进型战争机器"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Boneflayer",
+        "text": "剥骨者"
+      }
+    },
+    "1RHRano7xlPt44Is": {
+      "name": "复原投影仪",
+      "items": [
+        {
+          "id": "k2oija8LqfQPgfMj",
+          "expectedName": "Generate Scamp",
+          "name": "生成魔蝠",
+          "expectedDescription": "<p><strong>Trigger</strong> Two or more living creatures enter area <strong>A5</strong></p><hr /><p><strong>Effect</strong> The projector creates two hardlight scamps next to the podium. This projector can manifest only two scamps at a time. The scamps roll initiative. The scamps disappear when slain, or if their projector is deactivated or destroyed.</p>",
+          "description": "<p><strong>触发</strong> 两个或更多活物进入区域<strong>A5</strong></p><hr /><p><strong>效果</strong> 投影仪在讲台旁创造两只硬光魔蝠。此投影仪同时只能显现两只魔蝠。魔蝠掷先攻。魔蝠被杀死，或其投影仪被关闭或摧毁时，便会消失。</p>"
+        },
+        {
+          "id": "7aYcbruxrMTSq6Je",
+          "expectedName": "Infuse Scamp",
+          "name": "灌注魔蝠",
+          "expectedDescription": "<p><strong>Trigger</strong> A hardlight scamp is critically hit but not destroyed</p><hr /><p><strong>Effect</strong> The affected hardlight scamp regains @Damage[1d8[healing]] Hit Points.</p>",
+          "description": "<p><strong>触发</strong> 一只硬光魔蝠被重击，但未被摧毁</p><hr /><p><strong>效果</strong> 受影响的硬光魔蝠回复@Damage[1d8[healing]]生命值。</p>"
+        }
+      ],
+      "cnText_system_details_description": {
+        "expected": "<p>Hardlight scamps spawn from this antique projector and harass nearby living creatures.</p>",
+        "text": "<p>硬光魔蝠从这台古老的投影仪中生成，骚扰附近的活物。</p>"
+      },
+      "cnText_system_details_disable": {
+        "expected": "<p>@Check[arcana|dc:20] (trained) to depower the magical circuits, @Check[computers|dc:20] (trained) to reprogram the projector, or @Check[athletics|dc:20] (trained) to rip the projector out of the wall.</p>",
+        "text": "<p>@Check[arcana|dc:20]（受训）以切断魔法电路供能、@Check[computers|dc:20]（受训）以重新编程投影仪，或@Check[athletics|dc:20]（受训）以将投影仪从墙上扯下。</p>"
+      },
+      "cnText_system_details_reset": {
+        "expected": "<p>The trap deactivates after 6 rounds and resets after 1 hour.</p>",
+        "text": "<p>陷阱在6轮后停止运作，并在1小时后重置。</p>"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Rejuvenating Projector",
+        "text": "复原投影仪"
+      }
+    },
+    "4XHrKB4GP5e6I9uH": {
+      "name": "死灵炮塔",
+      "items": [
+        {
+          "id": "t4KXUUsN45tCR47z",
+          "expectedName": "Lock On",
+          "name": "锁定",
+          "expectedDescription": "<p><strong>Trigger</strong> A living creature moves into a space within 120 feet of the necroturret</p><hr /><p><strong>Effect</strong> The necroturret locks on to the closest living creature, granting the necroturret a +1 circumstance bonus to its next attack roll. All living creatures within 10 feet of a necroturret take @Damage[(1d10+6)[cold]] damage with a @Check[fortitude|dc:20|basic] save as the turret charges its capacitors. The necroturrets then roll for initiative.</p>",
+          "description": "<p><strong>触发</strong> 一个活物移动至死灵炮塔120尺内的一个空间</p><hr /><p><strong>效果</strong> 死灵炮塔锁定最近的活物，使其下次攻击掷骰获得+1环境加值。炮塔为电容器充能，死灵炮塔10尺内的所有活物受到@Damage[(1d10+6)[cold]]伤害，进行@Check[fortitude|dc:20|basic]豁免。随后死灵炮塔掷先攻。</p>"
+        },
+        {
+          "id": "1YSPtUnLoUees6w3",
+          "expectedName": "Ice Beam",
+          "name": "冰束",
+          "expectedDescription": "<p>Plus @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] for 1 round (2 rounds on a critical hit)</p>",
+          "description": "<p>外加@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{被压制}，持续1轮（重击时为2轮）</p>"
+        }
+      ],
+      "cnText_system_details_description": {
+        "expected": "<p>A gigantic spinal column, ripped whole from a great beast, is posed on the surface of Barrow, enhanced with necromantic technology that turns it into a unliving weapons system. Its skull has been replaced with sensor arrays and deadly ice beam emitters.</p>",
+        "text": "<p>一根从巨兽身上完整扯下的巨大脊柱被摆放在巴罗星表面，死灵科技将其强化为一套不死武器系统。它的头骨已被传感器阵列和致命的冰束发射器取代。</p>"
+      },
+      "cnText_system_details_disable": {
+        "expected": "<p>@Check[computers|dc:16] (trained) or @Check[vidgame-lore|dc:16] (trained) to shut down the necroturret's tech targeting system, @Check[arcana|dc:18] (trained), @Check[nature|dc:18] (trained), @Check[occultism|dc:18] (trained), or @Check[religion|dc:18] (trained) to disrupt the necroturret's magical core, or @Check[athletics|dc:20] or @Check[thievery|dc:20] to destroy vital circuits. A necroturret loses one action from its routine for each successful check made to disable it, or two actions on a critical success.</p>",
+        "text": "<p>@Check[computers|dc:16]（受训）或@Check[vidgame-lore|dc:16]（受训）以关闭死灵炮塔的科技瞄准系统；@Check[arcana|dc:18]（受训）、@Check[nature|dc:18]（受训）、@Check[occultism|dc:18]（受训）或@Check[religion|dc:18]（受训）以扰乱死灵炮塔的魔法核心；或@Check[athletics|dc:20]或@Check[thievery|dc:20]以摧毁关键电路。每次成功进行解除检定会使死灵炮塔的运作流程失去一个动作，大成功则失去两个动作。</p>"
+      },
+      "cnText_system_details_reset": {
+        "expected": "<p>A necroturret deactivates when it no longer detects living creatures within 120 feet of its location.</p>",
+        "text": "<p>死灵炮塔不再侦测到自身120尺内有活物时，便会停止运作。</p>"
+      },
+      "cnText_system_details_routine": {
+        "expected": "<p>(2 actions) The necroturret uses its actions to attack living creatures with its ice beams. It uses the Lock On reaction once every round to enhance its targeting matrix against the closest living creature. Necroturrets focus on targets trying to disable them.</p>",
+        "text": "<p>（2动作）死灵炮塔用其动作以冰束攻击活物。它每轮使用一次锁定反应，增强其针对最近活物的瞄准矩阵。死灵炮塔会集中攻击试图解除它们的目标。</p>"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Necroturret",
+        "text": "死灵炮塔"
+      }
+    },
+    "6CBtaIhJZdAgAqVf": {
+      "name": "旋转跑步机",
+      "items": [
+        {
+          "id": "ixhdPgVcake5rvPq",
+          "expectedName": "Spin-Off",
+          "name": "甩脱",
+          "expectedDescription": "<p><strong>Trigger</strong> A creature steps on the treadmill</p><hr /><p><strong>Effect</strong> The creature must attempt a @Check[reflex|dc:15] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is pushed back 5 feet.</p>\n<p><strong>Failure</strong> The creature is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and pushed back 5 feet.</p>\n<p><strong>Critical Failure</strong> The creature is knocked prone, takes @Damage[1d6[bludgeoning]] damage, and is pushed back 10 feet. If this forced movement would have the PC impact another creature, that subsequent creature must succeed at a @Check[reflex|dc:15] save or be knocked prone.</p>",
+          "description": "<p><strong>触发</strong> 一个生物踏上跑步机</p><hr /><p><strong>效果</strong> 该生物必须尝试@Check[reflex|dc:15]豁免。</p><hr /><p><strong>大成功</strong> 生物不受影响。</p>\n<p><strong>成功</strong> 生物被向后推5尺。</p>\n<p><strong>失败</strong> 生物被击倒而@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}，并被向后推5尺。</p>\n<p><strong>大失败</strong> 生物被击倒，受到@Damage[1d6[bludgeoning]]伤害，并被向后推10尺。若此强迫移动会使该PC撞上另一个生物，后者必须成功通过@Check[reflex|dc:15]豁免，否则也会被击倒。</p>"
+        }
+      ],
+      "cnText_system_details_description": {
+        "expected": "<p>These three treadmills' rotating belts are no longer locked in place and now spin freely when activated.</p>",
+        "text": "<p>这三台跑步机的转动带不再锁定在原位，现在启动时会自由转动。</p>"
+      },
+      "cnText_system_details_disable": {
+        "expected": "<p>@Check[sports-lore|dc:13] to remember that older models of treadmills have an emergency brake that can be activated with a pull string, @Check[thievery|dc:15] to jam the mechanism, or @Check[crafting|dc:17] to improvise a stop for the rotating belts</p>",
+        "text": "<p>@Check[sports-lore|dc:13]以回想起旧型跑步机有可以用拉绳启动的紧急制动器、@Check[thievery|dc:15]以卡住机械结构，或@Check[crafting|dc:17]以临时制作阻挡物，阻止转动带运转</p>"
+      },
+      "cnText_system_details_reset": {
+        "expected": "<p>The trap resets automatically until disabled.</p>",
+        "text": "<p>陷阱会自动重置，直至被解除。</p>"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Spinning Treadmill",
+        "text": "旋转跑步机"
+      }
+    },
     "6r1fVn61okoxeQ1Q": {
       "items": [
         {
+          "id": "4sG4bcrbsM0X6dEr",
+          "expectedName": "Tactical Needler Pistol",
+          "name": "战术型针刺手枪"
+        },
+        {
+          "id": "FkkjYE6xfffOzyAq",
+          "expectedName": "Armored Lab Coat",
+          "name": "装甲实验服",
+          "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This overcoat is made of real or synthetic leather and reinforced with armored plates. Armored coats are often tailor-made to match the wearer's personal style. Standard versions are issued to military officers as part of their uniforms.</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这件外套以真皮或合成皮革制成，并以装甲板加固。装甲外套通常会按穿戴者的个人风格量身定制。标准款式则作为制服的一部分配发给军官。</p>"
+        },
+        {
+          "id": "Ukp7ZSawts2E5vSo",
+          "expectedName": "Projectile Ammo",
+          "name": "实弹弹药"
+        },
+        {
+          "id": "70pN95N7sAVLvCib",
+          "expectedName": "Claw",
+          "name": "爪击"
+        },
+        {
+          "id": "h6l5TqagJlUnouya",
+          "expectedName": "Tactical Needler Pistol",
+          "name": "战术型针刺手枪"
+        },
+        {
+          "id": "FEAKFmfMR0TLVWwc",
+          "expectedName": "Grave Weapon",
+          "name": "坟墓武器",
+          "expectedDescription": "<p>The wight scientist is bound to a needler pistol it used in life.</p>",
+          "description": "<p>尸妖科学家绑定了一把生前使用过的针刺手枪。</p>"
+        },
+        {
+          "id": "mayXsFoN6HL9sytk",
+          "expectedName": "Corrupting Influence",
+          "name": "腐化影响",
+          "expectedDescription": "<p>Any time a living creature loses Hit Points due to Corrupting Blood, the wight scientist gains 3 temporary Hit Points.</p>",
+          "description": "<p>每当活物因腐化之血失去生命值，尸妖科学家便获得3点临时生命值。</p>"
+        },
+        {
+          "id": "lPJCzJFlCDD6sFDL",
+          "expectedName": "Reciprocal Strike",
+          "name": "互击",
+          "expectedDescription": "<p><strong>Trigger</strong> The wight scientist is reduced to 0 Hit Points</p><hr /><p><strong>Effect</strong> The wight scientist makes a melee or ranged Strike before being destroyed. Corrupting Influence does not apply to this Strike.</p>",
+          "description": "<p><strong>触发</strong> 尸妖科学家的生命值降低至0</p><hr /><p><strong>效果</strong> 尸妖科学家在被摧毁前进行一次近战或远程打击。腐化影响不适用于此次打击。</p>"
+        },
+        {
           "id": "5kz2i7QRj2z4mUP0",
           "expectedName": "Void Healing",
-          "name": "虚能治疗"
+          "name": "虚能治疗",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        {
+          "id": "r8xFEddEViWnBzol",
+          "expectedName": "Corrupting Blood",
+          "name": "腐化之血",
+          "expectedDescription": "<p>The wight scientist's unarmed attacks and bound weapons inflict a curse that makes a creature grow weak and corrupted by gruesome impulses.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:18]</p>\n<p><strong>Maximum Duration</strong> 5 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d4[void]] damage and @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[1d6[void]] damage and @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[1d8[void]] damage, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3}, and @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} (1 round)</p>",
+          "description": "<p>尸妖科学家的无武装攻击和绑定武器施加诅咒，使生物变得虚弱，并被可怖的冲动腐化。</p>\n<p><strong>豁免</strong> @Check[fortitude|dc:18]</p>\n<p><strong>最长持续时间</strong> 5轮</p>\n<p><strong>阶段1</strong> @Damage[1d4[void]]伤害和@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}（1轮）</p>\n<p><strong>阶段2</strong> @Damage[1d6[void]]伤害和@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}（1轮）</p>\n<p><strong>阶段3</strong> @Damage[1d8[void]]伤害、@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心3}和@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}（1轮）</p>"
+        },
+        {
+          "id": "E8iiIgdAVmqw5gpG",
+          "expectedName": "Corpse Fleet Lore",
+          "name": "尸骸舰队学识"
         }
-      ]
+      ],
+      "name": "尸妖科学家",
+      "cnText_system_attributes_hp_details": {
+        "expected": "corrupting blood, void healing",
+        "text": "腐化之血，虚能治疗"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Wight Scientist",
+        "text": "尸妖科学家"
+      }
     },
     "Bof81QpbW3jmHZYc": {
       "items": [
         {
+          "id": "t5SnmKTutFG5PimT",
+          "expectedName": "Slam",
+          "name": "猛击"
+        },
+        {
+          "id": "PQWCdbdzeyXto5vJ",
+          "expectedName": "Vomit",
+          "name": "呕吐"
+        },
+        {
+          "id": "OOQxWKQpslyYrG6H",
+          "expectedName": "Life Blindness",
+          "name": "生命盲",
+          "expectedDescription": "<p>A lifeleech ooze can only detect living and undead creatures. It has no other sensory abilities. When injured by vitality damage, a lifeleech ooze's senses are overwhelmed, and it automatically becomes @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn.</p>",
+          "description": "<p>吸生泥怪只能侦测活物和不死生物，没有其他感官能力。受到命能伤害时，吸生泥怪的感官会不堪重负，自动陷入@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}，直至其下回合结束。</p>"
+        },
+        {
+          "id": "a00uAVofJdwXJZXO",
+          "expectedName": "Share Space",
+          "name": "共享空间",
+          "expectedDescription": "<p>A lifeleech ooze can share the space of up to four medium or smaller creatures without squeezing, so long as it has room to retain its original shape.</p>",
+          "description": "<p>只要有空间保持原本形状，吸生泥怪便能与至多四个中型或更小的生物共享空间，无需挤入。</p>"
+        },
+        {
+          "id": "IFhyCBWdoeNUIjUw",
+          "expectedName": "Strip Flesh",
+          "name": "剥除血肉",
+          "expectedDescription": "<p>Any living creature that begins its turn sharing the same space as a lifeleech ooze takes @Damage[3d6[void]] damage, with a @Check[fortitude|dc:24|basic] save.</p>",
+          "description": "<p>任何在与吸生泥怪共享空间的状态下开始回合的活物，受到@Damage[3d6[void]]伤害，进行@Check[fortitude|dc:24|basic]豁免。</p>"
+        },
+        {
           "id": "dqPWx3WyZda5j2Yt",
           "expectedName": "Void Healing",
-          "name": "虚能治疗"
+          "name": "虚能治疗",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
         }
-      ]
+      ],
+      "name": "吸生泥怪",
+      "cnText_system_attributes_hp_details": {
+        "expected": "void healing",
+        "text": "虚能治疗"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Lifeleech Ooze",
+        "text": "吸生泥怪"
+      }
     },
     "Bv8sq5fogXIQcehn": {
       "name": "魅影杰夫",
       "items": [
+        {
+          "id": "3ZUdoKCHahUFJdlB",
+          "expectedName": "Jaws",
+          "name": "颚击"
+        },
+        {
+          "id": "EeTS9x1Vy0X0LL32",
+          "expectedName": "Yip",
+          "name": "短吠"
+        },
         {
           "id": "KJXoKvaGMYTvEdHf",
           "expectedName": "Ghostly Form",
@@ -45,24 +373,89 @@
         {
           "id": "FezqBZErkokw1xsU",
           "expectedName": "Void Healing",
-          "name": "虚能治疗"
+          "name": "虚能治疗",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
         },
         {
           "id": "Ouk0kscWIf9OLJLH",
           "expectedName": "Tug-of-War",
-          "name": "拔河比赛"
+          "name": "拔河比赛",
+          "expectedDescription": "<p>The phantom gef attempts to [[/act disarm]] the target with the following critical success.</p><hr /><p><strong>Critical Success</strong> The phantom gef knocks the item out of the creature's hand and into its mouth. While holding the item in this way, the phantom gef can't take any actions except to move, and it can drop the item at any time as a free action.</p>",
+          "description": "<p>魅影杰夫尝试对目标[[/act disarm]]{卸武}，并采用以下大成功结果。</p><hr /><p><strong>大成功</strong> 魅影杰夫将物品从生物手中打出，衔入口中。以此方式衔住物品时，魅影杰夫除了移动以外无法进行任何动作，且可以随时以自由动作放下物品。</p>"
         },
         {
           "id": "fqpdlOzFnqV3662o",
           "expectedName": "Grab",
-          "name": "擒获"
+          "name": "擒获",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
-      ]
+      ],
+      "publicNotes": "<p>在伊奥克斯上的生命消亡之前，杰夫是一种家养动物——这种四足动物体型小而健壮，头部硕大，身体呈流线型，训练得当便极为忠诚。育种员培育出了许多杰夫亚种，它们作为农用牲畜、狩猎伙伴和宠物，越来越受欢迎。</p>\n<p>精品育种员率先通过基因工程培育出杂交杰夫，赋予它们折耳、奇异毛色及其他备受追捧的特征。这些杰夫价值连城，成为灵脑人贤者上层阶级中的热门宠物；这些主人声称自己的宠物还具备魔法特性。</p>\n<p>当灵脑人精英为躲避日益激烈的萨瑟蝶人冲突而寻求庇护时，也带上了心爱的杰夫。少数杰夫在地下掩体中幸存下来，但当大多数伊奥克斯人转化为不死生物后，活体宠物便不再受青睐。最后一批活着的杰夫在主人的宠爱中度过余下的自然寿命，获准安详离世，随后立即被重新活化为不死生物，继续提供永恒的陪伴。</p>\n<p>魅影杰夫是被主人重新活化、重返不生状态的宠物或服务动物。多数魅影杰夫的行为与生前相似。驯养的杰夫保留着所受的训练，偏爱与生前建立羁绊的生物相伴。野生杰夫很罕见，通常是流浪的个体，在奥菲士外围的荒原及其他地方结成游荡的兽群。</p><h2>魅影杰夫宠物</h2><p>大多数魅影杰夫已经与主人建立羁绊——这些极其忠诚的生物宁死也不愿抛弃心爱的伙伴。野化或流浪的魅影杰夫罕见且难寻，但耐心的人仍能训练它们。由于魅影杰夫的行为大致与生前一致，常见的动物训练技巧可以用于引导它们。不过，它们毕竟是不死生物，对食物的兴趣不如活着的动物。驯服魅影杰夫最困难的部分，是先找到一只。</p>",
+      "cnText_system_attributes_hp_details": {
+        "expected": "void healing",
+        "text": "虚能治疗"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Phantom Gef",
+        "text": "魅影杰夫"
+      }
+    },
+    "H8QkiU5XVdCj8zZs": {
+      "name": "舒芙蕾惊喜",
+      "items": [
+        {
+          "id": "D1vbOE5JMFrGclJs",
+          "expectedName": "Sudden Rise",
+          "name": "突然膨胀",
+          "expectedDescription": "<p><strong>Trigger</strong> Zo!'s sabotage begins</p><hr /><p><strong>Effect</strong> all creatures adjacent to a souffle take @Damage[2d6[fire]] damage with a @Check[reflex|dc:23|basic] save. On a critical failure, the creature is also @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF].</p>",
+          "description": "<p><strong>触发</strong> 丧的破坏行动开始</p><hr /><p><strong>效果</strong> 所有紧邻舒芙蕾的生物受到@Damage[2d6[fire]]伤害，进行@Check[reflex|dc:23|basic]豁免。大失败时，生物还会@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{被压制}。</p>"
+        },
+        {
+          "id": "ubAOfKSBTgmUx2cI",
+          "expectedName": "Rise",
+          "name": "膨胀",
+          "expectedDescription": "<p>The souffle expands to fill a @Template[type:burst|distance:10] centered on the cooking station. Each additional round, the souffle grows to fill all adjacent squares that are touching it. Creatures in these squares are affected by Sudden Rise.</p>",
+          "description": "<p>舒芙蕾膨胀，填满以烹饪台为中心的@Template[type:burst|distance:10]。之后每过一轮，舒芙蕾都会继续膨胀，填满所有与其接触的相邻方格。这些方格内的生物受到突然膨胀的影响。</p>"
+        }
+      ],
+      "cnText_system_details_description": {
+        "expected": "<p>A misshapen blob of pastry and magic wobbles as it keeps rising beyond normal baked good dimensions.</p>",
+        "text": "<p>一团混杂着面点和魔法的畸形物颤巍巍地不断膨胀，超出了正常烘焙食品的大小。</p>"
+      },
+      "cnText_system_details_disable": {
+        "expected": "<p>@Check[cooking-lore|dc:18] (trained), @Check[survival|dc:18] (trained), or @Check[thievery|dc:18] (trained) to gently deflate the soufflé, or @Check[athletics|dc:23] to beat the soufflé into submission</p>",
+        "text": "<p>@Check[cooking-lore|dc:18]（受训）、@Check[survival|dc:18]（受训）或@Check[thievery|dc:18]（受训）以轻柔地使舒芙蕾消气，或@Check[athletics|dc:23]以将舒芙蕾打服</p>"
+      },
+      "cnText_system_details_routine": {
+        "expected": "<p>(3 actions) The souffle Rises.</p>",
+        "text": "<p>（3动作）舒芙蕾使用膨胀。</p>"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Soufflé Surprise",
+        "text": "舒芙蕾惊喜"
+      }
     },
     "HOgqslwrHCeXlYp8": {
       "name": "冻骸",
-      "publicNotes": "<p>冻骸是为了尸骸舰队中队在深空中登舰作战而设计的字面意义上的“炮”灰。古冢臭名昭著的研发部门将重伤士兵的残骸回收利用，嫁接到动力装甲中制造出这些不生武器。冻骸既是弹药也是突击队员，他们既能轰穿舰体或砸向行星地表——并在冲击中持续作战而不解体。</p><h2>Forging a Rigor Mortic</h2><p>Rigor mortics are built from chunks of soldiers left behind on the battlefield, grafted into heavy armor and reanimated by necromagitech. Some rigor mortics are forged from the corpses of Corpse Fleet heroes whose bodies are too broken to continue fighting, but most are amalgams of Corpse Fleet survivors, dead enemies, and living conscripts cruelly forced to endure this fate. Once a collection of parts is grafted permanently into a suit of armor, the final step is coating the rigor mortic in a shell of supernatural ice, turning them into projectiles that can be fired from starship cannons in squads of two to four per shot. These \"rigor mortars,\" as they've been nicknamed by some fleet captains, are stored in cryohangars until the moment they're loaded into a cannon. The ice melts away during the rigor mortic's flight, releasing the thawed undead from their shell.</p>",
+      "publicNotes": "<p>冻骸是为在深空中执行登舰行动的尸骸舰队中队设计的，堪称字面意义上的炮灰。古冢臭名昭著的研发部门将重伤士兵的残骸回收，再嫁接入动力装甲，造出了这些不生武器。冻骸兼具弹药与突击兵的功能，旨在轰穿舰体或撞向行星地表，并在撞击后继续战斗，而不会当场解体。</p><h2>铸造冻骸</h2><p>冻骸由遗留在战场上的士兵残块制成：这些残块被嫁接入重甲，再以死灵魔法科技重新活化。有些冻骸由尸骸舰队英雄的遗体铸成，这些英雄的躯体已经残破到无法继续作战；但大多数冻骸是尸骸舰队幸存者、死去的敌人，以及被残忍地迫使承受这种命运的活人征召兵的混合体。将收集来的身体部件永久嫁接入一套护甲后，最后一步是为冻骸覆上一层超自然冰壳，将其变为能从星舰炮中发射的弹丸，每发可射出一支二至四人的小队。有些舰队舰长将其戏称为“冻骸迫击炮”；它们一直储存在低温机库中，直到装入火炮的那一刻。冰壳会在冻骸飞行途中融化，将解冻的不死生物释放出来。</p>",
       "items": [
+        {
+          "id": "HTgWPh7nrdJHJuNq",
+          "expectedName": "Integrated Shield",
+          "name": "内置护盾"
+        },
+        {
+          "id": "dMviHERWjFrrvhV8",
+          "expectedName": "Shield Slam",
+          "name": "盾击猛砸"
+        },
+        {
+          "id": "JR4bTwjJfiKJwbw0",
+          "expectedName": "Breaching Minigun",
+          "name": "破障迷你机枪"
+        },
         {
           "id": "BMajOEk7NXxGvGBR",
           "expectedName": "Breaching Strikes",
@@ -75,47 +468,210 @@
           "expectedName": "Cocoon Projectile",
           "name": "茧状弹体",
           "expectedDescription": "<p>A fully-encased rigor mortic can be fired from a starship weapon into another vehicle or from a starship onto the ground. When delivered onto a battlefield in this fashion, the rigor mortic ignores all falling damage even if they're dropped from orbit. For 1 hour after a drop, a rigor mortic rolls initiative with a –2 penalty and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} for the first round of combat.</p>",
-          "description": "<p>全封闭的冻骸可由星舰武器发射至其他载具，或从星舰投射至地面。当以这种方式投放至战场时，冻骸可完全无视坠落伤害，哪怕它们从轨道投放。投放后1小时内，冻骸进行先攻检定时承受-2减值，并在战斗的第一轮中处于@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。</p>"
+          "description": "<p>完全包裹在茧中的冻骸可以从星舰武器发射至另一台载具，或从星舰发射到地面。以此方式投放到战场时，冻骸忽略所有坠落伤害，即使从轨道上投放也是如此。投放后的1小时内，冻骸的先攻掷骰承受–2减值，且在战斗首轮陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>"
         },
         {
           "id": "uKNj8g2zSmtO9ncl",
           "expectedName": "Construct Armor",
-          "name": "构装盾牌"
+          "name": "构装盾牌",
+          "expectedDescription": "<p>A rigor mortic's grafted armor plates give it Hardness. This Hardness reduces any damage it takes by an amount equal to its Hardness. Once the rigor mortic is reduced to less than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks, removing its Hardness and reducing its Armor Class to 12.</p>",
+          "description": "<p>冻骸植接的甲片赋予其硬度，使其受到的任何伤害减少等于其硬度的数值。一旦冻骸的生命值降低至其生命值一半以下，或遭受重击伤害时，其构装护甲便立即破损，失去硬度，且AC降至12。</p>"
         },
         {
           "id": "c3a8OeEbmB2NhX7s",
           "expectedName": "Void Healing",
-          "name": "虚能治疗"
+          "name": "虚能治疗",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        {
+          "id": "7DRorVZ34R8zbhqr",
+          "expectedName": "Breaching Charge",
+          "name": "破障冲锋",
+          "expectedDescription": "<p>The rigor-mortic Strides twice and Strikes. If the Strike is a critical hit with a breaching weapon, the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>",
+          "description": "<p>冻骸行走两次，然后进行打击。若此次打击使用破障武器且重击，目标陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>"
+        },
+        {
+          "id": "YJeSRhfKHpKAV3bl",
+          "expectedName": "Construct Shield",
+          "name": "构装护盾",
+          "expectedDescription": "<p>A rigor mortic can @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{Raise a Shield} using its integrated armor.</p>",
+          "description": "<p>冻骸可以用其内置护甲@UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{举盾}。</p>"
+        },
+        {
+          "id": "FYX85VYeyCEwmh2L",
+          "expectedName": "Slow March",
+          "name": "缓步行军",
+          "expectedDescription": "<p>The rigor mortic Raises a Shield and Strides twice. The rigor mortic's allies within 20 feet gain lesser cover.</p>\n<p>@UUID[Compendium.pf2e.other-effects.Item.I9lfZUiCwMiGogVi]{Effect: Cover}</p>",
+          "description": "<p>冻骸举盾并行走两次。冻骸20尺内的盟友获得次等掩蔽。</p>\n<p>@UUID[Compendium.pf2e.other-effects.Item.I9lfZUiCwMiGogVi]{效果：掩蔽}</p>"
         }
-      ]
+      ],
+      "cnText_system_attributes_hp_details": {
+        "expected": "void healing",
+        "text": "虚能治疗"
+      },
+      "cnText_system_attributes_ac_details": {
+        "expected": "12 when broken",
+        "text": "破损时为12"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Rigor Mortic",
+        "text": "冻骸"
+      }
+    },
+    "I4sbG3klcFE1HCMq": {
+      "name": "剧情转折",
+      "items": [
+        {
+          "id": "LynJVtGqYlaK9rcb",
+          "expectedName": "Boom!",
+          "name": "轰！",
+          "expectedDescription": "<p><strong>Trigger</strong> Someone starts the shuttle engine, or no creatures succeed at their checks to disable the bomb</p><hr /><p><strong>Effect</strong> The bomb explodes. All creatures within 30 feet take @Damage[6d6[fire]] damage with a @Check[reflex|dc:20|basic] save.</p>",
+          "description": "<p><strong>触发</strong> 有人启动穿梭机引擎，或没有生物成功进行解除炸弹的检定</p><hr /><p><strong>效果</strong> 炸弹爆炸。30尺内的所有生物受到@Damage[6d6[fire]]伤害，进行@Check[reflex|dc:20|basic]豁免。</p>"
+        }
+      ],
+      "cnText_system_details_description": {
+        "expected": "<p>An ominous ticking and colorful exposed wires hint at the bomb rigged to the shuttle's cockpit.</p>",
+        "text": "<p>不祥的滴答声和裸露的彩色电线暗示着穿梭机驾驶舱中安装的炸弹。</p>"
+      },
+      "cnText_system_details_disable": {
+        "expected": "<p>@Check[thievery|dc:16] to cut the trigger wire, @Check[athletics|dc:18] to rip the bomb out of the console and hurl it away from the craft before it explodes, or a Strike against AC 20 to destroy the ignition source before it sets off the explosive charges</p>",
+        "text": "<p>@Check[thievery|dc:16]以剪断触发线、@Check[athletics|dc:18]以将炸弹从控制台上扯下，并在爆炸前将其掷离飞行器，或对AC 20进行打击，以在引燃源引爆炸药前将其摧毁</p>"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Plot Twist",
+        "text": "剧情转折"
+      }
+    },
+    "IsuQst3MOBDEspty": {
+      "name": "迫击炮弹",
+      "items": [
+        {
+          "id": "8bDG9y94vjEaFh5Z",
+          "expectedName": "Exploding Ordinance",
+          "name": "爆炸弹药",
+          "expectedDescription": "<p><strong>Trigger</strong> A creature fails its check to disable the mortar shells hazard</p><hr /><p><strong>Effect</strong> A mortar shell explodes, dealing @Damage[2d10[fire]|options:area-damage] damage in a @Template[type:burst|distance:10] centered on a corner of the triggering creature's square with a @Check[reflex|dc:18|basic] save.</p>",
+          "description": "<p><strong>触发</strong> 一个生物解除迫击炮弹危害的检定失败</p><hr /><p><strong>效果</strong> 一发迫击炮弹爆炸，造成@Damage[2d10[fire]|options:area-damage]伤害，影响以触发生物所占方格的一个角为中心的@Template[type:burst|distance:10]，进行@Check[reflex|dc:18|basic]豁免。</p>"
+        }
+      ],
+      "cnText_system_attributes_hp_details": {
+        "expected": "Mortar Tube",
+        "text": "迫击炮管"
+      },
+      "cnText_system_details_description": {
+        "expected": "<p>Four mortar tubes are constantly being auto-loaded by robotic arms before swiveling to launch projectiles onto the nearby battlefield.</p>",
+        "text": "<p>机械臂不断为四根迫击炮管自动装填，随后炮管转向，将炮弹发射到附近的战场上。</p>"
+      },
+      "cnText_system_details_disable": {
+        "expected": "<p>@Check[warfare-lore|dc:16] to engage the mortar safety switches, @Check[thievery|dc:18] to jam the auto-loading mechanisms so no more ammunition can be cycled, or @Check[athletics|dc:20] to push the tubes out of alignment such that the projectiles no longer threaten the battlefield</p>",
+        "text": "<p>@Check[warfare-lore|dc:16]以启用迫击炮的保险开关、@Check[thievery|dc:18]以卡住自动装填结构，使其无法继续输送弹药，或@Check[athletics|dc:20]以推歪炮管，使炮弹不再威胁战场</p>"
+      },
+      "cnText_system_details_reset": {
+        "expected": "<p>The hazard resets automatically. Any time a PC leaves the trenches, they're targeted by Exploding Ordinance until the mortar shells hazard is disabled.</p>",
+        "text": "<p>危害会自动重置。每当一名PC离开战壕，都会成为爆炸弹药的目标，直至迫击炮弹危害被解除。</p>"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Mortar Shells",
+        "text": "迫击炮弹"
+      }
+    },
+    "J4QXF8oJlSMru16n": {
+      "name": "余烬",
+      "items": [
+        {
+          "id": "FO0HXZGAj4hnCLNY",
+          "expectedName": "Immolate",
+          "name": "焚烧"
+        },
+        {
+          "id": "qeMTMKhMeutDaPta",
+          "expectedName": "Smoke Vision",
+          "name": "烟雾视觉",
+          "expectedDescription": "<p>The cinder ignores the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} condition from smoke.</p>",
+          "description": "<p>余烬忽略烟雾造成的@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态。</p>"
+        },
+        {
+          "id": "QfqpfvIaXDDdBonx",
+          "expectedName": "Hot Air",
+          "name": "灼热空气",
+          "expectedDescription": "<p>5 feet. A creature that enters this aura or begins its turn there must succeed at a @Check[fortitude|dc:22] save or become @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until the end of its next turn, as its feet (or similar appendages) burn.</p>",
+          "description": "<p>5尺。进入此灵光或在其内开始回合的生物必须成功通过@Check[fortitude|dc:22]豁免，否则脚部（或类似附肢）受到灼烧，陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{被压制}，直至其下回合结束。</p>"
+        }
+      ],
+      "cnText_system_perception_details": {
+        "expected": "smoke vision",
+        "text": "烟雾视觉"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Cinder",
+        "text": "余烬"
+      }
     },
     "JWj8jwhBc13XUgrP": {
       "items": [
         {
+          "id": "xhQE35W0oI7hpCNr",
+          "expectedName": "Nose Cone",
+          "name": "头锥"
+        },
+        {
           "id": "jbU2k4x1uErjWMtM",
           "expectedName": "Seeker Rifle",
           "name": "追猎者步枪"
+        },
+        {
+          "id": "BSwfdO4KYG3RHef7",
+          "expectedName": "Radio Silence",
+          "name": "无线电静默",
+          "expectedDescription": "<p>60 feet. Non-allied comm units and other tech-based forms of communication don't function within the aircraft's aura unless its operator succeeds at a Computers check versus the scout drone's Stealth DC as an Interact action.</p>",
+          "description": "<p>60尺。非盟友的通讯器及其他依赖科技的通讯形式，在此飞行器的灵光内无法运作，除非其操作者用一个交互动作成功进行计算机检定，对抗侦察无人机的隐秘DC。</p>"
+        },
+        {
+          "id": "CZQUwUE4f1O6waBp",
+          "expectedName": "Attack Pattern Beta",
+          "name": "攻击模式·贝塔",
+          "expectedDescription": "<p>The drone makes a Strike against one target, then Steps or Strides, and then makes a Strike against one target, which can be the same as or different than the initial target. Both Strikes count toward its multiple attack penalty, but its multiple attack penalty doesn't increase until after it makes both Strikes.</p>",
+          "description": "<p>无人机对一个目标进行一次打击，然后快步或行走，再对一个目标进行一次打击；第二个目标可以与最初目标相同或不同。两次打击均计入其多重攻击减值，但多重攻击减值直至两次打击完成后才会增加。</p>"
         }
-      ]
+      ],
+      "name": "侦察无人机",
+      "cnText_prototypeToken_name": {
+        "expected": "Scout Drone",
+        "text": "侦察无人机"
+      }
     },
     "KiYitJyREH4Zjmd8": {
       "items": [
         {
           "id": "Ue3A6YrTZKiGb6dz",
           "expectedName": "Reaction Breacher",
-          "name": "破障反冲炮"
+          "name": "破障反冲炮",
+          "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This portable reaction cannon launches flak from miniature cluster missiles that rip through a fortified structure and anyone unfortunate enough to be inside.</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这门便携式反应炮发射微型集束导弹的破片，能撕裂加固的建筑结构，以及不幸身处其中的任何人。</p>"
         },
         {
           "id": "3C30fMkRGGD1UAg5",
           "expectedName": "Vertebralis Thorn",
           "name": "脊刺",
           "expectedDescription": "<p><strong>Upgrades</strong> 1</p><hr /><p>The vertebralis thorn is a weapon forged in the Corpse Fleet armory, repurposed from the spinal columns of slain enemies and fitted with specialized fiber-optic cables. Corpse Fleet officers favor this weapon, primarily because a ceremonial version is presented to them after their first major conquest, generally created from the spine of a creature they personally killed.</p>",
-          "description": "<p><strong>强化模块</strong> 1</p><hr /><p>The vertebralis thorn is a weapon forged in the Corpse Fleet armory, repurposed from the spinal columns of slain enemies and fitted with specialized fiber-optic cables. Corpse Fleet officers favor this weapon, primarily because a ceremonial version is presented to them after their first major conquest, generally created from the spine of a creature they personally killed.</p>"
+          "description": "<p><strong>强化模块</strong> 1</p><hr /><p>脊椎棘（vertebralis thorn）是在尸骸舰队（Corpse Fleet）军械库中锻造的武器，以阵亡敌人的脊柱改造而成，并装有特制光缆。尸骸舰队军官偏爱此武器，主要因为他们在第一次取得重大征服胜利后会获赠一把礼仪版本，通常以其亲手杀死的生物的脊柱制成。</p>"
         },
         {
           "id": "lWzWPYKRwebYkcNU",
           "expectedName": "Defrex Hide",
-          "name": "裂爪兽革甲"
+          "name": "裂爪兽革甲",
+          "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Made from the hide of a ferocious mammal native to Vesk-2, this medium armor is especially popular among vesk. Tanned slabs of the creature's thick hide are stitched together with metal wires, and the joints are reinforced with metal studs or scales.</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种中甲由维斯克-2原生凶猛哺乳动物的皮革制成，在维斯克蜥人中格外流行。生物厚实的皮革经鞣制后，以金属线缝合，接合处则以金属铆钉或鳞片加固。</p>"
+        },
+        {
+          "id": "kHjkjhmZJyyXeMYs",
+          "expectedName": "Projectile Ammo",
+          "name": "实弹弹药"
+        },
+        {
+          "id": "QhuEJ84mDhIuXyCt",
+          "expectedName": "Battery (Commercial)",
+          "name": "商用型电池"
         },
         {
           "id": "DJp6ByTuoViiPVbX",
@@ -130,28 +686,132 @@
         {
           "id": "2NtBaBFAkKek8Jhn",
           "expectedName": "Void Healing",
-          "name": "虚能治疗"
+          "name": "虚能治疗",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        {
+          "id": "hcd8USA1OPod3qME",
+          "expectedName": "Fusillade",
+          "name": "齐射",
+          "expectedDescription": "<p>The Corpse Fleet expendable's ranged Strikes deal an additional 1d4 precision damage when the Corpse Fleet expendable is within the first range increment of at least one other member of the Corpse Fleet wielding a ranged weapon.</p>",
+          "description": "<p>当尸骸舰队弃子处于至少一名持用远程武器的其他尸骸舰队成员的首个射程增量内时，其远程打击额外造成1d4精准伤害。</p>"
+        },
+        {
+          "id": "nYyM789Dvnt6y0aR",
+          "expectedName": "Corpse Fleet Lore",
+          "name": "尸骸舰队学识"
         }
-      ]
+      ],
+      "name": "尸骸舰队弃子",
+      "cnText_system_attributes_hp_details": {
+        "expected": "void healing",
+        "text": "虚能治疗"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Corpse Fleet Expendable",
+        "text": "尸骸舰队弃子"
+      }
     },
     "LAIUEywNsyyCMRg4": {
       "items": [
         {
+          "id": "kuOB9Vp1snCvxfCz",
+          "expectedName": "Hose Whip",
+          "name": "软管鞭击"
+        },
+        {
+          "id": "m5S199oisowAsASM",
+          "expectedName": "Foam Spray",
+          "name": "泡沫喷洒"
+        },
+        {
+          "id": "ud1087fbNDTf9BkX",
+          "expectedName": "Construct Armor (Hardness 3)",
+          "name": "构装护甲（硬度3）",
+          "expectedDescription": "<p>Like normal objects, the animated fire extinguisher has Hardness. This Hardness reduces any damage it takes by an amount equal to its Hardness. Once the animated fire extinguisher is reduced to less than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks, removing its Hardness and reducing its Armor Class to 12.</p>",
+          "description": "<p>如同普通物体，赋动灭火器具有硬度，使其受到的任何伤害减少等于其硬度的数值。一旦赋动灭火器的生命值降低至其生命值一半以下，或遭受重击伤害时，其构装护甲便立即破损，失去硬度，且AC降至12。</p>"
+        },
+        {
           "id": "KNmmWyfntgZbpRnn",
           "expectedName": "Auto-Fire",
-          "name": "自动射击"
+          "name": "自动射击",
+          "expectedDescription": "<p><strong>Foam Spray</strong> (@Template[type:cone|distance:20], cold, magical)</p>\n<p><strong>Damage</strong> @Damage[(1d8+2)[cold]|options:area-damage] (@Check[reflex|dc:15|basic|traits:cold,magical])</p>",
+          "description": "<p><strong>泡沫喷洒</strong>（@Template[type:cone|distance:20]，寒冷，魔法）</p>\n<p><strong>伤害</strong> @Damage[(1d8+2)[cold]|options:area-damage]（@Check[reflex|dc:15|basic|traits:cold,magical]）</p>"
         }
-      ]
+      ],
+      "name": "赋动灭火器",
+      "cnText_system_attributes_ac_details": {
+        "expected": "12 when broken",
+        "text": "破损时为12"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Animated Fire Extinguisher",
+        "text": "赋动灭火器"
+      }
+    },
+    "LfdYQyHj3Jdnf52I": {
+      "name": "漂移篝火",
+      "items": [
+        {
+          "id": "GU0ueBrE29lQWzMw",
+          "expectedName": "Lava Tube",
+          "name": "熔岩管"
+        },
+        {
+          "id": "v5jEr9rni1PDQA4E",
+          "expectedName": "Spark",
+          "name": "火花"
+        },
+        {
+          "id": "YCGk2aafoJ2wN2bu",
+          "expectedName": "Smoke Vision",
+          "name": "烟雾视觉",
+          "expectedDescription": "<p>The drifting bonfire ignores the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} condition from smoke.</p>",
+          "description": "<p>漂移篝火忽略烟雾造成的@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态。</p>"
+        },
+        {
+          "id": "NVSQj9wklnmp7VaD",
+          "expectedName": "Eruption",
+          "name": "爆发",
+          "expectedDescription": "<p>When the drifting bonfire is reduced to 0 HP, it erupts into a burst of lava, dealing @Damage[3d6[fire]|options:area-damage] damage to each creature in a @Template[type:emanation|distance:10] (@Check[reflex|dc:19|basic] save).</p>",
+          "description": "<p>漂移篝火的生命值降低至0时，它会迸发熔岩，造成@Damage[3d6[fire]|options:area-damage]伤害，影响@Template[type:emanation|distance:10]内的每个生物（@Check[reflex|dc:19|basic]豁免）。</p>"
+        },
+        {
+          "id": "fGqcfSlfLnEQeBrj",
+          "expectedName": "Residual Heat",
+          "name": "余热",
+          "expectedDescription": "<p><strong>Requirements</strong> The drifting bonfire's last action was a Strike that dealt damage</p><hr /><p><strong>Effect</strong> The target of the Strike flares up, dealing @Damage[3d6[fire]] damage to each creature adjacent to the target (@Check[reflex|dc:19|basic] save).</p>",
+          "description": "<p><strong>需求</strong> 漂移篝火的上个动作是造成了伤害的一次打击</p><hr /><p><strong>效果</strong> 该打击的目标燃烧起来，对每个与其相邻的生物造成@Damage[3d6[fire]]伤害（@Check[reflex|dc:19|basic]豁免）。</p>"
+        }
+      ],
+      "cnText_system_attributes_hp_details": {
+        "expected": "eruption",
+        "text": "喷发"
+      },
+      "cnText_system_perception_details": {
+        "expected": "smoke vision",
+        "text": "烟雾视觉"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Drifting Bonfire",
+        "text": "漂移篝火"
+      }
     },
     "Mc2pC10GG2z13rOU": {
       "name": "无脸灵",
       "items": [
         {
+          "id": "rs20lgRWEaR8cAjs",
+          "expectedName": "Occult Innate Spells",
+          "name": "异能天生法术"
+        },
+        {
           "id": "UL7kvMqQrgI2TElq",
           "expectedName": "Deadly Vitality",
           "name": "致命生机",
           "expectedDescription": "<p>You reach out across the strands of the universe and strangle the root of life that might flow into a living creature, cursing them to suffer for every bit of vitality they recover. If the target creature would receive any form of healing while under the effects of this spell, they afterward take damage from <em>deadly vitality</em>, potentially canceling out any healing they might have just received. This damage is dependent on the results of the creature's saving throw, made when the spell is first cast.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes an amount of void damage equal to half the amount of healing they just received (rounded down), to a maximum of 5 damage.</p>\n<p><strong>Failure</strong> The creature takes an amount of void damage equal to the amount of healing they just received, to a maximum of 10 damage.</p>\n<p><strong>Critical Failure</strong> The creatures takes an amount of void damage equal to the amount of healing they just received, to a maximum of 20 damage.</p><hr /><p><strong>Heightened (+2)</strong> Increase the amount of damage dealt by this spell's success condition by 5, its failure condition by 10, and its critical failure condition by 20.</p>",
-          "description": "<p>You reach out across the strands of the universe and strangle the root of life that might flow into a living creature, cursing them to suffer for every bit of vitality they recover. If the target creature would receive any form of healing while under the effects of this spell, they afterward take damage from <em>deadly vitality</em>, potentially canceling out any healing they might have just received. This damage is dependent on the results of the creature's saving throw, made when the spell is first cast.</p><hr /><p><strong>大成功</strong>生物不受影响。</p>\n<p><strong>成功</strong>生物受到等同于刚接受的治疗量一半（向下取整）的虚能伤害，至多到5点伤害。</p>\n<p><strong>失败</strong>生物受到等同于刚接受的治疗量的虚能伤害，至多到10点伤害。</p>\n<p><strong>大失败</strong>生物受到等同于刚接受的治疗量的虚能伤害，至多到20点伤害。</p><hr /><p><strong>升阶（+2）</strong>此法术成功时造成的伤害值增加5点，失败时增加10点，大失败时增加20点。</p>"
+          "description": "<p>你跨越宇宙的丝缕，扼住可能流入生物体内的生命之根，诅咒他为恢复的每一丝生机都需承受痛苦。当目标生物处于该法术效果下接受任何形式的治疗时，其后续将承受<em>致命生机</em>造成的伤害，可能抵消他刚刚获得的治疗效果。此伤害取决于生物在法术初始施放时进行的豁免检定结果。</p><hr /><p><strong>大成功</strong>生物不受影响。</p>\n<p><strong>成功</strong>生物受到等同于刚接受的治疗量一半（向下取整）的虚能伤害，至多到5点伤害。</p>\n<p><strong>失败</strong>生物受到等同于刚接受的治疗量的虚能伤害，至多到10点伤害。</p>\n<p><strong>大失败</strong>生物受到等同于刚接受的治疗量的虚能伤害，至多到20点伤害。</p><hr /><p><strong>升阶（+2）</strong>此法术成功时造成的伤害值增加5点，失败时增加10点，大失败时增加20点。</p>"
         },
         {
           "id": "0GjE24VrtcefA0jU",
@@ -179,50 +839,185 @@
           "expectedName": "Injury Echo",
           "name": "伤口回响",
           "expectedDescription": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 1d8, and the persistent damage on a failure increases by 1d4.</p>",
-          "description": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加1d8，豁免失败时的持续伤害增加1d4。</p>"
+          "description": "<p>你自未来或者过去具现出一道伤口来伤害当下的生物。选择钝击，穿刺或挥砍伤害，目标受到1d8所选类型伤害，具有一次基础意志豁免。如果目标豁免失败，并且在你的下个回合结束前受到了相同类型的伤害，其还会额外受到@Damage[ceil((@item.level)/2)d4[persistent,bleed]]伤害。</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加1d8，豁免失败时的持续伤害增加1d4。</p>"
         },
         {
           "id": "D7u3IvrKdSEgPgYy",
           "expectedName": "Mind Skewer",
           "name": "心灵穿刺",
           "expectedDescription": "<p>You overload a creature's mind with a glut of psychic information or divine judgments. The mental onslaught deals 2d6 mental damage. On a critical failure, the target is also @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 round.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
-          "description": "<p>你可以用大量的精神信息或神圣审判使一个生物的精神超负荷。心灵冲击会造成2d6心灵伤害。在重击时，目标还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2}，持续1轮。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加 2d6。</p>"
+          "description": "<p>你以海量心灵信息或神圣审判冲击一个生物的心智。这股精神猛攻造成2d6心灵伤害。大失败时，目标还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}，持续1轮。</p><hr /><p><strong>升阶（+1）</strong> 伤害增加2d6。</p>"
         },
         {
           "id": "6Yssni0xL3AaBbJo",
           "expectedName": "Sonic Scream",
           "name": "音波尖啸",
           "expectedDescription": "<p>You unleash a painfully rapid cone of vibrations by letting out a cathartic scream, dealing 1d8 sonic damage to creatures in the area with a basic Fortitude save. A creature that fails its saving throw also becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><hr /><p><strong>Heightened (+1)</strong> Increases the damage by 1d8.</p>",
-          "description": "<p>你发出一声宣泄性的痛苦尖啸，释放锥形的振动波，对区域内的生物造成1d8音波伤害，这具有基础强韧豁免。豁免失败的生物获得@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d8</p>"
+          "description": "<p>你发出一声宣泄情绪的尖叫，释放出振动快得令人痛苦的锥形音波，对区域内的生物造成1d8音波伤害，进行基础强韧豁免。豁免失败的生物还会陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}。</p><hr /><p><strong>升阶（+1）</strong> 伤害增加1d8。</p>"
         },
         {
           "id": "etwtOXlvtXhBkoQj",
           "expectedName": "Void Warp",
-          "name": "虚能噬"
+          "name": "虚能噬",
+          "expectedDescription": "<p>You call upon the Void to harm life force. The target takes 2d4 void damage with a basic Fortitude save. On a critical failure, the target is also @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} until the start of your next turn.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>",
+          "description": "<p>你召唤虚空之力以伤害生命力。该目标承受2d4虚能伤害，这有一次基础强韧豁免。 如果该生物在豁免中大失败，它还会@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 1}直至你的下回合开始。</p>\n<hr />\n<p><strong>升阶（+1）</strong> 该伤害增加1d4。</p>"
+        },
+        {
+          "id": "njGwX0ETsciV8izx",
+          "expectedName": "Claw",
+          "name": "爪击"
+        },
+        {
+          "id": "GsXztvKUzWdEyIvL",
+          "expectedName": "Void Ray",
+          "name": "虚能射线"
         },
         {
           "id": "vX7eFGDIBtQg4BwU",
           "expectedName": "Void Healing",
-          "name": "虚能治疗"
+          "name": "虚能治疗",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        {
+          "id": "FyAWUlq3sYSTH7j6",
+          "expectedName": "Change Shape",
+          "name": "变身",
+          "expectedDescription": "<p>A faceless can take on the appearance of any Medium humanoid or undead in their collection of faces. This doesn't change their statistics.</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>",
+          "description": "<p>无脸灵可以显现为其面孔收藏中任何中型类人生物或不死生物的模样。这不会改变其数据。</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+        },
+        {
+          "id": "LlpH0gILDkTdFqFW",
+          "expectedName": "Harvest Face",
+          "name": "收割脸庞",
+          "expectedDescription": "<p>The faceless tries to slice off the face of an adjacent dead or helpless target, stealing it for their grisly collection. The target must attempt a @Check[fortitude|dc:18] save. The faceless is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the beginning of their next turn.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes @Damage[2d6[slashing]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>\n<p><strong>Failure</strong> The target takes @Damage[5d6[slashing]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round. The creature's face is surgically removed and can only be restored with regenerate or a similar effect.</p>\n<p><strong>Critical Failure</strong> As failure, but the target takes @Damage[10d6[slashing]] damage.</p>",
+          "description": "<p>无脸灵试图切下一个相邻、已死亡或无助目标的脸，窃取面孔以充实其骇人收藏。目标必须尝试@Check[fortitude|dc:18]豁免。无脸灵会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直至其下回合开始。</p><hr /><p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标受到@Damage[2d6[slashing]]伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续1轮。</p>\n<p><strong>失败</strong> 目标受到@Damage[5d6[slashing]]伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}，持续1轮。生物的面孔被手术切除，只能通过再生术或类似效应恢复。</p>\n<p><strong>大失败</strong> 同失败，但目标受到@Damage[10d6[slashing]]伤害。</p>"
         },
         {
           "id": "KFas7auQFCPaHX8n",
           "expectedName": "Grab",
-          "name": "擒获"
+          "name": "擒获",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        },
+        {
+          "id": "xwDnHryPkn00ueVE",
+          "expectedName": "Drift Lore",
+          "name": "漂流域学识"
         }
-      ]
+      ],
+      "publicNotes": "<p>无脸灵是昔日自我的一缕残影，几乎与其他幽灵无法区分，直到它们撕下覆盖面部的血肉，露出其下的虚无。它们最显著的特征，是本该长着脸的位置只有一片令人不安的空白，没有耳、眼、口、鼻。</p>\n<p>无脸灵用从尸体乃至活人身上偷来的脸制作面具，以扭曲的形式承袭面孔原主人的身份，直到皮肤腐烂，迫使它们更换这件骇人的配饰。</p>\n<p>若无人干预，无脸灵便会凄凉而绝望地漫无目的漂浮，直到遇见可以窃取的面孔与身份。它们常被雕刻或绘制的面孔吸引，有时也会攻击其他不死生物。</p>\n<p>尸骸舰队招募无脸灵，作为登舰行动的突击部队。有些无脸灵欣然接受士兵的身份，无畏且忠诚地服役，直到它们不可避免地失去自控，狂暴地撕杀自己排里的同袍，最终不得不由盟友将其消灭。</p><h2>无脸灵的起源</h2><p>没人知道无脸灵如何诞生，但已有一些理论。有些神学家和科学家认为，它们是不死生物的人格崩溃后留下的空壳。无脸灵不记得自己的起源，而每偷取一张新脸，它们的人格就会变得更加不稳定。至少有一名臭名昭著的无脸灵刺客声称，自己是艾布萨罗姆空间站一名连环杀手留下的身份不明的受害者。她被发现时，面部已被手术切除，自那以后她便一直在寻找一张新脸。</p>",
+      "cnText_system_attributes_hp_details": {
+        "expected": "void healing",
+        "text": "虚能治疗"
+      },
+      "cnText_system_details_languages_details": {
+        "expected": "Cannot speak",
+        "text": "无法说话"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Faceless",
+        "text": "无脸灵"
+      }
+    },
+    "QPmLfay4U6Rd9fWl": {
+      "name": "废料巢穴",
+      "items": [
+        {
+          "id": "VvC1Pvjcq3ba3hEb",
+          "expectedName": "Spiky Collapse",
+          "name": "尖刺坍塌",
+          "expectedDescription": "<p><strong>Trigger</strong> A creature other than a scrap rat enters the area of the junk warren</p><hr /><p><strong>Effect</strong> The warren collapses in on the creature, making a melee strike with an attack modifier of +5. If the trap was undetected, the creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against this attack.</p><hr /><p><strong>Critical Success</strong> The creature takes double damage and gains the @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} condition until the end of its next turn ([[/act escape dc=15]]).</p>\n<p><strong>Success</strong> The creature takes @Damage[1d6[piercing]] damage and gains the @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} condition until the end of its next turn ([[/act escape dc=15]]).</p>",
+          "description": "<p><strong>触发</strong> 废料鼠以外的一个生物进入垃圾巢穴的区域</p><hr /><p><strong>效果</strong> 巢穴向生物坍塌，以+5攻击调整值进行一次近战打击。若此陷阱处于无踪状态，生物对抗此次攻击时@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p><hr /><p><strong>大成功</strong> 生物受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}状态，直至其下回合结束（[[/act escape dc=15]]）。</p>\n<p><strong>成功</strong> 生物受到@Damage[1d6[piercing]]伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}状态，直至其下回合结束（[[/act escape dc=15]]）。</p>"
+        },
+        {
+          "id": "drsafwhsvZCOWXLQ",
+          "expectedName": "Collapse",
+          "name": "坍塌"
+        }
+      ],
+      "cnText_system_details_description": {
+        "expected": "<p>A large 5-foot-high pile of junk towers above the ground with holes in it big enough for only rats to squeeze through.</p>",
+        "text": "<p>一堆5尺高的巨大垃圾堆耸立在地面上，上面的孔洞仅容老鼠挤过。</p>"
+      },
+      "cnText_system_details_disable": {
+        "expected": "<p>@Check[thievery|dc:12] to stabilize the junk pile, @Check[survival|dc:14] to collapse it down on itself, or @Check[athletics|dc:16] to smash through it without setting it off</p>",
+        "text": "<p>@Check[thievery|dc:12]以稳固垃圾堆、@Check[survival|dc:14]以使它向内塌陷，或@Check[athletics|dc:16]以砸穿垃圾堆而不触发它</p>"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Scrap Warren",
+        "text": "废料巢穴"
+      }
     },
     "QgcpbGsOgx3Vh8iV": {
       "items": [
         {
+          "id": "GDTmtEVsLVMRz85T",
+          "expectedName": "Scrappy Tail",
+          "name": "废料尾击"
+        },
+        {
+          "id": "ytqGFVEuXFJ9yVf0",
+          "expectedName": "Scrap Shot",
+          "name": "废料射击"
+        },
+        {
+          "id": "if56TAoyDk2MLWiC",
+          "expectedName": "Dangerous Recycling",
+          "name": "危险回收",
+          "expectedDescription": "<p>Over the course of 1 minute of uninterrupted work, a scrap rat can assemble any level 0 commercial grenade using nothing but junk. It falls apart and becomes unusable junk after 10 minutes.</p>",
+          "description": "<p>通过连续1分钟不间断的作业，废料鼠仅凭废料就能组装出任意等级0的商用型手雷。该手雷在10分钟后会崩解为一堆无用的废品。</p>"
+        },
+        {
+          "id": "vFbQyZUGoLqFbIHq",
+          "expectedName": "Metal Sense",
+          "name": "金属感知",
+          "expectedDescription": "<p>A scrap rat visionary can sense metal objects within 30 feet as a precise sense, including items hidden by illusions such as @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility}.</p>",
+          "description": "<p>废料鼠先知能够以精确感官感知30尺内的金属物体，包括被@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{隐形术}等幻术隐藏的物品。</p>"
+        },
+        {
           "id": "VzsbKWB5NBkOxz1a",
           "expectedName": "Constant Spells",
-          "name": "常驻法术"
+          "name": "常驻法术",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+        },
+        {
+          "id": "coN4Ra9yLyLz5SJ2",
+          "expectedName": "Scoring",
+          "name": "刮擦金属",
+          "expectedDescription": "<p>When the scrap rat's tail deals damage to an object or creature with the tech trait, the tail also gains the following traits until the beginning of the scrap rat's next turn: deadly (1d4), hampering, and razing.</p>",
+          "description": "<p>废料鼠的尾部对具有科技特征的物体或生物造成伤害时，尾部还会获得以下特征，直至废料鼠下回合开始：致命（1d4）、阻碍和拆毁。</p>"
+        },
+        {
+          "id": "2PxaTrCDdcuj7Uhq",
+          "expectedName": "Scrap Spray",
+          "name": "废铁喷射",
+          "expectedDescription": "<p>The scrap rat visionary fires jagged junk shards at multiple enemies. All creatures in a @Template[type:cone|distance:20] must attempt a @Check[reflex|dc:18|basic|options:area-effect] save or take @Damage[3d6[piercing]|options:area-damage] damage. On a critical failure, the creature is @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until the end of the scrap rat visionary's next turn.</p>",
+          "description": "<p>废料鼠先知向多个敌人射出锯齿状废料碎片。@Template[type:cone|distance:20]内的所有生物必须尝试@Check[reflex|dc:18|basic|options:area-effect]豁免，否则受到@Damage[3d6[piercing]|options:area-damage]伤害。大失败时，生物会@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{被压制}，直至废料鼠先知下回合结束。</p>"
         }
-      ]
+      ],
+      "name": "废料鼠先知",
+      "cnText_system_perception_details": {
+        "expected": "metal sense (30 feet)",
+        "text": "金属感知（30尺）"
+      },
+      "cnText_system_skills_athletics_special_0_label": {
+        "expected": "to Climb or Swim",
+        "text": "用于攀爬或游泳"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Scrap Rat Visionary",
+        "text": "废料鼠先知"
+      }
     },
     "T3m2zy7JAl8boymY": {
       "items": [
+        {
+          "id": "LebunvH85R2kh57v",
+          "expectedName": "Primal Innate Spells",
+          "name": "原能天生法术"
+        },
         {
           "id": "dbynQ5aPTMFZD7oL",
           "expectedName": "Skyfire Wings",
@@ -242,31 +1037,35 @@
           "expectedName": "Liquid Siphon",
           "name": "液体虹吸",
           "expectedDescription": "<p>You drain the moisture out of your target, crumpling them up like an empty beverage can and potentially leaving them a desiccated husk of what they once were. A nonliving target with liquid in its body (such as a vampire, water elemental, or keg of alcohol) can be affected by this spell, but a living creature with no vital liquids is immune. The target creature takes 4d6 bludgeoning damage, depending on the results of its saving throw.</p>\n<p>A target that fails its saving throw creates water that flows into your hands or a held container (1 gallon for Tiny, 2 gallons for Small, 4 for Medium, 6 for Large, 8 for Huge). If the target critically fails its saving throw, double this amount.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p>\n<p><strong>Critical Failure</strong> As failure, but double damage and the target is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}.</p><hr /><p><strong>Heightened (+1)</strong> Increase the damage by 2d6.</p>",
-          "description": "<p>You drain the moisture out of your target, crumpling them up like an empty beverage can and potentially leaving them a desiccated husk of what they once were. A nonliving target with liquid in its body (such as a vampire, water elemental, or keg of alcohol) can be affected by this spell, but a living creature with no vital liquids is immune. The target creature takes 4d6 bludgeoning damage, depending on the results of its saving throw.</p>\n<p>A target that fails its saving throw creates water that flows into your hands or a held container (1 gallon for Tiny, 2 gallons for Small, 4 for Medium, 6 for Large, 8 for Huge). If the target critically fails its saving throw, double this amount.</p><hr /><p><strong>大成功</strong>生物不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全额伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 1}。</p>\n<p><strong>大失败</strong>同失败，但目标受到双倍伤害且陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 2}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
+          "description": "<p>你抽干目标体内的水分，将其如空饮料罐般压瘪，甚至可能只剩下干枯的躯壳。体内含有液体的非活物目标（例如吸血鬼、水元素或一桶酒）也会受到此法术影响，但体内没有维生液体的活物免疫。目标生物受到4d6钝击伤害，具体取决于其豁免结果。</p>\n<p>豁免失败的目标产生水，流入你的手中或持握的容器（超小型1加仑，小型2加仑，中型4加仑，大型6加仑，超大型8加仑）。目标豁免大失败时，水量翻倍。</p><hr /><p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标受到一半伤害。</p>\n<p><strong>失败</strong> 目标受到全部伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1}。</p>\n<p><strong>大失败</strong> 同失败，但造成双倍伤害，且目标陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失2}。</p><hr /><p><strong>升阶（+1）</strong> 伤害增加2d6。</p>"
         },
         {
           "id": "SC0eqLtx9eEMcadH",
           "expectedName": "Adhere",
-          "name": "附着术"
+          "name": "附着术",
+          "expectedDescription": "<p>You create a molecular bond between an unattended object you touch (or an object you're holding) and another object or surface that object is touching. Pulling the object free of that surface requires a successful [[/act force-open]]{Athletics} check against your spell DC to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open}.</p>\n<p>If you instead touch one unoccupied 5-foot square, that surface becomes charged with adhering magic. That space becomes greater difficult terrain.</p>",
+          "description": "<p>你在触碰的一件无人持有的物体（或你正持有的物体），与该物体接触的另一件物体或表面之间建立分子键。要将物体从该表面拉开，需要成功通过一次对抗你法术DC的[[/act force-open]]{运动}检定，以@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{破开}。</p>\n<p>如果你选择接触一个没被占据的五尺方格，则该表面会充满黏附的魔法。该空间将变成高等困难地形。</p>"
         },
         {
           "id": "wIxJa34fJq43ImXR",
           "expectedName": "Cellular Stimulant",
           "name": "刺激细胞",
           "expectedDescription": "<p>You vitalize and stimulate the target at a cellular level, giving it a temporary burst of energy that unfortunately takes an exhausting toll. The target gains the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} condition and can use the extra action to Stride or Strike. After that round ends, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} until it can rest for 10 minutes.</p><hr /><p><strong>Heightened (6th)</strong> You can target up to six creatures by using 2 actions to Cast this Spell.</p>",
-          "description": "<p>你从细胞层面激发目标的活力，使其获得短暂的能量爆发，但不幸的是，这将使其精疲力竭。目标获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]状态，并可以使用额外的行动行走或打击。该轮结束后，目标会变得@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]，直到休息10分钟。</p><hr /><p><strong>Heightened (6th)</strong> You can target up to six creatures by using 2 actions to Cast this Spell.</p>"
+          "description": "<p>你从细胞层面激发目标的活力，使其获得短暂的能量爆发，但不幸的是，这将使其精疲力竭。目标获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]状态，并可以使用额外的行动行走或打击。该轮结束后，目标会变得@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]，直到休息10分钟。</p><hr /><p><strong>升阶（6环）</strong>你可以使用2动作施放此法术，最多同时以6个生物为目标。</p>"
         },
         {
           "id": "dqTWxJTxyWekjOlF",
           "expectedName": "Chill Gaze",
           "name": "冻寒凝视",
           "expectedDescription": "<p>Your eyes turn an icy blue color as the temperature in the area drops. Your cold, hard gaze literally chills the air around your foe's body, making it harder for them to move. When you cast chill gaze, choose clumsy or enfeebled. Your foe takes effects depending on your choice, based on the result of its saving throw.</p><hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (depending on your choice) for the duration of the spell.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}.</p><hr /><p><strong>Heightened (4th)</strong> You can target up to five creatures.</p>\n<p><strong>Heightened (7th)</strong> You can target up to ten creatures.</p>",
-          "description": "<p>随着你的双眼化作冰蓝之色，区域温度骤降。你那冰冷而坚毅的凝视令敌人周身寒气凝结，使其行动迟滞。当你施放冻寒凝视时，选择笨拙或力竭。你的敌人基于其豁免检定结果，根据你的选择承受效果。</p><hr /><p><strong>成功</strong>生物不受影响。</p>\n<p><strong>失败</strong>生物在法术持续时间内陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}（根据你的选择）。</p>\n<p><strong>大失败</strong>同失败，但目标为@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}。</p><hr /><p><strong>Heightened (4th)</strong> You can target up to five creatures.</p>\n<p><strong>Heightened (7th)</strong> You can target up to ten creatures.</p>"
+          "description": "<p>区域内的温度降低，你的眼睛变成冰蓝色。你冰冷而严厉的目光真的会冷却敌人身边的空气，令其难以移动。施放冻寒凝视时，选择笨拙或力竭。根据敌人的豁免结果，它受到你所选的效应。</p><hr /><p><strong>成功</strong> 生物不受影响。</p>\n<p><strong>失败</strong> 生物陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}（取决于你的选择），在法术持续期间生效。</p>\n<p><strong>大失败</strong> 同失败，但目标陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}。</p><hr /><p><strong>升阶（4环）</strong> 你至多可以选择五个生物为目标。</p>\n<p><strong>升阶（7环）</strong> 你至多可以选择十个生物为目标。</p>"
         },
         {
           "id": "8L917LZDjX0cG8Vx",
           "expectedName": "Electric Arc",
-          "name": "电弧击"
+          "name": "电弧击",
+          "expectedDescription": "<p>An arc of lightning leaps from one target to another. Each target takes 2d4 electricity damage with a basic Reflex save.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d4.</p>",
+          "description": "<p>一段电弧从一个目标跳跃到另一个目标。每个目标承受2d4电击伤害，这有一次基础反射豁免。</p>\n<hr />\n<p><strong>升阶（+1）</strong> 该伤害增加1d4。</p>"
         },
         {
           "id": "nCcMP6Q2rBQXi3vO",
@@ -278,14 +1077,16 @@
         {
           "id": "JPZnIO8PyutpbASB",
           "expectedName": "Ignition",
-          "name": "引火术"
+          "name": "引火术",
+          "expectedDescription": "<p>You snap your fingers and point at a target, which begins to smolder. Make a spell attack roll against the target's AC, dealing 2d4 fire damage on a hit. If the target is within your melee reach, you can choose to make a melee spell attack with the flame instead of a ranged spell attack, which increases all the spell's damage dice to d6s.</p><hr /><p><strong>Critical Success</strong> The target takes double damage and 1d4 persistent fire damage.</p>\n<p><strong>Success</strong> The target takes full damage.</p><hr /><p><strong>Heightened (+1)</strong> The initial damage increases by 1d4 and the persistent fire damage on a critical hit increases by 1d4.</p>\n<p>@Damage[(@item.rank)d4[persistent,fire]]{Scaling Persistent Fire Damage}</p>\n<p>@Damage[(@item.rank)d6[persistent,fire]]{Scaling Persistent Fire Damage (Melee)}</p>",
+          "description": "<p>你打个响指并指向一个目标，后者便开始阴燃。作出一次法术攻击检定对抗目标的AC，命中时造成2d4点火焰伤害。若目标位于你的近战触及范围内，你能选择用火焰进行一次近战法术攻击以取代远程法术攻击，这会使得法术的所有伤害骰提升至d6骰子。</p><hr /><p><strong>大成功</strong> 目标承受双倍伤害以及1d4点持续火焰伤害。</p>\n<p><strong>成功</strong> 目标承受全额伤害。</p><hr /><p><strong>升阶（+1）</strong> 起始伤害增加1d4点，重击的持续火焰伤害增加1d4点。</p>\n<p>@Damage[(@item.rank)d4[persistent,fire]]{随环阶提升的持续火焰伤害}</p>\n<p>@Damage[(@item.rank)d6[persistent,fire]]{随环阶提升的持续火焰伤害（近战）}</p>"
         },
         {
           "id": "28hAektxW9UJqxC1",
           "expectedName": "Sonic Scream",
           "name": "音波尖啸",
           "expectedDescription": "<p>You unleash a painfully rapid cone of vibrations by letting out a cathartic scream, dealing 1d8 sonic damage to creatures in the area with a basic Fortitude save. A creature that fails its saving throw also becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p><hr /><p><strong>Heightened (+1)</strong> Increases the damage by 1d8.</p>",
-          "description": "<p>你发出一声宣泄性的痛苦尖啸，释放锥形的振动波，对区域内的生物造成1d8音波伤害，这具有基础强韧豁免。豁免失败的生物获得@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d8</p>"
+          "description": "<p>你发出一声宣泄情绪的尖叫，释放出振动快得令人痛苦的锥形音波，对区域内的生物造成1d8音波伤害，进行基础强韧豁免。豁免失败的生物还会陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}。</p><hr /><p><strong>升阶（+1）</strong> 伤害增加1d8。</p>"
         },
         {
           "id": "1ZE1VERjj1eAmKQT",
@@ -300,21 +1101,48 @@
           "name": "火焰护盾"
         },
         {
+          "id": "lkkJyn3VkoZLO7St",
+          "expectedName": "Double Fist",
+          "name": "双拳"
+        },
+        {
           "id": "Gc28NcOLvC5m0KBB",
           "expectedName": "Shield Block",
-          "name": "盾牌格挡"
+          "name": "盾牌格挡",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
         },
         {
           "id": "bzTCkklRROHIWKwE",
           "expectedName": "Void Healing",
-          "name": "虚能治疗"
+          "name": "虚能治疗",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        {
+          "id": "2TQ3kkQlNVkRSrm1",
+          "expectedName": "Fiery Vitality",
+          "name": "炽热命能",
+          "expectedDescription": "<p><strong>Effect</strong> Any time Kitthaine uses a spell or ability with the fire trait, they regain @Damage[7[healing]] Hit Points (to a maximum of their total HP).</p>",
+          "description": "<p><strong>效果</strong> 每当基瑟恩使用具有火焰特征的法术或能力，便回复@Damage[7[healing]]生命值（至多回复至其总生命值）。</p>"
         },
         {
           "id": "L5iyJ7YedXaz7vc1",
           "expectedName": "Fire Shield",
-          "name": "火焰护盾"
+          "name": "火焰护盾",
+          "expectedDescription": "<p>Kitthaine raises a fiery barrier around them, granting them a +1 circumstance bonus to AC until the end of their next turn. While this ability is in effect, they can use the Shield Block reaction as if the fire shield was a raised shield. The shield has Hardness 6 against all sources of damage, but this increases by 4 against fire damage. Unlike a normal Shield Block, Kitthaine can also use this reaction against effects with the fire trait.</p>",
+          "description": "<p>基瑟恩在身边升起火焰屏障，使其AC获得+1环境加值，直至其下回合结束。此能力生效期间，基瑟恩可以使用盾牌格挡反应，如同火焰护盾是一面已举起的盾牌。此盾牌对所有伤害来源具有硬度6，但对抗火焰伤害时，硬度提高4。与普通盾牌格挡不同，基瑟恩也可以对具有火焰特征的效应使用此反应。</p>"
         }
-      ]
+      ],
+      "name": "基瑟恩·基塔尔（Kitthaine Kitar）",
+      "cnText_system_attributes_hp_details": {
+        "expected": "fiery vitality, void healing",
+        "text": "炽热命能，虚能治疗"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Kitthaine Kitar",
+        "text": "基瑟恩·基塔尔（Kitthaine Kitar）"
+      }
     },
     "T9uucuCG6UFWZLOB": {
       "name": "木乃伊黄蜂群",
@@ -322,58 +1150,162 @@
         {
           "id": "rzmjaCKDmulmMfss",
           "expectedName": "Mummy Storm",
-          "name": "木乃伊风暴"
+          "name": "木乃伊风暴",
+          "expectedDescription": "<p>Millions of enchanted paper shreds orbit the swarm in a @Template[type:emanation|distance:10]. Creatures inside this aura gain greater cover from the attacks of creatures outside of it. Any living creature that enters the aura or begins its turn inside it must succeed at a @Check[will|dc:22] save or become @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>",
+          "description": "<p>数百万附魔纸屑在集群周围的@Template[type:emanation|distance:10]内环绕。灵光内的生物对抗灵光外生物的攻击时获得高等掩蔽。任何进入灵光或在其内开始回合的活物，必须成功通过@Check[will|dc:22]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}。</p>"
         },
         {
           "id": "IjpxnAgLYVXLKmDu",
           "expectedName": "Rejuvenation",
-          "name": "复生"
+          "name": "复生",
+          "expectedDescription": "<p>When a mummy wasp swarm is destroyed, the hive's necromantic energies reanimate a new swarm over [[/gmr 1d6 #days]]{1d6 days}. A reforming mummy wasp swarm is destroyed permanently if its hive is consecrated or destroyed (30 HP) with vitality, water, or fire damage.</p>",
+          "description": "<p>木乃伊黄蜂群被摧毁时，蜂巢的死灵能量会在[[/gmr 1d6 #days]]{1d6天}内重新活化出一群新的黄蜂。若其蜂巢被圣化，或以命能、水或火焰伤害摧毁（30生命值），正在重组的木乃伊黄蜂群便会被永久摧毁。</p>"
         },
         {
           "id": "Z1ZpQPwm1120YgcJ",
           "expectedName": "Void Healing",
-          "name": "虚能治疗"
+          "name": "虚能治疗",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
         },
         {
           "id": "EoFbZoI2qigSRNk0",
           "expectedName": "Unliving Stings",
-          "name": "不生蜇刺"
+          "name": "不生蜇刺",
+          "expectedDescription": "<p>Each creature in the swarm's space takes @Damage[2d10[void]] damage (@Check[reflex|dc:24|basic] save). A creature that fails its save additionally takes @Damage[2d6[persistent,void]] damage (double damage on a critical failure).</p>",
+          "description": "<p>集群空间内的每个生物受到@Damage[2d10[void]]伤害（@Check[reflex|dc:24|basic]豁免）。豁免失败的生物额外受到@Damage[2d6[persistent,void]]伤害（大失败时此伤害翻倍）。</p>"
         }
-      ]
+      ],
+      "publicNotes": "<p>尸骸舰队最公开的长期目标，是确立不死生物在协约世界恒星系中的至高地位，让这个星系新的不朽统治者随心所欲地消灭或奴役生者。最终，辉煌的尸骸舰队希望征服整个黛丝娜之径，甚至可能扩张到其他星系。</p>\n<p>在规模较小的行动中，尸骸舰队的研究员会试验各种死灵武器，包括木乃伊黄蜂这类不生生物武器。</p>\n<p>制造木乃伊黄蜂时，先在蜂巢中熏杀整群黄蜂，再煞费苦心地用神圣纸张逐一包裹，将每只黄蜂制成木乃伊，最后通过邪秽仪式埋葬并重新活化整个蜂巢。</p>\n<p>部署后，木乃伊黄蜂会凶残地袭击活物，却忽略不死生物，因此是控制区域和压制敌人的理想武器。</p>\n<p>它们还极具攻击性和入侵性。许多地方已经发现木乃伊黄蜂的踪迹，远离位于浩界、制造出它们的尸骸舰队设施。</p>\n<p>木乃伊黄蜂巢已部署在古冢及其他尸骸舰队设施。它们也被用作弹药，由破障炮发射或从载具中投出。</p><h2>危险的研究</h2><p>木乃伊黄蜂和冻骸的成功研制，使阴险的尸骸舰队科学家更加大胆，试图进一步突破界限，造出更强大的不生武器。少数打入尸骸舰队的理事军间谍传回情报，海军统帅部已准备启动“墓心计划”，试图将虫群组件转化为不死士兵。无论成功与否，这项实验的后果都可能给协约世界带来灾难。</p>",
+      "cnText_system_attributes_hp_details": {
+        "expected": "void healing",
+        "text": "虚能治疗"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Mummy Wasp Swarm",
+        "text": "木乃伊黄蜂群"
+      }
     },
     "UuRslEeJPQaLc1Fq": {
       "items": [
         {
+          "id": "VV7Uku7koKNaVk7s",
+          "expectedName": "Horn",
+          "name": "角击"
+        },
+        {
+          "id": "fy4TzQXWTRVrEWYu",
+          "expectedName": "Hoof",
+          "name": "蹄击"
+        },
+        {
+          "id": "Ud2yQv3yWu74dpZZ",
+          "expectedName": "Fast Healing 1",
+          "name": "快速回复1",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FastHealing]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FastHealing]</p>"
+        },
+        {
           "id": "zvAwmy5L5EwTErPr",
           "expectedName": "Void Healing",
-          "name": "虚能治疗"
+          "name": "虚能治疗",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        {
+          "id": "LO8DqHgjnF5SQSqV",
+          "expectedName": "Ferocious Charge",
+          "name": "凶猛冲锋",
+          "expectedDescription": "<p>The xoalat Strides up to twice its Speed. If it ends its movement within melee reach of a target, it can make a horn Strike against that target. If the xoalat critically hits with this Strike, the creature hit is knocked back 10 feet.</p>",
+          "description": "<p>索阿拉特行走至多两倍其速度的距离。若此次移动结束时，一个目标处于它的近战触及内，便可对该目标进行一次角部打击。若索阿拉特的此次打击重击，被命中的生物会被击退10尺。</p>"
         },
         {
           "id": "8tmInLQ4gCDOwlds",
           "expectedName": "Trample",
-          "name": "践踏"
+          "name": "践踏",
+          "expectedDescription": "<p>medium or smaller, hoof, @Check[reflex|dc:14|basic]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>",
+          "description": "<p>中型或更小，蹄击，@Check[reflex|dc:14|basic]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
         }
-      ]
+      ],
+      "name": "索阿拉特（Xoalat）",
+      "publicNotes": "<p>亿万年前，伊奥克斯曾是一个生机勃勃的世界。虽然如今统治它的死灵妖无意记录曾在此繁盛的万千生灵，伊奥克斯确实曾栖息着无数种野生动物。大多数生物都死于毁灭这颗行星的大灾变，但此后也有一些成功转化为不死生物。</p>\n<p>索阿拉特（xoalat）曾是阿特拉斯基亚大陆最受欢迎的牲畜。广阔的牧场在如今称为阿特拉斯基亚陆棚的沿海平原地区饲养这些动物。索阿拉特体格健壮，头生独角，成熟后身上会长出多种颜色的浓密辫状毛发，牧场主将其收获，用于纺织。索阿拉特能在从干旱平原到北极苔原的大多数环境中茁壮成长，耗用的饲料也比一般牲畜少，因为它们会在地里拱找虫子、杂草和根茎为食。</p>\n<p>死亡哀嚎被反弹回伊奥克斯后，所有活着的索阿拉特都死去了，但其中一些后来成为了不死生物，或由不死牧场主唤醒，或由环境中的死灵作用重新活化。如今，所有存世的索阿拉特都是不死生物，只有少数灵脑人还拥有以索阿拉特鬃毛织成、在家族中传承多代的珍稀物品。极少数时候，灵脑人会允许科学家检视这些珍贵的传家宝，让星系居民数百年来首次得以一窥索阿拉特鬃毛织物之美。</p>\n<p>索阿拉特已经适应了如今遍布伊奥克斯荒野的奇异死灵生态系统。在亡者之城中，骨贤精心培育着由魔法控制的不死生态；而城外不生生物的复苏，却令科学家和贤者们困惑不已。只有少数行事隐秘的异星卫士设法研究过这些遭受败坏的环境。</p>\n<p>作为群居动物，索阿拉特通常温顺，却可能因活物的出现而受惊。惊慌时，索阿拉特会试图逃向开阔地带，但会猛烈攻击任何挡在逃生路上的人或物。</p><h2>索阿拉特畜牧业</h2><p>不死索阿拉特已经发展出缓慢再生骨骼、骨髓和坚韧皮肤的能力。现代索阿拉特牧场主不再收获布料和纺织原料，而是从能再生的畜群身上采集骨髓和兽皮样本。这些材料对伊奥克斯各地的死灵植入制造商和医疗科技公司都很有价值。</p><h2>索阿拉特的行为</h2><p>研究过这些可怜生物的异星卫士对其行为深感着迷：它们似乎在反复循环，模仿活着的索阿拉特的活动。常见行为包括在伊奥克斯死寂的土壤中拱找东西（尽管它们已经不需要进食）、成群啃食和游荡，以及发出响亮的呜咽声。索阿拉特通常胆小，除非受到惊吓；不过，它们对不死牧场主的反应很好。</p>",
+      "cnText_system_attributes_hp_details": {
+        "expected": "fast healing 1, void healing",
+        "text": "快速回复1，虚能治疗"
+      },
+      "cnText_system_perception_details": {
+        "expected": "darkvision",
+        "text": "黑暗视觉"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Xoalat",
+        "text": "索阿拉特（Xoalat）"
+      }
+    },
+    "VN13DS4Ph4dhN9mu": {
+      "name": "注定坠毁的穿梭机",
+      "items": [
+        {
+          "id": "Kx1B9efob2JzjZb7",
+          "expectedName": "Final Countdown",
+          "name": "最后倒计时",
+          "expectedDescription": "<p><strong>Trigger</strong> The encounter begins</p><hr /><p><strong>Effect</strong> The necroblast begins its detonation countdown, and the doomed shuttle rolls initiative.</p>",
+          "description": "<p><strong>触发</strong> 遭遇开始</p><hr /><p><strong>效果</strong> 死灵爆破开始引爆倒计时，注定坠毁的穿梭机掷先攻。</p>"
+        }
+      ],
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained) to notice necromantic energy emanating from the cockpit (allowing the use of Arcana to Disable).</p>",
+        "text": "<p>（受训）以察觉从驾驶舱散发出的死灵能量（允许使用奥法解除）。</p>"
+      },
+      "cnText_system_details_description": {
+        "expected": "<p>The planetary shuttle has already taken severe damage to its engines and hull, sending it on a crash course toward the planet. Meanwhile, a necromantic spell planted in the ship's computer will imminently unleash an explosion of void energy.</p>",
+        "text": "<p>行星穿梭机的引擎和船体已经严重受损，正沿着坠毁航线冲向行星。与此同时，植入飞船电脑的一道死灵法术即将引发虚能爆炸。</p>"
+      },
+      "cnText_system_details_disable": {
+        "expected": "<p>@Check[piloting|dc:16] (trained) to take control and force the shuttle to a lower altitude, @Check[arcana|dc:18] (trained) or @Check[thievery|dc:18] (trained) to counter the necroblast long enough to prevent its detonation, @Check[perception|dc:20] to look for the closest landing zone, @Check[crafting|dc:20] (trained) to take apart the console and defuse the bomb, @Check[religion|dc:23] to pray for divine intercession; four total successes are required to defeat the hazard (see Development). A creature that succeeds at any of these checks gains a +1 circumstance bonus on their save against the hazard's damage for 1 round.</p>",
+        "text": "<p>@Check[piloting|dc:16]（受训）以取得控制权并强制穿梭机降低高度；@Check[arcana|dc:18]（受训）或@Check[thievery|dc:18]（受训）以压制死灵爆破足够长的时间，使其无法引爆；@Check[perception|dc:20]以寻找最近的着陆区；@Check[crafting|dc:20]（受训）以拆开控制台并拆除炸弹；@Check[religion|dc:23]以祈求神祇干预；总计需要四次成功才能击败此危害（见发展）。生物成功进行上述任何一种检定后，对抗此危害伤害的豁免获得+1环境加值，持续1轮。</p>"
+      },
+      "cnText_system_details_reset": {
+        "expected": "<p>The bomb goes off after 4 rounds. See Development.</p>",
+        "text": "<p>炸弹在4轮后爆炸。见发展。</p>"
+      },
+      "cnText_system_details_routine": {
+        "expected": "<p>(3 actions) Void energy leaks out from the console as the necroblast prepares to detonate. All creatures on the ship take @Damage[(2d6+4)[void]] damage (@Check[will|dc:18|basic] save).</p>",
+        "text": "<p>（3动作）死灵爆破准备引爆，虚能从控制台中泄漏。飞船上的所有生物受到@Damage[(2d6+4)[void]]伤害（@Check[will|dc:18|basic]豁免）。</p>"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Doomed Shuttle",
+        "text": "注定坠毁的穿梭机"
+      }
     },
     "WOH7D2wZcemQrT8V": {
       "name": "丧",
       "items": [
         {
+          "id": "J95s3W7YlUIv7xh5",
+          "expectedName": "Arcane Innate Spells",
+          "name": "奥术内在法术"
+        },
+        {
           "id": "ZY0FCu5kK9oww9Ct",
           "expectedName": "New Game",
           "name": "开始游戏",
           "expectedDescription": "<p>You draw creatures into a vidgame, digitizing their bodies and minds, including equipment, to play in virtual reality. The genre of the game and effect of the spell depend on who you target when you cast it. Any creature targeted by this spell becomes immune to it for 24 hours, no matter what genre they experience.</p><ul><li>If you cast the spell targeting yourself and any number of willing allies, the targets enter a relaxing slice-of-life social simulation game where they can perform up to 1 hour of activities for the duration of the spell, including Refocusing, Repairing items, or simply evading an enemy by hiding in this virtual extradimensional space.</li><li>If you cast this spell targeting yourself or one willing ally, and one enemy, the targets enter a PvP game and are instructed to fight, using their current initiative. For the duration of the spell, either creature can manipulate fate once on each of its turns. This allows it to either roll twice and take the higher result on an attack roll or skill check it attempts against its opponent (a fortune effect) or force the opponent to roll twice on a saving throw against one of its abilities and take the lower result (a misfortune effect). The GM might decide that other genres of games exist that add additional rules or subsystems to resolving the spell. The spell ends if either target becomes unable to act or if they both agree to cease hostilities. Any results of the game, such as damage or conditions, persist after the game is over. If a player dies in this game, they die in real life.</li><li>If you cast this spell targeting one enemy, the target enters a PvE or puzzle game that traps them until they can complete the game. Once each turn, the target can spend 1 action to attempt a Computers or Perception check against your spell DC to escape the game. Teleportation magic doesn't help the creature escape unless the magic can transport someone into or out of a virtual space. When the spell ends, either because the target escaped or the duration ran out, the target returns to the space it occupied when it was digitized, or to the nearest space if the original is now filled. The GM might decide that other genres of games allow for different skill checks but should only do so if the target has proficiency in the listed skill.</li></ul><hr /><p><strong>Critical Success</strong> The target completes the game and the spell ends.</p>\n<p><strong>Success</strong> The target makes progress toward completing the game. If the target already made progress, it completes the game and the spell ends.</p>\n<p><strong>Failure</strong> The target makes no progress toward completing the game.</p>\n<p><strong>Critical Failure</strong> The target loses the game and has to start over. It loses all progress it made.</p>",
-          "description": "<p>You draw creatures into a vidgame, digitizing their bodies and minds, including equipment, to play in virtual reality. The genre of the game and effect of the spell depend on who you target when you cast it. Any creature targeted by this spell becomes immune to it for 24 hours, no matter what genre they experience.</p><ul><li>If you cast the spell targeting yourself and any number of willing allies, the targets enter a relaxing slice-of-life social simulation game where they can perform up to 1 hour of activities for the duration of the spell, including Refocusing, Repairing items, or simply evading an enemy by hiding in this virtual extradimensional space.</li><li>If you cast this spell targeting yourself or one willing ally, and one enemy, the targets enter a PvP game and are instructed to fight, using their current initiative. For the duration of the spell, either creature can manipulate fate once on each of its turns. This allows it to either roll twice and take the higher result on an attack roll or skill check it attempts against its opponent (a fortune effect) or force the opponent to roll twice on a saving throw against one of its abilities and take the lower result (a misfortune effect). The GM might decide that other genres of games exist that add additional rules or subsystems to resolving the spell. The spell ends if either target becomes unable to act or if they both agree to cease hostilities. Any results of the game, such as damage or conditions, persist after the game is over. If a player dies in this game, they die in real life.</li><li>If you cast this spell targeting one enemy, the target enters a PvE or puzzle game that traps them until they can complete the game. Once each turn, the target can spend 1 action to attempt a Computers or Perception check against your spell DC to escape the game. Teleportation magic doesn't help the creature escape unless the magic can transport someone into or out of a virtual space. When the spell ends, either because the target escaped or the duration ran out, the target returns to the space it occupied when it was digitized, or to the nearest space if the original is now filled. The GM might decide that other genres of games allow for different skill checks but should only do so if the target has proficiency in the listed skill.</li></ul><hr /><p><strong>大成功</strong>目标完成游戏，法术结束。</p>\n<p><strong>成功</strong>目标在完成游戏方面取得进展。如果目标已经取得进展，则完成游戏并结束法术。</p>\n<p><strong>失败</strong>目标在完成游戏方面没有进展。</p>\n<p><strong>大失败</strong>目标输掉游戏，必须重新开始。目标失去所有游戏进度。</p>"
+          "description": "<p>你可以将生物拉入电子游戏中，将他们的身体和思想（包括装备）数字化，让他们在虚拟现实中游玩。游戏类型和法术效果取决于你施法时的目标。任何被此法术选为目标的生物都会在24小时内免疫此法术，无论他们体验的是什么类型的游戏。</p><ul><li>如果你以自己和任意数量的自愿盟友为目标施放此法术，目标进入一个轻松的日常生活社交模拟游戏。在法术持续时间内，它们可以在其中进行至多1小时的活动，包括重新聚能、修理物品，或只是躲在这个虚拟异次元空间中避开敌人。</li><li>如果你以自己或一名自愿盟友，以及一名敌人为目标施放此法术，目标会进入一个PvP游戏并被指示战斗，使用他们当前的先攻顺序。在法术持续期间，任一生物都可以在自己的回合操作命运一次。若这样做，他就可以在对对手的攻击检定或技能检定中掷骰两次并取较高结果（幸运效果），或者迫使对手对它的某项能力进行豁免时掷骰两次并取较低结果（厄运效果）。GM可以决定在其他类型的游戏中增加额外的规则或子系统来处理该法术。如果任一目标无法行动，或双方同意停止敌对行动，则法术结束。游戏的任何结果，例如伤害或状态，在游戏结束以后依然持续生效。如果玩家在游戏中死亡，他们在现实宇宙中也会死亡。</li><li>如果你针对一名敌人施放了这个法术，目标就会进入一个PvE或解谜游戏，该游戏会困住他们，直到他们完成游戏。每回合一次，目标可以花费1个行动尝试对抗你的法术DC 进行计算机检定或察觉检定，以逃离游戏。传送魔法不能帮助生物逃脱，除非该魔法可以将人传送到或传送出虚拟空间。当法术结束时，无论是因为目标逃脱还是因为持续时间耗尽，目标都会返回其被数字化时所占据的空间，或者如果原来的空间已被填满，则返回最近的空间。GM可以决定其他类型的游戏是否允许进行不同的技能检定，但只有在目标对所列技能具有熟练的情况下才可以这样做。</li></ul><hr /><p><strong>大成功</strong>目标完成游戏，法术结束。</p>\n<p><strong>成功</strong>目标在完成游戏方面取得进展。如果目标已经取得进展，则完成游戏并结束法术。</p>\n<p><strong>失败</strong>目标在完成游戏方面没有进展。</p>\n<p><strong>大失败</strong>目标输掉游戏，必须重新开始。目标失去所有游戏进度。</p>"
         },
         {
           "id": "TsmSAgkYslthea2C",
           "expectedName": "Foresight",
-          "name": "预警术"
+          "name": "预警术",
+          "expectedDescription": "<p>You gain a sixth sense that warns you of danger that might befall the target of the spell. If you choose a creature other than yourself as the target, you create a psychic link through which you can inform the target of danger. This link is a mental effect. Due to the amount of information this spell requires you to process, you can't have more than one <em>foresight</em> spell in effect at a time. Casting <em>foresight</em> again ends the previous <em>foresight</em>. While <em>foresight</em> is in effect, the target gains a +2 status bonus to initiative rolls and isn't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} creatures or when flanked. In addition, you gain the following reaction: @UUID[Compendium.pf2e.actionspf2e.Item.VOEWhPQfN3lvHivK]{Foresight}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.X9Na6IK8FSPcTuoc]{Spell Effect: Foresight}</p>",
+          "description": "<p>你获得会警告你法术目标可能遭遇危险的第六感。若目标是自身以外的生物，你会与其建立心灵链接，通过链接告知其危险。此链接是心灵效应。由于此法术要求你处理大量信息，同一时间你只能有一个<em>预警术</em>生效。再次施放<em>预警术</em>会结束先前的<em>预警术</em>。<em>预警术</em>生效期间，目标的先攻掷骰获得+2状态加值，并且不会因以下情形陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}：面对@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{无踪}生物，或被夹击。此外，你获得以下反应：@UUID[Compendium.pf2e.actionspf2e.Item.VOEWhPQfN3lvHivK]{预警术}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.X9Na6IK8FSPcTuoc]{法术效果：预警术}</p>"
         },
         {
           "id": "hddiYdCTlHeBfwhf",
           "expectedName": "Telekinetic Tantrum",
-          "name": "念动爆发"
+          "name": "念动爆发",
+          "expectedDescription": "<p>You launch a barrage of powerful psychokinetic energy that overpowers creatures, hurls objects, and deals damage. When you Cast this Spell and the first time each round you Sustain the spell, you can choose one of the following effects. You can't choose the same effect twice in a row.</p><ul><li><strong>Back Off!</strong> You hurl up to 15 objects or creatures up to 40 feet in any direction (including up or down). You can hurl up to a total weight of 40 Bulk per creature or object. Creatures take bludgeoning damage based on the distance they moved and land @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, as though they'd taken falling damage. Creatures that succeed on a Fortitude save against the spell avoid being moved.</li><li><strong>Hard Rain</strong> You pummel all creatures in the area with debris and objects in the area, dealing 5d10 bludgeoning damage with a basic Reflex save.</li><li><strong>Psychokinetic Slam</strong> Your psychokinetic storm slams into all creatures in the area. Make a ranged spell attack roll. All targets you hit take 7d6 force damage and are @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</li></ul>",
+          "description": "<p>你发射一连串强大的精神能量，压倒生物、投掷物品并造成伤害。当你施放此法术时，以及每轮第一次维持此法术时，你可以选择以下效果之一。不能连续两次选择相同的效果。</p><ul><li><strong>退开！</strong>你将至多15个物体或生物向任意方向（包括向上或向下）抛出至多40尺。你可以抛掷的每个生物或物体重量至多为40负载。生物根据移动距离受到钝击伤害，并在落地时@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}，如同受到坠落伤害。成功通过此法术强韧豁免的生物不会被移动。</li><li><strong>骤雨</strong>你以区域内的碎屑和物体猛击区域内所有生物，造成5d10钝击伤害，进行一次基础反射豁免。</li><li><strong>念动力猛击</strong>你的念动力风暴撞向区域内所有生物。进行一次远程法术攻击掷骰。所有被命中的目标受到7d6力场伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1}。</li></ul>"
         },
         {
           "id": "czG3U1EYtwcCEMfB",
@@ -385,31 +1317,37 @@
         {
           "id": "vXXeKs1IUDaRz4Xa",
           "expectedName": "Uncontrollable Dance",
-          "name": "强迫起舞"
+          "name": "强迫起舞",
+          "expectedDescription": "<p>The target is overcome with an all-consuming urge to dance. For the duration of the spell, the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} and can't use reactions. While affected, the creature can't use move actions except to dance, using the Stride action to move up to half its Speed.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The spell's duration is 3 rounds, and the target must spend at least 1 action each turn dancing.</p>\n<p><strong>Failure</strong> The spell's duration is 1 minute, and the target must spend at least 2 actions each turn dancing.</p>\n<p><strong>Critical Failure</strong> The spell's duration is 1 minute, and the target must spend all its actions each turn dancing.</p>",
+          "description": "<p>目标被笼罩一切的舞蹈渴求所压倒。在该法术持续时间中，目标@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，并且不能使用反应动作。在受到影响时，该生物除了跳舞并使用行走动作来移动至多其速度一半的距离，不能使用任何移动动作。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 该法术的持续时间为3轮，并且目标每轮至少须花费一个动作来跳舞。</p>\n<p><strong>失败</strong> 该法术的持续时间为1分钟，并且目标每轮至少须花费两个动作来跳舞。</p>\n<p><strong>大失败</strong> 该法术的持续时间为1分钟，并且目标每轮必须花费其所有动作来跳舞。</p>"
         },
         {
           "id": "Pxm0PHNvsN4aKInL",
           "expectedName": "Absolute Zero",
           "name": "绝对零度",
           "expectedDescription": "<p>A swirling vortex flash freezes the air, dealing 10d8 cold damage. Each creature in the area must attempt a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} until the start of your next turn.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} by a layer of ice, and is slowed 1 as long as it's immobilized. The ice is an object with 50 Hit Points, Hardness 5, immunity to cold damage, and vulnerability 10 to fire. It has object immunities and is destroyed if the target Escapes.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d8 and the ice's Hit Points increase by 5.</p>",
-          "description": "<p>漩涡形的闪光冻住了空气，造成10d8寒冷伤害。区域内的每个生物都必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全额伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1} 直到你的下一回合开始。</p>\n<p><strong>大失败</strong>该生物承受双倍伤害，由于一层厚厚的冰而@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]，只要它被禁足，就会获得缓慢1。这冰层是物体，具有50生命值、5硬度、免疫寒冷伤害，并且有10点火焰弱点。它具有物品免疫并且如果目标逃脱会被摧毁。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加1d8。冰的生命值增加5。</p>"
+          "description": "<p>旋转的涡流瞬间冻结空气，造成10d8寒冷伤害。区域内的每个生物必须尝试强韧豁免。</p><hr /><p><strong>大成功</strong> 生物不受影响。</p>\n<p><strong>成功</strong> 生物受到一半伤害。</p>\n<p><strong>失败</strong> 生物受到全部伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，直至你的下回合开始。</p>\n<p><strong>大失败</strong> 生物受到双倍伤害，被一层冰@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，且在禁足期间缓慢1。冰层是具有50生命值、硬度5、寒冷伤害免疫及火焰弱点10的物体。它具有物体免疫，且在目标逃脱时被摧毁。</p><hr /><p><strong>升阶（+1）</strong> 伤害增加1d8，冰层的生命值增加5。</p>"
         },
         {
           "id": "XZBMCCvzYqsj1MHv",
           "expectedName": "Contingency",
-          "name": "触发术"
+          "name": "触发术",
+          "expectedDescription": "<p>You prepare a spell that will trigger later. While casting contingency, you also cast another spell of 4th rank or lower with a casting time of no more than 3 actions. This companion spell must be one that can affect you. You must make any decisions for the spell when you cast contingency, such as choosing a damage type for resist energy. During the casting, choose a trigger under which the spell will be cast, using the same restrictions as for the trigger of a Ready action. Once contingency is cast, you can cause the companion spell to come into effect as a reaction with that trigger. It affects only you, even if it would affect more creatures. If you define complicated conditions, as determined by the GM, the trigger might fail. If you cast contingency again, the newer casting supersedes the older.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You can choose a spell of 5th rank or lower.</p>\n<p><strong>Heightened (9th)</strong> You can choose a spell of 6th rank or lower.</p>\n<p><strong>Heightened (10th)</strong> You can choose a spell of 7th rank or lower.</p>",
+          "description": "<p>你准备好一个法术，其可以在之后被触发。当施放触发术时，你也同时施放另一个4环阶或者更低的法术，施法时间不超过3个动作。这个伴随的法术必须是能够影响你的法术。你必须在设定触发术时，为该法术决定任何需要决定的选项，例如选择抵抗能量的伤害类型。在施放时，选择一个该法术会被施放的触发条件，限制如同准备动作的触发条件。触发术施放后，当所选触发条件满足时，你可以用反应令伴随法术生效。该法术只影响你，即使它通常可以影响更多生物。如果你定义了复杂的条件，触发可能会失败，这由GM决定。如果你施放触发术，新的触发术会取代旧的。</p>\n<hr />\n<p><strong>升阶（8环）</strong> 你可以选择5环阶或者更低的法术。</p>\n<p><strong>升阶（9环）</strong> 你可以选择6环阶或者更低的法术。</p>\n<p><strong>升阶（10环）</strong> 你可以选择7环阶或者更低的法术。</p>"
         },
         {
           "id": "mPVJKHkuG0VRdqC4",
           "expectedName": "Warp Mind",
-          "name": "心灵扭曲"
+          "name": "心灵扭曲",
+          "expectedDescription": "<p>You scramble a creature's mental faculties and sensory input. The target must attempt a Will saving throw. Regardless of the result of that save, the target is then temporarily immune for 10 minutes. Warp mind's effects happen instantly, so @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} and other effects that counteract spells can't counteract them. However, @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Wish} rituals and abilities that can remove non-magical effects can still counteract the effects.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target spends the first action on its next turn with the @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} condition.</p>\n<p><strong>Failure</strong> The target is Confused for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is Confused permanently.</p>",
+          "description": "<p>你扰乱一个生物的心智机能和感官输入。目标必须尝试一次意志豁免。无论豁免结果如何，该目标之后会临时免疫10分钟。心灵扭曲的效果是立即的，所以@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{解除魔法}或者其他反制法术的效果无法反制其效果。但是，@UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{祈愿术}仪式以及能够移除非魔法效应的能力仍可反制这些效应。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标按照 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑} 状态使用其下个回合的第一个动作。</p>\n<p><strong>失败</strong> 目标获得困惑1分钟。</p>\n<p><strong>大失败</strong> 目标永久困惑。</p>"
         },
         {
           "id": "cUbEFGzq2mOvXUrD",
           "expectedName": "Pocket Vacuum",
           "name": "口袋真空",
           "expectedDescription": "<p>You create a sudden vacuum, forcing creatures in the area to hold their breath or fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} and start suffocating. The explosive decompression deals 5d12 bludgeoning damage to each creature in the area when the spell is cast or that enters the area during the duration (unless they were already in a vacuum), with a basic Fortitude save. Creatures who critically fail the save are also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d12.</p>",
-          "description": "<p>You create a sudden vacuum, forcing creatures in the area to hold their breath or fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} and start suffocating. The explosive decompression deals 5d12 bludgeoning damage to each creature in the area when the spell is cast or that enters the area during the duration (unless they were already in a vacuum), with a basic Fortitude save. Creatures who critically fail the save are also knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p><hr /><p><strong>升阶 （+1） </strong>伤害增加1d12。</p>"
+          "description": "<p>你会突然制造出真空状态，迫使周围的生物屏住呼吸，否则就会@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]并开始窒息。施法时或在法术持续时间内进入该区域的生物都会受到突然减压造成的5d12钝击伤害（除非他们原本就处于真空状态），这需要一次基础强韧豁免。豁免大失败的生物会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]。</p><hr /><p><strong>升阶 （+1） </strong>伤害增加1d12。</p>"
         },
         {
           "id": "rAi6yhMBJfsKcTAb",
@@ -428,17 +1366,23 @@
         {
           "id": "MX2ysU5VNZGat0fV",
           "expectedName": "Sending",
-          "name": "短讯术"
+          "name": "短讯术",
+          "expectedDescription": "<p>You send the creature a mental message of 25 words or fewer, and it can respond immediately with its own message of 25 words or fewer.</p>",
+          "description": "<p>你向该生物发送一段25词或者更短的精神信息，它可以立即以自己的一段不超过25词的信息回应。</p>"
         },
         {
           "id": "WS6OKMAjABzhlV2X",
           "expectedName": "Confusion",
-          "name": "困惑术"
+          "name": "困惑术",
+          "expectedDescription": "<p>You befuddle your target with strange impulses, causing it to act randomly. The effects are determined by the target's Will save. You can Dismiss the spell.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target babbles incoherently and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 minute. It can attempt a new save at the end of each of its turns to end the confusion.</p>\n<p><strong>Critical Failure</strong> The target is Confused for 1 minute, with no save to end early.</p>\n<hr />\n<p><strong>Heightened (8th)</strong> You can target up to 10 creatures.</p>",
+          "description": "<p>你以奇异的冲动扰乱目标心智，使其随机行动。法术效果由目标的意志豁免决定。你可以解消该法术。</p>\n<hr />\n<p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标胡言乱语，并且获得@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1}。</p>\n<p><strong>失败</strong> 目标获得@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}1分钟。在其每个回合结束，它能尝试一次新豁免来结束困惑术。</p>\n<p><strong>大失败</strong> 目标困惑1分钟，并且没有提前结束的豁免。</p>\n<hr />\n<p><strong>升阶（8环阶）</strong> 你能以至多10个生物为目标。</p>"
         },
         {
           "id": "E6B2ERxDJUy4Cox3",
           "expectedName": "Discharge",
-          "name": "断电术"
+          "name": "断电术",
+          "expectedDescription": "<p>You ignite a sudden spark of electricity that surges into a technological creature or object. You de-energize an item with the tech trait or disrupt a creature with the tech trait, with effects based on the target being a creature or object.</p><ul><li><strong>Creature</strong> If your target is a creature with the tech trait, it attempts a Will save. On a failure, the creature is @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}; on a critical failure, the creature is @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2}.</li><li><strong>Object</strong> If you target an attended object, the creature with the object attempts a Will save. On a success, the object loses half of its maximum charges. On a failure, or if you target an unattended object, the object loses all its remaining charges.</li></ul>",
+          "description": "<p>你骤然点燃一道电火花，令其涌入一个科技生物或物体。你使具有科技特征的物品失去能量，或扰乱具有科技特征的生物，效果取决于目标是生物还是物体。</p><ul><li><strong>生物</strong> 若目标是具有科技特征的生物，其进行意志豁免。失败时，该生物陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障1}；大失败时，该生物陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障2}。</li><li><strong>物体</strong> 若你以有人持有的物体为目标，持有它的生物进行意志豁免。成功时，物体失去相当于其最大充能数一半的充能。失败时，或你以无人持有的物体为目标时，物体失去全部剩余充能。</li></ul>"
         },
         {
           "id": "XT3BeMuwnpzFNgVO",
@@ -452,7 +1396,7 @@
           "expectedName": "Personal Gravity",
           "name": "私人重力",
           "expectedDescription": "<p>You alter gravity's effects on you. You treat gravity as if it were your choice of one step higher or lower (for example, if you were in an area of low gravity, you could choose either standard gravity or zero-g). While the spell is active, you reduce the distance of any forced movement that would affect you by 5 feet (minimum 0 feet), and you ignore being clumsy and untethered because of gravity effects on you. You can Dismiss the spell.</p>",
-          "description": "<p>你可以改变重力对你的影响。你可以选择将重力提升或降低一级（例如，如果你身处低重力的区域，你可以选择标准重力或零重力）。当该法术起效时，你降低任何影响你的强制移动的距离5尺（最小0尺），而且你不会因为重力的影响而变得笨拙和失重untethered。你可以解消该法术。</p>"
+          "description": "<p>你改变重力对自身的影响。你将重力视为比实际情况高或低一个等级，由你选择（例如，若你位于低重力区域，可以选择标准重力或零重力）。法术生效期间，任何作用于你的强制移动距离减少5尺（最低0尺），且你忽略重力对你造成的笨拙和失重。你可以解消此法术。</p>"
         },
         {
           "id": "QoTSYd58ynSdpYns",
@@ -466,40 +1410,42 @@
           "expectedName": "Doom Scroll",
           "name": "末日刷屏",
           "expectedDescription": "<p>You magically broadcast grim news onto nearby devices, holo projectors, screens, and other displays (including comm units on armor). Creatures in the area who can see one or more displays must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the display.</p>\n<p><strong>Failure</strong> The creature is fascinated by the display and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (even if the fascination ends).</p>\n<p><strong>Critical Failure</strong> The creature is fascinated by the display, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}, and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (even if the fascination ends).</p>",
-          "description": "<p>你可以用魔法在附近的设备、全息投影仪、屏幕和其他显示器（包括护甲上的通讯单元）上播报可怕的消息。区域内能看到一个或多个显示屏的生物必须尝试意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物因显示内容@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]。</p>\n<p><strong>失败</strong>该生物因显示内迷魂并@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}（即使迷魂结束）。</p>\n<p><strong>大失败</strong>该生物因显示内迷魂，@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 3}，并且@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭 Doomed 1}（即使迷魂结束）。</p>"
+          "description": "<p>你以魔法在附近的设备、全息投影仪、屏幕及其他显示装置（包括护甲上的通讯装置）上播出噩耗。区域内能看见至少一个显示装置的生物必须进行意志豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物被显示装置@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}。</p>\n<p><strong>失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧2}（即使迷魂结束，恐惧仍然生效）。</p>\n<p><strong>大失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧3}和@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭1}（即使迷魂结束，后两者仍然生效）。</p>"
         },
         {
           "id": "re3ZmGmp4UUXbntj",
           "expectedName": "Liquid Siphon",
           "name": "液体虹吸",
           "expectedDescription": "<p>You drain the moisture out of your target, crumpling them up like an empty beverage can and potentially leaving them a desiccated husk of what they once were. A nonliving target with liquid in its body (such as a vampire, water elemental, or keg of alcohol) can be affected by this spell, but a living creature with no vital liquids is immune. The target creature takes 4d6 bludgeoning damage, depending on the results of its saving throw.</p>\n<p>A target that fails its saving throw creates water that flows into your hands or a held container (1 gallon for Tiny, 2 gallons for Small, 4 for Medium, 6 for Large, 8 for Huge). If the target critically fails its saving throw, double this amount.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}.</p>\n<p><strong>Critical Failure</strong> As failure, but double damage and the target is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}.</p><hr /><p><strong>Heightened (+1)</strong> Increase the damage by 2d6.</p>",
-          "description": "<p>You drain the moisture out of your target, crumpling them up like an empty beverage can and potentially leaving them a desiccated husk of what they once were. A nonliving target with liquid in its body (such as a vampire, water elemental, or keg of alcohol) can be affected by this spell, but a living creature with no vital liquids is immune. The target creature takes 4d6 bludgeoning damage, depending on the results of its saving throw.</p>\n<p>A target that fails its saving throw creates water that flows into your hands or a held container (1 gallon for Tiny, 2 gallons for Small, 4 for Medium, 6 for Large, 8 for Huge). If the target critically fails its saving throw, double this amount.</p><hr /><p><strong>大成功</strong>生物不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全额伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 1}。</p>\n<p><strong>大失败</strong>同失败，但目标受到双倍伤害且陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 2}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
+          "description": "<p>你抽干目标体内的水分，将其如空饮料罐般压瘪，甚至可能只剩下干枯的躯壳。体内含有液体的非活物目标（例如吸血鬼、水元素或一桶酒）也会受到此法术影响，但体内没有维生液体的活物免疫。目标生物受到4d6钝击伤害，具体取决于其豁免结果。</p>\n<p>豁免失败的目标产生水，流入你的手中或持握的容器（超小型1加仑，小型2加仑，中型4加仑，大型6加仑，超大型8加仑）。目标豁免大失败时，水量翻倍。</p><hr /><p><strong>大成功</strong> 目标不受影响。</p>\n<p><strong>成功</strong> 目标受到一半伤害。</p>\n<p><strong>失败</strong> 目标受到全部伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失1}。</p>\n<p><strong>大失败</strong> 同失败，但造成双倍伤害，且目标陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失2}。</p><hr /><p><strong>升阶（+1）</strong> 伤害增加2d6。</p>"
         },
         {
           "id": "AWoTnKBRNOqPJHjH",
           "expectedName": "Akashic Download",
           "name": "阿卡西下载",
           "expectedDescription": "<p>You execute a psychic search of the Akashic Record for information about a specific topic and magically transfer this data to your comm unit or computer. When you Cast this Spell, choose any skill in which you're trained that has the @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} action.</p>\n<p>Any time during the duration, you can consult your comm unit while attempting a Recall Knowledge check using your chosen skill. This check gains a +1 status bonus. Checking your comm unit is part of the action to Recall Knowledge. You must be holding the comm unit to do so. The comm unit instantly compiles and displays snippets and selections from various media relevant to the topic, which grants you the bonus. If you roll a critical failure on this check, you get a failure instead. If the check is successful and the subject is a creature, you gain additional information or context about the creature. Once you reference the comm unit, the spell ends. When the spell ends, your access to the Akashic Record ends, and all the information you downloaded returns to the Akashic Record.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.h1i8c47U0IOrMrHJ]</p><hr /><p><strong>Heightened (3rd)</strong> You can reference your comm unit three times before the spell ends.</p>",
-          "description": "<p>你通过灵能搜索阿卡西记录，获取特定主题的信息，并将数据魔法传输至通讯单元或计算机。施放此法术时，选择任何你至少为受训熟练度且能进行@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]动作的技能。</p>\n<p>在持续时间内的任何时候，你都可以在使用所选技能进行回忆知识检查时查询通讯单元。该检定会获得+1状态加值。检查通讯单元是回忆知识动作的一部分。你必须手持通讯单元才能这样做。通讯单元会立即编译并显示与主题相关的各种媒体片段和精选内容，从而为你带来加值。如果你在检定中掷出大失败，改为失败。如果检定成功，且对象是生物，你将获得有关该生物的额外信息或内容。一旦你查询了通讯单元的信息，法术就会结束。当法术结束时，你对阿卡西记录的访问也会结束，你下载的所有信息都会返回阿卡西记录。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.h1i8c47U0IOrMrHJ]</p><hr /><p><strong>Heightened (3rd)</strong> You can reference your comm unit three times before the spell ends.</p>"
+          "description": "<p>你通过灵能搜索阿卡西记录，获取特定主题的信息，并将数据魔法传输至通讯单元或计算机。施放此法术时，选择任何你至少为受训熟练度且能进行@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]动作的技能。</p>\n<p>在持续时间内的任何时候，你都可以在使用所选技能进行回忆知识检定时查询通讯单元。该检定会获得+1状态加值。检查通讯单元是回忆知识动作的一部分。你必须手持通讯单元才能这样做。通讯单元会立即编译并显示与主题相关的各种媒体片段和精选内容，从而为你带来加值。如果你在检定中掷出大失败，改为失败。如果检定成功，且对象是生物，你将获得有关该生物的额外信息或内容。一旦你查询了通讯单元的信息，法术就会结束。当法术结束时，你对阿卡西记录的访问也会结束，你下载的所有信息都会返回阿卡西记录。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.h1i8c47U0IOrMrHJ]</p><hr /><p><strong>升阶（3环）</strong>法术结束前可以用通讯单元查询信息3次。</p>"
         },
         {
           "id": "XclV4E1XnthFwWCO",
           "expectedName": "Chill Gaze",
           "name": "冻寒凝视",
           "expectedDescription": "<p>Your eyes turn an icy blue color as the temperature in the area drops. Your cold, hard gaze literally chills the air around your foe's body, making it harder for them to move. When you cast chill gaze, choose clumsy or enfeebled. Your foe takes effects depending on your choice, based on the result of its saving throw.</p><hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (depending on your choice) for the duration of the spell.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}.</p><hr /><p><strong>Heightened (4th)</strong> You can target up to five creatures.</p>\n<p><strong>Heightened (7th)</strong> You can target up to ten creatures.</p>",
-          "description": "<p>随着你的双眼化作冰蓝之色，区域温度骤降。你那冰冷而坚毅的凝视令敌人周身寒气凝结，使其行动迟滞。当你施放冻寒凝视时，选择笨拙或力竭。你的敌人基于其豁免检定结果，根据你的选择承受效果。</p><hr /><p><strong>成功</strong>生物不受影响。</p>\n<p><strong>失败</strong>生物在法术持续时间内陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}（根据你的选择）。</p>\n<p><strong>大失败</strong>同失败，但目标为@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}。</p><hr /><p><strong>Heightened (4th)</strong> You can target up to five creatures.</p>\n<p><strong>Heightened (7th)</strong> You can target up to ten creatures.</p>"
+          "description": "<p>区域内的温度降低，你的眼睛变成冰蓝色。你冰冷而严厉的目光真的会冷却敌人身边的空气，令其难以移动。施放冻寒凝视时，选择笨拙或力竭。根据敌人的豁免结果，它受到你所选的效应。</p><hr /><p><strong>成功</strong> 生物不受影响。</p>\n<p><strong>失败</strong> 生物陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}（取决于你的选择），在法术持续期间生效。</p>\n<p><strong>大失败</strong> 同失败，但目标陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}。</p><hr /><p><strong>升阶（4环）</strong> 你至多可以选择五个生物为目标。</p>\n<p><strong>升阶（7环）</strong> 你至多可以选择十个生物为目标。</p>"
         },
         {
           "id": "qlWtfcyFkAhywpNy",
           "expectedName": "Chill Gaze",
           "name": "冻寒凝视",
           "expectedDescription": "<p>Your eyes turn an icy blue color as the temperature in the area drops. Your cold, hard gaze literally chills the air around your foe's body, making it harder for them to move. When you cast chill gaze, choose clumsy or enfeebled. Your foe takes effects depending on your choice, based on the result of its saving throw.</p><hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (depending on your choice) for the duration of the spell.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}.</p><hr /><p><strong>Heightened (4th)</strong> You can target up to five creatures.</p>\n<p><strong>Heightened (7th)</strong> You can target up to ten creatures.</p>",
-          "description": "<p>随着你的双眼化作冰蓝之色，区域温度骤降。你那冰冷而坚毅的凝视令敌人周身寒气凝结，使其行动迟滞。当你施放冻寒凝视时，选择笨拙或力竭。你的敌人基于其豁免检定结果，根据你的选择承受效果。</p><hr /><p><strong>成功</strong>生物不受影响。</p>\n<p><strong>失败</strong>生物在法术持续时间内陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}（根据你的选择）。</p>\n<p><strong>大失败</strong>同失败，但目标为@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}。</p><hr /><p><strong>Heightened (4th)</strong> You can target up to five creatures.</p>\n<p><strong>Heightened (7th)</strong> You can target up to ten creatures.</p>"
+          "description": "<p>区域内的温度降低，你的眼睛变成冰蓝色。你冰冷而严厉的目光真的会冷却敌人身边的空气，令其难以移动。施放冻寒凝视时，选择笨拙或力竭。根据敌人的豁免结果，它受到你所选的效应。</p><hr /><p><strong>成功</strong> 生物不受影响。</p>\n<p><strong>失败</strong> 生物陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}（取决于你的选择），在法术持续期间生效。</p>\n<p><strong>大失败</strong> 同失败，但目标陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}。</p><hr /><p><strong>升阶（4环）</strong> 你至多可以选择五个生物为目标。</p>\n<p><strong>升阶（7环）</strong> 你至多可以选择十个生物为目标。</p>"
         },
         {
           "id": "G0WdaWLjLlwQTn4R",
           "expectedName": "Daze",
-          "name": "晕眩术"
+          "name": "晕眩术",
+          "expectedDescription": "<p>You push into the target's mind and daze it with a mental jolt. The jolt deals 1d6 mental damage, with a basic Will save. If the target critically fails the save, it is also @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<hr />\n<p><strong>Heightened (+2)</strong> The damage increases by 1d6.</p>",
+          "description": "<p>你侵入目标的精神，利用精神冲击令目标晕眩。该冲击造成1d6心灵伤害，具有基础意志豁免。如果目标在豁免中大失败，它获得@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1}。</p>\n<hr />\n<p><strong>升阶（+2）</strong> 该伤害增加1d6。</p>"
         },
         {
           "id": "4EAHhQvgIWH5BuQD",
@@ -520,14 +1466,14 @@
           "expectedName": "Implant Data",
           "name": "植入数据",
           "expectedDescription": "<p>You reprogram a computer or device to display a chosen piece of data when accessed. You can implant up to one piece of data per spell rank. A piece of data can be a simple fact, such as a creature or object's location or physical description; an image of a creature or object; or a simple statement of no more than 300 characters. When the target computer or device is accessed, this implanted data is the first data the accessing creature gains, regardless of what data the creature is looking for. Implanted data doesn't prevent a creature from accessing other information stored on a device, change how the device functions, or otherwise inhibit the device from functioning. If this spell's duration ends before a creature accesses the implanted data, the information vanishes.</p><hr /><p><strong>Heightened (3rd)</strong> The duration is one year.</p>\n<p><strong>Heightened (6th)</strong> The duration is unlimited.</p>",
-          "description": "<p>You reprogram a computer or device to display a chosen piece of data when accessed. You can implant up to one piece of data per spell rank. A piece of data can be a simple fact, such as a creature or object's location or physical description; an image of a creature or object; or a simple statement of no more than 300 characters. When the target computer or device is accessed, this implanted data is the first data the accessing creature gains, regardless of what data the creature is looking for. Implanted data doesn't prevent a creature from accessing other information stored on a device, change how the device functions, or otherwise inhibit the device from functioning. If this spell's duration ends before a creature accesses the implanted data, the information vanishes.</p><hr /><p><strong>升阶（3环）</strong>持续时间为一年。</p>\n<p><strong>升阶（6环）</strong>持续时间为无限。</p>"
+          "description": "<p>你重新编程一台计算机或设备，使其在被访问时显示一条选定的数据。你每个法术环级至多可以植入一条数据。一条数据可以是一项简单事实，例如某个生物或物体的位置或外貌描述；一幅生物或物体的图像；或一句不超过300个字符的简单陈述。目标计算机或设备被访问时，访问者首先获得的总是这条植入数据，无论该生物在寻找什么数据。植入数据不会阻止生物访问设备储存的其他信息，不会改变设备的运作方式，也不会以其他方式妨碍其运作。如果法术持续时间在生物访问植入数据前结束，这些信息便消失。</p><hr /><p><strong>升阶（3环）</strong>持续时间为一年。</p>\n<p><strong>升阶（6环）</strong>持续时间为无限。</p>"
         },
         {
           "id": "w3vN0MMmRhABp3h3",
           "expectedName": "Injury Echo",
           "name": "伤口回响",
           "expectedDescription": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 1d8, and the persistent damage on a failure increases by 1d4.</p>",
-          "description": "<p>You manifest an injury from the future or past to harm a creature in the present. Choose bludgeoning, piercing, or slashing damage. The target takes 1d8 of the selected damage type with a basic Will save. If the target fails its save and then takes the same type of damage before the end of your next turn, it takes an additional @Damage[ceil((@item.level)/2)d4[persistent,bleed]] damage.</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加1d8，豁免失败时的持续伤害增加1d4。</p>"
+          "description": "<p>你自未来或者过去具现出一道伤口来伤害当下的生物。选择钝击，穿刺或挥砍伤害，目标受到1d8所选类型伤害，具有一次基础意志豁免。如果目标豁免失败，并且在你的下个回合结束前受到了相同类型的伤害，其还会额外受到@Damage[ceil((@item.level)/2)d4[persistent,bleed]]伤害。</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加1d8，豁免失败时的持续伤害增加1d4。</p>"
         },
         {
           "id": "e5z2BIspqB5N8bbw",
@@ -539,22 +1485,107 @@
         {
           "id": "8lEXKWcQ4uWObjRc",
           "expectedName": "Telekinetic Projectile",
-          "name": "念动射弹"
+          "name": "念动射弹",
+          "expectedDescription": "<p>You hurl a loose, unattended object that is within range and that has 1 Bulk or less at the target. Make a spell attack roll against the target. If you hit, you deal 2d6 bludgeoning, piercing, or slashing damage—as appropriate for the object you hurled. No specific traits or magic properties of the hurled item affect the attack or the damage.</p>\n<hr />\n<p><strong>Critical Success</strong> You deal double damage.</p>\n<p><strong>Success</strong> You deal full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>",
+          "description": "<p>你向目标射出射程内一个未固定、无主且负载不超过1的物体。对目标尝试一次法术攻击掷骰。如果你命中，你造成2d6的钝击，穿刺，或者挥砍伤害（对应于你所扔出的物体）。射出物体的特殊特征或者魔法特性不会影响该攻击或者伤害。</p>\n<hr />\n<p><strong>大成功</strong> 你造成双倍伤害。</p>\n<p><strong>成功</strong> 你造成完整伤害。</p>\n<hr />\n<p><strong>升阶（+1）</strong> 该伤害增加1d6。</p>"
         },
         {
           "id": "5PANUBue74Ah9npv",
           "expectedName": "Ivory Chompers",
-          "name": "象牙牙套"
+          "name": "象牙牙套",
+          "expectedDescription": "<p>Tiny pneumatic pistons hidden inside these ornate dental veneers turn them into deadly weapons. Pioneered by the undead media mogul Zo! for celebrities who need to stay armed and fashionable at all times, ivory chompers provide a last-ditch biting attack against attackers. Special designer versions incorporate custom monogrammed imprints, jewels, and metal plating for the ultimate smile.</p>",
+          "description": "<p>这些精美的牙齿贴片内暗藏微型气动活塞，使其化作致命武器。由不死媒体大亨丧！首创，专为需时刻保持武装与时尚的名流设计，象牙牙套能在遭遇袭击时发起殊死一搏的咬击。特别定制款更融入专属字母压印、宝石镶嵌与金属镀层，成就终极微笑。</p>"
+        },
+        {
+          "id": "erQQxgL2ZO385fHe",
+          "expectedName": "Zo!'s Microphone",
+          "name": "丧的麦克风",
+          "expectedDescription": "<p><strong>Upgrades</strong> 1</p><hr /><p>This ornate replica of the undead superstar's iconic microphone is an officially licensed Zo! Media product. Zo!'s microphone is rumored to be a bone scepter upgraded with the latest technologies to amplify Zo!'s voice for blasting enemies or unruly fans. The replica version possesses similar capabilities and can be used as a professional microphone or a weapon.</p>",
+          "description": "<p><strong>强化模块</strong> 1</p><hr /><p>这是不死巨星标志性麦克风的华丽仿制品，也是丧媒体（Zo! Media）的官方授权产品。据说，丧的麦克风是一支用最新技术升级过的骨杖，可以放大他的声音，轰击敌人或不守规矩的粉丝。仿制版本具有类似能力，可以用作专业麦克风或武器。</p>",
+          "extraFields": [
+            {
+              "path": "system.subitems.0.name",
+              "expected": "Animated Intelligence (Advanced)",
+              "text": "先进型生成式智慧",
+              "guards": [
+                {
+                  "path": "system.subitems.0._id",
+                  "expected": "u0C4B4LGGvRoAjeg"
+                }
+              ]
+            },
+            {
+              "path": "system.subitems.0.system.description.value",
+              "expected": "<p>Magical circuitry generates a virtual animated intelligence with a customizable personality and no free will. Rarely, a virtual intelligence might eventually evolve into a true artificial intelligence with self-awareness and free will, usually with the help of powerful magic or a miracle.</p><hr /><p><strong>Activate—Autoattack</strong> <span class=\"action-glyph\">2</span> (concentrate, manipulate)</p>\n<p><strong>Effect</strong> You Release the weapon and it glides through the air, fighting on its own against the last enemy you attacked, or the nearest enemy to it if your target has been defeated. At the end of your turn each round, the weapon can Fly up to its fly Speed of 60 feet, and then can either Fly again or Strike one creature within its range or reach.</p>\n<p>The weapon has a space of 5 feet, but it doesn't block or impede enemies attempting to move though that space. It provides but does not benefit from flanking. The animated intelligence is considered a technological creature for the purpose of effects that can target it. The weapon can't move through an enemy's space. The weapon can't use reactions, and its Fly actions don't trigger reactions.</p>\n<p>While it's activated, the animated intelligence Strikes with an attack modifier of +32 plus its item bonus to attack rolls. It uses the weapon's normal damage but has a +0 Strength and Dexterity modifier. The weapon's abilities that automatically trigger on a hit or critical hit still function, but the weapon can't be activated or benefit from any of your abilities while animated.</p>\n<p>Each round, when the weapon finishes using its actions, attempt a @Check[flat|dc:4]. On a failure, the activation ends. The weapon falls to the ground and can't Autoattack again for 10 minutes.</p>",
+              "text": "<p>魔法电路生成一个虚拟的赋动智能，其人格可以定制，但没有自由意志。在少数情况下，通常借助强大魔法或奇迹，虚拟智能最终可能演化为具有自我意识与自由意志的真正人工智能。</p><hr /><p><strong>启动—自动攻击</strong> <span class=\"action-glyph\">2</span> （专注、操作）</p>\n<p><strong>效果</strong> 你松开武器，它便在空中滑行，自行与你最后攻击的敌人交战；如果该目标已被击败，则改为攻击离武器最近的敌人。每轮在你的回合结束时，武器可以飞行至多其60尺飞行速度的距离，然后可以再次飞行，或打击其射程或触及内的一个生物。</p>\n<p>该武器占据5尺空间，但不会阻挡或妨碍试图穿过此空间的敌人移动。它能提供夹击，但不能从夹击中受益。对于能够指定其为目标的效应而言，赋动智能视为科技生物。武器不能穿过敌人占据的空间。武器不能使用反应，且它的飞行动作不会触发反应。</p>\n<p>启动期间，赋动智能进行打击时的攻击调整值为+32，再加上其攻击掷骰物品加值。它使用武器通常的伤害，但力量和敏捷调整值均为+0。武器在命中或重击时自动触发的能力仍会生效，但武器在赋动期间不能被启动，也不能受益于你的任何能力。</p>\n<p>每轮武器用完动作时，进行一次 @Check[flat|dc:4]。失败时，启动结束。武器掉到地上，10分钟内不能再次自动攻击。</p>",
+              "guards": [
+                {
+                  "path": "system.subitems.0._id",
+                  "expected": "u0C4B4LGGvRoAjeg"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "jpbMr4wtnwtoQuYk",
           "expectedName": "Second Skin",
-          "name": "第二皮肤"
+          "name": "第二皮肤",
+          "expectedDescription": "<p><strong>Upgrades:</strong> 0</p><hr /><p>Soft but resilient fabric contours perfectly to the wearer's body, offering basic protection without sacrificing comfort. Second skin is commonly worn underneath casual clothing.</p>",
+          "description": "<p><strong>强化：</strong> 0</p><hr /><p>柔软而坚韧的面料完美贴合穿戴者的身体，在不牺牲舒适度的情况下提供基础防护。第二皮肤通常穿在日常衣服里面。</p>",
+          "extraFields": [
+            {
+              "path": "system.subitems.0.name",
+              "expected": "Jetpack (Tactical)",
+              "text": "战术型喷射背包",
+              "guards": [
+                {
+                  "path": "system.subitems.0._id",
+                  "expected": "KFyiDVw0DpVCO8D8"
+                }
+              ]
+            },
+            {
+              "path": "system.subitems.0.system.description.value",
+              "expected": "<p>Boosters attached to your armor allow you to fly.</p>\n<p><strong>Activate—Fly</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> You activate a jetpack to gain a fly Speed of 40 feet. This effect lasts for 1 minute or until you Dismiss it. You can use an action to Fly 0 feet to hover in place, but you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while doing so. A jetpack can't lift you if you're encumbered.</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
+              "text": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷气背包，获得40尺飞行速度。此效应持续1分钟，或直到你将其解除。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷气背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
+              "guards": [
+                {
+                  "path": "system.subitems.0._id",
+                  "expected": "KFyiDVw0DpVCO8D8"
+                }
+              ]
+            },
+            {
+              "path": "system.subitems.1.name",
+              "expected": "Energy Shielding (Advanced) (Cold)",
+              "text": "先进型能量屏障（寒冷）",
+              "guards": [
+                {
+                  "path": "system.subitems.1._id",
+                  "expected": "OJhWLBxWZC7xIjDm"
+                }
+              ]
+            },
+            {
+              "path": "system.subitems.1.system.description.value",
+              "expected": "<p>This armor is specially treated with insulation to protect against a specific type of damage. You gain resistance 15 to acid, cold, electricity, or fire. The crafter chooses the damage type when creating the upgrade. Multiple energy shielding upgrades can be placed into a suit of armor, but each must provide resistance to a different damage type.</p>",
+              "text": "<p>此护甲经过特殊的隔绝处理，以防护特定类型的伤害。你获得对酸蚀、寒冷、电击或火焰的抗力15。制造者在制作此强化模块时选择伤害类型。一套护甲可以安装多个能量护盾强化模块，但每个模块必须提供对不同伤害类型的抗力。</p>",
+              "guards": [
+                {
+                  "path": "system.subitems.1._id",
+                  "expected": "OJhWLBxWZC7xIjDm"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "0MfZKQBWKuAS4PH3",
           "expectedName": "Holoskin (Tactical)",
-          "name": "战术型全息皮肤"
+          "name": "战术型全息皮肤",
+          "expectedDescription": "<p>A holographic projector mounted to a belt or limb strap can be activated as an Interact action. It can be programmed to project the appearance of another creature of the same size category as yourself, hiding your true appearance. A holoskin doesn't change your voice, scent, or mannerisms. The appearance of held and worn items aren't affected. You usually need a holoskin to set up a disguise in order to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} someone using the Deception skill. A tactical holoskin adds a +1 item bonus to relevant checks.</p>",
+          "description": "<p>安装在腰带或肢体绑带上的全息投影器可以用一个交互动作启动。你可将其设定为投射出与你体型类别相同的另一生物的外观，以隐藏自己的真实外貌。全息皮肤不会改变你的声音、气味或举止。持握和穿戴物品的外观也不受影响。通常你需要用全息皮肤准备伪装，才能 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{假扮} 他人（使用欺骗技能）。战术型全息皮肤为相关检定提供+1物品加值。</p>"
         },
         {
           "id": "n0dwDIs2tYRS7wzF",
@@ -562,28 +1593,105 @@
           "name": "象牙牙套"
         },
         {
+          "id": "SwGovb0kBJg40QpA",
+          "expectedName": "Zo!'s Microphone",
+          "name": "丧的麦克风"
+        },
+        {
+          "id": "KhlfTr03irtue2y2",
+          "expectedName": "Media Lore",
+          "name": "媒体学识",
+          "expectedDescription": "<p>Zo! can use Media Lore to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about any topic.</p>",
+          "description": "<p>丧可以使用媒体学识对任何主题@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}。</p>"
+        },
+        {
+          "id": "S9Ya5ac7sw6idSVz",
+          "expectedName": "True Linguist",
+          "name": "真正的语言学家",
+          "expectedDescription": "<p>Zo! has enchanted himself with the ability to speak and understand all languages, giving him the permanent effects of the @UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]{Truespeech} spell.</p>",
+          "description": "<p>丧为自己附上了能够说出并理解所有语言的魔法，使其永久获得@UUID[Compendium.pf2e.spells-srd.Item.SwUiVavHKMWG7t5K]{实言术}法术的效应。</p>"
+        },
+        {
+          "id": "mte15Vvv9AG0M0NJ",
+          "expectedName": "Change the Channel",
+          "name": "切换频道",
+          "expectedDescription": "<p><strong>Trigger</strong> Zo! is targeted by a creature or weapon with the tech trait</p><hr /><p><strong>Effect</strong> Zo! uses a universal remote implanted in his forefinger to take control of the incoming assault and redirect it toward a new target of Zo!'s choice, forcing the attacker to resolve their attack against this new target, if there's one within range. If there are no available targets, the attacker resolves their attack against Zo! but must roll their attack twice and use the worse result. Once a creature or weapon has been targeted by this ability, it's immune to Change the Channel for 24 hours.</p>",
+          "description": "<p><strong>触发</strong> 具有科技特征的生物或武器将丧作为目标</p><hr /><p><strong>效果</strong> 丧用植入食指的万能遥控器控制来袭攻击，并将其转向自己选择的新目标。若射程内有此目标，攻击者必须对新目标结算攻击。若没有可用目标，攻击者对丧结算攻击，但必须将攻击掷骰两次，并采用较差结果。一个生物或武器一旦成为此能力的目标，便会免疫切换频道24小时。</p>"
+        },
+        {
           "id": "PIZumdzNduz4BEVq",
           "expectedName": "Void Healing",
-          "name": "虚能治疗"
+          "name": "虚能治疗",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        {
+          "id": "M3Qy6nPBif6xRPzN",
+          "expectedName": "Ad Break",
+          "name": "广告时间",
+          "expectedDescription": "<p>Zo! broadcasts loud chatter and jingles from countless advertisements for upcoming shows and brand-new products. Zo! attempts a @Check[performance|against:will] check against the target creature's Will DC. On a success, the target takes a –1 status penalty to any action it takes that has the concentrate trait (rolls and DCs) until the end of Zo!'s next turn. On a critical success, this penalty increases to –2.</p>",
+          "description": "<p>丧播送来自无数广告的响亮闲谈和广告歌曲，宣传即将播出的节目与全新商品。丧尝试@Check[performance|against:will]检定，对抗目标生物的意志DC。成功时，目标进行具有专注特征的任何动作时，相关掷骰及DC承受–1状态减值，直至丧下回合结束。大成功时，此减值提高为–2。</p>"
+        },
+        {
+          "id": "j9jokzpRJveq3sUB",
+          "expectedName": "Cut!",
+          "name": "停！",
+          "expectedDescription": "<p><strong>Frequency</strong> once per hour</p>\n<p><strong>Trigger</strong> An enemy creature uses a reaction against Zo!</p><hr /><p><strong>Effect</strong> Zo! expends a spell slot with a rank equal to half the triggering creature's level (round down) to create a magical freeze frame. The triggering reaction is disrupted.</p>",
+          "description": "<p><strong>频率</strong> 每小时一次</p>\n<p><strong>触发</strong> 一个敌对生物对丧使用反应</p><hr /><p><strong>效果</strong> 丧消耗一个环阶等于触发生物等级一半（向下取整）的法术位，创造魔法定格画面。触发反应被打断。</p>"
+        },
+        {
+          "id": "nZB04V0ydVkQ8ZFO",
+          "expectedName": "Media Magic",
+          "name": "媒体魔法",
+          "expectedDescription": "<p>Zo! conjures an illusory scene showing off unaired footage from a controversial show or teasers for an upcoming production. All creatures within a @Template[type:emanation|distance:20] must attempt a @Check[will|dc:41] save. A creature that succeeds is then temporarily immune to Media Magic for 1 hour.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} until the start of Zo!'s next turn.</p>\n<p><strong>Failure</strong> The creature is fascinated with Zo! until the beginning of Zo!'s next turn. If the fascinated creature is adjacent to Zo!, it stays still and can't take actions. If the creature is attacked, the fascination ends.</p>\n<p><strong>Critical Failure</strong> As failure. In addition, the creature is @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] 1 minute.</p>",
+          "description": "<p>丧创造幻象场景，展示一部争议节目的未播出片段，或即将推出作品的预告。@Template[type:emanation|distance:20]内的所有生物必须尝试@Check[will|dc:41]豁免。豁免成功的生物随后临时免疫媒体魔法1小时。</p><hr /><p><strong>大成功</strong> 生物不受影响。</p>\n<p><strong>成功</strong> 生物陷入@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}，直至丧下回合开始。</p>\n<p><strong>失败</strong> 生物被丧迷魂，直至丧下回合开始。若迷魂生物紧邻丧，它会静止不动，且无法进行动作。若生物遭到攻击，迷魂结束。</p>\n<p><strong>大失败</strong> 同失败。此外，生物会@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{被压制}1分钟。</p>"
+        },
+        {
+          "id": "TdTi8WyAbSi594JD",
+          "expectedName": "Media Lore",
+          "name": "媒体学识"
         }
-      ]
+      ],
+      "cnText_system_attributes_hp_details": {
+        "expected": "void healing",
+        "text": "虚能治疗"
+      },
+      "cnText_system_details_languages_details": {
+        "expected": "True linguist",
+        "text": "真正的语言学家"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Zo!",
+        "text": "丧"
+      }
     },
     "YLo7jNSMWVP9skOm": {
       "items": [
         {
           "id": "6buINdIWV8HohknY",
           "expectedName": "Doshko",
-          "name": "多什斧"
+          "name": "多什斧",
+          "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>The traditional weapon of the Veskarium, this powered poleaxe features one to three triangular blades forged for both wide overhead swings and tactical parrying.</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>作为维斯卡里姆（Veskarium）的传统武器，这把动力长柄斧配有一至三枚三角刃，既适合大幅过顶挥击，也适合战术性格挡。</p>"
         },
         {
           "id": "mCsjdJzyi6MuFkj9",
           "expectedName": "Flamethrower",
-          "name": "喷火器"
+          "name": "喷火器",
+          "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This bulky, rifle-shaped weapon spews flames using a tank of highly combustible, pressurized chemicals housed in its stock.</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>此武器外形笨重如步枪，利用枪托内一罐高度易燃的加压化学物质喷射火焰。</p>"
         },
         {
           "id": "rZl5Azkcf7rmSkDm",
           "expectedName": "Veskarium Imperial Plate",
-          "name": "维斯卡里姆帝国板甲"
+          "name": "维斯卡里姆帝国板甲",
+          "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This heavy armor is made of interlocking metal plates contoured to the wearer's body with a scaled pattern. Tailguards and clawed gloves are standard for this armor.</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这件重甲由彼此咬合、贴合穿戴者身体轮廓的金属甲片制成，排列成鳞片状。护尾与带爪手套是此护甲的标准配备。</p>"
+        },
+        {
+          "id": "QM7K2sgbYFoa9Am9",
+          "expectedName": "Chem Tank (Commercial)",
+          "name": "商用型化学储罐"
         },
         {
           "id": "teLSMIya0rgTZMPg",
@@ -591,57 +1699,276 @@
           "name": "多什斧"
         },
         {
+          "id": "dFBMPACUW6QdpWNk",
+          "expectedName": "Tail",
+          "name": "尾击"
+        },
+        {
           "id": "mmJov9O2U39hscV3",
           "expectedName": "Flamethrower",
           "name": "喷火器"
+        },
+        {
+          "id": "DxRMdV5r0UnaT2eq",
+          "expectedName": "Quick Step",
+          "name": "迅捷快步",
+          "expectedDescription": "<p><strong>Trigger</strong> A creature within the paratrooper's reach leaves a square during a move action it's using</p><hr /><p><strong>Effect</strong> The paratrooper Steps twice.</p>",
+          "description": "<p><strong>触发</strong> 一个处于伞兵触及内的生物，在使用移动动作期间离开一个方格</p><hr /><p><strong>效果</strong> 伞兵快步两次。</p>"
         },
         {
           "id": "K03zN0wBxOQaPEY5",
           "expectedName": "Warfare Lore",
           "name": "战争学识"
         }
-      ]
+      ],
+      "name": "维斯克帝国伞兵",
+      "cnText_prototypeToken_name": {
+        "expected": "Veskarium Paratrooper",
+        "text": "维斯克帝国伞兵"
+      }
+    },
+    "YtPDtjmBQq10pRl4": {
+      "name": "爆炸面板",
+      "items": [
+        {
+          "id": "M1LTh9SBpFAbf6rd",
+          "expectedName": "Cascading Failure",
+          "name": "连锁故障",
+          "expectedDescription": "<p><strong>Trigger</strong> The encounter begins</p><hr /><p><strong>Effect</strong> Panels explode all over the ship with sparking live wires. All creatures on the ship take @Damage[(2d8+5)[electricity]] damage with a @Check[reflex|dc:21|basic] save. The exploding panels then rolls for initiative.</p>",
+          "description": "<p><strong>触发</strong> 遭遇开始</p><hr /><p><strong>效果</strong> 飞船各处的面板爆炸，带电线缆迸出火花。船上所有生物受到@Damage[(2d8+5)[electricity]]伤害，进行@Check[reflex|dc:21|basic]豁免。随后爆炸面板掷先攻。</p>"
+        },
+        {
+          "id": "cLn8EomQHpeHxA7x",
+          "expectedName": "Falling Panel",
+          "name": "坠落面板"
+        },
+        {
+          "id": "QW5uo2P64RuSGa1T",
+          "expectedName": "Spark",
+          "name": "火花"
+        }
+      ],
+      "cnText_system_details_description": {
+        "expected": "<p>Electricity sparks from panels on the bridge. Wires leap out from access hatches in the corridors like wriggling snakes. The bridge is falling apart while Captain Concierge cheerfully offers helpful suggestions for how to fix the problem.</p>",
+        "text": "<p>舰桥上的面板迸出电火花。走廊检修舱口中的电线如扭动的蛇一般弹出。舰桥正分崩离析，而礼宾船长仍愉快地提出有助于修复故障的建议。</p>"
+      },
+      "cnText_system_details_disable": {
+        "expected": "<p>@Check[computers|dc:17] (trained) to reboot the system; @Check[crafting|dc:19], @Check[physical-science-lore|dc:19], or @Check[thievery|dc:19] (all trained) to flip circuit breakers and snip the correct wires; @Check[acrobatics|dc:21], @Check[perception|dc:21], or a @Check[reflex|dc:21] save to dodge the sparks; or @Check[athletics|dc:24] or a @Check[fortitude|dc:24] save to force the sparking panels closed. Disabling the trap removes one action from its routine for each successful check to disable it, or two actions on a critical success.</p>",
+        "text": "<p>@Check[computers|dc:17]（受训）以重启系统；@Check[crafting|dc:19]、@Check[physical-science-lore|dc:19]或@Check[thievery|dc:19]（均需受训）以拨动断路器并剪断正确的电线；@Check[acrobatics|dc:21]、@Check[perception|dc:21]或@Check[reflex|dc:21]豁免以躲避火花；或@Check[athletics|dc:24]或@Check[fortitude|dc:24]豁免以强行合上迸出火花的面板。每次成功进行解除陷阱的检定会使其运作流程失去一个动作，大成功则失去两个动作。</p>"
+      },
+      "cnText_system_details_reset": {
+        "expected": "<p>The exploding panels deactivate after 1 minute.</p>",
+        "text": "<p>爆炸面板在1分钟后停止运作。</p>"
+      },
+      "cnText_system_details_routine": {
+        "expected": "<p>(3 actions) The exploding panels trap uses its actions to attack creatures inside the ship. It randomly slashes at creatures adjacent to bulkheads or sparks at creatures within 20 feet of any control surface. The trap does not take a multiple attack penalty.</p>",
+        "text": "<p>（3动作）爆炸面板陷阱用其动作攻击飞船内的生物。它会随机斩击紧邻舱壁的生物，或向任何操控面20尺内的生物迸射火花。陷阱不承受多重攻击减值。</p>"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Exploding Panels",
+        "text": "爆炸面板"
+      }
+    },
+    "ZK6J3OIVvJVMBEDu": {
+      "name": "快速减压",
+      "items": [
+        {
+          "id": "dGRzxYfrcOIJSFfB",
+          "expectedName": "Blow Out",
+          "name": "爆破泄气",
+          "expectedDescription": "<p><strong>Trigger</strong> A ranged attack critically fails</p><hr /><p><strong>Effect</strong> All corporeal creatures inside area <strong>F</strong> are @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until the hazard is disabled or 1 minute has passed.</p>",
+          "description": "<p><strong>触发</strong> 一次远程攻击大失败</p><hr /><p><strong>效果</strong> 区域<strong>F</strong>内的所有实体生物都会@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{被压制}，直至此危害被解除或过去1分钟。</p>"
+        }
+      ],
+      "cnText_system_details_description": {
+        "expected": "<p>A stray shot shatters a window, sucking out the room's precious atmosphere.</p>",
+        "text": "<p>一发流弹击碎窗户，房间内宝贵的空气随之被吸出。</p>"
+      },
+      "cnText_system_details_disable": {
+        "expected": "<p>@Check[crafting|dc:14] (trained) or @Check[labor-lore|dc:14] (trained) while adjacent to the window to patch the hole, @Check[computers|dc:16] (trained) to activate an emergency metal shutter from any console in the room, or @Check[survival|dc:18] or @Check[thievery|dc:18] to cover the hole (if adjacent) with a random object as a temporary fix.</p>",
+        "text": "<p>紧邻窗户时进行@Check[crafting|dc:14]（受训）或@Check[labor-lore|dc:14]（受训）以修补破口、在房间内任何控制台进行@Check[computers|dc:16]（受训）以启动紧急金属窗板，或在紧邻破口时进行@Check[survival|dc:18]或@Check[thievery|dc:18]，以用任意物体盖住破口作临时修补。</p>"
+      },
+      "cnText_system_details_reset": {
+        "expected": "<p>1 minute after a depressurization hazard begins, all air escapes from area F (requiring living creatures to activate their environmental protections or begin suffocating). If the hazard is disabled before 1 minute has passed, this timer resets.</p>",
+        "text": "<p>减压危害开始1分钟后，区域F的空气全部流失（活物必须启动环境防护，否则便开始窒息）。若在1分钟过去前解除此危害，此计时会重置。</p>"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Rapid Depressurization",
+        "text": "快速减压"
+      }
     },
     "aONi4XH2mT0qWuzB": {
       "items": [
         {
           "id": "KaGgFpTNXNR4q9Dl",
           "expectedName": "Phase Cutlass",
-          "name": "相位弯刀"
+          "name": "相位弯刀",
+          "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>A phase cutlass resembles a traditional curved sword until it's powered. Then its blade morphs into a shimmering void, with a tiny star for each life it ended.</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>相位弯刀未通电时形似传统的弯曲刀剑。通电后，刀刃会化为闪烁的虚空，每夺去一个生命，其中便多出一颗微小星辰。</p>"
+        },
+        {
+          "id": "2Lusnrip8nSJ7PXu",
+          "expectedName": "Broken Tactical Dueling Sword",
+          "name": "破损战术型决斗剑",
+          "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Coming in a variety of styles, these traditional and time-tested weapons have been honed with advanced smithing techniques and modern materials.</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这些经过时间考验的传统武器式样多样，并以先进锻造技术和现代材料进一步改进。</p>"
+        },
+        {
+          "id": "Vc6W94gzqBkqCkjQ",
+          "expectedName": "Unholy Phase Cutlass",
+          "name": "邪秽相位弯刀"
+        },
+        {
+          "id": "LIhNtlGnuQwUpX6i",
+          "expectedName": "Heel Kick",
+          "name": "脚跟踢击"
+        },
+        {
+          "id": "u36lBqMCJW80E0Jn",
+          "expectedName": "Unholy Minigun",
+          "name": "邪秽迷你机枪"
+        },
+        {
+          "id": "0DTWQ3C6CAXE4754",
+          "expectedName": "Lonely Rage",
+          "name": "孤独狂怒",
+          "expectedDescription": "<p>Sanimus is an even more aggressive combatant when he's forced to fight alone. When fighting with no active allies, he flies into a rage that gives him an additional reaction at the start of each turn.</p>",
+          "description": "<p>被迫独自作战时，萨尼穆斯会变得更加凶猛。没有其他盟友参战时，他会陷入狂怒，在每个回合开始时获得一个额外反应。</p>"
         },
         {
           "id": "hMT7vDlmTHVHfCIB",
           "expectedName": "Reactive Strike",
-          "name": "反应打击"
+          "name": "反应打击",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+        },
+        {
+          "id": "XtXcIawATUnxEl03",
+          "expectedName": "Vengeful Strike",
+          "name": "复仇打击",
+          "expectedDescription": "<p><strong>Trigger</strong> A creature within Sanimus's first range increment uses an action or reaction to heal, grant bonuses, or otherwise assist another creature</p><hr /><p><strong>Effect</strong> Sanimus makes a ranged Strike against the triggering creature.</p>",
+          "description": "<p><strong>触发</strong> 萨尼穆斯首个射程增量内的一个生物，使用动作或反应来治疗、提供加值或以其他方式协助另一个生物</p><hr /><p><strong>效果</strong> 萨尼穆斯对触发生物进行一次远程打击。</p>"
         },
         {
           "id": "HxJnpeQUi8RixGA8",
           "expectedName": "Void Healing",
-          "name": "虚能治疗"
+          "name": "虚能治疗",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
         },
         {
           "id": "KDk8tj1V1w29RvFm",
           "expectedName": "Auto-Fire",
-          "name": "自动射击"
+          "name": "自动射击",
+          "expectedDescription": "<p><strong>Minigun</strong> (@Template[type:cone|distance:60], analog, automatic, magical, unholy)</p>\n<p><strong>Damage</strong> @Damage[(2d10+8)[piercing]|traits:magical,unholy|options:area-damage] (@Check[reflex|dc:20|basic|traits:analog,automatic,magical,unholy])</p>",
+          "description": "<p><strong>迷你机枪</strong>（@Template[type:cone|distance:60]，非电子，全自动，魔法，邪秽）</p>\n<p><strong>伤害</strong> @Damage[(2d10+8)[piercing]|traits:magical,unholy|options:area-damage]（@Check[reflex|dc:20|basic|traits:analog,automatic,magical,unholy]）</p>"
+        },
+        {
+          "id": "qQmNl8tHitDTEnbC",
+          "expectedName": "Concussive Feint",
+          "name": "震荡佯攻",
+          "expectedDescription": "<p><strong>Requirements</strong> Sanimus is holding his minigun</p><hr /><p><strong>Effect</strong> Sanimus attempts an @Check[intimidation|against:perception] check against a single target's Perception DC within the first range increment of his minigun. On a success, the target counts as @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} against his next area attack before the end of his current turn. On a critical success, the target is clumsy 2 against all of his area attacks until the end of his next turn.</p>",
+          "description": "<p><strong>需求</strong> 萨尼穆斯持握着迷你机枪</p><hr /><p><strong>效果</strong> 萨尼穆斯对其迷你机枪首个射程增量内的单个目标尝试@Check[intimidation|against:perception]检定，对抗其察觉DC。成功时，该目标对抗萨尼穆斯在本回合结束前进行的下次区域攻击时，视为@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}。大成功时，目标对抗其所有区域攻击时都视为笨拙2，直至萨尼穆斯下回合结束。</p>"
+        },
+        {
+          "id": "S7N0QhOEnFyRUjrl",
+          "expectedName": "Crescent Blast",
+          "name": "新月爆破",
+          "expectedDescription": "<p>Sanimus twists his minigun while firing it, curving its bullets through the air. He makes a ranged Strike or Auto-Fire attack with his minigun but calculates the point of origin for the attack as though it originated from up to 2 squares outside of his current space on the map, allowing him to fire his weapon around cover and corners.</p>",
+          "description": "<p>萨尼穆斯开火时扭转迷你机枪，使子弹在空中拐弯。他用迷你机枪进行一次远程打击或自动射击攻击，但计算此次攻击的起点时，视为来自地图上其当前占据空间以外至多2格的位置，使他能够绕过掩蔽和转角开火。</p>"
+        },
+        {
+          "id": "CDpdnxi04fbz2awd",
+          "expectedName": "Infuse Weapon",
+          "name": "灌注武器",
+          "expectedDescription": "<p>Sanimus's weapons are infused with his hatred, gaining the magical and unholy traits and dealing spirit damage when he wields them. These weapons deal an additional 1d8 spirit damage to living and undead creatures.</p>",
+          "description": "<p>萨尼穆斯的憎恨灌注于其武器中，使其在被他持用时获得魔法和邪秽特征，并造成精魂伤害。这些武器对活物和不死生物额外造成1d8精魂伤害。</p>"
+        },
+        {
+          "id": "FY1Bhh4D11NjERFT",
+          "expectedName": "Minigun Training",
+          "name": "迷你机枪训练",
+          "expectedDescription": "<p>Sanimus has trained for centuries with his minigun and can push his gear beyond what the living can achieve. When using the Auto-Fire action, Sanimus can target all creatures within the first full range increment of his weapon, rather than just half of its range. Additionally, Sanimus can ignore any number of creatures in this area without penalty. Finally, his minigun only needs to be reloaded once per day in a special unholy ritual during his daily preparations.</p>",
+          "description": "<p>萨尼穆斯已使用迷你机枪训练了数个世纪，能将装备发挥到生者无法企及的水平。使用自动射击动作时，萨尼穆斯可以将武器第一个完整射程增量内的所有生物选为目标，而非仅限该射程的一半。此外，萨尼穆斯可以忽略此区域内任意数量的生物，且不承受减值。最后，他的迷你机枪每天只需装填一次，装填在每日准备期间通过一项特殊的邪秽仪式完成。</p>"
+        },
+        {
+          "id": "CVQtuKrbdY1oZjbM",
+          "expectedName": "Suppressing Fire",
+          "name": "压制火力（专长）",
+          "expectedDescription": "<p>Enemies that fail their save against Sanimus's Auto-Fire attacks become @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until the start of his next turn.</p>",
+          "description": "<p>对萨尼穆斯的自动射击攻击豁免失败的敌人会陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]，持续至他的下个回合开始。</p>"
+        },
+        {
+          "id": "jMSEsN45Dq3CA7aZ",
+          "expectedName": "Corpse Fleet Lore",
+          "name": "尸骸舰队学识"
         }
-      ]
+      ],
+      "name": "萨尼穆斯·斯莱恩（Sanimus Slayn）",
+      "cnText_system_attributes_hp_details": {
+        "expected": "void healing",
+        "text": "虚能治疗"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Sanimus Slayn",
+        "text": "萨尼穆斯·斯莱恩（Sanimus Slayn）"
+      }
+    },
+    "c5ryR23ymRbukIgd": {
+      "name": "电击网格",
+      "items": [
+        {
+          "id": "7oFKuUJ0coJmsvAs",
+          "expectedName": "Shocking!",
+          "name": "触电！",
+          "expectedDescription": "<p><strong>Trigger</strong> A living creature fails their check to disable the shock grid or walks through the shock grid</p><hr /><p><strong>Effect</strong> The triggering creature takes @Damage[(4d8+10)[electricity]] damage with a @Check[fortitude|dc:21|basic] save.</p>",
+          "description": "<p><strong>触发</strong> 一个活物解除电击网的检定失败，或穿过电击网</p><hr /><p><strong>效果</strong> 触发生物受到@Damage[(4d8+10)[electricity]]伤害，进行@Check[fortitude|dc:21|basic]豁免。</p>"
+        }
+      ],
+      "cnText_system_details_description": {
+        "expected": "<p>A tight grid of ionized particles crisscrosses the door into the computer center, hissing audibly and glowing bright blue.</p>",
+        "text": "<p>一道紧密的电离粒子网格交错覆盖着通往电脑中心的门，发出清晰可闻的嘶嘶声和明亮的蓝光。</p>"
+      },
+      "cnText_system_details_disable": {
+        "expected": "<p>@Check[computers|dc:19] or @Check[physical-science-lore|dc:19] to disable the shock grid through the keypad, or @Check[crafting|dc:21] or @Check[thievery|dc:21] to short-circuit the wires along the grid's perimeter</p>",
+        "text": "<p>@Check[computers|dc:19]或@Check[physical-science-lore|dc:19]以通过键盘关闭电击网格，或@Check[crafting|dc:21]或@Check[thievery|dc:21]以使网格周围的电线短路</p>"
+      },
+      "cnText_system_details_reset": {
+        "expected": "<p>The trap resets automatically until disabled or until it can no longer detect any living creatures within 10 feet of the door outside in area <strong>E2</strong>.</p>",
+        "text": "<p>陷阱会自动重置，直至被解除，或不再侦测到门外区域<strong>E2</strong>内、门的10尺内有任何活物。</p>"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Shock Grid",
+        "text": "电击网格"
+      }
     },
     "iWP43xPPy9JVLhFr": {
       "items": [
         {
           "id": "HRnzRDiSAGpwCncY",
           "expectedName": "Battleglove",
-          "name": "战斗手套"
+          "name": "战斗手套",
+          "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>These durable gloves fit over a wielder's hands (or other appendages) and feature weighted plates or spikes over the knuckles.</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这些耐用手套套在持用者的手上（或其他附肢上），指节处装有配重甲板或尖刺。</p>"
         },
         {
           "id": "NGblOQCHwO3kFtwY",
           "expectedName": "Laser Pistol",
-          "name": "激光手枪"
+          "name": "激光手枪",
+          "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This compact pistol is the most popular sidearm in the Pact Worlds thanks to its reliability, durability, and affordability. Most common laser pistols have a lightweight polycarbon body ending in a long, slim barrel.</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这把紧凑的手枪因可靠、耐用且价格实惠，成为协约世界（Pact Worlds）最受欢迎的随身武器。大多数普通激光手枪有轻质聚碳枪身，末端连着细长的枪管。</p>"
         },
         {
           "id": "maWAXNCwZQ9wTT8z",
           "expectedName": "Microcord Armor",
-          "name": "微纤护甲"
+          "name": "微纤护甲",
+          "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This light armor is woven from ultralight fibers that flex with a wearer's movements but turn hard as steel on impact.</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>此轻甲以超轻纤维编织，随穿戴者的动作弯曲，但受到冲击时会硬如钢铁。</p>"
+        },
+        {
+          "id": "K5cMXbfylGrPLFnw",
+          "expectedName": "Battery (Commercial)",
+          "name": "商用型电池"
         },
         {
           "id": "vI0u7Kmti2t4Wwca",
@@ -656,21 +1983,48 @@
         {
           "id": "qgAaq1XsOXXMAhBM",
           "expectedName": "Void Healing",
-          "name": "虚能治疗"
+          "name": "虚能治疗",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        {
+          "id": "fPH1Fz0tcVl3VOzL",
+          "expectedName": "Quick Cover",
+          "name": "迅捷掩蔽",
+          "expectedDescription": "<p>The bonecrusher Steps or Strides, then can @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover} as part of that same action if they end their movement adjacent to terrain that provides cover.</p>",
+          "description": "<p>碎骨者快步或行走。若移动结束时与提供掩蔽的地形相邻，还可以作为同一动作的一部分@UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{寻找掩蔽}。</p>"
+        },
+        {
+          "id": "FBvFSWwV3apA9LjV",
+          "expectedName": "Corpse Fleet Lore",
+          "name": "尸骸舰队学识"
         }
-      ]
+      ],
+      "name": "碎骨者",
+      "cnText_system_attributes_hp_details": {
+        "expected": "void healing",
+        "text": "虚能治疗"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Bonecrusher",
+        "text": "碎骨者"
+      }
     },
     "itxkgEs0mkwcxNhg": {
       "items": [
         {
           "id": "VawFqTnkFinl9hMu",
           "expectedName": "Semi-Auto Pistol",
-          "name": "半自动手枪"
+          "name": "半自动手枪",
+          "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This pistol automatically ejects used cartridges and loads new ammunition after every shot fired.</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>此手枪每次射击后都会自动抛出空弹壳，并装填新弹药。</p>"
         },
         {
           "id": "1ynlPaoRcUBmZAr1",
           "expectedName": "Tempweave",
-          "name": "保温织服"
+          "name": "保温织服",
+          "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Tempweave suits are reinforced hooded garments woven with thermal fabric and venting wires, popularly worn for trips to humid climates like the jungles of Castrovel or Pulonis.</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普罗尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>"
         },
         {
           "id": "hI0y34zfhI7p9w8c",
@@ -682,7 +2036,14 @@
         {
           "id": "sHg7pOsKy6CCEn60",
           "expectedName": "Marrow Paste (Commercial)",
-          "name": "商用型骨髓膏"
+          "name": "商用型骨髓膏",
+          "expectedDescription": "<p>Developed and patented by Eoxian medical conglomerate Nulife, this magenta tincture's metallic odor is reminiscent of fresh blood. When applied to the body of a creature that can benefit from void healing, marrow paste grants fast healing 1 for 1 minute.</p>",
+          "description": "<p>这种洋红色药剂由伊奥克斯医疗集团空命（Nulife）研发并取得专利，散发着令人联想到鲜血的金属气味。将骨髓膏涂抹在能够受益于虚能治疗的生物身上时，该生物获得快速治疗1，持续1分钟。</p>"
+        },
+        {
+          "id": "kjJv6nZYnEdqic64",
+          "expectedName": "Projectile Ammo",
+          "name": "实弹弹药"
         },
         {
           "id": "mjsiOUCtXeXpaXxJ",
@@ -695,11 +2056,53 @@
           "name": "骨刃"
         },
         {
+          "id": "Ud2XDtUoF27PtWOf",
+          "expectedName": "Necrotic Ray",
+          "name": "死灵射线"
+        },
+        {
           "id": "eBXR3EOzRV3HriQh",
           "expectedName": "Void Healing",
-          "name": "虚能治疗"
+          "name": "虚能治疗",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        {
+          "id": "1adL05rABZfO83GD",
+          "expectedName": "Rally the Troops",
+          "name": "重整旗鼓",
+          "expectedDescription": "<p>The officer issues an order for their allies to regroup. All Corpse Fleet allies within 120 feet of the officer can use a reaction to Stride up to their Speed. One Corpse Fleet ally who ends their movement adjacent to another Corpse Fleet ally gains 5 temporary Hit Points that last for 1 minute, or double that number of temporary Hit Points if they end their movement adjacent to the officer. The officer can't Rally the Troops again for [[/gmr 1d4 #Recharge Rally the Troops]]{1d4 rounds}.</p>\n<p>@UUID[Compendium.sf2e-anachronism.bestiary-effects.Item.p2GrXbOJbv0OT4Zr]</p>",
+          "description": "<p>军官命令盟友重新集结。军官120尺内的所有尸骸舰队盟友可以用一个反应行走至多等于自身速度的距离。一名在移动结束时与另一名尸骸舰队盟友相邻的尸骸舰队盟友获得5点临时生命值，持续1分钟；若移动结束时与军官相邻，则获得双倍临时生命值。军官在[[/gmr 1d4 #Recharge Rally the Troops]]{1d4轮}内无法再次使用重整旗鼓。</p>\n<p>@UUID[Compendium.sf2e-anachronism.bestiary-effects.Item.p2GrXbOJbv0OT4Zr]</p>"
+        },
+        {
+          "id": "azddJS5EyM0fEbGs",
+          "expectedName": "Shoot to Kill",
+          "name": "致命射击",
+          "expectedDescription": "<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> The junior officer designates one target within 60 feet that they can see. That creature takes a –1 circumstance penalty to its AC against all ranged attacks made by members of the Corpse Fleet until the beginning of the Corpse Fleet junior officer's next turn.</p>\n<p>@UUID[Compendium.sf2e-anachronism.bestiary-effects.Item.sNFHjpv27IFPVI9k]</p>",
+          "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p><strong>效果</strong> 初级军官指定60尺内一个其能看见的目标。对抗尸骸舰队成员进行的所有远程攻击时，该生物的AC承受–1环境减值，持续至这名尸骸舰队初级军官的下个回合开始。</p>\n<p>@UUID[Compendium.sf2e-anachronism.bestiary-effects.Item.sNFHjpv27IFPVI9k]</p>"
+        },
+        {
+          "id": "rjFLKUPUBdf5KJu7",
+          "expectedName": "Startling Charge",
+          "name": "惊吓冲锋",
+          "expectedDescription": "<p><strong>Requirements</strong> An enemy creature is within 30 feet of the junior officer</p><hr /><p><strong>Effect</strong> The junior officer twists their face into a horrific grimace before advancing. The junior officer attempts an Intimidation check to [[/act demoralize]] the target creature, then Strides directly toward that creature.</p>",
+          "description": "<p><strong>条件</strong> 初级军官30尺内有一个敌对生物</p><hr /><p><strong>效果</strong> 初级军官先将面孔扭曲成恐怖的鬼脸，然后向前进。他进行一次威吓检定，对目标生物[[/act demoralize]]，然后朝该生物直线行走。</p>"
+        },
+        {
+          "id": "4bXAkzyAnVJorfFZ",
+          "expectedName": "Corpse Fleet Lore",
+          "name": "尸骸舰队学识"
         }
-      ]
+      ],
+      "name": "尸骸舰队初级军官",
+      "cnText_system_attributes_hp_details": {
+        "expected": "void healing",
+        "text": "虚能治疗"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Corpse Fleet Junior Officer",
+        "text": "尸骸舰队初级军官"
+      }
     },
     "iv2NsIIE0wUX5Ktr": {
       "items": [
@@ -709,66 +2112,271 @@
           "name": "拳头"
         },
         {
+          "id": "v90WRjELLiKF57vr",
+          "expectedName": "Jaws",
+          "name": "颚击",
+          "expectedDescription": "<p><strong>Requirements</strong> The zombie has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}.</p>",
+          "description": "<p><strong>条件</strong> 僵尸已使一个生物被@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{擒抱}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}。</p>"
+        },
+        {
           "id": "eulyI60JHNUYs39w",
           "expectedName": "Slow",
-          "name": "缓慢术"
+          "name": "缓慢术",
+          "expectedDescription": "<p>A zombie is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>",
+          "description": "<p>丧尸永久陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}且无法使用反应动作。</p>"
         },
         {
           "id": "q1OobVjFqRsc58KI",
           "expectedName": "Void Healing",
-          "name": "虚能治疗"
+          "name": "虚能治疗",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
         },
         {
           "id": "Qknp3UNQSMjNTUmL",
           "expectedName": "Grab",
-          "name": "擒获"
+          "name": "擒获",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
-      ]
+      ],
+      "name": "蹒跚丧尸",
+      "cnText_system_attributes_hp_details": {
+        "expected": "void healing",
+        "text": "虚能治疗"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Zombie Shambler",
+        "text": "蹒跚丧尸"
+      }
+    },
+    "izCx1cFDZP6lQcAf": {
+      "name": "微陨石雨",
+      "items": [
+        {
+          "id": "F0kdBS1887Wv9hiX",
+          "expectedName": "Impact",
+          "name": "撞击",
+          "expectedDescription": "<p><strong>Trigger</strong> A creature fails its check to disable or avoid the hazard</p><hr /><p><strong>Effect</strong> Micrometeors slam into the target, dealing @Damage[(2d10+13)[bludgeoning]] damage and potentially knocking them off course based on a @Check[reflex|dc:21] save.</p><hr /><p><strong>Critical Success</strong> The creature takes no damage.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and gains the @UUID[Compendium.sf2e-anachronism.conditions.Item.z1ucw4CLwLqHoAp3] condition, which persists until the start of the next encounter.</p>\n<p><strong>Critical Failure</strong> As failure, but the creature takes double damage.</p>",
+          "description": "<p><strong>触发</strong> 一个生物解除或避开此危害的检定失败</p><hr /><p><strong>效果</strong> 微陨石砸中目标，造成@Damage[(2d10+13)[bludgeoning]]伤害，并可能使其偏离航向，取决于其@Check[reflex|dc:21]豁免结果。</p><hr /><p><strong>大成功</strong> 该生物不受伤害。</p>\n<p><strong>成功</strong> 该生物受到一半伤害。</p>\n<p><strong>失败</strong> 该生物受到全额伤害，并陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.z1ucw4CLwLqHoAp3]状态，持续至下一场遭遇开始。</p>\n<p><strong>大失败</strong> 如同失败，但该生物受到双倍伤害。</p>"
+        }
+      ],
+      "cnText_system_details_description": {
+        "expected": "<p>Pebbles and boulders broken off from Barrow's crust accelerate all around the space between the Fracture and the surface, smashing into anything and everything!</p>",
+        "text": "<p>从巴罗星地壳崩落的小石块和巨石在裂隙与地表之间的空间中四处加速，撞击遇到的一切！</p>"
+      },
+      "cnText_system_details_disable": {
+        "expected": "<p>@Check[acrobatics|dc:20] to avoid impact, @Check[athletics|dc:23] or Strike (AC 20) to break or deflect incoming debris</p>",
+        "text": "<p>@Check[acrobatics|dc:20]以避免撞击、@Check[athletics|dc:23]或打击（AC 20）以击碎或偏转迎面而来的碎片</p>"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Micrometeor Shower",
+        "text": "微陨石雨"
+      }
     },
     "mxxkISfJoQJ8i8ms": {
       "items": [
         {
+          "id": "PfmI8pekmZgYE8uN",
+          "expectedName": "Slam",
+          "name": "猛击"
+        },
+        {
           "id": "WK37QP2y4LLPvgL7",
           "expectedName": "Confusion",
-          "name": "困惑术"
+          "name": "困惑术",
+          "expectedDescription": "<p>Due to their confused state, the faltering green orbs take a –2 circumstance penalty to Intelligence-based checks.</p>",
+          "description": "<p>由于精神混乱，衰弱的智慧绿色球体在基于智力的检定中承受–2环境减值。</p>"
+        },
+        {
+          "id": "GnVZPoSnOm0EXiOT",
+          "expectedName": "Mistvision",
+          "name": "迷雾视觉",
+          "expectedDescription": "<p>A sapient orb always ignores @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} caused by fog, smoke, and mist.</p>",
+          "description": "<p>智慧球体始终忽略雾、烟和薄雾造成的@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}。</p>"
+        },
+        {
+          "id": "WIAOipdk8zmhcGz7",
+          "expectedName": "Bitter Mist",
+          "name": "苦涩迷雾",
+          "expectedDescription": "<p><strong>Frequency</strong> once per minute</p><hr /><p><strong>Effect</strong> The faltering green orb emits a green mist (as the spell) centered on itself. Sapient orbs can choose to emit transparent mist, granting no concealment. Additionally, any enemy in the mist when it appears, that enters the mist, or that ends its turn in the mist must attempt a @Check[will|dc:21] save unless they are @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated}.</p><hr /><p><strong>Critical Success</strong> The target is unaffected and becomes temporarily immune for 24 hours.</p>\n<p><strong>Success</strong> The target is unaffected.</p>\n<p><strong>Failure</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round.</p>\n<p><strong>Critical Failure</strong> The target becomes confused for 1 round, then @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>",
+          "description": "<p><strong>频率</strong> 每分钟一次</p><hr /><p><strong>效果</strong> 衰弱的智慧绿色球体以自身为中心释放绿色迷雾（如同该法术）。智慧球体可以选择释放透明的迷雾，使其不提供隐蔽。此外，迷雾出现时位于其中、进入迷雾或在其中结束回合的敌人，必须进行一次@Check[will|dc:21]豁免，除非已经@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}。</p><hr /><p><strong>大成功</strong> 目标不受影响，并暂时免疫24小时。</p>\n<p><strong>成功</strong> 目标不受影响。</p>\n<p><strong>失败</strong> 目标@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}1轮。</p>\n<p><strong>大失败</strong> 目标困惑1轮，然后陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}。</p>"
         }
-      ]
+      ],
+      "name": "衰弱的智慧绿色球体",
+      "cnText_system_details_languages_details": {
+        "expected": "Telepathy 30 feet",
+        "text": "心灵感应30尺"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Faltering Sapient Green Orb",
+        "text": "衰弱的智慧绿色球体"
+      }
     },
     "nPSciVswzRhnBCCZ": {
       "items": [
         {
+          "id": "iN1lax4bR35yMj1U",
+          "expectedName": "Jaws",
+          "name": "颚击"
+        },
+        {
+          "id": "JotPwwKloD70tgGX",
+          "expectedName": "Muzzle Beam",
+          "name": "口部光束"
+        },
+        {
+          "id": "bh1GLPOGeCRXACZG",
+          "expectedName": "Bristle Flash",
+          "name": "鬃毛闪光",
+          "expectedDescription": "<p>The tashtari causes its filaments to glow with intense light. Non-tashtaris within a @Template[type:emanation|distance:40] must attempt a @Check[fortitude|dc:19] save. The tashtari's fur then dims, and they can't use this ability until they bask in sunlight for at least 10 minutes.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>\n<p><strong>Failure</strong> The creature is dazzled for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round and dazzled for 1 minute.</p>",
+          "description": "<p>塔什塔里兽使自身的丝状毛发发出强光。@Template[type:emanation|distance:40]内的非塔什塔里兽生物必须进行一次@Check[fortitude|dc:19]豁免。随后，塔什塔里兽的毛发变暗；在日光下晒至少10分钟之前，它无法再次使用此能力。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮。</p>\n<p><strong>失败</strong> 该生物目眩1分钟。</p>\n<p><strong>大失败</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}1轮，并目眩1分钟。</p>"
+        },
+        {
           "id": "fPddDpsrY8UcDvXP",
           "expectedName": "Knockdown",
-          "name": "击倒"
+          "name": "击倒",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>"
         }
-      ]
+      ],
+      "name": "幼年塔什塔里兽",
+      "cnText_prototypeToken_name": {
+        "expected": "Juvenile Tashtari",
+        "text": "幼年塔什塔里兽"
+      }
+    },
+    "pcvtftVSUWnuTsZ8": {
+      "name": "燃烧落石",
+      "items": [
+        {
+          "id": "JpWqlPspGFbkr8Hr",
+          "expectedName": "Catching Fire",
+          "name": "起火",
+          "expectedDescription": "<p><strong>Trigger</strong> Creatures climb the slope</p><hr /><p><strong>Effect</strong> Molten lava oozes down the slope, coming perilously close to the path and igniting the debris nearby—even the rocks. All creatures in a @Template[type:burst|distance:30] take @Damage[(1d10+4)[bludgeoning],(1d10+4)[fire]|options:area-damage] damage with a @Check[reflex|dc:16|basic] save. On a critical failure the creature also catches on fire.</p>",
+          "description": "<p><strong>触发</strong> 生物攀爬斜坡</p><hr /><p><strong>效果</strong> 熔岩沿斜坡淌下，危险地逼近小径，并点燃附近的碎屑——甚至连岩石也燃烧起来。@Template[type:burst|distance:30]内的所有生物受到@Damage[(1d10+4)[bludgeoning],(1d10+4)[fire]|options:area-damage]伤害，进行@Check[reflex|dc:16|basic]豁免。大失败的生物还会着火。</p>"
+        }
+      ],
+      "cnText_system_details_description": {
+        "expected": "<p>Smoldering boulders are disgorged by the magmatic soil and roll down the slope, catching fire as they descend.</p>",
+        "text": "<p>冒烟的巨石从岩浆土壤中喷出，滚下斜坡，在下滚途中燃烧起来。</p>"
+      },
+      "cnText_system_details_disable": {
+        "expected": "<p>@Check[nature|dc:16] (trained), @Check[physical-science-lore|dc:16] (trained), or @Check[survival|dc:16] (trained) to guess the rocks' path, or a @Check[acrobatics|dc:18] (trained), @Check[athletics|dc:18] (trained) or a @Check[fortitude|dc:18] save to deflect or dodge rocks.</p>",
+        "text": "<p>@Check[nature|dc:16]（受训）、@Check[physical-science-lore|dc:16]（受训）或@Check[survival|dc:16]（受训）以判断石块的路径，或进行@Check[acrobatics|dc:18]（受训）、@Check[athletics|dc:18]（受训）或@Check[fortitude|dc:18]豁免以偏转或躲避石块。</p>"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Burning Rockslide",
+        "text": "燃烧落石"
+      }
     },
     "qSJT92ktGSjVvuAS": {
       "items": [
+        {
+          "id": "Aiqw5hyIK5mT7mf5",
+          "expectedName": "Bar Stool",
+          "name": "酒吧凳"
+        },
         {
           "id": "PX1qjuqdMiET6ZkO",
           "expectedName": "Fist",
           "name": "拳头"
         },
         {
+          "id": "tqR54RKfOjbBtVHy",
+          "expectedName": "Thrown Mug",
+          "name": "投掷酒杯"
+        },
+        {
+          "id": "7QhccHqFqKoTUDSn",
+          "expectedName": "Compact Strides",
+          "name": "紧凑步伐",
+          "expectedDescription": "<p>A sarcesian can move through spaces as though they were a Medium-sized creature.</p>",
+          "description": "<p>萨瑟蝶人移动通过空间时，可以视为中型生物。</p>"
+        },
+        {
+          "id": "D3yDyLUdsrkGSoXg",
+          "expectedName": "Stretchy Limbs",
+          "name": "伸缩肢体",
+          "expectedDescription": "<p>The groggy corsair can adjust their gangly limbs to give themselves 10-foot reach until the start of their next turn.</p>",
+          "description": "<p>昏沉海盗调整自己细长的四肢，使自身的触及变为10尺，持续至其下个回合开始。</p>"
+        },
+        {
           "id": "FzpY5d4eSizoCBCH",
           "expectedName": "Piracy Lore",
           "name": "海盗学识"
         }
-      ]
+      ],
+      "name": "昏沉海盗",
+      "cnText_prototypeToken_name": {
+        "expected": "Groggy Corsair",
+        "text": "昏沉海盗"
+      }
     },
     "tNnp30Dsy4lwP1dY": {
       "items": [
         {
+          "id": "FqxM87xPH50X5VOr",
+          "expectedName": "Jaws",
+          "name": "颚击"
+        },
+        {
+          "id": "8WB1hyRH545XAUJp",
+          "expectedName": "Tail Whip",
+          "name": "尾鞭"
+        },
+        {
+          "id": "QskKgK8gR46zOVbO",
+          "expectedName": "Ambush",
+          "name": "伏击",
+          "expectedDescription": "<p><strong>Trigger</strong> A creature passes within 20 feet of the juvenile glass serpent and hasn't detected it</p><hr /><p><strong>Effect</strong> The glass serpent lunges out of hiding. It Strides directly toward the triggering creature and makes a jaws Strike against it. The target creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to this attack.</p>",
+          "description": "<p><strong>触发</strong> 一个生物经过幼年玻璃蛇20尺内，且尚未发现它</p><hr /><p><strong>效果</strong> 玻璃蛇从藏身处猛扑而出。它朝触发生物直线行走，并对其进行一次颚击。目标生物对这次攻击@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>"
+        },
+        {
+          "id": "kQ4r5i1yZR0XXkj0",
+          "expectedName": "Hostile Invisibility",
+          "name": "敌意隐形",
+          "expectedDescription": "<p>The juvenile glass serpent is naturally invisible. When a glass serpent takes a hostile action of any kind, it becomes visible until the start of its next turn, as its body becomes momentarily tangible. A glass serpent that has swallowed a creature becomes visible for the next day as its meal is digested. If the swallowed creature escapes or is otherwise removed, the glass serpent immediately returns to being invisible.</p>",
+          "description": "<p>幼年玻璃蛇天生隐形。玻璃蛇采取任何敌对行动时，身体会短暂实体化，变得可见，持续至其下个回合开始。吞下生物的玻璃蛇会在接下来一天消化食物的过程中保持可见。如果被吞下的生物逃脱或以其他方式被移出，玻璃蛇会立即恢复隐形。</p>"
+        },
+        {
+          "id": "uGpcIrQLwwwJump0",
+          "expectedName": "Concealing Coil",
+          "name": "隐蔽盘绕",
+          "expectedDescription": "<p><strong>Requirements</strong> The juvenile glass serpent's last action was a successful tail whip Strike</p><hr /><p><strong>Effect</strong> The creature the glass serpent hit is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} from all creatures except the glass serpent until that creature moves out of the glass serpent's reach or until the start of the glass serpent's next turn.</p>",
+          "description": "<p><strong>条件</strong> 幼年玻璃蛇的上个动作是一次成功的尾鞭打击</p><hr /><p><strong>效果</strong> 被玻璃蛇命中的生物对玻璃蛇以外的所有生物@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，持续至该生物移出玻璃蛇的触及，或玻璃蛇的下个回合开始。</p>"
+        },
+        {
           "id": "deTg0SNavKLGwWvw",
           "expectedName": "Swallow Whole",
-          "name": "活吞"
+          "name": "活吞",
+          "expectedDescription": "<p>Medium, @Damage[(1d8+4)[bludgeoning]], Rupture 9</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>",
+          "description": "<p>中型，@Damage[(1d8+4)[bludgeoning]]，破体阈值9</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         }
-      ]
+      ],
+      "name": "幼年玻璃蛇",
+      "cnText_system_details_blurb": {
+        "expected": "Variant glass serpent",
+        "text": "变体玻璃蛇"
+      },
+      "cnText_prototypeToken_name": {
+        "expected": "Juvenile Glass Serpent",
+        "text": "幼年玻璃蛇"
+      }
     },
     "zVmwnoVD1jNocpdp": {
       "name": "雷氏无足兽",
       "items": [
+        {
+          "id": "ZRMEKodsDO4QXDxQ",
+          "expectedName": "Jaws",
+          "name": "颚击"
+        },
+        {
+          "id": "x9ZmthJdLTBG4IKJ",
+          "expectedName": "Body Slam",
+          "name": "躯体猛击"
+        },
         {
           "id": "6XoA4zNtYnOhRH3E",
           "expectedName": "Chameleon Coloration",
@@ -777,16 +2385,39 @@
           "description": "<p>雷氏无足兽能变化体色以贴合环境。它不需要掩蔽就能用隐秘技能@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]。</p>"
         },
         {
+          "id": "2pNpTxQfTz6pwy3t",
+          "expectedName": "Ambush",
+          "name": "伏击",
+          "expectedDescription": "<p><strong>Trigger</strong> A living creature passes within 10 feet of the reculobutapus and has not detected it</p><hr /><p><strong>Effect</strong> The reculobutapus Strides directly toward the triggering creature and makes a jaws Strike against it. The target creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to this attack.</p>",
+          "description": "<p><strong>触发</strong> 一个活物经过雷氏无足兽10尺内，且尚未发现它</p><hr /><p><strong>效果</strong> 雷氏无足兽朝触发生物直线行走，并对其进行一次颚击。目标生物对这次攻击@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>"
+        },
+        {
+          "id": "IfFItPB0UszRSjVe",
+          "expectedName": "Spiky Hairs",
+          "name": "尖刺毛发",
+          "expectedDescription": "<p><strong>Trigger</strong> A creature within the reculobutapus's reach damages it with an unarmed or non-reach melee Strike</p><hr /><p><strong>Effect</strong> Spiky hairs shoot out from the reculobutapus dealing @Damage[(1d4+3)[piercing]] damage to the creature.</p>",
+          "description": "<p><strong>触发</strong> 雷氏无足兽触及内的一个生物以徒手打击或无触及特征的近战打击对其造成伤害</p><hr /><p><strong>效果</strong> 雷氏无足兽射出尖刺般的刚毛，对该生物造成@Damage[(1d4+3)[piercing]]伤害。</p>"
+        },
+        {
           "id": "JUnI5xfey5PzvyQl",
           "expectedName": "Swallow Whole",
-          "name": "活吞"
+          "name": "活吞",
+          "expectedDescription": "<p>Medium, @Damage[(1d8+3)[bludgeoning]], Rupture 9</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>",
+          "description": "<p>中型，@Damage[(1d8+3)[bludgeoning]]，破体阈值9</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         },
         {
           "id": "IW6ymPBWR6uA1aS8",
           "expectedName": "Grab",
-          "name": "擒获"
+          "name": "擒获",
+          "expectedDescription": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
-      ]
+      ],
+      "publicNotes": "<p>许多来自浩界的入侵物种搭便车进入协约世界，在有新食物来源且没有天敌的生态系统中繁衍生息，雷氏无足兽便是其中之一。漂流危机期间，一支丧媒体摄制组受困于卡兹穆格的荒诞星域——这片相对未被勘察的星域远离协约世界，只有研究实体地图才能探索。摄制组被迫降落在附近的一颗行星上，以便修理飞船，并收集在该星系中导航所需的情报。</p>\n<p>忠实的摄影团队总想寻找新的拍摄角度，他们跟随崭露头角的制片人雷库洛（一名雄心勃勃的男性灵脑人制片人）进入荒野，记录一行人的经历。这位制片人在被整个吞下之前，成功拍下了一种奇异生物：体型庞大而扁平，形如覆着苔藓的土堆，长着一排排剃刀般锋利的牙齿。</p>\n<p>在摄制组离开之前，一对能繁殖的凶猛生物设法溜入飞船货舱；也可能是有人将一个标本偷运上船，打算带回家出售——真相无人知晓。这些外来的野兽在协约港的机库中泛滥，随后又钻进飞往其他协约世界的飞船。</p>\n<p>伊奥克斯的不死生物充分利用了雷氏无足兽的泛滥。他们发现，这些生物可以用微弱电击和频繁喂食鲜肉来安抚。此后，一些死灵妖开始追求将这些时髦的生物作为宠物，珍视它们能改变颜色、配合主人服饰或家居装饰的本领；更妙的是，若不经常喂食，它们还能为住宅增添一层防御。</p><h2>雷氏无足兽伙伴</h2><p>大多数人认为把怪物当宠物很危险，但少数鲁莽的收藏家和自然爱好者仍会这样做。驯服和照料雷氏无足兽并不容易：它最重可达2,100磅，每天需要20磅鲜肉才能保持健康。饥饿的雷氏无足兽很快就会退化，忘记受过的训练，毫不顾忌地吞食照料它们的人。不过，不死生物并非美味的食物，而且通常能从雷氏无足兽的撕咬伤中恢复，因此饲养这种危险生物的前景便没那么令人畏惧。</p><h2>未来的定制宠物？</h2><p>丧收养了一窝原本被当作拍摄道具送来的雷氏无足兽，养作自己的宠物。丧媒体资助了一项繁育计划，致力于培育体型更小、性情更温顺的雷氏无足兽，将其作为家庭宠物和时尚标志推向市场。</p>",
+      "cnText_prototypeToken_name": {
+        "expected": "Reculobutapus",
+        "text": "雷氏无足兽"
+      }
     }
   }
 }

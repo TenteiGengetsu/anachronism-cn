@@ -24,7 +24,7 @@
     },
     "0mNmVi9CLXor3McX": {
       "name": "私人重力",
-      "description": "<p>你可以改变重力对你的影响。你可以选择将重力提升或降低一级（例如，如果你身处低重力的区域，你可以选择标准重力或零重力）。当该法术起效时，你降低任何影响你的强制移动的距离5尺（最小0尺），而且你不会因为重力的影响而变得笨拙和失重untethered。你可以解消该法术。</p>"
+      "description": "<p>你可以改变重力对你的影响。你可以选择将重力提升或降低一级（例如，如果你身处低重力的区域，你可以选择标准重力或零重力）。当该法术起效时，你降低任何影响你的强制移动的距离5尺（最小0尺），而且你不会因为重力的影响而变得笨拙和失重。你可以解消该法术。</p>"
     },
     "0pl80qKToraH4dvO": {
       "name": "事件视界",
@@ -112,7 +112,7 @@
     },
     "9w90nlUdV5HBRWFm": {
       "name": "曲织世界",
-      "description": "<p>你在当前现实中重现另一个世界的强大事件。区域内所有生物必须尝试一次强韧豁免。曲织世界造成的伤害和效果通过掷[[/r 1d6#Warp World Effect]]决定，详见下表。</p><hr /><p><strong>升阶（+1）</strong>造成的伤害增加1d12，持续伤害增加1d6。</p><table class=\"pf2-table\"><thead><tr><th>d6</th><th>Effect</th></tr></thead><tbody><tr><td>1</td><td><strong>Supernova:</strong>一颗爆炸的太阳造成4d12火焰伤害和1d6持续电击伤害。大失败时，生物受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续1轮。</td></tr><tr><td>2</td><td><strong>Earthquake:</strong>地面震动，造成4d12钝击伤害。大失败时，生物受到双倍伤害，并被击倒而@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</td></tr><tr><td>3</td><td><strong>Inferno:</strong>火山喷发或烈焰风暴造成4d12火焰伤害。灵光内的一切都因烟雾而处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态，持续1轮。大失败时，生物受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}。</td></tr><tr><td>4</td><td><strong>异能风暴：</strong>咆哮的心灵能量风暴造成4d12音波伤害和1d6持续心灵伤害。大失败时，生物受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}，持续1轮。</td></tr><tr><td>5</td><td><strong>骤然冰封：</strong>来自极寒行星的风暴造成4d12寒冷伤害。大失败时，生物受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}，持续1轮。</td></tr><tr><td>6</td><td><strong>辐射爆炸：</strong>核反应的回响造成4d12钝击伤害和1d6持续火焰伤害。大失败时，生物受到双倍伤害，还会受到@Damage[(@item.rank - 3)d6[persistent,poison]]伤害，并在持续毒素伤害存续期间陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}。</td></tr></tbody></table>"
+      "description": "<p>你在当前现实中重现另一个世界的强大事件。区域内所有生物必须尝试一次强韧豁免。曲织世界造成的伤害和效果通过掷[[/r 1d6#Warp World Effect]]决定，详见下表。</p><hr /><p><strong>升阶（+1）</strong>造成的伤害增加1d12，持续伤害增加1d6。</p><table class=\"pf2-table\"><thead><tr><th>d6</th><th>效果</th></tr></thead><tbody><tr><td>1</td><td><strong>超新星：</strong>一颗爆炸的太阳造成4d12火焰伤害和1d6持续电击伤害。大失败时，生物受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续1轮。</td></tr><tr><td>2</td><td><strong>地震：</strong>地面震动，造成4d12钝击伤害。大失败时，生物受到双倍伤害，并被击倒而@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</td></tr><tr><td>3</td><td><strong>炼狱：</strong>火山喷发或烈焰风暴造成4d12火焰伤害。灵光内的一切都因烟雾而处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态，持续1轮。大失败时，生物受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}。</td></tr><tr><td>4</td><td><strong>异能风暴：</strong>咆哮的心灵能量风暴造成4d12音波伤害和1d6持续心灵伤害。大失败时，生物受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}，持续1轮。</td></tr><tr><td>5</td><td><strong>骤然冰封：</strong>来自极寒行星的风暴造成4d12寒冷伤害。大失败时，生物受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}，持续1轮。</td></tr><tr><td>6</td><td><strong>辐射爆炸：</strong>核反应的回响造成4d12钝击伤害和1d6持续火焰伤害。大失败时，生物受到双倍伤害，还会受到@Damage[(@item.rank - 3)d6[persistent,poison]]伤害，并在持续毒素伤害存续期间陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}。</td></tr></tbody></table>"
     },
     "A09nTb61ceLF27vX": {
       "name": "科技直觉",

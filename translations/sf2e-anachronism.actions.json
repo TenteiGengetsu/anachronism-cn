@@ -81,7 +81,7 @@
     },
     "3xDhpvORBmK6AtcI": {
       "name": "调和",
-      "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p>You steady your body and mind and attune yourself to the stellar aspect of your choice. You become attuned to photon or graviton. You can also manifest any of your solar manifestations if they're currently dormant and if you have the free hands to use them.</p><hr /><p><strong>特殊</strong> 除了上述用法外，你可以在掷骰先攻时，以自由动作使用调和。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.UlFxEP3YrbseKA62]</p>"
+      "description": "<p><strong>频率</strong> 每轮一次</p><hr /><p>你稳定身心，使自己与所选的恒星相位调谐。你进入光量子调谐或引力子调谐状态。如果你的恒星显化目前处于休眠状态，且你有空闲的手来使用它们，你也可以将其显化。</p><hr /><p><strong>特殊</strong> 除了上述用法外，你可以在掷骰先攻时，以自由动作使用调和。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.UlFxEP3YrbseKA62]</p>"
     },
     "4oIErnhDm0qCCpxs": {
       "name": "数码评估！",
@@ -92,7 +92,8 @@
       "description": "<p>你的无人机将自身重新配置成陀螺仪并旋转起来，撞击范围内的一切。你的无人机对@Template[type:emanation|distance:15]范围内每个敌人进行一次近战打击。每次攻击都计入你的多次攻击减值，但直到无人机完成其所有攻击之前减值不会增加。</p>"
     },
     "6ctkxUnVwqooSvgg": {
-      "name": "自动射击"
+      "name": "自动射击",
+      "description": "<p>你尝试命中锥形区域内的每个生物，区域长度等于武器射程增量的一半，无需进行攻击检定。区域内的每个生物受到武器伤害（进行@Check[reflex|against:class|basic]豁免，对抗你的职业DC加上该武器的追踪值）。此伤害属于区域伤害。此豁免大失败的生物会承受该武器重击时产生的效果，包括武器的重击专精效果。自动射击的耗弹量等于区域内目标数量×2。</p>"
     },
     "7KMyRISNqp7JTzMn": {
       "name": "特技驾驶",
@@ -100,7 +101,7 @@
     },
     "8zWFGKRXg1SxIwFH": {
       "name": "全息威吓",
-      "description": "<p><strong>触发</strong>你掷骰先攻</p><hr /><p><strong>Effect</strong> Your ship's fearsome holo-flag projects above you, lasting 1 minute. Attempt an Intimidation check to [[/act demoralize]] one enemy within 30 feet that can see your flag. While your flag is projected on a starship, you gain a +1 circumstance bonus to Intimidation checks to Demoralize.</p>"
+      "description": "<p><strong>触发</strong>你掷骰先攻</p><hr /><p><strong>效果</strong>你的舰船那令人畏惧的全息旗帜投射在你上方，持续1分钟。进行一次威吓检定，对30尺内一个能看见旗帜的敌人[[/act demoralize]]。当旗帜投射在星舰上时，你用于挫败士气的威吓检定获得+1环境加值。</p>"
     },
     "9P2ZptR0PrYyiJFl": {
       "name": "重导能量",
@@ -108,7 +109,7 @@
     },
     "CBULws7KXkyaDjxx": {
       "name": "放电",
-      "description": "<p>你的无人机会以一种不稳定的攻击向周围放电，造成@Damage[(ceil(@actor.level/2))d6[electricity]|options:area-damage]伤害，由你选择@Template[type:cone|distance:15]、@Template[type:emanation|distance:10]或@Template[type:line|distance:30]。该区域内的生物必须尝试一次@Check[reflex|against:class|basic]对抗你的职业DC。你的无人机在[[/gmr 1d4 #Recharge this ability]]{1d4 rounds}内无法再次使用此能力。在3级以及之后每2级，此伤害增加1d6。</p>"
+      "description": "<p>你的无人机会以一种不稳定的攻击向周围放电，造成@Damage[(ceil(@actor.level/2))d6[electricity]|options:area-damage]伤害，由你选择@Template[type:cone|distance:15]、@Template[type:emanation|distance:10]或@Template[type:line|distance:30]。该区域内的生物必须尝试一次@Check[reflex|against:class|basic]对抗你的职业DC。你的无人机在[[/gmr 1d4 #Recharge this ability]]{1d4轮}内无法再次使用此能力。在3级以及之后每2级，此伤害增加1d6。</p>"
     },
     "CZ3o2xTAZ4hlISya": {
       "name": "同步移动",
@@ -124,7 +125,7 @@
     },
     "Iy3IsWEfMLGiVAPv": {
       "name": "植入殖装",
-      "description": "<p><strong>Prerequisites</strong> master in Medicine or Augmentation Specialist</p>\n<p><strong>Requirements</strong> You have a medkit.</p><hr /><p>你可以在一个自愿的生物身上安全地植入或移除一个殖装。如果使用医疗包，这需要每物品等级1小时的时间，如果能进入医院或医疗机构，则只需正常时间的一半。大多数出售殖装的商店都有愿意进行手术的工作人员，作为成本的一部分，他们经验丰富，可以在每物品等级10分钟而不是1小时的时间内完成手术。这项行动可以在休整模式下进行，在这种情况下，它会失去探索特征并获得休整特征。</p>"
+      "description": "<p><strong>先决条件</strong>医疗大师或殖装专家</p>\n<p><strong>需求</strong>你拥有医疗包。</p><hr /><p>你可以在一个自愿的生物身上安全地植入或移除一个殖装。如果使用医疗包，这需要每物品等级1小时的时间，如果能进入医院或医疗机构，则只需正常时间的一半。大多数出售殖装的商店都有愿意进行手术的工作人员，作为成本的一部分，他们经验丰富，可以在每物品等级10分钟而不是1小时的时间内完成手术。这项行动可以在休整模式下进行，在这种情况下，它会失去探索特征并获得休整特征。</p>"
     },
     "JXQaCPCd10sE0Gaa": {
       "name": "幽灵触击",
@@ -144,7 +145,7 @@
     },
     "OdKGpXP83uA1wdES": {
       "name": "光子加速",
-      "description": "<p><strong>频率</strong>每日一次</p>\n<p><strong>触发</strong>你受到来自激光武器或具有光亮特征的效果的伤害，且该伤害突破了你的抗力</p><hr /><p><strong>Effect</strong> You're @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} until the end of your next turn. You can use the extra action only to Stride or Strike.</p>"
+      "description": "<p><strong>频率</strong>每日一次</p>\n<p><strong>触发</strong>你受到来自激光武器或具有光亮特征的效果的伤害，且该伤害突破了你的抗力</p><hr /><p><strong>效果</strong>你陷入@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}，直到你的下个回合结束。你只能将额外动作用于行走或打击。</p>"
     },
     "P5FKQOFiuApG9QyG": {
       "name": "抓取物体",
@@ -155,7 +156,8 @@
       "description": "<p><strong>需求</strong>你拥有护甲环境防护或@UUID[Compendium.sf2e-anachronism.equipment.Item.pEob2HYKeFtToeeC]</p><hr /><p>你通过检查护甲或你手持的野外科学工具包上的仪表和传感器来分析环境，以确定其是否安全。你以半速或更慢的速度移动。你自动侦测到任何你的护甲能够防护的环境危害，包括环境条件的严重程度（例如温度、辐射水平、空气的存在与否等）。</p>"
     },
     "QMxO5Y1b9ORvlogx": {
-      "name": "借过"
+      "name": "借过",
+      "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>你的大使搭档用于[[/act make-an-impression]]的交涉检定失败，但未大失败</p><hr /><p><strong>效果</strong>你进行一次交涉检定来建立印象。你的大使搭档改用你的结果作为触发的交涉检定结果，即使该结果更低。</p>"
     },
     "RF8xNJ8QsMwogerB": {
       "name": "骇入",
@@ -167,7 +169,7 @@
     },
     "TBLHu4RhvhPrKid6": {
       "name": "威压风度",
-      "description": "<p><strong>频率</strong> 每轮一次。</p><hr /><p>You unnerve foes with a look, or similarly unsettle them with subtle mannerisms or veiled threats. One enemy creature of your choice within 60 feet becomes @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until the start of your next turn. If the creature targets you with a Strike or other offensive action, it loses the suppressed condition from this effect.</p>"
+      "description": "<p><strong>频率</strong> 每轮一次。</p><hr /><p>你以一个眼神令敌人心生不安，或以细微举止、含蓄威胁造成类似效果。选择60尺内的一个敌对生物，其陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]，直到你的下个回合开始。若该生物以打击或其他进攻动作将你选为目标，它便失去此效果施加的被压制状态。</p>"
     },
     "UeMHbnnaXDa3sGfG": {
       "name": "转移命能",
@@ -187,15 +189,15 @@
     },
     "YAK0MtCcXeDuGmGw": {
       "name": "超频装备",
-      "description": "<p><strong>频率</strong> 每轮一次</p>\n<p><strong>触发</strong> 你施放来自法术位的法术。</p><hr /><p>You siphon residual magic to unlock your gear's full potential. One tech item you hold, wield, wear, or one tech minion you're commanding (as determined by your programming language) becomes overclocked for 1 minute. You can have only one overclocked gear at a time; if you overclock a different target, your current overclocked gear stops being overclocked. As long as your gear is overclocked, you gain the benefits of your programming language's overclock boost and can use its unique Overclock Pulse action.</p>"
+      "description": "<p><strong>频率</strong> 每轮一次</p>\n<p><strong>触发</strong> 你施放来自法术位的法术。</p><hr /><p>你汲取残留魔力，释放装备的全部潜能。你持有、持用或穿戴的一件科技物品，或你正在指挥的一个科技仆从（由你的编程语言决定），进入超频状态，持续1分钟。你同时只能有一个超频装备；若使另一个目标超频，当前装备的超频状态便结束。装备超频期间，你获得编程语言所赋予的超频增幅，并能使用其独有的超频脉冲动作。</p>"
     },
     "Yn4jLPVWVE1vtAaF": {
       "name": "接入信息圈",
-      "description": "<p><strong>Requirements</strong> You are using a device with infosphere access.</p><hr /><p>你尝试接入本地信息网络（通称信息圈）以获取特定主题的情报。这通常需要10分钟的研究时间来查找信息，结果类似于对某个主题回忆知识。更大规模的研究或主题可能需要数小时，而常见于该聚居地信息圈的简单答案可能只需一分钟，具体由GM决定。重大且长期的研究应使用研究子系统（见《主持人核心》）。GM根据你研究的主题确定DC。这可能受到当地信息圈质量、它可能拥有的关于该主题的信息以及其组织程度的影响。</p><hr /><p><strong>大成功</strong> 你查找到了你正在搜寻的信息。若该主题的信息本可以通过@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]来获取，则你查找信息的时间缩短至1分钟。</p>\n<p><strong>成功</strong> 你查找到了你正在搜寻的信息。</p>\n<p><strong>大失败</strong> 由于错误数据或网络恶作剧，你查找到了误导性信息。GM会向你提供关于调查主题的错误信息（或者决定不给你任何信息，如同失败一样）。</p>"
+      "description": "<p><strong>需求</strong>你正在使用一台能够接入信息圈的设备。</p><hr /><p>你尝试接入本地信息网络（通称信息圈）以获取特定主题的情报。这通常需要10分钟的研究时间来查找信息，结果类似于对某个主题回忆知识。更大规模的研究或主题可能需要数小时，而常见于该聚居地信息圈的简单答案可能只需一分钟，具体由GM决定。重大且长期的研究应使用研究子系统（见《主持人核心》）。GM根据你研究的主题确定DC。这可能受到当地信息圈质量、它可能拥有的关于该主题的信息以及其组织程度的影响。</p><hr /><p><strong>大成功</strong> 你查找到了你正在搜寻的信息。若该主题的信息本可以通过@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]来获取，则你查找信息的时间缩短至1分钟。</p>\n<p><strong>成功</strong> 你查找到了你正在搜寻的信息。</p>\n<p><strong>大失败</strong> 由于错误数据或网络恶作剧，你查找到了误导性信息。GM会向你提供关于调查主题的错误信息（或者决定不给你任何信息，如同失败一样）。</p>"
     },
     "Z8GMkB50OfXBX67a": {
       "name": "板甲偏斜",
-      "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>Trigger</strong> You're struck by a critical hit</p><hr /><p><strong>效果</strong>你将攻击偏斜到你身体上的着重防御部分。你不会受到来自重击的双倍伤害，但仍会承受其他效果。</p>"
+      "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>你遭受一次重击</p><hr /><p><strong>效果</strong>你将攻击偏斜到你身体上的着重防御部分。你不会受到来自重击的双倍伤害，但仍会承受其他效果。</p>"
     },
     "ZVzoIaWpXs62QVcu": {
       "name": "穿刺尖刺",
@@ -207,19 +209,19 @@
     },
     "d4vJxq49lUb7fGXq": {
       "name": "安装强化模块",
-      "description": "<p><strong>Requirements</strong> You must use a @UUID[Compendium.sf2e-anachronism.equipment.Item.vLGDUFrg4yGzpTQX]{repair toolkit}.</p><hr /><p>You spend 10 minutes installing an upgrade into a suit of armor or weapon, placing it into an empty upgrade slot. You can also use this activity to uninstall an upgrade. You can't install more upgrades than there are upgrade slots. Installing or uninstalling an upgrade requires using a repair toolkit with two hands.</p>"
+      "description": "<p><strong>需求</strong>你必须使用@UUID[Compendium.sf2e-anachronism.equipment.Item.vLGDUFrg4yGzpTQX]{修理工具包}。</p><hr /><p>你花费10分钟，将一个升级部件安装到一套护甲或一件武器的空升级槽中。你也可以用此活动卸下升级部件。安装的升级部件数量不能超过升级槽数量。安装或卸下升级部件都需要用双手使用修理工具包。</p>"
     },
     "eBxEPfTafaJaK4Kf": {
       "name": "反应迈步",
-      "description": "<p><strong>触发</strong> 一个在你触及内的生物在使用移动动作时离开一个方格。</p><hr /><p>You're able to move deftly around your foes, getting out of tricky situations or managing to put yourself into a place where you hold the advantage. You Step up to twice directly toward the triggering creature.</p>"
+      "description": "<p><strong>触发</strong> 一个在你触及内的生物在使用移动动作时离开一个方格。</p><hr /><p>你能灵巧地绕过敌人，摆脱困境或移动到占据优势的位置。你径直朝触发生物的方向至多快步两次。</p>"
     },
     "g9ZIUSXrLNGhS5Lh": {
       "name": "反弹动能",
-      "description": "<p><strong>触发</strong>你受到物理伤害</p><hr /><p><strong>效果</strong>你在@Template[type:emanation|distance:10]范围内释放收集的动能，对区域内所有生物造成你每受到10点伤害@Damage[1d4[force]|options:area-damage]伤害（最少1d4）。受影响的生物必须尝试一次@Check[fortitude|against:class|basic]，对抗你的职业DC。大失败时，它们还会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]。</p>"
+      "description": "<p><strong>触发</strong>你受到物理伤害</p><hr /><p><strong>效果</strong>你在@Template[type:emanation|distance:10]范围内释放收集的动能，你每受到10点伤害，便对区域内所有生物造成@Damage[1d4[force]|options:area-damage]伤害（最少1d4）。受影响的生物必须尝试一次@Check[fortitude|against:class|basic]，对抗你的职业DC。大失败时，它们还会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]。</p>"
     },
     "gZr207z8Q7AuH2RT": {
       "name": "坚持不懈！",
-      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>You encourage your allies to brace for impact or otherwise prepare for incoming damage. Allies within 60 feet who can sense you can spend 1 action on their turn to Brace For Impact. This action has the concentrate trait. Creatures that Brace for Impact gain temporary Hit Points equal to your Charisma modifier + your half your level for 1 minute.</p>\n<p><strong>以身作则</strong>如果你使用两个动作，则你使用应对冲击。你和任何在你下回合开始前使用应对冲击的盟友还将在对抗造成伤害的效果时豁免获得+1状态加值，持续1分钟</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.RhmWzzEbiykniDHQ]</p>"
+      "description": "<p><strong>频率</strong> 每小时一次</p><hr /><p>你鼓励盟友准备承受冲击，或以其他方式应对即将到来的伤害。60尺内能感知到你的盟友可以在其回合中花费1动作准备承受冲击。此动作具有专注特征。进行此动作的生物获得等于你魅力调整值加上你等级一半的临时生命值，持续1分钟。</p>\n<p><strong>以身作则</strong>如果你使用两个动作，则你使用应对冲击。你和任何在你下回合开始前使用应对冲击的盟友还将在对抗造成伤害的效果时豁免获得+1状态加值，持续1分钟</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.RhmWzzEbiykniDHQ]</p>"
     },
     "hsUKPqTdAvWwsqH2": {
       "name": "导航",
@@ -271,18 +273,19 @@
     },
     "oxYfBuSCruRWTqJ9": {
       "name": "沃洛西亚喷吐",
-      "description": "<p><strong>需求</strong>你的口部未被遮挡</p><hr /><p><strong>Effect</strong> You breathe a @Template[cone|distance:30] of acid, dealing 1d6 acid damage for every 2 levels (@Damage[(floor(@actor.level/2))d6[acid]|options:area-damage]) to all creatures in the area with a basic @Check[reflex|against:class-spell|basic|options:area-effect] save against the higher of your class DC or spell DC. You can't use Volosian Spit again for [[/r 1d4 #Recharge Volosian Spit]]{1d4 rounds}.</p>"
+      "description": "<p><strong>需求</strong>你的口部未被遮挡</p><hr /><p><strong>效果</strong>你喷出@Template[cone|distance:30]的酸液，每2等级造成1d6酸蚀伤害（@Damage[(floor(@actor.level/2))d6[acid]|options:area-damage]），影响区域内的所有生物。它们进行基础@Check[reflex|against:class-spell|basic|options:area-effect]豁免，对抗你的职业DC或法术DC，取较高者。在[[/r 1d4 #Recharge Volosian Spit]]{1d4轮}内，你不能再次使用沃洛斯唾液。</p>"
     },
     "q7UDeO9Ko1EbPRWm": {
       "name": "光晕涌动",
-      "description": "<p><strong>触发</strong> 你触及范围内的一个生物使用操作或移动动作，进行远程攻击，或者使用移动动作时离开一个方格。</p><hr /><p>你的光晕迸发能量，强行撕开敌人的防御。对触发生物进行一次近战打击。这次打击不计入你的多重攻击减值，你的多重攻击减值也不应用于此次打击。</p>\n<p><strong>引力子调谐</strong>如果此次打击造成重击，目标必须成功通过一次@Check[fortitude|against:solarian]，对抗你的职业DC。否则陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}，直到其回合结束。</p>\n<p><strong>Photon-Attuned</strong> If the Strike is a critical success, the target must succeed at a @Check[fortitude|against:solarian] save against your class DC or become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the start of its turn.</p>"
+      "description": "<p><strong>触发</strong> 你触及范围内的一个生物使用操作或移动动作，进行远程攻击，或者使用移动动作时离开一个方格。</p><hr /><p>你的光晕迸发能量，强行撕开敌人的防御。对触发生物进行一次近战打击。这次打击不计入你的多重攻击减值，你的多重攻击减值也不应用于此次打击。</p>\n<p><strong>引力子调谐</strong>如果此次打击造成重击，目标必须成功通过一次@Check[fortitude|against:solarian]，对抗你的职业DC。否则陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}，直到其回合结束。</p>\n<p><strong>光量子调谐</strong>若打击大成功，目标必须在@Check[fortitude|against:solarian]豁免中成功对抗你的职业DC，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}，直到其回合开始。</p>"
     },
     "qOh7Oq5r9uc3EswW": {
-      "name": "绝境逢生"
+      "name": "绝境逢生",
+      "description": "<p><strong>触发</strong>你从至少10尺高处坠落</p><hr /><p><strong>效果</strong>撞击地面后，你弹至一个未被占据的方格，距离至多等于坠落距离，但不超过你的速度。你以站立姿势落在该空间内。</p>"
     },
     "qbyer2woEdGXZzoR": {
       "name": "破坏",
-      "description": "<p>你干扰敌方的科技以掩盖踪迹或获得战术优势。选择15尺内一个你能侦测到的单个科技生物或科技物品。如果目标是科技生物，进行一次@Check[computers|against:fortitude]对抗该生物的强韧DC。如果目标是科技物品，进行一次计算机检定对抗该物品的DC，当该物品被携带，持握或穿戴时，改为对抗拥有该物品的生物的@Check[computers|against:reflex]{Reflex DC}。</p>\n<p>如果你在计算机有专家熟练度，你可以破坏30尺内的科技生物或科技物品。如果你有大师熟练度，范围提升至45尺。如果你有传奇熟练度，范围提升至60尺。</p><hr /><p><strong>大成功</strong>目标陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]1，持续1分钟。</p>\n<p><strong>成功</strong>目标陷入故障1，持续2轮。</p>\n<p><strong>失败</strong>你的尝试失败，需要更持久的分析。目标直到你的下个回合结束前对你的破坏临时免疫。</p>\n<p><strong>大失败</strong>你的尝试适得其反。目标在10分钟内对你的破坏临时免疫。</p>"
+      "description": "<p>你干扰敌方的科技以掩盖踪迹或获得战术优势。选择15尺内一个你能侦测到的单个科技生物或科技物品。如果目标是科技生物，进行一次@Check[computers|against:fortitude]对抗该生物的强韧DC。如果目标是科技物品，进行一次计算机检定对抗该物品的DC，当该物品被携带，持握或穿戴时，改为对抗拥有该物品的生物的@Check[computers|against:reflex]{反射DC}。</p>\n<p>如果你在计算机有专家熟练度，你可以破坏30尺内的科技生物或科技物品。如果你有大师熟练度，范围提升至45尺。如果你有传奇熟练度，范围提升至60尺。</p><hr /><p><strong>大成功</strong>目标陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]1，持续1分钟。</p>\n<p><strong>成功</strong>目标陷入故障1，持续2轮。</p>\n<p><strong>失败</strong>你的尝试失败，需要更持久的分析。目标直到你的下个回合结束前对你的破坏临时免疫。</p>\n<p><strong>大失败</strong>你的尝试适得其反。目标在10分钟内对你的破坏临时免疫。</p>"
     },
     "qeB3FN9AcGzEICjE": {
       "name": "装备阵列",
@@ -298,7 +301,7 @@
     },
     "uVDYsnxq3hNNtYB2": {
       "name": "改造",
-      "description": "<p><strong>需求</strong> 你正持握或穿戴你的定制工具组。</p><hr /><p>Using your trusty custom rig, you quickly customize a piece of gear. Select one item in your possession or in the possession of a willing creature within your unarmed reach. If you select an item in your possession, you can Interact to draw or retrieve this item. Then, apply one of the mods you know to the item. The item remains modded until the end of your next turn.</p>\n<p>When you Modify an item, you can apply one of the following effects of your choice, called a mod, or any other mod you know. Some mods can only be applied to items of specific types or items with certain traits; these requirements are listed in parentheses.</p><ul><li><p><strong>Big Boom (grenade or area weapon):</strong> You cram a big payload of explosives into a small package. Increase the item's radius by 5 feet (if it's a burst), its area by 5 feet (if it's a cone), or its area by 10 feet (if it's a line).</p></li><li><p><strong>Bunker Buster (grenade or weapon):</strong> You amplify the destructive capabilities of an item. Whenever the item deals damage to an object, structure, vehicle, or creature with Hardness, the target takes 5 additional damage. If the modded item has the razing trait, apply the additional damage from both this mod and the razing trait.</p></li><li><p><strong>Incapacitant (grenade or weapon):</strong> You use dummy rounds. The item gains the nonlethal trait.</p></li><li><p><strong>Long-range Propulsors (grenade or ranged weapon):</strong> You increase the distance you can shoot or throw the item. Increase the item's range or range increment by 30 feet.</p></li><li><p><strong>Magnetic Levitators (armor):</strong> You activate powerful magnets in the armor that propel the wearer off the ground. The wearer's land Speed gains hover, and the wearer gains a fly Speed of 10 feet.</p></li><li><p><strong>Troubleshoot (item):</strong> You recalibrate a malfunctioning item. Reduce the item's glitching value by 1.</p></li></ul>"
+      "description": "<p><strong>需求</strong> 你正持握或穿戴你的定制工具组。</p><hr /><p>你使用可靠的定制工具组，迅速改造一件装备。选择你持有的，或无武装触及内一个自愿生物持有的一件物品。若选择的是你持有的物品，你可以用交互动作将其拔出或取出。然后，对该物品应用一个你已知的改装。物品的改装状态持续至你的下个回合结束。</p>\n<p>改造物品时，你可以选择施加以下一种称为改装的效果，或其他你已知的改装。某些改装只能用于特定类型或具备特定特征的物品，相关要求列在括号内。</p><ul><li><p><strong>大爆炸（手雷或区域武器）：</strong>你将大量爆炸物塞入小巧的容器。若物品产生爆发区域，其半径增加5尺；若产生锥形区域，其区域长度增加5尺；若产生线形区域，其区域长度增加10尺。</p></li><li><p><strong>碉堡破坏者（手雷或武器）：</strong>你增强物品的破坏力。当该物品对具有硬度的物体、构筑物、载具或生物造成伤害时，目标额外受到5点伤害。若改装物品具有摧毁特征，此改装与摧毁特征的额外伤害均会生效。</p></li><li><p><strong>失能弹（手雷或武器）：</strong>你使用训练弹。该物品获得非致命特征。</p></li><li><p><strong>远程推进器（手雷或远程武器）：</strong>你增加物品的射击或投掷距离。该物品的射程或射程增量增加30尺。</p></li><li><p><strong>磁悬浮装置（护甲）：</strong>你启动护甲内的强力磁铁，使穿戴者离开地面。穿戴者的陆地速度获得悬浮，且其获得10尺飞行速度。</p></li><li><p><strong>排除故障（物品）：</strong>你重新校准故障物品，使其故障状态值降低1。</p></li></ul>"
     },
     "uvtdqSfKD6oXNA29": {
       "name": "重铸恒星武器",
@@ -306,7 +309,7 @@
     },
     "wI0g2nRfu2d0YFAd": {
       "name": "傲慢防卫",
-      "description": "<p><strong>频率</strong> 每小时一次；</p>\n<p><strong>Trigger</strong> A creature other than you within range of your thoughtsense becomes @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened}, or @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied}, or takes @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{persistent mental damage}</p><hr /><p><strong>效果</strong>你可以立即尝试一次额外纯骰检定以结束自身承受的持续心灵伤害，并将纯骰DC降至10。随后你获得等于自身等级的临时生命值，持续1分钟。</p>"
+      "description": "<p><strong>频率</strong> 每小时一次；</p>\n<p><strong>触发</strong>你思想感知范围内除你之外的一个生物陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}、@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}或@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞}，或受到@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{持续心灵伤害}</p><hr /><p><strong>效果</strong>你可以立即尝试一次额外纯骰检定以结束自身承受的持续心灵伤害，并将纯骰DC降至10。随后你获得等于自身等级的临时生命值，持续1分钟。</p>"
     },
     "wWtBcshahm11stMY": {
       "name": "操作设备",
@@ -314,11 +317,11 @@
     },
     "x1XORr76jCEEDJJV": {
       "name": "引爆地雷",
-      "description": "<p><span class=\"action-glyph\">1</span> or <span class=\"action-glyph\">r</span></p><hr /><p>随着一念之间，你就能触发引爆你在150尺部署的一枚地雷，使其以@Template[type:burst|distance:10]范围爆炸。该地雷会由你选择造成@Damage[2d6[fire]|options:area-damage]伤害或@Damage[2d6[piercing]|options:area-damage]伤害。区域内的生物能够尝试一次@Check[reflex|against:class|basic]对抗你的职业DC。</p>\n<p>你可以将引爆地雷作为一种反应动作使用。<strong>触发</strong>一个生物进入或离开你部署的一枚地雷10尺内的一个方格。如果你的地雷拥有更大半径，则将此距离增加至该数值。</p>\n<p>在3级以及之后每2级，伤害增加1d6。在10级时，爆发半径增加至15尺；在15级时，爆发半径增加至20尺。</p>"
+      "description": "<p><span class=\"action-glyph\">1</span>或<span class=\"action-glyph\">r</span></p><hr /><p>只需一念，你就能引爆你在150尺内布设的一枚地雷，使其以@Template[type:burst|distance:10]范围爆炸。该地雷会由你选择造成@Damage[2d6[fire]|options:area-damage]伤害或@Damage[2d6[piercing]|options:area-damage]伤害。区域内的生物必须尝试一次@Check[reflex|against:class|basic]对抗你的职业DC。</p>\n<p>你可以将引爆地雷作为一种反应动作使用。<strong>触发</strong>一个生物进入或离开你部署的一枚地雷10尺内的一个方格。如果你的地雷拥有更大半径，则将此距离增加至该数值。</p>\n<p>在3级以及之后每2级，伤害增加1d6。在10级时，爆发半径增加至15尺；在15级时，爆发半径增加至20尺。</p>"
     },
     "x8jlqzfOXEYzJ0Mp": {
       "name": "启动推进器",
-      "description": "<p><strong>频率</strong>每10分钟一次</p><hr /><p><strong>效果</strong>你的无人机行走两次，穿越任何阻挡路径的生物所处空间，但不触发反应动作，对它们造成@Damage[5d6[bludgeoning]]伤害，进行@Check[reflex|against:class|basic]对抗你的职业DC。豁免大失败的生物自动@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]。 在12级以及之后每2级，钝击伤害增加1d6。</p>"
+      "description": "<p><strong>频率</strong>每10分钟一次</p><hr /><p><strong>效果</strong>你的无人机行走两次，穿越任何阻挡路径的生物所处空间，但不触发反应动作，对它们造成@Damage[5d6[bludgeoning]]伤害，进行@Check[reflex|against:class|basic]对抗你的职业DC。豁免大失败的生物还会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]。在12级以及之后每2级，钝击伤害增加1d6。</p>"
     },
     "xEBikxg5d7GygQiM": {
       "name": "机动重构",
@@ -326,7 +329,7 @@
     },
     "ydUK0TjHlK8VKgbs": {
       "name": "充能",
-      "description": "<p><strong>Requirements</strong> You have a battery.</p><hr /><p>你给一块耗尽的电池充能。如果使用充电站这需要1分钟，大多数建筑物和星舰中都可以找到充电站。</p>"
+      "description": "<p><strong>需求</strong>你拥有一块电池。</p><hr /><p>你给一块耗尽的电池充能。如果使用充电站这需要1分钟，大多数建筑物和星舰中都可以找到充电站。</p>"
     },
     "6YOkLkTcNWxROKEG": {
       "name": "粘性擒获",
@@ -346,7 +349,7 @@
     },
     "P95mzZ3VV40cXbx5": {
       "name": "光速",
-      "description": "<p><strong>频率</strong>10分钟一次</p>\n<p><strong>Requirements</strong> You are not @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}</p><hr /><p><strong>效果</strong>你以光速穿越战场，快到令他人无法察觉。你将自身（以及你穿戴和持有的任何物品）传送到240尺内一片你能看见的未被占据的空间。</p>"
+      "description": "<p><strong>频率</strong>10分钟一次</p>\n<p><strong>需求</strong>你未陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}</p><hr /><p><strong>效果</strong>你以光速穿越战场，快到令他人无法察觉。你将自身（以及你穿戴和持有的任何物品）传送到240尺内一片你能看见的未被占据的空间。</p>"
     },
     "QQSO7DzeNKCWf9XW": {
       "name": "再试一次",
@@ -354,7 +357,7 @@
     },
     "RNEFfOL4d6WkTTpP": {
       "name": "虫体替身",
-      "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>需求</strong>你有一个处于活动状态的@UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]</p><hr /><p><strong>效果</strong>你的虫体开始起泡并生长，变成你主躯体的一个复制品，同时你的主躯体萎缩并暴露出它其实是一个诱饵。你出现在你的<em>念动之手</em>所在的空间，并结束<em>念动之手</em>的效果。</p>"
+      "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>需求</strong>你有一个处于活动状态的@UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]</p><hr /><p><strong>效果</strong>你的虫体开始起泡并生长，变成你主躯体的一个复制品，同时你的主躯体萎缩并暴露出它其实是一个诱饵。你出现在你的<em>念动之手</em>所在的空间，并结束<em>念动之手</em>的效果。</p>"
     },
     "SdPRiTobzR8adtXq": {
       "name": "决不言败",
@@ -366,11 +369,11 @@
     },
     "bQsL08HI1h8W0s2B": {
       "name": "多足复立",
-      "description": "<p><strong>Trigger</strong> A creature successfully Trips you, or you fail a saving throw against an effect that would knock you @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}</p><hr /><p><strong>效果</strong>当你的两条腿倒下时，你仍用其余四条腿站立。你不会被击倒。</p>"
+      "description": "<p><strong>触发</strong>一个生物成功摔绊你，或你对会使你@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}的效果豁免失败</p><hr /><p><strong>效果</strong>当你的两条腿倒下时，你仍用其余四条腿站立。你不会被击倒。</p>"
     },
     "cmCtfURzpbzkxWsy": {
       "name": "干掉他！",
-      "description": "<p>You single out an enemy for you and your allies to focus your attacks on. Select an enemy within 60 feet that you can see. You and your allies gain a +1 status bonus to attacks against that target until the beginning of your next turn.</p>\n<p><strong>以身作则</strong>如果你使用两个动作，你打击该目标。你对目标的伤害掷骰获得等同于你魅力调整值的状态加值。无论打击是否命中，你和你的盟友在对目标后续打击的伤害上获得+1状态加值，直到你的下个回合开始。此伤害分别在5级，10级，15级，和20级时+1。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.ey2zSEnprAGgvrij]</p>"
+      "description": "<p>你指定一名敌人，让你和盟友集中攻击。选择60尺内一个你能看见的敌人。直到你的下个回合开始，你和盟友对该目标的攻击获得+1状态加值。</p>\n<p><strong>以身作则</strong>如果你使用两个动作，你打击该目标。你对目标的伤害掷骰获得等同于你魅力调整值的状态加值。无论打击是否命中，你和你的盟友在对目标后续打击的伤害上获得+1状态加值，直到你的下个回合开始。此伤害分别在5级，10级，15级，和20级时+1。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.ey2zSEnprAGgvrij]</p>"
     },
     "cx5V4zwJFbsKG1ri": {
       "name": "自我安抚",
@@ -382,7 +385,7 @@
     },
     "gNUrQ8jimAvAA0xg": {
       "name": "念动抬升",
-      "description": "<p><strong>频率</strong>每轮一次</p>\n<p><strong>Requirements</strong> You have at least one telekinetic hand free</p><hr /><p><strong>Effect</strong> Your telekinetic hand lifts an object of up to 8 Bulk as though it were weightless. If the object is locked or otherwise held in place, you can attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force it Open} using Arcana, Athletics, Occultism, or Physical Science Lore as part of this action. The object still has its full weight and Bulk for all other purposes—you just ignore that weight. This effect lasts until the end of your turn.</p>"
+      "description": "<p><strong>频率</strong>每轮一次</p>\n<p><strong>需求</strong>你至少有一只空闲的念动力手</p><hr /><p><strong>效果</strong>你的念动力手将至多8负载的物体举起，仿佛它毫无重量。若物体上锁或以其他方式固定，你可以作为此动作的一部分，使用奥法、运动、神秘或物理科学学识尝试@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{破拆}。就其他所有用途而言，物体的重量和负载均保持不变，只是你忽略了其重量。此效果持续至你的回合结束。</p>"
     },
     "iIESt0oV0vobl41N": {
       "name": "适应性移动",
@@ -390,7 +393,7 @@
     },
     "lNcZ7j1T2YmMwXF7": {
       "name": "活体盾牌",
-      "description": "<p><strong>Trigger</strong> An ally you're providing cover to or adjacent to is damaged by an enemy</p><hr /><p><strong>效果</strong>使你目标盟友受到的触发伤害减少等同你的等级加上体质调整值的数额。你会受到等同减少伤害的伤害。</p>"
+      "description": "<p><strong>触发</strong>一个与你邻接或正受到你提供的掩蔽的盟友被敌人造成伤害</p><hr /><p><strong>效果</strong>使你目标盟友受到的触发伤害减少等同你的等级加上体质调整值的数额。你会受到等同减少伤害的伤害。</p>"
     },
     "mrcKklMzhRG4WcbH": {
       "name": "重导电流",
@@ -402,7 +405,7 @@
     },
     "ygvLiQmneqp1pjWb": {
       "name": "新计划！",
-      "description": "<p><strong>触发</strong>与你一起讨论策略的盟友尝试攻击掷骰或技能检定</p><hr /><p><strong>Effect</strong> The ally rolls the triggering check twice and takes the better of the two results. That ally then becomes temporarily immune to your New Plan until your next daily preparations.</p>"
+      "description": "<p><strong>触发</strong>与你一起讨论策略的盟友尝试攻击掷骰或技能检定</p><hr /><p><strong>效果</strong>该盟友对触发的检定掷骰两次，并采用较好的结果。随后，该盟友暂时免疫你的新计划，直到你下次每日准备。</p>"
     },
     "e7Io0ZnzHuFD6yek": {
       "name": "拥抱世界",
@@ -410,7 +413,255 @@
     },
     "Wt3PzHoo3BauvifP": {
       "name": "粘液喷射",
-      "description": "<p>你朝@Template[type:cone|distance:30]范围喷出一股腐蚀性化学物质，对区域内的每个生物造成@Damage[12d6[acid]|options:area-damage]伤害，进行@Check[fortitude|against:class-spell|basic|options:area-effect]对抗你职业DC或法术DC中的较高值。一旦启动后，粘液喷射不能在[[/r 1d4 #Recharge Gunk Spray]]{1d4 rounds}内再次被使用。</p>"
+      "description": "<p>你朝@Template[type:cone|distance:30]范围喷出一股腐蚀性化学物质，对区域内的每个生物造成@Damage[12d6[acid]|options:area-damage]伤害，进行@Check[fortitude|against:class-spell|basic|options:area-effect]对抗你职业DC或法术DC中的较高值。一旦启动后，粘液喷射不能在[[/r 1d4 #Recharge Gunk Spray]]{1d4轮}内再次被使用。</p>"
+    },
+    "1ZDs7fmPuhQejMGG": {
+      "name": "温度适应",
+      "description": "<p><strong>频率</strong>每分钟一次</p>\n<p><strong>触发</strong>你受到寒冷或火焰伤害</p><hr /><p><strong>效果</strong>你的血肉立即适应温度，你获得对触发伤害类型的抗力，数值等于你等级的一半。此抗力持续到你下次使用温度适应。</p>"
+    },
+    "3In9EAqKoYiCDmz4": {
+      "name": "佯装倒地",
+      "description": "\n<p><strong>触发</strong>敌人对你[[/act trip]]时失败或大失败，或你摔绊敌人时失败但未大失败</p><hr /><p><strong>效果</strong>你假装被摔绊，陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}并对触发生物[[/act feint]]。你可以在下个回合以自由动作起身，且不会触发反应。</p>"
+    },
+    "3Zlu3WSRHqS32mlr": {
+      "name": "变换肤色",
+      "description": "<p>你改变全身或部分皮肤的颜色、花纹和图案。当你的肤色与周围环境的颜色大致相符时，你用于[[/act hide]]和[[/act sneak]]的隐秘检定获得+1环境加值。</p>"
+    },
+    "4yWUVp205mJWuqNI": {
+      "name": "聆听",
+      "description": "<p><strong>频率</strong>每天一次</p><hr /><p><strong>效果</strong>你敞开心灵，接纳幽影界的幽暗秘密。针对任意主题@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}，以[[/act recall-knowledge skill=occultism]]{神秘}代替通常所用的技能。若检定成功，则改为大成功；若检定失败，则改为大失败。</p>"
+    },
+    "4yr6PSebbNdw9ofY": {
+      "name": "强撑精神",
+      "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong>你获得毁灭、濒死或受伤以外的一种状态</p><hr /><p><strong>效果</strong>你摆脱困扰自身的不利影响。触发的状态结束。</p>"
+    },
+    "5q9ueI3PtkhSJBRz": {
+      "name": "全速前进！",
+      "description": "<p><strong>频率</strong>每轮一次</p>\n<p><strong>需求</strong>你正在驾驶载具</p><hr /><p><strong>效果</strong>你的载具速度增加10尺。直到你的下个回合开始，所有用于操纵该载具或以其他方式与其互动的驾驶检定DC增加1。</p>"
+    },
+    "6fsMvO0jXtK8gYkH": {
+      "name": "鼓胀身体",
+      "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong>一个生物@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}你、以无武装打击命中你，或以不具备长触及的近战武器命中你</p><hr /><p><strong>效果</strong>你深吸一口气，迅速鼓起身体，将带刺的鳞片和棱脊刺入攻击者体内。你对触发生物造成@Damage[(ceil(@actor.level/2))d6[piercing]]伤害（@Check[reflex|basic|against:class-spell]）。大失败时，该生物还会被你的突然变化扰乱，陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你的下个回合结束。在3级以及此后每2级，此伤害增加1d6。</p>"
+    },
+    "7yLIUg2fqyn1GPYt": {
+      "name": "掘地冲锋",
+      "description": "<p>你掘地至多两倍于掘地速度的距离，然后垂直@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}至多25尺高，并在跳跃途中的任意一点对一个生物进行螫针打击。跳跃后你落回地面；若落在泥土或沙地上，则不受坠落伤害。</p>"
+    },
+    "81EiW8ycG0Tmyl7x": {
+      "name": "战术共生",
+      "description": "<p><strong>频率</strong>每天一次</p><hr /><p><strong>效果</strong>你暂时与一个邻接且自愿的生物融合，叠覆在其身上，持续10分钟。你必须能通过有限心灵感应与其交谈。你可以解消此效果；解消时，你出现在与融合目标邻接的空间内。融合期间，你和目标仍各自正常进行回合，且就能力和其他效果而言，必须分别将你们选为目标。</p>\n<p>你占据目标的空间，且无法进行具有移动特征的动作。如果目标移动，你会随之移动。将你拥有的每种速度与目标的相应速度比较；若你的速度更快，或目标没有该种速度，则目标获得你的该种速度。融合期间，目标获得你拥有的所有因图族裔专长，但要求你是无宿主因图的专长除外。</p>"
+    },
+    "9MaexGGEFV3tw5ea": {
+      "name": "蜷身翻滚",
+      "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>你的特技检定大失败</p><hr /><p><strong>效果</strong>你重掷触发的检定，并且必须采用第二次结果。</p>"
+    },
+    "9moYuimhiXJTkkkc": {
+      "name": "轻灵偶像变身",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你变换自身以及持用和穿戴的装备，装扮成你为偏爱伪装技能专长所选择的一种特定偏爱伪装。与乔装不同，你与他人互动时无需进行欺骗检定来掩盖身份；只有当他人专门使用@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜寻}动作，进行察觉检定对抗你的@Check[perception|against:deception|traits:action:seek]{欺骗}或@Check[perception|against:performance|traits:action:seek]{表演}DC（取较高者）时，才会进行该项检定。</p><hr /><p><strong>特殊</strong>你只能在1级选择此专长，且不能通过重训失去或获得此专长。</p>"
+    },
+    "A2T7BjMzvTg8KMMd": {
+      "name": "撤销，撤销！",
+      "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>你用于@UUID[Compendium.sf2e-anachronism.actions.Item.RF8xNJ8QsMwogerB]的计算机检定失败或大失败</p><hr /><p><strong>效果</strong>你在最后一刻意识到自己犯下的错误，并在不良后果发生前迅速将其撤销。重掷触发的检定，你必须采用第二次结果。</p>"
+    },
+    "CPO4LgkZPHIHQEB4": {
+      "name": "末日预言者祷文",
+      "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong>30尺内的一个盟友尝试恢复检定</p><hr /><p><strong>效果</strong>你对病弱的盟友吟诵古老祷文。该盟友在触发的恢复检定中获得+2状态加值。</p>"
+    },
+    "DQSW4YEotxrLJIEl": {
+      "name": "黏液喷涌",
+      "description": "<p><strong>频率</strong>每10分钟一次</p>\n<p><strong>触发</strong>一个生物以颚部打击或其他啮咬攻击命中你</p><hr /><p><strong>效果</strong>你将积蓄的黏液喷入攻击者的喉咙，迫使其进行@Check[fortitude|against:class-spell|options:inflicts:sickened]豁免，对抗你的职业DC或法术DC（取较高者）。失败时，目标陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}（大失败时为@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}）。</p>"
+    },
+    "HnuFb8wzkKD0dRPN": {
+      "name": "搜索信息圈",
+      "description": "<p>你以数字手段搜索与渗透目标有关的各种信息。进行一次普通、困难或极难的计算机检定。</p><hr /><p><strong>大成功</strong>你找到罕见的信息，并获得1点需要使用科技物品才能利用的优势点（EP）。若你分享此信息，获知信息的人都能使用该优势点，但只要有人用过，这条信息就不再有效。</p>\n<p><strong>成功</strong>如同大成功，但此信息广为人知，尝试利用它可能引人怀疑，使本次渗透增加1警戒点（AP）。</p>\n<p><strong>失败</strong>如同成功，但此信息夸大、过时或完全错误，所得优势点不会为渗透提供任何帮助。GM可以在渗透过程中的任意时刻，根据剧情需要揭示这一点。</p>\n<p><strong>大失败</strong>如同失败，但本次渗透增加2警戒点（AP）。</p>"
+    },
+    "Hq7duW66un55uGoA": {
+      "name": "偏斜力场",
+      "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong>你成为@UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{力场飞弹}法术的目标</p><hr /><p><strong>效果</strong>你偏转射向自己的魔法力场碎片。进行一次@Check[reflex]豁免，对抗施法者的法术DC。成功时，你不受伤害。若有多枚力场碎片以你为目标，你只能偏转第一枚。</p>"
+    },
+    "IiZ5mIM3AG77E09x": {
+      "name": "灵光乍现！",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你进行生命科学学识或物质科学学识检定来@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}。掷骰两次并采用较好的结果。</p>"
+    },
+    "JdLNIaTM4eyI9Luo": {
+      "name": "吸收光线",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你吸收周围的光线，熄灭普通光源。以你为中心的@Template[type:burst|distance:10]内，非魔法光源自动熄灭。</p>"
+    },
+    "K37N5t6v7kgImnDN": {
+      "name": "聚集光线",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你将光线集中到一片魔法黑暗区域，使用@Check[fortitude|options:counteract]豁免或@Check[nature|options:counteract]调整值进行反制检定，对抗目标DC。你的反制环阶等于你等级的一半，向上取整。成功反制后，该魔法黑暗阻止光线穿过的能力被压制1分钟，其余效果不受影响。</p>"
+    },
+    "KhX0FDMxGVgHjXdU": {
+      "name": "微型新星",
+      "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>你的生命值降至0</p><hr /><p><strong>效果</strong>你释放出一阵恒星能量，在陷入@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}时焚烧周围的一切。你造成1d6加上你等级的火焰伤害（@Damage[(ceil(@actor.level/2)d6+@actor.level)[fire]|options:area-damage]），影响@Template[type:emanation|distance:10]内的所有其他生物（进行@Check[reflex|against:class-spell|basic|options:area-effect]豁免，对抗你的职业DC或法术DC，取较高者）。在3级以及此后每2级，此伤害增加1d6。</p>"
+    },
+    "L0MLZNUoJ6lTlBZu": {
+      "name": "吸取毒素",
+      "description": "<p>你从一个邻接且自愿的盟友体内吸出部分毒素。该盟友可以尝试@Check[flat|dc:10]，以结束其正在受到的持续毒素伤害。大失败时，你受到等量的持续毒素伤害。</p>"
+    },
+    "L2k363LraGLUZIgM": {
+      "name": "改变姿势",
+      "description": "<p>你从双足姿势变为四足姿势，或从四足姿势变为双足姿势，并选择一组当前使用的手。不同姿势赋予你不同的身体特性。</p><ul><li><strong>双足：</strong>你的陆地速度为20尺。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.jrFqZfBOKUmT5P3v]族裔专长，即使你不满足先决条件。</li><li><p><strong>四足：</strong>你的陆地速度为30尺。你中间的一对肢体无法持握任何东西，也不能被指定为当前使用的手。</p></li></ul>"
+    },
+    "Mfih4GjatO1sw2Ug": {
+      "name": "可控狂暴",
+      "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>需求</strong>你未陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}，且不处于狂暴状态</p><hr /><p><strong>效果</strong>你获得等于你等级的临时生命值，且近战打击伤害获得+1状态加值。此狂暴持续至你的下个回合结束、你陷入@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}或遭遇结束，以最先发生者为准。你无法主动结束狂暴。狂暴结束时，你失去此次狂暴赋予的所有临时生命值。</p><hr /><p><strong>特殊</strong>如果你具有狂暴职业能力（见《开拓者玩家核心2》），你因狂暴获得的临时生命值增加2。</p>"
+    },
+    "NAqdTW3tC0eqGiIq": {
+      "name": "马德罗萨莱坚韧",
+      "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>你的生命值将降至0，但你不会立即死亡</p><hr /><p><strong>效果</strong>你避免被击倒，生命值保持为1，且你的受伤状态值增加1。</p>"
+    },
+    "NEYVJWYtgl0rRSwg": {
+      "name": "显化能量翼",
+      "description": "<p><strong>需求</strong>你处于真空中</p><hr /><p><strong>效果</strong>你显化能量翼，获得等于陆地速度加10尺的飞行速度。能量翼使你能够在真空中飞行。能量翼保持显化，直到你离开真空，或选择以单动作使其消散。</p>"
+    },
+    "NhqAjQ2qP6a2G1Sk": {
+      "name": "滋养之光",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你将光线汇聚成柔和的光束，笼罩60尺内一个濒死的生物。目标失去@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{濒死}状态（仍处于@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}状态，生命值为0）。你还可以选择将自身的一部分生命火花转移给目标，牺牲至多等于你等级的生命值，为目标恢复等量生命值。若如此做，目标不会获得@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{受伤}状态。</p>"
+    },
+    "OST8EbXzznPoGw9g": {
+      "name": "迅速投掷",
+      "description": "<p>你以交互动作拔出一枚手雷，然后用它进行区域射击。在5级，你的手雷熟练等级提升至专家，并且可以使用所有手雷的重击专精效果。</p>"
+    },
+    "Pdam8vyOw6KSQvRe": {
+      "name": "哀嚎",
+      "description": "<p>@Template[cone|distance:60]</p>\n<p><strong>伤害</strong>@Damage[(3d10+15)[sonic]|options:area-damage]（基础@Check[reflex|basic|against:class-spell|options:area-effect]豁免，对抗你的职业DC或法术DC，取较高者）</p>"
+    },
+    "QYBx5xYENl3hXZPB": {
+      "name": "失落故乡的回忆",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你回想失落故乡的景色来安抚心灵：不断蠕动、满是脓液的肉丘，毒液汇成的湖泊，以及笼罩着有害绿色气体的天空。若你的下一个动作是尝试一次耗费至多2动作的技能检定，你掷骰两次并采用较好的结果。</p>"
+    },
+    "VPUwqRHwijGcMVOH": {
+      "name": "水汪汪的大眼睛",
+      "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>一个你已察觉的生物对你打击大成功，且将对你造成伤害</p><hr /><p><strong>效果</strong>你冲触发生物眨动水汪汪的大眼睛，迫使它收敛攻势。攻击者触发打击的伤害受到等于你等级+2的环境减值。此减值在重击伤害翻倍之后应用。随后，攻击者对此能力免疫24小时。</p>"
+    },
+    "XYLK5aZ2WAMJGRAc": {
+      "name": "活体潜水艇",
+      "description": "<p><strong>需求</strong>你处于水下</p><hr /><p><strong>效果</strong>你膨胀身体，并在体内充满可供呼吸的含氧液体。如此做时，你的体型增至巨型，速度变为0。此形态下，你能搭载至多六个自愿的中型或更小生物。只要仍在水中，你就能保持此形态，或选择以单动作恢复正常形态；除此之外，此能力持续时间为每等级一小时。</p>"
+    },
+    "aswV37TglbLLXmAA": {
+      "name": "瞬时适应",
+      "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong>你将在@UUID[Compendium.sf2e-anachronism.feats.Item.HeHBlqAg84g749iW]赋予火焰抗力时受到寒冷伤害，或在它赋予寒冷抗力时受到火焰伤害</p><hr /><p><strong>效果</strong>将环境适应赋予你的抗力由寒冷改为火焰，或由火焰改为寒冷。调整后的抗力适用于触发的攻击。</p>"
+    },
+    "bVqCuQjMwAhk6pgB": {
+      "name": "推进器过载",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你使推进器过载，在其关闭冷却前推动自己腾空飞行。你获得等于自身速度的飞行速度，持续2轮。持续时间结束后，推进器完全关闭，你的陆地速度失去悬浮特征，持续1小时。</p>"
+    },
+    "bWD4NpW0NB8aDwZF": {
+      "name": "喷焰开关",
+      "description": "<p>驾驶员扳动开关，使载具排气口喷出火焰。所有其他载具的乘员陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续1分钟，具体效果取决于@Check[fortitude|against:class|options:inflicts:dazzled]豁免对抗你职业DC的结果。</p>"
+    },
+    "bXLJtouJRWQXxLUP": {
+      "name": "闪耀",
+      "description": "<p>你使毛发如色彩鲜艳的宝石般闪闪发光，持续1小时。闪耀时，你对能看见你的生物进行[[/act make-an-impression]]和表演检定时获得+2状态加值，但你的[[/act demoralize]]、[[/act hide]]和[[/act sneak]]受到–1状态减值。</p>\n<p>每天一次，你可以用单次交互动作抖落多余的闪粉，使所有邻接生物获得闪耀的效果，持续10分钟。任何生物都能以具有操作特征的一个动作拂去身上的闪粉，以解消这些效果。</p>"
+    },
+    "bjsgzOPyKf0V8siE": {
+      "name": "交换",
+      "description": "<p><strong>需求</strong>一个生物正持用另一件武器，且位于你100尺内</p><hr /><p><strong>效果</strong>你立即交换两件目标武器的位置。若热交换的剩余持续时间超过10分钟，则将其缩短为10分钟。</p>"
+    },
+    "cShf7HifoNI7XzKd": {
+      "name": "毒性撕扯",
+      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p><strong>效果</strong>对一个@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}、无助、@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{（被）束缚}的生物进行喙部打击。若命中，持续毒素伤害提升为每个武器伤害骰1d4持续毒素伤害。</p>"
+    },
+    "e2lugcxHnxTkQeMc": {
+      "name": "耀目甲壳",
+      "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong>一个生物以造成能量伤害的武器打击命中你</p><hr /><p><strong>效果</strong>你的甲壳迸发光芒，使攻击者失明。所有邻接生物以及命中你的生物都必须进行@Check[fortitude|against:class-spell|options:inflicts:blinded,inflicts:dazzled]豁免，对抗你的职业DC或法术DC，取较高者。失败时，生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续1轮。大失败时，改为@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}1轮，随后目眩1轮。</p>"
+    },
+    "fz1XOiQr3FJYRxJh": {
+      "name": "战斗吐唾",
+      "description": "<p>你骇入30尺内一个生物的科技物品，以烦人的弹窗和其他麻烦妨碍它。进行一次@Check[computers|against:will]检定，对抗目标的意志DC。</p><hr /><p><strong>大成功</strong>目标陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}，持续1轮。</p>\n<p><strong>成功</strong>目标陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，持续1轮。</p>\n<p><strong>大失败</strong>你陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，直到你的下个回合结束。</p>"
+    },
+    "gNTUSvR7Rnbz2qEW": {
+      "name": "卡通伸展",
+      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p><strong>效果</strong>你伸出双臂，使其像橡皮筋一样延长。你的触及增加5尺，直到你的回合结束。</p>"
+    },
+    "gS62Drm7DuTrc9Y3": {
+      "name": "坐立不安",
+      "description": "<p><strong>触发</strong>一个生物移动至与你邻接</p><hr /><p><strong>效果</strong>你快步远离触发生物。</p>"
+    },
+    "ixBOSnRNcdfDVygI": {
+      "name": "让我听见你们的欢呼",
+      "description": "<p><strong>频率</strong>每天一次</p><hr /><p><strong>效果</strong>你以夸张的动作和过度的热情为自己造势，试图说服观众为你鼓掌。你获得1d4临时生命值，持续1分钟。60尺内的每个盟友都可以选择以反应为你鼓掌。每有一个盟友鼓掌，你获得的临时生命值便增加1。在9级以及此后每5级，初始临时生命值增加1d4，且每位盟友鼓掌所增加的临时生命值增加1。</p>"
+    },
+    "j1FsKMy7CTtrp3Fu": {
+      "name": "不羁心灵",
+      "description": "<p><strong>触发</strong>你尝试对抗心灵效果的豁免，但尚未掷骰</p><hr /><p><strong>效果</strong>你拒绝屈从于他人的意志，以坚定决心摆脱控制。直到你的下个回合开始，你在触发的豁免以及其他对抗心灵效果的豁免中获得+1环境加值。</p>"
+    },
+    "lDfffQX5QYWnNVA6": {
+      "name": "相位乱舞",
+      "description": "<p>你行走至多等于自身速度的距离，然后对触及内的每个生物各进行一次相位刃打击。每次攻击都计入多重攻击减值，但只有在完成所有这些攻击后才提高减值。</p>"
+    },
+    "lIZ9DhrkzM3AEQmX": {
+      "name": "迷幻闪光",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你的几丁质甲壳闪耀着变幻的色彩，配合柔和的动作，呈现出催眠般的景象。选择30尺内的一个生物。该生物必须在@Check[fortitude|against:class]豁免中成功对抗你的职业DC，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续1轮。</p>"
+    },
+    "lizh6clVUQm76uvK": {
+      "name": "辐射污染",
+      "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>一个生物以无武装攻击对你打击</p><hr /><p><strong>效果</strong>你使该生物暴露于辐射。触发生物必须进行@Check[fortitude|against:class-spell|options:damaging-effect,inflicts:sickened]豁免，对抗你的职业DC或法术DC，取较高者。失败时，该生物受到@Damage[1d6[poison]]伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}，持续1分钟。</p>"
+    },
+    "mbRH3JIu44z8nxXj": {
+      "name": "纳米形态打击",
+      "description": "<p>你对所有与你共处同一空间的生物造成@Damage[10d6[acid]]伤害（进行@Check[type:reflex|basic:true|dc:resolve(@actor.attributes.classOrSpellDC.value)]豁免，DC为你的职业DC或法术DC，取较高者）。</p>"
+    },
+    "mlWK8VSSJm3iumy6": {
+      "name": "反射伤害",
+      "description": "<p><strong>触发</strong>你受到所选类型的伤害</p><hr /><p><strong>效果</strong>你的护甲板进一步硬化，将伤害反射回去。对造成触发伤害的生物进行法术攻击检定。</p><hr /><p><strong>大成功</strong>该生物受到相当于两倍触发伤害或两倍你对触发伤害抗力值的伤害，取较低者。</p>\n<p><strong>成功</strong>如同大成功，但伤害不翻倍。</p>\n<p><strong>失败</strong>法术结束。</p>"
+    },
+    "nAJeT29ZJvqeg98h": {
+      "name": "叛逆抗争",
+      "description": "<p><strong>频率</strong>每天一次</p><hr /><p><strong>效果</strong>你谴责100尺内一个你能看见的敌人是暴君或恶徒，并决意反抗它，即使付出生命也在所不惜。你对该敌人的攻击检定获得+1环境加值，且对抗该敌人的攻击、法术和效果的豁免获得+1环境加值。这些增益持续1分钟。</p>"
+    },
+    "nPn7rGTTao4cFYDr": {
+      "name": "活体太空舱",
+      "description": "<p><strong>需求</strong>你处于零重力环境</p><hr /><p><strong>效果</strong>你膨胀身体，并用储存压缩氧气的特殊器官为体内充满可供呼吸的空气。如此做时，你的体型增至巨型，速度变为0。此形态下，你能搭载至多六个自愿的中型或更小生物，并使其完全免受太空真空的危害。</p>\n<p>只要仍处于真空中，你就能保持此形态，或选择以单动作恢复正常形态；除此之外，此能力持续时间为每等级一小时。</p>"
+    },
+    "ntmBjxw7Hw81Fogq": {
+      "name": "共情协助",
+      "description": "<p><strong>需求</strong>你与你群体中的一个自愿成员邻接，该成员当前处于惊惧状态，或受到具有情绪或心灵特征的有害效果影响</p><hr /><p><strong>效果</strong>你握住受影响的群体成员的手，安慰对方。若其惊惧，将其惊惧状态值降低1。若其正受到持续的情绪或心灵效果影响，则尝试反制触发的效果，反制环阶为你等级的一半（向上取整），反制调整值为你的察觉调整值。成功时，你承受该效果，持续其剩余持续时间，而该成员对共情协助免疫1小时。</p>"
+    },
+    "oKLA4xGqOkugw45C": {
+      "name": "滑溜皮肤",
+      "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong>一个生物触碰你，例如@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}你、以无武装攻击成功命中你，或对你使用接触法术</p><hr /><p><strong>效果</strong>你从皮肤中分泌毒素，对触发生物造成@Damage[ceil(@actor.level/2)d4[poison]]伤害，其进行@Check[fortitude|against:class-spell|basic]豁免，对抗你的职业DC或法术DC，取较高者。在3级以及此后每2级，此伤害增加1d4。</p>"
+    },
+    "ojicKYAURtjCsFbD": {
+      "name": "关闭硬光投影器",
+      "description": "<p><strong>需求</strong>你的核心正在投射硬光躯体</p><hr /><p><strong>效果</strong>你的硬光躯体消失，核心安全落到地面。你可以选择将任意数量的携带或穿戴物品存入核心的虚拟储物空间，但不能超过其最大容量；其余物品安全落在你所在的空间中。你的体型变为超小型，重量为1负载，且除了@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}、投射硬光躯体以及只需要动用心智的动作（由GM判断）外，无法行动。不投射躯体时，你的感官仍正常运作。</p>"
+    },
+    "pO1wkgklxp9j1taY": {
+      "name": "化为软泥",
+      "description": "<p><strong>频率</strong>每天一次</p><hr /><p><strong>效果</strong>你融化成一摊黏液，持续10分钟或直到你解消它。软泥形态下，你对挥砍和穿刺伤害具有等于等级一半的抗力。但在此形态下，你无法使用任何具有操作特征的动作或任何物品，不过仍能携带物品。</p>"
+    },
+    "pWMwGj8lnOpkU3Hr": {
+      "name": "变肤伪装",
+      "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>需求</strong>你处于每日准备时选定的地形中</p><hr /><p><strong>效果</strong>你专注于周遭环境，使皮肤的图案与颜色随之变化。你在所需地形中进行[[/act hide]]和[[/act sneak]]的隐秘检定时获得+2环境加值，持续10分钟。</p>"
+    },
+    "q9JILsKl2R4MyCQJ": {
+      "name": "注入纳米机械",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你为自身或触及内的一个生物注入医疗纳米机械，同时产生商用型注射笔和商用型医疗贴的效果。这些物品的品级在9级提升为战术型、13级提升为先进型、18级提升为卓越型。</p><hr /><p><strong>特殊</strong>若你具有自主机器人的医护传承，你可以每10分钟一次使用注入纳米机械。</p>"
+    },
+    "qjcTcdQpCVMJcNgi": {
+      "name": "杂波护盾",
+      "description": "<p><strong>触发</strong>你尝试对抗心灵效果的豁免，但尚未掷骰</p><hr /><p><strong>效果</strong>你释放心中的杂波，以其构成抵御心灵入侵的心能护盾。直到本回合结束，你在对抗心灵效果的豁免中获得+2环境加值，包括触发的豁免。</p>"
+    },
+    "sO7Jd4scwpQdTcgy": {
+      "name": "投射硬光躯体",
+      "description": "<p><strong>需求</strong>你的核心处于足以容纳硬光躯体体型的空间内，且当前未投射硬光躯体</p><hr /><p><strong>效果</strong>你的核心在其所在空间内投射出站立的硬光躯体，并安全地包裹在躯体中。作为此动作的一部分，你可以穿上所在空间内或核心虚拟储物空间中的护甲及任意数量的穿戴物品，也可以取出这些位置的物品。</p>"
+    },
+    "u9NU2bULHg3S5FaP": {
+      "name": "幽影步",
+      "description": "<p><strong>频率</strong>每轮一次</p>\n<p><strong>需求</strong>你处于昏暗光照或黑暗中。</p><hr /><p>你如同正常迈步一样在阴影间穿行。你传送至多30尺，目的地必须处于昏暗光照或黑暗中，且位于你的视线与效应线内。</p>"
+    },
+    "v6ITmtsDt1ZvGmK6": {
+      "name": "表情爆裂",
+      "description": "<p><strong>触发</strong>一个生物以打击命中你</p><hr /><p><strong>效果</strong>你引爆表情，在@Template[type:emanation|distance:5]中产生明亮光线。区域内的生物必须成功通过强韧豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，直到你的下个回合结束（大失败时为@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}）。</p>"
+    },
+    "vOQ6BYpQpHd4IycO": {
+      "name": "汲取源泉",
+      "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你汲取祖先共同积累的智慧。进行宗教检定，对任意主题[[/act recall-knowledge skill=religion]]。</p>"
+    },
+    "xVWuEj4nSfZ5vAOi": {
+      "name": "奇迹启动",
+      "description": "<p><strong>频率</strong>每天一次</p><hr /><p><strong>效果</strong>在3轮内，即使殖装已达到其启动频率上限，你仍能启动它。此外，在此期间启动殖装不计入其启动频率限制。</p>"
     }
   }
 }

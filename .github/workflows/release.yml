@@ -17,10 +17,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout main
+      - name: Checkout release tag
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: ${{ github.event.release.tag_name }}
           persist-credentials: true
 
       - name: Generate manifest
@@ -76,7 +76,10 @@ jobs:
             coverage.json \
             scripts \
             translations \
-            README.md
+            README.md \
+            THIRD-PARTY-NOTICES.md \
+            licenses \
+            reports
 
       - name: Upload release assets
         env:

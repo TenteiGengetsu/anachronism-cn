@@ -10,7 +10,188 @@
   },
   "entries": {
     "x9nA4lIcHmE7x8Tt": {
-      "name": "效果: 协调射击"
+      "name": "效果: 协调射击",
+      "description": "<p>你的下一次攻击检定获得+2环境加值。</p>"
+    },
+    "1uk1rvqSP0S2HfVG": {
+      "name": "效果：小魔怪的礼物",
+      "description": "<p>你使用所选技能的检定获得+2状态加值。</p>"
+    },
+    "2UI9dt0QM2VEvpJV": {
+      "name": "效果：星际之筏",
+      "description": "<p>你获得40尺飞行速度和宇宙特征。</p>"
+    },
+    "4J30S9nhyfaCX1Cm": {
+      "name": "效果：星舰附身",
+      "description": "<p>漂流尸崩溃者能够看见舰内任何地方，并在舰内时获得全域视野。</p>"
+    },
+    "5IVLUdHeIGnHADjZ": {
+      "name": "效果：输入过载灵光",
+      "description": "<p>对抗音波效果，以及改变书写内容或存储数据的效果时，你的AC和所有豁免承受–1状态减值。尝试阅读文档时，你必须成功通过一次@Check[flat|dc:5]，否则在接下来的1d4+1轮内无法阅读该文档。</p>"
+    },
+    "5lbVIAgzYywMJ3t2": {
+      "name": "效果：群兽鼓舞",
+      "description": "<p>你获得10点临时生命值，且你的近战打击额外造成1d6精准伤害。</p>"
+    },
+    "97keYapBgpIlaoNI": {
+      "name": "效果：女王的牺牲",
+      "description": "<p>你获得快速治疗15，并变为迅捷。</p>"
+    },
+    "Asd7LTVUZDrqZN6A": {
+      "name": "效果：自毁狂暴",
+      "description": "<p>你陷入困惑，攻击检定获得+1环境加值，伤害掷骰获得+2环境加值，AC承受–2环境减值。</p>"
+    },
+    "Bw1u0YIbG0ZV1CIR": {
+      "name": "效果：毛囊萌发",
+      "description": "<p>科尔扎代人对你的攻击检定和伤害掷骰获得+1环境加值。</p>"
+    },
+    "Gl74rxqPUxtOgj8E": {
+      "name": "效果：士气提升",
+      "description": "<p>你的速度获得+5尺加值。</p>"
+    },
+    "GpzaKY9WlDFAhgcg": {
+      "name": "效果：刮擦金属",
+      "description": "<p>你的尾巴获得以下特征：致命d4、妨碍和摧毁。</p>"
+    },
+    "IB3lQzXWYG4cYnVL": {
+      "name": "效果：奇气雾霭",
+      "description": "<p>该法术的伤害获得等于其环阶的状态加值。</p>"
+    },
+    "K1v7z7TWE52mpDV3": {
+      "name": "效果：返祖狂怒",
+      "description": "<p>梦者的攻击检定和伤害掷骰获得+2状态加值，持续1分钟，但无法使用其内在法术。</p>"
+    },
+    "LdbqPPiSg5gn5Kqp": {
+      "name": "效果：小魔怪的反转礼物",
+      "description": "<p>你使用所选技能的检定承受–4状态减值。</p>"
+    },
+    "NfqD670wtJoKTKW8": {
+      "name": "效果：强化变异",
+      "description": "<p>你的怪异利爪打击额外造成1d6酸蚀伤害。</p>"
+    },
+    "P0PjncVUqsdDFfhv": {
+      "name": "效果：协同狩猎",
+      "description": "<p>桑迪特潜猎虫对一个大型或更小的目标尝试打击后（无论成功或失败），其盟友对同一目标进行的下一次打击的攻击检定获得+2环境加值。</p>"
+    },
+    "QsTiJFodHt7RsfYh": {
+      "name": "效果：渗入",
+      "description": "<p>你根据伤害的性质获得一种效果。</p><ul><li><p><strong>能量伤害</strong> 你的攻击额外造成2d6伤害，类型与你受到的能量伤害相同。</p></li><li><p><strong>物理伤害</strong> 你获得物理伤害抗力6。如果伤害来自由银等特殊材料制成的武器，则在此效果持续期间，你的猛击污泥打击视为同样的材料。</p></li></ul>"
+    },
+    "UAk8nekzRLoGeEmW": {
+      "name": "效果：网上恶名",
+      "description": "<p>你有关太空地精喷子的@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}检定获得+2环境加值，而对抗其法术和“你急了？”效果的豁免承受–1环境减值。</p>"
+    },
+    "UEnGE804ZFRJmQYN": {
+      "name": "效果：带头冲锋",
+      "description": "<p>你对被标记目标的攻击获得+1环境加值。</p>"
+    },
+    "X5oMEjGHa8WsCiqW": {
+      "name": "效果：缓冲区域（失败）",
+      "description": "<p>你的攻击检定承受–1状态减值。</p>"
+    },
+    "ZWOPndNX0EIhYCG9": {
+      "name": "效果：振奋灵光",
+      "description": "<p>你获得8点临时生命值。</p>"
+    },
+    "ayrgURELCK5rhnna": {
+      "name": "效果：复原",
+      "description": "<p>你获得临时生命值。</p>"
+    },
+    "bx5WXjFyU9nu4UyE": {
+      "name": "效果：虹吸毒素",
+      "description": "<p>你的颚部和酸液喷吐打击，以及恶心之死能力的酸蚀伤害骰大小提高一级。</p>"
+    },
+    "c3Y1xZ6IIxbsnPk1": {
+      "name": "效果：执政官武装",
+      "description": "<p>你获得阿克谢斯打击。这是一件军用远程武器，造成2d10火焰伤害，属于激光武器组，射程增量为40尺，并具有模拟、神圣和追踪+2特征。以此武器进行的打击额外造成1d10精魂伤害。</p>"
+    },
+    "cA7lJArsiFL45GFa": {
+      "name": "效果：沙暴漩涡",
+      "description": "<p>你获得物理伤害抗力11。</p>"
+    },
+    "cRv8Hd1LmNp4QsWt": {
+      "name": "效果：多武器瞄准（削弱掩蔽）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.bestiary-effects.Item.mWa3Ff7KxRn2JqYp]通过临时效果赋予</p>\n<p>你从掩蔽获得的环境加值降低。</p>"
+    },
+    "ck4ogo5HX97e5UuM": {
+      "name": "效果：群落心智",
+      "description": "<p>当你对抗心灵效果的豁免取得成功时，改为获得大成功。</p>"
+    },
+    "e2z2ZdHOdc3BrVf8": {
+      "name": "效果：调谐灵光（引力子调谐）",
+      "description": "<p>你的速度承受–5尺状态减值。</p>"
+    },
+    "g5T2YGRn0nSGKYyy": {
+      "name": "效果：天然推进器",
+      "description": "<p>你的飞行速度获得+75尺状态加值，且尾击额外造成1d10挥砍伤害。</p>"
+    },
+    "h1bYCRQFvDl0gPkG": {
+      "name": "效果：沙暴帷幕",
+      "description": "<p>你获得物理伤害抗力6。</p>"
+    },
+    "hoEXGjNRjfVLAnua": {
+      "name": "效果：涡轮模式注射器",
+      "description": "<p>你变为迅捷，且只能将此额外动作用于行走或打击。你的爪击伤害提高至2d10+9挥砍伤害，但你无法持用武器或使用物品。</p>"
+    },
+    "i9yUijmTVWGddAN3": {
+      "name": "效果：盯住你了",
+      "description": "<p>你对指定目标额外造成4d6精准伤害，且对该目标搜寻或察言观色的察觉检定获得+2环境加值。</p>"
+    },
+    "jbyNkh8q1TWg8APb": {
+      "name": "效果：激发希望（敌人）",
+      "description": "<p>你对抗情绪和心灵效果的所有豁免承受–1状态减值。</p>"
+    },
+    "kxoPPo6Jl7c8ahpS": {
+      "name": "效果：一拥而上",
+      "description": "<p>你对目标的攻击检定和伤害掷骰获得+1状态加值。</p>"
+    },
+    "liRaJmKk1vWWuJ8W": {
+      "name": "效果：神圣告别",
+      "description": "<p>对抗具有邪秽特征的生物和危害所发出的攻击及效果时，你的AC和豁免获得+1状态加值。</p>"
+    },
+    "mWa3Ff7KxRn2JqYp": {
+      "name": "效果：多武器瞄准",
+      "description": "<p>你使用任何不具有区域特征的远程武器，对标记目标进行的远程打击额外造成2d4精准伤害，并将标记目标从掩蔽获得的AC环境加值降低1。</p>"
+    },
+    "mprZBMDC5a4U2STA": {
+      "name": "效果：神枪手",
+      "description": "<p>你从轻度或标准掩蔽获得的AC加值降低1。</p>"
+    },
+    "ncmWr1EPq7nGErQf": {
+      "name": "效果：舆论操盘手",
+      "description": "<p>你获得2d10点临时生命值。</p>"
+    },
+    "p2GrXbOJbv0OT4Zr": {
+      "name": "效果：集结部队",
+      "description": "<p>你获得临时生命值。</p>"
+    },
+    "qj97oOs2Z2qk9w00": {
+      "name": "效果：鲜血新生",
+      "description": "<p>你获得再生15（寒铁）。</p>"
+    },
+    "sNFHjpv27IFPVI9k": {
+      "name": "效果：射杀",
+      "description": "<p>你的AC承受–1环境减值。</p>"
+    },
+    "t5ZPkSBVnNF4Rm04": {
+      "name": "效果：激发希望（盟友）",
+      "description": "<p>你对抗情绪和心灵效果的所有豁免获得+1状态加值。</p>"
+    },
+    "uVKf8emUoSGeRZQt": {
+      "name": "效果：调谐灵光（光量子调谐）",
+      "description": "<p>你的速度获得+5尺状态加值。</p>"
+    },
+    "yAV9fgqOQUuxFEsX": {
+      "name": "效果：评估目标",
+      "description": "<p>你使用现实撕裂者对被标记目标额外造成1d8伤害，并将现实撕裂者的射程增量提高至80尺。</p>"
+    },
+    "yD5IItYIpW6pemaZ": {
+      "name": "效果：以恐惧领导",
+      "description": "<p>你的意志DC，以及对抗恐惧效果的意志豁免获得+2环境加值。</p>"
+    },
+    "ycvnhhQUcxfnZNhg": {
+      "name": "效果：法术膜",
+      "description": "<p>你对触发效果的一种伤害类型获得抗力10。</p>"
     }
   }
 }

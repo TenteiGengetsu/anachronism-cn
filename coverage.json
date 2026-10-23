@@ -1,5 +1,5 @@
 {
-  "version": "0.3.3",
+  "version": "0.3.4",
   "sourceSha256": "a0930bc5b32fbf533630128b11bd893b4bd0aedd18709e975302efd543fd5e1a",
   "glossarySha256": "868394c0ec129f215af1525d86814aaa78ae07fb95298f215b055e67c5bc680f",
   "wiki": {
@@ -11,246 +11,219 @@
   "translationFiles": 29,
   "totals": {
     "objects": 5616,
-    "translatedNames": 4760,
-    "changedObjects": 4980,
+    "changedObjects": 5611,
+    "translatedNames": 5539,
     "objectsWithDescriptions": 4900,
-    "changedDescriptions": 4151,
-    "descriptionsWithEnglishCandidates": 1241,
-    "embeddedNames": 4004,
-    "embeddedDescriptions": 1101,
-    "changedPublicNotes": 156,
-    "changedPrerequisiteFields": 942,
-    "pageNames": 95,
-    "retainedOriginalIdentifiers": 4
+    "changedDescriptions": 4898,
+    "changedPublicNotes": 183,
+    "embeddedNames": 5288,
+    "embeddedDescriptions": 2512,
+    "pageNames": 157,
+    "changedPageContents": 148
   },
   "packs": {
+    "sf2e-anachronism._packs-folders.json": {},
     "sf2e-anachronism.actions.json": {
       "objects": 151,
-      "translatedNames": 89,
-      "changedObjects": 89,
+      "changedObjects": 151,
+      "translatedNames": 151,
       "objectsWithDescriptions": 151,
-      "changedDescriptions": 85,
-      "descriptionsWithEnglishCandidates": 94
+      "changedDescriptions": 151
     },
     "sf2e-anachronism.alien-core-bestiary.json": {
       "objects": 247,
-      "translatedNames": 213,
       "changedObjects": 242,
+      "translatedNames": 213,
+      "changedPublicNotes": 125,
       "embeddedNames": 1757,
-      "embeddedDescriptions": 575,
-      "changedPublicNotes": 125
+      "embeddedDescriptions": 575
     },
     "sf2e-anachronism.ancestries.json": {
       "objects": 50,
-      "translatedNames": 41,
-      "changedObjects": 42,
+      "changedObjects": 50,
+      "translatedNames": 50,
       "objectsWithDescriptions": 50,
-      "changedDescriptions": 30,
-      "descriptionsWithEnglishCandidates": 24
+      "changedDescriptions": 50
     },
     "sf2e-anachronism.ancestry-features.json": {
       "objects": 62,
-      "translatedNames": 39,
-      "changedObjects": 40,
+      "changedObjects": 62,
+      "translatedNames": 61,
       "objectsWithDescriptions": 62,
-      "changedDescriptions": 29,
-      "descriptionsWithEnglishCandidates": 33
+      "changedDescriptions": 62
     },
     "sf2e-anachronism.backgrounds.json": {
       "objects": 164,
-      "translatedNames": 128,
-      "changedObjects": 129,
+      "changedObjects": 164,
+      "translatedNames": 164,
       "objectsWithDescriptions": 164,
-      "changedDescriptions": 106,
-      "descriptionsWithEnglishCandidates": 159
+      "changedDescriptions": 164
     },
     "sf2e-anachronism.bestiary-ability-glossary-srd.json": {
       "objects": 41,
-      "translatedNames": 2,
-      "changedObjects": 2,
+      "changedObjects": 41,
+      "translatedNames": 41,
       "objectsWithDescriptions": 39,
-      "changedDescriptions": 0,
-      "descriptionsWithEnglishCandidates": 37
+      "changedDescriptions": 37
     },
     "sf2e-anachronism.bestiary-effects.json": {
       "objects": 46,
-      "translatedNames": 1,
-      "changedObjects": 1,
+      "changedObjects": 46,
+      "translatedNames": 46,
       "objectsWithDescriptions": 46,
-      "changedDescriptions": 0,
-      "descriptionsWithEnglishCandidates": 46
+      "changedDescriptions": 46
     },
     "sf2e-anachronism.class-features.json": {
       "objects": 153,
-      "translatedNames": 149,
       "changedObjects": 153,
+      "translatedNames": 149,
       "objectsWithDescriptions": 153,
-      "changedDescriptions": 153,
-      "descriptionsWithEnglishCandidates": 7,
-      "retainedOriginalIdentifiers": 4,
-      "resolvedNames": 153
+      "changedDescriptions": 153
     },
     "sf2e-anachronism.classes.json": {
       "objects": 8,
-      "translatedNames": 8,
       "changedObjects": 8,
+      "translatedNames": 8,
       "objectsWithDescriptions": 8,
-      "changedDescriptions": 7,
-      "descriptionsWithEnglishCandidates": 3
+      "changedDescriptions": 8
     },
     "sf2e-anachronism.conditions.json": {
       "objects": 3,
-      "translatedNames": 3,
       "changedObjects": 3,
+      "translatedNames": 3,
       "objectsWithDescriptions": 3,
-      "changedDescriptions": 3,
-      "descriptionsWithEnglishCandidates": 1
+      "changedDescriptions": 3
     },
     "sf2e-anachronism.deities.json": {
       "objects": 18,
-      "translatedNames": 18,
       "changedObjects": 18,
+      "translatedNames": 18,
       "objectsWithDescriptions": 18,
-      "changedDescriptions": 18,
-      "descriptionsWithEnglishCandidates": 18
+      "changedDescriptions": 18
     },
     "sf2e-anachronism.equipment-effects.json": {
       "objects": 16,
-      "translatedNames": 12,
-      "changedObjects": 12,
+      "changedObjects": 16,
+      "translatedNames": 16,
       "objectsWithDescriptions": 16,
-      "changedDescriptions": 0,
-      "descriptionsWithEnglishCandidates": 16
+      "changedDescriptions": 16
     },
     "sf2e-anachronism.equipment.json": {
       "objects": 1161,
-      "translatedNames": 1161,
       "changedObjects": 1161,
+      "translatedNames": 1161,
       "objectsWithDescriptions": 1149,
-      "changedDescriptions": 1149,
-      "descriptionsWithEnglishCandidates": 150,
-      "retainedOriginalIdentifiers": 0,
-      "resolvedNames": 1161
+      "changedDescriptions": 1149
     },
     "sf2e-anachronism.feat-effects.json": {
       "objects": 204,
-      "translatedNames": 125,
-      "changedObjects": 125,
+      "changedObjects": 204,
+      "translatedNames": 204,
       "objectsWithDescriptions": 204,
-      "changedDescriptions": 0,
-      "descriptionsWithEnglishCandidates": 204
+      "changedDescriptions": 204
     },
     "sf2e-anachronism.feats.json": {
       "objects": 2199,
-      "translatedNames": 2199,
       "changedObjects": 2199,
+      "translatedNames": 2199,
       "objectsWithDescriptions": 2199,
-      "changedDescriptions": 2199,
-      "descriptionsWithEnglishCandidates": 144,
-      "changedPrerequisiteFields": 942,
-      "retainedOriginalIdentifiers": 0,
-      "resolvedNames": 2199
+      "changedDescriptions": 2199
     },
     "sf2e-anachronism.guilt-of-the-grave-world-bestiary.json": {
       "objects": 39,
-      "translatedNames": 6,
-      "changedObjects": 23,
-      "embeddedNames": 119,
-      "embeddedDescriptions": 40,
-      "changedPublicNotes": 1
+      "changedObjects": 39,
+      "translatedNames": 39,
+      "embeddedNames": 258,
+      "embeddedDescriptions": 161,
+      "changedPublicNotes": 6
     },
     "sf2e-anachronism.heritages.json": {
       "objects": 338,
-      "translatedNames": 248,
-      "changedObjects": 248,
+      "changedObjects": 338,
+      "translatedNames": 338,
       "objectsWithDescriptions": 338,
-      "changedDescriptions": 141,
-      "descriptionsWithEnglishCandidates": 213
+      "changedDescriptions": 338
     },
     "sf2e-anachronism.iconics.json": {
       "objects": 24,
-      "translatedNames": 0,
       "changedObjects": 24,
+      "translatedNames": 0,
       "embeddedNames": 783,
       "embeddedDescriptions": 114
     },
     "sf2e-anachronism.journals.json": {
       "objects": 4,
-      "translatedNames": 1,
       "changedObjects": 4,
-      "pageNames": 95
+      "translatedNames": 1,
+      "pageNames": 157,
+      "changedPageContents": 148
     },
     "sf2e-anachronism.paizo-pregens.json": {
       "objects": 11,
-      "translatedNames": 0,
       "changedObjects": 11,
+      "translatedNames": 0,
       "embeddedNames": 309,
       "embeddedDescriptions": 178
     },
     "sf2e-anachronism.rulebook-bestiaries.json": {
       "objects": 128,
-      "translatedNames": 36,
-      "changedObjects": 46,
-      "embeddedNames": 254,
-      "embeddedDescriptions": 47,
-      "changedPublicNotes": 16
+      "changedObjects": 128,
+      "translatedNames": 128,
+      "embeddedNames": 488,
+      "embeddedDescriptions": 388,
+      "changedPublicNotes": 21
     },
     "sf2e-anachronism.secrets-of-the-swarm-bestiary.json": {
       "objects": 36,
-      "translatedNames": 9,
-      "changedObjects": 23,
-      "embeddedNames": 157,
-      "embeddedDescriptions": 20,
-      "changedPublicNotes": 5
+      "changedObjects": 36,
+      "translatedNames": 36,
+      "embeddedNames": 303,
+      "embeddedDescriptions": 207,
+      "changedPublicNotes": 16
     },
     "sf2e-anachronism.spell-effects.json": {
       "objects": 54,
-      "translatedNames": 26,
-      "changedObjects": 26,
+      "changedObjects": 54,
+      "translatedNames": 54,
       "objectsWithDescriptions": 54,
-      "changedDescriptions": 0,
-      "descriptionsWithEnglishCandidates": 54
+      "changedDescriptions": 54
     },
     "sf2e-anachronism.spells.json": {
       "objects": 231,
-      "translatedNames": 231,
       "changedObjects": 231,
+      "translatedNames": 231,
       "objectsWithDescriptions": 231,
-      "changedDescriptions": 231,
-      "descriptionsWithEnglishCandidates": 23,
-      "retainedOriginalIdentifiers": 0,
-      "resolvedNames": 231
+      "changedDescriptions": 231
     },
     "sf2e-anachronism.standalone-adventure-bestiary.json": {
       "objects": 25,
-      "translatedNames": 11,
-      "changedObjects": 19,
-      "embeddedNames": 104,
-      "embeddedDescriptions": 38,
-      "changedPublicNotes": 8
+      "changedObjects": 25,
+      "translatedNames": 25,
+      "embeddedNames": 188,
+      "embeddedDescriptions": 123,
+      "changedPublicNotes": 11
     },
     "sf2e-anachronism.starfinder-society-bestiary.json": {
       "objects": 93,
-      "translatedNames": 3,
-      "changedObjects": 51,
-      "embeddedNames": 302,
-      "embeddedDescriptions": 37,
-      "changedPublicNotes": 1
+      "changedObjects": 93,
+      "translatedNames": 93,
+      "embeddedNames": 643,
+      "embeddedDescriptions": 384,
+      "changedPublicNotes": 4
     },
     "sf2e-anachronism.starfinder-society-boons.json": {
       "objects": 15,
-      "translatedNames": 1,
-      "changedObjects": 1,
+      "changedObjects": 15,
+      "translatedNames": 15,
       "objectsWithDescriptions": 15,
-      "changedDescriptions": 0,
-      "descriptionsWithEnglishCandidates": 15
+      "changedDescriptions": 15
     },
     "sf2e-anachronism.tales-from-the-vast-bestiary.json": {
       "objects": 95,
-      "translatedNames": 0,
-      "changedObjects": 49,
-      "embeddedNames": 219,
-      "embeddedDescriptions": 52
+      "changedObjects": 95,
+      "translatedNames": 95,
+      "embeddedNames": 559,
+      "embeddedDescriptions": 382
     }
   },
   "changedStringFields": 15536,
@@ -655,5 +628,8 @@
     "registrationVersionLockRemoved": true,
     "holyCorrectionSourceVersion": "2.4.0",
     "futureSourceContentVerified": false
-  }
+  },
+  "stage": "partial-full-module-localization",
+  "measurementNote": "字段变化/中文出现统计不等于逐字全译完成；阶段范围与剩余工作见reports/progress-0.3.4.json。",
+  "progressReport": "reports/progress-0.3.4.json"
 }

@@ -10,35 +10,36 @@
   },
   "entries": {
     "FYCUzPaaCU4G66Wz": {
-      "name": "秘术师"
+      "name": "秘术师",
+      "description": "<p><em>你是传导者，引导着连接并维系宇宙万物的基本力量。你可以汲取这股超自然源泉，与盟友建立深厚的灵性纽带，在战斗中强化他们，并在他们受伤时恢复其健康。你的力量因所选联结而呈现独特形态；随着你对联结的探索不断深入，你将获得新的、更强大的法术。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.yiqOagqH2NXjlisZ]{秘术师}</p>"
     },
     "PMX0vxZeLdaofMVd": {
       "name": "机械师",
-      "description": "<p><em>说到科技，你的理解无人能及。你不断制作和改造装备，无论是计算机、爆炸物、工具、武器还是自己设计的物品。你制造了一个复杂的外皮层（Exocortex），这是一种定制的神经植入装置，可以将你自己的思维连接上最复杂的造物：无人机伙伴，遥控武器炮塔，或是爆炸性地雷。如果有东西坏了——或者需要被破坏——你就是那个人。</em></p>"
+      "description": "<p><em>说到科技，你的理解无人能及。你不断制作和改造装备，无论是计算机、爆炸物、工具、武器，还是自己设计的物品。你制造了一个复杂的外皮层，这是一种定制的神经植入装置，将你的思维与自己最复杂的造物相连：无人机伙伴、遥控武器炮塔或爆炸性地雷。如果有东西坏了——或者需要被破坏——你就是这方面的专家。</em></p>"
     },
     "QhD0tldbCGmGYeoQ": {
       "name": "织维巫师",
-      "description": "<p><em>一场奇异荒诞的事件永久改变了你的存在本质，自此，你可将现实化为掌中丝弦。你探索多元宇宙中的无穷可能，乃至窥视不同时间线。足以颠覆时空的神秘场域随你意愿产生，为你的强大魔法铺就基石。而一段记忆、概念，或物体皆可作为你认知世界的锚点，你深知如何专注于此。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Qaue1LUZUrEFYfT0]{Witchwarper}</p>"
+      "description": "<p><em>一场奇异的悖论事件永久改变了你的存在，如今你可以操纵现实。你探索多元宇宙的无限可能，或许还能看到不同的时间线或平行世界。你创造颠覆时空的场域，借此施展强大的魔法。你已学会专注于一段作为锚点的记忆、一个概念或一件物品，以帮助自己辨识现实。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Qaue1LUZUrEFYfT0]{织维巫师}</p>"
     },
     "cUWBC21I0XbzP44A": {
       "name": "特工",
-      "description": "<p>你机敏警觉，是在激战中如鱼得水的专业人士。致命枪法和战术素养让你在较量中占尽上风——对你来说，最强大的敌手也不过是又一个靶子。在你的专精领域中，你更有惊人的造诣。</p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.e3x0k83hYe1awVvT]{Operative}</p>"
+      "description": "<p>你是专注而机敏的专业人士，在生死攸关的战斗中如鱼得水。致命的枪法与战术训练使你在较量中占尽上风——对你而言，即使最强大的敌人也只是另一个需要解决的目标。你在自己选择的专精领域中拥有非凡的造诣。</p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.e3x0k83hYe1awVvT]{特工}</p>"
     },
     "hqRClk6ZQpjENv2C": {
       "name": "科技法师",
-      "description": "<p><em>你知道魔法和科技都是同一种代码的一部分——一套你已懂得破解的代码。你精通一种魔法编程语言，它能让你的设备超频，性能更高，用途更广。你学会了越狱你的法术，让你的魔法突破极限。你是来骇入现实的。</em></p>"
+      "description": "<p><em>你知道魔法与科技都属于同一套代码——而你已经学会了破解它。你精通一种魔法编程语言，能让装备超频，提升性能并拓展用途。你已学会为自己的法术越狱，让魔法突破极限。你为骇入现实而来。</em></p>"
     },
     "sGupLSC7oqsN18sI": {
       "name": "士兵",
-      "description": "<p><em>你是使用区域武器、重甲和抗线的大师。你屹立于最激烈的前线，向敌人释放毁灭性的炮火，并抗下反击火力。通过强大的武器投射压制弹幕，迫使敌人集火自身，你能掩护盟友各行其道。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.KVjJqpDk71Q7MrWF]{Soldier}</p>"
+      "description": "<p><em>你精通区域武器和重甲，也擅长承受伤害。你奋战在战斗最激烈的地方，向敌人倾泻毁灭性的齐射，同时承受对方猛烈的还击。你以强大的武器铺设压制火力，吸引敌人将注意力集中在自己身上，为盟友各司其职创造条件。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.KVjJqpDk71Q7MrWF]{士兵}</p>"
     },
     "wu88dOKl86DTo427": {
       "name": "使节",
-      "description": "<p><em>你是大师级别的意见领袖。你以迷人的微笑，聪敏的急智，敏锐的自我保护意识在物质宇宙中取得成功。你是位能激励队友，使他们超越极限，帮助他们度过难关的领袖。你擅长让他人依照你的意愿行事，但在事情变糟时，你又总能迎难而上。You might be a con artist, diplomat, performer, or military officer—or you might take on whatever role the situation demands.</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.r2bLZofQDDBIk6Ir]{Envoy}</p>"
+      "description": "<p><em>你是影响他人的大师。你凭借迷人的微笑、敏捷的才思和敏锐的自保意识闯荡宇宙。你是激励队友、推动他们突破极限并助其渡过难关的领袖。你擅长让他人依照你的意愿行事，但在局势恶化时，也总准备好直面麻烦。你可能是骗子、外交官、表演者或军官，也可能根据局势的需要扮演任何角色。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.r2bLZofQDDBIk6Ir]{使节}</p>"
     },
     "zAI2ugYWzbUnmaez": {
       "name": "恒星武士",
-      "description": "<p><em>你是引导宇宙星辰之力的隧道——一名星辰骑士。重力与光分别位于这份力量天平的两极，而你可以则可以以身入道，调和其间。作为这一轮二元循环的代行者，你能够显现一系列恒星武装，并利用自身与星辰之力的联系来强化它们。无论你偏爱这星辰光谱的哪一极，你都能自如地改变自身同其二者间的调谐，并通过刻苦的冥想与锻炼来获取独一无二的特殊力量。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Nb6sw1oNTFwVPlLu]{Solarian}</p>"
+      "description": "<p><em>你是传导宇宙星辰之力的媒介——一名恒星骑士。引力与光代表这些力量的两极，而你可以在二者之间调整自身的调谐。作为这一循环的代行者，你显现出一系列恒星武装，并利用自身与星辰之力的联系来强化它们。无论你偏爱恒星光谱的哪一极，你都可以在二者之间改变调谐，运用通过冥想和练习获得的恒星之力。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Nb6sw1oNTFwVPlLu]{恒星武士}</p>"
     }
   }
 }

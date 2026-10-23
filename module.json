@@ -1,15 +1,15 @@
 {
   "id": "sf2e-anachronism-zh-cn",
   "title": "SF2e Anachronism 中文汉化",
-  "description": "独立Babele中文补丁，覆盖法术、装备／道具、全部专长及职业能力。按用户授权修正商用型圣洁模组为2d4，其他规则及链接保留。",
-  "version": "0.3.3",
+  "description": "独立Babele中文补丁。补齐职业与日志正文，扩展动作、族裔、背景、效果及六个怪物/预设角色包；全模组汉化仍在推进。保留自动化和链接，商用型圣洁模组按授权修正为2d4。",
+  "version": "0.3.4",
   "compatibility": {
     "minimum": "14.360",
     "verified": "14",
     "maximum": "14"
   },
   "manifest": "https://raw.githubusercontent.com/TenteiGengetsu/anachronism-cn/main/module.json",
-  "download": "https://github.com/TenteiGengetsu/anachronism-cn/releases/download/v0.3.3/anachronism-cn.zip",
+  "download": "https://github.com/TenteiGengetsu/anachronism-cn/releases/download/v0.3.4/anachronism-cn.zip",
   "url": "https://github.com/TenteiGengetsu/anachronism-cn",
   "esmodules": [
     "scripts/register.mjs"

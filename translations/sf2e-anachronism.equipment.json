@@ -72,7 +72,7 @@
     },
     "0nwPg1mjgk2W0bDQ": {
       "name": "先进型神经阻尼器",
-      "description": "<p>符文回路沿你的大脑表面布设，防范读心或其他心灵攻击。你获得心灵抗力15。</p>\n<p><strong>启动—提升心灵防御</strong> <span class=\"action-glyph\">1</span> （专注，心灵）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 灵能沿抑制器的回路涌动，使你在对抗心灵效应的意志豁免和意志DC中获得+3环境加值，持续1分钟。</p>"
+      "description": "<p>符文回路沿你的大脑表面布设，防范读心或其他心灵攻击。你获得心灵抗力15。</p>\n<p><strong>启动—提升心灵防御</strong> <span class=\"action-glyph\">1</span> （专注，心灵）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 心能沿抑制器的回路涌动，使你在对抗心灵效应的意志豁免和意志DC中获得+3环境加值，持续1分钟。</p>"
     },
     "0omd5UjfvBvWNrcd": {
       "name": "完美型光尘炸弹",
@@ -432,7 +432,7 @@
     },
     "796ZmXOaT15j2Jwg": {
       "name": "回溯透镜",
-      "description": "<p>这款高科技放大镜的外缘刻有异能符号，经过正确校准后能窥视过去。回溯透镜也可制作为增强其他感官，最常见的是嗅觉，以供目盲生物使用。使用此透镜时，你在用于[[/act seek]]和@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]的察觉检定上获得+2物品加值。</p>\n<p><strong>启动—灵能线索</strong> （专注、操作、神秘）1分钟</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 将透镜举到一只眼前并调节焦距，你就能看见当前周围区域在过去一天内发生事件留下的灵能印象。你可以查看这些回响1分钟，获得关于那段时间所发生事件的模糊线索。你的察觉检定获得+2物品加值，用于 [[/act sense-motive]] ，持续24小时，适用于询问当时在场或知道发生了什么的生物。这些线索以情感残留和隐晦象征的形式出现，而非清晰的影像。由GM裁定，若你得知某件创伤特别严重的事件，你必须成功通过 @Check[will|dc:34] 豁免，否则会陷入 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2} 持续1小时 （@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 3} ，大失败时）。</p>"
+      "description": "<p>这款高科技放大镜的外缘刻有异能符号，经过正确校准后能窥视过去。回溯透镜也可制作为增强其他感官，最常见的是嗅觉，以供目盲生物使用。使用此透镜时，你在用于[[/act seek]]和@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]的察觉检定上获得+2物品加值。</p>\n<p><strong>启动—灵能线索</strong> （专注、操作、神秘）1分钟</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 将透镜举到一只眼前并调节焦距，你就能看见当前周围区域在过去一天内发生事件留下的心能印象。你可以查看这些回响1分钟，获得关于那段时间所发生事件的模糊线索。你的察觉检定获得+2物品加值，用于 [[/act sense-motive]] ，持续24小时，适用于询问当时在场或知道发生了什么的生物。这些线索以情感残留和隐晦象征的形式出现，而非清晰的影像。由GM裁定，若你得知某件创伤特别严重的事件，你必须成功通过 @Check[will|dc:34] 豁免，否则会陷入 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2} 持续1小时 （@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 3} ，大失败时）。</p>"
     },
     "7BZM2I0fasujPIEa": {
       "name": "链锯剑",
@@ -440,7 +440,7 @@
     },
     "7CMMrOsOmHPKffsB": {
       "name": "磁力靴",
-      "description": "<p>磁力靴可以用一个交互动作启动或关闭。激活时，它们使你在用于攀爬金属表面的运动检定上获得+1物品加值；站在金属表面上时，你对抗以下检定的强韧DC或反射DC还会获得+1物品加值： @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{冲撞}，或 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{绊摔} 你（当你站在金属表面上时）。在零重力区域内，穿戴一双磁力靴时，你可以沿金属表面移动至多你的速度，且不会获得失重状态。</p>"
+      "description": "<p>磁力靴可以用一个交互动作启动或关闭。启动时，它们使你用于攀爬金属表面的运动检定获得+1物品加值；当你站在金属表面上时，你对抗他人对你@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}、@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{冲撞}或@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{绊摔}的强韧DC或反射DC还会获得+1物品加值。在零重力区域内，穿戴一双磁力靴时，你可以沿金属表面移动至多等于自身速度的距离，且不会获得失重状态。</p>"
     },
     "7KrNTRa5WpVdv2Vw": {
       "name": "战斗手套",
@@ -464,7 +464,7 @@
     },
     "7YWd7JZA47NMkrKH": {
       "name": "菁英型突击公文包",
-      "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>你可以在突击公文包中安装一件不高于1负载的单手远程武器。你在@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]安装在突击公文包中武器的隐秘检定和DC上获得+2物品加值（如果武器拥有易藏特征则为+4）。你可以用一个交互动作来部署已安装的武器，让你在持握公文包时能以单手持用它。</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
+      "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>你可以在突击公文包中安装一件不超过1负载的单手远程武器。你在@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]安装在突击公文包中武器的隐秘检定和DC上获得+2物品加值（如果武器拥有易藏特征则为+4）。你可以用一个交互动作来部署已安装的武器，让你在持握公文包时能以单手持用它。</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
     },
     "7aGluzZ4bjfXbygG": {
       "name": "战术型野外科学工具包",
@@ -516,7 +516,7 @@
     },
     "87ExVxkkYur012Hq": {
       "name": "商用型硬化泡沫手雷",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续1轮</p><hr /><p>手雷爆裂后，迅速扩张的硬化泡沫限制区域内生物的移动，进行 @Check[reflex|against:class|basic] 豁免。如果你拥有手雷的重击专精效果，对硬化泡沫手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，以你的职业DC作为脱逃DC。</p>\n<p>爆发半径为 @Template[burst|distance:5]，失败时该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 持续1轮。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续1轮</p><hr /><p>手雷爆裂后，迅速扩张的硬化泡沫限制区域内生物的移动；区域内的生物进行@Check[reflex|against:class|basic]豁免。如果你拥有手雷的重击专精效果，对硬化泡沫手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，以你的职业DC作为逃脱DC。</p>\n<p>爆发半径为 @Template[burst|distance:5]，失败时该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 持续1轮。</p>"
     },
     "8CgzoVKwSX9TiAaM": {
       "name": "先进型灭火器",
@@ -860,7 +860,7 @@
     },
     "G2bar8FqWIDpxy0Q": {
       "name": "商用型撬门数据挖掘器",
-      "description": "<p>当自动黑客程序被启动时，这个数据挖掘器的UI会显示一个8位的开锁小游戏，可以在骇入程序特别复杂的锁时进行游玩。它为用于骇入门的计算机以开启、关闭、上锁或解锁某扇门的计算机检定提供+2状态加值，持续1分钟。</p>\n<p><strong>启动—数据雷自动骇入</strong> <span class=\"action-glyph\">2</span> （操作）数据雷迅速尝试 @UUID[Compendium.sf2e-anachronism.actions.Item.RF8xNJ8QsMwogerB] 门的计算机，以打开、关闭、锁定或解锁门。它以+5调整值和受训级技能熟练度进行计算机检定，以骇入该门。</p>"
+      "description": "<p>自动骇入程序运行时，此数据挖掘器的界面会显示一款8位开锁小游戏，可供你在程序骇入特别复杂的锁时游玩。它使你为打开、关闭、上锁或解锁一扇门而骇入计算机的计算机检定获得+2状态加值，持续1分钟。</p>\n<p><strong>启动—数据雷自动骇入</strong> <span class=\"action-glyph\">2</span> （操作）数据雷迅速尝试 @UUID[Compendium.sf2e-anachronism.actions.Item.RF8xNJ8QsMwogerB] 门的计算机，以打开、关闭、锁定或解锁门。它以+5调整值和受训级技能熟练度进行计算机检定，以骇入该门。</p>"
     },
     "G64VfK5H5zUM1tB0": {
       "name": "战术型消音器",
@@ -960,7 +960,7 @@
     },
     "Hx6ZDg9n5Uz830IJ": {
       "name": "战术型突击公文包",
-      "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>你可以在突击公文包中安装一件不高于1负载的单手远程武器。你在@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]安装在突击公文包中武器的隐秘检定和DC上获得+2物品加值（如果武器拥有易藏特征则为+4）。你可以用一个交互动作来部署已安装的武器，让你在持握公文包时能以单手持用它。</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
+      "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>你可以在突击公文包中安装一件不超过1负载的单手远程武器。你在@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]安装在突击公文包中武器的隐秘检定和DC上获得+2物品加值（如果武器拥有易藏特征则为+4）。你可以用一个交互动作来部署已安装的武器，让你在持握公文包时能以单手持用它。</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
     },
     "HxHlEHM9F9AH36sI": {
       "name": "先进型机械心智血清",
@@ -984,7 +984,7 @@
     },
     "IOiDCepKBcAvTUml": {
       "name": "菁英型快干泡沫手雷",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放迅速膨胀的泡沫，黏在生物身上，阻止其移动。位于以下区域内的生物： @Template[burst|distance:25] ，若未能通过 @Check[reflex|against:class] 豁免失败者会 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足} ，持续1分钟，随后泡沫干燥；或直到它们成功对抗原反射豁免DC进行脱逃。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放迅速膨胀的泡沫，黏在生物身上，阻止其移动。@Template[burst|distance:25]内的生物若@Check[reflex|against:class]豁免失败，便会陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，持续1分钟，届时泡沫干燥；若生物在此之前成功对抗原反射豁免DC逃脱，也能结束此状态。</p>"
     },
     "IjmO1DY00eygOvCO": {
       "name": "光能合成表皮",
@@ -1112,7 +1112,7 @@
     },
     "Lm1IVWsaDUWQIvC4": {
       "name": "卓越型快干泡沫手雷",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放迅速膨胀的泡沫，黏在生物身上，阻止其移动。位于以下区域内的生物： @Template[burst|distance:20] ，若未能通过 @Check[reflex|against:class] 豁免失败者会 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足} ，持续1分钟，随后泡沫干燥；或直到它们成功对抗原反射豁免DC进行脱逃。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放迅速膨胀的泡沫，黏在生物身上，阻止其移动。@Template[burst|distance:20]内的生物若@Check[reflex|against:class]豁免失败，便会陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，持续1分钟，届时泡沫干燥；若生物在此之前成功对抗原反射豁免DC逃脱，也能结束此状态。</p>"
     },
     "LuOEEBhDJGPOBVCZ": {
       "name": "追踪模块",
@@ -1180,7 +1180,7 @@
     },
     "MozoKkEBcU8BGHTF": {
       "name": "菁英型硬化泡沫手雷",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续2轮</p><hr /><p>手雷爆裂后，迅速扩张的硬化泡沫限制区域内生物的移动，进行 @Check[reflex|against:class|basic] 豁免。如果你拥有手雷的重击专精效果，对硬化泡沫手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，以你的职业DC作为脱逃DC。</p>\n<p>爆发半径为 @Template[burst|distance:15]，失败时该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚} 和 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 持续1轮。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续2轮</p><hr /><p>手雷爆裂后，迅速扩张的硬化泡沫限制区域内生物的移动；区域内的生物进行@Check[reflex|against:class|basic]豁免。如果你拥有手雷的重击专精效果，对硬化泡沫手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，以你的职业DC作为逃脱DC。</p>\n<p>爆发半径为 @Template[burst|distance:15]，失败时该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚} 和 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 持续1轮。</p>"
     },
     "MyP7tzmpyYHjhm9b": {
       "name": "商用型衰竭之手",
@@ -1216,7 +1216,7 @@
     },
     "NbbyRaABV8DHOU7p": {
       "name": "先进型突击公文包",
-      "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>你可以在突击公文包中安装一件不高于1负载的单手远程武器。你在@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]安装在突击公文包中武器的隐秘检定和DC上获得+2物品加值（如果武器拥有易藏特征则为+4）。你可以用一个交互动作来部署已安装的武器，让你在持握公文包时能以单手持用它。</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
+      "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>你可以在突击公文包中安装一件不超过1负载的单手远程武器。你在@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]安装在突击公文包中武器的隐秘检定和DC上获得+2物品加值（如果武器拥有易藏特征则为+4）。你可以用一个交互动作来部署已安装的武器，让你在持握公文包时能以单手持用它。</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
     },
     "NrP9WazrcBuJfjxR": {
       "name": "菁英型水晶电震碎片",
@@ -1344,7 +1344,7 @@
     },
     "PcwjlZ2nnoSEQNpg": {
       "name": "卓越型硬化泡沫手雷",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续2轮</p><hr /><p>手雷爆裂后，迅速扩张的硬化泡沫限制区域内生物的移动，进行 @Check[reflex|against:class|basic] 豁免。如果你拥有手雷的重击专精效果，对硬化泡沫手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，以你的职业DC作为脱逃DC。</p>\n<p>爆发半径为 @Template[burst|distance:15]，失败时，该生物 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地} 并 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 持续1轮。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续2轮</p><hr /><p>手雷爆裂后，迅速扩张的硬化泡沫限制区域内生物的移动；区域内的生物进行@Check[reflex|against:class|basic]豁免。如果你拥有手雷的重击专精效果，对硬化泡沫手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，以你的职业DC作为逃脱DC。</p>\n<p>爆发半径为 @Template[burst|distance:15]，失败时，该生物 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地} 并 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 持续1轮。</p>"
     },
     "PlcS8xrnX8NyWxj9": {
       "name": "脑波仪",
@@ -1500,7 +1500,7 @@
     },
     "SFgmhbrinHfYVgKB": {
       "name": "先进型硬化泡沫手雷",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续1轮</p><hr /><p>手雷爆裂后，迅速扩张的硬化泡沫限制区域内生物的移动，进行 @Check[reflex|against:class|basic] 豁免。如果你拥有手雷的重击专精效果，对硬化泡沫手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，以你的职业DC作为脱逃DC。</p>\n<p>爆发半径为 @Template[burst|distance:10]，失败时，该生物 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地} 并 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 持续1轮。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续1轮</p><hr /><p>手雷爆裂后，迅速扩张的硬化泡沫限制区域内生物的移动；区域内的生物进行@Check[reflex|against:class|basic]豁免。如果你拥有手雷的重击专精效果，对硬化泡沫手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，以你的职业DC作为逃脱DC。</p>\n<p>爆发半径为 @Template[burst|distance:10]，失败时，该生物 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地} 并 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 持续1轮。</p>"
     },
     "SGdVaPZmhell8gsV": {
       "name": "先进型刺肉皮肤",
@@ -1724,7 +1724,7 @@
     },
     "WGdcokSMynEyF332": {
       "name": "探险者餐盒",
-      "description": "<p>这个保温壶有着两个隔层。上层隔层包含纳米机器和针对常见污染物的过滤器，使大部分食物和水可以安全使用，并在对抗任何食物或水中的毒素或疾病的豁免中给予+1物品加值。下层隔层将插入的通用聚合物基材（UPB）以2UPB换取1天份营养量的比例转化为可食用的营养膏。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.52tyG1y50LmTqCA9]</p>"
+      "description": "<p>这个保温壶有着两个隔层。上层隔层包含纳米机器和针对常见污染物的过滤器，使大部分食物和水可以安全食用，并在对抗任何食物或水中的毒素或疾病的豁免中给予+1物品加值。下层隔层将插入的通用聚合物基材（UPB）以2UPB换取1天份营养量的比例转化为可食用的营养膏。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.52tyG1y50LmTqCA9]</p>"
     },
     "WMt7xUke0gPagk2q": {
       "name": "商用型尸皮",
@@ -1872,7 +1872,7 @@
     },
     "ZZXbmSq3g8AA67RC": {
       "name": "战术型硬化泡沫手雷",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续1轮</p><hr /><p>手雷爆裂后，迅速扩张的硬化泡沫限制区域内生物的移动，进行 @Check[reflex|against:class|basic] 豁免。如果你拥有手雷的重击专精效果，对硬化泡沫手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，以你的职业DC作为脱逃DC。</p>\n<p>爆发半径为 @Template[burst|distance:10]，失败时该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 持续1轮。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续1轮</p><hr /><p>手雷爆裂后，迅速扩张的硬化泡沫限制区域内生物的移动；区域内的生物进行@Check[reflex|against:class|basic]豁免。如果你拥有手雷的重击专精效果，对硬化泡沫手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，以你的职业DC作为逃脱DC。</p>\n<p>爆发半径为 @Template[burst|distance:10]，失败时该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 持续1轮。</p>"
     },
     "ZdItrVii0l2yuSMJ": {
       "name": "商用型力场护盾",
@@ -1888,7 +1888,7 @@
     },
     "a0Fp2OVatJVuoV0q": {
       "name": "卓越型突击公文包",
-      "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>你可以在突击公文包中安装一件不高于1负载的单手远程武器。你在@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]安装在突击公文包中武器的隐秘检定和DC上获得+2物品加值（如果武器拥有易藏特征则为+4）。你可以用一个交互动作来部署已安装的武器，让你在持握公文包时能以单手持用它。</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
+      "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>你可以在突击公文包中安装一件不超过1负载的单手远程武器。你在@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]安装在突击公文包中武器的隐秘检定和DC上获得+2物品加值（如果武器拥有易藏特征则为+4）。你可以用一个交互动作来部署已安装的武器，让你在持握公文包时能以单手持用它。</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
     },
     "a0Kh8y8UHHyRVcz4": {
       "name": "战术型痛苦日记",
@@ -1980,7 +1980,7 @@
     },
     "bkVpqx80eO4K2mRn": {
       "name": "战术型撬门数据挖掘器",
-      "description": "<p>当自动黑客程序被启动时，这个数据挖掘器的UI会显示一个8位的开锁小游戏，可以在骇入程序特别复杂的锁时进行游玩。它为用于骇入门的计算机以开启、关闭、上锁或解锁某扇门的计算机检定提供+2状态加值，持续1分钟。</p>\n<p><strong>启动—数据雷自动骇入</strong> <span class=\"action-glyph\">2</span> （操作）数据雷迅速尝试 @UUID[Compendium.sf2e-anachronism.actions.Item.RF8xNJ8QsMwogerB] 门的计算机，以打开、关闭、锁定或解锁门。它以+11调整值和专家级技能熟练度进行计算机检定，以骇入该门。</p>"
+      "description": "<p>自动骇入程序运行时，此数据挖掘器的界面会显示一款8位开锁小游戏，可供你在程序骇入特别复杂的锁时游玩。它使你为打开、关闭、上锁或解锁一扇门而骇入计算机的计算机检定获得+2状态加值，持续1分钟。</p>\n<p><strong>启动—数据雷自动骇入</strong> <span class=\"action-glyph\">2</span> （操作）数据雷迅速尝试 @UUID[Compendium.sf2e-anachronism.actions.Item.RF8xNJ8QsMwogerB] 门的计算机，以打开、关闭、锁定或解锁门。它以+11调整值和专家级技能熟练度进行计算机检定，以骇入该门。</p>"
     },
     "btcbYUK4UqgQ699i": {
       "name": "化学分析仪",
@@ -1988,7 +1988,7 @@
     },
     "bwDtxTGa1cToYCq3": {
       "name": "战术型神经阻尼器",
-      "description": "<p>符文回路沿你的大脑表面布设，防范读心或其他心灵攻击。你获得心灵抗力10。</p>\n<p><strong>启动—提升心灵防御</strong> <span class=\"action-glyph\">1</span> （专注，心灵）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 灵能沿抑制器的回路涌动，使你在对抗心灵效应的意志豁免和意志DC中获得+2环境加值，持续1分钟。</p>"
+      "description": "<p>符文回路沿你的大脑表面布设，防范读心或其他心灵攻击。你获得心灵抗力10。</p>\n<p><strong>启动—提升心灵防御</strong> <span class=\"action-glyph\">1</span> （专注，心灵）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 心能沿抑制器的回路涌动，使你在对抗心灵效应的意志豁免和意志DC中获得+2环境加值，持续1分钟。</p>"
     },
     "c0BSiHfyVJLgW0Hi": {
       "name": "战术型全息手雷",
@@ -2247,7 +2247,7 @@
     },
     "hqhInlROf6wRd83a": {
       "name": "先进型快干泡沫手雷",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放迅速膨胀的泡沫，黏在生物身上，阻止其移动。位于以下区域内的生物： @Template[burst|distance:15] ，若未能通过 @Check[reflex|against:class] 豁免失败者会 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足} ，持续1分钟，随后泡沫干燥；或直到它们成功对抗原反射豁免DC进行脱逃。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放迅速膨胀的泡沫，黏在生物身上，阻止其移动。@Template[burst|distance:15]内的生物若@Check[reflex|against:class]豁免失败，便会陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，持续1分钟，届时泡沫干燥；若生物在此之前成功对抗原反射豁免DC逃脱，也能结束此状态。</p>"
     },
     "hrjtJgBrmYfDPRlx": {
       "name": "转轮手枪",
@@ -2347,7 +2347,7 @@
     },
     "jlqSlawTivhHODKE": {
       "name": "终极型硬化泡沫手雷",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续1分钟</p><hr /><p>手雷爆裂后，迅速扩张的硬化泡沫限制区域内生物的移动，进行 @Check[reflex|against:class|basic] 豁免。如果你拥有手雷的重击专精效果，对硬化泡沫手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，以你的职业DC作为脱逃DC。</p>\n<p>爆发半径为 @Template[burst|distance:20]，失败时该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚} 和 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 持续1轮。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续1分钟</p><hr /><p>手雷爆裂后，迅速扩张的硬化泡沫限制区域内生物的移动；区域内的生物进行@Check[reflex|against:class|basic]豁免。如果你拥有手雷的重击专精效果，对硬化泡沫手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，以你的职业DC作为逃脱DC。</p>\n<p>爆发半径为 @Template[burst|distance:20]，失败时该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚} 和 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 持续1轮。</p>"
     },
     "joovle7gQuMEopjo": {
       "name": "商用型信息素腺",
@@ -2427,7 +2427,7 @@
     },
     "lBCnd2stmghM7neX": {
       "name": "终极型快干泡沫手雷",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放迅速膨胀的泡沫，黏在生物身上，阻止其移动。位于以下区域内的生物： @Template[burst|distance:30] ，若未能通过 @Check[reflex|against:class] 豁免失败者会 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足} ，持续1分钟，随后泡沫干燥；或直到它们成功对抗原反射豁免DC进行脱逃。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放迅速膨胀的泡沫，黏在生物身上，阻止其移动。@Template[burst|distance:30]内的生物若@Check[reflex|against:class]豁免失败，便会陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，持续1分钟，届时泡沫干燥；若生物在此之前成功对抗原反射豁免DC逃脱，也能结束此状态。</p>"
     },
     "lBREvoGcwsQaa2xa": {
       "name": "商用型霜冻手雷",
@@ -2471,7 +2471,7 @@
     },
     "lvezVP0xqA4Yl4YN": {
       "name": "商用型神经阻尼器",
-      "description": "<p>符文电路铺设在你大脑表面，为抵御尝试读心或其他心灵攻击提供保护。你获得心灵抗力5。</p>\n<p><strong>启动—提升心灵防御</strong> <span class=\"action-glyph\">1</span> （专注，心灵）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 灵能沿抑制器的回路涌动，使你在对抗心灵效应的意志豁免和意志DC中获得+1环境加值，持续1分钟。</p>"
+      "description": "<p>符文电路铺设在你大脑表面，为抵御尝试读心或其他心灵攻击提供保护。你获得心灵抗力5。</p>\n<p><strong>启动—提升心灵防御</strong> <span class=\"action-glyph\">1</span> （专注，心灵）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 心能沿抑制器的回路涌动，使你在对抗心灵效应的意志豁免和意志DC中获得+1环境加值，持续1分钟。</p>"
     },
     "lxsq1n60AUXKrwsd": {
       "name": "先进型凝固香",
@@ -2651,7 +2651,7 @@
     },
     "psyhVuStB342EpXi": {
       "name": "终极型突击公文包",
-      "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>你可以在突击公文包中安装一件不高于1负载的单手远程武器。你在@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]安装在突击公文包中武器的隐秘检定和DC上获得+2物品加值（如果武器拥有易藏特征则为+4）。你可以用一个交互动作来部署已安装的武器，让你在持握公文包时能以单手持用它。</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
+      "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>你可以在突击公文包中安装一件不超过1负载的单手远程武器。你在@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]安装在突击公文包中武器的隐秘检定和DC上获得+2物品加值（如果武器拥有易藏特征则为+4）。你可以用一个交互动作来部署已安装的武器，让你在持握公文包时能以单手持用它。</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
     },
     "pwN8Bh8amBjBPka4": {
       "name": "先进型硬光缠手带",
@@ -2811,7 +2811,7 @@
     },
     "smVXwWM9sOwqoQcV": {
       "name": "商用型突击公文包",
-      "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>你可以在突击公文包中安装一件不高于1负载的单手远程武器。你在@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]安装在突击公文包中武器的隐秘检定和DC上获得+2物品加值（如果武器拥有易藏特征则为+4）。你可以用一个交互动作来部署已安装的武器，让你在持握公文包时能以单手持用它。</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
+      "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>你可以在突击公文包中安装一件不超过1负载的单手远程武器。你在@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]安装在突击公文包中武器的隐秘检定和DC上获得+2物品加值（如果武器拥有易藏特征则为+4）。你可以用一个交互动作来部署已安装的武器，让你在持握公文包时能以单手持用它。</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
     },
     "smezA27ujN6i4lO9": {
       "name": "救援套装",
@@ -2863,7 +2863,7 @@
     },
     "uKktsggv9YpIL8Ep": {
       "name": "商用型快干泡沫手雷",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放迅速膨胀的泡沫，黏在生物身上，阻止其移动。位于以下区域内的生物： @Template[burst|distance:5] ，若未能通过 @Check[reflex|against:class] 豁免失败者会 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足} ，持续1分钟，随后泡沫干燥；或直到它们成功对抗原反射豁免DC进行脱逃。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放迅速膨胀的泡沫，黏在生物身上，阻止其移动。@Template[burst|distance:5]内的生物若@Check[reflex|against:class]豁免失败，便会陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，持续1分钟，届时泡沫干燥；若生物在此之前成功对抗原反射豁免DC逃脱，也能结束此状态。</p>"
     },
     "uLClojocGd90z7zQ": {
       "name": "商用型震颤足底",
@@ -2959,7 +2959,7 @@
     },
     "vtxAice0nCBHJAlW": {
       "name": "完美型快干泡沫手雷",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放迅速膨胀的泡沫，黏在生物身上，阻止其移动。位于以下区域内的生物： @Template[burst|distance:40] ，若未能通过 @Check[reflex|against:class] 豁免失败者会 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足} ，持续1分钟，随后泡沫干燥；或直到它们成功对抗原反射豁免DC进行脱逃。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放迅速膨胀的泡沫，黏在生物身上，阻止其移动。@Template[burst|distance:40]内的生物若@Check[reflex|against:class]豁免失败，便会陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，持续1分钟，届时泡沫干燥；若生物在此之前成功对抗原反射豁免DC逃脱，也能结束此状态。</p>"
     },
     "vvoIYWfv7OGgeEqR": {
       "name": "先进型死灵肺",
@@ -2979,7 +2979,7 @@
     },
     "wK4qod7qCY9ltDA5": {
       "name": "完美型硬化泡沫手雷",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续1分钟</p><hr /><p>手雷爆裂后，迅速扩张的硬化泡沫限制区域内生物的移动，进行 @Check[reflex|against:class|basic] 豁免。如果你拥有手雷的重击专精效果，对硬化泡沫手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，以你的职业DC作为脱逃DC。</p>\n<p>爆发半径为 @Template[burst|distance:20]，失败时该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚} 和 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 持续2轮。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续1分钟</p><hr /><p>手雷爆裂后，迅速扩张的硬化泡沫限制区域内生物的移动；区域内的生物进行@Check[reflex|against:class|basic]豁免。如果你拥有手雷的重击专精效果，对硬化泡沫手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，以你的职业DC作为逃脱DC。</p>\n<p>爆发半径为 @Template[burst|distance:20]，失败时该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚} 和 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 持续2轮。</p>"
     },
     "wS5fBC7TRbDM4q3q": {
       "name": "商用型刺肉皮肤",
@@ -3135,7 +3135,7 @@
     },
     "zKN34oTLfRgyJw5x": {
       "name": "战术型快干泡沫手雷",
-      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放迅速膨胀的泡沫，黏在生物身上，阻止其移动。位于以下区域内的生物： @Template[burst|distance:10] ，若未能通过 @Check[reflex|against:class] 豁免失败者会 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足} ，持续1分钟，随后泡沫干燥；或直到它们成功对抗原反射豁免DC进行脱逃。</p>"
+      "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放迅速膨胀的泡沫，黏在生物身上，阻止其移动。@Template[burst|distance:10]内的生物若@Check[reflex|against:class]豁免失败，便会陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，持续1分钟，届时泡沫干燥；若生物在此之前成功对抗原反射豁免DC逃脱，也能结束此状态。</p>"
     },
     "zMq3hXhcgohjoSnp": {
       "name": "聚合手套",
@@ -3451,7 +3451,7 @@
     },
     "BJsogI1a5WSUHudq": {
       "name": "狱锻板甲",
-      "description": "<p>由以下授予 @UUID[Compendium.sf2e-anachronism.heritages.Item.fq0LdrPloPz63YBh].</p>\n<p>狱锻板甲是属于板甲组的中甲，提供AC的+5物品加值，敏捷上限为+0，检定减值为–3，速度减值为–10尺，力量值为+3。它具有舒适特征，你在自己的狱锻板甲上为受训。你永远不能穿戴其他护甲，也不能移除狱锻板甲。你可以在狱锻板甲上蚀刻护甲符文。</p>"
+      "description": "<p>由以下授予 @UUID[Compendium.sf2e-anachronism.heritages.Item.fq0LdrPloPz63YBh].</p>\n<p>狱锻板甲是属于板甲组的中甲，提供AC的+5物品加值，敏捷上限为+0，检定减值为–3，速度减值为–10尺，力量值为+3。它具有舒适特征，你在自己的狱锻板甲上具有受训熟练度。你永远不能穿戴其他护甲，也不能移除狱锻板甲。你可以在狱锻板甲上蚀刻护甲符文。</p>"
     },
     "BPNh8roBSnuKXqYb": {
       "name": "巫洛格外壳",
@@ -3722,7 +3722,7 @@
     },
     "KV9G6sAR1xshdV1w": {
       "name": "神经摄像机",
-      "description": "<p><strong>启动</strong> 10分钟</p><hr /><p>这顶古怪的头盔上布满闪光灯和可调节绑带，并配有遮住双眼的眼罩。启动时，设备会扫描你的大脑，将其数字副本存入一张特制记忆卡。该记忆卡可以配合记忆编辑器使用，将你的大脑恢复到记录时的状态。这会追溯恢复所有因重训而改变的选项；但如果你在使用神经摄像机后提升了角色等级，并选择了如今已不再符合条件的选项，记忆编辑器就会调整你的记忆以进行补偿，而你可以立即选择新的选项。</p>\n<p>某些施法者将神经摄像机用作以下仪式的组件： @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{复活术} 仪式，让亲爱之人以活体全息影像或SRO的形式归来，尤其是在目标的死因涉及格外痛苦的记忆时。</p>"
+      "description": "<p><strong>启动</strong> 10分钟</p><hr /><p>这顶古怪的头盔上布满闪光灯和可调节绑带，并配有遮住双眼的眼罩。启动时，设备会扫描你的大脑，将其数字副本存入一张特制记忆卡。该记忆卡可以配合记忆编辑器使用，将你的大脑恢复到记录时的状态。这会追溯恢复所有因重训而改变的选项；但如果你在使用神经摄像机后提升了角色等级，并选择了如今已不再符合条件的选项，记忆编辑器就会调整你的记忆以进行补偿，而你可以立即选择新的选项。</p>\n<p>某些施法者将神经摄像机用作@UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{复活术}仪式的组件，让亲爱之人以活体全息影像或SRO的形式归来，尤其是在目标的死因涉及格外痛苦的记忆时。</p>"
     },
     "KXiAqRbBoj26LmAB": {
       "name": "美貌屏障",
@@ -3849,7 +3849,7 @@
     },
     "PJlFyPjJzbwJvtsf": {
       "name": "ZeroEdge磨刀器",
-      "description": "<p>近宇（Near Space）各处的厨师都推崇锻造创新公司（Forgeworks Innovations）的专利ZeroEdge技术，用它磨快刀具，而不耽误厨房运作。</p>\n<p><strong>启动—磨利</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每小时一次</p>\n<p><strong>需求</strong> 你持用着一件造成挥砍伤害、且不具有致命特征的近战武器</p>\n<p><strong>效果</strong> 所需武器获得致命d6特征，持续至你下个回合开始。随后该武器对ZeroEdge磨刀器免疫24小时。</p>"
+      "description": "<p>近宇（Near Space）各处的厨师都推崇锻造创新公司（Forgeworks Innovations）的专利ZeroEdge技术，用它磨快刀具，而不耽误厨房运作。</p>\n<p><strong>启动—磨利</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每小时一次</p>\n<p><strong>需求</strong> 你持用着一件造成挥砍伤害、且不具有致命特征的近战武器</p>\n<p><strong>效果</strong> 所需武器获得致命d6特征，持续至你下个回合开始。该武器对ZeroEdge磨刀器免疫24小时。</p>"
     },
     "PN3nwB4Vcj5NOq6e": {
       "name": "防毒鸢盾",
@@ -3928,7 +3928,7 @@
     },
     "STv7ujPSLdOcxRH8": {
       "name": "焦糖炮",
-      "description": "<p><strong>强化：</strong> 0</p><hr /><p>焦糖炮会射出团状黏稠焦糖。用此武器区域射击时，你不造成伤害，改为在影响区域内创造困难地形，持续2轮。如果你在此武器上受训，区域内反射豁免失败的生物会将此区域视为高等困难地形（大失败时还会 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}）。生物可以对抗你的职业DC尝试脱逃，以移除禁足状态。如果你拥有主目标职业特性，就可以尝试 [[/act grapple]] 你的主目标，代替打击（承受–2环境减值，如远程擒拿特征通常所述）。</p>"
+      "description": "<p><strong>强化：</strong> 0</p><hr /><p>焦糖炮会射出团状黏稠焦糖。用此武器区域射击时，你不造成伤害，改为在影响区域内创造困难地形，持续2轮。如果你在此武器上受训，区域内反射豁免失败的生物会将此区域视为极难地形（大失败时还会 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}）。生物可以对抗你的职业DC尝试逃脱，以移除禁足状态。如果你拥有主目标职业特性，就可以尝试 [[/act grapple]] 你的主目标，代替打击（承受–2环境减值，如远程擒拿特征通常所述）。</p>"
     },
     "SYs1P6qEpnnZNT6q": {
       "name": "卓越型恶臭手雷",
@@ -4058,7 +4058,7 @@
     },
     "YM7RbKOpF7LBjJme": {
       "name": "黏合剂发射器",
-      "description": "<p><strong>强化：</strong> 0</p><hr /><p>你射出会在半空中凝结为非致命团块的黏合剂。用此武器区域射击时，你不造成伤害，改为在影响区域内创造困难地形，持续2轮。如果你在此武器上受训，在该困难地形中结束回合的生物会 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}。生物可以尝试对抗你的职业DC进行脱逃，移除禁足状态。如果你具有主要目标职业能力，你可以尝试 [[/act trip]] 你的主要目标，代替打击（承受–2环境减值，如远程绊摔特征通常所述）。</p>"
+      "description": "<p><strong>强化：</strong> 0</p><hr /><p>你射出会在半空中凝结为非致命团块的黏合剂。用此武器区域射击时，你不造成伤害，改为在影响区域内创造困难地形，持续2轮。如果你在此武器上受训，在该困难地形中结束回合的生物会 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}。生物可以尝试对抗你的职业DC进行逃脱，移除禁足状态。如果你具有主要目标职业能力，你可以尝试 [[/act trip]] 你的主要目标，代替打击（承受–2环境减值，如远程摔绊特征通常所述）。</p>"
     },
     "YX508hRpcGmHVS7V": {
       "name": "战术型冲击增强器",
@@ -4098,7 +4098,7 @@
     },
     "a4ODFr6CWP2RgSGY": {
       "name": "把戏装置（污秽）",
-      "description": "<p><em>把戏装置</em> 是供魔法使用者利用的小型装置，拥有各式各样的设计。购买魔术道具时，你选择一个主题，它会应用于你持握该物品时施放的所有法术，但不会改变法术效果。例如，赌徒的 @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{力场飞弹} 可能看起来像投掷纸牌。你可以在每日准备期间为把戏装置重新编程，改变其主题。有些把戏装置还可以在施法前启动，附加额外效果。</p>\n<p>这件令人作呕的 <em>把戏装置</em> 尤其受令人不安的不死生物和爱恶作剧的骗子欢迎。</p>\n<p><strong>启动—变戏法！</strong> <span class=\"action-glyph\">1</span> （魔法、塑法）</p>\n<p><strong>频率</strong> 每10分钟一次</p><hr /><p><strong>效果</strong> 若你的下一个动作是施法，在你施法时与你相邻的一个生物必须成功通过对抗你法术DC的强韧豁免，否则会陷入 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}.</p>"
+      "description": "<p><em>把戏装置</em> 是供魔法使用者利用的小型装置，拥有各式各样的设计。购买魔术道具时，你选择一个主题，它会应用于你持握该物品时施放的所有法术，但不会改变法术效果。例如，赌徒的 @UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{力场飞弹} 可能看起来像投掷纸牌。你可以在每日准备期间为把戏装置重新编程，改变其主题。有些把戏装置还可以在施法前启动，附加额外效果。</p>\n<p>这件令人作呕的 <em>把戏装置</em> 尤其受令人不安的不死生物和爱恶作剧的骗子欢迎。</p>\n<p><strong>启动—变戏法！</strong> <span class=\"action-glyph\">1</span> （魔法、塑法）</p>\n<p><strong>频率</strong> 每10分钟一次</p><hr /><p><strong>效果</strong> 若你的下一个动作是施法，在你施法时与你相邻的一个生物必须成功通过对抗你法术DC的强韧豁免，否则会陷入 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}。</p>"
     },
     "aEDrntQhg5xuE20A": {
       "name": "先进型抵抗能量伤害法术安瓿",
@@ -4519,7 +4519,7 @@
     },
     "t4LHsWjN4fUy4I6L": {
       "name": "生物识别锁（DNA匹配）",
-      "description": "<p>生物识别锁用独特的身体特征作为通行钥匙。如果尝试绕过锁的生物有作为钥匙的特征样本或仿制品，需要进行的贼活检定次数可以减少；剩下的贼活检定代表正确使用这些伪造样本所需的技巧。</p>\n<p>绕过它需要六次成功的 @Check[computers|dc:35] 或 @Check[thievery|dc:42] 次检定；DNA样本使所需的贼活检定次数减少4。</p>"
+      "description": "<p>生物识别锁用独特的身体特征作为通行钥匙。如果尝试绕过锁的生物有作为钥匙的特征样本或仿制品，需要进行的贼活检定次数可以减少；剩下的贼活检定代表正确使用这些伪造样本所需的技巧。</p>\n<p>绕过它需要六次成功的 @Check[computers|dc:35] 或 @Check[thievery|dc:42]检定；DNA样本使所需的贼活检定次数减少4。</p>"
     },
     "tQgufszYmFLiOgTu": {
       "name": "幽灵视觉头戴设备",

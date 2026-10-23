@@ -1019,7 +1019,7 @@
     },
     "3mMNEAr5wgTFC9mC": {
       "name": "朝这打！",
-      "description": "<p><strong>需求</strong>你正持用一件双手武器。</p><hr /><p>尽管你的行事风格常常鲁莽，你外表的无畏强势仍在无形中强化了防御。直到你的下个回合开始，你的AC承受-2环境减值，同时对所有伤害获得等于你等级一半的抗力。如果你具有@UUID[Compendium.sf2e-anachronism.class-features.Item.T78VQC8oaD1Odz1k]战斗风格，你对被压制生物的攻击获得的抗力翻倍。</p>"
+      "description": "<p><strong>需求</strong>你正持用一件双手武器。</p><hr /><p>尽管你的行事风格常常鲁莽，你外表的无畏强势仍在无形中强化了防御。直到你的下个回合开始，你的AC承受-2环境减值，同时对所有伤害获得等于你等级一半的抗力。如果你具有@UUID[Compendium.sf2e-anachronism.class-features.Item.T78VQC8oaD1Odz1k]战斗风格，此抗力在对抗来自被压制生物的攻击时翻倍。</p>"
     },
     "3pKkqpj3tlefnJ83": {
       "name": "为了蚁后！",
@@ -8890,7 +8890,7 @@
     },
     "hKkUTNTjRztyRSJr": {
       "name": "恒星护盾",
-      "description": "<p>你开发出一种新的恒星显象——一个环绕你旋转的星辰能量小护盾。该能量护盾具有调谐和恒星武士特征，不需要手来使用。你可以举起盾牌，在AC上获得+1环境加值，直到你的下个回合开始。你获得盾牌格挡通用专长。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.q5W7fV1wXvqBFxt8]</p>\n<p>当盾牌被举起时，你可以使用你的护盾来进行盾牌格挡反应动作。护盾具有5加上两倍你等级的生命值，以及等同于你等级一半的硬度，向上取整。你的护盾不会破损，如果它被摧毁，你在10分钟内无法再次显现一面新护盾。如果你的护盾因为你失去调谐而消失，那么当你使用调和重塑它时，护盾会以之前拥有的生命值回归。在每日准备期间或你休息至少10分钟时，护盾会恢复所有已损失生命值，即便其已被摧毁。</p>\n<p><strong>引力子调谐</strong>如果你的盾牌被摧毁，它会释放一道冲击波。相邻敌人必须成功通过@Check[fortitude|against:solarian]豁免，对抗你的职业DC，否则@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]1轮（大失败则为2轮）。</p>\n<p><strong>光子调谐</strong>如果你的盾牌被摧毁，它会释放一道闪光。相邻敌人必须成功通过@Check[fortitude|against:solarian]豁免，对抗你的职业DC，否则@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮（大失败则@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}1轮）。</p>"
+      "description": "<p>你开发出一种新的恒星显象——一个环绕你旋转的星辰能量小护盾。该能量护盾具有调谐和恒星武士特征，不需要手来使用。你可以举起盾牌，在AC上获得+1环境加值，直到你的下个回合开始。你获得盾牌格挡通用专长。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.q5W7fV1wXvqBFxt8]</p>\n<p>当盾牌被举起时，你可以使用你的护盾来进行盾牌格挡反应动作。护盾具有5加上两倍你等级的生命值，以及等同于你等级一半的硬度，向上取整。你的护盾不会破损，如果它被摧毁，你在10分钟内无法再次显现一面新护盾。如果你的护盾因为你失去调谐而消失，那么当你使用调和重塑它时，护盾会以之前拥有的生命值回归。在每日准备期间或你休息至少10分钟时，护盾会恢复所有已损失生命值，即便其已被摧毁。</p>\n<p><strong>引力子调谐</strong>如果你的盾牌被摧毁，它会释放一道冲击波。相邻敌人必须成功通过@Check[fortitude|against:solarian]豁免，对抗你的职业DC，否则@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]1轮（大失败则为2轮）。</p>\n<p><strong>光量子调谐</strong>如果你的盾牌被摧毁，它会释放一道闪光。相邻敌人必须成功通过@Check[fortitude|against:solarian]豁免，对抗你的职业DC，否则@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮（大失败则@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}1轮）。</p>"
     },
     "hPTU5DEr9HMx8Uc5": {
       "name": "异界的感召",

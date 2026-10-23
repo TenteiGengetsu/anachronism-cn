@@ -15,13 +15,15 @@ export function translatePrerequisites({value, translation}) {
 }
 
 // Match embedded documents by stable ID and expected English text. Only display fields are copied.
-function translateEmbedded(value, translation, descriptions) {
+function translateEmbedded(value, translation, descriptions, pages = false) {
     if (!Array.isArray(value) || !Array.isArray(translation) || translation.length === 0) return undefined;
     const ids = new Set();
     for (const patch of translation) {
         if (typeof patch?.id !== "string" || ids.has(patch.id) || typeof patch.expectedName !== "string") return undefined;
         if (patch.name !== undefined && (typeof patch.name !== "string" || !patch.name.trim())) return undefined;
         if (patch.description !== undefined && (!descriptions || typeof patch.description !== "string" || typeof patch.expectedDescription !== "string")) return undefined;
+        if (patch.content !== undefined && (!pages || typeof patch.content !== "string" || typeof patch.expectedContent !== "string")) return undefined;
+        if (patch.extraFields !== undefined && (!descriptions || !Array.isArray(patch.extraFields))) return undefined;
         ids.add(patch.id);
     }
     const result = structuredClone(value);
@@ -32,6 +34,14 @@ function translateEmbedded(value, translation, descriptions) {
         if (patch.description !== undefined && item.system?.description?.value === patch.expectedDescription) {
             item.system.description.value = patch.description;
         }
+        if (pages && patch.content !== undefined && item.text?.content === patch.expectedContent) {
+            item.text.content = patch.content;
+        }
+        for (const field of patch.extraFields ?? []) {
+            if (isSafeDisplayPatch(item, field, true)) {
+                writePath(item, field.path, field.text);
+            }
+        }
     }
     return result;
 }
@@ -41,7 +51,77 @@ export function translateItems({value, translation}) {
 }
 
 export function translatePages({value, translation}) {
-    return translateEmbedded(value, translation, false);
+    return translateEmbedded(value, translation, false, true);
+}
+
+// Only explicitly reviewed display fields are writable; identifiers and rule values are excluded.
+function safeParts(path) {
+    if (typeof path !== "string") return null;
+    const parts = path.split(".");
+    return parts.length && parts.every((p) => /^[A-Za-z0-9_-]+$/.test(p) && !["__proto__", "prototype", "constructor"].includes(p)) ? parts : null;
+}
+
+function readPath(object, path) {
+    const parts = safeParts(path);
+    if (!parts) return undefined;
+    for (const part of parts) {
+        if (!object || typeof object !== "object" || !Object.hasOwn(object, part)) return undefined;
+        object = object[part];
+    }
+    return object;
+}
+
+function writePath(object, path, text) {
+    const parts = safeParts(path);
+    if (!parts) return;
+    for (const part of parts.slice(0, -1)) object = object[part];
+    object[parts.at(-1)] = text;
+}
+
+function guardsMatch(source, guards) {
+    return guards === undefined || (Array.isArray(guards) && guards.every((g) =>
+        g && typeof g.expected === "string" && readPath(source, g.path) === g.expected));
+}
+
+function isDisplayTextPath(path, item = false) {
+    if (!safeParts(path)) return false;
+    if (item) return /^system\.(?:requirements|area\.details|selfEffect\.name|overlays\.[A-Za-z0-9_-]+\.name|subitems\.\d+\.(?:name|system\.description\.value)|spell\.(?:name|system\.description\.value)|rules\.\d+\.(?:label|suboptions\.\d+\.label))$/.test(path);
+    return path === "prototypeToken.name" || /^system\.(?:details\.(?:description|disable|routine|reset|crew|pilotingCheck|speed|passengers|blurb|languages\.details|gender\.value)|attributes\.(?:stealth\.details|hp\.details|ac\.details|speed\.details|allSaves\.value)|perception\.details|skills\.[a-z]+\.(?:note|special\.\d+\.label))$/.test(path);
+}
+
+function hasIdentityGuard(source, guards, path) {
+    const expected = readPath(source, path);
+    return typeof expected === "string" && expected.length > 0 && Array.isArray(guards) &&
+        guards.some((g) => g?.path === path && g.expected === expected);
+}
+
+function isSafeDisplayPatch(source, patch, item = false) {
+    if (!patch || !isDisplayTextPath(patch.path, item) || typeof patch.expected !== "string" ||
+        typeof patch.text !== "string" || readPath(source, patch.path) !== patch.expected || !guardsMatch(source, patch.guards)) return false;
+    const child = /^system\.subitems\.(\d+)\./.exec(patch.path);
+    if (child && !hasIdentityGuard(source, patch.guards, `system.subitems.${child[1]}._id`)) return false;
+    if (patch.path.startsWith("system.spell.") && !hasIdentityGuard(source, patch.guards, "system.spell._id")) return false;
+    const rule = /^system\.rules\.(\d+)\.(label|suboptions\.(\d+)\.label)$/.exec(patch.path);
+    if (rule) {
+        const root = `system.rules.${rule[1]}`;
+        if (!hasIdentityGuard(source, patch.guards, `${root}.key`)) return false;
+        const key = readPath(source, `${root}.key`);
+        if (key === "RollOption") {
+            if (!hasIdentityGuard(source, patch.guards, `${root}.option`)) return false;
+            if (rule[3] !== undefined && !hasIdentityGuard(source, patch.guards, `${root}.suboptions.${rule[3]}.value`)) return false;
+        } else if (key === "Strike" && rule[2] === "label") {
+            // Without an explicit slug PF2e derives one from the label. Never translate that case.
+            if (!hasIdentityGuard(source, patch.guards, `${root}.slug`)) return false;
+        } else return false;
+    }
+    return true;
+}
+
+export function translateDisplayText({value, translation, source, field, path}) {
+    if (typeof field !== "string" || !field.startsWith("cnText_") || !isDisplayTextPath(path)) return undefined;
+    if (typeof value !== "string" || typeof translation?.expected !== "string" || typeof translation.text !== "string") return undefined;
+    if (value !== translation.expected || !guardsMatch(source, translation.guards)) return undefined;
+    return translation.text;
 }
 
 const HOLY_COMMERCIAL_ID = "he1AD9ck10fLSvWn";
@@ -111,6 +191,7 @@ export function registerLocalization(babele) {
     babele.registerConverter("sf2eAnachronismCnItems", {translate: translateItems});
     babele.registerConverter("sf2eAnachronismCnPages", {translate: translatePages});
     babele.registerConverter("sf2eAnachronismCnHolyCommercial", {translate: translateHolyCommercial});
+    babele.registerConverter("sf2eAnachronismCnText", {translate: translateDisplayText});
     const languages = new Set(LANGUAGES);
     // Core settings and the resolved UI language may not exist during babele.init.
     for (const lang of [game.i18n?.lang]) {

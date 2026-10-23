@@ -10,82 +10,220 @@
   },
   "entries": {
     "16Li37zRYKClxqsv": {
-      "name": "法术效果: 蟹化术"
+      "name": "法术效果: 蟹化术",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.n5a3t5Qnx5AU8auy]赋予</p>\n<p>你变为一只螃蟹，如同受到@UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{动物形态}影响，升阶至与此法术相同的环级，并使用以下数据。</p><ul><li>速度25尺、游泳15尺。</li><li><strong>近战</strong> <span class=\"action-glyph\">1</span> 巨螯，<strong>伤害</strong> 2d8穿刺</li><li><strong>近战</strong> <span class=\"action-glyph\">1</span> 螯（灵巧），<strong>伤害</strong> 2d4穿刺。</li></ul>"
     },
     "1Ut6QrRtIZzjmqZW": {
-      "name": "法术效果: 猫科感官"
+      "name": "法术效果: 猫科感官",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.1lv6Zmp2eWRIPn1n]赋予</p>\n<p>你获得黑暗视觉。</p>"
     },
     "4BwlNXei3xMKygMv": {
-      "name": "法术效果: 元素屏障"
+      "name": "法术效果: 元素屏障",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.5apI8Yamauo02VYR]赋予</p>\n<p>你的AC获得+1环境加值。法术生效期间，目标可以进行盾牌格挡反应，视同元素屏障是一面已举起的盾牌。与普通的盾牌格挡不同，你可以用此法术的反应，对抗向该生物施放的具有所选元素特征的法术。</p>"
     },
     "4P2rPLVKjSpUbOWI": {
-      "name": "法术效果: 主观现实"
+      "name": "法术效果: 主观现实",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.CptKtBneM7od45nc]赋予</p>\n<p>你对源自目标的所有伤害获得等于自身等级的抗力。</p>"
     },
     "4cFhz9knnHUHj3wi": {
-      "name": "法术效果: 基因再生"
+      "name": "法术效果: 基因再生",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.s6J1Q0e28Gb42epQ]赋予</p>\n<p>你获得再生。</p>"
     },
     "7r6mw8H87SUaj9Tq": {
-      "name": "法术效果: 分析目标"
+      "name": "法术效果: 分析目标",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.NkvRoN33RbDg3fl9]赋予</p>\n<p>你针对一个目标进行乔装、治疗伤势和回忆知识时获得状态加值。</p>"
     },
     "80ciNFwm19EKBONT": {
-      "name": "法术效果: 复响再奏"
+      "name": "法术效果: 复响再奏",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.AlYzxLKWZujnzsjJ]赋予</p>\n<p>你额外造成一个伤害骰的音波伤害，且意志豁免和意志DC获得+1状态加值。</p>"
     },
     "LXi2h0q58zg9EFCN": {
-      "name": "法术效果: 野性纽带"
+      "name": "法术效果: 野性纽带",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.ssOpTABjuHAqNTPu]赋予</p>\n<p>你获得以下一种能力：</p><ul><li>15尺掘穴速度</li><li>20尺攀爬速度</li><li>20尺飞行速度</li><li>25尺游泳速度</li><li>40尺速度</li><li>造成1d8穿刺伤害的颚部徒手攻击</li><li>造成1d6挥砍伤害并具有灵巧和娴熟特征的爪击徒手攻击</li><li>黑暗视觉</li></ul>"
     },
     "Mjzoqg7MpTst3koD": {
-      "name": "法术效果: 冷葬"
+      "name": "法术效果: 冷葬",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.xS4bqHnbodCwjpqI]赋予</p>\n<p>你的强韧豁免结果的成功度降低一级。</p>"
     },
     "NP75qOKsF43zLaiZ": {
-      "name": "法术效果: 朦胧念头"
+      "name": "法术效果: 朦胧念头",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.8FT564z5zMQVZNih]赋予</p>\n<p>你的所有回忆知识检定获得环境加值。</p>"
     },
     "NWNXwJhNpNvNdyLd": {
-      "name": "法术效果: 虚空行者"
+      "name": "法术效果: 虚空行者",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.sTpdXXaaKhoGOIxh]赋予</p>\n<p>你获得太空特征和30尺飞行速度。</p>"
     },
     "NcPiz5TOhnel5ZoX": {
-      "name": "法术效果: 科技直觉"
+      "name": "法术效果: 科技直觉",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.A09nTb61ceLF27vX]赋予</p>\n<p>你为触发检定掷骰两次，并取较好结果。</p>"
     },
     "NmhqKZyMgQSHbyHj": {
-      "name": "法术效果: 激励铃声"
+      "name": "法术效果: 激励铃声",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8]赋予</p>\n<p>你的所有速度获得+5尺状态加值，对抗恐惧效果的豁免获得+1状态加值。</p>"
     },
     "VacLbml5QIO0jqlO": {
-      "name": "法术效果: 赞歌"
+      "name": "法术效果: 赞歌",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.smCC1LNhMb7Z1lrU]赋予</p>\n<p>你的攻击检定、伤害掷骰，以及对抗造成迷魂或困惑的效果的豁免获得+1状态加值。</p>"
     },
     "bFy8NADnVR95YKyx": {
-      "name": "法术效果: 曲织时间"
+      "name": "法术效果: 曲织时间",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.1gkdgFwKfAoQx163]赋予</p>\n<p>你获得临时生命值。</p>"
     },
     "bfimY3Rbx3lrsFAJ": {
-      "name": "法术效果: 量子分析"
+      "name": "法术效果: 量子分析",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.v8JA4sG2tsVP2gOM]赋予</p>\n<p>你指定为目标的生物在对抗你的攻击时，无法获得掩蔽带来的AC环境加值。你还会无视因该生物处于隐蔽、藏匿或掩蔽后方而造成的攻击检定环境减值，以及因此而需要进行的任何纯骰检定。</p>\n<p>施放此法术后，当你第一次对量子场内的生物进行攻击检定时，掷骰两次并取较好结果。</p>"
     },
     "cGBjkNm9P7Ra09rp": {
-      "name": "法术效果: 诡秘纽带"
+      "name": "法术效果: 诡秘纽带",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.Y8Y0LS6sh4pkxPsq]赋予</p>\n<p>你获得以下至多两种能力：</p><ul><li>黑暗视觉</li><li>等于自身等级一半的心灵抗力（最低为1）</li><li>造成钝击伤害的触手徒手攻击</li><li>造成酸蚀伤害并具有灵巧和娴熟特征的毒刺徒手攻击</li><li>射程增量40尺、造成心灵伤害的光束远程徒手攻击</li><li>所有近战攻击（包括上述攻击）的触及为10尺</li><li>近战打击（包括上述打击）影响虚体生物时，视为具有@UUID[Compendium.sf2e-anachronism.equipment.Item.TgJMTB1ub5Eh4xJO]强化。</li></ul>"
     },
     "h1i8c47U0IOrMrHJ": {
-      "name": "法术效果: 阿卡西下载"
+      "name": "法术效果: 阿卡西下载",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.VynaowCerc7B4yvI]赋予</p>\n<p>你用所选技能进行的回忆知识检定获得+1状态加值。如果此检定大失败，改为获得失败。</p>"
     },
     "hOp5ybOzyJlECU6B": {
-      "name": "法术效果: 焕发光彩"
+      "name": "法术效果: 焕发光彩",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.V1cojmrEOWkJ1yPF]赋予</p>\n<p>你用于建立印象的交涉检定获得状态加值，并且在未受训于交涉时，将自身等级加到交涉检定上。</p>"
     },
     "ikNI8DM5DRa1k4G3": {
-      "name": "法术效果: 虚能之种"
+      "name": "法术效果: 虚能之种",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.FIW0VpGULprL2u8J]赋予</p>\n<p>你获得虚空治疗能力。如果你本应被具有治疗特征的非虚空效果治疗，便改为受到伤害。</p>"
     },
     "oGUuRPGJHouppf8V": {
-      "name": "法术效果: 强化躯体"
+      "name": "法术效果: 强化躯体",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.GmeI009NbLbR6sR5]赋予</p>\n<p>你的徒手攻击获得追踪+1特征，伤害骰数量增加至两个。</p><hr /><p><strong>升阶（6环）</strong> 徒手攻击获得追踪+2特征，武器伤害骰数量增加至三个。</p>\n<p><strong>升阶（9环）</strong> 徒手攻击获得追踪+3特征，武器伤害骰数量增加至四个。</p>"
     },
     "pWm0NCsxjxTUCJ7y": {
-      "name": "法术效果: 移变激涌"
+      "name": "法术效果: 移变激涌",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.7P4eBdqWcgQJAFCa]赋予</p>\n<p>该武器的下一次打击造成由你选择的酸蚀、寒冷、电击、火焰或音波伤害，并额外造成1d6与武器通常伤害类型相同的伤害。</p>"
     },
     "q47pDFylqDY1VYEk": {
-      "name": "法术效果: 科技沟通"
+      "name": "法术效果: 科技沟通",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.dyDIRdq3QmP2QzBR]赋予</p>\n<p>你骇入、使用、操作、解除、辨识目标，回忆有关目标的知识，或以其他方式与目标交互时，获得+2状态加值。</p>"
     },
     "v724q5Xi7KPPnLQ3": {
-      "name": "法术效果: 石塑形体"
+      "name": "法术效果: 石塑形体",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.HAaRcHfN4g83eSEC]赋予</p>\n<p>你获得物理伤害抗力（精金除外），以及造成钝击伤害的拳头徒手攻击。</p>"
     },
     "yopd0S7smKU5eB07": {
-      "name": "法术效果: 强化武器"
+      "name": "法术效果: 强化武器",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.ahXTkKpQtOTAQOFm]赋予</p>\n<p>目标武器变为先进型武器，攻击检定获得+1物品加值，武器伤害骰数量增加至两个。</p><hr /><p><strong>升阶（6环）</strong> 如果目标是商用型、战术型、先进型或卓越型武器，则变为菁英型武器，攻击检定获得+2物品加值，武器伤害骰数量增加至三个。</p>\n<p><strong>升阶（9环）</strong> 目标变为完美型武器，攻击检定获得+3物品加值，武器伤害骰数量增加至四个。</p>"
     },
     "zzOekbiIKePQDQKy": {
-      "name": "法术效果: 超载武器"
+      "name": "法术效果: 超载武器",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.SbBqa1HStMrV47fb]赋予</p>\n<p>使用该武器进行的下一次打击得到超级充能。此次打击额外造成d6伤害，类型与武器的通常伤害相同。</p>"
+    },
+    "2rO9T7KQ3Hqz32OH": {
+      "name": "法术效果：修复纳米机",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.327oTvddhYQ012QG]赋予</p>\n<p>你获得快速治疗。</p>"
+    },
+    "2scpka5RpCsYxXsx": {
+      "name": "法术效果：升级构装体",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.nMOmER5WBdCEkn6v]赋予</p>\n<p>你的AC获得状态加值，且打击额外造成d4伤害。</p>"
+    },
+    "5AQHXEzKuy4MmcXi": {
+      "name": "法术效果：武器强固",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.GdvESca5RRPKA2Ji]赋予</p>\n<p>目标武器获得以下一种特征：灵巧、回扫、强力、长触及或横扫。</p>"
+    },
+    "5ozraYweDASGAZct": {
+      "name": "法术效果：构筑治疗站",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.yG9AUj9Krcrx7U87]赋予<br /></p>\n<p>你的豁免获得+1状态加值。</p>"
+    },
+    "6qaemGGjypQIuKAW": {
+      "name": "法术效果：电缆管理",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.nam1metCZqYItFck]赋予<br />你的速度承受–10尺状态减值。</p>"
+    },
+    "9DZ8819QPDnxcnFw": {
+      "name": "法术效果：天火之翼（7环）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.VmtQlZqeraTv0Eer]赋予</p>\n<p>你获得等于自身速度或20尺的飞行速度。你的双翼是造成3d8火焰伤害的徒手攻击，具有回扫、长触及和无武装特征；重击时，翼击目标受到6点持续电击伤害。</p>"
+    },
+    "CSxBBlLrXlptbwn8": {
+      "name": "效果：植物形态（真菌进化）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.RUnpmQL06z9VHOoU]赋予</p>\n<p>你变为大型植物战斗形态。施放此法术时，从所列战斗形态中选择一种。你可以改为变成类似的特定植物（例如以猪笼草代替捕蝇草），但这不会影响该形态的体型或数据。处于此形态时，你获得植物特征。你可以解消此法术。</p>\n<p>无论选择哪种战斗形态，你都会获得以下数据和能力。</p><ul><li><p>AC＝19＋你的等级。无视护甲的检定减值和速度减值。</p></li><li><p>12点临时生命值。</p></li><li><p>毒素抗力10。</p></li><li><p>昏暗视觉。</p></li><li><p>一种或多种所选战斗形态特有的徒手近战攻击，这是你唯一能用来打击的攻击方式。你受训于这些攻击。你的攻击调整值为+17，伤害加值为+11。这些攻击基于力量（例如在计算@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭}状态的影响时）。如果你自身的徒手攻击调整值更高，可以改用自己的调整值。</p></li><li><p>运动调整值+19，除非你自身的调整值更高。</p></li></ul><p>你获得以下特殊能力：</p><ul><li><p><strong>速度</strong> 30尺；</p></li><li><p><strong>抗力</strong> 10，酸蚀10，毒素10；</p></li><li><p><strong>近战</strong> <span class=\"action-glyph\">1</span> 卷须（触及20尺），<strong>伤害</strong> 2d6钝击外加擒获；</p></li><li><p>因你的卷须而@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}的目标受到@Damage[2d4[persistent,poison]]伤害。</p></li></ul><hr /><p><strong>升阶（6环）</strong> 你的战斗形态为巨型，攻击的触及增加5尺。你改为获得AC＝22＋你的等级、24点临时生命值、攻击调整值+21、伤害加值+16，以及运动+22。</p>"
+    },
+    "CVsq9wKZ6bFBeuGT": {
+      "name": "法术效果：机械巨拳",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.DwAvbUFR5LID5ebL]赋予</p>\n<p>你获得拳头打击。</p>"
+    },
+    "IHIQ7PcirTwjJQev": {
+      "name": "法术效果：天火之翼（5环）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.VmtQlZqeraTv0Eer]赋予</p>\n<p>你获得等于自身速度或20尺的飞行速度。你的双翼是造成2d8火焰伤害的徒手攻击，具有回扫、长触及和无武装特征；重击时，翼击目标受到4点持续电击伤害。</p>"
+    },
+    "J5f9SpgmiFOPKU8Q": {
+      "name": "法术效果：量子分析（幸运）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.v8JA4sG2tsVP2gOM]赋予</p>\n<p>当你对量子场内的生物进行攻击检定时，掷骰两次并取较好结果。</p>"
+    },
+    "JBVWu61tmge51qK5": {
+      "name": "法术效果：正电子头盔",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.AZUxwGaKz3qTCMvk]赋予</p>\n<p>你获得科技特征，且察觉检定和意志豁免获得+1状态加值。</p>"
+    },
+    "JBadWKFEv0Zvic9g": {
+      "name": "法术效果：反射镀层",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.3iJb9h4yRGyIRzJd]赋予</p>\n<p>你获得对所选伤害类型的抗力，以及反射伤害反应。</p>"
+    },
+    "L69VsN5o0r2HoBx0": {
+      "name": "法术效果：表情盾牌",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.ONyatkj2Ds1laXLO]赋予</p>\n<p>你的AC获得+1状态加值，并获得@UUID[Compendium.sf2e-anachronism.actions.Item.v6ITmtsDt1ZvGmK6]反应。</p>"
+    },
+    "P8ZUzFQZ43qsUxdA": {
+      "name": "法术效果：舞蹈表情（AC加值）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.e98MfMLWgbwOFCZo]赋予</p>\n<p>你的AC获得+1环境加值。</p>"
+    },
+    "R9R0Nf8YX5ahx5FH": {
+      "name": "法术效果：猫科感官（6环）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.1lv6Zmp2eWRIPn1n]赋予</p>\n<p>你获得黑暗视觉。</p>"
+    },
+    "SarrQCwkkLjA2ehZ": {
+      "name": "法术效果：天使信号",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.ftPpuRM57GD3SDBQ]赋予</p>\n<p>你使用科技武器的所有攻击检定和伤害掷骰承受状态减值。</p>"
+    },
+    "VVGU0hHVetx0WNci": {
+      "name": "法术效果：构筑加速环",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.yIRR3rgI0gtNrKQf]赋予<br />你的速度获得+30尺状态加值。</p>"
+    },
+    "Yl3Wb0cN6Mvx2EWf": {
+      "name": "法术效果：量子分析（压制掩蔽）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.v8JA4sG2tsVP2gOM]通过临时效果赋予</p>\n<p>对抗来源生物的攻击时，你无法获得掩蔽带来的AC环境加值。</p>"
+    },
+    "csZ7ugCP4zSqCUYu": {
+      "name": "法术效果：神圣机械",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.TW5UKhYiXlT66Ivu]赋予</p>\n<p>你的体型增大为大型，触及增加5尺（如果原本为超小型，则增加10尺），获得对AC和豁免的+2状态加值，以及临时生命值。<br /></p>"
+    },
+    "kT8REROKKaXF2QK1": {
+      "name": "法术效果：天火之翼（3环）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.VmtQlZqeraTv0Eer]赋予</p>\n<p>你获得等于自身速度或20尺的飞行速度。你的双翼是造成1d8火焰伤害的徒手攻击，具有回扫、长触及和无武装特征；重击时，翼击目标受到2点持续电击伤害。</p>"
+    },
+    "n5h45KB6hL3oVyQc": {
+      "name": "法术效果：构筑护盾发生器",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.q0JMsrMuk19oLzXY]赋予</p>\n<p>你的AC获得+1状态加值，并获得对酸蚀、寒冷、电击、火焰、力场和音波伤害的抗力。</p>"
+    },
+    "orZd4ZvgTHXM49IF": {
+      "name": "法术效果：弹药灌能",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.0Ut3WWGJP2dpjSwY]赋予<br />你的武器获得所选特征，并额外造成d6所选类型的伤害。</p>"
+    },
+    "qDgekQoABV0vskX8": {
+      "name": "法术效果：抚慰表情",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.jChXPibVLmIC9QaE]赋予</p>\n<p>你获得快速治疗。</p>"
+    },
+    "sElqtOTF8X0LUcnZ": {
+      "name": "法术效果：天火之翼（9环）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.VmtQlZqeraTv0Eer]赋予</p>\n<p>你获得等于自身速度或20尺的飞行速度。你的双翼是造成4d8火焰伤害的徒手攻击，具有回扫、长触及和无武装特征；重击时，翼击目标受到8点持续电击伤害。</p>"
+    },
+    "uFR5PlthyVRRVmKr": {
+      "name": "法术效果：灵魂电光",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.S1nvwfmweG4AEGGW]赋予</p>\n<p>你变为迅捷，且只能将此额外动作用于交互或快步。你使用科技武器打击时，额外造成3d4电击伤害。</p>"
+    },
+    "vRAHOPMR2JqsLzbt": {
+      "name": "法术效果：祈祷表情",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.7nzp5SwP5NoS3RRt]赋予</p>\n<p>你获得以下一种益处：</p><ul><li><p><strong>优雅祷告</strong> 你的速度获得+20尺状态加值，直到你下个回合开始。</p></li><li><p><strong>治疗祷告</strong> 你在下个回合开始时获得治疗，恢复生命值。</p></li><li><p><strong>防护祷告</strong> 你的AC和豁免获得+1状态加值，直到你下个回合开始。</p></li><li><p><strong>报应祷告</strong> 直到你下个回合开始，以近战打击命中你的生物会受到精魂伤害。</p></li></ul>"
+    },
+    "x1spmy09vSuw6aQ2": {
+      "name": "法术效果：舞蹈表情（速度加值）",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.e98MfMLWgbwOFCZo]赋予<br />你的速度获得+5尺状态加值。</p>"
+    },
+    "zYQ0A3cET9h0iMW3": {
+      "name": "法术效果：宇宙辐射控制棒",
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.hMYeUxTRfjSDhSRL]赋予</p>\n<p>你获得对辐射效果所造成伤害的抗力，以及对抗毒素和辐射效果的强韧豁免状态加值。</p>"
     }
   }
 }
