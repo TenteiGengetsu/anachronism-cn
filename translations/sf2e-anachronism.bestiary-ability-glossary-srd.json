@@ -1,5 +1,5 @@
 {
-  "label": "怪物能力词汇表",
+  "label": "怪物能力词汇表 Bestiary Ability Glossary",
   "mapping": {
     "name": "name",
     "description": "system.description.value",
@@ -14,163 +14,163 @@
   },
   "entries": {
     "eqmLD72i3cG8ybAn": {
-      "name": "悬浮"
+      "name": "悬浮 Hover"
     },
     "rePdFswJLQfoeDSp": {
-      "name": "无需呼吸"
+      "name": "无需呼吸 No Breath"
     },
     "1b4aCeJDd3tiKQOO": {
-      "name": "（恶意人工智能）能量射线"
+      "name": "（恶意人工智能）能量射线 (Malevolent AI) Energy Beam"
     },
     "1pQkINbQ9AFEAhT3": {
-      "name": "（机械化战争机器）卡位战术",
+      "name": "（机械化战争机器）卡位战术 (Robotic War Machine) Notch Position",
       "description": "<p><strong>触发</strong> 一个敌人行走</p>\n<p><strong>需求</strong> 遥控战争机器处于目标的触及范围外</p><hr /><p><strong>效果</strong> 遥控战争机器沿与目标相同的方向行走，距离至多等于其速度，直到目标停止移动或战争机器已移动了完整速度的距离。</p>"
     },
     "3MOowYVsgnr9LXeN": {
-      "name": "（死灵妖）扼杀光明",
+      "name": "（死灵妖）扼杀光明 (Necrovite) Smother the Light",
       "description": "<p><strong>触发</strong> 死灵妖30尺内的一个生物开始施放具有光亮或命能特征的法术</p><hr /><p><strong>效果</strong> 死灵妖尝试反制触发法术。</p>"
     },
     "5aeXp6TnJK5nduhk": {
-      "name": "（机械化战争机器）攻击模式·阿尔法",
+      "name": "（机械化战争机器）攻击模式·阿尔法 (Robotic War Machine) Attack Pattern Alpha",
       "description": "<p>遥控战争机器快步或行走，然后对同一个目标进行两次打击。两次打击均计入多重攻击减值，但该减值直到两次打击全部完成后才会增加。</p>"
     },
     "6NHVOXLu63GE6xMy": {
-      "name": "（宁芙仙后）天体链接",
+      "name": "（宁芙仙后）天体链接 (Nymph Queen) Astronomical Ties",
       "description": "<p>宁芙仙后与某个特定天体有着内在联系，例如炽光仙后会与一颗超巨星相连。只要仙后身体健康，她的领地就会繁荣昌盛；她可以使用自己的法术攻击检定，尝试反制那些改变领地物理性质的法术和仪式，反制环阶等于她能够施放的最高环阶法术。然而，如果宁芙仙后受伤或身体不适，她关联的天体也会随之衰弱：小行星摇摆着偏离轨道，恒星变得黯淡，黑洞的引力也会减弱。恢复宁芙仙后的健康，就能让她的天体恢复平衡。</p>"
     },
     "6xz4bIGGVKRkkcSS": {
-      "name": "（撕裂蠕虫宿主）自毁狂暴",
+      "name": "（撕裂蠕虫宿主）自毁狂暴 (Rendworm Host) Self-Destructive Frenzy",
       "description": "<p><strong>需求</strong> 撕裂蠕虫宿主并未陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}，也尚未处于狂暴之中</p>\n<p><strong>触发</strong> 撕裂蠕虫宿主受到伤害</p><hr /><p><strong>效果</strong> 撕裂蠕虫宿主进入持续3轮的狂暴，并获得困惑状态。困惑期间，它的攻击检定获得+1环境加值，伤害掷骰获得+2环境加值，AC承受–2环境减值。撕裂蠕虫宿主无法主动结束这次狂暴。</p>"
     },
     "76cqWtU2IoPellWa": {
-      "name": "（安保机器人）灭火器",
+      "name": "（安保机器人）灭火器 (Security Robot) Fire Suppressor",
       "description": "<p>机器人喷出一股水流，效果如同@UUID[Compendium.pf2e.spells-srd.Item.jfVCuOpzC6mUrf6f]{水流冲击}。使用此能力后，机器人必须重新灌满水箱。</p>"
     },
     "7fLyMprZpSJGJqZI": {
-      "name": "（魔法）魔法韧性",
+      "name": "（魔法）魔法韧性 (Magical) Magical Resilience",
       "description": "<p><strong>触发</strong> 该生物准备对一个与自身魔法传统相同的法术或魔法效果进行豁免，但尚未掷骰</p><hr /><p><strong>效果</strong> 该生物对抗触发效果的豁免获得+1环境加值。</p>"
     },
     "7kK3TyvjapWoT9Gh": {
-      "name": "（死灵妖）旧途守护者",
+      "name": "（死灵妖）旧途守护者 (Necrovite) Keeper of the Old Ways",
       "description": "<p>30尺。具有科技特征的生物，以及持握具有科技特征武器的生物，在此灵光内开始回合时，必须尝试一次强韧豁免。随后，该生物临时免疫此灵光1小时。</p>\n<p><strong>成功</strong> 该生物不受影响。</p>\n<p><strong>失败</strong> 该生物陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 1}。</p>\n<p><strong>大失败</strong> 该生物陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 2}。</p>"
     },
     "95jrq981CcDFIvtF": {
-      "name": "（渗透机器人）集成渗透装备",
+      "name": "（渗透机器人）集成渗透装备 (Infiltrator Robot) Integrated Infiltration Gear",
       "description": "<p>机器人集成了@UUID[Compendium.sf2e-anachronism.equipment.Item.coJUVZGcuVg3FoYh]（若其至少为7级，则为@UUID[Compendium.sf2e-anachronism.equipment.Item.ao5MC3I1b4Gx9LNC]），以及@UUID[Compendium.sf2e-anachronism.equipment.Item.qqjDcCW118ySAlAS]（若其至少为7级，则为@UUID[Compendium.sf2e-anachronism.equipment.Item.5o7wOnkxEsyBwBNj]；若其至少为9级，则为@UUID[Compendium.sf2e-anachronism.equipment.Item.dk4qkf4BF7wCPV4u]）。</p>"
     },
     "9sNHGcLezhc40dl3": {
-      "name": "（死灵妖）复生",
+      "name": "（死灵妖）复生 (Necrovite) Rejuvenation",
       "description": "<p>当死灵妖被摧毁时，其意识会立即转移到脑波仪中。只有找到并摧毁其脑波仪，才能永久摧毁死灵妖。</p>"
     },
     "KeU0lo8tUJMrWGPI": {
-      "name": "（机械化战争机器）攻击模式·伽马",
+      "name": "（机械化战争机器）攻击模式·伽马 (Robotic War Machine) Attack Pattern Gamma",
       "description": "<p>遥控战争机器进行三次打击，目标可以任意组合。每次打击均获得灵巧特征，并计入其多重攻击减值。</p>"
     },
     "KqD4g1SpxQgrJREE": {
-      "name": "（机械化战争机器）攻击模式·德尔塔",
+      "name": "（机械化战争机器）攻击模式·德尔塔 (Robotic War Machine) Attack Pattern Delta",
       "description": "<p>遥控战争机器行走两次，然后进行一次打击。</p>"
     },
     "LzYrjPl7doQ3iFS6": {
-      "name": "（数字幽灵）恶意软件感染",
+      "name": "（数字幽灵）恶意软件感染 (Digital Ghost) Malware Infection",
       "description": "<p><strong>频率</strong>每天一次</p><hr /><p><strong>效果</strong> 数字幽灵尝试感染一件具有科技特征的物品，该物品须正被30尺内的一个生物持握或使用。持有者可以尝试一次意志豁免。</p><hr /><p><strong>大成功</strong> 该物品不受影响，数字幽灵在1周内无法使用恶意软件感染。</p>\n<p><strong>成功</strong> 该物品不受影响。</p>\n<p><strong>失败</strong> 该物品陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 2}。</p>\n<p><strong>大失败</strong> 该物品陷入故障2，且在[[/gmr 2d4 #days]]{2d4天}后，这台设备上会生成一个以持有者为原型的离线数字幽灵。</p>"
     },
     "M8geNMUAaFjyXj0m": {
-      "name": "（撕裂蠕虫宿主）撕裂蠕虫迸发",
+      "name": "（撕裂蠕虫宿主）撕裂蠕虫迸发 (Rendworm Host) Rendworm Eruption",
       "description": "<p>当撕裂蠕虫宿主的生命值被火焰伤害以外的任何事物降至0时，其身体会爆裂，产生数量等于其等级一半的撕裂蠕虫，向下取整。</p>"
     },
     "MiwWwUdUbDDegnmp": {
-      "name": "（环境适应）温度适应",
+      "name": "（环境适应）温度适应 (Environmental Adaptation) Temperature Adaptation",
       "description": "<p>该生物将环境温度效果视为严酷程度降低一级（不可思议的高温变为极端高温，极端高温变为酷热，依此类推）。</p>"
     },
     "Ni7Febqv9Dm1EgK9": {
-      "name": "（机械化战争机器）超视距交战",
+      "name": "（机械化战争机器）超视距交战 (Robotic War Machine) BVR Engagement",
       "description": "<p>遥控战争机器对一个目标进行一次远程打击，将武器射程视为正常射程的两倍。此打击无视所有形式的隐蔽和掩蔽。</p>"
     },
     "PMCc1mZ5CcbAmX09": {
-      "name": "（死灵妖）疲乏威压",
+      "name": "（死灵妖）疲乏威压 (Necrovite) Fatiguing Presence",
       "description": "<p>30尺。首次进入此灵光的生物必须成功通过一次强韧豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}。无论豁免结果如何，该生物都会临时免疫死灵妖的疲乏威压24小时。</p>"
     },
     "QiAapIRnqLS3V0Og": {
-      "name": "（宁芙仙后）散播魅力",
+      "name": "（宁芙仙后）散播魅力 (Nymph Queen) Broadcast Allure",
       "description": "<p>宁芙仙后以魔法将自己的形象叠映到行星范围内所有能够显示图像的科技物品上，例如数据板或通讯单元。或者，她可以将此影像发送到她知道的任意一个或多个通讯地址。每个能看到影像的生物都必须成功通过一次对抗宁芙仙后法术DC的意志豁免，否则对她的态度改善一级（大失败时改善两级）。如果宁芙仙后对受影响的生物或其盟友采取敌对行动，这些生物的态度会恢复到先前的程度。</p>"
     },
     "UGljOefqASKG1VfU": {
-      "name": "（扭曲）令人不安",
+      "name": "（扭曲）令人不安 (Warped) Unsettling",
       "description": "<p>20尺。进入此灵光的生物必须成功通过一次意志豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}（大失败时为@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}），随后临时免疫1分钟。使用该生物的法术DC或其现有能力之一的DC，取最高者；也可以根据该生物的等级设定DC。</p>"
     },
     "W3TL4VMrsQecTNFw": {
-      "name": "（死灵妖）扰乱心智",
+      "name": "（死灵妖）扰乱心智 (Necrovite) Scramble Psyche",
       "description": "<p>死灵妖触摸一个相邻生物，扰乱其思维模式。该生物必须成功通过一次意志豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}，持续1分钟。在困惑持续期间，死灵妖相对于该困惑目标被视为@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}。</p>"
     },
     "YxUr6jj3CcUPhXjg": {
-      "name": "（死灵妖）分解",
+      "name": "（死灵妖）分解 (Necrovite) Decompose",
       "description": "<p><strong>频率</strong>每轮一次</p><hr /><p><strong>效果</strong> 死灵妖对一个生物进行一次破坏之杖打击。如果此次攻击命中并造成伤害，该生物受到@Damage[3d6[persistent,void]]伤害。</p>"
     },
     "ZiIpvgdaCHotJoQk": {
-      "name": "（纳米机械）压缩",
+      "name": "（纳米机械）压缩 (Nanite) Compression",
       "description": "<p>该生物无需挤入即可通过至少2尺宽的缝隙，并且能够挤入至少1尺宽的缝隙。</p>"
     },
     "dIXB1WuUt3eMMBgR": {
-      "name": "（死灵妖）不灭活力",
+      "name": "（死灵妖）不灭活力 (Necrovite) Undying Vigor",
       "description": "<p><strong>频率</strong>每分钟一次</p><hr /><p><strong>效果</strong> 死灵妖向50尺内的一个不死生物灌注一股虚能。该生物变为@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}，持续1分钟。被强化的不死生物只能使用此额外动作进行行走或打击。</p>"
     },
     "eBk94uigTDYQTQZ8": {
-      "name": "（安保机器人）紧急应对",
+      "name": "（安保机器人）紧急应对 (Security Robot) Exigency",
       "description": "<p><strong>频率</strong>每10分钟一次</p>\n<p><strong>触发</strong> 一个生物以攻击指定安保机器人为目标</p><hr /><p><strong>效果</strong> 机器人将处理能力超频，尝试避开攻击，其对抗触发攻击的AC获得+2环境加值。</p>"
     },
     "haNcj3zWgoEO0yJw": {
-      "name": "（环境适应）地形适应",
+      "name": "（环境适应）地形适应 (Environmental Adaptation) Terrain Adaptation",
       "description": "<p>该生物无视其生活环境中最常见地形造成的不平地面和困难地形，例如冰冷卫星上的积雪地形（极难地形降为普通困难地形）。</p>"
     },
     "iWxqdLRqPmCYcZLC": {
-      "name": "（死灵妖）净化心灵",
+      "name": "（死灵妖）净化心灵 (Necrovite) Clear Mind",
       "description": "<p><strong>触发</strong> 死灵妖成为一个具有情绪特征法术的目标</p><hr /><p><strong>效果</strong> 死灵妖尝试反制触发法术。如果法术被打断，死灵妖获得等于被反制法术环阶两倍的临时生命值，持续1分钟。</p>"
     },
     "igummwLlUerkERdy": {
-      "name": "（扭曲）并不在那里",
+      "name": "（扭曲）并不在那里 (Warped) Not Really There",
       "description": "<p><strong>触发</strong> 一个生物以攻击或区域效果指定扭曲生物为目标，且扭曲生物察觉到了攻击者</p><hr /><p><strong>效果</strong> 扭曲生物传送10尺。如果这使其离开攻击的射程或区域，攻击便未命中。否则，扭曲生物对抗此次攻击的AC和反射豁免获得+2环境加值。</p>"
     },
     "lYUyDnVB4EiMBddW": {
-      "name": "（恶意人工智能）电缆"
+      "name": "（恶意人工智能）电缆 (Malevolent AI) Electric Cable"
     },
     "lxBCyMonaQbG6w9k": {
-      "name": "（硬光）牵系",
+      "name": "（硬光）牵系 (Hardlight) Tethered",
       "description": "<p>硬光生命体离开投影仪的距离不能超过指定的尺数。硬光生命体的生命值降至0时会消失，但其投影仪会在[[/gmr 1d4 #hours]]{1d4小时}后将它重新构建出来。要永久摧毁硬光生命体，唯一的方法是找到其投影仪，并将投影仪修复或摧毁。</p>"
     },
     "ml0jNHgKdoyLK9Or": {
-      "name": "（宁芙仙后）联络粉丝",
+      "name": "（宁芙仙后）联络粉丝 (Nymph Queen) Fan Mail",
       "description": "<p>宁芙仙后可以向一个智慧生物发送鼓舞人心的视频或文字消息，激发其灵感。只要该生物保留着这条消息，并与宁芙仙后维持良好关系，其所有与艺术或表演有关的手艺、表演和学识检定就会获得+1状态加值。该生物可以用一个1动作的交互动作播放或查看这条消息，振奋精神。如此便能使用宁芙仙后的法术攻击调整值，尝试反制一个正影响自己的情绪效果。当仙后的消息以这种方式使用后，它就会变成普通的视频或文字。</p>"
     },
     "oIynmyvjwwKhFfhX": {
-      "name": "（死灵妖）熵能之触",
+      "name": "（死灵妖）熵能之触 (Necrovite) Entropic Touch",
       "description": "<p>死灵妖造成的虚能伤害能够伤害不死生物和具有虚能治疗的生物，如同命能伤害一般。死灵妖以近战打击攻击虚体不死生物时，获得灭鬼强化的益处。</p>"
     },
     "oiINnJTBt7FTZiHf": {
-      "name": "（机械化战争机器）弹道防御矩阵",
+      "name": "（机械化战争机器）弹道防御矩阵 (Robotic War Machine) Ballistic Defense Matrix",
       "description": "<p><strong>触发</strong> 一个生物对遥控战争机器尝试远程打击</p>\n<p><strong>需求</strong> 战争机器当前处于该生物的触及范围外</p><hr /><p><strong>效果</strong> 遥控战争机器对触发生物进行一次远程打击。如果此次打击的结果大于或等于触发打击的结果，触发打击便被视为大失败。</p>"
     },
     "pkUBiAnmjno87Aqp": {
-      "name": "（安保机器人）纳米激涌",
+      "name": "（安保机器人）纳米激涌 (Security Robot) Nanite Surge",
       "description": "<p><strong>频率</strong>每天一次</p><hr /><p><strong>效果</strong> 安保机器人为一个科技生物或物品恢复生命值，每机器人等级恢复6点（@Damage[(@actor.level*6)[healing]]）。</p>"
     },
     "qWWSkPDn3Vn32a7V": {
-      "name": "（宁芙仙后）天体跃迁",
+      "name": "（宁芙仙后）天体跃迁 (Nymph Queen) Celestial Step",
       "description": "<p>宁芙仙后几乎能够瞬间穿越与自己相连的天体。她可以使用天体跃迁，传送到其领地表面或内部的任意区域，没入天体表面，然后在预定目的地重新出现。</p>"
     },
     "xkK4raHhkfCL9QsD": {
-      "name": "（纳米机械）纳米激涌",
+      "name": "（纳米机械）纳米激涌 (Nanite) Nanite Surge",
       "description": "<p><strong>频率</strong>每天一次</p><hr /><p><strong>效果</strong> 该生物为一个具有科技特征的生物或物品恢复生命值，每等级恢复6点（@Damage[(@actor.level*6)[healing]]）。</p>"
     },
     "xtu4lOuOOhl0jxVk": {
-      "name": "（机械化战争机器）攻击模式·贝塔",
+      "name": "（机械化战争机器）攻击模式·贝塔 (Robotic War Machine) Attack Pattern Beta",
       "description": "<p>遥控战争机器对一个目标进行一次打击，然后快步或行走，再对射程内的另一个目标进行一次打击。两次打击均计入多重攻击减值，但该减值直到两次打击全部完成后才会增加。</p>"
     },
     "y8pub4i3nwD4W2DO": {
-      "name": "（数字幽灵）虚拟武装",
+      "name": "（数字幽灵）虚拟武装 (Digital Ghost) Virtual Arms",
       "description": "<p>数字幽灵的武器造成心灵伤害，具有灭鬼强化，并在被丢下时消失。</p>"
     },
     "zphTNvioP3r5s6bj": {
-      "name": "（渗透机器人）反应式伪装",
+      "name": "（渗透机器人）反应式伪装 (Infiltrator Robot) Reactive Camouflage",
       "description": "<p>机器人的外壳面板装有感光反射器。即使没有掩蔽或隐蔽，它也可以[[/act hide]]。</p>"
     }
   }

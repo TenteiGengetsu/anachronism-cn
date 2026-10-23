@@ -1,5 +1,5 @@
 {
-  "label": "规则书怪物",
+  "label": "规则书怪物 Rulebooks",
   "mapping": {
     "name": "name",
     "description": "system.description.value",
@@ -79,7 +79,7 @@
   },
   "entries": {
     "1xS1vT7CSac90JOO": {
-      "name": "城市巡航车",
+      "name": "城市巡航车 Urban Cruiser",
       "items": [
         {
           "id": "LL2koc1PlBoKSCLu",
@@ -107,7 +107,7 @@
       }
     },
     "2tnV0My0s36a5ctC": {
-      "name": "放贷人",
+      "name": "放贷人 Credshark",
       "publicNotes": "<p>放贷人在食物链的较高端运作。</p><hr /><h2>帮派分子</h2><p>犯罪行会、犯罪家族、收取保护费的团伙和高利贷者，只是艾巴萨罗姆空间站众多帮派类型中的一小部分。帮派有强烈的地域性，惯于掠夺他人，且极其重视地盘。成员因不同原因加入，但大多数人都发现，一旦入帮，就很难轻易脱身。</p>\n<p>帮派分子总有自己的生财之道，也就是用来赚钱的犯罪生意，但大多数帮派也惯常收取保护费。在帮派地盘内做生意的人——更糟的是，生意位于多个帮派地盘的交界处——通常都得定期交钱，否则就可能面临严重后果。</p>",
       "items": [
         {
@@ -188,7 +188,7 @@
       }
     },
     "3ZNGYrsV4cj7TQVH": {
-      "name": "涡轮滑翔翼",
+      "name": "涡轮滑翔翼 Turboglider",
       "items": [
         {
           "id": "Y7vrBxUHjD3wsX2R",
@@ -216,7 +216,7 @@
       }
     },
     "4dp9eJNWmidbmHY6": {
-      "name": "安保打手",
+      "name": "安保打手 Security Goon",
       "publicNotes": "<p>安保打手拥有令人望而生畏的肌肉，且对如何使用它们毫无顾忌。</p><h2>安保人员</h2><p>空间站内的每家企业、教会和高档社区都有自己的安保力量。</p>",
       "items": [
         {
@@ -281,7 +281,7 @@
       }
     },
     "4veMFvInbUyBcJNm": {
-      "name": "摩托艇",
+      "name": "摩托艇 Motor Boat",
       "cnText_system_details_crew": {
         "expected": "1 pilot",
         "text": "1名驾驶员"
@@ -300,7 +300,7 @@
       }
     },
     "5OYZcNFkfTO8lGca": {
-      "name": "炸弹藤",
+      "name": "炸弹藤 String-of-Bombs",
       "publicNotes": "<p>炸弹藤是一种美丽但具有爆炸性的多肉植物，在协约世界的许多星舰上作为危险的乘客被发现。原产于卡斯卓韦的热带雨林，炸弹藤的爆炸性名称来源于其藤蔓上悬挂的微微发光的橙色豆荚。这些豆荚是为了防御卡斯卓韦的巨型掠食者而进化出来的防御机制，因为刺和藤蔓被证明是不够的威慑。由于植物的爆炸性豆荚直到完全成熟才会发育，炸弹藤看起来像其他无害的多肉植物（包括与之密切相关且无害的太阳藤），可能会被误认为是低维护的飞船绿化植物。许多园丁在它真正在他们面前爆炸之前，都没有意识到他们正在培育的危险。</p>\n<p>炸弹藤要到完全成熟才会长出爆炸豆荚，因此看上去与其他无害多肉植物相似，包括与其亲缘相近且无害的太阳藤（string-of-suns），有时会被当作无需太多照料的船上绿植。许多园丁一直没意识到自己养的是何等危险之物，直到它真的在自己面前炸开。</p><hr /><h2>侵扰生物</h2><p>入侵生物困扰着艾巴萨罗姆空间站，就算投入最专注的清剿行动，也难以将其消灭。无论是藏身于幽灵层，还是偷渡上星舰，这些顽强的侵扰生物始终是这座庞大而多元的空间站面临的问题。</p>",
       "items": [
         {
@@ -341,7 +341,7 @@
       }
     },
     "6qjiEB0Fb0R8nAED": {
-      "name": "创业特工",
+      "name": "创业特工 Entrepreneurial Agent",
       "publicNotes": "<p>自由职业的创业特工比坐办公室的企业员工承担更多风险。</p><hr /><h3>企业资产</h3><p>企业雇用并训练专门的“资产”，也就是警卫，来保护自己的利益。</p>",
       "items": [
         {
@@ -411,7 +411,7 @@
       }
     },
     "7pMQSaf1vXZsiDVk": {
-      "name": "天空艇",
+      "name": "天空艇 Skyboat",
       "items": [
         {
           "id": "5dTSQuVxlKhgebvC",
@@ -439,7 +439,7 @@
       }
     },
     "7vppama47H9UstZB": {
-      "name": "高管保护特工",
+      "name": "高管保护特工 Executive Protection Agent",
       "publicNotes": "<p>这些武装助理保护企业高管。</p><hr /><h3>企业资产</h3><p>企业雇用并训练专门的“资产”，也就是警卫，来保护自己的利益。</p>",
       "items": [
         {
@@ -584,7 +584,7 @@
           "expectedDescription": "<p>The talon strike craft reconfigures its wings, switching between its aerial form and land-based form.</p>"
         }
       ],
-      "name": "利爪突击艇",
+      "name": "利爪突击艇 Talon Strike Craft",
       "cnText_system_details_description": {
         "expected": "<p>This fighter craft is designed to control the battlefield from any angle, fighting for control of the skies before folding its wings into a tank-like configuration and hovering across the ground.</p>",
         "text": "<p>这种战斗艇旨在从任何角度控制战场：先争夺制空权，再将机翼折成类似坦克的配置，悬浮驶过地面。</p>"
@@ -607,7 +607,7 @@
       }
     },
     "80vCt0fhJvEqmaEp": {
-      "name": "掠浪艇",
+      "name": "掠浪艇 Wakeskimmer",
       "items": [
         {
           "id": "eqHrd6Iqo8FLd5km",
@@ -642,7 +642,7 @@
       }
     },
     "912gqYo8hMIpaq75": {
-      "name": "黑洞",
+      "name": "黑洞 Black Hole",
       "items": [
         {
           "id": "fuGsx2Q5z7ELz9QL",
@@ -674,7 +674,7 @@
       }
     },
     "9aA9Y0XDjCKh3DdW": {
-      "name": "悬浮滑板",
+      "name": "悬浮滑板 Hoverboard",
       "items": [
         {
           "id": "G4rVP7ST3gSmfmeq",
@@ -709,7 +709,7 @@
       }
     },
     "CdetzaXWMajYsFaM": {
-      "name": "败蚁猎蚁",
+      "name": "败蚁猎蚁 Terminite Hunter",
       "publicNotes": "<p>当败蚁的故事开始流传时，它们最初被视作阴森鬼祟的食腐者。待到寻求刺激的人开始为了取乐或研究而猎杀这些生物时，一种新型败蚁几乎在一夜之间出现了：败蚁猎蚁。与败蚁一群中体型较小的工蚁构件相比，猎蚁远为嗜血。它们不会从物件和地形中采撷微粒，而是强到足以从活物身上撕裂下大块的现实。</p><hr /><h2>侵扰生物</h2><p>入侵生物困扰着艾巴萨罗姆空间站，就算投入最专注的清剿行动，也难以将其消灭。无论是藏身于幽灵层，还是偷渡上星舰，这些顽强的侵扰生物始终是这座庞大而多元的空间站面临的问题。</p>",
       "items": [
         {
@@ -754,7 +754,7 @@
           "expectedDescription": "<p>An acid skiff's hull is fully enclosed and enchanted with magical radiation wards. Its crew and passengers aren't exposed to radiation sickness when the vessel travels through areas where they normally would be. Alternatively, the passenger compartment can be converted to store radioactive materials securely, and the pilot and anyone outside the vehicle aren't exposed to radiation sickness from items stored within.</p>"
         }
       ],
-      "name": "酸液轻艇",
+      "name": "酸液轻艇 Acid Skiff",
       "cnText_system_details_description": {
         "expected": "<p>Designed to assist in rescue operations after toxic waste spills, reactor meltdowns, and other disasters, the acid skiff uses its magical wards to withstand environmental hazards, gliding over acid lakes and toxic gases while keeping its passengers insulated and safe in its fully enclosed shell.</p>",
         "text": "<p>酸液轻艇旨在协助有毒废物泄漏、反应堆熔毁及其他灾难后的救援。它用魔法防护抵御环境危害，掠过酸湖和毒气，同时以全封闭外壳隔绝危害，保护乘客。</p>"
@@ -793,7 +793,7 @@
           "expectedDescription": "<p><strong>Trigger</strong> A creature attempts to pass the designated area</p><hr /><p><strong>Effect</strong> The force field appears and shunts the creature away, making a Strike against the triggering creature.</p>"
         }
       ],
-      "name": "排斥力场",
+      "name": "排斥力场 Repulsing Force Field",
       "cnText_system_details_description": {
         "expected": "<p>A translucent force field appears to block a creature's path, shunting it and any other creature that attempts to pass it away.</p>",
         "text": "<p>一道半透明力场出现，挡住一个生物的去路，将其及任何其他试图穿过的生物推开。</p>"
@@ -821,7 +821,7 @@
           "expectedDescription": "<p><strong>Trigger</strong> A starship attempts to travel through the Drift using the malfunctioning Drift beacon</p><hr /><p><strong>Effect</strong> The triggering starship is sent to the wrong place by the Drift beacon and must attempt a @Check[will|dc:33] save.</p><hr /><p><strong>Critical Success</strong> The starship emerges near Absalom Station and is immune to the hazard for 1 day.</p>\n<p><strong>Success</strong> The starship is lost in the Drift. It emerges in a random location in Near Space.</p>\n<p><strong>Failure</strong> The starship is lost in the Drift. It emerges in a random location in the Vast.</p>"
         }
       ],
-      "name": "漂流域信标故障",
+      "name": "漂流域信标故障 Drift Beacon Malfunction",
       "cnText_system_details_description": {
         "expected": "<p>The Drift inexplicably teleports a starship to the wrong destination.</p>",
         "text": "<p>漂流域莫名其妙地将一艘星舰传送到错误目的地。</p>"
@@ -864,7 +864,7 @@
           "expectedDescription": "<p>If the vidgame console is turned off, all creatures inside the vidgame remain inside the vidgame and are temporarily removed from reality. If the vidgame console is turned back on, these creatures continue the game where they left off.</p>"
         }
       ],
-      "name": "致命电子游戏",
+      "name": "致命电子游戏 Deadly Vidgame",
       "cnText_system_details_description": {
         "expected": "<p>A hyperrealistic vidgame pulls players into a virtual world, transforming them into pixelated avatars and pitting them against deadly challenges.</p>",
         "text": "<p>一款极度逼真的电子游戏将玩家拉入虚拟世界，使其化作像素化身，面对致命挑战。</p>"
@@ -908,7 +908,7 @@
           "name": "超大机枪"
         }
       ],
-      "name": "哨戒炮塔",
+      "name": "哨戒炮塔 Sentry Turret",
       "cnText_system_details_description": {
         "expected": "<p>A mechanized turret attacks intruders.</p>",
         "text": "<p>一座机械炮塔攻击入侵者。</p>"
@@ -931,7 +931,7 @@
       }
     },
     "KoD72XB1Iv5ntVZi": {
-      "name": "时间回锁",
+      "name": "时间回锁 Time Loop",
       "items": [
         {
           "id": "nck0Tlm8C3FKd2J7",
@@ -993,7 +993,7 @@
           "expectedDescription": "<p><strong>Trigger</strong> A creature within the room ends its turn</p><hr /><p><strong>Effect</strong> The trap makes a nanite Strike against the triggering creature.</p>"
         }
       ],
-      "name": "解离室",
+      "name": "解离室 Disintegration Chamber",
       "cnText_system_details_description": {
         "expected": "<p>When sensors detect movement in the trapped room, the doors seal shut, and four wall apertures open, releasing disintegrating nanites into the room.</p>",
         "text": "<p>传感器侦测到陷阱房间内的移动时，房门密封，墙上四个开孔打开，向房内释放解离纳米机器。</p>"
@@ -1020,7 +1020,7 @@
       }
     },
     "OqnB7YdmnVn8sAJo": {
-      "name": "鱼雷迷你潜艇",
+      "name": "鱼雷迷你潜艇 Torpedo Minisub",
       "items": [
         {
           "id": "FrfiH9GraQU73BnB",
@@ -1048,7 +1048,7 @@
       }
     },
     "QNhmxvooLTWI8U51": {
-      "name": "星石哨兵",
+      "name": "星石哨兵 Starstone Sentry",
       "items": [
         {
           "id": "wEwecjGG7emipjDT",
@@ -1171,7 +1171,7 @@
       }
     },
     "QVdhSITToMwObJHR": {
-      "name": "暴徒",
+      "name": "暴徒 Tough",
       "publicNotes": "<p>暴徒是低级帮派成员，充当更强大罪犯的望风者、信使或打手。哪里有一个暴徒，附近肯定还有更多。</p><hr /><h2>帮派分子</h2><p>犯罪行会、犯罪家族、收取保护费的团伙和高利贷者，只是艾巴萨罗姆空间站众多帮派类型中的一小部分。帮派有强烈的地域性，惯于掠夺他人，且极其重视地盘。成员因不同原因加入，但大多数人都发现，一旦入帮，就很难轻易脱身。</p>\n<p>帮派分子总有自己的生财之道，也就是用来赚钱的犯罪生意，但大多数帮派也惯常收取保护费。在帮派地盘内做生意的人——更糟的是，生意位于多个帮派地盘的交界处——通常都得定期交钱，否则就可能面临严重后果。</p>",
       "items": [
         {
@@ -1243,7 +1243,7 @@
       }
     },
     "RTOFL1xhDDaCAwLT": {
-      "name": "量子克隆体",
+      "name": "量子克隆体 Quantum Clone",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -1278,7 +1278,7 @@
       }
     },
     "TdLUj5eeEJ6MtZNl": {
-      "name": "奇术胞",
+      "name": "奇术胞 Thaumacyte",
       "items": [
         {
           "id": "H2t036OHb17AVsNV",
@@ -1331,7 +1331,7 @@
       }
     },
     "UmMqYpQxsvXHee8N": {
-      "name": "空投舱",
+      "name": "空投舱 Drop Pod",
       "items": [
         {
           "id": "Sj8NcT54mE0h1du1",
@@ -1373,7 +1373,7 @@
       }
     },
     "UoHLshDZHt3RacNq": {
-      "name": "赏金猎人",
+      "name": "赏金猎人 Bounty Hunter",
       "publicNotes": "<p>无论是追捕逃犯、逃跑的债务人还是浪子继承人，赏金猎人只要钱到位就会无情地追逐猎物。虽然许多目标被通缉“不论死活”，或者干脆就是“死”，但下方的猎人擅长使用其磁力绳球和电击武器将目标活捉回来。</p><h2>雇佣兵</h2><p>只要万能的信用点能买到权力、安全和舒适，它就同样能从走投无路、不讲道理、冷酷无情的人那里买到暴力。艾巴萨罗姆空间站中有数不清的佣兵公司和自由雇佣兵，他们都热切地向出价最高者提供服务。</p>\n<p>有些佣兵拥有道德准则或荣誉感，限制了他们能够接受的合同，而艾巴萨罗姆的法律也严格限制准军事公司可以向成员分派的工作。当然，如果知道该去哪里寻找，仍能在空间站阴暗的角落发现滋生的暗杀勾当，以及更恶劣的行径。</p>\n<p>雇佣兵并非总是特工或士兵。有时，他们是狡猾的施法者、强大的恒星武士或阴险的使节。赏金猎人是在空间站出没的最常见佣兵类别之一。下方的赏金猎人是追捕危险亡命徒的菁英敌人示例，而帮派分子的数据也能用来代表较低等级的佣兵。</p>",
       "items": [
         {
@@ -1527,7 +1527,7 @@
           "expectedDescription": "<p>A hoverbike comes with a sleek sidecar that can be attached or detached as a 10-minute activity while the vehicle isn't in use. While attached, the hoverbike can carry one passenger in addition to its pilot but takes a –5-foot status penalty to its Speed.</p>"
         }
       ],
-      "name": "悬浮摩托",
+      "name": "悬浮摩托 Hoverbike",
       "cnText_system_details_description": {
         "expected": "<p>Famed for its sleek knifelike design and matte black coating, the hoverbike is the go-to vehicle for enterprising couriers and street racers alike, owing to its quick acceleration capability and high cruising speeds. It's also especially popular among low-level biker gangs due to the included sidecar, which allows them to transport more people to and from confrontations with other gangs.</p>",
         "text": "<p>悬浮摩托以流畅的刀锋造型和哑光黑涂层闻名，凭借迅捷加速与高速巡航能力，成为进取的快递员和街头赛车手的首选。它还配有边斗，能运载更多人在帮派冲突间往返，因此也格外受基层飞车党欢迎。</p>"
@@ -1550,7 +1550,7 @@
       }
     },
     "WzwN4v7h1ea2pLsr": {
-      "name": "监视法师",
+      "name": "监视法师 Surveillance Mage",
       "publicNotes": "<p>监视法师是一名隐秘操作者，能让任何企业外勤团队或安全团队成为令人生畏的力量。</p><hr /><h3>企业资产</h3><p>企业雇用并训练专门的“资产”，也就是警卫，来保护自己的利益。</p>",
       "items": [
         {
@@ -1881,7 +1881,7 @@
       }
     },
     "Xn0UuVUodsBlGPZe": {
-      "name": "巡逻飞艇",
+      "name": "巡逻飞艇 Patrol Dirigible",
       "items": [
         {
           "id": "mzk3Ep6qJV2tHuMy",
@@ -1916,7 +1916,7 @@
       }
     },
     "aCYxSC8ddmzyivVl": {
-      "name": "引力子刺客",
+      "name": "引力子刺客 Graviton Assassin",
       "publicNotes": "<p>有人说当你凝视虚空时，虚空也凝视着你。但那些引导虚空的人呢？</p>\n<p>受雇行刺的刺客通常是冷酷的实用主义者，只要价钱合适，什么都肯做；但许多人有着自己独特的哲学，或属于鲜为人知的邪教与宗派。职业杀手中受欢迎的神祇包括虚无主义的吞噬者和狡诈的老鼠婆（Lao Shu Po）。一些恒星武士——例如下方这位——认为行刺是维持宇宙平衡所必需的循环的一部分，以此为自己的行为辩护。</p><h2>雇佣兵</h2><p>只要万能的信用点能买到权力、安全和舒适，它就同样能从走投无路、不讲道理、冷酷无情的人那里买到暴力。艾巴萨罗姆空间站中有数不清的佣兵公司和自由雇佣兵，他们都热切地向出价最高者提供服务。</p>\n<p>有些佣兵拥有道德准则或荣誉感，限制了他们能够接受的合同，而艾巴萨罗姆的法律也严格限制准军事公司可以向成员分派的工作。当然，如果知道该去哪里寻找，仍能在空间站阴暗的角落发现滋生的暗杀勾当，以及更恶劣的行径。</p>\n<p>雇佣兵并非总是特工或士兵。有时，他们是狡猾的施法者、强大的恒星武士或阴险的使节。赏金猎人是在空间站出没的最常见佣兵类别之一。下方的赏金猎人是追捕危险亡命徒的菁英敌人示例，而帮派分子的数据也能用来代表较低等级的佣兵。</p>",
       "items": [
         {
@@ -1999,7 +1999,7 @@
       }
     },
     "c2rqhARro9iIj8up": {
-      "name": "太空地精垃圾佬",
+      "name": "太空地精垃圾佬 Space Goblin Junker",
       "publicNotes": "<p>太空地精垃圾佬潜伏在废铁场（Botscrap）的垃圾场、火花街（Sparks）的工程舱或管道镇（Pipetown）的蜿蜒迷宫中。他们对创造的热爱，与他们对毁灭的造诣不相上下，其中一些地精组成垃圾强盗帮，偷走大而闪亮的科技部件。这些被盗科技随后成为他们谋划建造的下一个科技奇迹的核心部件。</p><h2>太空地精</h2><p>地精在艾巴萨罗姆空间站各处都相当常见。它们喜爱狭窄、阴暗的地方，因此空间站的小巷和管道对它们格外有吸引力。许多地精乐于与其他居民共同生活，成为商人、工匠和漫画家（越来越多的地精出版社正在出版无字而富有个性的“地精漫画”），但其他地精则往往会惹是生非。其中一些狡猾的捣蛋鬼在艾巴萨罗姆空间站各处造成停电、火灾，乃至更严重的问题。</p>",
       "items": [
         {
@@ -2082,7 +2082,7 @@
       }
     },
     "eUalXSohKGtlHvKr": {
-      "name": "星石守卫",
+      "name": "星石守卫 Starstone Guardian",
       "items": [
         {
           "id": "5g0Dtym2B2FyFBQ8",
@@ -2219,7 +2219,7 @@
       }
     },
     "epV8z1LMMwqgW7bz": {
-      "name": "太空地精喷子",
+      "name": "太空地精喷子 Space Goblin Griefcaster",
       "publicNotes": "<p>一些精通科技的施法者喜欢“刷屏”：使用他们的魔法在信息圈上惹恼人们直至暴怒。一些人也学会了在现实生活中喷人。</p><h2>太空地精</h2><p>地精在艾巴萨罗姆空间站各处都相当常见。它们喜爱狭窄、阴暗的地方，因此空间站的小巷和管道对它们格外有吸引力。许多地精乐于与其他居民共同生活，成为商人、工匠和漫画家（越来越多的地精出版社正在出版无字而富有个性的“地精漫画”），但其他地精则往往会惹是生非。其中一些狡猾的捣蛋鬼在艾巴萨罗姆空间站各处造成停电、火灾，乃至更严重的问题。</p>",
       "items": [
         {
@@ -2462,7 +2462,7 @@
           "expectedDescription": "<p><strong>Trigger</strong> A starship enters the hazard's zone</p><hr /><p><strong>Effect</strong> The hazard summons a specific 6th-level creature on board the triggering starship, determined when the hazard is created. The hazard then rolls initiative.</p>"
         }
       ],
-      "name": "位面撕裂",
+      "name": "位面撕裂 Planar Breach",
       "cnText_system_details_description": {
         "expected": "<p>A planar breach oozes energy and spawns monsters.</p>",
         "text": "<p>一道位面裂口渗出能量，孳生怪物。</p>"
@@ -2485,7 +2485,7 @@
       }
     },
     "guvzUoQGY5N8upTm": {
-      "name": "安保奥术科技特工",
+      "name": "安保奥术科技特工 Security Arcanotech Agent",
       "publicNotes": "<p>最稀有且最多才多艺的私人安保警卫类别是奥术科技特工。</p><h2>安保人员</h2><p>空间站内的每家企业、教会和高档社区都有自己的安保力量。</p>",
       "items": [
         {
@@ -2723,7 +2723,7 @@
       }
     },
     "nppecukdT37pGuMA": {
-      "name": "安保狙击手",
+      "name": "安保狙击手 Security Sharpshooter",
       "publicNotes": "<p>一名手术般精准、目光警觉的狙击手可以在客户意识到危险之前就进行干预。</p><h2>安保人员</h2><p>空间站内的每家企业、教会和高档社区都有自己的安保力量。</p>",
       "items": [
         {
@@ -2816,7 +2816,7 @@
       }
     },
     "ocANFgNSYPmoROSM": {
-      "name": "败蚁蚁后",
+      "name": "败蚁蚁后 Terminite Queen",
       "items": [
         {
           "id": "hZ68C4fUAiK9zpFm",
@@ -3009,7 +3009,7 @@
       }
     },
     "p2FidtuGWhxZoLQM": {
-      "name": "太空地精恶棍",
+      "name": "太空地精恶棍 Space Goblin Miscreant",
       "publicNotes": "<p>年轻或不明智的太空地精令人沮丧地容易被说服参与盗窃或暴力。这些小家伙在事情出错时逃跑的速度与投入战斗的速度一样快，他们困扰着任何愚蠢到敢在艾巴萨罗姆空间站粗野街区旅行的外来者。</p><h2>太空地精</h2><p>地精在艾巴萨罗姆空间站各处都相当常见。它们喜爱狭窄、阴暗的地方，因此空间站的小巷和管道对它们格外有吸引力。许多地精乐于与其他居民共同生活，成为商人、工匠和漫画家（越来越多的地精出版社正在出版无字而富有个性的“地精漫画”），但其他地精则往往会惹是生非。其中一些狡猾的捣蛋鬼在艾巴萨罗姆空间站各处造成停电、火灾，乃至更严重的问题。</p>",
       "items": [
         {
@@ -3060,7 +3060,7 @@
       }
     },
     "r7sLIKs7Lo2PQVW7": {
-      "name": "叉车",
+      "name": "叉车 Forklift",
       "items": [
         {
           "id": "mU6j58QOkilzDY2R",
@@ -3095,7 +3095,7 @@
       }
     },
     "sFTw0auUZJKhGz3F": {
-      "name": "败蚁工蚁",
+      "name": "败蚁工蚁 Terminite Worker",
       "items": [
         {
           "id": "qzQXxr5LfpQKETid",
@@ -3124,7 +3124,7 @@
       }
     },
     "t3sNNPb0oJBjGmVY": {
-      "name": "能量摩托",
+      "name": "能量摩托 Enercycle",
       "items": [
         {
           "id": "4v4r2arInwrK5TUJ",
@@ -3175,7 +3175,7 @@
           "expectedDescription": "<p>The dragon of Damoritosh's intimidating design is magically enhanced to simulate the terrifying presence of an actual dragon. Creatures within a @Template[type:emanation|distance:60], except the crew and passengers, must attempt a @Check[will|dc:32] save. This ability can be used by crew or passengers, in addition to the pilot.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 4}.</p>"
         }
       ],
-      "name": "戴莫力图斯之龙",
+      "name": "戴莫力图斯之龙 Dragon of Damoritosh",
       "cnText_system_details_description": {
         "expected": "<p>A <em>dragon of Damoritosh</em> resembles a huge dragon formed from interlocking metal plates with enormous, magically enhanced wings, making it a terrifying sight to behold. The incredibly detailed dragon's head, which doubles as a flamethrower, was designed by talented artists to appear lifelike. The dragon has become a favorite vehicle for crowd suppression and intimidation campaigns—for those who can afford one.</p>",
         "text": "<p><em>戴莫力图斯之龙</em>形似一头由相扣金属板构成的巨龙，配有魔法强化的巨大双翼，令人望而生畏。其精细无比的龙头兼作火焰喷射器，由才华横溢的艺术家设计，栩栩如生。对负担得起的人而言，这种龙已成为镇压人群和恐吓行动的热门载具。</p>"
@@ -3198,7 +3198,7 @@
       }
     },
     "xZf2UldYXXvVZe3p": {
-      "name": "帮派头目",
+      "name": "帮派头目 Ganglord",
       "publicNotes": "<p>只有最无情的人才能爬上顶端成为帮派头目。</p><hr /><h2>帮派分子</h2><p>犯罪行会、犯罪家族、收取保护费的团伙和高利贷者，只是艾巴萨罗姆空间站众多帮派类型中的一小部分。帮派有强烈的地域性，惯于掠夺他人，且极其重视地盘。成员因不同原因加入，但大多数人都发现，一旦入帮，就很难轻易脱身。</p>\n<p>帮派分子总有自己的生财之道，也就是用来赚钱的犯罪生意，但大多数帮派也惯常收取保护费。在帮派地盘内做生意的人——更糟的是，生意位于多个帮派地盘的交界处——通常都得定期交钱，否则就可能面临严重后果。</p>",
       "items": [
         {
@@ -3303,7 +3303,7 @@
       }
     },
     "yAYVKKDNaPQi485q": {
-      "name": "能量直升机",
+      "name": "能量直升机 Enercopter",
       "cnText_system_details_crew": {
         "expected": "1 pilot",
         "text": "1名驾驶员"
@@ -3322,7 +3322,7 @@
       }
     },
     "2Dn37i1JTL2bIGms": {
-      "name": "全地形运输车",
+      "name": "全地形运输车 All-Terrain Hauler",
       "items": [
         {
           "id": "Q8RAVpicQjqOHLHp",
@@ -3365,7 +3365,7 @@
       }
     },
     "2QI8JWCXGJA54PLe": {
-      "name": "幽灵通讯",
+      "name": "幽灵通讯 Phantom Communication",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3397,7 +3397,7 @@
       }
     },
     "2jx21rs5Oi5uGf9A": {
-      "name": "哀嚎星环",
+      "name": "哀嚎星环 Wailing Rings",
       "items": [
         {
           "id": "vdaCdL76igXnjBtF",
@@ -3425,7 +3425,7 @@
       }
     },
     "2yrGP4fNXEC5ARHU": {
-      "name": "吞噬者纪念碑",
+      "name": "吞噬者纪念碑 Monument to the Devourer",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3453,7 +3453,7 @@
       }
     },
     "3HEp2vpST03ArJy1": {
-      "name": "逻辑试炼炉",
+      "name": "逻辑试炼炉 Logic Crucible",
       "items": [
         {
           "id": "jQzz60JzhgpByYWI",
@@ -3484,7 +3484,7 @@
       }
     },
     "4wc5qtMrvsUotufG": {
-      "name": "电围栏",
+      "name": "电围栏 Electric Fence",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3512,7 +3512,7 @@
       }
     },
     "5JUU4xVIgip5Y8Kz": {
-      "name": "突变迷雾",
+      "name": "突变迷雾 Mutation Fog",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3536,7 +3536,7 @@
       }
     },
     "5TGgljErrluk0gTb": {
-      "name": "星界巨兽遗骸",
+      "name": "星界巨兽遗骸 Extinct Astral Behemoth",
       "items": [
         {
           "id": "7NlXefjfn0RAVmrT",
@@ -3569,7 +3569,7 @@
       }
     },
     "5tEu8cOGTADr3McX": {
-      "name": "记忆水晶",
+      "name": "记忆水晶 Memory Crystals",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3608,7 +3608,7 @@
       }
     },
     "64aUF3879kiLghR0": {
-      "name": "流星雨",
+      "name": "流星雨 Meteor Shower",
       "items": [
         {
           "id": "G2nqmG2eqTMFS9wB",
@@ -3636,7 +3636,7 @@
       }
     },
     "6JRRt6rprW5DkjGa": {
-      "name": "激光网",
+      "name": "激光网 Laser Web",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3675,7 +3675,7 @@
       }
     },
     "6LRpqcEAkKdstSr8": {
-      "name": "失控机械臂",
+      "name": "失控机械臂 Haywire Robotic Arm",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3704,7 +3704,7 @@
       }
     },
     "7APVXcfPeZcLdkYG": {
-      "name": "骇客的愚行",
+      "name": "骇客的愚行 Hacker's Folly",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3736,7 +3736,7 @@
       }
     },
     "7MOx2VBvqiKchNMD": {
-      "name": "附身作战站位",
+      "name": "附身作战站位 Possessed Battle Stations",
       "items": [
         {
           "id": "CDvXrwm8pEmi6XkA",
@@ -3768,7 +3768,7 @@
       }
     },
     "7iucNcWaHzpTaHeK": {
-      "name": "垃圾压缩机",
+      "name": "垃圾压缩机 Trash Compactor",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3800,7 +3800,7 @@
       }
     },
     "7tFjVjSWvrWdbqdd": {
-      "name": "激光炮塔",
+      "name": "激光炮塔 Laser Turret",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3837,7 +3837,7 @@
       }
     },
     "8OtqctKRZZ5zRzDY": {
-      "name": "爆炸过载",
+      "name": "爆炸过载 Explosive Overload",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3861,7 +3861,7 @@
       }
     },
     "8xsVlHYPJKuOjOU1": {
-      "name": "冰寒迷雾",
+      "name": "冰寒迷雾 Cryo Mist",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3889,7 +3889,7 @@
       }
     },
     "B3k7Slaae523cdHL": {
-      "name": "踏崖车",
+      "name": "踏崖车 Clifftreader",
       "items": [
         {
           "id": "JEk1zj3Ec8cnEL1T",
@@ -3921,7 +3921,7 @@
       }
     },
     "CFVl5DPPJopqTP3e": {
-      "name": "小行星带",
+      "name": "小行星带 Asteroid Field",
       "items": [
         {
           "id": "1H41TzvGbAD7gQp2",
@@ -3954,7 +3954,7 @@
       }
     },
     "DTsSeGM6ffKWRtoi": {
-      "name": "黏液侵扰",
+      "name": "黏液侵扰 Slime Infestation",
       "items": [
         {
           "id": "gbIdERe0QdjnXJJ6",
@@ -4018,7 +4018,7 @@
       }
     },
     "ECKDKewe5C19190q": {
-      "name": "不祥小行星",
+      "name": "不祥小行星 Ominous Planetoid",
       "items": [
         {
           "id": "41RbJ1UC2kxHl0wG",
@@ -4050,7 +4050,7 @@
       }
     },
     "EGwGal4Z8zQZUnGn": {
-      "name": "螺旋行者",
+      "name": "螺旋行者 Spiralrunner",
       "items": [
         {
           "id": "Ix8tPaZQarxhoQ4q",
@@ -4089,7 +4089,7 @@
       }
     },
     "EZff0TWHMAXaSewo": {
-      "name": "陆行独木舟",
+      "name": "陆行独木舟 Landcutter Canoe",
       "items": [
         {
           "id": "w9eean7DdFjAnbzU",
@@ -4128,7 +4128,7 @@
       }
     },
     "Eqa9S1phTKtkOm99": {
-      "name": "滑翔摩托",
+      "name": "滑翔摩托 Glidecycle",
       "items": [
         {
           "id": "Jf0AwBS2QpAm967R",
@@ -4167,7 +4167,7 @@
       }
     },
     "FwIniYREcTwHoWq2": {
-      "name": "掠云艇",
+      "name": "掠云艇 Cloudskipper",
       "items": [
         {
           "id": "3sfh8vv6s74Rk0Rf",
@@ -4199,7 +4199,7 @@
       }
     },
     "FwosnnfuxTLAKgPd": {
-      "name": "量子交错",
+      "name": "量子交错 Quantum Crossover",
       "items": [
         {
           "id": "vavhUU1WFK1IdaVg",
@@ -4231,7 +4231,7 @@
       }
     },
     "GH1knwqnj2K8C0mg": {
-      "name": "致幻孢子",
+      "name": "致幻孢子 Psychotropic Spores",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -4259,7 +4259,7 @@
       }
     },
     "GLA4A7mUgcK1LWgX": {
-      "name": "船式摩托",
+      "name": "船式摩托 Boatercycle",
       "items": [
         {
           "id": "vl8dsa9RfjMaIMCF",
@@ -4298,7 +4298,7 @@
       }
     },
     "HEQR3TLJIo8j9wLg": {
-      "name": "极奢游艇",
+      "name": "极奢游艇 Ultra-Luxe Yacht",
       "cnText_system_details_description": {
         "expected": "<p>The wealthiest citizens of the Pact Worlds just can't help but show off their wealth, and luxurious yachts are designed to do just that. More a mobile marine resort than a vehicle, they contain everything needed to entertain the passengers for months at a time, including theaters, swimming pools, top-of-the-line holoprojectors, lavish sleeping quarters, and even a landing pad for small aircraft. Despite their size, these ships are meant to operate with almost no crew, to allow for the utmost privacy of the owner and their guests.</p>",
         "text": "<p>协约世界最富有的公民总忍不住炫耀财富，豪华游艇正为此而设计。比起载具，它们更像移动的海上度假胜地，配有让乘客数月娱乐不休的一切设施，包括剧院、泳池、顶级全息投影仪、奢华卧室，甚至还有小型飞行器停机坪。尽管体型庞大，这些船仍被设计成几乎无需船员便可运作，为主人和宾客提供最大限度的隐私。</p>"
@@ -4321,7 +4321,7 @@
       }
     },
     "HJuohodEvhqZqpHd": {
-      "name": "古代炮击",
+      "name": "古代炮击 Ancient Bombardment",
       "items": [
         {
           "id": "a0tg2Toje5B0uz3a",
@@ -4349,7 +4349,7 @@
       }
     },
     "I3S3uAIPmf8ferVO": {
-      "name": "时间裂隙",
+      "name": "时间裂隙 Temporal Rift",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -4373,7 +4373,7 @@
       }
     },
     "IE9KmxzAscgUAxjL": {
-      "name": "电震控制台",
+      "name": "电震控制台 Jolting Console",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -4397,7 +4397,7 @@
       }
     },
     "IPpcaFdvm2atAaRs": {
-      "name": "现实喷泉",
+      "name": "现实喷泉 Reality Geyser",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -4425,7 +4425,7 @@
       }
     },
     "JWUqNZIcNNReYwqQ": {
-      "name": "现实裂口",
+      "name": "现实裂口 Rip in Reality",
       "items": [
         {
           "id": "JSWtaTjWrtoqk1id",
@@ -4457,7 +4457,7 @@
       }
     },
     "JfeI83zV00ZzGINh": {
-      "name": "神性恒星",
+      "name": "神性恒星 Deific Star",
       "items": [
         {
           "id": "j3nvlZlAuRlsSkRw",
@@ -4510,7 +4510,7 @@
       }
     },
     "KeaTh28RoYhzBMP1": {
-      "name": "巅峰战舰",
+      "name": "巅峰战舰 Apex Battleship",
       "items": [
         {
           "id": "56QyNixIWiCV4swN",
@@ -4556,7 +4556,7 @@
       }
     },
     "KomnJHpQMJhDWKIk": {
-      "name": "不稳定弹药",
+      "name": "不稳定弹药 Unstable Munition",
       "items": [
         {
           "id": "630xnNptqs0H18Jp",
@@ -4591,7 +4591,7 @@
       }
     },
     "L5NtWCCJdmkrD2d2": {
-      "name": "爆裂卵囊",
+      "name": "爆裂卵囊 Exploding Egg Sac",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -4626,7 +4626,7 @@
       }
     },
     "Li6xCK5eIbvq8lNY": {
-      "name": "创伤时刻",
+      "name": "创伤时刻 Traumatic Moment",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -4650,7 +4650,7 @@
       }
     },
     "LwteJJc2oYxhDBC8": {
-      "name": "生物潜艇",
+      "name": "生物潜艇 Biosub",
       "items": [
         {
           "id": "FcB6W0IWdoqHK8D6",
@@ -4696,7 +4696,7 @@
       }
     },
     "M1KzptrIAD0SyF8Y": {
-      "name": "登舰舱",
+      "name": "登舰舱 Boarding Pod",
       "items": [
         {
           "id": "EcS3kUDVBCCZ9hbd",
@@ -4756,7 +4756,7 @@
       }
     },
     "OT7Lt067mN0XOsiE": {
-      "name": "岩浆巡航船",
+      "name": "岩浆巡航船 Magma Cruiser",
       "items": [
         {
           "id": "HX5xhvB4dzVRflzA",
@@ -4788,7 +4788,7 @@
       }
     },
     "P1PIh59Rksi87es9": {
-      "name": "星界藤壶",
+      "name": "星界藤壶 Astral Barnacles",
       "items": [
         {
           "id": "7NlXefjfn0RAVmrT",
@@ -4817,7 +4817,7 @@
       }
     },
     "Q0RE3Sjb6Z2gxciz": {
-      "name": "幽灵出击",
+      "name": "幽灵出击 Spectral Sortie",
       "items": [
         {
           "id": "zWneZhzcWSup0CR2",
@@ -4865,7 +4865,7 @@
       }
     },
     "QhRHHJ5FlXWo5rfd": {
-      "name": "水下滑行艇",
+      "name": "水下滑行艇 Underwater Skimmer",
       "items": [
         {
           "id": "rrI9yFldy718fm3y",
@@ -4918,7 +4918,7 @@
       }
     },
     "SBKIdzyEghJyQfgr": {
-      "name": "失控自动驾驶仪",
+      "name": "失控自动驾驶仪 Haywire Autopilot",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -4946,7 +4946,7 @@
       }
     },
     "T2xb9NaE2RbisYry": {
-      "name": "遭骇入的漂流域信标",
+      "name": "遭骇入的漂流域信标 Hacked Drift Beacon",
       "items": [
         {
           "id": "1tKRt8KmvJgMXFgy",
@@ -4978,7 +4978,7 @@
       }
     },
     "Tig5EdgINcv83swo": {
-      "name": "水翼艇",
+      "name": "水翼艇 Hydrofoil",
       "items": [
         {
           "id": "rFcPSQBeD9p0ulOc",
@@ -5010,7 +5010,7 @@
       }
     },
     "TzlnFwSGU2nJCf41": {
-      "name": "终点巨轮卡车",
+      "name": "终点巨轮卡车 Terminus Monster Truck",
       "items": [
         {
           "id": "LHiIcpsUGy8pFk5q",
@@ -5056,7 +5056,7 @@
       }
     },
     "UA91yafF7cN2n8Xd": {
-      "name": "船体破口",
+      "name": "船体破口 Hull Breach",
       "items": [
         {
           "id": "FkqBeRPHexq4cNGN",
@@ -5098,7 +5098,7 @@
       }
     },
     "UcjPlzUao36BOmUd": {
-      "name": "蛛行爬行车",
+      "name": "蛛行爬行车 Spider-Crawler",
       "items": [
         {
           "id": "Eum1xBJChqbfICLR",
@@ -5130,7 +5130,7 @@
       }
     },
     "W99e0xmHEm2h0wen": {
-      "name": "反重力脉冲",
+      "name": "反重力脉冲 Anti-Gravity Pulse",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -5158,7 +5158,7 @@
       }
     },
     "WIk0lsl9INxtuTzP": {
-      "name": "装甲运兵车",
+      "name": "装甲运兵车 Armored Personnel Carrier",
       "items": [
         {
           "id": "ZSGQnxgnxfCyExyQ",
@@ -5186,7 +5186,7 @@
       }
     },
     "WIs50GCgJyRrc15h": {
-      "name": "梦行舱",
+      "name": "梦行舱 Somnambupod",
       "items": [
         {
           "id": "3Z8f7qlodlgQIwpC",
@@ -5225,7 +5225,7 @@
       }
     },
     "WrxTAvO8sot7x98D": {
-      "name": "邪秽涡旋",
+      "name": "邪秽涡旋 Unholy Vortex",
       "items": [
         {
           "id": "ohV2SjkOYJcDKDON",
@@ -5271,7 +5271,7 @@
       }
     },
     "X88p0aK0YpFwOELb": {
-      "name": "扰人全息广告",
+      "name": "扰人全息广告 Distracting Holo Ad",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -5307,7 +5307,7 @@
       }
     },
     "XqTMIMwUHR9RO692": {
-      "name": "电动战车",
+      "name": "电动战车 Electric Chariot",
       "items": [
         {
           "id": "kgqPiYJB2CVwytwo",
@@ -5339,7 +5339,7 @@
       }
     },
     "YDkCn9Oxw78AMhr9": {
-      "name": "毁灭性车祸",
+      "name": "毁灭性车祸 Devastating Collision",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -5371,7 +5371,7 @@
       }
     },
     "YUNntTLCeITOXCOh": {
-      "name": "轨道空雷",
+      "name": "轨道空雷 Orbital Mine",
       "items": [
         {
           "id": "msYb9Kd4udDaSP17",
@@ -5395,7 +5395,7 @@
       }
     },
     "ZBFVGGGOlLAVY0Fb": {
-      "name": "一日游代步车",
+      "name": "一日游代步车 Daytripper Person Carrier",
       "items": [
         {
           "id": "kXEXCe9i7gvaGJ9c",
@@ -5434,7 +5434,7 @@
       }
     },
     "Zthp4bKQAzY271AW": {
-      "name": "球动飞行器",
+      "name": "球动飞行器 Spheridyne",
       "items": [
         {
           "id": "ngYUjjh5xda8Fn4m",
@@ -5473,7 +5473,7 @@
       }
     },
     "Zv4TNdngZmk5i3Xw": {
-      "name": "诅咒中继器",
+      "name": "诅咒中继器 Cursed Relay",
       "items": [
         {
           "id": "7NlXefjfn0RAVmrT",
@@ -5506,7 +5506,7 @@
       }
     },
     "aLAYt73bHyxzDgxf": {
-      "name": "腐蚀花蜜喷射",
+      "name": "腐蚀花蜜喷射 Caustic Nectar Spray",
       "items": [
         {
           "id": "9FHa5wOoUW89eB5m",
@@ -5539,7 +5539,7 @@
       }
     },
     "b10J895fElbPX5tt": {
-      "name": "巨人运输艇",
+      "name": "巨人运输艇 Jotuncraft",
       "items": [
         {
           "id": "czSoTliDXcpBzGlp",
@@ -5578,7 +5578,7 @@
       }
     },
     "eAAlLec6iEgYZUWm": {
-      "name": "炼狱钳制",
+      "name": "炼狱钳制 Infernal Vice",
       "items": [
         {
           "id": "XeJRA29WlSQGDDXU",
@@ -5638,7 +5638,7 @@
       }
     },
     "fQMcFKNDjxU9ZME6": {
-      "name": "硬光超轻型飞行器",
+      "name": "硬光超轻型飞行器 Hardlight Ultralight",
       "items": [
         {
           "id": "bGDsXECa9jVZ2ns9",
@@ -5677,7 +5677,7 @@
       }
     },
     "hTinFs4gAlImzS7f": {
-      "name": "布雷瑟达鳐艇",
+      "name": "布雷瑟达鳐艇 Brethedan Ray",
       "items": [
         {
           "id": "c62UVYDAs2etqVix",
@@ -5705,7 +5705,7 @@
       }
     },
     "hbdqlc2qJEf2mJ8O": {
-      "name": "镇静飞镖陷阱",
+      "name": "镇静飞镖陷阱 Tranquilizer Darts Trap",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -5729,7 +5729,7 @@
       }
     },
     "iG8SEFXxuErIlG05": {
-      "name": "泄气气闸",
+      "name": "泄气气闸 Venting Airlock",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -5753,7 +5753,7 @@
       }
     },
     "jUMdmldBVHb1PmRR": {
-      "name": "万千现实幻景",
+      "name": "万千现实幻景 Vision of Manifold Realities",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -5785,7 +5785,7 @@
       }
     },
     "jn95HMXltrnHisIR": {
-      "name": "拾荒者罗网",
+      "name": "拾荒者罗网 Junker's Snare",
       "items": [
         {
           "id": "7NlXefjfn0RAVmrT",
@@ -5814,7 +5814,7 @@
       }
     },
     "jsvRzxXJD3i9Wohk": {
-      "name": "飞行摩托",
+      "name": "飞行摩托 Aerobike",
       "items": [
         {
           "id": "ZBAGCDWsmHzHHJNU",
@@ -5846,7 +5846,7 @@
       }
     },
     "l1LNK7i6q1VqJgzH": {
-      "name": "轨道雷区",
+      "name": "轨道雷区 Orbital Mine Field",
       "items": [
         {
           "id": "IxWIpkj6SSNQWi15",
@@ -5870,7 +5870,7 @@
       }
     },
     "npcUZRe2FhLXTwz2": {
-      "name": "反应堆熔毁",
+      "name": "反应堆熔毁 Reactor Meltdown",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -5905,7 +5905,7 @@
       }
     },
     "oqXjUZJ0XiO08oq5": {
-      "name": "微型黑洞",
+      "name": "微型黑洞 Micro Black Hole",
       "items": [
         {
           "id": "ow3wGb35u1tHX9WN",
@@ -5933,7 +5933,7 @@
       }
     },
     "otz1rbzsOF0gGSCd": {
-      "name": "电离气云",
+      "name": "电离气云 Ionized Gas Cloud",
       "items": [
         {
           "id": "7NlXefjfn0RAVmrT",
@@ -5966,7 +5966,7 @@
       }
     },
     "pntBaxg4SUg56TxP": {
-      "name": "倒塌建筑",
+      "name": "倒塌建筑 Collapsing Building",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -5994,7 +5994,7 @@
       }
     },
     "rfjxxHImRAzb2eSa": {
-      "name": "灵魂上传",
+      "name": "灵魂上传 Soul Upload",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -6018,7 +6018,7 @@
       }
     },
     "x3VX3rwdjldWHVBV": {
-      "name": "管线破裂",
+      "name": "管线破裂 Pipe Breakage",
       "items": [
         {
           "id": "2b7FE1hmcVpSF0Ni",
@@ -6053,7 +6053,7 @@
       }
     },
     "xzU1RRwXyq5Z7jjv": {
-      "name": "微群载具",
+      "name": "微群载具 Wealcol",
       "items": [
         {
           "id": "7h6Mx5HzO3EQ05aZ",
@@ -6092,7 +6092,7 @@
       }
     },
     "z4GstmlFZmjPYccT": {
-      "name": "快子爆发",
+      "name": "快子爆发 Tachyon Burst",
       "items": [
         {
           "id": "PNs215dTGMyRwsxh",

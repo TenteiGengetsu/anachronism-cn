@@ -1,5 +1,5 @@
 {
-  "label": "独立冒险",
+  "label": "独立冒险 Standalone Adventures",
   "mapping": {
     "name": "name",
     "description": "system.description.value",
@@ -59,7 +59,7 @@
   },
   "entries": {
     "72CtlZtcyALXu6VB": {
-      "name": "蕈爪兽",
+      "name": "蕈爪兽 Shroomclaw",
       "items": [
         {
           "id": "au5Rve8OzRV4hnep",
@@ -104,7 +104,7 @@
       }
     },
     "B9kkrYVntS3706a9": {
-      "name": "硬光微龙",
+      "name": "硬光微龙 Hardlight Dragonet",
       "items": [
         {
           "id": "CQs8rMQBAQgCoRIS",
@@ -220,7 +220,7 @@
       }
     },
     "CMsLlMOHgoEzaVkt": {
-      "name": "烬蛛族哨兵",
+      "name": "烬蛛族哨兵 Jinsul Lookout",
       "publicNotes": "<p>哨兵是在漂流危机中首次登上军阀战舰的新手船员。</p><hr /><p>少数分散的烬蛛族群体在阿巴隆建立了孤立基地。大多是隶属一名军官的小队，军官通常是全队尊敬或畏惧，并自愿效忠的秘术师或战术领袖。</p><h2>泪滴冰井的烬蛛族</h2><p>本冒险中的烬蛛族追随一名叫作胡拉军阀的指挥官。胡拉原本即将武力吞并一个由较弱军阀控制的邻近星系，大幅扩张其在近宇的领地；然而，漂流危机却将胡拉及忠诚船员抛入阿巴隆上方的协约世界宙域。坠毁在敌后深处一个环境恶劣的世界后，胡拉及其追随者逃入地下，躲避酷烈的阳光。烬蛛族逐渐在岩层中挖出隧道，有些甚至将腿刃磨至光滑，最终抵达一处地下洞穴——泪滴冰井。</p><h2>兵变暗流</h2><p>随着时间流逝，胡拉及其追随者身处冰井的压抑环境，面对自然与超自然的种种危害，逐渐比其他同族更加虚弱、孤立、绝望。胡拉的誓约刃卫自出生起便受训保护胡拉，但他们迟早会抛弃自己信仰的一切，杀死领袖，逃往别处寻找救赎和战利品。</p>",
       "items": [
         {
@@ -293,7 +293,7 @@
       }
     },
     "G1d564VXPDPdsoTp": {
-      "name": "恐蕈爪兽",
+      "name": "恐蕈爪兽 Dire Shroomclaw",
       "publicNotes": "<p>恐蕈爪兽，它们有时被如此戏称，对准备不足的探险者来说非常危险。它们是机会主义的掠食者，虽然它们可以击败最经验丰富、装备精良的队伍，但也会考验新手，或追击虚弱或无助的生物。</p><hr /><p>最早遇见这些掠食者的探险者将其称作蕈爪兽。它们演化得适于在阿巴隆冰井寒冷的深处繁衍生息。每年春天，蕈爪兽都会在幽暮地带深处扎根繁殖。数周后，毛皮间蠕动着奇异孢子状赘生物、微微发光的幼兽会从深处出现，漫游至营地。那些未被掠食者捕食，也未被偷猎去供利润丰厚的出口买卖的幸存者，会以植物和昆虫为食，迅速成长。</p>",
       "items": [
         {
@@ -355,7 +355,7 @@
           "expectedDescription": "<p>no multiple attack penalty</p>"
         }
       ],
-      "name": "阴影复制体",
+      "name": "阴影复制体 Shadowy Duplicates",
       "cnText_system_details_description": {
         "expected": "<p>Four duplicates of a shadowy figure produce a quasi-real quantum field that warps the fabric of reality, then attack with echoes of reality-slicing magic.</p>",
         "text": "<p>四个阴影人形的复制体产生半真实的量子场，扭曲现实结构，随后以切割现实的魔法回响发起攻击。</p>"
@@ -378,7 +378,7 @@
       }
     },
     "JDhx6HgslZXqaK9Q": {
-      "name": "新械族飞翼机",
+      "name": "新械族飞翼机 Anacite Wingbot",
       "publicNotes": "<p>新械族飞翼机非常常见。飞翼机几乎与无人机无异，由虚拟智能（VI）程序驾驶，为洞悉阵列及其代表服务。阿巴隆的大部分超级综合体都安装了间隔均匀的发射器，飞翼机能不断将持续拍摄的视频记录传送给其VI“操作员”。飞翼机的机翼上安装了太阳能电池板，可以在移动中充电。</p><hr /><p>自创造者遗弃新械族以来，漫长岁月中产生的无数形态和升级根本无法尽数记录；这个勤劳的物种几乎囊括了一切能够想象的外形与功能。</p>\n<p>许多新械族具有共同的设计原则，例如银色金属身体、多条腿，以及类似节肢动物的外形。它们通常有用于执行通用任务的抓握爪，但有些的肢体或附肢适于极为专门的用途。飞翼机等最基础、没有独立心智的新械族，外观最可能显得“标准化”，但大多数新械族都独一无二。具体职责可能要求某个新械族能举起重物，于是它的外观可能更像叉车而非虫子，也可能兼具两者特征。新械族文化崇尚创新，大多数新械族认为自己的身体与程序也不例外，总愿意尝试新的零件和构型，或下载技能模块来拓宽视野。</p>\n<p>奋进城中最常见的其他新械族类型，包括笨重的劳工、细长的官僚，以及各种公务人员。在主要服务外星来客和有机生物的街区，一些新械族会承担专门职责，使这里对非新械族生命更具吸引力。这些新械族可能接到洞悉阵列的任务，例如“探访本区域每家俱乐部和餐馆”“在公共空间与陌生人聊天”或“定期请游客帮忙过街”。这些被选中的新械族对这些职责，同样像对待其他职责一样认真。</p><h2>新械族殖装</h2><p>几乎所有新械族都会以某种方式增强自身，或直接提高履行社会特定职责的能力，或以独特特征区别于其他新械族。在阿巴隆，这类殖装很容易获得；如果新械族能证明该殖装有益于社会，往往还能完全免费获得。一些新械族利用这种便利，定期更换殖装。</p><h2>新械族编程</h2><p>作为机器人，新械族被编程得具有专门的任务和能力，但每个个体都有自由意志和复杂的内心生活。每个新械族在制造时也被赋予一个目标，大多数都极为认真地对待它。一生之中，新械族很可能会遵从洞悉阵列的安排，从事不同种类的工作。遵循程序、服务算法，几乎是所有新械族的律令。遵守这些律令会带来满足和愉悦，而违背自身程序的新械族可能感到内疚，甚至身体不适，</p>",
       "items": [
         {
@@ -441,7 +441,7 @@
       }
     },
     "JGiPw7ZlblpZA4Uh": {
-      "name": "机械教破坏者",
+      "name": "机械教破坏者 Mechanizer Saboteur",
       "items": [
         {
           "id": "d2D0xKFW53yWSETY",
@@ -631,7 +631,7 @@
           "expectedDescription": "<p>The injection rifle's cartridges contain harmful substances that deal damage and impose a secondary effect on a failed @Check[fortitude|dc:21] save. A specialized revolver allows Feskagazar to choose which ammo to use as a free action.</p><ul><li><p><em>Axon Peeler:</em> @Damage[(1d8+5)[mental]] damage, plus @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} on failure</p></li><li><p><em>Blood Boiler:</em> @Damage[(1d8+5)[fire]] damage, plus @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} on failure</p></li><li><p><em>Cryo Sting:</em> @Damage[(1d8+5)[cold]] damage, plus @Damage[1d6[persistent,bludgeoning]] damage on failure</p>\n</li></ul>"
         }
       ],
-      "name": "费斯卡加扎尔",
+      "name": "费斯卡加扎尔 Feskagazar",
       "cnText_system_details_blurb": {
         "expected": "Nonbinary dragonkin genetic scientist",
         "text": "非二元性别的龙人遗传学家"
@@ -689,7 +689,7 @@
           "expectedDescription": "<p>The jinsul Strides and then performs a @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump}. It can Stride less than 10 feet and not automatically fail its Long Jump check.</p>"
         }
       ],
-      "name": "胡拉军阀",
+      "name": "胡拉军阀 Warlord Hura",
       "publicNotes": "<p>胡拉军阀是一名地位不高的烬蛛族指挥官，在伪等级制度崩溃后的混乱中夺取了权力。胡拉仍然渴望攫取一切可能获得的力量，迫切想弄清特工Z偷来的遗物如何运作；鉴于当前处境，胡拉一反常态地愿意与遇到的非烬蛛族协商，但也会毫不犹豫地折磨、背叛任何妨碍其实现目标的人。</p><hr /><p>少数分散的烬蛛族群体在阿巴隆建立了孤立基地。大多是隶属一名军官的小队，军官通常是全队尊敬或畏惧，并自愿效忠的秘术师或战术领袖。</p><h2>泪滴冰井的烬蛛族</h2><p>本冒险中的烬蛛族追随一名叫作胡拉军阀的指挥官。胡拉原本即将武力吞并一个由较弱军阀控制的邻近星系，大幅扩张其在近宇的领地；然而，漂流危机却将胡拉及忠诚船员抛入阿巴隆上方的协约世界宙域。坠毁在敌后深处一个环境恶劣的世界后，胡拉及其追随者逃入地下，躲避酷烈的阳光。烬蛛族逐渐在岩层中挖出隧道，有些甚至将腿刃磨至光滑，最终抵达一处地下洞穴——泪滴冰井。</p><h2>兵变暗流</h2><p>随着时间流逝，胡拉及其追随者身处冰井的压抑环境，面对自然与超自然的种种危害，逐渐比其他同族更加虚弱、孤立、绝望。胡拉的誓约刃卫自出生起便受训保护胡拉，但他们迟早会抛弃自己信仰的一切，杀死领袖，逃往别处寻找救赎和战利品。</p>",
       "cnText_system_attributes_ac_details": {
         "expected": "all-around vision",
@@ -705,7 +705,7 @@
       }
     },
     "YY81oi1GkgEX9d19": {
-      "name": "盾之誓刃",
+      "name": "盾之誓刃 Sworn Blade of Shields",
       "publicNotes": "<p>盾之誓刃以致命精准的动作挥舞着腿部利刃攻击敌人。</p><hr /><p>少数分散的烬蛛族群体在阿巴隆建立了孤立基地。大多是隶属一名军官的小队，军官通常是全队尊敬或畏惧，并自愿效忠的秘术师或战术领袖。</p><h2>泪滴冰井的烬蛛族</h2><p>本冒险中的烬蛛族追随一名叫作胡拉军阀的指挥官。胡拉原本即将武力吞并一个由较弱军阀控制的邻近星系，大幅扩张其在近宇的领地；然而，漂流危机却将胡拉及忠诚船员抛入阿巴隆上方的协约世界宙域。坠毁在敌后深处一个环境恶劣的世界后，胡拉及其追随者逃入地下，躲避酷烈的阳光。烬蛛族逐渐在岩层中挖出隧道，有些甚至将腿刃磨至光滑，最终抵达一处地下洞穴——泪滴冰井。</p><h2>兵变暗流</h2><p>随着时间流逝，胡拉及其追随者身处冰井的压抑环境，面对自然与超自然的种种危害，逐渐比其他同族更加虚弱、孤立、绝望。胡拉的誓约刃卫自出生起便受训保护胡拉，但他们迟早会抛弃自己信仰的一切，杀死领袖，逃往别处寻找救赎和战利品。</p>",
       "items": [
         {
@@ -845,14 +845,14 @@
           "expectedDescription": "<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> Captain Firestorm spits a cutting insult at an adjacent foe, attempting either a Deception check to [[/act feint]] or an Intimidation check to [[/act demoralize]] them. Then, she makes a melee Strike against that creature. If the Feint or Demoralize was successful, her Strike deals an additional @Damage[1d4[mental]] damage.</p>"
         }
       ],
-      "name": "菲德拉·火风暴船长",
+      "name": "菲德拉·火风暴船长 Captain Phaedra Firestorm",
       "cnText_prototypeToken_name": {
         "expected": "NPC",
         "text": "非玩家角色"
       }
     },
     "cr8v2eWjcarLwjFY": {
-      "name": "铁翼兽",
+      "name": "铁翼兽 Cyberwing",
       "publicNotes": "<p>异星卫士谴责将动物的身体与机器部件融合的做法，声称这些实验原型是对自然的残酷嘲弄。爱好者们则认为，利用技术增强野生动物与通过魔法启蒙它们并无区别。争议愈演愈烈，但《协约法》对这一骇人听闻的实践仍迟迟未予认可。铁翼兽是一种被设计为侦察无人机的简易信号，能够自我防护并保护所携带的敏感信息或货物。</p><hr /><p>锐翼兽聚集于阿巴隆寒冷的冰井中，成百乃至上千只共同栖息，在黎明和黄昏时出现，到上层台地猎食。</p><h2>罕见目击</h2><p>锐翼兽不常离开冰井，因此在奋进城等超级综合体附近出现时，可能引发骚动。单只锐翼兽的威胁不大，但大群锐翼兽凶猛袭击的恐怖故事，以及鲁莽探险者拍到的骇人视频，使许多游客一见到这些生物就开枪。</p>",
       "items": [
         {
@@ -920,7 +920,7 @@
           "name": "虚能鞭"
         }
       ],
-      "name": "精魂沉井",
+      "name": "精魂沉井 Spiritual Sinkwell",
       "cnText_system_details_description": {
         "expected": "<p>A necromantic sinkwell siphons creatures' life essence</p>",
         "text": "<p>一口死灵沉井吸取生物的生命本质</p>"
@@ -1005,14 +1005,14 @@
           "expectedDescription": "<p>Most people in Starfinder keep their wealth on a protected item known as a credstick. These devices are often flat and roughly the size of a human finger. They range in dimensions and quality, but at the end of the day, they're just a means of conveniently carrying and spending money. Usage of these devices is determined by the owner, and a credstick can accept or spend funds with as simple an action as tapping it near a suitable banking device. When more rigorous security is necessary, they can require audio or biometric imprints in order to activate. Some advanced credsticks even have a magical component that might require a mental password or the recitation of a specific spell to access stored funds.</p>\n<p>Credsticks aren't gateways to the entirety of one's wealth, and larger stores of credits are often kept secured in banks, personal vaults, or secure databases. Instead, a credstick is a safe and anonymous means of moving credits around without being traced. Adventurers and common citizens alike often keep a credstick on their person to handle any purchases they might be called upon to make, while also only keeping just enough credits on them that losing the credstick wouldn't result in bankruptcy.</p>\n<p>Individuals in the Pact Worlds often carry credsticks, and other civilizations that interact with the Pact often turn local funds into credits and thus carry them to spend their converted currency. Sometimes a person might carry several credsticks, dedicating each one to a different use, or simply trading the stick away if they want to make a purchase of a predefined amount. If ever the number of credsticks on a person becomes too cumbersome, it's easy enough to move the funds between individual sticks and discard emptied sticks to save on space, however a credstick always has a negligible bulk.</p>"
         }
       ],
-      "name": "新星海盗",
+      "name": "新星海盗 Nova Pirate",
       "cnText_prototypeToken_name": {
         "expected": "Nova Pirate",
         "text": "新星海盗"
       }
     },
     "k1AgdPDa4HEZC51V": {
-      "name": "青年锐翼兽",
+      "name": "青年锐翼兽 Young Sharpwing",
       "publicNotes": "<p>在过去的五年里，锐翼兽的数量急剧下降。在巨型综合体的郊外，经常可以看到孤零零、饥肠辘辘的青年锐翼兽或成对栖息的锐翼兽，这令人感到担忧。异星卫士们正在争分夺秒地寻找威胁锐翼兽的因素，以免为时过晚。</p><hr /><p>锐翼兽聚集于阿巴隆寒冷的冰井中，成百乃至上千只共同栖息，在黎明和黄昏时出现，到上层台地猎食。</p><h2>罕见目击</h2><p>锐翼兽不常离开冰井，因此在奋进城等超级综合体附近出现时，可能引发骚动。单只锐翼兽的威胁不大，但大群锐翼兽凶猛袭击的恐怖故事，以及鲁莽探险者拍到的骇人视频，使许多游客一见到这些生物就开枪。</p>",
       "items": [
         {
@@ -1063,7 +1063,7 @@
           "expectedDescription": "<p>A creature enters the laboratory without prior authorization from Feskagazar</p><hr /><p><strong>Effect</strong> Alarms blare throughout the complex. The trap rolls initiative.</p>"
         }
       ],
-      "name": "绝对零度安保系统",
+      "name": "绝对零度安保系统 Absolute Zero Security System",
       "cnText_system_details_description": {
         "expected": "<p>The Absolute Zero security system includes a devious array of defenses intended to eliminate or scare away intruders.</p>",
         "text": "<p>绝对零度安保系统含有一系列阴险防御措施，用于消灭或吓退入侵者。</p>"
@@ -1086,7 +1086,7 @@
       }
     },
     "wkdA38GonUSrOwTr": {
-      "name": "符之誓刃",
+      "name": "符之誓刃 Sworn Blade of Sigils",
       "publicNotes": "<p>和盾之誓刃一样，符之誓刃也宣誓效忠其上级。这些烬蛛族将全部精力都投入到保护上级身上。</p><hr /><p>少数分散的烬蛛族群体在阿巴隆建立了孤立基地。大多是隶属一名军官的小队，军官通常是全队尊敬或畏惧，并自愿效忠的秘术师或战术领袖。</p><h2>泪滴冰井的烬蛛族</h2><p>本冒险中的烬蛛族追随一名叫作胡拉军阀的指挥官。胡拉原本即将武力吞并一个由较弱军阀控制的邻近星系，大幅扩张其在近宇的领地；然而，漂流危机却将胡拉及忠诚船员抛入阿巴隆上方的协约世界宙域。坠毁在敌后深处一个环境恶劣的世界后，胡拉及其追随者逃入地下，躲避酷烈的阳光。烬蛛族逐渐在岩层中挖出隧道，有些甚至将腿刃磨至光滑，最终抵达一处地下洞穴——泪滴冰井。</p><h2>兵变暗流</h2><p>随着时间流逝，胡拉及其追随者身处冰井的压抑环境，面对自然与超自然的种种危害，逐渐比其他同族更加虚弱、孤立、绝望。胡拉的誓约刃卫自出生起便受训保护胡拉，但他们迟早会抛弃自己信仰的一切，杀死领袖，逃往别处寻找救赎和战利品。</p>",
       "items": [
         {
@@ -1590,7 +1590,7 @@
           "expectedDescription": "<p>Agent Z activates his jetpack to gain a fly Speed of 20 feet. This effect lasts for 1 minute or until he Dismisses it. Agent Z can use an action to Fly 0 feet to hover in place but becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of his next turn while doing so.</p>"
         }
       ],
-      "name": "特工Z",
+      "name": "特工Z Agent Z",
       "cnText_system_details_blurb": {
         "expected": "Male human witchwarper from another reality",
         "text": "来自另一现实的男性人类织维巫师"
@@ -1601,7 +1601,7 @@
       }
     },
     "zzMAFBbKstYwWGDf": {
-      "name": "新械族防卫机",
+      "name": "新械族防卫机 Anacite Protector",
       "publicNotes": "<p>这些威严的新械族，被钢城的大多数居民亲切地称为“卫兵机器人”，是维护和平的守护者。洞悉阵列通常会迅速派遣它们以2的倍数（例如 2、4、8、16 或更多）组成小组，前往城市中的任何麻烦现场。新械族防卫机还可以充当哨兵、护卫或私人保安，但使用它们作为私人保安的人应该知道，奋进城的大多数新械族防卫机首先是为洞悉阵列（以及整个新械族）服务的。</p><hr /><p>自创造者遗弃新械族以来，漫长岁月中产生的无数形态和升级根本无法尽数记录；这个勤劳的物种几乎囊括了一切能够想象的外形与功能。</p>\n<p>许多新械族具有共同的设计原则，例如银色金属身体、多条腿，以及类似节肢动物的外形。它们通常有用于执行通用任务的抓握爪，但有些的肢体或附肢适于极为专门的用途。飞翼机等最基础、没有独立心智的新械族，外观最可能显得“标准化”，但大多数新械族都独一无二。具体职责可能要求某个新械族能举起重物，于是它的外观可能更像叉车而非虫子，也可能兼具两者特征。新械族文化崇尚创新，大多数新械族认为自己的身体与程序也不例外，总愿意尝试新的零件和构型，或下载技能模块来拓宽视野。</p>\n<p>奋进城中最常见的其他新械族类型，包括笨重的劳工、细长的官僚，以及各种公务人员。在主要服务外星来客和有机生物的街区，一些新械族会承担专门职责，使这里对非新械族生命更具吸引力。这些新械族可能接到洞悉阵列的任务，例如“探访本区域每家俱乐部和餐馆”“在公共空间与陌生人聊天”或“定期请游客帮忙过街”。这些被选中的新械族对这些职责，同样像对待其他职责一样认真。</p><h2>新械族殖装</h2><p>几乎所有新械族都会以某种方式增强自身，或直接提高履行社会特定职责的能力，或以独特特征区别于其他新械族。在阿巴隆，这类殖装很容易获得；如果新械族能证明该殖装有益于社会，往往还能完全免费获得。一些新械族利用这种便利，定期更换殖装。</p><h2>新械族编程</h2><p>作为机器人，新械族被编程得具有专门的任务和能力，但每个个体都有自由意志和复杂的内心生活。每个新械族在制造时也被赋予一个目标，大多数都极为认真地对待它。一生之中，新械族很可能会遵从洞悉阵列的安排，从事不同种类的工作。遵循程序、服务算法，几乎是所有新械族的律令。遵守这些律令会带来满足和愉悦，而违背自身程序的新械族可能感到内疚，甚至身体不适，</p>",
       "items": [
         {
@@ -1672,7 +1672,7 @@
       }
     },
     "2o6qunyUOOfnn6N6": {
-      "name": "露花",
+      "name": "露花 Dewblossom",
       "items": [
         {
           "id": "Z8skA0xzBd2iRyww",
@@ -1723,7 +1723,7 @@
       }
     },
     "9oW8fdnZaUoKSuKI": {
-      "name": "档案管理员之怒",
+      "name": "档案管理员之怒 Archivist's Wrath",
       "items": [
         {
           "id": "nSmcQqLgMhaYhixf",
@@ -1762,7 +1762,7 @@
       }
     },
     "BGK7TZQdObhlG9sd": {
-      "name": "龙蟾",
+      "name": "龙蟾 Dracotoad",
       "items": [
         {
           "id": "wvN2E1kJoGUl5J4i",
@@ -1805,7 +1805,7 @@
       }
     },
     "JJYYaHrwRKWVPoTD": {
-      "name": "烟霾魔蝠",
+      "name": "烟霾魔蝠 Smog Scamp",
       "items": [
         {
           "id": "1qYMNdb0meS8sML7",
@@ -1853,7 +1853,7 @@
       }
     },
     "S2kzdVc04LnxNETi": {
-      "name": "疗愈泥浆怪",
+      "name": "疗愈泥浆怪 Healing Sludge",
       "items": [
         {
           "id": "mdmGWG01OhPKAQIx",
@@ -1881,7 +1881,7 @@
       }
     },
     "WM9CURAPJK8YpWEu": {
-      "name": "粒子炮",
+      "name": "粒子炮 Particle Cannon",
       "items": [
         {
           "id": "Qe6HoTXkei6bKQwT",

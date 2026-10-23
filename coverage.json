@@ -1,5 +1,5 @@
 {
-  "version": "0.3.4",
+  "version": "0.3.5",
   "sourceSha256": "a0930bc5b32fbf533630128b11bd893b4bd0aedd18709e975302efd543fd5e1a",
   "glossarySha256": "868394c0ec129f215af1525d86814aaa78ae07fb95298f215b055e67c5bc680f",
   "wiki": {
@@ -631,5 +631,15 @@
   },
   "stage": "partial-full-module-localization",
   "measurementNote": "字段变化/中文出现统计不等于逐字全译完成；阶段范围与剩余工作见reports/progress-0.3.4.json。",
-  "progressReport": "reports/progress-0.3.4.json"
+  "progressReport": "reports/progress-0.3.4.json",
+  "searchIndexes": {
+    "files": [
+      "titles.json",
+      "labels.json"
+    ],
+    "packs": 28,
+    "entries": 5544,
+    "nameOnlyChangeFrom034": true,
+    "newTranslatedProse": 0
+  }
 }

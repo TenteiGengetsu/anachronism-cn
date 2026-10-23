@@ -1,5 +1,5 @@
 {
-  "label": "状态",
+  "label": "状态 Conditions",
   "mapping": {
     "name": "name",
     "description": "system.description.value",
@@ -10,15 +10,15 @@
   },
   "entries": {
     "6A2QDy8wRGCVQsSd": {
-      "name": "故障",
+      "name": "故障 Glitching",
       "description": "<p>具有科技特征的生物、危害或物体发生故障时，会同时受到功能受损和间歇性卡死等影响。故障状态始终带有一个数值。如果你的装备发生故障，且你进行任何涉及该装备的动作，就必须尝试一次纯骰检定，判断发生什么。如果是你自身陷入故障状态，则必须在每个回合开始时尝试此@Check[flat|dc:resolve(5 + @item.badge.value)|showDC:all]。该纯骰检定的DC等于5加上你或物品的故障状态值。</p><hr /><p><strong>大成功</strong> 你的故障状态值减1。</p>\n<p><strong>成功</strong> 你可以正常行动或使用装备。</p>\n<p><strong>失败</strong> 你的所有检定和DC都会受到等同于你的故障状态值或你试图使用的物体的故障状态值的物品减值，包括豁免骰，攻击调整值，以及你使用的能力，效果和法术的DC。</p>\n<p><strong>大失败</strong> 你尝试使用的具有故障状态的物品不会起作用，你失去尝试使用该物品的动作。处于故障状态的生物使用与失败相同的效果，且还将陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。处于故障状态的危害使用与失败相同的效果。</p>"
     },
     "enA7BxAjBb7ns1iF": {
-      "name": "被压制",
+      "name": "被压制 Suppressed",
       "description": "<p>你受到大量来袭火力或特别危险攻击的影响，为了自身安全不得不降低行动效率。你的攻击掷骰承受-1环境减值，你的所有速度承受-10尺的状态减值。</p>"
     },
     "z1ucw4CLwLqHoAp3": {
-      "name": "失重",
+      "name": "失重 Untethered",
       "description": "<p>你处于零重力（或类似）环境中，没有移动的手段，在没有支撑的情况下漂浮。除非被动作说明可以在当前环境中使用，否则你不能使用移动动作。在你的回合结束时，你会向上次移动的方向移动5尺。你可以采取推动动作来改变方向和移动距离。一旦你在环境中获得了移动手段，你就会失去这个状态。通常情况下，在零重力状态下陷入失重状态的生物在处于失重时也会获得@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}和@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]状态。</p>"
     }
   }

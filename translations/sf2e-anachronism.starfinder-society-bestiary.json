@@ -1,5 +1,5 @@
 {
-  "label": "寻星者协会",
+  "label": "寻星者协会 Starfinder Society",
   "mapping": {
     "name": "name",
     "description": "system.description.value",
@@ -139,7 +139,7 @@
           "expectedDescription": "<p>The beyond terror releases a psychic scream of horror that rings through every conscious mind in a @Template[type:emanation|distance:30], dealing @Damage[3d6[mental]|options:area-damage] damage. All thinking creatures within range must attempt a @Check[will|dc:15] save. The beyond terror cannot use Psychic Scream again for [[/gmr 1d4 #Recharge Psychic Scream]]{1d4 rounds}.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>"
         }
       ],
-      "name": "彼岸惧魔",
+      "name": "彼岸惧魔 Beyond Terror",
       "cnText_prototypeToken_name": {
         "expected": "Beyond Terror",
         "text": "彼岸惧魔"
@@ -184,7 +184,7 @@
           "expectedDescription": "<p>An Ichorwell handler's stomach fluids are laced with hallucinogens. A creature hit with projectile vomit must succeed at a @Check[will|dc:13] save or be @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round.</p>"
         }
       ],
-      "name": "灵液井操控者",
+      "name": "灵液井操控者 Ichorwell Handler",
       "cnText_system_details_blurb": {
         "expected": "Agender orocoran",
         "text": "无性别的奥罗科兰人"
@@ -288,7 +288,7 @@
           "name": "地狱骑士学识"
         }
       ],
-      "name": "坎伦军官",
+      "name": "坎伦军官 Officer Kanren",
       "cnText_prototypeToken_name": {
         "expected": "Officer Kanren",
         "text": "坎伦军官"
@@ -364,7 +364,7 @@
           "expectedDescription": "<p>Shosodax makes two ranged Strikes with their reaction breacher, each at a different target, then Interacts to reload their reaction breacher.</p>"
         }
       ],
-      "name": "绍索达克斯",
+      "name": "绍索达克斯 Shosodax",
       "cnText_system_details_blurb": {
         "expected": "Agender orocoran",
         "text": "无性别的奥罗科兰人"
@@ -441,7 +441,7 @@
           "expectedDescription": "<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> The agent makes a Strike against a creature within 30 feet. If it hits, the agent can attempt an Intimidation check to [[/act demoralize]] the target, with a +2 circumstance bonus to the check if the Strike was a critical hit.</p>"
         }
       ],
-      "name": "派特",
+      "name": "派特 Pyet",
       "publicNotes": "<p>自由职业的创业特工比困在办公室的企业职员承担更多风险。</p><hr /><h3>企业资产</h3><p>企业雇用并训练专门的“资产”，也就是警卫，来保护自己的利益。</p>",
       "cnText_prototypeToken_name": {
         "expected": "Pyet",
@@ -631,7 +631,7 @@
           "name": "阿尔古苏学识"
         }
       ],
-      "name": "看护者",
+      "name": "看护者 The Caretaker",
       "cnText_system_details_blurb": {
         "expected": "Male elf nephilim mystic",
         "text": "男性精灵异界裔秘术师"
@@ -760,7 +760,7 @@
           "expectedDescription": "<p>The Ichorwell raider spews vomit in a @Template[type:cone|distance:15], dealing @Damage[2d6[acid]|options:area-damage] damage (@Check[fortitude|dc:16|basic] save). The Ichorwell raider can't Spew Vomit again for [[/gmr 1d4 #Recharge Spew Vomit]]{1d4 rounds}.</p>"
         }
       ],
-      "name": "灵液井劫掠者",
+      "name": "灵液井劫掠者 Ichorwell Raider",
       "cnText_system_details_blurb": {
         "expected": "Agender orocorans",
         "text": "无性别的奥罗科兰人"
@@ -910,7 +910,7 @@
           "name": "商用型化学储罐"
         }
       ],
-      "name": "冰冻宝库野外科学家",
+      "name": "冰冻宝库野外科学家 Frozen Trove Field Scientist",
       "cnText_prototypeToken_name": {
         "expected": "Frozen Trove Field Scientist",
         "text": "冰冻宝库野外科学家"
@@ -1024,7 +1024,7 @@
           "expectedDescription": "<p>If Bo-Shek dealt damage to a creature with his painglaive while it was boosted, he additionally knocks the target back 10 feet, or 20 feet on a critical hit.</p>"
         }
       ],
-      "name": "波谢克",
+      "name": "波谢克 Bo-Shek",
       "cnText_system_details_blurb": {
         "expected": "Male Shobhad",
         "text": "男性绍贝德人"
@@ -1101,7 +1101,7 @@
           "expectedDescription": "<p><strong>Requirements</strong> Itaka doesn't have a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} in its jaws</p><hr /><p><strong>Effect</strong> Itaka draws breath into its powerful lungs to drag prey into its maw. Each creature in a @Template[cone|distance:15] must succeed at a @Check[fortitude|dc:18] save or be pulled up to 10 feet closer to Itaka. Creatures that fail take @Damage[1d12[bludgeoning]] damage from the sudden pressure change. If at least one creature ends this forced movement adjacent to Itaka, Itaka can make a jaws Strike against that creature. If this Strike is a critical success, the creature is also grabbed in Itaka's jaws.</p>"
         }
       ],
-      "name": "永渴者伊塔卡",
+      "name": "永渴者伊塔卡 Itaka the Ever-Craving",
       "cnText_system_perception_details": {
         "expected": "whispers of Akiton (imprecise) 60 feet",
         "text": "阿基顿低语（模糊）60尺"
@@ -1275,7 +1275,7 @@
           "expectedDescription": "<p>Aruk has a vitality network they share with up to 10 bonded allies. This network can store a maximum of @Damage[14[healing]] Hit Points, begins combat full, and regains @Damage[4[healing]] Hit Points per round.</p>"
         }
       ],
-      "name": "阿鲁克",
+      "name": "阿鲁克 Aruk",
       "cnText_system_details_blurb": {
         "expected": "Female shobhad mystic",
         "text": "女性绍贝德人秘术师"
@@ -1324,7 +1324,7 @@
           "expectedDescription": "<p><strong>Trigger</strong> A creature within the nodocite's reach uses a move action or leaves a square during a move action it's using</p><hr /><p><strong>Effect</strong> The nodocite sentry makes a melee Strike against the triggering creature. On a hit, the target's movement is additionally disrupted.</p>"
         }
       ],
-      "name": "节点体哨卫",
+      "name": "节点体哨卫 Nodocite Sentry",
       "cnText_prototypeToken_name": {
         "expected": "Nodocite Sentry",
         "text": "节点体哨卫"
@@ -1376,7 +1376,7 @@
           "name": "爪击"
         }
       ],
-      "name": "冰冻宝库安保专家",
+      "name": "冰冻宝库安保专家 Frozen Trove Security Specialist",
       "cnText_prototypeToken_name": {
         "expected": "Frozen Trove Security Specialist",
         "text": "冰冻宝库安保专家"
@@ -1610,7 +1610,7 @@
           "name": "织维巫师悖论：无穷演算"
         }
       ],
-      "name": "量子枢纽",
+      "name": "量子枢纽 Quantum Nexus",
       "cnText_system_attributes_speed_details": {
         "expected": "Hover",
         "text": "悬浮"
@@ -1664,7 +1664,7 @@
           "expectedDescription": "<p><strong>Requirements</strong> The cephalaspis corpse has a Medium or smaller creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p><hr /><p><strong>Effect</strong> The cephalaspis corpse attempts an Athletics check to @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition} the grabbed creature, with the following results.</p><hr /><p><strong>Critical Success</strong> The cephalaspis corpse Flies 30 feet straight up and then drops the creature, causing it to fall.</p>\n<p><strong>Success</strong> As critical success, but only 20 feet.</p>\n<p><strong>Failure</strong> No effect.</p>\n<p><strong>Critical Failure</strong> The creature is no longer grabbed.</p>"
         }
       ],
-      "name": "头甲兽尸骸",
+      "name": "头甲兽尸骸 Cephalaspis Corpse",
       "cnText_prototypeToken_name": {
         "expected": "Cephalaspis Corpse",
         "text": "头甲兽尸骸"
@@ -1695,7 +1695,7 @@
           "name": "反刍鲜血"
         }
       ],
-      "name": "虚空食血者",
+      "name": "虚空食血者 Void Hemovore",
       "cnText_system_attributes_hp_details": {
         "expected": "void healing",
         "text": "虚能治疗"
@@ -1741,7 +1741,7 @@
           "expectedDescription": "<p>The gliding bear Strides up to double its Speed in a straight line, Climbing and Leaping over any obstacles in its way. At the end of this movement, it can attempt a melee Strike. On a hit, it additionally knocks the target @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
         }
       ],
-      "name": "腐化滑翔熊",
+      "name": "腐化滑翔熊 Corrupted Gliding Bear",
       "cnText_prototypeToken_name": {
         "expected": "Corrupted Gliding Bear",
         "text": "腐化滑翔熊"
@@ -1784,7 +1784,7 @@
           "expectedDescription": "<p>The quildebeest unleashes a powerful sonic roar that deals @Damage[5d6[sonic]|options:area-damage] damage in a @Template[type:cone|distance:30] (@Check[fortitude|dc:18|basic] save). On a critical failure, a creature is additionally @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}, as the subsonic frequencies batter their internal organs. A quildebeest can't use Subsonic Harmonics again for [[/gmr 1d4 #Recharge Subsonic Harmonics]]{1d4 rounds}.</p>"
         }
       ],
-      "name": "晶刺兽",
+      "name": "晶刺兽 Quildebeest",
       "cnText_prototypeToken_name": {
         "expected": "Quildebeest",
         "text": "晶刺兽"
@@ -1805,7 +1805,7 @@
           "expectedDescription": "<p><strong>Trigger</strong> A PC enters the area</p><hr /><p><strong>Effect</strong> With a flash of light, the area crackles with electricity, and it begins to rain. The triggering creature is dealt @Damage[(1d6+2)[electricity]] damage (@Check[reflex|dc:16|basic] save). On a critical failure, that creature is additionally @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round. The hazard then rolls initiative.</p>"
         }
       ],
-      "name": "扭曲天气",
+      "name": "扭曲天气 Warped Weather",
       "cnText_system_details_description": {
         "expected": "<p>An unnatural magical storm appears in the area with a crack of thunder and lightning.</p>",
         "text": "<p>伴随雷鸣与闪电，一场不自然的魔法风暴出现在区域内。</p>"
@@ -1975,7 +1975,7 @@
           "name": "对抗疾病、心灵、毒素、辐射的豁免+1"
         }
       ],
-      "name": "代码低语",
+      "name": "代码低语 Whisper in the Code",
       "cnText_system_attributes_allSaves_value": {
         "expected": "+1 vs disease, mental, poison, radiation",
         "text": "对抗疾病、心灵、毒素、辐射时+1"
@@ -2049,7 +2049,7 @@
           "name": "工程学识"
         }
       ],
-      "name": "集成体格雷米克",
+      "name": "集成体格雷米克 Gremmik Integrated",
       "cnText_system_attributes_hp_details": {
         "expected": "void healing",
         "text": "虚能治疗"
@@ -2086,7 +2086,7 @@
           "expectedDescription": "<p>The plasma penguin Drops Prone, moves up to twice its Speed by sliding on its stomach, then Stands. It can then attempt a melee Strike against a creature within reach.</p>"
         }
       ],
-      "name": "等离子企鹅",
+      "name": "等离子企鹅 Plasma Penguin",
       "cnText_prototypeToken_name": {
         "expected": "Plasma Penguin",
         "text": "等离子企鹅"
@@ -2137,7 +2137,7 @@
           "expectedDescription": "<p>Magical vibrations resonate through Kuriaku from his antlers. A creature that starts its turn @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} by Kuriaku must succeed at a @Check[fortitude|dc:14] save or be @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round (1 hour on a critical failure). A restrained creature uses the outcome one degree of success worse than its result.</p>"
         }
       ],
-      "name": "库里亚库",
+      "name": "库里亚库 Kuriaku",
       "cnText_prototypeToken_name": {
         "expected": "Kuriaku",
         "text": "库里亚库"
@@ -2168,7 +2168,7 @@
           "expectedDescription": "<p>The cy-boar Strides twice and then makes a tusk Strike. As long as it moved at least 20 feet, it gains a +2 circumstance bonus to its attack roll.</p>"
         }
       ],
-      "name": "电控野猪",
+      "name": "电控野猪 Cy-Boar",
       "cnText_prototypeToken_name": {
         "expected": "Cy-Boar",
         "text": "电控野猪"
@@ -2208,7 +2208,7 @@
           "expectedDescription": "<p>The nodocite blaster sprays electric sparks in a @Template[type:cone|distance:15], dealing @Damage[3d6[electricity]|options:area-damage] damage (@Check[reflex|dc:21|basic|options:area-effect] save).</p>"
         }
       ],
-      "name": "节点体轰击者",
+      "name": "节点体轰击者 Nodocite Blaster",
       "cnText_system_attributes_speed_details": {
         "expected": "hover",
         "text": "悬浮"
@@ -2286,14 +2286,14 @@
           "name": "新诞者学识"
         }
       ],
-      "name": "新诞者门徒",
+      "name": "新诞者门徒 Newborn Disciple",
       "cnText_prototypeToken_name": {
         "expected": "Newborn Disciple",
         "text": "新诞者门徒"
       }
     },
     "V3J4tYJ2Os58ZRg9": {
-      "name": "尸骸舰队步兵",
+      "name": "尸骸舰队步兵 Corpse Fleet Infantry",
       "publicNotes": "<p>尸骸舰队的普通步兵都经过协同作战的训练。</p><hr /><p>尸骸舰队是一支由不死至上主义者组成的军队，拒绝屈从活人的意志。它由伊奥克斯海军的叛逃者建立，意图瓦解协约世界的团结，使伊奥克斯摆脱活人及支持活人的白骨贤者的影响。尸骸舰队顽固不化、冷酷无情，散播死亡与毁灭，吞食活人、利用死者。</p>",
       "items": [
         {
@@ -2459,7 +2459,7 @@
           "expectedDescription": "<p><strong>Requirements</strong> Zizenzi's last action was a successful conductive spine Strike</p><hr /><p><strong>Effect</strong> Zizenzi amps up the voltage in their conductive spines, causing immense pain to the injured target. The target must succeed at a @Check[fortitude|dc:19|options:inflicts:sickened] save or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} from the pain (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure).</p>"
         }
       ],
-      "name": "转化者齐曾齐",
+      "name": "转化者齐曾齐 Zizenzi Converted",
       "cnText_prototypeToken_name": {
         "expected": "Zizenzi Converted",
         "text": "转化者齐曾齐"
@@ -2527,7 +2527,7 @@
           "expectedDescription": "<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> The nodocite guardian bends reality to trap one Medium or smaller creature within 60 feet in a cage of warped reality. The target must attempt a @Check[reflex|dc:20] save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected, and the reality cage fails to form.</p>\n<p><strong>Success</strong> The target is hindered by reality shards, becoming @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round; the reality cage fails to form.</p>\n<p><strong>Failure</strong> The target is trapped in a reality cage that lasts [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>\n<p><strong>Critical Failure</strong> The target is trapped in a reality cage that lasts 1 minute. A reality cage has AC 10, Hardness 5, and 10 Hit Points (BT 5). A creature trapped in a reality cage is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 20). A reality cage provides lesser cover.</p>"
         }
       ],
-      "name": "节点体枪手",
+      "name": "节点体枪手 Nodocite Gunner",
       "cnText_prototypeToken_name": {
         "expected": "Nodocite Gunner",
         "text": "节点体枪手"
@@ -2567,7 +2567,7 @@
           "expectedDescription": "<p><strong>Requirements</strong> The converted khefak hit with a mandible Strike on its most recent action this turn</p><hr /><p><strong>Effect</strong> The converted khefak quickly rotates the jagged serrations along its mandibles, dealing @Damage[1d10[slashing]] damage to the creature it hit with its mandible Strike.</p>"
         }
       ],
-      "name": "转化刻法克虫",
+      "name": "转化刻法克虫 Converted Khefak",
       "cnText_prototypeToken_name": {
         "expected": "Converted Khefak",
         "text": "转化刻法克虫"
@@ -2612,7 +2612,7 @@
           "expectedDescription": "<p>The nodocite experimenter attacks all creatures adjacent to it with its scalpels in a rapid and wild assault, dealing @Damage[1d4[slashing]] damage to all creatures within reach (@Check[reflex|dc:13|basic] save).</p>"
         }
       ],
-      "name": "节点体实验员",
+      "name": "节点体实验员 Nodocite Experimenter",
       "cnText_prototypeToken_name": {
         "expected": "Nodocite Experimenter",
         "text": "节点体实验员"
@@ -2786,7 +2786,7 @@
           "expectedDescription": "<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> The converted local rushes forward at supernatural speed. They Stride twice.</p>"
         }
       ],
-      "name": "转化的当地居民",
+      "name": "转化的当地居民 Converted Local",
       "cnText_prototypeToken_name": {
         "expected": "Converted Local",
         "text": "转化的当地居民"
@@ -3034,7 +3034,7 @@
           "expectedDescription": "<p>Elovai manipulates space in higher dimensions to attack from unexpected directions. If her next action is to cast a spell with an area, range, or target, the spell manifests from one of her allies within 100 feet instead of herself. She uses the ally's space to determine the spell's source, range, and area of effect, but line of sight and line of effect must be met by both Elovai and her selected ally when the spell is cast.</p>"
         }
       ],
-      "name": "埃洛维",
+      "name": "埃洛维 Elovai",
       "cnText_system_details_languages_details": {
         "expected": "Telepathy 100 feet",
         "text": "心灵感应100尺"
@@ -3149,7 +3149,7 @@
           "expectedDescription": "<p>A nodocite can communicate wirelessly with other nodocites within 200 feet.</p>"
         }
       ],
-      "name": "节点体同化者",
+      "name": "节点体同化者 Nodocite Assimilator",
       "cnText_prototypeToken_name": {
         "expected": "Nodocite Assimilator",
         "text": "节点体同化者"
@@ -3270,7 +3270,7 @@
       }
     },
     "lC5aBmJZD31Gv6kA": {
-      "name": "沙车",
+      "name": "沙车 D-Vee",
       "items": [
         {
           "id": "UCwR3xXa3KJPVqHC",
@@ -3665,7 +3665,7 @@
           "expectedDescription": "<p>The solar parade float shoots t-shirts at all enemies within @Template[emanation|distance:30]{30 feet}. Creatures in the area can attempt a @Check[reflex|dc:17|options:area-effect] save. On a failure, the t-shirts wrap around their appendages, imposing a –10 foot circumstance penalty to all their Speeds until the end of their next turn. A creature can end this effect early as a single action with the manipulate trait.</p>"
         }
       ],
-      "name": "太阳游行花车",
+      "name": "太阳游行花车 Solar Parade Float",
       "cnText_prototypeToken_name": {
         "expected": "Solar Parade Float",
         "text": "太阳游行花车"
@@ -3715,7 +3715,7 @@
           "expectedDescription": "<p>The nodocite incarcerator ejects the most recently filled polymer ball into an adjacent square.</p>"
         }
       ],
-      "name": "节点体监禁者",
+      "name": "节点体监禁者 Nodocite Incarcerator",
       "cnText_prototypeToken_name": {
         "expected": "Nodocite Incarcerator",
         "text": "节点体监禁者"
@@ -3772,7 +3772,7 @@
           "name": "商用型电池"
         }
       ],
-      "name": "事务官特工",
+      "name": "事务官特工 Functionary Agent",
       "cnText_prototypeToken_name": {
         "expected": "Functionary Agent",
         "text": "事务官特工"
@@ -3918,7 +3918,7 @@
           "name": "地狱骑士学识"
         }
       ],
-      "name": "日蚀见习骑士",
+      "name": "日蚀见习骑士 Eclipse Armiger",
       "cnText_prototypeToken_name": {
         "expected": "Eclipse Armiger",
         "text": "日蚀见习骑士"
@@ -3982,7 +3982,7 @@
           "name": "商用型电池"
         }
       ],
-      "name": "波之群兽匪徒",
+      "name": "波之群兽匪徒 Beasts of Bo Bandit",
       "cnText_prototypeToken_name": {
         "expected": "Beasts of Bo Bandit",
         "text": "波之群兽匪徒"
@@ -4032,7 +4032,7 @@
           "expectedDescription": "<p>A living creature struck by a jellied rat king's jaws must attempt a @Check[fortitude|dc:15] save. On a failure, the creature becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}. If the creature is already sickened, the value of their sickened condition increases by 1, to a maximum of @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}. When a creature succeeds at its saving throw, it is temporarily immune to primordial plague for 24 hours.</p>"
         }
       ],
-      "name": "胶状鼠王",
+      "name": "胶状鼠王 Jellied Rat King",
       "cnText_system_attributes_hp_details": {
         "expected": "void healing",
         "text": "虚能治疗"
@@ -4093,7 +4093,7 @@
           "expectedDescription": "<p>A Burnt Circle conspirator spouts some of their nihilistic teachings to a creature within 30 feet. They attempt a [[/act demoralize skill=occultism]] check using Occultism in place of Intimidation.</p>"
         }
       ],
-      "name": "烬环密谋者",
+      "name": "烬环密谋者 Burnt Circle Conspirator",
       "cnText_prototypeToken_name": {
         "expected": "Burnt Circle Conspirator",
         "text": "烬环密谋者"
@@ -4181,7 +4181,7 @@
       }
     },
     "0XoOYlPXeEbJo5Y9": {
-      "name": "绝望炮",
+      "name": "绝望炮 Despair Cannon",
       "items": [
         {
           "id": "r1gcR6U5tFuzXMxt",
@@ -4225,7 +4225,7 @@
       }
     },
     "0erlpsiBZZv8Dg1u": {
-      "name": "梦魇蔬菜",
+      "name": "梦魇蔬菜 Nightmare Vegetables",
       "items": [
         {
           "id": "2W0TGR6n7ueqOLkJ",
@@ -4253,7 +4253,7 @@
       }
     },
     "0oPB5kHsKxHhsb9b": {
-      "name": "节点体猎手",
+      "name": "节点体猎手 Nodocite Hunter",
       "items": [
         {
           "id": "Kk0Hnbd0TzH2QFht",
@@ -4293,7 +4293,7 @@
       }
     },
     "1DYsBxM5Z5Mm5Aaq": {
-      "name": "巧克力泥怪",
+      "name": "巧克力泥怪 Chocolate Ooze",
       "items": [
         {
           "id": "MEKJajyIjjA9R1O8",
@@ -4332,7 +4332,7 @@
       }
     },
     "2cZl1pGvCkPwprP2": {
-      "name": "撞人桥",
+      "name": "撞人桥 Bumper Bridge",
       "items": [
         {
           "id": "J7UZbHwxFiuM4WZR",
@@ -4360,7 +4360,7 @@
       }
     },
     "46JDWaJs5nhrQHuO": {
-      "name": "钻孔蠕虫",
+      "name": "钻孔蠕虫 Drillworm",
       "items": [
         {
           "id": "NmQULNQ6T1kVAmCR",
@@ -4386,7 +4386,7 @@
       }
     },
     "4osHiPN7MqDuQoRD": {
-      "name": "血生猎犬",
+      "name": "血生猎犬 Bloodspawned Hound",
       "items": [
         {
           "id": "3fArIy9jc2b8dsEG",
@@ -4430,7 +4430,7 @@
       }
     },
     "4wblzSbaGKhezoer": {
-      "name": "现实曲织",
+      "name": "现实曲织 Reality Warp",
       "items": [
         {
           "id": "haZa5ftYlVA43SXe",
@@ -4458,7 +4458,7 @@
       }
     },
     "6C2gf4u5PhsYb7LL": {
-      "name": "热气排放口",
+      "name": "热气排放口 Heat Vents",
       "items": [
         {
           "id": "oug8Rx3IdenmImtQ",
@@ -4486,7 +4486,7 @@
       }
     },
     "6F4yHswg6zj0WlAy": {
-      "name": "反重力涌动",
+      "name": "反重力涌动 Antigravity Swell",
       "items": [
         {
           "id": "L7T0OwwdgItcYXMb",
@@ -4518,7 +4518,7 @@
       }
     },
     "7pt4wcjtp4qfD7bm": {
-      "name": "污秽喷流",
+      "name": "污秽喷流 Vile Spray",
       "items": [
         {
           "id": "wzBmEBksDJndL77z",
@@ -4546,7 +4546,7 @@
       }
     },
     "8eymZB9KiXH3xfO0": {
-      "name": "脱线残影",
+      "name": "脱线残影 Unspooled Vestige",
       "items": [
         {
           "id": "fgXlK87yh8Rx84EZ",
@@ -4593,7 +4593,7 @@
       }
     },
     "9Cm3LHfWDmMleLgn": {
-      "name": "绍贝德人的愤慨",
+      "name": "绍贝德人的愤慨 Shobhad Indignation",
       "items": [
         {
           "id": "OgCrbgZPS4CJmtaO",
@@ -4625,7 +4625,7 @@
       }
     },
     "CPscv2uLsixHSB3n": {
-      "name": "嫩肉陷坑",
+      "name": "嫩肉陷坑 Tenderizer Pit",
       "items": [
         {
           "id": "DuRinFYbJzg4dcsr",
@@ -4653,7 +4653,7 @@
       }
     },
     "EqQuzg5CEWRDekrj": {
-      "name": "灵液螨",
+      "name": "灵液螨 Ichor Mite",
       "items": [
         {
           "id": "dTiespEHovVeJ1le",
@@ -4679,7 +4679,7 @@
       }
     },
     "FP7Al575O1l4n8Fw": {
-      "name": "全息显示器",
+      "name": "全息显示器 Holographic Display",
       "items": [
         {
           "id": "OUQOc0oDzvr1oLWx",
@@ -4707,7 +4707,7 @@
       }
     },
     "Fast9FOOLm7DB9KO": {
-      "name": "血生尖啸者",
+      "name": "血生尖啸者 Bloodspawned Screechers",
       "items": [
         {
           "id": "ODpL2eCQ2qseaerw",
@@ -4739,7 +4739,7 @@
       }
     },
     "GObiz79QPrANGm0a": {
-      "name": "模拟侵袭",
+      "name": "模拟侵袭 Simulation Assault",
       "items": [
         {
           "id": "4mBXV0scI2r7sNTf",
@@ -4771,7 +4771,7 @@
       }
     },
     "JGivCIgqXMqhmoHF": {
-      "name": "激光炮塔",
+      "name": "激光炮塔 Laser Turret",
       "items": [
         {
           "id": "Hirw7yUIYTLUVpX3",
@@ -4804,7 +4804,7 @@
       }
     },
     "JgNhb5TnOEFs6RKF": {
-      "name": "摆木陷阱",
+      "name": "摆木陷阱 Swinging Log Trap",
       "items": [
         {
           "id": "90P6DBQgg10eWUPj",
@@ -4835,7 +4835,7 @@
       }
     },
     "MqxmPgEcerebMwut": {
-      "name": "棱面守卫",
+      "name": "棱面守卫 Facet Guardian",
       "items": [
         {
           "id": "sK8GE0B9tAo1BOLU",
@@ -4882,7 +4882,7 @@
       }
     },
     "NtGdK8tDXRVVnPx6": {
-      "name": "埃洛维的干扰",
+      "name": "埃洛维的干扰 Elovai's Interference",
       "items": [
         {
           "id": "u7BUtYh0ObAAFmaJ",
@@ -4931,7 +4931,7 @@
       }
     },
     "RGpcMznWR60wmvxU": {
-      "name": "爆炸水果陷阱",
+      "name": "爆炸水果陷阱 Exploding Fruit Trap",
       "items": [
         {
           "id": "jRTwE9P8js5iBzcc",
@@ -4955,7 +4955,7 @@
       }
     },
     "SYkMGXSeaTO23PkU": {
-      "name": "光簇体",
+      "name": "光簇体 Phosimplexe",
       "items": [
         {
           "id": "rKNjyN4cDxym21On",
@@ -4999,7 +4999,7 @@
       }
     },
     "UHaeK6sU4fci6P9v": {
-      "name": "糖豆机",
+      "name": "糖豆机 Bean Machine",
       "items": [
         {
           "id": "b1i4674iI5ZEuA4I",
@@ -5032,7 +5032,7 @@
       }
     },
     "WHHTO9dJXN3XQCQp": {
-      "name": "物质收割者",
+      "name": "物质收割者 Matter Reaper",
       "items": [
         {
           "id": "eDLPo6bScwpMNN9J",
@@ -5065,7 +5065,7 @@
       }
     },
     "aOFfe1DmZz4DVgie": {
-      "name": "重连子程序",
+      "name": "重连子程序 Reconnection Subroutine",
       "items": [
         {
           "id": "JRkN6ce78KJIuY3l",
@@ -5102,7 +5102,7 @@
       }
     },
     "am2B0JJoDq9fqm2r": {
-      "name": "机器人油液",
+      "name": "机器人油液 Robotic Oil",
       "items": [
         {
           "id": "qU4EV4siL6svC6YU",
@@ -5135,7 +5135,7 @@
       }
     },
     "cnXMsdpxulpt9Ipl": {
-      "name": "血裂陷阱",
+      "name": "血裂陷阱 Blood Rend",
       "items": [
         {
           "id": "ioIfYhTclHySf3OF",
@@ -5163,7 +5163,7 @@
       }
     },
     "emME5GIloutQ1UX7": {
-      "name": "序列破坏器",
+      "name": "序列破坏器 Sequence Breaker",
       "items": [
         {
           "id": "6S0cjhFe7sfs0uHw",
@@ -5187,7 +5187,7 @@
       }
     },
     "gwNMKzzWaFL8knTn": {
-      "name": "转化的幼年羚豹",
+      "name": "转化的幼年羚豹 Converted Yearling Arabuk",
       "publicNotes": "<p>幼年羚豹会聚集成幼兽群。它们在出生几天后就会被母兽遗弃，随后由一头成年羚豹收养，成群抚育长大。</p><hr /><p>穿越阿基顿寒冬之地的旅人，可能会撞上当地的顶级掠食者：肉食性的羚豹。</p>",
       "items": [
         {
@@ -5237,7 +5237,7 @@
       }
     },
     "lj06NopCjL5TVgi3": {
-      "name": "现实旋风",
+      "name": "现实旋风 Reality Cyclone",
       "items": [
         {
           "id": "xqeSfmqYXk3ZmAr6",
@@ -5269,7 +5269,7 @@
       }
     },
     "micllXbcz1eBcAoz": {
-      "name": "火微灵",
+      "name": "火微灵 Fire Wisp",
       "publicNotes": "<p>火微灵是由火焰和灰烬组成的炽热球体，持续噼啪作响，因热量而闪烁。它们无忧无虑、热闹喧哗，而且行动果断，有时甚至鲁莽。</p><hr /><p>微灵是元素位面形成时诞生的微小元素生物。最初的微灵组成不断变化的交响乐团，在内环宇宙漫游，每次相遇都会交换成员。这些自由微灵的交响乐团将彼此的共鸣汇成音乐。但邪恶的元素领主发现其共鸣的价值后，便捕获整个交响乐团，令它们充当仆役。</p>\n<p>微灵会与彼此及身边的生物协调共振，因此天生就是善于支援的盟友。自由的微灵仍在内环宇宙和宇宙中漫游，但通常很害羞，会躲避陌生人。不过，它们乐意为善待自己的生物效劳。微灵尤其容易被研习元素魔法的施法者吸引；它们通常远远观察，有时也会接近那些看起来安全的人，成为魔宠或伙伴。</p>\n<p>自由的微灵相遇后，几乎立刻就会亲近起来。遇到其他元素的微灵时，它们尤其兴奋，毫无不同位面元素生物之间有时会表现出的敌意。相反，它们会兴奋地共舞，发出共鸣，隐约回响着远古交响乐团的乐声。</p>",
       "items": [
         {
@@ -5321,7 +5321,7 @@
       }
     },
     "munaPpliuPalKWlz": {
-      "name": "节点体监视者",
+      "name": "节点体监视者 Nodocite Surveiller",
       "items": [
         {
           "id": "bSEXSuZeNSsVKIgT",
@@ -5424,7 +5424,7 @@
       }
     },
     "pgfrHXRaghYDoONC": {
-      "name": "活体病毒",
+      "name": "活体病毒 Living Virus",
       "items": [
         {
           "id": "hH2btjEsD41FHod8",
@@ -5450,7 +5450,7 @@
       }
     },
     "wRKjBpNeXzVvsjU8": {
-      "name": "灭菌协议",
+      "name": "灭菌协议 Sterilization Protocol",
       "items": [
         {
           "id": "iQUjroslYtqOPieA",
@@ -5482,7 +5482,7 @@
       }
     },
     "wTNA31V4cZNUu78t": {
-      "name": "现实扭曲刻法克虫",
+      "name": "现实扭曲刻法克虫 Reality-Warped Khefak",
       "items": [
         {
           "id": "MKIQIViEXYfJxfEu",
@@ -5515,7 +5515,7 @@
       }
     },
     "xGJ40wADwMzAnZu0": {
-      "name": "废弹炮塔",
+      "name": "废弹炮塔 Junkslug Turret",
       "items": [
         {
           "id": "lmFdx9Fre9a0btg9",
@@ -5552,7 +5552,7 @@
       }
     },
     "yX2tAtqo5zOEjJBe": {
-      "name": "锚定异维体",
+      "name": "锚定异维体 Anchored Dimensional",
       "items": [
         {
           "id": "TabvoT5Rh7LNtCVY",
@@ -5603,7 +5603,7 @@
       }
     },
     "yk8v4gI1QCRHYPls": {
-      "name": "地雷",
+      "name": "地雷 Landmine",
       "items": [
         {
           "id": "vL6kVy1tqauxEbTe",
@@ -5627,7 +5627,7 @@
       }
     },
     "yyNlR5lslgPwqe78": {
-      "name": "心灵动乱",
+      "name": "心灵动乱 Psychic Turmoil",
       "items": [
         {
           "id": "7yQ3t9Ug4lv8mFNP",

@@ -1,5 +1,5 @@
 {
-  "label": "寻星者协会恩惠",
+  "label": "寻星者协会恩惠 Starfinder Society Boons",
   "mapping": {
     "name": "name",
     "description": "system.description.value",
@@ -10,63 +10,63 @@
   },
   "entries": {
     "JETLVXJc0NtTthe9": {
-      "name": "眩光发生器",
+      "name": "眩光发生器 Glarecaster",
       "description": "<p>科尔蒙塔克中不得安息的精魂拉尔提赠予了你一件武器强化。此角色获得@UUID[Compendium.sf2e-anachronism.equipment.Item.raxz4fpTfjM0L1Qj]武器强化的使用权限，可以购买它。</p>"
     },
     "D9m5HQpAlAGZ28RB": {
-      "name": "欧拉纳克救援者",
+      "name": "欧拉纳克救援者 Ooranak Rescuer",
       "description": "<p><strong>需求</strong> 你救下了欧拉纳克幼崽，并将它送回家</p><hr /><p><strong>效果</strong> 救下那只现实缝合的欧拉纳克幼崽，在你的灵魂上留下了不可磨灭的印记，使你永远被视为动物之友。你用于[[/act command-an-animal]]的自然检定，以及所有尝试安抚动物或与动物交好的技能检定，获得+1环境加值。</p>"
     },
     "Ir7hAz0wFpcmxFCD": {
-      "name": "二次入会",
+      "name": "二次入会 Secondary Initiation",
       "description": "<p><strong>费用</strong>：8成就点（AcP）</p><hr /><p>获得一个自选组织所提供选项的使用权限。</p>"
     },
     "NyJweIysfjINA60g": {
-      "name": "复生协议",
+      "name": "复生协议 Revival Protocol",
       "description": "<p><strong>费用</strong>：40成就点（AcP）</p><hr /><p>获得复活仪式的益处。</p>"
     },
     "QBBcVSa6TlYCBg7g": {
-      "name": "传统准入：莱西",
+      "name": "传统准入：莱西 Legacy Admittance: Leshy",
       "description": "<p><strong>费用</strong>：8成就点（AcP）</p><hr /><p>使用《开拓者玩家核心》中的莱西族裔创建一名玩家角色。</p>"
     },
     "WUY98tLIf8lkE3Zl": {
-      "name": "传统准入：精灵",
+      "name": "传统准入：精灵 Legacy Admittance: Elf",
       "description": "<p><strong>费用</strong>：8成就点（AcP）</p><hr /><p>使用《开拓者玩家核心》中的精灵族裔创建一名玩家角色。</p>"
     },
     "aQT82H8YZcCRxebG": {
-      "name": "记忆编辑器",
+      "name": "记忆编辑器 Mnemonic Editor",
       "description": "<p><strong>费用</strong>：20成就点（AcP）</p><hr /><p>重建一名已完成超过3次冒险的玩家角色。</p>"
     },
     "ebOjHK6h0FRGa7Ly": {
-      "name": "传统准入：矮人",
+      "name": "传统准入：矮人 Legacy Admittance: Dwarf",
       "description": "<p><strong>费用</strong>：8成就点（AcP）</p><hr /><p>使用《开拓者玩家核心》中的矮人族裔创建一名玩家角色。</p>"
     },
     "f2u3oYoRB7fpvGIV": {
-      "name": "传统准入：半身人",
+      "name": "传统准入：半身人 Legacy Admittance: Halfling",
       "description": "<p><strong>费用</strong>：8成就点（AcP）</p><hr /><p>使用《开拓者玩家核心》中的半身人族裔创建一名玩家角色。</p>"
     },
     "gEqeu6VeRgLv9VSb": {
-      "name": "扩展召唤——开拓者怪物核心",
+      "name": "扩展召唤——开拓者怪物核心 Expanded Summoning - Pathfinder Monster Core",
       "description": "<p><strong>费用</strong>：40成就点（AcP）</p><hr /><p>此角色使用召唤法术时，获得《开拓者怪物核心》中生物的使用权限。</p>"
     },
     "jvpDD7G2oYgPSZQZ": {
-      "name": "魔法解放",
+      "name": "魔法解放 Magic Unleashed",
       "description": "<p>为了感谢你保卫蛇徽财团的营地，贾克斯送给你一批实用装备，其中包括一颗魔法光点。此角色获得@UUID[Compendium.sf2e-anachronism.equipment.Item.6xFaHl4tPTKMFaW6]的使用权限，可以购买它。</p>"
     },
     "oTmQbomCrg4Pex0I": {
-      "name": "传统准入：地精",
+      "name": "传统准入：地精 Legacy Admittance: Goblin",
       "description": "<p><strong>费用</strong>：8成就点（AcP）</p><hr /><p>使用《开拓者玩家核心》中的地精族裔创建一名玩家角色。</p>"
     },
     "qBu46QizPl7uifU5": {
-      "name": "与世界之魂合一",
+      "name": "与世界之魂合一 One With the World Soul",
       "description": "<p>你成功完成了一场仪式，与阿基顿行星的精魂建立了联系。尽管这份联系已随时间淡去，你仍保留着行星的一小部分力量。你获得用于阿基顿学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}通用专长（如果你已有用于阿基顿学识的额外学识，则改为获得用于阿基顿学识的@UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{驾轻就熟}通用专长）。从原能法术列表中选择一个常见戏法。</p>\n<p>你可以随意将@UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{侦测魔法}和所选戏法作为原能内在法术施放。戏法升阶至等于你等级一半的环级，向上取整。</p>"
     },
     "tEp37YsTS6rnOYQq": {
-      "name": "传统准入：侏儒",
+      "name": "传统准入：侏儒 Legacy Admittance: Gnome",
       "description": "<p><strong>费用</strong>：8成就点（AcP）</p><hr /><p>使用《开拓者玩家核心》中的侏儒族裔创建一名玩家角色。</p>"
     },
     "xhPIyGraTCvjqIfW": {
-      "name": "寻星者状态移除",
+      "name": "寻星者状态移除 Starfinder Condition Removal",
       "description": "<p><strong>费用</strong>：20成就点（AcP）</p><hr /><p>此角色移除一种能够以法术解决的状态。此恩赐不额外花费信用点。</p>"
     }
   }

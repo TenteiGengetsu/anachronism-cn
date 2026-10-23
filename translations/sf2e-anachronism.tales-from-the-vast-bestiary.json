@@ -1,5 +1,5 @@
 {
-  "label": "浩界故事集",
+  "label": "浩界故事集 Tales from the Vast",
   "mapping": {
     "name": "name",
     "description": "system.description.value",
@@ -124,7 +124,7 @@
           "expectedDescription": "<p>While outside the Drift, the composite gains the incorporeal trait, becomes immune to precision damage, and gains resistance to all damage 10 (except force, ghost killer, or spirit; double resistance vs. non-magical).</p>"
         }
       ],
-      "name": "漂流尸复合体",
+      "name": "漂流尸复合体 Driftdead Composite",
       "cnText_prototypeToken_name": {
         "expected": "Driftdead Composite",
         "text": "漂流尸复合体"
@@ -181,7 +181,7 @@
           "expectedDescription": "<p>The nuclear mummy's touch carries a mutating radiation. An infected creature can't heal damage it takes from unholy radiation until it has been cured of the disease</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:20]</p>\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day)</p>\n<p><strong>Stage 2</strong> @Damage[1d6[poison]] damage (1 day)</p>\n<p><strong>Stage 3</strong> @Damage[1d6[poison]] damage (1 day)</p>\n<p><strong>Stage 4</strong> @Damage[1d6[poison]] damage (1 day)</p>\n<p><strong>Stage 5</strong> dead, rising as a nuclear zombie (using a driftdead returned's statistics)</p>"
         }
       ],
-      "name": "核能木乃伊",
+      "name": "核能木乃伊 Nuclear Mummy",
       "cnText_prototypeToken_name": {
         "expected": "Nuclear Mummy",
         "text": "核能木乃伊"
@@ -276,7 +276,7 @@
           "expectedDescription": "<p>The Sihedron surveyor's magitech exocortex reloads their aeon rifle as a free action.</p>"
         }
       ],
-      "name": "七芒星勘察员",
+      "name": "七芒星勘察员 Sihedron Surveyor",
       "cnText_prototypeToken_name": {
         "expected": "Sihedron Surveyor",
         "text": "七芒星勘察员"
@@ -670,7 +670,7 @@
           "expectedDescription": "<p>An admin employee of the month deals an additional 1d6 precision damage to creatures who aren't affiliated with their organization.</p>"
         }
       ],
-      "name": "月度优秀行政员工",
+      "name": "月度优秀行政员工 Admin Employee of the Month",
       "cnText_prototypeToken_name": {
         "expected": "Admin Employee of the Month",
         "text": "月度优秀行政员工"
@@ -715,7 +715,7 @@
           "expectedDescription": "<p>When the servitor's sonic cleaner hits a creature, it removes any dirt or other debris. If the target is a living creature, it gains weakness 2 to sonic until the end of the servitor's next turn and gains a +1 circumstance bonus to saves against disease and poisons for 1 hour.</p>"
         }
       ],
-      "name": "阿克塞侍从",
+      "name": "阿克塞侍从 Acsie Servitor",
       "cnText_prototypeToken_name": {
         "expected": "Acsie Servitor",
         "text": "阿克塞侍从"
@@ -997,7 +997,7 @@
           "expectedDescription": "<p>The star tardigrade lunges at its prey. It Leaps up to 30 feet, attempting to Grab up to three creatures in its path.</p>"
         }
       ],
-      "name": "幼年星际缓步兽",
+      "name": "幼年星际缓步兽 Juvenile Star Tardigrade",
       "cnText_prototypeToken_name": {
         "expected": "Juvenile Star Tardigrade",
         "text": "幼年星际缓步兽"
@@ -1115,7 +1115,7 @@
           "expectedDescription": "<p>The retail phantasm touches an adjacent creature, causing the weight of years of toil to overcome them at once. The creature must attempt a @Check[fortitude|dc:18] save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} for 1 round.</p>\n<p><strong>Failure</strong> The target is enfeebled 1 for 24 hours and @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}.</p>\n<p><strong>Critical Failure</strong> The target is enfeebled 1 for 24 hours, fatigued, and falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}. If it's still unconscious after 1 minute, it wakes up automatically.</p>"
         }
       ],
-      "name": "零售怨灵",
+      "name": "零售怨灵 Retail Phantasm",
       "cnText_prototypeToken_name": {
         "expected": "Retail Phantasm",
         "text": "零售怨灵"
@@ -1174,7 +1174,7 @@
           "expectedDescription": "<p>The fouled water from this elemental deals an additional @Damage[1d6[poison]] damage with its attacks (@Check[fortitude|dc:14|basic] save).</p>"
         }
       ],
-      "name": "污水魔蝠",
+      "name": "污水魔蝠 Fouled Water Scamp",
       "cnText_system_attributes_hp_details": {
         "expected": "fast healing 2 (while underwater)",
         "text": "快速治疗2（水下时）"
@@ -1204,7 +1204,7 @@
           "expectedDescription": "<p>The brine shark dives straight down into the water, moving up to twice its swim Speed in a straight vertical line. It can use this ability while grabbing a creature.</p>"
         }
       ],
-      "name": "污水盐鲨",
+      "name": "污水盐鲨 Fouled Brine Shark",
       "cnText_prototypeToken_name": {
         "expected": "Brine Shark",
         "text": "盐鲨"
@@ -1313,7 +1313,7 @@
           "expectedDescription": "<p>The Acsie enforcer hurls projectiles at a target within 30 feet, dealing @Damage[2d6[piercing]] damage (@Check[reflex|dc:17|basic] save). On failure, the target becomes suppressed until the beginning of the Acsie enforcer's next turn. Enemies within 10 feet of the target also take @Damage[2[piercing]] damage (@Check[reflex|dc:17|basic] save).</p>"
         }
       ],
-      "name": "阿克塞执法者",
+      "name": "阿克塞执法者 Acsie Enforcer",
       "cnText_prototypeToken_name": {
         "expected": "NPC",
         "text": "非玩家角色"
@@ -1422,7 +1422,7 @@
           "expectedDescription": "<p>The Sihedron enforcer activates their aeon rifle's experimental seeker mode. Until the end of their next turn, the Sihedron enforcer's aeon rifle Strikes deal an additional 1d10 precision damage and reduce the circumstance bonus to AC that targets gain from cover by 1. These benefits only apply within the weapon's first range increment.</p>"
         }
       ],
-      "name": "七芒星执法者",
+      "name": "七芒星执法者 Sihedron Enforcer",
       "cnText_system_perception_details": {
         "expected": "darkvision",
         "text": "黑暗视觉"
@@ -1471,7 +1471,7 @@
           "name": "万古光束"
         }
       ],
-      "name": "七芒星无人机",
+      "name": "七芒星无人机 Sihedron Drone",
       "cnText_prototypeToken_name": {
         "expected": "NPC",
         "text": "非玩家角色"
@@ -1648,7 +1648,7 @@
           "name": "实弹弹药"
         }
       ],
-      "name": "吞噬者长牙布雷克（Brekk）",
+      "name": "吞噬者长牙布雷克（Brekk） Brekk, Devourer Longtooth",
       "cnText_system_details_blurb": {
         "expected": "Eccentric male SRO collector",
         "text": "古怪的男性自主机器人收藏家"
@@ -1803,7 +1803,7 @@
           "name": "吞噬者学识"
         }
       ],
-      "name": "吞噬者邪教徒",
+      "name": "吞噬者邪教徒 Devourer Cultist",
       "cnText_prototypeToken_name": {
         "expected": "NPC",
         "text": "非玩家角色"
@@ -1833,7 +1833,7 @@
           "expectedDescription": "<p>A Small creature can fit in the backseat of an explorer buggy that already has 3 passengers.</p>"
         }
       ],
-      "name": "探索越野车",
+      "name": "探索越野车 Explorer Buggy",
       "cnText_system_details_crew": {
         "expected": "1 pilot",
         "text": "1名驾驶员"
@@ -1919,7 +1919,7 @@
           "expectedDescription": "<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The cacodaemon ingests the soul of a sentient creature within 30 feet that died within the last minute. When they do, the cacodaemon grows a fist-sized soul gem (Hardness 2, HP 8) in their gut and can regurgitate it at any time as an Interact action. Destroying the gem frees the soul within but doesn't return the deceased creature to life. If a caster attempts to return to life a creature whose soul is trapped within a soul gem, they fail unless they succeed at a @Check[religion|dc:30] check. A success causes the soul gem to shatter so the creature is returned to life as normal for the spell.</p>\n<p>A fiend can Interact to ingest a soul gem it is holding, condemning the soul to the fiend's home plane. The fiend gains fast healing 5 for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.JgJ4Iw8BvJ4tWkah]{Effect: Soul Lock (Healing)}</p>"
         }
       ],
-      "name": "狂躁邪魔",
+      "name": "狂躁邪魔 Cacodaemon",
       "cnText_system_details_languages_details": {
         "expected": "Telepathy 100 feet",
         "text": "心灵感应100尺"
@@ -1968,7 +1968,7 @@
           "name": "农业学识"
         }
       ],
-      "name": "科希科村民",
+      "name": "科希科村民 Coshyco Villager",
       "cnText_prototypeToken_name": {
         "expected": "Coshyco Villager",
         "text": "科希科村民"
@@ -1989,7 +1989,7 @@
           "name": "熔岩喷射"
         }
       ],
-      "name": "火山碎屑流",
+      "name": "火山碎屑流 Pyroclastic Flow",
       "cnText_system_details_description": {
         "expected": "<p>A series of earthquakes begin to split the ground across the vault. Magma seeps up from the cracks, reshaping the landscape and scorching the earth.</p>",
         "text": "<p>一连串地震开始撕裂洞窟地面。岩浆从裂缝渗出，重塑地貌、灼烧大地。</p>"
@@ -2348,7 +2348,7 @@
           "name": "农业学识"
         }
       ],
-      "name": "金色科希科",
+      "name": "金色科希科 Golden Coshyco",
       "cnText_prototypeToken_name": {
         "expected": "Golden Coshyco",
         "text": "金色科希科"
@@ -2477,7 +2477,7 @@
           "expectedDescription": "<p><strong>Frequency</strong> one per round</p><hr /><p><strong>Effect</strong> The priest of Lissala restores 6 Hit Pints to their vitality network, up to its maximum.</p>"
         }
       ],
-      "name": "璃殇祭司",
+      "name": "璃殇祭司 Priest of Lissala",
       "cnText_prototypeToken_name": {
         "expected": "Priest of Lissala",
         "text": "璃殇祭司"
@@ -2603,7 +2603,7 @@
           "name": "推撞10尺"
         }
       ],
-      "name": "土巨灵探洞者",
+      "name": "土巨灵探洞者 Jabali Spelunker",
       "cnText_system_details_languages_details": {
         "expected": "truespeech",
         "text": "实言术"
@@ -2810,7 +2810,7 @@
           "expectedDescription": "<p>The Sihedron commander attempts a ranged Strike with their aeon rifle or a melee Strike with their battleglove, then Casts a Spell requiring 2 actions or fewer against the same target. If the spell requires an attack roll, don't count the ranged Strike toward their multiple attack penalty.</p>"
         }
       ],
-      "name": "七芒星指挥官",
+      "name": "七芒星指挥官 Sihedron Commander",
       "cnText_system_perception_details": {
         "expected": "darkvision",
         "text": "黑暗视觉"
@@ -2982,7 +2982,7 @@
           "expectedDescription": "<p>The fire scamp breathes flames in a @Template[type:cone|distance:15] that deal @Damage[(2d4+4)[fire]|options:area-damage] damage to each creature within the area (@Check[reflex|dc:17|basic] save). Creatures that fail the save also take @Damage[1d4[persistent,fire]|options:area-damage] damage. The fire scamp can't use Flame Breath again for [[/gmr 1d4 #Recharge Flame Breath]]{1d4 rounds}.</p>"
         }
       ],
-      "name": "精英火魔蝠",
+      "name": "精英火魔蝠 Elite Fire Scamp",
       "cnText_system_perception_details": {
         "expected": "smoke vision",
         "text": "烟视"
@@ -3031,7 +3031,7 @@
           "expectedDescription": "<p>The earth scamp breathes rocks in a @Template[type:cone|distance:15] that deal @Damage[(2d6+4)[bludgeoning]|options:area-damage] damage to each creature within the area (@Check[reflex|dc:19|basic] save). The earth scamp can't use Scree Breath again for [[/gmr 1d4 #Recharge Scree Breath]]{1d4 rounds}.</p>"
         }
       ],
-      "name": "精英土魔蝠",
+      "name": "精英土魔蝠 Elite Earth Scamp",
       "cnText_prototypeToken_name": {
         "expected": "Elite Earth Scamp",
         "text": "精英土魔蝠"
@@ -3069,7 +3069,7 @@
           "expectedDescription": "<p><strong>Trigger</strong> The crystalline ooze is hidden via crystallization, and a creature attempts to forage or mine it</p><hr /><p><strong>Effect</strong> The crystalline ooze melts into sludge that covers the creature. The triggering creature becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} and takes a –5-foot circumstance penalty to its Speeds for 1 hour or until the sludge is removed. The ooze gains a +2 circumstance bonus to checks to Grab creatures covered in sludge. The triggering creature or allies adjacent to it can remove the sludge with a total of 3 Interact actions. These actions don't need to be consecutive or made by the same creature.</p>"
         }
       ],
-      "name": "晶体泥怪",
+      "name": "晶体泥怪 Crystalline Ooze",
       "cnText_prototypeToken_name": {
         "expected": "NPC",
         "text": "非玩家角色"
@@ -3257,7 +3257,7 @@
           "expectedDescription": "<p>The mosaic soul's colors shimmer and invert in terrible flashes. All other creatures within a @Template[type:emanation|distance:30] must attempt a @Check[fortitude|dc:19] save (mosaic souls are immune to this ability). The mosaic soul's strange light aura casts bright light until the start of its next turn.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} until the end of its next turn.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn.</p>\n<p><strong>Critical Failure</strong> The creature is blinded until the end of its next turn and @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} for 1 minute.</p>"
         }
       ],
-      "name": "镶嵌魂灵",
+      "name": "镶嵌魂灵 Mosaic Soul",
       "cnText_prototypeToken_name": {
         "expected": "Mosaic Soul",
         "text": "镶嵌魂灵"
@@ -3321,7 +3321,7 @@
           "expectedDescription": "<p>A mature moon bear deals an additional 4 damage to any creature threatening one of her cubs.</p>"
         }
       ],
-      "name": "成年月熊",
+      "name": "成年月熊 Mature Moon Bear",
       "cnText_prototypeToken_name": {
         "expected": "Mature Moon Bear",
         "text": "成年月熊"
@@ -3349,7 +3349,7 @@
           "expectedDescription": "<p>A wave of electricity bursts from the derelict harvester's malfunctioning power core. All creatures in a @Template[type:cone|distance:20] must attempt a @Check[reflex|dc:21] save.</p><hr /><p><strong>Critical Success</strong> The creature takes no damage.</p>\n<p><strong>Success</strong> The creature takes @Damage[1d6[electricity]|options:area-damage] damage.</p>\n<p><strong>Failure</strong> The creature takes @Damage[2d6[electricity]|options:area-damage] damage and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[4d6[electricity]|options:area-damage] damage and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 1 round.</p>"
         }
       ],
-      "name": "废弃收割机",
+      "name": "废弃收割机 Derelict Harvester",
       "cnText_prototypeToken_name": {
         "expected": "Derelict Harvester",
         "text": "废弃收割机"
@@ -3696,7 +3696,7 @@
           "expectedDescription": "<p>The false apari Seeks by dispersing constituents to scan a wide area, attempting to find undetected or hidden creatures within 30 feet.</p>"
         }
       ],
-      "name": "伪聚生巢群",
+      "name": "伪聚生巢群 False Apari",
       "cnText_system_perception_details": {
         "expected": "darkvision",
         "text": "黑暗视觉"
@@ -3811,7 +3811,7 @@
           "expectedDescription": "<p>The Harvest can Squeeze through spaces as if it were a Small creature.</p>"
         }
       ],
-      "name": "收割者",
+      "name": "收割者 The Harvest",
       "cnText_system_perception_details": {
         "expected": "vibrovision",
         "text": "振动视觉"
@@ -3978,7 +3978,7 @@
           "name": "月侧250号学识"
         }
       ],
-      "name": "月亮小姐",
+      "name": "月亮小姐 Missy Moon",
       "cnText_system_perception_details": {
         "expected": "cameravision, darkvision 120 feet",
         "text": "摄像视觉，黑暗视觉120尺"
@@ -3989,7 +3989,7 @@
       }
     },
     "4TVXA3DkwKlKGO6r": {
-      "name": "辐射爬行者",
+      "name": "辐射爬行者 Radiation Crawler",
       "items": [
         {
           "id": "AqNL4c8nMGsjpuc8",
@@ -4030,7 +4030,7 @@
       }
     },
     "4ZFkUPreQRq0sonB": {
-      "name": "沸腾河流",
+      "name": "沸腾河流 Boiling Rivers",
       "items": [
         {
           "id": "urV2h6NWxdb3G9CV",
@@ -4062,7 +4062,7 @@
       }
     },
     "7TRt5gMQR2CNofyF": {
-      "name": "故障饮料机",
+      "name": "故障饮料机 Malfunctioning Beverage Machine",
       "items": [
         {
           "id": "6AlddRQp4PZaxpZs",
@@ -4099,7 +4099,7 @@
       }
     },
     "8mrbCW1egVL4Jg40": {
-      "name": "噬电兽核能木乃伊",
+      "name": "噬电兽核能木乃伊 Electrovore Nuclear Mummy",
       "items": [
         {
           "id": "wYRbckV1PVTXztBV",
@@ -4167,7 +4167,7 @@
       }
     },
     "935PXdJ2z80tr116": {
-      "name": "电击锁扣",
+      "name": "电击锁扣 Jolting Latch",
       "items": [
         {
           "id": "l4VHrBZHtkEyXQUK",
@@ -4191,7 +4191,7 @@
       }
     },
     "AwWFBOHmBRyeLtsW": {
-      "name": "龟裂地面",
+      "name": "龟裂地面 Cracked Earth",
       "items": [
         {
           "id": "IwESEgmKwI8rVa8P",
@@ -4215,7 +4215,7 @@
       }
     },
     "CmwfvxFCmr7Ga3Eo": {
-      "name": "排斥屏障",
+      "name": "排斥屏障 Repulsing Barrier",
       "items": [
         {
           "id": "WUtTheaJVYDaOpZQ",
@@ -4246,7 +4246,7 @@
       }
     },
     "DY9tPOD2TS9hhpMP": {
-      "name": "移位电线",
+      "name": "移位电线 Shifting Wiring",
       "items": [
         {
           "id": "DD9JrDmUnpOkJ11s",
@@ -4270,7 +4270,7 @@
       }
     },
     "F2umEZocwH3eet6N": {
-      "name": "轨道炮炮塔",
+      "name": "轨道炮炮塔 Rail Gun Turret",
       "items": [
         {
           "id": "ppO7eFRqoIYxjmwr",
@@ -4307,7 +4307,7 @@
       }
     },
     "FLnsps36KbyIPUP0": {
-      "name": "通风管毒蛇",
+      "name": "通风管毒蛇 Vent Viper",
       "items": [
         {
           "id": "FGDpUBy56ozHm2Wp",
@@ -4339,7 +4339,7 @@
       }
     },
     "HJmS7ip59MCtwZyQ": {
-      "name": "污秽人造人",
+      "name": "污秽人造人 Foul Homunculus",
       "items": [
         {
           "id": "ICjSF2djJxtdnASi",
@@ -4371,7 +4371,7 @@
       }
     },
     "IcTl5hSPXijp0MWc": {
-      "name": "月侧监视者",
+      "name": "月侧监视者 The Moonside Watcher",
       "items": [
         {
           "id": "mh8HPk9fQohUUEe6",
@@ -4395,7 +4395,7 @@
       }
     },
     "KtuPyrJnRwLWHupR": {
-      "name": "模拟暴风雪",
+      "name": "模拟暴风雪 Simulated Blizzard",
       "items": [
         {
           "id": "nwZ2xxOXYyZOPfzZ",
@@ -4427,7 +4427,7 @@
       }
     },
     "MKHVwq9GpBs5cHgG": {
-      "name": "肆虐风暴",
+      "name": "肆虐风暴 Ravaging Windstorm",
       "items": [
         {
           "id": "Z8MOHxhAzGsZzRyH",
@@ -4459,7 +4459,7 @@
       }
     },
     "NcCzuhhR6bE18n2c": {
-      "name": "化学诱杀陷阱",
+      "name": "化学诱杀陷阱 Chemical Booby-Trap",
       "items": [
         {
           "id": "y1bXoRRCuBmZi0sX",
@@ -4483,7 +4483,7 @@
       }
     },
     "O96L4EmgcoL8ysrc": {
-      "name": "吞噬者的诱惑",
+      "name": "吞噬者的诱惑 Devourer's Temptation",
       "items": [
         {
           "id": "UnhL1CfDu885wjUj",
@@ -4527,7 +4527,7 @@
       }
     },
     "P1qqKvHeBahnY6dd": {
-      "name": "月亮小姐人体模型",
+      "name": "月亮小姐人体模型 Missy Moon Mannequins",
       "items": [
         {
           "id": "Q2fClyrmWA6IbGRP",
@@ -4569,7 +4569,7 @@
       }
     },
     "RdEGNBFPFuXaUeQJ": {
-      "name": "机械蝗虫群",
+      "name": "机械蝗虫群 Mechanolocust Swarm",
       "items": [
         {
           "id": "jLP6qESWIbfH1lxU",
@@ -4603,7 +4603,7 @@
       }
     },
     "SdGlDXllojTQ80GB": {
-      "name": "爆炸性气体",
+      "name": "爆炸性气体 Explosive Gas",
       "items": [
         {
           "id": "swWMYkTz67uAjd67",
@@ -4627,7 +4627,7 @@
       }
     },
     "T7AFTkLqUWshU1cE": {
-      "name": "陨石坠落",
+      "name": "陨石坠落 Meteorfall",
       "items": [
         {
           "id": "ZwSwTOCDK7DDU1Gb",
@@ -4664,7 +4664,7 @@
       }
     },
     "ZZ4Vz6LU2CIGiRCi": {
-      "name": "隐蔽矿井",
+      "name": "隐蔽矿井 Hidden Mine Shaft",
       "items": [
         {
           "id": "s4qinMzu9YOYOKVO",
@@ -4692,7 +4692,7 @@
       }
     },
     "a1sE7bci1Tv2ef8h": {
-      "name": "巨蜈蚣",
+      "name": "巨蜈蚣 Giant Centipede",
       "items": [
         {
           "id": "1U37Lsr3NMgzLqLM",
@@ -4713,7 +4713,7 @@
       }
     },
     "eEeA6VFeu4JPbkhP": {
-      "name": "过熟美味果",
+      "name": "过熟美味果 Overripe Yumfruit",
       "items": [
         {
           "id": "JaQ71UbsgTMTgzt9",
@@ -4737,7 +4737,7 @@
       }
     },
     "giwJnQ0UWUp3xX2D": {
-      "name": "致幻孢子",
+      "name": "致幻孢子 Psychotropic Spores",
       "cnText_system_details_description": {
         "expected": "<p>A colorful fungus releases psychotropic spores when a creature comes near.</p>",
         "text": "<p>一株色彩鲜艳的真菌在生物靠近时释放影响精神的孢子。</p>"
@@ -4752,7 +4752,7 @@
       }
     },
     "gkF1d4L2HsCQGWoe": {
-      "name": "毒雾",
+      "name": "毒雾 Poison Fog",
       "items": [
         {
           "id": "QTH7TygJE93wfAdw",
@@ -4784,7 +4784,7 @@
       }
     },
     "gv6aCLOQMl1UIur4": {
-      "name": "电震控制台",
+      "name": "电震控制台 Jolting Console",
       "items": [
         {
           "id": "FhDv1FwUFKELR12r",
@@ -4808,7 +4808,7 @@
       }
     },
     "itkbvvYqMxaURlTo": {
-      "name": "石粉甲虫",
+      "name": "石粉甲虫 Powder Beetle",
       "items": [
         {
           "id": "h15V3S2ErATBYAMo",
@@ -4843,7 +4843,7 @@
       }
     },
     "kabFp93xYWDy0jGe": {
-      "name": "月度优秀零售员工",
+      "name": "月度优秀零售员工 Retail Employee of the Month",
       "items": [
         {
           "id": "2cot83BsMBdYaHrq",
@@ -4913,7 +4913,7 @@
       }
     },
     "nJ4G7oMV4MTsm6iA": {
-      "name": "符文框架",
+      "name": "符文框架 Runic Frame",
       "items": [
         {
           "id": "lR4nmoYab4GABrqj",
@@ -4937,7 +4937,7 @@
       }
     },
     "nNyEL8vL8QnTfMir": {
-      "name": "饥饿卷轴",
+      "name": "饥饿卷轴 Ravenous Scrolls",
       "items": [
         {
           "id": "bnq6snIvtHLQoAdV",
@@ -4961,7 +4961,7 @@
       }
     },
     "nRGCPmAuogfp7Ub3": {
-      "name": "故障灌溉器",
+      "name": "故障灌溉器 Malfunctioning Irrigator",
       "items": [
         {
           "id": "8H1b609Mu9BVNJmv",
@@ -5010,7 +5010,7 @@
       }
     },
     "nnoHSZvglRmCABii": {
-      "name": "活体野火",
+      "name": "活体野火 Living Wildfire",
       "items": [
         {
           "id": "MPrXrKYGEC1ii3rK",
@@ -5088,7 +5088,7 @@
       }
     },
     "pFZVdP2BxdIZp9Ii": {
-      "name": "姑息解离",
+      "name": "姑息解离 Palliative Dissociation",
       "items": [
         {
           "id": "GbTmVS3jvCrc96rh",
@@ -5120,7 +5120,7 @@
       }
     },
     "pwMBy4djQ789fm6C": {
-      "name": "振荡金字塔",
+      "name": "振荡金字塔 Oscillating Pyramid",
       "items": [
         {
           "id": "mQNadvQjoSz8izpB",
@@ -5144,7 +5144,7 @@
       }
     },
     "q9W9OJuFV6MZrmd9": {
-      "name": "吸入巨口",
+      "name": "吸入巨口 Intake Maw",
       "items": [
         {
           "id": "1vfUhu3Z8Jtid0Rx",
@@ -5172,7 +5172,7 @@
       }
     },
     "r6ioZdV3XyUrDjYO": {
-      "name": "吸陷淤泥",
+      "name": "吸陷淤泥 Sucking Mud",
       "items": [
         {
           "id": "25OMnQ4ENzEfCZie",
@@ -5196,7 +5196,7 @@
       }
     },
     "rA6ZwEATCgbw45Yc": {
-      "name": "洞穴刻法克虫",
+      "name": "洞穴刻法克虫 Cave Khefak",
       "items": [
         {
           "id": "WRKol0mQaJ7dZgj6",
@@ -5229,7 +5229,7 @@
       }
     },
     "suiEBjlMqLn4Gusi": {
-      "name": "麻醉飞针发射器",
+      "name": "麻醉飞针发射器 Anesthetic Dart Launcher",
       "items": [
         {
           "id": "8Sghv4LNCrNDTLVn",
@@ -5249,7 +5249,7 @@
       }
     },
     "vUXrP3bBLMN7sndD": {
-      "name": "滋养弱者的愉悦苦痛",
+      "name": "滋养弱者的愉悦苦痛 Delightful Agony in Nourishing the Meek",
       "items": [
         {
           "id": "els4dicBcdTYOiQY",
@@ -5281,7 +5281,7 @@
       }
     },
     "wBBqKmb7hA8gLiDD": {
-      "name": "电子幻影",
+      "name": "电子幻影 Electronic Figment",
       "items": [
         {
           "id": "y3Z20pqB6JI0LW5P",
@@ -5313,7 +5313,7 @@
       }
     },
     "wSrnxi2Uw1wqGByq": {
-      "name": "恶毒环境",
+      "name": "恶毒环境 Heinous Surroundings",
       "items": [
         {
           "id": "jx1PBR5dHyvDZcFn",
@@ -5341,7 +5341,7 @@
       }
     },
     "xSoS4hcxbJQ3LHfv": {
-      "name": "坍塌",
+      "name": "坍塌 Cave-In",
       "items": [
         {
           "id": "5U7rlWYMhEha1e64",
@@ -5365,7 +5365,7 @@
       }
     },
     "zfWzxaQJA4d7vM8k": {
-      "name": "引力子棱镜",
+      "name": "引力子棱镜 Graviton Prism",
       "items": [
         {
           "id": "U4F1r2YJ4DAJQOW1",
@@ -5393,7 +5393,7 @@
       }
     },
     "zgpAzncGlCaDx6UF": {
-      "name": "苦难瘴气",
+      "name": "苦难瘴气 Suffering Miasma",
       "items": [
         {
           "id": "jrvpLYlJw5JuC6cr",

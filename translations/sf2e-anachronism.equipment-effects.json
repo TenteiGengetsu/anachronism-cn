@@ -1,5 +1,5 @@
 {
-  "label": "装备效果",
+  "label": "装备效果 Equipment Effects",
   "mapping": {
     "name": "name",
     "description": "system.description.value",
@@ -10,67 +10,67 @@
   },
   "entries": {
     "0kP4P73w0PykYkPY": {
-      "name": "效果: 喷射背包",
+      "name": "效果: 喷射背包 Effect: Jetpack",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.equipment.Item.CIZ3Walj6DmiaJGq]、@UUID[Compendium.sf2e-anachronism.equipment.Item.DnuTMCJFBDj9nNRx]赋予</p>\n<p>你获得飞行速度。</p>"
     },
     "52tyG1y50LmTqCA9": {
-      "name": "效果: 探险者餐盒",
+      "name": "效果: 探险者餐盒 Effect: Explorer's Canteen",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.equipment.Item.WGdcokSMynEyF332]赋予</p>\n<p>你对抗食物或水中任何毒素或疾病的豁免获得+1物品加值。</p>"
     },
     "68zoB7dwKUcmEO1R": {
-      "name": "效果: 人造不朽脏器",
+      "name": "效果: 人造不朽脏器 Effect: Artificial Immortalizer",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.equipment.Item.0J8PMTLDGIIP1KGE]赋予</p>\n<p>你获得50点临时生命值。</p>"
     },
     "7CtHz1DQcMXLafOS": {
-      "name": "效果: 力场护盾",
+      "name": "效果: 力场护盾 Effect: Force Field",
       "description": "<p>用于追踪力场生命值的效果。</p>"
     },
     "Crg77XKCHxittH5a": {
-      "name": "效果: 白骨血清",
+      "name": "效果: 白骨血清 Effect: Bone Serum",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.equipment.Item.dvvYuzx0QUORXMl1]赋予</p>\n<p>你获得虚能治疗。</p>"
     },
     "UB0yKVxoS0EBXyCO": {
-      "name": "效果: 神枪手血清",
+      "name": "效果: 神枪手血清 Effect: Sharpshooter Serum",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.equipment.Item.xBlfbu0fUmV6ucqR]、@UUID[Compendium.sf2e-anachronism.equipment.Item.vcCeNRokXv5HSlRf]赋予</p>\n<p>对抗你的远程打击时，你的目标从掩蔽获得的AC环境加值降低。</p>"
     },
     "VKSOvJQMwUby4fba": {
-      "name": "效果: 医疗贴片",
+      "name": "效果: 医疗贴片 Effect: Medpatch",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.equipment.Item.B0FiYMxy7iDiHh48]、@UUID[Compendium.sf2e-anachronism.equipment.Item.HWHdAQArhRauTpm6]、@UUID[Compendium.sf2e-anachronism.equipment.Item.55nSLw1aQ0K0rK2L]、@UUID[Compendium.sf2e-anachronism.equipment.Item.6VDHl7xkSp8Sc8yy]、@UUID[Compendium.sf2e-anachronism.equipment.Item.KFjPEG7kw733splu]、@UUID[Compendium.sf2e-anachronism.equipment.Item.dJyYifMFfgbIwT3c]赋予</p>\n<p>你对抗疾病和毒素的豁免获得物品加值。</p>"
     },
     "dCDZQr7EBfCALmT2": {
-      "name": "效果: 名人血清",
+      "name": "效果: 名人血清 Effect: Celebrity Serum",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.equipment.Item.JgVv4m4sh9faVSDD]赋予</p>\n<p>你的表演检定获得+1物品加值。</p>"
     },
     "kUSHgMCK1Uvyhkx0": {
-      "name": "效果: 悬浮飞轮",
+      "name": "效果: 悬浮飞轮 Effect: Hoverzooms",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.equipment.Item.KUFtUjzQ8RzQ5Ykd]赋予</p>\n<p>你的陆地速度获得+5状态加值。</p>"
     },
     "uf3Fb7Fm7dSzc7Os": {
-      "name": "效果: 突击队血清",
+      "name": "效果: 突击队血清 Effect: Commando Serum",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.equipment.Item.Yuws1too4LhO7Cu9]赋予</p>\n<p>你获得1d10+5点临时生命值，以及对任何速度的+5尺物品加值。</p>"
     },
     "xZ5XMY55S42aGyjg": {
-      "name": "效果: 抬升万古石",
+      "name": "效果: 抬升万古石 Effect: Aeon Stone (Uplifting)",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.equipment.Item.kFfYq4ONuKMgISRi]赋予</p>\n<p>你获得等于自身速度或20尺的飞行速度，取较高者，持续1分钟。</p>"
     },
     "zXZoUqxzXFisGqmw": {
-      "name": "效果: 渗透者血清",
+      "name": "效果: 渗透者血清 Effect: Infiltrator Serum",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.equipment.Item.u82tssnDgj4f9UCS]赋予</p>\n<p>你的潜行和解除装置检定获得+1物品加值。</p>"
     },
     "0mm60d3wjB5pdXiN": {
-      "name": "效果：石油勇气",
+      "name": "效果：石油勇气 Effect: Petroleum Bravery",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.equipment.Item.YbDPbESBXhegKyA1]赋予</p>\n<p>你获得对心灵和精魂伤害的抗力2。</p>"
     },
     "9e4U9NUgOytOimaj": {
-      "name": "效果：让阳光照耀",
+      "name": "效果：让阳光照耀 Effect: Let the Sun Shine",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.equipment.Item.SYDiwWNqohoedjZC]赋予</p>\n<p>你在20尺弥漫范围内发出明亮光照，并在其外的20尺范围内发出昏暗光照。</p>"
     },
     "DL7GOlVLthV6HJpb": {
-      "name": "效果：神枪手血清（削弱掩蔽）",
+      "name": "效果：神枪手血清（削弱掩蔽） Effect: Sharpshooter Serum (Reduce Cover)",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.equipment.Item.xBlfbu0fUmV6ucqR]{神枪手血清}、@UUID[Compendium.sf2e-anachronism.equipment.Item.vcCeNRokXv5HSlRf]通过临时效果赋予</p>\n<p>你从掩蔽获得的AC环境加值降低。</p>"
     },
     "NqP5f6IChp8XNCrJ": {
-      "name": "效果：注射笔（迅捷或快速治疗）",
+      "name": "效果：注射笔（迅捷或快速治疗） Effect: Hypopen (Quickened or Fast Healing)",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.equipment.Item.gRZxPwfmz3O0bgOt]或@UUID[Compendium.sf2e-anachronism.equipment.Item.6JzH3VDHqv2rZJer]赋予</p>\n<p>选择以下一项益处。</p><ul><li>你变为迅捷。你可以将此额外动作用于快步、行走或打击。</li><li>你获得快速治疗10。</li></ul>"
     }
   }

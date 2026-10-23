@@ -1,5 +1,5 @@
 {
-  "label": "墓界之恶",
+  "label": "墓界之恶 Guilt of the Grave World",
   "mapping": {
     "name": "name",
     "description": "system.description.value",
@@ -63,7 +63,7 @@
   },
   "entries": {
     "1HDdV0YxZoA0trLs": {
-      "name": "剥骨者",
+      "name": "剥骨者 Boneflayer",
       "items": [
         {
           "id": "X4zMB74suOhOC4SR",
@@ -118,7 +118,7 @@
       }
     },
     "1RHRano7xlPt44Is": {
-      "name": "复原投影仪",
+      "name": "复原投影仪 Rejuvenating Projector",
       "items": [
         {
           "id": "k2oija8LqfQPgfMj",
@@ -153,7 +153,7 @@
       }
     },
     "4XHrKB4GP5e6I9uH": {
-      "name": "死灵炮塔",
+      "name": "死灵炮塔 Necroturret",
       "items": [
         {
           "id": "t4KXUUsN45tCR47z",
@@ -192,7 +192,7 @@
       }
     },
     "6CBtaIhJZdAgAqVf": {
-      "name": "旋转跑步机",
+      "name": "旋转跑步机 Spinning Treadmill",
       "items": [
         {
           "id": "ixhdPgVcake5rvPq",
@@ -289,7 +289,7 @@
           "name": "尸骸舰队学识"
         }
       ],
-      "name": "尸妖科学家",
+      "name": "尸妖科学家 Wight Scientist",
       "cnText_system_attributes_hp_details": {
         "expected": "corrupting blood, void healing",
         "text": "腐化之血，虚能治疗"
@@ -340,7 +340,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
         }
       ],
-      "name": "吸生泥怪",
+      "name": "吸生泥怪 Lifeleech Ooze",
       "cnText_system_attributes_hp_details": {
         "expected": "void healing",
         "text": "虚能治疗"
@@ -351,7 +351,7 @@
       }
     },
     "Bv8sq5fogXIQcehn": {
-      "name": "魅影杰夫",
+      "name": "魅影杰夫 Phantom Gef",
       "items": [
         {
           "id": "3ZUdoKCHahUFJdlB",
@@ -403,7 +403,7 @@
       }
     },
     "H8QkiU5XVdCj8zZs": {
-      "name": "舒芙蕾惊喜",
+      "name": "舒芙蕾惊喜 Soufflé Surprise",
       "items": [
         {
           "id": "D1vbOE5JMFrGclJs",
@@ -438,7 +438,7 @@
       }
     },
     "HOgqslwrHCeXlYp8": {
-      "name": "冻骸",
+      "name": "冻骸 Rigor Mortic",
       "publicNotes": "<p>冻骸是为在深空中执行登舰行动的尸骸舰队中队设计的，堪称字面意义上的炮灰。古冢臭名昭著的研发部门将重伤士兵的残骸回收，再嫁接入动力装甲，造出了这些不生武器。冻骸兼具弹药与突击兵的功能，旨在轰穿舰体或撞向行星地表，并在撞击后继续战斗，而不会当场解体。</p><h2>铸造冻骸</h2><p>冻骸由遗留在战场上的士兵残块制成：这些残块被嫁接入重甲，再以死灵魔法科技重新活化。有些冻骸由尸骸舰队英雄的遗体铸成，这些英雄的躯体已经残破到无法继续作战；但大多数冻骸是尸骸舰队幸存者、死去的敌人，以及被残忍地迫使承受这种命运的活人征召兵的混合体。将收集来的身体部件永久嫁接入一套护甲后，最后一步是为冻骸覆上一层超自然冰壳，将其变为能从星舰炮中发射的弹丸，每发可射出一支二至四人的小队。有些舰队舰长将其戏称为“冻骸迫击炮”；它们一直储存在低温机库中，直到装入火炮的那一刻。冰壳会在冻骸飞行途中融化，将解冻的不死生物释放出来。</p>",
       "items": [
         {
@@ -520,7 +520,7 @@
       }
     },
     "I4sbG3klcFE1HCMq": {
-      "name": "剧情转折",
+      "name": "剧情转折 Plot Twist",
       "items": [
         {
           "id": "LynJVtGqYlaK9rcb",
@@ -544,7 +544,7 @@
       }
     },
     "IsuQst3MOBDEspty": {
-      "name": "迫击炮弹",
+      "name": "迫击炮弹 Mortar Shells",
       "items": [
         {
           "id": "8bDG9y94vjEaFh5Z",
@@ -576,7 +576,7 @@
       }
     },
     "J4QXF8oJlSMru16n": {
-      "name": "余烬",
+      "name": "余烬 Cinder",
       "items": [
         {
           "id": "FO0HXZGAj4hnCLNY",
@@ -634,7 +634,7 @@
           "description": "<p>无人机对一个目标进行一次打击，然后快步或行走，再对一个目标进行一次打击；第二个目标可以与最初目标相同或不同。两次打击均计入其多重攻击减值，但多重攻击减值直至两次打击完成后才会增加。</p>"
         }
       ],
-      "name": "侦察无人机",
+      "name": "侦察无人机 Scout Drone",
       "cnText_prototypeToken_name": {
         "expected": "Scout Drone",
         "text": "侦察无人机"
@@ -703,7 +703,7 @@
           "name": "尸骸舰队学识"
         }
       ],
-      "name": "尸骸舰队弃子",
+      "name": "尸骸舰队弃子 Corpse Fleet Expendable",
       "cnText_system_attributes_hp_details": {
         "expected": "void healing",
         "text": "虚能治疗"
@@ -740,7 +740,7 @@
           "description": "<p><strong>泡沫喷洒</strong>（@Template[type:cone|distance:20]，寒冷，魔法）</p>\n<p><strong>伤害</strong> @Damage[(1d8+2)[cold]|options:area-damage]（@Check[reflex|dc:15|basic|traits:cold,magical]）</p>"
         }
       ],
-      "name": "赋动灭火器",
+      "name": "赋动灭火器 Animated Fire Extinguisher",
       "cnText_system_attributes_ac_details": {
         "expected": "12 when broken",
         "text": "破损时为12"
@@ -751,7 +751,7 @@
       }
     },
     "LfdYQyHj3Jdnf52I": {
-      "name": "漂移篝火",
+      "name": "漂移篝火 Drifting Bonfire",
       "items": [
         {
           "id": "GU0ueBrE29lQWzMw",
@@ -799,7 +799,7 @@
       }
     },
     "Mc2pC10GG2z13rOU": {
-      "name": "无脸灵",
+      "name": "无脸灵 Faceless",
       "items": [
         {
           "id": "rs20lgRWEaR8cAjs",
@@ -921,7 +921,7 @@
       }
     },
     "QPmLfay4U6Rd9fWl": {
-      "name": "废料巢穴",
+      "name": "废料巢穴 Scrap Warren",
       "items": [
         {
           "id": "VvC1Pvjcq3ba3hEb",
@@ -997,7 +997,7 @@
           "description": "<p>废料鼠先知向多个敌人射出锯齿状废料碎片。@Template[type:cone|distance:20]内的所有生物必须尝试@Check[reflex|dc:18|basic|options:area-effect]豁免，否则受到@Damage[3d6[piercing]|options:area-damage]伤害。大失败时，生物会@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{被压制}，直至废料鼠先知下回合结束。</p>"
         }
       ],
-      "name": "废料鼠先知",
+      "name": "废料鼠先知 Scrap Rat Visionary",
       "cnText_system_perception_details": {
         "expected": "metal sense (30 feet)",
         "text": "金属感知（30尺）"
@@ -1145,7 +1145,7 @@
       }
     },
     "T9uucuCG6UFWZLOB": {
-      "name": "木乃伊黄蜂群",
+      "name": "木乃伊黄蜂群 Mummy Wasp Swarm",
       "items": [
         {
           "id": "rzmjaCKDmulmMfss",
@@ -1243,7 +1243,7 @@
       }
     },
     "VN13DS4Ph4dhN9mu": {
-      "name": "注定坠毁的穿梭机",
+      "name": "注定坠毁的穿梭机 Doomed Shuttle",
       "items": [
         {
           "id": "Kx1B9efob2JzjZb7",
@@ -1279,7 +1279,7 @@
       }
     },
     "WOH7D2wZcemQrT8V": {
-      "name": "丧",
+      "name": "丧 Zo!",
       "items": [
         {
           "id": "J95s3W7YlUIv7xh5",
@@ -1721,14 +1721,14 @@
           "name": "战争学识"
         }
       ],
-      "name": "维斯克帝国伞兵",
+      "name": "维斯克帝国伞兵 Veskarium Paratrooper",
       "cnText_prototypeToken_name": {
         "expected": "Veskarium Paratrooper",
         "text": "维斯克帝国伞兵"
       }
     },
     "YtPDtjmBQq10pRl4": {
-      "name": "爆炸面板",
+      "name": "爆炸面板 Exploding Panels",
       "items": [
         {
           "id": "M1LTh9SBpFAbf6rd",
@@ -1770,7 +1770,7 @@
       }
     },
     "ZK6J3OIVvJVMBEDu": {
-      "name": "快速减压",
+      "name": "快速减压 Rapid Depressurization",
       "items": [
         {
           "id": "dGRzxYfrcOIJSFfB",
@@ -1915,7 +1915,7 @@
       }
     },
     "c5ryR23ymRbukIgd": {
-      "name": "电击网格",
+      "name": "电击网格 Shock Grid",
       "items": [
         {
           "id": "7oFKuUJ0coJmsvAs",
@@ -2000,7 +2000,7 @@
           "name": "尸骸舰队学识"
         }
       ],
-      "name": "碎骨者",
+      "name": "碎骨者 Bonecrusher",
       "cnText_system_attributes_hp_details": {
         "expected": "void healing",
         "text": "虚能治疗"
@@ -2094,7 +2094,7 @@
           "name": "尸骸舰队学识"
         }
       ],
-      "name": "尸骸舰队初级军官",
+      "name": "尸骸舰队初级军官 Corpse Fleet Junior Officer",
       "cnText_system_attributes_hp_details": {
         "expected": "void healing",
         "text": "虚能治疗"
@@ -2140,7 +2140,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       ],
-      "name": "蹒跚丧尸",
+      "name": "蹒跚丧尸 Zombie Shambler",
       "cnText_system_attributes_hp_details": {
         "expected": "void healing",
         "text": "虚能治疗"
@@ -2151,7 +2151,7 @@
       }
     },
     "izCx1cFDZP6lQcAf": {
-      "name": "微陨石雨",
+      "name": "微陨石雨 Micrometeor Shower",
       "items": [
         {
           "id": "F0kdBS1887Wv9hiX",
@@ -2203,7 +2203,7 @@
           "description": "<p><strong>频率</strong> 每分钟一次</p><hr /><p><strong>效果</strong> 衰弱的智慧绿色球体以自身为中心释放绿色迷雾（如同该法术）。智慧球体可以选择释放透明的迷雾，使其不提供隐蔽。此外，迷雾出现时位于其中、进入迷雾或在其中结束回合的敌人，必须进行一次@Check[will|dc:21]豁免，除非已经@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}。</p><hr /><p><strong>大成功</strong> 目标不受影响，并暂时免疫24小时。</p>\n<p><strong>成功</strong> 目标不受影响。</p>\n<p><strong>失败</strong> 目标@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}1轮。</p>\n<p><strong>大失败</strong> 目标困惑1轮，然后陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}。</p>"
         }
       ],
-      "name": "衰弱的智慧绿色球体",
+      "name": "衰弱的智慧绿色球体 Faltering Sapient Green Orb",
       "cnText_system_details_languages_details": {
         "expected": "Telepathy 30 feet",
         "text": "心灵感应30尺"
@@ -2240,14 +2240,14 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>"
         }
       ],
-      "name": "幼年塔什塔里兽",
+      "name": "幼年塔什塔里兽 Juvenile Tashtari",
       "cnText_prototypeToken_name": {
         "expected": "Juvenile Tashtari",
         "text": "幼年塔什塔里兽"
       }
     },
     "pcvtftVSUWnuTsZ8": {
-      "name": "燃烧落石",
+      "name": "燃烧落石 Burning Rockslide",
       "items": [
         {
           "id": "JpWqlPspGFbkr8Hr",
@@ -2307,7 +2307,7 @@
           "name": "海盗学识"
         }
       ],
-      "name": "昏沉海盗",
+      "name": "昏沉海盗 Groggy Corsair",
       "cnText_prototypeToken_name": {
         "expected": "Groggy Corsair",
         "text": "昏沉海盗"
@@ -2354,7 +2354,7 @@
           "description": "<p>中型，@Damage[(1d8+4)[bludgeoning]]，破体阈值9</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         }
       ],
-      "name": "幼年玻璃蛇",
+      "name": "幼年玻璃蛇 Juvenile Glass Serpent",
       "cnText_system_details_blurb": {
         "expected": "Variant glass serpent",
         "text": "变体玻璃蛇"
@@ -2365,7 +2365,7 @@
       }
     },
     "zVmwnoVD1jNocpdp": {
-      "name": "雷氏无足兽",
+      "name": "雷氏无足兽 Reculobutapus",
       "items": [
         {
           "id": "ZRMEKodsDO4QXDxQ",

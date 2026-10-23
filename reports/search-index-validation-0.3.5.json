@@ -1,0 +1,17 @@
+{
+  "version": "0.3.5",
+  "reproducedMissingIndex": true,
+  "lightIndexNamesChecked": 5544,
+  "nativeIndexNamesChecked": 5544,
+  "packsChecked": 28,
+  "chineseAndEnglishSearch": true,
+  "gmAndPlayerIndexPaths": true,
+  "noFullPackFetchRequired": true,
+  "idAndNameLookup": true,
+  "idempotent": true,
+  "unrelatedPackUnchanged": true,
+  "unknownEntryUnchanged": true,
+  "descriptionsRulesLinksUnchangedFrom034": true,
+  "liveFoundryTested": false,
+  "referenceCommit": "11aa2358f1373ec1228871e0db93c20a5680abf6"
+}

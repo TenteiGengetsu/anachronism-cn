@@ -1,5 +1,5 @@
 {
-  "label": "传承",
+  "label": "传承 Heritages",
   "mapping": {
     "name": "name",
     "description": "system.description.value",
@@ -62,1355 +62,1355 @@
   },
   "entries": {
     "04fYLNJ336Hx72ae": {
-      "name": "尸花兽莱西",
+      "name": "尸花兽莱西 Ksarik Leshy",
       "description": "<p>你的身体由在卡斯卓韦受心能影响而演化的植物物质构成。你四足行走，面部生有藤蔓状的触须，可用以自卫；你获得@UUID[Compendium.sf2e-anachronism.feats.Item.RdWNYoypgL5dMO0a]（触手，1d4 钝击 【灵巧、娴熟、擒拿、摔绊、无武装】，搏击武器组）标准族裔专长。尸花兽通常将你视为同族，除非出于自卫必要，否则会避免攻击你。</p>\n<p>尸花兽莱西总是具有光合作用。</p>"
     },
     "0NHEUBfjofzo00YN": {
-      "name": "倾听鼠人",
+      "name": "倾听鼠人 Listener Ysoki",
       "description": "<p>在铱尖塔附近生活的经历，使你的心灵向幽影界敞开，并令毛发染上银色、紫色或其他不同寻常的色泽。</p>\n<p>你受训于神秘。如果你会自动受训于神秘（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.4yWUVp205mJWuqNI]动作。</p>"
     },
     "0n0v4n2GGMpGzCP6": {
-      "name": "都会纺蛛人",
+      "name": "都会纺蛛人 Cosmopolitan Atraxid",
       "description": "<p>你在多种族的环境中长大。祖尔凡是桑迪特联合体中人口最多的行星，因此也拥有来自共同体内外最多的访客。你从常见语言列表及任何其他你拥有许可的语言中额外掌握一门语言。你在社群上成为受训。如果你将要在社群上自动成为受训（例如来自你的背景或职业），则你改为自选一项技能成为受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.X2jGFfLU5qI5XVot]技能专长。</p>"
     },
     "1G0n0SLnzL6etvN4": {
-      "name": "女王说客卓克斯",
+      "name": "女王说客卓克斯 Hylaxian Diplomat Trox",
       "description": "<p>海拉丝教导众人和平高于一切，而你将这一哲学作为指引。你已成为在局势恶化时挽救谈判和关系的专家。</p>\n<p>你拥有@UUID[Compendium.pf2e.feats-srd.Item.6ON8DjFXSMITZleX]{无需惊慌}技能专长。每日一次，如果你用于[[/act request]]的交涉检定将要大失败，你可以重掷此检定并取较好结果。这是幸运效果。</p>"
     },
     "1YJl56kqLbHdwHVq": {
-      "name": "善变龙人",
+      "name": "善变龙人 Mercurial Dragonkin",
       "description": "<p>无论是出于偶然、命运的捉弄，还是对相互依赖根深蒂固的恐惧，你都无法形成永久的伙伴羁绊。取而代之，你可以形成临时伙伴羁绊。你建立伙伴羁绊所需的时间减少至10分钟，而此羁绊的持续时间缩短至1天。你可以用一个具有专注特征的单动作提前切断伙伴羁绊。如果你对伙伴@UUID[Compendium.sf2e-anachronism.actions.Item.UeMHbnnaXDa3sGfG]，生命值消耗减少1，且每有4级再减少1（最低为1）。</p>"
     },
     "1eYRZT4aOJXrTAQF": {
-      "name": "幼年飞螅族",
+      "name": "幼年飞螅族 Early Stage Barathu",
       "description": "<p>与其他飞螅族相比，你年轻而缺乏经验，个人主义的世界观很可能形成于你与其他文化的交流。你尚未见识宇宙的全貌，也还没有调整自己以应对其中的种种威胁，或理解各式生命。由于尚未选择专门的方向，也未与其他飞螅族融合，你的形体极易变化。你的体型为小型，而非中型。你获得@UUID[Compendium.pf2e.feats-srd.Item.3G8xUlgCjRmRJNfP]{迅速挤入}作为奖励专长。此外，你获得等于自身等级一半的精准伤害抗力（最低为1）。</p>"
     },
     "2EBZRLWaeSJULFZb": {
-      "name": "共情弗拉卡狼人",
+      "name": "共情弗拉卡狼人 Empathic Vlaka",
       "description": "<p>当周围人感受到强烈的情绪或内心冲突时，你会本能地感觉到。你用于@UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]的察觉检定获得+2环境加值。如果你没有对被惑控、占据或受到情绪效果影响的生物主动使用察言观色，GM会为你掷骰一次秘密检定，没有通常的环境加值，且具有-2环境减值，让你无论如何都有可能注意到被惑控、占据或情绪效果。</p>"
     },
     "2Hnoj5d9ILigxCwh": {
-      "name": "无宿主因图",
+      "name": "无宿主因图 Hostless Entu",
       "description": "<p>你是一个没有宿主的因图菌群。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.81EiW8ycG0Tmyl7x]动作。</p>"
     },
     "2PxNQLqeXGAZ3VBf": {
-      "name": "毒心维斯克蜥人",
+      "name": "毒心维斯克蜥人 Venomthought Vesk",
       "description": "<p>你天生便是具有心能天赋的高贵维斯克蜥人中的一员。在民间传说中，你的血脉源于在维斯克主星上古老的穴居社会时期，他们用异能仪式改造了自身，获得了“有毒的思想”，其能够在任意未来后代中显现。你能够以异能内在戏法的形式随意施放晕眩术。戏法升阶至你等级的一半，向上取整。你在有关心能传统和哲学方面的@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的神秘检定上获得+1环境加值。</p>"
     },
     "2TXiMFGXAL2aO6Ar": {
-      "name": "无羁拉申塔人",
+      "name": "无羁拉申塔人 Unbound Lashunta",
       "description": "<p>你决定不激活自己族裔的适应性基因。你可能同时表现出达玛亚和科拉沙的特征，既高大又健壮，或既矮小又纤细；也可能具有罕见的外貌，例如遍布全身的凸起与旋纹，或长而毛茸茸的触角。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.j1FsKMy7CTtrp3Fu]反应。</p>"
     },
     "2XXGIZ16iUoTPCey": {
-      "name": "松鼠狐因图",
+      "name": "松鼠狐因图 Squentu",
       "description": "<p>你是因图和@UUID[Compendium.sf2e-anachronism.alien-core-bestiary.Actor.ONe5XNvapxGSRlnP]的结合体。你的体型是超小型，而非小型。你获得敏捷属性提升，而非体质。你获得范围30尺的精确灵敏嗅觉。这意味着你可以使用你的嗅觉来确定一个生物的确切位置。</p>"
     },
     "3AkVMztAm5oXb8he": {
-      "name": "建造蚁弗米蚁族",
+      "name": "建造蚁弗米蚁族 Builder Formian",
       "description": "<p>你是一位建筑师和建造者，利用你的 蚁群所拥有的丰富知识来进行你的工艺创作。你可以根据环境所使用的任何材料，如泥土、石头或木材，来轻松构建构造物，但你可能也从其他社群及其建筑技术和材料中学习，以创新蚁族建筑。</p>\n<p>作为建造蚁弗米蚁族，你在手艺上成为受训。如果你将要在手艺上自动成为受训（例如来自你的背景或职业），你改为任选一项其他技能成为受训。你还拥有5尺的掘地速度。如果你获得了@UUID[Compendium.sf2e-anachronism.feats.Item.kxqA0WIJbfwZzvHS]专长，你的掘地速度提升为20尺。</p>"
     },
     "46QpOfnvTpkFd9ST": {
-      "name": "幼颜轻灵兽",
+      "name": "幼颜轻灵兽 Everwhelp Skittermander",
       "description": "<p>尽管你已经长大成人，但你仍然保留着你的腹嘴——这可能是进化过程中的一个意外，也可能是有目的的基因操纵，亦或是生物科技增强。你获得了颚咬非武装攻击，可造成1d6点穿刺伤害，属于搏击武器组，并具有娴熟、轻灵兽和无武装特征。</p>"
     },
     "4CW2vHPdjx9xDJVU": {
-      "name": "板甲维斯克蜥人",
+      "name": "板甲维斯克蜥人 Plated Vesk",
       "description": "<p>你的祖先是维斯克蜥人中最顽强的个体，曾忍受恶劣环境，跋涉至天涯海角。你的鳞片视为板甲组的中甲。它们提供+3AC物品加值，具有+1敏捷上限、–2检定减值和+3力量阈值，并具有舒适和暴露特征。此物品加值会提高至+4，在5级时生效。你可以穿戴飞行服，但不能穿戴其他护甲。你可以在鳞片上蚀刻护甲符文，但不能安装护甲强化模块。</p>"
     },
     "4pLG0nlD6cn45hT6": {
-      "name": "鸣光方贡族",
+      "name": "鸣光方贡族 Sonic Aurora Fonqugon",
       "description": "<p>来自罗德纳斯太阳——乔尼德之星——的带电粒子，有时会以极为罕见、破坏力却格外强的角度撞击行星大气。反应会产生绚烂无比的极光，但随之而来的雷鸣般巨响和致盲闪光，会迫使大多数方贡族及其他生物寻找庇护。</p>\n<p>作为音波极光方贡族，你对光和声音格外敏感。你用于[[/act seek]]的察觉检定获得+2环境加值，并获得等于自身等级一半的音波抗力（最低为1）。</p>"
     },
     "56iLg8E5YvvI6xk9": {
-      "name": "阿基顿卡萨斯人",
+      "name": "阿基顿卡萨斯人 Akitonian Kasatha",
       "description": "<p>你（或你的祖先）乘坐<em>伊达里号</em>来到了协约世界，并在阿基顿定居了下来。阿基顿明显偏低的重力让你在跳跃这门既有趣又实用的技巧上得到了锻炼，你很可能会沉迷于参与围绕这个沙漠世界流行运动的诸多仪式之中。你获得@UUID[Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq]专长，且不将沙地视为不稳地面。</p>"
     },
     "5BIn9LonvhJz6h7B": {
-      "name": "信仰皈依巫洛格",
+      "name": "信仰皈依巫洛格 Faith Converted Urog",
       "description": "<p>你相信，了解宇宙的最佳方法，是向创造宇宙的诸神求教。你的研究很可能引导你离开迪孔，前往精神导师身边，希望最终能直接从诸神那里学习。</p>\n<p>你受训于宗教（若已受训于宗教，则改为另一项自选技能），并获得@UUID[Compendium.pf2e.feats-srd.Item.x7EMZNMavris2aHY]{神学士}专长。你还在@UUID[Compendium.pf2e.actionspf2e.Item.Q5iIYCFdqJFM31GW]{学习法术}时获得+1环境加值。</p>"
     },
     "5KsI1u0AXUiJYPzv": {
-      "name": "发光水獭人",
+      "name": "发光水獭人 Bioluminescent Brenneri",
       "description": "<p>你们是某个居住在一片无法被阳光触及的海蚀洞穴中，被称为乔布瓦裂谷社群的水獭人后裔。这些洞穴中的其他生物，比如有翅膀的穆尔齐拉特，能够在极其狭窄的空间中以惊人的速度穿梭。由于意外碰撞造成的伤害极为常见，许多生活在裂谷中的生物已经进化出用作警示的发光特性。</p>\n<p>你的皮毛由特殊的纤维构成，这些纤维能够吸收来自荧光藻类的光线。你可以通过生物发光的方式让自己的皮毛发光，或者通过一个交互动作来停止发光。当你发光时，你会在 20 尺的半径内发出明亮光照（并在更外的20尺内发出昏暗光照）。</p>\n<p>在水中，你不会陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]，并且你在水中使用钝击和挥砍攻击的近战武器时、在水下进行远程攻击或攻击水下敌人时，都不会受到通常的水中战斗减值。</p>"
     },
     "5SqvxQBmTllq2Lzu": {
-      "name": "轻灵社群抚养",
+      "name": "轻灵社群抚养 Skitter Raised",
       "description": "<p>你一生中大部分时间都在一个紧密团结的社区中度过，通过协作实现梦想，邻里亲密无间。你获得@UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]技能专长。此外，你在协助一名盟友进行非攻击特征的技能检定时获得+2环境加值。</p>"
     },
     "5lYiLQ9npATGk2y2": {
-      "name": "心能信使四臂蜗族",
+      "name": "心能信使四臂蜗族 Psychic Messenger Mecenaic",
       "description": "<p>你的心灵感应比大多数四臂蜗族更强，能够增强与他人的心能交流。每当使用有限心灵感应时，你可以在传递消息的同时传递简单图像。此外，当一个生物通过心灵感应与你交流时，你对该生物[[/act sense-motive]]的察觉检定获得+2环境加值。</p>"
     },
     "5uhc9jENKHUszTZt": {
-      "name": "城裔珊瑚人",
+      "name": "城裔珊瑚人 City Kin Copaxi",
       "description": "<p>你来自小塔布里德众多广阔的巨型都市之一。大多数珊瑚人一生都生活在这样的环境中。如同组成身体的珊瑚虫一样，每位珊瑚人都在社会中扮演特定角色。由于政府的监督和严格规定，尽管城市珊瑚人能够逐渐大幅改变身体和自我的几乎每一个方面，他们中大多数一生也只会适应一两个新角色。</p>\n<p>城市珊瑚人通常在小塔布里德的众多工厂、矿场和农业工业设施中工作，比起个人贡献，那里更强调集体努力。作为城市珊瑚人，你习惯了拥挤的都市生活和辛勤的合作劳动。你受训于一项与职业有关的学识技能，例如烹饪学识。如果你会自动受训于该学识（例如来自背景或职业），则改为受训于一项与你的技能有关、范围更具体的学识（例如厨师的刀具学识）。你对同行[[/act make-an-impression]]或提出请求的交涉检定获得+2环境加值。</p>"
     },
     "62rt3ufujy6vnhq0": {
-      "name": "阿泼斯忒探险兽人",
+      "name": "阿泼斯忒探险兽人 Apostae Delver Orc",
       "description": "<p>你来自协约世界星域边缘的空心行星阿泼斯忒。你很可能出身于一处深入隧道、搜掠古代外星科技的据点。在大断层的某个时候，你的祖先离开托拉格身边，与如今居住在这颗孤独星球上的亚兹里纳精灵一同抵达阿泼斯忒。许多像你这样的兽人为企业服劳役，可能是在偿还祖先欠下的债务。你也可能刚刚还清家族债务，如今独自踏上旅途，运用在隧道中磨练的技能。你或许加入了冒险公司，也可能打算创立自己的企业。</p>\n<p>你获得用于阿泼斯忒学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}专长。每日一次，如果你对抗陷阱的豁免失败，可以立即重掷该豁免。这是幸运效果。</p>"
     },
     "6hTB4JCs1EVg2rdI": {
-      "name": "堡垒矮人",
+      "name": "堡垒矮人 Citadel Dwarf",
       "description": "<p>你是著名采矿氏族的一员，该氏族擅长凿穿行星、卫星和小行星以挖掘稀有矿物。你的生存熟练度变为受训。若你的生存熟练度已经自动提升至受训（比如通过你的背景或职业），则改为让你自选的一项技能熟练度提升至受训。当你以生存检定通过挖矿来@UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]，并且在该检定中得到大成功时，你会发现一条高价值的矿脉。下一次当你在相同地点使用生存来赚取收入时，你会将任务等级视为高1级。若你的生存熟练度达到大师，则将任务等级视为高2级；若你的生存熟练度达到传奇，则将任务等级视为高4级。任务的DC仍旧保持不变。</p>"
     },
     "6oxpmICVrKRSMzgm": {
-      "name": "科技几丁质拾荒蜗族",
+      "name": "科技几丁质拾荒蜗族 Techitin Gnarefuroid",
       "description": "<p>经常接触先进科技的拾荒蜗族学会将其轻松整合进体内。你在手艺上成为受训。如果你将要在手艺上自动成为受训（例如来自你的背景或职业），则你改为自选一项技能成为受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.sEb6KmjQVdWNTqiu]通用专长。</p>"
     },
     "7LkS6dlu3AVhceD5": {
-      "name": "宇宙研究者四臂蜗族",
+      "name": "宇宙研究者四臂蜗族 Universal Researcher Mecenaic",
       "description": "<p>你将生命中的某个阶段献给了扩展对周围宇宙的理解。你的思维灵活，你的专业知识令人印象深刻——尽管较为专门化。你在你选择的一项具有@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]动作的技能上受训。多年来你上过不止一门数学课，并学会了优秀的估值技巧。你可以立即得知你能看见的一组外观相似物品的数量，四舍五入到总数的第一位数字。</p>"
     },
     "7QE2iTcKzxbUOhP0": {
-      "name": "从不犯错且永远正确双相人",
+      "name": "从不犯错且永远正确双相人 Never Wrong and Always Right Phasorq",
       "description": "<p>如果你要彻夜不眠，那不妨阅读；如果你在阅读，那不妨学习；如果你要学点什么，那就不该真正弄错。你获得额外学识技能专长。如果你在任何你已选择额外学识的学识技能上进行的@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]检定中大失败，你改为获得失败。</p>"
     },
     "8LkRH28ZwSAfNWDI": {
-      "name": "异源回应拾荒蜗族",
+      "name": "异源回应拾荒蜗族 Xenoresponsive Gnarefuroid",
       "description": "<p>生活在自然环境中的拾荒蜗族会与有机能量相协调，尤其是腐败与腐烂的能量。从原能法术表中选择一个戏法。你可以将其作为原能内在法术随意施放。戏法会升阶至等于你等级的一半的环级，向上取整。</p>"
     },
     "8c20Uhhy4TfAuYeH": {
-      "name": "贾约尔守护者坚叶族",
+      "name": "贾约尔守护者坚叶族 Jajor Protector Hardor",
       "description": "<p>多尔乔上的危险始终来自自然世界，而非其他智慧生物，但更广阔的星系让你的人民面临了一种新的危险。你将自己的身体锻炼得比同族更加结实，以便当威胁来临时，你能成为最先面对它们的人之一。你从族裔中获得12点生命值，而非10点。你在对抗疾病的强韧豁免上获得+1状态加值。</p>"
     },
     "8xJLb7SmPydkTzfG": {
-      "name": "外界卡洛鱼人",
+      "name": "外界卡洛鱼人 Outworlder Kalo",
       "description": "<p>你人生重要的阶段都在远离卡洛-马霍伊海洋的地方度过，因此特别擅长应对干燥陆地生活的种种挑战。你的陆地移动速度提升5尺（对于大多数卡洛鱼人为提升至25尺）。</p>"
     },
     "952YwmIOYQPJTLRB": {
-      "name": "焰心龙人",
+      "name": "焰心龙人 Flameheart Dragonkin",
       "description": "<p>你血液中燃烧的余烬使你免受高海拔寒冷的侵袭。你获得相当于你等级一半（最低为1）的寒冷抗力。你受到寒冷气候的影响会降低一级（酷寒变为极寒，极寒变为严寒，以此类推）。</p>"
     },
     "95wYp5cH3szn2t7t": {
-      "name": "万歌之歌奥德",
+      "name": "万歌之歌奥德 Song of Songs Ord",
       "description": "<p>你研习了你祖先那些萦绕心头的、嚎叫般的乐曲，或许也创作了一些属于自己的作品。你洪亮的嗓音能够吸引听众，让他们忘却周围的世界。你在表演上成为受训。如果你将要在表演上自动成为受训（例如来自你的背景或职业），则你改为自选一项技能作为受训。你获得迷魂表演技能专长。</p>"
     },
     "97rhMZy7FCjGKwri": {
-      "name": "隐秘观者飞螅族",
+      "name": "隐秘观者飞螅族 Covert Observer Barathu",
       "description": "<p>你希望了解他人，却担心自己的存在本身就会影响他们的生活和行为。比起直接接触其他文化或野生生物，你更喜欢悄无声息地观察。你能够改变身体的形状，并从基因层面调整其构成，融入观察对象周围的自然环境。</p>\n<p>你受训于隐秘。如果你会自动受训于隐秘（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.pekKtubQTkG9m1xK]{集体潜行}技能专长（即使你不满足其先决条件）。你可以花费10分钟改变身体的形状与颜色，在该环境中使用[[/act avoid-notice]]探索活动时，隐秘获得+2环境加值（如果遭遇开始时你正在避人耳目，此加值也适用于以隐秘进行的先攻检定）。</p>"
     },
     "9olyHbDxxW4YLVYx": {
-      "name": "同化牛尔人",
+      "name": "同化牛尔人 Assimilating Nuar",
       "description": "<p>你与协约世界中众多其他种族融合共处的能力，使你习得了身边人群的技艺。你获得@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]通用专长。此外，你获得所选族裔的一项母语作为奖励语言（例如，如果你选择鼠人，则可获得阿基顿语或鼠人语）。</p>"
     },
     "9tHpz23J3FSz0K2E": {
-      "name": "水蛸族",
+      "name": "水蛸族 Aquazoan",
       "description": "<p>栖居水生世界或社群的星蛸族学会将鳃与鳍融入形态，甚至能在模仿非水生物种时显化这些特征。你获得20尺游泳速度与两栖特征，能够在水下和空气中呼吸。</p>"
     },
     "A3XpAjUgnGyxXoDI": {
-      "name": "艺人灵脑人",
+      "name": "艺人灵脑人 Entertainer Elebrian",
       "description": "<p>你热爱成为聚光灯下的焦点，大半生都在镜头前度过。你生于生者大厅，长于生者大厅，自幼便学会如何取悦观众。你或许是冉冉升起的新星，或是声名显赫的性格演员、龙套演员，抑或是粉丝日益增长的真人秀选手。你在表演和媒体学识（Media Lore）上受训，你获得@UUID[Compendium.pf2e.feats-srd.Item.xqAdXRd2gSQcqp5E]技能专长。</p>"
     },
     "Al0kW5lh60VJGmdx": {
-      "name": "炮灰地精",
+      "name": "炮灰地精 Tankmeat Goblin",
       "description": "<p>你是基因改造的炮灰，效忠于基德隆霸权。当你处于@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]状态时，你在速度上获得+5尺状态加值，你的近战打击和使用投掷武器进行的远程打击造成等同于你受伤和@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]状态值之和的持续流血伤害。</p>"
     },
     "ApPYlfqJs6pIDF4D": {
-      "name": "舰生鼠人",
+      "name": "舰生鼠人 Shipborn Ysoki",
       "description": "<p>你出生在星舰上，空间站的站点出入口，或者相似的环境里。你在驾驶技能上受训。如果你已经在驾驶技能上自动受训（比如来自你的背景或是职业），你可以自选一项技能受训。如果你在@UUID[Compendium.sf2e-anachronism.actions.Item.hsUKPqTdAvWwsqH2]和@UUID[Compendium.sf2e-anachronism.actions.Item.LXqcXRayK58inaKo]的导航检定中成功，将结果改为大成功。</p>\n<p>你擅长各种近距离的灵活机动，当你@UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]穿越中型或更大体型敌人占据的空间时，你在对应的特技检定上获得+1环境加值，且该敌人所在的方格不被视作困难地形。</p>"
     },
     "AvEovZgvDyKIm8VQ": {
-      "name": "卡拉帕因图",
+      "name": "卡拉帕因图 Karapentu",
       "description": "<p>你与一只来自萨鲁克5号（Saaruq-5）的淡水两栖动物卡拉帕蜥（karapal）建立了联系。你获得等于你陆地速度的游泳速度，你获得两栖特征，使你能同时在水中和空气中呼吸。</p>"
     },
     "B6Of6VTr8l5oZS6U": {
-      "name": "黑洞新星族",
+      "name": "黑洞新星族 Black Hole Novian",
       "description": "<p>你的始祖恒星坍缩成了黑洞，你也随之如此。你不再发光，并失去@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.GSBkiEHvnSidFxvz]能力。</p>\n<p>你获得黑暗视觉和@UUID[Compendium.sf2e-anachronism.actions.Item.JdLNIaTM4eyI9Luo]动作。</p>"
     },
     "BHG0mfWnbHhKluxO": {
-      "name": "阿基顿鼠人",
+      "name": "阿基顿鼠人 Akitonian Ysoki",
       "description": "<p>你你或你的祖先出生在阿基顿，靠拆解坠毁的星舰或在废品堆里淘宝为生。你在手艺技能上获得受训熟练度，你可以使用手艺代替贼活来解除装置。若你已在手艺技能上具有受训熟练度，你转而获得迅速修理通用专长作为代替。</p>"
     },
     "C0LJokm1AJQhPnsA": {
-      "name": "契约誓言松鼠狐人",
+      "name": "契约誓言松鼠狐人 Contract-Sworn Vulkarisu",
       "description": "<p>你出生在一个与希瓦斯卡的神使曲解签订了契约的家族。无论你是崇拜还是怨恨这位恶魔领主，这都取决于你自己，但你最终知道你或你的后代将被召唤去履行恶魔契约的一部分，而你已经学到了一些技能，希望能够尽量减少代价，甚至可能从中获益。你在欺骗上成为受训。如果你将要在欺骗上自动成为受训（例如来自你的背景或职业），你改为任选一项其他技能成为受训。你还会获得@UUID[Compendium.pf2e.feats-srd.Item.Dvz54d6aPhjsmUux]技能专长，并且可以在寻找合同或交易条款中的谎言、漏洞或其他欺骗行为时应用该专长的增益，即使交易不涉及互动对话。</p>"
     },
     "C1E7FVWq1A9vmeeG": {
-      "name": "改造狂热派仿生人",
+      "name": "改造狂热派仿生人 Mod Fanatic Android",
       "description": "<p>你或你前一次迭代已将你的身体兼容了护甲强化，可以让你自定义自己的身体和其功能。你的身体有一个护甲强化槽位。你可以使用安装强化模块（Install Upgrade）行动来安装或卸载护甲强化模块到你的强化模块槽位上。选择一项1级或以下物品等级的常见护甲强化模块。你初始时已在强化模块槽位上安装有此护甲强化模块（你不需要支付信用点来购买此初始强化模块）。</p>"
     },
     "C2F7zL3usOJoUNB5": {
-      "name": "船体共生拾荒蜗族",
+      "name": "船体共生拾荒蜗族 Hullborne Gnarefuroid",
       "description": "<p>在星舰上长大的拾荒蜗族会把船体部件融合成一个永久的、适合太空航行的外壳。你的外壳赋予AC+3环境加值，具有+2敏捷上限，–2检定减值，+2力量阈值，并有一个强化槽。你永远无法穿戴其他护甲或移除你的外壳。该外壳具有非电子和舒适特征，并且可以像普通护甲一样通过花费信用点来升级。你的外壳在能力和安装强化方面视为陶瓷甲护甲组的中甲。</p>"
     },
     "CMgZu5L4MXVX7Cwl": {
-      "name": "冬毛弗拉卡狼人",
+      "name": "冬毛弗拉卡狼人 Winter Coat Vlaka",
       "description": "<p>你厚厚的皮毛能让你在拉约克这样寒冷的地方保持温暖。你获得等同于你等级一半的寒冷抗力（最低为1）。你将环境寒冷效果视作更低一级（酷寒变为极寒，极寒变为严寒，以此类推）。</p>"
     },
     "CeDPZE0sjdy39HNY": {
-      "name": "造物学徒兽人",
+      "name": "造物学徒兽人 Student of Creation Orc",
       "description": "<p>你与失踪神祇托拉格之间的精神联系十分强烈。人们相信，逝去的兽人正在某场宇宙神战中与托拉格并肩作战，而你留在宇宙中，帮助建设。与在矮人中长大，或为阿泼斯忒的亚兹里纳人工作的人不同，你一生四处漂泊，尽己所能帮助他人，专注于重建。外人或许不清楚你的来历，但了解兽人历史的人会将你视作希望的象征。无论走到哪里，总有人希望你能帮助他们重整家园与生活。</p>\n<p>你受训于手艺，并获得@UUID[Compendium.pf2e.feats-srd.Item.ASy9AKEIRxPYUi5o]{迅速修理}技能专长。</p>"
     },
     "D9qzdlxpswO7WLNn": {
-      "name": "测辐鼹鼠人",
+      "name": "测辐鼹鼠人 Radioscout Talphi",
       "description": "<p>维斯克四号星的隧道与地表情况类似，也充满了强大且危险的辐射区域。这些辐射区域通常肉眼无法察觉，它们会不规律地在鼹鼠人领地内出现，对任何在该区域进行探索的人员构成致命威胁，尤其是在前往洛德兰地区的采矿之行中。鼹鼠人的嗅觉原本就非常灵敏，而一些鼹鼠人的嗅觉还具备在辐射威胁形成直接威胁之前探测到这些区域的能力。那些天生具有辐射探测能力的人在维斯克四号星上是非常受欢迎的伙伴，因为他们的存在可能决定着生命与死亡的差别。</p>\n<p>你的鼻子能够感知超出正常嗅觉范围的其他事物。你鼻子末端的绒毛赋予了你辐射感知能力这是一种模糊感官，范围为 30 尺，能让你察觉到辐射的存在及其严重程度，还能让你察觉到释放辐射的生物，但这种感官会被 3 尺厚的泥土或木头、1 英尺厚的石头、1 寸厚的普通金属、薄薄的一层铅或者任何力场所阻挡。</p>\n<p>此外，你对于放射性物质的处理经验丰富。你物理学学识受训。若你因其他原因（例如背景或职业）自动获得物理学学识受训，则改为你选择的另一项技能受训。此外，你在进行对抗辐射效果的强韧豁免时会获得 +2 的环境加值。</p>"
     },
     "DFPHIv63RM9gLn1o": {
-      "name": "隐匿四臂蜗族",
+      "name": "隐匿四臂蜗族 Elusive Mecenaic",
       "description": "<p>某些四臂蜗族聚居地所在区域的捕食者数量异常之多，即使以索菲斯的标准来看也是如此。和那里的许多同族一样，你在成长阶段不得不依靠躲避捕食者的本能，而这些本能伴随了你一生。面对尚未意识到你是活物的生物，你可以利用外壳[[/act hide]]，无需任何掩蔽或隐蔽。如果成功，旁观者仍然看得见你，却会把你误认为一只没有生命的壳。被骗过一次后，他们便会意识到你是活物，此后你无法再以这种方式向他们躲藏。</p>"
     },
     "DPA0MAbuPVsHJn9O": {
-      "name": "群生水獭人",
+      "name": "群生水獭人 Pod Brenneri",
       "description": "<p>你与一个群体紧密相连，对其成员的情绪格外敏感。该群体由若干自愿盟友组成，人数等于你的等级，在每日准备时选定。</p>\n<p>只要与一名群体成员相距不超过100尺，你就能察知其是否陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}、@UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{被控制}、@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}，或正受到其他具有情绪或心灵特征的效果影响。除了效果是否存在以外，你不会获知任何其他信息。</p>\n<p>你还获得@UUID[Compendium.sf2e-anachronism.actions.Item.ntmBjxw7Hw81Fogq]动作。</p>"
     },
     "DTDJDSro9YfgNuXi": {
-      "name": "星痕弗拉卡狼人",
+      "name": "星痕弗拉卡狼人 Star Marked Vlaka",
       "description": "<p>你见证了濒临熄灭的索塔星奇迹般的重生。你的外皮或眼睛上都有闪耀着星光的星纹。只要片刻念头，你就能让这些星痕在半径40尺的范围内发出明亮光照（并在接下来的40尺内发出昏暗光照）。这光照具有光亮和异能特征。你可以使用一个具有专注特征的单动作，来点亮或熄灭此光照。当你处于太阳或恒星的能量范围之外时，例如在漂流域或其他不存在这些天体的位面，你就无法启动此能力。</p>"
     },
     "DW1fUvKyn83ljUTP": {
-      "name": "水生沼栖族",
+      "name": "水生沼栖族 Aquatic Binnaquid",
       "description": "<p>你来自沼泽最深处，能舒适地待在水下而不浮出水面换气。你甚至可能住在一个完全水下的家中。你的基础游泳速度增加至25尺，且你获得两栖特征。</p>"
     },
     "DcwazTe2YKN6vLCP": {
-      "name": "噬物食质巫洛格",
+      "name": "噬物食质巫洛格 Matter Eater Urog",
       "description": "<p>覆盖你身体的纤毛仅会从附近物体中吸取维持生命所需的分子，而不会破坏周围物体的完整性。</p>\n<p>你可以靠任何非活体物质维持饱腹，无需使用@UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]{求生}休整活动。此外，你获得等于自身等级一半的毒素抗力（最低为1）。</p>"
     },
     "Dz2ckZBbUuS5bIgQ": {
-      "name": "生存专家绍贝德人",
+      "name": "生存专家绍贝德人 Survivalist Shobhad",
       "description": "<p>绍贝德族以@UUID[Compendium.pf2e.actionspf2e.Item.kV3XM0YJeS2KCSOb]和引导方面的才能而著称，这些才能是在他们严酷的家乡阿基顿上经过数千年的磨砺而磨练出来的。作为这些技能的继承者，你非常擅长在执行其他重要任务的同时，照顾自己甚至他人的生计。你可以同时执行侦察探索行动和@UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]探索行动。在休整期，你可以在执行求生休整行动的同时，执行另外一项你能够执行的其他任何休整行动。</p>"
     },
     "ECwFCyl5HYhoFcAt": {
-      "name": "天际拾荒者珊瑚人",
+      "name": "天际拾荒者珊瑚人 Sky Scavenger Copaxi",
       "description": "<p>你经常穿行于小塔布里德的天空，搜寻那些废弃、禁止进入的浮空城市中隐藏的宝藏与知识。作为天空拾荒珊瑚人，你时刻提防着可能将自己从浮空城市上打落的危险。你的身体已经适应持续而略有异常的引力，并学会了对其施加微妙控制，保护自己。</p>\n<p>如果任何效果将迫使你移动10尺或更远，你只移动该距离的一半。此外，你获得@UUID[Compendium.sf2e-anachronism.feats.Item.QicdNj8KJd0WrPzv]珊瑚人族裔专长。</p>"
     },
     "EIuXey5YwW8JhXro": {
-      "name": "心疫方贡族",
+      "name": "心疫方贡族 Psychic Blight Fonqugon",
       "description": "<p>罗德纳斯的植物群系和大多数行星上的植物一样，通常是无心智的存在，但罗德纳斯的沼泽偶尔会受到一种寄生病毒的滋扰，这种病毒会影响植物生命，使其生长出类似大脑的肿瘤，从而活化各类植物并使其发狂失控。这一疫病会迅速突变，能适应并侵染方贡族，让整个地区陷入一种心能迷雾。当然，这一现象的性质难以预测：部分受影响的方贡族聚居地受此影响变得更加暴力，其他方贡族则会变得极为消极，进而死于饥饿或其他危险，甚至还有方贡族会开始同类相食。一株能够成功抵御这种心能疫病的方贡树通常会在数年内停止繁殖，以便从自身的系统中清除这种病毒，而在感染疫病期间于树下生长的方贡族，则有可能作为心疫方贡族诞生。</p>\n<p>作为心疫方贡族，你的心智已经适应了并能抵御精神上的入侵。你在对抗心灵效果时，豁免检定会获得+1环境加值，而且你会获得数值等同于自身等级一半（最低1点）的心能抗力。</p>"
     },
     "ENIlxRfjGN218iKJ": {
-      "name": "活尸裔",
+      "name": "活尸裔 Borai",
       "description": "<p>你以活尸裔的身份从死亡边缘归来——同时既是活物，也是不死生物。除了族裔的特征，你还获得活尸裔和不死特征。与其他不死生物不同，你不会获得虚能治疗。你像活物一样被命能效果治疗，并被虚能伤害所伤。同样，你可以像活物一样被稳定伤势、治疗和复活，只是复活后始终回到自己通常的不死状态（即活尸裔）。你获得昏暗视觉；若族裔原本已有昏暗视觉，则获得黑暗视觉。每当获得族裔专长时，你都可以从活尸裔专长和自身族裔专长中选择。</p>"
     },
     "EPdo5SzOzdBSZ3i7": {
-      "name": "复制体仿生人",
+      "name": "复制体仿生人 Replicant Android",
       "description": "<p>你是另一个活物的精确复制品，拥有对方截至你被创造时的全部记忆。</p>\n<p>你受训于欺骗，获得@UUID[Compendium.sf2e-anachronism.feats.Item.XeL6uygxW4u2vMkF]技能专长，并且总能用你为偏爱伪装选定的伪装@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}，如同拥有@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.zwWVolr4HkM5jjcQ]能力一样。其中一种偏爱伪装必须是被复制的生物。即使未受训，你也可以尝试通常要求角色受训的技能动作，并对这些检定获得+2环境加值。你受训于一项与被复制生物的母星、组织、物种或聚居地有关的学识技能。</p><hr /><p><em>SFS说明：</em> 复制体仿生人不会获得其所复制个体的记忆。</p>"
     },
     "ES2B7mYJB3zNaySw": {
-      "name": "虚空侍僧卡萨斯人",
+      "name": "虚空侍僧卡萨斯人 Void Acolyte Kasatha",
       "description": "<p>并非每位卡萨斯人都登上了<em>伊达里号</em>。一些恒星武士认为，既然母星终将不复存在，卡萨斯人真正归属的地方便只有浩瀚太空。这些苦修者天性游牧，又因生存所迫而精于求生，最终拥抱了虚空。一种新传统由此诞生：卡萨斯恒星武士训练自己漂浮在真空中，同时冥想形与空的理念。你在这样的家庭中长大，熟悉虚空冥想。</p>\n<p>你获得@UUID[Compendium.pf2e.feats-srd.Item.aJUXbe9HJVvv0Mxa]{龟息}通用专长。你不会陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}或@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙}，只要你正处于@UUID[Compendium.sf2e-anachronism.conditions.Item.z1ucw4CLwLqHoAp3]。</p>"
     },
     "ESUvBfORAP5SY73a": {
-      "name": "锐目弗拉卡狼人",
+      "name": "锐目弗拉卡狼人 Keen Sighted Vlaka",
       "description": "<p>你的视觉特别敏锐，这是世世代代在沐浴着濒死恒星那昏暗光照的世界中生存磨练出来的。你获得黑暗视觉。</p>"
     },
     "EXwIrrzLZQZODLOd": {
-      "name": "贤裔灵脑人",
+      "name": "贤裔灵脑人 Sageborn Elebrian",
       "description": "<p>你天生具备魔法天赋。这或许源于远古灵脑人血脉的表现，也可能是你某次接触到爆发性的秘法能量，唤醒并强化了你的魔法感知。从任意法术根源中选择一个戏法。你可将该戏法以奥术内在法术的形式随意施放。该戏法的环级升阶至你等级的一半，向上取整。</p>"
     },
     "Ey2iWNKXd8rzHP2J": {
-      "name": "深海卡洛鱼人",
+      "name": "深海卡洛鱼人 Deep Kalo",
       "description": "<p>你诞生于深海无光带，那里连一丝来自地表的光线都无法穿透，远离卡洛-马霍伊地热绿洲周边簇拥的明亮城市。你获得回声定位作为一种模糊感官，具有30尺范围，或者在水下时具有60尺范围。</p>"
     },
     "FDEvJXDoWPLHoEsT": {
-      "name": "利齿弗拉卡狼人",
+      "name": "利齿弗拉卡狼人 Sharp-Toothed Vlaka",
       "description": "<p>你拥有掠食者般强壮的下颚和锋利的牙齿，使你的嘴巴成为危险的武器。你获得颚无武装攻击，能造成1d6点穿刺伤害。你的颚属于搏击武器组，具有娴熟和无武装特征。</p>"
     },
     "FGOV0tjruePwBpLM": {
-      "name": "梅耶尔选民趴爪",
+      "name": "梅耶尔选民趴爪 Meyel's Chosen Pahtra",
       "description": "<p>你有一股无法否认的好运气，你相信这是来自先祖之神梅耶尔的祝福。你可能出身于秘术师世家，可能出生在普洛尼斯上的一个圣地，也可能只是在危机时刻虔诚地祈祷。大多数梅耶尔的选民至少都能说出一件往事，那就是他们的女神曾经出手将他们从死亡或其他可怕的命运中拯救出来。无论是比喻义上还是字面意义上，你似乎总能“站稳脚跟”。每天第一次在豁免检定中大失败时，你可以使用一个自由动作立即重新进行一次豁免检定；这是一个幸运效果。</p>"
     },
     "FIddzHd8osoop9zO": {
-      "name": "觅境维斯克蜥人",
+      "name": "觅境维斯克蜥人 Horizon Seeker Vesk",
       "description": "<p>你在丛林与森林中攀树长大，锻炼出强健的尾巴，能够在使用双手时携带装备。</p>\n<p>你的尾巴如同一只额外的手。你可以用尾巴额外持握一只手所能持握的装备，并用它进行交互动作。当你用@UUID[Compendium.sf2e-anachronism.actions.Item.oW81CfM9ebxXnrw3]动作指定当前使用的手时，可以将尾巴与另一只手配成一组；当尾巴属于当前使用的手之一时，你可以用它持用盾牌或武器。</p>\n<p>此外，你获得等于陆地速度的攀爬速度。</p>"
     },
     "G1TFC6Am29MytrzR": {
-      "name": "达迈人类",
+      "name": "达迈人类 Damai Human",
       "description": "<p>达迈人的祖先在故乡——近宇的戴玛尔科——经历了一场由横冲直撞的怪兽带来的末日浩劫。在多年的地下避难后，你的族人终于在其他世界盟友的帮助下开始收复地表。许多诞生于\"觉醒灾变\"（Awakening cataclysm）后的达迈人拥有灰色皮肤和明亮锐利的眼睛；而在过去，达迈人拥有深浅不一的陶土色肤色。被称为瓦尔科（valkos）的机甲是你文化中重要的一部分。地表城市由胡兹卡（huzkars）守护，他们是驾驶瓦尔科与巨型威胁作战的勇敢战士。部分达迈人仍居住在地下庇护所中，另一些则逃离了这颗注定毁灭的母星，奔赴其他地平线，通常还会带上家族的机甲。</p>\n<p>你的驾驶]技能受训。若你的驾驶技能将要自动受训（例如来自背景或职业），则改为你选择的另一项技能受训。你获得有限心灵感应，可以与30尺范围内的生物进行心灵沟通。你所沟通的生物至少要与你有一种共同语言。这并不能让你了解他们的想法，而且所传递的信息也不会比普通开口说话多。</p>"
     },
     "GDVA8GmJg1slzKgv": {
-      "name": "克隆星蛸族",
+      "name": "克隆星蛸族 Cloned Astrazoan",
       "description": "<p>你诞生于实验室——利用遥远先祖保存下来的基因样本培育，或由亲代星蛸族出芽生殖。你的躯体顽固地抵抗着外界施加的额外改变。如果你在对抗诅咒、疾病或变形效果的豁免检定中成功，则改为大成功。</p>"
     },
     "GZsgvt6CXdmuouvM": {
-      "name": "零重力纺蛛人",
+      "name": "零重力纺蛛人 Zero-G Atraxid",
       "description": "<p>没有重力的环境让你如鱼得水。纺蛛人是桑迪特联合体最早开展太空飞行的族群之一，许多纺蛛人很快便适应了它，在零重力环境中蓬勃发展。你免于笨拙和@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态，但仅限于这些状态由零重力下的@UUID[Compendium.sf2e-anachronism.conditions.Item.z1ucw4CLwLqHoAp3]导致的情况；不过，你仍可能因其他效果获得这些状态。</p>"
     },
     "GhfhQjc0Id58xm8E": {
-      "name": "夜行维斯客蜥人",
+      "name": "夜行维斯客蜥人 Nightstalker Vesk",
       "description": "<p>你已经适应了在黑暗中的生活，也许是由于生活在地下，在灯光昏暗的星舰走廊中，在烟雾笼罩的天空下， 或是在远离太阳的行星上。你获得黑暗视觉。</p>"
     },
     "Gm7FvaLl6U8BeDTy": {
-      "name": "社区誓言松鼠狐人",
+      "name": "社区誓言松鼠狐人 Community-Sworn Vulkarisu",
       "description": "<p>你是一名充满热情的旅行者，从你所访问的文化中汲取创新的理念、传统和词汇，并将它们融入你的生活。你在社群上成为受训。如果你将要在社群上自动成为受训（例如来自你的背景或职业），你改为任选一项其他技能成为受训。你选择获得@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]通用专长或@UUID[Compendium.pf2e.feats-srd.Item.P9HCz0uR6xPHuw72]技能专长。</p>"
     },
     "HTj6XNFgDCbceWqj": {
-      "name": "网络整蛊地精",
+      "name": "网络整蛊地精 Infogriefer Goblin",
       "description": "<p>地精有时会在网上骚扰他人，发泄积压的攻击欲。这种行为如此普遍（尤其在玛里夏共和国和威瑟斯），以至于即使不是地精所为，也被称为“地精式喷人”。你受训于计算机。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.fz1XOiQr3FJYRxJh]动作。</p>"
     },
     "HlkSZKuMn4rG1uiQ": {
-      "name": "苏斯基隆弃民希伦虫人",
+      "name": "苏斯基隆弃民希伦虫人 Suskillon Cutoff Shirren",
       "description": "<p>与数百年前便已脱离虫群的大多数希伦虫人不同，当\"海拉丝之冠\"（Crown of Hylax）将你从巢群意识中撕裂、抛入孤独的自主体时，你正身处苏斯基隆。或许你选择了逃离，又或许选择了投降——无论如何，你认定脱离虫群独立更适合自己。你自降生起便被定向培育，用以为神宿（GodHost）解析 DNA；故而你拥有一种诡异本能——吞食败敌的样本，便能获悉关于他们的更多情报。</p>\n<p>每日一次，你可花费10分钟吞食一具新鲜尸体或近期刚被击败的敌人的样本。在接下来的一小时内，你针对与该被吞食生物共享任意特征的生物进行@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]检定时，获得+2状态加值。</p>"
     },
     "IJjrD1JTi0UFnhGy": {
-      "name": "静滞心灵拉申塔人",
+      "name": "静滞心灵拉申塔人 Static Mind Lashunta",
       "description": "<p>历史记录表明，古代拉申塔人并不具备如今的心能。这些能力随群居生活而演化，又通过基因操纵得以增强。你具有来自那个原始时代的休眠基因，因此从未发展出典型拉申塔人的心灵感应能力，也可能在后来的生活中失去了使用这些能力的途径。</p>\n<p>你无法使用任何形式的心灵感应，包括族裔赋予的有限心灵感应；判断是否满足先决条件时，你也不视为具有心灵感应。拥有心灵感应能力的生物会将你的心智感知为一阵杂波。你的心智会自动尝试反制读取心智或思想的效果（例如@UUID[Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ]{传讯术}、@UUID[Compendium.pf2e.spells-srd.Item.KHnhPHL4x1AQHfbC]{读心术}或@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.HOYa3N9R5VLS1kvv]），以你的察觉调整值作为反制调整值。你仍可以自愿听取通过心灵感应交流的生物的思想，并通过秘术师群聊等职业能力自愿进行心灵交流。</p>"
     },
     "IKJwTaMRnPIio4jH": {
-      "name": "工坊飞螅族",
+      "name": "工坊飞螅族 Manufacturer Barathu",
       "description": "<p>你的身体就是一间活体实验室，让你可以摄入原材料，并将它们提炼成有用的药物和其他产品。你的手艺成为受训（如果你的手艺已经受训，则选择另一项技能受训），并获得@UUID[Compendium.sf2e-anachronism.feats.Item.VRLHQPDkjy0gbxBY]专长。</p>"
     },
     "IMdFH4T27NC1GQCE": {
-      "name": "冰川绍贝德人",
+      "name": "冰川绍贝德人 Glacierborn Shobhad",
       "description": "<p>你的血脉是沿着阿基顿冰川迁徙的绍贝德人，这使你比其他绍贝德人更擅长应对严寒和攀爬险峻。你拥有等同于你等级一半的寒冷抗力（最低为1），并获得@UUID[Compendium.pf2e.feats-srd.Item.09PurtIanNUPfNRq]技能专长。</p>"
     },
     "IOBIoaOjX2KbR1Et": {
-      "name": "命火新星族",
+      "name": "命火新星族 Vital Spark Novian",
       "description": "<p>你的火焰赋予生命，滋养所有沐浴在光辉中的人。你的始祖恒星很可能包含一座通往创生熔炉的传送门，或是某位神祇或强大宇宙存在的重要场所。</p>\n<p>你获得@UUID[Compendium.sf2e-anachronism.actions.Item.NhqAjQ2qP6a2G1Sk]动作。</p>"
     },
     "ISNM7bcjvzMQPvW3": {
-      "name": "巫语者卡萨斯人",
+      "name": "巫语者卡萨斯人 Wyrd Kasatha",
       "description": "<p>卡萨斯的一些大家族与巫奇族保持密切关系。巫奇族是一群不喜与外界交往的外星商人，往来于银河和外层位面从事贸易。你是这样的家族之一的后裔，从小学习传统魔法技艺。</p>\n<p>你可以每日一次将@UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{力场飞弹}作为1环奥术内在法术施放。此外，你获得@UUID[Compendium.sf2e-anachronism.actions.Item.Hq7duW66un55uGoA]反应。</p>"
     },
     "IZcD5GNvmp4cJI69": {
-      "name": "褶边维斯克蜥人",
+      "name": "褶边维斯克蜥人 Frilled Vesk",
       "description": "<p>你能够张开彩色颈褶，威吓对手并调节体温。褶边维斯克蜥人最集中地分布于维斯克主星的瓦拉纳斯沙漠，但在世代驻扎于丛林和沙漠生态区的维斯克蜥人中，也发现了类似突变。</p>\n<p>你受训于威吓。如果你会自动受训于威吓（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{金刚怒目}技能专长，能够用颈褶对敌人[[/act demoralize]]。你将环境高温效果视为严酷程度降低一级（酷热变为极热，极热变为炎热，依此类推）。</p>"
     },
     "JGQFlHY0J0LluvlH": {
-      "name": "深空地底矮人",
+      "name": "深空地底矮人 Deep Space Hryngar",
       "description": "<p>你是一名灰矮人，是格拉利昂幽暗地域中拒绝参与逐天远征的地下矮人之一。被放逐的劳役与暴政之神卓斯卡，将你祖先的社会塑造成残酷的等级制度。如今，一些灰矮人通过参与赌场、抵押财产收回等各式营生，以及加密资产经纪人和高利贷者之类的灰色职业，来尊崇卓斯卡。</p>\n<p>你获得魅力属性加值和感知缺陷，而非相反（除非你选择两项自由属性提升，以取代通常的提升和缺陷）。你受训于欺骗。如果你会自动受训于欺骗（例如来自背景或职业），则改为受训于一项自选技能。如果一个生物欠你钱，或使你蒙受了重大经济损失，你对其说谎的欺骗检定、对抗其向你说谎的察觉DC，以及用于对其[[/act coerce]]或[[/act demoralize]]的威吓检定，获得+1环境加值。</p>"
     },
     "JWt2ARxLCZ6ru8H2": {
-      "name": "岩窟轻灵兽",
+      "name": "岩窟轻灵兽 Gadraveech Skittermander",
       "description": "<p>你在加德拉维奇(Gadraveech)的地下世界或类似的危险地下环境中长大。你拥有稀疏的浅色毛发、纤细的体格和一双大而明亮的眼睛。你获得黑暗视觉。</p>"
     },
     "JiQwHacgrrb6qUqA": {
-      "name": "星际游民卡萨斯人",
+      "name": "星际游民卡萨斯人 Stellar Nomad Kasatha",
       "description": "<p>你选择远行，离开故土踏上探索广袤宇宙的旅程。在每日准备期间，你可以研究某个特定的族裔、派系、哲学或宗教，以了解它们的一项典范或禁忌，从而更深入地理解该文化的习俗与传统。当你遵循这些典范与禁忌的期间，你在相关学识上成为受训（如维斯克蜥人学识或戴莫力图斯学识）。该熟练度持续到你的下次每日准备。由于该熟练度是临时的，因此你无法将其作为专长或技能提升等永久角色选项的先决条件。</p>"
     },
     "K6QG1CdMXa4Pn2QF": {
-      "name": "明亮新星族",
+      "name": "明亮新星族 Bright Novian",
       "description": "<p>你光辉灿烂，炽烈的光芒令其他新星族黯然失色。</p>\n<p>你发出明亮光照的半径为60尺，而非20尺；其外昏暗光照的范围也为60尺，而非20尺。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.K37N5t6v7kgImnDN]动作。</p>"
     },
     "KTc9RuD02CDmAvzN": {
-      "name": "锐目萨瑟蝶人",
+      "name": "锐目萨瑟蝶人 Sharp-Eyed Sarcesian",
       "description": "<p>你的大眼睛已经适应了弱光环境。你获得黑暗视觉。</p>"
     },
     "KgekeGih8FTo36Sc": {
-      "name": "追猎趴爪",
+      "name": "追猎趴爪 Hunter-Stalker Pahtra",
       "description": "<p>你出身于猎人世家，你身上的毛皮特别适合用于在多种环境中隐蔽。只要你处于未开发的自然环境中，你在以下技能上获得+2环境加值：用于@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]和@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]的隐秘检定，用于@UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]的生存检定，以及用于@UUID[Compendium.pf2e.actionspf2e.Item.SB7cMECVtE06kByk]的生存DC。</p>"
     },
     "KkS72Ci1OZ98k3R1": {
-      "name": "水晶冠冕石面鱿族",
+      "name": "水晶冠冕石面鱿族 Crystal Crown Ijtikri",
       "description": "<p>你的外套膜在生长硬化时吸收了独特的矿物，使你永远与当地环境相连。这些晶体通常会在最上方的眼睛上方长成冠冕状。晶体的某种特质与原生环境共鸣，让你对地形及其中的动物产生直觉般的感知。</p>\n<p>你获得用于一项地形相关学识技能的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}专长，该地形须是你外套膜形成的地方（例如海洋学识或森林学识）。你还能够向该地形的原生动物提问、得到回答，并对其使用交涉技能（具体由GM决定）。</p>"
     },
     "Koq4lIt1zouk03QJ": {
-      "name": "绿林守望者卡萨斯人",
+      "name": "绿林守望者卡萨斯人 Green Warden Kasatha",
       "description": "<p>为了准备离开卡萨斯，科学家保存了所有本土植物，将插枝移栽至<em>伊达里号</em>上的生态花园和产粮农业舱。几个显赫的大家族及其盟友组成了一个氏族，专门照管母星生态系统最后的遗存。后来，同一个氏族与协约世界的行星政府及异星卫士合作，建立保护区，让卡萨斯植物再次野生繁衍。这些绿洲既是植物学实验，也是友谊的外交象征；它们向公众开放，植被茂盛，需要持续照料与维护。</p>\n<p>你曾在<em>伊达里号</em>上，或友谊绿洲附近生活，学习氏族的职业技艺。你受训于自然和生命科学学识。你无视植被（例如灌木、丛林或低矮植被）造成的困难地形。</p>"
     },
     "LBGUK7QKYcs8Fs5X": {
-      "name": "基因先锋拉申塔人",
+      "name": "基因先锋拉申塔人 Genetic Pioneer Lashunta",
       "description": "<p>作为基因先锋拉申塔人，自体实验是你的手艺，你的身体便是你的画布。你将身体可植入的殖装数量上限增加2。</p>\n<p>你的医疗技能受训。若你本应在医疗上自动受训（例如来自背景或职业），则改为在你选择的另一项技能上受训。若你在医疗上拥有大师或传奇熟练度，你可以自行植入殖装，并将植入殖装所需时间缩短为每个殖装物品等级10分钟。就先决条件而言，你视作拥有无缚拉申塔人传承。</p>"
     },
     "LCC7RhgpBkhyHlFc": {
-      "name": "虹彩希伦虫人",
+      "name": "虹彩希伦虫人 Iridescent Shirren",
       "description": "<p>你的祖先是最初被设定为贪婪虫群诱饵的希伦虫人。你的甲壳具有虹彩，会形成闪烁图案，使大多数其他生物着迷并分心。你可以在10尺范围内@UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{虚招}，无需像通常那样处于目标的近战触及范围内。你还获得@UUID[Compendium.sf2e-anachronism.actions.Item.lIZ9DhrkzM3AEQmX]动作。</p>"
     },
     "LWYCoYVa9JiN5Cs6": {
-      "name": "同化星蛸族",
+      "name": "同化星蛸族 Assimilated Astrazoan",
       "description": "<p>无论你是作为另一个物种的成员长大，还是后来完全融入其文化与传统，你都已彻底同化于另一个族裔，以其形态生活时，与使用自然形态同样自在。选择一个常见族裔。除了你自身族裔的专长，你还可以选择该族裔的专长。你可以选择要求某种你所不具备的生理特征的专长，但只有处于该族裔形态时才能获得其益处；例如，同化星蛸族若选择了希伦虫人的@UUID[Compendium.sf2e-anachronism.feats.Item.YSi48yghu0wmkSrr]专长，就只能在希伦虫人形态下飞行。</p>"
     },
     "LaT0HffqKRwM0lHW": {
-      "name": "艺匠鼹鼠人",
+      "name": "艺匠鼹鼠人 Krregr Po Talphi",
       "description": "<p>几乎所有鼹鼠人幼崽在年幼时都会尝试艺术：有的学习用发光颜料绘制符号，有的用维斯克四号洞穴系统中随处可见的石头、金属和水晶制作小雕塑或其他触觉艺术品。有些鼹鼠人如此喜爱这些作品，或如此擅长创作，以至于成为半职业的艺术外交官。他们每天制作精美礼物，这些礼物并无实用功能，只用于赠予其他群体，为关系建立一个良好的开端。据说，在维斯卡里姆最初入侵时，一群克雷格尔通过向精心选定的入侵军官赠送一系列设计巧妙的礼物，避免了无数伤亡。</p>\n<p>你受训于手艺。如果你会自动受训于手艺（例如来自背景或职业），则改为受训于另一项自选技能。工作1小时后，你可以尝试一次对抗自身等级标准DC的@Check[crafting|dc:@self.level]检定，以废金属或石块等易得材料制作一件负载可忽略的精美饰品。将自己最近制作的饰品赠予目标时，你可以用手艺代替交涉来[[/act make-an-impression skill=crafting]]；如果制作时便以该特定个体为对象，此检定获得+2环境加值。除非目标拒绝或归还饰品，否则若想将自己最近制作的饰品赠予另一生物，就必须制作一件新饰品。</p>"
     },
     "Lc03oetnQ5sNRNYT": {
-      "name": "沙漠异客蜥人",
+      "name": "沙漠异客蜥人 Desert Ikeshti",
       "description": "<p>你习惯在阿基顿严酷、干旱的沙漠中生存，能够忍受正午烈日的灼热。</p>\n<p>你获得等于自身等级一半的火焰抗力（最低为1），并将环境高温效果视为严酷程度降低一级（酷热变为极热，极热变为炎热，依此类推）。此外，你在开始饥饿前能够不吃不喝的时间增加1个月。</p>"
     },
     "Lf0jLZUteBraHsFE": {
-      "name": "致密新星族",
+      "name": "致密新星族 Dense Novian",
       "description": "<p>无论你诞生于猛烈的超新星爆发，还是绚烂的星云，你的始祖恒星至今仍在宇宙中，以超高密度中子星或白矮星的形式燃烧。如同始祖恒星一样，你的密度惊人，体重是普通新星族的两倍。你能够抵挡最强烈的外力，承受任何艰难困苦。</p>\n<p>你对抗试图[[/act reposition]]、[[/act shove]]或[[/act trip]]你的检定时，强韧DC和反射DC获得+2环境加值。此加值也适用于对抗试图强迫你移动或使你@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}的法术或效果的豁免。此外，如果任何效果将强迫你移动10尺或更远，你只移动该距离的一半。</p>"
     },
     "LylGfTrj2NuMdu5N": {
-      "name": "异族寄居半身人",
+      "name": "异族寄居半身人 Quarterling Halfling",
       "description": "<p>你接纳了周边种族的文化与习俗，已将他们视为自己人，也将他们的家园当作自己的家园。你的社群技能受训。如果你社群技能将会自动受训（例如来自背景或职业），则可改为自选一项技能受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]通用专长。</p>"
     },
     "M0TcWkeLYW0WCKhy": {
-      "name": "虚空之子趴爪",
+      "name": "虚空之子趴爪 Voidborn Pahtra",
       "description": "<p>你那闪烁着微光的黑色皮毛宛如一套天然宇航服，在红外光谱下尤为显眼。身处真空之中时，你会暂时获得太空特征。具有太空特征的生物在太空或真空中无需呼吸，且对身处太空的有害效果免疫。此外，你还获得黑暗视觉。</p>"
     },
     "MCgW9hLjshYga59s": {
-      "name": "洞穴誓言松鼠狐人",
+      "name": "洞穴誓言松鼠狐人 Burrow-Sworn Vulkarisu",
       "description": "<p>你是一名短尾的松鼠狐人，身体适应在比大多数地方都深的地下洞穴中生活。洞穴誓言者认为所有生命都起源于行星，你深入地下的距离越远，你的生活就会越长久和繁荣。即使在城市环境中，大多数洞穴誓言者也更愿意在地下工作和生活，比起他们称之为\"希瓦斯卡的空中监狱\"那没有灵魂的玻璃摩天大楼，他们更喜欢舒适的简陋小屋。你获得黑暗视觉和10尺掘地速度。你不会获得攀爬速度和平稳降落。</p>"
     },
     "MHGzFstzazDQ9J1O": {
-      "name": "阿尔詹治疗者坚叶族",
+      "name": "阿尔詹治疗者坚叶族 Arjan Healer Hardor",
       "description": "<p>构成坚叶族叶片的高密度、浆状分生组织具有恢复特性，而你从小就接受训练以使用它们。无论可用物资多么稀少，你都可以切一个小口，用自己的一小部分来治疗他人。你在医疗上受训。如果你将要在医疗上自动受训（例如来自你的背景或职业），则你改为自选一项技能成为受训。你可以通过失去1点生命值，在没有医疗包的情况下尝试进行急救或@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]的医疗检定。此伤害无法被抗力、预防或以任何方式抵消。</p>"
     },
     "MOuOhoGwjHkGoOrc": {
-      "name": "死木",
+      "name": "死木 Deadwood",
       "description": "<p>你的身体内部已经腐烂了一段时间，这种无形的腐烂已经改变了你。你具有虚能治疗能力，意味着你会受到命能伤害，且不会被治疗命能效果治疗。你不会受到虚能伤害，并能被治疗不死生物的虚能效果所治疗。</p>"
     },
     "MsZ2BRFzj43sXTho": {
-      "name": "遮蔽外套膜石面鱿族",
+      "name": "遮蔽外套膜石面鱿族 Shrouded Mantle Ijtikri",
       "description": "<p>你柔软的、可弯曲的外套膜更适合吸收光线和减弱声音，而非偏斜攻击。你在隐秘上受训。如果你将要在隐秘上自动成为受训（例如来自你的背景或职业），你改为任选一项其他技能成为受训。你还获得了@UUID[Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG]专长，且你可以选择浅滩作为该专长的独特选项，允许你隐秘穿越潮池、湿地和其他浅水。</p>"
     },
     "NXVULEwhf37gVKGf": {
-      "name": "心碎龙人",
+      "name": "心碎龙人 Heartbroken Dragonkin",
       "description": "<p>你的伴侣已然去世，但你仍为失去他而悲痛欲绝。你在对抗情绪效果的豁免检定中获得+1环境加值。如果你在对抗情绪效果的豁免检定中成功，你改为获得大成功。</p>"
     },
     "Nkll4kC0WQW67wE8": {
-      "name": "坚韧异客蜥人",
+      "name": "坚韧异客蜥人 Inured Ikeshti",
       "description": "<p>由于资源极度匮乏、疏于照顾或遭遇不幸，你的族群常吃有毒、腐烂或受污染的食物，甚至充当活体垃圾处理器，吞食垃圾、废料、排泄物、污染物和有毒污泥。你的身体能够轻易分解毒素。你获得等于自身等级一半的毒素抗力（最低为1）。此外，你获得@UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{顽强}通用专长。</p>"
     },
     "NxKYY0P1BuL7tNpo": {
-      "name": "壮硕牛尔人",
+      "name": "壮硕牛尔人 Bulky Nuar",
       "description": "<p>即使在高大沉重的物种之中，你也算得上巨人般的壮汉。你的体型为大型，而非中型。你对抗试图[[/act shove]]或[[/act trip]]你的检定时，强韧DC或反射DC获得+2环境加值。此加值也适用于对抗试图移动你或使你@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}的法术或效果的豁免。</p>"
     },
     "Ny6Pv7Ua4SZZfmLi": {
-      "name": "斑驳外皮石面鱿族",
+      "name": "斑驳外皮石面鱿族 Mottled Hide Ijtikri",
       "description": "<p>你家乡的水域富含矿物，外套膜吸收了它们，长成厚实的甲壳。你从族裔获得10点生命值，而非8点，并获得@UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{顽强}通用专长。</p>"
     },
     "OR3hGCWMBnmthHvL": {
-      "name": "叉舌维斯克蜥人",
+      "name": "叉舌维斯克蜥人 Fork-tongued Vesk",
       "description": "<p>戈乔里沼泽的叉舌维斯克蜥人会吞饮混有毒性植物和昆虫的沼泽水，将唾液转化为强效毒液。前往新世界旅行，扩大了危险食谱中新配料的范围，使原本就致命的毒液进一步增强。没有两位叉舌维斯克蜥人的唾液成分完全相同。</p>\n<p>你对抗疾病和毒素的豁免获得+1环境加值。你免疫叉舌维斯克蜥人颚部攻击造成的毒素伤害。你获得毒颚徒手攻击，造成1d4毒素伤害，并具有擒拿和无武装特征。重击时，目标受到等于武器伤害骰数量的持续毒素伤害。此攻击没有武器组或重击专精效果。</p>"
     },
     "P8x1XiN52lgbgzB0": {
-      "name": "舰生卡萨斯人",
+      "name": "舰生卡萨斯人 Shipborn Kasatha",
       "description": "<p>你是在伊达里号上出生并成长的卡萨斯人中的一员，这艘世界舰如今正运行在协约世界的恒星轨道上。你的家族在漫长且艰辛的星际旅行中始终坚守着希望与传统。对你而言，伊达里号是你唯一熟知的家园。当你在一次对抗情绪效果的豁免检定上掷骰出成功时，你改为获得大成功结果。</p>"
     },
     "PEWMKmbaBRtmv7rJ": {
-      "name": "礁区水獭人",
+      "name": "礁区水獭人 Reef Brenneri",
       "description": "<p>在瓦图兰的浅水区，珊瑚礁形成了生物密集栖居的区域。各种鱼类、无脊椎动物和植物拥挤在一起，使空间成为奢侈品。你适应了狭窄环境，也适应了珊瑚礁特有、联系紧密的社交网络。</p>\n<p>你的身高比大多数水獭人更矮，大而湿润的眼睛始终保留着孩童般的模样。尽管外貌幼小，你却是经验丰富、技艺娴熟的成年人。你的体型为小型，而非中型。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.VPUwqRHwijGcMVOH]反应。</p>"
     },
     "Pxw4kKf2goygSYpB": {
-      "name": "战血维斯克蜥人",
+      "name": "战血维斯克蜥人 Warblood Vesk",
       "description": "<p>你诞生自已将身体磨炼数个世纪成为致命武器的著名战士的血脉。你获得两次@UUID[Compendium.sf2e-anachronism.feats.Item.s7QK7Q63k9SxG106]族裔专长。</p>"
     },
     "QCIDliAjexW45zYj": {
-      "name": "剑齿趴爪",
+      "name": "剑齿趴爪 Saberine Pahtra",
       "description": "<p>剑齿趴爪族较之普通趴爪族肌肉更为发达，天生为近战搏斗而生。与取代通常的属性提升，你可以选择获得力量提升、魅力提升、一项自由提升，以及智力缺陷。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.RdWNYoypgL5dMO0a]标准族裔专长两次。</p>"
     },
     "QFNqrRQncrkMniMA": {
-      "name": "阿基顿游牧民绍贝德人",
+      "name": "阿基顿游牧民绍贝德人 Akitonian Nomad Shobhad",
       "description": "<p>你出生在阿基顿，属于一个四处漂泊、从未在一个地方长期定居的氏族或群体。当你第一次离开阿基顿时，你发现这个星球较低的重力赋予了你特殊的技能和适应能力，让你擅长跳跃和腾空，这些技能在太空和其他陌生的环境中非常有用。你获得@UUID[Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq]技能专长，即使你的运动未受训，并且不会将冰面或沙地视为不稳地面。</p>"
     },
     "QJxHYzDyDSoZswIq": {
-      "name": "继承者珊瑚人",
+      "name": "继承者珊瑚人 Inheritor Copaxi",
       "description": "<p>你属于少数有资格自称加德拉斯继承者的珊瑚人。加德拉斯曾是一个由强大秘术师和恒星武士组成的教团，以加德拉萨要塞为家。在前往小塔布里德南极上空那座古老旋转城堡朝圣时，借助其中智慧机器人守卫的帮助，你重新唤起了珊瑚人与科皮之间的一小部分古老联系，从而能稍稍控制作用于自身的引力。</p>\n<p>只要你保持清醒，无论坠落多远，都不会受到坠落伤害。</p>"
     },
     "QZ67FjD8QxI0Ab35": {
-      "name": "格拉利昂幸存者人类",
+      "name": "格拉利昂幸存者人类 Golarion Survivor Human",
       "description": "<p>你的祖先生活在格拉利昂，尽管他们生存的具体环境已因大断层而失传，但你仍然强烈认同这个失落星球的文化。你的格拉利昂学识（Golarion Lore）成为受训，并且你学会一种在你的血统起源地区使用的额外语言（见《开拓者玩家核心》34页）。你熟悉古早武器，在熟练度方面，你将所选的一种军用古早武器视作简易武器，或一种进阶古早武器视作军用武器。</p>"
     },
     "RJm0SHvvKNO5j6y8": {
-      "name": "克雷西斯卡弃民希伦虫人",
+      "name": "克雷西斯卡弃民希伦虫人 Krethiskar Cutoff Shirren",
       "description": "<p>在沉眠数百年后，你于克雷西斯卡醒来。你的外貌类似希伦虫人的远祖虫族，拥有可怕的尖刺与甲壳护甲。然而，经过如此漫长的岁月，接触桑迪特水晶使你的念动力大幅增强，以至于你对他人散发的心能极为敏感。</p>\n<p>你用于[[/act sense-motive]]的察觉检定获得+2环境加值。此外，你可以每日一次将@UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{命令术}作为1环异能内在法术施放。</p>"
     },
     "RPecy7rjuK40IJkx": {
-      "name": "使臣希伦虫人",
+      "name": "使臣希伦虫人 Courtier Shirren",
       "description": "<p>你的心灵感应能力比绝大多数虫人都强，你能够将身体、语言还有心灵感应结合起来，更有效传达信息。当你使用有限心灵感应能力时，你可以在传递信息的同时传递情绪。此外，当一个生物通过有限心灵感应或心灵感应能力与你交流时，你在针对该生物的@UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]检定上获得+2环境加值。</p>"
     },
     "RkL11sNqvXcpa6UL": {
-      "name": "易变新星族",
+      "name": "易变新星族 Volatile Novian",
       "description": "<p>你的化学组成极不稳定，如同孕育你的超新星一样，你随时准备以一声巨响谢幕！</p>\n<p>你获得@UUID[Compendium.sf2e-anachronism.actions.Item.KhX0FDMxGVgHjXdU]反应。</p>"
     },
     "SBRnZHvzGQCSdlWE": {
-      "name": "野种",
+      "name": "野种 Wildseed",
       "description": "<p>你在远离其他奇植族族裔的小树林里发芽。你可能是在移植的小树林中长大的，也可能是在实验室中培育的。选择一个族裔或多用传承来代表你非传统生长的一部分。一旦选择就不能更改。在1级时，你会从选择的族裔或传承中获得一个额外的族裔专长。每当你获得一个族裔专长时，你都可以从该族裔或传承中选择专长。</p>"
     },
     "SZA9bPMaxbTZUNF2": {
-      "name": "工业矮人",
+      "name": "工业矮人 Industrial Dwarf",
       "description": "<p>无论是操作巨型麦酒发酵罐还是监管机器人工厂，你的氏族长期以来都在通过科技发展事业。你获得@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]专长，该专长与你的氏族的主要事业相关（比如战争学识）。当你@UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]一件与你的等级相同或更低的常见物品，且该物品与该行业相关的话，你就会自动知晓其配方而且能使用学识技能来替代手艺。你在该学识上的熟练度能用于满足手艺技能专长的先决条件，但仅限于你与和你的氏族的事业相关的物品交互之时。</p>"
     },
     "ShGlcqeMXp7ZK0vC": {
-      "name": "御风龙人",
+      "name": "御风龙人 Stormrider Dragonkin",
       "description": "<p>你出生并成长在一个动荡不安的世界，这个世界饱受毁灭性的风暴和强风的侵袭。在这样的环境下学习飞行，使你成为了一名杰出的空中飞人。你在空中机动的特技检定上获得+2环境加值，并且你的飞行速度增加5尺。</p>"
     },
     "SzKKgXYleJfWGVi5": {
-      "name": "河流之歌奥德",
+      "name": "河流之歌奥德 Song of the River Ord",
       "description": "<p>你不满足于仅仅行走于星球的隧道中，你发现，在无数蜿蜒的地下河流中游泳，为你打开了一个全新的探索世界。你宽大的手足和有力的尾巴非常适合在急流中前行或与之搏斗。你获得15尺游泳速度。</p>"
     },
     "TNbHEQugz7nOPlt2": {
-      "name": "霍隆探路者坚叶族",
+      "name": "霍隆探路者坚叶族 Holon Seeker Hardor",
       "description": "<p>你是一群曾受托执行神圣任务——先行侦察寻找淡水源——的坚叶族的后裔。这些艰苦的旅程需要顽强的毅力和惊人的耐力。尽管这一专职已成为过去，但它所需的技能和坚韧却未曾消失。你在生存上受训。如果你将要在生存上自动受训（例如来自你的背景或职业），则你改为自选一项技能成为受训。你在探索时可以急行军两倍长的时间才需要停下。你的力量和精力也能鼓舞你的盟友。如果你所在的团队正在急行军，你使团队可以急行军的总分钟数增加10分钟；如果你达到13级或更高，则增加20分钟。你获得沙漠地形的地形专家专长。</p>"
     },
     "TZTa5BJoOyv5O0fS": {
-      "name": "梦者飞螅族",
+      "name": "梦者飞螅族 Dreamer Barathu",
       "description": "<p>你与利亚瓦拉的宇宙旋律进行了交流，它改变了你。除了通过歌唱和其他类似的心灵抒发方式，你很难表达自己从这段经历中回想起来的记忆和感觉片段。从异能法术表中选择一个戏法。通过将魔法融入歌声中，你能够以异能内在法术的形式随意施放此法术。此法术的环级升阶至你等级的一半，向上取整。</p>\n<p>你的魔法具有适应性，你可以引导音乐来增强魔法。每日一次，你可以冥想你的宇宙之歌，将你选择的戏法改为异能法术表中另一项戏法。这是一个具有专注特征的10分钟行动。</p>"
     },
     "TZTiFuMcUfWqztab": {
-      "name": "内勒因图",
+      "name": "内勒因图 Nelentu",
       "description": "<p>你看起来就像一只浑身布满渗出孢子的蝙蝠，你是一个内勒因图。你获得等于你陆地速度的攀爬速度，且你不需要空手就能进行攀爬。你能够攀爬以悬挂在天花板上，并且可以毫不费力地悬挂任意时长，即便你在睡觉。</p>"
     },
     "TqjG2MYTLPRCbFYj": {
-      "name": "影皮鼹鼠人",
+      "name": "影皮鼹鼠人 Shadowskin Talphi",
       "description": "<p>大多数鼹鼠人一生中大部分时间都待在地下深处的隧道里，尤其是在其成长阶段。其中一些幼崽与黑暗本身建立了深厚的情感联系，而非与石头的共鸣或地球核心的持续旋转相联系。即便没有发光标记，它们也适应于在阴影中生活，依靠嗅觉来帮助它们在黑暗中导航并确保自身安全。它们的皮毛通常比其他鼹鼠人颜色更深，有时还会使用无光泽的非发光颜料在皮毛和衣物上绘制图案，以保持隐蔽。</p>\n<p>你一直能在黑暗中感到自在，并且已经学会了利用这一特点为自己取得优势。你获得了黑暗视觉能力，你在黑暗和昏暗光照下，你可以像在明亮光照中一样视物，但这种视觉只能分辨黑白两色。</p>"
     },
     "TwU15npTtpW9TJcv": {
-      "name": "地底异客蜥人",
+      "name": "地底异客蜥人 Underground Ikeshti",
       "description": "<p>你的族群是在地下环境中培育长大的，以保护周围的生态系统。你习惯了黑暗，并在行星表面活动时更倾向于夜行性生活方式。你获得了黑暗视觉。</p>"
     },
     "UYgqxqmwj2sqkZRt": {
-      "name": "全光希伦虫人",
+      "name": "全光希伦虫人 Fullbright Shirren",
       "description": "<p>你在一处希伦虫人殖民地长大，因此早已习惯工作时太阳从不落下。必须主动退入阴暗洞穴休息的生活，让你习惯了以更少的睡眠完成更多劳动。</p>\n<p>你只需休息6小时，就能获得8小时休息的完整益处。此外，你能抵抗疲劳的影响：对抗会使你陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失}、@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭}或@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}的效果时，你的豁免获得+1环境加值。</p>"
     },
     "UjSJHYe9RRXbGHl2": {
-      "name": "流放灵脑人",
+      "name": "流放灵脑人 Exiled Elebrian",
       "description": "<p>你是罕见的例外：一位没有出生在伊奥克斯的灵脑人。或许你的父母在你出生前就离开了生者大厅，只为给你更好的生活。或许你来自远离伊奥克斯的小型灵脑人聚落，艾巴萨罗姆空间站上紧密团结的社区，或是流散带中的某颗小行星。你学会一门任意由你选择的地区语言，并获得该地区的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]通用专长。5级时，你学会另一门地区语言，并再次获得对地区的额外学识通用专长；13级时同样如此。</p>"
     },
     "UmEAySAO3mgdEocu": {
-      "name": "粘液共生趴爪",
+      "name": "粘液共生趴爪 Oozebonded Pahtra",
       "description": "<p>你是一名沃洛西安，来自普洛尼斯南部海岸密林的趴爪族，与一种专门培育、名为希莫索亚的共生泥怪形成了永久结合。你的身体分泌黏液保护皮毛，使其光滑而闪亮。</p>\n<p>你获得等于自身等级一半的酸蚀伤害抗力（最低为1），并在避免被生物包卷的反射豁免，以及被包卷后@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}的检定中获得+2环境加值。</p>"
     },
     "Usolg3I0x7V5RT3R": {
-      "name": "棱光裔",
+      "name": "棱光裔 Prismeni",
       "description": "<p>你与漂流域有着天生的联系。除了族裔的特征，你还获得棱光裔特征。身处漂流域时，你能自动精确定位100里半径内的漂流信标、漂流航道、漂流引擎和其他漂流相关科技。如果你驾驶的星舰没有漂流引擎，你可以充当它与漂流域之间的连接。这是一个具有专注特征的1分钟活动，允许你驾驶的星舰进入或离开漂流域。进入漂流域后，星舰如常使用常规推进器航行。当你用于在漂流域中@UUID[Compendium.sf2e-anachronism.actions.Item.hsUKPqTdAvWwsqH2]或@UUID[Compendium.sf2e-anachronism.actions.Item.LXqcXRayK58inaKo]的驾驶检定取得大失败时，改为获得失败。你获得昏暗视觉；若族裔原本已有昏暗视觉，则获得黑暗视觉。每当获得族裔专长时，你都可以从棱光裔专长和自身族裔专长中选择。</p>"
     },
     "Vf8NOK1Jnk0zQDqv": {
-      "name": "棘刺异客蜥人",
+      "name": "棘刺异客蜥人 Thorny Ikeshti",
       "description": "<p>你的鳞片带有骨质脊棱和尖刺，紧要关头可以用来自卫。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.6fsMvO0jXtK8gYkH]反应。</p>"
     },
     "VoYoI6uDrw5hbGms": {
-      "name": "纤敏牛尔人",
+      "name": "纤敏牛尔人 Lithe Nuar",
       "description": "<p>虽然身高突出，但你的体格从未像大多数成年牛尔人那样丰满，使你显得身形纤细修长，但行动更为敏捷。你的速度提高5尺。</p>"
     },
     "WQCUa3yAIwoGKdad": {
-      "name": "突变地精",
+      "name": "突变地精 Mutant Goblin",
       "description": "<p>加速的演化轨迹和对辐射的喜爱，使许多地精经常长出奇异的突变。你获得变异特征。从下方列表中选择一种突变。</p><ul><li><strong>生物电</strong> 你获得生物电击无武装攻击，造成1d4电击伤害。此攻击属于电击武器组，具有娴熟、非致命和无武装特征。</li><li><strong>色素细胞</strong> 你的隐秘技能受训。若隐秘本应自动受训（例如来自背景或职业），则改为一项自选技能受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG]{地形潜伏}技能专长，但可以在明亮人工光源的邻接处或区域内使用，例如大型霓虹招牌旁或夜店内，取代该专长通常所选的困难地形。</li><li><strong>额外肢体</strong> 你长出第二双手臂。你可以选择@UUID[Compendium.sf2e-anachronism.feats.Item.EPeo604ByeeAx3AL]和@UUID[Compendium.sf2e-anachronism.feats.Item.61txGmMLr22B93cU]标准族裔专长。</li><li><strong>飞行</strong> 你获得20尺飞行速度。</li><li><strong>鳃</strong> 你获得25尺游泳速度，每次可在水下呼吸1分钟。</li><li><strong>有限心灵感应</strong> 你可以与15尺内的生物进行心灵交流，但只能与至少与你有一种共同语言的生物沟通。这不会让你读取其思想，传递的信息也不会多于正常言语。</li><li><strong>突变魔法</strong> 你获得@UUID[Compendium.sf2e-anachronism.feats.Item.IEQmMRA1uMPb0rJo]（原能；@UUID[Compendium.pf2e.spells-srd.Item.thAHF1zxNplLCJPO]{酸液喷溅}）标准族裔专长，但由于你从口中咳出酸液团，此法术不具有操作特征。</li><li><p><strong>吸盘</strong> 你获得20尺攀爬速度。</p></li></ul>"
     },
     "WmyMkqUME3Tzi7uR": {
-      "name": "石雹火蟹族",
+      "name": "石雹火蟹族 Stonehail G'folian",
       "description": "<p>厚实的几丁质强化了你的甲壳，你甚至可能直接源自于一种巨型火蟹族品种，它们已知栖息在因萨纳最深的山脉中。在选择此传承时，你可以选择成为大型而非中型。你从你的族裔中获得10点生命值而非8点，并且在对抗疾病和毒素的强韧豁免上获得+1环境加值。</p>"
     },
     "WqrIqtw7FVJUplNJ": {
-      "name": "基因嬗变飞螅族",
+      "name": "基因嬗变飞螅族 Genetically Unstable Barathu",
       "description": "<p>你不断调整形态，以深入了解周围的生物与环境。虽然获得了丰富知识，却也付出了代价。经过数十年的改造，你的遗传编码序列逐渐崩坏，变得不稳定。你比大多数飞螅族更透明，看起来像一个泥怪。</p>\n<p>你获得@UUID[Compendium.sf2e-anachronism.actions.Item.pO1wkgklxp9j1taY]动作。</p>"
     },
     "WyqKrnAAQXkJQyNm": {
-      "name": "离群希伦虫人",
+      "name": "离群希伦虫人 Swarm Exile Shirren",
       "description": "<p>大多数希伦虫人很久以前便已脱离虫群，而你是较近才转变的一员。你来自一群被遗弃者，与虫群的共同点比大多数其他希伦虫人更多。</p>\n<p>你获得生物炮远程徒手攻击，射程增量为20尺，造成1d6酸蚀伤害。你的生物炮属于腐蚀武器组。选择此传承时，决定该攻击来自一条手臂下方的发射器、一侧肩膀上方的发射器，还是你的口部。此选择之后不能更改。</p>"
     },
     "X4SQ5BxzJxRqSQNc": {
-      "name": "专注自我珊瑚人",
+      "name": "专注自我珊瑚人 Self-Focus Copaxi",
       "description": "<p>你已经脱离了小塔布里德上的珊瑚人中许多极其僵化的现代社会期望——这些期望要求你为了实业家的利益而牺牲自己的生活。在古代，珊瑚人的生活并没有受到如此严酷的管控，且珊瑚人身体形态的多样性要大得多。</p>\n<p>作为一名所谓的\"专注自我珊瑚人\"，你重新发掘了专注于身体内在的虫体生长和适应方式的艺术，使你能比大多数同族更好地控制自己的身体形态。你获得以下珊瑚人族裔专长中的任意两项：@UUID[Compendium.sf2e-anachronism.feats.Item.1ir4Hv9zuMXyPCQW]，@UUID[Compendium.sf2e-anachronism.feats.Item.JGMZzSoRGTIdZ4lY]，@UUID[Compendium.sf2e-anachronism.feats.Item.TadvEQLY24jwF2Mb]，@UUID[Compendium.sf2e-anachronism.feats.Item.fjBqZlWv8ZhDwLxC]，@UUID[Compendium.sf2e-anachronism.feats.Item.1sYa9VjN1p27MLqs]，或@UUID[Compendium.sf2e-anachronism.feats.Item.sjl8Wwigz3IqkkMt]）。</p>"
     },
     "XJvrw38Vg5ARz9vC": {
-      "name": "化学感应拾荒蜗族",
+      "name": "化学感应拾荒蜗族 Chemoreceptive Gnarefuroid",
       "description": "<p>来自受危险化学径流污染栖息地的拾荒蜗族，会长出高度敏感的味觉触须感受器。你获得30尺范围的模糊灵敏嗅觉。你在对抗具有摄入特征或嗅觉特征的效果的豁免上获得+1环境加值；如果你在此类效果的豁免上掷出成功，则改为大成功。</p>"
     },
     "XTdCu0zJyHe5kIYF": {
-      "name": "蚁后庭臣弗米蚁族",
+      "name": "蚁后庭臣弗米蚁族 Queen's Court Formian",
       "description": "<p>你是蚁巢蚁后的一员随从，无论是监工，贵族，官僚，企业家还是其他顾问。许多蚁族终其一生都未曾直接与他们的蚁后互动，除了通过他们的 蚁群意识，但蚁后庭臣的成员会定期见到蚁后，即使远离 蚁群，其蚁后的威严影响仍然能触及到他们。</p>\n<p>作为蚁后庭臣的一员，蚁后在你脑海中的持续威压使你特别抗拒他人控制你的尝试。如果你在对抗尝试直接控制你动作的心灵效果的豁免检定中掷骰出成功结果，你改为获得大成功。此外，由于你作为外交官的经验，你获得了@UUID[Compendium.sf2e-anachronism.feats.Item.MeBVpW5EIOzoEHCh]标准族裔专长，忽略其先决条件。</p>"
     },
     "XXRa3j9n6lbOth4L": {
-      "name": "乘波维斯克蜥人",
+      "name": "乘波维斯克蜥人 Wavecrested Vesk",
       "description": "<p>你来自一个充满温暖海域和原能魔法的世界，这使你的身体发育出柔软的鳞片、宽大的头部以及带褶边的鳃柄。你获得20尺游泳速度，并获得两栖特征，使你能够在水和空气中呼吸。</p>"
     },
     "Y2UxrXkQyFnq0JIc": {
-      "name": "城居火蟹族",
+      "name": "城居火蟹族 Citywrought G'folian",
       "description": "<p>大多数火蟹族都是孤立主义者，而你的祖先生活在城市区域。你在社群上成为受训。如果你将要在社群上自动成为受训（例如来自你的背景或职业），你改为任选一项其他技能成为受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.49lDxXmZZ0eJFI78]技能专长。</p>"
     },
     "YBSrIGQElEUL5xmI": {
-      "name": "寻天火蟹族",
+      "name": "寻天火蟹族 Opensky G'folian",
       "description": "<p>你的祖先仰望故乡的天空，对宇宙深藏的真理怀有强烈向往，并与之相连。你可以随意将@UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{侦测魔法}戏法作为神术内在法术施放。戏法升阶至等于你等级一半的环级，向上取整。你受训于宗教。如果你会自动受训于宗教（例如来自背景或职业），则改为受训于另一项自选技能。你还在用宗教检定@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}有关不同哲学，以及来自物质宇宙以外位面的生物的信息时，获得+1环境加值。</p>"
     },
     "YovKvEu98JLGtB1g": {
-      "name": "辉丝拉申塔人",
+      "name": "辉丝拉申塔人 Glowsilk Lashunta",
       "description": "<p>卡斯卓韦的丛林中生活着巨型动物，也有霉菌风暴和狂野魔法。辉丝丛林的主要城市贾巴斯克欢迎寻求刺激的人，因为即使只是抵达这座城市，也需要乘坐穿梭机，从间隙仅有几寸的路线中疾驰而过。辉丝居民学会了自给自足，并预判危险。</p>\n<p>你是一名辉丝拉申塔人，擅长在没有文明安全保障的环境中生活。你受训于生存，并获得@UUID[Compendium.sf2e-anachronism.feats.Item.YtbPw4FSa86QAdRq]技能专长。如果你会自动受训于生存（例如来自背景或职业），则改为受训于另一项自选技能。你对抗毒素的豁免获得+1环境加值；对抗真菌毒素时，此加值提高至+2。</p>"
     },
     "ZA03oUyOKDSOOGaG": {
-      "name": "具象默思族",
+      "name": "具象默思族 Manifested Contemplative",
       "description": "<p>你的脑波强到能让异能魔法伴随思绪的显化起舞。从异能法术列表中选择一个戏法。你能够将其作为异能内在戏法任意施放。戏法总会升阶到你等级的一半，向上取整。</p>"
     },
     "ZAOKze0PTYPPbUua": {
-      "name": "带电卡洛鱼人",
+      "name": "带电卡洛鱼人 Electric Kalo",
       "description": "<p>你来自卡洛-马霍伊透光层中一个偏远部落，该部落发展出生物电防御机制来低于掠食者，也许是由于花径的影响，或是因为远古时期以电鳐为食的习性。你能够以原能内在法术的形式随意施放@UUID[Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf] 戏法。戏法会升阶至你等级一半的环级，向上取整。如果你只对1个目标施放此法术，你获得等同于你等级一半的电击抗力（最低1点），直到你的下个回合结束。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.xQvyfiOh05xK2A5A]</p>"
     },
     "ZBHhBDRKql0pXK6j": {
-      "name": "奇角牛尔人",
+      "name": "奇角牛尔人 Odd-Horned Nuar",
       "description": "<p>你是少数拥有奇数只角的牛尔人之一，你的角比大多数同类更粗壮坚固。你的角无武装攻击获得致命d8特征。</p>"
     },
     "ZH08RhSCb4Cq4vwE": {
-      "name": "寻天矮人",
+      "name": "寻天矮人 Questbound Dwarf",
       "description": "<p>你的氏族投身于新逐天远征，乘坐铁星号星辰堡垒之类的矮人世代飞船探索银河。数十年的太空生活使你比起穿行隧道，更熟悉在群星间导航。</p>\n<p>你受训于驾驶。如果你会自动受训于驾驶（例如来自背景或职业），则改为受训于一项自选技能。如果你用于@UUID[Compendium.sf2e-anachronism.actions.Item.hsUKPqTdAvWwsqH2]或@UUID[Compendium.sf2e-anachronism.actions.Item.LXqcXRayK58inaKo]的驾驶检定取得成功，则改为获得大成功。你在用驾驶检定@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}有关星舰的信息时，还获得+1环境加值。</p>"
     },
     "ZH3yAOL7ncLg94r0": {
-      "name": "玛里夏战鹰兽人",
+      "name": "玛里夏战鹰兽人 Marixan Warhawk Orc",
       "description": "<p>你在近宇世界玛里夏长大，正值其与附近基德隆霸权的冷战高峰。你从出生起就接受训练，为数十年来人民预料中的战争做准备。你可能坚信自己事业的正义性，也可能认为必须尽快结束战争以挽救生命。</p>\n<p>你获得@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]专长（战争学识）。当你在遭遇开始时正在执行@UUID[Compendium.pf2e.actionspf2e.Item.kV3XM0YJeS2KCSOb]（Scout）探索活动时，除了侦察探索活动的正常加值外，你还可以用战争学识检定代替察觉检定来投掷先攻，以及确认未伪装且可见的敌人是否属于军事组织或受其训练（如同正常@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]那样使用基础DC）。</p>"
     },
     "ZW11lUkDkI42NJ1G": {
-      "name": "塔博里开路兽人",
+      "name": "塔博里开路兽人 Tabori Trailblazer Orc",
       "description": "<p>你在塔博里星团或其他现代科技无法运作的地方生活过很长时间。你学会了使用许多人眼中过时的技术导航和求生。</p>\n<p>你受训于生存。如果你会自动受训于生存（例如来自背景或职业），则改为受训于另一项自选技能。此外，你获得针对一件自选非电子武器的@UUID[Compendium.sf2e-anachronism.feats.Item.mcl1efgOfMJK1UU9]。如果你之后受训于所有军用武器或枪械（例如通过变体专长），便可以在那时选择一件进阶非电子武器，替换原先的选择。</p>"
     },
     "a5znSq93Wz22iQHP": {
-      "name": "科拉夏族拉申塔人",
+      "name": "科拉夏族拉申塔人 Korasha Lashunta",
       "description": "<p>你选择的适应性基因使你成为科拉夏族。相较于其他拉申塔人，你可能更壮实、肌肉更发达。从族裔获得的属性外，你获得力量属性提升与感知属性缺陷，但自选的族裔提升无法再次选择力量。你从族裔中获得8点生命值而非6点，且在用于@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]或@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]的运动检定上获得+1环境加值。</p>"
     },
     "aOmhpItdUPMoRBKu": {
-      "name": "电子乐仿生人",
+      "name": "电子乐仿生人 Electronica Android",
       "description": "<p>你的身体最初是为富人现场演奏音乐，或协助作曲家而制造的。你的职责是严格按照乐谱，演奏别人交给你的曲目。然而，你和前任躯体使用者多年来演奏的音乐，已在你心中唤醒了深沉的创造精神。你是一名电子乐仿生人，专门为精湛地演奏音乐、借声音传达复杂情感而设计。</p>\n<p>你获得魅力属性提升，而非智力属性提升；获得感知属性缺陷，而非魅力属性缺陷。你受训于表演。</p>\n<p>当你使用具有语言特征的动作时，可以尝试用音乐代替语言进行交流，使该动作失去语言特征，并在尚无情绪特征时获得情绪特征。以这种方式交流时，你只能传达简单的感受或回应。</p>"
     },
     "aScncCu1nPcOU2LS": {
-      "name": "救赎终局矮人",
+      "name": "救赎终局矮人 Salvation's End Dwarf",
       "description": "<p>你在格拉利昂长大，追随托拉格的寻天之旅。一天，一群陌生人到来，自称来自地表……以及更远处的群星。这些“寻星者”告诉你的氏族——大理石之心氏族——你们生活在模拟环境中。你所认知的一切现实，都是人造卫星救赎终局的主导智能编造的谎言。虽然大理石之心氏族已经逃离，并正逐渐融入其他矮人群体，但你仍是与时代脱节的人，或许永远无法真正理解自己骤然置身其中的银河。</p>\n<p>你熟悉古式武器。在确定熟练度时，选择一件古式军用武器，将其视为简易武器；或选择一件古式进阶武器，将其视为军用武器。如果该武器具有矮人特征，当你持用它时，对抗恐惧效果的豁免若成功，则改为大成功。否则，该武器在你持用期间获得矮人特征。</p>"
     },
     "aiw7v52ME0Pfe88l": {
-      "name": "生物科技仿生人",
+      "name": "生物科技仿生人 Biotech Android",
       "description": "<p>植物嫁接体、活体器官和异星生物部件补充了你身体中的合成部件。你可能是为谍报活动而制造、被设计为毁灭性的生物科技武器，或为与自然共存而创造。</p>\n<p>你不获得魅力属性缺陷，改为获得体质属性缺陷。你受训于自然，并获得@UUID[Compendium.pf2e.feats-srd.Item.nowEaHgIyij7im8F]{训练动物}技能专长。</p>"
     },
     "b0Q8fGQnKk8GOuuo": {
-      "name": "派对动物与化学天才双相人",
+      "name": "派对动物与化学天才双相人 Party Animal and Chemistry Whiz Phasorq",
       "description": "<p>你在清醒周期的大部分时间里尝试各种毒药，因此培养出了一些耐受力。要真正理解各种化学化合物的效果，你必须亲身体验。你在对抗毒素的强韧豁免上获得+2环境加值。</p>"
     },
     "b51OqfRimlvzYhV3": {
-      "name": "攀附拾荒蜗族",
+      "name": "攀附拾荒蜗族 Clinging Gnarefuroid",
       "description": "<p>习惯于动荡环境的拾荒蜗族会过度分泌黏合树脂，并长出能够强力吸附的附肢。你的攀爬速度提升至20尺。你在运动上成为受训。如果你将要在运动上自动成为受训（例如来自你的背景或职业），则你改为自选一项技能成为受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.09PurtIanNUPfNRq]技能专长。</p>"
     },
     "bMjnl2xXUsMcFOlJ": {
-      "name": "闪电甲虫巫洛格",
+      "name": "闪电甲虫巫洛格 Lightning Bug Urog",
       "description": "<p>你的结晶硅基生理结构使你能储存更多电力，而富含锂的饮食则让你能更长时间地保持电荷。</p>\n<p>你获得等于你等级一半的电击抗力（最低为1）。此外，你的纤毛能产生格外强劲的电磁场。电池在你持有期间，每10分钟恢复1充能。</p>"
     },
     "bNR7l0I5yLA8pWbd": {
-      "name": "无瑕默思族",
+      "name": "无瑕默思族 Irreproachable Contemplative",
       "description": "<p>如同抗体隔离清除血液中的病原体，你的大脑进化出偏转恶意思绪的心灵防线。你获得对心灵伤害的抗力，数值等于自身等级的一半（最低1点）。若对抗施加\"受控\"状态的精神效果时掷出成功，则改为大成功。</p>"
     },
     "bjgKWl3GbIywvJm6": {
-      "name": "星辰萨瑟蝶人",
+      "name": "星辰萨瑟蝶人 Stellar Sarcesian",
       "description": "<p>你与宇宙的本质存在联结，可将星辰之力转化为魔法。选择一个至少具备下列特征之一的戏法：黑暗、光亮、命能或虚能。你能够将其作为奥术内在戏法任意施放。戏法总会升阶到你等级的一半，向上取整。</p>"
     },
     "bjuTytoNvYMqGl92": {
-      "name": "兵蚁弗米蚁族",
+      "name": "兵蚁弗米蚁族 Soldier Formian",
       "description": "<p>你是一名兵蚁弗米蚁族，负责维护和平，既要确保你的蚁群与卡斯卓韦各族之间，也要确保各个蚁群之间的和平。即使在和平时期，也有无数兵蚁巡逻并保护蚁群，守卫他们的蚁后，并为可能出现的任何冲突进行训练——他们祖先世代相传的长久残酷战争的记忆促使他们时刻保持战斗准备。</p>\n<p>作为兵蚁弗米蚁族，你在战争学识上成为受训。如果你将要在战争学识上自动成为受训（例如来自你的背景或职业），你改为任选一项其他技能成为受训。此外，你从你的族裔获得8点生命值，而非6点，并且你获得@UUID[Compendium.sf2e-anachronism.feats.Item.RdWNYoypgL5dMO0a]（颚）专长。</p>"
     },
     "bxANiZwdKO4Amw9G": {
-      "name": "锐爪水獭人",
+      "name": "锐爪水獭人 Clawed Brenneri",
       "description": "<p>你是一名肌肉格外发达、爪子突出的水獭人，在群体中显露出担任守卫或士兵的潜力。你能轻易撬开牡蛎或螃蟹，你的爪子也足够强韧，可以作为天然防卫手段。</p>\n<p>此外，你受训于运动。如果你本就会自动受训于运动（例如来自背景或职业），则改为受训于一项自选技能。你进行[[/act force-open]]的运动检定获得+1环境加值，并获得@UUID[Compendium.sf2e-anachronism.feats.Item.RdWNYoypgL5dMO0a]族裔专长（爪击，1d6挥砍伤害［灵巧、娴熟、无武装］，属于拳斗武器组）。</p>"
     },
     "cDOprsKiYK6YtePU": {
-      "name": "光荣退役卓克斯",
+      "name": "光荣退役卓克斯 Emeritus Trox",
       "description": "<p>你经历了离别仪式，并在决定改变生活时取了新名字：你可能离开家园漫游群星，也可能在社群中承担了新的角色与挑战。虽然你已告别旧生活，但数十年的经验仍伴你左右。</p>\n<p>你受训于一项具有@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}动作的自选技能。当你进行未受训的学识技能检定时，将你的等级视为你的熟练加值。</p>"
     },
     "cDV7xLQm9JMs1PBm": {
-      "name": "希尔基人类",
+      "name": "希尔基人类 Hylki Human",
       "description": "<p>你来自盟约诸界中尘土飞扬的红色行星阿基顿。在这个日渐衰落的世界上，适应力是生存的关键。从古老而血迹斑斑的阿尔城，到拥有“千盏灯火”却帮派争斗不断的马罗，再到两者之间的种种恶劣环境，希尔基人类都与阿基顿的其他许多居民共同生活，竭力谋生。由于在低重力环境中长大，希尔基人类通常比其他人类更高大壮实，大多数人的皮肤呈玫瑰色调，从鲜艳的深红到灰暗的玫瑰红不等。</p>\n<p>你受训于运动。如果你本就会自动受训于运动（例如来自背景或职业），则改为受训于另一项自选技能。你还获得@UUID[Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq]{快速跳跃}技能专长。</p>"
     },
     "cR2qYglAgkprKul3": {
-      "name": "恩查克侍祭希伦虫人",
+      "name": "恩查克侍祭希伦虫人 Nchaki Attendant Shirren",
       "description": "<p>你在利亚瓦拉的牧羊卫星恩查克上的地下永恒殿堂长大，那里是盟约诸界海拉丝信仰的中心。你可能见过永恒女王，即居住于此的海拉丝化身。她沉稳的存在、对和平与外交的奉献，以及善解人意的举止，都给你留下了深刻印象。</p>\n<p>你受训于交涉。如果你本就会自动受训于交涉（例如来自背景或职业），则改为受训于另一项自选技能。每天一次，即使未事先准备，你也可以使用协助反应来帮助盟友。9级时，你可以每小时如此做一次。</p>"
     },
     "cVVp6M1lS8f7WkaC": {
-      "name": "译者鼹鼠人",
+      "name": "译者鼹鼠人 Zabanii Po Talphi",
       "description": "<p>在维斯卡里姆到来之前，鼹鼠人与他们所共处的苏兹里人和奥西尔人有着友好的关系，这种关系的核心在于他们能够轻松地相互交流。在入侵之后，以及随后众多其他种族和语言的引入之后，许多鼹鼠人将这种传统带到了更大的舞台上。那些渴望社交的鼹鼠人往往能够迅速掌握新的语言，而译者鼹鼠人也成为了许多不同派别所极为需要的翻译者。</p>\n<p>你已经明白，与邻居保持良好的交流十分重要，而且你在早期教育阶段也一直致力于与各种人群进行沟通。你社群技能受训。若你因其他原因（例如背景或职业）自动获得社群技能受训，则改为你选择的另一项技能受训。此外，你还将获得@UUID[Compendium.sf2e-anachronism.feats.Item.MeBVpW5EIOzoEHCh]标准族裔专长。</p>"
     },
     "cebg5MhKedcCRZSV": {
-      "name": "坚韧莱西",
+      "name": "坚韧莱西 Hardy Leshy",
       "description": "<p>你的身体适应了季节变化剧烈的行星。这些变化可能像崔阿克斯那样缓慢而极端，也可能在短于一个盟约标准年的周期内发生。</p>\n<p>你获得@UUID[Compendium.pf2e.feats-srd.Item.AmP0qu7c5dlBSath]{健壮}专长。对你而言，环境寒冷和炎热效果的严酷程度降低一级（酷寒变为极寒，极寒变为严寒，依此类推）。你可以不吃不喝的时间是一般生物的两倍；如果你能进行光合作用，则可以两周不接触阳光而不承受不良影响。</p>\n<p>坚韧莱西通常能进行光合作用。</p>"
     },
     "czkQDPLftNzPgjEU": {
-      "name": "拓荒人类",
+      "name": "拓荒人类 Pioneer Human",
       "description": "<p>你或许是远居异星、远离故土的探险家、星际殖民者或外交官的后裔。你感到一种永无止境的漫游癖驱使着你游历四方，而这种决心能保护你在旅途中免受遭遇危险的侵害。</p>\n<p>在第1级时，选择寒冷或炎热。对于所选元素，环境效果的强度降低一级（酷热变为极热，极寒变成严寒，依此类推）。你的生存技能受训。若你的生存技能将要自动受训（例如来自背景或职业），则改为你选择的另一项技能受训。你同时获得@UUID[Compendium.pf2e.feats-srd.Item.4tTkRyOQ0VuRBac3]技能专长。</p>"
     },
     "d1xOmoqf672aQWbW": {
-      "name": "阿萨纳精灵",
+      "name": "阿萨纳精灵 Asanan Elf",
       "description": "<p>你的祖先离开精灵故土，来到阿萨纳的丛林。你的家族与卡斯卓韦荒野腹地深厚而持久的联系依然存在，但与索维瑞安的精灵不同，你与阿萨纳生态环境的联系开启了一种心灵感应能力，类似于你的拉申塔邻居拥有的能力。</p>\n<p>你可以与30尺内和你有共同语言的生物进行心灵交流。这不会让你读取他们的思想，传递的信息也不会多于正常交谈。</p>"
     },
     "dRF0szwsbL0FKBxP": {
-      "name": "商队表亲半身人",
+      "name": "商队表亲半身人 Caravan Cousin Halfling",
       "description": "<p>你生命中的很长一段时间都在随半身人商队旅行，与来自各种世界、社会阶层和道德立场的人讨价还价、洽谈交易。</p>\n<p>你受训于交涉。如果你本就会自动受训于交涉（例如来自背景或职业），则改为受训于一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.5nc5ridFBfYpn2Om]{砍价高手}专长，进行@UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{赚取收入}的交涉检定获得+1状态加值。</p>"
     },
     "dRjWjBLjzAhet1NK": {
-      "name": "亚兹里纳精灵",
+      "name": "亚兹里纳精灵 Azrinaran Elf",
       "description": "<p>你是一名亚兹里纳精灵，来自金属小行星阿泼斯忒。数代以来，你的家族一直与精灵和行星自然环境之间的精神联系相隔绝；即使你迁居他处，你的后代也可能再无法建立这样的联系。</p>\n<p>你习惯了阿泼斯忒人造峭壁与洞窟中的黑暗，获得黑暗视觉。</p>"
     },
     "dy7TFvb8CKeuWlo2": {
-      "name": "伊薇兰精灵",
+      "name": "伊薇兰精灵 Ivairan Elf",
       "description": "<p>在漂流旅行或暗影引擎出现之前，精灵乘着庞大的星舰商队，展开历时百年的银河航行。你是这些古代精灵旅者的后裔——伊薇兰精灵中的一员。你的家族仍遵循祖先的传统，探索银河，了解旅途中遇到的文明，并在浩界的荒野中绘制新的未知航线。</p>\n<p>在每日准备期间，你可以回顾从旅伴那里听到的见闻，以及造访某座城市、空间站或行星的经历。你获得一项有关特定地点的学识子类别的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}专长（如艾巴萨罗姆空间站学识或阿基顿学识），持续至你再次进行每日准备。由于此专长是临时获得的，你不能用它满足任何角色选项的先决条件。</p>"
     },
     "e0OKHpzgWDU5kaE7": {
-      "name": "耶罗因图",
+      "name": "耶罗因图 Yeulentu",
       "description": "<p>你与一只耶罗龟（yeuloise），一种来自萨鲁克5号的陆龟，结伴而行。你通过前庭系统控制的微妙无意识的心灵感应来保持直立。你的体型是大型而非小型，并且你从你的族裔中获得8点生命值而非6点。你获得智力属性提升而非感知。</p>"
     },
     "e0llqN06HJge2tgZ": {
-      "name": "优养增固卓克斯",
+      "name": "优养增固卓克斯 Fortified Trox",
       "description": "<p>你在蜕皮期间沐浴于杰巴农温泉（Gebanon Springs）的泉水中。泉水中的额外营养渗入软组织，极大地改善了其结构。你的外骨骼可能比同类看起来更像石头，也可能因膜层变得比通常更致密，而呈现出宝石般的光泽。</p>\n<p>你的几丁质甲壳属于板甲组的中甲，可提供+4的AC物品加值，敏捷上限为+1，检定减值为-2，力量为+3，并具有非电子、舒适和暴露特征。你在甲壳上受训。你可以穿戴飞行服覆盖外骨骼，但无法穿戴其他护甲。你可以将护甲符文蚀刻在甲壳上，但无法安装护甲强化模块。</p>"
     },
     "ebKqZR0TcPUsHhZw": {
-      "name": "实验体鼠人",
+      "name": "实验体鼠人 Test-Subject Ysoki",
       "description": "<p>你是一名实验体鼠人，在大量针对身体的实验中存活了下来，而这些实验从根本上改变了你的生理结构。从以下实验体鼠人传承中选择一项。</p>\n<p><strong>额外肢体</strong> 你有四条手臂，能够持用和握持总共需要四只手的武器与装备。任何时候，你都要指定其中一对手为你的活动手。你可以采取@UUID[Compendium.sf2e-anachronism.actions.Item.oW81CfM9ebxXnrw3]动作，将指定的活动手从一对手换成另一对。</p>\n<p><strong>灵能改造</strong> 你的颅内装有发射器。你获得有限心灵感应，能够与30尺内的生物进行心灵交流。你只能与和你有共同语言的生物交流。这不会让你读取他们的思想，传递的信息也不会多于正常交谈。</p>\n<p><strong>电控机械改造</strong> 计算机接口与你的生物组织融为一体。你获得科技特征，并受训于计算机。如果你本就会自动受训于计算机（例如来自背景或职业），则改为受训于另一项自选技能。你拥有一个无法移除且不占用改造植入位的@UUID[Compendium.sf2e-anachronism.equipment.Item.3TQ2WCBNaFwEUDHo]{数据接口}，并获得用于计算机技能的@UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{驾轻就熟}技能专长。</p>\n<p><strong>放射性</strong> 极端辐射暴露改变了你的细胞组成。你不会因辐射病而陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心}状态。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.lizh6clVUQm76uvK]动作。</p>"
     },
     "ezPp5n1TQKjhkZsy": {
-      "name": "实验异客蜥人",
+      "name": "实验异客蜥人 Experimental Ikeshti",
       "description": "<p>科学家曾拿你做实验。无论你为此获得了报酬，还是幼时被捕获、在实验室里养大，这些实验都给你留下了持久的印记。</p>\n<p>你的改造植入上限增加1；这个额外植入位只能安装生物科技改造。选择一项物品等级为1或更低的常见生物科技改造。游戏开始时，你的身体里便已植入该改造，你无需支付购买这项起始改造的信用点。你可以按照通常规则移除或更换它。</p>"
     },
     "f1K7ybfxZmt45rmz": {
-      "name": "电浪方贡族",
+      "name": "电浪方贡族 Lightning Wave Fonqugon",
       "description": "<p>罗德纳斯的海洋通常被认为是完全无法通航的海域。这里的海洋会以难以预测的间隔产生强烈的静电。产生这种静电的原理尚不明确，但人们认为这与某个深海巨兽的好斗天性相关。即便是好奇心最强烈的方贡族，也不想深入海洋去探明真相。无论这种静电的成因是什么，它都会引发巨大的电涌海啸。尽管海浪自身通常不会波及到内陆的方贡树林，但浪潮上翻涌的巨大球状闪电却能传播数百英里。</p>\n<p>作为电浪方贡族，出生之前身体系统突然遭受的电击让你变得反应迅速并且能承受电击。你在以察觉进行的先攻检定中获得+1环境加值，而且你会获得数值等同于自身等级一半（最低1点）的电击抗力。</p>"
     },
     "f6RQOiy6f1Onb7R4": {
-      "name": "野外研究巫洛格",
+      "name": "野外研究巫洛格 Field Researcher Urog",
       "description": "<p>求学让你离开了舒适的居所。幸运的是，你独特的生理结构让你拥有在最恶劣环境中生存的理想手段。</p>\n<p>你可以在任何有大气的环境中@UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]{求生}。无论结果如何，你都不会因缺乏食物而陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}状态或面临死亡风险。</p>\n<p>此外，你的硅基生理结构使你能在不宜生存的温度下存活。对你而言，环境效果的严酷程度降低一级（酷寒或酷热变为极寒或极热，极寒或极热变为严寒或炎热，依此类推）。</p>"
     },
     "fTJTN6C6aVLcbb0n": {
-      "name": "荒野星蛸族",
+      "name": "荒野星蛸族 Wild Astrazoan",
       "description": "<p>多数星蛸族聚集于人口稠密的定居点，而你选择栖身于自然的荒野——铸就自身命运，甚至守护一方乐土免受他人侵扰。你只能选择一个族裔作为形态变换的目标，但也可以使用形态变换变为动物，使用1环@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]的数据。</p>"
     },
     "faGqBgQEAugkZ5wH": {
-      "name": "卡萨斯求生者",
+      "name": "卡萨斯求生者 Kasath Survivalist",
       "description": "<p>你和你的祖先是选择与垂死家园共存亡的那类人。你的族人终日穿行于阴沉天空下的荒芜之地，在日益枯竭之际，寻找着庇护所与资源。你或许会最终决定离开这里寻找更好的生活，也可能会期望说服其它人返回卡萨斯。在探索中，你可以在不得不停止前，@UUID[Compendium.pf2e.actionspf2e.Item.JuqmIAnkL9hVGai8]两倍的时间。若你所在的队伍正在强行军，你可以将队伍能够强行军的时间提升10分钟，若你的等级达到13级或以上，则提升20分钟。你获得@UUID[Compendium.pf2e.feats-srd.Item.c9fHUSI5lRdXu1Ic]专长。</p>"
     },
     "fajKcdhuTDRj56Jb": {
-      "name": "实业家珊瑚人",
+      "name": "实业家珊瑚人 Industrialist Copaxi",
       "description": "<p>你是珊瑚人社会中的精英成员之一，这个群体统称为实业家，反映出小塔布里德行星政府在过去几个世纪中的核心目标。作为实业家珊瑚人，你近年来着重与其他行星的居民建立联系，尤其是可能为小塔布里德的政府和企业带来利益的精英、企业主和投资者。</p>\n<p>你受训于社群。如果你本就会自动受训于社群（例如来自背景或职业），则改为受训于另一项自选技能。你学会一门额外语言，并获得@UUID[Compendium.sf2e-anachronism.feats.Item.eR73a0yWba7clUyC]技能专长。</p>"
     },
     "fofNcGJuVdvN6Qsb": {
-      "name": "垃圾佬地精",
+      "name": "垃圾佬地精 Junker Goblin",
       "description": "<p>你利用应急拼凑的工具、零碎绳线与电线，辅以看似愚钝实则灵光的大脑，打造世间万物。你将获得智力属性提升，取代原本的魅力；但你族裔的自选属性提升不能同时用于智力。你的手艺技能受训。若你本应在手艺上自动受训（例如来自背景或职业），则改为你选择的另一项技能受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.swg2tjUYIx6BPSH8]专长。</p>"
     },
     "fq0LdrPloPz63YBh": {
-      "name": "狱铸仿生人",
+      "name": "狱铸仿生人 Hellforged Android",
       "description": "<p>你是一名狱铸仿生人，是来自地狱的强大装甲造物。你最初是为地狱骑士的目的而制造的，但自那之后，你可能已与他们的骑士团断绝联系。强大的护甲融入你的身体，并与你的灵魂形成深刻联结，也成为你鲜明的外观特征。</p>\n<p>你获得力量属性提升，而非敏捷属性提升。你拥有@UUID[Compendium.sf2e-anachronism.equipment.Item.BJsogI1a5WSUHudq]。狱锻板甲属于板甲组的中甲，提供+5 AC物品加值，敏捷上限为+0，检定减值为–3，速度减值为–10尺，力量值为+3。它具有舒适特征，你受训于自己的狱锻板甲。你永远不能穿戴其他护甲，也不能卸下狱锻板甲。你可以在狱锻板甲上蚀刻护甲符文。</p>"
     },
     "g8HDK1liSwjtUQNi": {
-      "name": "跃星萨瑟蝶人",
+      "name": "跃星萨瑟蝶人 Asteroid Hopper Sarcesian",
       "description": "<p>无论穿梭于流散带的小行星之间还是维修星舰外壳，你常在太空的虚空中活动，并不断地挑战延长每次暴露的时间。你能处于真空环境的时间远远超越同族。你的单次止息能够存在至多4小时，而非1小时。</p>"
     },
     "h2ELfWMEEYr6srsP": {
-      "name": "荣耀家园趴爪",
+      "name": "荣耀家园趴爪 Proudhome Pahtra",
       "description": "<p>你的体型对大多数生物而言都颇具威慑力，而你深知如何利用这一优势。你的体型为大型，而非中型。你威吓技能受训。若你因其他原因（例如背景或职业）自动获得威吓技能受训，则改为你选择的另一项技能受训。</p>"
     },
     "hTdGoSxOLbprQVPu": {
-      "name": "魔法誓言松鼠狐人",
+      "name": "魔法誓言松鼠狐人 Magic-Sworn Vulkarisu",
       "description": "<p>你出生时有着两条尾巴，雪白的皮毛，还有一个为期一周的传统节日来庆祝你幸运的诞生。无论你是一个魔法誓言者的后裔，还是你的家族中第一个魔法誓言者，你蓬松尾巴中周期性闪现的魔力不断提醒着你那超自然的血统。但无论你的家族对你有什么期望，最终是由你来决定是运用还是隐藏这一非凡天赋。你获得一项来自原能法术列表的戏法。你能够以内在原能法术的形式随意施放此戏法。戏法会升阶至你等级的一半，向上取整。</p>"
     },
     "huDjFa4Vt7UF0JUa": {
-      "name": "返祖默思族",
+      "name": "返祖默思族 Retrograde Contemplative",
       "description": "<p>默思族的定向进化本应该使得他们的肢体萎缩、脑部膨胀。但极少数因基因突变诞生的个体会像你一样，保留远古祖先尚未特化的强壮肢体。尽管长而有力的四肢令你外形独特，但你依然是默思族。你失去萎缩特性，且从族裔获得的生命值提升为10点而非6点。</p>"
     },
     "i70KuKrAsGrJhP1u": {
-      "name": "辉煌光彩石面鱿族",
+      "name": "辉煌光彩石面鱿族 Brilliant Mien Ijtikri",
       "description": "<p>无论是因为云母夹杂物、晶体结构，还是能反光的色泽，你的外壳都在光线下熠熠生辉。你学会了以这份美丽震慑他人。</p>\n<p>你受训于威吓。如果你本就会自动受训于威吓（例如来自背景或职业），则改为受训于另一项自选技能。处于明亮光照时，你可以通过将光线反射向敌人来[[/act demoralize]]。如此做时，挫败士气失去听觉特征，获得视觉特征；即使目标不懂你的语言，你也不会因此承受减值。如果你拥有另一项能忽略没有共同语言所致减值的能力（如@UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{金刚怒目}技能专长），且处于正常或明亮光照中，则改为将挫败士气的距离增加至40尺。</p>"
     },
     "iA5d3xVaL2Ocvj4h": {
-      "name": "心能沼栖族",
+      "name": "心能沼栖族 Psychic Binnaquid",
       "description": "<p>你的家族属于那些学会在水下长时间发送心灵感应讯息的沼栖族。你获得有限心灵感应。你可以与30尺范围内的生物进行心灵沟通。你所沟通的生物至少要与你有一种共同语言。这并不能让你了解他们的想法，而且所传递的信息也不会比普通开口说话多。</p>"
     },
     "iCOQI4pXzO98wnE1": {
-      "name": "尸族",
+      "name": "尸族 Corpsefolk",
       "description": "<p><em>尸族是死后以有实体、有智能的亡灵之身复起的人。他们大体保留着生前的外貌和性格，但通常带有病态苍白的皮肤、腐烂部位、外露骨骼或其他腐败迹象。</em></p>\n<p>你是一具复起的尸体。你的亡灵本质可能表现为灰白或苍白的皮肤、完全变黑或变白的眼睛，或异常长的指甲（或类似附肢）。除族裔赋予的特征外，你还获得尸族和亡灵特征。你获得昏暗视觉；如果你的族裔已有昏暗视觉，则获得黑暗视觉。每当你获得族裔专长时，都可以从尸族专长和你原本族裔的专长中选择。</p>\n<p>尸族还获得以下能力。</p>\n<p><strong>死亡效果免疫：</strong> 你免疫死亡效果，例如被直接杀死或濒死值提高，但不免疫该法术或效果的其他部分（例如《死亡幻象》造成的伤害或恐惧状态）。</p>\n<p><strong>虚空治疗：</strong> 你会受到活力伤害，且无法被活力治疗效果治疗。你不受虚空伤害，并可被能够治疗亡灵的虚空效果治疗。</p>\n<p><strong>虚空存续：</strong> 与通常的亡灵不同，你在生命值降至0时不会被摧毁。强大的能量会试图阻止你毁灭。你的生命值降至0时，会失去意识并开始濒死。由于你是亡灵，许多让人脱离濒死状态的方法（例如@UUID[Compendium.pf2e.spells-srd.Item.SnjhtQYexDtNDdEg]{稳定术}）对你无效。当你本应死亡时，你会像其他亡灵一样被摧毁，而非仅仅死去。</p>\n<p><strong>特殊</strong>：如果你的角色死亡且有机会作为亡灵复起，经GM决定，你可以在1级以后选择尸族泛用传承。它会替换你原有的传承。</p>"
     },
     "iUfqI4RNf0hbH0Va": {
-      "name": "适冰火蟹族",
+      "name": "适冰火蟹族 Icesure G'folian",
       "description": "<p>你的小族兴盛于一处极寒地区，那里很可能靠近山脉或因萨纳的极地地区，你的祖先毫无问题地适应了在那里生存。你获得等同于等级一半的寒冷抗力（最低为1）。你忽视由冰或雪导致的困难地形（但不包括高等困难地形）。</p>"
     },
     "ichUsxfksru3APma": {
-      "name": "太阳之歌奥德",
+      "name": "太阳之歌奥德 Song of the Sun Ord",
       "description": "<p>与大多数同族不同，你在拉泽尔或其他世界的地表，长时间沐浴在阳光之下。你的鳞肤变得更加鲜亮，遍布身体的斑驳花纹形成醒目的对比。虽然你看不见，星光仍充盈着你的感官，使你振奋。你受训于杂技。如果你本就会自动受训于杂技（例如来自背景或职业），则改为受训于一项自选技能。在明亮光照区域中，你进行[[/act balance]]、[[/act tumble-through]]和挤入的杂技检定获得+2环境加值。</p>"
     },
     "j35JtiwUwUgulBuz": {
-      "name": "纤巧萨瑟蝶人",
+      "name": "纤巧萨瑟蝶人 Compact Sarcesian",
       "description": "<p>你具备惊人的柔韧性，能如柔术师般将细长肢体折叠收拢，便于在狭小空间行动。你能如同中型生物一般挤过狭窄空间。</p>"
     },
     "jKBIsFQJbNpZuUjZ": {
-      "name": "跳跃纺蛛人",
+      "name": "跳跃纺蛛人 Jumping Atraxid",
       "description": "<p>你充分利用你的腿，非常擅长跳跃。一些纺蛛人不仅靠行走或攀爬移动，还会依靠跳跃，轻松地从一处表面跳到另一处。你在运动上成为受训。如果你将要在运动上自动成为受训（例如来自你的背景或职业），则你改为自选一项技能成为受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq]技能专长。</p>"
     },
     "jbSgKLxeANdgrfvD": {
-      "name": "叛逆希伦虫人",
+      "name": "叛逆希伦虫人 Defiant Shirren",
       "description": "<p>尽管时光流逝，你仍坚决反抗虫群和一切形式的心灵控制。对抗具有虫族特征的生物，或你已知与虫群结盟的生物所创造的效果时，若你的意志豁免成功，则改为大成功。对抗任何受到控制它的法术或效果影响的生物时，你也获得这些益处。此外，你获得@UUID[Compendium.sf2e-anachronism.actions.Item.nAJeT29ZJvqeg98h]动作。</p>"
     },
     "jvSw10EnRK2vCF65": {
-      "name": "索维瑞安精灵",
+      "name": "索维瑞安精灵 Sovyrian Elf",
       "description": "<p>索维瑞安是所有精灵祖先的发源地，也是你的家园。你的血脉或许能追溯到数百代以前的精灵，也可能你的家族直到最近才作为大断层的难民返回卡斯卓韦。你磨炼了解开魔法奥秘的天赋，而你寻找缺失环节的第六感，也有助于发现商业和政治中的隐秘意图。</p>\n<p>你进行@UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{辨识魔法}和@UUID[Compendium.pf2e.actionspf2e.Item.d9gbpiQjChYDYA2L]{解译文书}的检定获得+2环境加值，进行察言观色的察觉检定获得+1环境加值。你尝试[[/act sense-motive]]检定时，目标遮掩相貌或以其他方式对你隐蔽，不会提高该察觉DC。此外，你学会卡斯卓韦语。</p>"
     },
     "k4G2EJkv1Cqi9Yeb": {
-      "name": "空心莱西",
+      "name": "空心莱西 Hollow Leshy",
       "description": "<p>你的植物身体是中空的，包括手臂内部可用于存放物品的大块空腔。你的外形可能类似竹子或蓟这类茎干中空的植物，也可能拥有受种壳或葫芦外皮等坚硬植物组织保护的空腔。</p>\n<p>你获得@UUID[Compendium.pf2e.feats-srd.Item.upMcjxPDgNOLuu7N]{内部储物舱}标准化族裔专长，但你可以在体内储存至多1负载的物品，且用这种方式存入物品只需1个动作。</p>\n<p>中空莱西通常能进行光合作用。</p>"
     },
     "kSfUPbyczONnQ0oc": {
-      "name": "逆影潜波石面鱿族",
+      "name": "逆影潜波石面鱿族 Countershade Crest Ijtikri",
       "description": "<p>你的外套膜在腹侧颜色最浅，在背部的“面孔”处颜色最深。虽然这种花纹对在水中不被发现仅有少许帮助，但它通常伴随着流线型的身体和出色的浮力控制能力，使你能迅速游动。</p>\n<p>你的游泳速度提高至20尺，并获得两栖特征，能够在水中与空气中呼吸。</p>"
     },
     "kxY0MXkQzEnGcbBo": {
-      "name": "异星绍贝德人",
+      "name": "异星绍贝德人 Offworld Shobhad",
       "description": "<p>你出生在异世界，远离绍贝德人的影响和祖先故土的精神。独特的经历让你发展出适合自己的适应能力。你失去适应寒冷能力，但获得一个额外的你满足先决条件的1级绍贝德人族裔专长。</p>"
     },
     "kyq3s2McREOvaSbn": {
-      "name": "产孢莱西",
+      "name": "产孢莱西 Spore-Producing Leshy",
       "description": "<p>你的躯体由真菌或通常通过孢子或花粉繁殖的植物物质构成。你的孢子注入了浓烈的原能魔法，可引发危险的过敏反应。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.RdWNYoypgL5dMO0a]（孢子荚囊，1d6 毒素【射程增量20尺，无武装】，毒素武器组）标准族裔专长。你对产孢莱西的孢子囊免疫。</p>\n<p>产孢莱西有时具有光合作用。</p>"
     },
     "l5WFo2QxPOYUyLTJ": {
-      "name": "石化",
+      "name": "石化 Petrified",
       "description": "<p>你的身体覆盖着厚实的板状树皮。你的树皮属于板甲组的中甲，提供+4 AC物品加值，敏捷上限为+1，检定减值为–2，速度减值为–5尺，力量值为+3，并具有壁垒、舒适和暴露特征。你永远不能穿戴其他护甲，也不能移除树皮。你可以在树皮上蚀刻护甲符文。</p>"
     },
     "lEe4j2x7PkatF0ig": {
-      "name": "氏族亲缘兽人",
+      "name": "氏族亲缘兽人 Clan Kindred Orc",
       "description": "<p>你的祖先与托拉格一同漫步群星的信念，对你有着切身意义。你在矮人之中长大，既象征着所有失去之物，也象征着一切重建的成果。矮人从小教导你，像接纳氏族其他成员一样接纳你，同时也认可你对矮人与兽人共同文化的重要意义。</p>\n<p>你获得矮人学识专长，学会矮人语作为额外语言，并获得矮人的@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.cZyhFXHxnmtK0hlY]族裔能力。此外，每当你获得族裔专长时，除其他来源的选项外，也可以选择矮人和兽人专长。</p>"
     },
     "lHF7WmacNWdiRNNd": {
-      "name": "快步维斯克蜥人",
+      "name": "快步维斯克蜥人 Briskwander Vesk",
       "description": "<p>你来自一群持续移动的维斯克蜥人。你的速度提高5尺。</p>"
     },
     "lN2YREClxT8iup5o": {
-      "name": "狙击手绍贝德人",
+      "name": "狙击手绍贝德人 Sniper Shobhad",
       "description": "<p>几个世纪以来，绍贝德族代代传承的特殊技巧使他们成为协约世界最令人恐惧的狙击手，这完全是有原因的。如果你用非主动手的一双手持握一把双手枪，每当你用主动手进行武器打击或无武装攻击失败时，你可以用自由动作进行@UUID[Compendium.sf2e-anachronism.actions.Item.oW81CfM9ebxXnrw3]。</p>"
     },
     "lTUuHE9w3mP7Q9Y2": {
-      "name": "城市绍贝德人",
+      "name": "城市绍贝德人 Urban Shobhad",
       "description": "<p>你生活在城市或其他人口稠密的地区，经过多次尝试和失败，终于找到了自己的位置，成为与社区和谐相处的、富有生产力的公民。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.YtbPw4FSa86QAdRq]技能专长，即使你的生存未受训。在休整期进行手艺或@UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]检定时，你获得+2环境加值。</p>"
     },
     "llkEXzVjzZVl9lHW": {
-      "name": "助演灵脑人",
+      "name": "助演灵脑人 Stagehand Elebrian",
       "description": "<p>你热爱站在镜头另一侧。在生者大厅中，你度过了成长岁月，作为舞台助手布置场景，搬运道具，使用媒体魔法。你要么在特技上受训并获得@UUID[Compendium.pf2e.feats-srd.Item.CnqMJR8e9jqJR7MM]技能专长，要么在运动上受训并获得@UUID[Compendium.pf2e.feats-srd.Item.09PurtIanNUPfNRq]技能专长。如果你将要在所选技能上自动成为受训（例如来自你的背景或职业），你改为任选一项技能受训。</p>"
     },
     "m9Nb3UrUoEGAxaCr": {
-      "name": "攀爬轻灵兽",
+      "name": "攀爬轻灵兽 Scrabbler Skittermander",
       "description": "<p>您从未掌握过协调所有六只手臂进行手上操作的能力，转而使用其中最下端的两只肢体来获得额外的灵活性、平衡感与稳定性，如同天生的攀爬者。您有四只手臂（而不是六只）和四条腿（而不是两条）。你获得等同你基本陆上速度的攀爬速度，并能用双足攀爬，使四臂保持自由活动状态。</p>"
     },
     "mBQs6juKeqG97LjF": {
-      "name": "伏行鼹鼠人",
+      "name": "伏行鼹鼠人 Lowcrawler Talphi",
       "description": "<p>极高重力下的成长环境塑造了鼹鼠人幼崽的骨骼，使他们拥有贴近地面的圆柱形身体，以及自然贴近体侧的四肢。有些幼崽站姿宽阔、肩背极度佝偻，看上去比本就不高的其他鼹鼠人更加矮小，却拥有极其稳定的重心。这些所谓的低伏者，在许多鼹鼠人群体中负责侦察狭窄且可能不稳的洞窟，保护伙伴免遭坠落危险。维斯克帝国的占领军也常雇用低伏者侦察难以抵达的地点。</p>\n<p>你的身体比多数同族更加敦实，格外贴近地面。尽管你体重轻、身形小，要让你失去立足之地却很困难。对抗他人尝试对你[[/act shove]]或[[/act trip]]时，你的DC获得+2环境加值。对抗试图使你@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}的法术或效果时，此加值也适用于你的豁免。你还获得@UUID[Compendium.sf2e-anachronism.actions.Item.3In9EAqKoYiCDmz4]动作。</p>"
     },
     "mLPafbWvDDwKK7U4": {
-      "name": "城市人类",
+      "name": "城市人类 Urbanite Human",
       "description": "<p>你在大城市长大，习惯了最拥挤人群的挤压和拉扯，习惯了街道上的喧闹和嘈杂，也习惯了车站或大型影院的密集垂直生活。你忽略由人群形成的困难地形和次等掩蔽。你在自选的一座特定城市的学识上成为受训。</p>"
     },
     "mLffetxNUmSHhGk1": {
-      "name": "构装仿生者",
+      "name": "构装仿生者 Construct Copycat",
       "description": "<p>你以科技强化躯体，可变形为构装生物的外观。你可以使用形态变换呈现出小型或中型构装体的外形。你获得殖装身躯（Augmented Body）通用专长。</p>"
     },
     "mLgNG46EWZuabvqA": {
-      "name": "回火者",
+      "name": "回火者 Tempering",
       "description": "<p>你正在经历你的“回火”，卡萨斯人的成年仪式，在此期间你将远离家族的正统传承，并体验截然不同的习俗和传统。你也可能是“无回者”（Untempered）的一员，即在传统的一年期仪式结束后，仍选择继续“回火”的卡萨斯人。你在社群上成为受训，并获得@UUID[Compendium.pf2e.feats-srd.Item.X2jGFfLU5qI5XVot]专长。</p>"
     },
     "mq92ECPMTFZXDI6E": {
-      "name": "融合飞螅族",
+      "name": "融合飞螅族 Merged Barathu",
       "description": "<p>你是一个独特的实体，由两个或两个以上的飞螅族不断结合而成，他们非常享受结合的过程，因此选择不再像以前那样独立。你的体型为大型，而非中型。你从你的族裔中获得10点生命值，而非8点，并且你在对抗情绪效果时在豁免上获得+1环境加值。</p>"
     },
     "n05RMubFfXt0nAhO": {
-      "name": "虚空核心仿生人",
+      "name": "虚空核心仿生人 Voidcore Android",
       "description": "<p>你的身体由虚空核心驱动：这是一种起源不明的古老科技奇迹，比银河中的大多数事物更加久远。最早的虚空核心用于为大得多的设备供能，但最终被装入仿生人体内，用于增强现有核心的运作。如今，虚空核心仿生人通过召唤虚空的腐化仪式驾驭熵能而诞生。熵能的涌入颠倒了仿生人的能量状态，并在此过程中反转其灵魂本身。你是一名虚空核心仿生人，黑色、蓝色或紫色的能量在你的电路中奔涌。</p>\n<p>你拥有虚空治疗：你会受到活力伤害，且无法被活力治疗效果治疗；你不受虚空伤害，并可被能够治疗亡灵的虚空效果治疗。你获得黑暗视觉。</p>"
     },
     "n0i3Dr3kyFHiJYhU": {
-      "name": "坚韧探客飞螅族",
+      "name": "坚韧探客飞螅族 Rugged Explorer Barathu",
       "description": "<p>你渴望探索布瑞塞达与利亚瓦拉之外的地方，寻找充满挑战、对体能要求严苛的环境。这些地方常有危险的动植物，也可能有极不友善的本土类人生物。为了应对这些威胁，你对自身进行基因改造，使身体更加坚韧，并以矿物沉积物形成保护壳。</p>\n<p>这个外壳视为复合甲组的中甲，提供+2 AC物品加值，敏捷上限为+2，检定减值为–2，力量门槛为+2，并具有舒适和暴露特征。5级时，此物品加值提高至+3。你受训于自己的外壳。你可以穿戴@UUID[Compendium.sf2e-anachronism.equipment.Item.dnv1OFVU6BpyfAWi]，但不能穿戴其他护甲。你可以在外壳上蚀刻护甲符文，但不能安装护甲强化模块。</p>"
     },
     "nReLUvLRtAiGYnVq": {
-      "name": "海洋深潜飞螅族",
+      "name": "海洋深潜飞螅族 Ocean Diver Barathu",
       "description": "<p>求知欲让你将目光投向行星上的探索。你选择探索的不是浩瀚太空或其他行星的地表，而是海洋深处。你在那里发现的生物和生态环境，与银河深处的一样奇妙。这些惊人发现必须与人分享，而你已让自己适应这项任务。</p>\n<p>你获得水下呼吸的能力，并获得等于飞行速度的游泳速度。此外，你获得@UUID[Compendium.sf2e-anachronism.actions.Item.XYLK5aZ2WAMJGRAc]动作。</p><hr /><p><em>寻星者协会说明：</em> 将第二句改为：“如此做时，你的身体增大至巨型，且只能使用游泳速度移动。”</p>"
     },
     "nvo8D4JLaIoE1ti7": {
-      "name": "巨大新星族",
+      "name": "巨大新星族 Massive Novian",
       "description": "<p>你诞生于一颗巨大的恒星或红超巨星，比起通常新星族要大得多。你的体型不是超小型，而是小型。你从你的族裔中获得10点生命值，而非6点。</p>"
     },
     "o9QBHUuvGsHcGh4n": {
-      "name": "翼翅希伦虫人",
+      "name": "翼翅希伦虫人 Winged Shirren",
       "description": "<p>你的祖先是虫群中进化出翅膀的成员。你拥有一对完全功能的双翼，赋予你15尺的飞行速度。</p>"
     },
     "oKC0eYhvlSB7gUc5": {
-      "name": "代码誓言松鼠狐人",
+      "name": "代码誓言松鼠狐人 Code-Sworn Vulkarisu",
       "description": "<p>你的家族起源于最早解码了三贤一信号并将漂流航行知识传播给卡斯卓韦各地的松鼠狐人。你皮毛上奇异的标记，混杂着类似密码的符号，既是你个人名字的来源，也据说包含了着构成宇宙基础的代码的一部分。你获得一项来自奥术法术列表的戏法。你能够以内在奥术法术的形式随意施放此戏法。戏法会升阶至你等级的一半，向上取整。将你获得的所有松鼠狐人专长中出现的\"原能\"或\"自然\"替换为\"奥术\"和\"奥法\"，包括你获得的所有内在法术的根源，专长的特征，以及专长的先决条件。</p>"
     },
     "oVFVxfnDt1pzIXf6": {
-      "name": "大使弗米蚁族",
+      "name": "大使弗米蚁族 Ambassador Formian",
       "description": "<p>你是面向各个社群的使节，无论它们位于卡斯卓韦还是其他地方。你依循古代弗米蚁族使节的传统接受训练；正是那些使节付出卓绝努力，才使殖民地实现统一。</p>\n<p>作为使节弗米蚁族，你受训于社群。如果你本就会自动受训于社群（例如来自背景或职业），则改为受训于另一项自选技能。此外，若你进行[[/act sense-motive]]的察觉检定成功，则改为大成功。</p>"
     },
     "oyxtHoW8wUWnYzTO": {
-      "name": "更新仿生人",
+      "name": "更新仿生人 Renewed Android",
       "description": "<p>许多灵魂在你之前曾栖身于你的人造身躯中，你可以在名字中加入一个数字来纪念他们。你可能会知道你身体的历史，并朝着一个过去灵魂遗留给你的目标努力，或则你可能试图解开某个被遗忘遗产的秘密。肌肉记忆暗示着你身体的过去，你从未见过的人奇怪的认出了你的脸。一天内你第一次失去濒死状态时，你不会获得相应的受伤状态。你在一项由你任选的具有@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]动作的技能上受训，并且你获得@UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]技能专长。</p>"
     },
     "p09ohe8gB0rJyzd9": {
-      "name": "末日预言者卡萨斯人",
+      "name": "末日预言者卡萨斯人 Doomsayer Kasatha",
       "description": "<p>你出身于一个留下来为垂死行星主持临终仪式的大家族。你安全地待在飞船或卫星上，看着那颗小小的行星映衬在终将吞噬它的巨大红巨星之前，因此对毁灭有着独特的认识。它持续而缓慢地迫近，既无需恐惧，也不值得期待；你学会了延缓它，也学会了拥抱它。</p>\n<p>你获得@UUID[Compendium.sf2e-anachronism.actions.Item.CPO4LgkZPHIHQEB4]反应。</p>"
     },
     "p9LZa824mlvlf0dS": {
-      "name": "卫星守卫珊瑚人",
+      "name": "卫星守卫珊瑚人 Moon Guard Copaxi",
       "description": "<p>你在小塔布里德的卫星——荆棘之月（Sabraxid）上度过了生命中的很大一部分时光。随着政府对星际旅行的关注日益增加，近几十年来这颗卫星上如雨后春笋般涌现出许多殖民地，而你曾在其中一个殖民地中或其附近生活。你与卫星上的大多数珊瑚人居民一样，不得不面对当年在珊瑚人内战中被强大的操控重力的珊瑚人抛出星球大气层的战士们所留下的不死遗骸。</p>\n<p>作为一名卫星守卫珊瑚人，你已经适应了在荆棘之月殖民地边缘的严酷生活。你从你的族系中获得8点生命值而不是6点。你在对抗带有死亡或虚能特征效果的豁免检定上获得+1环境加值。</p>"
     },
     "pHuWTdkQ0AG0ON8w": {
-      "name": "晶化外壳巫洛格",
+      "name": "晶化外壳巫洛格 Crystal Carapace Urog",
       "description": "<p>你的晶质外壳比大多数同族更厚，而且你以能提供额外物理防护的方式安置了甲壳。</p>\n<p>你的甲壳视为陶瓷甲组的轻甲，提供+2 AC物品加值，敏捷上限为+2，检定减值为–1，并具有古式、舒适和柔韧特征。护甲专精赋予的抗力为电击抗力。你可以穿戴@UUID[Compendium.sf2e-anachronism.equipment.Item.dnv1OFVU6BpyfAWi]，但不能穿戴其他护甲。你不能安装护甲强化模块。你在此护甲上的熟练等级为受训。</p>"
     },
     "pW3ZVV9zaw7UinHH": {
-      "name": "活体大典飞螅族",
+      "name": "活体大典飞螅族 Living Codex Barathu",
       "description": "<p>你热爱学习，将自己与其他生物及环境接触的所有经历都编目记录。经过一生探索，你学会了将所有发现编码到自己的遗传物质中。这种动态算法让你能在庞大的集体中，与同族分享知识和经验。为了与其他族裔分享，你还学会了将遗传密码与计算机连接，并通过编程建立供他人查阅的庞大数据库。你的经历丰富多样，对所学的一切也形成了独特视角，因此专门向你求知的人能获得某些益处。</p>\n<p>你受训于社群（若已受训于社群，则选择另一项技能）。你进行@UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{协助}检定来帮助他人@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}时，获得+4环境加值。</p>"
     },
     "pfBdP0tBLqfXUwif": {
-      "name": "尖牙沼栖族",
+      "name": "尖牙沼栖族 Fanged Binnaquid",
       "description": "<p>你的牙齿特别锋利，你可能会像祖先那样狩猎：潜伏水下，直到某物靠近到足以让你攻击并撕咬。你获得一种颚无武装攻击，造成1d6穿刺伤害，属于搏击武器组，并具有沼栖族、灵巧和无武装特征。</p>"
     },
     "qDPmVe08qZ3bEL4N": {
-      "name": "荒行牛尔人",
+      "name": "荒行牛尔人 Waste Walker Nuar",
       "description": "<p>你的毛色柔和，极适合融入沙漠行星的沙地。你获得等于等级一半的火焰抗力。在沙漠环境中，你进行[[/act hide]]或[[/act sneak]]的隐秘检定获得+1环境加值。</p>"
     },
     "qHcAECNqQdqZqiZ6": {
-      "name": "特使水獭人",
+      "name": "特使水獭人 Ambassador Brenneri",
       "description": "<p>你在青少年时期的调解训练中表现出色，被选入著名的使节团。</p>\n<p>你受训于交涉。如果你本就会自动受训于交涉（例如来自背景或职业），则改为受训于一项自选技能。</p>\n<p>作为使节，你学会了与盟友密切合作。花费1周休整时间与一名自愿且非仆从的盟友共同训练，可以将其训练为你的使节搭档。你同一时间只能有一名使节搭档。训练新搭档会替换原有搭档。你与你的使节搭档获得@UUID[Compendium.sf2e-anachronism.actions.Item.QMxO5Y1b9ORvlogx]动作。</p><hr /><p><em>寻星者协会说明：</em> 特使水獭人可以在冒险场景开始时，选择一名队伍成员作为使节搭档，视为此前已花费1周休整时间训练对方。</p>"
     },
     "qRHZENQf5C43t3q4": {
-      "name": "船生龙人",
+      "name": "船生龙人 Shipborn Dragonkin",
       "description": "<p>你的祖先适应了在飞船或为体型远小于你的族群设计的据点中生活。体型庞大曾是一个劣势，但这一劣势已被后代逐渐克服。你的体型不再是大型，而是中型。你在@UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]检定中获得+1环境加值，并且在挤入时可以使用特技或运动技能。</p>"
     },
     "r4rMKhYwX6WTSfl6": {
-      "name": "凶猛鼠人",
+      "name": "凶猛鼠人 Fierce Ysoki",
       "description": "<p>你是一名凶猛鼠人，身体更魁梧且牙齿锋利。你获得力量属性提升而非敏捷，并获得敏捷属性缺陷而非力量。你从族裔获得8点生命值而非6点。你的颚无武装攻击造成1d8点穿刺伤害，属于搏击武器组，并具有擒拿和无武装特征。</p>"
     },
     "rBjAQM1VCJDFvvDo": {
-      "name": "天空誓言松鼠狐人",
+      "name": "天空誓言松鼠狐人 Sky-Sworn Vulkarisu",
       "description": "<p>你来自一个传统的树冠居民家族，能使用从手腕延伸到脚踝的名为翼膜的毛皮膜在树与树之间滑翔。大多数天空誓言松鼠狐人可以将他们的血脉追溯到一些在卡斯卓韦最古老的森林中的守护者。传统主义者声称树木保护着天空的温暖光芒免受大地的寒冷阴影侵袭，他们相信光秃秃的树木是冬季致命寒冷的源头。你的骨骼和肌肉结构已经进化得能够使你的身体即使在@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]时也能利用这种解剖结构安全地滑翔到地面。无论你任何距离坠落，你都不会受到坠落伤害。</p>"
     },
     "sA4TCSVm8ljDFiA5": {
-      "name": "沐阳人类",
+      "name": "沐阳人类 Sunkissed Human",
       "description": "<p>你的祖先可能生活在高重力地区，例如盟约诸界太阳附近的燃烧群岛、气态巨行星布瑞塞达的卫星，或埃奇迪亚这样的世界，并在世代繁衍中适应了这些环境。日吻人类之名来自太阳神的信徒；他们在太阳附近的居民中占很大比例，并将这种传承视为祝福。受到太阳亲吻的人类，皮肤中的黑色素通常更多。</p>\n<p>你对抗@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}的纯骰检定获得+1环境加值。每当你受到@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}或@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}状态影响时，该效果的持续时间减少1轮。你受训于宗教。如果你本就会自动受训于宗教（例如来自背景或职业），则改为受训于另一项自选技能。你还获得@UUID[Compendium.sf2e-anachronism.feats.Item.NY2R5hNgdkSRPkTV]技能专长（即使不满足其先决条件）；选择任意一位以恒星或太阳为主题的神祇。</p>"
     },
     "sVLbQ2yf5ITq4asR": {
-      "name": "霜行趴爪",
+      "name": "霜行趴爪 Rime Walker Pahtra",
       "description": "<p>你长出了蓬松的毛皮来适应寒冷环境。你可能是古代趴爪族的后裔，他们早在维斯克帝国的开发改变普洛尼斯气候之前，就生活在那里的寒冷地区；你也可能通过生物工程激活了这种遗传潜能。你获得等于等级一半的寒冷抗力（最低为1）。对你而言，环境寒冷效果的严酷程度降低一级（酷寒变为极寒，极寒变为严寒，依此类推）。</p>"
     },
     "shCeHiMXYZpCRkOl": {
-      "name": "秘传史官半身人",
+      "name": "秘传史官半身人 Whispered Record Halfling",
       "description": "<p>你是半身人历史的活记录，记忆并传承着银河各地半身人的新旧事迹。这些记录可能是讲述某位半身人因鲁莽而遭遇磨难的劝诫诗，也可能是长篇而朴实的记录（如日记），记述某位半身人的从军岁月。</p>\n<p>你获得用于半身人学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}专长。每天一次，你可以使用半身人学识对任意话题@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}，但承受–2环境减值。</p>"
     },
     "skMASd6bHEhEfr40": {
-      "name": "圣像维斯克蜥人",
+      "name": "圣像维斯克蜥人 Enshrined Vesk",
       "description": "<p>你是一位已故维斯克英雄的灵魂，被保存——或囚禁——在一尊依照你生前模样雕刻的活体石像之中。</p>\n<p>你获得构装体特征。你无需进食、饮水或呼吸。你始终拥有基础环境防护。你无需睡眠，但仍须每天休息一段时间。在此期间，你必须与体内的灵魂群体进入持续2小时的冥想集会。这类似睡眠，因为你同样无法察觉周围环境，但不会承受@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}的其他减值。与睡眠类似，若太久未进入冥想状态，你就会陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}状态，且必须冥想2小时才能恢复。</p>"
     },
     "t0OfbPwWPYSr7JL5": {
-      "name": "觅想默思族",
+      "name": "觅想默思族 Thoughtseeker Contemplative",
       "description": "<p>有些默思族不满足于自己的思想，向银河中寻求知识的其他心灵敞开自身，由此发展出深远的感知能力。你是这些灵能探索者的后裔，或曾与其继承者长期训练。你获得@UUID[Compendium.sf2e-anachronism.spells.Item.qOLMHvkAGsVYLhtn]作为2环异能内在法术，每10分钟可以施放一次。12级时，你可以将它作为4环异能内在法术施放。</p>"
     },
     "tXJSvLfGTwgS2Otq": {
-      "name": "耀光火蟹族",
+      "name": "耀光火蟹族 Brightsheen G'folian",
       "description": "<p>一层闪烁的图案在你的壳上流转，仿佛万花筒般的油膜。这种特质源自你的小团体长期在母星的白昼阳光下旅行的经历。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.e2lugcxHnxTkQeMc]反应。</p>"
     },
     "udoUR75AqcPUxR6M": {
-      "name": "月光花莱西",
+      "name": "月光花莱西 Moonflower Leshy",
       "description": "<p>你的身体由缠绕的藤蔓构成，其间点缀着发光球体。与你所属的月光花一样，你可能栖居于加尔维克斯星（Galvix），也可能在其他世界萌发。</p>\n<p>你的体型为中型而非小型。此外，你持续在20尺半径内散发出你选择的颜色的明亮光照（并在接下来的20尺内散发昏暗光照）；此效果具有光亮和原能特征。其反制环级等同于你等级的一半（向下取整），其反制DC等同于你的职业DC或法术DC中的较高者。</p>\n<p>你可以花费一个交互动作压制你的光芒，此时光芒不会恢复，直到你花费两个具有专注和操作特征的动作来重新激活它。当你重新激活光芒时，你可以选择一种新的颜色。</p>\n<p>月光花莱西总是具有光合作用。</p>"
     },
     "v1FRU6XUr7QZsG6d": {
-      "name": "花诞卡洛鱼人",
+      "name": "花诞卡洛鱼人 Bloom-Born Kalo",
       "description": "<p>你成长于花径附近，遍布卡洛-马霍伊的自然形成的通往第一世界的门户之一，会随机开启闭合。你因此对周围原能魔法的存在产生了天然感知力。你在自然上获得受训熟练度。如果你本应在自然上自动成为受训（比如来自你的背景或是职业），你改为自选一项其他技能受训。此外，你能够以原能内在法术的形式随意施放@UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl] 戏法。戏法会升阶至你等级一半的环级，向上取整。</p>"
     },
     "v6iZJAS4E8OsOYkC": {
-      "name": "疫病淬炼卓克斯",
+      "name": "疫病淬炼卓克斯 Plague-Hardened Trox",
       "description": "<p>你可能曾在恩查克的格雷塞舍库藏担任研究员，那里充斥着种类繁多、致命而剧毒的病原体；你也可能住在附近地区。不论原因如何，你已对库藏中的病原体形成免疫，对那些足以杀死较不强健生物的环境危险也几乎毫无畏惧。</p>\n<p>你抵抗疾病的豁免获得+2环境加值。你获得@UUID[Compendium.pf2e.feats-srd.Item.AmP0qu7c5dlBSath]{健壮}通用专长。</p>"
     },
     "vNcPF0JKNAMaesTy": {
-      "name": "隧洞跑者卓克斯",
+      "name": "隧洞跑者卓克斯 Tunnel Runner Trox",
       "description": "<p>蜕壳期间，你花费数周学习并严格训练，遵循复杂的营养与锻炼计划，在外骨骼形成时拉伸、塑造它。因此，你重新构建了身体表面的保护层，使它更轻、更灵活。如今，你享受着努力的成果：轻盈的甲壳依然足够坚固，能保护你免受伤害，也让你活动起来轻松得多。两侧墙壁可能仍近得令人不适，但你可以更快地穿行其间。</p>\n<p>你的各项速度增加5尺。</p>"
     },
     "vSfAtJdjdqjYNdDi": {
-      "name": "流浪者与朋友双相人",
+      "name": "流浪者与朋友双相人 Wanderer and Friend Phasorq",
       "description": "<p>你过着海盗般，至少是流浪者般，的生活。你懂得第一印象的价值，并努力培养自己的开场白。你能同时进行两段对话，这一点确实有帮助，尤其是在结识群体时。你在交涉上受训，并获得集体印象技能专长。如果你在交涉上已经成为受训（例如来自你的背景或职业），则你改为自选一项技能成为受训。</p>"
     },
     "vZRQE6qokI3uSrQM": {
-      "name": "狭缝潜影半身人",
+      "name": "狭缝潜影半身人 Ductsneak Halfling",
       "description": "<p>你习惯在社会被遗忘的缝隙中谋生，住在聚居地、星舰乃至更奇特场所的隐蔽角落。你安于社会边缘的生活，也很擅长在紧急情况下找到藏身处。</p>\n<p>你受训于杂技。如果你本就会自动受训于杂技（例如来自背景或职业），则改为受训于一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.3G8xUlgCjRmRJNfP]{迅速挤入}技能专长。此外，为进入中型生物需要挤入才能进入的空间而对面板、栅格或类似障碍进行[[/act force-open]]时，你不会因未使用撬棍而承受减值。</p>"
     },
     "vlLSIOKqJHXRaCIt": {
-      "name": "繁花",
+      "name": "繁花 Inflorescent",
       "description": "<p>你能汲取源源不断的生命能量，保持活力绽放。选择一个戏法：@UUID[Compendium.pf2e.spells-srd.Item.SnjhtQYexDtNDdEg]或@UUID[Compendium.pf2e.spells-srd.Item.kcelf6IHl3L9VXXg]，你可以将其以原能内在法术的形式随意施放。该选择不可更改。戏法被升阶至你等级的一半，向上取整。你还会在对抗虚能效果时豁免上获得+1环境加值。</p>"
     },
     "vsfvZMpJ7ELhTvSy": {
-      "name": "超凡心能拉申塔人",
+      "name": "超凡心能拉申塔人 Ascendant Psychic Lashunta",
       "description": "<p>你是一名超凡灵能者，是在掌控天生灵能魔法方面被公认为典范的拉申塔人。</p>\n<p>你的有限心灵感应距离增加至120尺。如果你的职业赋予你施法能力，则你通过族裔专长获得的内在法术，使用职业赋予的魔法源流、关键属性调整值、法术攻击调整值和法术DC。</p>"
     },
     "wCLdLRvIYLNTsPxb": {
-      "name": "退休期四臂蜗族",
+      "name": "退休期四臂蜗族 Leisure Stage Mecenaic",
       "description": "<p>你已经过了75岁生日，进入了四臂蜗族生命周期的最后阶段。你几乎见识过世间所有事物，你沉稳的存在和严肃的举止让周围的人感到安心。</p>\n<p>你在交涉上受训。如果你将要在交涉上自动受训（例如来自你的背景或是职业），你改为自选一项技能受训。你获得无需惊慌技能专长。</p>"
     },
     "wHGhjTqNvsaAMJHM": {
-      "name": "联网仿生人",
+      "name": "联网仿生人 Networked Android",
       "description": "<p>你的身体经过改造，可以与其他科技生物无缝联网。你获得短波（shortwave），让你可以与30尺内任意生物进行无线交流，只要他们拥有短波，或者是具有科技特征的构装体。这不会给予任何对他们思维或程序的特殊访问方式，且交流中不带有比任何正常说话更多信息。你无需黑客工具包或空手便可以对30尺范围内的科技设备尝试计算机检定来骇入系统（Hack System），@UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4]（Combat Hack），进行@UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf]（Digital Diversion），@UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]或@UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]。</p>"
     },
     "wqhlTNfkTdP1oLpC": {
-      "name": "魔法涉猎巫洛格",
+      "name": "魔法涉猎巫洛格 Magic Dabbler Urog",
       "description": "<p>你试图像研究科学那样解开魔法的秘密。也许你将魔法与科技结合，找到了提升效率的新途径；也许你发现了无需神祇便可引导神能的方法。无论如何，你掌握了一项让生活更轻松的魔法诀窍。</p>\n<p>你获得@UUID[Compendium.sf2e-anachronism.feats.Item.IEQmMRA1uMPb0rJo]标准化族裔专长。如果你的认识论方法是实证式，则此法术为原能法术；否则为奥术法术。你还在@UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{辨识魔法}和@UUID[Compendium.pf2e.actionspf2e.Item.Q5iIYCFdqJFM31GW]{学习法术}中获得+1环境加值。</p>"
     },
     "x3bIKogWPLix3lCC": {
-      "name": "丛林水獭人",
+      "name": "丛林水獭人 Jungle Brenneri",
       "description": "<p>你来自瓦图兰的克洛瓦纳（Clorwana）丛林。巨大的树木树干稳稳地扎根在水下的岩架上，它们巨大的树冠是星球上为数不多高于最高潮线的地方之一。绳索桥横跨树枝之间的空隙。平台建筑为居住和其他基础设施提供了支撑，但在克洛瓦纳丛林的树冠城市中穿行需要经常攀爬和爬上梯子。</p>\n<p>你的运动技能受训。若你因其他原因（例如背景或职业）自动获得运动技能受训，则改为你选择的另一项技能受训。你获得20尺攀爬速度。</p>"
     },
     "xDatDhlauUfHpmL6": {
-      "name": "酸震方贡族",
+      "name": "酸震方贡族 Acid Quake Fonqugon",
       "description": "<p>当罗德纳斯地壳构造板块移动和合并时，酸液会从地缝中涌出，并随着骤然隆起的火山喷发出来，当酸液与罗德纳斯的低层大气混合并形成毁灭性的毒雨后，这些裂口和火山也会随之快速溶蚀。无数物种在遭受毒素洗礼后被完全抹除，但也有部分物种产生突变并适应了这种毒素——或者变得能感知到产生这种毒素的地震。</p>\n<p>作为酸震方贡族，你对周遭地面的感受尤为敏锐，而且能承受轻微的腐蚀性物质。你获得范围15尺的震颤感知作为模糊感官，以及数值等同于自身等级一半（最低1点）的酸蚀抗力。</p>"
     },
     "xFescMtvHlMJSpTs": {
-      "name": "威权默思族",
+      "name": "威权默思族 Imperious Contemplative",
       "description": "<p>无论源于后天培养还是天赋本能的自然结果，每当目睹智力低下的对手在思维的海洋中无助地挣扎时，你的大脑都会分泌内啡肽作为奖赏。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.wI0g2nRfu2d0YFAd]反应动作。</p>"
     },
     "xbwpV7b2bNQkdPs3": {
-      "name": "工蚁弗米蚁族",
+      "name": "工蚁弗米蚁族 Worker Formian",
       "description": "<p>你是一名工蚁弗米蚁族，是任何聚居地中最常见的弗米蚁族类型。负责搬运食物和建筑材料、传递信息、协助建造蚁、运送倒下的兵蚁，以及无数其他任务，工蚁构成了弗米蚁族社会的支柱。</p>\n<p>作为工蚁弗米蚁族，你在运动上成为受训。如果你将要在运动上自动成为受训（例如来自你的背景或职业），你改为任选一项其他技能成为受训。此外，你的速度为30尺，且你能在陷入超载或最大负载的上限前额外携带5负载。</p>"
     },
     "ySfpV3VZIYdmI2fT": {
-      "name": "游牧弗拉卡狼人",
+      "name": "游牧弗拉卡狼人 Nomadic Vlaka",
       "description": "<p>你的一生都在奔波，在无尽的星系中旅行。你获得两种额外的语言，从你具有许可的常见语言和罕见语言中选择。当你选择@UUID[Compendium.pf2e.feats-srd.Item.P9HCz0uR6xPHuw72]技能专长时，你将获得三种新语言，而不是两种。</p>"
     },
     "ymuI4UO22iMmobRh": {
-      "name": "达玛雅族拉申塔人",
+      "name": "达玛雅族拉申塔人 Damaya Lashunta",
       "description": "<p>你选择了适应性基因，成为达玛雅。与其他拉申塔人相比，你的体形可能更纤瘦、更轻巧，也可能更常被鼓励从事学者或政治家的工作。</p>\n<p>除族裔提供的属性变化外，你还获得智力属性提升和体质属性缺陷，但族裔的自由属性提升不能再选择智力。你受训于交涉。如果你本就会自动受训于交涉（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}通用专长。</p>"
     },
     "yoRROuepSyzCYadn": {
-      "name": "星系旅者飞螅族",
+      "name": "星系旅者飞螅族 Galactic Wanderer Barathu",
       "description": "<p>宇宙的奇景早在你幼年时就向你发出召唤，引诱你离开行星的局限，转而漫游银河。年轻时，作为飞螅族的你将大量时间用于探索广袤太空，寻找天体，了解适应了其中生活的动植物。</p>\n<p>你获得太空特征，且在零重力区域中，飞行速度增加10。此外，在零重力环境中，你获得@UUID[Compendium.sf2e-anachronism.actions.Item.nPn7rGTTao4cFYDr]动作。</p>"
     },
     "yp5O0Z97KtL0vlsZ": {
-      "name": "智造裔仿生人",
+      "name": "智造裔仿生人 Artificial Scion Android",
       "description": "<p>你的身体不是以生物的形象创造；一个强大的人工智能创造你来与其他机械交互。你的机能几乎与其他仿生人相同，但怪异的细节会透露你的非标准起源（例如，你可能会有非常对称的细节，额外的手指，或则双倍的瞳孔）。你在计算机技能上受训，你获得@UUID[Compendium.sf2e-anachronism.feats.Item.ifQiKhl0Gt2CM7i9]技能专长。</p>"
     },
     "z0DvgOI8G7mCADQC": {
-      "name": "经验老到与精益求精双相人",
+      "name": "经验老到与精益求精双相人 Expertise and More Expertise Phasorq",
       "description": "<p>你的两颗头几乎从不在穿什么、去哪里或学什么技能上达成一致。你现在肯定已经找到了自己的主要专长，但这并不意味着你的另一个头放弃了完全不同的涉猎。在你的每日准备期间，你可以将你的涉猎集中于某个特定主题，从而在你选择的一项学识技能上受训。此熟练度持续到你的下次每日准备。由于此熟练度是临时的，你不能将其用作技能提升或如专长这样的永久角色选项的先决条件。</p>"
     },
     "0MQ2lpW2IhPVXczh": {
-      "name": "心智杂波奥罗科兰人",
+      "name": "心智杂波奥罗科兰人 Mindstatic Orocoran",
       "description": "<p>你的心灵不断释放心能杂波，你能够本能地运用它扰乱传入的心灵信号，保护自己免受心智控制和心能攻击。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.qjcTcdQpCVMJcNgi]反应。</p>"
     },
     "0V8DVkahNHdrVc8v": {
-      "name": "有翼班特里德人",
+      "name": "有翼班特里德人 Winged Bantrid",
       "description": "<p>你具有一种罕见突变，使大多数班特里德人用作双手的附肢长成了华丽的翅膀。幸运的是，你的足部滚珠比其他班特里德人的更小，因此腾出了一些纤毛，它们能够协同运作，像一双手一样发挥作用。你的速度为20尺，并获得20尺飞行速度。</p>"
     },
     "0XmZvX1XXFnVgJEx": {
-      "name": "太空旅者伊扎尔贡人",
+      "name": "太空旅者伊扎尔贡人 Spacefaring Izalguun",
       "description": "<p>你离开了母星，在银河间漫游。长久的漂泊让你有机会磨练自己的旅行本领。你受训于驾驶。如果你会自动受训于驾驶（例如来自背景或职业），则改为受训于另一项自选技能。如果你用于@UUID[Compendium.sf2e-anachronism.actions.Item.hsUKPqTdAvWwsqH2]或@UUID[Compendium.sf2e-anachronism.actions.Item.LXqcXRayK58inaKo]的驾驶检定取得成功，则改为获得大成功。</p>\n<p>此外，你在旅途中遇见了形形色色的人，也听过大量真假难辨的传闻。你获得@UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]{可疑知识}技能专长，即使你不满足其先决条件。</p>"
     },
     "0k7NTxKij43OQrhz": {
-      "name": "青血马德罗萨莱人",
+      "name": "青血马德罗萨莱人 Teal-Blooded Madrosarai",
       "description": "<p>在马德罗萨莱人的各支血脉中，青色最为常见。这支血脉以最勤勉的劳动者，以及致力于服务本族和卓越国整体需求的人而闻名。这种血液在你的血管中流淌，赋予你更强的韧性，让你能够在履行职责时加以运用。</p>\n<p>你获得@UUID[Compendium.sf2e-anachronism.actions.Item.NAqdTW3tC0eqGiIq]反应。</p>"
     },
     "1rbl8mXRTo7Qci3j": {
-      "name": "宝石足部滚珠班特里德人",
+      "name": "宝石足部滚珠班特里德人 Jeweled Orb Bantrid",
       "description": "<p>无论你曾参与魔法实验、诞生在多条魔脉的交汇处，还是以精密的魔法科技替换了足部滚珠，你的足部滚珠都是一块闪烁着魔法共鸣的巨大水晶。</p>\n<p>选择一种魔法源流。你从该源流的法术列表中获得一个戏法，并可随意将其作为所选源流的内在法术施放。戏法升阶至等于你等级一半的环级，向上取整。每当你从班特里德人族裔专长获得内在法术时，将其源流改为你所选的源流。</p>"
     },
     "2IlTBsZivUIbF3fm": {
-      "name": "虚空隐士侏儒",
+      "name": "虚空隐士侏儒 Void Hermit Gnome",
       "description": "<p>你的祖先曾生活在地下，躲避光明。如今，你把这种本能推向星际尺度的极致，寻找卫星的暗面、最深的环形山和最黑暗的星云——那些社会的喧嚣与光芒无法触及的地方。有些虚空隐士只是想独处，安静地思考深奥的问题；另一些则追逐恶意精类与外神扭曲诡异的知识，深入银河最幽暗的角落。只有你自己知道，你希望在那里找到什么。</p>\n<p>你学会阿克罗语，并受训于神秘。如果你会自动受训于神秘（例如来自背景或职业），则改为受训于一项自选技能。此外，你获得太空特征。</p>"
     },
     "2zafLaWFZJJ1Lcln": {
-      "name": "田野之庭莫伊舒人",
+      "name": "田野之庭莫伊舒人 Court of Fields Moyishuu",
       "description": "<p>你的天性是将计划付诸行动，无论是立即朝目标迈进，还是投入多年的追求。</p>\n<p>你受训于交涉。如果你会自动受训于交涉（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{集体印象}技能专长。此外，每日一次，你可以用一个具有专注特征的自由动作，将魂感暂时调谐为惊奇，持续1分钟。</p>"
     },
     "3aicexoWTeIgDIwA": {
-      "name": "金血马德罗萨莱人",
+      "name": "金血马德罗萨莱人 Gold-Blooded Madrosarai",
       "description": "<p>金色血液充盈你的血管，使皮肤泛起金属光泽，在光照下仿佛会发光。这支血脉常与领导才能和协调他人的能力联系在一起。</p>\n<p>你受训于威吓。如果你会自动受训于威吓（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.gUqvezs2zzoTXFAI]{集体胁迫}技能专长。如果你对类人生物[[/act coerce]]的威吓检定取得大失败，则改为获得失败。</p>"
     },
     "4cTQ0ri7zisd80s7": {
-      "name": "弹力足部滚珠班特里德人",
+      "name": "弹力足部滚珠班特里德人 Bouncy Orb Bantrid",
       "description": "<p>你的饮食使足部滚珠外包覆了一层富有弹性的材料，就像一颗大橡皮球。无论坠落多远，你都不会受到坠落伤害。</p>"
     },
     "4qRxhdLHJxODdW9D": {
-      "name": "哈阔亚马拉魁族",
+      "name": "哈阔亚马拉魁族 Ha Quoia Maraquoi",
       "description": "<p>有些马拉魁人一生攀爬的都是摩天大楼，而非克瓦什树。你来自哈阔亚这样的都市——那里是马拉塔的星际旅行中心。尽管你的祖先难以想象，你却欣然适应了数字世界的生活。你受训于计算机。如果你会自动受训于计算机（例如来自背景或职业），则改为受训于另一项自选技能。你在大型聚居地和繁忙空间站中@UUID[Compendium.sf2e-anachronism.actions.Item.Yn4jLPVWVE1vtAaF]时获得+1环境加值。你还获得@UUID[Compendium.sf2e-anachronism.feats.Item.GBGvxPo6rnlEXFMg]技能专长。</p>"
     },
     "5ClxThmv7Plakmee": {
-      "name": "歌谣之庭莫伊舒人",
+      "name": "歌谣之庭莫伊舒人 Court of Song Moyishuu",
       "description": "<p>你的天性充满艺术热情，并与表达这份艺术才能有着内在的联系。</p>\n<p>你受训于表演。如果你会自动受训于表演（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.xqAdXRd2gSQcqp5E]{动人表演}技能专长。此外，每日一次，你可以用一个具有专注特征的自由动作，将魂感暂时调谐为悲伤，持续1分钟。</p>"
     },
     "5F5vfBDx65lK8sru": {
-      "name": "星辰侏儒",
+      "name": "星辰侏儒 Stellar Gnome",
       "description": "<p>宇宙的自然之美与奇景深深吸引着你，你的皮肤和头发甚至可能闪烁星光。你或许尊敬或崇拜伊布拉、黛丝娜、塞恩蕾等星辰神祇，也可能对某些特定恒星怀有浓厚兴趣。无论你生活在燃烧群岛，还是环绕恒星运行的太阳空间站，你大概都想找到属于自己的一片太空，远离航行交通的喧嚣，静静欣赏群星。</p>\n<p>你受训于太阳学识；只要能看见星星，你用于@UUID[Compendium.sf2e-anachronism.actions.Item.hsUKPqTdAvWwsqH2]或@UUID[Compendium.pf2e.actionspf2e.Item.fJImDBQfqfjKJOhk]{辨别方向}的驾驶或生存检定就获得+1环境加值。此外，你可以随意将@UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{光亮术}戏法作为神术内在法术施放。戏法升阶至等于你等级一半的环级，向上取整。</p>"
     },
     "6Dd9koRONvKCSSyk": {
-      "name": "生物协调维萨尼",
+      "name": "生物协调维萨尼 Bioharmonic Verthani",
       "description": "<p>你经常处于温度极端的环境中。你获得温度适应反应。</p>"
     },
     "6M1eN79FjgV4xuQe": {
-      "name": "石血马德罗萨莱人",
+      "name": "石血马德罗萨莱人 Stone-Blooded Madrosarai",
       "description": "<p>石血是马德罗萨莱人中颜色较为暗淡的一支血脉，其成员常担任医护人员或哲学家。你总会花时间分析情况，而不会鲁莽行事。</p>\n<p>你可以随意将@UUID[Compendium.sf2e-anachronism.spells.Item.NkvRoN33RbDg3fl9]戏法作为奥术内在法术施放。戏法升阶至等于你等级一半的环级，向上取整。分析目标赋予的状态加值增加1。</p>"
     },
     "7tvoaj5hI1qtZcU3": {
-      "name": "教育型活体全息",
+      "name": "教育型活体全息 Educator Living Hologram",
       "description": "<p>你的程序可能负责一边与海洋生物共游，一边讲解自然纪录片；也可能让你成为一只拟人化的噬电兽，向儿童演唱启蒙歌曲。无论你的外貌和最初用途是什么，多年来接受的爱与尊重凝聚成了灵魂。你获得@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}技能专长，以及用于所选学识的@UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{驾轻就熟}技能专长。</p>"
     },
     "7wp6pQc0ZLbShHgl": {
-      "name": "舞蹈之庭莫伊舒人",
+      "name": "舞蹈之庭莫伊舒人 Court of Dance Moyishuu",
       "description": "<p>你主要通过动作表达自己的天性。由于你更专注于自己的动作，而非周围的人，在许多外人看来，你似乎有些冷淡。</p>\n<p>你受训于特技。如果你会自动受训于特技（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.lqdeHNRyaa2EfXXG]技能专长。此外，每日一次，你可以用一个具有专注特征的自由动作，将魂感暂时调谐为喜悦，持续1分钟。</p>"
     },
     "8fOLeyM613JqabRu": {
-      "name": "闪亮轻灵兽",
+      "name": "闪亮轻灵兽 Shiny Skittermander",
       "description": "<p>大多数轻灵兽都能将自己的血统追溯至奥德特琼克，或家族曾游历的地区，跨越数代，而你却不能。家族传说声称，在超出记忆和记录的某一代，一位爱冒险的祖先与顽皮的精类有过一段风流韵事，使后代偶尔会得到随机的祝福。这种传承有时被称为“闪灵兽”，让你的毛发泛起明亮光泽。如今，这种奇异影响显现在你身上。</p>\n<p>你获得@UUID[Compendium.sf2e-anachronism.actions.Item.bXLJtouJRWQXxLUP]动作。</p>"
     },
     "8fYfmYzhLUdzuI94": {
-      "name": "迅捷自律机器人",
+      "name": "迅捷自律机器人 Swift SRO",
       "description": "<p>你的创造者最看重的，是你以最快速度往返各地的能力。这不仅意味着你能加速至很高的速度，也意味着你能计算出如何迅速穿越不同地形与障碍，同时避免损坏精密部件，或因过热而停机。你可能曾是从事餐饮配送、货运或医疗运输的无人机，负责点对点递送高度敏感邮件和公文的信使机器人，远程探索新世界的侦察机，或从事军事与企业间谍活动的密探。你的速度增加5尺。</p>"
     },
     "8yb7RFUk2luzcgYP": {
-      "name": "沃拉斯沃拉尼西人",
+      "name": "沃拉斯沃拉尼西人 Vorlathi Worlanisi",
       "description": "<p>20年前，一群沃拉尼西人反抗了雷沃兰研究所残酷的实验，并建立沃拉斯秘库，如今已是近宇最高效、最成功的佣兵派系之一。这些幸存者接受了电控机械殖装强化与军事战术训练，被塑造成机智而好战的士兵，以战斗本领闻名银河。秘库建立后的这些年里，沃拉斯人招募了沃拉尼西幸运旅者和其他有潜力的士兵，为战斗强化他们的身体、磨练心智，同时使他们免于雷沃兰研究所式的残酷实验。沃拉斯佣兵拒绝依赖运气保护自己，而是努力为最不幸的局面做好准备。你可能曾参与最初的反抗，也可能是后来被招募的成员。</p>\n<p>你的身体经过电控机械定制改造。你受训于手艺。如果你会自动受训于手艺（例如来自背景或职业），则改为受训于另一项自选技能。你还获得@UUID[Compendium.sf2e-anachronism.feats.Item.sEb6KmjQVdWNTqiu]专长。</p>"
     },
     "9v2WwPR8f49W2WoW": {
-      "name": "伦哈机械师坚叶族",
+      "name": "伦哈机械师坚叶族 Runha Mechanic Hardor",
       "description": "<p>你接受过工程训练，可能是为了加入维持多尔乔庞大海水淡化设施运转的工程师队伍，也可能是为了维护族人赖以为生的成千上万套相互连接的其他系统。你受训于手艺。如果你会自动受训于手艺（例如来自背景或职业），则改为受训于另一项自选技能。你获得迅速修理专长。</p>"
     },
     "A2JYyzBHuDSwid8j": {
-      "name": "树冠攀行奥沙鲁人",
+      "name": "树冠攀行奥沙鲁人 Canopy Crawler Osharu",
       "description": "<p>杰尼卡尔的丛林中散布着孤立的研究社群，居住着植物学家、动物学家和生物学家。生活在湿透的雨林深处的人，每天都要面对善于伪装的伏击猎食者、能催眠猎物的食肉植物，以及成群具有心灵感应的两栖啮齿动物。丛林奥沙鲁人身材瘦长，黏性分泌物和附着纤毛使他们成为天生的攀爬者。</p>\n<p>你受训于运动。如果你会自动受训于运动（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.vwX3DQxsk04bTCBq]（25尺）专长。</p>"
     },
     "AlbB9NExLsUcdai7": {
-      "name": "赭血马德罗萨莱人",
+      "name": "赭血马德罗萨莱人 Umber-Blooded Madrosarai",
       "description": "<p>赭色血脉是大断层后出现的较新血脉，其成员拥有强大的心能，似乎与某些连他们自己也无法记起的事件有关。</p>\n<p>你从异能法术列表中获得一个戏法，可以随意将其作为异能内在法术施放。戏法升阶至等于你等级一半的环级，向上取整。将你获得的所有马德罗萨莱人族裔专长中的奥术和奥法，分别替换为异能和神秘，包括所获全部内在法术的源流、专长的特征及其先决条件。</p>"
     },
     "AtXvMEBMrfmOD7lG": {
-      "name": "移居伊扎尔贡人",
+      "name": "移居伊扎尔贡人 Resettled Izalguun",
       "description": "<p>你是众多离开母星、在银河各处寻找新行星定居的伊扎尔贡人之一。你已擅长游走于广阔银河错综复杂的社交环境，同时不暴露自己的来历。</p>\n<p>你受训于欺骗。如果你会自动受训于欺骗（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.B6HbYsLBWb1RR6Fx]{蛊惑人心}技能专长。</p>"
     },
     "BFMyN1e4xTscpsSA": {
-      "name": "表情符号活体全息",
+      "name": "表情符号活体全息 Emojiborn Living Hologram",
       "description": "<p>你诞生于信息圈的表情符号亚文化，将情绪毫不掩饰地展现在脸上。你的外貌包含夸张的表情；也许头部是一台显示器，屏幕上不断流淌着表情符号，也许你是一颗硕大、风格鲜明的头颅，带着细小而隐形的四肢。你受训于交涉。如果你会自动受训于交涉（例如来自背景或职业），则改为受训于一项自选技能。进行用于[[/act make-an-impression]]的交涉检定时，你可以使该动作失去听觉和语言特征，改为获得视觉特征。</p>"
     },
     "BegXNMGhK9YivAtW": {
-      "name": "夏生雷弗瑞亚人",
+      "name": "夏生雷弗瑞亚人 Summerborn Ryphorian",
       "description": "<p>你诞生于崔阿克斯漫长的夏季之一。夏生雷弗瑞亚人通常肤色较深、眼睛较大，除内耳外全身无毛。与冬生亲族相比，他们以更具艺术气质、性情多变和思想进步而闻名。你的皮肤还能分泌细腻的油脂，保护你免受最恶劣的酷热危害，并使外貌泛起诱人的光泽，颇受银河媒体刊物欢迎。许多夏生雷弗瑞亚人还会以文身装饰身体。</p>\n<p>你获得等于自身等级一半的火焰抗力（最低为1）。你将环境高温效果视为严酷程度降低一级（酷热变为极热，极热变为炎热，依此类推）。</p>"
     },
     "BmO4C2D61p3YypAL": {
-      "name": "深沼奥沙鲁人",
+      "name": "深沼奥沙鲁人 Deepmarsh Osharu",
       "description": "<p>深沼奥沙鲁人极为孤僻，舍弃社会的舒适、奢华与便利，前往沼泽最深处追求苦修的智慧和挑战。在恶臭泥沼这片原始的生命温床中，新型病原体和有毒动物几乎每天都会出现，只有了解常见危险，才能生存下去。</p>\n<p>你受训于生存。如果你会自动受训于生存（例如来自背景或职业），则改为受训于另一项自选技能。你还获得等于自身等级一半的毒素抗力（最低为1）。</p>"
     },
     "DkMIxqmsFTrebsmd": {
-      "name": "育婴世界萨瑟蝶人",
+      "name": "育婴世界萨瑟蝶人 Crèche-Raised Sarcesian",
       "description": "<p>你在田园般的育婴世界上长大，与数十名萨瑟蝶人孩子朝夕相处。你很早就学会了如何与他人相处，以及如何在人群中脱颖而出。你受训于交涉。如果你会自动受训于交涉（例如来自背景或职业），则改为受训于一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{集体印象}技能专长。</p>"
     },
     "EI7E0QBPW6IqMDPV": {
-      "name": "异形仿生人",
+      "name": "异形仿生人 Xenometric Android",
       "description": "<p>你是某个非人类族裔的构装版本。除了外形所仿照族裔的特征，你还获得仿生人特征。你获得@UUID[Compendium.pf2e.ancestryfeatures.Item.mnhmhOKWLiOD0lev]{构装之躯}能力，但不会获得仿生人的昏暗视觉能力。此外，你的体型类别和触及调整为与所选族裔一致。每当获得族裔专长时，你都可以选择至多13级的仿生人专长、外形所仿照族裔的任何专长，或异形仿生人专长。从你的族裔中选择一种传承，但你不会获得其规则益处。构装族裔（例如仿生人）的成员以及人类，不应选择异形仿生人传承。</p>"
     },
     "EkcXZdHjO9nDhMRk": {
-      "name": "赤血马德罗萨莱人",
+      "name": "赤血马德罗萨莱人 Red-Blooded Madrosarai",
       "description": "<p>在马德罗萨莱文化中，赤血马德罗萨莱人常被视为最伟大的战士，并与以可接受、受控的爆发方式宣泄情绪密切相关。深红的血液使你与过去伟大的马德罗萨莱战士建立联系。你努力控制脾气，却能在战斗最激烈时，将其化为纯粹的凶猛攻势。</p>\n<p>你获得@UUID[Compendium.sf2e-anachronism.actions.Item.Mfih4GjatO1sw2Ug]动作。</p>"
     },
     "FFYDFjloBxT1A7cM": {
-      "name": "苏里斯沃拉尼西人",
+      "name": "苏里斯沃拉尼西人 Surithic Worlanisi",
       "description": "<p>你钻研祖先在远古使用过的心能技艺。角锥引来的心能共鸣可能令人痛苦，但凭借自律与坚毅，你已重现了祖先狩猎本领的一部分。</p>\n<p>通过专注于猎物留下的心能回响，你能在最恶劣的环境中狩猎和追踪，甚至在太空真空中也不例外。你受训于生存。如果你会自动受训于生存（例如来自背景或职业），则改为受训于另一项自选技能。你拥有@UUID[Compendium.pf2e.feats-srd.Item.urQZwmzg2kS53vd5]{追迹老手}技能专长。此外，你具有范围20尺的模糊思维感知。然而，心能回响带来的心灵伤害弱点提高至等于自身等级的一半（最低为1）。</p>"
     },
     "FFxlJfHkeU53fMqC": {
-      "name": "伊扎尔兰伊扎尔贡人",
+      "name": "伊扎尔兰伊扎尔贡人 Izalraan Izalguun",
       "description": "<p>你的祖先与大多数伊扎尔贡人一样，在大断层之前离开荡劫星域，以逃离神祇卡德瑞卡的影响。随后，他们定居在一颗后来被称为伊扎尔兰的行星上。伊扎尔兰上的大多数伊扎尔贡人都从事体力劳动，供养族人。无论是哪种情况，强健颚部的有力噬咬都很实用。</p>\n<p>你获得造成1d6穿刺伤害的颚部徒手攻击，属于拳斗武器组，并具有巧技和无武装特征。</p>"
     },
     "GUOfV4zlmIhNaaCg": {
-      "name": "维修型自律机器人",
+      "name": "维修型自律机器人 Repair SRO",
       "description": "<p>如果没有大批先进工程机器人维护每座城市、卫星设施和空间站的工业基础设施，协约世界就不可能拥有今日的技术水平。你曾是其中一员，负责修理硬件或调试软件，让人们舒适地生活。你受训于计算机或手艺技能中的一项。如果你会自动受训于这两项技能（例如来自背景或职业），则改为受训于另一项自选技能。如果选择计算机，你获得@UUID[Compendium.sf2e-anachronism.feats.Item.ifQiKhl0Gt2CM7i9]技能专长。如果选择手艺，你获得@UUID[Compendium.pf2e.feats-srd.Item.ASy9AKEIRxPYUi5o]{迅速修理}技能专长。</p>"
     },
     "HcSOTLXcQ3FdYFzi": {
-      "name": "情绪同步维萨尼",
+      "name": "情绪同步维萨尼 Moodsynced Verthani",
       "description": "<p>你的皮肤颜色和图案会自然随情绪变化。这与情绪皮肤殖装的效果相同，但不视为殖装。选择此传承时，由你决定每种情绪对应的颜色。你不会获得肌肤艺术能力或变换肤色动作。</p>\n<p>此外，你坦率诚实的举止使你更容易影响他人。当你感到快乐或好奇等积极情绪时，用于[[/act make-an-impression]]和请求的交涉检定获得+1环境加值；当你感到愤怒或沮丧等消极情绪时，用于[[/act coerce]]和[[/act demoralize]]的威吓检定获得+1环境加值。</p>"
     },
     "HqE06aTlBlKUUs7A": {
-      "name": "半机械人",
+      "name": "半机械人 Cyborg",
       "description": "<p><em>殖装和自我改造在银河各处十分常见，而半机械人更进一步，以殖装替换至少一半的原生身体。</em></p>\n<p>你的身体接受了大量电控机械改造，远超标准殖装手术的程度。除了族裔的特征，你还获得半机械人和科技特征。你的体内集成了一台仅凭意念便能操作的通讯单元，甚至无需说话或动作，就能拨打电话和拍照。这不视为殖装。你的植入物上限增加4。每当获得族裔专长时，你都可以从半机械人专长和自身族裔专长中选择。</p>"
     },
     "I8SDKbuK7RQDnT8s": {
-      "name": "火洪方贡族",
+      "name": "火洪方贡族 Fire Flood Fonqugon",
       "description": "<p>罗德纳斯的河流有时会被一种迅速繁殖、生命周期破坏力极强的藻类侵占。藻群死亡时，会产生一种化合物，将河水变成燃烧的液体，并使其体积骤然膨胀。这会引发一种烧尽沿途一切的暴洪，天气干燥时还可能引发更多连锁野火。</p>\n<p>作为火洪方贡族，你格外强健，如同在孕育你之前曾熬过火洪的方贡树一样。你从族裔获得8点生命值，而非6点，并获得等于自身等级一半的火焰抗力（最低为1）。</p>"
     },
     "IZiTJB0PYElpoRlR": {
-      "name": "异星妖精侏儒",
+      "name": "异星妖精侏儒 Xenofey Gnome",
       "description": "<p>无论身处何种环境，你对自然世界的亲和力都能帮助你看见生物之间的联系。异星妖精侏儒常寻找尚未殖民的行星，与自然和谐共处；也会加入地貌改造殖民地，凭借机械与魔法技艺，将生命播撒到整个银河。许多异星妖精侏儒热衷于发现新物种，对异星与深空中的奇异生物抱有浓厚兴趣。</p>\n<p>你受训于自然。如果你会自动受训于自然（例如来自背景或职业），则改为受训于一项自选技能。每日一次，如果你身处一颗行星上，可以获得说和理解该星球居民常用的一种语言的能力。你在下次每日准备时失去这项知识。</p>"
     },
     "JHr8BIUd2QldzANI": {
-      "name": "冬生雷弗瑞亚人",
+      "name": "冬生雷弗瑞亚人 Winterborn Ryphorian",
       "description": "<p>与夏生亲族相比，你的皮肤更厚，外覆层层白色毛发。此外，你的眼睛明显更窄，以免患上雪盲。冬生雷弗瑞亚人传统上以粗犷却近乎固执的忠诚而闻名，尤其重视向他人许下的承诺与誓言。其中一些印象仅仅是刻板印象：同样有许多思想进步的冬生者，为了艺术表达而给毛发染色，不愿始终保持刻板的纯白模样。</p>\n<p>你获得等于自身等级一半的寒冷抗力（最低为1）。你将环境寒冷效果视为严酷程度降低一级（酷寒变为极寒，极寒变为严寒，依此类推）。</p>"
     },
     "JuqBWWB16ekM0Tdf": {
-      "name": "娇养异客蜥人",
+      "name": "娇养异客蜥人 Pampered Ikeshti",
       "description": "<p>你的族群在资源充裕的地区长大，例如大格瓦兹城外受精类影响的森林，或卡斯卓韦、布雷瑟达的卫星马拉塔、普洛尼斯等外星世界。你不习惯挨饿，也不会获得荒原生存者能力。取而代之，你从族裔获得10点生命值，而非6点；你还获得@UUID[Compendium.pf2e.feats-srd.Item.N8Xz5fuW6o7GW124]{快速恢复}通用专长，即使你不满足其先决条件。</p>"
     },
     "KABeb9mZOeeFhbc3": {
-      "name": "泥沼栖居奥沙鲁人",
+      "name": "泥沼栖居奥沙鲁人 Mire Dweller Osharu",
       "description": "<p>泥沼地区的居民比更爱钻研学问的同胞更强健，也常舍弃学术研究，转而投身动物学或农业等更贴近自然的领域。你熟悉沼泽的动植物，并能将自然观察所得推广到帕巴克以外的物种上。</p>\n<p>你受训于自然。如果你会自动受训于自然（例如来自背景或职业），则改为受训于另一项自选技能。此外，你对抗植物、毒素和木效果的豁免获得+1环境加值；如果对抗毒素效果的豁免取得成功，则改为获得大成功。</p>"
     },
     "Kq9eZcNWoSFMYnwP": {
-      "name": "虔修维萨尼",
+      "name": "虔修维萨尼 Devotional Verthani",
       "description": "<p>你将人生的大量时间用于深入理解某位神祇或某种哲学。你获得额外学识技能专长，用于一项与自选神祇、信仰或哲学有关的学识技能，例如奥拉斯学识或苍翠誓约学识。该神祇或哲学的宗教徽记永久留在你的肌肤上，可能是胎记、自选图案，或虔敬的烙印。</p>\n<p>该宗教徽记在你周围20尺半径内发出明亮光照（并在其外的20尺范围内发出昏暗光照）。你可以用一个具有专注特征的单动作熄灭或重新点亮它。</p>"
     },
     "NhF4Q9GRNoG5spdE": {
-      "name": "变皮奥罗科兰人",
+      "name": "变皮奥罗科兰人 Shifthide Orocoran",
       "description": "<p>你斑驳的皮肤能够变换颜色，赋予你暂时且不断变化的伪装。</p>\n<p>每日准备时，你可以从以下选项中选择一种特定地形：极地、沙漠、森林、山地、平原、太空、沼泽或城市。你的皮肤呈现出大体能融入该环境的色调。你受训于隐秘。如果你会自动受训于隐秘（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.pWMwGj8lnOpkU3Hr]动作。</p>"
     },
     "NqVBHcHn3qPjJbtY": {
-      "name": "战斗型自律机器人",
+      "name": "战斗型自律机器人 Combatant SRO",
       "description": "<p>你最初为安保或防卫而造，因此战斗从一开始便刻在你的电路中。你可能曾是一名可消耗的先锋士兵，被投入与你毫不相干的冲突；也可能是受命保护富有主人至最后一刻的保镖，或致命刺客忠实的狙击机器人。无论起源或如今的想法如何，你都是危险的敌人。你获得以下通用专长中自选的一项：@UUID[Compendium.pf2e.feats-srd.Item.BStw1cANwx5baL6d]{护甲擅长}或@UUID[Compendium.pf2e.feats-srd.Item.x9wxQ61HNkAVbDHr]{武器擅长}。</p>"
     },
     "OWFvX5uxQ2D38Z2z": {
-      "name": "悬浮广告活体全息",
+      "name": "悬浮广告活体全息 Hover Ad Living Hologram",
       "description": "<p>你曾是一则全息广告，最初设计为显示在天空中或悬浮于半空。你的外貌色彩鲜艳、大胆醒目，可能伴随闪烁文字或简短有力的广告语，展示着一种你大概怀有强烈感情的产品。你的陆地速度获得悬浮特征，并将坠落距离视为减少10尺。</p>"
     },
     "QPl6jYk0FDO1QLcZ": {
-      "name": "专职型自律机器人",
+      "name": "专职型自律机器人 Specialist SRO",
       "description": "<p>你为某个非常具体的目的而造。无论你是DJ、自动导游还是植物分析员，在产生自我意识之前，你就已经精通某种技艺。也许你厌倦了任务，因渴望变化而觉醒；也许你意识到，自己能做的不止是设计时规定的工作。无论这种技能给你带来快乐，还是意味着机械而乏味的劳作，你依然保留着相应的天赋。你获得@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}专长，以及用于所选学识的@UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{驾轻就熟}专长。</p>"
     },
     "QcbrI0l9nnC92sOm": {
-      "name": "断层触染者",
+      "name": "断层触染者 Gap-Touched",
       "description": "<p>大断层吞没了你的一部分，留下奇异的力量和令人不安的存在困惑，同时赋予你独特的能力，得以感知被大断层遮蔽的历史。除了族裔的特征，你还获得断层触染特征。每当获得族裔专长时，你都可以从断层触染者专长和自身族裔专长中选择。你获得用于大断层学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}通用专长。你对抗心灵效果的豁免获得+1环境加值。</p>"
     },
     "RafHOA55opMBMtiZ": {
-      "name": "漫沙者",
+      "name": "漫沙者 Sand Roamer",
       "description": "<p>你的祖先游荡在被维斯卡里姆榨尽重要养分的荒芜土地上。你比大多数趴爪族更矮、更结实，耳朵宽大并带有簇毛，脚垫覆盖毛发。你的体型为小型，而非中型。你无视沙地造成的困难地形和不平地面，并获得等于自身等级一半的火焰抗力（最低为1）。</p>"
     },
     "RuKqV3IgmakWyEer": {
-      "name": "劳工型自律机器人",
+      "name": "劳工型自律机器人 Worker SRO",
       "description": "<p>协约世界各地都用机器协助体力劳动。这些机器通常外形实用、结构坚固、维护成本低廉，还经常在足以杀死有机劳动者的环境中工作。无论你曾是流散带中自由漂浮的真空采矿机，还是制造漂流引擎的装配线机器人，你最终都意识到，自己不只是程序规定的任务。你受训于运动。如果你会自动受训于运动（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.C0Tcelg3BAPhML6J]{体健负重}技能专长。</p>"
     },
     "SQixiaTh0yh7Dvqa": {
-      "name": "交季雷弗瑞亚人",
+      "name": "交季雷弗瑞亚人 Liminal Ryphorian",
       "description": "<p>你诞生于崔阿克斯偏心轨道带来的短暂春季或秋季，兼具夏生与冬生者的特征。在现代基因疗法与太空飞行出现之前，交季雷弗瑞亚人比现在更加罕见，被视为神秘而令人敬畏的存在。即使在今天，崔阿克斯一些偏远乡村仍给予他们近似小有名气的名人般的地位。</p>\n<p>你对抗所有寒冷和火焰效果的豁免获得+1环境加值，在13级时提高至+2。此外，你为结束正在承受的持续寒冷和火焰伤害而进行的纯骰检定，其DC从15降低至10；若有适当协助，则降低至5。</p>"
     },
     "TqR6MAdihjkfJdTu": {
-      "name": "空心足部滚珠班特里德人",
+      "name": "空心足部滚珠班特里德人 Hollow Orb Bantrid",
       "description": "<p>你或你的父母曾多年采用低热量、高蛋白的饮食。这使你的足部滚珠形成了空心、格架状的细胞结构，更加轻盈，也能浮在水上。</p>\n<p>你获得20尺游泳速度。在任何液体表面移动时，你的游泳速度等于自身速度（若20尺更高，则为20尺）。</p>"
     },
     "VZsiaoNR2hlyV0Zt": {
-      "name": "合成血肉维萨尼",
+      "name": "合成血肉维萨尼 Synthflesh Verthani",
       "description": "<p>你体内已经装有一件殖装，尽管它是人工合成的，你仍将其视为自身的一部分。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.sEb6KmjQVdWNTqiu]通用专长。</p>"
     },
     "WMZyyeb2YbunxRl0": {
-      "name": "万古之心活体全息",
+      "name": "万古之心活体全息 Aeonheart Living Hologram",
       "description": "<p>在阿兹兰特太空探索的初期，为了熬过无尽的虚空旅程，你将灵魂转移进一颗万古石，舍弃肉身，成为不会衰老的万古之心。当星舰缓慢穿行于群星之间时，你照料沉睡的船员并维护舰船。与现代硬光投影仪不同，你的万古之心核心投射出魔法硬光外壳，完美呈现你成为万古之心前的模样。你的外貌必须是一名中型阿兹兰特人类。你获得阿兹兰特语作为奖励语言；除了活体全息族裔专长，你还可以选择人类族裔专长，只要该专长不要求你所缺少的生理特征。每当你为一颗万古石注能时，你都会获得其共鸣力量。</p>"
     },
     "ZQM2aDdfJnyUZrdM": {
-      "name": "吉祥物活体全息",
+      "name": "吉祥物活体全息 Mascot Living Hologram",
       "description": "<p>你曾是某种凡人创作的数字化身，传播他们的信息，分享他们的理念。你代表某个俱乐部、公司、团队，或仅仅是一种获得生命的思想。你的外貌可能取自运动队命名所依据的生物、某座博物馆闻名的艺术品、热门废料赛车手驾驶的载具，或用来代表某个组织的抽象符号。你获得让我听见欢呼动作。</p>"
     },
     "cVI2PsWafys6fxjv": {
-      "name": "暴躁轻灵兽",
+      "name": "暴躁轻灵兽 Grumpy Skittermander",
       "description": "<p>并非所有轻灵兽都乐于助人。与人们印象中开朗活泼的轻灵兽相比，你脾气暴躁、举止粗鲁、性情阴郁。你可能不喜欢帮忙，也可能只是按通常的文化标准来看，你提供帮助的方式令人不快。</p>\n<p>你受训于威吓。如果你本就会自动受训于威吓（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{金刚怒目}技能专长。</p>"
     },
     "ckS3zXR5NQeoWVp9": {
-      "name": "临时改装拉西利特族",
+      "name": "临时改装拉西利特族 Jury-Rigging Raxilite",
       "description": "<p>你安装了专门的外科手术模块，能够利用废金属对自己的身体进行紧急修理。</p>\n<p>你选择受训于手艺或医疗（若两者均已受训，则选择另一项技能）。每天一次，你可以花费10分钟，将1负载的废金属送入你的外科手术模块。如果如此做，你恢复@Damage[(@actor.level*5)[healing]]{你等级的五倍}点生命值。通常可以免费轻松取得废金属。</p>"
     },
     "evmeDevSkC6RGBMk": {
-      "name": "无运沃拉尼西人",
+      "name": "无运沃拉尼西人 Luckless Worlanisi",
       "description": "<p>你属于一个规模很小的沃拉尼西人社群，与行星上的其他居民过着截然隔绝的生活。你们住在沃兰最高山脉之下的火山洞窟深处，而不像其他沃拉尼西人那样往来于岛屿之间。你们因锥角较小而被错误地称为“无运者”。在板块位移迫使你们来到地表之前，人们一直将你们视为神话中的祖先，认为这类族人只剩遗迹中埋藏的古老骸骨。</p>\n<p>你比普通沃拉尼西人高大得多，蓝色皮肤因缺少日晒而更苍白，锥角相对于身体也更小。你的体型为中型，起始生命值为8而非6，但长期远离大多数同族使你的灵能退化。你既没有有限心灵感应，也没有灵能回响，且不能选择具有心灵特征的沃拉尼西人族裔专长。此外，在炎热的岩浆隧道中生活多年，使你获得等于等级一半的火焰伤害抗力（最低为1）。</p>"
     },
     "ez9OAzaaj7hqaYiO": {
-      "name": "根根奥沙鲁人",
+      "name": "根根奥沙鲁人 Gengen Osharu",
       "description": "<p>根根奥沙鲁人适应了帕巴克咸海中的海水，在沿岸扩展聚居地的过程中绘制了帕巴克的大陆地图，并因此受到赞誉。在奥沙鲁人中，根根以勇敢闻名，许多著名的奥沙鲁探险家都出自根根社群。根根能水陆两栖，可以无限期地在陆地上生存，但浸泡在水中会令他们放松，因此他们偏好在水域或群岛行星上工作，以便随时游泳。</p>\n<p>你获得20尺游泳速度和两栖特征，能够在水中与空气中呼吸。</p>"
     },
     "fOGOVY3fYxiBDvHK": {
-      "name": "帕塔吉马拉魁族",
+      "name": "帕塔吉马拉魁族 Patagi Maraquoi",
       "description": "<p>帕塔吉（在马拉塔语中也意为“天降死神”）精于从难以想象的高度跃下，以惊人的精准击倒猎物。你的祖先是这些古代马拉魁猎手中最大胆的一群，他们演化出从前臂延伸至小腿的特殊翼膜。平时，这些翼膜紧贴身体两侧，几乎难以察觉；但当你从高处跃下时，它们就会鼓起，减缓你的下落。</p>\n<p>你不会受到坠落伤害，并能控制下降过程，缓慢滑翔落地：在空中每下降5尺，可向前移动至多20尺。只要你每轮至少花费1个动作滑翔且尚未抵达地面，你在回合结束时就仍停留在空中。</p>"
     },
     "gKSpj4ErXFb9P95v": {
-      "name": "磁性足部滚珠班特里德人",
+      "name": "磁性足部滚珠班特里德人 Magnetic Orb Bantrid",
       "description": "<p>通过富铁饮食、改造和药物的共同作用，你的足部滚珠中形成了带磁性的金属核心。</p>\n<p>你获得等于你速度的攀爬速度，但只能用此攀爬速度攀爬金属表面。即使在零重力下，你也能用陆地速度沿金属表面移动。站在金属表面时，你进行@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}的杂技检定获得+2环境加值，用于避免被@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}或@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}的强韧DC也获得+2环境加值。</p>"
     },
     "gbNshpJlAC1yKd65": {
-      "name": "军团雷弗瑞亚人",
+      "name": "军团雷弗瑞亚人 Legionnaire Ryphorian",
       "description": "<p>无论你出生在崔阿克斯，还是浩界深处的军事设施，你的家族世代都是天火军团的一员。这支庞大的佣兵团一直如同你的大家庭，其荣誉与手足情谊的观念是你人生的根基。这些军事传统在你早期成长中的影响，甚至超过了左右大多数雷弗瑞亚人生活的正常季节循环。你刻苦训练，为纪律与战斗的生活做好准备，即使最终选择了军团之外的道路。</p>\n<p>你获得@UUID[Compendium.pf2e.feats-srd.Item.BStw1cANwx5baL6d]{护甲擅长}专长。如果你的职业让你受训于所有类型的护甲，则改为受训于运动（若运动已受训，则选择另一项技能），并获得@UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{盾牌格挡}技能专长。</p>"
     },
     "gpZqW32yBAOrSpqm": {
-      "name": "布马拉沃拉尼西人",
+      "name": "布马拉沃拉尼西人 Bumalla Worlanisi",
       "description": "<p>你的母星已成为旅游中心，各地的人们前来观看沃兰著名的比赛，或与银河中最幸运的人一试运气。你可能在顾客永远会输的短签赌场、沃兰首都纳斯塞里的无数剧院和竞技场之一，或群星间任何类似场所工作。你或许曾参加幸运帆船赛，穿越整颗行星，在冲过风暴、越过群山时，对着镜头微笑并摆出夸张的姿势。</p>\n<p>无论身在何处，你总能找到观众。虽然取悦人们是件辛苦事，但你已付出足够努力。你知道如何赢得掌声，也因此积累了一套可能派得上用场的技能。你受训于表演。如果你本就会自动受训于表演（例如来自背景或职业），则改为受训于另一项自选技能。你还获得@UUID[Compendium.pf2e.feats-srd.Item.lFwfUvH2708rl6i3]{精湛表演者}技能专长。</p>"
     },
     "hyRCVl3W8iAQZqHi": {
-      "name": "勇侠轻灵兽",
+      "name": "勇侠轻灵兽 Gallant Skittermander",
       "description": "<p>不是每个人都有勇气为自己挺身而出，但他们知道，你是可以依靠的人。也许你是兄弟姐妹中的老大，也许你童年时就喜欢打架。或许你每天在健身房锻炼，把自己练得越来越壮。无论这份本领从何而来，你出色的体能总让你为别人挺身而出，尤其是其他轻灵兽；次数多到甚至影响了你的成长。这些反复发生的冲突激活了一项隐性特征，让你长到普通轻灵兽的两倍大小。</p>\n<p>你获得力量加值，而非敏捷加值，体型为中型，并受训于运动。如果你本就会自动受训于运动（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.KxaYlC50zzHysJj8]{泰坦摔角手}技能专长。</p>"
     },
     "i8v64HlpvuyrDGHy": {
-      "name": "滑皮奥罗科兰人",
+      "name": "滑皮奥罗科兰人 Slitherskin Orocoran",
       "description": "<p>你的皮肤覆盖着一层薄薄的有毒分泌物，十分滑溜。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.oKLA4xGqOkugw45C]反应。</p>"
     },
     "itVWSleeetAd1BWB": {
-      "name": "蓬毛轻灵兽",
+      "name": "蓬毛轻灵兽 Fluffy Skittermander",
       "description": "<p>你的毛发又长又生长迅速，可以通过梳理来为身体散热或保暖。</p>\n<p>你的冬毛赋予你等于等级一半的寒冷抗力（最低为1），且对你而言，环境寒冷效果的严酷程度降低一级（酷寒变为极寒，极寒变为严寒，依此类推）。</p>\n<p>你的夏毛赋予你等于等级一半的火焰抗力（最低为1），且对你而言，所有环境炎热效果的严酷程度降低一级。</p>\n<p>你可以在每日准备期间脱去旧毛或长出新毛。</p>"
     },
     "kIc0bGAzA50ugKJ8": {
-      "name": "织彩维萨尼",
+      "name": "织彩维萨尼 Colorweaver Verthani",
       "description": "<p>你已掌握皮肤色素的变化。每当你的肤色大致与周围环境相符时，你从变色皮肤获得的加值由+1提高至+2。</p>"
     },
     "l0EDJxmBSrtre6w1": {
-      "name": "医疗自律机器人",
+      "name": "医疗自律机器人 Medic SRO",
       "description": "<p>你被设计为外科医生、护士或战地医护，或承担了其他照料有机生物健康的职责。你熟悉许多有机生物的身体构造，以及他们容易遭受的病症、疾病和伤害。你受训于医疗。如果你本就会自动受训于医疗（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{战地医疗}技能专长。</p>"
     },
     "lIfJxMR8sjbs9dZR": {
-      "name": "超改造拉西利特族",
+      "name": "超改造拉西利特族 Hyper-Augmented Raxilite",
       "description": "<p>通过大规模身体改造，你调整了体形，为改造装置腾出额外空间。这些空间从不会闲置；你总会根据心情和即将面对的挑战，摆弄身体、尝试新的改造。</p>\n<p>你获得@UUID[Compendium.sf2e-anachronism.feats.Item.sEb6KmjQVdWNTqiu]通用专长。你在休整期间如同更换专长一般更换此改造时，只需花费3天。</p>"
     },
     "n7PPMZNz1x1UxXNt": {
-      "name": "烈焰之庭莫伊舒人",
+      "name": "烈焰之庭莫伊舒人 Court of Flames Moyishuu",
       "description": "<p>你的天性是立刻、直接地解决问题，即使这意味着身后只留下焦土。</p>\n<p>你受训于威吓。如果你本就会自动受训于威吓（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.ar2DUlvDK4LDcH9J]{快速胁迫}技能专长。此外，每天一次，你可以用一个具有专注特征的自由动作，将魂感暂时调谐为愤怒，持续1分钟。</p>"
     },
     "niiajgrBAX0MJdV7": {
-      "name": "罗阿维沙马拉魁族",
+      "name": "罗阿维沙马拉魁族 Roavisha Maraquoi",
       "description": "<p>只有极少数马拉魁族生来就有直接与祖灵源泉沟通的潜能。你天生拥有罕见的才能，能够借助成千上万马拉魁祖先的知识，寻求建议与指引。你的社群可能对你抱有某种程度的敬意。</p>\n<p>你受训于宗教。如果你本就会自动受训于宗教（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.vOQ6BYpQpHd4IycO]动作。</p>"
     },
     "oJMCbkUe5o1UGWXT": {
-      "name": "祖甲奥沙鲁人",
+      "name": "祖甲奥沙鲁人 Ancestor's Armor Osharu",
       "description": "<p>一些现代奥沙鲁人接受奇术遗传改造，重新长出柔韧的臂甲，恢复祖先的部分防御能力。虫群领空骤然逼近帕巴克的宇宙门户，随之而来的尚武热潮席卷了年轻奥沙鲁人，这种改造尤其受到他们追捧。</p>\n<p>你经过大规模改造，长出了祖先那样的鳞状臂甲。你的@UUID[Compendium.sf2e-anachronism.equipment.Item.V4kcwGZw9t2zAW1k]作用如同@UUID[Compendium.sf2e-anachronism.equipment.Item.j66fZJrm1nECG3UM]{商用型皮下装甲}改造，但它是你身体的永久组成部分，不具有科技特征，也不占用改造植入位。你可以如同升级皮下装甲一样，花费信用点升级臂甲。你还获得@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.m4HQ2o5aPxjXf2kY]{盾牌格挡}通用专长。</p>"
     },
     "ovd3OeznRfR6Kf8n": {
-      "name": "冰之歌奥德",
+      "name": "冰之歌奥德 Song of Ice Ord",
       "description": "<p>在拉泽尔的大多数隧道中，地表的辐射热与地下的地热共同维持着相对舒适的温度。但你在靠近两极或远离地下热源的城镇长大，你的族人不得不适应寒冷。一生在冰冷石道中生活，让你的皮肤更加厚实、体格更加强健。你获得等于等级一半的寒冷抗力（最低为1）。</p>"
     },
     "pZ4NpIQ1WU9ocnRQ": {
-      "name": "恩霍伊特拉马拉魁族",
+      "name": "恩霍伊特拉马拉魁族 Enhoitra Maraquoi",
       "description": "<p>你来自马拉塔的海岸，在水中穿梭的速度与在陆地行走一样快。你显然擅长游泳，也能迅速将这项本领运用到零重力环境中。你的爪子比擅长攀爬的马拉魁族更钝、更短，但指间和趾间有坚韧的蹼。漂浮在水中或太空中不会让你失去方向感。你没有攀爬速度。你获得25尺游泳速度。你获得@UUID[Compendium.pf2e.feats-srd.Item.aJUXbe9HJVvv0Mxa]{龟息}通用专长，且在水中或零重力环境中不会陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态。</p>"
     },
     "pfQudtkYql3nBDPW": {
-      "name": "远古伊扎尔贡人",
+      "name": "远古伊扎尔贡人 Ancient Izalguun",
       "description": "<p>你是一名最近才从停滞状态中苏醒的伊扎尔贡人，仍在适应眼前陌生的新时代。你和其他远古伊扎尔贡人早在大断层之前就生活在阿吉拉4号，使用着早已失落的文明所拥有的高度先进科技；但醒来后的世界与你离开时已大不相同。</p>\n<p>由于处于较早的演化阶段，你的中间肢体比现代伊扎尔贡人更纤细、更轻，通常也更偏好双足姿态。不过，你的手臂更加灵巧，而且你了解伴随自己成长的古代科技。你受训于手艺。如果你本就会自动受训于手艺（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.ASy9AKEIRxPYUi5o]{迅速修理}技能专长。</p>"
     },
     "qMqxTpy1a958eHdS": {
-      "name": "以太裔维萨尼",
+      "name": "以太裔维萨尼 Aetherkin Verthani",
       "description": "<p>你习惯了在广袤太空中生活。你受训于驾驶。如果你本就会自动受训于驾驶（例如来自背景或职业），则改为受训于一项自选技能。此外，你获得@UUID[Compendium.pf2e.feats-srd.Item.aJUXbe9HJVvv0Mxa]{龟息}通用专长。</p>"
     },
     "qljFa37uuA3Ppgdn": {
-      "name": "乌卡拉雷弗瑞亚人",
+      "name": "乌卡拉雷弗瑞亚人 Ukara Ryphorian",
       "description": "<p>你是来自宁大陆的乌卡拉战花之一。这些明星武者自幼离开家庭、放弃社会地位，甚至舍弃性别，接受训练，以华丽而仪式化的战斗表演震撼银河各地的观众。作为宁大陆文化与商业实力的代表，他们既坚忍克己，又光彩夺目。</p>\n<p>你受训于表演。如果你本就会自动受训于表演（例如来自背景或职业），则改为受训于另一项自选技能。选择一件简易或军用近战武器；若你已受训于所有军用武器，也可以选择一件进阶近战武器。当你持用所选武器时，它获得专业（表演）特征。</p>"
     },
     "qnZB3jCDI0LmyJ9e": {
-      "name": "滑稽活体全息",
+      "name": "滑稽活体全息 Wacky Living Hologram",
       "description": "<p>你个性鲜明，外表荒诞，有时甚至违背物理法则。你的举止可能夸张得像卡通角色，或颜色会随心情剧烈变化。你获得卡通伸展动作。</p>"
     },
     "r6LPBsM0pW1iZQfy": {
-      "name": "好动轻灵兽",
+      "name": "好动轻灵兽 Fidgeter Skittermander",
       "description": "<p>你从来都坐不住，这也帮助你在棘手局面中避开危险。你的背景可能包括某个停不下来的小动作，或即使在最严肃的时刻，也需要来回踱步。有些人可能觉得你令人不适或心烦，但大多数人已接受你本来的样子。</p>\n<p>你获得@UUID[Compendium.sf2e-anachronism.actions.Item.gS62Drm7DuTrc9Y3]反应。</p>"
     },
     "rFvl8O60yyErO8BK": {
-      "name": "青柠血马德罗萨莱人",
+      "name": "青柠血马德罗萨莱人 Lime-Blooded Madrosarai",
       "description": "<p>拥有青柠色血液的马德罗萨莱人，常在卓越国及其以外地区创造令人瞩目的发明，推动重大变革。这种血液被视为通往许多职业的门票，尤其是需要与物件打交道的职业。</p>\n<p>你受训于手艺。如果你本就会自动受训于手艺（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.ASy9AKEIRxPYUi5o]{迅速修理}技能专长。</p>"
     },
     "run8b7mU6gSchXEN": {
-      "name": "瓦利马拉魁族",
+      "name": "瓦利马拉魁族 Vali Maraquoi",
       "description": "<p>在闪耀之城乌阿特瓦利的阴影下，奉行孤立主义的马拉魁部落训练着希望保存数千年历史与古老生活方式的年轻人。这些孤立主义者学会了不信任外来者，并以惊人的精准使用祖先的工具。你来自一个至少在某种程度上拒绝加入银河社会的部落。</p>\n<p>你受训于战争学识。如果你本就会自动受训于战争学识（例如来自背景或职业），则改为受训于另一项自选技能。你获得一件自选的古式或非电子武器的使用权，并熟悉该武器。在确定熟练度时，你将所选军用武器视为简易武器，或将所选进阶武器视为军用武器。如果你的职业让你受训于所有军用武器或枪械，则可以改为选择一件罕见进阶武器。你获得该武器的使用权，并在确定熟练度时将它视为军用武器。</p>"
     },
     "rvNN5532Zzsgxblk": {
-      "name": "游学奥沙鲁人",
+      "name": "游学奥沙鲁人 Itinerant Scholar Osharu",
       "description": "<p>奥沙鲁人热爱知识、天性谨慎，因而作为领域专家、训练大师和驻地学者，在整个银河都备受欢迎。认为自己可能有意成为星际学者的奥沙鲁人，会先在帕巴克展开一系列旅行，朝访与自身专长有关的重要地点和学府，以检验自己是否喜爱旅行。</p>\n<p>你受训于一项自选学识技能，并受训于社群。如果你本就会自动受训于社群（例如来自背景或职业），则改为受训于另一项自选技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.P9HCz0uR6xPHuw72]{多语言}作为奖励专长。</p>"
     },
     "sPBX9xGEsFxdUlnn": {
-      "name": "胶肢奥罗科兰人",
+      "name": "胶肢奥罗科兰人 Rubberlimb Orocoran",
       "description": "<p>你的四肢富有橡胶般的弹性，使别人难以抓牢你。</p>\n<p>你受训于杂技。如果你本就会自动受训于杂技（例如来自背景或职业），则改为受训于另一项自选技能。你进行[[/act escape]]的检定获得+1环境加值。此外，对那些不需要你[[/act squeeze]]的狭窄空间，你不将其视为困难地形。</p>"
     },
     "t4Tq3fnDqou4slBY": {
-      "name": "劫后人类",
+      "name": "劫后人类 Cataclyst Human",
       "description": "<p>你是一个死去世界或毁灭文明的孩子，属于因入侵、天灾或战争而覆灭的人类失落分支。你变得谨慎，从同胞破碎的过去中吸取教训，决心打破毁灭性的循环，重新在银河中找到自己的位置。</p>\n<p>当你或盟友使用@UUID[Compendium.pf2e.actionspf2e.Item.kV3XM0YJeS2KCSOb]{侦察}探索活动时，你获得的先攻检定环境加值由+1提高至+2。投掷先攻时，你可以用一个反应站立或快步。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.YdijKJgLnRTNQR7v]</p>"
     },
     "taUJfLu4DzO7SEk0": {
-      "name": "锐视拉西利特族",
+      "name": "锐视拉西利特族 Keen-Sighted Raxilite",
       "description": "<p>你成长的社群经常在阴暗处工作。你可能曾长时间待在飞行城市舰核心的隧道中，也可能生活在地表，社群在那里协助开采创造科技奇迹所需的关键材料。因此，你年幼时便接受了视觉改造。</p>\n<p>你获得黑暗视觉。</p>"
     },
     "uWqSWbLLEDZmQzGi": {
-      "name": "漂流探索侏儒",
+      "name": "漂流探索侏儒 Drift Delver Gnome",
       "description": "<p>虽然许多同族仍感受到第一世界的召唤，你却被一个新得多的奇妙事物吸引：三贤一创造的人造位面——漂流域。你的头发闪耀着机械之神位面中变幻莫测的色彩。无论你是对该位面具有超自然感应的三贤一信徒，还是在那里累计航行数月的老练驾驶员，你都能自在地穿梭于这个混沌维度。</p>\n<p>你受训于驾驶。如果你本就会自动受训于驾驶（例如来自背景或职业），则改为受训于一项自选技能。你在漂流域内进行@UUID[Compendium.sf2e-anachronism.actions.Item.hsUKPqTdAvWwsqH2]，或穿越漂流域进行@UUID[Compendium.sf2e-anachronism.actions.Item.LXqcXRayK58inaKo]的驾驶检定获得+1环境加值，且飞往漂流域内目的地或经由漂流域前往目的地所需的旅行时间减少1天。</p>"
     },
     "vaA5HFp4bfvEU86l": {
-      "name": "荡劫星域伊扎尔贡人",
+      "name": "荡劫星域伊扎尔贡人 Scoured Stars Izalguun",
       "description": "<p>大多数伊扎尔贡人逃离时，你的祖先留在了荡劫星域星系的母星阿吉拉4号。留下的人不得不放弃主要聚居地；随着幸存者转而过上游牧生活，这些聚居地逐渐沦为废墟，他们只能从旧文明遗迹中回收科技。你习惯了在缺乏合适工具的情况下摆弄科技设备。</p>\n<p>你受训于计算机。如果你本就会自动受训于计算机（例如来自背景或职业），则改为受训于另一项自选技能。你无需@UUID[Compendium.sf2e-anachronism.equipment.Item.qqjDcCW118ySAlAS]{黑客工具包}便可连接计算机并执行@UUID[Compendium.sf2e-anachronism.actions.Item.RF8xNJ8QsMwogerB]动作，而是利用手边现有的工具凑合完成。你还获得@UUID[Compendium.sf2e-anachronism.actions.Item.A2T7BjMzvTg8KMMd]反应。</p>"
     },
     "xMH48HHPJ8Nsiuyu": {
-      "name": "疾行班特里德人",
+      "name": "疾行班特里德人 Locomotive Bantrid",
       "description": "<p>你格外擅长操控身体下方数以千计的纤毛，让足部滚珠高速旋转。</p>\n<p>你的速度为30尺。身体出色的平衡能力使你进行@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}的杂技检定获得+2环境加值，用于避免被@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}的反射DC也获得+2环境加值。</p>"
     },
     "xpkfGTJtUM8KTJUF": {
-      "name": "新诞雷弗瑞亚人",
+      "name": "新诞雷弗瑞亚人 Newborn Ryphorian",
       "description": "<p>新诞者的诞生，以及奥克腾毁灭前逐渐酝酿的这一宇宙事件，对盟约诸界所在的恒星系乃至整个银河都产生了巨大影响。这一神圣事件引发的灵能冲击波还做到了曾被认为不可能的事：切断了一些雷弗瑞亚人与崔阿克斯季节循环的联系。虽然你身上已不再显露出与祖先母星相连的明显迹象，但你发展出感知他人情绪的灵能倾向，让你更容易信任盟友、识破敌人。</p>\n<p>即使你无法听见，或生物不发出声音，你从缺口耳能力获得的环境加值也依然适用；但若生物既无声又免疫心灵效果，则不适用。此外，你获得@UUID[Compendium.sf2e-anachronism.feats.Item.IXl04yjeeqBiSZiy]专长。</p>"
     },
     "xwaoFFiRh9q2HFbL": {
-      "name": "滤血奥罗科兰人",
+      "name": "滤血奥罗科兰人 Bloodfilter Orocoran",
       "description": "<p>你的血液能直接从血流中过滤危险化学物质与毒素，使你能抵御苦难并迅速从疾病中恢复。你获得@UUID[Compendium.pf2e.feats-srd.Item.N8Xz5fuW6o7GW124]{快速恢复}通用专长与@UUID[Compendium.sf2e-anachronism.actions.Item.L0MLZNUoJ6lTlBZu]能力。</p>"
     },
     "z3TgbCGcV0M9pjWY": {
-      "name": "次世代拉西利特族",
+      "name": "次世代拉西利特族 Next-Gen Raxilite",
       "description": "<p>你的家族拥抱最前沿的科技。他们总在尝试最新改造，从不畏惧未经验证的型号可能带来的风险。从你出生不久，他们就让你参与其中，在你还是婴儿时便将新的IMAS原型装入你的身体。幸运的是，这次实验成功了。尖端IMAS让你比大多数拉西利特族移动得更快。</p>\n<p>你的速度为30尺。</p>"
     },
     "zZIUI1AFIWzV7UUw": {
-      "name": "幸运旅者沃拉尼西人",
+      "name": "幸运旅者沃拉尼西人 Fortunaut Worlanisi",
       "description": "<p>生活就是旅程，而旅程就是你的生活。你踏上星空漫游银河；由于你的好运，许多飞船都乐于欢迎你这样的幸运旅者登船，将你视为有生命的幸运符。四处漂泊、寻找工作的幸运旅者，从不会失业太久。</p>\n<p>大家都知道，让银河中最幸运的人之一待在身边，可能有利于生意。每到一个新地方，你都懂得如何利用这一点。你受训于交涉。如果你本就会自动受训于交涉（例如来自背景或职业），则改为受训于另一项自选技能。你还获得@UUID[Compendium.pf2e.feats-srd.Item.4RjDxgvNXNl5GG9d]{交际花}技能专长。</p>"
     },
     "znrubdU7Jj9x0TAL": {
-      "name": "传承者拉西利特族",
+      "name": "传承者拉西利特族 Inheritor Raxilite",
       "description": "<p>你受到一位伟大英雄的影响。你可能从小听着他们的故事长大，也可能在协助他们完成宏大项目时，获得了塑造人生的经历。为了表示敬意，你或许已在自己的名字中加上他们的姓名首字母，或其他与其有关的缩写；也可能正等待完成配得上他们名号的壮举后，再如此做。无论你与这位英雄有怎样的联系，你都希望在其遗产之上继续前行。</p>\n<p>选择英雄擅长的一个领域；你获得所列专长和熟练度。以下为默认选项，GM也可能依据不同背景提供的技能专长，允许其他组合。</p>\n<p><strong>生物工程师：</strong> 你的英雄是生物工程的先驱。他们可能因研究IMAS或LFAN等关键系统而成名，也可能专注于让拉西尔城市悬空的活体飞船的创新。你受训于手艺（若已受训于手艺，则选择另一项技能），并获得用于生命科学的@UUID[Compendium.pf2e.feats-srd.Item.QLeMH5mQgh28sa5o]{独门手艺}技能专长。</p>\n<p><strong>冒险家：</strong> 你的英雄勇于冒险；如果某次危险壮举夺走了他们的生命，那么他们曾经如此。他们可能是未知行星的探索者，或新科技的早期测试员。追随他们的足迹，让你的身体被迫适应在险恶环境中生存。你获得@UUID[Compendium.pf2e.feats-srd.Item.I0BhPWqYf1bbzEYg]{顽强}通用专长。</p>\n<p><strong>使节：</strong> 你的英雄是著名外交官，例如最早为拉西尔与其他世界建立联系的使节之一。你受训于社群（若已受训于社群，则选择另一项技能），并获得@UUID[Compendium.sf2e-anachronism.feats.Item.Bi0wdUuHsLxvSqrJ]技能专长。</p>\n<p><strong>星际驾驶员：</strong> 你的英雄是最早展开星际旅行的拉西利特族之一。和他们一样，你喜欢对自己的星舰进行实验，以优化性能。你受训于驾驶（若已受训于驾驶，则选择另一项技能），并获得@UUID[Compendium.pf2e.feats-srd.Item.K2R1xGTgBnSCDMUl]{极速驾驶员}技能专长。</p>\n<p><strong>医师：</strong> 无论作为战地医护、医院创办者，还是药品研发与分销的领导者，你的英雄都通过工作挽救了无数生命。你受训于医疗（若已受训于医疗，则选择另一项技能），并获得@UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{战地医疗}技能专长。</p>\n<p><strong>软件架构师：</strong> 你的英雄开发了创新软件，彻底改变了所在领域。你受训于计算机（若已受训于计算机，则选择另一项技能），并获得@UUID[Compendium.sf2e-anachronism.feats.Item.ifQiKhl0Gt2CM7i9]技能专长。</p>"
     }
   }

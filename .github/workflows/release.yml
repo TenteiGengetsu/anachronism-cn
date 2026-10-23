@@ -65,6 +65,8 @@ jobs:
       - name: Validate module files
         run: |
           python3 -m json.tool module.json > /dev/null
+          python3 tools/build_search_indexes.py
+          git diff --exit-code -- translations
           test -f scripts/register.mjs
           test -d translations
           echo "Validation passed"

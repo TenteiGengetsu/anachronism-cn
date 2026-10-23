@@ -1,5 +1,5 @@
 {
-  "label": "职业特性",
+  "label": "职业特性 Class Features",
   "mapping": {
     "name": "name",
     "description": "system.description.value",
@@ -21,75 +21,75 @@
   },
   "entries": {
     "077cIuYZAcEX75aQ": {
-      "name": "惊人耐力",
+      "name": "惊人耐力 Impressive Endurance",
       "description": "<p>你习惯在狭窄或极端的环境下长时间工作。你的强韧豁免熟练度提升至大师。当你在强韧豁免中掷骰出成功结果，你改为获得大成功。</p>"
     },
     "0XdFDw5UmkUgaNNG": {
-      "name": "不动铁壁",
+      "name": "不动铁壁 Unshakable Juggernaut",
       "description": "<p>你在强韧豁免上的熟练度提升至传奇。当你在一个强韧豁免检定上取得大失败时，你可以将其替换为失败。当你在对抗一个造成伤害效果的强韧豁免检定中取得失败时，你受到的伤害减半。</p>"
     },
     "1E12XmyqzIK1jXrY": {
-      "name": "断层谜思",
+      "name": "断层谜思 Gap Influenced",
       "description": "<p>大断层以某种方式将你重塑，不论是通过长久学习还是个人经历。你可能在大断层期间出生，又或者由于漫长的寿命、停滞技术或者时间旅行而亲身经历。</p>\n<p><strong>施法根源</strong>异能</p>\n<p><strong>悖论技能</strong>社群</p>\n<p><strong>悖论法术</strong> 戏法: @UUID[Compendium.pf2e.spells-srd.Item.4gBIw4IDrSfFHik4]; 1环: @UUID[Compendium.sf2e-anachronism.spells.Item.yXD9uU8w8uFD2OBQ]; 2环: @UUID[Compendium.sf2e-anachronism.spells.Item.mnoTqz0gjRmuc4oR]; 3环: @UUID[Compendium.sf2e-anachronism.spells.Item.kR5A0h2a9hY41wav]; 4环: @UUID[Compendium.pf2e.spells-srd.Item.LiGbewa9pO0yjbsY]; 5环: @UUID[Compendium.pf2e.spells-srd.Item.BilnTGuXrof9Dt9D]; 6环: @UUID[Compendium.pf2e.spells-srd.Item.yrZA4k2VAqEP8xx7]; 7环: @UUID[Compendium.pf2e.spells-srd.Item.8kJbiBEjMWG4VUjs]; 8环: @UUID[Compendium.pf2e.spells-srd.Item.wfleiawxsfhpRRwf]; 9环: @UUID[Compendium.pf2e.spells-srd.Item.MJx7DmjsWYzDZ3a4]</p>\n<p><strong>曲织法术</strong> 初始: @UUID[Compendium.sf2e-anachronism.spells.Item.tZQpEnaFqwmU4AMZ]; 进阶: @UUID[Compendium.sf2e-anachronism.spells.Item.TAbOBvFU8dLzKiWw]; 高等: @UUID[Compendium.sf2e-anachronism.spells.Item.YAa1StmuYC2QQ043]</p>\n<p><strong>量子场域</strong>超自然的静电场遮蔽你的行踪。你对处于量子场域内的生物@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。当一个处于量子场域内的生物用攻击命中你，你就会对其失去这一增益，直到你的下个回合开始。</p>"
     },
     "1HTIyZc7ZTqiGzMt": {
-      "name": "星辰感官",
+      "name": "星辰感官 Stellar Senses",
       "description": "<p>你经过精心训练且敏锐的感官使你对周围环境的感知力大幅提升。你在察觉上的熟练度提升至大师。此外，你在先攻掷骰上获得+2环境加值，使你在战斗中反应更迅速。如果你同时还具有惊奇先攻通用专长，则该加值提升至+3。</p>"
     },
     "1bgDbGzALewzo7cy": {
-      "name": "幽灵",
+      "name": "幽灵 Ghost",
       "description": "<p>你专精于潜入目标位置，完成任务并不为人知地撤离。你常常利用隐秘技巧，假身份，伪装或间谍科技。无论你是接近对象的刺客，搜集敏感情报的间谍，愚弄你的目标的诈骗犯还是为下一桩生意踩点的窃贼。你都擅长融入环境并避人耳目。你在欺骗上受训，并获得一个欺骗技能专长。</p>\n<p><strong>秘技：</strong>你擅长出其不意地攻击敌人。你可以以自由动作@UUID[Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC]你对其而言处于@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]状态的生物。</p>\n<p><strong>进阶秘技：</strong>即使与敌人交战后，你仍然能够避免被发现。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.JXQaCPCd10sE0Gaa]动作。</p>"
     },
     "23Km290iJ9SNG7w1": {
-      "name": "外皮层",
+      "name": "外皮层 Exocortex",
       "description": "<p>你构建了一个与你大脑同步的精密程序，可以用它来远程控制一个你自己设计的复杂设备。该程序及其链接的设备统称为外皮层。外皮层免疫故障状态，但链接的设备不免疫。</p>\n<p>在1级时，你选择你的外皮层。本书中出现的外皮层包括：无人机、地雷网络或可部署炮塔。你可以用独特的方式改造你的外皮层。</p>"
     },
     "2BkdnQRLTNf16bb0": {
-      "name": "曲织无限",
+      "name": "曲织无限 Warped Infinities",
       "description": "<p>你已然掌控着现实，超脱于万千大界。你的量子场域半径变为100尺。当你激活或维持你的量子场域时，你可以排除其中任意数量的方格来修改其区域。</p>"
     },
     "2vTSmlYIttoIEwjh": {
-      "name": "韧性灵魂",
+      "name": "韧性灵魂 Resilient Soul",
       "description": "<p>与你联结的联系以及与你纽带中伙伴的羁绊增强了你灵魂对抗杂念的力量。你的意志豁免熟练度提升至大师。当你在意志豁免中掷骰出成功时，你改为获得大成功。</p>"
     },
     "3sQP1h3Bx5vAmEFZ": {
-      "name": "超频",
+      "name": "超频 Overclock",
       "description": "<p>你可以用原始魔法能量释放你科技的真正潜力。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.YAK0MtCcXeDuGmGw]动作。</p>"
     },
     "42tQJXhySw9QKcn6": {
-      "name": "无穷演算",
+      "name": "无穷演算 Analyst",
       "description": "<p>不为人知的代码驱动着宇宙及其之外的领域，而不知何故，你能够集中才智来利用它——那些方程现于你眼中。</p>\n<p><strong>施法根源</strong>奥术</p>\n<p><strong>悖论技能</strong>计算机</p>\n<p><strong>悖论法术</strong> 戏法: @UUID[Compendium.sf2e-anachronism.spells.Item.NkvRoN33RbDg3fl9]; 1环: @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]; 2环: @UUID[Compendium.sf2e-anachronism.spells.Item.tVTJS07cKDA5rNgc]; 3环: @UUID[Compendium.pf2e.spells-srd.Item.ZYoC630tNGutgbE0]; 4环: @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]; 5环: @UUID[Compendium.sf2e-anachronism.spells.Item.CptKtBneM7od45nc]; 6环: @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]; 7环: @UUID[Compendium.pf2e.spells-srd.Item.rsZ5c0AUyywe5yoK]; 8环: @UUID[Compendium.pf2e.spells-srd.Item.wfleiawxsfhpRRwf]; 9环: @UUID[Compendium.pf2e.spells-srd.Item.qsNeG9KZpODSACMq]</p>\n<p><strong>曲织法术</strong> 初始: @UUID[Compendium.sf2e-anachronism.spells.Item.KOkGLXwOBAIlczzk]; 进阶: @UUID[Compendium.sf2e-anachronism.spells.Item.vL7w8EtvZHlgRKlo]; 高等: @UUID[Compendium.sf2e-anachronism.spells.Item.v8JA4sG2tsVP2gOM]</p>\n<p><strong>量子场域</strong>当你@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]或@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]时，你可以将结果应用在处于你量子场域中的两个相关生物、危害、无主物品或者效果。并且每当你维持量子场域，你就能用自由动作对你量子场域中的一个目标进行搜索或回忆知识。</p>"
     },
     "5eGnpfSduO6QeFcZ": {
-      "name": "场域意志",
+      "name": "场域意志 Quantum Will",
       "description": "<p>你在学习和游历中积累的经历增强了你的精神毅力。你在意志豁免上的熟练度提升至大师。当你在一个意志豁免检定上取得成功时，你可以将其替换为大成功。</p>"
     },
     "5fAXLfqq1dEbFiTj": {
-      "name": "城市干员",
+      "name": "城市干员 Urban Operator",
       "description": "<p>你十分熟悉在城市环境内工作，并能迅速在喧闹的市井间穿行。你忽略城市环境中的困难地形，且城市环境中的高等困难地形对你仅是普通困难地形。</p>"
     },
     "5mOTKBsn8OsEvFaA": {
-      "name": "短兵相接",
+      "name": "短兵相接 Close Quarters",
       "description": "<p>虽然你接受过使用重型武器所必需的训练，但你深知应有备选项面对迫近的敌人。你可能是一位经验丰富的维斯卡里姆老兵，熟练地挥舞多什斧，或是宗-莎琳的信徒，手持苦痛大砍刀施展神圣的怒火。你用重型近战武器殴打敌人时就和你的转轮激光或导弹发射器一样有效。</p>\n<p>只要你持用一把双手近战武器，你就满足需要区域武器的士兵专长的需求。当你使用士兵专长时，你可以将任何你持用的双手近战武器视为获得区域（5尺爆发）特征，且你不会受到该武器攻击的影响。在主目标或任意士兵专长中，你可以用双手近战武器发起一次近战打击而非一次远程打击。此外，你获得@UUID[Compendium.sf2e-anachronism.feats.Item.xND8wnEdnGSq84kn]专长。</p>"
     },
     "5uMdhwOXbamPbNHA": {
-      "name": "传奇装甲",
+      "name": "传奇装甲 Legendary Armor",
       "description": "<p>你对护甲的掌握技艺无与伦比。你在轻甲、中甲和重甲，以及无甲防御上的熟练度提升至传奇。</p>"
     },
     "68j2yQ0lamRuR6oF": {
-      "name": "联结",
+      "name": "联结 Connection",
       "description": "<p>所有秘术师都与赋予魔法力量的宇宙伟力有着超自然的联结。你联结的具体性质可以有很大的不同——你可能崇拜一位神或万神殿，具现为一种形而上的概念，成为自然之怒的传导者，或是其他形态。即使是拥有相同联结的秘术师也可能对力量来源作出不同解读。1级时，选择你的联结。你所选的联结决定了你施放的法术类型和法术根源，你的额外受训技能，你掌握的顿悟，以及一种协调，一种在你用命能网络治愈生物时通常会赋予它们的特殊增益。</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.fM1vlupLq9Zlyt7C]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.AurhNoZmNNhHktx6]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.XV8C2ASALC65G5MH]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.jV9LIUswOPkVRC49]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.kvmpnKMVw4wwGk8c]</p>"
     },
     "6cFaxZ4aAhuUbnwi": {
-      "name": "跨越绝望",
+      "name": "跨越绝望 Through Desperate Times",
       "description": "<p>你在困难时期挺身而出，承担领导责任。你可能经历过创伤性事件，比如在海盗船叛乱中逃生，或参与过某场臭名昭著的战役。你的盟友信任你的直觉，深知你会保护他们安全。</p>\n<p><strong>领导技能</strong>医疗</p>\n<p><strong>领导奖励</strong>你获得@UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]作为奖励专长。</p>\n<p><strong>领导指令</strong> @UUID[Compendium.sf2e-anachronism.actions.Item.oRdDgSC3RVpNgisd]</p>"
     },
     "71oZZ6lEyXnjaxpA": {
-      "name": "轻甲专家",
+      "name": "轻甲专家 Light Armor Expertise",
       "description": "<p>你知晓如何在穿戴轻甲或不穿戴护甲的情况下进行闪避。你在轻甲和无甲防御上的熟练等级提升至专家。</p>"
     },
     "74WbHKmCwJUBt2Ey": {
-      "name": "专家施法者",
+      "name": "专家施法者 Expert Spellcaster",
       "description": "<p><strong>秘术师</strong>你与你的联结建立了更强大的纽带。你的法术攻击调整值和法术DC熟练度提升至专家。</p><hr /><p><strong>科技法师</strong>长时间的奥术练习提高了你的能力。你的法术攻击调整值和法术DC熟练度提升为专家。</p><hr /><p><strong>织维巫师</strong>对魔法的额外练习提升了你的潜能。你在职业DC、法术攻击调整值和法术DC上的熟练度提升至专家。</p>"
     },
     "7yxVnWzTynBvFVjr": {
@@ -97,123 +97,123 @@
       "name": "FORTRUN"
     },
     "8E1y9iptQCmZDBHJ": {
-      "name": "移动军械库",
+      "name": "移动军械库 Walking Armory",
       "description": "<p>你的耐力训练使你能够携带大量重型装备。判定你穿戴护甲所用的力量时，你可以改用体质调整值。如果你已经达到了护甲的力量需求，你能将该护甲的负载减少1（最小为1）。</p>\n<p>此外，你判定超载的负载上限增加你体质调整值的一半（向上取整）。你的最大负载上限增加你体质调整值。</p>"
     },
     "8OobrKN53cceDHmI": {
-      "name": "特工韧性",
+      "name": "特工韧性 Operative Resilience",
       "description": "<p>你体格强健。你的强韧豁免熟练提升至专家。</p>"
     },
     "8bE9icPZbaqFDGlC": {
-      "name": "神鬼莫测",
+      "name": "神鬼莫测 Inscrutable",
       "description": "<p>你的敌人几乎不可能揭穿你的阴谋或识破你的长期计划。当一个生物在对你@UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]的察觉检定上，或对有关你秘密的搜集信息或@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的技能检定上掷骰出大成功或成功时，其改为获得失败结果。当你在对抗会读取或揭示你的想法，情绪或意图的效果或能力时，豁免掷出大失败或失败，你改为获得成功结果。</p>"
     },
     "92UyrMU8lS21iZSO": {
-      "name": "战术家",
+      "name": "战术家 Tactician",
       "description": "<p>当你没有对盟友下达指令时，你专注于情况的变化，准备做出反应。在每个回合结束时，你获得一个额外的一个反应动作，可以在你的下个回合开始前用于任何使节反应。</p>"
     },
     "99RXzaPifPIiZXv6": {
-      "name": "完美协调",
+      "name": "完美协调 Perfect Harmony",
       "description": "<p>你发现了你联结的终极真相，以及它是如何构成宇宙基础的。你学会所选联结的完美协调。</p>"
     },
     "9g0pgy75Gd1hcrM8": {
-      "name": "领袖自信",
+      "name": "领袖自信 Leader's Confidence",
       "description": "<p>无论你是镇定自若，还是咬紧牙关表现得自信满满，你都不让团队看到你失去冷静。你获得“@UUID[Compendium.sf2e-anachronism.actions.Item.gZr207z8Q7AuH2RT]”使节指令。</p>"
     },
     "9nO9EkhE1TiS0Yh6": {
-      "name": "适应天赋",
+      "name": "适应天赋 Adaptive Talent",
       "description": "<p>你思维敏捷，适应力强，不需要太多训练或培训就能掌握新的技能和能力。在每日准备中，选择一项你满足先决条件的技能专长。你获得该技能专长直到你再次每日准备。由于你是临时拥有此专长，你无法将其用作永久角色选项的先决条件。你可以将此技能专长用作临时给予你其他能力的效果，例如获得@UUID[Compendium.pf2e.feats-srd.Item.P9HCz0uR6xPHuw72]来临时学习一门新语言。</p>\n<p>随着使节等级提高，你适应新状况的能力也会提升。在9级和15级，分别增加1个你以此方式获得的技能专长数量。你可以使用通过适应天赋临时获得的专长来作为你通过适应天赋临时获得的其他专长的先决条件，但你仍然不能将它们用作永久角色选项的先决条件。</p>"
     },
     "AurhNoZmNNhHktx6": {
-      "name": "元素",
+      "name": "元素 Elemental",
       "description": "<p>你引导原初元素的原始力量，这些元素汇聚创造了物质宇宙以及其中一切。你可能与一种或多种元素有着强烈的亲和力，也可能是造访过某个元素位面，并在旅途中受获接触。你获得@UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]通用专长。</p>\n<p><strong>根源</strong>原能</p>\n<p><strong>联结技能</strong>自然</p>\n<p><strong>联结法术</strong> 戏法: @UUID[Compendium.sf2e-anachronism.spells.Item.5y70IWhVV6bVjC9N]; 1环: @UUID[Compendium.sf2e-anachronism.spells.Item.7P4eBdqWcgQJAFCa]; 2环: @UUID[Compendium.pf2e.spells-srd.Item.Fr58LDSrbndgld9n]; 3环: @UUID[Compendium.pf2e.spells-srd.Item.fI20AVwOzJMHXRdo]; 4环: @UUID[Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu]*; 5环: @UUID[Compendium.pf2e.spells-srd.Item.1K6AYGisvo9gqdhs]; 6环: @UUID[Compendium.sf2e-anachronism.spells.Item.xS4bqHnbodCwjpqI]; 7环: @UUID[Compendium.sf2e-anachronism.spells.Item.kGas0LdEAR1WjLGZ]*; 8环: @UUID[Compendium.pf2e.spells-srd.Item.x7SPrsRxGb2Vy2nu]; 9环: @UUID[Compendium.pf2e.spells-srd.Item.jrBa9deU2ULFWvSl]</p>\n<p>*替换元素特征和伤害类型为你启动的<em>元素武器</em>或<em>元素屏障</em>顿悟法术的特征和伤害类型。</p>\n<p><strong>顿悟法术</strong> 初始: @UUID[Compendium.sf2e-anachronism.spells.Item.d5dmu4HZ3YyrwcaF]; 进阶: @UUID[Compendium.sf2e-anachronism.spells.Item.5apI8Yamauo02VYR]; 高等: @UUID[Compendium.sf2e-anachronism.spells.Item.DZOjyZBZUrzkw5q2]</p>\n<p><strong>协调</strong>当你@UUID[Compendium.sf2e-anachronism.actions.Item.UeMHbnnaXDa3sGfG]时，选择一种元素特征：气、土、火、金、水或木。如果你有一个或多个元素顿悟法术正在生效，作为施法的一部分，你必须选择一种元素特征。直到其下个回合结束，目标的下一次打击造成基于所选特征（由你选择）的伤害，而非其通常的伤害类型：气为电击或音波，土为钝击或穿刺，金为酸蚀或挥砍，火为火焰，水为钝击或寒冷，木为穿刺或毒素。</p>\n<p><strong>完美协调</strong>在你每日准备期间，选择一种元素特征（如协调中所列）。你对所选元素相关的两种伤害类型均获得等同于你等级一半的抗力。如果你选择火焰，你额外获得寒冷抗力。当你使用转移命能治疗一个纽带中的盟友时，目标获得这些抗力直到你的下个回合结束。</p>"
     },
     "Ba1DqrvVyzbcvGJd": {
-      "name": "武器专家",
+      "name": "武器专家 Weapon Expertise",
       "description": "<p><strong>使节</strong>你已经学会了一些使用武器的巧妙技巧。你的简易武器，军用武器和无武装攻击熟练度提升为专家。每当你攻击“干掉他！”的目标时，你获得所有具有专家熟练度的武器的重击专精效果。</p><hr /><p><strong>秘术师</strong>你用基础武器赢得战斗。你在简易武器和无武装攻击上的熟练度提升至专家。</p><hr /><p><strong>科技法师</strong>凭借丰富的经验，您的武器使用技巧得到了提高。你在简易武器和无武装攻击上的熟练度提升为专家。</p><hr /><p><strong>织维巫师</strong>你对常规武器有了更深入的了解，这增强了你常规施法之外的能力。你的简易武器和无武装攻击熟练度提升至专家。</p>"
     },
     "Cait1ugGIGFlZrPD": {
-      "name": "星辰韧性",
+      "name": "星辰韧性 Stellar Resilience",
       "description": "<p>星辰能量如汹涌海潮般贯穿你的整个躯体，强化身心。你在强韧豁免上的熟练度提升至专家。当你在对抗心灵或失能效果的强韧或意志豁免上骰出成功结果时，你可以用自由动作进行@UUID[Compendium.sf2e-anachronism.actions.Item.3xDhpvORBmK6AtcI]。</p>"
     },
     "CuWlilUgT1MCZcIT": {
-      "name": "武器专精",
+      "name": "武器专精 Weapon Specialization",
       "description": "<p><strong>使节, 特工, 织维巫师, 科技法师</strong>你已懂得如何运用自己最熟悉的武器造成更大伤害。使用熟练度为专家的武器和无武装攻击时，你额外造成2点伤害。若熟练度为大师则该伤害增加至3点，熟练度为传奇则增加至4点。</p><hr /><p><strong>机械师</strong>你的武器更具杀伤力。你在使用你具有专家熟练度的武器和无武装攻击时，造成2点额外伤害。如果你具有大师熟练度，此伤害会增加到3，如果你具有传奇熟练度，此伤害会增加到4。</p><hr /><p><strong>秘术师</strong>你已学会用武器保护自己和盟友。使用熟练度为专家的武器和无武装攻击时，你额外造成2点伤害。若熟练度为大师则该伤害增加至3点，熟练度为传奇则增加至4点。</p><hr /><p><strong>恒星武士</strong>你已懂得如何运用自己最熟悉的武器造成更大伤害。使用熟练度为专家的武器和无武装攻击时，你额外造成2点伤害。若熟练度为大师则该伤害增加至3点，熟练度为传奇则增加至4点。</p><hr /><p><strong>士兵</strong>你知晓如何在使用那些你最擅长的武器时造成更大的伤害。使用你已经成为其专家的武器或无武装攻击时你会额外造成2点伤害。这个伤害在你成为其大师时增加至3，而在你成为其传奇时增加至4。</p>"
     },
     "DZJ6ufkpyIqanf82": {
-      "name": "高等决心",
+      "name": "高等决心 Greater Resolve",
       "description": "<p>你的野心和固执赋予了你心灵韧性。你的意志熟练度提升至传奇。当你的意志豁免掷骰出成功结果时，你改为获得大成功。当你的意志豁免掷骰出大失败结果时，你改为获得失败。当你的意志豁免在对抗伤害效果时取得失败，你受到一半伤害。</p>"
     },
     "DkIPGYO2ebAALMYl": {
-      "name": "机械师大师",
+      "name": "机械师大师 Mechanical Mastery",
       "description": "<p>你是技艺最精湛的机械师之一。你的机械师职业DC熟练度提升至大师。</p>"
     },
     "DlE8xw6WF1t7ICny": {
-      "name": "初等顿悟",
+      "name": "初等顿悟 Initial Epiphany",
       "description": "<p>你发现了你联结中最基本的真理。你获得了所选联结的初始顿悟法术。顿悟法术是一种聚能法术。施放聚能法术需要消耗1点聚能点，并且你在开始时拥有一个1点聚能点的聚能池。你在每日准备时重新填满你的聚能池，你可以通过花费10分钟使用再聚能行动来恢复1点聚能点，这包括与纽带中的盟友共度时光，或思考你联结的本质。</p>\n<p>聚能法术会自动升阶到你等级的一半，向上取整，和戏法类似。聚能法术无需法术位，你也不能使用法术位来施放它们。获取专长能够赋予你聚能法术并增大你的聚能池，不过你的聚能池不能容纳超过3点聚能点。</p>"
     },
     "E8Nx7wgn1nxqiUcN": {
-      "name": "特工专家",
+      "name": "特工专家 Operative Expertise",
       "description": "<p>你的技巧更难被抵抗。你的特工职业DC的熟练度提升至专家。</p>"
     },
     "EDPwZPU83FuSZ89r": {
-      "name": "专家士兵",
+      "name": "专家士兵 Soldier Expertise",
       "description": "<p>你发动区域攻击和利用装备的能力得到提升。你在士兵职业DC上的熟练度提升至专家。</p>"
     },
     "ENxkQJEIkz35yuMT": {
-      "name": "核心回忆",
+      "name": "核心回忆 Core Memories",
       "description": "<p>无论你行至何方，珍贵的记忆都会将你与现实紧密相连。无论这些记忆的性质与数量如何，你都能专注于它们，从而提醒自己：在这无数种可能的现实中，对你影响最深的始终是你亲身经历的那一个。</p>\n<p><strong>锚点增益</strong>在你每日准备时，选择一个你受训的技能，你在这一技能上获得@UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]专长。如果你在这一技能上为专家，并且该技能可以用于@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]动作，那么你还会在该技能上获得@UUID[Compendium.pf2e.feats-srd.Item.H3I2X0f7v4EzwxuN]专长。</p>\n<p><strong>锚定效果</strong>你的@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]状态减少1点。你每轮只能从此效果中受益一次。</p>"
     },
     "EpxKCi6G0KnWQhHP": {
-      "name": "突击手",
+      "name": "突击手 Striker",
       "description": "<p>你专精于肉搏战，选择用拳头或轻型近战武器而非使用枪械作战。无论你是追求刺激的冒险者、喜欢炫耀的武术家，还是以独特手法杀人的刺客，你以自己的身体作武器，主动出击。你在运动上受训，并获得一个运动技能专长。</p>\n<p><strong>秘技：</strong>你在具有灵巧或娴熟特征的无武装攻击和单手近战武器上，而非军用枪械上具有专家熟练度。每当你提升军用枪械的熟练度时，你改为增加对单手灵巧和娴熟近战武器，灵巧和娴熟的无武装攻击，以及简易枪械的熟练度。</p>\n<p>此外，当你瞄准时，你可以使用带有灵巧或娴熟特征的单手近战武器和无武装攻击而非远程武器来瞄准。将任何带有灵巧和娴熟特征的单手近战武器或无武装攻击视为枪械以满足特工专长的需求。取代用特工专长进行一次远程打击，你可以改为以带有灵巧或娴熟特征的单手近战武器或无武装攻击来进行打击。</p>\n<p>你获得@UUID[Compendium.sf2e-anachronism.actions.Item.eBxEPfTafaJaK4Kf]反应。</p>\n<p><strong>进阶秘技：</strong>你能够压制你研究的敌人。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.m4IGOcYt8TBpYD8T]自由动作。</p>"
     },
     "FSAqTE67445EvyX8": {
-      "name": "渊博武艺",
+      "name": "渊博武艺 Erudite Warrior",
       "description": "<p>你认识到并非所有场合都能用枪炮说话。你是战士，也是智者，用逻辑解决问题，并不断了解着星系。你通过正规的教育或自学保持头脑敏锐。而当理性不再奏效，你也随时准备依靠你的战斗训练应对一切。</p>\n<p>你在交涉或社群，以及一项你所选择的学识上受训。获得@UUID[Compendium.sf2e-anachronism.class-features.Item.vt4e3FdwvI3hNkEf]时，你在交涉或社群（取你所选择者）及所选学识上的熟练度提升至专家。获得@UUID[Compendium.sf2e-anachronism.class-features.Item.Gs1MRPZ3s3TXwEsX]时，这些熟练度提升至大师；获得@UUID[Compendium.sf2e-anachronism.class-features.Item.5uMdhwOXbamPbNHA]时，提升至传奇。你还会获得@UUID[Compendium.sf2e-anachronism.actions.Item.TBLHu4RhvhPrKid6]动作。</p>"
     },
     "Fni0F4rfaG08nO1Y": {
-      "name": "领导风格",
+      "name": "领导风格 Leadership Style",
       "description": "<p>无论是你是处于自然而然，还是经受训练，你都已经形成了领导他人的个人风格。在1级时，选择一种领导风格。你在所示领导技能上受训，并获得所示领导奖励，并掌握相关领导指令。</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.u2dy5FMDv30UH8HC]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.KEoTccJlfKzMk19l]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.jaGIV3t7G07F0qda]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.RIUhD5eldHzBsFIe]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.GTmdHGLcuc11Bizi]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.6cFaxZ4aAhuUbnwi]</p>"
     },
     "GBIcDtot2q7pQt5d": {
-      "name": "战术弹幕",
+      "name": "战术弹幕 Tactical Barrage",
       "description": "<p>你向标靶打出毁灭性的弹幕。你对标靶进行攻击的多重攻击减值变为第二次攻击-3（灵巧武器-2）而非-5，第三次或更多的攻击-6（灵巧武器-4）而非-10.</p>"
     },
     "GTmdHGLcuc11Bizi": {
-      "name": "信圈主管",
+      "name": "信圈主管 Infosphere Director",
       "description": "<p>你知道如何操控信息流，这在战斗中或计划下一次任务至关重要。你可以通过通讯单元、数据板或使用心灵感应进行指挥。</p>\n<p><strong>领导技能</strong>计算机</p>\n<p><strong>领导奖励</strong>你获得@UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf]作为奖励专长。</p>\n<p><strong>领导指令</strong> @UUID[Compendium.sf2e-anachronism.actions.Item.4oIErnhDm0qCCpxs]</p>"
     },
     "GiwPGmhyIApkifqK": {
-      "name": "改造",
+      "name": "改造 Modify",
       "description": "<p>你的定制工具组允许你即时改装你拥有的物品，在有限时间内提高其效能或多功能性。你可以使用改造动作进行此类修改，称为改装。随着你升级和通过专长，你可以学习额外的改装，且一件物品可以同时拥有多个改装。</p>"
     },
     "Gs1MRPZ3s3TXwEsX": {
-      "name": "护甲大师",
+      "name": "护甲大师 Armor Mastery",
       "description": "<p><strong>恒星武士</strong>无论遭遇什么情况，你都能够巧妙地保护好自己。你在轻甲、中甲以及无甲防御上的熟练度提升至大师。</p><hr /><p><strong>士兵</strong>你着甲的技艺进一步提升了。你在轻甲、中甲和重甲，以及无甲防御上的熟练度提升至大师。</p>"
     },
     "HSKJ1VkPdlMkcqzc": {
-      "name": "游击兵",
+      "name": "游击兵 Skirmisher",
       "description": "<p>你专精于在拥挤和狭窄的空间中执行近距离任务，如建筑物内部、载具内、狭窄的小巷和繁忙的商业街。无论你是抢劫犯、保镖、刺客还是城市雇佣兵，你偏爱手枪，并能在狭小空间内高效地使用它们。你在特技上受训，并获得一个特技技能专长。</p>\n<p><strong>秘技：</strong>你受到训练，在近距离冲突中使用手枪战斗。你使用单手远程武器的远程攻击不会触发因远程攻击而触发的反应。</p>\n<p><strong>进阶秘技：</strong>你的近距离射击格外致命。当你用单手远程武器对相邻敌人进行一次成功的打击时，你将掷出的最低的武器伤害骰视为最大值。在17级时，你将掷出的最低的两个伤害骰变为最大值。</p>"
     },
     "HTPor4UvcZ2CBLGh": {
-      "name": "秘术师施法",
+      "name": "秘术师施法 Mystic Spellcasting",
       "description": "<p>你是一名施法者，并且可以使用施法行动进行施放法术。作为一名秘术师，当你施放法术时，你可能会吟唱祷词或哼唱受顿悟启发的歌谣，你可能会用手势或舞蹈来追随你联结网络的流变，又或许会在施法时让能量丝缕在你与纽带中的盟友间流淌。</p>\n<p>每天，你可以施放至多三个1环法术。你必须知晓法术才能施放它们，你可以通过法术库职业特性来学习它们。你每天可以施放的法术数量称作你的法术位。</p>\n<p>随着你秘术师等级的提高，你每日的法术数量也会随之增加，你可施放的最高法术环级同样随之提升，如秘术师每日法术表所示。</p>\n<p>你的某些法术需要你进行法术攻击以确定效果，或让敌人掷骰对抗你的法术DC（通常是进行豁免）。由于你的关键属性是感知，你的法术攻击调整值和法术DC使用你的感知调整值。</p><h3>升阶法术</h3><p>当你获得2环级以及更高环级的法术位时，你可以在这些法术位施放较低环级的法术的强化版本。这会增加这些法术的环级，升阶到所消耗法术位的环级。你必须在法术库中拥有法术的该环级版本才能将法术升阶至某一环级。许多法术在升阶至特定环级时有特定的效果提升。标志性法术职业能力可以让你自由升阶特定的法术。</p><h3>戏法</h3><p>你的部分法术为戏法。戏法是一类特殊的不使用法术位的法术。你可以随意施放戏法，每日任意次数。戏法总是会自动升阶到你的等级的一半并向上取整——这通常等于你拥有的秘术师最高环法术位环级。例如，作为一个1级秘术师，你施放的戏法为1环；作为5级秘术师时，你的戏法是3环法术。</p>"
     },
     "HhwRLDIcp4rYmU1J": {
-      "name": "机械师武器专家",
+      "name": "机械师武器专家 Mechanic Weapon Expertise",
       "description": "<p>你知道如何最好地利用武器。你的简易武器、军用武器和无武装攻击熟练度提升至专家。你获得你拥有专家熟练度的所有武器的重击专精效果。如果你拥有无人机外皮层，你的无人机额外获得其拥有专家熟练度的所有武器的重击专精效果。</p>"
     },
     "I646B151RjCw5OIx": {
-      "name": "机械师才智",
+      "name": "机械师才智 Mechanic's Ingenuity",
       "description": "<p>在3级，7级和15级时，你获得一次额外的技能提升，你只能用于计算机或手艺上。在这些等级你还会获得一个额外的技能专长。这些专长必须是计算机或手艺的技能专长。</p>"
     },
     "IzvRwi14ni4jgwZn": {
-      "name": "恒星武士专家",
+      "name": "恒星武士专家 Solarian Expertise",
       "description": "<p>你操控星辰力量的能力有所提升。你在恒星武士职业DC上的熟练度提升至专家。</p>"
     },
     "KEoTccJlfKzMk19l": {
-      "name": "暗中谋划",
+      "name": "暗中谋划 From the Shadows",
       "description": "<p>你更喜欢以隐秘的方式引导和激励队友，不引起敌人过多注意。你可能会潜伏在保镖身后，或从安全距离为团队提供支援。</p>\n<p><strong>领导技能</strong>隐秘</p>\n<p><strong>领导奖励</strong>你获得专精隐秘的@UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]作为奖励专长。</p>\n<p><strong>领导指令</strong> @UUID[Compendium.sf2e-anachronism.actions.Item.8mIyIlniGH2SMO6B]</p>"
     },
     "KVc89RjerouF0wo1": {
@@ -225,323 +225,323 @@
       "name": "Viper"
     },
     "KdzwKkQVTHDyx6cF": {
-      "name": "管理员权限",
+      "name": "管理员权限 Administrator Privileges",
       "description": "<p>你掌握了最强大的奥术魔法，并能施放出威力惊人的法术。你获得一个10环法术位，并且可以使用科技法师施法能力在该法术位里准备一个法术。不同于其他法术位，你不能在10环法术位上使用让你获得更多法术位的能力，或是让你不消耗法术位施法的能力。你不会随着升级而获得更多10环法术位，但你可以通过选择超级访问权限（Root Access）专长来取得第二个法术位。</p>"
     },
     "LZ5m0ykyzJbUr6bb": {
-      "name": "星辰阻隔",
+      "name": "星辰阻隔 Stellar Partition",
       "description": "<p>你的恒星光晕能抵御精神入侵。你在意志豁免上的熟练度提升至大师。当你在对抗心灵或失能效果的意志豁免上掷骰出成功结果时，你改为获得大成功。</p>"
     },
     "LdRJmWFkdrF8m66d": {
-      "name": "中甲大师",
+      "name": "中甲大师 Medium Armor Mastery",
       "description": "<p>你的护甲技能会提高，帮你躲避更多的攻击。你的中甲，轻甲和无甲防御熟练度提升至大师。</p>"
     },
     "Lkq4BT81r2k9kzKL": {
-      "name": "防御措施",
+      "name": "防御措施 Defensive Measures",
       "description": "<p>你体内残留的魔法和你的训练能帮你躲避攻击。你的无甲防御熟练度提升为专家。</p>"
     },
     "M9TRPDyDZI4dDFCJ": {
-      "name": "藏匿计划",
+      "name": "藏匿计划 Hidden Agenda",
       "description": "<p>你已成为掩盖阴谋的专家。当一个生物在对你@UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]的察觉检定上，或对有关你秘密的@UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]或@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的技能检定上掷骰出大成功时，其改为获得成功结果。当你在对抗会读取或揭示你的想法，情绪或意图的效果或能力，无论是魔法还是其他形式时，豁免掷出大失败结果，你改为获得失败结果。</p>"
     },
     "N6fZPvGFrS8LZgnE": {
-      "name": "专精技能组",
+      "name": "专精技能组 Specialized Skill Set",
       "description": "<p>3级，7级，15级时，你获得一个技能专长。该专长必须是来自你的特工专精所提供的受训技能。</p>"
     },
     "NU0g3Cmq8BSXneVA": {
-      "name": "星辰典范",
+      "name": "星辰典范 Stellar Paragon",
       "description": "<p>你是恒星武士中的典范，能将恒星之力塑造成服从你意志的强大武器。你的恒星耀斑与恒星武器的熟练度提升至传奇等级。</p>"
     },
     "NeHbCZ99ss1XEESM": {
-      "name": "高等武器专精",
+      "name": "高等武器专精 Greater Weapon Specialization",
       "description": "<p>武器专精提供给你的武器及无武装攻击的附加伤害在熟练度为专家时提升至4，为大师时提升至6，为传奇时提升至8。</p>"
     },
     "Ng1FaH8JnQWwuA6g": {
-      "name": "传奇即兴发挥",
+      "name": "传奇即兴发挥 Legendary Improvisation",
       "description": "<p>你的即兴技能大幅提升。@UUID[Compendium.sf2e-anachronism.class-features.Item.sqSpxpY0831nV1wc]会在使用你没有传奇熟练度的技能进行技能检定时触发，并在触发检定上赋予你传奇熟练度，而非大师熟练度。</p>"
     },
     "NgXjtkNTKUcaGk6s": {
-      "name": "量子论题",
+      "name": "量子论题 Quantum Thesis",
       "description": "<p>你掌握着最强大的魔法并能够施放出真正不可思议的力量。将两个你的魔法根源中的常见10环法术加入你的法术库。你获得一个10环法术位且能通过织维巫师施法能力施放这些法术。与其他法术位不同，你不会随着等级提升获得更多10环级法术，并且诸如无需花费法术位施法的能力或是给予更多法术位的能力都无法对它们起效。你可以通过@UUID[Compendium.sf2e-anachronism.feats.Item.MVT7iJNv6L3y2eL9]织维巫师专长来获得第二个法术位。</p>"
     },
     "Ni2MROqMOCDIBwcY": {
-      "name": "持久改装",
+      "name": "持久改装 Enduring Mods",
       "description": "<p>你的定制经久耐用。每天，在你的每日准备期间，改造一件物品。此改装为持久改装，持续24小时。</p>"
     },
     "OCWsQQ95P7ecp7Rn": {
-      "name": "狙击手",
+      "name": "狙击手 Sniper",
       "description": "<p>你专精于远距离瞄准目标并在未被发现时攻击。无论你是从角落探出、在远处的屋顶上架点，还是从队伍后方瞄准，你偏爱狙击步枪，并选择安排完美的射击而非冲入战场。你在隐秘上受训，并获得一个隐秘技能专长。</p>\n<p><strong>秘技：</strong>你无视你持用的属于狙击武器组的枪械的粗笨特征和远射特征。你获得以下一个特工专长作为额外专长：@UUID[Compendium.sf2e-anachronism.feats.Item.4bMox7VXPrLzKsV8]或@UUID[Compendium.sf2e-anachronism.feats.Item.rhEfisGERMwwn0qz]</p>\n<p><strong>进阶秘技：</strong>你使用狙击武器对你标靶的首次失败的远程打击不会计入多重攻击减值。每回合一次，你可以用自由动作装填你的狙击武器。</p>"
     },
     "OFSlK1F3YDeIYbop": {
-      "name": "机械师专家",
+      "name": "机械师专家 Mechanical Expertise",
       "description": "<p>你的机械师技艺已得到提升。你的机械师职业DC熟练度提升至专家。</p>"
     },
     "OHm9l9YhAhKKsNKU": {
-      "name": "法术缓存",
+      "name": "法术缓存 Spell Cache",
       "description": "<p>你使用魔法速记将你最喜欢的法术存储在一个称为法术缓存的存储库中。你缓存中的法术由你的编程语言决定。在1级时，你将编程语言所指示的1环法术添加到你的法术缓存中。一旦你获得施放新环级科技法师法术的能力，就将该环级的法术从你的编程语言添加到你的法术缓存中。\n\n　　你法术缓存中的法术视为在你的法术数据库中，可以正常准备。你还可以使用@UUID[Compendium.sf2e-anachronism.actions.Item.oXWJZMspGhDK93Nz]动作，用一个来自法术缓存的法术替换一个已准备的法术。</p>"
     },
     "OTac5ufg6zuerW2U": {
-      "name": "场域防御",
+      "name": "场域防御 Quantum Defenses",
       "description": "<p>魔力的流动与你在防御上的训练相结合，帮助你避开攻击。你在轻甲和无甲防御上的熟练度提升至专家。</p>"
     },
     "Pi0J21KfcqPi5z8N": {
-      "name": "恒星武士武器专家",
+      "name": "恒星武士武器专家 Solar Weapon Expertise",
       "description": "<p>你与星辰力量的联结令你的武器致命无比。你在简易武器、军用武器以及无武装攻击上的熟练度提升至专家。你使用你的恒星耀斑或恒星武器造成重击时，你获得其重击专精效果。</p>"
     },
     "PmRhyxeb5t4PZOiw": {
-      "name": "轻甲大师",
+      "name": "轻甲大师 Light Armor Mastery",
       "description": "<p>你运用轻甲的技巧获得改善，提升你闪避猛击的能力。你在轻甲以及无甲防御上熟练度提升至大师。</p>"
     },
     "Q9psrvRDIjobxOqO": {
-      "name": "决心",
+      "name": "决心 Resolve",
       "description": "<p><strong>使节</strong>你的内心蕴藏着强大的意志力。你的意志豁免熟练度提升至大师。当你的意志豁免掷骰出成功结果时，你改为获得大成功。</p><hr /><p><strong>特工</strong>决意使你的心灵刚强。你的意志豁免熟练提升至大师。当你在意志豁免中成功时，将结果改为大成功。</p>"
     },
     "QslkWkHbHQEvWFCL": {
-      "name": "独立法阵",
+      "name": "独立法阵 Isolated Spell Matrix",
       "description": "<p>你可以直接向量子场域施展法术。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.E7HvICcH9CRAVzGc]动作。</p>"
     },
     "R478sqSSEwGEzfML": {
-      "name": "看破局面",
+      "name": "看破局面 Wise to the Game",
       "description": "<p>用言语影响他人是你的第二天性，而且你可以轻易辨认出其他人尝试对你使用的相同手段。你在对抗尝试对你@UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]或@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]时，以及尝试用@UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]转移你注意力时，察觉DC获得+1状态加值，并且在对抗情绪效果时你的意志DC获得+1状态加值。</p>"
     },
     "RIUhD5eldHzBsFIe": {
-      "name": "人群焦点",
+      "name": "人群焦点 In the Spotlight",
       "description": "<p>无论是通过交谈，巧妙的谎言，令人眼花缭乱的表演，还是威胁，你都依赖于魅力和狡猾来影响他人。你渴望成为聚光灯下的焦点。</p>\n<p><strong>领导技能</strong>表演</p>\n<p><strong>领导奖励</strong>你获得@UUID[Compendium.pf2e.feats-srd.Item.xqAdXRd2gSQcqp5E]作为奖励专长。</p>\n<p><strong>领导指令</strong> @UUID[Compendium.sf2e-anachronism.actions.Item.rlhZC1VPq3XixagS]</p>"
     },
     "SDFjJXIoIdOSPMSc": {
-      "name": "士兵战斗风格",
+      "name": "士兵战斗风格 Soldier Fighting Style",
       "description": "<p>作为士兵，你专注于一种特殊战斗风格。你的风格决定了你如何战斗，以及你如何压制目标。选择一种士兵战斗风格。</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.ajzZpzc8uMtgU6N8]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.T78VQC8oaD1Odz1k]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.VDEYb7aAwAjBp8Av]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.5mOTKBsn8OsEvFaA]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.FSAqTE67445EvyX8]</p>"
     },
     "SfHIy6u6IYYCgK3w": {
-      "name": "声震寰宇",
+      "name": "声震寰宇 Galaxy Renowned",
       "description": "<p>无论你走到星系中何处，你作为神枪手的名誉都先你一步流传开来。你在进阶枪械上的熟练提升为传奇。你的特工职业DC熟练度提升为大师。</p>"
     },
     "T78VQC8oaD1Odz1k": {
-      "name": "装甲风暴",
+      "name": "装甲风暴 Armor Storm",
       "description": "<p>你的护甲就像你皮肤（或其他适合的表皮）的延伸，你在使用重武器的同时也能充分利用它。被你压制的敌人在试图越过你的壁垒时总会出现差错，让你在吸收他们火力方面具有优势。你可能会站在队伍最前端，试图把敌人的注意力全吸引到自己身上。</p>\n<p>你可以选择不被视为处在自己用远程武器发动攻击所影响的区域内。此外，当你遭到来自@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]目标的攻击时，你获得相当于等级一半的伤害抗力（最少1点）。</p>\n<p>即便你没有空手，你也可以进行@UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]、@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]、@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]、@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]或者@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]。你在对被压制敌人尝试卸武、擒拿、移位、推撞或者摔绊的运动检定上获得+1状态加值。当你成功对一名生物卸武、擒拿、移位、推撞或者摔绊时，其还会陷入被压制，直到你的下个回合开始。</p>"
     },
     "TBTalfS2le7J7g2n": {
-      "name": "中甲专家",
+      "name": "中甲专家 Medium Armor Expertise",
       "description": "<p>你已学会如何更好地抵御攻击。你的轻甲、中甲和无甲防御熟练度提升至专家。你获得中甲的护甲专精效果。</p>"
     },
     "TJ6x3cwFzlZmpglX": {
-      "name": "悖论",
+      "name": "悖论 Paradox",
       "description": "<p>你的存在本质有别于当下的宇宙，这种异常激发的量子涟漪正是你施法能力的源泉，为你开启通往崭新世界的道路。你可能来自被覆写的现实或是不同的时间线，也可能你接触了足以改变你命运的现象，发现了干涉时间的异星设备，或是发表了一篇关于量子魔法论的论文。不论你经历如何，你已经成为了活着的悖论。</p>\n<p>在1级，选择你的悖论，其决定了你的施法根源、学习的额外法术、额外的受训技能，以及你量子场域中的效应。你也会获得聚能点和被称为曲织法术（warp spell）的聚能法术，其基于你的悖论。</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.42tQJXhySw9QKcn6]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.hFIB6wlYGK93zl4g]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.1E12XmyqzIK1jXrY]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.cxBVbSITniNRwfMi]</p>"
     },
     "TcyFiYq4Pd6dJsIl": {
-      "name": "察觉专家",
+      "name": "察觉专家 Perception Expertise",
       "description": "<p><strong>使节</strong>你对细节有敏锐的洞察力，并对周围的威胁保持警惕。你的察觉熟练度提升为专家。</p><hr /><p><strong>秘术师, 士兵, 科技法师</strong>你始终对周围的威胁保持警觉。你的察觉熟练度提升至专家。</p><hr /><p><strong>织维巫师</strong>你对周围的威胁时刻保持着警惕。你在察觉上的熟练度提升至专家。</p>"
     },
     "UCilslXlrd7ihsgY": {
-      "name": "无人机",
+      "name": "无人机 Drone",
       "description": "<p>你的外皮层会连接到一台被称作无人机的商用型机器人伙伴，它陪伴你一起冒险，并尽其所能遵从你的神经指令。除了所有机器人伙伴都会获得的商用型定制外，你的无人机还获得两个额外的商用型定制。你可以在至多150尺内用意念控制你的无人机；只有你可以操作、控制和修理你的无人机。如果无人机超出了你的控制范围，它就无法执行任何动作。在每日准备期间，你都会自动修理无人机，将其恢复到最大生命值。你也可以花费1小时修理你的无人机（如果你有迅速修理则为10分钟）将其恢复至最大生命值。你可以通过选择专长进一步定制和进阶你的无人机。</p>\n<p>如果你的无人机降至0生命值，它不会被摧毁，而是会瘫痪并启动紧急重启，关机直到被修理。关机期间，它免疫伤害，不能受到有害效果，也不能使用任何动作。1分钟后，它恢复至1点生命值。</p>\n<p>通过花费一点额外时间，你可以指挥你的无人机执行更复杂的计划。你可以花费2个动作而非1个来指挥无人机；这样无人机就可以使用一个额外动作（通常3动作，而非2动作）。</p>\n<p>你可以改造与你相邻的无人机、它的无武装攻击以及它持用的任何武器。无人机对于改造而言视为护甲。无人机的无武装攻击对于改造而言视为武器。你获得以下新改装。</p><ul><li><p><strong>绝境修理（无人机外皮层）：</strong>你的无人机获得等同于你的等级加上你智力调整值的临时生命值，直到你的下个回合结束。</p></li><li><p><strong>杀戮机器（无人机外皮层）：</strong>你的无人机在伤害掷骰上获得+2状态加值。如果你无人机的打击造成多于一个武器伤害骰，状态加值则提升每武器伤害骰2点，到最多四个武器伤害骰时+8状态加值。</p>\n</li></ul>"
     },
     "V7LMvEnxI7hN1n8Z": {
-      "name": "炮塔",
+      "name": "炮塔 Turret",
       "description": "<p>你的外皮层连接到一座可部署炮塔，它易于折叠并储存在你的定制工具组中。在你的回合结束时，如果你的炮塔储存在你的定制工具组中，它恢复@Damage[5[healing]]点生命值。你只有一座炮塔。它占据一个5尺方格，悬浮在原地，提供次等掩蔽。你可以在炮塔后方[[/act take-cover]]以获得标准掩蔽。部署完成后，如果你在炮塔150尺内，你可以远程发射此炮塔，如同从炮塔位置发起的一次远程打击。你的炮塔有自己的瞄准传感器，包括黑暗视觉，不依赖你的视觉。你的炮塔会使用你的攻击调整值，并共享你的多重攻击减值。</p>\n<p>你的炮塔是一件商用型军用远程武器，有两个强化槽。你可以按照升级武器的通常规则（Starfinder Player Core 236）提升你炮塔的品质，使其成为战术型或更好。炮塔的强化槽位于你的定制工具组上，而非炮塔本身，并在你部署炮塔时自动远程安装。你的炮塔耗弹为0，不需要弹药。它的等级等于你的等级，它的AC等于你的机械师职业DC，且具有硬度5。它的反射和强韧豁免具有受训熟练度，使用你的智力调整值来计算这些加值。它具有@Damage[10[healing]]点生命值，外加你每级2+你智力调整值的生命值。它的破损阈值等于总生命值的一半（向下取整），当它破损时不再能进行打击。在你每日准备期间，你会自动修理炮塔，将其恢复到最大生命值。如果你的炮塔降至0点生命值，它不会被摧毁，而是自动折叠并返回你的定制工具组，然后如常在你每个回合结束时恢复生命值。</p>\n<p>在5级时，你炮塔的硬度增加至10。10级时，其硬度增加至15，且其反射和强韧豁免熟练度提升至专家。15级时，其硬度增加至20，且其反射和强韧豁免熟练度提升至大师。</p>\n<p>为你的炮塔选择下列炮组之一，这将决定其伤害类型和射程增量。你可以花费10分钟使用你的定制工具组调整你的炮塔，以更改其选择的炮组。</p><ul><li><p><strong>链式机枪：</strong>1d8穿刺伤害，射程增量90尺，非电子特征，射弹武器组。</p></li><li><p><strong>裂解炮：</strong>1d8酸蚀伤害，射程增量60尺，科技特征，腐蚀武器组。</p></li><li><p><strong>激光束：</strong>1d8火焰伤害，射程增量60尺，科技特征，激光武器组。</p></li><li><p><strong>雷鸣炮：</strong>1d8音波伤害，射程增量60尺，科技特征，音波武器组。</p></li><li><p><strong>喷电器：</strong>1d8电击伤害，射程增量60尺，科技特征，电震武器组。</p></li><li><p><strong>零度发射器：</strong>1d8寒冷伤害，射程增量60尺，科技特征，冻寒武器组。</p></li></ul><p>当你在炮塔触及范围内时，你可以改造你的炮塔，将其视作武器，或使用如下两种新改装。</p><ul><li><p><strong>精确射击（炮塔外皮层）：</strong>你升级了炮塔的瞄准系统。提高炮塔的伤害，数值等于你的智力调整值。</p></li><li><p><strong>切换炮组（炮塔外皮层）：</strong>你可以微调炮塔的规格。更改炮塔选择的炮组。</p></li></ul>"
     },
     "VAwEU7gAry6nAJQt": {
-      "name": "武器大师",
+      "name": "武器大师 Weapon Mastery",
       "description": "<p>你对自己的武器了如指掌。你的简易武器，军用武器和无武装攻击熟练度提升至大师。</p>"
     },
     "VDEYb7aAwAjBp8Av": {
-      "name": "狂轰滥炸",
+      "name": "狂轰滥炸 Bombard",
       "description": "<p>没什么比一把或数把可靠的重炮更能让你克服艰难险阻。你已经接受这样一个事实：你的武器可能会击中你的盟友，但你会努力减少这种无意义的“友军伤害”。经过训练，你学会了在攻击中避开盟友，调整射击使其绕开他们。</p>\n<p>当你使用区域武器攻击时，你可以在攻击区域中选择数量等同于你体质调整值一半的盟友。所选盟友免受你的攻击。此外，在你的区域攻击中豁免成功（但没有大成功）的敌人依然会@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]，直到你的下个回合开始。</p>"
     },
     "XV8C2ASALC65G5MH": {
-      "name": "治疗",
+      "name": "治疗 Healing",
       "description": "<p>你与流经每个星球上所有生物的命能与虚能之源相联结。你将这些能量编织成法术，治疗你的盟友，伤害你的敌人。</p>\n<p><strong>根源</strong>神术</p>\n<p><strong>联结技能</strong>医疗</p>\n<p><strong>联结法术</strong></p><ul><li>戏法: @UUID[Compendium.pf2e.spells-srd.Item.SnjhtQYexDtNDdEg];</li><li>1环: @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs];</li><li>2环: @UUID[Compendium.pf2e.spells-srd.Item.8ViwItUgwT4lOvvb];</li><li>3环: @UUID[Compendium.sf2e-anachronism.spells.Item.kR5A0h2a9hY41wav];</li><li>4环: @UUID[Compendium.sf2e-anachronism.spells.Item.s6J1Q0e28Gb42epQ];</li><li>5环: @UUID[Compendium.pf2e.spells-srd.Item.Hnc7eGi7vyZenAIm];</li><li>6环: @UUID[Compendium.pf2e.spells-srd.Item.fd31tAHSSGXyOxW6];</li><li>7环: @UUID[Compendium.pf2e.spells-srd.Item.Z9OrRXKgAPv6Hn5l];</li><li>8环: @UUID[Compendium.pf2e.spells-srd.Item.4MOew29Z1oCX8O28];</li><li>9环: @UUID[Compendium.pf2e.spells-srd.Item.10VcmSYNBrvBphu1]</li></ul><p><strong>顿悟法术</strong></p><ul><li>初始: @UUID[Compendium.sf2e-anachronism.spells.Item.d7Mj4nUQe8wg1mV7];</li><li>进阶: @UUID[Compendium.sf2e-anachronism.spells.Item.zzi7LUKxKNWr5GsG];</li><li>高等: @UUID[Compendium.sf2e-anachronism.spells.Item.MTulATAiOZfZNQ9d]</li></ul><p><strong>协调</strong>当你转移命能时，尝试反制一个正影响目标的苦难，或尝试反制目标身上一个由你选择的导致下列状态的效果：@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]，@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]，@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]，@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]，@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]，@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]。</p>\n<p><strong>完美协调</strong>将@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]，@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]，@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]添加到你能用协调反制的状态列表中。此外，如果你没能反制效果，但如果其反制环级低2环时你就能反制成功，则改为压制该效果，直到你的下个回合开始。效果的持续时间在被压制期间不会减少。</p>"
     },
     "YRhKacqIsRDQ2eA9": {
-      "name": "编程语言",
+      "name": "编程语言 Programming Language",
       "description": "<p>在1级时，你选择一种编程语言，用于存储、操纵和骇入你的法术。</p>\n<p><strong>法术缓存：</strong>你的编程语言指示哪些法术会自动添加到你的法术缓存中。</p>\n<p><strong>魔法骇入：</strong>魔法骇入是一种聚能法术（第162–163页）。施放聚能法术需要花费1聚能点，你初始拥有1点聚能点的聚能池。你在每日准备期间重新充满聚能池，并且你可以通过花费10分钟使用再聚能动作翻阅你的法术数据库或进行奥术研究来恢复1点聚能点。</p>\n<p>聚能法术会自动升阶至你等级的一半，向上取整，就跟戏法一样。聚能法术不需要法术位，你也不能用法术位来施放它们。某些专长会给予你更多的聚能法术。你聚能池中最大聚能点等同于你拥有的聚能法术数量，但它永远不能超过3点。</p>\n<p>在1级时，你习得初始魔法骇入，它独属于你的编程语言。你可以通过进阶魔法骇入专长习得进阶魔法骇入，并通过高等魔法骇入专长习得高等魔法骇入。</p>\n<p><strong>塑法：</strong>你的编程语言赋予你创新的魔法操控方式。你在1级时获得列出的塑法专长。</p>\n<p><strong>固件强化：</strong>你用固件强化了你的装备以满足你的需求。你在1级获得所列的固件强化。</p>\n<p><strong>超频提升：</strong>每种编程语言都与一种类型的物品相关联，并在超频提升条目中注明。你只能超频与你的编程语言物品类型匹配的物品。当你持握、穿戴或持用超频物品，或拥有超频仆从时，你就会获得超频提升的增益。</p>\n<p><strong>超频脉冲：</strong>每种编程语言都赋予你一种独特而强大的效果，你可以调用它来引出超频装备的全部潜力。</p>\n<p><strong>越狱：</strong>在3级时，当你越狱法术并选择应用编程语言的偏好塑法时，你可以额外选择获得越狱条目中所列的增益。</p>\n<p>在8级时，你从你的编程语言中获得进阶越狱增益；越狱法术动作允许你应用一个你选择的越狱效果，但不能同时应用两个。</p>"
     },
     "YTmqZw5pLTNnN7AU": {
-      "name": "反射专家",
+      "name": "反射专家 Reflex Expertise",
       "description": "<p><strong>秘术师</strong>你的联结赋予你洞察力，助你避开危险。你的反射豁免熟练度提升至专家。</p><hr /><p><strong>士兵, 科技法师</strong>你培养出了躲避危险的本领。你的反射豁免熟练度提升为专家。</p><hr /><p><strong>织维巫师</strong>通过惊人的分析计算或者对更广泛多元宇宙的理解，你对潜在危险的知觉提升了你的反应速度。你在反射豁免上的熟练度提升至专家。</p>"
     },
     "YWgkncF2cFzvqXKy": {
-      "name": "神射手",
+      "name": "神射手 Sharpshooter",
       "description": "<p>你能看穿目标的弱点，令你可以用大多数类型的远程武器造成额外精准伤害。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC]动作。</p>"
     },
     "Yb2WhBQNv81nA83J": {
-      "name": "大师施法者",
+      "name": "大师施法者 Master Spellcaster",
       "description": "<p><strong>秘术师</strong>你通过联结引导魔法。你的法术攻击调整值和法术DC熟练度提升至大师。</p><hr /><p><strong>科技法师</strong>你拥有超凡的施法能力。你的法术攻击调整值和法术DC熟练度提升为大师。</p><hr /><p><strong>织维巫师</strong>你的法术是所有可能世界中最强效的法术之一。你在职业DC、法术攻击调整值和法术DC上的熟练度提升至大师。</p>"
     },
     "YtysHqoszmqq7L2K": {
-      "name": "魔法强韧",
+      "name": "魔法强韧 Magical Fortitude",
       "description": "<p>魔法的力量增强了你身体的韧性。你在强韧豁免上的熟练度提升至专家。</p>"
     },
     "Z1sThY5XgXiXQBIy": {
-      "name": "真切物件",
+      "name": "真切物件 Tangible Object",
       "description": "<p>一件小小的物品，通常是你穿戴或可以用一条肢体持握的物品，能够让你感到舒心。它可能是一件具有情感价值的小饰品或者衣物，一个可以摆弄的小玩意，又或者可能只是有着你觉得舒适的质地。</p>\n<p><strong>锚点增益</strong>你所选物品的存在或重量能够帮助你面对现实。你在对抗幻术或全息影像的察觉检定和意志豁免上获得+1环境加值。</p>\n<p><strong>锚定效果</strong>你的@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]状态值减少1点。如果你未处于惊惧状态，你转而在对抗恐惧效果的意志豁免上获得+1环境加值，并且你的意志DC在他人尝试对你@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]时获得+2环境加值，持续到你的下个回合开始。你每轮只能从此效果中受益一次。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.nvB1852vEPVqjxhR]{效果：真切物件（锚定效果）}</p>"
     },
     "ZAiCSJ8Vg4vgJODt": {
-      "name": "特工锐意",
+      "name": "特工锐意 Operative's Edge",
       "description": "<p>你磨练出了对细节的洞察力。你的察觉熟练提升为大师。此外，你在先攻检定上获得+2环境加值，让你做战斗中能更快做出反应。如果你选择了惊奇先攻专长，你在先攻检定上的环境加值改为+3。</p>"
     },
     "ZXDU1AYQakFVEovf": {
-      "name": "专家使节",
+      "name": "专家使节 Envoy Expertise",
       "description": "<p>你已经走过了漫长的道路，你的实践经验已提升了你的技艺。你的使节职业DC熟练度提升至专家。</p>"
     },
     "ZwyuKa2N7QJdPUzN": {
-      "name": "坚如铁钉",
+      "name": "坚如铁钉 Tough as Nails",
       "description": "<p>你在强韧豁免上的熟练度提升至大师。当你在一个强韧豁免检定上取得成功时，你可以将其替换为大成功。</p>"
     },
     "aBe79UixtYqZKwtv": {
-      "name": "锚点",
+      "name": "锚点 Anchor",
       "description": "<p>不论悖论如何改变了你的存在，仍有某些存在将你锚定在现实中。这可能是随身携带的实物，可能是你对家乡或所爱的记忆。在1级，选择一个锚点。</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.ENxkQJEIkz35yuMT]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.idjill6Zh7b3SLqE]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.Z1sThY5XgXiXQBIy]</p>"
     },
     "aDCKR3sl5dzTFa3S": {
-      "name": "操控引力",
+      "name": "操控引力 Gravitas",
       "description": "<p>你通过操控引力来保护身体，从而避免伤害。你在反射豁免上的熟练度提升至大师。如果你在反射豁免上掷骰出成功结果，你改为获得大成功。</p>"
     },
     "aNjblp6lHFILQY3e": {
-      "name": "巧舌如簧",
+      "name": "巧舌如簧 Silver Tongue",
       "description": "<p>你的智慧和技能无与伦比。你的使节职业DC熟练度提升为大师。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.MZ65QZDqa9ignWXm]动作。</p>"
     },
     "ajzZpzc8uMtgU6N8": {
-      "name": "激昂英姿",
+      "name": "激昂英姿 Action Hero",
       "description": "<p>你坚信一切问题都可以通过火力扫除障碍来解决。你莽撞的选择和夸张的声势会为你杀出血路，尽管并非明智之举。对你来说，没有什么问题是不能被足量子弹或者激光喷射解决的，当然你也可以将它们混合或者寻找其他手段，如果需要的话。你已经专精于运用自动武器，无论是在前线作战，操纵疾驰载具上的炮塔，抑或是在敌群中开火扫荡。</p>\n<p>当你使用具有全自动特征的武器成功进行一次远程打击时，你会@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]目标，直到你的下个回合开始。除此之外，当你使用@UUID[Compendium.sf2e-anachronism.actions.Item.6ctkxUnVwqooSvgg]时，锥形区域的范围等同于武器的射程增量，而非一半。当使用自动射击时，你可以指定在锥形区域内任何位置的目标作为主目标，而不局限于距离你最近的目标。</p>"
     },
     "amIhIlz8TTHEBTBl": {
-      "name": "机械师武器大师",
+      "name": "机械师武器大师 Mechanic Weapon Mastery",
       "description": "<p>你完全了解武器的复杂性。你的简易武器，军用武器和无武装攻击熟练度提升至大师。</p>"
     },
     "bqqCQKroiW9dGPzb": {
-      "name": "士兵武器专家",
+      "name": "士兵武器专家 Soldier Weapon Expert",
       "description": "<p>你掌握了如何使用你的武器来粉碎敌人并充分发挥区域攻击。你在简易武器，军用武器，和无武装攻击的熟练度提升为专家。你在使用带有区域或全自动特征的武器时获得它们的重击专精效果。</p>"
     },
     "bzZxqUzt5sjcbyZa": {
-      "name": "惊人感官",
+      "name": "惊人感官 Incredible Senses",
       "description": "<p><strong>使节</strong>你能注意到普通人几乎无法察觉的事物。你的察觉熟练度提升为传奇。</p><hr /><p><strong>特工</strong>即使没有瞄准镜你的视觉仍旧锐利无比。你的察觉熟练提升为传奇。</p>"
     },
     "cC0kO5gP0FKFtdiF": {
-      "name": "恒星武士武器大师",
+      "name": "恒星武士武器大师 Solarian Weapon Mastery",
       "description": "<p>你的武器成为你自身的延伸。你在简易武器、军用武器以及无武装攻击上的熟练度提升至大师。</p>"
     },
     "cI27Sd5IacN9OeDe": {
-      "name": "超脱",
+      "name": "超脱 Transcendence",
       "description": "<p>你是自身联结的化身，以奇迹般的法术彰显你的超脱。添加两个你根源的常见10环法术到你法术库中。你获得一个10环法术位来以你的秘术师施法施放这些法术。不同于其他法术位，你不会随着升级而获得更多10环法术位，你不能在这些法术位上使用让你不消耗法术位施法的能力，或是让你获得更多法术位的能力。你可以通过获取@UUID[Compendium.sf2e-anachronism.feats.Item.6tu2lS0CgxiDMHVO]专长来获得第二个法术位。</p>"
     },
     "cJ8j2FKJxmL8HZG2": {
-      "name": "压制火力",
+      "name": "压制火力 Suppressing Fire",
       "description": "<p>你懂得如何使用强大的武器来阻碍敌人，并遏阻他们以全盛姿态行动。当你进行一次具有区域特征的攻击（例如来自@UUID[Compendium.sf2e-anachronism.actions.Item.oc0ZKnk5zD0GXqZi]或@UUID[Compendium.sf2e-anachronism.actions.Item.6ctkxUnVwqooSvgg]动作），你将以压制目标的方式来运用它。受影响区域内的生物如果没有成功通对你攻击的豁免，便会陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]状态，直到你的下个回合开始。被压制的目标在攻击骰上有-1环境减值，在速度上有-10尺状态减值。有些士兵能力和职业专长会和被压制状态产生进一步交互。</p>"
     },
     "ckV4AMjqPv3a8i1J": {
-      "name": "反射大师",
+      "name": "反射大师 Reflex Mastery",
       "description": "<p><strong>使节</strong>你学会了快速移动，以躲避爆炸、龙息和更可怕的东西。您的反射豁免熟练度等级升至大师。当您反射豁免掷骰出成功结果时，你改为获得大成功。</p><hr /><p><strong>机械师</strong>在车库里的几次意外让你明白了快速移动的价值。你的反射豁免熟练度提升至大师。如果你在反射豁免中掷骰出成功结果，你改为获得大成功。</p><hr /><p><strong>特工</strong>你学会了快速躲避爆炸、哨戒炮塔或更危险的东西。你的反射豁免熟练提升至大师。当你在反射豁免中成功时，将结果改为大成功。</p>"
     },
     "cxBVbSITniNRwfMi": {
-      "name": "乱时先知",
+      "name": "乱时先知 Precog",
       "description": "<p>某次时间让你从时间中分离。你或许来自遥远的过去，或许来自遥远的未来。你可能从某个荒废的时间线出发，来阻止一场灾难。不管出于什么原因，你现在拥有了窥探和操控时间的能力。</p>\n<p><strong>施法根源</strong>异能</p>\n<p><strong>悖论技能</strong>驾驶</p>\n<p><strong>悖论法术</strong> 戏法: @UUID[Compendium.sf2e-anachronism.spells.Item.sNUvbMoMeLTnYJm8]; 1环: @UUID[Compendium.pf2e.spells-srd.Item.aEM2cttJ2eYcLssW]; 2环: @UUID[Compendium.sf2e-anachronism.spells.Item.H0WECXb2wvTHT9yk]; 3环: @UUID[Compendium.sf2e-anachronism.spells.Item.GdlG9a4o0ax0F2HT]; 4环: @UUID[Compendium.sf2e-anachronism.spells.Item.7Ib3qxIC0bFD3ued]; 5环: @UUID[Compendium.sf2e-anachronism.spells.Item.g58dbrP7FadZhh6j]; 6环: @UUID[Compendium.pf2e.spells-srd.Item.0XP2XOxT9VSiXFDr]; 7环: @UUID[Compendium.pf2e.spells-srd.Item.AlbpWWN87yGegoAF]; 8环: @UUID[Compendium.pf2e.spells-srd.Item.4MOew29Z1oCX8O28]; 9环: @UUID[Compendium.pf2e.spells-srd.Item.qsNeG9KZpODSACMq]</p>\n<p><strong>曲织法术</strong> 初始: @UUID[Compendium.sf2e-anachronism.spells.Item.1gkdgFwKfAoQx163]; 进阶: @UUID[Compendium.sf2e-anachronism.spells.Item.RDvWFbAaXtxrhJMD]; 高等: @UUID[Compendium.sf2e-anachronism.spells.Item.HzFdtjvRCFpb0NrS]</p>\n<p><strong>量子场域</strong>你能对周遭的时间施加些许控制，让你加快自己和他人速度，或者减缓他人的时间流动。当一个敌人在量子场域内使用移动动作，其速度会在此动作期间承受-5尺状态减值。而当你和你的盟友在量子场域内使用移动动作，你们的速度会在此动作期间获得+5尺状态加值。</p>"
     },
     "e5vmlTZ2zbYak1Yp": {
-      "name": "传奇射手",
+      "name": "传奇射手 Legendary Gunner",
       "description": "<p>你是当地的传奇人物，以精湛的武器技艺而闻名。你在简易和军用枪械上的熟练提升为传奇，在进阶枪械上的熟练提升为大师。你在简易武器、军用武器和无武装攻击的熟练提升为专家。</p>"
     },
     "f9dNcZi9kzbaGl8M": {
-      "name": "使节指令",
+      "name": "使节指令 Envoy Directives",
       "description": "<p>使节通过指令来鼓励盟友。指令是对遵守指令的盟友有利的命令。使节指令包括让使节以身作则的方式，花费更多动作来获得更多效果。指令具有听觉或视觉特征，取决于你激励盟友的方式。</p>\n<p>你初始有一个使节指令。你可以通过使节职业，使节职业专长，和你的领导风格学到更多指令。你每轮可以下达一个指令。除非另有说明，使节的指令及其赋予的增益会持续到你的下回合开始。</p>\n<p>你获得“@UUID[Compendium.sf2e-anachronism.actions.Item.cmCtfURzpbzkxWsy]”使节指令。</p>"
     },
     "fM1vlupLq9Zlyt7C": {
-      "name": "阿卡西",
+      "name": "阿卡西 Akashic",
       "description": "<p>你与阿卡西记录保持着永恒的心灵链接，这个超自然的知识库包含了多元宇宙中的所有知识。这个联结使你能够接触到以普通凡人的心智无法触及的知识。</p>\n<p><strong>根源</strong>异能</p>\n<p><strong>联结技能</strong>神秘</p>\n<p><strong>联结法术</strong> 戏法: @UUID[Compendium.sf2e-anachronism.spells.Item.nf8q0zvJDnnkzANe]; 1环: @UUID[Compendium.sf2e-anachronism.spells.Item.VynaowCerc7B4yvI]; 2环: @UUID[Compendium.sf2e-anachronism.spells.Item.mnoTqz0gjRmuc4oR]; 3环: @UUID[Compendium.pf2e.spells-srd.Item.ZYoC630tNGutgbE0]; 4环: @UUID[Compendium.pf2e.spells-srd.Item.zvKWclOZ7A53DObE]; 5环: @UUID[Compendium.sf2e-anachronism.spells.Item.kTzbLqmqPcZwOa5F]; 6环: @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]; 7环: @UUID[Compendium.sf2e-anachronism.spells.Item.zdzeVZlKHkMAt2Rf]; 8环: @UUID[Compendium.sf2e-anachronism.spells.Item.f98vwzcdxafum8ln]; 9环: @UUID[Compendium.pf2e.spells-srd.Item.qsNeG9KZpODSACMq]</p>\n<p><strong>顿悟法术</strong> 初始: @UUID[Compendium.sf2e-anachronism.spells.Item.mAu69GVbFKYzQM5a]; 进阶: @UUID[Compendium.sf2e-anachronism.spells.Item.z0Spgrf92nmaqjCW]; 高等: @UUID[Compendium.sf2e-anachronism.spells.Item.CjVOXjuvvTJqC7AD]</p>\n<p><strong>协调</strong>当你@UUID[Compendium.sf2e-anachronism.actions.Item.UeMHbnnaXDa3sGfG]时，目标会从阿卡西记录中接收到一份下载好的心灵资料，并可以立即用反应动作尝试@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]。这不会触发任何会在生物使用回忆知识时触发的特殊能力、反应动作或自由动作。</p>\n<p><strong>完美协调</strong>你创建一个超维度记忆宫殿，其效果如同@UUID[Compendium.pf2e.spells-srd.Item.vPWMEyVTreMOoFnm]。创造进入半位面的门需要1分钟。记忆宫殿在你每次进入时都将保持相同布局，可以在每日准备时进行调整。记忆宫殿中的每个魅影仆役功能如同阿卡西助手般运作（如同由<em>阿卡西助手</em>顿悟法术创造出的）。</p>"
     },
     "fRK5EWuI6qwoFQRA": {
-      "name": "敏锐之眼",
+      "name": "敏锐之眼 Critical Eye",
       "description": "<p>你有一双善于发现细节的眼睛，能注意到几乎不易察觉的事物。你的察觉熟练度提升至传奇。</p>"
     },
     "fkRGEE9raPLD8NpN": {
-      "name": "专心致志",
+      "name": "专心致志 Focused",
       "description": "<p>你的高度专注于目标，可以识别他们的行动。当你在对抗你标靶的反射豁免或意志豁免中成功时，将结果改为大成功。</p>"
     },
     "h5toU3dCzHeSj50h": {
-      "name": "织维巫师施法",
+      "name": "织维巫师施法 Witchwarper Spellcasting",
       "description": "<p>你的悖论赋予了你魔法力量。你可以用施放法术行动来施法。作为织维巫师，当你施法时，你可能会大声描述关于其他现实的启示，兼有优雅的手势，而神秘符号或者奥法方程在你身周闪烁。</p>\n<p>你每日最多可以施放三个1环法术。在施放法术前你必须已知这些法术，你可以通过法术库职业特性来学习法术。你每日可以施放的法术数量被称为法术位。</p>\n<p>随着你织维巫师等级的提高，你每日的法术数量也会随之增加，你可施放的最高法术环级同样随之提升，如下表所示。</p>\n<p>你的某些法术需要你进行法术攻击以确定效果，或让敌人掷骰对抗你的法术DC（通常是进行豁免）。你的法术攻击调整值和法术DC使用你的魅力或智力调整值，取决于你选择哪一项作为关键属性。</p><h3>升阶法术</h3><p>当你获得2环级以及更高环级的法术位时，你可以在这些法术位施放较低环级的法术的强化版本。这会增加这些法术的环级，升阶到所消耗法术位的环级。你必须在法术库中拥有法术的该环级版本才能将法术升阶至某一环级。许多法术在升阶至特定环级时有特定的效果提升。</p><h3>戏法</h3><p>你的部分法术为戏法。戏法是一类特殊的不使用法术位的法术。你可以随意施放戏法，每日任意次数。戏法总是会自动升阶到你的等级的一半并向上取整，这通常等于你拥有的织维巫师最高环法术位环级。例如，作为一个1级织维巫师，你施放的戏法为1环；作为5级织维巫师时，你的戏法是3环法术。</p><h3>曲织法术</h3><p>你可以创造被称为曲织法术的强大魔法现象。曲织法术是一种聚能法术。施放一个曲织法术需要花费1聚能点，而你初始拥有一个含有1聚能点的聚能池。每日准备期间，你会将聚能池补满；你也可以花费10分钟使用重新聚能活动，沉思无穷世界或进行量子魔法研究，以恢复1聚能点。</p>\n<p>聚能法术会自动升阶到你的等级的一半，向上取整，类似戏法一般。聚能法术不需要法术位，你也不能使用法术位来施放它们。选取专长能够给予你更多聚能法术并增大你的聚能池，但你的聚能池拥有不能超过3点聚能点。</p>\n<p>与其他聚能法术不同，曲织法术具有锚定特征。此特征意味着你只能在量子场域生效期间使用曲织法术，且施放曲织法术时，你会自动维持量子场域。</p>\n<p>你学习的曲织法术基于你的悖论。</p>"
     },
     "hFIB6wlYGK93zl4g": {
-      "name": "异值覆写",
+      "name": "异值覆写 Anomaly",
       "description": "<p>你的存在本身便是一个异常值，有违当下现实的正常参数。你或许遭遇了某种存在扰乱了你的核心存在，抑或你自另一个现实穿越面纱而来。</p>\n<p><strong>施法根源</strong>奥术</p>\n<p><strong>悖论技能</strong>欺骗</p>\n<p><strong>悖论法术</strong> 戏法: @UUID[Compendium.sf2e-anachronism.spells.Item.jgN33YSYXB8iIHTw]; 1环: @UUID[Compendium.sf2e-anachronism.spells.Item.7P4eBdqWcgQJAFCa]; 2环: @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]; 3环: @UUID[Compendium.sf2e-anachronism.spells.Item.qkehzRdn7JeGrR6E]; 4环: @UUID[Compendium.sf2e-anachronism.spells.Item.jyrxfWeeCsrkhNit]; 5环: @UUID[Compendium.pf2e.spells-srd.Item.kOa055FIrO9Smnya]; 6环: @UUID[Compendium.sf2e-anachronism.spells.Item.a02hsymtiVRQvh3i]; 7环: @UUID[Compendium.sf2e-anachronism.spells.Item.zdzeVZlKHkMAt2Rf]; 8环: @UUID[Compendium.sf2e-anachronism.spells.Item.sTpdXXaaKhoGOIxh]; 9环: @UUID[Compendium.sf2e-anachronism.spells.Item.J3zMwmhIVgI2yzxm]</p>\n<p><strong>曲织法术</strong> 初始: @UUID[Compendium.sf2e-anachronism.spells.Item.TN2pHF9l3k4ZJ7di]; 进阶: @UUID[Compendium.sf2e-anachronism.spells.Item.9w90nlUdV5HBRWFm]; 高等: @UUID[Compendium.sf2e-anachronism.spells.Item.XoYUZP9OYdDMz4I0]</p>\n<p><strong>量子场域</strong>敌人其他迭代版本的影像在其周身闪烁，使其动作模糊不清。每当一名处于量子场域内的敌人尝试具有专注特征的动作时，除非成功通过@Check[flat|dc:5|showDC:all]，否则动作会被打断。首次失败后，该生物获得对此效果为期24小时的临时免疫。</p>"
     },
     "hNnIAyBxfQ2Howp2": {
-      "name": "命能网络",
+      "name": "命能网络 Vitality Network",
       "description": "<p>你的灵魂支持着一个连结并治愈你纽带中生物的能量网络。你的命能网络具有等同于6+每等级4点生命值的最大容量。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.UeMHbnnaXDa3sGfG]动作，可以用来从你的网络中提取生命值并将其转移到自己或盟友身上进行治疗。</p>\n<p>生死攸关的情况有助于加固你与盟友的纽带。在战斗中每回合开始，当你重新获得动作时，你的命能网络会恢复4点生命值；如果你的法术DC为大师熟练度，它改为恢复6点生命值；如果你达到传奇熟练度，它会恢复8点生命值。当你再聚能时，你的命能网络会恢复全部生命值。</p>"
     },
     "hWp6ufwkG0xX1Ci6": {
-      "name": "意志专家",
+      "name": "意志专家 Will Expertise",
       "description": "<p>你的精神防御力变得更强。你的意志豁免熟练度升至专家。</p>"
     },
     "haHtZtNqN4t19FzL": {
-      "name": "远程改装",
+      "name": "远程改装 Remote Mods",
       "description": "<p>你可以远程改造你的外皮层。你可以改造你的外皮层（及其武器，如果适用的话）的距离增加至60尺。在15级时，你可以改造你的外皮层（及其武器）的距离增加至150尺。</p>"
     },
     "i4BxqSCrc7jj0Qzg": {
-      "name": "恒星武士大师",
+      "name": "恒星武士大师 Solarian Mastery",
       "description": "<p>你操纵星辰力量的能力无与伦比。你在恒星武士职业DC上的熟练度提升至大师。</p>"
     },
     "iDZVHCu8Iwl8OCPg": {
-      "name": "量子场域",
+      "name": "量子场域 Quantum Field",
       "description": "<p>你可以借由彼此矛盾的力量创造出一片曲织现实的量子场域。这可能具现为弥漫在空气中的薄雾，不同现实在其中闪烁，也可能表现为写满晦涩魔法方程的墙体，或是你选择的任何形式。量子场域的效果由你的悖论决定。你可以通过织维巫师专长或者施放曲织法术来进一步增强和操控你的量子场域。你可以用曲织现实的魔力来激活你的量子场域或者延长其持续时间。</p>\n<p>你获得@UUID[Compendium.sf2e-anachronism.actions.Item.ZoMpqQgDdlT13Jp0]动作，其允许你激活你的量子场域。这一动作会根据你悖论决定的施法根源相应获得奥术或异能特征。此外，你还获得@UUID[Compendium.sf2e-anachronism.actions.Item.30Nw5q4vWKCQIBIZ]动作，可以在遭遇开始时快速激活量子场域。</p>"
     },
     "iOGvwhx11XetNT9p": {
-      "name": "士兵决意",
+      "name": "士兵决意 Soldier's Resolution",
       "description": "<p>你在意志豁免上的熟练度提升至大师。当你在一个意志豁免检定上取得成功时，你可以将其替换为大成功。</p>"
     },
     "idjill6Zh7b3SLqE": {
-      "name": "焦点概念",
+      "name": "焦点概念 Focal Point",
       "description": "<p>你强烈地专注于一个特定的主题或理念，以致于其他事情都会消失在背景中——甚至包括悖论和交叠的现实。你的焦点概念可能是一个学术领域，一个抽象概念，一个兴趣爱好，或者甚至是你最喜欢的媒体。</p>\n<p><strong>锚点增益</strong>你一心一意的专注有助于你集中意念。如果一个反应动作会打断你的施法动作，你可以尝试一次@Check[flat|dc:15]，如果成功，你的动作不会被打断。</p>\n<p><strong>锚定效果</strong>你的@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]状态减少1点，并且你在自己的下个回合开始前忽视@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]状态。你每轮只能从此效果中受益一次。</p>"
     },
     "ii2Q0KF0dLTrDEYo": {
-      "name": "察觉大师",
+      "name": "察觉大师 Perception Mastery",
       "description": "<p><strong>使节</strong>通过探险，你已经培养了敏锐的洞察力和对细节的关注。你的察觉熟练度提升为大师。</p><hr /><p><strong>机械师</strong>你对细节的关注能让你对周围的威胁保持警惕。你的察觉熟练度提升至大师。</p>"
     },
     "jV9LIUswOPkVRC49": {
-      "name": "韵律",
+      "name": "韵律 Rhythm",
       "description": "<p>你能感受到那撼动星辰的歌谣，借由可闻的韵律与被众人称作天体之歌（Song of the Spheres）的宇宙共振，引导此太空节拍。或许你心中仅有一段旋律或曲调，却迫切想要分享，首先传递给与你建立纽带的盟友。</p>\n<p><strong>根源</strong>原能</p>\n<p><strong>联结技能</strong>表演</p>\n<p><strong>联结法术</strong> 戏法: @UUID[Compendium.pf2e.spells-srd.Item.yvs1zN5Pai5U4CJX]; 1环: @UUID[Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8]; 2环: @UUID[Compendium.pf2e.spells-srd.Item.wzLkNU3AAqOSKFPR]; 3环: @UUID[Compendium.pf2e.spells-srd.Item.K2WpC3FFoHrqX9Q5]; 4环: @UUID[Compendium.sf2e-anachronism.spells.Item.Fa1f7VtZitQYrArX]; 5环: @UUID[Compendium.pf2e.spells-srd.Item.BilnTGuXrof9Dt9D]; 6环: @UUID[Compendium.pf2e.spells-srd.Item.RQjSQVZRG497cJhX]; 7环: @UUID[Compendium.sf2e-anachronism.spells.Item.g9QLswd5uqDdcCjv]; 8环: @UUID[Compendium.pf2e.spells-srd.Item.Jvyy6oVIQsD34MHB]; 9环: @UUID[Compendium.pf2e.spells-srd.Item.FmNDwqMEjeTEGPrY]</p>\n<p><strong>顿悟法术</strong> 初始: @UUID[Compendium.sf2e-anachronism.spells.Item.smCC1LNhMb7Z1lrU]; 进阶: @UUID[Compendium.sf2e-anachronism.spells.Item.AlYzxLKWZujnzsjJ]; 高等: @UUID[Compendium.sf2e-anachronism.spells.Item.Ii8adgcCejAovsNv]</p>\n<p><strong>协调</strong>当你转移命能时，你可以使任意生效中的，来自韵律联结的顿悟法术，其持续时间延长1轮。</p>\n<p><strong>完美协调</strong>你每轮首次转移命能时，恢复生命值的目标可以用一个自由动作行走。该动作具有穿梭特征。</p>"
     },
     "jaGIV3t7G07F0qda": {
-      "name": "枪炮齐鸣",
+      "name": "枪炮齐鸣 Guns Blazing",
       "description": "<p>你带领团队，以强大的火力给人留下深刻印象。你张扬的性格背后是密集的枪声，而你总是先发制人。</p>\n<p><strong>领导技能</strong>特技</p>\n<p><strong>领导奖励</strong>你获得@UUID[Compendium.pf2e.feats-srd.Item.2kwXTUjYYhoAGySr]作为奖励专长。</p>\n<p><strong>领导指令</strong> @UUID[Compendium.sf2e-anachronism.actions.Item.RNilk6Evoi0xNbWX]</p>"
     },
     "kZ7qB7yZMRCdMad3": {
-      "name": "星辰调谐",
+      "name": "星辰调谐 Stellar Attunement",
       "description": "<p>作为一名恒星武士，星辰面相间的循环决定了你的存在。你初始拥有两种面相：光量子（photon，星辰散发出热量、光以及等离子体的力量）和引力子（graviton，星辰通过引力吸引和束缚物体的力量）。在任何情况下，你都处在引力子调谐、光量子调谐、或未调谐三种情况之一。你的许多能力都会根据你的当前调谐产生额外的效果，而有些能力则会将你的当前调谐转变成另一种情况。</p>\n<p>你获得@UUID[Compendium.sf2e-anachronism.actions.Item.3xDhpvORBmK6AtcI]动作。</p>"
     },
     "kvmpnKMVw4wwGk8c": {
-      "name": "阴影",
+      "name": "阴影 Shadow",
       "description": "<p>你知道每一片阴影都是通往影界的大门，如同艺术家捏塑黏土，你随心所欲地将那片领域的阴影物质塑造成令人战栗又充满奇迹的形态。</p>\n<p><strong>根源</strong>神术</p>\n<p><strong>联结技能</strong>隐秘</p>\n<p><strong>联结法术</strong> 戏法: @UUID[Compendium.pf2e.spells-srd.Item.0zU8CPejjQFnhZFI]; 1环: @UUID[Compendium.pf2e.spells-srd.Item.k34hDOfIIMAxNL4a]; 2环: @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]; 3环: @UUID[Compendium.pf2e.spells-srd.Item.WsUwpfmhKrKwoIe3]; 4环: @UUID[Compendium.pf2e.spells-srd.Item.zR67Rt3UMHKC5evy]; 5环: @UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]; 6环: @UUID[Compendium.pf2e.spells-srd.Item.WPXzPl7YbMEIGWfi]; 7环: @UUID[Compendium.pf2e.spells-srd.Item.0jadeyQIItIuRgeH]; 8环: @UUID[Compendium.pf2e.spells-srd.Item.wfleiawxsfhpRRwf]; 9环: @UUID[Compendium.pf2e.spells-srd.Item.MJx7DmjsWYzDZ3a4]</p>\n<p><strong>顿悟法术</strong> 初始: @UUID[Compendium.sf2e-anachronism.spells.Item.uh9Br4yrKvJA6zq0]; 进阶: @UUID[Compendium.sf2e-anachronism.spells.Item.rluzzX2ml4yFWnYw]; 高等: @UUID[Compendium.sf2e-anachronism.spells.Item.pgjlPNfXCpEYyLVu]</p>\n<p><strong>协调</strong>当你转移命能时，目标的阴影会变暗并膨胀，将目标周围@Template[type:emanation|distance:10]范围内的明亮光照减弱为昏暗光照。这是一种魔法黑暗，可以压制非魔法光亮或尝试反制魔法光亮。目标在这种昏暗光照下将变为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]，并可以使用此隐蔽状态进行@UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]。这会持续到你的下个回合结束。</p>\n<p><strong>完美协调</strong>你获得@UUID[Compendium.sf2e-anachronism.actions.Item.u9NU2bULHg3S5FaP]{暗影行走}动作。当你转移命能时，目标在其下个回合结束前可以使用一次此动作。</p>"
     },
     "kvyqzqiWsIrBZt6h": {
-      "name": "秘术纽带",
+      "name": "秘术纽带 Mystic Bond",
       "description": "<p>你在自己和他人之间建立纽带，通常是与你最亲密的伙伴。秘术师们建立纽带的具体方式各不相同，但都需要花费一个和秘术师的联结相关的10分钟行动。你可以与至多10个其他自愿的生物建立纽带，并且纽带一直持续到你或某个被建立纽带的生物不再自愿成为纽带的一部分。你自己总是被认为是你纽带中的一部分，并且不计入10个生物的上限。</p>\n<p>你总是知道其他联结生物的大致距离和方向，他们的生命值总数，以及它们是清醒、@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]、@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]还是死亡。这种能力在跨位面（包括漂流域中的通行）时不起作用，一些特殊的魔法或科技效果可能会干扰你侦测盟友的能力。</p>"
     },
     "lCzX29XTGKHvMiBe": {
-      "name": "传奇士兵",
+      "name": "传奇士兵 Legendary Soldier",
       "description": "<p>你是星系中的传奇英雄（或法外狂徒），以在战场上倾泻毁灭性火力而闻名。你在士兵职业DC上的熟练度提升至传奇。</p>"
     },
     "lUOqKCSOxNxbvJfx": {
-      "name": "定制工具组",
+      "name": "定制工具组 Custom Rig",
       "description": "<p>你初始拥有一个名为定制工具组的专用工具包。你的定制工具组重1负载，可同时作为商用型修理工具包（commercial repair toolkit），以及以下任一工具包：商用型黑客工具包（commercial hacking toolkit）、商用型渗透者工具包（commercial infiltrator's toolkit）或商用型创客工具包（commercial maker's toolkit）。如果你穿戴着定制工具组，可以单手使用它；如果你持握它，则需要双手使用。</p>\n<p>每当你购买了所列工具包之一，或所列工具包中更高级的版本，你就可以花费10分钟将该工具包集成到你的定制工具组中，而不增加其负载。你的定制工具组和任何集成的工具包都不能被出售或被其他生物使用。</p>\n<p>如果你的定制工具组丢失或被摧毁，你可以花费1小时建造一个新的。你之前的定制工具组停止运作，而你的新定制工具组不具有任何先前已集成工具包的性能。</p>"
     },
     "lj6Hva7QrwOhPlGD": {
-      "name": "伤害定制",
+      "name": "伤害定制 Damage Customizations",
       "description": "<p>你已经掌握了将能量从一种类型暂时转化为另一种类型的工具，并解决了给你的物理攻击增加多用性所需的复杂计算。在你改造时能选择的选项中添加如下改装。</p><ul><li><p><strong>能量多变性（造成能量伤害的手雷或武器）：</strong>你可以为物品添加定制能量转换器。该物品会造成以下伤害类型之一，而非其通常伤害类型：酸蚀、寒冷、电击、火焰、音波。</p></li><li><p><strong>物理多变性（造成物理伤害的手雷或武器）：</strong>你可以改造物品的结构，改变其破坏潜力。该物品会造成以下伤害类型之一，而非其通常伤害类型：钝击、穿刺、挥砍。</p></li></ul>"
     },
     "ljkwlEYfP5PsPkFI": {
-      "name": "机动外皮层",
+      "name": "机动外皮层 Mobile Exocortex",
       "description": "<p>你升级了你的外皮层，使连接到它的设备更加机动或灵活。此效果取决于你选择的外皮层。如果你拥有无人机外皮层，你获得同步移动动作。如果你拥有地雷或炮塔外皮层，你获得移位外皮层动作。</p>"
     },
     "mjZJEQpp6pWNHE4L": {
-      "name": "多重改装",
+      "name": "多重改装 Manifold Mods",
       "description": "<p>你学会了同时安装多个改装。每当你改造一件物品时，你可以选择两个，而非一个，你已知的改装应用于一件物品。</p>"
     },
     "ml5oxO1iIxQZYdw4": {
-      "name": "标志性法术",
+      "name": "标志性法术 Signature Spells",
       "description": "<p>你学会了更灵活地施放部分法术，赋予你对施法的额外控制力。从每个你获得的法术环级上选择一个该等级的法术作为你的标志性法术。你不需要另外学习标志性法术的升阶版本；相反，你可以自由升阶这些法术。如果你学习了一个超过原本等级的标志性法术，你可以无需学习便施展这个法术的低级版本。如果你替换了标志性法术，你可以重新选择一个相同等级法术作为新的标志性法术。你还可以通过重训在不替换法术的情况下改变标志性法术，这会花费和通常重训法术相同的时间。</p>"
     },
     "mn0U5WmxlYuRrsGT": {
-      "name": "致命瞄准",
+      "name": "致命瞄准 Critical Aim",
       "description": "<p>每轮第一次，当你瞄准并成功对标靶进行远程打击时，应用你的武器重击专精效果，即使你没有造成重击。</p>"
     },
     "msU9FRYDZwkYvLNH": {
@@ -549,87 +549,87 @@
       "name": "DPS++"
     },
     "oFwbBK5c2yk1FD0c": {
-      "name": "主目标",
+      "name": "主目标 Primary Target",
       "description": "<p>当你完全倾泻手中强大武装的毁灭性火力时，你可以对一个目标制造尤为强大的火力。当你进行一次具有区域效果的攻击前（例如区域射击或自动射击动作），你可以以自由动作以相同的武器对区域中单个生物进行一次远程打击，将其作为你的主目标。如果你的攻击是爆发，你必须选择最接近攻击中心的生物。如果你的攻击为锥形或线形，你必须选择最接近你的生物。如果两个或两个以上的生物距离相等或最近，你可以选择其中一个作为你的主目标。如果你使用此次打击成功命中你的主目标，且目标对你的区域射击或自动射击掷骰出成功结果，其改为获得失败结果。此次打击不计入你的多重攻击减值。</p>"
     },
     "oUyCwa9Usbv0RXpA": {
-      "name": "特工专精",
+      "name": "特工专精 Operative's Specialization",
       "description": "<p>作为特工，你拥有一套基于你战术风格的独特技能组。这些不同的专精有助于明确你的角色和你在大多数情况下采取的行动方式。选择一项特工专精，专精会提供一项技能上的受训，一个对应的技能专长及一项秘技。9级时，你获得专精提供的进阶秘技。</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.1bgDbGzALewzo7cy]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.u4hB3FGFJwGtjrZB]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.HSKJ1VkPdlMkcqzc]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.OCWsQQ95P7ecp7Rn]</p>\n<p>@UUID[Compendium.sf2e-anachronism.class-features.Item.EpxKCi6G0KnWQhHP]</p>"
     },
     "ohkzxDNZqST1avRc": {
-      "name": "大师士兵",
+      "name": "大师士兵 Soldier Weapon Mastery",
       "description": "<p>经由技艺和奉献，你已经彻底掌握了这些毁灭性的武器。你在士兵职业DC上的熟练度提升至大师。你在无武装攻击，简易武器和军用武器上的熟练度提升至大师。</p>"
     },
     "peXRQKUzkAGqduHP": {
-      "name": "地雷",
+      "name": "地雷 Mine",
       "description": "<p>你的外皮层管理着一个地雷网络。你可以使用部署地雷动作来部署这些地雷，并使用引爆地雷动作或反应来启动它们。你的地雷受到屏蔽，没有你的启动命令就不会引爆。解除你的地雷的DC等于你的职业DC。你可以用一个单动作收起所有已部署但未引爆的地雷，将它们与其他准备好的地雷一同储存在定制工具组内。</p>\n<p>在你的每日准备期间，你可以制作至多4+你的智力调整值数量的地雷，这也是你能携带地雷的最大数量。此数量在5级以及之后每5级增加两个。如果你的地雷数量低于上限，你可以使用定制工具组制作新地雷。在探索模式下每花费10分钟，你就能制作两枚地雷；这不会妨碍你参与其他探索行动。你可以将所有地雷储存在定制工具组中，不会增加其负载。</p>\n<p>虽然你的地雷是实物，但如果在下次每日准备前没有被使用，它们就会被摧毁。它们无法以任何方式复制或保存。</p>\n<p>你可以像改造手雷一样，以60尺射程改造你已部署的一枚地雷。此外你获得如下新改装。</p><ul><li><p><strong>智能地雷（地雷外皮层）：</strong>你为地雷编程了初级虚拟智能，使其能够识别你的盟友。选择一个60尺内的目标。该目标将被排除在你引爆的所有地雷的区域之外。5级时，你可以选择至多三个目标；10级时，你可以选择至多六个目标。</p></li><li><p><strong>锁定地雷（地雷外皮层）：</strong>你的地雷近程传感器能计算精确的爆炸。增加地雷的伤害，数值等同于你的智力调整值。</p>\n</li></ul>"
     },
     "qR7l0JtA2TObnY0T": {
-      "name": "法术库",
+      "name": "法术库 Spell Repertoire",
       "description": "<p><strong>秘术师</strong>你可施放的法术集合被称为法术库。1级时，你将学会所选的两个1环法术和四个戏法，以及来自你联结的额外法术和戏法。你从你联结对应的魔法根源中的常见法术里选择这些法术，或者从你获得许可的其他源自你魔法根源的法术中进行选择。你可以使用对应环级的法术位施展任何你法术库中的法术。</p>\n<p>你在提升等级时也会在法术库中加入新法术。每当你获得一个法术位时，你将一个同环的法术加入法术库。当你获得新的法术环位时，你的第一个新法术总是对应环级的来自你联结的授予法术，然后你可以选择其他你获取的法术。2级时，你选择另一个1环法术；3级时，你获得一个新的授予法术并且选择其他两个2环法术，以此类推。当你添加法术时，你可以添加已有法术的高级版本，这样你就可以施展这个法术的升阶版本了。</p>\n<p>虽然获得的速度相同，你的法术位和法术库中的法术是分离的。如果一个专长或者其他能力将法术加入你的法术库中，你不会获得另一个法术位，反之亦然。</p><h3>替换你法术库中的法术</h3><p>当你在法术库中获得新的法术时，可能会想替换之前学过的部分法术。每次你升级并学习新法术时，可以将一个旧法术替换为另一个同环级的不同法术。被替换的法术可以是戏法，但你不能替换顿悟法术或联结法术。你也可以通过休整期重训替换法术。</p><hr /><p><strong>织维巫师</strong>你可施放的法术集合被称为法术库。1级时，你将学会所选的两个1环法术和四个戏法，以及悖论赋予你的额外法术和戏法。你从你悖论对应的魔法根源中的常见法术里选择这些法术。你可以使用对应环级的法术位施展任何你法术库中的法术。</p>\n<p>你在提升等级时也会在法术库中加入新法术。每当你获得一个法术位时，你将一个同环的法术加入法术库。2级时，你选择另一个1环法术；3级时，你获得一个新的授予法术并且选择其他两个2环法术，以此类推。当你添加法术时，你可以添加已有法术的高级版本，这样你就可以施展这个法术的升阶版本了。</p>\n<p>虽然获得的速度相同，你的法术位和法术库中的法术是分离的。如果一个专长或者其他能力将法术加入你的法术库中，你不会获得另一个法术位，反之亦然。</p><h3>替换你法术库中的法术</h3><p>当你在法术库中获得新的法术时，你可能会想要替换之前学习的一些法术。每次你获得新的等级学习新的法术时，你可以将一个旧法术置换为一个同一环级的不同法术。被替换的法术可以是戏法，但是你不能替换悖论的授予法术。你也可以通过休整期重训来替换法术。</p>"
     },
     "r8lFIZb9U84x2PbQ": {
-      "name": "精明即兴者",
+      "name": "精明即兴者 Savvy Improviser",
       "description": "<p>你每日可以使用两次@UUID[Compendium.sf2e-anachronism.class-features.Item.sqSpxpY0831nV1wc]。此外，你每日第一次在欺骗、交涉或威吓检定中掷出自然1时，不会自动降低成功度（只有当结果比DC低10时才会获得大失败）。</p>"
     },
     "sqSpxpY0831nV1wc": {
-      "name": "即兴大师",
+      "name": "即兴大师 Improvised Mastery",
       "description": "<p>无论是运气还是本能，你都能在瞬间展现令人印象深刻的才能。你获得“@UUID[Compendium.sf2e-anachronism.actions.Item.WFFYDg0sgjaXCeq6]”动作。</p>"
     },
     "trdD4tm2VZrHQYni": {
-      "name": "群组通讯",
+      "name": "群组通讯 Group Chat",
       "description": "<p>你纽带中的生物在彼此处于120尺内时能够通过心灵感应交流。只要两个联结生物处于同一个位面中并且都还活着，它们能够彼此知晓对方当前的状态，了解彼此的方向和距离，以及它们是清醒、@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]、@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]还是死亡。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.XSMTalRsPwQ0beIE]动作。</p>"
     },
     "tvuvMnV3laXgKlXM": {
-      "name": "高速行进",
+      "name": "高速行进 On the Move",
       "description": "<p>你步伐轻灵，极难被压制，且总能依靠机动胜过那些想压制你的敌人。你的速度获得5尺状态加值。该加值在16级时提升为10尺。</p>"
     },
     "u2dy5FMDv30UH8HC": {
-      "name": "带头冲锋",
+      "name": "带头冲锋 From the Front",
       "description": "<p>你最擅长在战场前线带领盟友作战，与他们并肩作战。你可以使用盾牌抵挡来袭的枪林弹雨，或是仅仅在冲入敌阵时用手指和激励呐喊来指挥。</p>\n<p><strong>领导技能</strong>运动</p>\n<p><strong>领导奖励</strong>你在中甲上受训。当你获得轻甲专家时，你也将在中甲上获得专家熟练度，当你获得轻甲大师时，你也将在中甲上获得大师熟练度。</p>\n<p><strong>领导指令</strong> @UUID[Compendium.sf2e-anachronism.actions.Item.1lkfbLoteDlzoqxb]</p>"
     },
     "u4hB3FGFJwGtjrZB": {
-      "name": "渗透者",
+      "name": "渗透者 Infiltrator",
       "description": "<p>你擅长绕过安全系统、危害、陷阱和其他防御措施。你掌握了在不触发安全措施和警报的情况下进入位置的技能，从黑入计算机系统、切断建筑电源，到绕过生物识别锁并破解保险库。你在计算机上受训，并获得一个计算机技能专长。</p>\n<p><strong>秘技：</strong>你的小把戏能使科技设备和科技生物出现故障和失灵。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.qbyer2woEdGXZzoR]动作。</p>\n<p><strong>进阶秘技：</strong>当你用近战攻击或远程攻击对科技生物造成重击时，能够以自由动作对触发生物使用破坏。你还可以在科技生物或使用科技武器的生物对你进行近战攻击大失败时，以反应动作对触发生物或武器使用破坏。</p>"
     },
     "uUzVTZ7XohXlavB6": {
-      "name": "恒星显象",
+      "name": "恒星显象 Solar Manifestations",
       "description": "<p>你对宇宙中的星辰之力的深刻理解能够通过具象的形式显现出来。你可以创造并维持所有三种不同的现象恒星显象：恒星耀斑，恒星光晕亦或是恒星武器。当你变为未调谐时，你的恒星显象会暂时消失。</p><h2>恒星耀斑</h2><p>一粒微小的恒星能量微粒悬浮在你身边，或沁入在你身体个部位，例如手或脸。这粒微粒能在短距离内释放定向能量冲击。你的恒星耀斑是一件搏击武器组的军用远程武器，具有调谐与恒星武士特征。它不占手，无需持握或持用。其他生物无法以你的恒星耀斑为目标，也无法将其从你身上移除，除了你变为未调谐状态。你的调谐状态决定你恒星耀斑的伤害类型与射程增量。你可将力量调整值加到你恒星耀斑的伤害掷骰上。你可以使用恒星武士水晶来提升恒星耀斑的伤害。</p>\n<p><strong>引力子调谐</strong>1d8钝击，射程增量15尺。重击时，你可以用自由动作尝试@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]目标，忽略射程与多重攻击减值，即便你没有空手。</p>\n<p><strong>光量子调谐</strong>1d6火焰，射程增量30尺。重击时，目标额外受到1d6点持续火焰伤害。</p><h2>恒星光晕</h2><p>一层星辰能量环绕着你，复盖在你的躯体或穿戴的护甲之上。它呈现为一层散发的亮光或凝固的暗影，取决于你当前的调谐状态。光晕的整体外观与形态可由你自由选择，既可化作环绕周身的能量网格，亦可化作覆盖现有装备的带尖能量护甲。此类设计不影响其功能，亦不提供额外加成。</p>\n<p>你获得@UUID[Compendium.sf2e-anachronism.actions.Item.q7UDeO9Ko1EbPRWm]反应动作。</p><h2>恒星武器</h2><p>凭着纯粹的意志，你召唤出一把由星辰本源锻造的有形武器。此武器是你自身的延伸，可通过冥想改变其形态。当显化武器时，它会出现在你选择的空手中。如果该武器具有不占手特征，则可显化于任意手中。你的恒星武器是一件军用近战武器。它能根据你的选择造成1d8点钝击，穿刺或挥砍伤害，并具有调谐和恒星武士特征。</p>\n<p>第一级时，为你的武器选择至多两项下列特征。或者，你可以为你的武器选择长触及或双手1d10特征替代选择两项下列特征。</p><ul><li>卸武</li><li>不占手</li><li>擒拿</li><li>非致命</li><li>格挡</li><li>推撞</li><li>横扫</li><li>摔绊</li><li>多用（仅限B/P/S）</li><li>长触及（算作两项特征）</li><li>双手1d10（算作两项特征）</li></ul><p>你可以选择你的武器属于以下哪一个武器组。</p><ul><li>斧</li><li>搏击</li><li>棍棒</li><li>连枷</li><li>锤</li><li>短刃</li><li>镐</li><li>长武</li><li>矛</li><li>剑</li></ul><p>你的恒星武器根据你当前的调谐状态获得额外增益。</p>\n<p><strong>引力子调谐</strong>当你使用恒星武器成功打击一个生物时，该生物所处空间以及所有与它相邻的方格，对该生物变为困难地形，直至其下个回合结束。</p>\n<p><strong>光量子调谐</strong>当你使用恒星武器成功打击一个生物时，你额外造成等同于你等级一半的火焰伤害（向上取整）。你的恒星武器在5尺半径内散发出明亮光照（在此后5尺内散发昏暗光照）。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.UlFxEP3YrbseKA62]</p>\n<p>@UUID[Compendium.sf2e-anachronism.actions.Item.uvtdqSfKD6oXNA29]</p>"
     },
     "vVobwIMADBAIsBUV": {
-      "name": "科技法师施法",
+      "name": "科技法师施法 Technomancer Spellcasting",
       "description": "<p>你是一名施法者，你可以使用施法行动来施放奥术根源的法术。作为一名科技法师，当你施法时，你会使用特定的奥术手势、快速打字或口头口令来破解魔法，通常会在你用来引导魔力的科技装备周围显现出奥术符文。</p>\n<p>1级时，你可以在每天早晨从你的法术数据库中准备至多两个1环法术和五个戏法。被准备的法术意味着直到你施放它们，或是再次准备之前都是可用的。你每天能够准备的法术数量被称作法术位。</p>\n<p>当你的科技法师等级提升，你的法术位数量，以及可从法术位施放的最高环级也会随之提升，见科技法师每日法术表。</p>\n<p>你的某些法术需要你进行法术攻击以确定效果，或让敌人掷骰对抗你的法术DC（通常是进行豁免）。由于你的关键属性是智力，你的法术攻击调整值和法术DC使用你的智力调整值。</p><h2>升阶法术</h2><p>当你获得2环或更高环的法术位，你可以在这些法术位中填充低环法术的更强版本。这会提高此法术的环级，将其升阶至与法术位环级相同。许多法术在升阶至特定环级施放时会具有特定的效果提升。</p><h2>戏法</h2><p>你的法术中有些是戏法。戏法是一种特殊的法术，无需消耗法术位来施放。你可以任意施放戏法，每日不限次数。戏法总会升阶到你等级的一半，向上取整——通常而言与你最高的科技法师法术位的环级相等。举例而言，对于一名1级科技法师，你的戏法是1环法术，而5级科技法师则是3环。</p><h2>法术数据库</h2><p>你的法术数据库是一件科技物品，它包含一个个性化的数字数据库，其中有你所知晓如何施放的所有法术。你一开始会免费获得一个法术数据库，必须每天研习该数据库以准备你的法术。法术数据库的形式和名称由你决定。它可能是一个通讯单元、数据平板、集成在义眼中等等。如果它被损坏、毁坏或偷窃，它就会失去魔法，你可以用一个10分钟的行动来把你的法术数据库下载到另一个科技设备上。</p>\n<p>法术数据库包含你选择的10个奥术戏法和五个1环法术。你可以从奥术法术列表中的常见法术或你具有许可的其他奥术法术中选择这些法术。你还可以从你的编程语言中添加一个1环法术。</p>\n<p>你每次升级时，都会在法术数据库中添加两个奥术法术，可以是你拥有法术位的任意环级，从你根源的常见法术或你具有许可的其他法术中选择。你也可以通过学习法术活动将法术加入法术数据库。当你获得一个新环级的法术位时，还会从你的编程语言中添加一个额外法术到法术数据库。</p><h4>科技法师每日法术</h4><table border=\"1\" class=\"pf2-table\"><thead><tr style=\"text-align:right\"><th><p>你的等级</p></th><th><p>戏法</p></th><th><p>1环</p></th><th><p>2环</p></th><th><p>3环</p></th><th><p>4环</p></th><th><p>5环</p></th><th><p>6环</p></th><th><p>7环</p></th><th><p>8环</p></th><th><p>9环</p></th><th><p>10环</p></th></tr></thead><tbody><tr><td><p>1</p></td><td><p>5</p></td><td><p>2</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>2</p></td><td><p>5</p></td><td><p>3</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>3</p></td><td><p>5</p></td><td><p>3</p></td><td><p>2</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>4</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>5</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>6</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>7</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>8</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>9</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>10</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>11</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>12</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>13</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>14</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>-</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>15</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>16</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>-</p></td><td><p>-</p></td></tr><tr><td><p>17</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>2</p></td><td><p>-</p></td></tr><tr><td><p>18</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>-</p></td></tr><tr><td><p>19</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>1*</p></td></tr><tr><td><p>20</p></td><td><p>5</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>3</p></td><td><p>1*</p></td></tr><tr><td style=\"text-align:center;height:25px\" colspan=\"12\"><p>* 管理员权限职业特性赋予你一个10环法术位，其运作方式与其他法术位略有不同。</p></td></tr></tbody></table>"
     },
     "vgxb9zCsmHPGeIer": {
-      "name": "强韧专家",
+      "name": "强韧专家 Fortitude Expertise",
       "description": "<p><strong>使节</strong>你的体魄异常坚韧。你的强韧豁免熟练度提升为专家。</p><hr /><p><strong>秘术师</strong>历经冒险，你的体魄愈发强健。你的强韧豁免熟练度提升至专家。</p>"
     },
     "vt4e3FdwvI3hNkEf": {
-      "name": "护甲专家",
+      "name": "护甲专家 Armor Expertise",
       "description": "<p><strong>秘术师</strong>你和朋友之间建立的纽带如超自然护甲般守护着你。你在轻甲和无甲防御上的熟练度提升至专家。</p><hr /><p><strong>恒星武士</strong>你花费了很多时间钻研有关护甲的事情，如今你已经知晓了该如何充分地利用护甲的保护作用。你在轻甲、中甲以及无甲防御上的熟练度提升至专家。</p><hr /><p><strong>士兵</strong>你已经习惯穿戴护甲，并能充分发挥它的防护作用。你在轻甲、中甲和重甲，以及无甲防御上的熟练度提升至专家。你获得中甲和重甲的护甲专精效果。</p>"
     },
     "wCh0XrIleiP1n9uT": {
-      "name": "传奇施法者",
+      "name": "传奇施法者 Legendary Spellcaster",
       "description": "<p><strong>秘术师</strong>你的每一个毛孔中都流淌着魔力。你的法术攻击调整值和法术DC熟练度提升至传奇。</p><hr /><p><strong>科技法师</strong>你是一位完美的施法者，将奥术理论与实用法术融为一体。你的法术攻击调整值和法术DC熟练度提升为传奇。</p><hr /><p><strong>织维巫师</strong>你突破了魔法理论的边界，达到了施法的巅峰。你在法术攻击调整值和法术DC上的熟练度提升至传奇。</p>"
     },
     "wkk1RkN5igbeKyS8": {
-      "name": "伟大意志",
+      "name": "伟大意志 Prodigious Will",
       "description": "<p>你的思维太复杂、太精密，根本无法篡改。你的意志豁免熟练度提升至大师。当你的意志豁免掷骰出成功结果时，你改为获得大成功。</p>"
     },
     "wz7AMXiqMxMdULHs": {
-      "name": "可怖壁垒",
+      "name": "可怖壁垒 Fearsome Bulwark",
       "description": "<p>你庞大的身躯是敌人的噩梦。你使用体质调整值代替魅力调整值进行威吓检定来@UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]和@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]，代替力量调整值进行运动检定来@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]或@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]。</p>"
     },
     "yGHwDIjpm0HhF6yu": {
-      "name": "越狱法术",
+      "name": "越狱法术 Jailbreak Spell",
       "description": "<p>你获得@UUID[Compendium.sf2e-anachronism.actions.Item.j1Ag9v0ze3gTYApw]动作，将超频装备的能量引导出来，以强化一个法术。</p>"
     },
     "znkMpQ5J0QP79DqE": {
-      "name": "瞬间改装",
+      "name": "瞬间改装 Instant Mods",
       "description": "<p>你只需要一个念头就能随心所欲定制物品。每轮一次，你可以用自由动作进行@UUID[Compendium.sf2e-anachronism.actions.Item.uVDYsnxq3hNNtYB2]，而非花费1个动作。</p>"
     },
     "zqUdEySBPebaErKZ": {
-      "name": "大师射手",
+      "name": "大师射手 Master Gunner",
       "description": "<p>你是枪不离身的顶级神射手。你在简易和军用枪械上的熟练提升为大师，在进阶枪械上的熟练提升为专家。你获得所有你具有专家熟练度武器的重击专精效果。</p>"
     }
   }

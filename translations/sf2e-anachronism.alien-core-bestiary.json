@@ -1,5 +1,5 @@
 {
-  "label": "异形核心",
+  "label": "异形核心 Alien Core",
   "mapping": {
     "name": "name",
     "description": "system.description.value",
@@ -15,7 +15,7 @@
   },
   "entries": {
     "0GF725HRpIVwMd2f": {
-      "name": "机械化进阶型战争机器",
+      "name": "机械化进阶型战争机器 Robotic Advanced War Machine",
       "publicNotes": "<p>“热熔巨兽”是一款设计用于在战场上最大化杀戮与破坏的战争机器——它体型庞大、凶猛强悍。</p><hr /><p>The incursion began with a series of probes detected by anacites on Aballon. Strange machines with blazing sensors and articulated tentacles appeared out of nowhere, ripping through infrastructure seemingly at random and collecting intelligence all around Pact Worlds space. Panic spread fast, but since the machines always vanished without a trace, or exploded when captured, the sightings couldn't be confirmed or identified. Rumors began to circulate that the machines were a form of biotech never encountered before. Soon the Stewards became formally involved, shuttering the incidents behind the adamantine partition of top security clearance.</p>\n<p>In Sarenith of 325 ag, after dozens of military operations failed to engage the elusive probes, a wing of fighters dispatched from the Idari finally got lucky and disabled one of the machines before it could self-destruct. Coaxed into giving up some of its secrets by top Pact Worlds scientists, the biotech vessel became the prototype for the \"home grown\" remote war machines that are currently being tested for use in combat. The replicas aren't alive but are built using robotic construction templates since the core of the original biotech design has proven too complicated to reverse engineer with Pact technology.</p>\n<p>Remote war machines are proxies that can be controlled from a great distance. The original biotech war machines connect to the pilot's mind through a psychic link or unknown radio frequency. Robotic remote war machines connect to a computer via data link, allowing the pilot to control their proxy using a keyboard, virtual reality rig, or even a vidgame controller.</p>",
       "items": [
         {
@@ -127,7 +127,7 @@
       ]
     },
     "0eiGTfhbUJWZwMRg": {
-      "name": "地狱骑士持节士",
+      "name": "地狱骑士持节士 Hellknight Signifer",
       "publicNotes": "<p>展现出非凡技艺，学术修养和魔法造诣的地狱骑士可能会晋升至持节士位阶。</p><hr /><p>Hellknights are infernal knights, and while they once ruled entire nations on Lost Golarion, the Hellknights of the Pact Worlds enforce law and order more holistically, traveling in massive citadel starships to spread their influence rather than remaining in any one place. In battle, Hellknights are orderly, unrelenting, and deadly.</p>",
       "items": [
         {
@@ -370,7 +370,7 @@
       ]
     },
     "1jR4M0O907VzjNnv": {
-      "name": "铁流磁力聚合体",
+      "name": "铁流磁力聚合体 Ferrofluid Magneto-Cluster",
       "items": [
         {
           "id": "Ig0gF87YLvDavWVI",
@@ -406,7 +406,7 @@
       ]
     },
     "2DMxWPhGQfZQot2k": {
-      "name": "刻法克虫",
+      "name": "刻法克虫 Khefak",
       "publicNotes": "<p>初次遭遇刻法克虫的探险者往往感到惊讶——不仅因为其攻击性，更因其攻击目标：护甲与其他装备。在刻法克虫的领地，缺乏经验的探险者勘探归来时字面意义上两手空空的情况并不罕见，这常被本地人当作趣谈。</p><hr /><p>Khefak Biogenetics bioengineered khefaks to consume scrap thasteron so the waste could be refined into starship fuel. These creatures eventually became a prime example of a solution becoming a problem of its own. After the discovery of Drift travel, Akiton's thasteron market plummeted, removing the need for mining infrastructure, including khefaks. Khefak Biogenetics destroyed the production facilities, thinking they'd completely eradicated their creations. Khefaks are hardy, however, and the few survivors left the facilities. Beyond thasteron, they subsisted on inorganic materials, and their rapid reproduction rate allowed them to quickly spread all over Akiton. Some stowed away on starships, allowing them to spread throughout the Pact Worlds.</p>",
       "items": [
         {
@@ -417,7 +417,7 @@
       ]
     },
     "2DtTG1VJ5KPM83Wu": {
-      "name": "接生圣者利贝罗巴",
+      "name": "接生圣者利贝罗巴 Liberoba Midwife",
       "publicNotes": "<p>利贝罗巴接生了新诞者。众多肢体从这个生物畸形的解剖结构上长出，每一条末端都是血淋淋的奥克腾岩剪刀。</p><hr /><p>Thirteen mortal Midwives attended the Newborn's birth and were transformed into eldritch beings by the nascent outer god's awakening. A Midwife always regenerates an identical new form so long as even a single speck of aucturnite—the name for the frozen chunks of planetcenta that once surrounded the Newborn—exists on this plane.</p>\n<p>There are 13 types of Midwives, but their true numbers are unknown. Whether their names come from the mortal servants whose souls were the kindling for the Midwives' creation or have some other significance to the Newborn, also remains a mystery.</p>\n<p>Each Midwife identifies themself by how they cared for the Newborn: if they swaddled, fed, carried, held, watched, warded, blessed, or performed other acts of nurturing for the outer god. The Midwives are powerful beings capable of transdimensional travel. They might be encountered in liminal spaces, such as the Drift or the Ghost Levels of Absalom Station, or they might be found among the clouds of aucturnite debris in the Gelid Edge. Their incomprehensible actions always advance the Newborn's inscrutable agenda—or their own.</p>\n<p>The most well-known encounter the Pact Worlds have had with the Midwives took place in the immediate aftermath of the Newborn's birth. Amnieka, who swaddled the Newborn and has a hood of writhing tentacles around their visage, attacked Absalom Station directly, causing a massive power surge that threatened the lives of everyone on board. Chaos ensued, but a group of adventurers—who happened to be in the right elevator at the right time—found themselves in the station's Ghost Levels, where they thwarted Amnieka and prevented the Midwife from draining the station's reactors. The Midwives haven't acted so directly since that incident, but many suspect it's only a matter of time, and no one knows just how powerful the others might be.</p>",
       "items": [
         {
@@ -501,7 +501,7 @@
       ]
     },
     "2PVFsdaTR9mTfCid": {
-      "name": "死链尸妖",
+      "name": "死链尸妖 Necrolinked Wight",
       "publicNotes": "<p>双眼空洞的死链尸妖是一类死于过度沉迷社交媒体之人化作的不死生物，它们游荡于现实与虚拟世界，渴求着互动与存在感。在他们眼中，所有生者全都是潜在的关注者，仅此而已。死链尸妖追猎那些涉足科技的人，妄图将他们变成痴迷的粉丝。他们不断用精简的魔法科技代码发出哀嚎，仿佛在对着某个早已被人遗忘的网络辩论尖叫，试图通过经由超自然配置过的内容覆写设备进而吸引他人的注意力。然而一旦他们的受害者被死链上，这些新晋的死链尸妖便会失去兴趣，被同样的黑暗死灵算法驱使。</p>",
       "items": [
         {
@@ -543,7 +543,7 @@
       ]
     },
     "2lUmJOYTvroP2Yas": {
-      "name": "瑞瓦林兽终灵",
+      "name": "瑞瓦林兽终灵 Rivarin Endling",
       "publicNotes": "<p>瑞瓦林兽是毛茸茸的，长着扁齿，三眼的四足草食动物，在寒冷的德斯塔隆二号（Destalon-2）上被封建社会作为驮兽饲养。瑞瓦林兽与其初生的社会一同被烬蛛族灭绝。据传烬蛛族随后便逃离了该星球，据称是因为遭遇了长着锯齿状獠牙，凶恶红眼的幽灵巨兽袭击。</p><hr /><p>Every species follows a natural arc as it emerges and evolves: rising, thriving, declining, and falling into extinction. When extremely unnatural ends to these paths occur—when unexpected predation, industrialization, or alien pathogens wipe out a population—endlings are born. These spectral members of extinct species typically develop as \"answers\" to their eradication. Xenobiologists differ on what creates endlings, unable to confirm whether the creatures are a species' last collective sorrow made manifest or just vengeful individual spirits—the last lights to go out.</p>",
       "items": [
         {
@@ -576,7 +576,7 @@
       ]
     },
     "2oGp04TzbcaiLlOa": {
-      "name": "活化科技护甲",
+      "name": "活化科技护甲 Animated Tech Armor",
       "publicNotes": "<p>活化的科技护甲套装堪称忠诚的护卫、理想的训练假人或可靠的安全防线。</p><hr /><p>Objects can be animated in multiple ways for a variety of functions. Since ancient times, weapons and armor have been given life as guardians and sentries through magic or ritual.</p>",
       "items": [
         {
@@ -607,7 +607,7 @@
       ]
     },
     "2yV2zP6CiddspRxM": {
-      "name": "尸骸舰队军官",
+      "name": "尸骸舰队军官 Corpse Fleet Officer",
       "publicNotes": "<p>尸骸舰队军官是胆识过人的战斗领袖，能增强其不死盟友，并受训以消灭生者。</p><hr /><p>The Corpse Fleet is an army made up of undead supremacists who refuse to bow to the will of the living. Founded by defectors from the Eoxian navy, the Corpse Fleet aims to shatter Pact Worlds unity and liberate Eox from the influence of the living and those bone sages who sided with them. Unyielding and utterly ruthless, the Corpse Fleet deals in death and destruction, feeding on the living and exploiting the dead.</p>",
       "items": [
         {
@@ -667,7 +667,7 @@
       ]
     },
     "34uf5wsM7LwBxhmw": {
-      "name": "羚豹",
+      "name": "羚豹 Arabuk",
       "publicNotes": "<p>羚豹需要 3年才能达到成年体型。随着每年成长，它们的犄角会愈发壮观，有些个体的犄角长度甚至能超过 15尺。</p><hr /><p>Those traveling through Akiton's Winterlands risk stumbling on its apex predator: the carnivorous arabuk.</p>",
       "items": [
         {
@@ -688,7 +688,7 @@
       ]
     },
     "3ZxpWhscwtELicqD": {
-      "name": "经理魔（执照魔鬼）",
+      "name": "经理魔（执照魔鬼） Wahtunshna",
       "publicNotes": "<p>经理魔是经纪人、商业谈判专家和战争投机者。他们活跃于马尔法涅（Malfane）诸城与水行星恩布罗伊（Embroi），并日益频繁地出席近宇的企业法务会议。这些魔鬼精通谈判、工商管理及上百种文化中的企业术语，在为公司提供竞争优势的同时，也为自身建立声誉。地狱的知识与工业力量对许多谋求压制竞争对手的企业极具诱惑力，而经理魔也极乐于提供协助。企业以在产品中植入间谍软件、在服务条款中添加魔鬼条款为代价，换取使用地狱知识产权的机会，并将这些地狱式臃肿软件转嫁给客户。有传言称，经理魔会尽可能助推初创企业的频繁更迭，暗中破坏任何试图突破或绕开魔鬼协议条款的公司。</p><hr /><p>In the shadows of space stations, halls of courtrooms, and offices of corporations, devils tempt mortals with promises of power and lay the groundwork for their conquest. A devil's pacts can vary from elaborate contracts to quick promises, but they all end the same way: a mortal soul condemned, and Hell's forces bolstered. From the open rule of Malfane, the unseen control of Embroi, and hidden pacts with souls across the galaxy, devils continue their relentless work to spread tyranny and force the universe to resemble the hellish bureaucracy of their home.</p>",
       "items": [
         {
@@ -778,7 +778,7 @@
       ]
     },
     "3c45EKPqzfpBPvzt": {
-      "name": "枯狳",
+      "name": "枯狳 Quyu",
       "items": [
         {
           "id": "VyWilfUPFw09KmoL",
@@ -815,7 +815,7 @@
       ]
     },
     "4Ne5pnML3LV9xYYU": {
-      "name": "变形怪",
+      "name": "变形怪 Proog",
       "publicNotes": "<p>变形怪，在泥怪中尤为独特，在许多协约世界的家庭中备受珍视。这些温顺可亲的生物在绝大多数情况下都无害，能迅速适应家庭生活，易于训练，似乎乐于通过令人喜爱或滑稽的变形取悦主人。在生命周期后期，这些生物会毫无预兆地一分为二进行繁殖。饲主们观察到，每只新生变形怪都需要重新学习原体掌握的各种技巧，这促使研究者推断，原始个体在繁殖过程中已然消亡。</p><hr /><p>Oozes of many types lurk in dark and abandoned places across the galaxy, emerging only to satiate their appetites and threaten adventurers, explorers, and hapless workers alike.</p>",
       "items": [
         {
@@ -828,7 +828,7 @@
       ]
     },
     "4WTe8VPGlVdQxx6Y": {
-      "name": "机械化卓越型战争机器",
+      "name": "机械化卓越型战争机器 Robotic Superior War Machine",
       "publicNotes": "<p>代号“音波虾”的战争机器由工程师团队基于卡洛-马霍伊（Kalo-Mahoi）原型机研发，是一款专精水下作战的机器人战争机器。与它两栖特性的创造者一样，音波虾在陆地环境中同样表现卓越。</p><hr /><p>The incursion began with a series of probes detected by anacites on Aballon. Strange machines with blazing sensors and articulated tentacles appeared out of nowhere, ripping through infrastructure seemingly at random and collecting intelligence all around Pact Worlds space. Panic spread fast, but since the machines always vanished without a trace, or exploded when captured, the sightings couldn't be confirmed or identified. Rumors began to circulate that the machines were a form of biotech never encountered before. Soon the Stewards became formally involved, shuttering the incidents behind the adamantine partition of top security clearance.</p>\n<p>In Sarenith of 325 ag, after dozens of military operations failed to engage the elusive probes, a wing of fighters dispatched from the Idari finally got lucky and disabled one of the machines before it could self-destruct. Coaxed into giving up some of its secrets by top Pact Worlds scientists, the biotech vessel became the prototype for the \"home grown\" remote war machines that are currently being tested for use in combat. The replicas aren't alive but are built using robotic construction templates since the core of the original biotech design has proven too complicated to reverse engineer with Pact technology.</p>\n<p>Remote war machines are proxies that can be controlled from a great distance. The original biotech war machines connect to the pilot's mind through a psychic link or unknown radio frequency. Robotic remote war machines connect to a computer via data link, allowing the pilot to control their proxy using a keyboard, virtual reality rig, or even a vidgame controller.</p>",
       "items": [
         {
@@ -853,7 +853,7 @@
       ]
     },
     "4oGJJFXVdCDA7oFL": {
-      "name": "烬蛛族血战者",
+      "name": "烬蛛族血战者 Jinsul Warblooded",
       "publicNotes": "<p>血战者是指那些在烬蛛族神权国麾下经历过至少六场战斗而幸存下来的烬蛛族。他们在其他烬蛛族组成的部队中担任低级指挥官，或是作为精英狙击手和突击队员。血战者常常选择不参与他们认为“有失身份”的战斗，除非需要作为增援介入，否则他们更愿意在远处训练士兵或观战。这些烬蛛族通常会利用额外的训练时间，学习如何在战斗中识别出关键敌人。</p><hr /><p>Jinsuls are a warlike species scattered across the Vast. Six-legged creatures with a bulbous body covered in eyes, jinsuls have notable segments of chitin along with a set of upper forelimbs for using equipment. They long ago lived in the region of space known as the Scoured Stars but eventually departed and settled on the harsh world of Rax. In recent years, the divine herald Dhurus unified the jinsuls into a cohesive force known as the Jinsul Hierocracy, which briefly retook the Scoured Stars. A joint alliance between several species and members of the Starfinder Society defeated Dhurus and scattered the jinsuls back into the Vast.</p>\n<p>With countless bases and fleets operating in deep space, jinsuls mostly act as raiders, scavenging for equipment and testing their mettle against other species. Indoctrinated to view themselves as a superior species, with only other inhabitants of the Scoured Stars having any value, jinsuls prefer to engage in short-ranged combat with their foes.</p>\n<p>Jinsuls aren't numerous enough to fill every need on the many ships and starbases they control across the galaxy. Instead, they rely on robots and automated computer systems (always commanded by at least one jinsul officer) to keep their space stations running efficiently. These systems are programmed to be just as deadly and ruthless as jinsuls themselves; even the most innocuous automated system or robot, like a garbage collector, might wield deadly weapons or contain vicious technomagical countermeasures.</p>",
       "items": [
         {
@@ -886,7 +886,7 @@
       ]
     },
     "4qkyqWbZ9BsXP3pL": {
-      "name": "核泊精",
+      "name": "核泊精 Hesper",
       "publicNotes": "<p>这些核能妖精栖息于反应堆中，体现着其辐射家园瞬息万变的本质。他们随情绪变幻色彩，这种特性有时能预示其危险的倦怠发作。核泊精从无恶意，却鲜少考量自身行为的后果。</p>",
       "items": [
         {
@@ -962,7 +962,7 @@
       ]
     },
     "52WVLSR7qq73zQ98": {
-      "name": "自由船长无赖",
+      "name": "自由船长无赖 Free Captain Knave",
       "publicNotes": "<p>自由船长们对雇员并不挑剔，会接纳几乎所有他们认为能遵守海盗法典的人。每艘自由船长的船只每次航行都会招募几名新人，其中有些人甚至会再次随船出航。虽然这些水手通常被安排做船上最卑贱、最琐碎的工作，但一旦战斗打响，他们就会抓住每个机会向其他船员证明自己的价值。</p><hr /><p>The Free Captains have been a scourge of interstellar shipping across the Pact Worlds for generations, but since the adoption of Drift Lanes, the outlaws have expanded their reach and scale by targeting ships across the galaxy using the new standardized interstellar shipping routes.</p>",
       "items": [
         {
@@ -1005,7 +1005,7 @@
       ]
     },
     "54ZWC7aaow65f46U": {
-      "name": "碎舰者",
+      "name": "碎舰者 Shipbreaker",
       "items": [
         {
           "id": "pjjO3F53mj0RPBTH",
@@ -1080,7 +1080,7 @@
       ]
     },
     "66tw46IKra4XaN0w": {
-      "name": "电光炫灵",
+      "name": "电光炫灵 Plasmazer",
       "publicNotes": "<p>电光炫灵是一群脾气暴躁、色彩鲜艳的风元素生物。自霓虹灯发明后，它们在宇宙中便越来越常见。它们以危险的光爆与色爆形式现身，能直接瘫痪城市电网，并将电力转化为闪烁的霓虹万花筒。它们常化身为当地传说中神鸟或其他神话生物的形态。有些追求新潮的夜店老板曾尝试驾驭电光炫灵为舞会制造特效，但结果往往是满场舞客狼狈躲避等离子射线的场面。“等离子滑步”（plasma slide）是一种排舞的名称，它的走红源于一起事件：在伊奥克斯星上有一家以狂野派对闻名的通宵俱乐部“霓虹墓穴”（Neon Crypt），当时一只电光炫灵在那里失控逃脱，这种舞蹈随即爆红网络。</p><hr /><p>Elementals are energetic intrusions from the primal planes of existence. They take many forms, from mindless eddies in the wind or water to complex entities capable of wielding primal magic. The advent of space travel and the progress of technology have allowed even more living embodiments of the elements to manifest in the Universe.</p>\n<p>Natural events like wildfires, solar storms, and floods can unleash hordes of unruly elementals on a planet or into a region of space. Sometimes, a gathering of powerful elementals causes a natural disaster on an epic scale, like an off-the-charts solar flare that fries a planet's power grid or a ceaseless storm swirling in a gas giant's atmosphere.</p>",
       "items": [
         {
@@ -1093,7 +1093,7 @@
       ]
     },
     "6HgCFAlJv7fYs8sm": {
-      "name": "幼年相位兽",
+      "name": "幼年相位兽 Juvenile Nyssholora",
       "publicNotes": "<p>尽管年纪尚小，幼年相位兽仍是危险而可怕的掠食者。</p><hr /><p>Incredibly ferocious, nyssholoras are dinosaur-like creatures that number among the most dangerous and feared apex predators on the planet of Castrovel. These walking weapons brandish lethal biology: a massive maw lined with twin rows of razor-sharp teeth, scythe-shaped phasic blade forearms that vibrate at ultrasonic speeds, and a scourge-like tail capable of absorbing electricity from the surrounding atmosphere. Yet, nyssholoras are also cunning and perceptive—a frill of tentacles that crowns their head detect telepathic signals, making it impossible for the local formians and lashuntas to escape their notice. Their phasic blades can cut through walls and vehicles as easily as underbrush, ensuring prey have nowhere safe to hide.</p>",
       "items": [
         {
@@ -1116,7 +1116,7 @@
       ]
     },
     "6SVQC4zymKmVv57c": {
-      "name": "伊拉布里斯引魂使",
+      "name": "伊拉布里斯引魂使 Erabryth",
       "items": [
         {
           "id": "4R1D1GyohBQpkcRa",
@@ -1179,7 +1179,7 @@
       ]
     },
     "6VP5rvY19BTix02l": {
-      "name": "梦者",
+      "name": "梦者 Dreamer",
       "items": [
         {
           "id": "fH4UXGOZjDE9Z0xv",
@@ -1300,7 +1300,7 @@
       ]
     },
     "7EQ2fJjzDti8qFbB": {
-      "name": "虚空贤者",
+      "name": "虚空贤者 Voidsage",
       "publicNotes": "<p>虚空贤者是指在幼年阶段的残酷竞争中存活下来、并且自身的纳米虫网络保存完好的阿尔古苏。在吞噬了大量同族的纳米虫后，其网络将强大到足以操控一台远程战争机器。</p>",
       "items": [
         {
@@ -1387,7 +1387,7 @@
       ]
     },
     "82XG93ZGtkXH4mQt": {
-      "name": "流散带蠕虫",
+      "name": "流散带蠕虫 Diaspora Worm",
       "items": [
         {
           "id": "E5wRJDAr3Uqo97fr",
@@ -1419,7 +1419,7 @@
       ]
     },
     "8FyWTto9DlAH3l7e": {
-      "name": "工具鼠",
+      "name": "工具鼠 Tool Rat",
       "publicNotes": "<p>工具鼠形似同类幼崽，但细看便会发现其生有铜锈色的胡须，宛如矮人的胡须与眉毛。凭借与生俱来的法术天赋，它们能将废品场变成危机四伏的雷区。</p><hr /><p>When pileups of metal garbage begin to conquer the wilderness, rodents conquer the garbage. Scrap rats adapt to every civilization that disposes their ruined gadgets and industrial debris, all of which the rats recycle and reuse to potentially deadly effect. While not especially intelligent, they have an innate knack for crafting.</p>",
       "items": [
         {
@@ -1490,7 +1490,7 @@
       ]
     },
     "8QaS2cq1Wl8YZlPr": {
-      "name": "万古卫队士兵",
+      "name": "万古卫队士兵 Aeon Guard Trooper",
       "items": [
         {
           "id": "aqV5ncR4xacfqnqs",
@@ -1551,7 +1551,7 @@
       ]
     },
     "9Glg5ae0zQtosEUD": {
-      "name": "热熔巨兽",
+      "name": "热熔巨兽 Thermatrod",
       "publicNotes": "<p>标准的热熔巨兽栖息于火山口附近或其他高温热源周边。</p><hr /><p>Originally thought to be exiles from the Plane of Fire, thermatrods actually developed independently in multiple star systems in the Universe. A thermatrod resembles a molten bipedal creature, though they often walk on their front knuckles to support their heavy frames. Thermatrods sport distinctive raised dorsal plates that resemble hexagonal basalt columns, which researchers use to estimate an individual's age. A thermatrod's hardened exterior varies greatly based on local mineral deposits that make up a thermatrod's diet.</p>",
       "items": [
         {
@@ -1574,7 +1574,7 @@
       ]
     },
     "9o387yPZKfdBpqmu": {
-      "name": "受驯松鼠狐",
+      "name": "受驯松鼠狐 Trained Squox",
       "items": [
         {
           "id": "1zJky8pXewrzQFMY",
@@ -1589,7 +1589,7 @@
       ]
     },
     "A2PLmRlJpjTe8DcV": {
-      "name": "地狱鱿",
+      "name": "地狱鱿 Othinni",
       "items": [
         {
           "id": "yiQ2h51LaUik4HmG",
@@ -1619,7 +1619,7 @@
       ]
     },
     "AHr2vBO1I5JvFqJ9": {
-      "name": "熔岩熊",
+      "name": "熔岩熊 Ignurso",
       "items": [
         {
           "id": "1FTodvEiwg3AIx9w",
@@ -1660,7 +1660,7 @@
       ]
     },
     "AWuQOOAIKtToeiEh": {
-      "name": "曲织缝合者",
+      "name": "曲织缝合者 Warpstitcher",
       "items": [
         {
           "id": "iJDXS2RCvWtEDIFJ",
@@ -1689,7 +1689,7 @@
       ]
     },
     "B0gtwwywwaa6Bd90": {
-      "name": "监察魔（缄默魔鬼）",
+      "name": "监察魔（缄默魔鬼） Deprimogon",
       "publicNotes": "<p>监察魔潜行于隐匿隧道、暗巷以及那些与地狱缔结盟约的定居点的森然高塔中，悄无声息地监视市民，搜寻任何煽动叛乱的迹象。煽动者或自由战士会遭到这些魔鬼的骚扰、追捕乃至诱入陷阱，最终永远消失。监察魔以光滑的金属面具遮掩面容，用以压制自身情感，隔绝一切可能妨碍其任务的恳求、威胁或讨价还价。监察魔热衷于召唤来自早已被遗忘的时代的魔鬼造物，用以折磨其囚徒。</p><hr /><p>In the shadows of space stations, halls of courtrooms, and offices of corporations, devils tempt mortals with promises of power and lay the groundwork for their conquest. A devil's pacts can vary from elaborate contracts to quick promises, but they all end the same way: a mortal soul condemned, and Hell's forces bolstered. From the open rule of Malfane, the unseen control of Embroi, and hidden pacts with souls across the galaxy, devils continue their relentless work to spread tyranny and force the universe to resemble the hellish bureaucracy of their home.</p>",
       "items": [
         {
@@ -1724,7 +1724,7 @@
       ]
     },
     "B2q9ekBWgi1k1okf": {
-      "name": "惑众魅灵",
+      "name": "惑众魅灵 Dredgelit",
       "items": [
         {
           "id": "rPkUeK10k42FGuWZ",
@@ -1797,7 +1797,7 @@
       ]
     },
     "BFtNnevWKUCnocyn": {
-      "name": "乌库兰的恐噩",
+      "name": "乌库兰的恐噩 Terror of Ukulam",
       "items": [
         {
           "id": "58TUd3eGPqDSzlBO",
@@ -1860,7 +1860,7 @@
       ]
     },
     "BeqWprlTnTffXV0R": {
-      "name": "蓝藻灵水华",
+      "name": "蓝藻灵水华 Cyanoscum Bloom",
       "items": [
         {
           "id": "xSI23tLbGW0CRFXg",
@@ -1896,7 +1896,7 @@
       ]
     },
     "C6pSZ3ievLcTTOkj": {
-      "name": "稀金塑命者",
+      "name": "稀金塑命者 Finitrium Fatebender",
       "publicNotes": "<p>稀金塑命者是由经过提纯的稀金（具有预知特性的稀有星金）制作而成的强大魔法构装体。凭借着预见未来并对其作出反应的能力，稀金塑命者成为了卓越的守卫和令人畏惧的敌人。</p>",
       "items": [
         {
@@ -1944,7 +1944,7 @@
       ]
     },
     "CaLynyqIcbH15xZ1": {
-      "name": "玻璃蛇",
+      "name": "玻璃蛇 Glass Serpent",
       "items": [
         {
           "id": "ADo0WO3FwECDw7oR",
@@ -1966,7 +1966,7 @@
       ]
     },
     "CdNumfS6YHCQXnrg": {
-      "name": "云魟",
+      "name": "云魟 Cloud Ray",
       "publicNotes": "<p>巨大的云魟是类似布雷瑟达和利亚瓦拉这种气态巨行星上的顶级掠食者。它们拥有惊人的机动性，能以无可匹敌的速度飞过大气层中，使得它们在狩猎时无可逃脱。</p>",
       "items": [
         {
@@ -2014,7 +2014,7 @@
       ]
     },
     "DXFU7ZmEZzHWC0Np": {
-      "name": "湮灭级刺客机器人",
+      "name": "湮灭级刺客机器人 Elimination-Class Assassin Robot",
       "publicNotes": "<p>湮灭级刺客机器人优雅而致命，依靠他们的隐秘场让敌人难辨虚实，在最出其不意的时机发动致命一击。其先进的智能系统不仅能策划更复杂的伏击，还能根据局势变化灵活应变，并响应客户的定制需求——这意味着，它们可以根据任务意图与传达的信息，将刺杀执行得或隐秘至极，或惨烈异常。</p><hr /><p>In some societies, machines automate many processes. It only makes sense, then, that some would attempt to automate the act of murder. Most manufacturers would never admit to creating such designs, forcing wealthy figures to go through hidden channels to acquire units from secret facilities or unscrupulous manufacturers. Regardless of their origins, these robots can be programmed with a target and set loose, the owner assured that either their target will be dead or will be unable to prove who tried to kill them thanks to the unit's fried circuitry.</p>",
       "items": [
         {
@@ -2067,7 +2067,7 @@
       ]
     },
     "Db64i0oL1biUoViM": {
-      "name": "沙鲼",
+      "name": "沙鲼 Dust Manta",
       "publicNotes": "<p>致命的隐秘掠食者，沙鲼潜伏在物质宇宙各处沙漠世界的地表之下。尽管平均翼展达10尺，体重达1吨，但凭借鹅卵石般沙色的外皮，它们在原生栖息地几乎难以被察觉。它们如光线穿透水体般感知周遭震动，在沙滩与沙丘间滑行伏击不幸的猎物。其锋利的螫针注入能分解血肉骨骼的致命毒素，将猎物溶解成沙粒，这样滤食性的沙鲼便能从悬浮的沙粒中筛选出食物颗粒。</p>",
       "items": [
         {
@@ -2088,7 +2088,7 @@
       ]
     },
     "DdHenlm0aHbcYEXc": {
-      "name": "愤怒陨星魂",
+      "name": "愤怒陨星魂 Enraged Noquasar",
       "publicNotes": "<p>随着折磨持续多年，陨星魂的愤怒与日俱增。</p><hr /><p>When a solarian perishes while out of sync with the cycle of stars, their soul might become entangled with their solar mote. Extreme cosmic forces act on the soul as it attempts to reach the River of Souls, stretching it infinitely thin for all of eternity.</p>",
       "items": [
         {
@@ -2111,7 +2111,7 @@
       ]
     },
     "Du0RjEnYSKfNXW6f": {
-      "name": "组装泥怪",
+      "name": "组装泥怪 Assembly Ooze",
       "items": [
         {
           "id": "n049RXks64f7pZ9b",
@@ -2143,7 +2143,7 @@
       ]
     },
     "EUWLFaFOibNhrxVl": {
-      "name": "黑洞仙女",
+      "name": "黑洞仙女 Gwereiad",
       "items": [
         {
           "id": "iwsf02hS1Tq4lF6r",
@@ -2199,7 +2199,7 @@
       ]
     },
     "EYqqVxGP2wU3VIcR": {
-      "name": "漂流球",
+      "name": "漂流球 Zalyop",
       "items": [
         {
           "id": "6GL8KcjwwCGKr7Xf",
@@ -2214,7 +2214,7 @@
       ]
     },
     "Ej0wWqICzaYDBiHr": {
-      "name": "地狱骑士扈从",
+      "name": "地狱骑士扈从 Hellknight Armiger",
       "publicNotes": "<p>地狱骑士扈从是最低阶的地狱骑士，但要获得这个位阶也需要他们作为学徒服役6年，然后通过地狱骑士试炼，此期间他们必须召唤，战斗，并击败一只地狱的魔族。</p><hr /><p>Hellknights are infernal knights, and while they once ruled entire nations on Lost Golarion, the Hellknights of the Pact Worlds enforce law and order more holistically, traveling in massive citadel starships to spread their influence rather than remaining in any one place. In battle, Hellknights are orderly, unrelenting, and deadly.</p>",
       "items": [
         {
@@ -2281,7 +2281,7 @@
       ]
     },
     "F6GauwVhEtddvyqj": {
-      "name": "噬冠兽死灵植入丧尸",
+      "name": "噬冠兽死灵植入丧尸 Crest-Eater Necrograft Zombie",
       "publicNotes": "<p>死灵植入丧尸被由不死生物的身体部件和内脏制成的死灵植入活化。在伊奥克斯，用死灵植入物植入动物和魔兽，以确保它们在这颗死亡星球上存活的做法十分常见。在死后，这些生物多数会复苏为真正的不死生物，继续为其制作者效力。</p><hr /><p>Technological zombies are created when a dead creature is reanimated (or otherwise kept moving) by an internal or integrated technological item—usually an augmentation. Despite the vast differences in form and hardware between different tech zombies, they do have similarities—they're mindless undead driven to harm the living, with technological components and weaknesses that can be leveraged.</p>",
       "items": [
         {
@@ -2319,7 +2319,7 @@
       ]
     },
     "FL5obG5dQweoENyT": {
-      "name": "线列级士兵机器人",
+      "name": "线列级士兵机器人 Line-Class Soldier Robot",
       "items": [
         {
           "id": "xSR6bU08NRW2dmxj",
@@ -2346,7 +2346,7 @@
       ]
     },
     "FeRfEU7zUo19j2GX": {
-      "name": "圣裁天使",
+      "name": "圣裁天使 Barachius Angel",
       "items": [
         {
           "id": "auELSpISk602w8Wb",
@@ -2437,10 +2437,10 @@
       ]
     },
     "FmAuAyUYljPjRJMc": {
-      "name": "塔什塔里首领"
+      "name": "塔什塔里首领 Tashtari Alpha"
     },
     "G8VrBK6T9Kbe8Sjf": {
-      "name": "辐照不死冲锋者",
+      "name": "辐照不死冲锋者 Irradiated Undead Charger",
       "publicNotes": "<p>冲锋者，其称呼与其起源星球一样多，通常是由自然或人为核灾难杀死的野兽的辐照尸体产生。这些四足的动物不死生物因其强大的冲锋攻击而得名。</p><hr /><p>To survive in the unforgiving expanse of space, creatures must be naturally adapted or take protective measures. While the dead rarely need such precautions against these threats, sometimes radiation can animate a corpse (or several) to a state of undeath!</p>\n<p>Scientists and religious scholars alike debate whether a specific type of radiation is to blame for this phenomenon that spontaneously triggers unlife, but all agree on the dangers such irradiated creatures pose. Many types of radiation could be the cause: intense bursts of cosmic radiation emitted by the stars, magically enhanced radioactive isotopes found in a planet's or moon's crust, or even the advent of new energy sources in a society (or its radioactive waste) contaminating the land. Regardless of their specific origin, irradiated undead all pose the same threat—they emit ionizing radiation that ravages everything around them.</p>",
       "items": [
         {
@@ -2466,7 +2466,7 @@
       ]
     },
     "GEGtEoSO2zlTyF9P": {
-      "name": "血亲兽",
+      "name": "血亲兽 Bloodbrother",
       "items": [
         {
           "id": "LjCYr6CLQGPdKord",
@@ -2510,7 +2510,7 @@
       ]
     },
     "GYDhEJCi5SWrolvK": {
-      "name": "悖论接触者",
+      "name": "悖论接触者 Paradoxical Solipsist",
       "publicNotes": "<p>六次记录案例里，与悖论17长期接触的个体事后持续表现出异常行为。其中两人坚称自己在做梦，四人则认为置身于敌对模拟环境。后者中有一人在接受访谈时执意要“再次寻找光芒”，随后径直穿过看守人员与拘留室墙壁消失，至今下落不明。</p><hr /><p>Can you ever really know that the Universe you perceive exists? That you'll never awaken one day to find it was all a dream? A planet full of philosophers sought the answers to these questions once upon a time… shortly before they all vanished en masse. They left behind confusing records stating that the light of a \"whirling star\" revealed that physical matter had no substance and the Universe was secretly a mental prison. These records are all that remain from the first known encounter with the being known as Paradox 17.</p>",
       "items": [
         {
@@ -2602,7 +2602,7 @@
       ]
     },
     "Gs2LvB3eXWTuUiNv": {
-      "name": "沙地蠕虫先兆者",
+      "name": "沙地蠕虫先兆者 Dust Worm Augur",
       "publicNotes": "<p>古老的流散带沙地蠕虫会成为蠕虫殖民的典范——它们征服小行星，并不辞辛劳地对其进行宜居性改造，以支撑蠕虫社会的存续。</p><hr /><p>\"Space worm\" is a nonscientific term for a xenobiologically complex clade of invertebrate animals and beasts that make their home in the vastness of space. Some, like the diaspora and dust worms, show signs of intelligence and are directly related to each other. Others, like the surnoch, evolved separately, with their origins completely unknown to science.</p>",
       "items": [
         {
@@ -2644,7 +2644,7 @@
       ]
     },
     "H53Dsx2DYmd9hBIn": {
-      "name": "故障小魔怪",
+      "name": "故障小魔怪 Botnib",
       "publicNotes": "<p>卑微的波特尼布，也被称作计算机故障小魔怪，与现代计算机设备及网络有着本能的羁绊。这些嬉戏的精类以制造混乱为使命，通过影响计算机系统在所到之处掀起骚动。他们天生具备与数字设备沟通的能力，常沉迷于这类系统，如同拼一副有趣的拼图般肆意破坏。</p><hr /><p>Gremlins have plagued the Universe with cruel tricks since long before the Gap, and they've fully adapted to a galaxy filled with technology. Whether meddling with a comm unit, a starship, or an entire space station, gremlins delight in ruination and chaos.</p>",
       "items": [
         {
@@ -2698,7 +2698,7 @@
       ]
     },
     "HTupwGa1NQ6DeYlj": {
-      "name": "漂流尸归返者",
+      "name": "漂流尸归返者 Driftdead Returned",
       "publicNotes": "<p>此类可悲灵魂中最卑微的便是归返者。他们的外观如同身前形态的扭曲版本，归返者用蠕动的爪状副肢拖着自己，亦或是用骇人的优雅姿态漂浮于太空中。归返者通常袭扰漂流信标、失事船只与真空岩石上。</p><hr /><p>Driftdead are created when a restless soul fuses with planar energies and reanimates its own corpse into a disturbing parody of life. Rarely, disturbed spirits snatched from elsewhere fuse together to inhabit a single dead body. Any death within the Drift might spawn a driftdead, but creatures that die in a frenzy of intense emotion are more likely to make the transition.</p>",
       "items": [
         {
@@ -2714,7 +2714,7 @@
       ]
     },
     "HVw3jIZpGTHcgoIp": {
-      "name": "拖网者",
+      "name": "拖网者 Trawler",
       "items": [
         {
           "id": "14Q6CkstEOpu1axU",
@@ -2741,7 +2741,7 @@
       ]
     },
     "HWmGOBNNNvrzg5e1": {
-      "name": "网暴魔（社交邪魔）",
+      "name": "网暴魔（社交邪魔） Civusdaemon",
       "publicNotes": "<p>诞生于信息圈层与数字网络的网暴魔，是一种怀有恶意的力量，它们扭曲在线空间以折磨凡人。这些邪魔代表着社交媒体中压迫与仇恨所导致的死亡，它们隐匿于暗处，以极具破坏性的方式折磨敌人，甚至常常逼迫对方走上绝路。</p><hr /><p>Hailing from the plane of Abaddon, daemons are utterly devoted to the destruction of all life. Their existence is based around specific means of death, and they seek the death of all things in service to their lords: the Apocalypse Riders. Each daemon represents a different way to die, and they use their specific powers to further that means of death.</p>\n<p>Advents in technology have only created new means of death and torment, so new types of daemons enter existence with regularity, each created once a sufficient mass of new deaths occurs to spawn them. These new advent daemons often prefer to spend their time in the galaxy rather than Abaddon, as they can better spread their torments to the mortals of creation.</p>",
       "items": [
         {
@@ -2839,7 +2839,7 @@
       ]
     },
     "HtH5gXXGPHbRgtHm": {
-      "name": "觅血熊",
+      "name": "觅血熊 Ranonek",
       "items": [
         {
           "id": "eLAfnxy4JiS7MHLs",
@@ -2983,7 +2983,7 @@
       ]
     },
     "IXwnR3Xb9WMEPFJP": {
-      "name": "剥皮水蛭",
+      "name": "剥皮水蛭 Flayer Leech",
       "items": [
         {
           "id": "4cUwXqWGoGffH0c0",
@@ -3005,7 +3005,7 @@
       ]
     },
     "J4ZwkpWk2eKQKJFg": {
-      "name": "云鳐",
+      "name": "云鳐 Cloud Skate",
       "publicNotes": "<p>云鳐是性情多疑的生物，总会尽可能避开人类聚居地。它们在温顺期会组成庞大群落迁徙，即便进入凶猛的捕猎周期仍保持小规模结群，对旅人构成威胁。它们凭借三条强健的尾巴在云层间穿行，用有其整个单节身躯那么宽的布满鲸须的巨口吞噬整个猎物。</p>",
       "items": [
         {
@@ -3021,7 +3021,7 @@
       ]
     },
     "JN6R3FfXN0V6OH6b": {
-      "name": "虹光体",
+      "name": "虹光体 Iridia",
       "items": [
         {
           "id": "awGRPKhxPmiSxf4t",
@@ -3113,7 +3113,7 @@
       ]
     },
     "KBQSErxejd8S8RQP": {
-      "name": "黑洞仙后",
+      "name": "黑洞仙后 Gwereiad Queen",
       "publicNotes": "<p>作为宁芙中最为稀有的一类，黑洞仙后诞生于超大质量黑洞之中，她们或是由较弱的黑洞仙女扬升而来，或是在黑洞强大能量的作用下自然生成。相较于普通的黑洞仙女，她们往往更为超然脱俗，言谈间仅使用融合科学与神秘主义的独特隐喻。</p><hr /><p>Nymphs are beautiful fey who appear as humanoids with elven features. They generally take female forms, but nymphs of all genders and presentations exist. While many nymphs live on planets and act as protectors of natural ponds, forests, caves, and cliffsides, other nymphs—often called space nymphs—are known for their association with celestial bodies. Like their planet-bound kin, space nymphs guard their bonded territories from exploitation or harm.</p>\n<p>As admirers of the arts, nymphs are especially friendly toward creatives, and offering to depict a nymph in story, picture, or song is a sure way to win their favor—unless the nymph doesn't like the final result and lashes out at the artist for insulting them with a mediocre product. Vidcasting and livestreaming are popular pastimes among more sociable nymphs, whether to show off their remote environments or find audiences for performances. Some nymphs entice movie crews to film in their territories, with two provisos: first, that the production not damage the environment, and second, that the nymph receive a prominent role in the film.</p>\n<p>Unless their territories are threatened, most space nymphs are friendly or indifferent to mortals, but they have long memories. Anyone visiting a space nymph's territory would be wise to research that nymph's grudges, past encounters with mortals, or any recent events in the area that might color the nymph's perspective of those traveling near their home.</p>\n<p>A mortal who demonstrates the right attitude and abilities, such as by protecting a stellar body from destruction or creating an especially beautiful work of art, might draw a space nymph's attention. From time to time, space nymphs will offer their services as mentors to solarians or mystics, though they seldom seek pupils on their own. Space nymphs rarely enter into more than one such arrangement at a time and typically only make commitments that promise to last decades or centuries, so they're extremely selective in their choice of mentee.</p>",
       "items": [
         {
@@ -3297,7 +3297,7 @@
       ]
     },
     "KSun4jlohCCTEV8W": {
-      "name": "万古卫队指挥官",
+      "name": "万古卫队指挥官 Aeon Guard Commander",
       "publicNotes": "<p>万古卫队指挥官接受前沿指挥训练，他们凭借射程较短的枪械与精湛的决斗剑术近身压制敌人，同时激励部下协同推进。但凡需要速战速决、一锤定音的战场，便是他们受命出击之时。</p>",
       "items": [
         {
@@ -3350,7 +3350,7 @@
       ]
     },
     "KhaMzHtK01C2G918": {
-      "name": "触手鳄",
+      "name": "触手鳄 Caypin",
       "publicNotes": "<p>触手鳄是强壮的掠食者，拥有狼的敏捷和鳄鱼的鳞片皮肤。它们最醒目的特征是覆盖头部的蠕动着、具有半知性的附肢丛。每根触手状突起都包含一只充血的眼球和满口利齿的血盆大口——触手鳄本身没有眼睛和嘴巴——全靠这些腔孔来观察和进食。附肢吸收的营养通过颌部微型接收孔传递至触手鳄，这些附肢还能分离成蠕动的团块，独立移动至多100尺远。在野外，触手鳄利用这些团块伏击猎物，其贪婪的食量闻名于整个星系，它们能吞食相当于自身体重一半的生肉。</p>",
       "items": [
         {
@@ -3529,7 +3529,7 @@
       ]
     },
     "KxlTMnmOEN7NqwSv": {
-      "name": "嵌合精",
+      "name": "嵌合精 Karkono",
       "items": [
         {
           "id": "fJijlVhvVtI5xK5D",
@@ -3556,7 +3556,7 @@
       ]
     },
     "L0E0sRl6QdBmRcc3": {
-      "name": "全能者",
+      "name": "全能者 Omnipath",
       "publicNotes": "<p>全知者是统御弑神星舰或指挥远程战争机器舰队的军事统帅。他们凭借勃勃野心攀上高位，行事毫无顾忌——只要利于谋划，便毫不犹豫地操控他者心智。被全知者意识侵染的生灵，脱控时往往会丧失重要记忆；更可怕的是，他们可能瞥见全知者那异质心相的碎片，即便切断精神连接后仍久久萦绕不去。</p>",
       "items": [
         {
@@ -3721,7 +3721,7 @@
       ]
     },
     "MGKpFaKZlT1raUVe": {
-      "name": "恶意AI",
+      "name": "恶意AI Malevolent AI",
       "items": [
         {
           "id": "WRQTNnHpQfYMQJe2",
@@ -3784,7 +3784,7 @@
       ]
     },
     "MnOrSqYS5w8tAPXM": {
-      "name": "法令级市政机器人",
+      "name": "法令级市政机器人 Ordinance-Class Civil Robot",
       "items": [
         {
           "id": "Rq7MMne4lALN8kKK",
@@ -3846,7 +3846,7 @@
       ]
     },
     "MsdknonNCOZ79y6G": {
-      "name": "废料鼠",
+      "name": "废料鼠 Scrap Rat",
       "items": [
         {
           "id": "IlPI1DbLpJy8dGxw",
@@ -3875,7 +3875,7 @@
       ]
     },
     "MtP37VGpOIR6BmQT": {
-      "name": "变形怪群",
+      "name": "变形怪群 Proog Swarm",
       "publicNotes": "<p>虽然变形怪个体既可爱又相对无害，但当它们聚集在一起时，就会变得相当危险。</p><hr /><p>Oozes of many types lurk in dark and abandoned places across the galaxy, emerging only to satiate their appetites and threaten adventurers, explorers, and hapless workers alike.</p>",
       "items": [
         {
@@ -3896,7 +3896,7 @@
       ]
     },
     "NMH4TYxw0XCVkRfw": {
-      "name": "使节级渗透机器人",
+      "name": "使节级渗透机器人 Emissary-Class Infiltrator Robot",
       "items": [
         {
           "id": "Y3JuzccnfOYgmQmE",
@@ -3945,7 +3945,7 @@
       ]
     },
     "NdG3wjwxYzrqEZha": {
-      "name": "星岩仙女",
+      "name": "星岩仙女 Sterieid",
       "publicNotes": "<p>星岩仙女居住在小行星上，享受着它们岩质、冰冷表面的美丽。由于小行星的普遍存在，星岩仙女是最常见的太空宁芙。由于许多小行星在小行星带中彼此相邻，星岩仙女比其他宁芙更有可能在自己的同类中形成社群。相反的是，尽管访客已不再是什么新鲜事物，她们仍倾向于对外来者保持警惕。然而，那些渴望陪伴的星岩仙女会在自己的小行星上建造中转站，为过往的星舰提供食物、便利设施和关于当地星系的信息。采矿对星岩仙女来说是一个有争议的话题，她们通常对这类活动持敌对态度。大多数矿业公司会在设立矿场前对小行星进行勘测，以确保它不受星岩仙女的保护，不过一些不太道德的公司会聘请雇佣兵来“迁移”那些守护着含有宝贵资源的小行星的星岩仙女。</p>\n<p>Mining is a contentious issue for sterieids, who usually react with hostility to such operations. Most mining corporations will survey an asteroid to ensure it isn't protected by a sterieid before setting up shop, though less ethical companies have been known to pay mercenaries to \"relocate\" sterieid guardians of asteroids that contain valuable resources.</p><hr /><p>Nymphs are beautiful fey who appear as humanoids with elven features. They generally take female forms, but nymphs of all genders and presentations exist. While many nymphs live on planets and act as protectors of natural ponds, forests, caves, and cliffsides, other nymphs—often called space nymphs—are known for their association with celestial bodies. Like their planet-bound kin, space nymphs guard their bonded territories from exploitation or harm.</p>\n<p>As admirers of the arts, nymphs are especially friendly toward creatives, and offering to depict a nymph in story, picture, or song is a sure way to win their favor—unless the nymph doesn't like the final result and lashes out at the artist for insulting them with a mediocre product. Vidcasting and livestreaming are popular pastimes among more sociable nymphs, whether to show off their remote environments or find audiences for performances. Some nymphs entice movie crews to film in their territories, with two provisos: first, that the production not damage the environment, and second, that the nymph receive a prominent role in the film.</p>\n<p>Unless their territories are threatened, most space nymphs are friendly or indifferent to mortals, but they have long memories. Anyone visiting a space nymph's territory would be wise to research that nymph's grudges, past encounters with mortals, or any recent events in the area that might color the nymph's perspective of those traveling near their home.</p>\n<p>A mortal who demonstrates the right attitude and abilities, such as by protecting a stellar body from destruction or creating an especially beautiful work of art, might draw a space nymph's attention. From time to time, space nymphs will offer their services as mentors to solarians or mystics, though they seldom seek pupils on their own. Space nymphs rarely enter into more than one such arrangement at a time and typically only make commitments that promise to last decades or centuries, so they're extremely selective in their choice of mentee.</p>",
       "items": [
         {
@@ -4021,7 +4021,7 @@
       ]
     },
     "ONe5XNvapxGSRlnP": {
-      "name": "松鼠狐",
+      "name": "松鼠狐 Squox",
       "items": [
         {
           "id": "yqoAwJbrV1SIXbbh",
@@ -4068,7 +4068,7 @@
       ]
     },
     "OoUAqUCjtAbnvuUq": {
-      "name": "数据小魔怪",
+      "name": "数据小魔怪 Gubbin",
       "items": [
         {
           "id": "MWpPfKygOCcakjIn",
@@ -4103,7 +4103,7 @@
       ]
     },
     "OqK4lJNzovCKDAAF": {
-      "name": "七芒星卫队特种兵",
+      "name": "七芒星卫队特种兵 Sihedron Guard Specialist",
       "publicNotes": "<p>尽管所有万古卫队都宣誓效忠于万古王座，七芒星守卫特种兵却自幼被培养成对璃殇——以及她的大祭司伊什梅莱·奥菲尔——绝对虔诚的战士。他们的信仰如此纯粹，以至于每年首次死亡时，一道耀眼的绿色闪电会在他们头顶凝聚成七芒星法印，阻止死亡降临，使他们得以继续以璃殇之名奋战。这份恩赐究竟来自大祭司伊什梅莱，还是璃殇本人的直接馈赠，无人知晓，但也没有人胆敢质疑七芒星卫队特种兵的忠诚与致命战技。</p>",
       "items": [
         {
@@ -4223,7 +4223,7 @@
       ]
     },
     "PM4Wbh43aKoCRbns": {
-      "name": "漂泊精",
+      "name": "漂泊精 Asteray",
       "items": [
         {
           "id": "NcuIW0E4bEr0WkaM",
@@ -4262,7 +4262,7 @@
       ]
     },
     "PTZUgeuTohqB1dNm": {
-      "name": "鞭尾掠吼龙",
+      "name": "鞭尾掠吼龙 Whiptail Renkroda",
       "publicNotes": "<p>鞭尾掠吼龙栖息在山坡和岩石丘陵地带，在黑暗的洞穴和岩石峭壁中筑巢。它们凭借强有力的翅膀翱翔于天空，并用它们那长长的、像鞭子一样可以缠绕住猎物的尾巴发动攻击。许多不幸的旅行者都曾被鞭尾掠吼龙的尾巴抽打，被高高卷起，然后摔死。</p><hr /><p>Renkrodas are a family of large dinosaur-like predators native to the planet Castrovel. They've spread beyond the jungle planet's boundaries thanks to smugglers, poachers, and ultra-wealthy big-game hunters. Bipedal and strong with long necks and decorative spines, renkrodas are best known for their terrifying roars, which they bellow frequently as a form of long-range communication and to scare away other predators and scavengers. Over a dozen species of renkrodas exist, each specially adapted to their environment or ecological niche.</p>",
       "items": [
         {
@@ -4280,7 +4280,7 @@
       ]
     },
     "PUjO7U4Dc1ruDLcL": {
-      "name": "流浆领主",
+      "name": "流浆领主 Ichor Lord",
       "publicNotes": "<p>奥罗科兰流浆领主被新诞者所祝福——流浆在他们的血管中奔涌，而他们能召唤出短暂的流浆泉。多数领主聚集绝望的奥罗科兰人于身边，通过流浆来支配同族。</p><hr /><p>Native to the now-destroyed planet of Aucturn, orocorans are foul and desperate creatures, cast adrift in space as they yearn to consume once more the essence of the Newborn god or fragments of the womb it gestated within. They're irritable, violent, and utterly anguished.</p>\n<p>While some orocorans have broken free of their addiction and regained their clarity of mind and sense of self, the orocorans presented here are those who still rely on Aucturn's eldritch fluids.</p>",
       "items": [
         {
@@ -4405,7 +4405,7 @@
       ]
     },
     "QOUT6qs3YyhWfF4B": {
-      "name": "吞噬花",
+      "name": "吞噬花 Vracinea",
       "publicNotes": "<p>吞噬花是一种体型庞大、行动笨拙的多口植物，原生于卡斯卓韦，现已扩散至多个星球。其行动迟缓且笨拙，偏好通过花朵引诱动物及其他富含蛋白质的猎物，随后在猎物被孢子迷惑时发动快速猎杀。尽管吞噬花的孢子在远距离时麻痹效果较弱，但当孢子随风扩散时，却能帮助其蔓延至新栖息地。这种植物具有极强的领地意识与狡诈狩猎技巧，擅长将躯干隐藏于灌木丛中，仅伸出花朵诱捕猎物。</p>",
       "items": [
         {
@@ -4421,7 +4421,7 @@
       ]
     },
     "RKUiUv3TYuBlDS2z": {
-      "name": "尸骸舰队征兵官",
+      "name": "尸骸舰队征兵官 Corpse Fleet Recruiter",
       "publicNotes": "<p>尸骸舰队征兵官是强大的死灵法师，能够操控无心智不死生物，创造新的不死生物，并将其魔法施于生者。</p><hr /><p>The Corpse Fleet is an army made up of undead supremacists who refuse to bow to the will of the living. Founded by defectors from the Eoxian navy, the Corpse Fleet aims to shatter Pact Worlds unity and liberate Eox from the influence of the living and those bone sages who sided with them. Unyielding and utterly ruthless, the Corpse Fleet deals in death and destruction, feeding on the living and exploiting the dead.</p>",
       "items": [
         {
@@ -4533,7 +4533,7 @@
       ]
     },
     "RV5xR89279gE64XF": {
-      "name": "爆炸蛞蝓",
+      "name": "爆炸蛞蝓 Diatha",
       "items": [
         {
           "id": "lIjB3YSSzjoRkM5g",
@@ -4543,7 +4543,7 @@
       ]
     },
     "RYPgYWf77hMbqpe1": {
-      "name": "辐照不死植物",
+      "name": "辐照不死植物 Irradiated Undead Plant",
       "publicNotes": "<p>植物常是工业化的首批牺牲品，在人们尚未察觉栖息地消失之际，它们便已一瓣瓣凋零，一株株枯萎。当核辐射污染侵蚀最顽强的植被时，那些受辐照的的种子有时会莫名其妙地绽放出新的，非生命的植株。</p><hr /><p>To survive in the unforgiving expanse of space, creatures must be naturally adapted or take protective measures. While the dead rarely need such precautions against these threats, sometimes radiation can animate a corpse (or several) to a state of undeath!</p>\n<p>Scientists and religious scholars alike debate whether a specific type of radiation is to blame for this phenomenon that spontaneously triggers unlife, but all agree on the dangers such irradiated creatures pose. Many types of radiation could be the cause: intense bursts of cosmic radiation emitted by the stars, magically enhanced radioactive isotopes found in a planet's or moon's crust, or even the advent of new energy sources in a society (or its radioactive waste) contaminating the land. Regardless of their specific origin, irradiated undead all pose the same threat—they emit ionizing radiation that ravages everything around them.</p>",
       "items": [
         {
@@ -4578,7 +4578,7 @@
       ]
     },
     "RdpZaL2w7bTvzbXE": {
-      "name": "集念体",
+      "name": "集念体 Wyspiria",
       "items": [
         {
           "id": "OYKZ1Xo9bardj20w",
@@ -4720,7 +4720,7 @@
       ]
     },
     "SF6AsdUau2Y6OK52": {
-      "name": "活化火器",
+      "name": "活化火器 Animated Firearm",
       "publicNotes": "<p>活化火器既是绝佳的训练辅助工具，亦可轻松用于防御物资免遭入侵者掠夺，或作为隐蔽哨兵发挥作用。</p><hr /><p>Objects can be animated in multiple ways for a variety of functions. Since ancient times, weapons and armor have been given life as guardians and sentries through magic or ritual.</p>",
       "items": [
         {
@@ -4753,7 +4753,7 @@
       ]
     },
     "SIYOmpdDILZlhcwA": {
-      "name": "七芒星卫队雷霆战士",
+      "name": "七芒星卫队雷霆战士 Sihedron Guard Thunderstriker",
       "publicNotes": "<p>七芒星卫队雷霆战士因其最常用的攻击形式之一而得名，他们为万古卫队及七芒星卫队的部队提供空中支援。他们以魔法与爆炸物轰击敌人，将目标逼出防御工事，使其进入小队其余成员的火力范围。此外，他们也常执行撤离任务，无论是护送重要资产至安全地带，还是抓俘虏进行审讯。</p>",
       "items": [
         {
@@ -4876,7 +4876,7 @@
       ]
     },
     "SQk1n2QaJWwBiSGW": {
-      "name": "共情蜘蛛",
+      "name": "共情蜘蛛 Empathnid",
       "publicNotes": "<p>共情蜘蛛对展现真诚共情的人怀有好感。虽然他们通常避免战斗，但若朋友受到威胁，共情蜘蛛会立即投入行动。</p><hr /><p>Empathnids have tremendous empathy for other creatures. The fact that the 8-inch spidery creatures come in a variety of colors and have a lifesaving venom likely explains why they're frequently used as companions or pets across the Pact Worlds.</p>",
       "items": [
         {
@@ -4896,7 +4896,7 @@
       ]
     },
     "SnEh8IjIko0y8USu": {
-      "name": "实光魔蝠",
+      "name": "实光魔蝠 Hardlight Scamp",
       "publicNotes": "<p>这些生物通常酷似其诞生的广告或媒体载体，但它们也经常看上去像是蝙蝠模样的元素魔蝠，因而得名。</p><hr /><p>Unlike normal holograms, hardlight life-forms are tangible, living entities.</p>",
       "items": [
         {
@@ -4924,7 +4924,7 @@
       ]
     },
     "SvYigKeubRXwnCTF": {
-      "name": "音波虾",
+      "name": "音波虾 Atlapak",
       "items": [
         {
           "id": "38FSW1r11mRRENhY",
@@ -5107,7 +5107,7 @@
       ]
     },
     "T66iwlJna1NX4bP6": {
-      "name": "时序护卫使",
+      "name": "时序护卫使 Temporai",
       "items": [
         {
           "id": "dA6tSjWHaI6GQziO",
@@ -5246,7 +5246,7 @@
       ]
     },
     "TIAKvaPlJiULdukC": {
-      "name": "叠态幽骸",
+      "name": "叠态幽骸 Vorthuul",
       "publicNotes": "<p>叠态幽骸是一种不死存在，它拥有两种交叠却并不协调的形态：一种是在无尽折磨中扭曲尖啸的灵魂，另一种则是满溢着宁静的漆黑骸骨。其中一种形态可能会看起显得更加真实，但在下一刻又变得截然相反。</p>",
       "items": [
         {
@@ -5299,7 +5299,7 @@
       ]
     },
     "TvSLqbhQ9tZ3Ptp8": {
-      "name": "废水灵",
+      "name": "废水灵 Wastewither",
       "publicNotes": "<p>工业废水若积存过久未处理，会在蒸发时从水元素位面吸引来废水灵。废水灵会污染其接触的一切，将坚实的土地与洁净的水源化为污泥。许多企业排污点和有毒物质泄漏处都会吸引或催生废水灵，而它们的存在又会进一步污染生态系统。</p><hr /><p>Elementals are energetic intrusions from the primal planes of existence. They take many forms, from mindless eddies in the wind or water to complex entities capable of wielding primal magic. The advent of space travel and the progress of technology have allowed even more living embodiments of the elements to manifest in the Universe.</p>\n<p>Natural events like wildfires, solar storms, and floods can unleash hordes of unruly elementals on a planet or into a region of space. Sometimes, a gathering of powerful elementals causes a natural disaster on an epic scale, like an off-the-charts solar flare that fries a planet's power grid or a ceaseless storm swirling in a gas giant's atmosphere.</p>",
       "items": [
         {
@@ -5320,7 +5320,7 @@
       ]
     },
     "U5dR7Q1JtpyfMsIu": {
-      "name": "机械化战术型战争机器",
+      "name": "机械化战术型战争机器 Robotic Tactical War Machine",
       "publicNotes": "<p>多倍工业公司（Multifold Industries）与泽泽尔军械（Zeizerer Munitions）合作，研发了最早的远程操控战争机器之一。该机器代号“塔什塔里”，专为快速部署至战场而设计。它能远距离支援突击部队，同时干扰战场上的敌方通讯。</p><hr /><p>The incursion began with a series of probes detected by anacites on Aballon. Strange machines with blazing sensors and articulated tentacles appeared out of nowhere, ripping through infrastructure seemingly at random and collecting intelligence all around Pact Worlds space. Panic spread fast, but since the machines always vanished without a trace, or exploded when captured, the sightings couldn't be confirmed or identified. Rumors began to circulate that the machines were a form of biotech never encountered before. Soon the Stewards became formally involved, shuttering the incidents behind the adamantine partition of top security clearance.</p>\n<p>In Sarenith of 325 ag, after dozens of military operations failed to engage the elusive probes, a wing of fighters dispatched from the Idari finally got lucky and disabled one of the machines before it could self-destruct. Coaxed into giving up some of its secrets by top Pact Worlds scientists, the biotech vessel became the prototype for the \"home grown\" remote war machines that are currently being tested for use in combat. The replicas aren't alive but are built using robotic construction templates since the core of the original biotech design has proven too complicated to reverse engineer with Pact technology.</p>\n<p>Remote war machines are proxies that can be controlled from a great distance. The original biotech war machines connect to the pilot's mind through a psychic link or unknown radio frequency. Robotic remote war machines connect to a computer via data link, allowing the pilot to control their proxy using a keyboard, virtual reality rig, or even a vidgame controller.</p>",
       "items": [
         {
@@ -5343,7 +5343,7 @@
       ]
     },
     "UIkZXK6cDhbuoryC": {
-      "name": "科扎德狼",
+      "name": "科扎德狼 Corzad",
       "publicNotes": "<p>成群的狼形科扎代菌充当着科扎代真菌群落的眼睛和喉舌。</p><hr /><p>Corzadais spawned from the broken remains of Aucturn. Explosively launched into space, these fungal colonies are held together by mysterious forces. Their strange fruiting bodies have taken on numerous shapes, of which two have been more commonly seen in the Pact Worlds than others: corzads and corzadors.</p>",
       "items": [
         {
@@ -5361,7 +5361,7 @@
       ]
     },
     "UMBUxMCLszXV20mO": {
-      "name": "石莲兽幼崽",
+      "name": "石莲兽幼崽 Supenga Pup",
       "publicNotes": "<p>石莲兽幼崽通过果实繁殖，在严酷的沙漠环境中这个过程可能持续数月。幼崽往往需要花费学习生存技能，才能准备好独立生活——或者被驱逐出去。</p><hr /><p>When rains grow sparse in this succulent's native habitat, it turns to another source for liquid: blood. The supenga has adapted to a world of scarcity and takes advantage of any chance to hunt using its sharp leaves and paralyzing toxin.</p>",
       "items": [
         {
@@ -5372,7 +5372,7 @@
       ]
     },
     "US4CO4Q85ZITI6W9": {
-      "name": "星岩仙后",
+      "name": "星岩仙后 Sterieid Queen",
       "publicNotes": "<p>一些直径达数英里的巨型小行星，是星岩仙后的栖息地。由于这些小行星更有可能拥有类似大气层的环境，星岩仙后习惯于与其他生物共享领地，并且只要它们自身及所处环境得到尊重，通常便不会介意（其他生物的存在）。</p><hr /><p>Nymphs are beautiful fey who appear as humanoids with elven features. They generally take female forms, but nymphs of all genders and presentations exist. While many nymphs live on planets and act as protectors of natural ponds, forests, caves, and cliffsides, other nymphs—often called space nymphs—are known for their association with celestial bodies. Like their planet-bound kin, space nymphs guard their bonded territories from exploitation or harm.</p>\n<p>As admirers of the arts, nymphs are especially friendly toward creatives, and offering to depict a nymph in story, picture, or song is a sure way to win their favor—unless the nymph doesn't like the final result and lashes out at the artist for insulting them with a mediocre product. Vidcasting and livestreaming are popular pastimes among more sociable nymphs, whether to show off their remote environments or find audiences for performances. Some nymphs entice movie crews to film in their territories, with two provisos: first, that the production not damage the environment, and second, that the nymph receive a prominent role in the film.</p>\n<p>Unless their territories are threatened, most space nymphs are friendly or indifferent to mortals, but they have long memories. Anyone visiting a space nymph's territory would be wise to research that nymph's grudges, past encounters with mortals, or any recent events in the area that might color the nymph's perspective of those traveling near their home.</p>\n<p>A mortal who demonstrates the right attitude and abilities, such as by protecting a stellar body from destruction or creating an especially beautiful work of art, might draw a space nymph's attention. From time to time, space nymphs will offer their services as mentors to solarians or mystics, though they seldom seek pupils on their own. Space nymphs rarely enter into more than one such arrangement at a time and typically only make commitments that promise to last decades or centuries, so they're extremely selective in their choice of mentee.</p>",
       "items": [
         {
@@ -5697,7 +5697,7 @@
       ]
     },
     "VWeK7AEA3pMmfLgZ": {
-      "name": "宣谕天使",
+      "name": "宣谕天使 Emissar Angel",
       "items": [
         {
           "id": "PZ2qTENruDaFfVcn",
@@ -5786,7 +5786,7 @@
       ]
     },
     "VcNpBJIfbF55wmpC": {
-      "name": "奥斯克瑞斯",
+      "name": "奥斯克瑞斯 Oscriss",
       "items": [
         {
           "id": "JbmDKuZC15yvzyQh",
@@ -5873,7 +5873,7 @@
       ]
     },
     "VmHWS0Jm6aBSEJIu": {
-      "name": "机械化精英型战争机器",
+      "name": "机械化精英型战争机器 Robotic Elite War Machine",
       "publicNotes": "<p>代号为\"奥罗瓦克\"的战争机器（Aurovak）是当前协约世界机械化军事技术的巅峰之作，由一群精灵、弗米蚁族与拉申塔工程师在卡斯卓韦星的一项全新的联合计划下共同研发而成。</p><hr /><p>The incursion began with a series of probes detected by anacites on Aballon. Strange machines with blazing sensors and articulated tentacles appeared out of nowhere, ripping through infrastructure seemingly at random and collecting intelligence all around Pact Worlds space. Panic spread fast, but since the machines always vanished without a trace, or exploded when captured, the sightings couldn't be confirmed or identified. Rumors began to circulate that the machines were a form of biotech never encountered before. Soon the Stewards became formally involved, shuttering the incidents behind the adamantine partition of top security clearance.</p>\n<p>In Sarenith of 325 ag, after dozens of military operations failed to engage the elusive probes, a wing of fighters dispatched from the Idari finally got lucky and disabled one of the machines before it could self-destruct. Coaxed into giving up some of its secrets by top Pact Worlds scientists, the biotech vessel became the prototype for the \"home grown\" remote war machines that are currently being tested for use in combat. The replicas aren't alive but are built using robotic construction templates since the core of the original biotech design has proven too complicated to reverse engineer with Pact technology.</p>\n<p>Remote war machines are proxies that can be controlled from a great distance. The original biotech war machines connect to the pilot's mind through a psychic link or unknown radio frequency. Robotic remote war machines connect to a computer via data link, allowing the pilot to control their proxy using a keyboard, virtual reality rig, or even a vidgame controller.</p>",
       "items": [
         {
@@ -5910,7 +5910,7 @@
       ]
     },
     "WGjO7cofQ1T2RX2C": {
-      "name": "暴射魔（暴走恶魔）",
+      "name": "暴射魔（暴走恶魔） Daipex",
       "items": [
         {
           "id": "EI3b9GJNgdfq6c7h",
@@ -5947,7 +5947,7 @@
       ]
     },
     "WbHO3zQXCuiLMWnW": {
-      "name": "炽光仙女",
+      "name": "炽光仙女 Heliad",
       "items": [
         {
           "id": "Sz7zVPSiqrEdeR1M",
@@ -6010,7 +6010,7 @@
       ]
     },
     "WgVbdad5NIqf86qc": {
-      "name": "星岩角斗士",
+      "name": "星岩角斗士 Tergaiator",
       "publicNotes": "<p>在宇宙的小行星带中，以及那些岩石天体的表面，栖息着这些热爱比拼的巨大元素生物——星岩角斗士。它们会在摔跤与跳跃时，用小行星碎片加固自己的身体。它们依赖小行星内部的养分茁壮成长，并会为保护家园免遭贪婪采矿企业的过度开采而战。</p><hr /><p>Elementals are energetic intrusions from the primal planes of existence. They take many forms, from mindless eddies in the wind or water to complex entities capable of wielding primal magic. The advent of space travel and the progress of technology have allowed even more living embodiments of the elements to manifest in the Universe.</p>\n<p>Natural events like wildfires, solar storms, and floods can unleash hordes of unruly elementals on a planet or into a region of space. Sometimes, a gathering of powerful elementals causes a natural disaster on an epic scale, like an off-the-charts solar flare that fries a planet's power grid or a ceaseless storm swirling in a gas giant's atmosphere.</p>",
       "items": [
         {
@@ -6021,7 +6021,7 @@
       ]
     },
     "WmyIqf9u7s5KB86U": {
-      "name": "奥罗科兰人",
+      "name": "奥罗科兰人 Orocoran",
       "publicNotes": "<p>大多数奥罗科兰人依附在散落于太空或极寒边域的奥克顿碎片上，尽可能吞噬新诞者子宫的碎片，并带着狂暴的食欲袭击任何靠近的生物。对于那些试图采集或搬运奥克腾岩的人，奥罗科兰人会展现出尤为激烈且毫不留情的暴力。</p><hr /><p>Native to the now-destroyed planet of Aucturn, orocorans are foul and desperate creatures, cast adrift in space as they yearn to consume once more the essence of the Newborn god or fragments of the womb it gestated within. They're irritable, violent, and utterly anguished.</p>\n<p>While some orocorans have broken free of their addiction and regained their clarity of mind and sense of self, the orocorans presented here are those who still rely on Aucturn's eldritch fluids.</p>",
       "items": [
         {
@@ -6042,7 +6042,7 @@
       ]
     },
     "WsWO0Bq3ZPIXSbm7": {
-      "name": "石莲兽泰坦",
+      "name": "石莲兽泰坦 Supenga Titan",
       "publicNotes": "<p>这些有毒的泰坦巨兽能瞬间吸干活物的血液。</p><hr /><p>When rains grow sparse in this succulent's native habitat, it turns to another source for liquid: blood. The supenga has adapted to a world of scarcity and takes advantage of any chance to hunt using its sharp leaves and paralyzing toxin.</p>",
       "items": [
         {
@@ -6063,7 +6063,7 @@
       ]
     },
     "XFkKAb7izGg4Gbbh": {
-      "name": "接生圣者普雷苏莱",
+      "name": "接生圣者普雷苏莱 Presulea Midwife",
       "publicNotes": "<p>普雷苏莱的凡俗生命以自我牺牲以哺育新诞者告终。普雷苏莱被重塑为一团肆意生长的赘生物与跳动器官，生命能量在其间流转闪烁。</p><hr /><p>Thirteen mortal Midwives attended the Newborn's birth and were transformed into eldritch beings by the nascent outer god's awakening. A Midwife always regenerates an identical new form so long as even a single speck of aucturnite—the name for the frozen chunks of planetcenta that once surrounded the Newborn—exists on this plane.</p>\n<p>There are 13 types of Midwives, but their true numbers are unknown. Whether their names come from the mortal servants whose souls were the kindling for the Midwives' creation or have some other significance to the Newborn, also remains a mystery.</p>\n<p>Each Midwife identifies themself by how they cared for the Newborn: if they swaddled, fed, carried, held, watched, warded, blessed, or performed other acts of nurturing for the outer god. The Midwives are powerful beings capable of transdimensional travel. They might be encountered in liminal spaces, such as the Drift or the Ghost Levels of Absalom Station, or they might be found among the clouds of aucturnite debris in the Gelid Edge. Their incomprehensible actions always advance the Newborn's inscrutable agenda—or their own.</p>\n<p>The most well-known encounter the Pact Worlds have had with the Midwives took place in the immediate aftermath of the Newborn's birth. Amnieka, who swaddled the Newborn and has a hood of writhing tentacles around their visage, attacked Absalom Station directly, causing a massive power surge that threatened the lives of everyone on board. Chaos ensued, but a group of adventurers—who happened to be in the right elevator at the right time—found themselves in the station's Ghost Levels, where they thwarted Amnieka and prevented the Midwife from draining the station's reactors. The Midwives haven't acted so directly since that incident, but many suspect it's only a matter of time, and no one knows just how powerful the others might be.</p>",
       "items": [
         {
@@ -6126,7 +6126,7 @@
       ]
     },
     "XIuQB4mCn3Xt11u9": {
-      "name": "月光花",
+      "name": "月光花 Moonflower",
       "items": [
         {
           "id": "YvHODdAJEZkki9as",
@@ -6151,7 +6151,7 @@
       ]
     },
     "XM60j0HYHMIRstY0": {
-      "name": "生物科技进阶型战争机器",
+      "name": "生物科技进阶型战争机器 Biotech Advanced War Machine",
       "publicNotes": "<p>与“热熔巨兽”形成鲜明对比的是“吞噬花”，它是目前在协约世界中被观测到的最弱小的不明生物科技战争机器之一。这款机体外形流畅、隐匿无声，能灵活穿梭于敌方防线之间，在撤离前将数据传输给驾驶员；若被发现，它会启动自毁程序，彻底销毁所携带数据的记录。</p><hr /><p>The incursion began with a series of probes detected by anacites on Aballon. Strange machines with blazing sensors and articulated tentacles appeared out of nowhere, ripping through infrastructure seemingly at random and collecting intelligence all around Pact Worlds space. Panic spread fast, but since the machines always vanished without a trace, or exploded when captured, the sightings couldn't be confirmed or identified. Rumors began to circulate that the machines were a form of biotech never encountered before. Soon the Stewards became formally involved, shuttering the incidents behind the adamantine partition of top security clearance.</p>\n<p>In Sarenith of 325 ag, after dozens of military operations failed to engage the elusive probes, a wing of fighters dispatched from the Idari finally got lucky and disabled one of the machines before it could self-destruct. Coaxed into giving up some of its secrets by top Pact Worlds scientists, the biotech vessel became the prototype for the \"home grown\" remote war machines that are currently being tested for use in combat. The replicas aren't alive but are built using robotic construction templates since the core of the original biotech design has proven too complicated to reverse engineer with Pact technology.</p>\n<p>Remote war machines are proxies that can be controlled from a great distance. The original biotech war machines connect to the pilot's mind through a psychic link or unknown radio frequency. Robotic remote war machines connect to a computer via data link, allowing the pilot to control their proxy using a keyboard, virtual reality rig, or even a vidgame controller.</p>",
       "items": [
         {
@@ -6174,7 +6174,7 @@
       ]
     },
     "XPnaCwBoyc5nNE20": {
-      "name": "克鲁维兽终灵",
+      "name": "克鲁维兽终灵 Koruvi Endling",
       "publicNotes": "<p>克鲁维兽是是栖息于卡冷五号（Calen-5）的微型有蹄类生物，该星球为湿润的树木世界。当维斯卡里姆的采矿公司在卡冷五号发现稀有星金后，采矿热潮摧毁了该行星的赤道雨林，导致克鲁维兽灭绝。多年后，定居者报告遭遇神秘的财产损毁事件，并目睹幽灵般的野兽疯狂拆解遇到的任何科技设备。</p><hr /><p>Every species follows a natural arc as it emerges and evolves: rising, thriving, declining, and falling into extinction. When extremely unnatural ends to these paths occur—when unexpected predation, industrialization, or alien pathogens wipe out a population—endlings are born. These spectral members of extinct species typically develop as \"answers\" to their eradication. Xenobiologists differ on what creates endlings, unable to confirm whether the creatures are a species' last collective sorrow made manifest or just vengeful individual spirits—the last lights to go out.</p>",
       "items": [
         {
@@ -6202,7 +6202,7 @@
       ]
     },
     "XUXGvfT1PAvueWTF": {
-      "name": "炽光仙后",
+      "name": "炽光仙后 Heliad Queen",
       "publicNotes": "<p>炽光仙后栖居于最大的矮星、成熟恒星以及超巨星之上。她们以自身恒星的耀眼光芒为傲，常常身着特制衣物，这些衣物能折射光线，以彰显其家园的璀璨光芒。</p><hr /><p>Nymphs are beautiful fey who appear as humanoids with elven features. They generally take female forms, but nymphs of all genders and presentations exist. While many nymphs live on planets and act as protectors of natural ponds, forests, caves, and cliffsides, other nymphs—often called space nymphs—are known for their association with celestial bodies. Like their planet-bound kin, space nymphs guard their bonded territories from exploitation or harm.</p>\n<p>As admirers of the arts, nymphs are especially friendly toward creatives, and offering to depict a nymph in story, picture, or song is a sure way to win their favor—unless the nymph doesn't like the final result and lashes out at the artist for insulting them with a mediocre product. Vidcasting and livestreaming are popular pastimes among more sociable nymphs, whether to show off their remote environments or find audiences for performances. Some nymphs entice movie crews to film in their territories, with two provisos: first, that the production not damage the environment, and second, that the nymph receive a prominent role in the film.</p>\n<p>Unless their territories are threatened, most space nymphs are friendly or indifferent to mortals, but they have long memories. Anyone visiting a space nymph's territory would be wise to research that nymph's grudges, past encounters with mortals, or any recent events in the area that might color the nymph's perspective of those traveling near their home.</p>\n<p>A mortal who demonstrates the right attitude and abilities, such as by protecting a stellar body from destruction or creating an especially beautiful work of art, might draw a space nymph's attention. From time to time, space nymphs will offer their services as mentors to solarians or mystics, though they seldom seek pupils on their own. Space nymphs rarely enter into more than one such arrangement at a time and typically only make commitments that promise to last decades or centuries, so they're extremely selective in their choice of mentee.</p>",
       "items": [
         {
@@ -6357,7 +6357,7 @@
       ]
     },
     "XcJswM9jt3alx7eo": {
-      "name": "蚀光影骸",
+      "name": "蚀光影骸 Draiclipsed",
       "items": [
         {
           "id": "2GK3V8QYWSX0Hwl0",
@@ -6420,7 +6420,7 @@
       ]
     },
     "Xt6ybUlOJ91cVeaJ": {
-      "name": "科扎多尔人",
+      "name": "科扎多尔人 Corzador",
       "publicNotes": "<p>这些外形大致上类似人类的科扎多尔人驱使着科扎德狼群，执行着他们那残酷的任务。</p><hr /><p>Corzadais spawned from the broken remains of Aucturn. Explosively launched into space, these fungal colonies are held together by mysterious forces. Their strange fruiting bodies have taken on numerous shapes, of which two have been more commonly seen in the Pact Worlds than others: corzads and corzadors.</p>",
       "items": [
         {
@@ -6436,7 +6436,7 @@
       ]
     },
     "XzzHer0NpA4zPhRg": {
-      "name": "乌尔加扎级相位兽",
+      "name": "乌尔加扎级相位兽 Ulgaazan Nyssholora",
       "publicNotes": "<p>曾被记录过的最大的相位兽是“不老的”乌尔加扎（Ulgaaza the Ageless），这只神话生物如此古老，如此巨大，足以令群山相形见绌。如今，任何达到史诗级体型的相位兽都被称作“乌尔加扎级”，尽管这些巨兽与它们的命名者相比仍不值一提。</p><hr /><p>Incredibly ferocious, nyssholoras are dinosaur-like creatures that number among the most dangerous and feared apex predators on the planet of Castrovel. These walking weapons brandish lethal biology: a massive maw lined with twin rows of razor-sharp teeth, scythe-shaped phasic blade forearms that vibrate at ultrasonic speeds, and a scourge-like tail capable of absorbing electricity from the surrounding atmosphere. Yet, nyssholoras are also cunning and perceptive—a frill of tentacles that crowns their head detect telepathic signals, making it impossible for the local formians and lashuntas to escape their notice. Their phasic blades can cut through walls and vehicles as easily as underbrush, ensuring prey have nowhere safe to hide.</p>",
       "items": [
         {
@@ -6471,7 +6471,7 @@
       ]
     },
     "Y8okEtUTLY4ZG1ki": {
-      "name": "棘刺掠吼龙",
+      "name": "棘刺掠吼龙 Spined Renkroda",
       "publicNotes": "<p>体型粗壮、肌肉发达的棘刺掠吼龙生活在开阔的平原、台地和高原上。与大多数掠吼龙不同，它们的褶边是一种致命的武器，上面排列着数百根长达一尺的尖刺，既是出色的防御手段，也是致命的武器。</p><hr /><p>Renkrodas are a family of large dinosaur-like predators native to the planet Castrovel. They've spread beyond the jungle planet's boundaries thanks to smugglers, poachers, and ultra-wealthy big-game hunters. Bipedal and strong with long necks and decorative spines, renkrodas are best known for their terrifying roars, which they bellow frequently as a form of long-range communication and to scare away other predators and scavengers. Over a dozen species of renkrodas exist, each specially adapted to their environment or ecological niche.</p>",
       "items": [
         {
@@ -6482,7 +6482,7 @@
       ]
     },
     "YH16QzUQB3LPZ36R": {
-      "name": "恐惧共情蜘蛛",
+      "name": "恐惧共情蜘蛛 Dread Empathnid",
       "publicNotes": "<p>恐惧共情蜘蛛是原生在丛林行星的致命猎手。它们在人口稠密的世界中繁衍兴盛，偏好捕食智慧类人生物。这些生物被负面情绪吸引，在猎物垂死之际吸收其恐惧，并将这些恐怖体验注入自身蛛网之中。</p><hr /><p>Empathnids have tremendous empathy for other creatures. The fact that the 8-inch spidery creatures come in a variety of colors and have a lifesaving venom likely explains why they're frequently used as companions or pets across the Pact Worlds.</p>",
       "items": [
         {
@@ -6505,7 +6505,7 @@
       ]
     },
     "YS3PKzT45AcAy9qj": {
-      "name": "心能真菌长老",
+      "name": "心能真菌长老 Elder Psychic Fungus",
       "items": [
         {
           "id": "fmdL1CD5WWQITDHY",
@@ -6529,7 +6529,7 @@
       ]
     },
     "YiT1jMt24I8pdX6x": {
-      "name": "艾琳卓祭司",
+      "name": "艾琳卓祭司 Elindrian Celebrant",
       "publicNotes": "<p>这些艾琳卓战士沉溺于暴力。他们唯一的动机似乎是传播痛苦，而他们自身却不知痛苦；其神经末梢的特殊构造使他们完全感受不到疼痛，即便经历痛苦也几乎不会遭受折磨。只要附近有艾琳卓女王能复活他们，这些祭司便终日相互厮杀，磨砺施暴能力，直至更优质的猎物出现。</p><hr /><p>The people known as elindrians vanished eons ago into desolate husk-hives beneath the surface of the planet Castrovel. Until recently, they were creatures of legend, existing only in the most obscure formian histories. Now, scholars on Castrovel desperately search for additional records about elindrians, their origins, and—most importantly—the truth about their connection to the terrifying ooze-like creature that recently descended from their moon, Elindrae. One theory is that elindrians share some primal bond with the ooze-thing called the Terror of Ukulam, and perhaps both originate from Elindrae—other theories claim that elindrians created the ooze in the first place or that they're distant cousins to formians, corrupted by the Terror long ago.</p>",
       "items": [
         {
@@ -6552,7 +6552,7 @@
       ]
     },
     "Yt8VLqsyeOufXTap": {
-      "name": "虚空丧尸",
+      "name": "虚空丧尸 Void Zombie",
       "items": [
         {
           "id": "4eJg9N0UmfD2Yt6C",
@@ -6572,7 +6572,7 @@
       ]
     },
     "ZDNakdcXH86fTWbA": {
-      "name": "扬尘兽",
+      "name": "扬尘兽 Pachinyam",
       "publicNotes": "<p>单只扬尘兽并不构成太大威胁，但对于依赖科技的人而言却可能带来麻烦。一些扬尘兽饲养者会在宠物完成每日的尘浴（dust baths）后，额外花时间陪它们玩耍——尤其是在进入星舰或其他设施前，因为在这些地方，突如其来的尘雾可能会引发灾难性后果。</p><hr /><p>These dusty, long-eared fluffy burrowing rodents are native to Daimalko and emerged alongside the colossi during the Awakening 200 years ago. They were initially heralded as potential pets and affectionately referred to as \"dust bunnies,\" but the survivors of the Awakening soon found the species were as dangerous as the colossi rampaging across the planet.</p>\n<p>While one or two pachinyams behave as calm herbivores, they reproduce rapidly. When the pachinyam population reaches a tipping point, they become vicious predators. Their dust's ability to disrupt both visual and telecommunications makes it challenging for settlements to warn or organize against them. Outside civilization, the pachinyam population is kept in check by their swarms' instinctually drive to be near colossi despite the obvious danger. Some also hypothesize that the scent of a pachinyam swarm's dust cloud attracts hungry colossi.</p>",
       "items": [
         {
@@ -6583,7 +6583,7 @@
       ]
     },
     "a7AYHtCQvlg6pFdu": {
-      "name": "金乔锐蜥终灵",
+      "name": "金乔锐蜥终灵 Jinchori Endling",
       "publicNotes": "<p>金乔锐蜥是长条形的四足爬行动物，它们在普里奥里八号（Priori-8）沙漠世界上挖掘出纵横交错的隧道系统。它们的虹彩鳞片会生长成密集的装甲板，抵御那些觊觎其华丽颈饰作为时尚配饰的猎人。偷猎者开始向金乔锐蜥的隧道里灌注毒气，这种手段效果惊人，最终导致该物种灭绝。多年后，造访普里奥里八号的访客仍会瞥见发着微光的妖蜥在洞穴隧道中悄然尾随，而偷猎者则会窒息于幽魂毒素之中。</p><hr /><p>Every species follows a natural arc as it emerges and evolves: rising, thriving, declining, and falling into extinction. When extremely unnatural ends to these paths occur—when unexpected predation, industrialization, or alien pathogens wipe out a population—endlings are born. These spectral members of extinct species typically develop as \"answers\" to their eradication. Xenobiologists differ on what creates endlings, unable to confirm whether the creatures are a species' last collective sorrow made manifest or just vengeful individual spirits—the last lights to go out.</p>",
       "items": [
         {
@@ -6611,7 +6611,7 @@
       ]
     },
     "aAWtjfkVMft4iChR": {
-      "name": "扬尘兽集群",
+      "name": "扬尘兽集群 Pachinyam Swarm",
       "publicNotes": "<p>扬尘兽集群能够扬起滚滚尘雾，因为每只扬尘兽不断将尘土重新蹭到同伴身上。</p><hr /><p>These dusty, long-eared fluffy burrowing rodents are native to Daimalko and emerged alongside the colossi during the Awakening 200 years ago. They were initially heralded as potential pets and affectionately referred to as \"dust bunnies,\" but the survivors of the Awakening soon found the species were as dangerous as the colossi rampaging across the planet.</p>\n<p>While one or two pachinyams behave as calm herbivores, they reproduce rapidly. When the pachinyam population reaches a tipping point, they become vicious predators. Their dust's ability to disrupt both visual and telecommunications makes it challenging for settlements to warn or organize against them. Outside civilization, the pachinyam population is kept in check by their swarms' instinctually drive to be near colossi despite the obvious danger. Some also hypothesize that the scent of a pachinyam swarm's dust cloud attracts hungry colossi.</p>",
       "items": [
         {
@@ -6629,7 +6629,7 @@
       ]
     },
     "aJcV6CI77HVthUe4": {
-      "name": "烬蛛族士兵",
+      "name": "烬蛛族士兵 Jinsul Trooper",
       "publicNotes": "<p>在烬蛛族战帮中，地位最低的是下级士兵。这些烬蛛族会通过如下方式证明自身实力：他们冲向敌人，使用武器开火射击，并挥动锋利的腿刃近身搏杀。那些存活足够长时间的士兵会得到认可，并在艰苦的烬蛛族军旅生活中获得晋升。</p><hr /><p>Jinsuls are a warlike species scattered across the Vast. Six-legged creatures with a bulbous body covered in eyes, jinsuls have notable segments of chitin along with a set of upper forelimbs for using equipment. They long ago lived in the region of space known as the Scoured Stars but eventually departed and settled on the harsh world of Rax. In recent years, the divine herald Dhurus unified the jinsuls into a cohesive force known as the Jinsul Hierocracy, which briefly retook the Scoured Stars. A joint alliance between several species and members of the Starfinder Society defeated Dhurus and scattered the jinsuls back into the Vast.</p>\n<p>With countless bases and fleets operating in deep space, jinsuls mostly act as raiders, scavenging for equipment and testing their mettle against other species. Indoctrinated to view themselves as a superior species, with only other inhabitants of the Scoured Stars having any value, jinsuls prefer to engage in short-ranged combat with their foes.</p>\n<p>Jinsuls aren't numerous enough to fill every need on the many ships and starbases they control across the galaxy. Instead, they rely on robots and automated computer systems (always commanded by at least one jinsul officer) to keep their space stations running efficiently. These systems are programmed to be just as deadly and ruthless as jinsuls themselves; even the most innocuous automated system or robot, like a garbage collector, might wield deadly weapons or contain vicious technomagical countermeasures.</p>",
       "items": [
         {
@@ -6655,7 +6655,7 @@
       ]
     },
     "aTOMS5mAuJXWbAXP": {
-      "name": "撕裂蠕虫"
+      "name": "撕裂蠕虫 Rendworm"
     },
     "aUPeRGwTc99k4Rzr": {
       "items": [
@@ -6702,7 +6702,7 @@
       ]
     },
     "acPOystEh0AJQMrc": {
-      "name": "噬矿蠕虫",
+      "name": "噬矿蠕虫 Surnoch",
       "items": [
         {
           "id": "c0atrsNjTdG9dkOc",
@@ -6736,7 +6736,7 @@
       ]
     },
     "aj2YwRIfeI1Ol2U2": {
-      "name": "虚空泥怪",
+      "name": "虚空泥怪 Void Ooze",
       "publicNotes": "<p>虚空泥怪是星系乃至更远的星际航行者的祸患，它们从影界渗入物质宇宙。这些生物在永恒休眠中漂浮于太空，直至降落于行星或星舰，被微弱的生命迹象唤醒。如果某只泥怪有幸觅得战场，一夜之间便能形成庞大的殖民群落，先在无人区吞噬亡者与伤者，继而蔓延至战疲士兵的营地.</p><hr /><p>Oozes of many types lurk in dark and abandoned places across the galaxy, emerging only to satiate their appetites and threaten adventurers, explorers, and hapless workers alike.</p>",
       "items": [
         {
@@ -6895,7 +6895,7 @@
       ]
     },
     "ayBt83OQhuO9gGX7": {
-      "name": "嗜毒蜥",
+      "name": "嗜毒蜥 Zitteroc",
       "items": [
         {
           "id": "TPtBSnrQqDb8y96k",
@@ -6922,7 +6922,7 @@
       ]
     },
     "bNb1oBwTUnNj83J1": {
-      "name": "引魂精",
+      "name": "引魂精 Obrhinnshee",
       "items": [
         {
           "id": "qh0XSv8JXHXneNUp",
@@ -6997,7 +6997,7 @@
       ]
     },
     "bgiNmocKmS5xdELg": {
-      "name": "尸花兽",
+      "name": "尸花兽 Ksarik",
       "publicNotes": "<p>尸花兽起源于卡斯卓韦的无心智植物，在暴露于弗米蚁族与拉申塔人冲突中所释放的心能数千年后，它们演化出了初步的智力与惊人的适应能力。这些身长12尺的四足生物拥有多达十几条的面部触须，并通过从触须团两侧伸出的两根眼柄来观察世界。尸花兽在从猎物体内汲取遗传密码后，其可变的形体可能会暂时长出蹼、翅膀或其他适应性结构。尸花兽最初是食腐动物，但如今已演化为致命猎手，能够将其消化系统与生殖系统转化为武器。它们体内用于消化猎物的强酸可以以致命的唾液的形式喷射出去，而其身体两侧的数十根尖刺则携带其遗传密码，可如投射物般发射出去，使幼年尸花兽在成长过程中能够以受害者为食。幼体的易于传播以及其环境适应能力，使得尸花兽的分布已远远超出了卡斯卓韦。</p>\n<p>Originally scavengers, ksariks have evolved into deadly hunters capable of weaponizing their digestive and reproductive systems. The internal acid ksariks use to digest prey can be projected as lethal spittle. The dozens of thorns along their sides carry their genetic code and can be launched as projectiles, allowing ksarik saplings to feed off a victim as they grow. This easy transmittal of their young and their environmental adaptability have allowed ksariks to spread far beyond Castrovel.</p>",
       "items": [
         {
@@ -7015,7 +7015,7 @@
       ]
     },
     "bp4ChaSm9436oH68": {
-      "name": "尸骸舰队步兵",
+      "name": "尸骸舰队步兵 Corpse Fleet Infantry",
       "publicNotes": "<p>尸骸舰队的普通步兵都经过协同作战的训练。</p><hr /><p>The Corpse Fleet is an army made up of undead supremacists who refuse to bow to the will of the living. Founded by defectors from the Eoxian navy, the Corpse Fleet aims to shatter Pact Worlds unity and liberate Eox from the influence of the living and those bone sages who sided with them. Unyielding and utterly ruthless, the Corpse Fleet deals in death and destruction, feeding on the living and exploiting the dead.</p>",
       "items": [
         {
@@ -7073,7 +7073,7 @@
       ]
     },
     "bqqVBryPyM6Ho8BN": {
-      "name": "数字幽灵电子游戏玩家",
+      "name": "数字幽灵电子游戏玩家 Digital Ghost Vidgamer",
       "publicNotes": "<p>一些电子游戏玩家如此沉迷上网，以至于他们能显化出数字幽灵。</p><hr /><p>Digital ghosts are data constructs crafted from forgotten user accounts and metadata that are gathered and formatted into a simulacrum of the source user.</p>",
       "items": [
         {
@@ -7089,7 +7089,7 @@
       ]
     },
     "cZq0Rm1CoW7MPeuI": {
-      "name": "悖论17",
+      "name": "悖论17 Paradox 17",
       "publicNotes": "<p>由于悖论17通常不可见，大多数记录的观测都始于听到一声轰鸣，“如同失效信号的杂音”。所有报告都提到一种深刻却难以定位的意义感。一位幸存者目睹它被一道光芒照亮，她形容那光芒“如同由闪亮的眼睛和玻璃羽毛构成的螺旋星系”。另一人则描述它为——“数十对交错的翅膀，其间散落着余烬”。然而关于悖论17唯一可确定的，是若正面遭遇它将无比致命。</p><hr /><p>Can you ever really know that the Universe you perceive exists? That you'll never awaken one day to find it was all a dream? A planet full of philosophers sought the answers to these questions once upon a time… shortly before they all vanished en masse. They left behind confusing records stating that the light of a \"whirling star\" revealed that physical matter had no substance and the Universe was secretly a mental prison. These records are all that remain from the first known encounter with the being known as Paradox 17.</p>",
       "items": [
         {
@@ -7162,7 +7162,7 @@
       ]
     },
     "d4dxwxR0ihnat09b": {
-      "name": "值守体",
+      "name": "值守体 Excuba",
       "items": [
         {
           "id": "QflsdSiqfxzR4iLQ",
@@ -7254,7 +7254,7 @@
       ]
     },
     "dTcRpmumuDlNk5vH": {
-      "name": "尖角蜘蛛",
+      "name": "尖角蜘蛛 Skarak",
       "items": [
         {
           "id": "lYnyIKeFyKUoTm6w",
@@ -7283,7 +7283,7 @@
       ]
     },
     "dfQw3yXo0X1O5sMf": {
-      "name": "辐照不死飞行者",
+      "name": "辐照不死飞行者 Irradiated Undead Flyer",
       "publicNotes": "<p>飞行者是对有翼生物的统称，例如龙兽，巨蜻蜓，猛禽和其他被重度辐射复生的飞行野兽。</p><hr /><p>To survive in the unforgiving expanse of space, creatures must be naturally adapted or take protective measures. While the dead rarely need such precautions against these threats, sometimes radiation can animate a corpse (or several) to a state of undeath!</p>\n<p>Scientists and religious scholars alike debate whether a specific type of radiation is to blame for this phenomenon that spontaneously triggers unlife, but all agree on the dangers such irradiated creatures pose. Many types of radiation could be the cause: intense bursts of cosmic radiation emitted by the stars, magically enhanced radioactive isotopes found in a planet's or moon's crust, or even the advent of new energy sources in a society (or its radioactive waste) contaminating the land. Regardless of their specific origin, irradiated undead all pose the same threat—they emit ionizing radiation that ravages everything around them.</p>",
       "items": [
         {
@@ -7306,7 +7306,7 @@
       ]
     },
     "dxbr3LNg0R66Aj1n": {
-      "name": "电控丧尸",
+      "name": "电控丧尸 Cybernetic Zombie",
       "publicNotes": "<p>最常见的科技丧尸就是电控丧尸，但科技丧尸也可能通过其他技术方式唤起，包括纳米体。</p><hr /><p>Technological zombies are created when a dead creature is reanimated (or otherwise kept moving) by an internal or integrated technological item—usually an augmentation. Despite the vast differences in form and hardware between different tech zombies, they do have similarities—they're mindless undead driven to harm the living, with technological components and weaknesses that can be leveraged.</p>",
       "items": [
         {
@@ -7337,10 +7337,10 @@
       ]
     },
     "eDBvECDugnQ2q7Bu": {
-      "name": "塔什塔里"
+      "name": "塔什塔里 Tashtari"
     },
     "f4QeUAZrfeIFZRHD": {
-      "name": "烬蛛族祭司",
+      "name": "烬蛛族祭司 Jinsul Pontiff",
       "publicNotes": "<p>祭司能在战事陷入困境时激发烬蛛族近乎自杀般的狂热。他们兼具施法者与演说家的特质，是鼓舞士气的战场领袖。每位祭司都效忠于一位烬蛛族大祭司（major jinsul hierarchs），而这些大祭司则轮流担任整个烬蛛族神权国的领袖。</p><hr /><p>Jinsuls are a warlike species scattered across the Vast. Six-legged creatures with a bulbous body covered in eyes, jinsuls have notable segments of chitin along with a set of upper forelimbs for using equipment. They long ago lived in the region of space known as the Scoured Stars but eventually departed and settled on the harsh world of Rax. In recent years, the divine herald Dhurus unified the jinsuls into a cohesive force known as the Jinsul Hierocracy, which briefly retook the Scoured Stars. A joint alliance between several species and members of the Starfinder Society defeated Dhurus and scattered the jinsuls back into the Vast.</p>\n<p>With countless bases and fleets operating in deep space, jinsuls mostly act as raiders, scavenging for equipment and testing their mettle against other species. Indoctrinated to view themselves as a superior species, with only other inhabitants of the Scoured Stars having any value, jinsuls prefer to engage in short-ranged combat with their foes.</p>\n<p>Jinsuls aren't numerous enough to fill every need on the many ships and starbases they control across the galaxy. Instead, they rely on robots and automated computer systems (always commanded by at least one jinsul officer) to keep their space stations running efficiently. These systems are programmed to be just as deadly and ruthless as jinsuls themselves; even the most innocuous automated system or robot, like a garbage collector, might wield deadly weapons or contain vicious technomagical countermeasures.</p>",
       "items": [
         {
@@ -7445,7 +7445,7 @@
       ]
     },
     "fDFa6DJe5sYUh922": {
-      "name": "艾琳卓侍僧",
+      "name": "艾琳卓侍僧 Elindrian Acolyte",
       "publicNotes": "<p>这些艾琳卓人是乌库兰的恐噩的基层信徒。他们近期因某种原能力量或异能动荡——无人能确定——死而复生，执着地执行着在卡斯卓韦挖掘艾琳卓同族的骇人任务；许多其他艾琳卓人也已复生，但多数仍深埋地下。唯有当其他活着的生物介入时，他们才会停下来发动攻击。</p><hr /><p>The people known as elindrians vanished eons ago into desolate husk-hives beneath the surface of the planet Castrovel. Until recently, they were creatures of legend, existing only in the most obscure formian histories. Now, scholars on Castrovel desperately search for additional records about elindrians, their origins, and—most importantly—the truth about their connection to the terrifying ooze-like creature that recently descended from their moon, Elindrae. One theory is that elindrians share some primal bond with the ooze-thing called the Terror of Ukulam, and perhaps both originate from Elindrae—other theories claim that elindrians created the ooze in the first place or that they're distant cousins to formians, corrupted by the Terror long ago.</p>",
       "items": [
         {
@@ -7512,7 +7512,7 @@
       ]
     },
     "fFAPnun1ZuUtzyDM": {
-      "name": "聚生巢群",
+      "name": "聚生巢群 Apari",
       "items": [
         {
           "id": "PrMRZF0b1bTp0zNa",
@@ -7548,7 +7548,7 @@
       ]
     },
     "fH7ct0hzjiQ5QYVV": {
-      "name": "德-诺洛",
+      "name": "德-诺洛 Deh-Nolo",
       "items": [
         {
           "id": "C0EZvOHzCJ4LkBi0",
@@ -7614,7 +7614,7 @@
       ]
     },
     "fsBcm20KeLOyNMjT": {
-      "name": "斥候虫",
+      "name": "斥候虫 Athraxer",
       "publicNotes": "<p>虫群入侵时会部署斥候虫作为步兵。这些无畏而暴戾的生物对侦察星球环境与防御至关重要。单艘虫群飞船便可运载数千枚处于静滞状态的虫卵。</p><hr /><p>Developing far out in the Vast from an insectile species known as kucharns, the Swarm is considered the greatest threat in existence for several cultures. Composed of countless subcolonies, each consisting of myriad component subspecies, the Swarm is a vast host that acts in psychic union for the purpose of consuming all matter across the cosmos. Most frightening of all is the Swarm's ability to assimilate the knowledge and DNA of those they consume. Thanks to its pre-Gap development of star travel, the Swarm had already consumed innumerable systems before history short-circuited, and the Swarm's pace only accelerated once it received access to the Signal and the hyperspace dimension known as the Drift.</p>\n<p>Worlds touched by the Swarm are drained of their natural resources and rendered barren places known as huskworlds. What outsiders consider to be \"Swarm space\" is little more than a swathe of lifeless worlds that the Swarm have consumed in its reckless advance. The Swarm so thoroughly strips these worlds that surveyors struggle to find even trace amounts of inorganic resources, such as rare minerals and water. Few of these huskworlds have been thoroughly explored, as oftentimes exploration awakens inert drones, theorized to have been left behind in case the devoured system was ever colonized and repopulated. Pockets of Swarm activity exist well beyond this region of space, as the Swarm sent out countless subcolonies in the ages before the Gap, and even now, only some of them have reached their intended destinations.</p>\n<p>The Swarm is perhaps most known in the current era for two important facts. First, its assault on the Pact Worlds and the Veskarium led to the cessation of hostilities and tenuous alliance between the two powers. Second, the Swarm is the direct ancestor of the shirren species. Having broken away sometime during the Gap, shirrens found succor with the deity Hylax, who was believed to have evolved from a pre-Swarm kucharn and who turned her back on the ravenous entity the Swarm has evolved into.</p>\n<p>In recent years, the Swarm had been seen as little more than a distant boogeyman with no activities save for classified actions in the Suskillon system in the Vast. However, the recent discovery of the missing Szandite world of Krethiskar inadvertently awoke a dormant subcolony that had been responsible for the world's consumption. Since then, the newly dubbed Krethiskar subcolony has become a scourge of Near Space, engaged in an active invasion of Szandite Collective worlds and poised to spill over into other powers like the Veskarium and Pact Worlds. This rediscovered subcolony has begun rapid evolution of its components and remains cut off from the wider Swarm, but it still represents a clear danger to Near Space.</p>",
       "items": [
         {
@@ -7639,7 +7639,7 @@
       ]
     },
     "fvzsE30UKsXVkeaM": {
-      "name": "虚空棕榈",
+      "name": "虚空棕榈 Void Palm",
       "items": [
         {
           "id": "VgXTVH7n90FxdYts",
@@ -7656,7 +7656,7 @@
       ]
     },
     "g0BpwKzJCsC4yFcp": {
-      "name": "奥玛",
+      "name": "奥玛 Oma",
       "items": [
         {
           "id": "gzFe9m1McoQ3n47k",
@@ -7710,7 +7710,7 @@
       ]
     },
     "g4FWl8FkL5bbROgk": {
-      "name": "迷途空间扭曲",
+      "name": "迷途空间扭曲 Wayward Warp",
       "publicNotes": "<p>迷途空间扭曲一种活体维度裂隙，它们在扭曲周围世界的同时造成了意想不到的破坏。没有两个迷途空间扭曲看起来是相同的，也没有一个迷途空间扭曲能长时间保持相同的外观；每当一个迷途空间扭曲移动时，一个不同的潜在现实就会显现出来。空间扭曲本身是一道出现在灵光中心的裂隙，看起来像现实的一道裂口，常常呈现出一种模糊地类似于羽星的形状，其触须上排列着空间本身的碎片状裂缝。</p>",
       "items": [
         {
@@ -7808,7 +7808,7 @@
       ]
     },
     "gQIOCzsMtAP201XD": {
-      "name": "防卫级安保机器人",
+      "name": "防卫级安保机器人 Protection-Class Security Robot",
       "publicNotes": "<p>这类安保机器人通常采用比其他机器人更耐用的材料制造，使其具备保护目标的能力。它们笨重的机身常被部署在重要人物或贵重物品周围，承担护卫职责。</p><hr /><p>Security robots are ubiquitous throughout industrialized space and have major presences in both the Pact Worlds and Veskarium, employed and customized by corporations and private citizens alike.</p>\n<p>While most soldier robot models are built to be as destructive as possible, and elimination robots are designed to kill, security robots usually have fail-safes programmed into their behavior to prevent them from causing any more violence than is necessary to perform their designated security function. This makes them especially useful in cities, where unintended destruction might harm bystanders or cause legal issues, and even on starships, where a stray laser blast might cause serious damage to vital starship systems.</p>",
       "items": [
         {
@@ -7829,7 +7829,7 @@
       ]
     },
     "hYfUp7797H0Ltb3U": {
-      "name": "蜥掠灵",
+      "name": "蜥掠灵 Skreeling",
       "publicNotes": "<p>蜥掠蛸幼崽成群狩猎，以灰烬，金属，木头，甚至几乎一切物质维生。</p><hr /><p>Skreesires, and their offspring skreelings, are vicious predators who skulk and prowl in the crags and caverns of the cosmos.</p>",
       "items": [
         {
@@ -7842,7 +7842,7 @@
       ]
     },
     "ho2J4tE3WRoGMXUa": {
-      "name": "巨刃霸主",
+      "name": "巨刃霸主 Thresher Lord",
       "publicNotes": "<p>作为重型突击部队而设计的巨刃霸主，能撕裂敌军阵型，在防御工事中开辟通道，为大批步兵部队扫清道路。从其前臂伸出的巨大刀刃不仅作为武器进化而来，更在巨刃霸主在接近至近战距离时，同时提供空气动力学支撑与少量防护。</p><hr /><p>Developing far out in the Vast from an insectile species known as kucharns, the Swarm is considered the greatest threat in existence for several cultures. Composed of countless subcolonies, each consisting of myriad component subspecies, the Swarm is a vast host that acts in psychic union for the purpose of consuming all matter across the cosmos. Most frightening of all is the Swarm's ability to assimilate the knowledge and DNA of those they consume. Thanks to its pre-Gap development of star travel, the Swarm had already consumed innumerable systems before history short-circuited, and the Swarm's pace only accelerated once it received access to the Signal and the hyperspace dimension known as the Drift.</p>\n<p>Worlds touched by the Swarm are drained of their natural resources and rendered barren places known as huskworlds. What outsiders consider to be \"Swarm space\" is little more than a swathe of lifeless worlds that the Swarm have consumed in its reckless advance. The Swarm so thoroughly strips these worlds that surveyors struggle to find even trace amounts of inorganic resources, such as rare minerals and water. Few of these huskworlds have been thoroughly explored, as oftentimes exploration awakens inert drones, theorized to have been left behind in case the devoured system was ever colonized and repopulated. Pockets of Swarm activity exist well beyond this region of space, as the Swarm sent out countless subcolonies in the ages before the Gap, and even now, only some of them have reached their intended destinations.</p>\n<p>The Swarm is perhaps most known in the current era for two important facts. First, its assault on the Pact Worlds and the Veskarium led to the cessation of hostilities and tenuous alliance between the two powers. Second, the Swarm is the direct ancestor of the shirren species. Having broken away sometime during the Gap, shirrens found succor with the deity Hylax, who was believed to have evolved from a pre-Swarm kucharn and who turned her back on the ravenous entity the Swarm has evolved into.</p>\n<p>In recent years, the Swarm had been seen as little more than a distant boogeyman with no activities save for classified actions in the Suskillon system in the Vast. However, the recent discovery of the missing Szandite world of Krethiskar inadvertently awoke a dormant subcolony that had been responsible for the world's consumption. Since then, the newly dubbed Krethiskar subcolony has become a scourge of Near Space, engaged in an active invasion of Szandite Collective worlds and poised to spill over into other powers like the Veskarium and Pact Worlds. This rediscovered subcolony has begun rapid evolution of its components and remains cut off from the wider Swarm, but it still represents a clear danger to Near Space.</p>",
       "items": [
         {
@@ -7872,7 +7872,7 @@
       ]
     },
     "hyIbGgd56JIJA4cS": {
-      "name": "死灵妖",
+      "name": "死灵妖 Necrovite",
       "items": [
         {
           "id": "jBtNqOIJI5pqxmCN",
@@ -8031,7 +8031,7 @@
       ]
     },
     "i9GoDnoskQ5QZEgJ": {
-      "name": "珊瑚怪",
+      "name": "珊瑚怪 Coposirix",
       "publicNotes": "<p>小塔布里德的快速且鲁莽的工业化摧毁了这颗星球，尤其是严重破坏了科皮珊瑚（copi）——一种珊瑚，它是当地珊瑚人（copaxi）祖先的栖息地。然而，在科皮珊瑚与重力之间的魔法联系最强的区域，无处不在的污染反而将其变异成了怪异的新形态。在对珊瑚人进化的扭曲模仿中，成群的科皮珊瑚融合在一起，形成了珊瑚怪，一种由变异的科皮珊瑚与部分结晶垃圾形成的外壳融合而成的蹒跚巨物，它在移动时会发出嘎吱嘎吱的声响。珊瑚怪的形态不断变化，有时甚至会呈现出令人不安的类人特征，但这些特征很快又会消失。</p>",
       "items": [
         {
@@ -8056,7 +8056,7 @@
       ]
     },
     "iuovM4PRyAX0NwvI": {
-      "name": "地狱骑士崩解使",
+      "name": "地狱骑士崩解使 Hellknight Degradant",
       "publicNotes": "<p>地狱骑士大部分人通常研究地狱之力来激发他们的战斗风格和魔法，但他们也可能学会与宇宙之力共鸣，从而成为恒星武士。</p><hr /><p>Hellknights are infernal knights, and while they once ruled entire nations on Lost Golarion, the Hellknights of the Pact Worlds enforce law and order more holistically, traveling in massive citadel starships to spread their influence rather than remaining in any one place. In battle, Hellknights are orderly, unrelenting, and deadly.</p>",
       "items": [
         {
@@ -8129,7 +8129,7 @@
       ]
     },
     "jJ9OlkJVsoqRzmjM": {
-      "name": "漂流尸聚合体",
+      "name": "漂流尸聚合体 Driftdead Amalgam",
       "publicNotes": "<p>聚合体是一群在他们破碎的灵魂残片操纵下融合为一体的漂流尸群。最初的聚合体是自然形成的，但尸骸舰队的血肉熔炉已能制造人工版本，这些生物被已在被部署在无数战场，作为突击部队活跃于前线。</p><hr /><p>Driftdead are created when a restless soul fuses with planar energies and reanimates its own corpse into a disturbing parody of life. Rarely, disturbed spirits snatched from elsewhere fuse together to inhabit a single dead body. Any death within the Drift might spawn a driftdead, but creatures that die in a frenzy of intense emotion are more likely to make the transition.</p>",
       "items": [
         {
@@ -8157,7 +8157,7 @@
       ]
     },
     "jUumrFqx4POabrhn": {
-      "name": "光棘花",
+      "name": "光棘花 Lumocantha",
       "items": [
         {
           "id": "UFEGe5Ki51Wg7sqK",
@@ -8234,7 +8234,7 @@
       ]
     },
     "jeazxuZi1AdEbThT": {
-      "name": "心能真菌卫士",
+      "name": "心能真菌卫士 Psychic Fungus Warden",
       "items": [
         {
           "id": "Asd1gICMvRZwuFWr",
@@ -8384,7 +8384,7 @@
       ]
     },
     "jrL6wPYmf7orkM64": {
-      "name": "异星卫士新兵",
+      "name": "异星卫士新兵 Xenowarden Greenhorn",
       "publicNotes": "<p>绿卫士是异星卫士中的精英战斗部队，以自然魔法著称，常被派往发生生态剧变的地点。新加入绿卫士的成员被授予“根”（root）的军衔，但通常被称为“新兵”（greenhorns）。异星卫士新兵在紧密团结的小队中接受全面的训练。</p><hr /><p>The Xenowardens are a powerful and well-respected organization who aim to safeguard and study the natural world and ensure that technological advances are ecologically responsible. With an incredibly diverse membership, their ranks include, among others, hermits who practice nature magic and eschew technology and scientists who create renewable energy from algae. On the other end of the spectrum are elite combat units like the Wildknights and the Greenguards and feared ecoterrorists like the enigmatic Oleander. The Xenowardens are led by a Greenspeaker, who's elected by acclaim and advised by their peers.</p>",
       "items": [
         {
@@ -8454,7 +8454,7 @@
       ]
     },
     "jt9Isl1KnkUr2t41": {
-      "name": "实光混织体",
+      "name": "实光混织体 Hardlight Weaver",
       "items": [
         {
           "id": "fVtbzFOus6z6Stao",
@@ -8471,7 +8471,7 @@
       ]
     },
     "jvS1S3iGtj5uxadI": {
-      "name": "异星卫士根誓者",
+      "name": "异星卫士根誓者 Xenowarden Rootsworn",
       "publicNotes": "<p>异星卫士根誓者是导师和教导者，负责监督并指挥一个根系小队（a platoon of roots）的训练与作战。大多数根誓者都是才华横溢的施法者，能够操控植物，利用它们保护异星卫士免受伤害，并在战场上部署盟友。</p><hr /><p>The Xenowardens are a powerful and well-respected organization who aim to safeguard and study the natural world and ensure that technological advances are ecologically responsible. With an incredibly diverse membership, their ranks include, among others, hermits who practice nature magic and eschew technology and scientists who create renewable energy from algae. On the other end of the spectrum are elite combat units like the Wildknights and the Greenguards and feared ecoterrorists like the enigmatic Oleander. The Xenowardens are led by a Greenspeaker, who's elected by acclaim and advised by their peers.</p>",
       "items": [
         {
@@ -8576,7 +8576,7 @@
       ]
     },
     "jyMpHjBhCaHqSvgL": {
-      "name": "辉耀狼蛛",
+      "name": "辉耀狼蛛 Illumantula",
       "items": [
         {
           "id": "6s9kr17VBUjxUyc7",
@@ -8937,7 +8937,7 @@
       ]
     },
     "kq2FWmVIIxoKc4pj": {
-      "name": "智慧绿色球体",
+      "name": "智慧绿色球体 Sapient Green Orb",
       "items": [
         {
           "id": "bsxTtaZUXkhHt30d",
@@ -9010,7 +9010,7 @@
       ]
     },
     "kvgMMU0WDsVCw94m": {
-      "name": "查兹蟹",
+      "name": "查兹蟹 Corchaaz",
       "items": [
         {
           "id": "JMTqSE3bVSwAvyUs",
@@ -9035,7 +9035,7 @@
       ]
     },
     "l02q2ZmGsBNX4zHx": {
-      "name": "闪晶石哨兵",
+      "name": "闪晶石哨兵 Shimmerstone Sentinel",
       "publicNotes": "<p>作为强大的守护构装体，闪晶石哨兵能够操控并吸收情感，将敌人的情绪反而作为自身的武器加以利用。它们由闪晶石铸造而成——这种具有共情能力的矿物开采自维斯克八号行星，天然具备平复周围生灵情绪的特性。闪晶石哨兵可汲取强烈的情绪能量，并将其注入自身躯体，从而强化攻击威力。</p>",
       "items": [
         {
@@ -9153,7 +9153,7 @@
       ]
     },
     "l6ZlVIzPcbVLBxHI": {
-      "name": "空间站小魔怪",
+      "name": "空间站小魔怪 Clangit",
       "items": [
         {
           "id": "H9nQRaG6Qpk6oDvS",
@@ -9204,7 +9204,7 @@
       ]
     },
     "lkJueMjiDaLp7owG": {
-      "name": "幼年羚豹",
+      "name": "幼年羚豹 Yearling Arabuk",
       "publicNotes": "<p>幼年羚豹会聚集在一起形成“幼兽群”（glarings）。它们在出生几天后就会被母兽遗弃，随后会被一头成年羚豹收养，由这头成年兽将它们养大。</p><hr /><p>Those traveling through Akiton's Winterlands risk stumbling on its apex predator: the carnivorous arabuk.</p>",
       "items": [
         {
@@ -9215,7 +9215,7 @@
       ]
     },
     "ltKN9MPVQO9M81Yy": {
-      "name": "啸叫蝙蝠",
+      "name": "啸叫蝙蝠 Kaukariki",
       "items": [
         {
           "id": "TILABvx2ZtIMQzOV",
@@ -9225,7 +9225,7 @@
       ]
     },
     "mbVSG7ZN6OsxmODd": {
-      "name": "税务级市政机器人",
+      "name": "税务级市政机器人 Tax-Class Civil Robot",
       "items": [
         {
           "id": "1WeE9AEHH8mNj8kY",
@@ -9256,7 +9256,7 @@
       ]
     },
     "n0Ez5gOBW85915bX": {
-      "name": "轰杀级刺客机器人",
+      "name": "轰杀级刺客机器人 Demolition-Class Assassin Robot",
       "items": [
         {
           "id": "qAdQ0jo1qd4trEkp",
@@ -9285,7 +9285,7 @@
       ]
     },
     "n59Z1WQjP1RXebSM": {
-      "name": "漂流尸崩溃者",
+      "name": "漂流尸崩溃者 Driftdead Crasher",
       "items": [
         {
           "id": "sax1p9lfULaGvMql",
@@ -9385,7 +9385,7 @@
       ]
     },
     "nHLhnEDJ0a1foCRq": {
-      "name": "松鼠狐生物科技丧尸",
+      "name": "松鼠狐生物科技丧尸 Squox Biotech Zombie",
       "items": [
         {
           "id": "WiOLLZ7fx5vFpMJp",
@@ -9405,7 +9405,7 @@
       ]
     },
     "neRhNGqn4SL5bV8u": {
-      "name": "月巨人",
+      "name": "月巨人 Moon Giant",
       "publicNotes": "<p>月巨人是体型最大的类人生物之一，站立时约24尺高。他们的体重因地域差异显著，随着环绕当前位置的卫星天体数量增加而增长，但这种特性似乎从未影响过他们的行动能力。月巨人们大多冷静且性情平和，但月相变化与天象异变极易影响其情绪，任何接近者都应先观测星象。这些巨人常担任先知，接受朝圣者的馈赠或祭品以换取服务。</p><hr /><p>Giants are enormous humanoids of many varieties who live all across the galaxy.</p>",
       "items": [
         {
@@ -9486,7 +9486,7 @@
       ]
     },
     "o2xzZ0oc6TgctS90": {
-      "name": "虚化蜥蜴",
+      "name": "虚化蜥蜴 Veolisk",
       "items": [
         {
           "id": "B9s0P2AMNoLFd2M3",
@@ -9536,7 +9536,7 @@
       ]
     },
     "oilbk9sgGQC0u0um": {
-      "name": "惑心小魔怪",
+      "name": "惑心小魔怪 Gnackle",
       "publicNotes": "<p>许多不幸遭遇惑心小魔怪的可怜人往往为时已晚才惊觉。这些小魔怪沉迷于观看其他生物遭受屈辱性失败，常耗费数周甚至更长时间精心挑选并培养受害者，最终引诱其走向自我毁灭。他们先通过读取目标心灵，探知对方最渴望的事物，继而施展幻术伪装成仙女教母或类似的愿望实现者，诱使受害者相信自己肩负伟大使命。他们送上神奇“礼物”，不断怂恿目标追求更宏大的野心。然而当小魔怪认定受害者陷入足够狼狈或危险的境地时，便会将这份馈赠扭曲成可怕的诅咒。</p><hr /><p>Gremlins have plagued the Universe with cruel tricks since long before the Gap, and they've fully adapted to a galaxy filled with technology. Whether meddling with a comm unit, a starship, or an entire space station, gremlins delight in ruination and chaos.</p>",
       "items": [
         {
@@ -9583,7 +9583,7 @@
       ]
     },
     "ooZMSCAd3OyfyXOe": {
-      "name": "相位兽",
+      "name": "相位兽 Nyssholora",
       "publicNotes": "<p>成年相位兽仅在交配和抚育新孵化的幼崽时结伴成对，在此期间它们会将领地边界视为共享区域——其余时间它们极具领地意识。</p><hr /><p>Incredibly ferocious, nyssholoras are dinosaur-like creatures that number among the most dangerous and feared apex predators on the planet of Castrovel. These walking weapons brandish lethal biology: a massive maw lined with twin rows of razor-sharp teeth, scythe-shaped phasic blade forearms that vibrate at ultrasonic speeds, and a scourge-like tail capable of absorbing electricity from the surrounding atmosphere. Yet, nyssholoras are also cunning and perceptive—a frill of tentacles that crowns their head detect telepathic signals, making it impossible for the local formians and lashuntas to escape their notice. Their phasic blades can cut through walls and vehicles as easily as underbrush, ensuring prey have nowhere safe to hide.</p>",
       "items": [
         {
@@ -9613,7 +9613,7 @@
       ]
     },
     "p87ZL2JDCT0nuhrP": {
-      "name": "生物科技巨人",
+      "name": "生物科技巨人 Biotech Giant",
       "publicNotes": "<p>漫长的岁月里，这些巨人穿越星海寻找家园。当他们在浩界探索潜在的新家园时，却被一种奇异的真菌侵袭，凡是被其触及之物皆遭吞噬。巨人的体型使他们免于立即灭亡，但大多数人只能眼睁睁看着菌丝的蓝绿色触须覆盖他们的新家园。绝望中，巨人倾尽所有资源投入科学研究，试图根除真菌。然而他们最终学会了适应。巨人们开始与真菌共生，将其嫁接到皮肤上，融入自身科技中。如今，这些巨人以科学家和生态系统守护者的身份探索星系。虽然他们大多为其他物种提供其科学专业，但一个名为“孢子行者”（sporerunners）的冒险家群体正日益壮大，他们深入星系最危险的区域，踏上寻找他们称之为家的行星的征程。</p><hr /><p>Giants are enormous humanoids of many varieties who live all across the galaxy.</p>",
       "items": [
         {
@@ -9639,7 +9639,7 @@
       ]
     },
     "pTob7hduhssogZCI": {
-      "name": "恨念魔（复仇恶魔）",
+      "name": "恨念魔（复仇恶魔） Jygyk",
       "items": [
         {
           "id": "UFiBy19Ns1zVAlhO",
@@ -9676,7 +9676,7 @@
       ]
     },
     "pU3d9PLxRDE6HSsL": {
-      "name": "穿界巨魔",
+      "name": "穿界巨魔 Warp Troll",
       "items": [
         {
           "id": "issPdMbcUUygdgjX",
@@ -9688,7 +9688,7 @@
       ]
     },
     "pjh2PB4JwYlgMTwj": {
-      "name": "蓝藻灵",
+      "name": "蓝藻灵 Cyanoscum",
       "publicNotes": "<p>这些木元素生物虽拥有啮齿类动物的可爱外形，但其主体却由产毒藻类构成。蓝藻灵在任何温暖潮湿的环境中都能大量繁殖。它们形成的藻华非常显眼：远远看去，就像静止水面上漂浮的蓝绿色草甸，或者附着在植物和岩石上的毛茸茸青蓝色苔藓。如果冒险者被这壮观的景象吸引，贸然靠近水边或伸手触摸那些柔软绚丽的苔藓，便可能惊动这些美丽却致命的生物。</p><hr /><p>Elementals are energetic intrusions from the primal planes of existence. They take many forms, from mindless eddies in the wind or water to complex entities capable of wielding primal magic. The advent of space travel and the progress of technology have allowed even more living embodiments of the elements to manifest in the Universe.</p>\n<p>Natural events like wildfires, solar storms, and floods can unleash hordes of unruly elementals on a planet or into a region of space. Sometimes, a gathering of powerful elementals causes a natural disaster on an epic scale, like an off-the-charts solar flare that fries a planet's power grid or a ceaseless storm swirling in a gas giant's atmosphere.</p>",
       "items": [
         {
@@ -9713,7 +9713,7 @@
       ]
     },
     "qEtvjbS5IyBYjTMo": {
-      "name": "贪食龙兽",
+      "name": "贪食龙兽 Ravenous Drake",
       "items": [
         {
           "id": "TT4lgmJl4fuIHaer",
@@ -9916,7 +9916,7 @@
       ]
     },
     "qqa5DKHFnS1LNDQO": {
-      "name": "突变巨魔",
+      "name": "突变巨魔 Mutant Troll",
       "items": [
         {
           "id": "A6nszaQ7GgdjauzL",
@@ -9926,7 +9926,7 @@
       ]
     },
     "rPLP1E81OiveDLXO": {
-      "name": "阿克谢斯（大炮圣使）",
+      "name": "阿克谢斯（大炮圣使） Arqsheth",
       "items": [
         {
           "id": "S9Z4wrq23h063w70",
@@ -9958,7 +9958,7 @@
       ]
     },
     "rVOhPNjG0BgPCeEI": {
-      "name": "错字魔（谬误邪魔）",
+      "name": "错字魔（谬误邪魔） Typodaemon",
       "publicNotes": "<p>这些体型如孩童般的邪魔，象征着因听写错误、抄写失误或文本复制粘贴出错而导致的死亡恐怖。谬误邪魔会悄然篡改文本：替换某个词汇、添加一个嘲讽的表情符号，或调整标点符号，从而赋予书面文字完全不同的含义。这些细微改动往往引发冲突，而谬误邪魔正是在这些因简单错误引发的纷争与潜在死亡中茁壮成长。</p><hr /><p>Hailing from the plane of Abaddon, daemons are utterly devoted to the destruction of all life. Their existence is based around specific means of death, and they seek the death of all things in service to their lords: the Apocalypse Riders. Each daemon represents a different way to die, and they use their specific powers to further that means of death.</p>\n<p>Advents in technology have only created new means of death and torment, so new types of daemons enter existence with regularity, each created once a sufficient mass of new deaths occurs to spawn them. These new advent daemons often prefer to spend their time in the galaxy rather than Abaddon, as they can better spread their torments to the mortals of creation.</p>",
       "items": [
         {
@@ -10025,7 +10025,7 @@
       ]
     },
     "rZmOtykkOh9oRBfN": {
-      "name": "网管精",
+      "name": "网管精 Emvermod",
       "items": [
         {
           "id": "0KmhOiF42MXrBSQ6",
@@ -10108,11 +10108,11 @@
       ]
     },
     "rl5p1LLCpKh16viU": {
-      "name": "维修级安保机器人",
+      "name": "维修级安保机器人 Repair-Class Security Robot",
       "publicNotes": "<p>在许多简陋的星舰与偏远的太空站中，部署专用安保机器人往往成本过高——尤其是当这些设施根本无法获得安保机器人使用许可时。此类运营方通常依赖廉价的维护机器人来应对入侵者：虽然它们可能无力对抗严重威胁，但至少能在常见害虫（如老鼠、昆虫等）破坏星舰电路前将其清除。毕竟，有时最好的维护就是预防性维护。</p><hr /><p>Security robots are ubiquitous throughout industrialized space and have major presences in both the Pact Worlds and Veskarium, employed and customized by corporations and private citizens alike.</p>\n<p>While most soldier robot models are built to be as destructive as possible, and elimination robots are designed to kill, security robots usually have fail-safes programmed into their behavior to prevent them from causing any more violence than is necessary to perform their designated security function. This makes them especially useful in cities, where unintended destruction might harm bystanders or cause legal issues, and even on starships, where a stray laser blast might cause serious damage to vital starship systems.</p>"
     },
     "sJaEEl0DzV9iQfVW": {
-      "name": "幽噬怪博学者",
+      "name": "幽噬怪博学者 Garaggakal Polymath",
       "publicNotes": "<p>这些幽噬怪已经活了数个世纪，体型超过15尺高，1000磅重。幽噬怪博学者们花费了多年时间折磨和撕裂它们遇到的所有生物，并且它们对大量种类生物的解剖结构有着丰厚的知识。它们比年轻的幽噬怪更加残忍，在偷取受害者的生命力之前，它们以给受害者带来极度痛苦为乐。它们比年轻的同类在漂流域中旅行得更远，被它们寻找和解剖新生物的无尽欲望所驱使。</p><hr /><p>The Drift is a strange place, and the creatures native to it are stranger still. Garaggakals prove no exception. Shaped vaguely like humanoids, they have arms and legs but also sallow, rubbery skin with long, scaly tails and gauzelike wings. Most horrifyingly, their faces are almost entirely taken up by their enormous, funnel-like mouth, lined with sharp teeth. While they use these mouths for the obvious purpose of biting, they can also use its powerful suction to draw actual life force from their prey.</p>\n<p>Also known as \"Drift wraiths,\" garaggakals hunt down any living creatures that linger too long in the Drift. For garaggakals, anything that isn't a fellow garaggakal is prey. However, they're no mere mindless hunters. Garaggakals are surprisingly intelligent and prefer to dissect victims, learning all about them before eating them. Often, garaggakals take their victims apart while they're still alive. Xenobiologists have determined that garaggakals don't even technically need to eat to survive, so their relentless hunger is seemingly psychological. They do require the energy of the Drift to survive in the absence of food, however, and further need the energy of the Drift to reproduce, seeking out areas of intense radiation to absorb and then build a new offspring from their own cells. Their children are fully grown at creation.</p>\n<p>Garaggakals surprise their prey. They are quite stealthy and can even phase through solid matter, suddenly appearing on the inside of a starship—bad news for whatever living creatures happen to be inside. Con artists sell garaggakal repelling devices for travelers to use while in the Drift to prevent such visits.</p>",
       "items": [
         {
@@ -10162,7 +10162,7 @@
       ]
     },
     "scARYu4nntG0dBPC": {
-      "name": "噬冠兽",
+      "name": "噬冠兽 Crest-Eater",
       "items": [
         {
           "id": "JLmA10VpOgTgar3i",
@@ -10191,7 +10191,7 @@
       ]
     },
     "sl3T1TpAX6LWR1OO": {
-      "name": "自由船长",
+      "name": "自由船长 Free Captain",
       "publicNotes": "<p>船长是任何船上的最高位阶。他们仅向自由船长们的海军上将负责，且仅限于其舰船未参与交战时。这位船长默认使用弯刀的虚能模式，刀刃上数百颗闪烁的星辰，象征着她在无数战斗中夺取的生命。</p><hr /><p>The Free Captains have been a scourge of interstellar shipping across the Pact Worlds for generations, but since the adoption of Drift Lanes, the outlaws have expanded their reach and scale by targeting ships across the galaxy using the new standardized interstellar shipping routes.</p>",
       "items": [
         {
@@ -10244,7 +10244,7 @@
       ]
     },
     "t293r8NAroe7Vcvn": {
-      "name": "荒芜龙兽",
+      "name": "荒芜龙兽 Blight Drake",
       "publicNotes": "<p>荒芜龙兽因恶臭和污染而在龙类生物中恶名昭彰。它们用堪比最恶劣的工业化产物的污秽与腐朽来污染周遭的空气。这些独居的怪物形似栖息于沼泽的龙类近亲，但其周身时常笼罩着一层令人窒息的浓厚瘴气。荒芜龙兽以污染洁净青翠的环境为乐，所过之处都会留下永久的污秽痕迹。</p><hr /><p>Drakes resemble their larger draconic cousins in more than just scaled, monstrous acclaim. Ranging in size from the diminutive fey drake to the massive, ship-sized star drake, drakes share a dragons' winged reptilian form, long necks, and breath weapons. But where dragons often have forelimbs and wings, a drake typically only has one or the other. Their long, winding tails and sharp jaws more than make up for this lack, however.</p>\n<p>Despite being more animalistic than dragons, drakes still possess a formidable cunning, and most share a dragon's ability to generate some form of breath weapon. However, their lack of intelligence makes drakes substantially easier to domesticate than other draconic creatures, and their familial nature makes them excellent pack hunters.</p>",
       "items": [
         {
@@ -10272,7 +10272,7 @@
       ]
     },
     "tLxVEV2U06zj1idI": {
-      "name": "聚缆球",
+      "name": "聚缆球 Tregalxi",
       "items": [
         {
           "id": "3NL0jN8bhWw7ZwOh",
@@ -10296,7 +10296,7 @@
       ]
     },
     "tNC4Vpe6qgGSdbcP": {
-      "name": "干扰虫群",
+      "name": "干扰虫群 Szynegator Swarm",
       "publicNotes": "<p>单只干扰虫的震动会导致轻微的眩晕，但当这些微小的甲虫状子体协同时，其引发的大气扰动将使绝大多数通讯方式失效。干扰虫通常栖息于行星的荒芜孤寂之地，得以不受阻碍地繁衍。它们的存在预示着虫群全面入侵的降临。</p><hr /><p>Developing far out in the Vast from an insectile species known as kucharns, the Swarm is considered the greatest threat in existence for several cultures. Composed of countless subcolonies, each consisting of myriad component subspecies, the Swarm is a vast host that acts in psychic union for the purpose of consuming all matter across the cosmos. Most frightening of all is the Swarm's ability to assimilate the knowledge and DNA of those they consume. Thanks to its pre-Gap development of star travel, the Swarm had already consumed innumerable systems before history short-circuited, and the Swarm's pace only accelerated once it received access to the Signal and the hyperspace dimension known as the Drift.</p>\n<p>Worlds touched by the Swarm are drained of their natural resources and rendered barren places known as huskworlds. What outsiders consider to be \"Swarm space\" is little more than a swathe of lifeless worlds that the Swarm have consumed in its reckless advance. The Swarm so thoroughly strips these worlds that surveyors struggle to find even trace amounts of inorganic resources, such as rare minerals and water. Few of these huskworlds have been thoroughly explored, as oftentimes exploration awakens inert drones, theorized to have been left behind in case the devoured system was ever colonized and repopulated. Pockets of Swarm activity exist well beyond this region of space, as the Swarm sent out countless subcolonies in the ages before the Gap, and even now, only some of them have reached their intended destinations.</p>\n<p>The Swarm is perhaps most known in the current era for two important facts. First, its assault on the Pact Worlds and the Veskarium led to the cessation of hostilities and tenuous alliance between the two powers. Second, the Swarm is the direct ancestor of the shirren species. Having broken away sometime during the Gap, shirrens found succor with the deity Hylax, who was believed to have evolved from a pre-Swarm kucharn and who turned her back on the ravenous entity the Swarm has evolved into.</p>\n<p>In recent years, the Swarm had been seen as little more than a distant boogeyman with no activities save for classified actions in the Suskillon system in the Vast. However, the recent discovery of the missing Szandite world of Krethiskar inadvertently awoke a dormant subcolony that had been responsible for the world's consumption. Since then, the newly dubbed Krethiskar subcolony has become a scourge of Near Space, engaged in an active invasion of Szandite Collective worlds and poised to spill over into other powers like the Veskarium and Pact Worlds. This rediscovered subcolony has begun rapid evolution of its components and remains cut off from the wider Swarm, but it still represents a clear danger to Near Space.</p>",
       "items": [
         {
@@ -10373,7 +10373,7 @@
       ]
     },
     "tq09xtM8zptdwx50": {
-      "name": "堡垒虫",
+      "name": "堡垒虫 Bastorox",
       "publicNotes": "<p>令人畏惧的堡垒虫是生物有机体壁垒，它们利用巨大的甲壳质盾牌抵挡伤害，同时向敌人释放生物电束。它们为克雷西斯卡子群的推进部队，例如成群结队的灵巧钻地虫，提供阵地掩护。这些生物巨兽不过是克雷西斯卡子群部队中众多创新之一，曾在罗德纳斯（Rodnarth）围城战中活跃，当时它们毫不留情地穿越了该星球险恶的沼泽地带。</p><hr /><p>Developing far out in the Vast from an insectile species known as kucharns, the Swarm is considered the greatest threat in existence for several cultures. Composed of countless subcolonies, each consisting of myriad component subspecies, the Swarm is a vast host that acts in psychic union for the purpose of consuming all matter across the cosmos. Most frightening of all is the Swarm's ability to assimilate the knowledge and DNA of those they consume. Thanks to its pre-Gap development of star travel, the Swarm had already consumed innumerable systems before history short-circuited, and the Swarm's pace only accelerated once it received access to the Signal and the hyperspace dimension known as the Drift.</p>\n<p>Worlds touched by the Swarm are drained of their natural resources and rendered barren places known as huskworlds. What outsiders consider to be \"Swarm space\" is little more than a swathe of lifeless worlds that the Swarm have consumed in its reckless advance. The Swarm so thoroughly strips these worlds that surveyors struggle to find even trace amounts of inorganic resources, such as rare minerals and water. Few of these huskworlds have been thoroughly explored, as oftentimes exploration awakens inert drones, theorized to have been left behind in case the devoured system was ever colonized and repopulated. Pockets of Swarm activity exist well beyond this region of space, as the Swarm sent out countless subcolonies in the ages before the Gap, and even now, only some of them have reached their intended destinations.</p>\n<p>The Swarm is perhaps most known in the current era for two important facts. First, its assault on the Pact Worlds and the Veskarium led to the cessation of hostilities and tenuous alliance between the two powers. Second, the Swarm is the direct ancestor of the shirren species. Having broken away sometime during the Gap, shirrens found succor with the deity Hylax, who was believed to have evolved from a pre-Swarm kucharn and who turned her back on the ravenous entity the Swarm has evolved into.</p>\n<p>In recent years, the Swarm had been seen as little more than a distant boogeyman with no activities save for classified actions in the Suskillon system in the Vast. However, the recent discovery of the missing Szandite world of Krethiskar inadvertently awoke a dormant subcolony that had been responsible for the world's consumption. Since then, the newly dubbed Krethiskar subcolony has become a scourge of Near Space, engaged in an active invasion of Szandite Collective worlds and poised to spill over into other powers like the Veskarium and Pact Worlds. This rediscovered subcolony has begun rapid evolution of its components and remains cut off from the wider Swarm, but it still represents a clear danger to Near Space.</p>",
       "items": [
         {
@@ -10420,7 +10420,7 @@
       ]
     },
     "uVg2tbY8lbG2CJd8": {
-      "name": "心能真菌采集者",
+      "name": "心能真菌采集者 Psychic Fungus Harvester",
       "publicNotes": "<p>为了生长和传播，足够稳定的心能真菌菌落会派出采集者去收集养分。尽管大多数采集者带回的是腐烂的动植物残骸，但这种真菌最钟爱的猎物却是具有思维能力的生物，它们会将这些生物引诱回菌群，供菌落中的长老享用。</p><hr /><p>A menace to every sentient being, psychic fungi are an invasive species that propagate by using the minds of sapient creatures. Psychic fungi that have integrated a higher intelligence can become a regional or even planetary threat.</p>",
       "items": [
         {
@@ -10438,7 +10438,7 @@
       ]
     },
     "uhlPPFqdRxHsbGpT": {
-      "name": "实光吉祥物",
+      "name": "实光吉祥物 Hardlight Mascot",
       "items": [
         {
           "id": "733vwV9zYuaN0Y9w",
@@ -10450,7 +10450,7 @@
       ]
     },
     "v6Bo30Bsm9u4JBxo": {
-      "name": "热熔巨兽聚合体",
+      "name": "热熔巨兽聚合体 Thermatrod Caldera",
       "publicNotes": "<p>在特定电磁环境下，两头或更多热熔巨兽可能将熔融核心喷射至同一岩浆腔室。这些融合物质将形成聚合体——一种体内流淌着星核金属脉络的强大生物。</p><hr /><p>Originally thought to be exiles from the Plane of Fire, thermatrods actually developed independently in multiple star systems in the Universe. A thermatrod resembles a molten bipedal creature, though they often walk on their front knuckles to support their heavy frames. Thermatrods sport distinctive raised dorsal plates that resemble hexagonal basalt columns, which researchers use to estimate an individual's age. A thermatrod's hardened exterior varies greatly based on local mineral deposits that make up a thermatrod's diet.</p>",
       "items": [
         {
@@ -10473,7 +10473,7 @@
       ]
     },
     "vDWYukzLehnxkz9A": {
-      "name": "烁光尘",
+      "name": "烁光尘 Flarysca",
       "items": [
         {
           "id": "fsajWJabeib9uDRS",
@@ -10500,7 +10500,7 @@
       ]
     },
     "vEA1FAanv0l7Yz4Z": {
-      "name": "艾琳卓女王",
+      "name": "艾琳卓女王 Elindrian Queen",
       "publicNotes": "<p>尽管无人证实艾琳卓女王的存在，但艾琳卓人与蚁弗米族间的少数相似之处，使学者们确信她们必然存在。事实上，正是这些强大的女族长，推动着艾琳卓人投身于乌库兰的恐噩的阵营。</p><hr /><p>The people known as elindrians vanished eons ago into desolate husk-hives beneath the surface of the planet Castrovel. Until recently, they were creatures of legend, existing only in the most obscure formian histories. Now, scholars on Castrovel desperately search for additional records about elindrians, their origins, and—most importantly—the truth about their connection to the terrifying ooze-like creature that recently descended from their moon, Elindrae. One theory is that elindrians share some primal bond with the ooze-thing called the Terror of Ukulam, and perhaps both originate from Elindrae—other theories claim that elindrians created the ooze in the first place or that they're distant cousins to formians, corrupted by the Terror long ago.</p>",
       "items": [
         {
@@ -10545,7 +10545,7 @@
       ]
     },
     "vQiFopx4s5k8baUl": {
-      "name": "脑岩",
+      "name": "脑岩 Cerebinite",
       "items": [
         {
           "id": "Fcrsn5FPqr2rIE5H",
@@ -10570,7 +10570,7 @@
       ]
     },
     "vjkOFdahK2Oic5cC": {
-      "name": "异星卫士生物巨人",
+      "name": "异星卫士生物巨人 Xenowarden Biohulk",
       "publicNotes": "<p>生物巨人是忠诚的异星卫士，他们特意将自己的身体与植物和其他植被融合，以获得强大的力量。这种转变通常通过生物技术、魔法或基因实验完成，且不可逆转。无论采用何种方法，生物巨人都极其强壮，能够轻松击倒大多数人工屏障。异星卫士生物巨人通常是极端主义者，完全且充满热忱地致力于异星卫士的事业。</p><hr /><p>The Xenowardens are a powerful and well-respected organization who aim to safeguard and study the natural world and ensure that technological advances are ecologically responsible. With an incredibly diverse membership, their ranks include, among others, hermits who practice nature magic and eschew technology and scientists who create renewable energy from algae. On the other end of the spectrum are elite combat units like the Wildknights and the Greenguards and feared ecoterrorists like the enigmatic Oleander. The Xenowardens are led by a Greenspeaker, who's elected by acclaim and advised by their peers.</p>",
       "items": [
         {
@@ -10622,7 +10622,7 @@
       ]
     },
     "vt9FFasEnOVxSZJY": {
-      "name": "先锋级士兵机器人",
+      "name": "先锋级士兵机器人 Vanguard-Class Soldier Robot",
       "items": [
         {
           "id": "5PIpXbT8lLaFluvg",
@@ -10637,7 +10637,7 @@
       ]
     },
     "w0ttkMNgshJIBcDJ": {
-      "name": "沙地蠕虫",
+      "name": "沙地蠕虫 Dust Worm",
       "publicNotes": "<p>沙地蠕虫是流散带蠕虫的变种，演化出在沙质或贫瘠小行星表面行动的能力。相应地，它们以敏捷换取了庞大体型，并能抵抗辐射。其电磁操控能力可作用于细小的铁磁性物质，使它们能心灵遥控沙子与小型金属碎片——既可作为武器投掷，也能当作伪装使用。</p><hr /><p>\"Space worm\" is a nonscientific term for a xenobiologically complex clade of invertebrate animals and beasts that make their home in the vastness of space. Some, like the diaspora and dust worms, show signs of intelligence and are directly related to each other. Others, like the surnoch, evolved separately, with their origins completely unknown to science.</p>",
       "items": [
         {
@@ -10665,7 +10665,7 @@
       ]
     },
     "w5PKiJr1qb36mH2d": {
-      "name": "铁流体泥怪",
+      "name": "铁流体泥怪 Ferrofluid Ooze",
       "items": [
         {
           "id": "fTNPtMto9oFQMt9W",
@@ -10835,7 +10835,7 @@
       ]
     },
     "wdlD7yRgb8i7fejP": {
-      "name": "自由船长枪手",
+      "name": "自由船长枪手 Free Captain Gunner",
       "publicNotes": "<p>炮火轰鸣中率先发起冲击，登船队中的枪手职责是通过压制敌舰防御系统保护同伴，同时制造混乱引发溃逃。</p><hr /><p>The Free Captains have been a scourge of interstellar shipping across the Pact Worlds for generations, but since the adoption of Drift Lanes, the outlaws have expanded their reach and scale by targeting ships across the galaxy using the new standardized interstellar shipping routes.</p>",
       "items": [
         {
@@ -10909,7 +10909,7 @@
       ]
     },
     "wuRiOirsQT17Ri5C": {
-      "name": "幽噬怪",
+      "name": "幽噬怪 Garaggakal",
       "publicNotes": "<p>大多数幽噬怪约8尺高，重400磅，翼展20尺。它们总是在移动，可能会在破碎的星舰或漂浮的地块上找到一个临时的巢穴，但很快又会离开，去寻找新的生物作为下一顿食物。虽然在物质宇宙中很少会遭遇幽噬怪，但如果它们的临时巢穴位于漂流域的出口处，这种情况还是有可能发生的。</p><hr /><p>The Drift is a strange place, and the creatures native to it are stranger still. Garaggakals prove no exception. Shaped vaguely like humanoids, they have arms and legs but also sallow, rubbery skin with long, scaly tails and gauzelike wings. Most horrifyingly, their faces are almost entirely taken up by their enormous, funnel-like mouth, lined with sharp teeth. While they use these mouths for the obvious purpose of biting, they can also use its powerful suction to draw actual life force from their prey.</p>\n<p>Also known as \"Drift wraiths,\" garaggakals hunt down any living creatures that linger too long in the Drift. For garaggakals, anything that isn't a fellow garaggakal is prey. However, they're no mere mindless hunters. Garaggakals are surprisingly intelligent and prefer to dissect victims, learning all about them before eating them. Often, garaggakals take their victims apart while they're still alive. Xenobiologists have determined that garaggakals don't even technically need to eat to survive, so their relentless hunger is seemingly psychological. They do require the energy of the Drift to survive in the absence of food, however, and further need the energy of the Drift to reproduce, seeking out areas of intense radiation to absorb and then build a new offspring from their own cells. Their children are fully grown at creation.</p>\n<p>Garaggakals surprise their prey. They are quite stealthy and can even phase through solid matter, suddenly appearing on the inside of a starship—bad news for whatever living creatures happen to be inside. Con artists sell garaggakal repelling devices for travelers to use while in the Drift to prevent such visits.</p>",
       "items": [
         {
@@ -10954,7 +10954,7 @@
       ]
     },
     "x8PHZnkMCnpCWdMf": {
-      "name": "生物科技卓越型战争机器",
+      "name": "生物科技卓越型战争机器 Biotech Superior War Machine",
       "publicNotes": "<p>代号“尸花兽”的战争机器最早被记录于对乌尔里克卡氏族领地（Ulrikka Clanholdings）旗下的流散带矿业哨站发动的恐怖袭击中。当进入战斗状态时，“尸花兽”会展开为一团布满尖刺触须与猩红传感器的机械集群，能在数分钟内撕碎整支步兵小队。</p><hr /><p>The incursion began with a series of probes detected by anacites on Aballon. Strange machines with blazing sensors and articulated tentacles appeared out of nowhere, ripping through infrastructure seemingly at random and collecting intelligence all around Pact Worlds space. Panic spread fast, but since the machines always vanished without a trace, or exploded when captured, the sightings couldn't be confirmed or identified. Rumors began to circulate that the machines were a form of biotech never encountered before. Soon the Stewards became formally involved, shuttering the incidents behind the adamantine partition of top security clearance.</p>\n<p>In Sarenith of 325 ag, after dozens of military operations failed to engage the elusive probes, a wing of fighters dispatched from the Idari finally got lucky and disabled one of the machines before it could self-destruct. Coaxed into giving up some of its secrets by top Pact Worlds scientists, the biotech vessel became the prototype for the \"home grown\" remote war machines that are currently being tested for use in combat. The replicas aren't alive but are built using robotic construction templates since the core of the original biotech design has proven too complicated to reverse engineer with Pact technology.</p>\n<p>Remote war machines are proxies that can be controlled from a great distance. The original biotech war machines connect to the pilot's mind through a psychic link or unknown radio frequency. Robotic remote war machines connect to a computer via data link, allowing the pilot to control their proxy using a keyboard, virtual reality rig, or even a vidgame controller.</p>",
       "items": [
         {
@@ -10984,7 +10984,7 @@
       ]
     },
     "xRyZ20XB12SFFTBT": {
-      "name": "拾荒粘怪",
+      "name": "拾荒粘怪 Scavenger Slime",
       "items": [
         {
           "id": "mVbE0u2getZQPCr3",
@@ -11037,7 +11037,7 @@
       ]
     },
     "xbbJZjrTn2PET9Dk": {
-      "name": "煞油刻法克虫",
+      "name": "煞油刻法克虫 Thasteron Khefak",
       "publicNotes": "<p>刻法克虫吞食煞油后，它们的身体会呈现出晶体般的外观，并成长为具有领地意识、贪婪凶残的威胁。</p><hr /><p>Khefak Biogenetics bioengineered khefaks to consume scrap thasteron so the waste could be refined into starship fuel. These creatures eventually became a prime example of a solution becoming a problem of its own. After the discovery of Drift travel, Akiton's thasteron market plummeted, removing the need for mining infrastructure, including khefaks. Khefak Biogenetics destroyed the production facilities, thinking they'd completely eradicated their creations. Khefaks are hardy, however, and the few survivors left the facilities. Beyond thasteron, they subsisted on inorganic materials, and their rapid reproduction rate allowed them to quickly spread all over Akiton. Some stowed away on starships, allowing them to spread throughout the Pact Worlds.</p>",
       "items": [
         {
@@ -11053,7 +11053,7 @@
       ]
     },
     "y4byeJBWDitFp8Gw": {
-      "name": "智慧紫色球体",
+      "name": "智慧紫色球体 Sapient Purple Orb",
       "items": [
         {
           "id": "hSMtIQk6750f3gkJ",
@@ -11117,7 +11117,7 @@
       ]
     },
     "yAuAkon8BXEHcBa2": {
-      "name": "等离子泥怪",
+      "name": "等离子泥怪 Plasma Ooze",
       "items": [
         {
           "id": "JJIauijtuZFZLhEm",
@@ -11139,7 +11139,7 @@
       ]
     },
     "yBia55zJTW7IRPSR": {
-      "name": "陨星魂火花",
+      "name": "陨星魂火花 Noquasar Spark",
       "publicNotes": "<p>陨星魂火花呈现为一缕极其明亮的光芒，光芒中浮现出痛苦的面容。</p><hr /><p>When a solarian perishes while out of sync with the cycle of stars, their soul might become entangled with their solar mote. Extreme cosmic forces act on the soul as it attempts to reach the River of Souls, stretching it infinitely thin for all of eternity.</p>",
       "items": [
         {
@@ -11157,7 +11157,7 @@
       ]
     },
     "yDAeGCMLkfSvSVpU": {
-      "name": "实光故障体",
+      "name": "实光故障体 Hardlight Havoc",
       "publicNotes": "<p>这种实光生命体不稳定，显示出卡顿画面和异常动作。</p><hr /><p>Unlike normal holograms, hardlight life-forms are tangible, living entities.</p>",
       "items": [
         {
@@ -11173,7 +11173,7 @@
       ]
     },
     "yIDU4mt89O80nEjJ": {
-      "name": "长须掠吼龙",
+      "name": "长须掠吼龙 Whiskered Renkroda",
       "publicNotes": "<p>作为所有掠吼龙中最小的，长须掠吼龙已经适应了在茂密的丛林和森林中轻松移动，并融入到生机盎然的绿色植被中。长须掠吼龙下巴上长有类似胡须的触角，这些触角可以探测振动，使它们能够发现隐藏在茂密树叶中的猎物。当它们发现猎物时，掠吼龙会冲进战场，并用足够的力量撞向猎物，足以推倒树木或载具。偶尔，长须掠吼龙会成群生活和捕猎，以更好地保护自己免受更大的捕食者的侵害。</p><hr /><p>Renkrodas are a family of large dinosaur-like predators native to the planet Castrovel. They've spread beyond the jungle planet's boundaries thanks to smugglers, poachers, and ultra-wealthy big-game hunters. Bipedal and strong with long necks and decorative spines, renkrodas are best known for their terrifying roars, which they bellow frequently as a form of long-range communication and to scare away other predators and scavengers. Over a dozen species of renkrodas exist, each specially adapted to their environment or ecological niche.</p>",
       "items": [
         {
@@ -11193,7 +11193,7 @@
       ]
     },
     "yNhBKQWXoRsQol2v": {
-      "name": "空无尸",
+      "name": "空无尸 Nihili",
       "items": [
         {
           "id": "7aynZGnhLSuDdzUx",
@@ -11218,7 +11218,7 @@
       ]
     },
     "ybCXQUgdkwGyQemk": {
-      "name": "噬电兽",
+      "name": "噬电兽 Electrovore",
       "items": [
         {
           "id": "gAkv1AF9ZQOF04Ks",
@@ -11240,7 +11240,7 @@
       ]
     },
     "ydTI11Xclcf2dkNy": {
-      "name": "侦察级渗透机器人",
+      "name": "侦察级渗透机器人 Snoop-Class Infiltrator Robot",
       "publicNotes": "<p>侦察级渗透机器人并非一线战斗单位，其主要战术是悄无声息地潜入目标地点，利用催眠瓦斯炸弹使目标的守卫失去行动能力，进而获取其任务目标（如情报、物品等）。据协约世界的领导层透露，在静默战争（Silent War）期间，这类机器人还可能被用于执行更为隐秘和危险的任务：其反应伪装能力可助力它将致命爆炸物运送到舰船、造船厂以及其他军事设施，以实施破坏行动。</p><hr /><p>Brought to the forefront during the war against the Veskarium, and further perfected by various corporate interests within the Pact Worlds, infiltrator robots are known for being able to get into places where no one else could. Generally small and agile, infiltrator robots sneak into enemy territory and either download precious data or record incriminating evidence.</p>",
       "items": [
         {
@@ -11256,7 +11256,7 @@
       ]
     },
     "yhCFz4PyGPpFRr1O": {
-      "name": "阿卡塔",
+      "name": "阿卡塔 Akata",
       "items": [
         {
           "id": "sYzEwjtXD4GsP03b",
@@ -11281,7 +11281,7 @@
       ]
     },
     "ykGzglKJlWdFCpHV": {
-      "name": "流散带蠕虫长老",
+      "name": "流散带蠕虫长老 Diaspora Worm Sage",
       "publicNotes": "<p>存活数百年的流散带蠕虫，体型、力量与智力都会显著增长。它们主要守护自己的祖先家园，保护记载着生物电信息的珊瑚记录，并指挥年轻蠕虫的行动。</p><hr /><p>\"Space worm\" is a nonscientific term for a xenobiologically complex clade of invertebrate animals and beasts that make their home in the vastness of space. Some, like the diaspora and dust worms, show signs of intelligence and are directly related to each other. Others, like the surnoch, evolved separately, with their origins completely unknown to science.</p>",
       "items": [
         {
@@ -11314,7 +11314,7 @@
       ]
     },
     "yr0WKPVvCVFQSx1T": {
-      "name": "生物科技终极型战争机器",
+      "name": "生物科技终极型战争机器 Biotech Ultimate War Machine",
       "publicNotes": "<p>在所有曾遭遇代号\"月光花\"的生物科技恐怖造物并生还的理事军成员中，只有一人从长达数月的昏迷中苏醒后讲述了自己的经历。据她回忆，仅一台\"月光花\"战争机器就屠杀了利亚瓦拉月面S-117基地——那里曾是整个理事军深空望远镜阵列和行星防御炮台群的所在地。</p><hr /><p>The incursion began with a series of probes detected by anacites on Aballon. Strange machines with blazing sensors and articulated tentacles appeared out of nowhere, ripping through infrastructure seemingly at random and collecting intelligence all around Pact Worlds space. Panic spread fast, but since the machines always vanished without a trace, or exploded when captured, the sightings couldn't be confirmed or identified. Rumors began to circulate that the machines were a form of biotech never encountered before. Soon the Stewards became formally involved, shuttering the incidents behind the adamantine partition of top security clearance.</p>\n<p>In Sarenith of 325 ag, after dozens of military operations failed to engage the elusive probes, a wing of fighters dispatched from the Idari finally got lucky and disabled one of the machines before it could self-destruct. Coaxed into giving up some of its secrets by top Pact Worlds scientists, the biotech vessel became the prototype for the \"home grown\" remote war machines that are currently being tested for use in combat. The replicas aren't alive but are built using robotic construction templates since the core of the original biotech design has proven too complicated to reverse engineer with Pact technology.</p>\n<p>Remote war machines are proxies that can be controlled from a great distance. The original biotech war machines connect to the pilot's mind through a psychic link or unknown radio frequency. Robotic remote war machines connect to a computer via data link, allowing the pilot to control their proxy using a keyboard, virtual reality rig, or even a vidgame controller.</p>",
       "items": [
         {
@@ -11344,7 +11344,7 @@
       ]
     },
     "zmM9D97ulPMgdUd1": {
-      "name": "蜥掠蛸",
+      "name": "蜥掠蛸 Skreesire",
       "publicNotes": "<p>蜥掠蛸一种爬行类怪物，拥有强悍的意志，剃刀般锋利的牙齿，以及在一大团用于行走的触手上方退化的翅膀。</p><hr /><p>Skreesires, and their offspring skreelings, are vicious predators who skulk and prowl in the crags and caverns of the cosmos.</p>",
       "items": [
         {

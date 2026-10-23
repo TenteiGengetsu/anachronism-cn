@@ -1,5 +1,5 @@
 {
-  "label": "职业",
+  "label": "职业 Classes",
   "mapping": {
     "name": "name",
     "description": "system.description.value",
@@ -10,35 +10,35 @@
   },
   "entries": {
     "FYCUzPaaCU4G66Wz": {
-      "name": "秘术师",
+      "name": "秘术师 Mystic",
       "description": "<p><em>你是传导者，引导着连接并维系宇宙万物的基本力量。你可以汲取这股超自然源泉，与盟友建立深厚的灵性纽带，在战斗中强化他们，并在他们受伤时恢复其健康。你的力量因所选联结而呈现独特形态；随着你对联结的探索不断深入，你将获得新的、更强大的法术。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.yiqOagqH2NXjlisZ]{秘术师}</p>"
     },
     "PMX0vxZeLdaofMVd": {
-      "name": "机械师",
+      "name": "机械师 Mechanic",
       "description": "<p><em>说到科技，你的理解无人能及。你不断制作和改造装备，无论是计算机、爆炸物、工具、武器，还是自己设计的物品。你制造了一个复杂的外皮层，这是一种定制的神经植入装置，将你的思维与自己最复杂的造物相连：无人机伙伴、遥控武器炮塔或爆炸性地雷。如果有东西坏了——或者需要被破坏——你就是这方面的专家。</em></p>"
     },
     "QhD0tldbCGmGYeoQ": {
-      "name": "织维巫师",
+      "name": "织维巫师 Witchwarper",
       "description": "<p><em>一场奇异的悖论事件永久改变了你的存在，如今你可以操纵现实。你探索多元宇宙的无限可能，或许还能看到不同的时间线或平行世界。你创造颠覆时空的场域，借此施展强大的魔法。你已学会专注于一段作为锚点的记忆、一个概念或一件物品，以帮助自己辨识现实。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Qaue1LUZUrEFYfT0]{织维巫师}</p>"
     },
     "cUWBC21I0XbzP44A": {
-      "name": "特工",
+      "name": "特工 Operative",
       "description": "<p>你是专注而机敏的专业人士，在生死攸关的战斗中如鱼得水。致命的枪法与战术训练使你在较量中占尽上风——对你而言，即使最强大的敌人也只是另一个需要解决的目标。你在自己选择的专精领域中拥有非凡的造诣。</p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.e3x0k83hYe1awVvT]{特工}</p>"
     },
     "hqRClk6ZQpjENv2C": {
-      "name": "科技法师",
+      "name": "科技法师 Technomancer",
       "description": "<p><em>你知道魔法与科技都属于同一套代码——而你已经学会了破解它。你精通一种魔法编程语言，能让装备超频，提升性能并拓展用途。你已学会为自己的法术越狱，让魔法突破极限。你为骇入现实而来。</em></p>"
     },
     "sGupLSC7oqsN18sI": {
-      "name": "士兵",
+      "name": "士兵 Soldier",
       "description": "<p><em>你精通区域武器和重甲，也擅长承受伤害。你奋战在战斗最激烈的地方，向敌人倾泻毁灭性的齐射，同时承受对方猛烈的还击。你以强大的武器铺设压制火力，吸引敌人将注意力集中在自己身上，为盟友各司其职创造条件。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.KVjJqpDk71Q7MrWF]{士兵}</p>"
     },
     "wu88dOKl86DTo427": {
-      "name": "使节",
+      "name": "使节 Envoy",
       "description": "<p><em>你是影响他人的大师。你凭借迷人的微笑、敏捷的才思和敏锐的自保意识闯荡宇宙。你是激励队友、推动他们突破极限并助其渡过难关的领袖。你擅长让他人依照你的意愿行事，但在局势恶化时，也总准备好直面麻烦。你可能是骗子、外交官、表演者或军官，也可能根据局势的需要扮演任何角色。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.r2bLZofQDDBIk6Ir]{使节}</p>"
     },
     "zAI2ugYWzbUnmaez": {
-      "name": "恒星武士",
+      "name": "恒星武士 Solarian",
       "description": "<p><em>你是传导宇宙星辰之力的媒介——一名恒星骑士。引力与光代表这些力量的两极，而你可以在二者之间调整自身的调谐。作为这一循环的代行者，你显现出一系列恒星武装，并利用自身与星辰之力的联系来强化它们。无论你偏爱恒星光谱的哪一极，你都可以在二者之间改变调谐，运用通过冥想和练习获得的恒星之力。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.kzxu2dI7tFxv6Ix6.JournalEntryPage.Nb6sw1oNTFwVPlLu]{恒星武士}</p>"
     }
   }

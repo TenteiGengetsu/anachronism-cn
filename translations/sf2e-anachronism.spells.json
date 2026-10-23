@@ -1,5 +1,5 @@
 {
-  "label": "法术",
+  "label": "法术 Spells",
   "mapping": {
     "name": "name",
     "description": "system.description.value",
@@ -19,743 +19,743 @@
   },
   "entries": {
     "0BaSs02dBiL2ASBO": {
-      "name": "超充能护甲",
+      "name": "超充能护甲 Supercharge Armor",
       "description": "<p>你将魔法能量注入护甲，强化自身防御。你具现出一层包覆护甲的能量，其作用如同卓越型力场护盾。随后，你在10分钟内对超充能护甲免疫。</p><hr /><p><strong>升阶（7环）</strong>能量作用如同菁英型力场护盾（elite force field）。</p>\n<p><strong>升阶（9环）</strong>能量作用如同终极型力场护盾（ultimate force field）。</p>"
     },
     "0mNmVi9CLXor3McX": {
-      "name": "私人重力",
+      "name": "私人重力 Personal Gravity",
       "description": "<p>你可以改变重力对你的影响。你可以选择将重力提升或降低一级（例如，如果你身处低重力的区域，你可以选择标准重力或零重力）。当该法术起效时，你降低任何影响你的强制移动的距离5尺（最小0尺），而且你不会因为重力的影响而变得笨拙和失重。你可以解消该法术。</p>"
     },
     "0pl80qKToraH4dvO": {
-      "name": "事件视界",
+      "name": "事件视界 Event Horizon",
       "description": "<p>你释放出超大黑洞的力量。区域内的所有生物都会受到6d10钝击伤害和6d10虚能伤害。事件视界可无视区域内生物最多10点钝击抗力与最多10点虚能抗力。每个生物都尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}直到他的下个回合结束。</p>\n<p><strong>失败</strong>该生物受到全额伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 3}直到他的下个回合结束，在接下来陷入持续1分钟的缓慢1。</p>\n<p><strong>大失败</strong>该生物受到双倍伤害并陷入缓慢3直到他的下个回合结束，在接下来陷入持续1分钟的@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 2}。</p>"
     },
     "0rAYoJi9vdj1xIwF": {
-      "name": "磁性调谐",
+      "name": "磁性调谐 Magnetic Tuning",
       "description": "<p>你增幅护甲机构产生的磁场，使敌人难以接近你。你散发出@Template[type:emanation|distance:15]范围的困难地形。你和你的盟友不受此灵光影响。</p>\n<p>当你施放此法术，以及随后每轮你第一次维持它时，你可以对一个处于此弥漫区域内的生物进行一次法术攻击骰，命中时造成3d8钝击伤害。</p><hr /><p><strong>升阶（+2）</strong>区域增加5尺，钝击伤害增加1d8。</p>"
     },
     "1Wp3rkKJQef7K8Tn": {
-      "name": "力场可编程门阵列",
+      "name": "力场可编程门阵列 Force-Fieldpga",
       "description": "<p>你获得对最近一分钟内你受到过的一种伤害类型的抗力2。在持续时间内，你可以用一个单动作将抗力类型改为最近一分钟内你受到过的另一种伤害类型。</p><hr /><p><strong>升阶（+1）</strong>抗力增加2。</p>"
     },
     "1gkdgFwKfAoQx163": {
-      "name": "曲织时间",
+      "name": "曲织时间 Warp Time",
       "description": "<p>你暂时改变量子场域内的时间线。选择以下效果之一。</p><ul><li><strong>倒带</strong>你将自身的个人时间线倒回生命周期中更早的时点。你获得10点临时生命值，持续1分钟。 @UUID[Compendium.sf2e-anachronism.spell-effects.Item.bFy8NADnVR95YKyx]</li><li><p><strong>快进</strong>你将量子场域内一个生物的个人时间线加速至其自然生命周期的终点。该生物受到1d10虚能伤害，进行一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全额伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 1}，持续1轮。</p>\n<p><strong>大失败</strong>目标受到双倍伤害，并陷入力竭1，持续1分钟。</p></li></ul><hr /><p><strong>升阶（+2）</strong>伤害增加1d10，临时生命值增加5。</p>"
     },
     "1lv6Zmp2eWRIPn1n": {
-      "name": "猫科感官",
+      "name": "猫科感官 Feline Senses",
       "description": "<p>你的感官会增强，同时获得猫科动物的眼睛、耳朵和胡须。你获得黑暗视觉和电磁感应（30尺模糊感官），可以侦测到活物和科技生物。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.1Ut6QrRtIZzjmqZW]</p><hr /><p><strong>升阶（4环）</strong>法术的距离变为接触，目标变为1个自愿的生物。</p>\n<p><strong>升阶（6环）</strong>法术的距离变为接触，目标变为1个自愿的生物。持续时间变为直到你下次进行每日准备。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.R9R0Nf8YX5ahx5FH]{法术效果：猫科感官（6环）}</p>"
     },
     "3VucgRc8FRPGy9NI": {
-      "name": "寻觅星辰",
+      "name": "寻觅星辰 Seek the Stars",
       "description": "<p>在你的脑海中，你绘制了一条穿越宇宙的路径。如果你在协约世界的空间中，你就能立刻知道前往星石和艾巴萨罗姆空间站的方向。如果你在协约世界以外的空间，你会知道前往最近的漂流信标或星石的方向。</p><hr /><p><strong>升阶（7环）</strong>你可以知道前往熟悉地点的方向，例如你曾经去过的世界或中转站。</p>"
     },
     "4RKn711m9r9Szu0h": {
-      "name": "超充能突触",
+      "name": "超充能突触 Supercharge Synapses",
       "description": "<p>你向自己注入魔法能量以加速你的攻击。你获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]状态，且每轮只能使用此额外动作进行超频脉冲或打击。</p>"
     },
     "4WIa2Bq7DVgMZfaO": {
-      "name": "现实短路",
+      "name": "现实短路 Short-Circuit Reality",
       "description": "<p>你创造一条穿过现实的路径，将自己发射穿越空间以突袭敌人。你传送到30尺内一个你能看见的未被占据空间。然后，尝试对一个生物进行一次打击；你可以使用你的法术攻击骰进行此打击。目标对此次打击@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]。</p><hr /><p><strong>升阶（+1）</strong>你可以传送的距离增加20尺。</p>"
     },
     "5ZZca1GGJs44OxC8": {
-      "name": "激励铃声",
+      "name": "激励铃声 Motivating Ringtone",
       "description": "<p>你会让目标通讯装置播放一首宇宙编曲的、专属于其拥有者的个人主题曲。当你施放该法术时，拥有该目标通讯单元的生物会恢复 1d8+4生命值，所有速度获得+5尺状态加值，并且在持续时间内，只要通讯单元继续播放铃声，对恐惧效果的豁免就会获得 +1状态加值。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.NmhqKZyMgQSHbyHj]</p><hr /><p><strong>升阶 （+1） </strong>治疗量增加 1d8+4。</p>"
     },
     "5apI8Yamauo02VYR": {
-      "name": "元素屏障",
+      "name": "元素屏障 Elemental Barrier",
       "description": "<p>一层具有防护作用的元素能量屏障在目标周围显现，强化其防御。选择一种元素特征：气、土、火、金属、水或木。元素屏障获得你所选的特征。目标的AC获得+1环境加值。法术生效期间，目标可以使用盾牌格挡反应，如同元素屏障是一面已举起的盾牌。</p>\n<p>屏障具有硬度6和40点HP。它根据所选特征获得对一种伤害类型的抗力2：气对应电击或音波，土对应钝击或穿刺，金属对应酸蚀或挥砍，火对应火焰，水对应寒冷，木对应毒素。与普通的盾牌格挡不同，你可以使用此法术的反应抵御以该生物为目标、且具有所选元素特征的法术。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.4BwlNXei3xMKygMv]</p><hr /><p><strong>升阶（5环）</strong>屏障具有48 HP。</p>\n<p><strong>升阶（6环）</strong>屏障具有硬度8和52 HP。</p>\n<p><strong>升阶（7环）</strong>屏障具有硬度8和60 HP。</p>\n<p><strong>升阶（8环）</strong>屏障具有硬度10和68 HP。</p>\n<p><strong>升阶（9环）</strong>屏障具有硬度10和80 HP。</p>"
     },
     "5cMDrC3jX1yrxOzh": {
-      "name": "系统超荷",
+      "name": "系统超荷 Overload Systems",
       "description": "<p>你用电磁干涉淹没区域。对区域内所有其他生物造成7d8电击伤害。每个区域内的生物都必须尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全部伤害并且所有具有科技特征的物品会陷入故障1持续1分钟或者被移除。</p>\n<p><strong>大失败</strong>目标受到两倍伤害并且所有具有科技特征的物品会陷入故障2持续1分钟或者被移除。</p><hr /><p><strong>升阶（+1） </strong>伤害增加 1d8。</p>"
     },
     "5kzAMtSSpGDJTIWV": {
-      "name": "A星瞄准算法",
+      "name": "A星瞄准算法 A-Stellar Targetfinder Algorithm",
       "description": "<p>魔法科技符文蚀刻到武器枪口上，引导你的射击弹道准确无误地飞向目标。在持续期间，你可以使用目标武器对具有完全掩蔽的生物进行远程打击，只要该生物在你武器的第一个射程增量内、你察觉该生物、并且你可以在你与该生物之间画出一条不间断的路径。此路径不必是直线，而该生物对此类打击具有高等掩蔽。你与所攻击生物之间的距离根据所画路径的长度计算。</p><hr /><p><strong>升阶（+2）</strong>你离可以指定为目标的生物的最大距离增加一个射程增量。</p>"
     },
     "5y70IWhVV6bVjC9N": {
-      "name": "重填武器",
+      "name": "重填武器 Recharge Weapon",
       "description": "<p>你触碰一件没有剩余弹药的武器，用魔法能量为其充能。直到你的下一回合结束时，目标会获得与其“耗弹”相等的弹药或充能，并允许任何持有目标的人使用该武器进行一次打击。该法术只能为使用弹药且弹药价格不超过10个信用点的武器充能。</p><hr /><p><strong>升阶（3环）</strong>目标获得的弹药或充能数量等于其消耗量的两倍。</p>\n<p><strong>升阶（6环）</strong>目标获得的弹药或充能数量等于其消耗量的三倍。</p>\n<p><strong>升阶（9环）</strong>目标获得的弹药或充能数量等于其消耗量的四倍。</p>"
     },
     "64DDZxOrmr4ddqs2": {
-      "name": "念动爆发",
+      "name": "念动爆发 Telekinetic Tantrum",
       "description": "<p>你发射一连串强大的精神能量，压倒生物、投掷物品并造成伤害。当你施放此法术时，以及每轮第一次维持此法术时，你可以选择以下效果之一。不能连续两次选择相同的效果。</p><ul><li><strong>退开！</strong>你将至多15个物体或生物向任意方向（包括向上或向下）抛出至多40尺。你可以抛掷的每个生物或物体重量至多为40负载。生物根据移动距离受到钝击伤害，并在落地时@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}，如同受到坠落伤害。成功通过此法术强韧豁免的生物不会被移动。</li><li><strong>骤雨</strong>你以区域内的碎屑和物体猛击区域内所有生物，造成5d10钝击伤害，进行一次基础反射豁免。</li><li><strong>念动力猛击</strong>你的念动力风暴撞向区域内所有生物。进行一次远程法术攻击掷骰。所有被命中的目标受到7d6力场伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1}。</li></ul>"
     },
     "6HMiN0oQzeoYR3it": {
-      "name": "命能织网",
+      "name": "命能织网 Vitality Web",
       "description": "<p>你的网络短暂显现为一张连接纽带成员的生命能量之网。每个目标获得快速治疗8。当你施法时以及每轮首次维持此法术时，目标获得16点临时生命值，持续1轮。</p><hr /><p><strong>升阶（+1）</strong>目标的数量和快速治疗增加1，临时生命值增加2。</p>"
     },
     "7Ib3qxIC0bFD3ued": {
-      "name": "岁月重担",
+      "name": "岁月重担 Weight of Ages",
       "description": "<p>你将目标毕生的苦痛与哀伤化作沉重枷锁，压垮目标的身心。尝试一次远程法术攻击骰。目标受到3d8钝击伤害和3d8心灵，并且必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全伤害并且@UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]1轮。</p>\n<p><strong>大失败</strong>目标受到全伤害并且超载1分钟。</p><hr /><p><strong>升阶（+1）</strong>心灵伤害增加2d8</p>"
     },
     "7P4eBdqWcgQJAFCa": {
-      "name": "移变激涌",
+      "name": "移变激涌 Shifting Surge",
       "description": "<p>你释放出一股魔法能量，暂时改变目标武器造成的伤害类型。使用该武器的下一次打击会造成酸蚀、寒冷、电击、火焰、音波中由你选择的一种伤害类型，并且额外造成1d6伤害，类型为武器正常的伤害类型。</p><hr /><p><strong>升阶（+2）</strong>额外伤害增加1d6。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.pWm0NCsxjxTUCJ7y]</p>"
     },
     "7WtiWJRYZhT6a9Ey": {
-      "name": "控制机器",
+      "name": "控制机器 Control Machine",
       "description": "<p>你可以控制一个科技特征的生物或物体，并以心灵感应的方式命令它。如果你向有生命的目标发出明显的自毁命令，该目标在你发出新命令之前不会行动。效果取决于其意志豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标因为要抵抗你的命令而@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。</p>\n<p><strong>失败</strong>你控制了目标。目标将获得被控制状态，但可以在每个回合结束时尝试意志豁免。成功后，法术结束。</p>\n<p><strong>大失败</strong>与失败相同，但只有智慧目标，并且你给它下达了违背其本性的新命令（例如杀死它的盟友）时，才能进行新的意志豁免。</p><hr /><p><strong>升阶（10阶）</strong>持续时间不受限制。</p>"
     },
     "83y4gDfizNDza0BC": {
-      "name": "迸发法术",
+      "name": "迸发法术 Torrent Spell",
       "description": "<p><strong>触发</strong>一个生物施法</p>\n<p><strong>需求</strong>你拥有一个储存有环级等于或高于触发法术的法术宝石</p><hr /><p>你迅速骇入另一个生物正在施放的魔法编织中。用被施放的法术替换需求法术宝石中的法术，保持其被施放时的环级和根源。该法术宝石在你下次每日准备期间被摧毁。</p>"
     },
     "8FT564z5zMQVZNih": {
-      "name": "朦胧念头",
+      "name": "朦胧念头 Vague Idea",
       "description": "<p>你轻碰自己或附近一个生物的记忆，帮助其回忆起部分信息，代价是其部分视觉敏锐度。自愿目标可以主动选择接受失败豁免的效果。</p><hr /><p><strong>成功</strong>该生物不受影响。</p>\n<p><strong>失败</strong>该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，直到其下回合结束，但它在下回合结束前进行的所有@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}检定获得+1环境加值。</p><hr /><p><strong>升阶（4环）</strong>环境加值提升至+2。</p>\n<p><strong>升阶（7环）</strong>环境加值提升至+3。</p>\n<p><strong>升阶（10环）</strong>环境加值提升至+4。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.NP75qOKsF43zLaiZ]</p>"
     },
     "9Jam9fULcLHFDW32": {
-      "name": "速通",
+      "name": "速通 Speedrun",
       "description": "<p>你会变成一道闪烁的回声，穿过现实的正常参数。你获得全伤害（力场除外）的抗力10。你获得宇宙和虚体特征，使你可以像正常行走一样轻松穿越墙壁和在空中移动。你可以穿过敌人所处方格（除非敌人是虚体），不过你的移动仍然会触发反应动作。如果你的装备处于超频状态，你可以通过使装备不再超频来延长一轮持续时间。</p>"
     },
     "9w90nlUdV5HBRWFm": {
-      "name": "曲织世界",
+      "name": "曲织世界 Warp World",
       "description": "<p>你在当前现实中重现另一个世界的强大事件。区域内所有生物必须尝试一次强韧豁免。曲织世界造成的伤害和效果通过掷[[/r 1d6#Warp World Effect]]决定，详见下表。</p><hr /><p><strong>升阶（+1）</strong>造成的伤害增加1d12，持续伤害增加1d6。</p><table class=\"pf2-table\"><thead><tr><th>d6</th><th>效果</th></tr></thead><tbody><tr><td>1</td><td><strong>超新星：</strong>一颗爆炸的太阳造成4d12火焰伤害和1d6持续电击伤害。大失败时，生物受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续1轮。</td></tr><tr><td>2</td><td><strong>地震：</strong>地面震动，造成4d12钝击伤害。大失败时，生物受到双倍伤害，并被击倒而@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</td></tr><tr><td>3</td><td><strong>炼狱：</strong>火山喷发或烈焰风暴造成4d12火焰伤害。灵光内的一切都因烟雾而处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态，持续1轮。大失败时，生物受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}。</td></tr><tr><td>4</td><td><strong>异能风暴：</strong>咆哮的心灵能量风暴造成4d12音波伤害和1d6持续心灵伤害。大失败时，生物受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}，持续1轮。</td></tr><tr><td>5</td><td><strong>骤然冰封：</strong>来自极寒行星的风暴造成4d12寒冷伤害。大失败时，生物受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}，持续1轮。</td></tr><tr><td>6</td><td><strong>辐射爆炸：</strong>核反应的回响造成4d12钝击伤害和1d6持续火焰伤害。大失败时，生物受到双倍伤害，还会受到@Damage[(@item.rank - 3)d6[persistent,poison]]伤害，并在持续毒素伤害存续期间陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}。</td></tr></tbody></table>"
     },
     "A09nTb61ceLF27vX": {
-      "name": "科技直觉",
+      "name": "科技直觉 Tech Intuition",
       "description": "<p><strong>触发</strong>当你尝试一次技能检定以@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]有关某件科技物品的知识，或使用科技设备，或你掷骰豁免对抗具有科技特征的效果。</p><hr /><p>聚焦于某件科技物品时，你将短暂窥见其本质与功能。你可以掷骰两次检定（如果为回忆知识则由GM代为掷骰检定），并使用较好的结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.NcPiz5TOhnel5ZoX]</p>"
     },
     "ASOR3qVrjqStL4Ph": {
-      "name": "舒适营房",
+      "name": "舒适营房 Cozy Crashpad",
       "description": "<p>你创造一个每边20尺长，高10尺的简易营房。这个营房具有构造物特征，并且具有和创造建筑物的魔法物品相同的限制。营房有结构简单的金属结构，配有金属百叶窗和一道金属门（无内置锁具，但留有挂锁接口）。</p>\n<p>内饰包含三张帆布床，一个厕所，一个小型魔法炉灶。营房内部由一个小型魔法灯照亮，你可以使用一个维持动作点亮或者或者熄灭它。营房内的气温十分舒适，其中的生物能够承受多数恶劣天气状况，但是酷热或者酷寒、猛烈的风暴、以及飓风的风力会摧毁营房。其他生物可以自由进出营房，且不会损伤到它，但如果你离开了营房，该法术结束。你可以解消该法术。</p>"
     },
     "AlYzxLKWZujnzsjJ": {
-      "name": "复响再奏",
+      "name": "复响再奏 Shuffle Repeat",
       "description": "<p>你搅动宇宙的旋律，反复奏响某个生物的个人颂歌，使其获得更强烈的激励与力量。目标的打击造成额外一个伤害骰的音波伤害，且目标在意志豁免和意志DC上获得+1状态加值。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.80ciNFwm19EKBONT]</p>"
     },
     "BHWG0rQPTgBF5Ye1": {
-      "name": "火箭冲撞",
+      "name": "火箭冲撞 Rocket Dash",
       "description": "<p>你向身后火箭喷射，极速向前冲刺。你直线移动两倍于你速度的距离，你可以穿过被生物占据的空间，并且这一移动不会触发反应。在区域内的生物受到6d12火焰伤害，这具有一次基础反射豁免。在大失败时，该生物还会额外受到2d6持续火焰伤害并@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]1轮。你将重新出现在直线的终点。</p><hr /><p><strong>升阶（+2）</strong>火焰伤害增加2d12，豁免大失败的持续火焰伤害增加1d6。</p>"
     },
     "Cbj7tDkb2ZTp10Cg": {
-      "name": "闪电枷锁",
+      "name": "闪电枷锁 Electrotether",
       "description": "<p>你使目标的电磁场过载，并以闪电锁链将其拽向自己。对每个目标进行一次远程法术攻击。若攻击两个目标，两次攻击均计入多重攻击减值，但该减值仅在两次攻击完成后生效。每个目标受到4d8电击伤害并且向着你的方向被拉拽5尺（大成功10尺）。如果两次攻击都命中，你可以选择让两个生物彼此靠近而不是被拉向你。如果目标在位移过程中碰到街垒、生物或障碍，目标会在进入那个方格之前停下。</p><hr /><p><strong>升阶（+1）</strong>该伤害增加1d8。</p>"
     },
     "CjVOXjuvvTJqC7AD": {
-      "name": "数据汲引",
+      "name": "数据汲引 Data Drain",
       "description": "<p>你从目标的心灵中汲取记忆和意识思维，将其转化为星界数据，随后你可以像解析计算机代码一样记录和分析这些数据。这会造成10d6心灵伤害，进行基础意志豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 1}直到你当前回合结束。</p>\n<p><strong>失败</strong>目标受到全额伤害，并陷入呆滞1直到你的下个回合结束。你@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]有关目标的知识。</p>\n<p><strong>大失败</strong>如同失败，但目标受到双倍伤害并陷入呆滞1，持续1分钟。</p><hr /><p><strong>升阶（+1）</strong>心灵伤害增加2d6。</p>"
     },
     "CmzIZs20jwoaqhzy": {
-      "name": "阈限超链接",
+      "name": "阈限超链接 Liminal Hyperlink",
       "description": "<p>你重新编程现实，将两个空间连接起来。在效果线内相距至少15尺的未被占据的方格中创建两个超链接。当生物进入一个超链接所处空间时，他会出现在另一个超链接相邻的一个由他们选择的未被占据的空间中。不会飞行的生物会将所有缺乏坚实地面的空间视为被占据的空间。如果没有可供生物进入的有效空间，那么两个超链接都会坦塌，生物会留在进入第一个超链接所处空间内。</p>"
     },
     "CptKtBneM7od45nc": {
-      "name": "主观现实",
+      "name": "主观现实 Subjective Reality",
       "description": "<p>你改变自己的感知，让自己相信某个其他生物或物体是幻象。在射程内选择一个你能察觉到的物体或生物。对你来说，目标会变得透明，不会产生声音、气味或其他感官输出。你可以穿过目标，目标也可以穿过你。你会获得与你的等级相等的抗力，以抵御来自目标的所有伤害。如果你成为对方能力或效果的目标或处于对方能力或效果的范围内，目标必须成功通过@Check[flat|dc:5]，如果失败，你将不受能力或效果的影响。你免疫其所有听觉、语言和基于嗅觉的攻击和效果。你的攻击不会对目标造成伤害，目标也对你的法术和其他效果免疫。你和目标可以间接影响对方，例如来自仆从的打击或受到织维巫师量子场域影响的环境。当此法术结束时，目标会在24小时内对主观现实免疫。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.4P2rPLVKjSpUbOWI]</p>"
     },
     "DPP4TW5FxE85XPKZ": {
-      "name": "X光视域",
+      "name": "X光视域 X-Ray Vision",
       "description": "<p>你激活透视能力，可看穿60尺内大多数材质与墙体。你的视线会被2尺厚的木材或塑料，1尺厚的岩石，2寸厚的普通金属或者任意厚度的铅或星金阻隔，并且你的视野为黑白的。</p>"
     },
     "DZOjyZBZUrzkw5q2": {
-      "name": "元素新星",
+      "name": "元素新星 Elemental Nova",
       "description": "<p>一阵咆哮的元素能量在目标周围爆发。选择一个元素特征：气、土、火、金、水或木。元素新星获得你选择的特征。元素新星造成基于所选特征的11d6伤害：气为电击或音波，土为钝击或穿刺，金为酸蚀或挥砍，火为火焰，水为寒冷，木为毒素。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
     },
     "EhN3GjdjXChMdiFk": {
-      "name": "分担痛苦",
+      "name": "分担痛苦 Share Pain",
       "description": "<p>你以心灵感应的方式与一个生物分享痛苦的感觉。目标受到3d12精神伤害，并尝试意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全额伤害，并且@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}，持续1分钟。</p>\n<p><strong>大失败</strong>该生物受到全额伤害，并且@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}，持续1分钟。</p><hr /><p><strong>升阶（6环）</strong>该法术最多可瞄准四个生物，并造成6d12心灵伤害。</p>"
     },
     "FEaM1B4WuiqFO7Uk": {
-      "name": "诡枪术",
+      "name": "诡枪术 Eldritch Lance",
       "description": "<p>你自星辰之间的幽深领域凝聚一束袭魂慑魄的怪异能量攻击目标。尝试一次远程法术攻击骰对抗目标的AC，如果命中，你造成2d6心灵伤害，在大成功时造成双倍伤害。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6。</p>"
     },
     "FIM54CSlkvBwwzdA": {
-      "name": "计算机启蒙术",
+      "name": "计算机启蒙术 Awaken Computer",
       "description": "<p>你赋予目标智能，将其转变为一个拥有自由意志、具有科技特征的生物。如果目标先前是仆从，它便无法再充当仆从。该生物摆脱此前接受的一切命令或编程。你可以通过献上数字媒体而非通用聚合物来创造虚拟生物。</p><hr /><p><strong>大成功</strong>目标的智力、感知和魅力调整值若低于+2，就各自提升至+2；它因你的启蒙而对你持乐于帮助态度。</p>\n<p><strong>成功</strong>目标的智力、感知和魅力调整值若低于+0，就各自提升至+0；它因你的启蒙而对你持友善态度。</p>\n<p><strong>失败</strong>你未能启蒙目标。</p>\n<p><strong>大失败</strong>你意外启蒙了目标，却使其对你产生了纯粹的杀戮仇恨。目标的智力、感知和魅力调整值若低于–2，就各自提升至–2。它对你持敌对态度，并试图摧毁你。</p>"
     },
     "FIW0VpGULprL2u8J": {
-      "name": "虚能之种",
+      "name": "虚能之种 Void Seed",
       "description": "<p>你在生物体内种下一颗熵增种子。目标获得虚能治疗能力。如果目标会被一个具有治疗特征的非虚能效果治疗，其改为受到伤害。非自愿生物可以尝试一次意志豁免来避免此效果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.ikNI8DM5DRa1k4G3]</p><hr /><p><strong>升阶（5环）</strong>你可以指定至多六个活物为目标。</p>"
     },
     "Fa1f7VtZitQYrArX": {
-      "name": "战斗奏鸣曲",
+      "name": "战斗奏鸣曲 Battle Sonata",
       "description": "<p>此法术最初由普洛尼斯的趴爪族战斗歌手编曲，用于将不和谐的歌声放大为致命的音波，造成4d10音波伤害。每个生物都必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全额伤害并@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]1回合。</p>\n<p><strong>大失败</strong>该生物受到双倍伤害，耳聋1分钟，并@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加 1d10。</p>"
     },
     "FfkyvwVrY3sx9NOQ": {
-      "name": "增幅易伤",
+      "name": "增幅易伤 Amplify Vulnerability",
       "description": "<p>你骇入支配目标周围环境的基本魔法规则，并找到一个可利用的小弱点。目标必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物获得对法术伤害的弱点3，且此法术在该生物第一次受到法术伤害时结束。</p>\n<p><strong>失败</strong>同成功，但该生物第一次受到法术伤害时法术不结束。</p>\n<p><strong>大失败</strong>该生物获得对法术伤害的弱点6。</p><hr /><p><strong>升阶（+1）</strong>弱点增加1（大失败时增加2）。</p>"
     },
     "GB1RVtoFPwyH1B9G": {
-      "name": "腐蚀转化",
+      "name": "腐蚀转化 Caustic Conversion",
       "description": "<p>你发射出一股魔法纳米粒子，开始溶解你的目标。对目标进行远程法术攻击检定。命中时，你会造成3d8酸蚀伤害加1d6持续酸蚀伤害。如果大成功，初始伤害加倍，但持续伤害不加倍。</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加2d8，持续酸蚀伤害增加1d6。</p>"
     },
     "GdlG9a4o0ax0F2HT": {
-      "name": "时间尖锋",
+      "name": "时间尖锋 Time's Edge",
       "description": "<p>你将时间维度上的巨大能量折射入当前位面，化为巨大的刀锋。刀锋对区域内所有生物造成5d6挥砍伤害，这表示刀锋令其身体的一小部分迅速流逝时间。该区域内的生物必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全部伤害并且陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p>\n<p><strong>大失败</strong>目标受到两倍伤害并且陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 2}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
     },
     "GmeI009NbLbR6sR5": {
-      "name": "强化躯体",
+      "name": "强化躯体 Enhance Body",
       "description": "<p>你将魔力注入目标体内。它所有的无武装攻击获得追踪+1特征，并且武器伤害骰增加到2个。</p><hr /><p><strong>升阶（6环）</strong>它所有的无武装攻击获得追踪+2特征，并且武器伤害骰增加到3个。</p>\n<p><strong>升阶（9环）</strong>它所有的无武装攻击获得追踪+3特征，并且武器伤害骰增加到4个。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.oGUuRPGJHouppf8V]</p>"
     },
     "H0WECXb2wvTHT9yk": {
-      "name": "时间子弹",
+      "name": "时间子弹 Temporal Bullets",
       "description": "<p><strong>触发</strong>你用武器的攻击检定失败（但非大失败）。</p><hr /><p>你可以倒退时间并调整概率，以确保刚刚失误的攻击仍能对目标造成伤害。你进行一次伤害骰，就像你用打击命中了目标，但目标只受到一半的伤害。你之后会临时免疫时间子弹10分钟。</p>"
     },
     "HAaRcHfN4g83eSEC": {
-      "name": "石塑形体",
+      "name": "石塑形体 Cairn Form",
       "description": "<p>你目标的肌肤化为坚固的石头甲壳，赋予对物理伤害的5点抗力，精金除外。目标获得拳头无武装攻击，造成2d6点钝击伤害。目标为此使用其最高的武器或无武装攻击熟练度，并且如果其具有武器专精或高等武器专精，其也可以应用此额外伤害。在使用此无武装攻击重击时，被重击生物必须成功通过一次强韧豁免，对抗目标的职业DC，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}，持续1轮。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.v724q5Xi7KPPnLQ3]</p><hr /><p><strong>升阶（6环）</strong>抗力提升至10，无武装攻击造成的伤害提升至3d6。</p>\n<p><strong>升阶（10环）</strong>抗力提升至20，无武装攻击造成的伤害提升至4d6。</p>"
     },
     "HPHr5aoLMH4eVwaw": {
-      "name": "灵魂激涌",
+      "name": "灵魂激涌 Soul Surge",
       "description": "<p>你将生命力凝聚为一支能量长矛。你失去6点生命值，或者如果你和一个至少有12点生命值的活力网络建立纽带，则可以从活力网络中扣除12点生命值。尝试一次远程法术攻击对抗目标AC。在命中时，你造成6d6精魂伤害。如果重击，目标受到双倍伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 1}。</p><hr /><p><strong>升阶（+1）</strong>造成的伤害增加2d6，损失的生命值增加2（如果你花费的是命能网络中的生命值，则增加4）。</p>"
     },
     "HzFdtjvRCFpb0NrS": {
-      "name": "时间回锁",
+      "name": "时间回锁 Time Loop",
       "description": "<p>你将一名生物困在创造出的时间循环中。目标会看见并对循环的事件作出反应，基于一次意志豁免的结果。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。</p>\n<p><strong>失败</strong>目标@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 2}</p>\n<p><strong>大失败</strong>目标@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 3}并且陷入持续1分钟的@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}。</p>"
     },
     "ITzIb93GBvyX8UbJ": {
-      "name": "口袋真空",
+      "name": "口袋真空 Pocket Vacuum",
       "description": "<p>你会突然制造出真空状态，迫使周围的生物屏住呼吸，否则就会@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]并开始窒息。施法时或在法术持续时间内进入该区域的生物都会受到突然减压造成的5d12钝击伤害（除非他们原本就处于真空状态），这需要一次基础强韧豁免。豁免大失败的生物会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]。</p><hr /><p><strong>升阶 （+1） </strong>伤害增加1d12。</p>"
     },
     "Ii8adgcCejAovsNv": {
-      "name": "混音",
+      "name": "混音 Remix",
       "description": "<p>你将天体之歌混音成一段动感的舞曲节拍。目标获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]，且可以使用此额外动作进行交互、行走或快步。</p><hr /><p><strong>升阶（7环）</strong>你能够以至多6个纽带中的生物为目标。</p>"
     },
     "Is46i6efWR9TqF3e": {
-      "name": "超充能侍卫",
+      "name": "超充能侍卫 Supercharge Satellite",
       "description": "<p>你向目标注入魔法能量以增强其处理能力。目标获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]状态，且每轮只能使用此额外动作进行行走或打击。</p>"
     },
     "J3zMwmhIVgI2yzxm": {
-      "name": "呼召宇宙",
+      "name": "呼召宇宙 Call Cosmos",
       "description": "<p>你探入虚空并召来一片危险的宇宙物质，其在一个垂直圆柱内摧毁其中生物，并将地形化为星尘漩涡。这种物质由燃烧的恒星或冰冻的彗星组成，对施法时区域内的所有生物造成5d12火焰伤害和5d12寒冷伤害。在法术持续期间内，宇宙物质降低了能见度和机动性，使该区域内变为高等困难地形并且让该区域内或者透过其的所有事物获得@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p><hr /><p><strong>升阶（10环）</strong>寒冷伤害和火焰伤害各增加2d12。</p>"
     },
     "J9IWyHhvdtMVBjqg": {
-      "name": "致命生机",
+      "name": "致命生机 Deadly Vitality",
       "description": "<p>你跨越宇宙的丝缕，扼住可能流入生物体内的生命之根，诅咒他为恢复的每一丝生机都需承受痛苦。当目标生物处于该法术效果下接受任何形式的治疗时，其后续将承受<em>致命生机</em>造成的伤害，可能抵消他刚刚获得的治疗效果。此伤害取决于生物在法术初始施放时进行的豁免检定结果。</p><hr /><p><strong>大成功</strong>生物不受影响。</p>\n<p><strong>成功</strong>生物受到等同于刚接受的治疗量一半（向下取整）的虚能伤害，至多到5点伤害。</p>\n<p><strong>失败</strong>生物受到等同于刚接受的治疗量的虚能伤害，至多到10点伤害。</p>\n<p><strong>大失败</strong>生物受到等同于刚接受的治疗量的虚能伤害，至多到20点伤害。</p><hr /><p><strong>升阶（+2）</strong>此法术成功时造成的伤害值增加5点，失败时增加10点，大失败时增加20点。</p>"
     },
     "JIAIyvj4PV84tnFk": {
-      "name": "冻寒凝视",
+      "name": "冻寒凝视 Chill Gaze",
       "description": "<p>随着你的双眼化作冰蓝之色，区域温度骤降。你那冰冷而坚毅的凝视令敌人周身寒气凝结，使其行动迟滞。当你施放冻寒凝视时，选择笨拙或力竭。你的敌人基于其豁免检定结果，根据你的选择承受效果。</p><hr /><p><strong>成功</strong>生物不受影响。</p>\n<p><strong>失败</strong>生物在法术持续时间内陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}（根据你的选择）。</p>\n<p><strong>大失败</strong>同失败，但目标为@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}或@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}。</p><hr /><p><strong>升阶（4环）</strong>你能够以至多5个生物为目标。</p>\n<p><strong>升阶（7环）</strong>你能够以至多10个生物为目标。</p>"
     },
     "KOkGLXwOBAIlczzk": {
-      "name": "曲织或然",
+      "name": "曲织或然 Warp Probability",
       "description": "<p><strong>触发</strong>你在一次攻击检定或者豁免骰中失败。</p><hr /><p>你展开思维来阅读多元宇宙中的潜藏可能。重骰失败的检定并使用其中较高的结果。</p>"
     },
     "KlJEDmAOk1ztdNFf": {
-      "name": "召唤机器人",
+      "name": "召唤机器人 Summon Robot",
       "description": "<p>你可以召唤一个拥有科技特征并且等级为-1的常见生物为你而战。</p><hr /><p><strong>升阶</strong>如@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.8gcp880pEWZ9VPnF]{召唤}特征所述。</p>"
     },
     "L6Gww2b2YVM3q0ZQ": {
-      "name": "选择性隐形",
+      "name": "选择性隐形 Selective Invisibility",
       "description": "<p>一个你接触的自愿生物对除射程内第二目标以外的人@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]。如果隐形生物对目标以外的任何人使用敌对行动，该敌对行动结束后，法术也随之结束。</p><hr /><p><strong>升阶（5环）</strong>你可以让30尺内最多6个自愿生物隐形，但他们的目标必须是同一人。</p>"
     },
     "LwNwSSgQVbF00h7d": {
-      "name": "拼凑超压",
+      "name": "拼凑超压 Jury-Rigged Turbocharge",
       "description": "<p>你使用魔法加速和并行化你的思维过程，骇入并增强你盟友科技系统的内部运作。当你施放此法术，以及随后每轮你第一次维持它时，目标获得以下增益之一（由其选择，如果目标为无心智或仆从则由你选择），持续1轮。</p><ul><li><p>目标的速度获得+10尺状态加值。</p></li><li><p>目标的攻击掷骰获得+1状态加值。</p></li><li><p>目标的技能检定获得+1状态加值。</p></li><li><p>目标的AC和豁免获得+1状态加值。</p></li></ul><hr /><p><strong>升阶（+2）</strong>你可以额外以一个生物为目标。</p>"
     },
     "MTulATAiOZfZNQ9d": {
-      "name": "生命再延",
+      "name": "生命再延 Vital Rebirth",
       "description": "<p><strong>触发</strong> 1个射程内的纽带中的生物将要死亡</p><hr /><p>你的网络在一位建立联结的生物的灵魂离去前将其捕获，并以一阵能量强行复苏其肉体。你阻止目标死亡，并对触发的盟友使用@UUID[Compendium.sf2e-anachronism.actions.Item.UeMHbnnaXDa3sGfG]。目标在24小时内对<em>生命再延</em>免疫。<em>生命再延</em>在触发效果为@UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{解离术}、@UUID[Compendium.sf2e-anachronism.spells.Item.xS4bqHnbodCwjpqI]或死亡效果时不会生效。你必须在命能网络中拥有至少1点生命值，才能施放此法术。</p>"
     },
     "MfsxPjshwZJZuNpN": {
-      "name": "辐射术",
+      "name": "辐射术 Irradiate",
       "description": "<p>你使周围的原子迅速失稳衰变，产生一阵由魔法增强的轻度辐射爆发。区域内的生物必须对轻度辐射病尝试一次强韧豁免。这种魔法辐射以你的法术DC代替通常的辐射强韧DC，立即发作，且每个阶段之间的间隔为1轮。具有科技特征的事物不会因这个法术产生的辐射获得故障状态。</p><hr /><p><strong>升阶（5 环）</strong>辐射增至严重。</p>\n<p><strong>升阶（7 环）</strong>辐射增至极度。</p>\n<p><strong>升阶（9 环）</strong>辐射增至严酷。</p>"
     },
     "N1Xgt2NVCjCOUyhC": {
-      "name": "黑帽诡计",
+      "name": "黑帽诡计 Black Hat Trick",
       "description": "<p>你利用植入科技系统中的漏洞，然后命令该生物执行你选择的以下一项：朝你选择的方向行走，以带有-4状态减值对你选择的一个生物尝试一次打击，或丢弃其持用的一件武器。目标必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标在法术持续期间内不能延迟或使用任何反应动作。减少1点目标的故障值。</p>\n<p><strong>失败</strong>同成功，但目标必须花费其回合的第一个动作来服从你的命令。</p>\n<p><strong>大失败</strong>同失败，但目标的故障值不减少。</p><hr /><p><strong>升阶（+2）</strong>你可以额外以一个生物为目标。</p>"
     },
     "Nf6GqoHkNbfWJDQT": {
-      "name": "计算机交谈",
+      "name": "计算机交谈 Speak with Computers",
       "description": "<p>你可以向居住在电脑中的精魂提问，并从他们那里得到答案。这些合成灵魂会在计算机代码中显现，通常会因设备的性质、状态、应用和个性化设置而具有不同的个性。计算机的视角、感官和知识使它的世界观与人类的世界观大相径庭，以至于它认为某些细节并不重要。计算机能回答的大多数问题都与过去曾与它们互动的生物有关，还有它们的文件中隐藏的信息。</p><hr /><p><strong>升阶（6环）</strong>持续时间8小时。</p>"
     },
     "NkvRoN33RbDg3fl9": {
-      "name": "分析目标",
+      "name": "分析目标 Analyze Target",
       "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
     },
     "OudLZtxmg6gI1UEL": {
-      "name": "念动绞扼",
+      "name": "念动绞扼 Telekinetic Strangulation",
       "description": "<p>你以念动力如钳子般紧紧扼住一个生物的咽喉或类似的要害，将其强行提起离地数寸，使其挣扎着呼吸。尝试一次远程法术攻击对抗目标的AC，在命中时，你造成6d12钝击伤害，并且目标被@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]。当以这种方式被禁足时，目标需要屏住呼吸，否则便会开始窒息。当你每轮第一次维持该法术时，目标都会再受到1d12钝击伤害并保持禁足，并需要继续屏住呼吸。目标可以尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]（逃脱DC为你的法术DC，并且逃脱的尝试会受到失能特征的影响）。</p>"
     },
     "QiW8VNdBf0SFUq69": {
-      "name": "刺激细胞",
+      "name": "刺激细胞 Cellular Stimulant",
       "description": "<p>你从细胞层面激发目标的活力，使其获得短暂的能量爆发，但不幸的是，这将使其精疲力竭。目标获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]状态，并可以使用额外的行动行走或打击。该轮结束后，目标会变得@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]，直到休息10分钟。</p><hr /><p><strong>升阶（6环）</strong>你可以使用2动作施放此法术，最多同时以6个生物为目标。</p>"
     },
     "QpP30fcEl4NGjHwo": {
-      "name": "音波尖啸",
+      "name": "音波尖啸 Sonic Scream",
       "description": "<p>你发出一声宣泄性的痛苦尖啸，释放锥形的振动波，对区域内的生物造成1d8音波伤害，这具有基础强韧豁免。豁免失败的生物获得@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d8</p>"
     },
     "RDvWFbAaXtxrhJMD": {
-      "name": "迅时术",
+      "name": "迅时术 Accelerate",
       "description": "<p>你加快了自身的时间线和宇宙其他部分的关联。你获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]状态，只能使用额外动作来打击，行走或者快步。</p>"
     },
     "SbBqa1HStMrV47fb": {
-      "name": "超载武器",
+      "name": "超载武器 Supercharge Weapon",
       "description": "<p>你吸取并凝聚周围的魔法能量，为武器提供能量。使用该武器进行的下一次打击将被强化。这次攻击会额外造成1d6伤害，伤害类型与武器的正常伤害类型相同。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.zzOekbiIKePQDQKy]</p><hr /><p><strong>升阶（+2）</strong>额外伤害增加1d6。</p>"
     },
     "ShwUELLERVMtdjwE": {
-      "name": "生命容器",
+      "name": "生命容器 Life Seal",
       "description": "<p><strong>触发</strong>射程内的生物进入对其有害的环境。</p>\n<p>一个闪亮的气泡包裹目标的身体，让它在真空或其他不安全的环境中正常呼吸，并保护它免受严重（severe）温度和辐射的伤害。</p><hr /><p><strong>升阶（7环）</strong>你可指定最多5个额外生物为目标，使其获得针对触发生物所处环境的防护效果。法术持续8小时，并且可以抵御极端（extreme ）温度和辐射。</p>\n<p><strong>升阶（10环）</strong>你可指定最多10个额外生物为目标，使其获得针对触发生物所处环境的防护效果。法术持续到你下次日常准备，并能抵御严酷（incredible ）温度和辐射。</p>"
     },
     "Sqo1uzSmebVWpqoT": {
-      "name": "微灵盟友",
+      "name": "微灵盟友 Wisp Ally",
       "description": "<p>你召唤一只小小的活跃微灵，能够分散意志最坚定的战斗人员的注意。微灵在你目标周围悬浮游弋。微灵没有占据空间，不会提供夹击，也没有其他生物会具有的属性。微灵能在10尺半径内产生明亮光照。当你施放该法术以及每次你维持该法术时，微灵试图分散目标的注意力。该目标必须通过意志豁免，否则在你下一回合开始前将陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]。豁免大成功的生物将对微灵盟友临时免疫1小时。</p><hr /><p><strong>升阶（+1）</strong>你在施法时创造出额外一只微灵，这允许你选择一个额外目标。你创造的每个微灵都必须有不同的目标，并且当你维持该法术时，它们会同时分散各自目标的注意力。</p>"
     },
     "TAbOBvFU8dLzKiWw": {
-      "name": "遗忘术",
+      "name": "遗忘术 Forget",
       "description": "<p>你迫使生物暂时忘却目标。目标处在你量子场域内期间@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]，而对目标的所有记忆会被暂时抹除或改写。这会使其对所有生物@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]。</p>\n<p>一名敌人第一次尝试定位目标（比如通过@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]）或使用@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]来回忆关于目标的信息时，其会由于处理丢失信息而头痛受到8d8心灵伤害，这具有一次基础意志豁免。在大失败时，其还会@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]1轮。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d8。</p>"
     },
     "TN2pHF9l3k4ZJ7di": {
-      "name": "曲织地形",
+      "name": "曲织地形 Warp Terrain",
       "description": "<p>你自另一现实中具现覆写量子场域中的地形特征。从以下效果中选择一项，只要你的量子场域保持激活，它就会一直持续，直到你再次施放<em>曲织地形</em>或者将其解消：</p><ul><li>你使量子场域中变为困难地形。你可以决定曲织地形的外观。你和你的盟友可以正常通过曲织地形，并可以利用其地形特征来@UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]</li><li>你抚平场域中的地形，将其中存在的任何困难地形或高等困难地形变为普通地形。这不适用于那些令一个生物将方格视为困难地形的效果（例如恒星武士的引力子调谐攻击）。如果你试图抚平由法术制造的地形或其他魔法效果，你必须成功反制这些效果。</li></ul><hr /><p><strong>升阶（3环）</strong>你可以选择令量子场域中填满雾气、烟尘或其他阻碍视觉的现象。这一效果等同@UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]。你也可以转而尝试反制量子场域中的一个类似效果。</p>\n<p><strong>升阶（6环）</strong>你可以选择让量子场域变为高等困难地形而非困难地形。</p>"
     },
     "UnWaP06SVi3jRN0M": {
-      "name": "原子能爆破",
+      "name": "原子能爆破 Atomic Blast",
       "description": "<p>你用魔法分裂一个原子，制造一场带有放射性尘埃的爆炸。区域内的所有生物都会受到5d12钝击伤害和5d12火焰伤害，并暴露于极端辐射环境下，该辐射会导致辐射病，使用你的法术DC作为染上此辐射病的@Check[fortitude]{强韧DC}。这种魔法辐射的潜伏期和频率为1轮，该区域在10分钟内持续辐射。</p><hr /><p><strong>大成功</strong>目标不受初始伤害影响。</p>\n<p><strong>成功</strong>目标受到一半伤害并@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]1分钟。</p>\n<p><strong>失败</strong>目标受到全额伤害并@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]1分钟。</p>\n<p><strong>大失败</strong>同失败，目标受到双倍伤害。</p>"
     },
     "V1cojmrEOWkJ1yPF": {
-      "name": "焕发光彩",
+      "name": "焕发光彩 Glow Up",
       "description": "<p>你制造一种幻象，使目标在观察者面前显得更加迷人和优雅。该法术会根据观察者认为吸引人的地方来突出目标的外表、衣着、声音和举止。手持物品不受影响，从生物身上取下的任何穿戴物品都会恢复原貌。</p>\n<p>目标在进行@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]的交涉检定中获得+1状态加值，如果目标未受训，则可以在进行交涉检定时加上其等级。此外，目标还可以只花10分钟尝试交涉检定进行收集信息。你可以解消此法术。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.hOp5ybOzyJlECU6B]</p><hr /><p><strong>升阶（+2）</strong>加值提升1，最多在7环时提升至+4。</p>"
     },
     "VIKDSgBRR3Wd1mQx": {
-      "name": "末日刷屏",
+      "name": "末日刷屏 Doom Scroll",
       "description": "<p>你可以用魔法在附近的设备、全息投影仪、屏幕和其他显示器（包括护甲上的通讯单元）上播报可怕的消息。区域内能看到一个或多个显示屏的生物必须尝试意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物因显示内容@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]。</p>\n<p><strong>失败</strong>该生物因显示内迷魂并@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}（即使迷魂结束）。</p>\n<p><strong>大失败</strong>该生物因显示内迷魂，@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 3}，并且@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭 Doomed 1}（即使迷魂结束）。</p>"
     },
     "VmtQlZqeraTv0Eer": {
-      "name": "天火之翼",
+      "name": "天火之翼 Skyfire Wings",
       "description": "<p>等离子体之翼从你的身体中长出，推动你在敌人头顶翱翔，烧灼过于靠近的敌人。你获得飞行速度，等于你的速度或20尺，以较大者为准。你的双臂（或主要的双手）会变成翅膀，无法手持物品或持用武器。你会丢弃手持的任何装备。你会获得翼击无武装攻击，造成1d8火焰伤害，并具有回摆、长触及和无武装特征。如果重击，翼击目标会受到2点持续电击伤害。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.kT8REROKKaXF2QK1]{法术效果：天火之翼（3环）}</p><hr /><p><strong>升阶（5环）</strong>你的翼击会造成2d8火焰伤害和重击时4持续电击伤害。持续时间延长至5分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.IHIQ7PcirTwjJQev]{法术效果：天火之翼（5环）}</p>\n<p><strong>升阶（7环）</strong>你的翼击会造成3d8火焰伤害和重击时6持续电击伤害。持续时间延长至1小时。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.9DZ8819QPDnxcnFw]{法术效果：天火之翼（7环）}</p>\n<p><strong>升阶（9环）</strong>你的翼击会造成4d8火焰伤害和重击时8持续电击伤害。持续时间延长至8小时。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.sElqtOTF8X0LUcnZ]{法术效果：天火之翼（9环）}</p>"
     },
     "VynaowCerc7B4yvI": {
-      "name": "阿卡西下载",
+      "name": "阿卡西下载 Akashic Download",
       "description": "<p>你通过灵能搜索阿卡西记录，获取特定主题的信息，并将数据魔法传输至通讯单元或计算机。施放此法术时，选择任何你至少为受训熟练度且能进行@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]动作的技能。</p>\n<p>在持续时间内的任何时候，你都可以在使用所选技能进行回忆知识检定时查询通讯单元。该检定会获得+1状态加值。检查通讯单元是回忆知识动作的一部分。你必须手持通讯单元才能这样做。通讯单元会立即编译并显示与主题相关的各种媒体片段和精选内容，从而为你带来加值。如果你在检定中掷出大失败，改为失败。如果检定成功，且对象是生物，你将获得有关该生物的额外信息或内容。一旦你查询了通讯单元的信息，法术就会结束。当法术结束时，你对阿卡西记录的访问也会结束，你下载的所有信息都会返回阿卡西记录。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.h1i8c47U0IOrMrHJ]</p><hr /><p><strong>升阶（3环）</strong>法术结束前可以用通讯单元查询信息3次。</p>"
     },
     "WWkRdbzGnP8nVKIv": {
-      "name": "超充能棱镜",
+      "name": "超充能棱镜 Supercharge Prism",
       "description": "<p>你通过你在空中绘制的科技符文，将一把用过的法术宝石碎片向前抛出，将它们转化为原始魔法能量，并将该能量以光束形式向前射出。区域内的盟友获得6d6临时生命值，持续1分钟。区域内的敌人受到6d6力场伤害，且必须尝试一次反射豁免。如果一个生物因其豁免结果而被移动，你决定他是被直线推离你还是被直线拉向你。</p><hr /><p><strong>大成功</strong>生物不受影响。</p>\n<p><strong>成功</strong>生物受到一半伤害，且被移动5尺。</p>\n<p><strong>失败</strong>生物受到全额伤害，且被移动10尺。</p>\n<p><strong>大失败</strong>生物受到双倍伤害，且被移动15尺。</p><hr /><p><strong>升阶（+1）</strong>临时生命值和力场伤害均增加1d6。</p>"
     },
     "Ws85nL9EIkPV07CX": {
-      "name": "联结充能",
+      "name": "联结充能 Bonding Charge",
       "description": "<p><strong>区域</strong>长度可变的线形</p>\n<p>你为自身与科技仆从之间的联结超充能，调整信号，直到它以实体承载你的魔力与仆从的电力，迸发出电光。你进行行走，然后沿自身与仆从之间的直线放出一道电流。如果你与科技仆从之间没有效果线，或移动结束时距离仆从超过120尺，此法术失败。线形区域内的其他每个生物受到3d12电击伤害（基础反射豁免）。</p><hr /><p><strong>升阶（+2）</strong>伤害增加1d12。</p>"
     },
     "XhypWjpV3NP76ahy": {
-      "name": "扭曲视觉",
+      "name": "扭曲视觉 Twisted Vision",
       "description": "<p>你模糊生物的感官，使其在激战中无法辨认己方盟友。此法术由尸骸舰队研发，专用于针对活着的秘术师与使节——这些存在可能为对抗其恐怖舰队的活体敌人提供治疗或协调行动。法术对目标的削弱程度取决于其豁免骰结果。</p><hr /><p><strong>大成功</strong>生物不受影响。</p>\n<p><strong>成功</strong>生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]直到其下个回合结束，但仅限于其以其盟友为目标使用的增益效果或能力。</p>\n<p><strong>失败</strong>生物以其盟友为目标使用的增益效果，能力，或战术移动时，会将其所有盟友视作无踪。如果该生物在@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]动作中成功对抗此法术的豁免DC，那么在法术持续期间他可以将盟友视作藏匿。</p>\n<p><strong>大失败</strong>同失败，但该生物在法术维持期间内不能尝试使用搜索动作来找到盟友。</p>"
     },
     "XoYUZP9OYdDMz4I0": {
-      "name": "平行形态",
+      "name": "平行形态 Parallel Forms",
       "description": "<p>你将自身分裂为两个有着不同命运的版本。每个版本的你都行走离开当前位置，随后使用一个单动作。如果这一单动作都为打击，其必须指定不同的生物为目标，并使用相同的多重攻击减值，在计算多重攻击减值时，它们视为一次攻击。\n你维持该法术的每一轮，你的两个平行形态都会共享动作并应用相同的加值和减值，包括多重攻击减值。它们任一受到的伤害都会作用于你当前的生命值，但如果两个都在同一个效果中受到伤害例如被攻击或者具有区域伤害的法术，你只会应用一次伤害。如果一个需要豁免的效果同时影响两个平行形态，你需要取它们中较差的结果并应用在两个形态上。当该法术结束时，你选择两个平行形态其一作为你的真实形态，而另一形态则会消失。该法术会在你的生命值减少到0时自动结束。</p><hr /><p><strong>升阶（8环）</strong>你的平行形态们处于@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]状态，并可以使用额外动作来快步、行走或打击。</p>"
     },
     "Y3egStSTzL8k86qc": {
-      "name": "魅影舰队",
+      "name": "魅影舰队 Phantasmal Fleet",
       "description": "<p>该区域内的每只生物脑海中都会浮现出敌对星舰舰队的可怕景象。这些飞船看起来就在头顶上 1,000 英尺处，会用激光炮火轰击地面。该幻象会造成10d8心灵伤害，需要进行基础意志豁免。如果大失败，目标会认为自己被追击，并移动躲避。他必须在每个回合都花费一个动作@UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]，这意味着他必须使用第一个动作移动到一个新空间或执行趴下（Drop Prone）动作。他可以在每个回合结束时尝试新的意志豁免，如果成功，目标就会识破幻象，并停止逃跑或畏缩。</p>"
     },
     "Y8Y0LS6sh4pkxPsq": {
-      "name": "诡秘纽带",
+      "name": "诡秘纽带 Eldritch Bond",
       "description": "<p>你从已知宇宙边缘之外汲取神秘的力量，将一个诡异生物的精粹灌注进一名纽带中的生物。你可以赋予目标至多两种以下能力：</p><ul><li>黑暗视觉</li><li>等同于生物等级一半的心灵抗力（最小1点）。</li><li>一种触须无武装攻击，造成1d8钝击伤害。</li><li>一种刺针无武装攻击，造成1d6酸蚀伤害，具有灵巧特征和娴熟特征。</li><li>一种射线远程无武装攻击，具有40尺射程增量，造成1d6心灵伤害。</li><li>所有近战攻击获得10尺触及（包括上述攻击）</li><li>近战打击（包括上述那些）对虚体生物生效，如同它们具有@UUID[Compendium.sf2e-anachronism.equipment.Item.TgJMTB1ub5Eh4xJO]强化。</li></ul><p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.cGBjkNm9P7Ra09rp]</p><hr /><p><strong>升阶（3环）</strong>攻击造成的伤害增加到2个伤害骰。</p>\n<p><strong>升阶（5环）</strong>目标数量增加至5个目标。攻击造成的伤害增加到2个伤害骰。</p>\n<p><strong>升阶（6环）</strong>目标数量增加至5个目标。攻击造成的伤害增加到3个伤害骰。</p>\n<p><strong>升阶（9环）</strong>目标数量增加至5个目标。攻击造成的伤害增加到4个伤害骰。</p>"
     },
     "YAa1StmuYC2QQ043": {
-      "name": "实在抹除",
+      "name": "实在抹除 Reality Wipe",
       "description": "<p>你重置量子场域中的现实，清除数据区域。该区域内的所有书面信息和计算机数据均会受到@UUID[Compendium.sf2e-anachronism.spells.Item.yXD9uU8w8uFD2OBQ]的效果。并且你会尝试反制区域或目标处在量子场域内的所有法术，如同@UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]。如果反制成功，这只会阻止处在量子场域内的部分法术（如果法术有在量子场域之外的目标，或者其区域的部分在量子场域之外，那些目标或者那部分区域仍然正常生效）。</p>\n<p>量子场域内的生物还会受到10d6精魂伤害（基础意志豁免）。豁免大失败的生物会陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2}，持续1分钟。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
     },
     "ZBeKxBcUOsXrfMRo": {
-      "name": "植入数据",
+      "name": "植入数据 Implant Data",
       "description": "<p>你重新编程一台计算机或设备，使其在被访问时显示一条选定的数据。你每个法术环级至多可以植入一条数据。一条数据可以是一项简单事实，例如某个生物或物体的位置或外貌描述；一幅生物或物体的图像；或一句不超过300个字符的简单陈述。目标计算机或设备被访问时，访问者首先获得的总是这条植入数据，无论该生物在寻找什么数据。植入数据不会阻止生物访问设备储存的其他信息，不会改变设备的运作方式，也不会以其他方式妨碍其运作。如果法术持续时间在生物访问植入数据前结束，这些信息便消失。</p><hr /><p><strong>升阶（3环）</strong>持续时间为一年。</p>\n<p><strong>升阶（6环）</strong>持续时间为无限。</p>"
     },
     "ZhQWnQ0500AAtjDb": {
-      "name": "万痛之根",
+      "name": "万痛之根 Root of all Pain",
       "description": "<p>你的手指将一根细小的根须插入目标体内，根须开始生长，并在神经系统中钻来钻去，以侵入扩散的剧痛所引发的电信号为食。目标尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标每轮第一次执行纯粹心灵动作（例如“@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]”或由GM判定的其他心灵类动作）之外的动作时会受到2d8心灵伤害。</p>\n<p><strong>失败</strong>与成功相同，但目标会受到4d8心灵伤害。并且在剩余持续时间内@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}。</p>\n<p><strong>大失败</strong>与成功相同，但目标会受到6d8心灵伤害。并且剩余的持续时间内@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 2}。</p>"
     },
     "ZofLZ5Zs8NN5yDPJ": {
-      "name": "注入纳米机器",
+      "name": "注入纳米机器 Inject Nanobots",
       "description": "<p>你将魔法纳米机器人注入一个生物体内。进行一次近战法术攻击检定。命中时，目标会受到 4d6 酸蚀伤害。如果大成功，纳米机器人会蜂拥穿过目标的生物或机械系统，使该生物受到双倍伤害并@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]1轮。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
     },
     "ZrFj6ktotd0pBnqO": {
-      "name": "归乡梦",
+      "name": "归乡梦 Dream of Home",
       "description": "<p>你汲取生物对家的思念，以及它在这个概念中找到的慰藉，用任何代表家的思念记忆淹没生物。目标必须成功进行意志豁免，否则就会因这些记忆进入@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]。</p>"
     },
     "a02hsymtiVRQvh3i": {
-      "name": "切割现实",
+      "name": "切割现实 Slice Reality",
       "description": "<p>你划破现实，在一条20尺高、120尺长、2英寸厚的直线上形成一道能使生命流失的熵裂隙。裂隙提供掩蔽。裂隙会对在形成时位于其空间内、试图穿过裂隙或在裂隙内结束回合的每个生物造成7d8虚能伤害，具有一次基础反射豁免。如果生物在裂隙形成时豁免成功，则会被推到其选择的一侧最近的空间。试图穿过裂隙的生物如果豁免失败，就会在裂隙旁结束移动。</p><hr /><p><strong>升阶（+1）</strong>伤害增加 1d8。</p>"
     },
     "aPZMapuunaNpxubp": {
-      "name": "播种奇点",
+      "name": "播种奇点 Singularity Seed",
       "description": "<p>一粒质量极其密集的微小粒子在魔法作用下扩展为引力奇点，将生物拉向自身，并在空间上压缩被移入其中的生物。你在一个未被任何生物占据的5尺方格内创造一个奇点。法术施放时，奇点周围@Template[type:emanation|distance:50]内的所有生物和未被固定的物体，根据其反射豁免结果向奇点移动（见下文）。生物和物体从距离奇点最近者开始移动，因此它们可能挡住随后被拉入的其他生物和物体的路径。</p>\n<p>生物的空间可以在包含奇点的方格内重叠。进入奇点或在其中结束其回合的生物或物体受到10d10钝击伤害，无法豁免。在奇点内，生物除了对抗你的法术DC尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱逃}之外，无法采取任何动作。法术结束时，奇点消失，重叠的生物被移至最近的未占用空间，具体由GM决定。</p>\n<p>对于向远离奇点方向移动的生物，弥漫区域内的方格是困难地形；向奇点靠近的生物每花费5尺移动距离，便可移动10尺。</p>\n<p>施放法术时位于区域内，以及在区域内结束其回合的生物，需要尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物被拉向奇点10尺。</p>\n<p><strong>失败</strong>该生物被拉向奇点20尺。</p>\n<p><strong>大失败</strong>该生被拉向奇点30尺。</p>"
     },
     "ahXTkKpQtOTAQOFm": {
-      "name": "强化武器",
+      "name": "强化武器 Enhance Weapon",
       "description": "<p>你将魔力灌注至武器中，使其能安全突破常规运作极限。如果目标是商用型或战术型武器，它变为先进型武器，在攻击骰上获得+1物品价值，并且伤害骰增加到2个。</p><hr /><p><strong>升阶（6环）</strong>如果目标是商用型、战术型、先进型或卓越型武器，它变为菁英型武器，攻击掷骰获得+2物品加值，武器伤害骰数量增加至三个。</p>\n<p><strong>升阶（9环）</strong>目标变为完美型武器，攻击掷骰获得+3物品加值，武器伤害骰数量增加至四个。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.yopd0S7smKU5eB07]</p>"
     },
     "bBQ83xDvjQS3W1CG": {
-      "name": "测量术",
+      "name": "测量术 Measure",
       "description": "<p>你可以了解周围生物和物体的大致尺寸（长度、宽度、深度、高度和重量）。如果物体或生物延伸出了该射程，你只能了解该区域内的测量值，而无法观察到的东西则无法了解。例如，你无法确定只能观察到一面的墙壁的厚度或重量，也无法确定超出法术射程的水深。每次维持法术时，你都会了解该区域内一种生物或物体的精确测量结果，包括可能揭示结构弱点的不精确或异常现象。被魔法改变的目标所提供的信息反映的是你所观察到的情况，而不是精确测量值。</p><hr /><p><strong>升阶（+1）</strong>延展测量距离100尺。</p>"
     },
     "c3pohoiOH2qIhDDp": {
-      "name": "幽冥武器",
+      "name": "幽冥武器 Ghost Killer Weapon",
       "description": "<p>目标武器变得透明而飘忽，并且可以影响物质和虚体生物及物体。它获得幽冥性能符文的效果，这意味着它如果非魔法，会成为魔法的，并对抗虚体生物时尤其有效，并且能被实体或者虚体生物持用。</p>"
     },
     "d1weVZHIiCXhTlqg": {
-      "name": "量子否决",
+      "name": "量子否决 Quantum Negation",
       "description": "<p>你将一个目标暴露在其已经死亡或者根本从未存在过的现实中。一旦成为目标，其便会在此之后临时免疫该法术1分钟。该法术的效果取决于目标的等级。如果该法术将一个16级或更低的生物生命值降低到0，其便不再存在于这个现实中。根据GM的判断，这通常意味着除非神祇、祈愿术或类似力量干预，不可能将目标复活。一个17级或更高的目标则会在被该法术降低到0生命值时立即死亡，而非直接被从现实中抹去。目标尝试一次基础意志豁免。该法术造成伤害没有伤害类型。</p>\n<p><strong>13级或更低</strong>目标受到9999伤害。目标意志豁免的成功度下降一级。</p>\n<p><strong>14级到16级</strong>目标受到25d10伤害。</p>\n<p><strong>17级或更高</strong>目标受到20d10伤害。</p>"
     },
     "d5dmu4HZ3YyrwcaF": {
-      "name": "元素武器",
+      "name": "元素武器 Elemental Weapon",
       "description": "<p>你用元素能量制造出一件进阶、军用或简易武器，并将其实体化于一名纽带中的生物的手中。为制造的武器选择一个元素特征：气、土、火、金、水或木。该武器是一件战术型装备，并且已经完全充能并装填有基础弹药。它不能由任何特殊材料制成。</p>\n<p>该武器有一个次等强化槽位，但可以用你在施放该法术时手中持握的强化模块进行强化，你将强化模块用作法器，这些强化模组在法术结束前变为惰性。武器在造成正常伤害以外，还会额外造成1d4基于所选特征的伤害：气为电击，土为钝击，火为火焰，金为酸蚀，水为寒冷，木为毒素。</p><hr /><p><strong>升阶（2环）</strong>你可以制造先进型武器。</p>\n<p><strong>升阶（5环）</strong>你可以制造卓越型武器。</p>\n<p><strong>升阶（6环）</strong>你可以制造菁英型武器。</p>\n<p><strong>升阶（8环）</strong>你可以制造终极型武器。</p>\n<p><strong>升阶（9环）</strong>你可以制造完美型武器。</p>"
     },
     "d7Mj4nUQe8wg1mV7": {
-      "name": "注命",
+      "name": "注命 Infusion",
       "description": "<p>你为目标的精粹中注入治愈能量。如果目标是自愿生物，你恢复其1d6生命值。目标随后临时免疫10分钟。你施放此法术所花费的动作数量决定了其目标、射程、范围和其他参数。</p>\n<p><span class=\"action-glyph\">1</span>该法术的射程为接触。</p>\n<p><span class=\"action-glyph\">2</span>该法术的射程为30尺。如果你在治疗一个生物，回复的生命值增加6。</p>\n<p><span class=\"action-glyph\">3</span>你治疗@Template[type:emanation|distance:30]内的所有纽带中的生物。</p><hr /><p><strong>升阶（+1）</strong>治疗量增加1d6，双动作版本的额外治疗增加6。</p>"
     },
     "dRP4Imw3RJNQqEgc": {
-      "name": "等离子墙",
+      "name": "等离子墙 Wall of Plasma",
       "description": "<p>你塑造一面由劈啪作响的等离子体形成的墙壁，其会燃烧通过的生物。你创造一条5尺厚，至多60尺长10尺高的直线墙体，或者5尺厚，10尺半径，相同高度的环形墙体。不论哪种形式，墙体都垂直竖立。如果你愿意，墙体可以更短或者更矮。墙体两侧的任何物体对彼此都是@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]的。任何试图穿过墙体或者在墙体占据区域内开始回合的生物受到4d6火焰伤害和2d6持续电击伤害。</p><hr /><p><strong>升阶（+1）</strong>持续电击伤害增加1d6。</p>"
     },
     "dyDIRdq3QmP2QzBR": {
-      "name": "科技沟通",
+      "name": "科技沟通 Commune with Tech",
       "description": "<p>你短暂地在自己的意识与某件科技物品之间建立起神秘联系，从而理解该物品或操控其力量。选择以下任意一种效果。非自愿目标必须尝试一次意志豁免，成功时则可抵消该效果。</p><ul><li><strong>理解科技</strong>你对目标物体或生物获得深刻认知。在接下来一分钟内，你在@UUID[Compendium.sf2e-anachronism.actions.Item.RF8xNJ8QsMwogerB]，使用，操作，解除，辨识，@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]，或其他与目标交互的技能检定上获得+2状态加值。 @UUID[Compendium.sf2e-anachronism.spell-effects.Item.q47pDFylqDY1VYEk]</li><li><strong>断能生物</strong>具有科技特征的生物在豁免失败时陷入故障1，或在大失败时陷入故障2。</li><li><strong>断能物体</strong>如果物体的物品等级至多为你的等级减2，则该物体失去其所有剩余充能。如果物体使用电力供能但不使用充能，其改为失去供能3轮。如果物体的物品等级高于你的等级减2，它改为失去单次充能或失去供能1轮。</li><li><strong>充能物体</strong>如果物体的物品等级至多为你的等级减2，则该物体恢复其所有已消耗的充能。如果物体使用电力供能但不使用充能，其改为获得供能3轮。如果物体的物品等级高于你的等级减2，它改为获得单次充能或获得供能1轮。</li></ul>"
     },
     "eHiWtMiXoI1d48A7": {
-      "name": "全息记忆",
+      "name": "全息记忆 Holographic Memory",
       "description": "<p>你探入目标的心智，提取一段你有所了解的特定记忆，将其投射为全息影像。或者，施放此法术时，你可以选择提取一段由GM决定的随机记忆。全息记忆不能长于5分钟；如果提取的记忆更长，影像便在5分钟处结束。全息影像包含声音与画面，但不含触觉、嗅觉或其他要素。全息影像通常播放发生在单个场景中的记忆，但只要符合记忆且时长允许，也可以切换至多个场景。影像严格按照目标的经历、从目标的视角播放记忆，因此往往缺少上下文。</p>\n<p>此法术可以指定任何智力调整值为–3或更高、仍然活着、@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}或已经死亡的有感知生物为目标。如果目标已死亡，其死亡时间不能超过1周，否则法术失败；一具尸体一旦成为任何施法者的全息记忆目标，此后再对其施放全息记忆都会失败。</p>\n<p>如果目标非自愿分享记忆，其可以尝试一次意志豁免来对抗此法术。</p>"
     },
     "f98vwzcdxafum8ln": {
-      "name": "阿卡西复归",
+      "name": "阿卡西复归 Akashic Revival",
       "description": "<p>你将目标肉体的完美记录送入阿卡西记录（Akashic Record），使其之后能够取回这份记录，并按你施放此法术时的状态重建肉体。记录包括目标当前的生命值、殖装、属性调整值，以及所受的任何苦难或状态。</p>\n<p>如果目标因衰老之外的原因死亡，它可以从阿卡西记录取回记录中的肉体。此过程需要1分钟，之后尸体消失，目标立即以记录中的肉体在尸体所在空间重现，并带着任何穿戴的装备。它以站立姿态重塑；若死亡时掉在该空间的装备仍在那里，它可以选择将其拾起。如果目标无法占据该空间，就会在尽可能靠近的空间出现，但仍须自行取回装备。它保留肉体死亡时的心智，因此不会恢复任何已消耗的法术、聚能点或特殊能力使用次数。死亡时影响目标的所有心灵效果仍会在新肉体上持续。</p>\n<p>从阿卡西记录取回肉体，或法术持续时间结束，都会从阿卡西记录中移除已存储的信息，需要你再次施放此法术。</p>\n<p>施放此法术会替换你此前施法存储的任何记录——你用此法术在阿卡西记录中只能存储一个生物的一份副本。</p>"
     },
     "fRT0T9sbd8zWc1q9": {
-      "name": "钢墙术",
+      "name": "钢墙术 Wall of Steel",
       "description": "<p>你塑造一面固体钢墙。你创造一面4英尺厚，至多120尺长，20尺高的钢铁墙体。你可以塑造墙体的轨迹，将每一段5尺的墙放在方格的边界上。墙不需要垂直竖立，所以你可以用其来形成桥或者阶梯。你必须将墙召唤在连续的开放空间里，其边缘不能穿过任何生物或物体，否则法术便会失败。</p>\n<p>每块10尺见方的墙段具有AC 10、硬度18和60点生命值，并且免疫重击和精准伤害。被摧毁的墙段可以穿过，但它产生的瓦砾属于困难地形。</p><hr /><p><strong>升阶（+1）</strong>每段墙体的生命值增加15。</p>"
     },
     "g58dbrP7FadZhh6j": {
-      "name": "穿时推击",
+      "name": "穿时推击 Chrono Push",
       "description": "<p>你以极大力量推动一名生物穿过战场甚至让其在时间中滑动。尝试一次远程法术攻击，如果命中，你将目标直线向后击退15尺（重击则为30尺）。如果被推动的目标触碰到固体障碍或另一名生物，其便会停下。在其移动结束时，目标会重新回到时间流里并伴随时间能量的爆发。目标和现在邻接目标的生物必须尝试一次基础反射豁免否则便会受到7d8力场伤害。</p><hr /><p><strong>升阶（+1）</strong>力场伤害增加1d8。</p>"
     },
     "g9QLswd5uqDdcCjv": {
-      "name": "嚎叫术",
+      "name": "嚎叫术 Howl",
       "description": "<p>你发出充满强大心灵共鸣的长嚎，迫使听见的其他生物一同嚎叫。你对区域内能听见声音的其他生物造成7d12音波伤害和1d8持续心灵伤害。目标必须尝试一次意志豁免。如果至少有一个其他生物正在嚎叫，生物因本法术受到的持续心灵伤害增加1d8。嚎叫的生物在1轮内不能使用听觉动作或施放法术，但具有晦匿特征的法术除外。在所有生物尝试豁免后计算持续伤害。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害，但不会受到持续心灵伤害。</p>\n<p><strong>失败</strong>目标受到全额伤害和持续伤害，并且只要承受持续心灵伤害就会被迫嚎叫。</p>\n<p><strong>大失败</strong>如同失败，但目标受到双倍直接伤害和双倍持续伤害。</p>"
     },
     "gLOelTMvex2OgBqV": {
-      "name": "重力场",
+      "name": "重力场 Gravity Field",
       "description": "<p>你扭曲宇宙法则，增强一个区域内的重力。区域内所有飞行生物下降40尺。整个区域对飞行生物和攀爬生物来说是高等困难地形，对地面生物来说是困难地形。任何被重力场拉到地面上的生物都会受到钝击伤害，如同坠落一样。</p>\n<p>该区域内的重力增加一级（例如，零重力变为低重力，低重力变为标准重力，标准重力变为高重力，高重力变为极端重力）。</p>"
     },
     "h7IhypLwItepwhou": {
-      "name": "附着术",
+      "name": "附着术 Adhere",
       "description": "<p>你在触碰的一件无人持有的物体（或你正持有的物体），与该物体接触的另一件物体或表面之间建立分子键。要将物体从该表面拉开，需要成功通过一次对抗你法术DC的[[/act force-open]]{运动}检定，以@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{破开}。</p>\n<p>如果你选择接触一个没被占据的五尺方格，则该表面会充满黏附的魔法。该空间将变成高等困难地形。</p>"
     },
     "hk2mTLH9DIvNqDuS": {
-      "name": "绿色代码",
+      "name": "绿色代码 Verdant Code",
       "description": "<p>你使开花的藤蔓或其他植物从一件无人持有的科技物体上长出。植物从目标物体上爆发，填满20尺爆发内的所有方格。每当生物在区域内开始其回合时，它受到2d6穿刺伤害（基础反射豁免）。大失败时，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，持续1轮，或直到其对抗你的法术DC成功脱逃。植物覆盖物体，使生物在法术持续时间内必须成功通过一次@Check[flat|dc:5]，才能实际接触该物体。</p>"
     },
     "ijlB3l9IBnpppfK0": {
-      "name": "逻辑炸弹",
+      "name": "逻辑炸弹 Logic Bomb",
       "description": "<p>你将一个包含大量信息的危害植入目标体内。该危害的隐秘和解除DC与你的法术DC相等，需要一次成功的@Check[computers]才能解除。生物第一次尝试访问、破坏或以其他方式操作目标失败时（例如使用计算机技能、打击未命中或其他），逻辑炸弹会引爆，生物会受到6d6心灵伤害（基础反射豁免）。法术在触发时或持续时间结束时终止，以先到者为准。</p><hr /><p><strong>升阶（+1） </strong>伤害增加 2d6。</p>"
     },
     "j6KI3dFuaYJmMSZh": {
-      "name": "液体虹吸",
+      "name": "液体虹吸 Liquid Siphon",
       "description": "<p>你抽干目标体内的水分，使其像空饮料罐一样瘪缩，甚至可能使其化为原本躯壳的干枯残骸。体内含有液体的非活物目标（例如吸血鬼、水元素或一桶酒）可以受到此法术影响，但没有生命液体的活物对此免疫。目标生物受到4d6钝击伤害，具体取决于其豁免结果。</p>\n<p>豁免失败的目标产生水，流入你的手中或你持有的容器（超小型为1加仑，小型为2加仑，中型为4加仑，大型为6加仑，巨型为8加仑）。如果目标豁免大失败，此数量翻倍。</p><hr /><p><strong>大成功</strong>生物不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全额伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 1}。</p>\n<p><strong>大失败</strong>同失败，但目标受到双倍伤害且陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 2}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
     },
     "jgN33YSYXB8iIHTw": {
-      "name": "跌绊术",
+      "name": "跌绊术 Stumble",
       "description": "<p>一阵微弱重力会在目标周围造成震颤，将其拉向地面。目标尝试反射豁免。</p><hr /><p><strong>失败</strong>目标会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]1轮。如果目标是在飞行、游泳或漂浮，则会向下坠落10尺。</p>\n<p><strong>大失败</strong>目标@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]。如果目标正在飞行、游泳或漂浮，则会向下坠落20尺。</p><hr /><p><strong>升阶（+1） </strong>如果目标在飞行，失败时会额外向下坠落5尺，大失败时会额外向下坠落10尺。</p>"
     },
     "jon2tSGg7fSTqtk9": {
-      "name": "开始游戏",
+      "name": "开始游戏 New Game",
       "description": "<p>你可以将生物拉入电子游戏中，将他们的身体和思想（包括装备）数字化，让他们在虚拟现实中游玩。游戏类型和法术效果取决于你施法时的目标。任何被此法术选为目标的生物都会在24小时内免疫此法术，无论他们体验的是什么类型的游戏。</p><ul><li>如果你以自己和任意数量的自愿盟友为目标施放此法术，目标进入一个轻松的日常生活社交模拟游戏。在法术持续时间内，它们可以在其中进行至多1小时的活动，包括重新聚能、修理物品，或只是躲在这个虚拟异次元空间中避开敌人。</li><li>如果你以自己或一名自愿盟友，以及一名敌人为目标施放此法术，目标会进入一个PvP游戏并被指示战斗，使用他们当前的先攻顺序。在法术持续期间，任一生物都可以在自己的回合操作命运一次。若这样做，他就可以在对对手的攻击检定或技能检定中进行两次检定，取较高的结果（幸运效果），或者迫使对手对它的某项能力进行两次豁免，取较低结果（厄运效果）。GM可以决定在其他类型的游戏中增加额外的规则或子系统来处理该法术。如果任一目标无法行动，或双方同意停止敌对行动，则法术结束。游戏的任何结果，例如伤害或状态，在游戏结束以后依然持续生效。如果玩家在游戏中死亡，他们在现实宇宙中也会死亡。</li><li>如果你针对一名敌人施放了这个法术，目标就会进入一个PvE或解谜游戏，该游戏会困住他们，直到他们完成游戏。每回合一次，目标可以花费1个行动尝试对抗你的法术DC 进行计算机检定或察觉检定，以逃离游戏。传送魔法不能帮助生物逃脱，除非该魔法可以将人传送到或传送出虚拟空间。当法术结束时，无论是因为目标逃脱还是因为持续时间耗尽，目标都会返回其被数字化时所占据的空间，或者如果原来的空间已被填满，则返回最近的空间。GM可以决定其他类型的游戏是否允许进行不同的技能检定，但只有在目标有所列技能熟练的情况下才可以这样做。</li></ul><hr /><p><strong>大成功</strong>目标完成游戏，法术结束。</p>\n<p><strong>成功</strong>目标在完成游戏方面取得进展。如果目标已经取得进展，则完成游戏并结束法术。</p>\n<p><strong>失败</strong>目标在完成游戏方面没有进展。</p>\n<p><strong>大失败</strong>目标输掉游戏，必须重新开始。目标失去所有游戏进度。</p>"
     },
     "jyrxfWeeCsrkhNit": {
-      "name": "怪异怒火",
+      "name": "怪异怒火 Eldritch Wrath",
       "description": "<p>你引导存在于宇宙之外，不可名状的力量，对区域内所有生物造成3d12心灵伤害，如同幻影尖爪、啃咬或是触须击中每个目标。区域中的每个生物都需要尝试一次意志豁免。区域对每个因该法术效果陷入恶心的生物都视为困难地形。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全部伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p>\n<p><strong>大失败</strong>该生物受到两倍伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 2}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d12。</p>"
     },
     "kGas0LdEAR1WjLGZ": {
-      "name": "绝对零度",
+      "name": "绝对零度 Absolute Zero",
       "description": "<p>漩涡形的闪光冻住了空气，造成10d8寒冷伤害。区域内的每个生物都必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全额伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1} 直到你的下一回合开始。</p>\n<p><strong>大失败</strong>该生物承受双倍伤害，由于一层厚厚的冰而@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]，只要它被禁足，就会获得缓慢1。这冰层是物体，具有50生命值、5硬度、免疫寒冷伤害，并且有10点火焰弱点。它具有物品免疫并且如果目标逃脱会被摧毁。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加1d8。冰的生命值增加5。</p>"
     },
     "kR5A0h2a9hY41wav": {
-      "name": "熵击",
+      "name": "熵击 Entropy Strike",
       "description": "<p>你释放一束熵射线，迅速且无差别地分解物质。进行远程法术攻击对抗目标的AC。如果命中，目标受到5d8虚能伤害；或者如果目标生物有科技特征，则会受到2d6持续性酸蚀伤害并陷入故障1。如果重击，伤害翻倍，并且如果目标生物有科技特征，则陷入故障2和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。</p><hr /><p><strong>升阶 （+1）</strong>增加1个伤害骰。</p>"
     },
     "kTzbLqmqPcZwOa5F": {
-      "name": "警示波动",
+      "name": "警示波动 Wave of Warning",
       "description": "<p>你通过心灵意志的波动遏制敌人。目标受到7d8非致命心灵伤害，目标需要尝试一次意志豁免。心灵能量随后会流向初始目标30尺内的另一个目标，再从那个目标跃向30尺内的另一个目标，以此类推。你可以在任何时候终止波动。你不能令同一生物多次成为目标，并且你必须对所有目标都具有效果线。你只投掷一次伤害并将它应用于每一个目标（根据豁免结果减半或加倍）。</p><hr /><p><strong>大成功</strong>目标不受影响，波动在该目标处结束。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全部伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 1}。</p>\n<p><strong>大失败</strong>目标受到两倍伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d8。</p>"
     },
     "mAu69GVbFKYzQM5a": {
-      "name": "阿卡西源泉",
+      "name": "阿卡西源泉 Akashic Fount",
       "description": "<p>你开启目标的心灵，进入阿卡西记录，从中汲取情感、记忆和知识。选择一个学识技能。目标在该技能的熟练等级上暂时获得你在神秘技能上的熟练等级。</p>"
     },
     "mnoTqz0gjRmuc4oR": {
-      "name": "瞬效病毒",
+      "name": "瞬效病毒 Instant Virus",
       "description": "<p>你通过接触安装一种危险的自增殖病毒，会扰乱科技生物的程序。目标必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]。</p>\n<p><strong>失败</strong>目标陷入故障1和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 1}。</p>\n<p><strong>大失败</strong>目标陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 Stunned 2}。</p>"
     },
     "n5a3t5Qnx5AU8auy": {
-      "name": "蟹化术",
+      "name": "蟹化术 Carcinization",
       "description": "<p>你操作目标的遗传密码，加速不可避免的事情发生，迫使目标接受蟹化并变成螃蟹。视同为施放动物形态并升环至相同环级并使用下列数据：</p><ul><li><p><strong>螃蟹</strong></p><ul><li>速度25尺，游泳15尺</li><li><strong>近战</strong> <span class=\"action-glyph\">1</span>巨钳，<strong>伤害</strong> 2d8穿刺</li><li><strong>近战</strong> <span class=\"action-glyph\">1</span> 螯钳（灵巧）， <strong>伤害</strong> 2d4穿刺。</li><li>可以在空气和水中呼吸。</li></ul></li></ul><p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.16Li37zRYKClxqsv]</p>\n<p>如果目标非自愿，则需要进行强韧豁免：</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标的身体获得螃蟹的细微特征，附肢慢慢变成钳子，获得@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 1}。</p>\n<p><strong>失败</strong>目标变成部分为螃蟹的生物，变得笨拙1、@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 1} 和@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p>\n<p><strong>大失败</strong>目标会完全变成螃蟹，变得@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 Clumsy 2}、@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2}和@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 2}。</p>"
     },
     "nbIGKNr7eyiTqKwS": {
-      "name": "腐蚀迷雾",
+      "name": "腐蚀迷雾 Corrosive Haze",
       "description": "<p>你释放出一团腐蚀性的纳米机械云。在此区域内开始回合的生物会受到6d8酸蚀伤害和1d6持续酸蚀伤害，具有一次基础强韧豁免。这些纳米机械还会腐蚀该区域内的无主物品，对它们造成3d8酸蚀伤害。你维持该法术的每一轮，你都可以向任意方向移动云团10尺。你可以解消该法术。</p><hr /><p><strong>升阶（+1）</strong>初始伤害增加1d8，持续酸蚀伤害增加1d6。</p>"
     },
     "nf8q0zvJDnnkzANe": {
-      "name": "扫描环境",
+      "name": "扫描环境 Scan Environment",
       "description": "<p>你分析1英里范围内的自然环境，了解大气层、生物群落和重力的一般信息。预测未来一小时的天气，包括天气自哪而来；了解该区域有哪些大气、生物群落和重力，以及与这些元素的方向和距离；了解该区域是否存在环境危害，包括冷热危险（在什么温度范围）、辐射（严重程度）、烟雾效果和水下条件。这足以探测到直径超过30英尺的大型效果。你可以大致了解这些危险的位置和距离。</p><hr /><p><strong>升阶（+1）</strong>扫描范围增加1英里。</p>"
     },
     "ogEFxmaTBlXcpdoS": {
-      "name": "铸造漂流信标",
+      "name": "铸造漂流信标 Forge Drift Beacon",
       "description": "<p>你通过安装神圣硬件，并将其与超空间位面漂流域（Drift）同步，将一座空间站祝圣给神祇三贤一（Triune）。空间站成为漂流域信标，使周边宇宙区域的旅行更加快捷。仪式需要至少3名施法者（代表三贤一的三位一体本性），但已知经常有多达12名施法者共同执行。如果施法者人数不是3的倍数，仪式自动失败。</p><hr /><p><strong>大成功</strong>铸造成功，整座空间站被祝圣给三贤一，获得祝圣仪式的效果，持续年数等于执行仪式的施法者人数。</p>\n<p><strong>成功</strong>铸造成功。</p>\n<p><strong>失败</strong>铸造失败。</p>\n<p><strong>大失败</strong>铸造彻底失败，并在三贤一的代码中引发故障，可能对空间站产生实际影响，例如故障小魔怪肆虐、光谱使者（spectra）维修小队造访、无法解释的技术问题泛滥，甚至出现位面故障。至少1年内，任何在此地再次铸造漂流域信标的尝试都会失败。</p>"
     },
     "p83iYWlcJRqe0PxL": {
-      "name": "适应性迷彩",
+      "name": "适应性迷彩 Adaptive Camouflage",
       "description": "<p><strong>触发</strong>你处于一个敌对效果的区域内。</p><hr /><p>此魔法利用令人迷乱的爆炸和枪声，为施法者创造一个躲藏的机会。你对所有依赖视觉感官的生物变得无踪，除非它们能够看见@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]生物。你进行快步。如果你拥有掩蔽、高等掩蔽或隐蔽，尝试一次隐秘检定进行躲藏。随后隐形结束，如果你进行了检定，你根据进行躲藏的隐秘检定结果，要么对生物可见，要么对其@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]。如果你仍处于触发区域内，你在此次隐秘检定上获得+2状态加值。如果你不再处于触发区域内，你在对抗触发效果的反射豁免（如有）上获得+2状态加值。</p>"
     },
     "pgjlPNfXCpEYyLVu": {
-      "name": "阴影牢狱",
+      "name": "阴影牢狱 Shadow Prison",
       "description": "<p>你使目标的怨念、悔恨和其他负面情绪的记忆填满其影子，使其阴影不断膨胀，直至足以将其完全吞噬。目标尝试一次意志豁免。目标随后临时免疫此法术1分钟。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标在被完全吞噬前抵抗了法术，但阴影触须缠住了他们，使目标陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}，持续1轮。</p>\n<p><strong>失败</strong>目标被自己的阴影吞噬，直到你下个回合开始。目标获得@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]和@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]，无法体验或与外界交互，也无法成为任何攻击或其他效果的目标。</p>\n<p><strong>大失败</strong>如同失败，但目标被吞噬1分钟。</p>"
     },
     "qAbHuohnFmiXx9sd": {
-      "name": "腐朽激爆",
+      "name": "腐朽激爆 Explosion of Rot",
       "description": "<p>一个巨大的脓庖膨胀爆裂，为其周围的一切事物覆上一层汲取生命的朽物。在区域内的生物和植物受到6d6毒素伤害并必须尝试一次反射豁免。该区域内受到法术伤害的叶子和植物不再能够提供掩蔽。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全部伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 1}。</p>\n<p><strong>大失败</strong>目标受到两倍伤害，@Damage[(floor((@item.rank - 2)/2))d6[persistent,poison]]伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 Enfeebled 2}。</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加2d6，大失败时的持续伤害增加1d6。</p>"
     },
     "qOLMHvkAGsVYLhtn": {
-      "name": "侦测思想",
+      "name": "侦测思想 Detect Thoughts",
       "description": "<p>你能感知周围生物的想法。你可以侦测周围是否存在智力调整值不低于-3的清醒生物的思维。可选择忽略熟悉生物的思维，避免干扰其他目标的侦测。该法术可以穿透一些障碍，但3尺的泥土或木头、1尺的石头、1英寸的金属、薄薄的铅片或任何立场障碍都会阻挡它。对心灵效果免疫的生物对该法术的侦测免疫。</p><hr /><p><strong>升阶（4环）</strong>你可侦测范围内存在思维活动的意识体数量，并判断其是否具备心灵感应能力。拥有心灵感应能力的生物思维波动更强，普通生物思维信号较弱且无反馈，具体由GM裁定。</p>"
     },
     "qkehzRdn7JeGrR6E": {
-      "name": "虚空低语",
+      "name": "虚空低语 Void Whispers",
       "description": "<p>目标耳边响起蕴含星辰之外不可名状奥秘的不祥之音，使其神智混乱。目标需要尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>目标听到了诡异的低语，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 1}，持续1轮。</p>\n<p><strong>失败</strong>目标开始漫无目的地游荡，使用每个动作来快步（方向随机）。当其移动时，其会采取最安全的路线并且不会进入有害地形。法术会持续1分钟或者直到目标被敌对动作瞄准。</p>\n<p><strong>大失败</strong>类似失败，除了目标还会语无伦次地喋喋不休。任何在其20尺内开始回合的生物也需要尝试一次意志豁免。在失败时，这些生物也需要在下回合开始时花费第一个动作来进行快步（随机方向），随后临时免疫此法术24小时。这是一个失能效果。</p>"
     },
     "rBh2PjtbDGAjbcu6": {
-      "name": "断电术",
+      "name": "断电术 Discharge",
       "description": "<p>你点燃一触即逝的电火花激入科技生物或物品内。你令具有科技特征的物品断电或者扰乱具有科技特征的生物，具体效果取决于目标是生物还是物品。</p><ul><li><strong>生物</strong>如果你的目标是一个具有科技特征的生物，其需要尝试一次意志豁免。在失败时，该生物陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 Glitching 1}，大失败时则为@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 Glitching 2}。</li><li><strong>物品</strong>如果你的目标是一个有主物品，由其所有者尝试一次意志豁免。在成功时，物品失去其最大值一半的充能；在失败时，或者目标为无主物品时，物品失去其剩余的全部充能。</li></ul>"
     },
     "rluzzX2ml4yFWnYw": {
-      "name": "扰人阴影",
+      "name": "扰人阴影 Cloying Shadows",
       "description": "<p>你命令生物的影子扭动、书写并反抗其主人。区域内每个生物受到6d6寒冷伤害。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全额伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 1}。</p>\n<p><strong>大失败</strong>目标受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 Sickened 2}。</p><hr /><p><strong>升阶（+1）</strong>寒冷伤害增加2d6。</p>"
     },
     "s6J1Q0e28Gb42epQ": {
-      "name": "基因再生",
+      "name": "基因再生 Genetic Regeneration",
       "description": "<p>你为目标的遗传密码注入激发再生的性质，开始治疗其伤口。目标暂时获得再生7，在其每个回合开始时恢复7点生命值。拥有再生期间，目标不会因受到伤害而死亡，其濒死状态也无法增加至足以使其死亡的数值（对大多数生物而言，这会使濒死状态停在濒死3）；不过，如果其受伤值达到4或更高，它会持续@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}，直到伤势得到治疗。如果目标受到酸蚀或火焰伤害，其再生会停止运作，直到下回合结束之后。</p>\n<p>在法术持续期间限一次，该生物可以在一轮内放弃治疗生命值，来重新长出一个受损或毁坏的器官，或重新接上一个被切断的身体部位，要花费一个交互动作将身体部位固定在被切断的部位上。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.4cFhz9knnHUHj3wi]</p><hr /><p><strong>升阶 （+1） </strong>再生增加2。</p>"
     },
     "sNUvbMoMeLTnYJm8": {
-      "name": "伤口回响",
+      "name": "伤口回响 Injury Echo",
       "description": "<p>你自未来或者过去具现出一道伤口来伤害当下的生物。选择钝击，穿刺或挥砍伤害，目标受到1d8所选类型伤害，具有一次基础意志豁免。如果目标豁免失败，并且在你的下个回合结束前受到了相同类型的伤害，其还会额外受到@Damage[ceil((@item.level)/2)d4[persistent,bleed]]伤害。</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加1d8，豁免失败时的持续伤害增加1d4。</p>"
     },
     "sTpdXXaaKhoGOIxh": {
-      "name": "虚空行者",
+      "name": "虚空行者 Void Vessel",
       "description": "<p>你赋予了生物在真空中生存的能力。目标生物获得宇宙（cosmic）特征，长出纯粹能量构成的翅膀，获得30尺飞行速度。该翅膀仅在真空环境中生效。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.NWNXwJhNpNvNdyLd]</p>"
     },
     "sXnWQOcGG2ELcxXb": {
-      "name": "回旋弹",
+      "name": "回旋弹 Ricochet",
       "description": "<p>一道由闪烁钢铁构成的旋转圆盘或光滑球体在目标之间弹射跃动。造成2d4钝击或挥砍伤害，需要进行基础反射豁免。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加1d4。</p>"
     },
     "smCC1LNhMb7Z1lrU": {
-      "name": "赞歌",
+      "name": "赞歌 Anthem",
       "description": "<p>你将宇宙旋律的纷繁交织成一首赞歌，献给你纽带中的同伴。区域内所有纽带中的生物在攻击掷骰和伤害掷骰上获得+1状态加值，并在对抗导致@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]或@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]效果的豁免上获得+1状态加值。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.VacLbml5QIO0jqlO]</p>"
     },
     "ssOpTABjuHAqNTPu": {
-      "name": "野性纽带",
+      "name": "野性纽带 Wild Bond",
       "description": "<p>你调动物质宇宙的编码，将另一种活物的精粹注入目标体内，赋予其下列能力之一：</p><ul><li>15尺掘地速度</li><li>20尺攀爬速度</li><li>20尺飞行速度</li><li>25尺游泳速度</li><li>40尺速度</li><li>一种颚无武装攻击，造成1d8穿刺伤害。</li><li>一种爪无武装攻击，造成1d6挥砍伤害，具有灵巧和娴熟特征。</li><li>黑暗视觉</li></ul><hr /><p><strong>升阶（3环）</strong>攻击造成的伤害增加到2个伤害骰。</p>\n<p><strong>升阶（5环）</strong>目标数量增加至5个目标。攻击造成的伤害增加到2个伤害骰。</p>\n<p><strong>升阶（6环）</strong>目标数量增加至5个目标。攻击造成的伤害增加到3个伤害骰。</p>\n<p><strong>升阶（9环）</strong>目标数量增加至5个目标。攻击造成的伤害增加到4个伤害骰。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.LXi2h0q58zg9EFCN]</p>"
     },
     "t0oFlhMhNOHbb6rG": {
-      "name": "调整重心",
+      "name": "调整重心 Reorient",
       "description": "<p>结合使用元气和穴位按摩，帮助目标重新站稳。目标会失去@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]状态（如果有的话）。在下一回合开始前，目标将免疫措手不及状态，即使是被夹击或@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]等会施加措手不及情况下也是如此。然后，目标在 10 分钟内对调整重心免疫。</p>"
     },
     "tVTJS07cKDA5rNgc": {
-      "name": "网络筛查",
+      "name": "网络筛查 Sift the Sphere",
       "description": "<p>你以仪式梳理本地信息圈，获得关于某个主题的神秘洞见。施放此法术期间，你询问采取某项特定行动的结果。法术可以预测未来至多30分钟内的结果，并从以下结果中揭示GM认为最可能发生的一项。</p><ul><li><strong>吉</strong>结果将是好的。</li><li><strong>凶</strong>结果将是坏的。</li><li><strong>吉凶参半</strong>结果将有好有坏。</li><li><strong>无</strong>结果不会特别好或特别坏。GM秘密进行一次@Check[flat|dc:6|traits:secret]。失败时，结果总是“无”。这使人无法判断“无”的结果是否准确。如果之后施放网络筛查时，有人询问与首次施法相同的主题，GM使用首次施法的秘密掷骰结果。如果情况发生变化，则可能得到不同的结果。</li></ul><hr /><p><strong>升阶（4环）</strong>法术可以预测最多一周内的结果。</p>"
     },
     "tZQpEnaFqwmU4AMZ": {
-      "name": "曲织存在",
+      "name": "曲织存在 Warp Presence",
       "description": "<p><strong>触发</strong>一名敌人对你进行打击或法术攻击</p><hr /><p>你的存在在目标脑海中忽隐忽现，如同你已经消失一般。目标生物尝试一次意志豁免。</p><hr /><p><strong>成功</strong>面对该生物的攻击，你处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态，持续1轮，包括触发的攻击。如果你原本已处于隐蔽状态，则改为无踪。</p>\n<p><strong>失败</strong>触发的攻击失手。你对触发生物处于@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{无踪}状态，持续1轮。如果你使用敌意动作，此效果在该敌意动作完成后结束。</p>\n<p><strong>大失败</strong>触发的攻击失手。你对该生物处于无踪状态，持续1分钟。如果你使用敌意动作，此效果在该敌意动作完成后结束。</p>"
     },
     "uBo6g5aW087cLSJR": {
-      "name": "心灵穿刺",
+      "name": "心灵穿刺 Mind Skewer",
       "description": "<p>你可以用大量的精神信息或神圣审判使一个生物的精神超负荷。心灵冲击会造成2d6心灵伤害。在重击时，目标还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 Stupefied 2}，持续1轮。</p><hr /><p><strong>升阶 （+1）</strong>伤害增加 2d6。</p>"
     },
     "uh9Br4yrKvJA6zq0": {
-      "name": "阴影弹指",
+      "name": "阴影弹指 Shadow Snap",
       "description": "<p>你打响指，唤令目标的影子服从。你施放此法术时，以及此后每轮中每个回合首次维持法术时，可以选择让目标的影子攻击或跟踪它。如果选择攻击，对目标的AC尝试一次法术攻击掷骰，命中时造成1d10寒冷伤害（重击时造成双倍伤害）。该攻击承受并计入你的多次攻击减值。</p>\n<p>如果选择跟踪，直到你的下回合结束，当目标首次使用操作类或移动类动作、进行远程攻击，或在其使用的移动类动作中离开一个方格时，对目标的AC尝试一次法术攻击掷骰，命中时造成1d10寒冷伤害。如果该攻击重击，影子打断那个动作。</p>\n<p>每次维持法术时，你可以选择攻击目标，或命令影子跟踪目标，直到你的下回合结束。</p><hr /><p><strong>升阶（+1）</strong>寒冷伤害增加1d10。</p>"
     },
     "v2S6tlilNbA4uGdM": {
-      "name": "浏览数据",
+      "name": "浏览数据 Skim Data",
       "description": "<p>你触碰一件物体，专注于其中的一组数据，例如故事、讯息、文件、信息圈网站、录音或视频。你理解这组数据的大意，并且能迅速定位与搜索内容最相关的页面或章节。如果数据以你不懂的语言书写或传达，或你试图从无权访问的计算机中获取信息（例如一台你不知道密码的计算机），法术失败。</p>\n<p>如果你将施放此法术作为@UUID[Compendium.pf2e.actionspf2e.Item.t5nBkpjroaq7QBGK]{研究}活动的一部分，你将大失败改为视作失败。</p>"
     },
     "v8JA4sG2tsVP2gOM": {
-      "name": "量子分析",
+      "name": "量子分析 Quantum Analysis",
       "description": "<p>你可以看见身周围绕的概率方程，并追踪每个变量的所有可能值。你攻击的目标生物不能从掩蔽中获得AC上的环境加值。并且你忽略攻击骰上的环境减值和生物@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]或@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]所导致的纯骰检定。即便你对处在量子场域内的生物不具有视觉线，你仍然可以对其施放法术。</p>\n<p>在施放该法术后，该法术持续期间内你第一次对处在量子场域内的生物的攻击检定可以掷骰两次并取用较高的结果。这一效果具有幸运特征。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.bfimY3Rbx3lrsFAJ]</p>"
     },
     "vL7w8EtvZHlgRKlo": {
-      "name": "修正结果",
+      "name": "修正结果 Alternate Outcome",
       "description": "<p><strong>触发</strong>一名在你量子场域内的生物将要在一次豁免中成功（但不是大成功）。</p><hr /><p>你拒绝当前存在的结果，用来自不同现实的结果将其替换。目标必须重骰触发豁免并使用其中较低的结果。</p>"
     },
     "wOjoJjl2ndZKTuFJ": {
-      "name": "过热术",
+      "name": "过热术 Overheat",
       "description": "<p>你将积聚的热能导向附近目标。你对目标造成2d6火焰伤害。如果豁免失败，目标手持的装备会在下一轮变得灼热。除非目标在回合开始时扔掉当前手持的装备，否则会受@Damage[(3*@item.rank)[fire]]伤害。</p><hr /><p><strong>升阶（+1） </strong>伤害增加 2d6。触碰受影响物体的伤害增加3</p>"
     },
     "wRNRWwCEbmSxbHDl": {
-      "name": "情绪控制",
+      "name": "情绪控制 Vibe Check",
       "description": "<p>你通过心灵注入强烈情绪来分享情感。目标尝试一次意志豁免。在失败时，目标会体验你所选的如下情绪之一，但是如果你选择愤怒或快乐，则此法术具有失能特征：</p><ul><li><strong>愤怒</strong>在其下个回合，目标需要用其第一个动作来攻击最近的生物，即便其为盟友。</li><li><strong>快乐</strong>目标不能采取任何敌对动作。</li><li><strong>恐惧</strong>目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 Frightened 2}。</li><li><strong>悲伤</strong>目标嚎啕大哭并陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 Slowed 1}。</li></ul><hr /><p><strong>升阶（4环）</strong>法术影响20尺爆发内的所有生物。每个生物必须受到同一种情绪影响。</p>"
     },
     "x21WInzhprQHMyKT": {
-      "name": "虚空淹没",
+      "name": "虚空淹没 Void Scour",
       "description": "<p>一口荒凉的黑暗之井冲刷所有生命，对区域内所有活物造成10d10虚能伤害。每个区域内的生物都需要尝试一次反射豁免，如果虚空淹没的区域和一个魔法光亮区域重叠或者影响了受到魔法光亮影响的生物，虚空淹没会尝试反制光亮效果。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全部伤害和@Damage[(@item.rank - 6)d6[persistent,void]]伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 1}。</p>\n<p><strong>大失败</strong>该生物受到两倍伤害，@Damage[(@item.rank - 5)d6[persistent,void]]伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{流失 Drained 2}。</p><hr /><p><strong>升阶（+1）</strong>初始虚能伤害增加2d10。持续虚能伤害在失败时增加1d6，大失败时增加2d6。</p>"
     },
     "xNU0CX0Wt0MwOHes": {
-      "name": "修理协议",
+      "name": "修理协议 Repair Protocols",
       "description": "<p>你使用魔法能量快速并行运行多个脚本，指示构装体的内部机构利用多余的魔法能量自我修复。当你施放此法术，以及随后每轮你第一次维持它时，选择射程内的一个构装体恢复1d8生命值，或选择射程内的两个构装体各恢复1d4生命值。</p><hr /><p><strong>升阶（+1）</strong>如果你以一个构装体为目标，恢复的生命值增加1d8；如果你以两个构装体为目标，恢复的生命值增加1d4。</p>"
     },
     "xS4bqHnbodCwjpqI": {
-      "name": "冷葬",
+      "name": "冷葬 Promession",
       "description": "<p>你会瞬间冻结一个目标，然后向其发送亚音速波，有可能将其变成粉末。对目标发动法术攻击。如果你击中目标，则目标会受到6d8点寒冷伤害，并必须尝试一次强韧豁免。如果你的法术攻击造成重击，目标的强韧豁免结果会下降一级成功度。减至0HP的生物会被炸成粉末，但其装备会保留。</p><hr /><p><strong>大成功</strong>目标不受进一步伤害的影响。</p>\n<p><strong>成功</strong>目标受到额外@Damage[((@item.level -3)d8)[sonic]]伤害。</p>\n<p><strong>失败</strong>目标受到额外@Damage[((@item.level)d8)[sonic]]伤害。</p>\n<p><strong>大失败</strong>目标受到额外@Damage[((@item.level +6)d8)[sonic]]伤害。</p><hr /><p><strong>升阶（+1）</strong>寒冷和音波伤害增加1d8</p>"
     },
     "yXD9uU8w8uFD2OBQ": {
-      "name": "删除术",
+      "name": "删除术 Delete",
       "description": "<p>你以华丽的魔法手势删除设备或物品中的数据。这些数据可以是手写的、打印的或电子的。你最多可以删除 1,500字的文本、一页内容或一显示屏的文本或其他视觉信息。无主物品或手持物品上的非魔法文字会自动删除。尝试反制检定删除数据或魔法文字。如果你尝试删除的文字是危害的一部分，且你失败，就会触发危害。这不能用于删除魔法书或类似的存储魔法公式或法术的内容。</p>\n<p>如果目标是具有追踪特征的科技物品，尝试一次反制检定。如果成功，该物品就会获得故障1。持有该物品的生物可以花费一个交互动作来重启用户界面，并将故障值降低1。</p><hr /><p><strong>升阶（7环）</strong>你可以删除单个设备或书籍中本地存储的所有数据，或者删除设备或书籍中与特定名称、主题或类别相关的所有数据。</p>"
     },
     "z0Spgrf92nmaqjCW": {
-      "name": "阿卡西助手",
+      "name": "阿卡西助手 Akashic Assistant",
       "description": "<p>你召唤一个以太实体的投影，这些实体在阿卡西图书馆中担任图书管理员和抄写员，以协助你的目标完成任务。投影出现在目标旁边，且不占据任何空间。助手准备[[/act aid skill=occultism]]{协助}目标，如同它拥有自己的反应动作一样。助手在掷骰协助中使用等同于你神秘调整值的加值，无论它协助的是什么技能。在你的每个回合，助手再次准备协助其目标。你可以使用一个具有专注特征的自由动作来向一个不同的生物重新指派助手，从而改变法术的目标。否则，助手在法术持续时间内继续协助同一个生物。</p>"
     },
     "zdzeVZlKHkMAt2Rf": {
-      "name": "宣判死亡",
+      "name": "宣判死亡 Death Sentence",
       "description": "<p>你绘出一行宣告，裁定目标不适合继续存在。目标受到11d10 精魂伤害，进行基础强韧豁免。如果生物豁免失败，他会认为自己正听候审判，陷入@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]1轮（大失败麻痹2轮）</p><hr /><p><strong>升阶 （+1） </strong>伤害增加1d10。</p>"
     },
     "zzi7LUKxKNWr5GsG": {
-      "name": "命能新星",
+      "name": "命能新星 Vitality Nova",
       "description": "<p>你释放一团凝聚的生命能量，爆发出灿烂的治疗之光。花费你命能网络中的任意数量生命值。每为施放命能新星花费2点生命值，便为区域内所有生物治疗1点生命值。将这次治疗视作一次@UUID[Compendium.sf2e-anachronism.actions.Item.UeMHbnnaXDa3sGfG]的使用。</p><ul><li>如果你花费了20或更多生命值，且法术在魔法黑暗区域内施放，<em>命能新星</em>尝试反制黑暗效果。</li><li>如果你花费了40或更多生命值，受到法术治疗的生物可以尝试一次@Check[flat|dc:10|showDC:all]，以终止持续流血伤害。</li><li>如果你花费了60或更多生命值，终止受到此法术治疗的生物的所有持续伤害。</li></ul>"
     },
     "0LQLmBrjK5B4mYQP": {
-      "name": "血肉重编",
+      "name": "血肉重编 Rewire Flesh",
       "description": "<p>你如同改写代码般改写目标的DNA，使其生理机能痛苦地扭曲，模拟机器人的运作：其身体变得明显像机器人，血管形成电路般的图案，骨骼扭成直线，动作变得僵硬不连贯，声音也变得断断续续。目标受到3d6挥砍伤害和3d6持续流血伤害，并且必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}，持续1轮。</p>\n<p><strong>失败</strong>目标受到全额伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 2}，持续1分钟；只要仍处于笨拙状态，其各项速度就受到–10尺减值。</p>\n<p><strong>大失败</strong>如同失败，但目标受到双倍伤害，且只要仍处于笨拙状态，就同时陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}。</p><hr /><p><strong>升阶（+1）</strong>挥砍伤害和持续流血伤害各增加1d6。</p>"
     },
     "0P9ragdbl7dIH7aH": {
-      "name": "即时通讯",
+      "name": "即时通讯 Instant Messaging",
       "description": "<p>你以通讯单元作为交流的媒介，向附近的生物投射讯息。你可以用一只空闲的手在通讯单元上输入讯息，或对着麦克风低语，以心灵感应与30尺内的生物交流。这种交流是单向的，而且你只能与和你拥有共同语言的生物交流。你可以选择哪些生物接收讯息，而这些生物知道讯息来自你。</p><hr /><p><strong>升阶（5环）</strong>你可以用图像而非文字交流。<em>即时通讯</em>失去语言特征。</p>"
     },
     "0Ut3WWGJP2dpjSwY": {
-      "name": "弹药灌能",
+      "name": "弹药灌能 Infuse Ammo",
       "description": "<p>你以元素之力强化下一发弹药，为弹膛中的下一发弹药充能。施放此法术时，选择一种元素特征及其对应的伤害类型：气对应电击或音波，土对应钝击或穿刺，金属对应酸蚀或挥砍，火对应火焰，水对应钝击或寒冷，木对应穿刺或毒素。你在下回合结束前使用所持武器进行的下一次打击获得所选的元素特征和伤害特征，并额外造成1d6所选类型的伤害。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.orZd4ZvgTHXM49IF]{法术效果：弹药灌能}</p><hr /><p><strong>升阶（6环）</strong>额外伤害增加至2d6。</p>"
     },
     "2Ln6XZujQYZK95Mv": {
-      "name": "传染病毒",
+      "name": "传染病毒 Infectious Virus",
       "description": "<p>你编写一种危险的计算机病毒。区域内所有具有科技特征的生物受到10点持续电击伤害，并且必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害，并陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 1}。</p>\n<p><strong>失败</strong>目标受到全额伤害，并陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 2}。</p>\n<p><strong>大失败</strong>目标受到双倍伤害，并陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 4}。</p><hr /><p><strong>升阶（+2）</strong>持续伤害增加5。</p>"
     },
     "327oTvddhYQ012QG": {
-      "name": "修复纳米机",
+      "name": "修复纳米机 Reparative Nanites",
       "description": "<p>你召来一团纳米机，在分子层面上修复目标。目标获得快速回复1。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.2rO9T7KQ3Hqz32OH]{法术效果：修复纳米机}</p><hr /><p><strong>升阶（+1）</strong>快速回复增加1。</p>"
     },
     "32rKBaTBCJ33qixz": {
-      "name": "热交换",
+      "name": "热交换 Hot Swap",
       "description": "<p>你在目标之间建立神秘联结，使其能够交换位置。持续时间内，持握任一武器的生物获得交换动作。</p>"
     },
     "3iJb9h4yRGyIRzJd": {
-      "name": "反射镀层",
+      "name": "反射镀层 Reflective Paneling",
       "description": "<p>防御魔法强化你的护甲，使甲片变硬并更善于反射。施放此法术时，选择电击、火焰、穿刺或挥砍伤害。持续时间内，你获得对该伤害类型的抗力10，并获得@UUID[Compendium.sf2e-anachronism.actions.Item.mlWK8VSSJm3iumy6]{反射伤害}反应。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.JBadWKFEv0Zvic9g]{法术效果：反射镀层}</p><hr /><p><strong>升阶（8环）</strong>你可以选择两种伤害类型，且抗力增加至15。你每次只能反射一种类型的伤害。</p>\n<p><strong>升阶（10环）</strong>如同8环，但此法术保护你抵御全部四种伤害类型，且抗力增加至20。</p>"
     },
     "4yllv8kIihHNb2xj": {
-      "name": "全息替身",
+      "name": "全息替身 Holographic Stand-In",
       "description": "<p>你创造出一个足以以假乱真的自身全息复制体。这个全息影像看起来与你一模一样，但没有实体，且会模仿你的动作。维持法术时，你可以命令全息影像采取不同的行动。角色可以通过察觉检定，或以任何方式与其交互（例如尝试打击它）来辨明全息影像的本质。你可以将闭上自己的眼睛作为[[/act seek]]动作的一部分，透过全息影像的双眼观察。一旦你与全息影像之间失去效果线，法术立即结束。</p><hr /><p><strong>升阶（9环）</strong>你可以维持法术的最长持续时间增加至10分钟。</p>"
     },
     "5ZG4T2nGy1g2RJvA": {
-      "name": "读取记忆",
+      "name": "读取记忆 Read Memory",
       "description": "<p>你触碰一块计算机屏幕，了解它最近显示过的内容，即使此后计算机曾重新启动或被用于其他用途。选择下列一项信息，计算机会如实显示或播放该信息。</p><ul><li><p>最后输入目标的命令。</p></li><li><p>最后在目标上访问的文件名。</p></li><li><p>最后下载至目标或从目标上传的文件名。</p></li><li><p>目标最后播放的1分钟音频。</p></li></ul><hr /><p><strong>升阶（3环）</strong>选择其中两项。</p>\n<p><strong>升阶（5环）</strong>选择全部选项。</p>"
     },
     "5ndwZJL0Olg9gohU": {
-      "name": "幽灵表情",
+      "name": "幽灵表情 Ghostmoji",
       "description": "<p>你创造出一个只有目标能看见的恐怖幽灵表情。目标必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p>\n<p><strong>失败</strong>目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 2}。</p>\n<p><strong>大失败</strong>目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 3}和@UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{逃跑}，且只要仍处于惊惧状态，就陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 2}。</p>"
     },
     "6IAcZLBCv4SECaFU": {
-      "name": "闪电蜂群飞舞",
+      "name": "闪电蜂群飞舞 Flight of the Lightning Bees",
       "description": "<p><strong>区域</strong>至多4个互不重叠的20尺爆发</p>\n<p>由纯粹电能构成、形似蜜蜂的元素生物从无数传送门中蜂拥而出。你施放此法术时，以及此后每轮首次维持法术时，区域内的生物受到6d12穿刺伤害和@Damage[3d6[persistent,electricity]]伤害，并且必须尝试一次强韧豁免。此后每轮首次维持法术时，你还可以将其中一个爆发区域向任意方向移动15尺，但不能使爆发区域彼此重叠。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害，并陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]，持续1轮。</p>\n<p><strong>失败</strong>该生物受到全额伤害，且只要仍受到持续伤害，就处于被压制状态。</p>\n<p><strong>大失败</strong>该生物受到双倍伤害，且只要仍受到持续伤害，就处于被压制和@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 2}状态。</p><hr /><p><strong>升阶（+1）</strong>穿刺伤害增加1d12。</p>"
     },
     "7nzp5SwP5NoS3RRt": {
-      "name": "祈祷表情",
+      "name": "祈祷表情 Prayermoji",
       "description": "<p>你在自身周围投射出代表你所信奉神祇圣徽的表情。你施放此法术时，以及此后每个回合首次维持法术时，根据所用的表情选择下列一项收益。</p><ul><li><p><strong>优雅祷告</strong>直到你的下回合开始，你的各项速度获得+20尺状态加值。</p></li><li><p><strong>治疗祷告</strong>在你的下回合开始时，你恢复4点生命值。</p></li><li><p><strong>防护祷告</strong>直到你的下回合开始，你的AC和豁免获得+1状态加值。</p></li><li><p><strong>惩戒祷告</strong>直到你的下回合开始，以近战打击命中你的生物受到4点灵魂伤害。</p></li></ul><p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.vRAHOPMR2JqsLzbt]{法术效果：祈祷表情}</p><hr /><p><strong>升阶（+1）</strong>恢复的生命值增加1，灵魂伤害增加1。</p>"
     },
     "7o0Fbp7CsocbKSab": {
-      "name": "爆炸重现",
+      "name": "爆炸重现 Explosive Recall",
       "description": "<p>你将一枚手雷爆炸的记忆捕获在其外壳中，并重现这段记忆。如果你在法术持续时间内使用施法载体（locus）进行区域射击，手雷的效果会在首次启动后的1轮于相同区域再次发生。</p>"
     },
     "9jZ8lah3VMO7iYW8": {
-      "name": "毒雾吐息",
+      "name": "毒雾吐息 Exhale Toxins",
       "description": "<p>你一次性释放施法载体（locus）中积累的所有毒素，吐出一片毒雾。区域内的生物受到2d4毒素伤害，并且必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全额伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}。</p>\n<p><strong>大失败</strong>该生物受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d4。</p>"
     },
     "9nSqaEG9HQB7hMZe": {
-      "name": "表情冲击",
+      "name": "表情冲击 Emoticon",
       "description": "<p>你释放出一连串表情，猛击一个生物。对目标的AC进行一次法术攻击掷骰，造成2d4钝击或力场伤害（在施放法术时选择）。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d4。</p>"
     },
     "AZUxwGaKz3qTCMvk": {
-      "name": "正电子头盔",
+      "name": "正电子头盔 Positronic Helmet",
       "description": "<p>一件魔法机械头部装备从你身上构筑出来，将你的大脑转变为中央处理器并强化你的心智。法术持续时间内，你获得科技特征。你的察觉检定和意志豁免获得+1状态加值。你每回合可以维持此法术一次，从头盔发射一道心灵射线，对@Template[type:line|distance:30]内的生物造成2d10心灵伤害，进行一次基础意志豁免。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.JBVWu61tmge51qK5]{法术效果：正电子头盔}</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d10。</p>"
     },
     "CsLA3rJ9pwHb2loe": {
-      "name": "付费墙",
+      "name": "付费墙 Paywall",
       "description": "<p>你形成一面透明的硬光墙，上面以多种语言标示付款条款。每块10尺见方的墙段具有AC 10、硬度18和60点生命值，并且免疫重击和精准伤害。支付10信用点并以一个具有听觉特征的单动作验证交易，即可穿过墙壁。携带信用棒的生物即使棒内余额为空也可通过，但这种情况下，它们会因此背上10信用点的债务。</p><hr /><p><strong>升阶（+1）</strong>每块墙段的生命值增加15。</p>"
     },
     "DwAvbUFR5LID5ebL": {
-      "name": "机械巨拳",
+      "name": "机械巨拳 Robo-Fist",
       "description": "<p>伴随一道魔法闪光，你的两条肢体长出导线和甲板，随后迅速拼合成机械结构，末端是硕大而强有力的机械拳头。只要你仍保有这些机械拳头，你的拳击伤害骰就从1d4增至1d6。以拳击或任何其他无武装攻击进行致命攻击时，你不会受到通常的–2环境减值。</p>\n<p>你维持此法术时，可以将一只机械拳头作为火箭发射出去，对至多60尺外的10尺爆发区域内所有生物造成2d6火焰伤害（基础反射豁免）；此法术期间至多可发射两次。两只机械拳头均发射后，法术结束。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.CVsq9wKZ6bFBeuGT]{法术效果：机械巨拳}</p><hr /><p><strong>升阶（+1）</strong>火焰伤害增加1d6。</p>"
     },
     "DyWL7idKpvy3IK5J": {
-      "name": "故障修复",
+      "name": "故障修复 Bugfix",
       "description": "<p>你将一行能以魔法自我编辑的代码注入目标，从根源解决其遭受的技术故障。你尝试对目标身上的故障状态进行反制。无论结果如何，目标均在1分钟内对<em>故障修复</em>免疫。</p>"
     },
     "EsmK1lCqW9wjGXHh": {
-      "name": "表情海啸",
+      "name": "表情海啸 Emoji Tsunami",
       "description": "<p>你释放一波表情。区域内的生物受到13d6钝击伤害，并且必须尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害，并被推离你10尺。这是强制移动。</p>\n<p><strong>失败</strong>如同成功，但该生物受到全额伤害，且被击倒而@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>\n<p><strong>大失败</strong>如同失败，但该生物受到双倍伤害，且被残留的水滴表情弄得@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}，持续1分钟。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
     },
     "FhcGSV1rbFWHiXJD": {
-      "name": "视觉直播",
+      "name": "视觉直播 Optics Feed",
       "description": "<p>你接入一台机器的光学扫描器，将其变为实时摄影源。法术持续时间内，你可以通过触碰的任何屏幕，实时播放目标所看见的景象。</p><hr /><p><strong>升阶（3环）</strong>法术持续时间变为1小时。</p>\n<p><strong>升阶（6环）</strong>法术持续时间变为1天。</p>"
     },
     "GdvESca5RRPKA2Ji": {
-      "name": "武器强固",
+      "name": "武器强固 Bolster Weapon",
       "description": "<p>你运用部分魔力强化一件武器，创造出这件兵器的理想化版本。施放此法术时，选择以下一种特征：灵巧、回摆、强力、长触或横扫。目标武器获得所选特征。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.5AQHXEzKuy4MmcXi]{法术效果：武器强固}</p><hr /><p><strong>升阶（5环）</strong>你可以指定至多五件武器为目标，为每件武器各选择一种特征。</p>"
     },
     "H1DWnlnm2DupjAep": {
-      "name": "目光冲击",
+      "name": "目光冲击 Optic Blast",
       "description": "<p>你的双眼充满沸腾的魔法能量，在施法载体（locus）后方积聚压力，直至猛然爆发。区域内的生物受到3d6力场伤害，进行一次基础反射豁免。豁免失败的生物还会被击退5尺。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
     },
     "HT4nqVPlQKKi2jdV": {
-      "name": "与废料合一",
+      "name": "与废料合一 One with Junk",
       "description": "<p>你可以变成废料，或与废料融合。此法术具有与@UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{与植物合一}相同的效果，但让你与一堆废料或一大块废料融合，或变成它们，例如垃圾袋、一堆废金属或损坏的构装体。你变成的废料具有AC 23。你可以解除此法术。</p>"
     },
     "HmiwNtwDnfRKGrSI": {
-      "name": "表情喷射",
+      "name": "表情喷射 Emoji Spray",
       "description": "<p>你释放一片锥形的主题表情。选择喷出的表情类型，这将决定法术的效果。区域内的每个生物承受所选效果。</p><ul><li><p><strong>眼睛表情</strong>明亮的眼睛附着在该生物身上，它必须尝试一次强韧豁免。表情喷射获得光亮和视觉特征。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物被光芒分散注意力，陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你的下回合开始。</p>\n<p><strong>失败</strong>如同成功，但只要该生物仍处于措手不及状态，就无法受益于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态，且用于[[/act hide]]的隐秘检定受到–2环境减值。</p></li><li><p><strong>食物表情</strong>食物钻入该生物的电路。该生物必须成功通过一次反射豁免，否则它和你选择的一件它所持的科技物品陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 1}（大失败时为@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 2}）。</p></li><li><p><strong>脏话表情</strong>代表粗话的符号轰击该生物，造成2d4心灵伤害（基础意志豁免）；失败时，它还会陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}（大失败时为@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 3}）。表情喷射获得心灵特征。</p></li><li><p><strong>武器表情</strong>剑与匕首刺穿该生物，兵器撕裂其躯体，造成1d6持续流血伤害（基础反射豁免）。</p></li></ul><hr /><p><strong>升阶（+1）</strong>心灵伤害增加2d4，持续流血伤害增加1d6。</p>"
     },
     "IKoJFpftmymU0JxI": {
-      "name": "纳米狙击",
+      "name": "纳米狙击 Nanite Snipe",
       "description": "<p>对目标的AC进行一次法术攻击掷骰，命中时造成1d12穿刺伤害，且具有科技特征的目标陷入故障2。重击时，目标受到双倍伤害，且具有科技特征的目标陷入故障4。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d12。</p>"
     },
     "IKzuw8XgMMw7ErSJ": {
-      "name": "召唤漂流先知",
+      "name": "召唤漂流先知 Summon Drift Prophet",
       "description": "<p>你召来一位负责监视漂流域（Drift）、并将其馈赠带给技术先进文明的光谱族生物（spectra）。光谱族生物占据大型生物的空间，具有40尺速度，以及带有宇宙特征的60尺飞行速度。</p>\n<p><strong>到来</strong><em>建立宇宙网络</em>伴随来自漂流域的神能爆发，光谱族生物恢复@Damage[(5*(@item.level - 1))[healing]|options:area-damage]生命值，作用于@Template[type:emanation|distance:30]内所有具有科技特征的生物或物体，并将它们的故障状态值减少5。</p>\n<p><strong>离去</strong><em>终止连接</em>@Template[type:emanation|distance:30]内每个具有科技特征的生物或被持有的物体必须尝试一次强韧豁免。豁免失败时，该生物或物体陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 5}，且生物只要仍处于故障状态，就陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}。</p><hr /><p><strong>升阶（+1）</strong>恢复的生命值增加5。</p>"
     },
     "J0uCmkZq1uLAun94": {
-      "name": "表情轰炸",
+      "name": "表情轰炸 Emoji Spam",
       "description": "<p>你以大量不同的表情淹没一个生物的感官；每种表情都会引发不同的感觉、记忆或其他根深蒂固的联想，使其大脑信息过载。该生物受到6d6心灵伤害，并且必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，直到你的下回合开始。</p>\n<p><strong>失败</strong>该生物受到全额伤害，以及额外的@Damage[(@item.level - 3)d6[persistent,mental]]伤害。只要仍受到这项持续伤害，该生物就处于目眩状态，且只能用表情说话。在只能用表情说话期间，该生物不能施放法术或使用听觉及音波效果，但名称中含有“表情”（emoji或moji），或具有晦匿特征的效果除外。该生物仍可以通过说话交流，但这种交流失去听觉特征，获得视觉特征。</p>\n<p><strong>大失败</strong>如同失败，但该生物受到双倍伤害，且只要仍受到持续伤害，就陷入@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}。持续伤害结束后，该生物陷入目眩，直到其下回合结束。</p><hr /><p><strong>升阶（+1）</strong>心灵伤害增加2d6，持续心灵伤害增加1d6。</p>"
     },
     "LcAzycyG5Tqk92Bx": {
-      "name": "菌根支配",
+      "name": "菌根支配 Mycorrhizal Supremacy",
       "description": "<p>你直接在目标脑内建立由控心真菌毒素组成的网络，试图夺取控制权并迫使它们服从。第一个目标必须尝试一次意志豁免。如果它未获得大成功，第一个目标30尺内的另一个目标便尝试一次意志豁免；如果该目标未获得大成功，它30尺内的另一个目标再尝试一次意志豁免，以此类推。你可以随时选择终止传播，且不能将同一个生物指定为目标超过一次。法术生效后，你每次只能专注于控制网络中的一个成员。你可以通过维持法术来更换专注控制的目标。</p><hr /><p><strong>大成功</strong>目标不受影响，且你的网络无法继续传播。</p>\n<p><strong>成功</strong>目标在抵抗你的孢子时陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1}。</p>\n<p><strong>失败</strong>目标加入你的菌根网络。它获得@UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{被控制}状态，但除非它正是你专注控制的对象，否则可以正常行动。如果它是你专注控制的对象，它可以在自己的每个回合结束时尝试一次意志豁免。成功时，目标脱离网络，你的控制焦点会自动转移至网络中剩余成员里离它最近的一位。</p>\n<p><strong>大失败</strong>如同失败，但只有当你向目标下达一项违背其本性的新命令（例如杀害其盟友）时，它才能再次尝试豁免。</p>"
     },
     "MdtOuzzLWcG0CD60": {
-      "name": "联结视觉",
+      "name": "联结视觉 Linked Sight",
       "description": "<p>你将所需的施法载体（locus）抛向距离内的一点，使这件光学工具与你自身的视觉建立连接。持续时间内，施法载体可以使用你通常的视觉感官观察所有方向，但超过15尺后，其视觉视为不精确感官。你可以维持此法术，在通过施法载体观察与使用自身通常视觉之间切换。</p><hr /><p><strong>升阶（+1）</strong>法术持续时间增加5分钟，施法载体的视觉变为不精确感官的距离界限增加5尺。</p>"
     },
     "NjsSsNlo2H0Duj7A": {
-      "name": "愿力之弹",
+      "name": "愿力之弹 Wishborne Shot",
       "description": "<p>你许愿让下一发射击命中你所希望之处。在你的回合结束前，你下一次使用施法载体（locus）进行打击时，忽略目标的掩蔽，以及因目标处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}或藏匿状态而需要进行的任何纯骰检定。</p>"
     },
     "NpsEhi5m9SUm0zqV": {
-      "name": "独立心智",
+      "name": "独立心智 Singlemind",
       "description": "<p>你将自身及每位辅助施法者的群体心智能力转移给目标：一种被称为“桑迪特水晶（szandite crystals）”的物质所组成的整个网络，无论这些水晶位于星系何处或其他位面。此仪式所耗的材料会在施放独立心智的过程中被摧毁。</p>\n<p>完成仪式时，如果你位于桑迪特联合体（Szandite Collective）的某个世界的行星范围内，你便失去群体心智能力，成为拥有自身心智的独立个体。每个所需的虫群生物都必须尝试一次@Check[will|dc:28]豁免。</p><hr /><p><strong>成功</strong>辅助施法者失去群体心智能力，成为拥有自身心智的独立个体。</p>\n<p><strong>失败</strong>辅助施法者的心智被桑迪特水晶拒绝。其失去群体心智能力，并成为一个无心智生物。</p>\n<p><strong>大失败</strong>来自桑迪特水晶网络的思绪淹没辅助施法者的心智，使其立即死亡。</p>\n<p>作为此仪式的额外效果，星系中所有不具备群体心智、且一生中曾用桑迪特水晶交流过的活物，都必须尝试一次@Check[will|dc:28]豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物获得群体心智能力。它与所有因<em>独立心智</em>仪式获得群体心智的其他生物共享这项群体心智能力。</p>\n<p><strong>失败</strong>该生物受到@Damage[7d10[mental]]伤害。如果幸存，该生物获得群体心智能力（如同成功）。</p>\n<p><strong>大失败</strong>来自<em>独立心智</em>仪式施法者的思绪淹没该生物的心智，使其立即死亡。</p>"
     },
     "ONyatkj2Ds1laXLO": {
-      "name": "表情盾牌",
+      "name": "表情盾牌 Emoji Shield",
       "description": "<p>你创造出一个保护你免受伤害的盾牌表情，当它破碎为魔法代码时，会爆发出令人目盲的光芒。你的AC获得+1状态加值，并获得@UUID[Compendium.sf2e-anachronism.actions.Item.v6ITmtsDt1ZvGmK6]{表情爆发}反应。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.L69VsN5o0r2HoBx0]{法术效果：表情盾牌}</p>"
     },
     "Py97Kb5H6vrgELDa": {
-      "name": "光束跃迁",
+      "name": "光束跃迁 Light Shift",
       "description": "<p>你发射施法载体（locus），瞬间沿光束转移自身，使你和装备在一瞬间化为光子。你传送至施法载体第一个射程增量内一个已被占据的空间，并发出半径等于此次传送距离的明亮光照，直到你的回合结束。</p>"
     },
     "QnVLetx8Ajiu5XVk": {
-      "name": "表情兵装",
+      "name": "表情兵装 Emoji Armament",
       "description": "<p>你召来一个武器表情。对表情60尺内一个目标的AC尝试一次法术攻击掷骰（若表情是近战武器，则目标须相邻），命中时造成4d6力场伤害（重击时为双倍伤害）。当距离内的生物使用操作类动作时，你可以用反应重复此攻击（若表情是近战武器，则改为移动类动作），但如果你自上回合结束后未使用过此反应，法术会在你的回合开始时结束。每次维持法术时，你可以移动表情。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6。</p>"
     },
     "S1nvwfmweG4AEGGW": {
-      "name": "灵魂电光",
+      "name": "灵魂电光 Spark of the Spirit",
       "description": "<p>你创造出一片灵性电能构成的球体。在区域内开始其回合的每位盟友处于@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}状态，且只能将额外动作用于交互或快步。以此方式获得迅捷的盟友立即恢复其持有的电池的全部充能，并且在使用科技武器进行打击时，额外造成3d4电击伤害。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.uFR5PlthyVRRVmKr]{法术效果：灵魂电光}</p>"
     },
     "SrgvGhssLCzzhiNo": {
@@ -763,183 +763,183 @@
       "description": "<p>你将一次猛烈的信号中断直接送入科技生物的中央处理器。该信号重创其系统，并留下持久的数据损坏。目标受到15d8心灵伤害；若目标免疫心灵伤害，则改为电击伤害。生物机械体（如仿生人）或仅部分机械化的生物（如改造人）使用比其豁免结果高一个成功度的结果。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害，并陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 1}。</p>\n<p><strong>失败</strong>该生物受到全额伤害，并陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 2}和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1}。</p>\n<p><strong>大失败</strong>该生物受到双倍伤害，陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 3}和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 2}，且必须成功通过一次强韧豁免，否则其系统灾难性瘫痪。这会杀死任何依靠科技维生的生物。这次强韧豁免具有死亡和失能特征。</p>"
     },
     "TW5UKhYiXlT66Ivu": {
-      "name": "神圣机械",
+      "name": "神圣机械 Divine Machine",
       "description": "<p>你以闪耀的神圣魔法环绕目标，魔法凝聚为科技护甲，为其构筑一副庞大坚固的外壳。法术持续时间内，目标的身形更加高大，运作更加可靠，并获得抵御伤害的超自然保护。目标变大至大型，除非其原本已是大型或更大。其装备随之一同变大，但脱下后便恢复通常尺寸。其触及增加5尺（若原本为超小型，则增加10尺）。目标还在持续时间内获得AC和豁免的+2状态加值，以及20点临时生命值。当目标不再拥有临时生命值时，法术立即结束。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.csZ7ugCP4zSqCUYu]{法术效果：神圣机械}</p><hr /><p><strong>升阶（+1）</strong>此法术赋予的临时生命值增加5。</p>"
     },
     "UDhfM3MWs5yAsCvx": {
-      "name": "召唤巨型机器人",
+      "name": "召唤巨型机器人 Summon Giant Robot",
       "description": "<p>你召来一台庞大的机器人。机器人占据巨型生物的空间，具有80尺速度，以及带有宇宙特征的100尺飞行速度。</p>\n<p><strong>到来</strong><em>超能炮猛攻</em>（穿梭）机器人沿直线行走一次，将敌人踏在脚下，造成@Damage[10d8[bludgeoning]|options:area-damage]伤害（基础反射豁免）。然后，它从胸部向@Template[type:cone|distance:60]或@Template[type:line|distance:120]内发射一轮激光，该区域不能与其行走经过的区域重叠，造成@Damage[10d8[force]|options:area-damage]伤害（基础反射豁免）。</p>\n<p><strong>离去</strong><em>导弹发射井</em>全开：机器人向至多120尺外的至多8个不同生物发射火箭，造成@Damage[9d8[fire]|options:area-damage]伤害（基础反射豁免）。</p>"
     },
     "UeodgQQ4yBFDOPEK": {
-      "name": "精准追踪",
+      "name": "精准追踪 Sure Tracking",
       "description": "<p>你升级一件武器，使其发射的弹药能够在空间中精密调整自身位置，以更好地追踪目标。使用此武器的生物在向武器第二个射程增量内射击时，减值从–2降至0。此外，每当生物使用此武器对单个生物进行远程打击时，攻击忽略目标因掩蔽获得的AC环境加值。</p><hr /><p><strong>升阶（5环）</strong>你可以指定至多10件武器为目标。</p>"
     },
     "WYzRscCSsB8wT6Aq": {
-      "name": "废料化",
+      "name": "废料化 Junkify",
       "description": "<p>你将一件有用的科技产物腐蚀为过时的废料。目标受到1d8酸蚀伤害；如果目标是生物，由其进行一次基础反射豁免，否则由持有或持握目标的生物进行。失败时（或无人持有时），目标陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 2}。如果这项伤害使目标降至0点生命值，它便成为废料，且只要无人持有，它占据的所有空间就变为困难地形。</p><hr /><p><strong>升阶（+2）</strong>伤害增加1d8，故障状态值增加1。</p>"
     },
     "WzROOMfaK77OMgjB": {
-      "name": "神圣防火墙",
+      "name": "神圣防火墙 Divine Firewall",
       "description": "<p>你用神圣火焰充满周围的空间，保护其中的盟友，焚烧意图伤害你的敌人，尤其防范亵渎与科技威胁。你与区域内的盟友处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态。由于此效果仍使目标的位置显而易见，目标不能利用这种隐蔽来[[/act hide]]或[[/act sneak]]。</p>\n<p>在区域内开始其回合的敌人受到10点火焰伤害；若具有科技特征，则陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 1}；若具有亵渎特征，则陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮。</p>"
     },
     "X7HA6V2phMsaFce3": {
-      "name": "废料机器人",
+      "name": "废料机器人 Junkbot",
       "description": "<p>你将附近的废料塑造成一台1级或更低等级的迷你机器人，其图纸须被你用作此法术的施法载体（locus）。启动该迷你机器人。如果施法载体是通讯单元等手持科技物品，你可以用它装入迷你机器人运作所需的任何电子存储内容，例如节拍机器人的歌曲或摄影机器人的存储空间。法术结束时，迷你机器人变为一堆废料。</p><hr /><p><strong>升阶（3环）</strong>你创造的迷你机器人至多为2级。</p>\n<p><strong>升阶（4环）</strong>你创造的迷你机器人至多为4级。</p>\n<p><strong>升阶（5环）</strong>你创造的迷你机器人至多为8级。</p>\n<p><strong>升阶（6环）</strong>你创造的迷你机器人至多为12级。</p>\n<p><strong>升阶（7环）</strong>你创造的迷你机器人至多为14级。</p>"
     },
     "XVPXR4NpkrVw2KjG": {
-      "name": "侦测科技",
+      "name": "侦测科技 Detect Technology",
       "description": "<p>你发出一道魔法脉冲，侦测科技的存在，包括具有科技特征的生物、危害和物体。除了是否存在科技以外，你不会获得其他信息。你可以选择忽略自己完全知晓的科技，例如你与盟友携带的科技，以及你正搭乘的飞船。</p><hr /><p><strong>升阶（3环）</strong>你得知最强大科技的等级或环级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位等级或环级最高的科技的来源。如同不精确感官一样，你无法得知确切位置，但可以将来源缩小至一个5尺立方空间内（若来源大于此尺寸，则定位其最近的部分）。</p>"
     },
     "ZSlXevjqvcApnO36": {
-      "name": "炫目表情",
+      "name": "炫目表情 Blinding Emoji",
       "description": "<p>你创造出一个如此明亮的表情，以至于它自己都戴着墨镜，以免被自身的光芒刺伤。你施放法术时位于区域内的生物，或在区域内开始其回合的生物，必须尝试一次强韧豁免。每次维持法术时，你可以将区域移动至多30尺。</p><hr /><p><strong>大成功</strong>该生物不受影响，并暂时对炫目表情免疫，持续1分钟。</p>\n<p><strong>成功</strong>该生物不受影响。</p>\n<p><strong>失败</strong>该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}，直到其下回合结束。</p>\n<p><strong>大失败</strong>该生物陷入目盲，持续1分钟。</p>"
     },
     "a8t4GpinUPJE0oLO": {
-      "name": "生物机械共生",
+      "name": "生物机械共生 Biomechanical Symbiosis",
       "description": "<p>你将魔力重新导向目标的电路，激发魔法与科技结合的治疗。目标立即恢复2点生命值，且在法术持续时间内，每轮首次也恢复2点生命值。每当目标受到电击伤害，或因故障状态进行纯骰检定时，它也恢复2点生命值。</p><hr /><p><strong>升阶（+1）</strong>恢复的生命值增加2。</p>"
     },
     "aKWVS9cT4q22loRJ": {
-      "name": "活化护甲",
+      "name": "活化护甲 Animate Armor",
       "description": "<p>你将自身意志的一部分注入护甲，使外层甲板飞离你的身体，自主协助战斗。你召唤一具@UUID[Compendium.sf2e-anachronism.alien-core-bestiary.Actor.2oGp04TzbcaiLlOa]为你作战。活化科技护甲可以使用该护甲的任何能力，如同该护甲已被启动并由它穿戴。</p><hr /><p><strong>升阶（5环）</strong>召唤的护甲具有飞行和精英调整。</p>"
     },
     "amWAlEKTNuBAgj5m": {
-      "name": "废料武器",
+      "name": "废料武器 Junk Weapon",
       "description": "<p>废料飞聚成一件临时武器。你在自己手中、相邻盟友的手中，或相邻方格的地面上，创造一件常见的进阶、军用或简易武器。该武器为商用型，配有充满电的默认电池，并装满基础弹药或化学剂。它不能由任何特殊材料制成。</p>\n<p>该武器比通常少一个升级槽。施放此法术时，你可以将手中持有、用作施法载体（locus）的任何升级配件，自动安装进武器的任意升级槽。你通过交互收起<em>废料武器</em>时，可以将其折叠成你某条肢体上不起眼的饰品，例如废料制成的手镯或手套。</p><hr /><p><strong>升阶（2环）</strong>你可以创造战术型武器。</p>\n<p><strong>升阶（4环）</strong>你可以创造先进型武器。</p>\n<p><strong>升阶（5环）</strong>你可以创造卓越型武器。</p>\n<p><strong>升阶（6环）</strong>你可以创造菁英型武器。</p>\n<p><strong>升阶（8环）</strong>你可以创造终极型武器。</p>\n<p><strong>升阶（9环）</strong>你可以创造完美型武器。</p>"
     },
     "bTTakzdSo2S8fX92": {
-      "name": "废料之墙",
+      "name": "废料之墙 Wall of Junk",
       "description": "<p>你塑造一面垃圾屏障，阻挡视线，且被打破后会妨碍敌人。你创造一面1尺厚的废料墙，形状可以是半径10尺的半球，或至多60尺长、10尺高的直墙。墙壁不必竖直，但两端必须固定在坚固表面上，且不能穿过任何生物或物体，否则法术失效。</p>\n<p>每块10尺见方的墙段具有AC 10、硬度5和20点生命值，且免疫重击和精准伤害。被摧毁的墙段会留下一堆锋利废料，形成困难地形及危险地形；生物在自己的回合首次进入该地形时，受到2d6挥砍伤害。</p><hr /><p><strong>升阶（+2）</strong>挥砍伤害增加1d6。</p>"
     },
     "cn0QFZOBORN9mwr0": {
-      "name": "监控视觉",
+      "name": "监控视觉 Surveillance Vision",
       "description": "<p>你在10尺内任一坚固表面上创造一台隐形的监控摄像机，具有1点HP和AC 10。它使用你通常的视觉感官观察所有方向。只要处于同一位面，你就能持续同时使用自身感官和摄像机的视觉进行感知。同一时间只能有一台摄像机运作；如果你制造第二台，第一台会被摧毁。你可以解除此法术。</p><hr /><p><strong>升阶（7环）</strong>持续时间变为无限。</p>"
     },
     "dO7QnIrHTwmCzKQB": {
-      "name": "废铁喷射",
+      "name": "废铁喷射 Scrap Spray",
       "description": "<p>你向身前的一片区域喷射锋利的废铁。废铁喷射对区域内每个生物造成1d6钝击、挥砍或穿刺伤害。每个生物必须尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全额伤害，并陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]，直到你的下回合开始。</p>\n<p><strong>大失败</strong>该生物受到双倍伤害，并陷入被压制，直到你的下回合开始。</p><hr /><p><strong>升阶（+2）</strong>伤害增加3d6。</p>"
     },
     "e65BnxbVVAMZ3Kqt": {
-      "name": "科技焚爆",
+      "name": "科技焚爆 Technological Combustion",
       "description": "<p>你使一件科技武器的系统迅速过热，令其喷出一道毁灭性的热浪。如果目标被持有或穿戴，持有或持握它的生物尝试一次反射豁免。失败时，或目标无人持有时，目标陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 2}，且目标20尺内所有生物受到@Damage[5d10[fire]]伤害，进行一次基础反射豁免。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d10。</p>"
     },
     "e98MfMLWgbwOFCZo": {
-      "name": "舞蹈表情",
+      "name": "舞蹈表情 Dancemoji",
       "description": "<p>你创造一个舞者表情，鼓舞所有追随它舞步的人。你施放法术时，以及此后每个回合首次维持法术时，舞者表情飞行或行走至多20尺，在经过的每个空间留下发光舞池的轨迹，保留至法术持续时间结束。进入轨迹或在其中开始回合的盟友，其各项速度获得+5尺状态加值，直到该回合结束。在轨迹上开始飞行或行走、且整个移动过程始终未离开轨迹的盟友，还会模仿舞者的优雅动作，获得AC的+1环境加值，直到其下回合开始。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.x1spmy09vSuw6aQ2]{法术效果：舞蹈表情（速度加值）}</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.P8ZUzFQZ43qsUxdA]{法术效果：舞蹈表情（AC加值）}</p>"
     },
     "eChIzJ8Zvcmd6HWs": {
-      "name": "哭泣表情",
+      "name": "哭泣表情 Crymoji",
       "description": "<p>你创造一个哭得泪水四溅的表情，它可能是喜极而泣，也可能悲伤不已。每个回合中，当一个生物首次在区域内开始行走时，它必须成功通过一次反射豁免，否则就@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}并受到1d6钝击伤害，该移动被打断。每次维持法术时，区域增加5尺。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d6。</p>"
     },
     "fD644qK2ftpFhebf": {
-      "name": "构筑舱壁堡垒",
+      "name": "构筑舱壁堡垒 Build Bulkhead Stronghold",
       "description": "<p>你迅速召来一座环绕自身的小型科技堡垒，所有敌人均被推至区域外最近的安全空位。堡垒具有AC 10、硬度10和150点生命值，并且免疫重击和精准伤害。它具有科技特征。堡垒伸出几条大型机械腿，使它可以随你移动，始终让你处于其中心。堡垒会自动开放以供盟友进入，同时将敌人拒之门外。当你的移动本会使敌人进入区域时，它们改为被推至最近的安全空位。敌人无法进入堡垒。堡垒内的盟友获得标准掩蔽的收益，而所有在堡垒内开始其回合的盟友，获得10点临时生命值，保留至法术持续时间结束。</p>"
     },
     "fs6YggxBweDzV3yG": {
-      "name": "科技恐惧症",
+      "name": "科技恐惧症 Technophobia",
       "description": "<p>你从信息圈收集数千名愤怒科技用户的讨论串，使他们的痛苦在目标每次使用科技时化为现实。目标必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标每轮首次使用科技物品时，受到@Damage[2d10[mental]]伤害。</p>\n<p><strong>失败</strong>如同成功，但目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}，并受到@Damage[4d10[mental]]伤害。</p>\n<p><strong>大失败</strong>如同成功，但目标陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 2}，并受到@Damage[8d10[mental]]伤害。</p>"
     },
     "ftPpuRM57GD3SDBQ": {
-      "name": "天使信号",
+      "name": "天使信号 Angelic Signal",
       "description": "<p><strong>触发</strong>一位盟友成为科技生物，或持握具有科技特征的武器的生物的攻击目标。</p><hr /><p>一位天使信使使攻击者的科技设备涌出由祷告衍生的无意义数据，将攻击者淹没其中。目标必须尝试一次意志豁免。无论结果如何，目标均在10分钟内对天使信号免疫。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标使用科技武器进行的所有攻击掷骰和伤害掷骰受到–1状态减值，直到该回合结束。</p>\n<p><strong>失败</strong>目标使用科技武器进行的所有攻击掷骰和伤害掷骰受到–2状态减值，直到该回合结束。</p>\n<p><strong>大失败</strong>目标使用科技武器进行的所有攻击掷骰和伤害掷骰受到–3状态减值，直到该回合结束。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.SarrQCwkkLjA2ehZ]{法术效果：天使信号}</p>"
     },
     "hMYeUxTRfjSDhSRL": {
-      "name": "宇宙辐射控制棒",
+      "name": "宇宙辐射控制棒 Cosmic Radiation Rods",
       "description": "<p>你召来一片由数千根微小、无实体的控制棒组成的场域，吸收环境辐射。这些控制棒悬浮在你周围的空气中，但过于细小，不会影响视线或以其他方式妨碍选定目标。区域内所有盟友获得对辐射效果伤害的抗力5，以及对抗毒素和辐射效果的强韧豁免的+1状态加值。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.zYQ0A3cET9h0iMW3]{法术效果：宇宙辐射控制棒}</p><hr /><p><strong>升阶（+3）</strong>状态加值增加1，抗力增加5。</p>"
     },
     "hY6HnTzr97uUqI2V": {
-      "name": "宇宙涡流",
+      "name": "宇宙涡流 Cosmic Eddy",
       "description": "<p>你召来一道旋转的魔法力场涡流，冲击目标并妨碍其移动。施放法术时位于区域内，或在其中开始其回合的生物，受到6d6力场伤害，进行一次基础反射豁免；失败时，该生物还会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。该区域是困难地形，尝试在区域内飞行的生物必须对抗你的法术DC尝试一次特技检定；失败时，移动被打断，该动作剩余的移动距离全部浪费。此外，区域内无人持有、负载为轻或更低的物品会在涡流中被抛来抛去，并在法术结束时落至区域内的随机空间。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
     },
     "i4KJpgO0nv6TY73L": {
-      "name": "盾墙",
+      "name": "盾墙 Shield Wall",
       "description": "<p>你放大盾牌的防护力量，将它砸向地面，使其长成一面至多60尺长、30尺高、1/4寸厚的墙。墙壁与施法载体（locus）由相同材料构成，不必竖直，形成一条平行于盾牌表面的直线。如果墙壁会穿过生物或物体，法术失效。每块10尺见方的墙段具有AC 10，免疫重击和精准伤害，且硬度、HP与BT均与施法载体相同。生物可以穿过已破损的墙段。</p>"
     },
     "iE2Zih3Uyq87oHjH": {
-      "name": "亵渎机械",
+      "name": "亵渎机械 Corrupt Machine",
       "description": "<p>你将一道亵渎灵体融入目标，使其外观扭曲为骇人的形态。该武器获得亵渎特征，命中时额外造成1d4火焰伤害。被此武器重击的生物还会陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p><hr /><p><strong>升阶（4环）</strong>伤害增加至2d4。</p>\n<p><strong>升阶（6环）</strong>伤害增加至3d4。</p>\n<p><strong>升阶（8环）</strong>伤害增加至4d4。</p>"
     },
     "iIub6uEavnMJEN4z": {
-      "name": "召来废料载具",
+      "name": "召来废料载具 Conjure Junkrod",
       "description": "<p>你将距离内的一堆废料组装成一辆功能齐全的载具。废料在相邻的未占用空间内变为一辆0级陆地载具，例如悬浮滑板。这辆载具显然是临时产物，不能出售或交易，并在法术结束时散落成毫无价值的废料。如果载具陷入破损，法术提前结束。</p><hr /><p><strong>升阶（3环）</strong>你创造一辆1级或更低等级的陆地或水上载具，例如水上摩托或叉车。</p>\n<p><strong>升阶（4环）</strong>你创造一辆4级或更低等级的陆地或水上载具，例如都市巡游车或鱼雷迷你潜艇。</p>\n<p><strong>升阶（5环）</strong>你创造一辆5级或更低等级的空中、陆地或水上载具，例如飞舟或涡轮滑翔机。</p>\n<p><strong>升阶（6环）</strong>你创造一辆7级或更低等级、任意种类的载具，例如空投舱。</p>\n<p><strong>升阶（7环）</strong>你创造一辆9级或更低等级的载具。</p>\n<p><strong>升阶（8环）</strong>你创造一辆11级或更低等级的载具。</p>\n<p><strong>升阶（9环）</strong>你创造一辆13级或更低等级的载具。</p>\n<p><strong>升阶（10环）</strong>你创造一辆15级或更低等级的载具。</p>"
     },
     "iPfHkWGAwocCqU1E": {
-      "name": "转移意识",
+      "name": "转移意识 Transfer Consciousness",
       "description": "<p>你将心智投射进一件先进科技产物，使你能够如同操纵自身肉体一样与其系统交互。目标的等级必须等于或低于你的等级。你的本体无力自保并@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}，如同你已@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}。法术结束时，只要你的本体和目标处于同一位面，你的心智便立即返回本体。否则，法术变为永久，而你的真正肉体陷入昏迷。</p>\n<p>心智位于计算机中时，你可以在1小时内使用自己的法术攻击调整值，代替与该系统有关的计算机技能动作所用的计算机调整值；即使你在计算机技能上未受训，也可以尝试其受训技能动作。</p>\n<p>心智位于构装体中时，你能在1分钟内使用其躯体机能，像操纵自身肉体一样控制它。你可以使用构装体拥有的任何特殊动作，但不能施放它的法术（若有）。你可以通过构装体的躯体施放自己的法术。</p>"
     },
     "j25dWcmRG1vv5DJc": {
-      "name": "炼金射击",
+      "name": "炼金射击 Alchemical Shot",
       "description": "<p>你将废金属转化为一发由高纯度贵金属组成的霰弹。区域内生物受到1d8穿刺伤害，进行一次基础反射豁免。该伤害视为寒铁或银（在施放法术时选择）。除判定免疫、抗力和弱点外，法术不会因所选材料获得任何收益。</p><hr /><p><strong>升阶（3环）</strong>伤害增加至3d8。</p>\n<p><strong>升阶（5环）</strong>伤害增加至6d8，且你还可以选择使伤害视为精金、寒铁或银。</p>\n<p><strong>升阶（7环）</strong>如同5环，且伤害增加至9d8。</p>\n<p><strong>升阶（9环）</strong>伤害增加至12d8，且你可以选择使伤害视为任意贵金属。</p>"
     },
     "jAPEfvqa62jUPuL6": {
-      "name": "躁动玩具",
+      "name": "躁动玩具 Turbulent Toys",
       "description": "<p>由魔法电池驱动的儿童玩具填满区域，开始四处滚动、碰撞和翻腾。这些玩具是半实体构装体，无法被移动或损伤。你施放法术时，以及此后每轮首次维持法术时，你选择玩具造成的骚动，然后将区域移动至多5尺。</p><ul><li><p><strong>脚踝碰撞</strong>玩具冲撞区域内生物的双脚，每个生物必须成功通过一次反射豁免，否则就会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p></li><li><p><strong>耗电大户</strong>玩具窃取能量来驱动自身。区域内所有由电池供能的设备失去2充能。</p></li><li><p><strong>频闪狂欢</strong>玩具释放出令人眩晕的闪光和彩色烟雾。区域内每个生物必须成功通过一次意志豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，直到你的下回合开始。此效果具有视觉特征。</p>\n</li></ul>"
     },
     "jChXPibVLmIC9QaE": {
-      "name": "抚慰表情",
+      "name": "抚慰表情 Comfortmoji",
       "description": "<p>一个绷带表情覆盖目标，使其获得快速回复2，直到法术持续时间结束或它移除绷带，以先发生者为准。目标或一名盟友（目标须自愿）可以通过交互移除绷带，并将其贴到相邻的另一个生物身上，将法术的收益转移给该生物。这不会重置法术的持续时间。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.qDgekQoABV0vskX8]{法术效果：抚慰表情}</p><hr /><p><strong>升阶（+1）</strong>快速回复增加2。</p>"
     },
     "jqnRZasqIRUAP2Uy": {
-      "name": "电路布线",
+      "name": "电路布线 Circuit Trace",
       "description": "<p>一团金铜丝线填满你周围的空间，拖曳在你身后，使他人难以通过。你施放法术时，以及此后每轮首次维持法术时，你进行至多等于自身速度或25尺（以较低者为准）的行走，在身后拖曳导线，使你离开的方格在持续时间内变为困难地形。你忽略电路布线造成的困难地形。</p><hr /><p><strong>升阶（5环）</strong>法术改为创造高等困难地形。</p>"
     },
     "kPp8vbT1R5afbOux": {
-      "name": "废料镣铐",
+      "name": "废料镣铐 Junk Restraints",
       "description": "<p>废料碎片夹住目标的肢体，像一组临时镣铐般将其锁定。目标必须尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]，持续1轮。</p>\n<p><strong>失败</strong>该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}和被压制，持续1小时。</p>\n<p><strong>大失败</strong>如同失败，但该生物还会陷入@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，并将所持所有物品掉落在自身空间内。镣铐的[[/act force-open]]和[[/act escape]]DC均等于你的法术DC。生物可以攻击镣铐，试图将其打断。镣铐具有等于你法术DC的AC、硬度5和20点生命值。摧毁、破开镣铐，或从中脱逃，都会结束法术。</p><hr /><p><strong>升阶（3环）</strong>废料具有硬度8和66点生命值。</p>\n<p><strong>升阶（5环）</strong>废料具有硬度8和88点生命值。</p>\n<p><strong>升阶（8环）</strong>废料具有硬度10和100点生命值。</p>"
     },
     "kmhaxRaiLMJM6DOg": {
-      "name": "禁言表情",
+      "name": "禁言表情 Censormoji",
       "description": "<p><strong>触发</strong>距离内的一个生物施放法术，或执行具有听觉特征的动作。你用一个禁言表情打断该生物的言语，其形状是划有斜线的扬声器，或围绕它嘴巴或扬声器的巨大红色X。触发的生物必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你的下回合结束。</p>\n<p><strong>失败</strong>该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}和措手不及，持续1分钟。</p>\n<p><strong>大失败</strong>该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 3}和措手不及，持续1分钟。</p>"
     },
     "nMOmER5WBdCEkn6v": {
-      "name": "升级构装体",
+      "name": "升级构装体 Upgrade Construct",
       "description": "<p>你升级目标的武器与护甲。目标的AC获得+1状态加值，其打击额外造成2d4伤害，伤害类型与基础武器相同。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.2scpka5RpCsYxXsx]{法术效果：升级构装体}</p><hr /><p><strong>升阶（+3）</strong>AC的状态加值增加1，额外伤害增加1d4。</p>"
     },
     "nam1metCZqYItFck": {
-      "name": "电缆管理",
+      "name": "电缆管理 Cable Management",
       "description": "<p>大量纠缠相连的计算机电缆同时从四面八方涌出。区域内的空间在持续时间内变为困难地形。每当生物在缆线团内开始一个移动类动作，或在移动类动作中进入缆线团时，它必须成功通过一次反射豁免，否则其各项速度受到–10尺状态减值，直到离开区域。大失败时，该生物还会陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，持续1轮。此外，电缆纠缠得极其密集，为区域内生物提供标准掩蔽。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.6qaemGGjypQIuKAW]{法术效果：电缆管理}</p>"
     },
     "oSFO8npwL2vKDdxm": {
-      "name": "废料护甲",
+      "name": "废料护甲 Junk Armor",
       "description": "<p>你用废料创造一套轻甲、中甲或重甲，并立即将其穿上。你失去施放此法术时原本所穿护甲的收益，包括该护甲内的任何升级配件。你可以创造任何常见的商用型护甲；若它原本没有嘈杂和科技特征，就获得这两种特征。它不能由任何特殊材料制成。</p>\n<p>该护甲比通常少一个升级槽。施放此法术时，你可以将手中持有、用作施法载体（locus）的任何升级配件，自动安装进护甲的任意升级槽。</p><hr /><p><strong>升阶（2环）</strong>你可以创造战术型护甲。</p>\n<p><strong>升阶（5环）</strong>你可以创造先进型护甲。</p>\n<p><strong>升阶（6环）</strong>你可以创造卓越型护甲。</p>\n<p><strong>升阶（8环）</strong>你可以创造菁英型护甲。</p>\n<p><strong>升阶（9环）</strong>你可以创造终极型护甲。</p>\n<p><strong>升阶（10环）</strong>你可以创造完美型护甲。</p>"
     },
     "onJigrID4TH48kag": {
-      "name": "审判炮台",
+      "name": "审判炮台 Judgment Cannon",
       "description": "<p>你在距离内一个未占用空间中创造一座由神能力场构成、幽灵般的半实体炮台。炮台为中型；生物可以穿过炮台的空间，但不能在其中结束移动。你施放法术时，以及此后每轮中每个回合首次维持法术时，炮台开火，对自炮台起始的60尺线形内所有生物造成8d8灵魂伤害（基础反射豁免）。</p><hr /><p><strong>升阶（+1）</strong>伤害增加1d8。</p>"
     },
     "pccdWdF0fwU3UKzZ": {
-      "name": "爆炸表情",
+      "name": "爆炸表情 Burstmoji",
       "description": "<p>你创造一个爆炸表情，它喷涌出大量火焰。区域内生物受到6d6火焰伤害（基础反射豁免），且该区域在持续时间内变为困难地形及危险地形。在区域内开始其回合，或穿过区域内方格的生物，受到@Damage[(@item.rank + (@item.rank - 3))[fire]]伤害。</p><hr /><p><strong>升阶（+1）</strong>初始火焰伤害增加2d6，危险地形的火焰伤害增加2。</p>"
     },
     "q0JMsrMuk19oLzXY": {
-      "name": "构筑护盾发生器",
+      "name": "构筑护盾发生器 Build Shield Generator",
       "description": "<p>你将魔法与科学结合，在相邻的一个空位创造一台护盾发生器。发生器为小型，明显是护盾的来源，具有AC 10和40点生命值，免疫重击和精准伤害。发生器还具有科技特征。它发出微弱而闪耀的光芒，覆盖你和60尺内的所有盟友，赋予AC的+1状态加值，以及对酸蚀、寒冷、电击、火焰、力场和音波伤害的抗力4。如果发生器被摧毁，法术结束。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.n5h45KB6hL3oVyQc]{法术效果：构筑护盾发生器}</p><hr /><p><strong>升阶（+1）</strong>发生器的生命值增加10，赋予的抗力增加1。</p>"
     },
     "qwVddukwlfbtm1Ti": {
-      "name": "循环重启",
+      "name": "循环重启 Boot Loop",
       "description": "<p>你以声音的力量发出一道精心编写的命令，引发大规模重启，并将躯体震散。你对区域内所有生物造成10d8音波伤害。每个生物必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全额伤害。具有科技特征的生物陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 1}，不具有科技特征的生物陷入@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{耳聋}，持续1轮。</p>\n<p><strong>大失败</strong>目标受到双倍伤害。具有科技特征的生物陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 2}，不具有科技特征的生物陷入耳聋，持续1分钟。</p>"
     },
     "rBlHYUZH1anYD4cg": {
-      "name": "废铁护壳",
+      "name": "废铁护壳 Scrap Shell",
       "description": "<p><strong>触发</strong>你被一个造成伤害的效果或打击重击。</p><hr /><p>你迅速在自身与触发攻击之间拼起一层脆弱的废铁，废铁碎裂，吸收部分冲击力。废铁具有硬度5和@Damage[10[healing]]生命值。如果废铁被摧毁，你受到它未能吸收的剩余伤害。承受攻击后，废铁坍塌为一堆废料。</p><hr /><p><strong>升阶（+1）</strong>废铁的生命值增加10。</p>"
     },
     "tlGugw7XE5xYUsxZ": {
-      "name": "构筑哨戒炮",
+      "name": "构筑哨戒炮 Build Sentries",
       "description": "<p>你部署哨戒炮台攻击入侵者。施放法术时，你每花费一个动作，便在距离内一个空位部署一座哨戒炮台，将其固定在任何坚固表面上。这些哨戒炮台为小型，明显具有危险性。它们具有AC 10、硬度3和15点生命值，免疫重击和精准伤害，还具有科技特征。每当一个可见、且并非正在避免被注意、躲藏或潜行的生物进入哨戒炮台15尺内时，你的通讯单元就会收到提示音及该生物的一小段影像。此后每轮中，你可以在自己的回合通过与通讯单元交互，命令任意数量的哨戒炮台各向其30尺内一个生物发射一道能量束，造成2d6火焰伤害（基础反射豁免），每轮限一次。即使一个生物处于多座哨戒炮台的距离内，它每个回合也只能被其中一座指定为目标。</p><hr /><p><strong>升阶（+2）</strong>每座哨戒炮台的生命值增加10，伤害增加1d6。</p>"
     },
     "vgagfjqR9N572poC": {
-      "name": "盘绕电光墙",
+      "name": "盘绕电光墙 Wall of Coiling Lightning",
       "description": "<p>你创造两根20尺高的金属线圈以驾驭电力，在彼此相距至多30尺的两个未占用空间之间拉起电弧。每根线圈具有AC 10和60点生命值，免疫重击和精准伤害。任一线圈被摧毁，法术便结束。持续不断的电流以可见的直线流过两根线圈之间。生物可以看穿并穿过线圈；然而，如果生物进入电流中或一根线圈5尺内，或在这些位置开始其回合，它受到4d12电击伤害，进行一次基础反射豁免。豁免失败时，目标还会陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮。</p><hr /><p><strong>升阶（+2）</strong>伤害增加1d12。</p>"
     },
     "vuiUvfh3ptO9gnDI": {
-      "name": "表情炮击",
+      "name": "表情炮击 Bombarding Emojis",
       "description": "<p>你召来一阵从天而降的表情轰炸。区域内的生物受到6d8力场伤害（基础反射豁免）。你施放法术时，以及此后每轮首次维持法术时，区域内每个生物受到6d8力场伤害（基础反射豁免）。</p>"
     },
     "yG9AUj9Krcrx7U87": {
-      "name": "构筑治疗站",
+      "name": "构筑治疗站 Build Healing Station",
       "description": "<p>你在相邻的空位部署一座悬浮于空中的站点，为战斗者补充能量，使其准备好继续作战。站点为小型，明显是治疗的来源，具有AC 10和30点生命值，免疫重击和精准伤害，还具有科技特征。每当你或一位盟友在与治疗站相邻的位置结束回合时，该相邻角色恢复5点生命值，并获得豁免的+1状态加值，持续1轮。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.5ozraYweDASGAZct]{法术效果：构筑治疗站}</p><hr /><p><strong>升阶（+3）</strong>站点的生命值增加30，治疗量增加5。</p>"
     },
     "yIRR3rgI0gtNrKQf": {
-      "name": "构筑加速环",
+      "name": "构筑加速环 Build Booster Ring",
       "description": "<p>你用魔法科技创造一个厚1寸、宽10尺、高10尺的圆环。你必须将圆环创造在一处完整的开放空间中，其边缘不能穿过任何生物或物体，否则法术失效。圆环内有一道时空涟漪，可以强化穿过其中的事物。穿过圆环的生物或载具，其各项速度获得+30尺状态加值，直到该回合结束。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.VVGU0hHVetx0WNci]{法术效果：构筑加速环}</p>"
     }
   }
