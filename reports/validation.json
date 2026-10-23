@@ -1,5 +1,5 @@
 {
-  "version": "0.3.2",
+  "version": "0.3.3",
   "babeleVersion": "2.9.1",
   "babeleSourceCommit": "49c42edc3f2939934ed1d7105600914b3c8d58a2",
   "babeleSource": "https://gitlab.com/riccisi/foundryvtt-babele/-/tree/2.9.1",
@@ -29,7 +29,7 @@
     "zh-Hans.custom",
     "en"
   ],
-  "versionMismatchNotification": true,
+  "versionMismatchNotification": false,
   "registrationFailureNotification": true,
   "translationFilesDiscovered": 29,
   "orderedHtmlTagsUnchanged": true,
@@ -101,7 +101,7 @@
     "sf2e-anachronism.tales-from-the-vast-bestiary.json": "2c943afb0ea1d529b4f7e10b5ad809dfc80e6759573a9fc818d9812b4d90e703",
     "sf2e-anachronism._packs-folders.json": "cf965dc4d1e569ca9dd1e8b435369a63f7994d8deecfb2345b824353894aaed3"
   },
-  "runtimeScriptSha256": "92cbc1f2e238a832309d30fc0d27c895e5d64b56c0876e05d93e5f7b78196271",
+  "runtimeScriptSha256": "4cfe721c8518869c2e0e2f41fc0b3d65c6c51f5ea96c18eca38df48689815759",
   "otherTranslationFilesByteIdenticalTo031": 28,
   "sourceOriginalFilesUnchanged": true,
   "existingWorldDocumentsUpdated": false,
@@ -206,5 +206,28 @@
     },
     "openBlockingFindings": [],
     "finalRecheck": "独立重跑当前正式代码：深冻结源对象成功，仅description.value/rules.1.value变更，4种额外规则改动拒绝，稀疏索引零提示，后续真实冲突正常提示一次。"
+  },
+  "missingSourceNotification": true,
+  "futureVersionRegistrationChecked": [
+    "2.4.1",
+    "2.5.0",
+    "3.0.0"
+  ],
+  "holyCorrectionExactVersionGuardRetained": true,
+  "compatibilityUpdate": {
+    "foundryVerified": "14",
+    "verificationSource": "user-reported live verification",
+    "exactFoundryBuildNotProvided": true,
+    "sourceMinimum": "2.4.0",
+    "sourceMaximum": null,
+    "registrationVersionLockRemoved": true,
+    "holyCorrectionSourceVersion": "2.4.0",
+    "futureSourceContentVerified": false
+  },
+  "liveFoundryVerification": {
+    "reportedBy": "user",
+    "version": "14",
+    "agentPerformedLiveTest": false,
+    "scope": "User confirmed usable; exact build and test scenarios not specified"
   }
 }

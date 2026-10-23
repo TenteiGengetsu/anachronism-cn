@@ -102,7 +102,9 @@ export function isChineseLanguage(language) {
 export function registerLocalization(babele) {
     if (game.system.id !== "pf2e") return {registered: false, reason: "system"};
     const source = game.modules.get("sf2e-anachronism");
-    if (!source?.active || source.version !== "2.4.0") {
+    // Foundry enforces the minimum dependency version from module.json.
+    // Translation registration must survive later source-module updates.
+    if (!source?.active) {
         return {registered: false, reason: "source", sourceVersion: source?.version ?? null};
     }
     babele.registerConverter("sf2eAnachronismCnPrerequisites", {translate: translatePrerequisites});
@@ -125,7 +127,7 @@ Hooks.once("babele.init", (babele) => {
     try {
         registrationResult = registerLocalization(babele);
         if (registrationResult.reason === "source") {
-            console.warn("SF2e 中文汉化：本版仅面向 Anachronism 2.4.0，已跳过注册。", registrationResult);
+            console.warn("SF2e 中文汉化：Anachronism 未启用，已跳过注册。", registrationResult);
         }
     } catch (error) {
         registrationResult = {registered: false, reason: "error", message: error.message};
@@ -151,7 +153,7 @@ Hooks.once("setup", () => {
 Hooks.once("ready", () => {
     if (!game.user?.isGM || !isChineseLanguage(game.i18n?.lang)) return;
     if (registrationResult?.reason === "source") {
-        ui.notifications.warn("SF2e 中文汉化未加载：请启用 Anachronism 2.4.0；当前版本：" + (registrationResult.sourceVersion ?? "未安装"));
+        ui.notifications.warn("SF2e 中文汉化未加载：请启用 Anachronism 2.4.0 或更新版本；当前版本：" + (registrationResult.sourceVersion ?? "未安装"));
     } else if (registrationResult?.reason === "error") {
         ui.notifications.warn("SF2e 中文汉化注册失败：" + registrationResult.message);
     } else if (!registrationResult) {

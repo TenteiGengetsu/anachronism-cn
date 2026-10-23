@@ -1,5 +1,5 @@
 {
-  "version": "0.3.2",
+  "version": "0.3.3",
   "sourceSha256": "a0930bc5b32fbf533630128b11bd893b4bd0aedd18709e975302efd543fd5e1a",
   "glossarySha256": "868394c0ec129f215af1525d86814aaa78ae07fb95298f215b055e67c5bc680f",
   "wiki": {
@@ -645,5 +645,15 @@
       "worldDocumentsUpdated": false,
       "failureBehavior": "身份、包、源说明或完整规则数组不匹配时整项跳过并提示GM，保留源说明与规则。"
     }
-  ]
+  ],
+  "compatibilityUpdate": {
+    "foundryVerified": "14",
+    "verificationSource": "user-reported live verification",
+    "exactFoundryBuildNotProvided": true,
+    "sourceMinimum": "2.4.0",
+    "sourceMaximum": null,
+    "registrationVersionLockRemoved": true,
+    "holyCorrectionSourceVersion": "2.4.0",
+    "futureSourceContentVerified": false
+  }
 }
