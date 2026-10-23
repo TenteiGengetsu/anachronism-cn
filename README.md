@@ -30,3 +30,14 @@ https://raw.githubusercontent.com/TenteiGengetsu/anachronism-cn/main/module.json
 根据实际控制台日志修复：Babele 初始化早于 Foundry 核心语言设置的注册，0.2.1 在此时读取 core.language 会抛出异常，导致未注册译文。现于初始化阶段直接注册已知中文语言代码，扩展语言代码在 setup 阶段按 game.i18n.lang 补充，彻底移除汉化代码对 core.language 设置的访问；注册异常与未收到初始化事件分别显示提示。
 
 通过清单安装的用户仍须将本版根目录 module.json、scripts/register.mjs 及 dist/anachronism-cn.zip 一并更新到仓库，然后在 Foundry 更新至 0.2.2 并重新进入世界。
+
+
+## 0.2.3 动作续补与字段纠正
+
+沿用 0.2.2 的 29 个翻译文件、加载脚本、注册语言代码及目录结构。本批只修改动作翻译文件；其余 28 个文件与加载脚本逐字节不变。
+
+动作中文名称从 68/151 增至 89/151；含中文说明的动作从 49/151 增至 85/151。新增内容包括使节指令、科技法师与机械师动作、嵌套在族裔／变体专长中的反应动作，以及伤害、模板与检定的中文对齐。部分条目只有名称或部分段落已汉化。
+
+纠正初学者幸运、重导能量等嵌套动作的触发／效果错位。对持续时间、技能动作、目标限制、邻接条件等与原条目不同的 Wiki 中文保留英文，并记录在 reports/review-conflicts.json 中；未用新译补齐缺失来源。原有数字字段、规则元素、UUID、宏参数与 HTML 标签保持原值。
+
+安装或更新时保持现有路径：清单 module.json 与安装包 dist/anachronism-cn.zip 均已同步为 0.2.3。完整校验结果见 reports/validation.json；未在运行中的 Foundry 世界实测。

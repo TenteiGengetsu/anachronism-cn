@@ -214,5 +214,229 @@
   },
   "sf2e-anachronism.ancestry-features.json|/entries/Six-Armed/system/description/value": {
     "reason": "Wiki says only active hands may perform actions; source only restricts wielding items. The broader restriction is not copied."
+  },
+  "sf2e-anachronism.actions.json|/entries/Attune/system/description/value#paragraph-1": {
+    "reason": "Wiki 将所需空手数量写为一只；原文要求具现所需的空手。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Actions-Attune.json",
+        "title": "Data:Actions-Attune.json",
+        "revision": 20075,
+        "section": "Attune",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
+  },
+  "sf2e-anachronism.actions.json|/entries/Auto-Fire/system/description/value#paragraph-0": {
+    "reason": "Wiki 省略区域内生物受到武器伤害的句子。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Actions-Auto-Fire.json",
+        "title": "Data:Actions-Auto-Fire.json",
+        "revision": 20127,
+        "section": "Auto-Fire",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
+  },
+  "sf2e-anachronism.actions.json|/entries/Photon Accelerator/system/description/value#paragraph-2": {
+    "reason": "Wiki 将额外动作的 Stride 译成快步（Step）；保持原文。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Feats-Capture Laser.json",
+        "title": "Data:Feats-Capture Laser.json",
+        "revision": 17144,
+        "section": "Photon Accelerator",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
+  },
+  "sf2e-anachronism.actions.json|/entries/Oppressive Presence/system/description/value#paragraph-1": {
+    "reason": "Wiki 增加能看见目标的限制，原文仅限制距离。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Actions-Oppressive Presence.json",
+        "title": "Data:Actions-Oppressive Presence.json",
+        "revision": 20095,
+        "section": "Oppressive Presence",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
+  },
+  "sf2e-anachronism.actions.json|/entries/Plate Deflection/system/description/value#paragraph-1": {
+    "reason": "Wiki 将任意重击限制成敌人的重击，原触发未限定来源。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Feats-Plated Deflection.json",
+        "title": "Data:Feats-Plated Deflection.json",
+        "revision": 10300,
+        "section": "Plate Deflection",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
+  },
+  "sf2e-anachronism.actions.json|/entries/Get 'Em!/system/description/value#paragraph-0": {
+    "reason": "Wiki 持续至下个回合结束，原条目持续至下个回合开始。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Actions-Get 'Em.json",
+        "title": "Data:Actions-Get 'Em.json",
+        "revision": 20026,
+        "section": "Get 'Em!",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
+  },
+  "sf2e-anachronism.actions.json|/entries/Install Upgrade/system/description/value#paragraph-1": {
+    "reason": "Wiki 正文省略安装或拆卸需双手使用修理工具包的限制。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Actions-Install Upgrade.json",
+        "title": "Data:Actions-Install Upgrade.json",
+        "revision": 19991,
+        "section": "Install Upgrade",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
+  },
+  "sf2e-anachronism.actions.json|/entries/Reactive Step/system/description/value#paragraph-1": {
+    "reason": "Wiki 写作快步两次，原条目为至多两次。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Actions-Reactive Step.json",
+        "title": "Data:Actions-Reactive Step.json",
+        "revision": 20024,
+        "section": "Reactive Step",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
+  },
+  "sf2e-anachronism.actions.json|/entries/Steel Yourselves!/system/description/value#paragraph-1": {
+    "reason": "Wiki 增加盟友须在下个回合开始前使用应对冲击的期限。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Actions-Steel Yourselves!.json",
+        "title": "Data:Actions-Steel Yourselves!.json",
+        "revision": 20028,
+        "section": "Steel Yourselves!",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
+  },
+  "sf2e-anachronism.actions.json|/entries/Living Shield/system/description/value#paragraph-0": {
+    "reason": "Wiki 触发省略相邻盟友也可受益的情况。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Feats-You'll Have To Go Through Me!.json",
+        "title": "Data:Feats-You'll Have To Go Through Me!.json",
+        "revision": 15843,
+        "section": "Living Shield",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
+  },
+  "sf2e-anachronism.actions.json|/entries/Nimbus Surge/system/description/value#paragraph-3": {
+    "reason": "Wiki 光量子分支持续至目标回合结束，原文持续至目标回合开始。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Actions-Nimbus Surge.json",
+        "title": "Data:Actions-Nimbus Surge.json",
+        "revision": 20035,
+        "section": "Nimbus Surge",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
+  },
+  "sf2e-anachronism.actions.json|/entries/Recharge/system/description/value#paragraph-0": {
+    "reason": "Wiki 需求栏限定完全耗尽的电池，原需求仅要求拥有电池。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Actions-Recharge.json",
+        "title": "Data:Actions-Recharge.json",
+        "revision": 20010,
+        "section": "Recharge",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
+  },
+  "sf2e-anachronism.actions.json|/entries/New Plan/system/description/value#paragraph-1": {
+    "reason": "Wiki 将临时免疫的对象写为大师谋划而非新计划。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Feats-Master Plan.json",
+        "title": "Data:Feats-Master Plan.json",
+        "revision": 10214,
+        "section": "New Plan",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
+  },
+  "sf2e-anachronism.actions.json|/entries/Overclock Gear/system/description/value#paragraph-2": {
+    "reason": "Wiki 在目标物品描述中省略科技物品的限定。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Actions-Overclock Gear.json",
+        "title": "Data:Actions-Overclock Gear.json",
+        "revision": 20002,
+        "section": "Overclock Gear",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
+  },
+  "sf2e-anachronism.actions.json|/entries/Holo-Roger/system/description/value#paragraph-1": {
+    "reason": "Wiki 为所有敌人且未限定旗帜投影在星舰，原文仅一名敌人并有该限定。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Feats-Space Pirate Dedication.json",
+        "title": "Data:Feats-Space Pirate Dedication.json",
+        "revision": 16903,
+        "section": "Holo-Roger",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
+  },
+  "sf2e-anachronism.actions.json|/entries/Light Speed/system/description/value#paragraph-1": {
+    "reason": "Wiki 将疲乏（Fatigued）写作力竭，保留原需求。",
+    "evidence": [
+      {
+        "kind": "wiki",
+        "locator": "https://sf2.huijiwiki.com/wiki/Data:Feats-Manifold Masters.json",
+        "title": "Data:Feats-Manifold Masters.json",
+        "revision": 10211,
+        "section": "Light Speed",
+        "accessed_at": "2026-10-23",
+        "match_note": "Original English paragraph retained; no rule or automation edits."
+      }
+    ]
   }
 }

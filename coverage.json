@@ -1,5 +1,5 @@
 {
-  "version": "0.2.2",
+  "version": "0.2.3",
   "sourceSha256": "a0930bc5b32fbf533630128b11bd893b4bd0aedd18709e975302efd543fd5e1a",
   "glossarySha256": "868394c0ec129f215af1525d86814aaa78ae07fb95298f215b055e67c5bc680f",
   "wiki": {
@@ -11,11 +11,11 @@
   "translationFiles": 29,
   "totals": {
     "objects": 5616,
-    "translatedNames": 3848,
+    "translatedNames": 3869,
     "objectsWithDescriptions": 4900,
-    "changedDescriptions": 2451,
-    "descriptionsWithEnglishCandidates": 3266,
-    "changedObjects": 4068,
+    "changedDescriptions": 2487,
+    "descriptionsWithEnglishCandidates": 3233,
+    "changedObjects": 4089,
     "changedPublicNotes": 156,
     "embeddedNames": 4004,
     "embeddedDescriptions": 1101,
@@ -25,11 +25,11 @@
   "packs": {
     "sf2e-anachronism.actions.json": {
       "objects": 151,
-      "translatedNames": 68,
       "objectsWithDescriptions": 151,
-      "changedDescriptions": 49,
-      "descriptionsWithEnglishCandidates": 127,
-      "changedObjects": 68
+      "translatedNames": 89,
+      "changedDescriptions": 85,
+      "descriptionsWithEnglishCandidates": 94,
+      "changedObjects": 89
     },
     "sf2e-anachronism.alien-core-bestiary.json": {
       "objects": 247,
@@ -236,15 +236,31 @@
     },
     "sf2e-anachronism._packs-folders.json": {}
   },
-  "changedStringFields": 12560,
+  "changedStringFields": 12617,
   "retainedExistingTranslationFields": 2651,
   "liveFoundryTested": false,
   "status": "source-backed-partial-localization-with-English-fallbacks",
+  "incrementalUpdate": {
+    "baseCommit": "2dba561889f016ea0b2187495c28055aaf4dc8ee",
+    "baseVersion": "0.2.2",
+    "wikiAccessed": "2026-10-23",
+    "scope": [
+      "actions"
+    ],
+    "otherTranslationFilesByteIdentical": 28,
+    "registerScriptByteIdentical": true,
+    "namesAdded": 21,
+    "descriptionsAdded": 36
+  },
   "validation": {
+    "version": "0.2.3",
     "babeleVersion": "2.9.1",
+    "babeleSourceCommit": "49c42edc3f2939934ed1d7105600914b3c8d58a2",
+    "babeleSource": "https://gitlab.com/riccisi/foundryvtt-babele/-/tree/2.9.1",
     "objectsChecked": 5616,
-    "matchedTranslations": 4068,
-    "nativeMappedFields": 7560,
+    "matchedTranslations": 4089,
+    "nativeMappedFields": 7618,
+    "embeddedArraysChecked": 474,
     "nativeEntryMatching": true,
     "nativeFieldMapping": true,
     "inputUnchanged": true,
@@ -252,13 +268,10 @@
     "staleTextGuards": true,
     "reorderedEmbeddedItems": true,
     "registrationGuards": true,
-    "liveFoundryTested": false,
-    "changedStringsChecked": 12560,
-    "orderedHtmlTagsUnchanged": true,
-    "orderedMacroBodiesUnchanged": true,
-    "originalSourceBytesUnchanged": true,
-    "ruleDataUnchanged": true,
-    "nativeLanguageSourceDiscovery": true,
+    "earlyUnregisteredCoreSettingReproduced": true,
+    "coreLanguageSettingReads": 0,
+    "unresolvedLanguageAtInit": true,
+    "lateLanguageRegisteredAtSetup": true,
     "languagesChecked": [
       "cn",
       "cn.foundry_chn",
@@ -270,16 +283,17 @@
       "zh-Hans.custom",
       "en"
     ],
-    "earlyUnregisteredCoreSettingReproduced": true,
-    "coreLanguageSettingReads": 0,
-    "unresolvedLanguageAtInit": true,
-    "lateLanguageRegisteredAtSetup": true,
-    "nativeSessionTranslation": true,
-    "translationFilesDiscovered": 29,
-    "envoyTranslated": true,
-    "englishLanguageInactive": true,
     "versionMismatchNotification": true,
     "registrationFailureNotification": true,
-    "translationBytesUnchangedFrom020": true
+    "translationFilesDiscovered": 29,
+    "orderedHtmlTagsUnchanged": true,
+    "orderedMacroBodiesUnchanged": true,
+    "ruleDataUnchanged": true,
+    "liveFoundryTested": false,
+    "changedStringsChecked": 12617,
+    "originalSourceBytesUnchanged": true,
+    "registerScriptByteIdenticalTo022": true,
+    "otherTranslationFilesByteIdenticalTo022": 28,
+    "incrementalSourceDescriptionsReviewed": true
   }
 }
