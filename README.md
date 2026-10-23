@@ -71,3 +71,10 @@ https://raw.githubusercontent.com/TenteiGengetsu/anachronism-cn/main/module.json
 新增及改译文本完成两轮英文对照和独立中文顺读，未改旧中文不冒充本轮重新翻译。使用Babele 2.9.1原生匹配和字段映射离线验证全部5616个条目的完整转换结果；尚未进行Foundry实机测试。
 
 完整字段差异、原英文、中文终稿、Wiki来源、原文疑点和暂译名记录在reports/localization-audit.zip内translation-sources.json的fullLocalizationUpdate中。既有复核记录保留并注明本次处理结果；其他范围的英文缺口仍在原pending-fields.csv。Wiki独有候选只列清单，不新增规则。
+
+
+## 0.3.1 用户反馈定向复核
+
+恢复FORTRUN、Servoshell、Viper、DPS++编程语言原名及四处前置条件引用；修正部分品牌标识、人名编号、既有Wiki译名与parry术语。21条条目共24处显示字段修订，自动化不变。
+
+逐项复核73条历史差异和相关暂译记录。撤销宏显示值、动作AA、型号数据、重复标题等造成的误报；渊博武艺只保留所选学识同步成长是否明确的细差。名称已审定覆盖率与中文名数量分开统计。完整证据及修改记录在reports/localization-audit.zip的qualityRecheck中。未进行Foundry实机测试。

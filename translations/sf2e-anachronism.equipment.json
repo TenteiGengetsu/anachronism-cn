@@ -3841,8 +3841,8 @@
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 区域射击</p>\n<p><strong>重击</strong> @Damage[1[persistent,acid]]</p><hr /><p>此手雷爆炸时，其 @Template[burst|distance:5] 被一层腐蚀性强酸喷雾覆盖，造成酸蚀伤害，进行 @Check[reflex|against:class|basic] 豁免。</p>"
     },
     "PJlFyPjJzbwJvtsf": {
-      "name": "零刃磨刀器",
-      "description": "<p>近宇（Near Space）各处的厨师都推崇锻造创新公司（Forgeworks Innovations）的专利零刃技术，用它磨快刀具，而不耽误厨房运作。</p>\n<p><strong>启动—磨利</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每小时一次</p>\n<p><strong>需求</strong> 你持用着一件造成挥砍伤害、且不具有致命特征的近战武器</p>\n<p><strong>效果</strong> 所需武器获得致命d6特征，持续至你下个回合开始。随后该武器对零刃磨刀器免疫24小时。</p>"
+      "name": "ZeroEdge磨刀器",
+      "description": "<p>近宇（Near Space）各处的厨师都推崇锻造创新公司（Forgeworks Innovations）的专利ZeroEdge技术，用它磨快刀具，而不耽误厨房运作。</p>\n<p><strong>启动—磨利</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每小时一次</p>\n<p><strong>需求</strong> 你持用着一件造成挥砍伤害、且不具有致命特征的近战武器</p>\n<p><strong>效果</strong> 所需武器获得致命d6特征，持续至你下个回合开始。随后该武器对ZeroEdge磨刀器免疫24小时。</p>"
     },
     "PN3nwB4Vcj5NOq6e": {
       "name": "防毒鸢盾",
@@ -4167,7 +4167,7 @@
     },
     "dov79V3iw5rJyxCR": {
       "name": "祝圣键帽",
-      "description": "<p>这些奇异的键帽被作为礼物，放在已故的新械族（anacite）“99阶教授”（Tier-Professor）的纪念处。</p>\n<p><strong>启动—随手敲字</strong> <span class=\"action-glyph\">2</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你施放1环 @UUID[Compendium.sf2e-anachronism.spells.Item.ZBeKxBcUOsXrfMRo] 法术。</p>"
+      "description": "<p>这些奇异的键帽被作为礼物，放在已故的新械族（anacite）Tier-99-Professor的纪念处。</p>\n<p><strong>启动—随手敲字</strong> <span class=\"action-glyph\">2</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你施放1环 @UUID[Compendium.sf2e-anachronism.spells.Item.ZBeKxBcUOsXrfMRo] 法术。</p>"
     },
     "e50ROiVvYCuowg1p": {
       "name": "卓越型镖弹发射器",
@@ -4367,7 +4367,7 @@
       "description": "<p>除了最传统的乐器，其他乐器都会使用现代技术来放大声音、提供伴奏，或以无线方式连接其他乐器。手持乐器包括自动号、吉他、精神活性波片、数字合成音轨台、全息笛等。GM可以裁定特别大的手持乐器具有更高负载。某些乐器具有科技特征。</p>"
     },
     "oY475DZHPB78o0TC": {
-      "name": "阿特拉希德饰品",
+      "name": "纺蛛人饰品",
       "description": "<p>你善于挑选适合任何场合的理想首饰。花费10分钟，你就能为一个生物制作出适用于一场社交活动的完美配饰。该配饰为交涉检定提供+2物品加值，用于在该活动中 [[/act make-an-impression]]。一个生物每天只能拥有一套配饰，它们会在24小时后过时，无法再使用。这些配饰的金钱价值微不足道。</p>"
     },
     "oa8BRG2pAaU1zeYS": {
@@ -4563,7 +4563,7 @@
       "description": "<p>生物识别锁用独特的身体特征作为通行钥匙。如果尝试绕过锁的生物有作为钥匙的特征样本或仿制品，需要进行的贼活检定次数可以减少；剩下的贼活检定代表正确使用这些伪造样本所需的技巧。</p>\n<p>绕过它需要五次成功的 @Check[computers|dc:30] 或 @Check[thievery|dc:35] 次检定；面部扫描仿制品使所需的贼活检定次数减少3。</p>"
     },
     "vCHD2KZLWWiT8orW": {
-      "name": "潜意识操控器",
+      "name": "升华器（Subliminator）",
       "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种基于升华原理的远程武器，以气体在飞行途中形成大型冰刺。如果你在此武器上受训，它造成可变类型的伤害，并获得模块化（寒冷，附带区域［10尺爆发］、延迟和笨重；或穿刺）特征，区域射击消耗8充能。</p>"
     },
     "vHiHC1NM7sXyw0Yl": {

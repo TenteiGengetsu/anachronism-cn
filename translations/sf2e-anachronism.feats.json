@@ -3238,7 +3238,7 @@
           "text": "念控万物"
         }
       ],
-      "description": "<p>你以心灵感应轻松托举各式装备，看起来就像一个恒星般的小脑，周围环绕着行星般的物品。你按念控万物的规则获得第二组念力手，使典型的默思族总计拥有六只手。只要至少有一只念力手空着，你便能拨开来袭攻击，使拳攻击获得格挡特征。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.fQJ8xyZH3Dch5xtN]自由动作。</p>"
+      "description": "<p>你以心灵感应轻松托举各式装备，看起来就像一个恒星般的小脑，周围环绕着行星般的物品。你按念控万物的规则获得第二组念力手，使典型的默思族总计拥有六只手。只要至少有一只念力手空着，你便能拨开来袭攻击，使拳攻击获得招架特征。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.fQJ8xyZH3Dch5xtN]自由动作。</p>"
     },
     "EuZSh1KKHHjSdZ1A": {
       "name": "隐藏天赋",
@@ -6654,7 +6654,7 @@
         {
           "index": 0,
           "expected": "ServoShell programming language",
-          "text": "伺服壳层（ServoShell）编程语言"
+          "text": "ServoShell编程语言"
         }
       ]
     },
@@ -7076,7 +7076,7 @@
         {
           "index": 0,
           "expected": "ServoShell programming language",
-          "text": "伺服壳层（ServoShell）编程语言"
+          "text": "ServoShell编程语言"
         }
       ]
     },
@@ -8295,7 +8295,7 @@
         {
           "index": 1,
           "expected": "ServoShell programming language",
-          "text": "伺服壳层（ServoShell）编程语言"
+          "text": "ServoShell编程语言"
         }
       ]
     },
@@ -8693,7 +8693,7 @@
         {
           "index": 0,
           "expected": "FORTRUN or ServoShell programming language",
-          "text": "强韧运算（FORTRUN）或伺服壳层（ServoShell）编程语言"
+          "text": "FORTRUN或ServoShell编程语言"
         }
       ]
     },
@@ -12426,8 +12426,8 @@
       "description": "<p>你的黏液让你能顽强地抓牢敌人。当你对一个目标进行[[/act grapple]]检定并取得大失败时，改为获得失败结果。此外，被你@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{擒拿}的生物进行脱逃检定时，若失败则改为大失败，若大成功则改为成功。</p>"
     },
     "15v6nXEIi10i0CNI": {
-      "name": "打中了！",
-      "description": "<p><strong>频率</strong>每轮一次</p>\n<p><strong>触发</strong>一个盟友的打击命中你“干掉他们！”的目标。</p><hr /><p>你迅速跟进正在执行的指令，在盟友成功命中你指定的目标时给予鼓励。该盟友的伤害获得等于你魅力调整值的状态加值。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.73I9yj9XlxcBLXfa]{效果：打中了！}</p>"
+      "name": "干得好！",
+      "description": "<p><strong>频率</strong>每轮一次</p>\n<p><strong>触发</strong>一个盟友的打击命中你“干掉他们！”的目标。</p><hr /><p>你迅速跟进正在执行的指令，在盟友成功命中你指定的目标时给予鼓励。该盟友的伤害获得等于你魅力调整值的状态加值。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.73I9yj9XlxcBLXfa]{效果：干得好！}</p>"
     },
     "1GFNbkTH1oJTz8mQ": {
       "name": "壮臂飞螅",
@@ -12465,7 +12465,7 @@
       ]
     },
     "2D6897AcSQQi2RvV": {
-      "name": "伏身固守（机械师）",
+      "name": "突进掩体",
       "description": "<p>你穿过战场，伏身躲到掩体后，再向敌人倾泻火力。你行走并[[/act take-cover]]。随后，你可以@UUID[Compendium.sf2e-anachronism.actions.Item.x1XORr76jCEEDJJV]、让炮塔进行一次远程打击，或让无人机进行一次打击，三者选择其一。</p>"
     },
     "2GWJstPGhxorpmPy": {
@@ -12549,7 +12549,7 @@
       "description": "<p><strong>频率</strong>每天一次</p><hr /><p>你启动体内安装的传感伪装程序，使关于你的数字记录发生失真。选择以下一种效果。</p><ul><li><p>你成为一个3环@UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{幻象伪装}法术的目标，但此<em>幻象伪装</em>仅对科技生物、科技危害，以及科技视觉传感器和记录设备（例如监控摄像头）可见。</p></li><li><p>你对科技生物、科技危害，以及科技视觉传感器和记录设备（例如监控摄像头）处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态，持续10分钟。你不能利用此隐蔽来[[/act hide]]或[[/act sneak]]。</p>\n</li></ul>"
     },
     "3ahX6ykhR0eUbvGX": {
-      "name": "狠狠干掉他们！",
+      "name": "狠狠干掉他！",
       "description": "<p>你获得“干掉他们！”指令的以身作则益处，但你和盟友在首次及后续打击的伤害上均获得+2状态加值。</p>",
       "cnPrerequisites": [
         {
@@ -12969,7 +12969,7 @@
       ]
     },
     "DDFbyNAIiKOuKTHi": {
-      "name": "我才是真的！",
+      "name": "我才是本尊！",
       "description": "<p><strong>触发</strong>你因另一个生物而陷入@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}状态，或你擒拿或束缚了另一个生物。</p>\n<p><strong>需求</strong>你可以使用变形来获得该生物的外貌。</p><hr /><p>你变形，获得另一个生物的外貌。所有其他生物必须使用@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索}动作，以察觉检定对抗你的欺骗DC，才能判断哪个是真的、哪个是模仿者。不知道哪个是你的生物，在用攻击、法术或其他效果以你们任一方为目标时，必须成功通过一次@Check[flat|dc:11]。如果检定失败，该攻击、法术或效果便改为以另一方为目标。</p>\n<p>心灵感应或秘术师的群聊职业能力等能力，可能让生物自动分辨双方身份；但已经分辨清楚的生物仍须使用@UUID[Compendium.pf2e.actionspf2e.Item.sn2hIy1iIJX9Vpgj]{指出位置}动作，向他人说明哪一方是谁。被模仿的生物可能有向盟友表明身份的信号或暗语，但在喧闹的战场上这样做，是一个具有听觉或视觉特征的动作。</p>",
       "cnPrerequisites": [
         {
@@ -13970,7 +13970,7 @@
       ]
     },
     "YPbe8n8mA2GNOges": {
-      "name": "协同开火（机械师）",
+      "name": "协同火力",
       "description": "<p>你与外皮层同步开火，突破敌人的防御。你与无人机或炮塔各对同一目标尝试一次远程打击，均使用你当前的多次攻击减值。如果两次攻击均命中，将它们的伤害合并。目标的抗力与弱点仅应用一次。计算你的多次攻击减值时，此举计为两次攻击。</p>",
       "cnPrerequisites": [
         {
@@ -14512,7 +14512,7 @@
       "description": "<p><strong>频率</strong>每天一次</p><hr /><p>你对自我的信心几近鲁莽，将额外能量输送至治疗回路，迫使其发挥极限效能。1分钟内，你获得快速治疗10。此外，持续时间内，第一次有来源本应为你恢复数值不定的生命值时，该来源改为恢复可能的最大生命值。</p>"
     },
     "itv3fuCoKkZU0wZc": {
-      "name": "灵魂庇护",
+      "name": "灵魂防护",
       "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>你的一次豁免检定失败。</p><hr /><p>极度紧张时，你仍能感到亡故伙伴的心跳隐约与你同频，指引你脱离险境，或保护你的心智免遭侵袭。对方的灵魂仍从坟墓彼端保护你。你可以重骰触发的豁免检定，并使用较好的结果。</p>",
       "cnPrerequisites": [
         {
@@ -14803,8 +14803,8 @@
       "description": "<p><strong>触发</strong>你尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}失败，但并非大失败。</p><hr /><p>你剧烈扭动，试图摆脱困境。重骰触发的[[/act escape]]尝试，并使用第二次结果。</p>"
     },
     "onFpn2IPCZEm5mBb": {
-      "name": "别死在我面前",
-      "description": "<p>你鼓励盟友坚持下去，即使身负致命伤口或其他足以使其倒下的重伤。选择一名相邻的濒死盟友。目标的濒死值降低1。如果这会将濒死值降至0，则目标失去濒死状态，不增加受伤值，并保持@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}。该盟友随后暂时免疫别死在我面前1小时。</p>"
+      "name": "不要死！",
+      "description": "<p>你鼓励盟友坚持下去，即使身负致命伤口或其他足以使其倒下的重伤。选择一名相邻的濒死盟友。目标的濒死值降低1。如果这会将濒死值降至0，则目标失去濒死状态，不增加受伤值，并保持@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}。该盟友随后暂时免疫“不要死！”1小时。</p>"
     },
     "pBMGaS0WcG4GlN9F": {
       "name": "胆汁充盈",

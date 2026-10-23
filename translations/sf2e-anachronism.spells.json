@@ -720,7 +720,7 @@
     },
     "IKzuw8XgMMw7ErSJ": {
       "name": "召唤漂流先知",
-      "description": "<p>你召来一位负责监视漂流域（Drift）、并将其馈赠带给技术先进文明的光谱使者（spectra）。光谱使者占据大型生物的空间，具有40尺速度，以及带有宇宙特征的60尺飞行速度。</p>\n<p><strong>到来</strong><em>建立宇宙网络</em>伴随来自漂流域的神能爆发，光谱使者恢复@Damage[(5*(@item.level - 1))[healing]|options:area-damage]生命值，作用于@Template[type:emanation|distance:30]内所有具有科技特征的生物或物体，并将它们的故障状态值减少5。</p>\n<p><strong>离去</strong><em>终止连接</em>@Template[type:emanation|distance:30]内每个具有科技特征的生物或被持有的物体必须尝试一次强韧豁免。豁免失败时，该生物或物体陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 5}，且生物只要仍处于故障状态，就陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}。</p><hr /><p><strong>升阶（+1）</strong>恢复的生命值增加5。</p>"
+      "description": "<p>你召来一位负责监视漂流域（Drift）、并将其馈赠带给技术先进文明的光谱族生物（spectra）。光谱族生物占据大型生物的空间，具有40尺速度，以及带有宇宙特征的60尺飞行速度。</p>\n<p><strong>到来</strong><em>建立宇宙网络</em>伴随来自漂流域的神能爆发，光谱族生物恢复@Damage[(5*(@item.level - 1))[healing]|options:area-damage]生命值，作用于@Template[type:emanation|distance:30]内所有具有科技特征的生物或物体，并将它们的故障状态值减少5。</p>\n<p><strong>离去</strong><em>终止连接</em>@Template[type:emanation|distance:30]内每个具有科技特征的生物或被持有的物体必须尝试一次强韧豁免。豁免失败时，该生物或物体陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 5}，且生物只要仍处于故障状态，就陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}。</p><hr /><p><strong>升阶（+1）</strong>恢复的生命值增加5。</p>"
     },
     "J0uCmkZq1uLAun94": {
       "name": "表情轰炸",

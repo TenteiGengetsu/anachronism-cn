@@ -1,6 +1,6 @@
 {
   "sf2e-anachronism.alien-core-bestiary.json|/entries/Juvenile Nyssholora/items/4/system/description/value": {
-    "reason": "Wiki says precise; source requires imprecise.",
+    "reason": "Wiki同页感官栏已写模糊感官；仅被动能力正文写精确感官，与模组imprecise不符。应列Wiki内部字段不一致，不能概括整页均写精确。",
     "evidence": [
       {
         "kind": "wiki",
@@ -11,10 +11,25 @@
         "accessed_at": "2026-10-23",
         "match_note": "Exact English identity; text transferred only into compatible source slots."
       }
-    ]
+    ],
+    "originalReason": "Wiki says precise; source requires imprecise.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "限定差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Creatures-Juvenile Nyssholora.json",
+        "revision": 15177,
+        "content": {
+          "中文": "幼年相位兽",
+          "原文": "Juvenile Nyssholora",
+          "被动能力": "<b>心灵感应感知 Telepathy Sense</b>（原能） 相位兽能感知拥有[[心灵感应]]，有限心灵感应或类似能力的所有生物，例如[[秘术师]]的纽带，作为一种具有所列范围的[[精确感官]]。此感官能够穿透墙壁和其他障碍物。"
+        }
+      }
+    ],
+    "status": "rechecked-limited-or-uncertain"
   },
   "sf2e-anachronism.alien-core-bestiary.json|/entries/Proog Swarm/items/2/system/description/value": {
-    "reason": "Wiki only refers to another creature; source contains the full Mimicry ability.",
+    "reason": "集群条目写同变形怪；继续读取Data:Creatures-Proog.json rev14574，拟态物体全文与模组同规则。原报告对单页短写的描述属实，但这不是Wiki缺译。",
     "evidence": [
       {
         "kind": "wiki",
@@ -25,10 +40,30 @@
         "accessed_at": "2026-10-23",
         "match_note": "Exact English identity; text transferred only into compatible source slots."
       }
-    ]
+    ],
+    "originalReason": "Wiki only refers to another creature; source contains the full Mimicry ability.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "引用未展开",
+    "recheckEvidence": [
+      {
+        "title": "Data:Creatures-Proog Swarm.json",
+        "revision": 14573,
+        "content": {
+          "中文": "变形怪群",
+          "原文": "Proog Swarm",
+          "攻击能力": "<b>弹跳粘球 Bouncing Blobs</b> {{act|1}} 变形怪群弹跳起来挤压其所处空间内所有生物。每个生物必须成功通过一次DC 22的[[反射豁免]]，否则只要停留在集群空间内便会陷入[[笨拙]]1。</div>\n<div><b>遗留 Leave Behind {{act|2}} </b> 变形怪群行走两次，使用此动作之前，在其初始占据空间掉落1d4只变形怪。</div>\n<div><b>拟态物体 Mimic Object</b> 同变形怪。</div>\n<div><b>吮吸 Schlorp</b> {{act|1}} 变形怪群所处空间内每个敌人受到3d8钝击伤害（DC 22[[基础强韧豁免]]）。"
+        }
+      },
+      {
+        "title": "Data:Creatures-Proog.json",
+        "revision": 14574,
+        "content": "{\"ID\":62,\"生物数据\":\"变形怪\",\"中文\":\"变形怪\",\"描述\":\"变形怪，在泥怪中尤为独特，在许多协约世界的家庭中备受珍视。这些温顺可亲的生物在绝大多数情况下都无害，能迅速适应家庭生活，易于训练，似乎乐于通过令人喜爱或滑稽的变形取悦主人。在生命周期后期，这些生物会毫无预兆地一分为二进行繁殖。饲主们观察到，每只新生变形怪都需要重新学习原体掌握的各种技巧，这促使研究者推断，原始个体在繁殖过程中已然消亡。<br>{{quote|icon=学识|标题=变形怪连锁 PROOG CHAINS|在野外，变心怪们会神秘地相互吸引，即使处于伪装也能找到彼此。当一只变形怪发现同伴正在拟态物体时，它常常会停在同伴旁边，复制对方的伪装。这种行为会导致变形怪们排成长长的队列，每只都模仿前一只的姿态，形成滑稽的连锁反应，却也暴露了它们的藏身之处。}}\",\"原文\":\"Proog\",\"等级\":0,\"生物子类\":\"泥怪\",\"稀有度\":\"常见\",\"体型\":\"超小型\",\"特征\":\"无心智, 泥怪\",\"感官\":\"[[生命感知]]（[[精确感官]]） 60尺，无视觉\",\"语言\":\"通用语；（无法说任何语言）\",\"技能\":\"欺骗+9，隐秘+6\",\"被动能力\":\"\",\"HP\":24,\"AC\":10,\"HP_Scale\":\"High\",\"AC_Scale\":\"Low\",\"Fortitude\":9,\"Fortitude_Scale\":\"High\",\"Reflex\":4,\"Reflex_Scale\":\"Low\",\"Will\":2,\"Will_Scale\":\"Terrible\",\"豁免附加\":\"\",\"Immunity\":\"流血，重击，心灵，精准，失去意识，视觉\",\"Resistance\":\"\",\"Weakness\":\"\",\"防御能力\":\"\",\"速度\":\"15尺\",\"攻击能力\":\"<b>近战</b> {{act|1}} 伪足 +6，<b>伤害</b> 1d4+1 钝击</div>\\n<div><b>拟态物体 Mimic Object</b> 变形怪可以花费1分钟将自身外表变为模仿任何不高于1负载的固态物体，不过它不能复制活动部件或特定功能。处于拟态状态的变形怪在隐蔽自己真身的[[欺骗]]检定上获得+2环境加值。触摸变形怪将无视此加值。</div>\\n<div><b>口袋保护 Pocket Protection {{act|2}} </b> 变形怪可以爬上占据其空间的中型或更大体型生物身上，并尝试一次[[隐秘]]检定进行[[躲藏]]，即便其处于可见状态。\",\"察觉\":6,\"Perception_Scale\":\"Moderate\",\"Attack_Bonus\":6,\"Attack_Bonus_Scale\":\"Moderate\",\"Strike_Damage_Average\":3,\"Strike_Damage_Scale\":\"Low\",\"Spell_Attack\":\"\",\"Spell_Attack_Scale\":\"\",\"Spell_DC\":\"\",\"Spell_DC_Scale\":\"\",\"Spell\":\"\",\"Strength\":1,\"Strength_Scale\":\"Low\",\"Dexterity\":3,\"Dexterity_Scale\":\"High\",\"Constitution\":1,\"Constitution_Scale\":\"Low\",\"Intelligence\":-5,\"Intelligence_Scale\":\"Low\",\"Wisdom\":0,\"Wisdom_Scale\":\"Low\",\"Charisma\":2,\"Charisma_Scale\":\"Moderate\",\"来源\":\"AC\",\"系列\":\"CR\",\"图鉴\":\"Proog.webp\",\"data_type\":\"生物\"}"
+      }
+    ],
+    "status": "rechecked-reference-resolved"
   },
   "sf2e-anachronism.alien-core-bestiary.json|/entries/Daipex/items/9/system/description/value": {
-    "reason": "Wiki omits the optional -2 circumstance penalty to avoid forced movement.",
+    "reason": "模组明确可承受–2环境减值避免被迫移动；Wiki后坐反冲正文仅写被推5尺，未列该选项。",
     "evidence": [
       {
         "kind": "wiki",
@@ -39,10 +74,25 @@
         "accessed_at": "2026-10-23",
         "match_note": "Exact English identity; text transferred only into compatible source slots."
       }
-    ]
+    ],
+    "originalReason": "Wiki omits the optional -2 circumstance penalty to avoid forced movement.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Creatures-Daipex.json",
+        "revision": 16570,
+        "content": {
+          "中文": "暴射魔（暴走恶魔）",
+          "原文": "Daipex",
+          "攻击能力": "<b>近战</b> {{act|1}} 猛挥 +18（魔法，邪秽），<b>伤害</b> 2d8+10 钝击</div>\n<div><b>远程</b> {{act|1}} 臂炮 +20（魔法，射程增量60尺，邪秽），<b>伤害</b> 2d6+6 穿刺</div>\n<div><b>仪式</b> DC 27；恶魔协定</div>\n<div><b>弹幕齐射 Hail of Bullets  {{act|2}} </b> 暴射魔射出30尺锥形弹幕，对区域中的生物造成6d10穿刺伤害（DC 26 [[基础反射豁免]]）。暴射魔会被朝相反的方向击退10尺，并且在1d4轮内无法再次使用弹幕齐射。</div>\n<div><b>弹幕之雨 Rain of Bullets  {{act|1}} </b> <b>频率</b> 每轮1次；<b>效果</b> 暴射魔对单一目标进行两次臂炮[[打击]]。暴射魔的[[多重攻击减值]]正常叠加。如果两次攻击都命中，在应用目标的抗力与弱点时将伤害合并计算。</div>\n<div><b>后坐反冲 Recoil</b> 由于暴射魔相对短小的双腿无法承受臂炮的后坐力，每当它使用臂炮打击时，都会朝向与攻击目标相反的方向被击退 5 尺。"
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.alien-core-bestiary.json|/entries/Akata/items/2/system/description/value": {
-    "reason": "Wiki omits the status type of the Perception penalty.",
+    "reason": "Wiki没有听觉段写–2减值，模组明确为status penalty；数值和例外相同，仅减值类型未明示。",
     "evidence": [
       {
         "kind": "wiki",
@@ -53,10 +103,25 @@
         "accessed_at": "2026-10-23",
         "match_note": "Exact English identity; text transferred only into compatible source slots."
       }
-    ]
+    ],
+    "originalReason": "Wiki omits the status type of the Perception penalty.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Creatures-Akata.json",
+        "revision": 14787,
+        "content": {
+          "中文": "阿卡塔",
+          "原文": "Akata",
+          "被动能力": "<b>冬眠 Hibernation</b> 在3日或更多时间内没有进食后，阿卡塔能分泌树脂，将它包裹在一个[[零晶]]（noqual）茧里。茧的硬度为9，HP 40，破损阈值 18。它对来自魔法的伤害具有抗力 5。只要茧保持完整，阿卡塔就无法被伤害，且它也不需要吃喝。在茧之中，阿卡塔获得生命感知 30尺。阿卡塔会一直处于冬眠状态，直到它暴露在极热环境下或察觉到活物，此时它可以在1d4分钟内破茧而出。</div>\n<div><b>没有听觉 No Hearing</b> 阿卡塔没有听觉器官。它对听觉效果免疫，需要它听的[[察觉]]检定自动大失败，并且在那些涉及声音但也依赖于其他感官的察觉检定（但不包括先攻骰）上受到-2减值。"
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.backgrounds.json|/entries/Lodge Administrator/system/description/value": {
-    "reason": "Wiki grants Society; source grants Diplomacy.",
+    "reason": "Wiki背景技能为社群，导出为Diplomacy交涉；属本版模组与Wiki的文本差异，不判断哪方为正式勘误。",
     "evidence": [
       {
         "kind": "wiki",
@@ -67,10 +132,25 @@
         "accessed_at": "2026-10-23",
         "match_note": "Exact English identity; text transferred only into compatible source slots."
       }
-    ]
+    ],
+    "originalReason": "Wiki grants Society; source grants Diplomacy.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Backgrounds-Lodge Administrator.json",
+        "revision": 13874,
+        "content": {
+          "中文": "分部行政官",
+          "原文": "Lodge Administrator",
+          "描述": "你深知建立分部需要的不仅是优秀的外勤探员（field agents）——更需管理者、行政人员，以及对后勤的精通！你擅长影响他人、处理冲突，并与其他派系及组织斡旋。事实上，假以时日，你说不定自己也能成为称职的冒险队长……\n选择两项[[属性提升]]。一项必须是[[感知]]或[[魅力]]，另一项为自选[[属性提升]]。\n你的[[社群]]技能和企业学识（Corporate Lore）技能受训。你获得[[集体印象]]（Group Impression）技能专长。"
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.backgrounds.json|/entries/Tech Troll/system/description/value": {
-    "reason": "Wiki grants Computers; source grants Deception.",
+    "reason": "Wiki背景技能为计算机，导出为Deception欺骗；属文本差异。",
     "evidence": [
       {
         "kind": "wiki",
@@ -81,10 +161,25 @@
         "accessed_at": "2026-10-23",
         "match_note": "Exact English identity; text transferred only into compatible source slots."
       }
-    ]
+    ],
+    "originalReason": "Wiki grants Computers; source grants Deception.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Backgrounds-Tech Troll.json",
+        "revision": 13928,
+        "content": {
+          "中文": "科技巨魔",
+          "原文": "Tech Troll",
+          "描述": "你沉迷于用科技手段捉弄他人——可能是游走信息圈的恶作剧大师，或是用数字障眼法掩盖罪行的数码窃贼。<br>\n选择两项[[属性提升]]。一项必须为[[敏捷]]或[[智力]]，另一项为自选[[属性提升]]。<br>\n你的[[计算机]]技能和信息圈学识（Infosphere Lore）技能受训。你获得[[持久分神]]（Lengthy Diversion）技能专长。"
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.heritages.json|/entries/Borai/system/description/value": {
-    "reason": "Wiki section is an introductory lore paragraph rather than the versatile-heritage mechanics.",
+    "reason": "原报告只读多用传承简介；活尸裔重定向到活尸裔传承 rev11963，其传承规则段已完整包含模组规则。撤销Wiki没有机制正文的推断。",
     "evidence": [
       {
         "kind": "wiki",
@@ -95,13 +190,40 @@
         "accessed_at": "2026-10-23",
         "match_note": "Exact English identity; text transferred only into compatible source slots."
       }
-    ]
+    ],
+    "originalReason": "Wiki section is an introductory lore paragraph rather than the versatile-heritage mechanics.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "引用未展开",
+    "recheckEvidence": [
+      {
+        "title": "多用传承",
+        "revision": 19784,
+        "content": "===活尸裔 BORAI===\n活尸裔是生者与不死生物的奇异混合体，往往诞生于悲惨死亡或失败的复活尝试。灵体化血脉、顽执血脉与死灵化血脉各不相同，分别代表成为活尸裔的不同途径——或是复活尝试失败，或是自身不愿消亡，抑或是死灵法术实验的产物。\n"
+      },
+      {
+        "title": "活尸裔传承",
+        "revision": 11963,
+        "content": "{{head|[[活尸裔传承]] {{!}} [[活尸裔专长]]}}\n[[文件:Ancestry-borai-detail.webp|缩略图]]\n{{CR|PC| / 多用传承 / 活尸裔 BORAI}}\n{{intro|活尸裔既是生灵，也是死灵——他们的尸体经由自己的灵魂重新赋予生命，成为一种介于生死之间的存在。尽管属于实体不死生物，但活尸裔的身体是保护他们残破的不死灵魂的活体外壳，这使他们成为一种独特的存在。}}\n\n　　<big>活</big>尸裔通常是通过失败的复活尝试（无论是魔法还是科技）或死灵实验而被意外创造。有些人则在濒死体验后，凭借顽强的意志与拒绝死亡的执念完成蜕变。当一个人成为活尸裔时，他们活着的肉体和不死的灵魂就无可避免地绑定在一起。活尸裔的身体从灵魂中汲取[[命能]]，防止外在躯壳的腐烂和衰退，而灵魂顽强地附着在他们的身体上，将其以诡异的方式永久封存于完美状态。即使活尸裔被杀死并复活或是转生，这种纽带也不会被切断，他们总是会以活尸裔的形态返回世间。\n\n　　与许多种类的亡灵不同，活尸裔在死后仍然是同一个人——他们保留了自己的性格、记忆和情感，并且通常会努力维持他们在生前建立的情感联系和关系。然而，死亡仍在活尸裔身上留下了烙印，许多活物会本能地感觉到活尸裔身上有些不对劲，这使得活尸裔的人际关系变得紧张，社会状态也随之改变。这种缓慢破裂的友情和支持体系的恶化往往将活尸裔推出他们的舒适区，将他们从家园和过去的生活中驱离，走向未知的世界——这段经历使许多活尸裔变得愤世嫉俗、情感上有所防备，或渴望接受全新的体验。\n\n　　如果你想扮演一个模糊生与死界限，在陌生的来世中挣扎着寻找归属，你应该扮演活尸裔。\n\n{{扮演指导\n|左=\n* 决心取得成功，不接纳挫折或失败。\n* 追求肯定生命的体验与关系，甚至可能鲁莽行事或损害自身利益。\n* 对导致你死亡的原因感到恐惧，或避免回到你死亡之处，或莫名被吸引重返旧地。\n|右=\n* 将你与其他不死生物混淆，当你呼吸、进食或睡眠时感到惊讶。\n* 觉得你的存在令人不安，即使他们无法确切说出原因。\n* 向你寻求关于悲伤、失落、死亡和来世的建议。\n}}\n\n==外貌描述 Physical Description==\n　　活尸裔在外形上与他们生前的样子相似，只是皮肤变得苍白且呈现出蜡般的质感，他们的血液被注入虚能，变成了一种粘稠的黑色脓液，透过肌肤清晰可见。由于他们的身体仍然是活着的，活尸裔必须呼吸、进食和睡眠，他们可以像其他生者一样被[[治疗]]、[[稳定伤势]]甚至复活。活尸裔的衰老速度极为缓慢，使他们能够多活几个世纪。在这段时间之后，活尸裔的身体会逐渐衰败，直到灵魂无法再维持它；活尸裔随后既会死亡（像活物一样），也会被摧毁（像[[不死生物]]一样）。学者们对这些灵魂是否会前往他们应有的来世，或是退化并立即重新投入[[创生熔炉]]的灵魂循环之中，意见不一。\n\n==社会 Society==\n　　被复活的活尸裔遍布在整个星系中，从[[协约世界]]到[[浩界]]，使他们成为一个多样化且人口分散的族群。大多数活尸裔\"诞生\"于[[伊奥克斯]]或其他死灵术、宗教复活仪式和追寻不朽的科学研究十分常见的地方。许多活尸裔在第二次生命中尝试像生前一样继续原有的生活，保持相同的习惯和人际关系——通常会通过化妆、[[幻术]]或[[殖装]]来隐藏他们的转变。尽管活尸裔可以在任何地方生活，但多数活尸裔会定居在不死生物更受接纳的地区，例如伊奥克斯。但由于活尸裔的生活仍需要与活物一样的舒适度，所以他们也很难融入不死生物的社会。\n\n　　已经作为不死生物生活了十年以上的活尸裔，往往会将家庭视为友谊、忠诚和爱的体现，而非世系或血脉的联系。收养家庭与广泛交友十分常见，并且有些活尸裔会在雇佣兵或军事单位中找到伙伴，也有的会在同一个社会运动或宗教机构的成员中，或是在残酷的企业或财团的层级体系中寻得同路人。一些活尸裔拥抱他们令人不安的存在感和特质，成为恐怖的执法官或威风凛凛的保镖，而另一些活尸裔则通过担任治疗师、政治家或公职人员，努力克服与消除其不死本质带来的污名。\n\n　　活尸裔没有普遍的命名惯例，大多数人会保留他们生前的名字。部分告别旧生活的活尸裔会自创新名，认为这些名字更能体现他们迈入人生下一阶段的身份认同。\n\n　　'''范例名字：'''Agavana, Ajanu, Cailis, Enduri, Jiann, Kilarra, Orthei, Ruven, Taylehm, Thel-Sevai, Tis, Yevtori\n\n==信仰 Beliefs==\n　　活尸裔受到他们出生的文化和社会的影响，许多人继续敬拜他们在生前信奉的神祇，并坚守相同的哲学。随着时间的推移，大多数活尸裔倾向于崇拜被认为接纳不死生物的神祇，如[[厄加图娅]]、[[韦丹]]或[[宗-莎琳]]。追随现代潮流的活尸裔，往往崇拜[[兰巴图因]]，或发展出摒弃或归咎神祇的无神论。许多活尸裔在一种名为[[寂静之歌]]（Song of Silence）的哲学中找到了慰藉，它教导不死是生命的终极目标，凡人的生命不过是不死的预演。\n\n*'''常见典范''' 拥抱活着，从过去中学习，拒绝将死亡视为终点\n*'''常见禁忌''' 抛弃那些接受你真实模样的人，远离生命中的乐趣\n\n==活尸裔（传承）BORAI (HERITAGE)==\n　　你已经从死亡的边缘回归，成为活尸裔——既是活物又是不死生物。除了你族裔的特征外，你还额外获得[[活尸裔]]和[[不死特征]]。与其他不死生物不同，你不会获得[[虚能治疗]]。你依旧会被[[命能]]效果治愈，受到虚能伤害，如同你是活物一样。同样，你可以像活物一样被[[稳定伤势]]、治疗和复活，但你总是以你通常的不死状态（即活尸裔）复生。你获得[[昏暗视觉]]，或者如果你的族裔已经拥有昏暗视觉，则改为获得[[黑暗视觉]]。每当你获得一个族裔专长时，你可以从活尸裔专长和你的族裔专长中选择。\n\n{{族裔导航}}"
+      }
+    ],
+    "status": "rechecked-reference-resolved"
   },
   "sf2e-anachronism.backgrounds.json|/entries/Lorespire Archivist/system/description/value": {
-    "reason": "Wiki omits that Assurance applies specifically to Society."
+    "reason": "Wiki已经说明社群受训和获得驾轻就熟，但未明确该专长须选择社群。仅列专长指定技能未明示；不是社群受训或整段规则缺失。",
+    "originalReason": "Wiki omits that Assurance applies specifically to Society.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "限定差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Backgrounds-Lorespire Archivist.json",
+        "revision": 13875,
+        "content": "{\"ID\":112,\"中文\":\"知识尖塔档案员\",\"原文\":\"Lorespire Archivist\",\"稀有度\":\"常见\",\"描述\":\"你的闲暇时光都在知识尖塔综合体担任档案员或导师——或许是维护档案馆浩如烟海的文献与遗物，又或许是在首席探索者伊利亚斯特纪念博物馆（First Seeker Ilyastre Memorial Museum）筹备展览。\\n选择两项[[属性提升]]。一项必须是[[敏捷]]或[[智力]]，另一项为自选[[属性提升]]。\\n你的[[社群]]技能和以下学识中的一项上受训：学院学识、图书馆学识、博物馆学识。你获得[[驾轻就熟]]（Assurance）技能专长。\",\"属性提升\":\"敏捷,智力\",\"技能提升\":\"社群\",\"技能专长\":\"驾轻就熟\",\"系列\":\"SFS\",\"来源\":\"S1-PG\",\"SFS\":\"标准\",\"相关\":\"\",\"data_type\":\"背景\"}"
+      }
+    ],
+    "status": "rechecked-limited-or-uncertain"
   },
   "sf2e-anachronism.alien-core-bestiary.json|/entries/Animated Tech Armor/items/1/system/description/value": {
-    "reason": "Wiki adds condition value 1 to an unvalued Broken condition.",
+    "reason": "原宏显示标签为{Glitching 1}，与Wiki故障1一致。旧记录误称无数值Broken，既误认状态又忽略宏显示标签。原文还自称animated firearm而条目是armor，此另属模组主语疑点。",
     "evidence": [
       {
         "kind": "wiki",
@@ -112,10 +234,25 @@
         "accessed_at": "2026-10-23",
         "match_note": "Exact English identity; text transferred only into compatible source slots."
       }
-    ]
+    ],
+    "originalReason": "Wiki adds condition value 1 to an unvalued Broken condition.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "误报",
+    "recheckEvidence": [
+      {
+        "title": "Data:Creatures-Animated Tech Armor.json",
+        "revision": 14520,
+        "content": {
+          "中文": "活化科技护甲",
+          "原文": "Animated Tech Armor",
+          "防御能力": "<b>不可靠科技 Unreliable Tech</b> 一旦活化科技护甲的生命值降至当前上限的一半以下，或被重击命中时，它便会陷入永久[[故障]]1状态，直至生命值完全恢复（例如通过修理）。"
+        }
+      }
+    ],
+    "status": "false-positive-withdrawn"
   },
   "sf2e-anachronism.alien-core-bestiary.json|/entries/Irradiated Undead Charger/items/3/system/description/value": {
-    "reason": "Wiki aura is 30 feet; source aura is 20 feet.",
+    "reason": "模组Radioactive Remains灵光20尺，Wiki同能力30尺，差异成立。",
     "evidence": [
       {
         "kind": "wiki",
@@ -126,10 +263,25 @@
         "accessed_at": "2026-10-23",
         "match_note": "Exact English identity; text transferred only into compatible source slots."
       }
-    ]
+    ],
+    "originalReason": "Wiki aura is 30 feet; source aura is 20 feet.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Creatures-Irradiated Undead Charger.json",
+        "revision": 15582,
+        "content": {
+          "中文": "辐照不死冲锋者",
+          "原文": "Irradiated Undead Charger",
+          "防御能力": "<b>辐射残余 Radioactive Remains</b>（灵光，辐射） 30尺。进入灵光或在其中开始回合的生物遭受[[极端辐射]]（《主持人核心》91页）。</div>\n<div><b>熔毁 Meltdown</b> {{act|R}}（毒素，辐射）<b>触发</b> 辐照不死冲锋者被任意类型的能量伤害降至0生命值；<b>效果</b> 这份能量作为核反应的催化剂，引发植物爆炸，并对20尺弥漫范围内所有生物造成9d6毒素伤害，进行DC 24的[[基础反射豁免]]。"
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.alien-core-bestiary.json|/entries/Animated Firearm/items/2/system/description/value": {
-    "reason": "Wiki adds condition value 1 to an unvalued Broken condition.",
+    "reason": "原宏显示标签为{Glitching 1}，与Wiki故障1一致；并非无数值Broken。",
     "evidence": [
       {
         "kind": "wiki",
@@ -140,10 +292,25 @@
         "accessed_at": "2026-10-23",
         "match_note": "Exact English identity; text transferred only into compatible source slots."
       }
-    ]
+    ],
+    "originalReason": "Wiki adds condition value 1 to an unvalued Broken condition.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "误报",
+    "recheckEvidence": [
+      {
+        "title": "Data:Creatures-Animated Firearm.json",
+        "revision": 14519,
+        "content": {
+          "中文": "活化火器",
+          "原文": "Animated Firearm",
+          "防御能力": "<b>不可靠科技 Unreliable Tech</b> 一旦活化火器的生命值降至当前上限的一半以下，或被重击命中时，它便会陷入永久[[故障]]1状态，直至生命值完全恢复（例如通过[[修理]]）。</div>\n<div><b>武器模式 Weapon Mode</b> 在制造者手中，活化火器表现为商用型激光手枪。制造者可通过交互动作将其释放至相邻方格，使其自主行动；或从相邻方格回收该火器，重新作为武器使用。"
+        }
+      }
+    ],
+    "status": "false-positive-withdrawn"
   },
   "sf2e-anachronism.alien-core-bestiary.json|/entries/Temporai/items/34/system/description/value": {
-    "reason": "Wiki says 5d4; source says 5d6.",
+    "reason": "模组Shepherd’s Touch明确5d6虚能／命能，Wiki同能力5d4，差异成立。",
     "evidence": [
       {
         "kind": "wiki",
@@ -154,10 +321,25 @@
         "accessed_at": "2026-10-23",
         "match_note": "Exact English identity; text transferred only into compatible source slots."
       }
-    ]
+    ],
+    "originalReason": "Wiki says 5d4; source says 5d6.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Creatures-Temporai.json",
+        "revision": 15160,
+        "content": {
+          "中文": "时序护卫使",
+          "原文": "Temporai",
+          "攻击能力": "<b>近战</b> {{act|1}} 冻寒长矛 +26（模块化【C/动力/科技】或【P/非电子】，动力 ，触及10尺，科技，追踪 +2），<b>伤害</b> 2d10+11 寒冷加牧者之触</div>\n<div><b>近战</b> {{act|1}} 纳米锋刃刺剑 +29（非电子，致命 d8，卸武，娴熟，追踪 +2），<b>伤害</b> 2d6+11 穿刺加牧者之触</div>\n<div><b>远程</b> {{act|1}} 激光步枪 +29（耗弹 2，弹夹 60，射程增量80尺，装填 1，科技，追踪 +2），<b>伤害</b> 2d8+6火焰加牧者之触</div>\n<div><b>神术内在法术</b> DC 34，攻击 +26；<b>7环</b>  　{{浮窗|法术|触发术}}， 　{{浮窗|法术|加速术}}， 　{{浮窗|法术|回溯过去}}（[[随意施法]]）， 　{{浮窗|法术|洞烛机先}}；<b>6环</b>  　{{浮窗|法术|解除魔法}}（[[随意施法]]）， 　{{浮窗|法术|缓慢术}}；<b>5环</b>  　{{浮窗|法术|次元移位}}；<b>4环</b>  　{{浮窗|法术|阅读机运}}， 　{{浮窗|法术|死者交谈}}， 　{{浮窗|法术|次元移位}}（[[随意施法]]）；<b>2环</b>  　{{浮窗|法术|卜筮术}}， 　{{浮窗|法术|朦胧术}}；<b>戏法（7环）</b> 　{{浮窗|法术|侦测魔法}}， 　{{浮窗|法术|圣枪术}}， 　{{浮窗|法术|伤口回响}}， 　{{浮窗|法术|护盾术}}；<b>常驻</b> 　{{浮窗|法术|识破无形}}， 　{{浮窗|法术|实言术}}</div>\n<div><b>仪式</b> DC 34； 　{{浮窗|仪式|呼唤精魂}}</div>\n<div><b>[[变身]]</b> {{act|1}} （专注，神术，变形）时序护卫使可幻化为任何小型、中型或大型类人生物的模样。此变化不会改变其速度，也不会改变其进行[[打击]]时的攻击和伤害调整值，但可能会改变其打击造成的伤害类型。</div>\n<div><b>多肢灵巧 Multidexterous</b> 时序护卫使可以使用一个[[自由动作]][[换手]]</div>\n<div><b>时光尽逝 Out of Time {{act|2}}</b>（神术，心灵）时序护卫使将目光投向120尺内的一个单一目标，迫使该目标承受其自身所剥离的所有时间碎片。目标将受到12d8点心灵伤害，并必须尝试进行DC34的[[意志豁免]]。无论结果如何，目标随后将在1天内对时光尽逝[[临时免疫]]。\n:<b>大成功</b> 目标不受到任何伤害。\n:<b>成功</b> 目标受到一半伤害，并陷入[[笨拙]]1、[[流失]]1和[[力竭]]1，或使这些状态的状态值提升1。\n:<b>失败</b> 与成功相同，但受到全额伤害，且这些状态的状态值为2。\n:<b>大失败</b> 与大成功相同，但受到双倍伤害，且这些状态的状态值为3。</div>\n<div><b>时光之砂 Sands of Time {{act|2}}</b>（神术，精魂）时序护卫使轻抖手腕，挥散出一波能改变时间的砂砾，对60尺锥形范围内的所有生物造成15d6点精魂伤害（DC34[[基础强韧豁免]]）。豁免失败的生物还会额外陷入[[缓慢]]，持续1d4轮。时序护卫使在1d4轮内无法再次使用时光之砂。</div>\n<div><b>牧者之触 Shepherd’s Touch</b> 招魂者的打击具有[[灭鬼]][[强化模块]]的增益，对活物造成额外5d4虚能伤害，或对不死生物造成额外5d4命能伤害。"
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.guilt-of-the-grave-world-bestiary.json|/entries/Rigor Mortic/items/5/system/description/value": {
-    "reason": "Wiki describes Raise a Shield rather than the full construct armor ability.",
+    "reason": "Wiki防御能力中先有完整构装护甲规则，后有另一段构装盾牌误重复英文标题Construct Armor。旧提取按英文名覆盖，错取末项举盾文字。完整护甲机制实际存在。",
     "evidence": [
       {
         "kind": "wiki",
@@ -168,10 +350,25 @@
         "accessed_at": "2026-10-23",
         "match_note": "Exact English identity; text transferred only into compatible source slots."
       }
-    ]
+    ],
+    "originalReason": "Wiki describes Raise a Shield rather than the full construct armor ability.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "误报",
+    "recheckEvidence": [
+      {
+        "title": "Data:Creatures-Rigor Mortic.json",
+        "revision": 14418,
+        "content": {
+          "中文": "冻骸",
+          "原文": "Rigor Mortic",
+          "防御能力": "<b>突破打击 Breaching Strikes</b> 冻骸的近战打击将所有其他生物和物体的硬度视作比实际值少5点。</div>\n<div><b>茧状弹体 Cocoon Projectile</b> 全封闭的冻骸可由星舰武器发射至其他载具，或从星舰投射至地面。当以这种方式投放至战场时，冻骸可完全无视[[坠落]]伤害，哪怕它们从轨道投放。投放后1小时内，冻骸进行先攻检定时承受-2减值，并在战斗的第一轮中处于[[震慑]]1。</div>\n<div><b>构装护甲 Construct Armor</b> 冻骸的殖装护甲给予了它硬度。此硬度可以减少其所受到的任何伤害，其数值等同于硬度的数值。一旦冻骸的生命值降低至一半以下，或是受到重击伤害后，构装护甲将会破损，它失去硬度，并且AC降低至12。</div>\n<div><b>构装盾牌 Construct Armor</b> 冻骸可以用它整合的护甲[[举起盾牌]]。"
+        }
+      }
+    ],
+    "status": "false-positive-withdrawn"
   },
   "sf2e-anachronism.rulebook-bestiaries.json|/entries/Space Goblin Junker/items/8/system/description/value": {
-    "reason": "Wiki adds a condition value not present in the source.",
+    "reason": "原宏{Glitching 1}与Wiki故障1一致，状态值没有差异。",
     "evidence": [
       {
         "kind": "wiki",
@@ -182,10 +379,25 @@
         "accessed_at": "2026-10-23",
         "match_note": "Exact English identity; text transferred only into compatible source slots."
       }
-    ]
+    ],
+    "originalReason": "Wiki adds a condition value not present in the source.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "误报",
+    "recheckEvidence": [
+      {
+        "title": "Data:Creatures-Space Goblin Junker.json",
+        "revision": 20547,
+        "content": {
+          "中文": "太空地精垃圾佬",
+          "原文": "Space Goblin Junker",
+          "攻击能力": "<b>近战</b> {{act|1}} [[屠狗刀]] +10（灵巧，非电子，娴熟），<b>伤害</b> 1d6+6 挥砍</div>\n<div><b>远程</b> {{act|1}} [[破障枪]] +10（非电子，震荡，耗弹1，反冲，弹匣3，远程推撞，拆毁），<b>伤害</b> 1d6+6 音波</div>\n<div><b>区域射击 Area Fire</b> {{act|1}} [[破片手雷]]（10尺爆发，消耗品，射程70尺，科技），<b>伤害</b> 1d8 穿刺（DC 20基础反射豁免；大失败时1点持续流血）</div>\n<div><b>我把它改得更好了！ I Made It Better!</b> {{act|2}}（操作） 该地精对一颗破片手雷进行快速“改进”并使用区域射击投掷它。该手雷额外造成1d8点随机类型的伤害，大失败时还有随机额外效果（掷骰1d6：1—电击和[[故障]]1，2—毒素和[[被压制]]1轮，3—火焰和1点持续火焰伤害，4—寒冷和[[力竭]]1持续1轮，5—酸蚀和[[恶心]]1，或6—音波和[[耳聋]]1轮）。</div>\n<div><b>咬咬咬 Gnash Gnash Gnash</b> {{act|2}}（攻击） 该地精垃圾佬啃咬看起来很重要的电线和电缆。一个相邻的具有科技特征的生物或物体陷入[[故障]]1。</div>\n<div><b>地精疾走 Goblin Scuttle</b> {{act|R}} 同[[太空地精恶棍]]。"
+        }
+      }
+    ],
+    "status": "false-positive-withdrawn"
   },
   "sf2e-anachronism.standalone-adventure-bestiary.json|/entries/Anacite Wingbot/items/4/system/description/value": {
-    "reason": "Wiki adds a condition value not present in the source.",
+    "reason": "原宏{Glitching 1}与Wiki故障1一致，状态值没有差异。",
     "evidence": [
       {
         "kind": "wiki",
@@ -196,10 +408,25 @@
         "accessed_at": "2026-10-23",
         "match_note": "Exact English identity; text transferred only into compatible source slots."
       }
-    ]
+    ],
+    "originalReason": "Wiki adds a condition value not present in the source.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "误报",
+    "recheckEvidence": [
+      {
+        "title": "Data:Creatures-Anacite Wingbot.json",
+        "revision": 14355,
+        "content": {
+          "中文": "新械族飞翼机",
+          "原文": "Anacite Wingbot",
+          "被动能力": "<b>时刻监视 Always Watching</b>新械族的飞翼机只要在发射器的范围内，就会不断记录并通过短波上传信息。新械族飞翼机可以投影出他们正在记录的实时影像，或者播放他们记录过的任何视频，这些影像会以幻象的形式出现在附近的空中。</div>\n<div><b>短波通讯 Shortwave</b> 新械族可以使用无线短波信号进行交流。这视作可以与其他具有短波通讯能力的生物以及同时具有构装体和[[科技特征]]的生物进行[[心灵感应]]。</div>\n<div><b>阳光依赖 Sunlight Dependency</b> 新械族以太阳供能；它们在黑暗区域会持续陷入[[故障]]1，必须每天在直接的阳光下充电，否则会完全关机。"
+        }
+      }
+    ],
+    "status": "false-positive-withdrawn"
   },
   "sf2e-anachronism.standalone-adventure-bestiary.json|/entries/Anacite Protector/items/5/system/description/value": {
-    "reason": "Wiki adds a condition value not present in the source.",
+    "reason": "原宏{Glitching 1}与Wiki故障1一致，状态值没有差异。",
     "evidence": [
       {
         "kind": "wiki",
@@ -210,13 +437,39 @@
         "accessed_at": "2026-10-23",
         "match_note": "Exact English identity; text transferred only into compatible source slots."
       }
-    ]
+    ],
+    "originalReason": "Wiki adds a condition value not present in the source.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "误报",
+    "recheckEvidence": [
+      {
+        "title": "Data:Creatures-Anacite Protector.json",
+        "revision": 14396,
+        "content": {
+          "中文": "新械族防卫机",
+          "原文": "Anacite Protector",
+          "被动能力": "<b>短波通讯 Shortwave</b> 新械族可以使用无线短波信号进行交流。这视作可以与其他具有短波通讯能力的生物以及同时具有构装体和[[科技特征]]的生物进行[[心灵感应]]。</div>\n<div><b>阳光依赖 Sunlight Dependency</b> 新械族以太阳供能；它们在黑暗区域会持续陷入[[故障]]1，必须每天在直接的阳光下充电，否则会完全关机。"
+        }
+      }
+    ],
+    "status": "false-positive-withdrawn"
   },
   "sf2e-anachronism.ancestry-features.json|/entries/Six-Armed/system/description/value": {
-    "reason": "Wiki says only active hands may perform actions; source only restricts wielding items. The broader restriction is not copied."
+    "reason": "轻灵兽族裔 rev8971的六臂写只能使用启动手执行动作；模组仅限制wield items，限制范围不同。",
+    "originalReason": "Wiki says only active hands may perform actions; source only restricts wielding items. The broader restriction is not copied.",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "轻灵兽族裔",
+        "revision": 8971,
+        "content": "{{族裔信息\n|中文=轻灵兽\n|原文=SKITTERMANDER\n|生命值=6\n|体型=小型\n|速度=25尺\n|属性提升=敏捷，魅力，自选\n|属性缺陷=感知\n|语言=[[通用语]]，维斯克语，一项由你选择的地区语言<br>\n等同于[[智力调整值]]（若为正值）数量的额外语言。从常见语言列表，以及你拥有许可的其他语言（例如普遍存在于你所处地区的语言）中选择。\n|特征=类人;轻灵兽\n|能力1=昏暗视觉\n|能力1描述=在[[昏暗光照]]下，你可以像在[[明亮光照]]下一样视物，并且你无视昏暗光照导致的[[隐蔽]]状态。\n|能力2=六臂\n|能力2描述=你有六条手臂，这使得你可以持握和持用多达六只占用手的武器和装备。任何时候，一双手被指定为你的启动手。你可以通过换手动作切换为另一双启动手，这是一个单动作。你只能使用启动手执行动作。有关扮演超过两只手的角色的更多信息，请参考第254页。\n}}"
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.actions.json|/entries/Attune/system/description/value#paragraph-1": {
-    "reason": "Wiki 将所需空手数量写为一只；原文要求具现所需的空手。",
+    "reason": "Wiki指定一只空手，模组按实际显象所需的free hands；手数限制表述不同。",
     "evidence": [
       {
         "kind": "wiki",
@@ -227,10 +480,27 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 将所需空手数量写为一只；原文要求具现所需的空手。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Actions-Attune.json",
+        "revision": 20075,
+        "content": {
+          "描述": "稳定身心，与所选的星辰面相调谐一致。你变得与光量子或引力子调谐。你可以也选择显现你的[[恒星显象]]，只要它们当前处于休眠状态，且你有一只空手来使用它们。",
+          "需求": "",
+          "触发": "",
+          "频率": "每轮一次",
+          "特殊": "除了上述用法外，你可以在掷骰[[先攻]]时，以[[自由动作]]使用调和。"
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.actions.json|/entries/Auto-Fire/system/description/value#paragraph-0": {
-    "reason": "Wiki 省略区域内生物受到武器伤害的句子。",
+    "reason": "Wiki已写区域内所有生物基础反射豁免及区域伤害；模组额外明确造成weapon damage。仅为伤害基准未明写，不应表述成Wiki未写区域受伤或豁免。",
     "evidence": [
       {
         "kind": "wiki",
@@ -241,10 +511,27 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 省略区域内生物受到武器伤害的句子。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "限定差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Actions-Auto-Fire.json",
+        "revision": 20127,
+        "content": {
+          "描述": "你尝试攻击[[锥形]]区域内的每个目标，锥形的范围等于你武器射程增量的一半，不必进行攻击骰。区域内的所有生物都必须通过[[基础反射豁免]]，DC为你的职业DC+你武器的[[追踪值]]。该伤害为[[区域伤害]]。豁免大失败的生物都会承受武器重击的附带效果，包括武器的[[重击专精效果]]。自动射击会耗用目标数量×2的弹药量。",
+          "需求": "你正持用一把具有[[全自动特征]]的武器。",
+          "触发": "",
+          "频率": "",
+          "特殊": ""
+        }
+      }
+    ],
+    "status": "rechecked-limited-or-uncertain"
   },
   "sf2e-anachronism.actions.json|/entries/Photon Accelerator/system/description/value#paragraph-2": {
-    "reason": "Wiki 将额外动作的 Stride 译成快步（Step）；保持原文。",
+    "reason": "模组额外动作可Stride行走或Strike打击；Wiki为Step快步或打击。",
     "evidence": [
       {
         "kind": "wiki",
@@ -255,10 +542,28 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 将额外动作的 Stride 译成快步（Step）；保持原文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Capture Laser.json",
+        "revision": 17144,
+        "content": {
+          "先决条件": "你具有光合作用。",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "光就是你的养分，哪怕是高度集中的光束也不例外。你获得对激光武器及具有[[光亮特征]]的效果的抗力5。此外，你还可以使用“光子加速”行动。\n:<b>光子加速 Photon Accelerator</b> {{act|R}} <b>频率</b> 每日一次；<b>触发</b> 你受到来自激光武器或具有光亮特征的效果的伤害，且该伤害突破了你的抗力；<b>效果</b> 你获得迅捷状态，持续至你下一回合结束。你获得的额外动作只能用于[[快步]]或[[打击]]。",
+          "特殊": ""
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.actions.json|/entries/Oppressive Presence/system/description/value#paragraph-1": {
-    "reason": "Wiki 增加能看见目标的限制，原文仅限制距离。",
+    "reason": "Wiki额外限定60尺内能看见的敌人；模组效果段仅选60尺内一名敌人，视线限制未写。",
     "evidence": [
       {
         "kind": "wiki",
@@ -269,10 +574,27 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 增加能看见目标的限制，原文仅限制距离。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Actions-Oppressive Presence.json",
+        "revision": 20095,
+        "content": {
+          "描述": "你只需一个眼神就能让敌人怯懦，或者用微妙简单的动作和词语就能吸引其注意。选择一个60尺内能看见的敌人作为目标，其[[被压制]]直到你下个回合开始。如果目标敌人用一次打击或者其他进攻动作指定你为目标，其便会失去来自此效果的被压制状态。",
+          "需求": "",
+          "触发": "",
+          "频率": "每轮一次。",
+          "特殊": ""
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.actions.json|/entries/Plate Deflection/system/description/value#paragraph-1": {
-    "reason": "Wiki 将任意重击限制成敌人的重击，原触发未限定来源。",
+    "reason": "Wiki触发为敌人对你重击，模组为你遭到重击，不限定敌我来源。",
     "evidence": [
       {
         "kind": "wiki",
@@ -283,10 +605,28 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 将任意重击限制成敌人的重击，原触发未限定来源。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Plated Deflection.json",
+        "revision": 10300,
+        "content": {
+          "先决条件": "[[维斯克蜥人传承|板甲维斯克蜥人传承]]或[[护甲精英]]",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "你已经精通于使用自己的板甲鳞片或穿戴的护甲来吸收毁灭性的打击。你获得板甲偏斜反应动作。\n<b>板甲偏斜 Plate Deflection {{act|R}}</b> <b>频率</b> 每天一次,<b>触发</b> 敌人对你造成重击,<b>效果</b> 你将攻击偏斜到你身体上的着重防御部分。你不会受到来自重击的双倍伤害，但仍会承受其他效果。",
+          "特殊": ""
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.actions.json|/entries/Get 'Em!/system/description/value#paragraph-0": {
-    "reason": "Wiki 持续至下个回合结束，原条目持续至下个回合开始。",
+    "reason": "Get Em基础攻击加值：模组至你下回合开始；Wiki至下回合结束。以身作则伤害段双方均写开始，应按分段定位。",
     "evidence": [
       {
         "kind": "wiki",
@@ -297,10 +637,27 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 持续至下个回合结束，原条目持续至下个回合开始。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Actions-Get 'Em.json",
+        "revision": 20026,
+        "content": {
+          "描述": "你为自己和盟友指出一个敌人来集中攻击。选择60尺内一个你能看见的生物。你和你的盟友在对该目标的攻击上获得+1状态加值，直到你下个回合结束。\n*'''以身作则 Lead by Example '''如果你使用两个动作，你打击该目标。你对目标的[[伤害掷骰]]获得等同于你[[魅力调整值]]的状态加值。无论打击是否命中，你和你的盟友在对目标后续打击的伤害上获得+1状态加值，直到你的下个回合开始。此伤害分别在5级，10级，15级，和20级时+1。",
+          "需求": "",
+          "触发": "",
+          "频率": "",
+          "特殊": ""
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.actions.json|/entries/Install Upgrade/system/description/value#paragraph-1": {
-    "reason": "Wiki 正文省略安装或拆卸需双手使用修理工具包的限制。",
+    "reason": "模组正文明确安装／卸载须双手使用修理工具包；Wiki描述和需求均未写该双手要求。",
     "evidence": [
       {
         "kind": "wiki",
@@ -311,10 +668,27 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 正文省略安装或拆卸需双手使用修理工具包的限制。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Actions-Install Upgrade.json",
+        "revision": 19991,
+        "content": {
+          "描述": "你花费10分钟将一个强化模块安装到一件护甲或武器中，将强化模块放入一个空的强化槽中。你也可以使用这个行动来卸载强化模块。你不能安装比强化槽数量更多的强化模块。",
+          "需求": "",
+          "触发": "",
+          "频率": "",
+          "特殊": ""
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.actions.json|/entries/Reactive Step/system/description/value#paragraph-1": {
-    "reason": "Wiki 写作快步两次，原条目为至多两次。",
+    "reason": "模组快步至多两次；Wiki写快步两次。差异仅为可选次数上限措辞。",
     "evidence": [
       {
         "kind": "wiki",
@@ -325,10 +699,27 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 写作快步两次，原条目为至多两次。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Actions-Reactive Step.json",
+        "revision": 20024,
+        "content": {
+          "描述": "你能够巧妙地在敌人身周移动，摆脱困境或设法将自己置于有利位置。你直接朝着触发生物[[快步]]两次。",
+          "需求": "",
+          "触发": "一个在你触及内的生物在使用[[移动]]动作时离开一个方格。",
+          "频率": "",
+          "特殊": ""
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.actions.json|/entries/Steel Yourselves!/system/description/value#paragraph-1": {
-    "reason": "Wiki 增加盟友须在下个回合开始前使用应对冲击的期限。",
+    "reason": "模组第一段允许盟友在自己回合花动作但未写下回合前期限；该期限仅出现在以身作则附加豁免增益中。Wiki把期限同时加到基础临时生命值动作。",
     "evidence": [
       {
         "kind": "wiki",
@@ -339,10 +730,27 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 增加盟友须在下个回合开始前使用应对冲击的期限。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Actions-Steel Yourselves!.json",
+        "revision": 20028,
+        "content": {
+          "描述": "你鼓励你的盟友为冲击做出防备，或以其他方式为即将到来的伤害做好准备。直到你的下回合开始，你60尺内任何能感知到你的盟友都可以花费1动作来使用'''应对冲击'''（Brace For Impact）。该动作具有[[专注特征]]。执行应对冲击的人获得等同于你的[[魅力调整值]]+你等级一半的[[临时生命值]]，持续1分钟。\n*'''以身作则''' 如果你使用两个动作，则你使用'''应对冲击'''。你和任何在你下回合开始前使用应对冲击的盟友还将在对抗造成伤害的效果时[[豁免]]获得+1状态加值，持续1分钟",
+          "需求": "",
+          "触发": "",
+          "频率": "每小时一次",
+          "特殊": ""
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.actions.json|/entries/Living Shield/system/description/value#paragraph-0": {
-    "reason": "Wiki 触发省略相邻盟友也可受益的情况。",
+    "reason": "模组触发包括从你处获得掩蔽或与你相邻的盟友；Wiki只写掩蔽中的盟友。",
     "evidence": [
       {
         "kind": "wiki",
@@ -353,10 +761,28 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 触发省略相邻盟友也可受益的情况。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-You'll Have To Go Through Me!.json",
+        "revision": 15843,
+        "content": {
+          "先决条件": "",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "你稳固自身来保护身后的盟友。进行一次区域射击或自动射击。直到你下个回合开始或直到你使用移动动作，你获得活体盾牌反应动作，且如果你将要被强迫移动效果移动，你移动的距离减少10尺。\n:<b>启动—活体盾牌 Living Shield </b>{{act|R}} <b>触发</b> 一个敌人对从你提供的掩蔽中获益的盟友造成伤害,<b>效果</b> 使你目标盟友受到的触发伤害减少等同你的等级加上体质调整值的数额。你会受到等同减少伤害的伤害。",
+          "特殊": ""
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.actions.json|/entries/Nimbus Surge/system/description/value#paragraph-3": {
-    "reason": "Wiki 光量子分支持续至目标回合结束，原文持续至目标回合开始。",
+    "reason": "Nimbus Surge光量子分支：模组至目标回合开始，Wiki至结束；引力子分支双方均至结束。",
     "evidence": [
       {
         "kind": "wiki",
@@ -367,10 +793,27 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 光量子分支持续至目标回合结束，原文持续至目标回合开始。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Actions-Nimbus Surge.json",
+        "revision": 20035,
+        "content": {
+          "描述": "你的光晕迸发能量，强行撕开敌人的防御。对触发生物进行一次近战[[打击]]。这次打击不计入你的多重攻击减值，你的[[多重攻击减值]]也不应用于此次打击。\n* <b>引力子调谐</b> 如果此次打击造成[[重击]]，目标必须成功通过一次强韧豁免，对抗你的职业DC。否则陷入[[力竭]]1，直到其回合结束。\n* <b>光量子调谐</b> 如果此次打击造成[[重击]]，目标必须成功通过一次强韧豁免，对抗你的职业DC。否则陷入[[笨拙]]1，直到其回合结束。",
+          "需求": "",
+          "触发": "你触及范围内的一个生物使用[[操作]]或[[移动动作]]，进行远程攻击，或者使用移动动作时离开一个方格。",
+          "频率": "",
+          "特殊": ""
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.actions.json|/entries/Recharge/system/description/value#paragraph-0": {
-    "reason": "Wiki 需求栏限定完全耗尽的电池，原需求仅要求拥有电池。",
+    "reason": "模组需求只写拥有电池，但紧接正文同样写给expended battery充能；Wiki将耗尽条件也放入需求栏。撤回确定的玩法限制差异，记录为字段重复／位置不同。",
     "evidence": [
       {
         "kind": "wiki",
@@ -381,10 +824,27 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 需求栏限定完全耗尽的电池，原需求仅要求拥有电池。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "字段迁移",
+    "recheckEvidence": [
+      {
+        "title": "Data:Actions-Recharge.json",
+        "revision": 20010,
+        "content": {
+          "描述": "你给一块耗尽的电池充能。如果使用充电站这需要1分钟，大多数建筑物和星舰中都可以找到充电站。",
+          "需求": "你拥有一块没有剩余充能的电池。",
+          "触发": "",
+          "频率": "",
+          "特殊": ""
+        }
+      }
+    ],
+    "status": "rechecked-limited-or-uncertain"
   },
   "sf2e-anachronism.actions.json|/entries/New Plan/system/description/value#paragraph-1": {
-    "reason": "Wiki 将临时免疫的对象写为大师谋划而非新计划。",
+    "reason": "模组写临时免疫New Plan，Wiki写临时免疫Master Plan；后者包含前者反应。只能确认引用名称不同，未证明实际使用次数或适用效果不同。",
     "evidence": [
       {
         "kind": "wiki",
@@ -395,10 +855,28 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 将临时免疫的对象写为大师谋划而非新计划。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "引用名称差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Master Plan.json",
+        "revision": 10214,
+        "content": {
+          "先决条件": "",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "在[[每日准备]]中，你可以与至多五位盟友一起讨论当天冒险的策略。之后，你可以使用以下反应动作快速向他们建议你的计划。\n<b>新计划！ New Plan! {{act|R}} </b>（[[幸运]]，[[语言]]） <b>触发</b> 与你一起讨论策略的盟友尝试[[攻击掷骰]]或[[技能检定]],<b>效果</b> 该盟友掷骰两次触发检定，采用较好的结果。然后该盟友[[临时免疫]]你的大师谋划，直到你的下次每日准备。",
+          "特殊": ""
+        }
+      }
+    ],
+    "status": "rechecked-limited-or-uncertain"
   },
   "sf2e-anachronism.actions.json|/entries/Overclock Gear/system/description/value#paragraph-2": {
-    "reason": "Wiki 在目标物品描述中省略科技物品的限定。",
+    "reason": "模组写one tech item；Wiki普通目标只写一件物品，科技限定仅明确用于minion。保留物品类型限定差异。",
     "evidence": [
       {
         "kind": "wiki",
@@ -409,10 +887,27 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 在目标物品描述中省略科技物品的限定。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Actions-Overclock Gear.json",
+        "revision": 20002,
+        "content": {
+          "描述": "你可以汲取残余的魔法能量来释放装备的全部潜能。你持握、持用或穿戴的一件物品，或你指挥的一个科技仆从（取决于你的编程语言），会进入超频状态，持续1分钟。你同时只能拥有一件超频装备；如果你超频一个不同的目标，你当前的超频装备停止超频。<br>　　只要你的装备处于超频状态，你就获得你编程语言的超频增益，并可以使用其独特的[[超频脉冲]]动作。",
+          "需求": "",
+          "触发": "你施放来自[[法术位]]的法术。",
+          "频率": "每轮一次",
+          "特殊": ""
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.actions.json|/entries/Holo-Roger/system/description/value#paragraph-1": {
-    "reason": "Wiki 为所有敌人且未限定旗帜投影在星舰，原文仅一名敌人并有该限定。",
+    "reason": "模组仅挫败一名敌人且加值须旗帜投影在星舰上；Wiki为所有敌人且只需旗帜被投影。",
     "evidence": [
       {
         "kind": "wiki",
@@ -423,10 +918,28 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 为所有敌人且未限定旗帜投影在星舰，原文仅一名敌人并有该限定。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Space Pirate Dedication.json",
+        "revision": 16903,
+        "content": {
+          "先决条件": "[[威吓]]受训",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "作为一名寻求劫掠的太空海员，你在驾驶技能上受训，或则如果你已经受训时，则成为专家。你熟悉所有[[短弯刀]]，[[连枷]]，[[细剑]]，和具有[[拆毁]]特征的武器。在熟练度上，你将这些武器中所有军用武器视作简易武器，将其中所有进阶武器视作军用武器。如果你至少为专家，你获得这些武器的重击专精效果。此外你获得全息威吓动作。<br>\n<b>全息威吓 Holo-Roger {{act|F}}</b>  <b>触发</b> 你掷骰先攻,<b>效果</b> 你星舰那可怕的全息旗帜在你的头顶投影，持续1分钟。对30尺内能看到你旗帜的所有敌人进行一次[[威吓]]检定来[[挫败士气]]。在你的旗帜被投影期间，你用于[[挫败士气]]的威[[吓检]]定获得+1环境加值。",
+          "特殊": ""
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.actions.json|/entries/Light Speed/system/description/value#paragraph-1": {
-    "reason": "Wiki 将疲乏（Fatigued）写作力竭，保留原需求。",
+    "reason": "模组需求不是Fatigued疲乏，Wiki写未力竭（Enfeebled）；条件引用不同。",
     "evidence": [
       {
         "kind": "wiki",
@@ -437,10 +950,28 @@
         "accessed_at": "2026-10-23",
         "match_note": "Original English paragraph retained; no rule or automation edits."
       }
-    ]
+    ],
+    "originalReason": "Wiki 将疲乏（Fatigued）写作力竭，保留原需求。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Manifold Masters.json",
+        "revision": 10211,
+        "content": {
+          "先决条件": "[[无形学者]]",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "你拓展感知力，更容易洞悉周遭无形的真知。你在[[每日准备]]期间使用无形学徒时，能够额外获得两次[[额外学识]]专长。\n你能够吸收周围环境中的太阳和电磁[[辐射]]，将其转化为推动身体更快[[运动]]的动能。你的所有速度增加5尺。除此之外，你获得光速动作。\n*'''​光速 Light Speed''' {{act|1}}​​ （[[光亮]]，[[传送]]） '''​频率'''​ 10分钟一次,'''需求'''​ 你未力竭, ​效果​ 你以光速穿越战场，快到令他人无法察觉。你将自身（以及你穿戴和持有的任何物品）传送到240尺内一片你能看见的未被占据的空间。",
+          "特殊": ""
+        }
+      }
+    ],
+    "status": "rechecked-textual-difference"
   },
   "sf2e-anachronism.feats.json|/entries/Tag Team/system/description/value#paragraph-0": {
-    "reason": "Wiki 将 Reflex 写作反应，无法安全作为反射豁免的译文。",
+    "reason": "触发字段中的反应豁免是局部术语笔误，正文打击/MAP规则已有完整中文。 报告精确写为Reflex应为反射，不概括整段Wiki不可用。",
     "evidence": [
       {
         "kind": "wiki",
@@ -452,12 +983,46 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 将 Reflex 写作反应，无法安全作为反射豁免的译文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Tag Team.json",
+        "revision": 10484,
+        "timestamp": "2025-11-13T13:42:23Z",
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Feats-Tag Team.json",
+        "data": {
+          "ID": 467,
+          "中文": "双打配合",
+          "原文": "Tag Team",
+          "SFS": "标准",
+          "系列": "CR",
+          "来源": "PC",
+          "稀有度": "常见",
+          "专长分类": "职业专长",
+          "特征": "使节",
+          "等级": 10,
+          "动作": "R",
+          "先决条件": "",
+          "频率": "",
+          "触发": "你的“干掉他！”目标被盟友的攻击重击，对盟友的攻击或法术的反应豁免大失败。",
+          "需求": "",
+          "描述": "你抓住盟友提供的机会，迅速攻击敌人。对触发生物进行一次打击。如果是远程打击，则必须在你武器的第一个射程增量内。此次打击不计入你的[[多重攻击减值]]，你的多重攻击减值也不适用于此次打击。",
+          "特殊": "",
+          "相关": "使节专长",
+          "变体": "",
+          "升级": "",
+          "data_type": "专长"
+        }
+      }
+    ]
   },
   "sf2e-anachronism.feats.json|/entries/Envoy Dedication/system/description/value#paragraph-0": {
-    "reason": "原文要求欺骗、交涉、威吓全部受训时才替换技能，Wiki 写作或，保留英文。",
+    "reason": "原文技能替代条件是三技能全部受训（and），Wiki为任一（或）；前一选择受训句两者都是or。 保留中文的全部受训条件；报告只定位第二句，不声称Wiki缺少技能受训整项。",
     "evidence": [
       {
         "kind": "wiki",
@@ -469,12 +1034,46 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "原文要求欺骗、交涉、威吓全部受训时才替换技能，Wiki 写作或，保留英文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Envoy Dedication.json",
+        "revision": 11333,
+        "timestamp": "2025-11-17T08:29:39Z",
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Feats-Envoy Dedication.json",
+        "data": {
+          "ID": 701,
+          "中文": "使节入门",
+          "原文": "Envoy Dedication",
+          "SFS": "标准",
+          "系列": "CR",
+          "来源": "PC",
+          "稀有度": "常见",
+          "专长分类": "职业专长",
+          "特征": "变体,入门,兼职",
+          "等级": 2,
+          "动作": "",
+          "先决条件": "魅力+2",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "你获得[[使节指令]]职业特性，但不会获得\"[[干掉他！]]\"使节指令的以身作则增益。你在[[欺骗]]，[[交涉]]或[[威吓]]外加另一项由你选择的技能上成为受训。如果你已经在欺骗，交涉或威吓上受训，你改为任选一项额外技能成为受训。你在使节职业DC上成为受训。",
+          "特殊": "",
+          "相关": "",
+          "变体": "使节变体",
+          "升级": "",
+          "data_type": "专长"
+        }
+      }
+    ]
   },
   "sf2e-anachronism.feats.json|/entries/Don't Touch That!/system/description/value#paragraph-1": {
-    "reason": "Wiki 触发混入其它专长名称，并以可见代替可观察，保留英文。",
+    "reason": "Wiki触发混入异种考古学家入门；其后对你可见与can observe的规则范围还存在措辞歧义。 仅删除触发中的无关专长引用，另说明可观察/可见的术语差别；正文已有完整中文。",
     "evidence": [
       {
         "kind": "wiki",
@@ -486,12 +1085,46 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 触发混入其它专长名称，并以可见代替可观察，保留英文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Don't Touch That!.json",
+        "revision": 10014,
+        "timestamp": "2025-11-13T13:41:20Z",
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Feats-Don't Touch That!.json",
+        "data": {
+          "ID": 23,
+          "中文": "别碰那个！",
+          "原文": "Don't Touch That!",
+          "SFS": "标准",
+          "系列": "CR",
+          "来源": "GG",
+          "稀有度": "常见",
+          "专长分类": "职业专长",
+          "特征": "变体",
+          "等级": 2,
+          "动作": "R",
+          "先决条件": "[[异种考古学家入门]]",
+          "频率": "每天一次",
+          "触发": "[[异种考古学家入门]] 对你可见的一名盟友触发一个陷阱。",
+          "需求": "",
+          "描述": "你会对不小心的盟友发出尖锐、慌乱的训斥。此专长可获得视觉或听觉特征，以适配你的警告为准。尝试一次发掘学识检定对抗危害的隐秘DC。<br>\n<b>大成功</b> 你的警告来得正是时候。你阻止陷阱触发，或者将触发效果延迟到你的下个回合开始或结束（由你选择）。<br>\n<b>成功</b> 你的盟友在对抗陷阱下一次攻击时的Ac上，或在对抗陷阱效果时下一次豁免上获得+1环境加值。<br>\n<b>大失败</b> 你尖锐的警告只会吓到你的盟友，让他对陷阱的下一次攻击措手不及。",
+          "特殊": "",
+          "相关": "",
+          "变体": "异种考古学家变体",
+          "升级": "",
+          "data_type": "专长"
+        }
+      }
+    ]
   },
   "sf2e-anachronism.class-features.json|/entries/Walking Armory/system/description/value#paragraph-0": {
-    "reason": "Wiki 的体质替代仅限中甲或重甲，原条目覆盖使用护甲；额外负载上限也未出现在原文。仅录入负载减少的对应句。",
+    "reason": "仅保留：Wiki将体质替代力量限定于中甲/重甲，模组写使用护甲；两种负载上限成长在双方均存在。",
     "evidence": [
       {
         "kind": "wiki",
@@ -503,12 +1136,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-limited-or-uncertain",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 的体质替代仅限中甲或重甲，原条目覆盖使用护甲；额外负载上限也未出现在原文。仅录入负载减少的对应句。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "真假混合，撤回部分判断",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "When determining your Strength for using armor... In addition, increase ... encumbered by half your Constitution modifier ... maximum carried Bulk by your Constitution modifier.",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "士兵",
+        "revision": 12556,
+        "url": "https://sf2.huijiwiki.com/wiki/士兵",
+        "missing": false,
+        "excerpt": "当你使用中甲或重甲时...此外，你判定超载的负载上限增加你体质调整值的一半...你的最大负载上限增加你体质调整值。"
+      }
+    ]
   },
   "sf2e-anachronism.class-features.json|/entries/Erudite Warrior/system/description/value#paragraph-0": {
-    "reason": "Wiki 未说明学识技能随护甲熟练度同步提高，相关完整规则句保留英文。",
+    "reason": "Wiki已有交涉/社群所选主技能随护甲熟练度成长；模组额外明确所选学识技能也同步提高。",
     "evidence": [
       {
         "kind": "wiki",
@@ -520,12 +1170,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-limited-or-uncertain",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 未说明学识技能随护甲熟练度同步提高，相关完整规则句保留英文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "限定差异",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "gain expert proficiency in Diplomacy or Society (whichever you selected) and the Lore skill you selected",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "战斗风格",
+        "revision": 18808,
+        "url": "https://sf2.huijiwiki.com/wiki/战斗风格",
+        "missing": false,
+        "excerpt": "当你获得护甲专家时，你也会在交涉或社群中所选的那一个上获得专家熟练度。所选技能会在你获得护甲大师时提升至大师熟练..."
+      }
+    ]
   },
   "sf2e-anachronism.class-features.json|/entries/Mine/system/description/value#paragraph-0": {
-    "reason": "Wiki 只可收回一个相邻地雷，原文为所有已部署未引爆地雷；护盾的起爆限制也不同。",
+    "reason": "收回：模组单动作收集全部已部署未引爆地雷；Wiki单动作收回一个相邻地雷。起爆：模组无你的指令不能引爆；Wiki仅明确不会因伤害引爆。",
     "evidence": [
       {
         "kind": "wiki",
@@ -537,12 +1204,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 只可收回一个相邻地雷，原文为所有已部署未引爆地雷；护盾的起爆限制也不同。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "collect all deployed and undetonated mines ... cannot detonate without your activation command",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "外皮层",
+        "revision": 21020,
+        "url": "https://sf2.huijiwiki.com/wiki/外皮层",
+        "missing": false,
+        "excerpt": "收起一个相邻的已部署且未引爆的地雷...不会因受到伤害引爆。"
+      }
+    ]
   },
   "sf2e-anachronism.class-features.json|/entries/Instant Mods/system/description/value#paragraph-0": {
-    "reason": "Wiki 缺少每轮一次的限制，该完整规则句保留英文。",
+    "reason": "Wiki将改造改为自由动作；模组还明确每轮限一次。",
     "evidence": [
       {
         "kind": "wiki",
@@ -554,12 +1238,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 缺少每轮一次的限制，该完整规则句保留英文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "Once per round, you can ... as a free action",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "机械师",
+        "revision": 21396,
+        "url": "https://sf2.huijiwiki.com/wiki/机械师",
+        "missing": false,
+        "excerpt": "你可以用自由动作而非单动作使用改造。"
+      }
+    ]
   },
   "sf2e-anachronism.class-features.json|/entries/Witchwarper Spellcasting/system/description/value#paragraph-0": {
-    "reason": "Wiki 缺少初始1聚能点及聚能池1点，且将自动维持量子场域写作可选，相关段落保留英文。",
+    "reason": "Wiki已有每次曲织法术消耗1聚能点；模组另明确初始聚能池为1点，并规定施放时自动维持量子场域，Wiki写可以选择自动维持。",
     "evidence": [
       {
         "kind": "wiki",
@@ -571,12 +1272,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 缺少初始1聚能点及聚能池1点，且将自动维持量子场域写作可选，相关段落保留英文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "It costs 1 Focus Point ... you start with a focus pool of 1 Focus Point ... automatically Sustain",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "织维巫师",
+        "revision": 10958,
+        "url": "https://sf2.huijiwiki.com/wiki/织维巫师",
+        "missing": false,
+        "excerpt": "施放一个曲织法术会消耗1聚能点...可以选择自动维持你的量子场域。"
+      }
+    ]
   },
   "sf2e-anachronism.class-features.json|/entries/Spell Repertoire/system/description/value#paragraph-0": {
-    "reason": "Wiki 替换法术段落未保留不得替换顿悟法术或联结法术的限制。",
+    "reason": "秘术师法术库的替换段未明确模组列出的不得替换顿悟法术或联结法术限制。",
     "evidence": [
       {
         "kind": "wiki",
@@ -588,12 +1306,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 替换法术段落未保留不得替换顿悟法术或联结法术的限制。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "you cannot swap out epiphany spells or connection spells",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "秘术师",
+        "revision": 12531,
+        "url": "https://sf2.huijiwiki.com/wiki/秘术师",
+        "missing": false,
+        "excerpt": "被替换的法术可以是戏法。你也可以通过休整期重训来替换法术。"
+      }
+    ]
   },
   "sf2e-anachronism.spells.json|/entries/Recharge Weapon/system/description/value#paragraph-1": {
-    "reason": "Wiki 升阶条文仅写弹药，原文包含弹药或充能。",
+    "reason": "基础效果双方均有弹药或充能；模组升阶亦明确同时覆盖二者，Wiki升阶只写弹药。",
     "evidence": [
       {
         "kind": "wiki",
@@ -605,12 +1340,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 升阶条文仅写弹药，原文包含弹药或充能。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "ammunition or charges equal to double/triple/quadruple its expend",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "Data:Spells-Recharge Weapon.json",
+        "revision": 9653,
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Spells-Recharge Weapon.json",
+        "missing": false,
+        "excerpt": "升阶（3环）...耗弹2倍的弹药；6环3倍；9环4倍。"
+      }
+    ]
   },
   "sf2e-anachronism.spells.json|/entries/Vague Idea/system/description/value#paragraph-1": {
-    "reason": "Wiki 的成功／大成功栏与原文成功／失败对应不同，保留原结果段落。",
+    "reason": "效果内容已有中文，但两个豁免结果栏目与模组错位：模组成功无效、失败生效；Wiki大成功无效、成功生效。",
     "evidence": [
       {
         "kind": "wiki",
@@ -622,12 +1374,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 的成功／大成功栏与原文成功／失败对应不同，保留原结果段落。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "Success unaffected; Failure Dazzled +1 Recall Knowledge",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "Data:Spells-Vague Idea.json",
+        "revision": 13019,
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Spells-Vague Idea.json",
+        "missing": false,
+        "excerpt": "大成功：目标不受影响。成功：目标陷入目眩...+1环境加值。"
+      }
+    ]
   },
   "sf2e-anachronism.spells.json|/entries/Implant Data/system/description/value#paragraph-0": {
-    "reason": "植入数据长度原文300字符，Wiki为280。",
+    "reason": "简单陈述长度上限：模组300字符；Wiki280字符。",
     "evidence": [
       {
         "kind": "wiki",
@@ -639,12 +1408,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "植入数据长度原文300字符，Wiki为280。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "no more than 300 characters",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "Data:Spells-Implant Data.json",
+        "revision": 14878,
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Spells-Implant Data.json",
+        "missing": false,
+        "excerpt": "不超过280个字符"
+      }
+    ]
   },
   "sf2e-anachronism.spells.json|/entries/Infusion/system/description/value#paragraph-4": {
-    "reason": "升阶的额外治疗原文每环增加6，Wiki为8。",
+    "reason": "双动作版本每升一环的额外治疗增量：模组+6，Wiki+8；不要误说基础双动作治疗量不同。",
     "evidence": [
       {
         "kind": "wiki",
@@ -656,12 +1442,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "升阶的额外治疗原文每环增加6，Wiki为8。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "extra healing for the 2-action version increases by 6",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "Data:Spells-Infusion.json",
+        "revision": 11984,
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Spells-Infusion.json",
+        "missing": false,
+        "excerpt": "升阶...2动作版本的额外治疗增加8。"
+      }
+    ]
   },
   "sf2e-anachronism.spells.json|/entries/Holographic Memory/system/description/value#paragraph-0": {
-    "reason": "全息记忆原文最长5分钟，Wiki的截断句写作1分钟。",
+    "reason": "Wiki先写影像最长5分钟，后写长记忆在1分钟处终止；模组两句均为5分钟。",
     "evidence": [
       {
         "kind": "wiki",
@@ -673,12 +1476,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "全息记忆原文最长5分钟，Wiki的截断句写作1分钟。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "no longer than 5 minutes ... ends at that point",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "Data:Spells-Holographic Memory.json",
+        "revision": 9573,
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Spells-Holographic Memory.json",
+        "missing": false,
+        "excerpt": "不能超过5分钟...全息影像会在1分钟时结束。"
+      }
+    ]
   },
   "sf2e-anachronism.spells.json|/entries/Holographic Memory/system/description/value#paragraph-1": {
-    "reason": "原文要求有感知能力的生物，Wiki未保留该限定。",
+    "reason": "双方均有智力调整值≥–3限定；Wiki未单独译sentient。记为限定词表达差异，暂不宣称确定扩大目标范围。",
     "evidence": [
       {
         "kind": "wiki",
@@ -690,12 +1510,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-limited-or-uncertain",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "原文要求有感知能力的生物，Wiki未保留该限定。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "含义未定",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "any living, Unconscious, or deceased sentient creature with an Intelligence modifier of –3 or higher",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "Data:Spells-Holographic Memory.json",
+        "revision": 9573,
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Spells-Holographic Memory.json",
+        "missing": false,
+        "excerpt": "任何活着的，失去意识的，或者死去的生物...智力调整值为-3或更高"
+      }
+    ]
   },
   "sf2e-anachronism.spells.json|/entries/Howl/system/description/value#paragraph-0": {
-    "reason": "嚎叫的持续伤害骰及随其它嚎叫者增加伤害的方式不同。",
+    "reason": "基础持续心灵伤害：模组1d8，Wiki1d10。额外嚎叫：模组只要至少有一个其他生物嚎叫就+1d8；Wiki每个嚎叫生物+1。",
     "evidence": [
       {
         "kind": "wiki",
@@ -707,12 +1544,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "嚎叫的持续伤害骰及随其它嚎叫者增加伤害的方式不同。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "1d8 persistent mental ... increases by 1d8 if at least one other creature is howling",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "Data:Spells-Howl.json",
+        "revision": 9576,
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Spells-Howl.json",
+        "missing": false,
+        "excerpt": "1d10持续心灵伤害...每有一个...持续心灵伤害就增加1"
+      }
+    ]
   },
   "sf2e-anachronism.spells.json|/entries/Verdant Code/system/description/value#paragraph-0": {
-    "reason": "禁足原文持续1轮或直到逃脱，Wiki以直到连接两者，保留英文。",
+    "reason": "原文明示持续1轮或提前脱逃。Wiki连接词表述有歧义，建议澄清为一轮或直到脱逃（以先发生者为准）；不能仅凭直到断定规则版本不同。",
     "evidence": [
       {
         "kind": "wiki",
@@ -724,12 +1578,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-limited-or-uncertain",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "禁足原文持续1轮或直到逃脱，Wiki以直到连接两者，保留英文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "含义未定",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "Immobilized for 1 round or until it Escapes",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "Data:Spells-Verdant Code.json",
+        "revision": 9737,
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Spells-Verdant Code.json",
+        "missing": false,
+        "excerpt": "目标还会禁足一轮，直到它通过...逃脱检定。"
+      }
+    ]
   },
   "sf2e-anachronism.spells.json|/entries/Genetic Regeneration/system/description/value#paragraph-0": {
-    "reason": "基因再生原文为再生7，Wiki为再生8。",
+    "reason": "基础再生：模组7（每轮7HP），Wiki8（每轮8HP）。",
     "evidence": [
       {
         "kind": "wiki",
@@ -741,12 +1612,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "基因再生原文为再生7，Wiki为再生8。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "regeneration 7 ... restores 7 Hit Points",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "Data:Spells-Genetic Regeneration.json",
+        "revision": 9559,
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Spells-Genetic Regeneration.json",
+        "missing": false,
+        "excerpt": "再生8...恢复8点生命"
+      }
+    ]
   },
   "sf2e-anachronism.spells.json|/entries/Vitality Nova/system/description/value#paragraph-0": {
-    "reason": "Wiki 未提供必须从命能网络消耗生命值的完整独立句，保留该段英文。",
+    "reason": "Wiki已有按花费生命值治疗的规则；模组额外明确资源来自你的命能网络，并允许花费其中任意数量。",
     "evidence": [
       {
         "kind": "wiki",
@@ -758,12 +1646,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-limited-or-uncertain",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 未提供必须从命能网络消耗生命值的完整独立句，保留该段英文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "限定差异",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "Spend any number of Hit Points from your vitality network",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "Data:Spells-Vitality Nova.json",
+        "revision": 12624,
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Spells-Vitality Nova.json",
+        "missing": false,
+        "excerpt": "命能新星...每消耗2点生命值施放它可治疗1点生命值。此治疗视为使用转移命能。"
+      }
+    ]
   },
   "sf2e-anachronism.spells.json|/entries/New Game/system/description/value#paragraph-li-0": {
-    "reason": "Wiki 以自己或盟友为目标，原文要求自己以及任意数量自愿盟友；保留此列表项英文。",
+    "reason": "生活模拟模式：模组要求自己和任意数量自愿盟友，Wiki写自己或任意数量自愿盟友。其余模式不受此条影响。",
     "evidence": [
       {
         "kind": "wiki",
@@ -775,12 +1680,29 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 以自己或盟友为目标，原文要求自己以及任意数量自愿盟友；保留此列表项英文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "kind": "module",
+        "excerpt": "targeting yourself and any number of willing allies",
+        "macroDisplayLabelsIncluded": true
+      },
+      {
+        "title": "Data:Spells-New Game.json",
+        "revision": 9285,
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Spells-New Game.json",
+        "missing": false,
+        "excerpt": "如果你以自己或任意数量的自愿盟友为目标施法"
+      }
+    ]
   },
   "sf2e-anachronism.equipment.json|/entries/Iridescent Baton/system/description/value#paragraph-1": {
-    "reason": "Wiki 的启动动作数与原条目不同，启动标题整段保留英文。",
+    "reason": "误报，见确认问题。",
     "evidence": [
       {
         "kind": "wiki",
@@ -792,12 +1714,22 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "false-positive-withdrawn",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 的启动动作数与原条目不同，启动标题整段保留英文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "误报",
+    "recheckEvidence": [
+      {
+        "title": "Data:Items-Iridescent Baton.json",
+        "revision": 19893,
+        "url": "https://sf2.huijiwiki.com/wiki/Data%3AItems-Iridescent%20Baton.json"
+      }
+    ]
   },
   "sf2e-anachronism.equipment.json|/entries/Iridescent Baton/system/description/value#paragraph-3": {
-    "reason": "Wiki 的启动动作数与原条目不同，启动标题整段保留英文。",
+    "reason": "误报，见确认问题。",
     "evidence": [
       {
         "kind": "wiki",
@@ -809,12 +1741,22 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "false-positive-withdrawn",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 的启动动作数与原条目不同，启动标题整段保留英文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "误报",
+    "recheckEvidence": [
+      {
+        "title": "Data:Items-Iridescent Baton.json",
+        "revision": 19893,
+        "url": "https://sf2.huijiwiki.com/wiki/Data%3AItems-Iridescent%20Baton.json"
+      }
+    ]
   },
   "sf2e-anachronism.equipment.json|/entries/Functionary's Mask/system/description/value#paragraph-1": {
-    "reason": "Wiki 的启动动作数与原条目不同，启动标题整段保留英文。",
+    "reason": "Wiki动作1，模组动作2；差异成立。",
     "evidence": [
       {
         "kind": "wiki",
@@ -826,12 +1768,22 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 的启动动作数与原条目不同，启动标题整段保留英文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Items-Functionary's Mask.json",
+        "revision": 17646,
+        "url": "https://sf2.huijiwiki.com/wiki/Data%3AItems-Functionary%27s%20Mask.json"
+      }
+    ]
   },
   "sf2e-anachronism.equipment.json|/entries/Emergency Beacon/system/description/value#paragraph-0": {
-    "reason": "Wiki 将英里写作里，无法安全对齐信号范围。",
+    "reason": "Wiki为100/50/25里，模组为miles；单位差异成立。",
     "evidence": [
       {
         "kind": "wiki",
@@ -843,12 +1795,22 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 将英里写作里，无法安全对齐信号范围。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Items-Emergency Beacon.json",
+        "revision": 12743,
+        "url": "https://sf2.huijiwiki.com/wiki/Data%3AItems-Emergency%20Beacon.json"
+      }
+    ]
   },
   "sf2e-anachronism.equipment.json|/entries/Magefoil Grenade (Tactical)/system/description/value#paragraph-2": {
-    "reason": "Wiki 重击持续4轮，原条目2轮。",
+    "reason": "Wiki战术型重击4轮，模组Critical2轮；数值差异成立，报告应按原栏名表述。",
     "evidence": [
       {
         "kind": "wiki",
@@ -860,12 +1822,22 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 重击持续4轮，原条目2轮。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Items-Magefoil Grenade.json",
+        "revision": 19871,
+        "url": "https://sf2.huijiwiki.com/wiki/Data%3AItems-Magefoil%20Grenade.json"
+      }
+    ]
   },
   "sf2e-anachronism.equipment.json|/entries/Magboots/system/description/value#paragraph-0": {
-    "reason": "Wiki 仅列强韧DC，原文为强韧或反射DC。",
+    "reason": "Wiki仅强韧DC，模组强韧或反射DC；差异成立。",
     "evidence": [
       {
         "kind": "wiki",
@@ -877,12 +1849,22 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 仅列强韧DC，原文为强韧或反射DC。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Items-Magboots.json",
+        "revision": 12757,
+        "url": "https://sf2.huijiwiki.com/wiki/Data%3AItems-Magboots.json"
+      }
+    ]
   },
   "sf2e-anachronism.equipment.json|/entries/Holy Module (Commercial)/system/description/value#paragraph-0": {
-    "reason": "对邪秽目标的伤害原文3d4，Wiki为2d4。",
+    "reason": "Wiki对邪秽目标2d4，模组3d4；差异成立。",
     "evidence": [
       {
         "kind": "wiki",
@@ -894,12 +1876,22 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "对邪秽目标的伤害原文3d4，Wiki为2d4。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Items-Holy Module.json",
+        "revision": 18725,
+        "url": "https://sf2.huijiwiki.com/wiki/Data%3AItems-Holy%20Module.json"
+      }
+    ]
   },
   "sf2e-anachronism.equipment.json|/entries/Sharpshooter Serum (Commercial)/system/description/value#paragraph-1": {
-    "reason": "Wiki 未给出掩蔽AC加值减少1的数值。",
+    "reason": "误报，见确认问题。",
     "evidence": [
       {
         "kind": "wiki",
@@ -911,12 +1903,22 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "false-positive-withdrawn",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 未给出掩蔽AC加值减少1的数值。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "误报",
+    "recheckEvidence": [
+      {
+        "title": "Data:Items-Sharpshooter Serum.json",
+        "revision": 17679,
+        "url": "https://sf2.huijiwiki.com/wiki/Data%3AItems-Sharpshooter%20Serum.json"
+      }
+    ]
   },
   "sf2e-anachronism.feats.json|/entries/Legendary Troll/system/description/value#paragraph-1": {
-    "reason": "Wiki 缺失60尺目标距离限制。",
+    "reason": "Wiki描述确未出现目标60尺内限制，其余检定/效果/免疫均已写出。 列明仅补目标60尺限制，不标整页无译。",
     "evidence": [
       {
         "kind": "wiki",
@@ -928,12 +1930,46 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 缺失60尺目标距离限制。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Legendary Troll.json",
+        "revision": 15150,
+        "timestamp": "2026-04-10T09:12:07Z",
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Feats-Legendary Troll.json",
+        "data": {
+          "ID": 836,
+          "中文": "传奇巨魔",
+          "原文": "Legendary Troll",
+          "SFS": "标准",
+          "系列": "CR",
+          "来源": "PC",
+          "稀有度": "常见",
+          "专长分类": "通用专长",
+          "特征": "通用,技能",
+          "等级": 15,
+          "动作": 1,
+          "先决条件": "[[欺骗]]技能传奇",
+          "频率": "",
+          "触发": "",
+          "需求": "你或你的目标正在使用通讯单元、数据板或其他计算机。",
+          "描述": "尝试一次欺骗检定对抗目标的意志DC。成功的话，目标措手不及1轮,大成功的话，目标困惑1轮。另外，目标的反应会给你关于它的信息，就像你使用适当的技能尝试回忆知识并在检定中得到相同结果一样。无论结果如何，目标在24小时内暂时免疫你的传奇巨魔动作。",
+          "特殊": "",
+          "相关": "",
+          "变体": "",
+          "升级": "",
+          "data_type": "专长"
+        }
+      }
+    ]
   },
   "sf2e-anachronism.feats.json|/entries/Infodump/system/description/value#paragraph-0": {
-    "reason": "Wiki 将任意可回忆知识的技能限制为学识技能，保留英文。",
+    "reason": "Wiki把任意可回忆知识的技能写成任意学识技能；原文允许不相关目标特征的任何相应技能。 只纠正技能范围；保留Wiki已有中文的来源说明。",
     "evidence": [
       {
         "kind": "wiki",
@@ -945,12 +1981,46 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 将任意可回忆知识的技能限制为学识技能，保留英文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Infodump.json",
+        "revision": 10153,
+        "timestamp": "2025-11-13T13:41:39Z",
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Feats-Infodump.json",
+        "data": {
+          "ID": 79,
+          "中文": "信息轰炸",
+          "原文": "Infodump",
+          "SFS": "标准",
+          "系列": "CR",
+          "来源": "GG",
+          "稀有度": "常见",
+          "专长分类": "族裔专长",
+          "特征": "默思族,语言,心灵",
+          "等级": 5,
+          "动作": 1,
+          "先决条件": "",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "你用海量琐碎的信息冲击目标的心智。你对60尺内的已知生物尝试[[回忆知识]]检定，此时可以使用任意学识技能，不限于目标特征相关的技能），对抗其意志DC。60尺内的生物在24小时内对你使用该技能的信息轰炸[[临时免疫]]。\n*'''大成功''' 目标获得[[呆滞]]2，持续1d4轮。\n*'''成功''' 目标获得[[呆滞]]1，持续1d4轮。\n*'''​失败​''' 目标不受影响。\n*'''​大失败​''' 你思维混乱，获得[[呆滞]]1，直至你的下回合开始。",
+          "特殊": "你可以通过语言或[[有限心灵感应]]使用本能力。通过语言发动时，该动作获得听觉特征。",
+          "相关": "默思族专长",
+          "变体": "",
+          "升级": "",
+          "data_type": "专长"
+        }
+      }
+    ]
   },
   "sf2e-anachronism.feats.json|/entries/Hold Hands/system/description/value#paragraph-1": {
-    "reason": "Wiki 未明确+2环境加值作用于豁免，保留整段英文。",
+    "reason": "Wiki写对抗四动作获得+2环境加值，未明确原文saving throws；不是Wiki完全没有+2加值。 报告改为原文明确豁免检定而Wiki未明确承载量；保留模组英文限制，同时将原文把通常DC对抗动作写成saving throws作为原文疑点单列。",
     "evidence": [
       {
         "kind": "wiki",
@@ -962,12 +2032,46 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 未明确+2环境加值作用于豁免，保留整段英文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Hold Hands.json",
+        "revision": 17157,
+        "timestamp": "2026-05-06T08:01:54Z",
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Feats-Hold Hands.json",
+        "data": {
+          "中文": "携手共进",
+          "ID": 1365,
+          "原文": "Hold Hands",
+          "SFS": "标准",
+          "系列": "CR",
+          "来源": "GA",
+          "稀有度": "常见",
+          "专长分类": "族裔专长",
+          "特征": "水獭人",
+          "等级": 1,
+          "动作": 1,
+          "先决条件": "",
+          "频率": "",
+          "触发": "",
+          "需求": "你与一名盟友相邻。",
+          "描述": "你认识到支持你的伴侣或团体中的成员也会使你变得更强大。你与相邻且自愿的盟友握手，这会占据你们各自的一只手。在接下来的 1 个回合内，只要你与该盟友保持相邻状态并握着手，你在 AC 上会获得 +1 的环境加值。此外，你和你的盟友在对抗[[挫败士气]]、[[移位]]、[[推撞]]或[[摔绊]]时，会获得 +2 的环境加值。",
+          "特殊": "",
+          "相关": "水獭人专长",
+          "变体": "",
+          "升级": "",
+          "data_type": "专长"
+        }
+      }
+    ]
   },
   "sf2e-anachronism.feats.json|/entries/Master Witchwarper Spellcasting/system/description/value#paragraph-0": {
-    "reason": "原链接指向日志页的特定章节，默认页名不能保证表达大师施法；保留原英文及自定义显示名。",
+    "reason": "Wiki描述已明确你获得大师施法增益，与英文Master Spellcasting benefits一致；原日志锚点/宏自定义显示名是录入结构问题。 撤销Wiki规则差异；改分类结构对齐/宏显示名补译，保留原锚点。",
     "evidence": [
       {
         "kind": "wiki",
@@ -979,12 +2083,46 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "false-positive-withdrawn",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "原链接指向日志页的特定章节，默认页名不能保证表达大师施法；保留原英文及自定义显示名。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "误报",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Master Witchwarper Spellcasting.json",
+        "revision": 11342,
+        "timestamp": "2025-11-17T08:29:40Z",
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Feats-Master Witchwarper Spellcasting.json",
+        "data": {
+          "ID": 748,
+          "中文": "大师织维巫师施法",
+          "原文": "Master Witchwarper Spellcasting",
+          "SFS": "标准",
+          "系列": "CR",
+          "来源": "PC",
+          "稀有度": "常见",
+          "专长分类": "职业专长",
+          "特征": "变体",
+          "等级": 18,
+          "动作": "",
+          "先决条件": "[[专家织维巫师施法]]；奥法或神秘传奇，取决于你的悖论",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "你获得[[大师施法增益]]。",
+          "特殊": "",
+          "相关": "",
+          "变体": "织维巫师变体",
+          "升级": "",
+          "data_type": "专长"
+        }
+      }
+    ]
   },
   "sf2e-anachronism.feats.json|/entries/Xenodruid Bond/system/description/value#paragraph-4": {
-    "reason": "Wiki 在已受训技能的替换条件中增加神圣限定，仅录入此前匹配句。",
+    "reason": "Wiki在所列技能前多出神圣二字属可证实文本差别，但这些教派技能均是学识，无法据此断言Wiki有意新增圣洁规则。 写为Wiki疑似笔误所列神圣技能；按英文所列技能译，不把它升级成已确认规则限制。",
     "evidence": [
       {
         "kind": "wiki",
@@ -996,12 +2134,46 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-limited-or-uncertain",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 在已受训技能的替换条件中增加神圣限定，仅录入此前匹配句。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "含义未定",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Xenodruid Bond.json",
+        "revision": 12121,
+        "timestamp": "2025-12-15T09:33:10Z",
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Feats-Xenodruid Bond.json",
+        "data": {
+          "ID": 486,
+          "中文": "异星德鲁伊纽带",
+          "原文": "Xenodruid Bond",
+          "SFS": "标准",
+          "系列": "CR",
+          "来源": "PC",
+          "稀有度": "常见",
+          "专长分类": "职业专长",
+          "特征": "秘术师",
+          "等级": 1,
+          "动作": "",
+          "先决条件": "原能施法的[[联结]]",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "你加入了一个异星德鲁伊的原能教派，他们与自然和物质宇宙的生物多样性有着紧密联系，例如异星守卫。从下文的异星德鲁伊教派中选择一个。\n你在与教派相关的所列技能上成为受训，并将所列法术作为标志性法术添加到你的法术表与法术库中。如果你已经在所列神圣技能上受训，你改为自选一项其他技能成为受训。\n*<b>教派</b> 动物 Animal；<b>技能</b> 动物学识；<b>法术</b> 1环：{{浮窗|法术|害兽形态}}；2环：{{浮窗|法术|动物形态}}；5环：{{浮窗|法术|蟹化术}}\n*<b>教派</b> 植物 Plant；<b>技能</b> 植物学识；<b>法术</b> 1环： {{浮窗|法术|召唤植物与真菌}}；2环：{{浮窗|法术|绿色代码}}；5环：{{浮窗|法术|植物形态}}\n*<b>教派</b> 病毒 Viral；<b>技能</b> 族谱学识；<b>法术</b> 1环：{{浮窗|法术|侦测毒素}}；2环：{{浮窗|法术|瞬效病毒}}；5环：{{浮窗|法术|毒云术}}",
+          "特殊": "",
+          "相关": "秘术师专长",
+          "变体": "",
+          "升级": "",
+          "data_type": "专长"
+        }
+      }
+    ]
   },
   "sf2e-anachronism.feats.json|/entries/Take 'Em Alive!/system/description/value#paragraph-1": {
-    "reason": "Wiki 将自己的 Strike 打击写作攻击，保留具体动作要求的英文。",
+    "reason": "Wiki第一处以身作则写进行一次非致命攻击，英文明确Strike；Wiki随后盟友反应处已明确打击。 仅标自己的Strike动作术语不精确，不声称整个条目缺少打击规则。",
     "evidence": [
       {
         "kind": "wiki",
@@ -1013,12 +2185,46 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 将自己的 Strike 打击写作攻击，保留具体动作要求的英文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Take ‘Em Alive!.json",
+        "revision": 18764,
+        "timestamp": "2026-09-06T14:59:30Z",
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Feats-Take ‘Em Alive!.json",
+        "data": {
+          "ID": 445,
+          "中文": "抓活的！",
+          "原文": "Take ‘Em Alive!",
+          "SFS": "标准",
+          "系列": "CR",
+          "来源": "PC",
+          "稀有度": "常见",
+          "专长分类": "职业专长",
+          "特征": "指令,使节",
+          "等级": 1,
+          "动作": "1-2",
+          "先决条件": "",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "你敦促盟友在不伤人性命的情况下击倒敌人。直到你的下个回合开始，你和你的盟友可以将[[非致命特征]]添加到使用武器的攻击上（无需承受通常的减值），和造成伤害且不具有[[死亡]]或[[虚能特征]]的法术上。\n<br><b>以身作则</b> 如果你使用两个动作，你对目标进行一次非致命攻击。如果成功，你在伤害上获得等同于你[[魅力调整值]]的状态加值。如果大成功，30尺内一名盟友可以用[[反应动作]]以非致命攻击打击目标。",
+          "特殊": "",
+          "相关": "使节专长",
+          "变体": "",
+          "升级": "",
+          "data_type": "专长"
+        }
+      }
+    ]
   },
   "sf2e-anachronism.feats.json|/entries/Picklecore Music/system/description/value#paragraph-0": {
-    "reason": "Wiki 将至多2／4／8个目标写作额外影响对应数量，目标数量不一致。",
+    "reason": "Wiki专家写额外影响至多两个目标，英文是总共至多两个；大师/传奇原文总共4/8。 记录目标总数与额外数的局部差别，不将已有整套成功度中文列为缺译。",
     "evidence": [
       {
         "kind": "wiki",
@@ -1030,12 +2236,46 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 将至多2／4／8个目标写作额外影响对应数量，目标数量不一致。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Picklecore Music.json",
+        "revision": 17141,
+        "timestamp": "2026-05-01T16:26:54Z",
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Feats-Picklecore Music.json",
+        "data": {
+          "中文": "腌菜核音乐",
+          "ID": 1272,
+          "原文": "Picklecore Music",
+          "SFS": "标准",
+          "系列": "CR",
+          "来源": "GA",
+          "稀有度": "常见",
+          "专长分类": "族裔专长",
+          "特征": "地精",
+          "等级": 1,
+          "动作": 1,
+          "先决条件": "",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "腌菜核（Picklecore）——一种融合了即兴瓶罐乐队、电子乐与电动工具的曲风——正是你的心头好。尝试一次[[表演]]检定，将结果与30尺内的某单一敌人或某个自愿盟友的意志DC相比较。该动作具备歌唱表演的一切通常特征与规则限制。<br>若你的表演技能达到专家熟练度，此能力可额外影响范围内至多两个目标；达到大师影响四个；达到传奇影响八个。\n:<b>大成功</b> 若目标不具备地精特征，则将会陷入[[措手不及]]直至你下回合开始，或直至其被下一次打击命中为止（以先发生者为准）。若目标具备[[地精特征]]，则其速度获得+5尺状态加值，持续1轮。\n:<b>成功</b> 若目标不具备地精特征，则其将在你当前回合结束前对你发起的下一次攻击处于[[措手不及]]状态。\n:<b>大失败</b> 你意外演奏出了传统音乐。参照大成功效果，但地精被当作非地精处理，反之亦然。",
+          "特殊": "",
+          "相关": "地精专长",
+          "变体": "",
+          "升级": "",
+          "data_type": "专长"
+        }
+      }
+    ]
   },
   "sf2e-anachronism.feats.json|/entries/Instinctive Hold/system/description/value#paragraph-0": {
-    "reason": "原条件链接使用主动语态的 Grabbing / Restraining 自定义显示名；无法按默认条件名显示而保证主被动关系，保留原英文触发。",
+    "reason": "Wiki触发已经是你正擒获或束缚一个生物，主动/受动关系与英文Grabbing/Restraining一致。 撤销Wiki规则差异；保留条件UUID的主动自定义显示名，分类结构/显示语法处理。",
     "evidence": [
       {
         "kind": "wiki",
@@ -1047,12 +2287,46 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "false-positive-withdrawn",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "原条件链接使用主动语态的 Grabbing / Restraining 自定义显示名；无法按默认条件名显示而保证主被动关系，保留原英文触发。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "误报",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Instinctive Hold.json",
+        "revision": 18060,
+        "timestamp": "2026-08-10T06:33:46Z",
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Feats-Instinctive Hold.json",
+        "data": {
+          "中文": "本能紧握",
+          "ID": 1505,
+          "原文": "Instinctive Hold",
+          "SFS": "标准",
+          "系列": "CR",
+          "来源": "GA",
+          "稀有度": "常见",
+          "专长分类": "族裔专长",
+          "特征": "石面鱿族",
+          "等级": 13,
+          "动作": "F",
+          "先决条件": "",
+          "频率": "",
+          "触发": "你的回合开始，且你正擒获或束缚一个你触及内的生物。",
+          "需求": "",
+          "描述": "在你肢体中密布的敏感神经的指挥下，你的触手会反射性地紧紧抓住你正在擒拿的事物，即使你的注意力在其他地方。尝试一次DC 16的[[纯骰检定]]。如果你成功，你可以延长[[受擒]]生物的受擒或[[束缚]]状态的持续时间，直到你的下个回合结束。如果你有任何通常在你擒拿生物时触发的特殊能力或自由动作，你不能作为动作的一部分使用它们。",
+          "特殊": "",
+          "相关": "石面鱿族专长",
+          "变体": "",
+          "升级": "",
+          "data_type": "专长"
+        }
+      }
+    ]
   },
   "sf2e-anachronism.feats.json|/entries/Razor Scrap/system/description/value#paragraph-0": {
-    "reason": "Wiki 写作持续流血，原宏为未含持续类别的流血伤害。",
+    "reason": "原宏确实仅写bleed，但官方当前DamageInstance会把bleed隐含为persistent；未显写persistent不能证明非持续。未能取得精确8.6.1源码。 撤回确定Wiki多加持续的断言，标自动化语义需精确版本核实；不改宏。当前主分支代码仅作反证方向，不冒充8.6.1证据。",
     "evidence": [
       {
         "kind": "wiki",
@@ -1064,12 +2338,46 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-limited-or-uncertain",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 写作持续流血，原宏为未含持续类别的流血伤害。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "含义未定",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Razor Scrap.json",
+        "revision": 18432,
+        "timestamp": "2026-08-24T08:35:53Z",
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Feats-Razor Scrap.json",
+        "data": {
+          "中文": "剃刀废料",
+          "ID": 2486,
+          "原文": "Razor Scrap",
+          "SFS": "标准",
+          "系列": "CR",
+          "来源": "AS",
+          "稀有度": "常见",
+          "专长分类": "族裔专长",
+          "特征": "拾荒蜗族",
+          "等级": 9,
+          "动作": "",
+          "先决条件": "[[坚固废料]]",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "你的临时外壳如果破碎会非常危险。如果某个生物以无武装攻击或不具有[[长触及特征]]的近战武器破损或摧毁你的盾牌，该生物会因碎片而受到1d6点持续流血伤害。",
+          "特殊": "",
+          "相关": "拾荒蜗族专长",
+          "变体": "",
+          "升级": "",
+          "data_type": "专长"
+        }
+      }
+    ]
   },
   "sf2e-anachronism.feats.json|/entries/Cue the Music/system/description/value#paragraph-0": {
-    "reason": "Wiki 缺失授予动人表演技能专长的句子。",
+    "reason": "Wiki描述没有原文最后授予Impressive Performance技能专长一句，其余先攻/情绪豁免增益已存在。 报告只标漏授予动人表演，不说整段加值规则缺失。",
     "evidence": [
       {
         "kind": "wiki",
@@ -1081,12 +2389,46 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 缺失授予动人表演技能专长的句子。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Cue the Music.json",
+        "revision": 16013,
+        "timestamp": "2026-04-20T06:57:59Z",
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Feats-Cue the Music.json",
+        "data": {
+          "中文": "音乐响起",
+          "ID": 1072,
+          "原文": "Cue the Music",
+          "SFS": "标准",
+          "系列": "CR",
+          "来源": "GA",
+          "稀有度": "常见",
+          "专长分类": "族裔专长",
+          "特征": "仿生人,听觉,情绪,心灵",
+          "等级": 1,
+          "动作": "",
+          "先决条件": "[[电子乐仿生人传承]]",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "你知道，有时候一首好调子是挑起争斗的最佳方式。当你掷骰[[表演]]用作[[先攻]]时，在遭遇的第一轮内，你赋予你自身和所有能听到你的盟友在其先攻掷骰和对抗[[情绪]]效果的豁免上+1状态加值。",
+          "特殊": "",
+          "相关": "仿生人专长",
+          "变体": "",
+          "升级": "",
+          "data_type": "专长"
+        }
+      }
+    ]
   },
   "sf2e-anachronism.feats.json|/entries/Psychic Constellation/system/description/value#paragraph-0": {
-    "reason": "Wiki 将拳攻击的招架特征扩展到无武装攻击，保留英文。",
+    "reason": "英文parry仅授予fist attack，Wiki把它扩成无武装攻击；这是目标攻击范围细差。 保留拳攻击限制，但当前本地把parry译格挡也需另纠为招架。",
     "evidence": [
       {
         "kind": "wiki",
@@ -1098,12 +2440,46 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 将拳攻击的招架特征扩展到无武装攻击，保留英文。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Psychic Constellation.json",
+        "revision": 10318,
+        "timestamp": "2025-11-13T13:42:01Z",
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Feats-Psychic Constellation.json",
+        "data": {
+          "ID": 91,
+          "中文": "灵能星群",
+          "原文": "Psychic Constellation",
+          "SFS": "标准",
+          "系列": "CR",
+          "来源": "GG",
+          "稀有度": "常见",
+          "专长分类": "族裔专长",
+          "特征": "默思族",
+          "等级": 13,
+          "动作": "",
+          "先决条件": "[[念控万物]]",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "你能够以[[心灵感应]]轻松操控各类装备，如同一颗小脑状的太阳被好似类星体的物品所环绕。基于念控万物，你获得第二对念动手，使一个典型默思族总共拥有六只手。当至少一只念动手空闲时，你可以偏转来袭的攻击，使[[无武装攻击]]攻击获得招架特征。你获得偏心轨道自由动作。\n*'''​偏心轨道 Eccentric Orbit''' {{act|F}}​​ （[[专注]]） '''​频率'''​ 每日一次,'''效果'''​ 你的念动手快速移动，允许你切换持握手或将念动手的触及范围提升5尺，持续至你下回合开始。",
+          "特殊": "",
+          "相关": "默思族专长",
+          "变体": "",
+          "升级": "",
+          "data_type": "专长"
+        }
+      }
+    ]
   },
   "sf2e-anachronism.feats.json|/entries/Dramatic Blocking/system/description/value#paragraph-0": {
-    "reason": "Wiki 将当你可以行动时改为当你行动时，触发条件不一致。",
+    "reason": "英文while you can act表示只要能够行动；Wiki当你行动时可能使持续防护误限在采取动作时。 精确写可行动能力条件，非触发型专长；其余对藏匿/无踪/夹击与等级限制已译。",
     "evidence": [
       {
         "kind": "wiki",
@@ -1115,9 +2491,43 @@
         "match_note": "Unmatched rule clauses retained in English; corresponding clauses may be Chinese."
       }
     ],
-    "status": "translated-from-module-english",
+    "status": "rechecked-textual-difference",
     "resolutionVersion": "0.3.0",
-    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。"
+    "resolution": "对应显示字段已按模组英文汉化；原复核证据作为历史保留，未将Wiki多余规则加入模组。",
+    "originalReason": "Wiki 将当你可以行动时改为当你行动时，触发条件不一致。",
+    "recheckVersion": "0.3.1",
+    "recheckCategory": "确认文本差异",
+    "recheckEvidence": [
+      {
+        "title": "Data:Feats-Dramatic Blocking.json",
+        "revision": 11121,
+        "timestamp": "2025-11-14T07:33:53Z",
+        "url": "https://sf2.huijiwiki.com/wiki/Data:Feats-Dramatic Blocking.json",
+        "data": {
+          "ID": 1010,
+          "中文": "戏剧性格挡",
+          "原文": "Dramatic Blocking",
+          "SFS": "标准",
+          "系列": "AD",
+          "来源": "GGW",
+          "稀有度": "常见",
+          "专长分类": "族裔专长",
+          "特征": "灵脑人",
+          "等级": 13,
+          "动作": "",
+          "先决条件": "",
+          "频率": "",
+          "触发": "",
+          "需求": "",
+          "描述": "经过多年磨练，你深谙如何运用舞台的每一寸空间，即便在狭小场地也能献上精彩绝伦的表演。当你行动时，你不会对等级与你相同或更低的[[藏匿]]、[[无踪]]、或正在[[夹击]]的生物[[措手不及]]。",
+          "特殊": "",
+          "相关": "灵脑人专长",
+          "变体": "",
+          "升级": "",
+          "data_type": "专长"
+        }
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-1": {
     "status": "upstream-source-issue-retained",
@@ -1180,7 +2590,7 @@
     }
   },
   "full-localization-0.3.0|source-note-7": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1203,10 +2613,17 @@
       "original": "<p><strong>Trigger</strong> The target of your @UUID[Compendium.sf2e-anachronism.actions.Item.cmCtfURzpbzkxWsy] is critically hit by an ally's attack or critically fails a Reflex save against an ally's attack or spell.</p><hr /><p>You seize the opening your ally has provided, quickly attacking your foe. Make a Strike against the triggering creature. If it's a ranged Strike, it must be in your weapon's first range increment. This Strike doesn't count toward your multiple attack penalty, and your multiple attack penalty doesn't apply to this Strike.</p>",
       "final": "<p><strong>触发</strong>你的@UUID[Compendium.sf2e-anachronism.actions.Item.cmCtfURzpbzkxWsy]的目标被盟友的攻击重击，或对抗盟友的攻击或法术的反射豁免大失败。</p><hr /><p>你抓住盟友提供的机会，迅速攻击敌人。对触发生物进行一次打击。如果是远程打击，则必须在你武器的第一个射程增量内。此次打击不计入你的多重攻击减值，你的多重攻击减值也不适用于此次打击。</p>",
       "status": "已按原文完成汉化"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "确认文本差异",
+        "conclusion": "触发字段中的反应豁免是局部术语笔误，正文打击/MAP规则已有完整中文。 报告精确写为Reflex应为反射，不概括整段Wiki不可用。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-8": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1229,10 +2646,17 @@
       "original": "<p>You gain the @UUID[Compendium.sf2e-anachronism.class-features.Item.f9dNcZi9kzbaGl8M] class feature, but do not gain the Lead by Example benefits of the Get 'Em! envoy directive. You become trained in Deception, Diplomacy, or Intimidation plus another skill of your choice. If you were already trained in Deception, Diplomacy, and Intimidation, you instead become trained in an additional skill of your choice. You also become trained in envoy class DC.</p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.tJZr2a7hVMpeMvU0]{Envoy}</p>",
       "final": "<p>你获得@UUID[Compendium.sf2e-anachronism.class-features.Item.f9dNcZi9kzbaGl8M]职业特性，但不会获得使节指令“干掉他们！”中的以身作则好处。你的欺骗、交涉或威吓之一，以及另一项自选技能变为受训。如果你的欺骗、交涉和威吓都已经受训，则改为使额外一项自选技能变为受训。你的使节职业DC也变为受训。</p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.tJZr2a7hVMpeMvU0]{使节}</p>",
       "status": "已按原文完成汉化"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "确认文本差异",
+        "conclusion": "原文技能替代条件是三技能全部受训（and），Wiki为任一（或）；前一选择受训句两者都是or。 保留中文的全部受训条件；报告只定位第二句，不声称Wiki缺少技能受训整项。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-9": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1255,10 +2679,17 @@
       "original": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> An ally you can observe triggers a trap.</p><hr /><p>You give a sharp, panicked reprimand to an unobservant ally. This feat gains the visual or auditory trait, whichever is appropriate for your warning. Attempt a Delve Lore check against the hazard's stealth DC.</p>\n<p><strong>Critical Success</strong> Your warning comes just in time. You prevent the trap from being triggered, or you delay the activation until the start or end of your next turn (your choice).</p>\n<p><strong>Success</strong> Your ally gains a +1 circumstance bonus to AC against the trap's next attack, or to their next saving throw against the trap's effects.</p>\n<p><strong>Critical Failure</strong> Your sharp warning only startles your ally, leaving them @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the trap's next attack.</p>",
       "final": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong> 一个你能观察到的盟友触发陷阱。</p><hr /><p>你惊慌地厉声斥责一个疏忽的盟友。此专长根据警告方式，获得视觉或听觉特征。尝试一次探秘学识（Delve Lore）检定，对抗危害的隐秘DC。</p>\n<p><strong>大成功</strong> 你的警告恰好及时。你阻止陷阱被触发，或使其延迟至你的下个回合开始或结束时启动（由你选择）。</p>\n<p><strong>成功</strong> 你的盟友对抗陷阱下一次攻击的AC，或对抗陷阱效果的下一次豁免检定，获得+1环境加值。</p>\n<p><strong>大失败</strong> 你的尖锐警告只惊吓了盟友，使其对陷阱的下一次攻击@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>",
       "status": "已按原文完成汉化"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "确认文本差异",
+        "conclusion": "Wiki触发混入异种考古学家入门；其后对你可见与can observe的规则范围还存在措辞歧义。 仅删除触发中的无关专长引用，另说明可观察/可见的术语差别；正文已有完整中文。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-10": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1281,10 +2712,17 @@
       "original": "<p><strong>Requirements</strong> You or your target are using a comm unit, datapad, or other computer.</p><hr /><p>Attempt a @Check[deception|against:will] check against the Will DC of a target within 60 feet. On a success, the target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round, and on a critical success, it's @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for 1 round. The target's reaction gives you information about it as though you'd attempted to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} using an appropriate skill and received the same result on your roll. The target is then temporarily immune to your Legendary Troll attempts for 24 hours.</p>",
       "final": "<p><strong>需求</strong>你或你的目标正在使用通讯单元、数据板或其他计算机。</p><hr /><p>对你60尺内的一个目标进行一次@Check[deception|against:will]检定，对抗其意志DC。成功时，目标陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮；大成功时，目标陷入@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}，持续1轮。目标的反应使你获得有关它的信息，如同你用适当的技能尝试@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}，并取得相同的掷骰结果。此后，目标对你的传奇巨魔尝试暂时免疫24小时。</p>",
       "status": "已按原文完成汉化"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "确认文本差异",
+        "conclusion": "Wiki描述确未出现目标60尺内限制，其余检定/效果/免疫均已写出。 列明仅补目标60尺限制，不标整页无译。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-11": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1307,10 +2745,17 @@
       "original": "<p>You muster myriad minutiae that you subsequently use to overwhelm a creature's mind with pointless trivia. Attempt a check to Recall Knowledge against the Will DC of a creature you're aware of within 60 feet; you can use any skill for which you can Recall Knowledge, not just a skill associated with the target's traits. Rather than remembering useful information, you recite facts at the target. Regardless of your result, the creatures within 60 feet become temporarily immune to your attempts to Infodump with that skill for 24 hours.</p><hr /><p><strong>Critical Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>\n<p><strong>Failure</strong> The target is unaffected.</p>\n<p><strong>Critical Failure</strong> You trip over your own thoughts, becoming stupefied 1 until the beginning of your next turn.</p><hr /><p><strong>Special</strong> You can Infodump using speech or limited telepathy. If you Infodump through speech, this ability gains the auditory trait.</p>",
       "final": "<p>你搜罗大量琐碎细节，以无关紧要的冷知识淹没一个生物的心灵。对你60尺内一个你知道其存在的生物尝试进行回忆知识检定，对抗其意志DC；你可以使用任何能用于回忆知识的技能，不限于与目标特征相关联的技能。你并非回想有用的信息，而是向目标背诵事实。无论结果如何，60尺内的生物都会对你用该技能进行的信息轰炸尝试暂时免疫24小时。</p><hr /><p><strong>大成功</strong>目标陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}，持续[[/gmr 1d4 #rounds]]{1d4轮}。</p>\n<p><strong>成功</strong>目标陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续[[/gmr 1d4 #rounds]]{1d4轮}。</p>\n<p><strong>失败</strong>目标不受影响。</p>\n<p><strong>大失败</strong>你的思绪把自己绊住，陷入呆滞1，持续至你的下个回合开始。</p><hr /><p><strong>特殊</strong>你可以通过语言或有限心灵感应使用本能力。通过语言发动时，该动作获得听觉特征。</p>",
       "status": "已按原文完成汉化"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "确认文本差异",
+        "conclusion": "Wiki把任意可回忆知识的技能写成任意学识技能；原文允许不相关目标特征的任何相应技能。 只纠正技能范围；保留Wiki已有中文的来源说明。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-12": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1333,10 +2778,17 @@
       "original": "<p><strong>Requirements</strong> You are adjacent to an ally.</p><hr /><p>You learned that supporting members of your pair or pod also makes you stronger. You join hands with an adjacent willing ally, which occupies one of each of your hands. For 1 round, while you remain adjacent to that ally and holding hands, you gain a +1 circumstance bonus to AC. Additionally, you and your ally gain a +2 circumstance bonus to your saving throws against attempts to [[/act demoralize]], [[/act reposition]], [[/act shove]], or [[/act trip]] either of you.</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.jJX6rYoKEW0neDu6]</p>",
       "final": "<p><strong>需求</strong>你与一名盟友相邻。</p><hr /><p>你学会了，支持配对伙伴或群体成员也会使自己更强。你与一个邻接且自愿的盟友牵手，双方各占用一只手。在接下来1轮内，只要你仍与该盟友邻接并牵着手，你的AC便获得+1环境加值。此外，你和该盟友的豁免检定获得+2环境加值，以抵抗对你们任一方进行的[[/act demoralize]]、[[/act reposition]]、[[/act shove]]或[[/act trip]]尝试。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.jJX6rYoKEW0neDu6]</p>",
       "status": "已按原文完成汉化"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "确认文本差异",
+        "conclusion": "Wiki写对抗四动作获得+2环境加值，未明确原文saving throws；不是Wiki完全没有+2加值。 报告改为原文明确豁免检定而Wiki未明确承载量；保留模组英文限制，同时将原文把通常DC对抗动作写成saving throws作为原文疑点单列。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-13": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1359,10 +2811,17 @@
       "original": "<p>You gain the @UUID[Compendium.sf2e-anachronism.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.DOc3Pf8wmVxanTIv#master-spellcasting-feat]{Master Spellcasting} benefits.</p>",
       "final": "<p>你获得@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.DOc3Pf8wmVxanTIv#master-spellcasting-feat]{大师施法}益处。</p>",
       "status": "已按原文完成汉化"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "误报",
+        "conclusion": "Wiki描述已明确你获得大师施法增益，与英文Master Spellcasting benefits一致；原日志锚点/宏自定义显示名是录入结构问题。 撤销Wiki规则差异；改分类结构对齐/宏显示名补译，保留原锚点。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-14": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1385,10 +2844,17 @@
       "original": "<p>You join a primal order of xenodruids with ties to nature and the biodiversity of the Universe, such as the Xenowardens. Choose one of the following xenodruid orders.</p>\n<p><strong>Order</strong> Animal; <strong>Skill</strong> Animal Lore; <strong>Spells</strong> 1st: @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{Pest Form}; 2nd: @UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{Animal Form}; 5th: @UUID[Compendium.sf2e-anachronism.spells.Item.n5a3t5Qnx5AU8auy]</p>\n<p><strong>Order</strong> Plant; <strong>Skill</strong> Plant Lore; <strong>Spells</strong> 1st: @UUID[Compendium.pf2e.spells-srd.Item.jSRAyd57kd4WZ4yE]{Summon Plant or Fungus}; 2nd: @UUID[Compendium.sf2e-anachronism.spells.Item.hk2mTLH9DIvNqDuS]; 5th: @UUID[Compendium.pf2e.spells-srd.Item.zCcfPS4y5SrZzU2x]{Plant Form}</p>\n<p><strong>Order</strong> Viral; <strong>Skill</strong> Genealogy Lore; <strong>Spells</strong> 1st: @UUID[Compendium.pf2e.spells-srd.Item.QqxwHeYEVylkYjsO]{Detect Poison}; 2nd: @UUID[Compendium.sf2e-anachronism.spells.Item.mnoTqz0gjRmuc4oR]; 5th: @UUID[Compendium.pf2e.spells-srd.Item.MlpbeZ61Euhl0d60]{Toxic Cloud}</p>\n<p>You become trained in the listed skill associated with the order and add the listed spells to your spell list and spell repertoire as signature spells. If you were already trained in the listed skill, you instead become trained in another skill of your choice.</p>",
       "final": "<p>你加入了一个异星德鲁伊的原能教派，他们与自然和物质宇宙的生物多样性有着紧密联系，例如异星守卫。从下文的异星德鲁伊教派中选择一个。</p>\n<p><strong>教派</strong> 动物；<strong>技能</strong> 动物学识；<strong>法术</strong> 1环：@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]；2环：@UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]；5环：@UUID[Compendium.sf2e-anachronism.spells.Item.n5a3t5Qnx5AU8auy]</p>\n<p><strong>教派</strong> 植物；<strong>技能</strong> 植物学识；<strong>法术</strong> 1环： @UUID[Compendium.pf2e.spells-srd.Item.jSRAyd57kd4WZ4yE]；2环：@UUID[Compendium.sf2e-anachronism.spells.Item.hk2mTLH9DIvNqDuS]；5环：@UUID[Compendium.pf2e.spells-srd.Item.zCcfPS4y5SrZzU2x]</p>\n<p><strong>教派</strong> 病毒；<strong>技能</strong> 族谱学识；<strong>法术</strong> 1环：@UUID[Compendium.pf2e.spells-srd.Item.QqxwHeYEVylkYjsO]；2环：@UUID[Compendium.sf2e-anachronism.spells.Item.mnoTqz0gjRmuc4oR]；5环：@UUID[Compendium.pf2e.spells-srd.Item.MlpbeZ61Euhl0d60]</p>\n<p>你在与教派相关的所列技能上变为受训，并将所列法术作为标志法术加入你的法术列表与法术库。如果你已在所列技能上受训，则改为使你选择的另一项技能变为受训。</p>",
       "status": "已按原文完成汉化"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "含义未定",
+        "conclusion": "Wiki在所列技能前多出神圣二字属可证实文本差别，但这些教派技能均是学识，无法据此断言Wiki有意新增圣洁规则。 写为Wiki疑似笔误所列神圣技能；按英文所列技能译，不把它升级成已确认规则限制。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-15": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1411,10 +2877,17 @@
       "original": "<p>You urge your allies to take down your enemies without incurring any loss of life. Until the beginning of your next turn, you and your allies can add the nonlethal trait to your attacks with weapons (without taking the normal penalty), and to your spells that deal damage and don't have the death or void trait.</p>\n<p><strong>Lead by Example</strong> If you used two actions, Strike a target with a nonlethal attack. On a success, you gain a status bonus to damage equal to your Charisma modifier. On a critical success, an ally within 30 feet can Strike the target as a reaction using a nonlethal attack.</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.fa4T1oR8S0lF5888]</p>",
       "final": "<p>你敦促盟友在不伤人性命的情况下击倒敌人。直到你的下个回合开始，你和你的盟友可以将非致命特征添加到使用武器的攻击上（无需承受通常的减值），和造成伤害且不具有死亡或虚能特征的法术上。</p>\n<p><strong>以身作则</strong>如果你使用了两个动作，以一次非致命攻击对目标进行打击。成功时，你的伤害获得等于你魅力调整值的状态加值。大成功时，30尺内一个盟友可以以反应对该目标进行一次非致命攻击的打击。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.fa4T1oR8S0lF5888]{效果：抓活的！}</p>",
       "status": "已按原文完成汉化"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "确认文本差异",
+        "conclusion": "Wiki第一处以身作则写进行一次非致命攻击，英文明确Strike；Wiki随后盟友反应处已明确打击。 仅标自己的Strike动作术语不精确，不声称整个条目缺少打击规则。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-16": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1437,10 +2910,17 @@
       "original": "<p>Picklecore, a blend of improvised jug band music, electronica, and power tools, is your jam. Attempt a @Check[performance|against:will|traits:auditory,linguistic] check against the Will DC of a single enemy or willing ally within 30 feet. This has all the usual traits and restrictions of a Performance check to sing. This can affect up to two targets within range if you have expert proficiency in Performance, four if you have master proficiency, and eight if you have legendary proficiency.</p><hr /><p><strong>Critical Success</strong> If the target doesn't have the goblin trait, they become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn or the next time they're hit by a Strike, whichever comes first. If the target has the goblin trait, they instead gain a +5-foot status bonus to its Speeds for 1 round.</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.mKWPyxaEKvO5RrZx]</p>\n<p><strong>Success</strong> If the target doesn't have the goblin trait, they become off-guard against the next attack that you attempt against it before the end of your current turn.</p>\n<p><strong>Critical Failure</strong> You accidentally perform conventional music. As critical success, except goblins are affected as if they were non-goblins and vice versa.</p>",
       "final": "<p>腌菜核（Picklecore）融合了即兴壶乐队音乐、电子乐与电动工具的声音，而你正好这一口。对30尺内一个敌人或自愿的盟友尝试进行@Check[performance|against:will|traits:auditory,linguistic]检定，对抗其意志DC。这具有以表演检定唱歌时通常拥有的所有特征与限制。如果你的表演熟练度为专家，此能力可以影响范围内至多两个目标；大师时至多四个，传奇时至多八个。</p><hr /><p><strong>大成功</strong>如果目标不具有地精特征，便陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态，持续至你的下个回合开始，或下次被打击命中，以先发生者为准。如果目标具有地精特征，则改为使其各项速度获得+5尺状态加值，持续1轮。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.mKWPyxaEKvO5RrZx]{效果：腌菜核音乐（大成功）}</p>\n<p><strong>成功</strong>如果目标不具有地精特征，在你本回合结束前，面对你对其进行的下一次攻击时，它处于措手不及状态。</p>\n<p><strong>大失败</strong>你意外演奏出了寻常的音乐。如同大成功，但地精受到非地精的效果，非地精则受到地精的效果。</p>",
       "status": "已按原文完成汉化"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "确认文本差异",
+        "conclusion": "Wiki专家写额外影响至多两个目标，英文是总共至多两个；大师/传奇原文总共4/8。 记录目标总数与额外数的局部差别，不将已有整套成功度中文列为缺译。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-17": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1463,10 +2943,17 @@
       "original": "<p><strong>Trigger</strong> Your turn begins, and you're @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbing} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restraining} a creature within your reach.</p><hr /><p>Directed by the sensitive nerves entwined within each of your limbs, your tentacles reflexively cling onto whatever you're grappling, even if your attention is directed elsewhere. Attempt a @Check[flat|dc:16|showDC:all]. If you succeed, you can extend the duration of the grappled creature's grabbed or restrained condition until the end of your next turn. If you have any special abilities or free actions that would normally be triggered when you @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} a creature, you can't use them as part of this action.</p>",
       "final": "<p><strong>触发</strong>你的回合开始，且你正@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{擒拿}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}一个在你触及范围内的生物。</p><hr /><p>在你肢体中密布的敏感神经的指挥下，你的触手会反射性地紧紧抓住你正在擒拿的事物，即使你的注意力在其他地方。尝试一次@Check[flat|dc:16|showDC:all]。如果你成功，你可以延长受擒生物的受擒或束缚状态的持续时间，直到你的下个回合结束。如果你有任何通常在你@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]生物时触发的特殊能力或自由动作，你不能作为动作的一部分使用它们。</p>",
       "status": "已按原文完成汉化"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "误报",
+        "conclusion": "Wiki触发已经是你正擒获或束缚一个生物，主动/受动关系与英文Grabbing/Restraining一致。 撤销Wiki规则差异；保留条件UUID的主动自定义显示名，分类结构/显示语法处理。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-18": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1489,10 +2976,17 @@
       "original": "<p>Your temporary shells are dangerous if shattered. If a creature breaks or destroys your shield with an unarmed attack or melee weapon without the reach trait, it takes @Damage[1d6[bleed]] damage from the shrapnel.</p>",
       "final": "<p>你临时拼装的外壳在碎裂时十分危险。如果生物用无武装攻击或没有触及特征的近战武器使你的盾牌破损或摧毁，它便受到碎片造成的@Damage[1d6[bleed]]伤害。</p>",
       "status": "已按原文完成汉化"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "含义未定",
+        "conclusion": "原宏确实仅写bleed，但官方当前DamageInstance会把bleed隐含为persistent；未显写persistent不能证明非持续。未能取得精确8.6.1源码。 撤回确定Wiki多加持续的断言，标自动化语义需精确版本核实；不改宏。当前主分支代码仅作反证方向，不冒充8.6.1证据。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-19": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1515,10 +3009,17 @@
       "original": "<p>You know sometimes a good tune is the best way to start a brawl. When you roll Performance for initiative, you grant yourself and all allies who can hear you a +1 status bonus to their initiative rolls and to saves against emotion effects during the first round of the encounter. You gain the @UUID[Compendium.pf2e.feats-srd.Item.xqAdXRd2gSQcqp5E]{Impressive Performance} skill feat.</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.ii1NY1YvM7lsql6n]</p>",
       "final": "<p>你知道，有时一首好曲子就是开启一场混战的最佳方式。当你以表演掷先攻时，你和所有能听见你的盟友在此次遭遇第一轮的先攻检定，以及对抗情绪效果的豁免检定上获得+1状态加值。你获得@UUID[Compendium.pf2e.feats-srd.Item.xqAdXRd2gSQcqp5E]{动人表演}技能专长。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.ii1NY1YvM7lsql6n]</p>",
       "status": "已按原文完成汉化"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "确认文本差异",
+        "conclusion": "Wiki描述没有原文最后授予Impressive Performance技能专长一句，其余先攻/情绪豁免增益已存在。 报告只标漏授予动人表演，不说整段加值规则缺失。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-20": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1541,10 +3042,17 @@
       "original": "<p>You effortlessly juggle an assortment of gear with your telepathy, giving you the appearance of a solar cerebellum orbited by planetoid items. You gain a second set of telekinetic hands, per Mind Over Matter, granting a typical contemplative six hands total. While at least one of your telekinetic hands is empty, you can deflect incoming attacks, granting your fist attack the parry trait. You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.fQJ8xyZH3Dch5xtN] free action.</p>",
       "final": "<p>你以心灵感应轻松托举各式装备，看起来就像一个恒星般的小脑，周围环绕着行星般的物品。你按念控万物的规则获得第二组念力手，使典型的默思族总计拥有六只手。只要至少有一只念力手空着，你便能拨开来袭攻击，使拳攻击获得格挡特征。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.fQJ8xyZH3Dch5xtN]自由动作。</p>",
       "status": "已按原文完成汉化"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "确认文本差异",
+        "conclusion": "英文parry仅授予fist attack，Wiki把它扩成无武装攻击；这是目标攻击范围细差。 保留拳攻击限制，但当前本地把parry译格挡也需另纠为招架。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-21": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1567,7 +3075,14 @@
       "original": "<p>Thanks to years of practice, you know how to use every inch of the stage and give a fantastic performance even in tight quarters. While you can act, you aren't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected}, or flanking creatures of your level or lower.</p>",
       "final": "<p>多年的练习让你懂得利用舞台的每一寸空间，即使在狭小区域也能献上精彩表演。只要你能够行动，你便不会对等级不高于你的以下生物处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态：@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}、@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{无踪}或夹击你的生物。</p>",
       "status": "已按原文完成汉化"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "确认文本差异",
+        "conclusion": "英文while you can act表示只要能够行动；Wiki当你行动时可能使持续防护误限在采取动作时。 精确写可行动能力条件，非触发型专长；其余对藏匿/无踪/夹击与等级限制已译。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-22": {
     "status": "upstream-source-issue-retained",
@@ -1805,7 +3320,7 @@
     }
   },
   "full-localization-0.3.0|source-note-37": {
-    "status": "upstream-source-issue-retained",
+    "status": "rechecked-source-note",
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "feats",
@@ -1818,7 +3333,14 @@
       "category": "专门学识暂译",
       "reason": "暂译探秘学识并保留英文括注；未将其替换为普通生存或其他学识。",
       "reviewer": "root"
-    }
+    },
+    "recheckVersion": "0.3.1",
+    "recheckConclusions": [
+      {
+        "category": "确认文本差异",
+        "conclusion": "Wiki触发混入异种考古学家入门；其后对你可见与can observe的规则范围还存在措辞歧义。 仅删除触发中的无关专长引用，另说明可观察/可见的术语差别；正文已有完整中文。"
+      }
+    ]
   },
   "full-localization-0.3.0|source-note-38": {
     "status": "upstream-source-issue-retained",
@@ -2051,9 +3573,10 @@
     "translationStatus": "translated",
     "note": {
       "reviewGroup": "equipment",
-      "name": "Speed Suspension",
+      "name": "Mobility Enhancer (Augmentation)",
       "issue": "英文将different augmentation举作temporary source的例子，分类可能有疑问。",
-      "handling": "保留该例子，不自行改为法术或其他例子。"
+      "handling": "保留该例子，不自行改为法术或其他例子。",
+      "recheckNote": "原疑点挂错物品名，已按三个型号的原条目ID定位。"
     }
   },
   "full-localization-0.3.0|source-note-55": {
