@@ -6,6 +6,10 @@
     "cnPrerequisites": {
       "path": "system.prerequisites.value",
       "converter": "sf2eAnachronismCnPrerequisites"
+    },
+    "cnHolyModuleCorrection": {
+      "path": "system",
+      "converter": "sf2eAnachronismCnHolyCommercial"
     }
   },
   "folders": {
@@ -2236,7 +2240,10 @@
     },
     "he1AD9ck10fLSvWn": {
       "name": "商用型圣洁模组",
-      "description": "<p>此强化模块常饰有圣徽，能够引导天界力量。它额外造成1d4点精魂伤害；对邪秽目标则造成3d4点精魂伤害。若你具有邪秽特征，你会 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 2} ，在携带或持用此武器期间。重击时，目标还会 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩} （若具有邪秽特征则改为 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}），持续至你下个回合结束，除非它成功通过 @Check[fortitude|dc:28] 豁免。</p>"
+      "cnHolyModuleCorrection": {
+        "expectedDescription": "<p>This upgrade is often adorned with a religious symbol and channels celestial power. It deals an additional 1d4 spirit damage, or 3d4 spirit against an unholy target. If you are unholy, you are @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} while carrying or wielding this weapon. On a critical hit, the target is also @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} (or @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} if unholy) until the end of your next turn unless it succeeds at a @Check[fortitude|dc:28] save.</p>",
+        "text": "<p>此强化模块常饰有圣徽，能够引导天界力量。它额外造成1d4点精魂伤害；对邪秽目标则造成2d4点精魂伤害。若你具有邪秽特征，你会 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭 2} ，在携带或持用此武器期间。重击时，目标还会 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩} （若具有邪秽特征则改为 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}），持续至你下个回合结束，除非它成功通过 @Check[fortitude|dc:28] 豁免。</p>"
+      }
     },
     "hqhInlROf6wRd83a": {
       "name": "先进型快干泡沫手雷",

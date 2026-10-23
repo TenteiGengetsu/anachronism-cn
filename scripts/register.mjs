@@ -1,4 +1,5 @@
-// Only display strings are supplied. No Documents or Rule Elements are updated.
+// Display strings, plus one explicitly requested Commercial Holy Module correction.
+// Compendium data is cloned; existing world Documents are never updated here.
 export function translatePrerequisites({value, translation}) {
     if (!Array.isArray(value) || !Array.isArray(translation) || translation.length === 0) return undefined;
     const seen = new Set();
@@ -43,6 +44,52 @@ export function translatePages({value, translation}) {
     return translateEmbedded(value, translation, false);
 }
 
+const HOLY_COMMERCIAL_ID = "he1AD9ck10fLSvWn";
+const HOLY_COMMERCIAL_RULES = [
+    {damageType: "spirit", diceNumber: 1, dieSize: "d4", key: "DamageDice", selector: "{item|parentItem.id}-damage", slug: "holy-module"},
+    {key: "DamageAlteration", mode: "upgrade", predicate: ["target:trait:unholy"], property: "dice-number", selectors: ["{item|parentItem.id}-damage"], slug: "holy-module", value: 3},
+    {key: "Note", outcome: ["criticalSuccess"], selector: "{item|parentItem.id}-damage", text: "SF2E.SpecificRule.Equipment.Upgrades.Weapon.HolyModule.CriticalNoteCommercial", title: "SF2E.SpecificRule.Equipment.Upgrades.Weapon.HolyModule.LabelCommercial"},
+];
+let holyCorrectionWarningShown = false;
+
+function sameJson(left, right) {
+    if (left === right) return true;
+    if (!left || !right || typeof left !== "object" || typeof right !== "object") return false;
+    if (Array.isArray(left) !== Array.isArray(right)) return false;
+    const keys = Object.keys(left);
+    return keys.length === Object.keys(right).length && keys.every((key) => Object.hasOwn(right, key) && sameJson(left[key], right[key]));
+}
+
+// Apply the text and dice change atomically. A guard failure leaves both source fields intact.
+export function translateHolyCommercial({value, translation, source, contextCompendium, field, path}) {
+    if (translation === undefined || translation === null) return undefined;
+    if (field !== "cnHolyModuleCorrection" || path !== "system") return undefined;
+    const module = game.modules.get("sf2e-anachronism");
+    if (!module?.active || module.version !== "2.4.0") return undefined;
+    if (source?._id !== HOLY_COMMERCIAL_ID || source.type !== "equipment" || source.system?.slug !== "holy-module-commercial") return undefined;
+    const pack = contextCompendium?.metadata?.id;
+    if (pack !== "sf2e-anachronism.equipment") return undefined;
+    // Compendium indexes may contain the slug without the full description or rules.
+    if (value?.description?.value === undefined || value?.rules === undefined) return undefined;
+    const validText = typeof translation?.expectedDescription === "string" && typeof translation.text === "string" && translation.text.trim();
+    const correctedRules = structuredClone(HOLY_COMMERCIAL_RULES);
+    correctedRules[1].value = 2;
+    if (validText && sameJson(value?.rules, correctedRules) && value?.description?.value === translation.text) return structuredClone(value);
+    if (!validText || !sameJson(value?.rules, HOLY_COMMERCIAL_RULES) || value?.description?.value !== translation.expectedDescription) {
+        if (!holyCorrectionWarningShown) {
+            holyCorrectionWarningShown = true;
+            const message = "商用型圣洁模组2d4修正已跳过：源说明或规则与适配版本不一致，已保留原数据。";
+            console.warn(message);
+            if (game.user?.isGM) ui?.notifications?.warn(message);
+        }
+        return undefined;
+    }
+    const result = structuredClone(value);
+    result.description.value = translation.text;
+    result.rules[1].value = 2;
+    return result;
+}
+
 const MODULE_ID = "sf2e-anachronism-zh-cn";
 const LANGUAGES = ["cn", "cn.foundry_chn", "zh", "zh-CN", "zh-cn", "zh-Hans", "zh-hans"];
 let registrationResult = null;
@@ -61,6 +108,7 @@ export function registerLocalization(babele) {
     babele.registerConverter("sf2eAnachronismCnPrerequisites", {translate: translatePrerequisites});
     babele.registerConverter("sf2eAnachronismCnItems", {translate: translateItems});
     babele.registerConverter("sf2eAnachronismCnPages", {translate: translatePages});
+    babele.registerConverter("sf2eAnachronismCnHolyCommercial", {translate: translateHolyCommercial});
     const languages = new Set(LANGUAGES);
     // Core settings and the resolved UI language may not exist during babele.init.
     for (const lang of [game.i18n?.lang]) {

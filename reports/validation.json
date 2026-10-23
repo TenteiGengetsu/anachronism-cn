@@ -1,5 +1,5 @@
 {
-  "version": "0.3.1",
+  "version": "0.3.2",
   "babeleVersion": "2.9.1",
   "babeleSourceCommit": "49c42edc3f2939934ed1d7105600914b3c8d58a2",
   "babeleSource": "https://gitlab.com/riccisi/foundryvtt-babele/-/tree/2.9.1",
@@ -34,36 +34,43 @@
   "translationFilesDiscovered": 29,
   "orderedHtmlTagsUnchanged": true,
   "orderedMacroBodiesUnchanged": true,
-  "ruleDataUnchanged": true,
+  "ruleDataUnchanged": false,
+  "ruleDataUnchangedExceptAuthorizedCorrection": true,
+  "authorizedMechanicalCorrection": {
+    "pack": "sf2e-anachronism.equipment",
+    "id": "he1AD9ck10fLSvWn",
+    "path": "system.rules.1.value",
+    "from": 3,
+    "to": 2
+  },
+  "mechanicalExceptions": 1,
   "liveFoundryTested": false,
-  "scopeObjects": 3744,
-  "displayFieldsCorrectedThisBatch": 24,
-  "objectsCorrectedThisBatch": 21,
-  "historicalDifferenceRecordsRechecked": 73,
-  "retainedOriginalIdentifiers": [
+  "sourceModuleVersion": "2.4.0",
+  "sourceAuthorityPolicy": {
+    "moduleOriginal": "用户上传的Anachronism 2.4.0模组数据；73条历史记录已直接回读module.zip并与Babele导出逐字段核对。",
+    "officialRules": "官方出版物／勘误；与模组数据分别记录，不以模组数据自动证明官方规则。",
+    "wiki": "所引Wiki页面及修订号；与模组不同不自动判为错译。",
+    "holyCommercial": "官方2d4由用户核对并授权采用；本次未独立阅读其官方书页。",
+    "otherDifferences": "未取得官方证据的差异统一记模组原文与Wiki文本差异（官方待核）。"
+  },
+  "sourceFieldsComparedDirectlyToModuleZip": 73,
+  "authorizedMechanicalCorrections": [
     {
-      "id": "7yxVnWzTynBvFVjr",
-      "name": "FORTRUN",
-      "reason": "编程语言代码名；用户确认并经Wiki编程语言页复核。"
-    },
-    {
-      "id": "KVc89RjerouF0wo1",
-      "name": "Servoshell",
-      "reason": "编程语言代码名；用户确认并经Wiki编程语言页复核。"
-    },
-    {
-      "id": "KWVSfZLZIW4zCW7K",
-      "name": "Viper",
-      "reason": "编程语言代码名；用户确认并经Wiki编程语言页复核。"
-    },
-    {
-      "id": "msU9FRYDZwkYvLNH",
-      "name": "DPS++",
-      "reason": "编程语言代码名；用户确认并经Wiki编程语言页复核。"
+      "pack": "sf2e-anachronism.equipment",
+      "id": "he1AD9ck10fLSvWn",
+      "name": "Holy Module (Commercial)",
+      "sourceDescriptionDamage": "3d4",
+      "sourceRuleValue": 3,
+      "correctedDescriptionDamage": "2d4",
+      "correctedRuleValue": 2,
+      "authority": "用户核对官方2d4并明确授权",
+      "scope": "仅对邪秽目标；基础1d4、商用型DC28和战术型3d4/DC35保留。",
+      "implementation": "Babele原生自定义system转换器；说明与规则整体守卫、克隆后同时返回。",
+      "worldDocumentsUpdated": false,
+      "failureBehavior": "身份、包、源说明或完整规则数组不匹配时整项跳过并提示GM，保留源说明与规则。"
     }
   ],
   "translationOutputHashes": {
-    "sf2e-anachronism._packs-folders.json": "cf965dc4d1e569ca9dd1e8b435369a63f7994d8deecfb2345b824353894aaed3",
     "sf2e-anachronism.actions.json": "4329c8b72b0fda60f5971f6173089a6840083b01b28d83bf526d4e600f4e2bb1",
     "sf2e-anachronism.alien-core-bestiary.json": "f6219aa3391c87b3e8b5856f774b64dee8ee991c9bfc775c8d7011783a9589ab",
     "sf2e-anachronism.ancestries.json": "3ff0a55de667d8300e12110a5a633a9a69aeaa1bc7311550f4c1c5d85c164721",
@@ -76,7 +83,7 @@
     "sf2e-anachronism.conditions.json": "7ac9da7a711b6e8a2270831f98d1c41bf4feecb147026eee706ba34413d675a0",
     "sf2e-anachronism.deities.json": "21f9ee57e6a0900f7795240a76d3bd51eabff33c0f85d1308e20b6da97b34a28",
     "sf2e-anachronism.equipment-effects.json": "9a1f0a70c9d3e3300f2f72cd2fef09678d48e90293b2c649e2f75b6eea74d2d1",
-    "sf2e-anachronism.equipment.json": "99867f28cdbc6e8f403f3ee34e8f27c9c3309c009db5ddb4e05698d83f5c9328",
+    "sf2e-anachronism.equipment.json": "8059f7ea3d271c830f3fa27f86bd062861544ff861d878f5d7d74f17dc2f1b26",
     "sf2e-anachronism.feat-effects.json": "a5f2cbdf6bec00643a8676805ba34407b432c38b00f5bd50174b7a28f3cd389d",
     "sf2e-anachronism.feats.json": "3bc9c4983b542e24cdf00a27d28c67ec106e4001965f3b7f123f21f23b028c9b",
     "sf2e-anachronism.guilt-of-the-grave-world-bestiary.json": "a35db071b868d77c7edebbc34961a74c7367cdb72ddc31bfec407e414fff229d",
@@ -91,356 +98,113 @@
     "sf2e-anachronism.standalone-adventure-bestiary.json": "bbb5882df0e7f8960e015f34848c014035ea2a95f991ad47bc67d92bb6f3d7fe",
     "sf2e-anachronism.starfinder-society-bestiary.json": "9508b6fc7edf30e5d8a2b3e91a912c251edaf469f5234aa90124050452ed8ad6",
     "sf2e-anachronism.starfinder-society-boons.json": "f4b72083026c2ed6d64ae456ece8f9473e4f3a4a7643adafbdd53a5b82a86ec3",
-    "sf2e-anachronism.tales-from-the-vast-bestiary.json": "2c943afb0ea1d529b4f7e10b5ad809dfc80e6759573a9fc818d9812b4d90e703"
+    "sf2e-anachronism.tales-from-the-vast-bestiary.json": "2c943afb0ea1d529b4f7e10b5ad809dfc80e6759573a9fc818d9812b4d90e703",
+    "sf2e-anachronism._packs-folders.json": "cf965dc4d1e569ca9dd1e8b435369a63f7994d8deecfb2345b824353894aaed3"
   },
-  "otherTranslationFilesByteIdenticalTo030": 25,
-  "registerScriptByteIdenticalTo030": true,
-  "reviewScope": "此次为专名与既有差异记录的定向复核，不冒充全部3744条重新逐句翻译。",
-  "reviewedCorrections": {
-    "baseVersion": "0.3.0",
-    "version": "0.3.1",
-    "scope": "用户反馈触发的定向审查与修订，不代表重做全部3744条逐句翻译。",
-    "operations": [
+  "runtimeScriptSha256": "92cbc1f2e238a832309d30fc0d27c895e5d64b56c0876e05d93e5f7b78196271",
+  "otherTranslationFilesByteIdenticalTo031": 28,
+  "sourceOriginalFilesUnchanged": true,
+  "existingWorldDocumentsUpdated": false,
+  "holyCommercialRegressionTests": {
+    "nativeMapping": true,
+    "atomicTextAndRules": true,
+    "sourceUnchanged": true,
+    "idempotent": true,
+    "guards": true,
+    "deduplicatedWarning": true,
+    "tacticalUnchanged": true,
+    "nativeMappingBlock": true,
+    "sparseIndexSilent": true,
+    "laterSourceConflictStillWarns": true
+  },
+  "liveDamageRollTested": false,
+  "independentCorrectionReview": {
+    "decision": "通过；此前稀疏索引误报警及消耗去重标志的问题已修复并由独立实验复验。",
+    "formalFilesModified": false,
+    "reviewedFiles": [
+      "work/anachronism-cn/scripts/register.mjs",
+      "work/anachronism-cn/translations/sf2e-anachronism.equipment.json",
+      "work/032-feedback/holy-converter-tests.mjs"
+    ],
+    "passed": [
+      "commercial静态description键已经删除，正文与rules从单一system payload同时返回。",
+      "任意源rules/原说明守卫失败均返回undefined，整个system不进入映射；不会只写2d4说明而保留源3规则。",
+      "严格要求metadata.id=sf2e-anachronism.equipment，缺失和其它包都拒绝；没有用sourceKey冒充ID。",
+      "source._id、equipment类型、holy-module-commercial slug、模块active及2.4.0均有守卫。",
+      "完整三条规则数组深比较，基础DamageDice、predicate、selector、Note以及数组顺序的改变均会拒绝。",
+      "幂等承认的是完整correctedRules加完全相同目标text；没有仅凭value2或Babele标志放行。",
+      "使用structuredClone，深冻结输入也能成功，原始source没有原位修改。",
+      "独立逐字段diff只发现system.description.value和system.rules.1.value；基础1d4保持，升级总骰数改为2。",
+      "没有增加扫描/更新已有世界物品或修改磁盘源模组的代码。"
+    ],
+    "findings": [
       {
-        "file": "translations/sf2e-anachronism.class-features.json",
-        "pointer": "/entries/7yxVnWzTynBvFVjr/name",
-        "old": "强韧运算（FORTRUN）",
-        "new": "FORTRUN",
-        "reason": "恢复已确认故意保留英文的编程语言名；保留源字段Servoshell/ServoShell各自大小写，不擅自统一原本不一致的拼写。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "a7f30de5dff0f5386ee4a1e0a470119fdac353d8db40bef539590f0d9a79210a"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.class-features.json",
-        "pointer": "/entries/KVc89RjerouF0wo1/name",
-        "old": "伺服壳层（Servoshell）",
-        "new": "Servoshell",
-        "reason": "恢复已确认故意保留英文的编程语言名；保留源字段Servoshell/ServoShell各自大小写，不擅自统一原本不一致的拼写。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "55c9d36c5ca0907cb5168485927ec6d11582e27e9caa01f46cf84c4c5c90d405"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.class-features.json",
-        "pointer": "/entries/KWVSfZLZIW4zCW7K/name",
-        "old": "蝰蛇（Viper）",
-        "new": "Viper",
-        "reason": "恢复已确认故意保留英文的编程语言名；保留源字段Servoshell/ServoShell各自大小写，不擅自统一原本不一致的拼写。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "94913824c293c089ca13b3bfb405cc1ec1c9fb5f7bb38b616058f58c62680c44"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.class-features.json",
-        "pointer": "/entries/msU9FRYDZwkYvLNH/name",
-        "old": "火力输出++（DPS++）",
-        "new": "DPS++",
-        "reason": "恢复已确认故意保留英文的编程语言名；保留源字段Servoshell/ServoShell各自大小写，不擅自统一原本不一致的拼写。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "68cf3289947ee9badbfb6f62725fd1079504ff020855e00ee9d06afb37e2278b"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.feats.json",
-        "pointer": "/entries/Ve3Rz0Vy0xb7y5Jf/cnPrerequisites/0/text",
-        "old": "伺服壳层（ServoShell）编程语言",
-        "new": "ServoShell编程语言",
-        "reason": "恢复已确认故意保留英文的编程语言名；保留源字段Servoshell/ServoShell各自大小写，不擅自统一原本不一致的拼写。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "ad980909143a78056dfdc3037d1b80bd704521de4dfe4523e633b72dd95e0a14"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.feats.json",
-        "pointer": "/entries/YGMPOw1IFw9AAf1o/cnPrerequisites/0/text",
-        "old": "伺服壳层（ServoShell）编程语言",
-        "new": "ServoShell编程语言",
-        "reason": "恢复已确认故意保留英文的编程语言名；保留源字段Servoshell/ServoShell各自大小写，不擅自统一原本不一致的拼写。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "ad980909143a78056dfdc3037d1b80bd704521de4dfe4523e633b72dd95e0a14"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.feats.json",
-        "pointer": "/entries/eSM6qC9F0GL194CM/cnPrerequisites/1/text",
-        "old": "伺服壳层（ServoShell）编程语言",
-        "new": "ServoShell编程语言",
-        "reason": "恢复已确认故意保留英文的编程语言名；保留源字段Servoshell/ServoShell各自大小写，不擅自统一原本不一致的拼写。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "ad980909143a78056dfdc3037d1b80bd704521de4dfe4523e633b72dd95e0a14"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.feats.json",
-        "pointer": "/entries/gXNHb7UAKbw0wjVH/cnPrerequisites/0/text",
-        "old": "强韧运算（FORTRUN）或伺服壳层（ServoShell）编程语言",
-        "new": "FORTRUN或ServoShell编程语言",
-        "reason": "恢复已确认故意保留英文的编程语言名；保留源字段Servoshell/ServoShell各自大小写，不擅自统一原本不一致的拼写。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "c0bf9850458e9cf8913e0d681574c4b333958d86444b19251ef5f1ccfee6c532"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.spells.json",
-        "pointer": "/entries/IKzuw8XgMMw7ErSJ/description",
-        "old": "<p>你召来一位负责监视漂流域（Drift）、并将其馈赠带给技术先进文明的光谱使者（spectra）。光谱使者占据大型生物的空间，具有40尺速度，以及带有宇宙特征的60尺飞行速度。</p>\n<p><strong>到来</strong><em>建立宇宙网络</em>伴随来自漂流域的神能爆发，光谱使者恢复@Damage[(5*(@item.level - 1))[healing]|options:area-damage]生命值，作用于@Template[type:emanation|distance:30]内所有具有科技特征的生物或物体，并将它们的故障状态值减少5。</p>\n<p><strong>离去</strong><em>终止连接</em>@Template[type:emanation|distance:30]内每个具有科技特征的生物或被持有的物体必须尝试一次强韧豁免。豁免失败时，该生物或物体陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 5}，且生物只要仍处于故障状态，就陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}。</p><hr /><p><strong>升阶（+1）</strong>恢复的生命值增加5。</p>",
-        "new": "<p>你召来一位负责监视漂流域（Drift）、并将其馈赠带给技术先进文明的光谱族生物（spectra）。光谱族生物占据大型生物的空间，具有40尺速度，以及带有宇宙特征的60尺飞行速度。</p>\n<p><strong>到来</strong><em>建立宇宙网络</em>伴随来自漂流域的神能爆发，光谱族生物恢复@Damage[(5*(@item.level - 1))[healing]|options:area-damage]生命值，作用于@Template[type:emanation|distance:30]内所有具有科技特征的生物或物体，并将它们的故障状态值减少5。</p>\n<p><strong>离去</strong><em>终止连接</em>@Template[type:emanation|distance:30]内每个具有科技特征的生物或被持有的物体必须尝试一次强韧豁免。豁免失败时，该生物或物体陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 5}，且生物只要仍处于故障状态，就陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢 1}。</p><hr /><p><strong>升阶（+1）</strong>恢复的生命值增加5。</p>",
-        "reason": "现有Wiki创建生物rev20834已有光谱族SPECTRA，首次光谱族（spectra），后文光谱族生物；不改法术名、不改宏参数/标签顺序。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "f03a4c9ca7408ebcb85f852954c36386140372abda797e45f9ba4360a52d2a72"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.feats.json",
-        "pointer": "/entries/15v6nXEIi10i0CNI/name",
-        "old": "打中了！",
-        "new": "干得好！",
-        "reason": "已逐项核实Wiki身份，按用户要求优先既有中文名；正文局部按英文修订不回退。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "374effcca156d5c76fbf70dbcdc2ce990867ab5653ec236aced822aa0eb9a66f"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.feats.json",
-        "pointer": "/entries/15v6nXEIi10i0CNI/description",
-        "old": "<p><strong>频率</strong>每轮一次</p>\n<p><strong>触发</strong>一个盟友的打击命中你“干掉他们！”的目标。</p><hr /><p>你迅速跟进正在执行的指令，在盟友成功命中你指定的目标时给予鼓励。该盟友的伤害获得等于你魅力调整值的状态加值。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.73I9yj9XlxcBLXfa]{效果：打中了！}</p>",
-        "new": "<p><strong>频率</strong>每轮一次</p>\n<p><strong>触发</strong>一个盟友的打击命中你“干掉他们！”的目标。</p><hr /><p>你迅速跟进正在执行的指令，在盟友成功命中你指定的目标时给予鼓励。该盟友的伤害获得等于你魅力调整值的状态加值。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.73I9yj9XlxcBLXfa]{效果：干得好！}</p>",
-        "reason": "随已确认标题统一本条内的效果显示名或临时免疫名称；宏本体不变。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "bfb47135799c21da6b40e7846d7a9a834b0a91297430359f6b3f8732431aec96"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.feats.json",
-        "pointer": "/entries/2D6897AcSQQi2RvV/name",
-        "old": "伏身固守（机械师）",
-        "new": "突进掩体",
-        "reason": "已逐项核实Wiki身份，按用户要求优先既有中文名；正文局部按英文修订不回退。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "10b9c8c5cb207ce6665e79786a2f629fe4ff0c1d56beb0e46affad1745723067"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.feats.json",
-        "pointer": "/entries/3ahX6ykhR0eUbvGX/name",
-        "old": "狠狠干掉他们！",
-        "new": "狠狠干掉他！",
-        "reason": "已逐项核实Wiki身份，按用户要求优先既有中文名；正文局部按英文修订不回退。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "09950f308799445cb4fd2802ea2bb6220c70ba15718175105d0c438f53dbdc96"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.feats.json",
-        "pointer": "/entries/DDFbyNAIiKOuKTHi/name",
-        "old": "我才是真的！",
-        "new": "我才是本尊！",
-        "reason": "已逐项核实Wiki身份，按用户要求优先既有中文名；正文局部按英文修订不回退。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "b8a2d72c2cc87325a09d43a973741f3ecbed741bd6975de0a98826f39a688a67"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.feats.json",
-        "pointer": "/entries/YPbe8n8mA2GNOges/name",
-        "old": "协同开火（机械师）",
-        "new": "协同火力",
-        "reason": "已逐项核实Wiki身份，按用户要求优先既有中文名；正文局部按英文修订不回退。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "a6b9952c4065a165860ab8aefb600446e822aab3f7b5ab07557bf5fa8392b8cb"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.feats.json",
-        "pointer": "/entries/itv3fuCoKkZU0wZc/name",
-        "old": "灵魂庇护",
-        "new": "灵魂防护",
-        "reason": "已逐项核实Wiki身份，按用户要求优先既有中文名；正文局部按英文修订不回退。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "2391edef9846d26ba25014016a7ba80cdb739b942c1dbbacc0d678edcb54d058"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.feats.json",
-        "pointer": "/entries/onFpn2IPCZEm5mBb/name",
-        "old": "别死在我面前",
-        "new": "不要死！",
-        "reason": "已逐项核实Wiki身份，按用户要求优先既有中文名；正文局部按英文修订不回退。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "98bf479134f3d481367d8542cf8085c32410ea66495551c37163abf34e0527c8"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.feats.json",
-        "pointer": "/entries/onFpn2IPCZEm5mBb/description",
-        "old": "<p>你鼓励盟友坚持下去，即使身负致命伤口或其他足以使其倒下的重伤。选择一名相邻的濒死盟友。目标的濒死值降低1。如果这会将濒死值降至0，则目标失去濒死状态，不增加受伤值，并保持@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}。该盟友随后暂时免疫别死在我面前1小时。</p>",
-        "new": "<p>你鼓励盟友坚持下去，即使身负致命伤口或其他足以使其倒下的重伤。选择一名相邻的濒死盟友。目标的濒死值降低1。如果这会将濒死值降至0，则目标失去濒死状态，不增加受伤值，并保持@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}。该盟友随后暂时免疫“不要死！”1小时。</p>",
-        "reason": "随已确认标题统一本条内的效果显示名或临时免疫名称；宏本体不变。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "1df25846b68a11c39f72c2ede3704f8599ea0781df0cd1c7f9dd8b46c1787355"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.feats.json",
-        "pointer": "/entries/Er8wuOwAZN6cEOCU/description",
-        "old": "<p>你以心灵感应轻松托举各式装备，看起来就像一个恒星般的小脑，周围环绕着行星般的物品。你按念控万物的规则获得第二组念力手，使典型的默思族总计拥有六只手。只要至少有一只念力手空着，你便能拨开来袭攻击，使拳攻击获得格挡特征。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.fQJ8xyZH3Dch5xtN]自由动作。</p>",
-        "new": "<p>你以心灵感应轻松托举各式装备，看起来就像一个恒星般的小脑，周围环绕着行星般的物品。你按念控万物的规则获得第二组念力手，使典型的默思族总计拥有六只手。只要至少有一只念力手空着，你便能拨开来袭攻击，使拳攻击获得招架特征。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.fQJ8xyZH3Dch5xtN]自由动作。</p>",
-        "reason": "parry=招架；维持英文fist范围与全部宏。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "676b8f7a82c00ca3d7ed0bfdcc3a48128689cbd5b56092ad155085fabdefcc3a"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.equipment.json",
-        "pointer": "/entries/PJlFyPjJzbwJvtsf/name",
-        "old": "零刃磨刀器",
-        "new": "ZeroEdge磨刀器",
-        "reason": "专利技术标识ZeroEdge保留原拼写。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "569eca5c6b244fba6ae935c27e5fff76f68b8a501bdad68916426288564db54e"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.equipment.json",
-        "pointer": "/entries/PJlFyPjJzbwJvtsf/description",
-        "old": "<p>近宇（Near Space）各处的厨师都推崇锻造创新公司（Forgeworks Innovations）的专利零刃技术，用它磨快刀具，而不耽误厨房运作。</p>\n<p><strong>启动—磨利</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每小时一次</p>\n<p><strong>需求</strong> 你持用着一件造成挥砍伤害、且不具有致命特征的近战武器</p>\n<p><strong>效果</strong> 所需武器获得致命d6特征，持续至你下个回合开始。随后该武器对零刃磨刀器免疫24小时。</p>",
-        "new": "<p>近宇（Near Space）各处的厨师都推崇锻造创新公司（Forgeworks Innovations）的专利ZeroEdge技术，用它磨快刀具，而不耽误厨房运作。</p>\n<p><strong>启动—磨利</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每小时一次</p>\n<p><strong>需求</strong> 你持用着一件造成挥砍伤害、且不具有致命特征的近战武器</p>\n<p><strong>效果</strong> 所需武器获得致命d6特征，持续至你下个回合开始。随后该武器对ZeroEdge磨刀器免疫24小时。</p>",
-        "reason": "专利技术与本条物品名称统一，保留原文标识。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "fe3ba264811b0cfeba070932df14887a1384007a23da0650676428ed665050bd"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.equipment.json",
-        "pointer": "/entries/dov79V3iw5rJyxCR/description",
-        "old": "<p>这些奇异的键帽被作为礼物，放在已故的新械族（anacite）“99阶教授”（Tier-Professor）的纪念处。</p>\n<p><strong>启动—随手敲字</strong> <span class=\"action-glyph\">2</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你施放1环 @UUID[Compendium.sf2e-anachronism.spells.Item.ZBeKxBcUOsXrfMRo] 法术。</p>",
-        "new": "<p>这些奇异的键帽被作为礼物，放在已故的新械族（anacite）Tier-99-Professor的纪念处。</p>\n<p><strong>启动—随手敲字</strong> <span class=\"action-glyph\">2</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你施放1环 @UUID[Compendium.sf2e-anachronism.spells.Item.ZBeKxBcUOsXrfMRo] 法术。</p>",
-        "reason": "新械族人名和编号完整保留，不将编号解释成阶位。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "49b7505b3cff2195edb335d1ccdebd070219a1c9b64906fa48385db355b4d261"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.equipment.json",
-        "pointer": "/entries/oY475DZHPB78o0TC/name",
-        "old": "阿特拉希德饰品",
-        "new": "纺蛛人饰品",
-        "reason": "按用户词表A97的atraxid=纺蛛人。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "37143e5fad3584b76e1037f7ed4a41f5afd739c40f9e03d80f97e186c2cd0834"
-        }
-      },
-      {
-        "file": "translations/sf2e-anachronism.equipment.json",
-        "pointer": "/entries/vCHD2KZLWWiT8orW/name",
-        "old": "潜意识操控器",
-        "new": "升华器（Subliminator）",
-        "reason": "原文明确sublimation制冰武器；撤销潜意识误解，依机制暂译并保留造词。",
-        "review": {
-          "faithfulness": true,
-          "secondEnglishComparison": true,
-          "independentChineseReading": true,
-          "newTextSha256": "5ac3544aa8505cdff7143bdf214651c6438577c910dd80a676f1201ff36d1b09"
+        "id": "sparse-index-consumes-warning",
+        "priority": "P2",
+        "file": "work/anachronism-cn/scripts/register.mjs",
+        "function": "translateHolyCommercial",
+        "problem": "目标的稀疏索引若包含_id/type/system.slug但没有完整rules或description，现有代码把它当作源版本冲突，向GM报警并将holyCorrectionWarningShown设为true。之后真正完整物品发生规则冲突时，就没有新的GM告警。",
+        "reproduction": {
+          "source": "{_id:'he1AD9ck10fLSvWn',type:'equipment',system:{slug:'holy-module-commercial'}}",
+          "context": "合法field/path/pack和commercial translation marker",
+          "observed": "第一次稀疏索引产生1次GM提示；随后rules.value=4的完整条目产生0次新提示。两次都没有修改system，故不影响回退与掷骰安全。"
+        },
+        "recommendation": "在把缺少完整source数据归类为规则不匹配之前，明确识别稀疏输入并静默返回undefined，且不消耗诊断去重状态。补一个实际FieldMapping或MappingBlock的带system.slug稀疏索引用例，再证明随后完整冲突仍能触发提示。",
+        "confidence": "high",
+        "status": "resolved",
+        "resolution": "translateHolyCommercial在完整数据守卫之前检查value.description.value和value.rules是否为undefined，稀疏索引静默跳过；不消耗holyCorrectionWarningShown。",
+        "retest": {
+          "script": "work/032-feedback/holy-final-independent-tests.mjs",
+          "sparseIndexWarnings": 0,
+          "realMismatchWarningsAfterSparse": 1,
+          "sparseIndexUnmodified": true
         }
       }
     ],
-    "retainedIdentifiers": [
+    "nonBlockingRecommendations": [
       {
-        "id": "7yxVnWzTynBvFVjr",
-        "name": "FORTRUN",
-        "reason": "编程语言代码名；用户确认并经Wiki编程语言页复核。"
+        "id": "notification-readiness",
+        "recommendation": "目前告警标志在ui提示前设置；ui未就绪或game.user尚未确认为GM时，提示不会在ready补发。可分别管理console去重和待GM通知队列，并通过globalThis.ui访问避免未声明ui的ReferenceError。",
+        "status": "未在真实Foundry生命周期复现；属于防御性建议。"
       },
       {
-        "id": "KVc89RjerouF0wo1",
-        "name": "Servoshell",
-        "reason": "编程语言代码名；用户确认并经Wiki编程语言页复核。"
-      },
-      {
-        "id": "KWVSfZLZIW4zCW7K",
-        "name": "Viper",
-        "reason": "编程语言代码名；用户确认并经Wiki编程语言页复核。"
-      },
-      {
-        "id": "msU9FRYDZwkYvLNH",
-        "name": "DPS++",
-        "reason": "编程语言代码名；用户确认并经Wiki编程语言页复核。"
+        "id": "translation-payload-trust",
+        "recommendation": "规则基线固化在JS，但expectedDescription/text仍信任受版本控制的翻译JSON。当前JSON内容正确；若要严格拒绝未来错误翻译元数据，可将已核对英文基线及目标中文摘要同样固化或验证，不能将其描述成防任意外部元数据篡改的守卫。",
+        "status": "当前已审文件没有发现正文数值问题，不影响本次核心通过。"
       }
     ],
-    "outputHashes": {
-      "translations/sf2e-anachronism.class-features.json": "d0fe5dd0d25934f1a18d85f1be9069d13ab1ecb5857e089d51ed748466479d45",
-      "translations/sf2e-anachronism.feats.json": "3bc9c4983b542e24cdf00a27d28c67ec106e4001965f3b7f123f21f23b028c9b",
-      "translations/sf2e-anachronism.spells.json": "1f7ffeb1a06765a29987aa5724563543fe10e5581fb9752735c4265a855ee904",
-      "translations/sf2e-anachronism.equipment.json": "99867f28cdbc6e8f403f3ee34e8f27c9c3309c009db5ddb4e05698d83f5c9328"
-    }
+    "testReview": {
+      "existingTestsAdequateFor": [
+        "成功与输入不变",
+        "商业/战术ID隔离",
+        "严格包匹配",
+        "field/path隔离",
+        "规则/选择器/额外规则/说明冲突拒绝",
+        "幂等",
+        "版本及active门槛",
+        "FieldMapping调用",
+        "正常/邪秽总骰数语义"
+      ],
+      "missingAtReviewTime": [
+        "ready前后通知可达性（非阻塞防御性建议，未在真实Foundry生命周期复现）"
+      ],
+      "newIndependentScript": "work/032-feedback/holy-final-independent-tests.mjs",
+      "newIndependentResults": {
+        "frozenSourceWorks": true,
+        "changedPaths": [
+          "system.description.value",
+          "system.rules.1.value"
+        ],
+        "additionalRuleMutationGuardsPassed": 4,
+        "sparseIndexWasUnmodified": true,
+        "sparseIndexWarnings": 0,
+        "realMismatchWarningsAfterSparse": 1
+      },
+      "nativeWholePackageTest": "root报告5616条通过；本次未重复运行已通过的全包测试，仅读其实现并补新边界实验。",
+      "liveFoundryRollTested": false,
+      "addedProductionTests": "已检查holy-converter-tests.mjs新增3类稀疏索引输入，先断言零提示，再断言完整冲突仅提示一次。"
+    },
+    "openBlockingFindings": [],
+    "finalRecheck": "独立重跑当前正式代码：深冻结源对象成功，仅description.value/rules.1.value变更，4种额外规则改动拒绝，稀疏索引零提示，后续真实冲突正常提示一次。"
   }
 }
