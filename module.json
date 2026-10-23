@@ -8,7 +8,7 @@
     "maximum": "14"
   },
   "manifest": "https://raw.githubusercontent.com/TenteiGengetsu/anachronism-cn/main/module.json",
-  "download": "https://raw.githubusercontent.com/TenteiGengetsu/anachronism-cn/main/dist/anachronism-cn.zip",
+  "download": "https://github.com/TenteiGengetsu/anachronism-cn/releases/download/v0.3.1/anachronism-cn.zip",
   "url": "https://github.com/TenteiGengetsu/anachronism-cn",
   "esmodules": [
     "scripts/register.mjs"
