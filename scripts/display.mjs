@@ -1,9 +1,10 @@
-import { DISPLAY_STRINGS, DISPLAY_NAME_KEYS, SOURCE_ACTOR_ITEMS } from "./display-strings.mjs";
+import { DISPLAY_STRINGS, DISPLAY_NAME_KEYS, SOURCE_ACTOR_ITEMS, DISPLAY_GRANTED_NAMES, SOURCE_ITEM_SUBITEMS, DISPLAY_SUSTAINED_DURATIONS } from "./display-strings.mjs";
 
 // PF2e parses range, time and other source values. Only rendered text is changed.
 const NAME_KEYS = new Set(DISPLAY_NAME_KEYS);
+const APPLICATION_OBSERVERS = new WeakMap();
 const EXCLUDED = "script,style,pre,code,textarea,[contenteditable],.sf2-cn-field-translation";
-const NAME_CONTAINER = "h1,h2,h3,h4,.item-name,.action-name,.strike-name,.document-name,.window-title,[data-document-name],[data-item-name]";
+const NAME_CONTAINER = "h1,h2,h3,h4,a.name,span.name,label,.item-name,.action-name,.strike-name,.document-name,.window-title,[data-document-name],[data-item-name]";
 const PRAYER_EFFECT = "Compendium.sf2e-anachronism.spell-effects.Item.vRAHOPMR2JqsLzbt";
 const PRAYER_NOTE = "You take @Damage[(@item.level - 1)[spirit]] damage";
 
@@ -18,8 +19,18 @@ export function isSourceDocument(document) {
     return documentSources(document).some((source) => source.startsWith("Compendium.sf2e-anachronism."));
 }
 
+function isOriginalSubitem(parent, id, actor) {
+    if (!parent || typeof id !== "string") return false;
+    const sources = documentSources(parent);
+    if (typeof parent.id === "string") {
+        sources.push(...documentSources(actor).map((uuid) => `${uuid}.Item.${parent.id}`));
+    }
+    return sources.some((uuid) => Object.hasOwn(SOURCE_ITEM_SUBITEMS, uuid) && SOURCE_ITEM_SUBITEMS[uuid].includes(id));
+}
+
 export function isSourceItem(item, actor = item?.actor ?? item?.parent) {
     if (isSourceDocument(item)) return true;
+    if (isOriginalSubitem(item?.parentItem, item?.id, actor)) return true;
     if (!item || !actor || typeof item.id !== "string") return false;
     return documentSources(actor).some((source) => Object.hasOwn(SOURCE_ACTOR_ITEMS, source) &&
         SOURCE_ACTOR_ITEMS[source].includes(item.id));
@@ -39,9 +50,53 @@ function alreadyBilingual(node, key, dictionary) {
     return !!chinese && !!container && container.textContent.includes(chinese) && container.textContent.includes(key);
 }
 
+function translateReferenceName(node) {
+    const row = node.parentElement?.closest("[data-item-uuid]");
+    if (!node.parentElement?.closest("a.name") || !row) return node.nodeValue;
+    const uuid = row.dataset.itemUuid;
+    const reference = Object.hasOwn(DISPLAY_GRANTED_NAMES, uuid) ? DISPLAY_GRANTED_NAMES[uuid] : null;
+    const key = node.nodeValue.trim();
+    if (!reference?.expectedNames.includes(key)) return node.nodeValue;
+    const chinese = reference.name.slice(0, reference.name.lastIndexOf(key)).trim();
+    const anchor = node.parentElement.closest("a.name");
+    if (chinese && anchor.textContent.includes(chinese)) return node.nodeValue;
+    return node.nodeValue.replace(key, () => reference.name);
+}
+
+function spellFieldDictionary(dictionary) {
+    const derived = Object.create(null);
+    if (typeof globalThis.game?.i18n?.format !== "function") return derived;
+    for (const duration of DISPLAY_SUSTAINED_DURATIONS) {
+        const translated = translateRenderedText(duration, dictionary);
+        if (translated === duration) continue;
+        const key = "PF2E.Item.Spell.Sustained.Duration";
+        // Match the same localized format and casing used by PF2e's description helper.
+        const source = game.i18n.format(key, {maximum: duration}).toLocaleLowerCase();
+        const target = game.i18n.format(key, {maximum: translated}).toLocaleLowerCase();
+        if (source !== target) derived[source] = target;
+    }
+    return derived;
+}
+
+function translateSpellField(node, dictionary, derived) {
+    const parent = node.parentElement;
+    if (!parent?.matches(".item-block-line > span") || !parent.querySelector(":scope > strong")) return node.nodeValue;
+    const text = node.nodeValue;
+    const direct = translateRenderedText(text, derived);
+    if (direct !== text) return direct;
+    // The template merges its localized line separator with a raw range/target text node.
+    // Handle only a terminal separator in this verified spell-field container.
+    const match = /^(\s*)([\s\S]*?)([;；]\s*)$/.exec(text);
+    if (!match) return text;
+    const body = match[2];
+    const translated = translateRenderedText(translateRenderedText(body, dictionary), derived);
+    return translated === body ? text : match[1] + translated + match[3];
+}
+
 export function localizeElement(element, dictionary = DISPLAY_STRINGS, acceptElement = () => true) {
     if (!element?.ownerDocument || !element.querySelectorAll) return;
     const owner = element.ownerDocument;
+    const derived = spellFieldDictionary(dictionary);
     const walker = owner.createTreeWalker(element, 4);
     const nodes = [];
     while (walker.nextNode()) nodes.push(walker.currentNode);
@@ -52,7 +107,10 @@ export function localizeElement(element, dictionary = DISPLAY_STRINGS, acceptEle
         const option = parent.closest("option");
         if (option && !option.hasAttribute("value")) continue;
         if (alreadyBilingual(node, node.nodeValue.trim(), dictionary)) continue;
-        node.nodeValue = translateRenderedText(node.nodeValue, dictionary);
+        let translated = translateRenderedText(node.nodeValue, dictionary);
+        if (translated === node.nodeValue) translated = translateReferenceName(node);
+        if (translated === node.nodeValue) translated = translateSpellField(node, dictionary, derived);
+        if (translated !== node.nodeValue) node.nodeValue = translated;
     }
     // Never assign input.value/defaultValue: provide a separate, non-editable reading.
     for (const input of element.querySelectorAll("input[type='text'][name^='system.'],input:not([type])[name^='system.']")) {
@@ -66,7 +124,7 @@ export function localizeElement(element, dictionary = DISPLAY_STRINGS, acceptEle
             hint.className = "sf2-cn-field-translation";
             input.insertAdjacentElement("afterend", hint);
         }
-        hint.textContent = translated;
+        if (hint.textContent !== translated) hint.textContent = translated;
     }
 }
 
@@ -76,32 +134,82 @@ function enabled() {
         /^(?:cn|zh)(?:$|[-_.])/i.test(game.i18n?.lang ?? "");
 }
 
+export function stopApplicationObserver(application) {
+    const state = application && APPLICATION_OBSERVERS.get(application);
+    state?.observer.disconnect();
+    if (state) APPLICATION_OBSERVERS.delete(application);
+}
+
+function observeApplication(application, root) {
+    if (!application || typeof application !== "object") return;
+    const existing = APPLICATION_OBSERVERS.get(application);
+    if (existing?.root === root) return;
+    stopApplicationObserver(application);
+    const Observer = root.ownerDocument?.defaultView?.MutationObserver;
+    if (!Observer) return;
+    let processing = false;
+    const observer = new Observer(() => {
+        if (processing) return;
+        if (!root.isConnected || !enabled()) { stopApplicationObserver(application); return; }
+        processing = true;
+        try {
+            // PF2e inserts item summaries asynchronously after the application's render hook.
+            // A mutation batch is rechecked with the same document/row/editor boundaries.
+            localizeApplication(application, root);
+        } finally {
+            // Remove only mutations produced synchronously by this display pass.
+            observer.takeRecords();
+            processing = false;
+        }
+    });
+    APPLICATION_OBSERVERS.set(application, {root, observer});
+    observer.observe(root, {childList: true, characterData: true, subtree: true});
+}
+
 export function localizeApplication(application, html) {
-    if (!enabled()) return;
+    if (!enabled()) { stopApplicationObserver(application); return; }
     const root = html?.nodeType === 1 ? html : html?.[0];
     if (!root) return;
+    if (APPLICATION_OBSERVERS.get(application)?.root !== root) stopApplicationObserver(application);
     const document = application?.document ?? application?.item ?? application?.actor ?? application?.object ?? application?.options?.item;
     const actor = application?.actor ?? (document?.items?.get ? document : document?.actor ?? document?.parent);
     const strikeIsSource = (index) => Number.isInteger(index) && index >= 0 &&
         isSourceItem(actor?.system?.actions?.[index]?.item, actor);
     const belongsToSource = (element) => {
+        const subitemRow = element.closest("[data-subitem-id]");
+        if (subitemRow) {
+            const parentRow = subitemRow.closest("[data-item-id]");
+            const parent = actor?.items?.get(parentRow?.dataset.itemId) ?? (document?.system?.subitems ? document : null);
+            const id = subitemRow.dataset.subitemId;
+            return isSourceDocument(parent?.subitems?.get(id)) || isOriginalSubitem(parent, id, actor);
+        }
         const itemRow = element.closest("[data-item-id]");
         if (itemRow) return isSourceItem(actor?.items?.get(itemRow.dataset.itemId), actor);
         const strikeRow = element.closest("[data-action-index]");
         return !strikeRow || strikeIsSource(Number(strikeRow.dataset.actionIndex));
     };
     if (isSourceDocument(document) || (document?.type && isSourceItem(document, actor))) {
-        localizeElement(root, DISPLAY_STRINGS, actor?.items?.get ? belongsToSource : undefined);
+        localizeElement(root, DISPLAY_STRINGS, belongsToSource);
+        observeApplication(application, root);
         return;
     }
     // A personal Actor may own source-module items without itself being a source Actor.
-    if (!actor?.items?.get) return;
+    if (!actor?.items?.get) { stopApplicationObserver(application); return; }
+    let hasSourceRow = false;
     for (const row of root.querySelectorAll("[data-item-id]")) {
-        if (isSourceItem(actor.items.get(row.dataset.itemId), actor)) localizeElement(row, DISPLAY_STRINGS, belongsToSource);
+        if (isSourceItem(actor.items.get(row.dataset.itemId), actor)) {
+            hasSourceRow = true;
+            localizeElement(row, DISPLAY_STRINGS, belongsToSource);
+        }
     }
     for (const row of root.querySelectorAll("[data-action-index]")) {
-        if (strikeIsSource(Number(row.dataset.actionIndex))) localizeElement(row, DISPLAY_STRINGS, belongsToSource);
+        if (strikeIsSource(Number(row.dataset.actionIndex))) {
+            hasSourceRow = true;
+            localizeElement(row, DISPLAY_STRINGS, belongsToSource);
+        }
     }
+    if (hasSourceRow) observeApplication(application, root);
+    else stopApplicationObserver(application);
 }
 
 // This one source Note is assembled around an enriched damage-roll anchor by PF2e.
@@ -146,3 +254,6 @@ Hooks.on("renderApplication", localizeApplication);
 Hooks.on("renderApplicationV2", localizeApplication);
 Hooks.on("renderChatMessage", localizeChatMessage);
 Hooks.on("renderChatMessageHTML", localizeChatMessage);
+
+Hooks.on("closeApplication", stopApplicationObserver);
+Hooks.on("closeApplicationV2", stopApplicationObserver);

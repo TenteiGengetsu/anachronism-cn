@@ -38,7 +38,14 @@
           "expectedName": "Feather Step",
           "name": "轻羽步",
           "expectedDescription": "<p>You step carefully and quickly. You can Step into difficult terrain.</p>",
-          "description": "<p>你的步伐谨慎而迅捷。你可以用快步进入困难地形。</p>"
+          "description": "<p>你的步伐谨慎而迅捷。你可以用快步进入困难地形。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "Dexterity +2",
+              "text": "敏捷+2"
+            }
+          ]
         },
         {
           "id": "h4m1t2tWqWzgCt2n",
@@ -52,7 +59,14 @@
           "expectedName": "Charming Liar",
           "name": "蛊惑人心",
           "expectedDescription": "<p>Your charm allows you to win over those you lie to. When you get a critical success using the @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie} action, the target's attitude toward you improves by one step, as though you'd succeeded at using Diplomacy to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression}. This works only once per conversation, and if you critically succeed against multiple targets using the same result, you choose one creature's attitude to improve. You must be lying to impart seemingly important information, inflate your status, or ingratiate yourself, which trivial or irrelevant lies can't achieve.</p>",
-          "description": "<p>凭借魅力，你能够将欺骗对象笼络为你的支持者。当你用@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}动作取得大成功时，目标对你的态度改善一级，如同你用交涉技能@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{改善印象}成功。每次交流，这个效果只会生效一次，如果你用相同结果对多个目标取得大成功，则选择一个生物的态度得到改善。你的谎言必须要透露看似重要的信息、鼓吹自己的地位、或巴结奉承对方，无关紧要的谎言无法起到作用。</p>"
+          "description": "<p>凭借魅力，你能够将欺骗对象笼络为你的支持者。当你用@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}动作取得大成功时，目标对你的态度改善一级，如同你用交涉技能@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}成功。每次交流，这个效果只会生效一次，如果你用相同结果对多个目标取得大成功，则选择一个生物的态度得到改善。你的谎言必须要透露看似重要的信息、鼓吹自己的地位、或巴结奉承对方，无关紧要的谎言无法起到作用。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Deception",
+              "text": "欺骗技能受训"
+            }
+          ]
         },
         {
           "id": "7lY3XIqPcFQf9ShY",
@@ -283,14 +297,28 @@
           "expectedName": "Warp Wounds",
           "name": "曲织伤势",
           "expectedDescription": "<p><strong>Trigger</strong> An enemy damages you.</p>\n<p><strong>Requirements</strong> An enemy or willing ally is in your quantum field.</p><hr /><p>Your reality shifts to partly overlap with another in which someone else was injured in your stead. You gain resistance to all damage against the triggering attack equal to half your level, and one enemy or willing ally in your quantum field takes damage of the same type equal to the amount of damage prevented this way, with a @Check[fortitude|against:witchwarper|basic] save against your class DC.</p>",
-          "description": "<p><strong>触发</strong>一名敌人对你造成伤害。</p>\n<p><strong>需求</strong>一名敌人或自愿盟友处在你的量子场域内</p><hr /><p>你的现实与另一人部分重叠，让其代替你承受伤害。你获得对触发效果的所有伤害抗力，数值等于你等级的一半，而一名处在量子场域内的敌人或自愿盟友受到等同于你从中减免数值的同类型伤害，并进行一次基于你的职业DC的基础@Check[fortitude|against:witchwarper|basic]。</p>"
+          "description": "<p><strong>触发</strong>一名敌人对你造成伤害。</p>\n<p><strong>需求</strong>一名敌人或自愿盟友处在你的量子场域内</p><hr /><p>你的现实与另一人部分重叠，让其代替你承受伤害。你获得对触发效果的所有伤害抗力，数值等于你等级的一半，而一名处在量子场域内的敌人或自愿盟友受到等同于你从中减免数值的同类型伤害，并进行一次基于你的职业DC的基础@Check[fortitude|against:witchwarper|basic]。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "anomaly paradox",
+              "text": "异值覆写"
+            }
+          ]
         },
         {
           "id": "ihYNA4v1hJsyabLq",
           "expectedName": "Assurance (Arcana)",
           "name": "保底（奥法）",
           "expectedDescription": "<p>Even in the worst circumstances, you can perform basic tasks. Choose a skill you're trained in. You can forgo rolling a skill check for that skill to instead receive a result of 10 + your proficiency bonus (do not apply any other bonuses, penalties, or modifiers).</p>\n<hr />\n<p><strong>Special</strong> You can select this feat multiple times. Each time, choose a different skill and gain the benefits for that skill.</p>",
-          "description": "<p>即使在最恶劣的条件下，你也能完成基本的任务。选择一项你受训的技能，你可以放弃为该技能的技能检定掷骰，改为获得等于10+你的熟练度加值的结果（不应用任何其它加值、减值或调整值）。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选取本专长。每次选择不同的技能获得专长效果。</p>"
+          "description": "<p>即使在最恶劣的条件下，你也能完成基本的任务。选择一项你受训的技能，你可以放弃为该技能的技能检定掷骰，改为获得等于10+你的熟练度加值的结果（不应用任何其它加值、减值或调整值）。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选取本专长。每次选择不同的技能获得专长效果。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in at least one skill",
+              "text": "至少一项技能受训"
+            }
+          ]
         },
         {
           "id": "KubfujZmjLJdmudN",
@@ -304,7 +332,7 @@
           "expectedName": "Tempweave",
           "name": "保温织服",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Tempweave suits are reinforced hooded garments woven with thermal fabric and venting wires, popularly worn for trips to humid climates like the jungles of Castrovel or Pulonis.</p>",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普罗尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普洛尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>",
           "extraFields": [
             {
               "path": "system.subitems.0.name",
@@ -526,7 +554,14 @@
           "expectedName": "Favored Disguise",
           "name": "偏爱伪装",
           "expectedDescription": "<p>You create a favored disguise that you can call upon at a moment's notice. When you Impersonate, you can decide that the disguise becomes your favored disguise. If you have a holoskin or can Change Shape, you can always adopt your favored disguise when Impersonating. You still roll Deception for the Impersonate check but count any critical failure results as failures instead. You can have one favored disguise and gain an additional favored disguise you can employ at expert, master, and legendary proficiency in Deception.</p>",
-          "description": "<p>你可以创造一个随时可调用的偏爱伪装。当你进行乔装（Impersonate）时，可选择将该伪装设置为偏爱伪装。如果你有全息皮肤（holoskin）或能够变形（Change Shape），你可以在乔装时总是采用偏爱伪装。你仍需为乔装进行欺骗检定，但将任何大失败结果改为失败。你初始拥有一套偏爱伪装，并在欺骗达到专家、大师和传奇熟练度时，各获得额外一套可用的偏爱伪装。</p>"
+          "description": "<p>你可以创造一个随时可调用的偏爱伪装。当你进行乔装（Impersonate）时，可选择将该伪装设置为偏爱伪装。如果你有全息皮肤（holoskin）或能够变形（Change Shape），你可以在乔装时总是采用偏爱伪装。你仍需为乔装进行欺骗检定，但将任何大失败结果改为失败。你初始拥有一套偏爱伪装，并在欺骗达到专家、大师和传奇熟练度时，各获得额外一套可用的偏爱伪装。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Deception",
+              "text": "欺骗技能受训"
+            }
+          ]
         },
         {
           "id": "cIJrI0j3MaJQSbrM",
@@ -568,7 +603,14 @@
           "expectedName": "Impressive Performance",
           "name": "动人表演",
           "expectedDescription": "<p>Your performances inspire admiration and win you fans. You can @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} using Performance instead of Diplomacy. If you spend at least 10 minutes performing in front of an audience, you can Make an Impression targeting up to 10 members of the audience who were there for the whole performance, without taking the normal penalty. The number of targets increases to 20 for a 1-hour performance and 50 for a 2-hour performance.</p>",
-          "description": "<p>你的表演令人钦佩，为你赢得粉丝。你可以使用表演代替交涉来@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}。如果你在观众面前表演至少10分钟，就可以对完整观看了整场表演的至多10名观众建立印象，而不承受通常的减值。表演持续1小时时，目标数量增加至20名；持续2小时时，增加至50名。</p>"
+          "description": "<p>你的表演令人钦佩，为你赢得粉丝。你可以使用表演代替交涉来@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}。如果你在观众面前表演至少10分钟，就可以对完整观看了整场表演的至多10名观众建立印象，而不承受通常的减值。表演持续1小时时，目标数量增加至20名；持续2小时时，增加至50名。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Performance",
+              "text": "表演技能受训"
+            }
+          ]
         },
         {
           "id": "zybR8GAvn4yXRJXG",
@@ -647,7 +689,7 @@
         {
           "id": "Rba68cRYdUT38FbH",
           "expectedName": "Hardlight Series",
-          "name": "实光套装",
+          "name": "硬光套装",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>A projector fastened to a belt or lapel encases the wearer's body in this shimmering hardlight shell. Military-issue hardlight armor follows a predictable standard, but private users enjoy a range of customizable fashion options.</p>",
           "description": "<p><strong>强化：</strong> 1</p><hr /><p>固定在腰带或翻领上的投影器，用这层闪耀的硬光外壳包裹穿戴者的身体。军用制式硬光护甲遵循固定标准，而私人用户则能享用一系列可定制的时尚款式。</p>"
         },
@@ -688,7 +730,7 @@
       "name": "戴伊（1级） Dae (Level 1)",
       "cnText_prototypeToken_name": {
         "expected": "Dae",
-        "text": "黛（Dae）"
+        "text": "戴伊（Dae）"
       }
     },
     "7S8F4ERgiXoirpkc": {
@@ -719,7 +761,14 @@
           "expectedName": "Intimidating Shot",
           "name": "威吓射击",
           "expectedDescription": "<p>You attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} a foe with your ranged weapon by firing it into the air, using ammo equal to the weapon's expend and the weapon's maximum range rather than the usual range of 30 feet. This check doesn't take a –4 circumstance penalty if the target doesn't share a language with you.</p>",
-          "description": "<p>你尝试通过向空中开枪来对一个在你远程武器射程内的敌人@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]，使用的弹药数量等于武器的耗弹量，使用武器的最大射程替代挫败士气通常的30尺范围。即便目标与你语言不通，此检定也不会受到-4环境减值。</p>"
+          "description": "<p>你尝试通过向空中开枪来对一个在你远程武器射程内的敌人@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]，使用的弹药数量等于武器的耗弹量，使用武器的最大射程替代挫败士气通常的30尺范围。即便目标与你语言不通，此检定也不会受到-4环境减值。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Intimidation",
+              "text": "威吓技能受训"
+            }
+          ]
         },
         {
           "id": "VanS7gFGiYDej5u3",
@@ -914,7 +963,14 @@
           "expectedName": "Battle Medicine",
           "name": "战地医疗",
           "expectedDescription": "<p><strong>Requirements</strong> You're holding or wearing a medkit.</p><hr /><p>You can patch up wounds, even in combat. Attempt a Medicine check with the same DC as for @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} and restore the corresponding amount of HP; this doesn't remove the wounded condition. As with Treat Wounds, you can attempt checks against higher DCs if you have the minimum proficiency rank. The target is then @UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{immune} to your Battle Medicine for 1 day. This does not make them immune to, or otherwise count as, Treat Wounds.</p>",
-          "description": "<p><strong>需求</strong> 你正持握或穿戴医疗包。</p><hr /><p>你即使在战斗中也能包扎伤口。尝试一次医疗检定，其DC与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}相同，并恢复相应数目的生命值；这不会移除受伤状态。如同治疗伤势，只要达到最低熟练度等级要求，你就可以尝试更高DC的检定。此后，目标对你的战地医疗@UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{免疫}1天。这不会使目标免疫治疗伤势，也不会以其他方式算作治疗伤势。</p>"
+          "description": "<p><strong>需求</strong> 你正持握或穿戴医疗包。</p><hr /><p>你即使在战斗中也能包扎伤口。尝试一次医疗检定，其DC与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}相同，并恢复相应数目的生命值；这不会移除受伤状态。如同治疗伤势，只要达到最低熟练度等级要求，你就可以尝试更高DC的检定。此后，目标对你的战地医疗@UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{免疫}1天。这不会使目标免疫治疗伤势，也不会以其他方式算作治疗伤势。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Medicine",
+              "text": "医疗技能受训"
+            }
+          ]
         },
         {
           "id": "durjmixmO1NW0ka9",
@@ -928,7 +984,14 @@
           "expectedName": "Lie to Me",
           "name": "将计就计",
           "expectedDescription": "<p>You can use Deception to weave traps to trip up anyone trying to deceive you. If you can engage in conversation with someone trying to @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie} to you, use your Deception DC if it is higher than your Perception DC to determine whether they succeed. This doesn't apply if you don't have a back-and-forth dialogue, such as when someone attempts to Lie during a long speech.</p>",
-          "description": "<p>你可以用欺骗技能设下圈套，让试图欺骗你的人露出破绽。若你能和某个尝试对你@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}的人交流，在判断对方是否说谎成功时，使用你的欺骗DC和察觉DC中较高者。若你没有与对方互动对话，比如某人在长篇演讲期间尝试说谎，本专长便无法生效。</p>"
+          "description": "<p>你可以用欺骗技能设下圈套，让试图欺骗你的人露出破绽。若你能和某个尝试对你@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}的人交流，在判断对方是否说谎成功时，使用你的欺骗DC和察觉DC中较高者。若你没有与对方互动对话，比如某人在长篇演讲期间尝试说谎，本专长便无法生效。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Deception",
+              "text": "欺骗技能受训"
+            }
+          ]
         },
         {
           "id": "Zqw5qBTPhQRUFEI8",
@@ -941,7 +1004,7 @@
       "name": "纳瓦西（3级） Navasi (Level 3)",
       "cnText_prototypeToken_name": {
         "expected": "Navasi",
-        "text": "娜瓦希（Navasi）"
+        "text": "纳瓦西（Navasi）"
       }
     },
     "9ZnPDU2w73R603Tm": {
@@ -972,7 +1035,14 @@
           "expectedName": "Intimidating Shot",
           "name": "威吓射击",
           "expectedDescription": "<p>You attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} a foe with your ranged weapon by firing it into the air, using ammo equal to the weapon's expend and the weapon's maximum range rather than the usual range of 30 feet. This check doesn't take a –4 circumstance penalty if the target doesn't share a language with you.</p>",
-          "description": "<p>你尝试通过向空中开枪来对一个在你远程武器射程内的敌人@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]，使用的弹药数量等于武器的耗弹量，使用武器的最大射程替代挫败士气通常的30尺范围。即便目标与你语言不通，此检定也不会受到-4环境减值。</p>"
+          "description": "<p>你尝试通过向空中开枪来对一个在你远程武器射程内的敌人@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]，使用的弹药数量等于武器的耗弹量，使用武器的最大射程替代挫败士气通常的30尺范围。即便目标与你语言不通，此检定也不会受到-4环境减值。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Intimidation",
+              "text": "威吓技能受训"
+            }
+          ]
         },
         {
           "id": "VanS7gFGiYDej5u3",
@@ -1191,7 +1261,14 @@
           "expectedName": "Battle Medicine",
           "name": "战地医疗",
           "expectedDescription": "<p><strong>Requirements</strong> You're holding or wearing a medkit.</p><hr /><p>You can patch up wounds, even in combat. Attempt a Medicine check with the same DC as for @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} and restore the corresponding amount of HP; this doesn't remove the wounded condition. As with Treat Wounds, you can attempt checks against higher DCs if you have the minimum proficiency rank. The target is then @UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{immune} to your Battle Medicine for 1 day. This does not make them immune to, or otherwise count as, Treat Wounds.</p>",
-          "description": "<p><strong>需求</strong> 你正持握或穿戴医疗包。</p><hr /><p>你即使在战斗中也能包扎伤口。尝试一次医疗检定，其DC与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}相同，并恢复相应数目的生命值；这不会移除受伤状态。如同治疗伤势，只要达到最低熟练度等级要求，你就可以尝试更高DC的检定。此后，目标对你的战地医疗@UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{免疫}1天。这不会使目标免疫治疗伤势，也不会以其他方式算作治疗伤势。</p>"
+          "description": "<p><strong>需求</strong> 你正持握或穿戴医疗包。</p><hr /><p>你即使在战斗中也能包扎伤口。尝试一次医疗检定，其DC与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}相同，并恢复相应数目的生命值；这不会移除受伤状态。如同治疗伤势，只要达到最低熟练度等级要求，你就可以尝试更高DC的检定。此后，目标对你的战地医疗@UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{免疫}1天。这不会使目标免疫治疗伤势，也不会以其他方式算作治疗伤势。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Medicine",
+              "text": "医疗技能受训"
+            }
+          ]
         },
         {
           "id": "durjmixmO1NW0ka9",
@@ -1205,7 +1282,14 @@
           "expectedName": "Lie to Me",
           "name": "将计就计",
           "expectedDescription": "<p>You can use Deception to weave traps to trip up anyone trying to deceive you. If you can engage in conversation with someone trying to @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie} to you, use your Deception DC if it is higher than your Perception DC to determine whether they succeed. This doesn't apply if you don't have a back-and-forth dialogue, such as when someone attempts to Lie during a long speech.</p>",
-          "description": "<p>你可以用欺骗技能设下圈套，让试图欺骗你的人露出破绽。若你能和某个尝试对你@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}的人交流，在判断对方是否说谎成功时，使用你的欺骗DC和察觉DC中较高者。若你没有与对方互动对话，比如某人在长篇演讲期间尝试说谎，本专长便无法生效。</p>"
+          "description": "<p>你可以用欺骗技能设下圈套，让试图欺骗你的人露出破绽。若你能和某个尝试对你@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}的人交流，在判断对方是否说谎成功时，使用你的欺骗DC和察觉DC中较高者。若你没有与对方互动对话，比如某人在长篇演讲期间尝试说谎，本专长便无法生效。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Deception",
+              "text": "欺骗技能受训"
+            }
+          ]
         },
         {
           "id": "FeokpJZOug5ifRoU",
@@ -1253,7 +1337,7 @@
       "name": "纳瓦西（5级） Navasi (Level 5)",
       "cnText_prototypeToken_name": {
         "expected": "Navasi",
-        "text": "娜瓦希（Navasi）"
+        "text": "纳瓦西（Navasi）"
       }
     },
     "DFMQqRe3soS5VF90": {
@@ -1277,7 +1361,14 @@
           "expectedName": "Feather Step",
           "name": "轻羽步",
           "expectedDescription": "<p>You step carefully and quickly. You can Step into difficult terrain.</p>",
-          "description": "<p>你的步伐谨慎而迅捷。你可以用快步进入困难地形。</p>"
+          "description": "<p>你的步伐谨慎而迅捷。你可以用快步进入困难地形。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "Dexterity +2",
+              "text": "敏捷+2"
+            }
+          ]
         },
         {
           "id": "h4m1t2tWqWzgCt2n",
@@ -1291,7 +1382,14 @@
           "expectedName": "Charming Liar",
           "name": "蛊惑人心",
           "expectedDescription": "<p>Your charm allows you to win over those you lie to. When you get a critical success using the @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie} action, the target's attitude toward you improves by one step, as though you'd succeeded at using Diplomacy to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression}. This works only once per conversation, and if you critically succeed against multiple targets using the same result, you choose one creature's attitude to improve. You must be lying to impart seemingly important information, inflate your status, or ingratiate yourself, which trivial or irrelevant lies can't achieve.</p>",
-          "description": "<p>凭借魅力，你能够将欺骗对象笼络为你的支持者。当你用@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}动作取得大成功时，目标对你的态度改善一级，如同你用交涉技能@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{改善印象}成功。每次交流，这个效果只会生效一次，如果你用相同结果对多个目标取得大成功，则选择一个生物的态度得到改善。你的谎言必须要透露看似重要的信息、鼓吹自己的地位、或巴结奉承对方，无关紧要的谎言无法起到作用。</p>"
+          "description": "<p>凭借魅力，你能够将欺骗对象笼络为你的支持者。当你用@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}动作取得大成功时，目标对你的态度改善一级，如同你用交涉技能@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}成功。每次交流，这个效果只会生效一次，如果你用相同结果对多个目标取得大成功，则选择一个生物的态度得到改善。你的谎言必须要透露看似重要的信息、鼓吹自己的地位、或巴结奉承对方，无关紧要的谎言无法起到作用。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Deception",
+              "text": "欺骗技能受训"
+            }
+          ]
         },
         {
           "id": "7lY3XIqPcFQf9ShY",
@@ -1522,14 +1620,28 @@
           "expectedName": "Warp Wounds",
           "name": "曲织伤势",
           "expectedDescription": "<p><strong>Trigger</strong> An enemy damages you.</p>\n<p><strong>Requirements</strong> An enemy or willing ally is in your quantum field.</p><hr /><p>Your reality shifts to partly overlap with another in which someone else was injured in your stead. You gain resistance to all damage against the triggering attack equal to half your level, and one enemy or willing ally in your quantum field takes damage of the same type equal to the amount of damage prevented this way, with a @Check[fortitude|against:witchwarper|basic] save against your class DC.</p>",
-          "description": "<p><strong>触发</strong>一名敌人对你造成伤害。</p>\n<p><strong>需求</strong>一名敌人或自愿盟友处在你的量子场域内</p><hr /><p>你的现实与另一人部分重叠，让其代替你承受伤害。你获得对触发效果的所有伤害抗力，数值等于你等级的一半，而一名处在量子场域内的敌人或自愿盟友受到等同于你从中减免数值的同类型伤害，并进行一次基于你的职业DC的基础@Check[fortitude|against:witchwarper|basic]。</p>"
+          "description": "<p><strong>触发</strong>一名敌人对你造成伤害。</p>\n<p><strong>需求</strong>一名敌人或自愿盟友处在你的量子场域内</p><hr /><p>你的现实与另一人部分重叠，让其代替你承受伤害。你获得对触发效果的所有伤害抗力，数值等于你等级的一半，而一名处在量子场域内的敌人或自愿盟友受到等同于你从中减免数值的同类型伤害，并进行一次基于你的职业DC的基础@Check[fortitude|against:witchwarper|basic]。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "anomaly paradox",
+              "text": "异值覆写"
+            }
+          ]
         },
         {
           "id": "ihYNA4v1hJsyabLq",
           "expectedName": "Assurance (Arcana)",
           "name": "保底（奥法）",
           "expectedDescription": "<p>Even in the worst circumstances, you can perform basic tasks. Choose a skill you're trained in. You can forgo rolling a skill check for that skill to instead receive a result of 10 + your proficiency bonus (do not apply any other bonuses, penalties, or modifiers).</p>\n<hr />\n<p><strong>Special</strong> You can select this feat multiple times. Each time, choose a different skill and gain the benefits for that skill.</p>",
-          "description": "<p>即使在最恶劣的条件下，你也能完成基本的任务。选择一项你受训的技能，你可以放弃为该技能的技能检定掷骰，改为获得等于10+你的熟练度加值的结果（不应用任何其它加值、减值或调整值）。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选取本专长。每次选择不同的技能获得专长效果。</p>"
+          "description": "<p>即使在最恶劣的条件下，你也能完成基本的任务。选择一项你受训的技能，你可以放弃为该技能的技能检定掷骰，改为获得等于10+你的熟练度加值的结果（不应用任何其它加值、减值或调整值）。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选取本专长。每次选择不同的技能获得专长效果。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in at least one skill",
+              "text": "至少一项技能受训"
+            }
+          ]
         },
         {
           "id": "KubfujZmjLJdmudN",
@@ -1543,7 +1655,7 @@
           "expectedName": "Tempweave",
           "name": "保温织服",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Tempweave suits are reinforced hooded garments woven with thermal fabric and venting wires, popularly worn for trips to humid climates like the jungles of Castrovel or Pulonis.</p>",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普罗尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普洛尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>",
           "extraFields": [
             {
               "path": "system.subitems.0.name",
@@ -1581,7 +1693,7 @@
             {
               "path": "system.subitems.1.system.description.value",
               "expected": "<p>Boosters attached to your armor allow you to fly.</p>\n<p><strong>Activate—Fly</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> You activate a jetpack to gain a fly Speed of 20 feet. This effect lasts for 1 minute or until you Dismiss it. You can use an action to Fly 0 feet to hover in place, but you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while doing so. A jetpack can't lift you if you're encumbered.</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
-              "text": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷气背包，获得20尺飞行速度。此效应持续1分钟，或直到你将其解除。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷气背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
+              "text": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷射背包，获得20尺飞行速度。此效应持续1分钟，或直到你将其解消。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷射背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
               "guards": [
                 {
                   "path": "system.subitems.1._id",
@@ -1787,7 +1899,14 @@
           "expectedName": "Favored Disguise",
           "name": "偏爱伪装",
           "expectedDescription": "<p>You create a favored disguise that you can call upon at a moment's notice. When you Impersonate, you can decide that the disguise becomes your favored disguise. If you have a holoskin or can Change Shape, you can always adopt your favored disguise when Impersonating. You still roll Deception for the Impersonate check but count any critical failure results as failures instead. You can have one favored disguise and gain an additional favored disguise you can employ at expert, master, and legendary proficiency in Deception.</p>",
-          "description": "<p>你可以创造一个随时可调用的偏爱伪装。当你进行乔装（Impersonate）时，可选择将该伪装设置为偏爱伪装。如果你有全息皮肤（holoskin）或能够变形（Change Shape），你可以在乔装时总是采用偏爱伪装。你仍需为乔装进行欺骗检定，但将任何大失败结果改为失败。你初始拥有一套偏爱伪装，并在欺骗达到专家、大师和传奇熟练度时，各获得额外一套可用的偏爱伪装。</p>"
+          "description": "<p>你可以创造一个随时可调用的偏爱伪装。当你进行乔装（Impersonate）时，可选择将该伪装设置为偏爱伪装。如果你有全息皮肤（holoskin）或能够变形（Change Shape），你可以在乔装时总是采用偏爱伪装。你仍需为乔装进行欺骗检定，但将任何大失败结果改为失败。你初始拥有一套偏爱伪装，并在欺骗达到专家、大师和传奇熟练度时，各获得额外一套可用的偏爱伪装。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Deception",
+              "text": "欺骗技能受训"
+            }
+          ]
         },
         {
           "id": "2M62OkkV2tFl6kme",
@@ -1860,7 +1979,14 @@
           "expectedName": "Trick Magic Item",
           "name": "巧取魔法物品",
           "expectedDescription": "<p>You examine a magic item you normally couldn't use in an effort to fool it and activate it temporarily. For example, this might allow a soldier to cast a spell from a spell gem or spellchip or allow a mystic to cast a spell that's not on their connection's tradition list using a spell gem. You must know what activating the item does, or you can't attempt to trick it.</p>\n<p>Attempt a check using the skill matching the item's magic tradition, or matching a tradition that has the spell on its list, if you're trying to cast a spell from the item. The relevant skills are Arcana for arcane, Nature for primal, Occultism for occult, Religion for divine, or any of the four for an item that has the magical trait and not a tradition trait. The GM determines the DC based on the item's level (possibly adjusted depending on the item or situation).</p>\n<p>If you activate a magic item that requires a spell attack modifier or spell DC and you don't have proficiency in the relevant statistic, use your level as your proficiency bonus and the highest of your Intelligence, Wisdom, or Charisma modifiers. If you're a master in the appropriate skill for the item's tradition, you instead use the trained proficiency bonus; if you're legendary, you instead use the expert proficiency bonus.</p><hr /><p><strong>Success</strong> For the rest of the current turn, you can spend actions to activate the item as if you could normally use it.</p>\n<p><strong>Failure</strong> You can't use the item or try to trick it again this turn, but you can try again on subsequent turns.</p>\n<p><strong>Critical Failure</strong> You can't use the item, and you can't try to trick it again until your next daily preparations.</p>",
-          "description": "<p>你检查一件通常无法使用的魔法物品，试图欺骗它并暂时启动它。例如，这可能使士兵得以用法术宝石或法术芯片施法，或使秘术师得以用法术宝石施放不在其联结的魔法根源法术列表中的法术。你必须知道启动物品的效果，否则无法尝试欺骗它。</p>\n<p>使用与物品魔法根源对应的技能进行检定；如果你试图用物品施法，则使用与法术列表包含该法术的魔法根源对应的技能。相关技能为：奥术对应奥法，原能对应自然，异能对应神秘，神术对应宗教。如果物品具有魔法特征而没有根源特征，则可以使用这四项技能中的任意一项。GM根据物品等级决定DC，并可能因物品或具体情况进行调整。</p>\n<p>如果你启动的魔法物品需要法术攻击调整值或法术DC，而你在相关数据上没有熟练度，则以你的等级作为熟练加值，并使用智力、感知或魅力调整值中的最高者。如果你在对应物品魔法根源的技能上具有大师熟练度，则改为使用受训熟练加值；若为传奇，则改为使用专家熟练加值。</p><hr /><p><strong>成功</strong>在当前回合的剩余时间内，你可以花费动作启动此物品，如同你通常能够使用它。</p>\n<p><strong>失败</strong>你无法使用此物品，也无法在本回合再次尝试欺骗它，但可以在之后的回合重试。</p>\n<p><strong>大失败</strong>你无法使用此物品，也无法再次尝试欺骗它，直到你下次每日准备。</p>"
+          "description": "<p>你检查一件通常无法使用的魔法物品，试图欺骗它并暂时启动它。例如，这可能使士兵得以用法术宝石或法术芯片施法，或使秘术师得以用法术宝石施放不在其联结的魔法根源法术列表中的法术。你必须知道启动物品的效果，否则无法尝试欺骗它。</p>\n<p>使用与物品魔法根源对应的技能进行检定；如果你试图用物品施法，则使用与法术列表包含该法术的魔法根源对应的技能。相关技能为：奥术对应奥法，原能对应自然，异能对应神秘，神术对应宗教。如果物品具有魔法特征而没有根源特征，则可以使用这四项技能中的任意一项。GM根据物品等级决定DC，并可能因物品或具体情况进行调整。</p>\n<p>如果你启动的魔法物品需要法术攻击调整值或法术DC，而你在相关数据上没有熟练度，则以你的等级作为熟练加值，并使用智力、感知或魅力调整值中的最高者。如果你在对应物品魔法根源的技能上具有大师熟练度，则改为使用受训熟练加值；若为传奇，则改为使用专家熟练加值。</p><hr /><p><strong>成功</strong>在当前回合的剩余时间内，你可以花费动作启动此物品，如同你通常能够使用它。</p>\n<p><strong>失败</strong>你无法使用此物品，也无法在本回合再次尝试欺骗它，但可以在之后的回合重试。</p>\n<p><strong>大失败</strong>你无法使用此物品，也无法再次尝试欺骗它，直到你下次每日准备。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Arcana, Nature, Occultism, or Religion",
+              "text": "奥法、自然、神秘或宗教受训"
+            }
+          ]
         }
       ],
       "name": "泽米尔（7级） Zemir (Level 7)",
@@ -1911,7 +2037,19 @@
           "expectedName": "Religious Talisman",
           "name": "神圣护符",
           "expectedDescription": "<p>You can construct and bless a religious symbol of your deity in 10 minutes. While such talismans are traditionally scraps of paper with a religious symbol drawn on them, they can take many forms, including body art, a sticker, or even a virtual emoji. You can create a talisman only for yourself and for the deity you worship. As long as you continue to engage in activities that match your deity's edicts you gain a +1 status bonus to initiative rolls. If you violate your deity's anathema, the talisman is destroyed, and you take a –1 status penalty to initiative rolls and Perception checks until you complete an @UUID[Compendium.pf2e.spells-srd.Item.7Fd4lxozd11MQ55N]{Atone} ritual.</p>",
-          "description": "<p>你可以在10分钟内制作并祝福一个属于所信神祇的宗教徽记。这些护符传统上是画有宗教徽记的纸片，但也能采用许多形式，包括身体绘画、贴纸，甚至虚拟表情符号。你只能为自己制作护符，且必须属于你所崇拜的神祇。只要你持续从事符合神祇敕令的活动，先攻检定便获得+1状态加值。如果违反神祇的禁忌，护符便被摧毁，且你在先攻检定和察觉检定上承受–1状态减值，直到完成一次@UUID[Compendium.pf2e.spells-srd.Item.7Fd4lxozd11MQ55N]{赎罪}仪式。</p>"
+          "description": "<p>你可以在10分钟内制作并祝福一个属于所信神祇的宗教徽记。这些护符传统上是画有宗教徽记的纸片，但也能采用许多形式，包括身体绘画、贴纸，甚至虚拟表情符号。你只能为自己制作护符，且必须属于你所崇拜的神祇。只要你持续从事符合神祇敕令的活动，先攻检定便获得+1状态加值。如果违反神祇的禁忌，护符便被摧毁，且你在先攻检定和察觉检定上承受–1状态减值，直到完成一次@UUID[Compendium.pf2e.spells-srd.Item.7Fd4lxozd11MQ55N]{赎罪}仪式。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Religion",
+              "text": "宗教技能受训"
+            },
+            {
+              "path": "system.prerequisites.value.1.value",
+              "expected": "follower of a specific religion",
+              "text": "信奉一种特定宗教"
+            }
+          ]
         },
         {
           "id": "rw57vDE9sdhwHvcC",
@@ -2132,7 +2270,7 @@
       "name": "齐克齐克（1级） Chk Chk (Level 1)",
       "cnText_prototypeToken_name": {
         "expected": "Chk Chk",
-        "text": "奇克奇克（Chk Chk）"
+        "text": "齐克齐克（Chk Chk）"
       }
     },
     "JcQwEdoZ804trMzq": {
@@ -2177,7 +2315,19 @@
           "expectedName": "Religious Talisman",
           "name": "神圣护符",
           "expectedDescription": "<p>You can construct and bless a religious symbol of your deity in 10 minutes. While such talismans are traditionally scraps of paper with a religious symbol drawn on them, they can take many forms, including body art, a sticker, or even a virtual emoji. You can create a talisman only for yourself and for the deity you worship. As long as you continue to engage in activities that match your deity's edicts you gain a +1 status bonus to initiative rolls. If you violate your deity's anathema, the talisman is destroyed, and you take a –1 status penalty to initiative rolls and Perception checks until you complete an @UUID[Compendium.pf2e.spells-srd.Item.7Fd4lxozd11MQ55N]{Atone} ritual.</p>",
-          "description": "<p>你可以在10分钟内制作并祝福一个属于所信神祇的宗教徽记。这些护符传统上是画有宗教徽记的纸片，但也能采用许多形式，包括身体绘画、贴纸，甚至虚拟表情符号。你只能为自己制作护符，且必须属于你所崇拜的神祇。只要你持续从事符合神祇敕令的活动，先攻检定便获得+1状态加值。如果违反神祇的禁忌，护符便被摧毁，且你在先攻检定和察觉检定上承受–1状态减值，直到完成一次@UUID[Compendium.pf2e.spells-srd.Item.7Fd4lxozd11MQ55N]{赎罪}仪式。</p>"
+          "description": "<p>你可以在10分钟内制作并祝福一个属于所信神祇的宗教徽记。这些护符传统上是画有宗教徽记的纸片，但也能采用许多形式，包括身体绘画、贴纸，甚至虚拟表情符号。你只能为自己制作护符，且必须属于你所崇拜的神祇。只要你持续从事符合神祇敕令的活动，先攻检定便获得+1状态加值。如果违反神祇的禁忌，护符便被摧毁，且你在先攻检定和察觉检定上承受–1状态减值，直到完成一次@UUID[Compendium.pf2e.spells-srd.Item.7Fd4lxozd11MQ55N]{赎罪}仪式。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Religion",
+              "text": "宗教技能受训"
+            },
+            {
+              "path": "system.prerequisites.value.1.value",
+              "expected": "follower of a specific religion",
+              "text": "信奉一种特定宗教"
+            }
+          ]
         },
         {
           "id": "rw57vDE9sdhwHvcC",
@@ -2189,7 +2339,7 @@
         {
           "id": "RFUfv5viw2QkHgrA",
           "expectedName": "Vitality Network",
-          "name": "命能网络（专长）",
+          "name": "命能网络",
           "expectedDescription": "<p>Your soul supports a network of energy that connects and heals those in your bond. Your vitality network has a maximum capacity equal to 6 + 4 Hit Points per level. You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.UeMHbnnaXDa3sGfG] action that you can use to take Hit Points out of your network and into yourself or your allies as healing.</p>\n<p>Life-and-death situations help strengthen your bonds with your allies. At the start of each turn in combat, when you regain actions, your vitality network regains 4 Hit Points; if you're master in spell DC, it regains 6 Hit Points instead; if you're legendary, it regains 8 Hit Points. When you Refocus, your vitality network regains all its Hit Points.</p>",
           "description": "<p>你的灵魂支持着一个连结并治愈你纽带中生物的能量网络。你的命能网络具有等同于6+每等级4点生命值的最大容量。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.UeMHbnnaXDa3sGfG]动作，可以用来从你的网络中提取生命值并将其转移到自己或盟友身上进行治疗。</p>\n<p>生死攸关的情况有助于加固你与盟友的纽带。在战斗中每回合开始，当你重新获得动作时，你的命能网络会恢复4点生命值；如果你的法术DC为大师熟练度，它改为恢复6点生命值；如果你达到传奇熟练度，它会恢复8点生命值。当你再聚能时，你的命能网络会恢复全部生命值。</p>"
         },
@@ -2493,7 +2643,14 @@
           "expectedName": "Battle Medicine",
           "name": "战地医疗",
           "expectedDescription": "<p><strong>Requirements</strong> You're holding or wearing a medkit.</p><hr /><p>You can patch up wounds, even in combat. Attempt a Medicine check with the same DC as for @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} and restore the corresponding amount of HP; this doesn't remove the wounded condition. As with Treat Wounds, you can attempt checks against higher DCs if you have the minimum proficiency rank. The target is then @UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{immune} to your Battle Medicine for 1 day. This does not make them immune to, or otherwise count as, Treat Wounds.</p>",
-          "description": "<p><strong>需求</strong> 你正持握或穿戴医疗包。</p><hr /><p>你即使在战斗中也能包扎伤口。尝试一次医疗检定，其DC与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}相同，并恢复相应数目的生命值；这不会移除受伤状态。如同治疗伤势，只要达到最低熟练度等级要求，你就可以尝试更高DC的检定。此后，目标对你的战地医疗@UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{免疫}1天。这不会使目标免疫治疗伤势，也不会以其他方式算作治疗伤势。</p>"
+          "description": "<p><strong>需求</strong> 你正持握或穿戴医疗包。</p><hr /><p>你即使在战斗中也能包扎伤口。尝试一次医疗检定，其DC与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}相同，并恢复相应数目的生命值；这不会移除受伤状态。如同治疗伤势，只要达到最低熟练度等级要求，你就可以尝试更高DC的检定。此后，目标对你的战地医疗@UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{免疫}1天。这不会使目标免疫治疗伤势，也不会以其他方式算作治疗伤势。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Medicine",
+              "text": "医疗技能受训"
+            }
+          ]
         },
         {
           "id": "XCq9WCewGooU8qHy",
@@ -2521,7 +2678,14 @@
           "expectedName": "Feign Death",
           "name": "装死",
           "expectedDescription": "<p><strong>Trigger</strong> You take damage.</p><hr /><p>You lie @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and Impersonate a corpse. As long as you don't take any actions requiring anything other than your mind, you appear dead. To see through your ruse, a creature must succeed at a check against your Deception DC, either by Seeking or Recalling Knowledge. You can Ready an Action without ending this effect if you're a master in Deception.</p>",
-          "description": "<p><strong>触发</strong>你受到伤害。</p><hr /><p>你@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]并乔装（Impersonate）一具尸体。只要你没有采取任何需要身体动作的行动，你看起来就像死了一样。要识破你的伪装，生物必须通过搜索（Seeking）或回忆知识（Recalling Knowledge）成功对抗你的欺骗DC。如果你在欺骗技能上具有大师熟练度，你可以在不结束此效果的情况下准备（Ready）一个动作。</p>"
+          "description": "<p><strong>触发</strong>你受到伤害。</p><hr /><p>你@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]并乔装（Impersonate）一具尸体。只要你没有采取任何需要身体动作的行动，你看起来就像死了一样。要识破你的伪装，生物必须通过搜索（Seeking）或回忆知识（Recalling Knowledge）成功对抗你的欺骗DC。如果你在欺骗技能上具有大师熟练度，你可以在不结束此效果的情况下准备（Ready）一个动作。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "expert in Deception",
+              "text": "欺骗技能专家"
+            }
+          ]
         },
         {
           "id": "VTwtVqi5yvoCJ7UO",
@@ -2563,7 +2727,7 @@
           "expectedName": "Medkit (Tactical)",
           "name": "战术型医疗包",
           "expectedDescription": "<p>These contain analgesics, bandages, sterile gauze, and suturing tools necessary for Medicine checks to @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{Administer First Aid}, @UUID[Compendium.pf2e.actionspf2e.Item.TC7OcDa7JlWbqMaN]{Treat Disease}, @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{Treat Poison}, or @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds}. Tactical medical toolkits provide a +1 item bonus to such checks. A medkit is a toolkit.</p>",
-          "description": "<p>其中装有止痛药、绷带、无菌纱布和缝合工具，供医疗检定使用，以 @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{提供急救}, @UUID[Compendium.pf2e.actionspf2e.Item.TC7OcDa7JlWbqMaN]{治疗疾病}, @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{治疗毒素}，或 @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}。战术型医疗工具组为此类检定提供+1物品加值。医疗包是一种工具组。</p>"
+          "description": "<p>其中装有止痛药、绷带、无菌纱布和缝合工具，供医疗检定使用，以 @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{急救}, @UUID[Compendium.pf2e.actionspf2e.Item.TC7OcDa7JlWbqMaN]{治疗疾病}, @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{治疗中毒}，或 @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}。战术型医疗工具组为此类检定提供+1物品加值。医疗包是一种工具组。</p>"
         },
         {
           "id": "3erZnaryUdXDMC3z",
@@ -2605,13 +2769,20 @@
           "expectedName": "Continual Recovery",
           "name": "看护师",
           "expectedDescription": "<p>You zealously monitor a patient's progress to administer treatment faster. When you @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds}, your patient becomes immune for only 10 minutes instead of 1 hour. This applies only to your Treat Wounds activities, not any other the patient receives.</p>",
-          "description": "<p>你热心监测伤患的恢复情况，以便能更快实施治疗。在@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}时，你的伤患只会免疫治疗伤势10分钟而非1小时。此效果只应用于你的治疗伤势行动，伤患接受的其它治疗伤势不受影响。</p>"
+          "description": "<p>你热心监测伤患的恢复情况，以便能更快实施治疗。在@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}时，你的伤患只会免疫治疗伤势10分钟而非1小时。此效果只应用于你的治疗伤势行动，伤患接受的其它治疗伤势不受影响。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "expert in Medicine",
+              "text": "医疗技能专家"
+            }
+          ]
         }
       ],
       "name": "齐克齐克（7级） Chk Chk (Level 7)",
       "cnText_prototypeToken_name": {
         "expected": "Chk Chk",
-        "text": "奇克奇克（Chk Chk）"
+        "text": "齐克齐克（Chk Chk）"
       }
     },
     "JvgIeb1RVXuHRwhz": {
@@ -2656,7 +2827,19 @@
           "expectedName": "Religious Talisman",
           "name": "神圣护符",
           "expectedDescription": "<p>You can construct and bless a religious symbol of your deity in 10 minutes. While such talismans are traditionally scraps of paper with a religious symbol drawn on them, they can take many forms, including body art, a sticker, or even a virtual emoji. You can create a talisman only for yourself and for the deity you worship. As long as you continue to engage in activities that match your deity's edicts you gain a +1 status bonus to initiative rolls. If you violate your deity's anathema, the talisman is destroyed, and you take a –1 status penalty to initiative rolls and Perception checks until you complete an @UUID[Compendium.pf2e.spells-srd.Item.7Fd4lxozd11MQ55N]{Atone} ritual.</p>",
-          "description": "<p>你可以在10分钟内制作并祝福一个属于所信神祇的宗教徽记。这些护符传统上是画有宗教徽记的纸片，但也能采用许多形式，包括身体绘画、贴纸，甚至虚拟表情符号。你只能为自己制作护符，且必须属于你所崇拜的神祇。只要你持续从事符合神祇敕令的活动，先攻检定便获得+1状态加值。如果违反神祇的禁忌，护符便被摧毁，且你在先攻检定和察觉检定上承受–1状态减值，直到完成一次@UUID[Compendium.pf2e.spells-srd.Item.7Fd4lxozd11MQ55N]{赎罪}仪式。</p>"
+          "description": "<p>你可以在10分钟内制作并祝福一个属于所信神祇的宗教徽记。这些护符传统上是画有宗教徽记的纸片，但也能采用许多形式，包括身体绘画、贴纸，甚至虚拟表情符号。你只能为自己制作护符，且必须属于你所崇拜的神祇。只要你持续从事符合神祇敕令的活动，先攻检定便获得+1状态加值。如果违反神祇的禁忌，护符便被摧毁，且你在先攻检定和察觉检定上承受–1状态减值，直到完成一次@UUID[Compendium.pf2e.spells-srd.Item.7Fd4lxozd11MQ55N]{赎罪}仪式。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Religion",
+              "text": "宗教技能受训"
+            },
+            {
+              "path": "system.prerequisites.value.1.value",
+              "expected": "follower of a specific religion",
+              "text": "信奉一种特定宗教"
+            }
+          ]
         },
         {
           "id": "rw57vDE9sdhwHvcC",
@@ -2668,7 +2851,7 @@
         {
           "id": "RFUfv5viw2QkHgrA",
           "expectedName": "Vitality Network",
-          "name": "命能网络（专长）",
+          "name": "命能网络",
           "expectedDescription": "<p>Your soul supports a network of energy that connects and heals those in your bond. Your vitality network has a maximum capacity equal to 6 + 4 Hit Points per level. You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.UeMHbnnaXDa3sGfG] action that you can use to take Hit Points out of your network and into yourself or your allies as healing.</p>\n<p>Life-and-death situations help strengthen your bonds with your allies. At the start of each turn in combat, when you regain actions, your vitality network regains 4 Hit Points; if you're master in spell DC, it regains 6 Hit Points instead; if you're legendary, it regains 8 Hit Points. When you Refocus, your vitality network regains all its Hit Points.</p>",
           "description": "<p>你的灵魂支持着一个连结并治愈你纽带中生物的能量网络。你的命能网络具有等同于6+每等级4点生命值的最大容量。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.UeMHbnnaXDa3sGfG]动作，可以用来从你的网络中提取生命值并将其转移到自己或盟友身上进行治疗。</p>\n<p>生死攸关的情况有助于加固你与盟友的纽带。在战斗中每回合开始，当你重新获得动作时，你的命能网络会恢复4点生命值；如果你的法术DC为大师熟练度，它改为恢复6点生命值；如果你达到传奇熟练度，它会恢复8点生命值。当你再聚能时，你的命能网络会恢复全部生命值。</p>"
         },
@@ -2955,13 +3138,20 @@
           "expectedName": "Battle Medicine",
           "name": "战地医疗",
           "expectedDescription": "<p><strong>Requirements</strong> You're holding or wearing a medkit.</p><hr /><p>You can patch up wounds, even in combat. Attempt a Medicine check with the same DC as for @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} and restore the corresponding amount of HP; this doesn't remove the wounded condition. As with Treat Wounds, you can attempt checks against higher DCs if you have the minimum proficiency rank. The target is then @UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{immune} to your Battle Medicine for 1 day. This does not make them immune to, or otherwise count as, Treat Wounds.</p>",
-          "description": "<p><strong>需求</strong> 你正持握或穿戴医疗包。</p><hr /><p>你即使在战斗中也能包扎伤口。尝试一次医疗检定，其DC与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}相同，并恢复相应数目的生命值；这不会移除受伤状态。如同治疗伤势，只要达到最低熟练度等级要求，你就可以尝试更高DC的检定。此后，目标对你的战地医疗@UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{免疫}1天。这不会使目标免疫治疗伤势，也不会以其他方式算作治疗伤势。</p>"
+          "description": "<p><strong>需求</strong> 你正持握或穿戴医疗包。</p><hr /><p>你即使在战斗中也能包扎伤口。尝试一次医疗检定，其DC与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}相同，并恢复相应数目的生命值；这不会移除受伤状态。如同治疗伤势，只要达到最低熟练度等级要求，你就可以尝试更高DC的检定。此后，目标对你的战地医疗@UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{免疫}1天。这不会使目标免疫治疗伤势，也不会以其他方式算作治疗伤势。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Medicine",
+              "text": "医疗技能受训"
+            }
+          ]
         }
       ],
       "name": "齐克齐克（3级） Chk Chk (Level 3)",
       "cnText_prototypeToken_name": {
         "expected": "Chk Chk",
-        "text": "奇克奇克（Chk Chk）"
+        "text": "齐克齐克（Chk Chk）"
       }
     },
     "O3qHsOW8jU9WbXBv": {
@@ -3025,14 +3215,14 @@
         {
           "id": "bNJVXAVE32dwaMhv",
           "expectedName": "Suppressing Fire",
-          "name": "压制火力（专长）",
+          "name": "压制火力",
           "expectedDescription": "<p>You have a knack for using powerful weapons to harry your foes and hinder their movement, preventing them from operating at their peak. When you make an attack with the area trait (such as @UUID[Compendium.sf2e-anachronism.actions.Item.oc0ZKnk5zD0GXqZi] or @UUID[Compendium.sf2e-anachronism.actions.Item.6ctkxUnVwqooSvgg]), you use it in a manner that suppresses your targets. Enemies in the affected area who fail their save against your attack become @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until the start of your next turn. A suppressed target takes a –1 circumstance penalty on attack rolls and takes a –10-foot status penalty to its Speeds. Some soldier abilities and class feats interact further with the suppressed condition.</p>",
           "description": "<p>你懂得如何使用强大的武器来阻碍敌人，并遏阻他们以全盛姿态行动。当你进行一次具有区域特征的攻击（例如来自@UUID[Compendium.sf2e-anachronism.actions.Item.oc0ZKnk5zD0GXqZi]或@UUID[Compendium.sf2e-anachronism.actions.Item.6ctkxUnVwqooSvgg]动作），你将以压制目标的方式来运用它。受影响区域内的生物如果没有成功通对你攻击的豁免，便会陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]状态，直到你的下个回合开始。被压制的目标在攻击骰上有-1环境减值，在速度上有-10尺状态减值。有些士兵能力和职业专长会和被压制状态产生进一步交互。</p>"
         },
         {
           "id": "o91I6kXk4J4xq2IB",
           "expectedName": "Primary Target",
-          "name": "主目标（专长）",
+          "name": "主目标",
           "expectedDescription": "<p>You can focus fire on a single target when unleashing the full devastation of your powerful area weaponry. Before you make an area attack with a weapon (such as from the Area Fire or Auto-Fire actions), you can make a ranged Strike as a free action with the same weapon against a single creature in the area, who's selected as your primary target. If your attack is a burst, you must select the creature closest to the center of the attack. If your attack is a cone or line, you must select the creature closest to you. If two or more creatures are equidistant, you can choose which one is your primary target. On a hit, if your primary target rolls a success against your Area Fire or Auto-Fire action, they get a failure instead. This Strike doesn't count toward your multiple attack penalty.</p>",
           "description": "<p>当你完全倾泻手中强大武装的毁灭性火力时，你可以对一个目标制造尤为强大的火力。当你进行一次具有区域效果的攻击前（例如区域射击或自动射击动作），你可以以自由动作以相同的武器对区域中单个生物进行一次远程打击，将其作为你的主目标。如果你的攻击是爆发，你必须选择最接近攻击中心的生物。如果你的攻击为锥形或线形，你必须选择最接近你的生物。如果两个或两个以上的生物距离相等或最近，你可以选择其中一个作为你的主目标。如果你使用此次打击成功命中你的主目标，且目标对你的区域射击或自动射击掷骰出成功结果，其改为获得失败结果。此次打击不计入你的多重攻击减值。</p>"
         },
@@ -3148,7 +3338,14 @@
           "expectedName": "Deadlift",
           "name": "硬举",
           "expectedDescription": "<p><strong>Requirements</strong> You aren't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}.</p><hr /><p>For 1 minute, you can carry 4 more Bulk than normal before becoming encumbered. The amount you can carry increases to 6 at expert, 8 at master, and 10 at legendary. When the benefits of this feat end, you become @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} for 10 minutes.</p>",
-          "description": "<p><strong>需求</strong>你没有@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]状态</p><hr /><p>在1分钟内，你可以携带比正常多4B的物品而不受超载影响。额外的负载在运动专家时提升至6，大师时提升至8，传奇时提升至10。当此专长带来的好处结束时，你陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]10分钟。</p>"
+          "description": "<p><strong>需求</strong>你没有@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]状态</p><hr /><p>在1分钟内，你可以携带比正常多4B的物品而不受超载影响。额外的负载在运动专家时提升至6，大师时提升至8，传奇时提升至10。当此专长带来的好处结束时，你陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]10分钟。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Athletics",
+              "text": "运动技能受训"
+            }
+          ]
         },
         {
           "id": "XSjDbGzliq0xfaat",
@@ -3169,7 +3366,14 @@
           "expectedName": "Powerful Leap",
           "name": "强力跳跃",
           "expectedDescription": "<p>You can jump 5 feet up with a vertical @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} without making a @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump}. You also increase the horizontal distance when you Leap, including as part of a High Jump or @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump}, by 5 feet.</p>",
-          "description": "<p>你进行垂直@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}时可以向上跳5尺，无需进行@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}。此外，你跳跃时的水平距离增加5尺，包括作为跳高或@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}的一部分进行跳跃时。</p>"
+          "description": "<p>你进行垂直@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}时可以向上跳5尺，无需进行@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}。此外，你跳跃时的水平距离增加5尺，包括作为跳高或@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}的一部分进行跳跃时。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "expert in Athletics",
+              "text": "运动技能专家"
+            }
+          ]
         },
         {
           "id": "AEdHCSw9fyyifiWo",
@@ -3241,7 +3445,7 @@
             {
               "path": "system.subitems.0.system.description.value",
               "expected": "<p>Boosters attached to your armor allow you to fly.</p>\n<p><strong>Activate—Fly</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> You activate a jetpack to gain a fly Speed of 20 feet. This effect lasts for 1 minute or until you Dismiss it. You can use an action to Fly 0 feet to hover in place, but you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while doing so. A jetpack can't lift you if you're encumbered.</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
-              "text": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷气背包，获得20尺飞行速度。此效应持续1分钟，或直到你将其解除。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷气背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
+              "text": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷射背包，获得20尺飞行速度。此效应持续1分钟，或直到你将其解消。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷射背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
               "guards": [
                 {
                   "path": "system.subitems.0._id",
@@ -3256,14 +3460,33 @@
           "expectedName": "Intimidating Taunt",
           "name": "威吓嘲讽",
           "expectedDescription": "<p>You taunt your enemy mercilessly, forcing them to acknowledge you as an immediate threat. Attempt an @Check[intimidation|against:will] check and compare it to the Will DC of one enemy creature within 60 feet. This action has the auditory trait or visual trait, depending on how you taunt your enemy.</p><hr /><p><strong>Critical Success</strong> Your taunts sting hard. Until the start of your next turn, any hostile actions that the creature takes must include you as a target or include you in the area; otherwise, the creature takes a –2 circumstance penalty to attack rolls and to its save DC for those hostile actions.</p>\n<p><strong>Success</strong> As critical success, but only the first hostile action that the creature takes is affected.</p>\n<p><strong>Failure</strong> The creature is unaffected.</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.B0ZDwyk4qOr7hp4e]</p>",
-          "description": "<p>你无情地嘲讽你的敌人，迫使他们意识到你是当即的威胁。尝试一次@Check[intimidation|against:will]，并将其与一名60尺内敌对生物的意志DC比对。该动作具有听觉特征或视觉特征，取决于你如何嘲讽你的敌人。</p><hr /><p><strong>大成功</strong>你的嘲讽格外刺痛对方。直到你的下个回合开始，该生物采取任何敌对行动时，必须将你列为目标，或将你包括在区域中；否则，该生物为这些敌对行动进行的攻击检定及其豁免DC承受–2环境减值。</p>\n<p><strong>成功</strong>如同大成功，但只影响该生物采取的第一个敌对行动。</p>\n<p><strong>失败</strong>该生物不受影响。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.B0ZDwyk4qOr7hp4e]</p>"
+          "description": "<p>你无情地嘲讽你的敌人，迫使他们意识到你是当即的威胁。尝试一次@Check[intimidation|against:will]，并将其与一名60尺内敌对生物的意志DC比对。该动作具有听觉特征或视觉特征，取决于你如何嘲讽你的敌人。</p><hr /><p><strong>大成功</strong>你的嘲讽格外刺痛对方。直到你的下个回合开始，该生物采取任何敌对行动时，必须将你列为目标，或将你包括在区域中；否则，该生物为这些敌对行动进行的攻击检定及其豁免DC承受–2环境减值。</p>\n<p><strong>成功</strong>如同大成功，但只影响该生物采取的第一个敌对行动。</p>\n<p><strong>失败</strong>该生物不受影响。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.B0ZDwyk4qOr7hp4e]</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Intimidation",
+              "text": "威吓技能受训"
+            }
+          ]
         },
         {
           "id": "zDvZsF4a0dtaxO6q",
           "expectedName": "Intimidating Prowess",
           "name": "威逼",
           "expectedDescription": "<p>In situations where you can physically menace the target when you @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{Coerce} or @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize}, you gain a +1 circumstance bonus to your Intimidation check and you ignore the penalty for not sharing a language. If your Strength modifier is +5 or higher and you are a master in Intimidation, this bonus increases to +2.</p>",
-          "description": "<p>当你能够以体格威慑目标时，对其@UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{胁迫}或@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{挫败士气}的威吓检定获得+1环境加值，并忽略没有共同语言的减值。若你的力量调整值为+5或更高，且你的威吓达到大师，此加值提高为+2。</p>"
+          "description": "<p>当你能够以体格威慑目标时，对其@UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{胁迫}或@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{挫败士气}的威吓检定获得+1环境加值，并忽略没有共同语言的减值。若你的力量调整值为+5或更高，且你的威吓达到大师，此加值提高为+2。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "Strength +3",
+              "text": "力量+3"
+            },
+            {
+              "path": "system.prerequisites.value.1.value",
+              "expected": "expert in Intimidation",
+              "text": "威吓技能专家"
+            }
+          ]
         },
         {
           "id": "DTmGpYWqXWamzsS9",
@@ -3300,7 +3523,14 @@
           "expectedName": "Feather Step",
           "name": "轻羽步",
           "expectedDescription": "<p>You step carefully and quickly. You can Step into difficult terrain.</p>",
-          "description": "<p>你的步伐谨慎而迅捷。你可以用快步进入困难地形。</p>"
+          "description": "<p>你的步伐谨慎而迅捷。你可以用快步进入困难地形。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "Dexterity +2",
+              "text": "敏捷+2"
+            }
+          ]
         },
         {
           "id": "h4m1t2tWqWzgCt2n",
@@ -3314,7 +3544,14 @@
           "expectedName": "Charming Liar",
           "name": "蛊惑人心",
           "expectedDescription": "<p>Your charm allows you to win over those you lie to. When you get a critical success using the @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie} action, the target's attitude toward you improves by one step, as though you'd succeeded at using Diplomacy to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression}. This works only once per conversation, and if you critically succeed against multiple targets using the same result, you choose one creature's attitude to improve. You must be lying to impart seemingly important information, inflate your status, or ingratiate yourself, which trivial or irrelevant lies can't achieve.</p>",
-          "description": "<p>凭借魅力，你能够将欺骗对象笼络为你的支持者。当你用@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}动作取得大成功时，目标对你的态度改善一级，如同你用交涉技能@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{改善印象}成功。每次交流，这个效果只会生效一次，如果你用相同结果对多个目标取得大成功，则选择一个生物的态度得到改善。你的谎言必须要透露看似重要的信息、鼓吹自己的地位、或巴结奉承对方，无关紧要的谎言无法起到作用。</p>"
+          "description": "<p>凭借魅力，你能够将欺骗对象笼络为你的支持者。当你用@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}动作取得大成功时，目标对你的态度改善一级，如同你用交涉技能@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}成功。每次交流，这个效果只会生效一次，如果你用相同结果对多个目标取得大成功，则选择一个生物的态度得到改善。你的谎言必须要透露看似重要的信息、鼓吹自己的地位、或巴结奉承对方，无关紧要的谎言无法起到作用。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Deception",
+              "text": "欺骗技能受训"
+            }
+          ]
         },
         {
           "id": "7lY3XIqPcFQf9ShY",
@@ -3594,7 +3831,14 @@
           "expectedName": "Phreaker",
           "name": "电话黑客",
           "expectedDescription": "<p>You've learned how to hack using alternative methods. You can use Computers to Disable a Device or Hack a system using any computer, comm unit, or terminal instead of a hacking toolkit. If you're an expert in Computers and the equipment you use is at least 3rd level, you gain a +1 item bonus to Disable a Device or Hack.</p><hr /><p><strong>Special</strong> If you have the @UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4] or @UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf] skill feat, you can use this feat to Combat Hack or @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion} without a hacking toolkit.</p>",
-          "description": "<p>你学会了以其他方法骇入。你可以用任意计算机、通讯器或终端，使用计算机技能解除装置或骇入系统，无需骇客工具包。如果你在计算机达到专家，且所用设备至少为3级，则你解除装置或骇入的检定获得+1物品加值。</p><hr /><p><strong>特殊</strong>如果你具有@UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4]或@UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf]技能专长，就可以使用此专长，在没有骇客工具包的情况下进行战斗骇入或@UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}。</p>"
+          "description": "<p>你学会了以其他方法骇入。你可以用任意计算机、通讯器或终端，使用计算机技能解除装置或骇入系统，无需骇客工具包。如果你在计算机达到专家，且所用设备至少为3级，则你解除装置或骇入的检定获得+1物品加值。</p><hr /><p><strong>特殊</strong>如果你具有@UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4]或@UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf]技能专长，就可以使用此专长，在没有骇客工具包的情况下进行战斗骇入或@UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Computers",
+              "text": "计算机技能受训"
+            }
+          ]
         },
         {
           "id": "iTqZ6BzsYPKxyusA",
@@ -3606,7 +3850,7 @@
         {
           "id": "h4Noe6UqcIFdivh6",
           "expectedName": "Sharpshooter",
-          "name": "神枪手",
+          "name": "神射手",
           "expectedDescription": "<p>You can spot a target's weak points, letting you deal additional precision damage with most types of ranged weapons. You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC] action.</p>",
           "description": "<p>你能看穿目标的弱点，令你可以用大多数类型的远程武器造成额外精准伤害。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC]动作。</p>"
         },
@@ -3636,7 +3880,14 @@
           "expectedName": "Steady Balance",
           "name": "四平八稳",
           "expectedDescription": "<p>You can keep your balance easily, even in adverse conditions. Whenever you roll a success using the @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} action, you get a critical success instead. You're not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while attempting to Balance on narrow surfaces and uneven ground.</p>",
-          "description": "<p>即使在恶劣的条件下，你也能轻易保持平衡。每当你检定成功地使用@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}动作时，改为大成功。你在狭窄平面和不稳地面尝试保持平衡时不会陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>"
+          "description": "<p>即使在恶劣的条件下，你也能轻易保持平衡。每当你检定成功地使用@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}动作时，改为大成功。你在狭窄平面和不稳地面尝试保持平衡时不会陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Acrobatics",
+              "text": "特技技能受训"
+            }
+          ]
         },
         {
           "id": "Wr6Q76fOLyaljklt",
@@ -3778,14 +4029,28 @@
           "expectedName": "Cat Fall",
           "name": "轻身落",
           "expectedDescription": "<p>Your catlike aerial acrobatics allow you to cushion your falls. Treat falls as 10 feet shorter. If you're an expert in Acrobatics, treat falls as 25 feet shorter and 50 feet if you're a master. If you're legendary in Acrobatics, you always land on your feet and don't take damage, regardless of the distance of the fall.</p>",
-          "description": "<p>模仿自猫的高空特技动作让你能够缓冲坠落的损伤。将坠落距离视为缩短10尺。若你在特技技能上的熟练度达到专家，将坠落距离视为缩短25尺，达到大师后，缩短50尺。若你在特技技能上的熟练度达到传奇，无论坠落距离多高，你始终能够以脚着地，不会受到任何伤害。</p>"
+          "description": "<p>模仿自猫的高空特技动作让你能够缓冲坠落的损伤。将坠落距离视为缩短10尺。若你在特技技能上的熟练度达到专家，将坠落距离视为缩短25尺，达到大师后，缩短50尺。若你在特技技能上的熟练度达到传奇，无论坠落距离多高，你始终能够以脚着地，不会受到任何伤害。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Acrobatics",
+              "text": "特技技能受训"
+            }
+          ]
         },
         {
           "id": "h4q5AULToBe0bl9t",
           "expectedName": "Hologram Skeptic",
           "name": "全息影像怀疑者",
           "expectedDescription": "<p>You easily spot the tiny glitches and imperfections in holograms. Even if you aren't Searching, you always attempt a check to disbelieve holograms and effects with the illusion and tech traits that normally require you to @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{Search} or Interact with them.</p>",
-          "description": "<p>你很容易发现全息影像中的微小故障和不完美之处。即使你没有在@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]（Searching），你也总可以尝试进行一次检定以尝试识破（disbelieve）全息影像以及通常需要你搜寻或与之互动的带有幻术和科技特征的效果。</p>"
+          "description": "<p>你很容易发现全息影像中的微小故障与瑕疵。即使你没有在@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{搜寻}，你也总会尝试检定以识破全息影像，以及那些具有幻术和科技特征、通常要求你搜寻或与其交互才能识破的效果。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Computers",
+              "text": "计算机技能受训"
+            }
+          ]
         },
         {
           "id": "BiubCVMTkH3YAA6J",
@@ -3806,7 +4071,7 @@
           "expectedName": "Advanced Targeting System",
           "name": "先进瞄准系统",
           "expectedDescription": "<p>Your ocular processors are augmented with advanced targeting systems, which allow you to more easily pinpoint your enemy and read their movements. You can cast @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{Sure Strike} once per day as a 1st-rank arcane innate spell.</p>",
-          "description": "<p>你的眼部处理器配备了先进的瞄准系统，可以让你更容易地定位你的敌人并读取他们的动作。你可以施展@UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{料敌机先}作为1环奥术天生法术，每日一次。</p>"
+          "description": "<p>你的眼部处理器配备了先进的瞄准系统，可以让你更容易地定位你的敌人并读取他们的动作。你可以施展@UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{料敌机先}作为1环奥术内在法术，每日一次。</p>"
         },
         {
           "id": "erU1CLr7NAlf3WOE",
@@ -3820,13 +4085,20 @@
           "expectedName": "Phishing Expertise",
           "name": "电诈专家",
           "expectedDescription": "<p>You're skilled at running digital fraud schemes. You can Create a Forgery using [[/act create-forgery skill=computers]]{Computers} instead of Society. Digital forgeries are compared against your Computers DC. Using information gained from a successful forgery usually requires additional checks, including Deception and Society, and casting too wide a net runs the risk of a potential victim figuring out your ruse and turning you in to the authorities.</p>",
-          "description": "<p>你擅长实施数字诈骗。你可以使用[[/act create-forgery skill=computers]]{计算机}代替社群来伪造文书。数字伪造品以你的计算机DC作为对抗难度。使用成功伪造所得的信息，通常还需要其他检定，包括欺骗和社群；撒网过广也会带来风险，潜在受害者可能识破骗局，并向当局举报你。</p>"
+          "description": "<p>你擅长实施数字诈骗。你可以使用[[/act create-forgery skill=computers]]{计算机}代替社群来伪造文书。数字伪造品以你的计算机DC作为对抗难度。使用成功伪造所得的信息，通常还需要其他检定，包括欺骗和社群；撒网过广也会带来风险，潜在受害者可能识破骗局，并向当局举报你。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Computers",
+              "text": "计算机技能受训"
+            }
+          ]
         }
       ],
       "name": "伊瑟夫（5级） Iseph (Level 5)",
       "cnText_prototypeToken_name": {
         "expected": "Iseph",
-        "text": "伊瑟芙（Iseph）"
+        "text": "伊瑟夫（Iseph）"
       }
     },
     "YFjGddgClv932YKm": {
@@ -3864,7 +4136,14 @@
           "expectedName": "Phreaker",
           "name": "电话黑客",
           "expectedDescription": "<p>You've learned how to hack using alternative methods. You can use Computers to Disable a Device or Hack a system using any computer, comm unit, or terminal instead of a hacking toolkit. If you're an expert in Computers and the equipment you use is at least 3rd level, you gain a +1 item bonus to Disable a Device or Hack.</p><hr /><p><strong>Special</strong> If you have the @UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4] or @UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf] skill feat, you can use this feat to Combat Hack or @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion} without a hacking toolkit.</p>",
-          "description": "<p>你学会了以其他方法骇入。你可以用任意计算机、通讯器或终端，使用计算机技能解除装置或骇入系统，无需骇客工具包。如果你在计算机达到专家，且所用设备至少为3级，则你解除装置或骇入的检定获得+1物品加值。</p><hr /><p><strong>特殊</strong>如果你具有@UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4]或@UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf]技能专长，就可以使用此专长，在没有骇客工具包的情况下进行战斗骇入或@UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}。</p>"
+          "description": "<p>你学会了以其他方法骇入。你可以用任意计算机、通讯器或终端，使用计算机技能解除装置或骇入系统，无需骇客工具包。如果你在计算机达到专家，且所用设备至少为3级，则你解除装置或骇入的检定获得+1物品加值。</p><hr /><p><strong>特殊</strong>如果你具有@UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4]或@UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf]技能专长，就可以使用此专长，在没有骇客工具包的情况下进行战斗骇入或@UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Computers",
+              "text": "计算机技能受训"
+            }
+          ]
         },
         {
           "id": "iTqZ6BzsYPKxyusA",
@@ -3876,7 +4155,7 @@
         {
           "id": "h4Noe6UqcIFdivh6",
           "expectedName": "Sharpshooter",
-          "name": "神枪手",
+          "name": "神射手",
           "expectedDescription": "<p>You can spot a target's weak points, letting you deal additional precision damage with most types of ranged weapons. You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC] action.</p>",
           "description": "<p>你能看穿目标的弱点，令你可以用大多数类型的远程武器造成额外精准伤害。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC]动作。</p>"
         },
@@ -3906,7 +4185,14 @@
           "expectedName": "Steady Balance",
           "name": "四平八稳",
           "expectedDescription": "<p>You can keep your balance easily, even in adverse conditions. Whenever you roll a success using the @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} action, you get a critical success instead. You're not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while attempting to Balance on narrow surfaces and uneven ground.</p>",
-          "description": "<p>即使在恶劣的条件下，你也能轻易保持平衡。每当你检定成功地使用@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}动作时，改为大成功。你在狭窄平面和不稳地面尝试保持平衡时不会陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>"
+          "description": "<p>即使在恶劣的条件下，你也能轻易保持平衡。每当你检定成功地使用@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}动作时，改为大成功。你在狭窄平面和不稳地面尝试保持平衡时不会陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Acrobatics",
+              "text": "特技技能受训"
+            }
+          ]
         },
         {
           "id": "Wr6Q76fOLyaljklt",
@@ -4048,20 +4334,34 @@
           "expectedName": "Cat Fall",
           "name": "轻身落",
           "expectedDescription": "<p>Your catlike aerial acrobatics allow you to cushion your falls. Treat falls as 10 feet shorter. If you're an expert in Acrobatics, treat falls as 25 feet shorter and 50 feet if you're a master. If you're legendary in Acrobatics, you always land on your feet and don't take damage, regardless of the distance of the fall.</p>",
-          "description": "<p>模仿自猫的高空特技动作让你能够缓冲坠落的损伤。将坠落距离视为缩短10尺。若你在特技技能上的熟练度达到专家，将坠落距离视为缩短25尺，达到大师后，缩短50尺。若你在特技技能上的熟练度达到传奇，无论坠落距离多高，你始终能够以脚着地，不会受到任何伤害。</p>"
+          "description": "<p>模仿自猫的高空特技动作让你能够缓冲坠落的损伤。将坠落距离视为缩短10尺。若你在特技技能上的熟练度达到专家，将坠落距离视为缩短25尺，达到大师后，缩短50尺。若你在特技技能上的熟练度达到传奇，无论坠落距离多高，你始终能够以脚着地，不会受到任何伤害。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Acrobatics",
+              "text": "特技技能受训"
+            }
+          ]
         },
         {
           "id": "h4q5AULToBe0bl9t",
           "expectedName": "Hologram Skeptic",
           "name": "全息影像怀疑者",
           "expectedDescription": "<p>You easily spot the tiny glitches and imperfections in holograms. Even if you aren't Searching, you always attempt a check to disbelieve holograms and effects with the illusion and tech traits that normally require you to @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{Search} or Interact with them.</p>",
-          "description": "<p>你很容易发现全息影像中的微小故障和不完美之处。即使你没有在@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]（Searching），你也总可以尝试进行一次检定以尝试识破（disbelieve）全息影像以及通常需要你搜寻或与之互动的带有幻术和科技特征的效果。</p>"
+          "description": "<p>你很容易发现全息影像中的微小故障与瑕疵。即使你没有在@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{搜寻}，你也总会尝试检定以识破全息影像，以及那些具有幻术和科技特征、通常要求你搜寻或与其交互才能识破的效果。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Computers",
+              "text": "计算机技能受训"
+            }
+          ]
         }
       ],
       "name": "伊瑟夫（3级） Iseph (Level 3)",
       "cnText_prototypeToken_name": {
         "expected": "Iseph",
-        "text": "伊瑟芙（Iseph）"
+        "text": "伊瑟夫（Iseph）"
       }
     },
     "h9DEmhZO3rJbLDIk": {
@@ -4125,14 +4425,14 @@
         {
           "id": "bNJVXAVE32dwaMhv",
           "expectedName": "Suppressing Fire",
-          "name": "压制火力（专长）",
+          "name": "压制火力",
           "expectedDescription": "<p>You have a knack for using powerful weapons to harry your foes and hinder their movement, preventing them from operating at their peak. When you make an attack with the area trait (such as @UUID[Compendium.sf2e-anachronism.actions.Item.oc0ZKnk5zD0GXqZi] or @UUID[Compendium.sf2e-anachronism.actions.Item.6ctkxUnVwqooSvgg]), you use it in a manner that suppresses your targets. Enemies in the affected area who fail their save against your attack become @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until the start of your next turn. A suppressed target takes a –1 circumstance penalty on attack rolls and takes a –10-foot status penalty to its Speeds. Some soldier abilities and class feats interact further with the suppressed condition.</p>",
           "description": "<p>你懂得如何使用强大的武器来阻碍敌人，并遏阻他们以全盛姿态行动。当你进行一次具有区域特征的攻击（例如来自@UUID[Compendium.sf2e-anachronism.actions.Item.oc0ZKnk5zD0GXqZi]或@UUID[Compendium.sf2e-anachronism.actions.Item.6ctkxUnVwqooSvgg]动作），你将以压制目标的方式来运用它。受影响区域内的生物如果没有成功通对你攻击的豁免，便会陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]状态，直到你的下个回合开始。被压制的目标在攻击骰上有-1环境减值，在速度上有-10尺状态减值。有些士兵能力和职业专长会和被压制状态产生进一步交互。</p>"
         },
         {
           "id": "o91I6kXk4J4xq2IB",
           "expectedName": "Primary Target",
-          "name": "主目标（专长）",
+          "name": "主目标",
           "expectedDescription": "<p>You can focus fire on a single target when unleashing the full devastation of your powerful area weaponry. Before you make an area attack with a weapon (such as from the Area Fire or Auto-Fire actions), you can make a ranged Strike as a free action with the same weapon against a single creature in the area, who's selected as your primary target. If your attack is a burst, you must select the creature closest to the center of the attack. If your attack is a cone or line, you must select the creature closest to you. If two or more creatures are equidistant, you can choose which one is your primary target. On a hit, if your primary target rolls a success against your Area Fire or Auto-Fire action, they get a failure instead. This Strike doesn't count toward your multiple attack penalty.</p>",
           "description": "<p>当你完全倾泻手中强大武装的毁灭性火力时，你可以对一个目标制造尤为强大的火力。当你进行一次具有区域效果的攻击前（例如区域射击或自动射击动作），你可以以自由动作以相同的武器对区域中单个生物进行一次远程打击，将其作为你的主目标。如果你的攻击是爆发，你必须选择最接近攻击中心的生物。如果你的攻击为锥形或线形，你必须选择最接近你的生物。如果两个或两个以上的生物距离相等或最近，你可以选择其中一个作为你的主目标。如果你使用此次打击成功命中你的主目标，且目标对你的区域射击或自动射击掷骰出成功结果，其改为获得失败结果。此次打击不计入你的多重攻击减值。</p>"
         },
@@ -4243,7 +4543,14 @@
           "expectedName": "Impressive Performance",
           "name": "动人表演",
           "expectedDescription": "<p>Your performances inspire admiration and win you fans. You can @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} using Performance instead of Diplomacy. If you spend at least 10 minutes performing in front of an audience, you can Make an Impression targeting up to 10 members of the audience who were there for the whole performance, without taking the normal penalty. The number of targets increases to 20 for a 1-hour performance and 50 for a 2-hour performance.</p>",
-          "description": "<p>你的表演令人钦佩，为你赢得粉丝。你可以使用表演代替交涉来@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}。如果你在观众面前表演至少10分钟，就可以对完整观看了整场表演的至多10名观众建立印象，而不承受通常的减值。表演持续1小时时，目标数量增加至20名；持续2小时时，增加至50名。</p>"
+          "description": "<p>你的表演令人钦佩，为你赢得粉丝。你可以使用表演代替交涉来@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}。如果你在观众面前表演至少10分钟，就可以对完整观看了整场表演的至多10名观众建立印象，而不承受通常的减值。表演持续1小时时，目标数量增加至20名；持续2小时时，增加至50名。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Performance",
+              "text": "表演技能受训"
+            }
+          ]
         },
         {
           "id": "zybR8GAvn4yXRJXG",
@@ -4322,7 +4629,7 @@
         {
           "id": "Rba68cRYdUT38FbH",
           "expectedName": "Hardlight Series",
-          "name": "实光套装",
+          "name": "硬光套装",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>A projector fastened to a belt or lapel encases the wearer's body in this shimmering hardlight shell. Military-issue hardlight armor follows a predictable standard, but private users enjoy a range of customizable fashion options.</p>",
           "description": "<p><strong>强化：</strong> 1</p><hr /><p>固定在腰带或翻领上的投影器，用这层闪耀的硬光外壳包裹穿戴者的身体。军用制式硬光护甲遵循固定标准，而私人用户则能享用一系列可定制的时尚款式。</p>"
         },
@@ -4387,14 +4694,21 @@
           "expectedName": "Cat Fall",
           "name": "轻身落",
           "expectedDescription": "<p>Your catlike aerial acrobatics allow you to cushion your falls. Treat falls as 10 feet shorter. If you're an expert in Acrobatics, treat falls as 25 feet shorter and 50 feet if you're a master. If you're legendary in Acrobatics, you always land on your feet and don't take damage, regardless of the distance of the fall.</p>",
-          "description": "<p>模仿自猫的高空特技动作让你能够缓冲坠落的损伤。将坠落距离视为缩短10尺。若你在特技技能上的熟练度达到专家，将坠落距离视为缩短25尺，达到大师后，缩短50尺。若你在特技技能上的熟练度达到传奇，无论坠落距离多高，你始终能够以脚着地，不会受到任何伤害。</p>"
+          "description": "<p>模仿自猫的高空特技动作让你能够缓冲坠落的损伤。将坠落距离视为缩短10尺。若你在特技技能上的熟练度达到专家，将坠落距离视为缩短25尺，达到大师后，缩短50尺。若你在特技技能上的熟练度达到传奇，无论坠落距离多高，你始终能够以脚着地，不会受到任何伤害。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Acrobatics",
+              "text": "特技技能受训"
+            }
+          ]
         },
         {
           "id": "FNJ1Zl6KZqRYVZqn",
           "expectedName": "Magboots",
           "name": "磁力靴",
           "expectedDescription": "<p>Magboots can be activated or deactivated with an Interact action. While active, they grant you a +1 item bonus to Athletics checks to Climb metal surfaces as well as a +1 item bonus to your Fortitude or Reflex DC against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} you when you're standing on a metal surface. In areas of zero gravity, while wearing a pair of magboots, you can move your Speed across metal surfaces and don't gain the untethered condition.</p>",
-          "description": "<p>磁力靴可以用一个交互动作启动或关闭。激活时，它们使你在用于攀爬金属表面的运动检定上获得+1物品加值；站在金属表面上时，你对抗以下检定的强韧DC或反射DC还会获得+1物品加值： @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{冲撞}，或 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{绊摔} 你（当你站在金属表面上时）。在零重力区域内，穿戴一双磁力靴时，你可以沿金属表面移动至多你的速度，且不会获得失重状态。</p>"
+          "description": "<p>磁力靴可以用一个交互动作启动或关闭。激活时，它们使你在用于攀爬金属表面的运动检定上获得+1物品加值；站在金属表面上时，你对抗以下检定的强韧DC或反射DC还会获得+1物品加值： @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}，或 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊} 你（当你站在金属表面上时）。在零重力区域内，穿戴一双磁力靴时，你可以沿金属表面移动至多你的速度，且不会获得失重状态。</p>"
         },
         {
           "id": "FTx6ztdoAdrwoMNt",
@@ -4450,7 +4764,14 @@
           "expectedName": "Combat Climber",
           "name": "战斗攀爬",
           "expectedDescription": "<p>Your techniques allow you to fight as you climb. You're not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while Climbing and can Climb with a hand occupied. You must still use another hand and both legs to Climb.</p>",
-          "description": "<p>你拥有一边攀爬一边战斗的技术。你在攀爬期间不会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，并且能够在一只手被占用的情况下攀爬。你在攀爬时仍然必须用上另一只手和双腿。</p>"
+          "description": "<p>你拥有一边攀爬一边战斗的技术。你在攀爬期间不会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，并且能够在一只手被占用的情况下攀爬。你在攀爬时仍然必须用上另一只手和双腿。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Athletics",
+              "text": "运动技能受训"
+            }
+          ]
         },
         {
           "id": "CqtSI4XMqA6ejfTn",
@@ -4461,7 +4782,7 @@
       "name": "戴伊（5级） Dae (Level 5)",
       "cnText_prototypeToken_name": {
         "expected": "Dae",
-        "text": "黛（Dae）"
+        "text": "戴伊（Dae）"
       }
     },
     "iF94PfoPliKabaKU": {
@@ -4499,7 +4820,14 @@
           "expectedName": "Phreaker",
           "name": "电话黑客",
           "expectedDescription": "<p>You've learned how to hack using alternative methods. You can use Computers to Disable a Device or Hack a system using any computer, comm unit, or terminal instead of a hacking toolkit. If you're an expert in Computers and the equipment you use is at least 3rd level, you gain a +1 item bonus to Disable a Device or Hack.</p><hr /><p><strong>Special</strong> If you have the @UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4] or @UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf] skill feat, you can use this feat to Combat Hack or @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion} without a hacking toolkit.</p>",
-          "description": "<p>你学会了以其他方法骇入。你可以用任意计算机、通讯器或终端，使用计算机技能解除装置或骇入系统，无需骇客工具包。如果你在计算机达到专家，且所用设备至少为3级，则你解除装置或骇入的检定获得+1物品加值。</p><hr /><p><strong>特殊</strong>如果你具有@UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4]或@UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf]技能专长，就可以使用此专长，在没有骇客工具包的情况下进行战斗骇入或@UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}。</p>"
+          "description": "<p>你学会了以其他方法骇入。你可以用任意计算机、通讯器或终端，使用计算机技能解除装置或骇入系统，无需骇客工具包。如果你在计算机达到专家，且所用设备至少为3级，则你解除装置或骇入的检定获得+1物品加值。</p><hr /><p><strong>特殊</strong>如果你具有@UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4]或@UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf]技能专长，就可以使用此专长，在没有骇客工具包的情况下进行战斗骇入或@UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Computers",
+              "text": "计算机技能受训"
+            }
+          ]
         },
         {
           "id": "iTqZ6BzsYPKxyusA",
@@ -4511,7 +4839,7 @@
         {
           "id": "h4Noe6UqcIFdivh6",
           "expectedName": "Sharpshooter",
-          "name": "神枪手",
+          "name": "神射手",
           "expectedDescription": "<p>You can spot a target's weak points, letting you deal additional precision damage with most types of ranged weapons. You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC] action.</p>",
           "description": "<p>你能看穿目标的弱点，令你可以用大多数类型的远程武器造成额外精准伤害。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC]动作。</p>"
         },
@@ -4541,7 +4869,14 @@
           "expectedName": "Steady Balance",
           "name": "四平八稳",
           "expectedDescription": "<p>You can keep your balance easily, even in adverse conditions. Whenever you roll a success using the @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} action, you get a critical success instead. You're not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while attempting to Balance on narrow surfaces and uneven ground.</p>",
-          "description": "<p>即使在恶劣的条件下，你也能轻易保持平衡。每当你检定成功地使用@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}动作时，改为大成功。你在狭窄平面和不稳地面尝试保持平衡时不会陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>"
+          "description": "<p>即使在恶劣的条件下，你也能轻易保持平衡。每当你检定成功地使用@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}动作时，改为大成功。你在狭窄平面和不稳地面尝试保持平衡时不会陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Acrobatics",
+              "text": "特技技能受训"
+            }
+          ]
         },
         {
           "id": "Wr6Q76fOLyaljklt",
@@ -4669,14 +5004,28 @@
           "expectedName": "Cat Fall",
           "name": "轻身落",
           "expectedDescription": "<p>Your catlike aerial acrobatics allow you to cushion your falls. Treat falls as 10 feet shorter. If you're an expert in Acrobatics, treat falls as 25 feet shorter and 50 feet if you're a master. If you're legendary in Acrobatics, you always land on your feet and don't take damage, regardless of the distance of the fall.</p>",
-          "description": "<p>模仿自猫的高空特技动作让你能够缓冲坠落的损伤。将坠落距离视为缩短10尺。若你在特技技能上的熟练度达到专家，将坠落距离视为缩短25尺，达到大师后，缩短50尺。若你在特技技能上的熟练度达到传奇，无论坠落距离多高，你始终能够以脚着地，不会受到任何伤害。</p>"
+          "description": "<p>模仿自猫的高空特技动作让你能够缓冲坠落的损伤。将坠落距离视为缩短10尺。若你在特技技能上的熟练度达到专家，将坠落距离视为缩短25尺，达到大师后，缩短50尺。若你在特技技能上的熟练度达到传奇，无论坠落距离多高，你始终能够以脚着地，不会受到任何伤害。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Acrobatics",
+              "text": "特技技能受训"
+            }
+          ]
         },
         {
           "id": "h4q5AULToBe0bl9t",
           "expectedName": "Hologram Skeptic",
           "name": "全息影像怀疑者",
           "expectedDescription": "<p>You easily spot the tiny glitches and imperfections in holograms. Even if you aren't Searching, you always attempt a check to disbelieve holograms and effects with the illusion and tech traits that normally require you to @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{Search} or Interact with them.</p>",
-          "description": "<p>你很容易发现全息影像中的微小故障和不完美之处。即使你没有在@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]（Searching），你也总可以尝试进行一次检定以尝试识破（disbelieve）全息影像以及通常需要你搜寻或与之互动的带有幻术和科技特征的效果。</p>"
+          "description": "<p>你很容易发现全息影像中的微小故障与瑕疵。即使你没有在@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{搜寻}，你也总会尝试检定以识破全息影像，以及那些具有幻术和科技特征、通常要求你搜寻或与其交互才能识破的效果。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Computers",
+              "text": "计算机技能受训"
+            }
+          ]
         },
         {
           "id": "BiubCVMTkH3YAA6J",
@@ -4697,7 +5046,7 @@
           "expectedName": "Advanced Targeting System",
           "name": "先进瞄准系统",
           "expectedDescription": "<p>Your ocular processors are augmented with advanced targeting systems, which allow you to more easily pinpoint your enemy and read their movements. You can cast @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{Sure Strike} once per day as a 1st-rank arcane innate spell.</p>",
-          "description": "<p>你的眼部处理器配备了先进的瞄准系统，可以让你更容易地定位你的敌人并读取他们的动作。你可以施展@UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{料敌机先}作为1环奥术天生法术，每日一次。</p>"
+          "description": "<p>你的眼部处理器配备了先进的瞄准系统，可以让你更容易地定位你的敌人并读取他们的动作。你可以施展@UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{料敌机先}作为1环奥术内在法术，每日一次。</p>"
         },
         {
           "id": "erU1CLr7NAlf3WOE",
@@ -4711,7 +5060,14 @@
           "expectedName": "Phishing Expertise",
           "name": "电诈专家",
           "expectedDescription": "<p>You're skilled at running digital fraud schemes. You can Create a Forgery using [[/act create-forgery skill=computers]]{Computers} instead of Society. Digital forgeries are compared against your Computers DC. Using information gained from a successful forgery usually requires additional checks, including Deception and Society, and casting too wide a net runs the risk of a potential victim figuring out your ruse and turning you in to the authorities.</p>",
-          "description": "<p>你擅长实施数字诈骗。你可以使用[[/act create-forgery skill=computers]]{计算机}代替社群来伪造文书。数字伪造品以你的计算机DC作为对抗难度。使用成功伪造所得的信息，通常还需要其他检定，包括欺骗和社群；撒网过广也会带来风险，潜在受害者可能识破骗局，并向当局举报你。</p>"
+          "description": "<p>你擅长实施数字诈骗。你可以使用[[/act create-forgery skill=computers]]{计算机}代替社群来伪造文书。数字伪造品以你的计算机DC作为对抗难度。使用成功伪造所得的信息，通常还需要其他检定，包括欺骗和社群；撒网过广也会带来风险，潜在受害者可能识破骗局，并向当局举报你。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Computers",
+              "text": "计算机技能受训"
+            }
+          ]
         },
         {
           "id": "YoREC8Pi8vUHywKP",
@@ -4760,20 +5116,34 @@
           "expectedName": "Dive for Cover",
           "name": "飞扑卧倒",
           "expectedDescription": "<p>When threatened, you can quickly take a dive and find somewhere to hunker down. You @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}, land @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, and immediately @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover}, which allows you to hunker down and gain greater cover against ranged attacks.</p>",
-          "description": "<p>当受到威胁时，你可以迅速@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]并找到一个地方蹲下。你跳跃（Leap），着陆时@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]，并立即采@UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]（Take Cover）动作压低身形，获得对远程攻击的高等掩蔽。</p>"
+          "description": "<p>当受到威胁时，你可以迅速飞扑，找到可以伏身的地方。你@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}，着陆时@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}，随后立即@UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{寻找掩蔽}，从而压低身形，获得对远程攻击的高等掩蔽。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "expert in Acrobatics",
+              "text": "特技技能专家"
+            }
+          ]
         },
         {
           "id": "0QnNtEqGETPSAtFs",
           "expectedName": "Take the Wheel",
           "name": "夺取载具",
           "expectedDescription": "<p>You Board and Take Control of an adjacent vehicle.</p>",
-          "description": "<p>你可以登上（Board）相邻载具并尝试接管操控（Take Control）。</p>"
+          "description": "<p>你可以登上（Board）相邻载具并尝试接管操控（Take Control）。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "expert in Piloting",
+              "text": "驾驶技能专家"
+            }
+          ]
         }
       ],
       "name": "伊瑟夫（7级） Iseph (Level 7)",
       "cnText_prototypeToken_name": {
         "expected": "Iseph",
-        "text": "伊瑟芙（Iseph）"
+        "text": "伊瑟夫（Iseph）"
       }
     },
     "jEFaeOEHMrZGsBIu": {
@@ -4804,7 +5174,14 @@
           "expectedName": "Intimidating Shot",
           "name": "威吓射击",
           "expectedDescription": "<p>You attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} a foe with your ranged weapon by firing it into the air, using ammo equal to the weapon's expend and the weapon's maximum range rather than the usual range of 30 feet. This check doesn't take a –4 circumstance penalty if the target doesn't share a language with you.</p>",
-          "description": "<p>你尝试通过向空中开枪来对一个在你远程武器射程内的敌人@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]，使用的弹药数量等于武器的耗弹量，使用武器的最大射程替代挫败士气通常的30尺范围。即便目标与你语言不通，此检定也不会受到-4环境减值。</p>"
+          "description": "<p>你尝试通过向空中开枪来对一个在你远程武器射程内的敌人@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]，使用的弹药数量等于武器的耗弹量，使用武器的最大射程替代挫败士气通常的30尺范围。即便目标与你语言不通，此检定也不会受到-4环境减值。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Intimidation",
+              "text": "威吓技能受训"
+            }
+          ]
         },
         {
           "id": "VanS7gFGiYDej5u3",
@@ -4964,7 +5341,7 @@
       "name": "纳瓦西（1级） Navasi (Level 1)",
       "cnText_prototypeToken_name": {
         "expected": "Navasi",
-        "text": "娜瓦希（Navasi）"
+        "text": "纳瓦西（Navasi）"
       }
     },
     "ks7QxhpgX3E3fRe5": {
@@ -5009,7 +5386,19 @@
           "expectedName": "Religious Talisman",
           "name": "神圣护符",
           "expectedDescription": "<p>You can construct and bless a religious symbol of your deity in 10 minutes. While such talismans are traditionally scraps of paper with a religious symbol drawn on them, they can take many forms, including body art, a sticker, or even a virtual emoji. You can create a talisman only for yourself and for the deity you worship. As long as you continue to engage in activities that match your deity's edicts you gain a +1 status bonus to initiative rolls. If you violate your deity's anathema, the talisman is destroyed, and you take a –1 status penalty to initiative rolls and Perception checks until you complete an @UUID[Compendium.pf2e.spells-srd.Item.7Fd4lxozd11MQ55N]{Atone} ritual.</p>",
-          "description": "<p>你可以在10分钟内制作并祝福一个属于所信神祇的宗教徽记。这些护符传统上是画有宗教徽记的纸片，但也能采用许多形式，包括身体绘画、贴纸，甚至虚拟表情符号。你只能为自己制作护符，且必须属于你所崇拜的神祇。只要你持续从事符合神祇敕令的活动，先攻检定便获得+1状态加值。如果违反神祇的禁忌，护符便被摧毁，且你在先攻检定和察觉检定上承受–1状态减值，直到完成一次@UUID[Compendium.pf2e.spells-srd.Item.7Fd4lxozd11MQ55N]{赎罪}仪式。</p>"
+          "description": "<p>你可以在10分钟内制作并祝福一个属于所信神祇的宗教徽记。这些护符传统上是画有宗教徽记的纸片，但也能采用许多形式，包括身体绘画、贴纸，甚至虚拟表情符号。你只能为自己制作护符，且必须属于你所崇拜的神祇。只要你持续从事符合神祇敕令的活动，先攻检定便获得+1状态加值。如果违反神祇的禁忌，护符便被摧毁，且你在先攻检定和察觉检定上承受–1状态减值，直到完成一次@UUID[Compendium.pf2e.spells-srd.Item.7Fd4lxozd11MQ55N]{赎罪}仪式。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Religion",
+              "text": "宗教技能受训"
+            },
+            {
+              "path": "system.prerequisites.value.1.value",
+              "expected": "follower of a specific religion",
+              "text": "信奉一种特定宗教"
+            }
+          ]
         },
         {
           "id": "rw57vDE9sdhwHvcC",
@@ -5021,7 +5410,7 @@
         {
           "id": "RFUfv5viw2QkHgrA",
           "expectedName": "Vitality Network",
-          "name": "命能网络（专长）",
+          "name": "命能网络",
           "expectedDescription": "<p>Your soul supports a network of energy that connects and heals those in your bond. Your vitality network has a maximum capacity equal to 6 + 4 Hit Points per level. You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.UeMHbnnaXDa3sGfG] action that you can use to take Hit Points out of your network and into yourself or your allies as healing.</p>\n<p>Life-and-death situations help strengthen your bonds with your allies. At the start of each turn in combat, when you regain actions, your vitality network regains 4 Hit Points; if you're master in spell DC, it regains 6 Hit Points instead; if you're legendary, it regains 8 Hit Points. When you Refocus, your vitality network regains all its Hit Points.</p>",
           "description": "<p>你的灵魂支持着一个连结并治愈你纽带中生物的能量网络。你的命能网络具有等同于6+每等级4点生命值的最大容量。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.UeMHbnnaXDa3sGfG]动作，可以用来从你的网络中提取生命值并将其转移到自己或盟友身上进行治疗。</p>\n<p>生死攸关的情况有助于加固你与盟友的纽带。在战斗中每回合开始，当你重新获得动作时，你的命能网络会恢复4点生命值；如果你的法术DC为大师熟练度，它改为恢复6点生命值；如果你达到传奇熟练度，它会恢复8点生命值。当你再聚能时，你的命能网络会恢复全部生命值。</p>"
         },
@@ -5332,7 +5721,14 @@
           "expectedName": "Battle Medicine",
           "name": "战地医疗",
           "expectedDescription": "<p><strong>Requirements</strong> You're holding or wearing a medkit.</p><hr /><p>You can patch up wounds, even in combat. Attempt a Medicine check with the same DC as for @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} and restore the corresponding amount of HP; this doesn't remove the wounded condition. As with Treat Wounds, you can attempt checks against higher DCs if you have the minimum proficiency rank. The target is then @UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{immune} to your Battle Medicine for 1 day. This does not make them immune to, or otherwise count as, Treat Wounds.</p>",
-          "description": "<p><strong>需求</strong> 你正持握或穿戴医疗包。</p><hr /><p>你即使在战斗中也能包扎伤口。尝试一次医疗检定，其DC与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}相同，并恢复相应数目的生命值；这不会移除受伤状态。如同治疗伤势，只要达到最低熟练度等级要求，你就可以尝试更高DC的检定。此后，目标对你的战地医疗@UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{免疫}1天。这不会使目标免疫治疗伤势，也不会以其他方式算作治疗伤势。</p>"
+          "description": "<p><strong>需求</strong> 你正持握或穿戴医疗包。</p><hr /><p>你即使在战斗中也能包扎伤口。尝试一次医疗检定，其DC与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}相同，并恢复相应数目的生命值；这不会移除受伤状态。如同治疗伤势，只要达到最低熟练度等级要求，你就可以尝试更高DC的检定。此后，目标对你的战地医疗@UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{免疫}1天。这不会使目标免疫治疗伤势，也不会以其他方式算作治疗伤势。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Medicine",
+              "text": "医疗技能受训"
+            }
+          ]
         },
         {
           "id": "XCq9WCewGooU8qHy",
@@ -5360,7 +5756,14 @@
           "expectedName": "Feign Death",
           "name": "装死",
           "expectedDescription": "<p><strong>Trigger</strong> You take damage.</p><hr /><p>You lie @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and Impersonate a corpse. As long as you don't take any actions requiring anything other than your mind, you appear dead. To see through your ruse, a creature must succeed at a check against your Deception DC, either by Seeking or Recalling Knowledge. You can Ready an Action without ending this effect if you're a master in Deception.</p>",
-          "description": "<p><strong>触发</strong>你受到伤害。</p><hr /><p>你@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]并乔装（Impersonate）一具尸体。只要你没有采取任何需要身体动作的行动，你看起来就像死了一样。要识破你的伪装，生物必须通过搜索（Seeking）或回忆知识（Recalling Knowledge）成功对抗你的欺骗DC。如果你在欺骗技能上具有大师熟练度，你可以在不结束此效果的情况下准备（Ready）一个动作。</p>"
+          "description": "<p><strong>触发</strong>你受到伤害。</p><hr /><p>你@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]并乔装（Impersonate）一具尸体。只要你没有采取任何需要身体动作的行动，你看起来就像死了一样。要识破你的伪装，生物必须通过搜索（Seeking）或回忆知识（Recalling Knowledge）成功对抗你的欺骗DC。如果你在欺骗技能上具有大师熟练度，你可以在不结束此效果的情况下准备（Ready）一个动作。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "expert in Deception",
+              "text": "欺骗技能专家"
+            }
+          ]
         },
         {
           "id": "VTwtVqi5yvoCJ7UO",
@@ -5394,7 +5797,7 @@
       "name": "齐克齐克（5级） Chk Chk (Level 5)",
       "cnText_prototypeToken_name": {
         "expected": "Chk Chk",
-        "text": "奇克奇克（Chk Chk）"
+        "text": "齐克齐克（Chk Chk）"
       }
     },
     "nRRXyKrbP0iCkjcc": {
@@ -5458,14 +5861,14 @@
         {
           "id": "bNJVXAVE32dwaMhv",
           "expectedName": "Suppressing Fire",
-          "name": "压制火力（专长）",
+          "name": "压制火力",
           "expectedDescription": "<p>You have a knack for using powerful weapons to harry your foes and hinder their movement, preventing them from operating at their peak. When you make an attack with the area trait (such as @UUID[Compendium.sf2e-anachronism.actions.Item.oc0ZKnk5zD0GXqZi] or @UUID[Compendium.sf2e-anachronism.actions.Item.6ctkxUnVwqooSvgg]), you use it in a manner that suppresses your targets. Enemies in the affected area who fail their save against your attack become @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until the start of your next turn. A suppressed target takes a –1 circumstance penalty on attack rolls and takes a –10-foot status penalty to its Speeds. Some soldier abilities and class feats interact further with the suppressed condition.</p>",
           "description": "<p>你懂得如何使用强大的武器来阻碍敌人，并遏阻他们以全盛姿态行动。当你进行一次具有区域特征的攻击（例如来自@UUID[Compendium.sf2e-anachronism.actions.Item.oc0ZKnk5zD0GXqZi]或@UUID[Compendium.sf2e-anachronism.actions.Item.6ctkxUnVwqooSvgg]动作），你将以压制目标的方式来运用它。受影响区域内的生物如果没有成功通对你攻击的豁免，便会陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]状态，直到你的下个回合开始。被压制的目标在攻击骰上有-1环境减值，在速度上有-10尺状态减值。有些士兵能力和职业专长会和被压制状态产生进一步交互。</p>"
         },
         {
           "id": "o91I6kXk4J4xq2IB",
           "expectedName": "Primary Target",
-          "name": "主目标（专长）",
+          "name": "主目标",
           "expectedDescription": "<p>You can focus fire on a single target when unleashing the full devastation of your powerful area weaponry. Before you make an area attack with a weapon (such as from the Area Fire or Auto-Fire actions), you can make a ranged Strike as a free action with the same weapon against a single creature in the area, who's selected as your primary target. If your attack is a burst, you must select the creature closest to the center of the attack. If your attack is a cone or line, you must select the creature closest to you. If two or more creatures are equidistant, you can choose which one is your primary target. On a hit, if your primary target rolls a success against your Area Fire or Auto-Fire action, they get a failure instead. This Strike doesn't count toward your multiple attack penalty.</p>",
           "description": "<p>当你完全倾泻手中强大武装的毁灭性火力时，你可以对一个目标制造尤为强大的火力。当你进行一次具有区域效果的攻击前（例如区域射击或自动射击动作），你可以以自由动作以相同的武器对区域中单个生物进行一次远程打击，将其作为你的主目标。如果你的攻击是爆发，你必须选择最接近攻击中心的生物。如果你的攻击为锥形或线形，你必须选择最接近你的生物。如果两个或两个以上的生物距离相等或最近，你可以选择其中一个作为你的主目标。如果你使用此次打击成功命中你的主目标，且目标对你的区域射击或自动射击掷骰出成功结果，其改为获得失败结果。此次打击不计入你的多重攻击减值。</p>"
         },
@@ -5567,7 +5970,14 @@
           "expectedName": "Deadlift",
           "name": "硬举",
           "expectedDescription": "<p><strong>Requirements</strong> You aren't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}.</p><hr /><p>For 1 minute, you can carry 4 more Bulk than normal before becoming encumbered. The amount you can carry increases to 6 at expert, 8 at master, and 10 at legendary. When the benefits of this feat end, you become @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} for 10 minutes.</p>",
-          "description": "<p><strong>需求</strong>你没有@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]状态</p><hr /><p>在1分钟内，你可以携带比正常多4B的物品而不受超载影响。额外的负载在运动专家时提升至6，大师时提升至8，传奇时提升至10。当此专长带来的好处结束时，你陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]10分钟。</p>"
+          "description": "<p><strong>需求</strong>你没有@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]状态</p><hr /><p>在1分钟内，你可以携带比正常多4B的物品而不受超载影响。额外的负载在运动专家时提升至6，大师时提升至8，传奇时提升至10。当此专长带来的好处结束时，你陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]10分钟。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Athletics",
+              "text": "运动技能受训"
+            }
+          ]
         },
         {
           "id": "LSLlDItRqYsTDAI6",
@@ -5644,14 +6054,14 @@
         {
           "id": "bNJVXAVE32dwaMhv",
           "expectedName": "Suppressing Fire",
-          "name": "压制火力（专长）",
+          "name": "压制火力",
           "expectedDescription": "<p>You have a knack for using powerful weapons to harry your foes and hinder their movement, preventing them from operating at their peak. When you make an attack with the area trait (such as @UUID[Compendium.sf2e-anachronism.actions.Item.oc0ZKnk5zD0GXqZi] or @UUID[Compendium.sf2e-anachronism.actions.Item.6ctkxUnVwqooSvgg]), you use it in a manner that suppresses your targets. Enemies in the affected area who fail their save against your attack become @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until the start of your next turn. A suppressed target takes a –1 circumstance penalty on attack rolls and takes a –10-foot status penalty to its Speeds. Some soldier abilities and class feats interact further with the suppressed condition.</p>",
           "description": "<p>你懂得如何使用强大的武器来阻碍敌人，并遏阻他们以全盛姿态行动。当你进行一次具有区域特征的攻击（例如来自@UUID[Compendium.sf2e-anachronism.actions.Item.oc0ZKnk5zD0GXqZi]或@UUID[Compendium.sf2e-anachronism.actions.Item.6ctkxUnVwqooSvgg]动作），你将以压制目标的方式来运用它。受影响区域内的生物如果没有成功通对你攻击的豁免，便会陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]状态，直到你的下个回合开始。被压制的目标在攻击骰上有-1环境减值，在速度上有-10尺状态减值。有些士兵能力和职业专长会和被压制状态产生进一步交互。</p>"
         },
         {
           "id": "o91I6kXk4J4xq2IB",
           "expectedName": "Primary Target",
-          "name": "主目标（专长）",
+          "name": "主目标",
           "expectedDescription": "<p>You can focus fire on a single target when unleashing the full devastation of your powerful area weaponry. Before you make an area attack with a weapon (such as from the Area Fire or Auto-Fire actions), you can make a ranged Strike as a free action with the same weapon against a single creature in the area, who's selected as your primary target. If your attack is a burst, you must select the creature closest to the center of the attack. If your attack is a cone or line, you must select the creature closest to you. If two or more creatures are equidistant, you can choose which one is your primary target. On a hit, if your primary target rolls a success against your Area Fire or Auto-Fire action, they get a failure instead. This Strike doesn't count toward your multiple attack penalty.</p>",
           "description": "<p>当你完全倾泻手中强大武装的毁灭性火力时，你可以对一个目标制造尤为强大的火力。当你进行一次具有区域效果的攻击前（例如区域射击或自动射击动作），你可以以自由动作以相同的武器对区域中单个生物进行一次远程打击，将其作为你的主目标。如果你的攻击是爆发，你必须选择最接近攻击中心的生物。如果你的攻击为锥形或线形，你必须选择最接近你的生物。如果两个或两个以上的生物距离相等或最近，你可以选择其中一个作为你的主目标。如果你使用此次打击成功命中你的主目标，且目标对你的区域射击或自动射击掷骰出成功结果，其改为获得失败结果。此次打击不计入你的多重攻击减值。</p>"
         },
@@ -5767,7 +6177,14 @@
           "expectedName": "Deadlift",
           "name": "硬举",
           "expectedDescription": "<p><strong>Requirements</strong> You aren't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}.</p><hr /><p>For 1 minute, you can carry 4 more Bulk than normal before becoming encumbered. The amount you can carry increases to 6 at expert, 8 at master, and 10 at legendary. When the benefits of this feat end, you become @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} for 10 minutes.</p>",
-          "description": "<p><strong>需求</strong>你没有@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]状态</p><hr /><p>在1分钟内，你可以携带比正常多4B的物品而不受超载影响。额外的负载在运动专家时提升至6，大师时提升至8，传奇时提升至10。当此专长带来的好处结束时，你陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]10分钟。</p>"
+          "description": "<p><strong>需求</strong>你没有@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]状态</p><hr /><p>在1分钟内，你可以携带比正常多4B的物品而不受超载影响。额外的负载在运动专家时提升至6，大师时提升至8，传奇时提升至10。当此专长带来的好处结束时，你陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]10分钟。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Athletics",
+              "text": "运动技能受训"
+            }
+          ]
         },
         {
           "id": "XSjDbGzliq0xfaat",
@@ -5788,7 +6205,14 @@
           "expectedName": "Powerful Leap",
           "name": "强力跳跃",
           "expectedDescription": "<p>You can jump 5 feet up with a vertical @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} without making a @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump}. You also increase the horizontal distance when you Leap, including as part of a High Jump or @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump}, by 5 feet.</p>",
-          "description": "<p>你进行垂直@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}时可以向上跳5尺，无需进行@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}。此外，你跳跃时的水平距离增加5尺，包括作为跳高或@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}的一部分进行跳跃时。</p>"
+          "description": "<p>你进行垂直@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}时可以向上跳5尺，无需进行@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}。此外，你跳跃时的水平距离增加5尺，包括作为跳高或@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}的一部分进行跳跃时。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "expert in Athletics",
+              "text": "运动技能专家"
+            }
+          ]
         },
         {
           "id": "dyUOG9qg8Lb8pwHf",
@@ -5853,7 +6277,14 @@
           "expectedName": "Impressive Performance",
           "name": "动人表演",
           "expectedDescription": "<p>Your performances inspire admiration and win you fans. You can @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} using Performance instead of Diplomacy. If you spend at least 10 minutes performing in front of an audience, you can Make an Impression targeting up to 10 members of the audience who were there for the whole performance, without taking the normal penalty. The number of targets increases to 20 for a 1-hour performance and 50 for a 2-hour performance.</p>",
-          "description": "<p>你的表演令人钦佩，为你赢得粉丝。你可以使用表演代替交涉来@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}。如果你在观众面前表演至少10分钟，就可以对完整观看了整场表演的至多10名观众建立印象，而不承受通常的减值。表演持续1小时时，目标数量增加至20名；持续2小时时，增加至50名。</p>"
+          "description": "<p>你的表演令人钦佩，为你赢得粉丝。你可以使用表演代替交涉来@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}。如果你在观众面前表演至少10分钟，就可以对完整观看了整场表演的至多10名观众建立印象，而不承受通常的减值。表演持续1小时时，目标数量增加至20名；持续2小时时，增加至50名。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Performance",
+              "text": "表演技能受训"
+            }
+          ]
         },
         {
           "id": "zybR8GAvn4yXRJXG",
@@ -5932,7 +6363,7 @@
         {
           "id": "Rba68cRYdUT38FbH",
           "expectedName": "Hardlight Series",
-          "name": "实光套装",
+          "name": "硬光套装",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>A projector fastened to a belt or lapel encases the wearer's body in this shimmering hardlight shell. Military-issue hardlight armor follows a predictable standard, but private users enjoy a range of customizable fashion options.</p>",
           "description": "<p><strong>强化：</strong> 1</p><hr /><p>固定在腰带或翻领上的投影器，用这层闪耀的硬光外壳包裹穿戴者的身体。军用制式硬光护甲遵循固定标准，而私人用户则能享用一系列可定制的时尚款式。</p>"
         },
@@ -5997,7 +6428,14 @@
           "expectedName": "Cat Fall",
           "name": "轻身落",
           "expectedDescription": "<p>Your catlike aerial acrobatics allow you to cushion your falls. Treat falls as 10 feet shorter. If you're an expert in Acrobatics, treat falls as 25 feet shorter and 50 feet if you're a master. If you're legendary in Acrobatics, you always land on your feet and don't take damage, regardless of the distance of the fall.</p>",
-          "description": "<p>模仿自猫的高空特技动作让你能够缓冲坠落的损伤。将坠落距离视为缩短10尺。若你在特技技能上的熟练度达到专家，将坠落距离视为缩短25尺，达到大师后，缩短50尺。若你在特技技能上的熟练度达到传奇，无论坠落距离多高，你始终能够以脚着地，不会受到任何伤害。</p>"
+          "description": "<p>模仿自猫的高空特技动作让你能够缓冲坠落的损伤。将坠落距离视为缩短10尺。若你在特技技能上的熟练度达到专家，将坠落距离视为缩短25尺，达到大师后，缩短50尺。若你在特技技能上的熟练度达到传奇，无论坠落距离多高，你始终能够以脚着地，不会受到任何伤害。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Acrobatics",
+              "text": "特技技能受训"
+            }
+          ]
         },
         {
           "id": "A5vOCLzG6XMHSIMH",
@@ -6008,7 +6446,7 @@
       "name": "戴伊（3级） Dae (Level 3)",
       "cnText_prototypeToken_name": {
         "expected": "Dae",
-        "text": "黛（Dae）"
+        "text": "戴伊（Dae）"
       }
     },
     "pSizsU9zrRBf7JdV": {
@@ -6039,7 +6477,14 @@
           "expectedName": "Intimidating Shot",
           "name": "威吓射击",
           "expectedDescription": "<p>You attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} a foe with your ranged weapon by firing it into the air, using ammo equal to the weapon's expend and the weapon's maximum range rather than the usual range of 30 feet. This check doesn't take a –4 circumstance penalty if the target doesn't share a language with you.</p>",
-          "description": "<p>你尝试通过向空中开枪来对一个在你远程武器射程内的敌人@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]，使用的弹药数量等于武器的耗弹量，使用武器的最大射程替代挫败士气通常的30尺范围。即便目标与你语言不通，此检定也不会受到-4环境减值。</p>"
+          "description": "<p>你尝试通过向空中开枪来对一个在你远程武器射程内的敌人@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]，使用的弹药数量等于武器的耗弹量，使用武器的最大射程替代挫败士气通常的30尺范围。即便目标与你语言不通，此检定也不会受到-4环境减值。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Intimidation",
+              "text": "威吓技能受训"
+            }
+          ]
         },
         {
           "id": "VanS7gFGiYDej5u3",
@@ -6258,7 +6703,14 @@
           "expectedName": "Battle Medicine",
           "name": "战地医疗",
           "expectedDescription": "<p><strong>Requirements</strong> You're holding or wearing a medkit.</p><hr /><p>You can patch up wounds, even in combat. Attempt a Medicine check with the same DC as for @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} and restore the corresponding amount of HP; this doesn't remove the wounded condition. As with Treat Wounds, you can attempt checks against higher DCs if you have the minimum proficiency rank. The target is then @UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{immune} to your Battle Medicine for 1 day. This does not make them immune to, or otherwise count as, Treat Wounds.</p>",
-          "description": "<p><strong>需求</strong> 你正持握或穿戴医疗包。</p><hr /><p>你即使在战斗中也能包扎伤口。尝试一次医疗检定，其DC与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}相同，并恢复相应数目的生命值；这不会移除受伤状态。如同治疗伤势，只要达到最低熟练度等级要求，你就可以尝试更高DC的检定。此后，目标对你的战地医疗@UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{免疫}1天。这不会使目标免疫治疗伤势，也不会以其他方式算作治疗伤势。</p>"
+          "description": "<p><strong>需求</strong> 你正持握或穿戴医疗包。</p><hr /><p>你即使在战斗中也能包扎伤口。尝试一次医疗检定，其DC与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}相同，并恢复相应数目的生命值；这不会移除受伤状态。如同治疗伤势，只要达到最低熟练度等级要求，你就可以尝试更高DC的检定。此后，目标对你的战地医疗@UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{免疫}1天。这不会使目标免疫治疗伤势，也不会以其他方式算作治疗伤势。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Medicine",
+              "text": "医疗技能受训"
+            }
+          ]
         },
         {
           "id": "durjmixmO1NW0ka9",
@@ -6272,7 +6724,14 @@
           "expectedName": "Lie to Me",
           "name": "将计就计",
           "expectedDescription": "<p>You can use Deception to weave traps to trip up anyone trying to deceive you. If you can engage in conversation with someone trying to @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie} to you, use your Deception DC if it is higher than your Perception DC to determine whether they succeed. This doesn't apply if you don't have a back-and-forth dialogue, such as when someone attempts to Lie during a long speech.</p>",
-          "description": "<p>你可以用欺骗技能设下圈套，让试图欺骗你的人露出破绽。若你能和某个尝试对你@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}的人交流，在判断对方是否说谎成功时，使用你的欺骗DC和察觉DC中较高者。若你没有与对方互动对话，比如某人在长篇演讲期间尝试说谎，本专长便无法生效。</p>"
+          "description": "<p>你可以用欺骗技能设下圈套，让试图欺骗你的人露出破绽。若你能和某个尝试对你@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}的人交流，在判断对方是否说谎成功时，使用你的欺骗DC和察觉DC中较高者。若你没有与对方互动对话，比如某人在长篇演讲期间尝试说谎，本专长便无法生效。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Deception",
+              "text": "欺骗技能受训"
+            }
+          ]
         },
         {
           "id": "FeokpJZOug5ifRoU",
@@ -6349,7 +6808,7 @@
           "expectedName": "Holoskin (Commercial)",
           "name": "商用型全息皮肤",
           "expectedDescription": "<p>A holographic projector mounted to a belt or limb strap can be activated as an Interact action. It can be programmed to project the appearance of another creature of the same size category as yourself, hiding your true appearance. A holoskin doesn't change your voice, scent, or mannerisms. The appearance of held and worn items aren't affected. You usually need a holoskin to set up a disguise in order to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} someone using the Deception skill.</p>",
-          "description": "<p>安装在腰带或肢体绑带上的全息投影器可以用一个交互动作启动。你可将其设定为投射出与你体型类别相同的另一生物的外观，以隐藏自己的真实外貌。全息皮肤不会改变你的声音、气味或举止。持握和穿戴物品的外观也不受影响。通常你需要用全息皮肤准备伪装，才能 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{假扮} 他人（使用欺骗技能）。</p>"
+          "description": "<p>安装在腰带或肢体绑带上的全息投影器可以用一个交互动作启动。你可将其设定为投射出与你体型类别相同的另一生物的外观，以隐藏自己的真实外貌。全息皮肤不会改变你的声音、气味或举止。持握和穿戴物品的外观也不受影响。通常你需要用全息皮肤准备伪装，才能 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装} 他人（使用欺骗技能）。</p>"
         },
         {
           "id": "KWBh3xXAi0JVDWkf",
@@ -6384,34 +6843,62 @@
           "expectedName": "Hang in There",
           "name": "坚持住！",
           "expectedDescription": "<p>You encourage yourself or an ally, psyching them up for a coming challenge and granting them temporary Hit Points. Choose yourself or an ally within 30 feet, then attempt a @Check[diplomacy|dc:20|showDC:all] check. If you have master proficiency in Diplomacy, you can instead attempt a @Check[diplomacy|dc:30|showDC:all] check to increase the temporary Hit Points gained on a successful check by 5. If you have legendary proficiency, you can instead attempt a @Check[diplomacy|dc:40|showDC:all] check to increase the temporary Hit Points gained on a successful check by 10. These temporary Hit Points last for 1 minute. The target is then temporarily immune to your Hang in There for 1 day.</p><hr /><p><strong>Critical Success</strong> The target gains temporary Hit Points equal to double their level plus your Charisma modifier.</p>\n<p><strong>Success</strong> The target gains temporary Hit Points equal to their level plus your Charisma modifier.</p>\n<p><strong>Failure</strong> The target is unaffected, and you can't use Hang in There again for 1 minute.</p>\n<p><strong>Critical Failure</strong> The target is unaffected, and you can't use Hang in There again for 1 hour.</p>",
-          "description": "<p>你鼓励自己或盟友，为接下来的挑战振奋精神，并赋予临时生命值。选择自己或30尺内一位盟友，然后尝试一次@Check[diplomacy|dc:20|showDC:all]检定。如果你在交涉上达到大师，可以改为尝试一次@Check[diplomacy|dc:30|showDC:all]检定，使检定成功时获得的临时生命值增加5。若达到传奇，可以改为尝试一次@Check[diplomacy|dc:40|showDC:all]检定，使检定成功时获得的临时生命值增加10。这些临时生命值持续1分钟。目标随后暂时对你的“坚持住！”免疫1天。</p><hr /><p><strong>大成功</strong>目标获得等于其等级两倍加你魅力调整值的临时生命值。</p>\n<p><strong>成功</strong>目标获得等于其等级加你魅力调整值的临时生命值。</p>\n<p><strong>失败</strong>目标不受影响，且你在1分钟内不能再次使用“坚持住！”。</p>\n<p><strong>大失败</strong>目标不受影响，且你在1小时内不能再次使用“坚持住！”。</p>"
+          "description": "<p>你鼓励自己或盟友，为接下来的挑战振奋精神，并赋予临时生命值。选择自己或30尺内一位盟友，然后尝试一次@Check[diplomacy|dc:20|showDC:all]检定。如果你在交涉上达到大师，可以改为尝试一次@Check[diplomacy|dc:30|showDC:all]检定，使检定成功时获得的临时生命值增加5。若达到传奇，可以改为尝试一次@Check[diplomacy|dc:40|showDC:all]检定，使检定成功时获得的临时生命值增加10。这些临时生命值持续1分钟。目标随后暂时对你的“坚持住！”免疫1天。</p><hr /><p><strong>大成功</strong>目标获得等于其等级两倍加你魅力调整值的临时生命值。</p>\n<p><strong>成功</strong>目标获得等于其等级加你魅力调整值的临时生命值。</p>\n<p><strong>失败</strong>目标不受影响，且你在1分钟内不能再次使用“坚持住！”。</p>\n<p><strong>大失败</strong>目标不受影响，且你在1小时内不能再次使用“坚持住！”。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "expert in Diplomacy",
+              "text": "交涉技能专家"
+            }
+          ]
         },
         {
           "id": "LpHiRHrnpkZJvSNf",
           "expectedName": "Kiss it Better",
           "name": "痛痛飞飞",
           "expectedDescription": "<p><strong>Requirements</strong> You have a hand free and are adjacent to an ally who isn't at full Hit Points.</p><hr /><p>You perform a token medical effort to convince an ally they've recovered from an injury. Attempt a Deception check with the same DC as for @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds}. On a success, the target gains temporary Hit Points equal to half the corresponding amount of Hit Points from Treat Wounds. These temporary Hit Points last 1 round. Kiss It Better doesn't remove the wounded condition. The target is temporarily immune to Kiss It Better for 24 hours.</p>",
-          "description": "<p><strong>需求</strong>你有一只空手，并且与一个生命值不满的盟友相邻。</p><hr /><p>你进行一次象征性的医疗努力，说服一个盟友他们已经从伤害中恢复。尝试一次欺骗检定，对抗@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]的相同DC。成功的话，目标获得治疗伤势相应数量的一半作为临时生命值。这些临时生命值持续1轮。痛痛飞飞不会移除受伤状态。目标在24小时内临时免疫痛痛飞飞。</p>"
+          "description": "<p><strong>需求</strong>你有一只空手，并且与一个生命值不满的盟友相邻。</p><hr /><p>你进行一次象征性的医疗努力，说服一个盟友他们已经从伤害中恢复。尝试一次欺骗检定，对抗@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]的相同DC。成功的话，目标获得治疗伤势相应数量的一半作为临时生命值。这些临时生命值持续1轮。痛痛飞飞不会移除受伤状态。目标在24小时内临时免疫痛痛飞飞。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "expert in Deception",
+              "text": "欺骗技能专家"
+            }
+          ]
         },
         {
           "id": "h3bnQ05YeLH3O89m",
           "expectedName": "Take the Wheel",
           "name": "夺取载具",
           "expectedDescription": "<p>You Board and Take Control of an adjacent vehicle.</p>",
-          "description": "<p>你可以登上（Board）相邻载具并尝试接管操控（Take Control）。</p>"
+          "description": "<p>你可以登上（Board）相邻载具并尝试接管操控（Take Control）。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "expert in Piloting",
+              "text": "驾驶技能专家"
+            }
+          ]
         },
         {
           "id": "U1Ez3WyVjfR3CHLd",
           "expectedName": "Power Slide",
           "name": "漂移转向",
           "expectedDescription": "<p>You throw the vehicle into a barely controlled skid, turning sharply to evade pursuit. You Drive with a –2 penalty to your Piloting check, gaining the effects of the Drive action for the same number of actions you spent to Power Slide. At the end of the movement, if you succeed, you can turn the vehicle up to 90 degrees. If you critically succeed at your Piloting check, you can instead turn the vehicle up to 180 degrees.</p>",
-          "description": "<p>你让载具进入勉强可控的侧滑，急转弯以摆脱追逐。你进行驾驶动作，驾驶检定承受–2减值，获得与你此次漂移转向所花动作数相同的驾驶动作效果。移动结束时，如果你成功，可以使载具转向至多90度；驾驶检定大成功时，则可以改为转向至多180度。</p>"
+          "description": "<p>你让载具进入勉强可控的侧滑，急转弯以摆脱追逐。你进行驾驶动作，驾驶检定承受–2减值，获得与你此次漂移转向所花动作数相同的驾驶动作效果。移动结束时，如果你成功，可以使载具转向至多90度；驾驶检定大成功时，则可以改为转向至多180度。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "expert in Piloting",
+              "text": "驾驶技能专家"
+            }
+          ]
         }
       ],
       "name": "纳瓦西（7级） Navasi (Level 7)",
       "cnText_prototypeToken_name": {
         "expected": "Navasi",
-        "text": "娜瓦希（Navasi）"
+        "text": "纳瓦西（Navasi）"
       }
     },
     "uELyvhal1XTPo5tY": {
@@ -6435,7 +6922,14 @@
           "expectedName": "Feather Step",
           "name": "轻羽步",
           "expectedDescription": "<p>You step carefully and quickly. You can Step into difficult terrain.</p>",
-          "description": "<p>你的步伐谨慎而迅捷。你可以用快步进入困难地形。</p>"
+          "description": "<p>你的步伐谨慎而迅捷。你可以用快步进入困难地形。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "Dexterity +2",
+              "text": "敏捷+2"
+            }
+          ]
         },
         {
           "id": "h4m1t2tWqWzgCt2n",
@@ -6449,7 +6943,14 @@
           "expectedName": "Charming Liar",
           "name": "蛊惑人心",
           "expectedDescription": "<p>Your charm allows you to win over those you lie to. When you get a critical success using the @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie} action, the target's attitude toward you improves by one step, as though you'd succeeded at using Diplomacy to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression}. This works only once per conversation, and if you critically succeed against multiple targets using the same result, you choose one creature's attitude to improve. You must be lying to impart seemingly important information, inflate your status, or ingratiate yourself, which trivial or irrelevant lies can't achieve.</p>",
-          "description": "<p>凭借魅力，你能够将欺骗对象笼络为你的支持者。当你用@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}动作取得大成功时，目标对你的态度改善一级，如同你用交涉技能@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{改善印象}成功。每次交流，这个效果只会生效一次，如果你用相同结果对多个目标取得大成功，则选择一个生物的态度得到改善。你的谎言必须要透露看似重要的信息、鼓吹自己的地位、或巴结奉承对方，无关紧要的谎言无法起到作用。</p>"
+          "description": "<p>凭借魅力，你能够将欺骗对象笼络为你的支持者。当你用@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}动作取得大成功时，目标对你的态度改善一级，如同你用交涉技能@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}成功。每次交流，这个效果只会生效一次，如果你用相同结果对多个目标取得大成功，则选择一个生物的态度得到改善。你的谎言必须要透露看似重要的信息、鼓吹自己的地位、或巴结奉承对方，无关紧要的谎言无法起到作用。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Deception",
+              "text": "欺骗技能受训"
+            }
+          ]
         },
         {
           "id": "7lY3XIqPcFQf9ShY",
@@ -6694,14 +7195,28 @@
           "expectedName": "Warp Wounds",
           "name": "曲织伤势",
           "expectedDescription": "<p><strong>Trigger</strong> An enemy damages you.</p>\n<p><strong>Requirements</strong> An enemy or willing ally is in your quantum field.</p><hr /><p>Your reality shifts to partly overlap with another in which someone else was injured in your stead. You gain resistance to all damage against the triggering attack equal to half your level, and one enemy or willing ally in your quantum field takes damage of the same type equal to the amount of damage prevented this way, with a @Check[fortitude|against:witchwarper|basic] save against your class DC.</p>",
-          "description": "<p><strong>触发</strong>一名敌人对你造成伤害。</p>\n<p><strong>需求</strong>一名敌人或自愿盟友处在你的量子场域内</p><hr /><p>你的现实与另一人部分重叠，让其代替你承受伤害。你获得对触发效果的所有伤害抗力，数值等于你等级的一半，而一名处在量子场域内的敌人或自愿盟友受到等同于你从中减免数值的同类型伤害，并进行一次基于你的职业DC的基础@Check[fortitude|against:witchwarper|basic]。</p>"
+          "description": "<p><strong>触发</strong>一名敌人对你造成伤害。</p>\n<p><strong>需求</strong>一名敌人或自愿盟友处在你的量子场域内</p><hr /><p>你的现实与另一人部分重叠，让其代替你承受伤害。你获得对触发效果的所有伤害抗力，数值等于你等级的一半，而一名处在量子场域内的敌人或自愿盟友受到等同于你从中减免数值的同类型伤害，并进行一次基于你的职业DC的基础@Check[fortitude|against:witchwarper|basic]。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "anomaly paradox",
+              "text": "异值覆写"
+            }
+          ]
         },
         {
           "id": "ihYNA4v1hJsyabLq",
           "expectedName": "Assurance (Arcana)",
           "name": "保底（奥法）",
           "expectedDescription": "<p>Even in the worst circumstances, you can perform basic tasks. Choose a skill you're trained in. You can forgo rolling a skill check for that skill to instead receive a result of 10 + your proficiency bonus (do not apply any other bonuses, penalties, or modifiers).</p>\n<hr />\n<p><strong>Special</strong> You can select this feat multiple times. Each time, choose a different skill and gain the benefits for that skill.</p>",
-          "description": "<p>即使在最恶劣的条件下，你也能完成基本的任务。选择一项你受训的技能，你可以放弃为该技能的技能检定掷骰，改为获得等于10+你的熟练度加值的结果（不应用任何其它加值、减值或调整值）。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选取本专长。每次选择不同的技能获得专长效果。</p>"
+          "description": "<p>即使在最恶劣的条件下，你也能完成基本的任务。选择一项你受训的技能，你可以放弃为该技能的技能检定掷骰，改为获得等于10+你的熟练度加值的结果（不应用任何其它加值、减值或调整值）。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选取本专长。每次选择不同的技能获得专长效果。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in at least one skill",
+              "text": "至少一项技能受训"
+            }
+          ]
         },
         {
           "id": "KubfujZmjLJdmudN",
@@ -6715,7 +7230,7 @@
           "expectedName": "Tempweave",
           "name": "保温织服",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Tempweave suits are reinforced hooded garments woven with thermal fabric and venting wires, popularly worn for trips to humid climates like the jungles of Castrovel or Pulonis.</p>",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普罗尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普洛尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>",
           "extraFields": [
             {
               "path": "system.subitems.0.name",
@@ -6816,7 +7331,14 @@
           "expectedName": "Impressive Performance",
           "name": "动人表演",
           "expectedDescription": "<p>Your performances inspire admiration and win you fans. You can @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} using Performance instead of Diplomacy. If you spend at least 10 minutes performing in front of an audience, you can Make an Impression targeting up to 10 members of the audience who were there for the whole performance, without taking the normal penalty. The number of targets increases to 20 for a 1-hour performance and 50 for a 2-hour performance.</p>",
-          "description": "<p>你的表演令人钦佩，为你赢得粉丝。你可以使用表演代替交涉来@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}。如果你在观众面前表演至少10分钟，就可以对完整观看了整场表演的至多10名观众建立印象，而不承受通常的减值。表演持续1小时时，目标数量增加至20名；持续2小时时，增加至50名。</p>"
+          "description": "<p>你的表演令人钦佩，为你赢得粉丝。你可以使用表演代替交涉来@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}。如果你在观众面前表演至少10分钟，就可以对完整观看了整场表演的至多10名观众建立印象，而不承受通常的减值。表演持续1小时时，目标数量增加至20名；持续2小时时，增加至50名。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Performance",
+              "text": "表演技能受训"
+            }
+          ]
         },
         {
           "id": "zybR8GAvn4yXRJXG",
@@ -6895,7 +7417,7 @@
         {
           "id": "Rba68cRYdUT38FbH",
           "expectedName": "Hardlight Series",
-          "name": "实光套装",
+          "name": "硬光套装",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>A projector fastened to a belt or lapel encases the wearer's body in this shimmering hardlight shell. Military-issue hardlight armor follows a predictable standard, but private users enjoy a range of customizable fashion options.</p>",
           "description": "<p><strong>强化：</strong> 1</p><hr /><p>固定在腰带或翻领上的投影器，用这层闪耀的硬光外壳包裹穿戴者的身体。军用制式硬光护甲遵循固定标准，而私人用户则能享用一系列可定制的时尚款式。</p>"
         },
@@ -6960,14 +7482,21 @@
           "expectedName": "Cat Fall",
           "name": "轻身落",
           "expectedDescription": "<p>Your catlike aerial acrobatics allow you to cushion your falls. Treat falls as 10 feet shorter. If you're an expert in Acrobatics, treat falls as 25 feet shorter and 50 feet if you're a master. If you're legendary in Acrobatics, you always land on your feet and don't take damage, regardless of the distance of the fall.</p>",
-          "description": "<p>模仿自猫的高空特技动作让你能够缓冲坠落的损伤。将坠落距离视为缩短10尺。若你在特技技能上的熟练度达到专家，将坠落距离视为缩短25尺，达到大师后，缩短50尺。若你在特技技能上的熟练度达到传奇，无论坠落距离多高，你始终能够以脚着地，不会受到任何伤害。</p>"
+          "description": "<p>模仿自猫的高空特技动作让你能够缓冲坠落的损伤。将坠落距离视为缩短10尺。若你在特技技能上的熟练度达到专家，将坠落距离视为缩短25尺，达到大师后，缩短50尺。若你在特技技能上的熟练度达到传奇，无论坠落距离多高，你始终能够以脚着地，不会受到任何伤害。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Acrobatics",
+              "text": "特技技能受训"
+            }
+          ]
         },
         {
           "id": "FNJ1Zl6KZqRYVZqn",
           "expectedName": "Magboots",
           "name": "磁力靴",
           "expectedDescription": "<p>Magboots can be activated or deactivated with an Interact action. While active, they grant you a +1 item bonus to Athletics checks to Climb metal surfaces as well as a +1 item bonus to your Fortitude or Reflex DC against attempts to @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{Reposition}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove}, or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} you when you're standing on a metal surface. In areas of zero gravity, while wearing a pair of magboots, you can move your Speed across metal surfaces and don't gain the untethered condition.</p>",
-          "description": "<p>磁力靴可以用一个交互动作启动或关闭。激活时，它们使你在用于攀爬金属表面的运动检定上获得+1物品加值；站在金属表面上时，你对抗以下检定的强韧DC或反射DC还会获得+1物品加值： @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{冲撞}，或 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{绊摔} 你（当你站在金属表面上时）。在零重力区域内，穿戴一双磁力靴时，你可以沿金属表面移动至多你的速度，且不会获得失重状态。</p>"
+          "description": "<p>磁力靴可以用一个交互动作启动或关闭。激活时，它们使你在用于攀爬金属表面的运动检定上获得+1物品加值；站在金属表面上时，你对抗以下检定的强韧DC或反射DC还会获得+1物品加值： @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}，或 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊} 你（当你站在金属表面上时）。在零重力区域内，穿戴一双磁力靴时，你可以沿金属表面移动至多你的速度，且不会获得失重状态。</p>"
         },
         {
           "id": "FTx6ztdoAdrwoMNt",
@@ -7023,7 +7552,14 @@
           "expectedName": "Combat Climber",
           "name": "战斗攀爬",
           "expectedDescription": "<p>Your techniques allow you to fight as you climb. You're not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while Climbing and can Climb with a hand occupied. You must still use another hand and both legs to Climb.</p>",
-          "description": "<p>你拥有一边攀爬一边战斗的技术。你在攀爬期间不会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，并且能够在一只手被占用的情况下攀爬。你在攀爬时仍然必须用上另一只手和双腿。</p>"
+          "description": "<p>你拥有一边攀爬一边战斗的技术。你在攀爬期间不会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，并且能够在一只手被占用的情况下攀爬。你在攀爬时仍然必须用上另一只手和双腿。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Athletics",
+              "text": "运动技能受训"
+            }
+          ]
         },
         {
           "id": "CqtSI4XMqA6ejfTn",
@@ -7070,20 +7606,34 @@
           "expectedName": "Quick Jump",
           "name": "迅速跳跃",
           "expectedDescription": "<p>You can use @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump} and @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump} as a single action instead of 2 actions. If you do, you don't perform the initial Stride (nor do you fail if you don't Stride 10 feet).</p>",
-          "description": "<p>你能够以单动作而非2个动作@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}和@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}。若如此做，你无需先行走，也不会因未行走10尺而失败。</p>"
+          "description": "<p>你能够以单动作而非2个动作@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}和@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}。若如此做，你无需先行走，也不会因未行走10尺而失败。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Athletics",
+              "text": "运动技能受训"
+            }
+          ]
         },
         {
           "id": "6A6e0c9NkqZRbAat",
           "expectedName": "Kip Up",
           "name": "鲤鱼打挺",
           "expectedDescription": "<p>You stand up. This movement doesn't trigger reactions.</p>",
-          "description": "<p>你起身。这个移动不会触发反应。</p>"
+          "description": "<p>你起身。这个移动不会触发反应。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "master in Acrobatics",
+              "text": "特技技能大师"
+            }
+          ]
         }
       ],
       "name": "戴伊（7级） Dae (Level 7)",
       "cnText_prototypeToken_name": {
         "expected": "Dae",
-        "text": "黛（Dae）"
+        "text": "戴伊（Dae）"
       }
     },
     "zDDNsj50Vrq7o9Cm": {
@@ -7121,7 +7671,14 @@
           "expectedName": "Phreaker",
           "name": "电话黑客",
           "expectedDescription": "<p>You've learned how to hack using alternative methods. You can use Computers to Disable a Device or Hack a system using any computer, comm unit, or terminal instead of a hacking toolkit. If you're an expert in Computers and the equipment you use is at least 3rd level, you gain a +1 item bonus to Disable a Device or Hack.</p><hr /><p><strong>Special</strong> If you have the @UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4] or @UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf] skill feat, you can use this feat to Combat Hack or @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion} without a hacking toolkit.</p>",
-          "description": "<p>你学会了以其他方法骇入。你可以用任意计算机、通讯器或终端，使用计算机技能解除装置或骇入系统，无需骇客工具包。如果你在计算机达到专家，且所用设备至少为3级，则你解除装置或骇入的检定获得+1物品加值。</p><hr /><p><strong>特殊</strong>如果你具有@UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4]或@UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf]技能专长，就可以使用此专长，在没有骇客工具包的情况下进行战斗骇入或@UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}。</p>"
+          "description": "<p>你学会了以其他方法骇入。你可以用任意计算机、通讯器或终端，使用计算机技能解除装置或骇入系统，无需骇客工具包。如果你在计算机达到专家，且所用设备至少为3级，则你解除装置或骇入的检定获得+1物品加值。</p><hr /><p><strong>特殊</strong>如果你具有@UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4]或@UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf]技能专长，就可以使用此专长，在没有骇客工具包的情况下进行战斗骇入或@UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Computers",
+              "text": "计算机技能受训"
+            }
+          ]
         },
         {
           "id": "iTqZ6BzsYPKxyusA",
@@ -7133,7 +7690,7 @@
         {
           "id": "h4Noe6UqcIFdivh6",
           "expectedName": "Sharpshooter",
-          "name": "神枪手",
+          "name": "神射手",
           "expectedDescription": "<p>You can spot a target's weak points, letting you deal additional precision damage with most types of ranged weapons. You gain the @UUID[Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC] action.</p>",
           "description": "<p>你能看穿目标的弱点，令你可以用大多数类型的远程武器造成额外精准伤害。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC]动作。</p>"
         },
@@ -7163,7 +7720,14 @@
           "expectedName": "Steady Balance",
           "name": "四平八稳",
           "expectedDescription": "<p>You can keep your balance easily, even in adverse conditions. Whenever you roll a success using the @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} action, you get a critical success instead. You're not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while attempting to Balance on narrow surfaces and uneven ground.</p>",
-          "description": "<p>即使在恶劣的条件下，你也能轻易保持平衡。每当你检定成功地使用@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}动作时，改为大成功。你在狭窄平面和不稳地面尝试保持平衡时不会陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>"
+          "description": "<p>即使在恶劣的条件下，你也能轻易保持平衡。每当你检定成功地使用@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}动作时，改为大成功。你在狭窄平面和不稳地面尝试保持平衡时不会陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Acrobatics",
+              "text": "特技技能受训"
+            }
+          ]
         },
         {
           "id": "Wr6Q76fOLyaljklt",
@@ -7269,7 +7833,7 @@
       "name": "伊瑟夫（1级） Iseph (Level 1)",
       "cnText_prototypeToken_name": {
         "expected": "Iseph",
-        "text": "伊瑟芙（Iseph）"
+        "text": "伊瑟夫（Iseph）"
       }
     }
   }

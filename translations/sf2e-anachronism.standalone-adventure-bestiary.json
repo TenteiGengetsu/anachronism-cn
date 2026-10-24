@@ -55,6 +55,10 @@
     "cnText_prototypeToken_name": {
       "path": "prototypeToken.name",
       "converter": "sf2eAnachronismCnText"
+    },
+    "cnText_system_attributes_stealth_details": {
+      "path": "system.attributes.stealth.details",
+      "converter": "sf2eAnachronismCnText"
     }
   },
   "entries": {
@@ -234,7 +238,7 @@
           "id": "dKnBB4QUibwrAHqr",
           "expectedName": "Seeker Rifle",
           "name": "追猎者步枪",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种单发狙击步枪稳定、可靠、维护要求极低，因此是广袤星域（Vast）最受欢迎的武器之一。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种单发狙击步枪稳定、可靠、维护要求极低，因此是浩界（Vast）最受欢迎的武器之一。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This single-shot sniper rifle is one of the most popular weapons in the Vast thanks to its stability and reliability with minimal upkeep.</p>"
         },
         {
@@ -375,6 +379,14 @@
       "cnText_prototypeToken_name": {
         "expected": "Shadowy Duplicates",
         "text": "阴影复制体"
+      },
+      "cnText_system_attributes_hp_details": {
+        "expected": "(6 HP each)",
+        "text": "（每个6点生命值）"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "JDhx6HgslZXqaK9Q": {
@@ -940,6 +952,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Spiritual Sinkwell",
         "text": "精魂沉井"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "etsfYvKACdEaTiNw": {
@@ -1083,6 +1099,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Hazard",
         "text": "危害"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(Trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "wkdA38GonUSrOwTr": {
@@ -1161,9 +1181,9 @@
         {
           "id": "LcH2V7cbqVkLj3gG",
           "expectedName": "Vitality Network",
-          "name": "活力网络",
+          "name": "命能网络",
           "expectedDescription": "<p>The sworn blade of sigils has a vitality network they share with up to 10 bonded allies. This network can store a maximum of 10 Hit Points and begins combat full.</p>",
-          "description": "<p>符之誓刃能与至多10个建立纽带的盟友共享活力网络。此网络能最多储存10带你生命值并在战斗开始时恢复满。</p>"
+          "description": "<p>符之誓刃能与至多10个建立纽带的盟友共享命能网络。此网络能最多储存10点生命值并在战斗开始时为满。</p>"
         },
         {
           "id": "2y75IN7VCZsvNlCL",
@@ -1175,9 +1195,9 @@
         {
           "id": "xRsBQHpTWiL3KMQT",
           "expectedName": "Transfer Vitality",
-          "name": "转移活力",
+          "name": "转移命能",
           "expectedDescription": "<p>The sworn blade of sigils transfers any number of Hit Points from their vitality network to heal a visible bonded target.</p>",
-          "description": "<p>符之誓刃转移活力网络中任意数量的生命值用于治疗一个可见的建立了纽带的目标。</p>"
+          "description": "<p>符之誓刃转移命能网络中任意数量的生命值用于治疗一个可见的建立了纽带的目标。</p>"
         },
         {
           "id": "3UHx2iRmAkE0KNXZ",
@@ -1343,14 +1363,14 @@
           "id": "J7AxIjdfQHCKzqSv",
           "expectedName": "Seeker Rifle",
           "name": "追猎者步枪",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种单发狙击步枪稳定、可靠、维护要求极低，因此是广袤星域（Vast）最受欢迎的武器之一。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种单发狙击步枪稳定、可靠、维护要求极低，因此是浩界（Vast）最受欢迎的武器之一。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This single-shot sniper rifle is one of the most popular weapons in the Vast thanks to its stability and reliability with minimal upkeep.</p>"
         },
         {
           "id": "5Ef5GCCwP7Y318iq",
           "expectedName": "Tempweave",
           "name": "保温织服",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普罗尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普洛尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Tempweave suits are reinforced hooded garments woven with thermal fabric and venting wires, popularly worn for trips to humid climates like the jungles of Castrovel or Pulonis.</p>",
           "extraFields": [
             {
@@ -1389,7 +1409,7 @@
             {
               "path": "system.subitems.1.system.description.value",
               "expected": "<p>Boosters attached to your armor allow you to fly.</p>\n<p><strong>Activate—Fly</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> You activate a jetpack to gain a fly Speed of 20 feet. This effect lasts for 1 minute or until you Dismiss it. You can use an action to Fly 0 feet to hover in place, but you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while doing so. A jetpack can't lift you if you're encumbered.</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
-              "text": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷气背包，获得20尺飞行速度。此效应持续1分钟，或直到你将其解除。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷气背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
+              "text": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷射背包，获得20尺飞行速度。此效应持续1分钟，或直到你将其解消。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷射背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
               "guards": [
                 {
                   "path": "system.subitems.1._id",
@@ -1491,7 +1511,7 @@
             {
               "path": "system.spell.system.description.value",
               "expected": "<p>Illusions bend light around the target, rendering it @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. This makes it @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} to all creatures, though the creatures can attempt to find the target, making it @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>",
-              "text": "<p>幻术使光线绕过目标，令其处于@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}状态。因此，目标对所有生物处于@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{未被察觉}状态，但生物可以尝试寻找目标，使其对自己改为@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{躲藏}状态。如果目标使用敌对动作，法术会在该敌对动作完成后结束。</p>\n<hr />\n<p><strong>升阶（4环）</strong>法术持续1分钟，但目标使用敌对动作时不会结束。</p>",
+              "text": "<p>幻术使光线绕过目标，令其处于@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}状态。因此，目标对所有生物处于@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{无踪}状态，但生物可以尝试寻找目标，使其对自己改为@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}状态。如果目标使用敌对动作，法术会在该敌对动作完成后结束。</p>\n<hr />\n<p><strong>升阶（4环）</strong>法术持续1分钟，但目标使用敌对动作时不会结束。</p>",
               "guards": [
                 {
                   "path": "system.spell._id",
@@ -1669,6 +1689,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Anacite Protector",
         "text": "新械族防卫机"
+      },
+      "cnText_system_attributes_ac_details": {
+        "expected": "(19 with shield raised)",
+        "text": "（举盾时为19）"
       }
     },
     "2o6qunyUOOfnn6N6": {
@@ -1720,6 +1744,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Dewblossom",
         "text": "露花"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "9oW8fdnZaUoKSuKI": {
@@ -1759,6 +1787,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Archivist's Wrath",
         "text": "档案管理员之怒"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "BGK7TZQdObhlG9sd": {
@@ -1910,6 +1942,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Particle Cannon",
         "text": "粒子炮"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     }
   }

@@ -85,7 +85,7 @@ function guardsMatch(source, guards) {
 
 function isDisplayTextPath(path, item = false) {
     if (!safeParts(path)) return false;
-    if (item) return /^system\.(?:requirements|area\.details|selfEffect\.name|overlays\.[A-Za-z0-9_-]+\.name|subitems\.\d+\.(?:name|system\.description\.value)|spell\.(?:name|system\.description\.value)|rules\.\d+\.(?:label|suboptions\.\d+\.label))$/.test(path);
+    if (item) return /^system\.(?:requirements|prerequisites\.value\.\d+\.value|area\.details|selfEffect\.name|overlays\.[A-Za-z0-9_-]+\.name|subitems\.\d+\.(?:name|system\.description\.value)|spell\.(?:name|system\.description\.value)|rules\.\d+\.(?:label|suboptions\.\d+\.label))$/.test(path);
     return path === "prototypeToken.name" || /^system\.(?:details\.(?:description|disable|routine|reset|crew|pilotingCheck|speed|passengers|blurb|languages\.details|gender\.value)|attributes\.(?:stealth\.details|hp\.details|ac\.details|speed\.details|allSaves\.value)|perception\.details|skills\.[a-z]+\.(?:note|special\.\d+\.label))$/.test(path);
 }
 

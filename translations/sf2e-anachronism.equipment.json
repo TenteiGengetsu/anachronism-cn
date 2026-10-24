@@ -10,6 +10,10 @@
     "cnHolyModuleCorrection": {
       "path": "system",
       "converter": "sf2eAnachronismCnHolyCommercial"
+    },
+    "subitems": {
+      "path": "system.subitems",
+      "converter": "sf2eAnachronismCnItems"
     }
   },
   "folders": {
@@ -188,7 +192,7 @@
     },
     "2gIo208O7zxPTL5J": {
       "name": "追猎者步枪 Seeker Rifle",
-      "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种单发狙击步枪稳定、可靠、维护要求极低，因此是广袤星域（Vast）最受欢迎的武器之一。</p>"
+      "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种单发狙击步枪稳定、可靠、维护要求极低，因此是浩界（Vast）最受欢迎的武器之一。</p>"
     },
     "2lTv6zUJBAtgcxs2": {
       "name": "隐形术法术安瓿 Invisibility Spell Amp",
@@ -276,7 +280,7 @@
     },
     "4sj4PcFSP7dAqaIp": {
       "name": "商用型匿踪设备 Cloaking Device (Commercial)",
-      "description": "<p>该投影器曲折你周身的光线。</p>\n<p><strong>启动—曲折光线</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你陷入 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形} ，持续1分钟，获得2环 @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{隐形术} 法术。</p>"
+      "description": "<p>该投影器曲折你周身的光线。</p>\n<p><strong>启动—曲折光线</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你陷入 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形} ，持续1分钟，获得2环 @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{隐形术} 法术的效果。</p>"
     },
     "4uupAXpTwpQp3nsr": {
       "name": "先进型尸皮 Corpseskin (Advanced)",
@@ -292,7 +296,23 @@
     },
     "552lkTjeXA7UZc6V": {
       "name": "隐秘套装 Clandestine Suit",
-      "description": "<p><strong>强化：</strong> 0</p><hr /><p>这套全黑紧身衣的肩部垂下两根燕尾服衣摆般的缆线。启动衣服的匿踪设备时，缆线会活动起来，其末端投射出重力场，使光线在穿戴者周围弯折。隐秘作战服始终配有 @UUID[Compendium.sf2e-anachronism.equipment.Item.PwEKIutKVOwGmk4o]{战术型主动迷彩} 以及一次 @UUID[Compendium.sf2e-anachronism.equipment.Item.efmRJxyFS6KUTeMr]{战术型匿踪设备} ，无需额外费用，且不占用强化槽。</p>"
+      "description": "<p><strong>强化：</strong> 0</p><hr /><p>这套全黑紧身衣的肩部垂下两根燕尾服衣摆般的缆线。启动衣服的匿踪设备时，缆线会活动起来，其末端投射出重力场，使光线在穿戴者周围弯折。隐秘作战服始终配有 @UUID[Compendium.sf2e-anachronism.equipment.Item.PwEKIutKVOwGmk4o]{战术型主动迷彩} 以及一次 @UUID[Compendium.sf2e-anachronism.equipment.Item.efmRJxyFS6KUTeMr]{战术型匿踪设备} ，无需额外费用，且不占用强化槽。</p>",
+      "subitems": [
+        {
+          "id": "804jLmfJhKjM57JU",
+          "expectedName": "Active Camouflage (Tactical)",
+          "name": "战术型活性迷彩 Active Camouflage (Tactical)",
+          "expectedDescription": "<p>Hardlight projectors shift the appearance of your armor using shifting colors and patterns that respond to your environment. You gain a +2 item bonus to Stealth checks while wearing the armor.</p>",
+          "description": "<p>硬光投影器利用随环境变化的色彩和图案改变护甲的外观。穿戴此护甲时，你在隐秘检定中获得+2物品加值。</p>"
+        },
+        {
+          "id": "QIoQQNBmszGVLysM",
+          "expectedName": "Cloaking Device (Tactical)",
+          "name": "战术型匿踪设备 Cloaking Device (Tactical)",
+          "expectedDescription": "<p>This projector bends light around your body.</p>\n<p><strong>Activate—Bend Light</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> three times per day</p><hr /><p><strong>Effect</strong> You become @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} for 1 minute, gaining the effects of a 2nd-rank @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{Invisibility} spell.</p>",
+          "description": "<p>该投影器曲折你周身的光线。</p>\n<p><strong>启动—曲折光线</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天三次</p><hr /><p><strong>效果</strong> 你陷入 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形} ，持续1分钟，获得2环 @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{隐形术} 法术的效果。</p>"
+        }
+      ]
     },
     "55nSLw1aQ0K0rK2L": {
       "name": "先进型医疗贴片 Medpatch (Advanced)",
@@ -440,7 +460,7 @@
     },
     "7CMMrOsOmHPKffsB": {
       "name": "磁力靴 Magboots",
-      "description": "<p>磁力靴可以用一个交互动作启动或关闭。启动时，它们使你用于攀爬金属表面的运动检定获得+1物品加值；当你站在金属表面上时，你对抗他人对你@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}、@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{冲撞}或@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{绊摔}的强韧DC或反射DC还会获得+1物品加值。在零重力区域内，穿戴一双磁力靴时，你可以沿金属表面移动至多等于自身速度的距离，且不会获得失重状态。</p>"
+      "description": "<p>磁力靴可以用一个交互动作启动或关闭。启动时，它们使你用于攀爬金属表面的运动检定获得+1物品加值；当你站在金属表面上时，你对抗他人对你@UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{移位}、@UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{推撞}或@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}的强韧DC或反射DC还会获得+1物品加值。在零重力区域内，穿戴一双磁力靴时，你可以沿金属表面移动至多等于自身速度的距离，且不会获得失重状态。</p>"
     },
     "7KrNTRa5WpVdv2Vw": {
       "name": "战斗手套 Battleglove",
@@ -460,7 +480,16 @@
     },
     "7WmbBICS2aEV4a6s": {
       "name": "感官增幅套装 Sensory Amplification Suit",
-      "description": "<p><strong>强化：</strong> 1</p><hr /><p>大多数护甲为了更强的防护而削弱感官，但某些任务既需要出色的感知能力，也需要免受伤害。这套装甲束具配有完整的感官设备组，尤其受间谍和斥候欢迎。感官增幅服始终装有 @UUID[Compendium.sf2e-anachronism.equipment.Item.55elqx7N7Upze3lR]{商用型全频谱传感器组} ，无需额外费用，且不占用强化槽。</p>"
+      "description": "<p><strong>强化：</strong> 1</p><hr /><p>大多数护甲为了更强的防护而削弱感官，但某些任务既需要出色的感知能力，也需要免受伤害。这套装甲束具配有完整的感官设备组，尤其受间谍和斥候欢迎。感官增幅服始终装有 @UUID[Compendium.sf2e-anachronism.equipment.Item.55elqx7N7Upze3lR]{商用型全频谱传感器组} ，无需额外费用，且不占用强化槽。</p>",
+      "subitems": [
+        {
+          "id": "Cz96YepLaJsXvZlh",
+          "expectedName": "Full-Spectrum Sensor Suite (Commercial)",
+          "name": "商用型全频谱传感器组 Full-Spectrum Sensor Suite (Commercial)",
+          "expectedDescription": "<p>This set of sensors use a helmet-mounted, heads-up display to provide detailed information about your surroundings.</p>\n<p><strong>Activate—Scan</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain tremorsense as an imprecise sense with a range of 30 feet for 10 minutes.</p>",
+          "description": "<p>这组传感器通过安装在头盔上的抬头显示器，提供周围环境的详细信息。</p>\n<p><strong>启动—扫描</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得30尺范围的震颤感知作为模糊感官，持续10分钟。</p>"
+        }
+      ]
     },
     "7YWd7JZA47NMkrKH": {
       "name": "菁英型突击公文包 Assault Briefcase (Elite)",
@@ -476,7 +505,23 @@
     },
     "7cpnKlkU5QEiuISo": {
       "name": "绍贝德长步枪 Shobhad Longrifle",
-      "description": "<p><strong>强化：</strong> 0</p><hr /><p>这种军用狙击步枪是修巴德奈（shobhad-neh）的传统武器。它内置 @UUID[Compendium.sf2e-anachronism.equipment.Item.nPmeqjZ8b0mjqSfs]{商用型消音器} 和 @UUID[Compendium.sf2e-anachronism.equipment.Item.10lYyQDoJXUojKm2]{商用型狙击镜} ，必须与武器分别升级，但它们集成于修巴德长步枪中，不占用强化槽。</p>"
+      "description": "<p><strong>强化：</strong> 0</p><hr /><p>这种军用狙击步枪是修巴德奈（shobhad-neh）的传统武器。它内置 @UUID[Compendium.sf2e-anachronism.equipment.Item.nPmeqjZ8b0mjqSfs]{商用型消音器} 和 @UUID[Compendium.sf2e-anachronism.equipment.Item.10lYyQDoJXUojKm2]{商用型狙击镜} ，必须与武器分别升级，但它们集成于修巴德长步枪中，不占用强化槽。</p>",
+      "subitems": [
+        {
+          "id": "CLcMpeG40P1ykkKA",
+          "expectedName": "Silencer (Commercial)",
+          "name": "商用型消音器 Silencer (Commercial)",
+          "expectedDescription": "<p>A cylinder is filled with internal sound baffles to reduce noise. The weapon doesn't make a loud noise when fired. However, creatures hit by the ammunition might still cry out in pain.</p>",
+          "description": "<p>该圆筒内部设有隔音挡板，以降低噪音。火器开火时不会发出巨大的噪音。不过，被子弹命中的生物还是有可能会因为痛苦而喊叫出声。</p>"
+        },
+        {
+          "id": "KccChmA8Bse3Rflm",
+          "expectedName": "Sniper's Scope (Commercial)",
+          "name": "商用型狙击镜 Sniper's Scope (Commercial)",
+          "expectedDescription": "<p>A telescopic sighting attachment helps view distant targets.</p><hr /><p><strong>Activate—Adjust Sight</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Effect</strong> Increase the range increment of the weapon the scope is attached to by 10 feet. If the weapon has a base range increment of 50 feet or more, increase the range of the weapon by 20 feet instead. This lasts until the beginning of your next turn or until you're no longer wielding the weapon this scope is attached to, whichever comes first. This does not increase the size of area attacks.</p>",
+          "description": "<p>该望远瞄准装置有助于观察远处目标。</p><hr /><p><strong>启动—调整准心</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>效果</strong> 装有此瞄准镜的武器射程增量增加10尺。如果武器的基础射程增量至少为50尺，则改为增加20尺。此效果持续至你的下个回合开始，或直到你不再持用装有此瞄准镜的武器，以先发生者为准。这不会扩大区域攻击的范围。</p>"
+        }
+      ]
     },
     "7dyVoodFXOHPdtzW": {
       "name": "神术干扰器 Divinity Jammer",
@@ -492,7 +537,7 @@
     },
     "7pABFja0fmeeSJGo": {
       "name": "赋生万古石 Aeon Stone (Life-Giving)",
-      "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{缴械} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术天生法术。</p>"
+      "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>"
     },
     "7psnMwQ95uO5apQz": {
       "name": "黑暗视觉面罩 Darkvision Visor",
@@ -720,7 +765,7 @@
     },
     "CIZ3Walj6DmiaJGq": {
       "name": "商用型喷射背包 Jetpack (Commercial)",
-      "description": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷气背包，获得20尺飞行速度。此效应持续1分钟，或直到你将其解除。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷气背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>"
+      "description": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷射背包，获得20尺飞行速度。此效应持续1分钟，或直到你将其解消。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷射背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>"
     },
     "CJwfbmQO91Q9v3kg": {
       "name": "战术型太阳镜 Sunshades (Tactical)",
@@ -784,7 +829,7 @@
     },
     "DnuTMCJFBDj9nNRx": {
       "name": "战术型喷射背包 Jetpack (Tactical)",
-      "description": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷气背包，获得40尺飞行速度。此效应持续1分钟，或直到你将其解除。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷气背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>"
+      "description": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷射背包，获得40尺飞行速度。此效应持续1分钟，或直到你将其解消。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷射背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>"
     },
     "DrlHV67xGI0DcniK": {
       "name": "斩马刀 Horsechopper",
@@ -828,7 +873,7 @@
     },
     "F3xHu12Jmk8GgPGI": {
       "name": "先进型能量屏障 Energy Shielding (Advanced)",
-      "description": "<p>此护甲经过特殊的隔绝处理，以防护特定类型的伤害。你获得对酸蚀、寒冷、电击或火焰的抗力15。制造者在制作此强化模块时选择伤害类型。一套护甲可以安装多个能量护盾强化模块，但每个模块必须提供对不同伤害类型的抗力。</p>"
+      "description": "<p>此护甲经过特殊的隔绝处理，以防护特定类型的伤害。你获得对酸蚀、寒冷、电击或火焰的抗力15。制造者在制作此强化模块时选择伤害类型。一套护甲可以安装多个能量屏障强化模块，但每个模块必须提供对不同伤害类型的抗力。</p>"
     },
     "F76S117Yl85MCqp0": {
       "name": "商用型行动力增强器 Mobility Enhancer (Commercial)",
@@ -848,7 +893,16 @@
     },
     "FlAVujPTRhJ3U5Bl": {
       "name": "地狱骑士板甲 Hellknight Plate",
-      "description": "<p><strong>强化：</strong> 0</p><hr /><p>不屈、不挠、不恕。这套标志性的黑色重甲布满凸起尖刺，轮廓阴森。每套护甲都具有独特设计，契合其拥有者所属地狱骑士团的风格。地狱骑士板甲始终配有 @UUID[Compendium.sf2e-anachronism.equipment.Item.BSATLOr4qZU6XllN]{商用型充能尖刺} ，无需额外费用，且不占用强化槽。</p>"
+      "description": "<p><strong>强化：</strong> 0</p><hr /><p>不屈、不挠、不恕。这套标志性的黑色重甲布满凸起尖刺，轮廓阴森。每套护甲都具有独特设计，契合其拥有者所属地狱骑士团的风格。地狱骑士板甲始终配有 @UUID[Compendium.sf2e-anachronism.equipment.Item.BSATLOr4qZU6XllN]{商用型充能尖刺} ，无需额外费用，且不占用强化槽。</p>",
+      "subitems": [
+        {
+          "id": "sSFpf1L9oEJaCWKA",
+          "expectedName": "Energized Spikes (Commercial)",
+          "name": "商用型充能尖刺 Energized Spikes (Commercial)",
+          "expectedDescription": "<p>These protruding spikes give armor an aggressive appearance. When you take energy damage, the spikes become charged with that energy type until the next time they're Activated (even if the damage was completely prevented by resistance).</p>\n<p><strong>Activate—Impale</strong> <span class=\"action-glyph\">f</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<p><strong>Trigger</strong> Your turn begins</p>\n<p><strong>Requirements</strong> You're @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, or swallowed by a creature or have a creature grabbed or restrained</p><hr /><p><strong>Effect</strong> You deal @Damage[2d4[untyped]] damage to the required creature. This damage is piercing unless the spikes are charged with an energy type, in which case you can have them deal damage of that type instead.</p>",
+          "description": "<p>这些突出的尖刺使护甲显得咄咄逼人。当你受到能量伤害时，尖刺会充入该类型的能量，直到下一次被启动（即使伤害已被抗力完全抵消，也一样）。</p>\n<p><strong>启动—穿刺</strong> <span class=\"action-glyph\">f</span></p>\n<p><strong>频率</strong> 每轮一次</p>\n<p><strong>触发</strong> 你的回合开始</p>\n<p><strong>需求</strong> 你处于 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，或被生物吞咽，或你已擒住或束缚了一个生物</p><hr /><p><strong>效果</strong> 你造成 @Damage[2d4[untyped]] 伤害，施加给规定的生物。此伤害为穿刺伤害，除非尖刺已充入某种类型的能量；在这种情况下，你可以改为让它们造成该类型的伤害。</p>"
+        }
+      ]
     },
     "Fm8Kw4Xfep5u16uo": {
       "name": "战术型棘刺 Quills (Tactical)",
@@ -864,7 +918,7 @@
     },
     "G64VfK5H5zUM1tB0": {
       "name": "战术型消音器 Silencer (Tactical)",
-      "description": "<p>该金属圆筒内填充了隔音材质，能够减少火器发出的噪音。火器开火时不会发出巨大的噪音。不过，被子弹命中的生物还是有可能会因为痛苦而喊叫出声。</p>\n<p>战术型消音器是具有魔法和科技特征的混合物品。经由战术型消音器发射的射击会以魔法压低周围的声音。打击大成功时，目标变得无法发声。目标不能使用音波攻击，也不能使用具有听觉特征的动作。这也会阻止目标施法，因为施法需要吟诵或发声，但具有晦匿特征的法术除外。目标可以通过成功的以下豁免抵抗消音器的效果： @Check[will|dc:27] 豁免。</p>"
+      "description": "<p>该圆筒内部设有隔音挡板，以降低噪音。火器开火时不会发出巨大的噪音。不过，被子弹命中的生物还是有可能会因为痛苦而喊叫出声。</p>\n<p>战术型消音器是具有魔法和科技特征的混合物品。经由战术型消音器发射的射击会以魔法压低周围的声音。打击大成功时，目标变得无法发声。目标不能使用音波攻击，也不能使用具有听觉特征的动作。这也会阻止目标施法，因为施法需要吟诵或发声，但具有晦匿特征的法术除外。目标可以通过成功的以下豁免抵抗消音器的效果： @Check[will|dc:27] 豁免。</p>"
     },
     "G8dJYbYBmxHZhV8q": {
       "name": "冻寒长矛 Cryopike",
@@ -1016,7 +1070,7 @@
     },
     "JTgJTAunHqnLjwLs": {
       "name": "投影万古石 Aeon Stone (Projecting)",
-      "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{缴械} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带乳光的蓝宝石锥体赋予你有限的情绪投射能力，范围为100尺。无论使用何种语言，生物都能大致理解其传递的情绪种类与强度，例如“轻微愤怒”“强烈喜悦”或“深切悲伤”。当你对30尺内的生物察言观色时，你能侦测该生物是否具有思维，如同你施放了1动作版本的 @UUID[Compendium.sf2e-anachronism.spells.Item.qOLMHvkAGsVYLhtn]。其共鸣能力让你可以施放 @UUID[Compendium.sf2e-anachronism.spells.Item.uBo6g5aW087cLSJR] ，作为每天一次的1环异能天生法术。</p>"
+      "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带乳光的蓝宝石锥体赋予你有限的情绪投射能力，范围为100尺。无论使用何种语言，生物都能大致理解其传递的情绪种类与强度，例如“轻微愤怒”“强烈喜悦”或“深切悲伤”。当你对30尺内的生物察言观色时，你能侦测该生物是否具有思维，如同你施放了1动作版本的 @UUID[Compendium.sf2e-anachronism.spells.Item.qOLMHvkAGsVYLhtn]。其共鸣能力让你可以施放 @UUID[Compendium.sf2e-anachronism.spells.Item.uBo6g5aW087cLSJR] ，作为每天一次的1环异能内在法术。</p>"
     },
     "JU2rhUAAl824OYAH": {
       "name": "存在感增强器 Presence Intensifier",
@@ -1508,7 +1562,7 @@
     },
     "SGkOHFyBbzWdBk8D": {
       "name": "战术型医疗包 Medkit (Tactical)",
-      "description": "<p>其中装有止痛药、绷带、无菌纱布和缝合工具，供医疗检定使用，以 @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{提供急救}, @UUID[Compendium.pf2e.actionspf2e.Item.TC7OcDa7JlWbqMaN]{治疗疾病}, @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{治疗毒素}，或 @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}。战术型医疗工具组为此类检定提供+1物品加值。医疗包是一种工具组。</p>"
+      "description": "<p>其中装有止痛药、绷带、无菌纱布和缝合工具，供医疗检定使用，以 @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{急救}, @UUID[Compendium.pf2e.actionspf2e.Item.TC7OcDa7JlWbqMaN]{治疗疾病}, @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{治疗中毒}，或 @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}。战术型医疗工具组为此类检定提供+1物品加值。医疗包是一种工具组。</p>"
     },
     "SGy1aJYOIKeg1k4T": {
       "name": "除垒炮 Streetsweeper",
@@ -1564,7 +1618,7 @@
     },
     "T4JV6YG5OwIPh5UL": {
       "name": "自适应能量屏障 Adaptive Energy Shielding",
-      "description": "<p>该装置能改变你护甲上绝缘层的化学成分，使其能响应不同类型的能量。</p>\n<p><strong>启动—适应</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>频率</strong>每10分钟一次</p>\n<p><strong>触发</strong> 你受到强酸、寒冷、电击或火焰伤害</p><hr /><p><strong>效果</strong> 你的能量屏蔽强化模块变为触发伤害的类型。此变化持续至你再次适应，或卸下任何一个自适应能量屏蔽或 @UUID[Compendium.sf2e-anachronism.equipment.Item.fQxWOthZx2HZUEzZ]{能量屏障} 强化模块，来自同一件护甲。若此护甲上有多个能量屏蔽强化模块，每次适应时选择其中一个改变。</p>"
+      "description": "<p>该装置能改变你护甲上绝缘层的化学成分，使其能响应不同类型的能量。</p>\n<p><strong>启动—适应</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>频率</strong>每10分钟一次</p>\n<p><strong>触发</strong> 你受到酸蚀、寒冷、电击或火焰伤害</p><hr /><p><strong>效果</strong> 你的能量屏障强化模块变为触发伤害的类型。此变化持续至你再次适应，或从同一件护甲上卸下任何自适应能量屏障或 @UUID[Compendium.sf2e-anachronism.equipment.Item.fQxWOthZx2HZUEzZ]{能量屏障} 强化模块。若此护甲上有多个能量屏障强化模块，每次适应时选择其中一个改变。</p>"
     },
     "T6mFICQAIuByIyV2": {
       "name": "先进型骨化手雷 Ossifying Grenade (Advanced)",
@@ -1576,7 +1630,7 @@
     },
     "TAgaAiDMPGnF87Vv": {
       "name": "电弧步枪 Arc Rifle",
-      "description": "<p><strong>强化：</strong> 1</p><hr /><p>这把步枪宽大的枪身中装有电弧手枪电容器的放大版本，短枪管和聚碳枪托则能使持用者与高压电绝缘。电弧步枪更大的电容器能够产生足以制服狂暴伦克罗达兽（renkroda）的强力电荷。</p>"
+      "description": "<p><strong>强化：</strong> 1</p><hr /><p>这把步枪宽大的枪身中装有电弧手枪电容器的放大版本，短枪管和聚碳枪托则能使持用者与高压电绝缘。电弧步枪更大的电容器能够产生足以制服狂暴掠吼龙（renkroda）的强力电荷。</p>"
     },
     "TEYH3HhM9vs5hmky": {
       "name": "加速术法术安瓿 Haste Spell Amp",
@@ -1596,7 +1650,7 @@
     },
     "TirRAlOEF2h2CWUs": {
       "name": "名牌容器 Container (Designer)",
-      "description": "<p>容器包含背包，公文箱，行李袋或是手提袋。一个容器最多可容纳4B物品且前2B不计入你的负载。如果你抓着容器或存放容器而非将其穿戴在个人身上，其将有L的负载而非可以忽略不计。</p>\n<p>你在检定中获得+1物品加值，用于 @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{留下印象} ，针对上流社会人士，且你携带着名牌容器，例如名牌手提包。</p>"
+      "description": "<p>容器包含背包，公文箱，行李袋或是手提袋。一个容器最多可容纳4B物品且前2B不计入你的负载。如果你抓着容器或存放容器而非将其穿戴在个人身上，其将有L的负载而非可以忽略不计。</p>\n<p>你在检定中获得+1物品加值，用于 @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象} ，针对上流社会人士，且你携带着名牌容器，例如名牌手提包。</p>"
     },
     "TrS4puy7wfjbDJIA": {
       "name": "战术型爆燃手雷 Incendiary Grenade (Tactical)",
@@ -1652,7 +1706,23 @@
     },
     "V9D2HOX0XJA72t7C": {
       "name": "破岚护甲 Stormbreaker Armor",
-      "description": "<p><strong>强化：</strong> 1</p><hr /><p>这套深蓝色护甲的脊柱位置装有一列导电棒，可以吸收并释放高压电流而不伤及穿戴者。它最初是为保护维斯卡里姆（Veskarium）军人免遭维斯克（Vesk）5号星致命涡流风暴而开发的，如今破风暴护甲最常见于逐风暴者和其他走私者身上，他们在这颗危险气态巨行星的边缘攫取利润。破风暴护甲始终装有 @UUID[Compendium.sf2e-anachronism.equipment.Item.BSATLOr4qZU6XllN]{商用型充能尖刺} 和 @UUID[Compendium.sf2e-anachronism.equipment.Item.fQxWOthZx2HZUEzZ]{商用型能量屏蔽（电击）} ，无需额外费用，且不占用强化槽。</p>"
+      "description": "<p><strong>强化：</strong> 1</p><hr /><p>这套深蓝色护甲的脊柱位置装有一列导电棒，可以吸收并释放高压电流而不伤及穿戴者。它最初是为保护维斯卡里姆（Veskarium）军人免遭维斯克（Vesk）5号星致命涡流风暴而开发的，如今破风暴护甲最常见于逐风暴者和其他走私者身上，他们在这颗危险气态巨行星的边缘攫取利润。破风暴护甲始终装有 @UUID[Compendium.sf2e-anachronism.equipment.Item.BSATLOr4qZU6XllN]{商用型充能尖刺} 和 @UUID[Compendium.sf2e-anachronism.equipment.Item.fQxWOthZx2HZUEzZ]{商用型能量屏蔽（电击）} ，无需额外费用，且不占用强化槽。</p>",
+      "subitems": [
+        {
+          "id": "CCvOvx8DMX4UVgMD",
+          "expectedName": "Energized Spikes (Commercial)",
+          "name": "商用型充能尖刺 Energized Spikes (Commercial)",
+          "expectedDescription": "<p>These protruding spikes give armor an aggressive appearance. When you take energy damage, the spikes become charged with that energy type until the next time they're Activated (even if the damage was completely prevented by resistance).</p>\n<p><strong>Activate—Impale</strong> <span class=\"action-glyph\">f</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<p><strong>Trigger</strong> Your turn begins</p>\n<p><strong>Requirements</strong> You're @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, or swallowed by a creature or have a creature grabbed or restrained</p><hr /><p><strong>Effect</strong> You deal @Damage[2d4[untyped]] damage to the required creature. This damage is piercing unless the spikes are charged with an energy type, in which case you can have them deal damage of that type instead.</p>",
+          "description": "<p>这些突出的尖刺使护甲显得咄咄逼人。当你受到能量伤害时，尖刺会充入该类型的能量，直到下一次被启动（即使伤害已被抗力完全抵消，也一样）。</p>\n<p><strong>启动—穿刺</strong> <span class=\"action-glyph\">f</span></p>\n<p><strong>频率</strong> 每轮一次</p>\n<p><strong>触发</strong> 你的回合开始</p>\n<p><strong>需求</strong> 你处于 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，或被生物吞咽，或你已擒住或束缚了一个生物</p><hr /><p><strong>效果</strong> 你造成 @Damage[2d4[untyped]] 伤害，施加给规定的生物。此伤害为穿刺伤害，除非尖刺已充入某种类型的能量；在这种情况下，你可以改为让它们造成该类型的伤害。</p>"
+        },
+        {
+          "id": "DqX5Yn7vfL6XjcaH",
+          "expectedName": "Energy Shielding (Commercial) (Electricity)",
+          "name": "能量屏障（商用型，电击） Energy Shielding (Commercial) (Electricity)",
+          "expectedDescription": "<p>This armor is specially treated with insulation to protect against a specific type of damage. You gain resistance 5 to acid, cold, electricity, or fire. The crafter chooses the damage type when creating the upgrade. Multiple energy shielding upgrades can be placed into a suit of armor, but each must provide resistance to a different damage type.</p>",
+          "description": "<p>这套护甲有经过特殊的绝缘处理，可以抵御特定类型的伤害。你在酸蚀、寒冷、电击或火焰上获得5点抗力。制造者在制造强化模块时要选择伤害类型。一套护甲可以放置多个能量屏障，但是每个能量屏障提供的抗力类型必须互不相同。</p>"
+        }
+      ]
     },
     "VIGFz39NLcNarYl9": {
       "name": "先进型加速悬载系统 Speed Suspension (Advanced)",
@@ -1768,7 +1838,16 @@
     },
     "XJt2RsKwIwdXC6ep": {
       "name": "回收背带 Retrieval Harness",
-      "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种最初由寻星者科学家研发的护甲配有大量芳纶口袋、绑带和精密导轨系统，让整套装备与消耗品都能随时取用。取物挽具始终配有一个 @UUID[Compendium.sf2e-anachronism.equipment.Item.hH1vCb2EJyqMo8ac]{商用型便捷修补器} ，无需额外费用，且不占用强化槽。</p>"
+      "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种最初由寻星者科学家研发的护甲配有大量芳纶口袋、绑带和精密导轨系统，让整套装备与消耗品都能随时取用。取物挽具始终配有一个 @UUID[Compendium.sf2e-anachronism.equipment.Item.hH1vCb2EJyqMo8ac]{商用型便捷修补器} ，无需额外费用，且不占用强化槽。</p>",
+      "subitems": [
+        {
+          "id": "4hROr9QwftkmUEPW",
+          "expectedName": "Easypatcher (Commercial)",
+          "name": "商用型便捷修补器 Easypatcher (Commercial)",
+          "expectedDescription": "<p>This upgrade contains tiny robotic arms and sensors to detect injuries. The easy patcher can hold up to two medpatches, which you can install as a 10-minute activity. The medpatch's level must be equal to or less than the easypatcher's level or the armor's level, if it's higher.</p>\n<p><strong>Activate—Patch Up</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> A medpatch is installed in the easypatcher's compartment</p><hr /><p><strong>Effect</strong> The robotic arms hiss and unfold from the compartment, applying the medpatch to your injuries and replicating the consumed medpatch's effect. The medpatch is consumed.</p>",
+          "description": "<p>此强化模块装有微型机械臂和探测伤势的传感器。便捷修补器至多可装两张医疗贴，你可以用一个10分钟的活动将其装入。医疗贴的等级不能高于便捷修补器的等级，或护甲的等级，取二者中较高者。</p>\n<p><strong>启动—修补</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>需求</strong> 便捷修补器的隔舱中装有一张医疗贴</p><hr /><p><strong>效果</strong> 机械臂嘶鸣着从隔间中展开，将医疗贴敷在你的伤处，重现所消耗医疗贴的效果。医疗贴被消耗。</p>"
+        }
+      ]
     },
     "XOT0d4a0G5fhb674": {
       "name": "流星手枪 Starfall Pistol",
@@ -1828,7 +1907,7 @@
     },
     "YhkomhtKBK3i9C7Q": {
       "name": "战术型全息皮肤 Holoskin (Tactical)",
-      "description": "<p>安装在腰带或肢体绑带上的全息投影器可以用一个交互动作启动。你可将其设定为投射出与你体型类别相同的另一生物的外观，以隐藏自己的真实外貌。全息皮肤不会改变你的声音、气味或举止。持握和穿戴物品的外观也不受影响。通常你需要用全息皮肤准备伪装，才能 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{假扮} 他人（使用欺骗技能）。战术型全息皮肤为相关检定提供+1物品加值。</p>"
+      "description": "<p>安装在腰带或肢体绑带上的全息投影器可以用一个交互动作启动。你可将其设定为投射出与你体型类别相同的另一生物的外观，以隐藏自己的真实外貌。全息皮肤不会改变你的声音、气味或举止。持握和穿戴物品的外观也不受影响。通常你需要用全息皮肤准备伪装，才能 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装} 他人（使用欺骗技能）。战术型全息皮肤为相关检定提供+1物品加值。</p>"
     },
     "YkwoE8FiD0UJXDkl": {
       "name": "反抗套装 Defiance Series",
@@ -1844,7 +1923,7 @@
     },
     "ZHqx7LT3eIYnA1T8": {
       "name": "商用型黏液团 Slough-Do (Commercial)",
-      "description": "<p>这团绿色黏液看似一团果冻，但戴在头上后，你可以通过交互将其塑造成各种发型。佩戴时，绿色液体会缓缓流进你的耳朵，顺着额头和脖子滴落，长期使用会感到不适。</p>\n<p><em>蜕皮发式</em> 使你在神秘检定中获得+1物品加值，并让你可以施放 @UUID[Compendium.sf2e-anachronism.spells.Item.h7IhypLwItepwhou] 戏法，作为异能天生法术。</p>"
+      "description": "<p>这团绿色黏液看似一团果冻，但戴在头上后，你可以通过交互将其塑造成各种发型。佩戴时，绿色液体会缓缓流进你的耳朵，顺着额头和脖子滴落，长期使用会感到不适。</p>\n<p><em>蜕皮发式</em> 使你在神秘检定中获得+1物品加值，并让你可以施放 @UUID[Compendium.sf2e-anachronism.spells.Item.h7IhypLwItepwhou] 戏法，作为异能内在法术。</p>"
     },
     "ZIIEmh2nAnST6vGk": {
       "name": "偏斜力场 Deflecting Field",
@@ -1972,7 +2051,16 @@
     },
     "bUgSXBXfvEEuKioO": {
       "name": "漂流者夹克 Drifter's Jacket",
-      "description": "<p><strong>强化：</strong> 1</p><hr /><p>这件时髦夹克内置环境防护装置和辅助零重力移动的气体推进器。它还配有两个厚重护肩，内部藏有局域漂流传送装置。漂流者夹克始终配有一个 @UUID[Compendium.sf2e-anachronism.equipment.Item.svVf0omcrf3rv63C]{商用型漂流引擎中继器} ，无需额外费用，且不占用强化槽。</p>"
+      "description": "<p><strong>强化：</strong> 1</p><hr /><p>这件时髦夹克内置环境防护装置和辅助零重力移动的气体推进器。它还配有两个厚重护肩，内部藏有局域漂流传送装置。漂流者夹克始终配有一个 @UUID[Compendium.sf2e-anachronism.equipment.Item.svVf0omcrf3rv63C]{商用型漂流引擎中继器} ，无需额外费用，且不占用强化槽。</p>",
+      "subitems": [
+        {
+          "id": "XFoccx1BzwPsUKqc",
+          "expectedName": "Drift Drive Relay (Commercial)",
+          "name": "商用型漂流引擎中继器 Drift Drive Relay (Commercial)",
+          "expectedDescription": "<p>This advanced containment unit stores and channels entangled Drift particles, allowing you to briefly flicker into the Drift as you move. When you successfully [[/act tumble-through]] a creature's space, you don't treat its squares as difficult terrain.</p>\n<p>As a 10-minute activity, you can attune this armor upgrade to a Drift engine you can physically access to further enhance the relay's abilities.</p>\n<p><strong>Activate—Warp</strong> <span class=\"action-glyph\">2</span></p>\n<p><strong>Frequency</strong> once per day</p>\n<p><strong>Requirements</strong> You're within planetary range of an attuned, functional Drift engine</p><hr /><p><strong>Effect</strong> You warp through space, gaining the effects of a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{Translocate} spell.</p>",
+          "description": "<p>这个先进约束单元储存并引导纠缠的漂流粒子，让你移动时能短暂闪入漂流域。当你成功 [[/act tumble-through]] 一个生物的空间时，不将其方格视为困难地形。</p>\n<p>你可以用一个10分钟活动，将此护甲强化模块调谐至一台你能实体接触的漂流引擎，进一步增强中继器的能力。</p>\n<p><strong>启动—跃迁</strong> <span class=\"action-glyph\">2</span></p>\n<p><strong>频率</strong> 每天一次</p>\n<p><strong>需求</strong> 你位于一台已调谐、正常运作的漂流引擎的行星范围内</p><hr /><p><strong>效果</strong> 你穿越空间，获得4环 @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{次元移位} 法术。</p>"
+        }
+      ]
     },
     "bXqSTn1rNGSArlYV": {
       "name": "先进型干扰手雷 Szynegation Grenade (Advanced)",
@@ -2000,7 +2088,7 @@
     },
     "cDRxtKbxzHQ7t5sb": {
       "name": "保温织服 Tempweave",
-      "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普罗尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>"
+      "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普洛尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>"
     },
     "ccOsKNnt95e30MCN": {
       "name": "装饰义体 Cosmetic Cybernetics",
@@ -2056,7 +2144,7 @@
     },
     "dhZYfkxfyxskFx3G": {
       "name": "炬眼风衣 Eyeswide Trench Coat",
-      "description": "<p><strong>强化：</strong> 2</p><hr /><p>这件战术型 @UUID[Compendium.sf2e-anachronism.equipment.Item.mkMWda6ivlhnXq4d] 兼具时尚与实用。穿戴此护甲时，你的隐秘检定获得+1物品加值，用于 [[/act sneak]] 和 [[/act hide]] ，限城市环境。</p>\n<p><strong>启动—扰敌替身</strong> <span class=\"action-glyph\">A</span> （专注、幻术、操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你旋转风衣下摆，在自己所在空间创造一个暂时的幻象替身。 @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{制造岔子} ，你的欺骗检定获得+2物品加值。随后你潜行。识破幻象替身的DC为20，幻象持续1分钟。</p>"
+      "description": "<p><strong>强化：</strong> 2</p><hr /><p>这件战术型 @UUID[Compendium.sf2e-anachronism.equipment.Item.mkMWda6ivlhnXq4d] 兼具时尚与实用。穿戴此护甲时，你的隐秘检定获得+1物品加值，用于 [[/act sneak]] 和 [[/act hide]] ，限城市环境。</p>\n<p><strong>启动—扰敌替身</strong> <span class=\"action-glyph\">A</span> （专注、幻术、操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你旋转风衣下摆，在自己所在空间创造一个暂时的幻象替身。 @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神} ，你的欺骗检定获得+2物品加值。随后你潜行。识破幻象替身的DC为20，幻象持续1分钟。</p>"
     },
     "diAapfk5dEZlghqV": {
       "name": "商用型生成式智慧 Animated Intelligence (Commercial)",
@@ -2112,7 +2200,7 @@
     },
     "efmRJxyFS6KUTeMr": {
       "name": "战术型匿踪设备 Cloaking Device (Tactical)",
-      "description": "<p>该投影器曲折你周身的光线。</p>\n<p><strong>启动—曲折光线</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天三次</p><hr /><p><strong>效果</strong> 你陷入 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形} ，持续1分钟，获得2环 @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{隐形术} 法术。</p>"
+      "description": "<p>该投影器曲折你周身的光线。</p>\n<p><strong>启动—曲折光线</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天三次</p><hr /><p><strong>效果</strong> 你陷入 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形} ，持续1分钟，获得2环 @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{隐形术} 法术的效果。</p>"
     },
     "ehsCl5WJTANTlzBy": {
       "name": "阿巴达尔集团旅行服装 Abadarcorp Travel Suit",
@@ -2136,7 +2224,16 @@
     },
     "fDJrlBhtmAkuExZB": {
       "name": "医疗壳甲 MED-shell",
-      "description": "<p><strong>强化：</strong> 0</p><hr /><p>这种厚重的护甲具有巨大的肩甲和板式护臂，保护穿戴者活动的肢端和手指。静默战争（Silent War）最激烈的时期，协约世界（Pact Worlds）的战地医护兵以穿戴医疗外壳护甲而闻名；此后它逐渐成为擅长运动的治疗者的默认选择。医疗外壳护甲始终装有 @UUID[Compendium.sf2e-anachronism.equipment.Item.1kYUux9KdGkPggB4] ，无需额外费用，且不占用强化槽。</p>"
+      "description": "<p><strong>强化：</strong> 0</p><hr /><p>这种厚重的护甲具有巨大的肩甲和板式护臂，保护穿戴者活动的肢端和手指。静默战争（Silent War）最激烈的时期，协约世界（Pact Worlds）的战地医护兵以穿戴医疗外壳护甲而闻名；此后它逐渐成为擅长运动的治疗者的默认选择。医疗外壳护甲始终装有 @UUID[Compendium.sf2e-anachronism.equipment.Item.1kYUux9KdGkPggB4] ，无需额外费用，且不占用强化槽。</p>",
+      "subitems": [
+        {
+          "id": "NLNgYhKTSq8uhleO",
+          "expectedName": "Auto-CPR Unit",
+          "name": "自动心肺复苏器 Auto-CPR Unit",
+          "expectedDescription": "<p>This device monitors your vital signs and automatically administers aid. When you have the dying condition while wearing this armor, the DC of your recovery checks is equal to 8 + your dying value (instead of 10 + your dying value).</p>",
+          "description": "<p>该设备持续监测你的生命体征并自动施救。当你在穿戴此护甲时陷入濒死状态，你的复苏检定DC等于8+你的濒死值（而非10+你的濒死值）。</p>"
+        }
+      ]
     },
     "fGrTEBJ59Q58oRvB": {
       "name": "卓越型电击棍 Stun Stick (Superior)",
@@ -2144,7 +2241,7 @@
     },
     "fQxWOthZx2HZUEzZ": {
       "name": "商用型能量屏障 Energy Shielding (Commercial)",
-      "description": "<p>这套护甲有经过特殊的绝缘处理，可以抵御特定类型的伤害。你在强酸、寒冷、电击或火焰上获得5点抗力。制造者在制造强化模块时要选择伤害类型。一套护甲可以放置多个能量屏障，但是每个能量屏障提供的抗力类型必须互不相同。</p>"
+      "description": "<p>这套护甲有经过特殊的绝缘处理，可以抵御特定类型的伤害。你在酸蚀、寒冷、电击或火焰上获得5点抗力。制造者在制造强化模块时要选择伤害类型。一套护甲可以放置多个能量屏障，但是每个能量屏障提供的抗力类型必须互不相同。</p>"
     },
     "fUbHquBm5ImybSTz": {
       "name": "战术型走私用握把 Smuggler's Grip (Tactical)",
@@ -2299,7 +2396,7 @@
     },
     "ifIGbGiqjGRpzwDO": {
       "name": "战术型黏液团 Slough-Do (Tactical)",
-      "description": "<p>这团绿色黏液看似一团果冻，但戴在头上后，你可以通过交互将其塑造成各种发型。佩戴时，绿色液体会缓缓流进你的耳朵，顺着额头和脖子滴落，长期使用会感到不适。</p>\n<p><em>蜕皮发式</em> 使你在神秘检定中获得+2物品加值，并让你可以施放 @UUID[Compendium.sf2e-anachronism.spells.Item.h7IhypLwItepwhou] 戏法，作为异能天生法术。</p>\n<p>此外，你可以启动战术型蜕皮发式。</p>\n<p><strong>启动—蜕皮旋舞</strong> 施法</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 蜕皮发式迅速旋转，使神秘能量从中涌出。你施放4环 @UUID[Compendium.sf2e-anachronism.spells.Item.jyrxfWeeCsrkhNit] 法术。</p>"
+      "description": "<p>这团绿色黏液看似一团果冻，但戴在头上后，你可以通过交互将其塑造成各种发型。佩戴时，绿色液体会缓缓流进你的耳朵，顺着额头和脖子滴落，长期使用会感到不适。</p>\n<p><em>蜕皮发式</em> 使你在神秘检定中获得+2物品加值，并让你可以施放 @UUID[Compendium.sf2e-anachronism.spells.Item.h7IhypLwItepwhou] 戏法，作为异能内在法术。</p>\n<p>此外，你可以启动战术型蜕皮发式。</p>\n<p><strong>启动—蜕皮旋舞</strong> 施法</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 蜕皮发式迅速旋转，使神秘能量从中涌出。你施放4环 @UUID[Compendium.sf2e-anachronism.spells.Item.jyrxfWeeCsrkhNit] 法术。</p>"
     },
     "ijUVS3a2PODx9u9H": {
       "name": "“砰！”弹药 Pow! Ammunition",
@@ -2351,7 +2448,7 @@
     },
     "joovle7gQuMEopjo": {
       "name": "商用型信息素腺 Pheromone Gland (Commercial)",
-      "description": "<p>强化的信息素腺体植入你的喉部和手腕，持续释放微量但有效的化学激素。这些信息素没有气味，其效果无法被察觉，除非你正在与通常主要依靠信息素交流的生物沟通。你在用于以下用途的自然检定上获得+1物品加值： @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{命令动物}。若你具有兽语移植物或其他能直接与动物沟通的方式，对动物进行交涉检定时也获得+1物品加值。</p>"
+      "description": "<p>强化的信息素腺体植入你的喉部和手腕，持续释放微量但有效的化学激素。这些信息素没有气味，其效果无法被察觉，除非你正在与通常主要依靠信息素交流的生物沟通。你在用于以下用途的自然检定上获得+1物品加值： @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{指挥动物}。若你具有兽语移植物或其他能直接与动物沟通的方式，对动物进行交涉检定时也获得+1物品加值。</p>"
     },
     "k1fLpwMmXM5RKdGI": {
       "name": "现实扭曲器 Reality Distorter",
@@ -2367,7 +2464,7 @@
     },
     "kFfYq4ONuKMgISRi": {
       "name": "抬升万古石 Aeon Stone (Uplifting)",
-      "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{缴械} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这块含有云雾状杂质的深蓝色棱柱轻如羽毛。其共鸣能力为你的特技检定提供+1物品加值。</p>\n<p><strong>启动—自由飞翔</strong> <span class=\"action-glyph\">1</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得等于自身速度或20尺（取较高者）的飞行速度，持续1分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.xZ5XMY55S42aGyjg]</p>"
+      "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这块含有云雾状杂质的深蓝色棱柱轻如羽毛。其共鸣能力为你的特技检定提供+1物品加值。</p>\n<p><strong>启动—自由飞翔</strong> <span class=\"action-glyph\">1</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得等于自身速度或20尺（取较高者）的飞行速度，持续1分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.xZ5XMY55S42aGyjg]</p>"
     },
     "kJmAAmnck30kNx2X": {
       "name": "卓越型皮下注射剂 Hypopen (Superior)",
@@ -2447,7 +2544,7 @@
     },
     "lLXSHmNwWUuSiACi": {
       "name": "导航万古石 Aeon Stone (Navigating)",
-      "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{缴械} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个深紫色的螺旋棱柱即使在最空旷的宇宙深处也能引导你内在的方向感。你在用于导航的驾驶检定中获得+2物品加值。其共鸣能力让你可以施放 @UUID[Compendium.sf2e-anachronism.spells.Item.3VucgRc8FRPGy9NI] ，作为神术天生戏法。</p>\n<p><strong>启动—导航</strong> <span class=\"action-glyph\">1</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你专注于一个曾经到访过的漂流信标，在脑海中规划前往该处的航线。你立即知道应该朝哪个方向行进才能抵达目的地；如果由你驾驶星舰，旅程会缩短1天。</p>"
+      "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个深紫色的螺旋棱柱即使在最空旷的宇宙深处也能引导你内在的方向感。你在用于导航的驾驶检定中获得+2物品加值。其共鸣能力让你可以施放 @UUID[Compendium.sf2e-anachronism.spells.Item.3VucgRc8FRPGy9NI] ，作为神术天生戏法。</p>\n<p><strong>启动—导航</strong> <span class=\"action-glyph\">1</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你专注于一个曾经到访过的漂流信标，在脑海中规划前往该处的航线。你立即知道应该朝哪个方向行进才能抵达目的地；如果由你驾驶星舰，旅程会缩短1天。</p>"
     },
     "lNtur8hLaimtVXJj": {
       "name": "完美型马拉塔头痛 Maratan Headache (Paragon)",
@@ -2463,7 +2560,16 @@
     },
     "ljXMUArjRJ1KgiQz": {
       "name": "火箭手护甲 Rocketeer Armor",
-      "description": "<p><strong>强化：</strong> 0</p><hr /><p>此护甲内置喷气背包，靴子和大腿处还装有辅助推进器。它能提供无与伦比的空中机动性，同时兼具时髦皮夹克的外观。火箭兵护甲始终装有 @UUID[Compendium.sf2e-anachronism.equipment.Item.CIZ3Walj6DmiaJGq]{喷射背包} ，无需额外费用，且不占用强化槽。</p>"
+      "description": "<p><strong>强化：</strong> 0</p><hr /><p>此护甲内置喷气背包，靴子和大腿处还装有辅助推进器。它能提供无与伦比的空中机动性，同时兼具时髦皮夹克的外观。火箭兵护甲始终装有 @UUID[Compendium.sf2e-anachronism.equipment.Item.CIZ3Walj6DmiaJGq]{喷射背包} ，无需额外费用，且不占用强化槽。</p>",
+      "subitems": [
+        {
+          "id": "2sXcDEq1vjKmsB0q",
+          "expectedName": "Jetpack (Commercial)",
+          "name": "商用型喷射背包 Jetpack (Commercial)",
+          "expectedDescription": "<p>Boosters attached to your armor allow you to fly.</p>\n<p><strong>Activate—Fly</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> You activate a jetpack to gain a fly Speed of 20 feet. This effect lasts for 1 minute or until you Dismiss it. You can use an action to Fly 0 feet to hover in place, but you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while doing so. A jetpack can't lift you if you're encumbered.</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
+          "description": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷射背包，获得20尺飞行速度。此效应持续1分钟，或直到你将其解消。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷射背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>"
+        }
+      ]
     },
     "ll89ge5rVvrQMShV": {
       "name": "轮椅 Wheelchair",
@@ -2511,11 +2617,11 @@
     },
     "nF5CksyPT1gG1ymi": {
       "name": "圣使护甲 Archon Armor",
-      "description": "<p><strong>强化：</strong> 0</p><hr /><p>亚空神使护甲是为那些渴望抵达天界的人设计的。它以天使为灵感，提供轻便灵活的复合防护，并使用排列成翅膀图案的小型喷气嘴，推动穿戴者高速前进。</p>"
+      "description": "<p><strong>强化：</strong> 0</p><hr /><p>圣使护甲是为那些渴望抵达天界的人设计的。它以天使为灵感，提供轻便灵活的复合防护，并使用排列成翅膀图案的小型喷气嘴，推动穿戴者高速前进。</p>"
     },
     "nPmeqjZ8b0mjqSfs": {
       "name": "商用型消音器 Silencer (Commercial)",
-      "description": "<p>该金属圆筒内填充了隔音材质，能够减少火器发出的噪音。火器开火时不会发出巨大的噪音。不过，被子弹命中的生物还是有可能会因为痛苦而喊叫出声。</p>"
+      "description": "<p>该圆筒内部设有隔音挡板，以降低噪音。火器开火时不会发出巨大的噪音。不过，被子弹命中的生物还是有可能会因为痛苦而喊叫出声。</p>"
     },
     "nQEIjZYijX5fxPVA": {
       "name": "终极型水晶电震碎片 Crystallized Shockshard (Ultimate)",
@@ -2587,7 +2693,7 @@
     },
     "on8hik5UAQRzJTjN": {
       "name": "战术型能量屏障 Energy Shielding (Tactical)",
-      "description": "<p>此护甲经过特殊的隔绝处理，以防护特定类型的伤害。你获得对酸蚀、寒冷、电击或火焰的抗力10。制造者在制作此强化模块时选择伤害类型。一套护甲可以安装多个能量护盾强化模块，但每个模块必须提供对不同伤害类型的抗力。</p>"
+      "description": "<p>此护甲经过特殊的隔绝处理，以防护特定类型的伤害。你获得对酸蚀、寒冷、电击或火焰的抗力10。制造者在制作此强化模块时选择伤害类型。一套护甲可以安装多个能量屏障强化模块，但每个模块必须提供对不同伤害类型的抗力。</p>"
     },
     "p47r2P6qrDUJvdxo": {
       "name": "战术型吸血鬼之牙 Vampiric Teeth (Tactical)",
@@ -2879,7 +2985,7 @@
     },
     "uTZbnQMxA5KuMzom": {
       "name": "战术型信息素腺 Pheromone Gland (Tactical)",
-      "description": "<p>强化的信息素腺体植入你的喉部和手腕，持续释放微量但有效的化学激素。这些信息素没有气味，其效果无法被察觉，除非你正在与通常主要依靠信息素交流的生物沟通。你在用于以下用途的自然检定上获得+2物品加值： @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{命令动物}。若你具有兽语移植物或其他能直接与动物沟通的方式，交涉检定也获得+2物品加值。</p>"
+      "description": "<p>强化的信息素腺体植入你的喉部和手腕，持续释放微量但有效的化学激素。这些信息素没有气味，其效果无法被察觉，除非你正在与通常主要依靠信息素交流的生物沟通。你在用于以下用途的自然检定上获得+2物品加值： @UUID[Compendium.pf2e.actionspf2e.Item.q9nbyIF0PEBqMtYe]{指挥动物}。若你具有兽语移植物或其他能直接与动物沟通的方式，交涉检定也获得+2物品加值。</p>"
     },
     "uZc036NvIdxm38jA": {
       "name": "卓越型干扰手雷 Szynegation Grenade (Superior)",
@@ -2895,11 +3001,11 @@
     },
     "utPFW3Cg5iPOUMPO": {
       "name": "奥克腾岩飞轮 Aucturnite Chakram",
-      "description": "<p><strong>强化：</strong> 1</p><hr /><p>这个带刃圆环由一块奥克顿矿（aucturnite）雕刻而成，造型仿照行星环。此材料神秘地出现在距离奥克顿（Aucturn）原轨道数光年之外的地方。</p>"
+      "description": "<p><strong>强化：</strong> 1</p><hr /><p>这个带刃圆环由一块奥克腾岩（aucturnite）雕刻而成，造型仿照行星环。此材料神秘地出现在距离奥克腾（Aucturn）原轨道数光年之外的地方。</p>"
     },
     "uxHoe7QTTXreGBky": {
       "name": "引导万古石 Aeon Stone (Guiding)",
-      "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{缴械} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这枚金色星形石闪耀着欢快的能量。其共鸣能力让你可以施放 @UUID[Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs]{神导术} ，作为异能天生戏法。</p>\n<p><strong>启动—宇宙幸运</strong> <span class=\"action-glyph\">1</span> （专注、幸运）</p>\n<p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 你的攻击检定、豁免或技能检定大失败</p><hr /><p><strong>效果</strong> 你将大失败改为失败。</p>"
+      "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这枚金色星形石闪耀着欢快的能量。其共鸣能力让你可以施放 @UUID[Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs]{神导术} ，作为异能天生戏法。</p>\n<p><strong>启动—宇宙幸运</strong> <span class=\"action-glyph\">1</span> （专注、幸运）</p>\n<p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 你的攻击检定、豁免或技能检定大失败</p><hr /><p><strong>效果</strong> 你将大失败改为失败。</p>"
     },
     "uxJScsvafT7Nqwhj": {
       "name": "听觉辅助器 Hearing Aid",
@@ -2943,7 +3049,16 @@
     },
     "vpKblQ6BGB63DG6v": {
       "name": "适水护甲 Aquavarius Armor",
-      "description": "<p><strong>强化：</strong> 1</p><hr /><p>此护甲装有坚固的背鳍和带蹼的肢端，便于水下探索和移动。适水护甲（Aquavarius armor）深受海洋生物学家、异星守望者和海洋爱好者喜爱。阿巴达尔集团（AbadarCorp）将其宣传为寻找沉没宝藏的冒险者不可或缺的沙滩服装。适水护甲始终装有 @UUID[Compendium.sf2e-anachronism.equipment.Item.CYNZnduBJCF6XCFs]{商用型水下喷射器} ，无需额外费用，且不占用强化槽。</p>"
+      "description": "<p><strong>强化：</strong> 1</p><hr /><p>此护甲装有坚固的背鳍和带蹼的肢端，便于水下探索和移动。适水护甲（Aquavarius armor）深受海洋生物学家、异星守望者和海洋爱好者喜爱。阿巴达尔集团（AbadarCorp）将其宣传为寻找沉没宝藏的冒险者不可或缺的沙滩服装。适水护甲始终装有 @UUID[Compendium.sf2e-anachronism.equipment.Item.CYNZnduBJCF6XCFs]{商用型水下喷射器} ，无需额外费用，且不占用强化槽。</p>",
+      "subitems": [
+        {
+          "id": "o0jdabufs9JzQgHw",
+          "expectedName": "Aqua Jets (Commercial)",
+          "name": "商用型水下喷射器 Aqua Jets (Commercial)",
+          "expectedDescription": "<p>Propellers, underwater jets, and other hydrodynamic propulsion systems enhance your aquatic mobility.</p>\n<p><strong>Activate—Propel</strong> <span class=\"action-glyph\">1</span></p><hr /><p><strong>Effect</strong> You activate the propulsion system to gain a swim Speed of 20 feet. This effect lasts for 1 minute or until you Dismiss it.</p>",
+          "description": "<p>螺旋桨、水下喷射器和其他水动力推进系统，增强你的水下机动性。</p>\n<p><strong>启动—推进</strong> <span class=\"action-glyph\">1</span></p><hr /><p><strong>效果</strong> 你启动推进系统，获得20尺游泳速度。此效果持续1分钟，或直到你将其解消。</p>"
+        }
+      ]
     },
     "vpjJYIgYZab0UZFa": {
       "name": "脉冲手枪 Pulsecaster Pistol",
@@ -3265,7 +3380,7 @@
     },
     "55elqx7N7Upze3lR": {
       "name": "商用型全频谱传感器组 Full-Spectrum Sensor Suite (Commercial)",
-      "description": "<p>这组传感器通过安装在头盔上的抬头显示器，提供周围环境的详细信息。</p>\n<p><strong>启动—扫描</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得30尺范围的震动感知作为模糊感官，持续10分钟。</p>"
+      "description": "<p>这组传感器通过安装在头盔上的抬头显示器，提供周围环境的详细信息。</p>\n<p><strong>启动—扫描</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得30尺范围的震颤感知作为模糊感官，持续10分钟。</p>"
     },
     "5HGhm21b38Tnxcj7": {
       "name": "磁力刃 Magnetic Edge",
@@ -3706,7 +3821,7 @@
     },
     "Jvp0x2Sc82WVpExT": {
       "name": "商用型全息皮肤 Holoskin (Commercial)",
-      "description": "<p>安装在腰带或肢体绑带上的全息投影器可以用一个交互动作启动。你可将其设定为投射出与你体型类别相同的另一生物的外观，以隐藏自己的真实外貌。全息皮肤不会改变你的声音、气味或举止。持握和穿戴物品的外观也不受影响。通常你需要用全息皮肤准备伪装，才能 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{假扮} 他人（使用欺骗技能）。</p>"
+      "description": "<p>安装在腰带或肢体绑带上的全息投影器可以用一个交互动作启动。你可将其设定为投射出与你体型类别相同的另一生物的外观，以隐藏自己的真实外貌。全息皮肤不会改变你的声音、气味或举止。持握和穿戴物品的外观也不受影响。通常你需要用全息皮肤准备伪装，才能 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装} 他人（使用欺骗技能）。</p>"
     },
     "K9M8bBNL1ygWgm07": {
       "name": "终极型造物胶囊 Creator Capsule (Ultimate)",
@@ -3967,7 +4082,7 @@
     },
     "U1XBNrPfBA1G87XB": {
       "name": "奇异钥匙圈 Bizarre Keyring",
-      "description": "<p>这个笨重的黄铜钥匙圈上悬挂着一尊未知外星生物的手工雕像。持握或携带此钥匙圈时，你在用于以下用途的神秘检定上获得+1物品加值： @UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{辨识魔法} 和 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}，且你可以施放 @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]{念动之手} 戏法，作为每天一次的异能天生法术。</p><hr /><p><em>注：</em> 物品的负载、价格和用法依据SFS裁定与澄清列出。</p>"
+      "description": "<p>这个笨重的黄铜钥匙圈上悬挂着一尊未知外星生物的手工雕像。持握或携带此钥匙圈时，你在用于以下用途的神秘检定上获得+1物品加值： @UUID[Compendium.pf2e.actionspf2e.Item.eReSHVEPCsdkSL4G]{辨识魔法} 和 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}，且你可以施放 @UUID[Compendium.pf2e.spells-srd.Item.pwzdSlJgYqN7bs2w]{念动之手} 戏法，作为每天一次的异能内在法术。</p><hr /><p><em>注：</em> 物品的负载、价格和用法依据SFS裁定与澄清列出。</p>"
     },
     "U48mM3lcrBTh25d9": {
       "name": "法术芯片（1环法术） Spell Chip (1st-Rank Spell)",
@@ -3983,7 +4098,7 @@
     },
     "UVUWVxSbkL3xTj0L": {
       "name": "先进型全频谱传感器组 Full-Spectrum Sensor Suite (Advanced)",
-      "description": "<p>这组传感器通过安装在头盔上的抬头显示器，提供周围环境的详细信息。</p>\n<p>你还获得30尺范围的嗅觉作为模糊感官，且启动频率变为每天两次。</p>\n<p>你的听觉还变为30尺范围的精准感官。</p>\n<p><strong>启动—扫描</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天三次</p><hr /><p><strong>效果</strong> 你获得30尺范围的震动感知作为模糊感官，持续10分钟。</p>"
+      "description": "<p>这组传感器通过安装在头盔上的抬头显示器，提供周围环境的详细信息。</p>\n<p>你还获得30尺范围的灵敏嗅觉作为模糊感官，且启动频率变为每天两次。</p>\n<p>你的听觉还变为30尺范围的精确感官。</p>\n<p><strong>启动—扫描</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天三次</p><hr /><p><strong>效果</strong> 你获得30尺范围的震颤感知作为模糊感官，持续10分钟。</p>"
     },
     "UXEZCHFWwvNS43ug": {
       "name": "商用型抵抗能量伤害法术安瓿 Resist Energy Spell Amp (Commercial)",
@@ -4054,7 +4169,7 @@
     },
     "Y29T9xXByIpAynzp": {
       "name": "战术型全频谱传感器组 Full-Spectrum Sensor Suite (Tactical)",
-      "description": "<p>这组传感器通过安装在头盔上的抬头显示器，提供周围环境的详细信息。</p>\n<p>你还获得30尺范围的嗅觉作为模糊感官，且启动频率变为每天两次。</p>\n<p><strong>启动—扫描</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得30尺范围的震动感知作为模糊感官，持续10分钟。</p>"
+      "description": "<p>这组传感器通过安装在头盔上的抬头显示器，提供周围环境的详细信息。</p>\n<p>你还获得30尺范围的灵敏嗅觉作为模糊感官，且启动频率变为每天两次。</p>\n<p><strong>启动—扫描</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得30尺范围的震颤感知作为模糊感官，持续10分钟。</p>"
     },
     "YM7RbKOpF7LBjJme": {
       "name": "黏合剂发射器 Adhesive Dispenser",
@@ -4240,7 +4355,7 @@
     },
     "hYPbnqp2OLVhCCwH": {
       "name": "万古石（容纳型） Aeon Stone (Containing)",
-      "description": "<p>这个不规则的灰色环体布满凹坑与疤痕，在至少有低强度辐射的环境中会发出绿光，辐射越强，光芒越亮。除了充当简单的辐射探测器，这块石头还会吸收穿戴者周围的辐射。你获得对辐射效应造成的毒素伤害的抗力8，并在对抗辐射的强韧豁免中获得+3状态加值。</p>\n<p>其共鸣能力让你可以每天一次，将防护术作为1环异能天生法术施放。</p>\n<p><strong>启动—辐射脉冲</strong> <span class=\"action-glyph\">2</span> （专注、魔法、操作、辐射）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你释放一道 @Template[type:burst|distance:10] ，以你为中心，使该区域受到辐射，持续1小时。进入区域的生物必须进行一次 @Check[fortitude|dc:22] 豁免，对抗严重放射病。此魔法辐射立即发作，各阶段之间的间隔为1轮。</p>"
+      "description": "<p>这个不规则的灰色环体布满凹坑与疤痕，在至少有低强度辐射的环境中会发出绿光，辐射越强，光芒越亮。除了充当简单的辐射探测器，这块石头还会吸收穿戴者周围的辐射。你获得对辐射效应造成的毒素伤害的抗力8，并在对抗辐射的强韧豁免中获得+3状态加值。</p>\n<p>其共鸣能力让你可以每天一次，将防护术作为1环异能内在法术施放。</p>\n<p><strong>启动—辐射脉冲</strong> <span class=\"action-glyph\">2</span> （专注、魔法、操作、辐射）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你释放一道 @Template[type:burst|distance:10] ，以你为中心，使该区域受到辐射，持续1小时。进入区域的生物必须进行一次 @Check[fortitude|dc:22] 豁免，对抗严重放射病。此魔法辐射立即发作，各阶段之间的间隔为1轮。</p>"
     },
     "hhHRdWCHmQjOTIAZ": {
       "name": "先进型自动驾驶仪 Autopilot (Advanced)",
@@ -4431,7 +4546,7 @@
     },
     "qDGTwtoPBdL6S5nQ": {
       "name": "商用型驾驶仪器 Piloting Instruments (Commercial)",
-      "description": "<p>这套先进型驾驶仪器直接集成到你的护甲中，包括一组可直接连接所驾驶载具的脊柱接口。你在驾驶检定中获得+1物品加值，并且可以 @UUID[Compendium.pf2e.actionspf2e.Item.yh9O9BQjwWrAIiuf]{接管控制} ，作为每回合一次的自由动作，除非它通常是一个多动作活动。</p>"
+      "description": "<p>这套先进型驾驶仪器直接集成到你的护甲中，包括一组可直接连接所驾驶载具的脊柱接口。你在驾驶检定中获得+1物品加值，并且可以 @UUID[Compendium.pf2e.actionspf2e.Item.yh9O9BQjwWrAIiuf]{接管} ，作为每回合一次的自由动作，除非它通常是一个多动作活动。</p>"
     },
     "qEF2PGXzFXng44A0": {
       "name": "注射器穿刺刃 Syringe Skewer",
@@ -4639,7 +4754,7 @@
     },
     "ywrFbvrJNQSKck8C": {
       "name": "战术型驾驶仪器 Piloting Instruments (Tactical)",
-      "description": "<p>这套先进型驾驶仪器直接集成到你的护甲中，包括一组可直接连接所驾驶载具的脊柱接口。你在驾驶检定中获得+2物品加值，并且可以 @UUID[Compendium.pf2e.actionspf2e.Item.yh9O9BQjwWrAIiuf]{接管控制} ，作为每回合一次的自由动作，除非它通常是一个多动作活动。</p>\n<p>你进行驾驶检定来执行@UUID[Compendium.sf2e-anachronism.actions.Item.7KMyRISNqp7JTzMn]，或使用3动作版本的@UUID[Compendium.pf2e.actionspf2e.Item.uS3qDAgOkZ7b8ERL]{驾驶}时，不承受通常的减值。</p>"
+      "description": "<p>这套先进型驾驶仪器直接集成到你的护甲中，包括一组可直接连接所驾驶载具的脊柱接口。你在驾驶检定中获得+2物品加值，并且可以 @UUID[Compendium.pf2e.actionspf2e.Item.yh9O9BQjwWrAIiuf]{接管} ，作为每回合一次的自由动作，除非它通常是一个多动作活动。</p>\n<p>你进行驾驶检定来执行@UUID[Compendium.sf2e-anachronism.actions.Item.7KMyRISNqp7JTzMn]，或使用3动作版本的@UUID[Compendium.pf2e.actionspf2e.Item.uS3qDAgOkZ7b8ERL]{驾驶}时，不承受通常的减值。</p>"
     },
     "z2y15eJ4cQ6KrKUW": {
       "name": "战术型机器主宰法术服务器 Spell Server of the Robot Master (Tactical)",

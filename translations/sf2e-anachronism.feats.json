@@ -410,7 +410,7 @@
     },
     "0xhVTQwPdlwFljzj": {
       "name": "士兵特性同步化 Soldier Synchronization",
-      "description": "<p>在判断所有士兵专长和职业特性时，你将手雷视为具有区域（爆发）特征的区域武器，包括主目标和压制火力。若你正持握1个手雷，那么你就能满足那些需要你持用区域武器的士兵专长的需求。</p>\n<p>当你以手雷使用主目标时，该手雷被视同为简易投掷武器，具有耗弹0和区域（爆发）特征，70尺射程（若具有长距离掷弹专长则为140尺）。打击对手雷的主目标造成1个伤害骰的伤害，该伤害骰与手雷具有相同的骰子大小以及伤害类型。若手雷为先进型或卓越型，该伤害会增加至2个伤害骰，精英型或终极型手雷为3个伤害骰，完美型手雷为4个伤害骰。若手雷本身不会造成伤害，那么使用主目标时它也不会造成伤害。</p>",
+      "description": "<p>在判断所有士兵专长和职业特性时，你将手雷视为具有区域（爆发）特征的区域武器，包括主目标和压制火力。若你正持握1个手雷，那么你就能满足那些需要你持用区域武器的士兵专长的需求。</p>\n<p>当你以手雷使用主目标时，该手雷被视同为简易投掷武器，具有耗弹0和区域（爆发）特征，70尺射程（若具有长距离掷弹专长则为140尺）。打击对手雷的主目标造成1个伤害骰的伤害，该伤害骰与手雷具有相同的骰子大小以及伤害类型。若手雷为先进型或卓越型，该伤害会增加至2个伤害骰，菁英型或终极型手雷为3个伤害骰，完美型手雷为4个伤害骰。若手雷本身不会造成伤害，那么使用主目标时它也不会造成伤害。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -1448,7 +1448,7 @@
         {
           "index": 0,
           "expected": "trained in Society",
-          "text": "社群技能专家"
+          "text": "社群技能受训"
         }
       ]
     },
@@ -1990,7 +1990,7 @@
     },
     "9BiW7yzDpWkj7hnv": {
       "name": "攻性防御 Offensive Defense",
-      "description": "<p><strong>需求</strong>你的护甲具有力场护盾（force field）升级或者持握一件具有科技特征的盾牌。</p><hr /><p>你使盾牌过载，制造冲击波击退附近敌人。你使用力场或盾牌@UUID[Compendium.sf2e-anachronism.actions.Item.oc0ZKnk5zD0GXqZi]，造成@Damage[2d10[bludgeoning]|options:area-damage,forced-movement]伤害，影响以你所占一个方格的一角为中心的@Template[burst|distance:5]{半径5尺爆发}，但不影响你自身。此次攻击具有追踪+1特征，属于盾牌武器组。豁免失败的生物被击退5尺。如果你具有首要目标职业能力，首要目标的打击使用你的力场或盾牌。</p><hr /><p><strong>特殊</strong>如果你使用卓越型或更高级的力场护盾或者盾牌，此次攻击具有追踪+2特征,如果是终极型或更高级的，具有追踪+3特征,相似的，如果是精英型或更高级的，伤害提升至@Damage[3d10[bludgeoning]|options:area-damage,forced-movement|shortLabel]伤害,如果是完美型提升至@Damage[4d10[bludgeoning]|options:area-damage,forced-movement|shortLabel]。</p>"
+      "description": "<p><strong>需求</strong>你的护甲具有力场护盾（force field）升级或者持握一件具有科技特征的盾牌。</p><hr /><p>你使盾牌过载，制造冲击波击退附近敌人。你使用力场或盾牌@UUID[Compendium.sf2e-anachronism.actions.Item.oc0ZKnk5zD0GXqZi]，造成@Damage[2d10[bludgeoning]|options:area-damage,forced-movement]伤害，影响以你所占一个方格的一角为中心的@Template[burst|distance:5]{半径5尺爆发}，但不影响你自身。此次攻击具有追踪+1特征，属于盾牌武器组。豁免失败的生物被击退5尺。如果你具有主目标职业能力，主目标的打击使用你的力场或盾牌。</p><hr /><p><strong>特殊</strong>如果你使用卓越型或更高级的力场护盾或者盾牌，此次攻击具有追踪+2特征,如果是终极型或更高级的，具有追踪+3特征,相似的，如果是菁英型或更高级的，伤害提升至@Damage[3d10[bludgeoning]|options:area-damage,forced-movement|shortLabel]伤害,如果是完美型提升至@Damage[4d10[bludgeoning]|options:area-damage,forced-movement|shortLabel]。</p>"
     },
     "9CIKxLVRVKWnnn5o": {
       "name": "燃烧殆尽 Burn Up",
@@ -2512,7 +2512,7 @@
         {
           "index": 0,
           "expected": "trained in Society",
-          "text": "社群技能专家"
+          "text": "社群技能受训"
         }
       ],
       "description": "<p>只要你正使用通讯单元、数据板或计算机交流，当你尝试对不理解你所用语言的生物使用具有语言特征的技能动作时，掷@Check[flat|dc:15]。成功时，效果如同该生物理解你所用的语言。如果你的社群技能达到传奇，DC为10（@Check[flat|dc:10]）。</p>"
@@ -3428,12 +3428,12 @@
     },
     "GBGvxPo6rnlEXFMg": {
       "name": "全息影像怀疑者 Hologram Skeptic",
-      "description": "<p>你很容易发现全息影像中的微小故障和不完美之处。即使你没有在@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]（Searching），你也总可以尝试进行一次检定以尝试识破（disbelieve）全息影像以及通常需要你搜寻或与之互动的带有幻术和科技特征的效果。</p>",
+      "description": "<p>你很容易发现全息影像中的微小故障与瑕疵。即使你没有在@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{搜寻}，你也总会尝试检定以识破全息影像，以及那些具有幻术和科技特征、通常要求你搜寻或与其交互才能识破的效果。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
           "expected": "trained in Computers",
-          "text": "计算机技能专家"
+          "text": "计算机技能受训"
         }
       ]
     },
@@ -5235,7 +5235,7 @@
     },
     "OwA77XLPXE9UD1m8": {
       "name": "向恢复之水低语 Whisper to the Restoring Waters",
-      "description": "<p><strong>频率</strong>每天一次</p><hr /><p>你带着一句神圣的感恩之言喝下一些水，让水将活力导入你的身体。这些水的作用等同于你选择的先进型医疗贴片或皮下注射器。在13级时，其作用等同于卓越型医疗贴片或皮下注射器。在17级时，其作用等同于精英型医疗贴片或皮下注射器。</p>"
+      "description": "<p><strong>频率</strong>每天一次</p><hr /><p>你带着一句神圣的感恩之言喝下一些水，让水将活力导入你的身体。这些水的作用等同于你选择的先进型医疗贴片或皮下注射器。在13级时，其作用等同于卓越型医疗贴片或皮下注射器。在17级时，其作用等同于菁英型医疗贴片或皮下注射器。</p>"
     },
     "OwKhWs0Qk0DCFHSM": {
       "name": "心灵感应通道 Telepathic Conduit",
@@ -5975,7 +5975,7 @@
     },
     "SuzoBwGsO1myKR8w": {
       "name": "毒性鸡尾酒 Venomous Cocktail",
-      "description": "<p>你可以通过摄入更多毒素来增强你的天生毒素，使其与你的天生毒素混合。你交互以取出（如有必要）并喝下你所持握武器中的一剂毒素或一发造成毒素伤害的投射弹药。你下次用你的毒颚进行的打击增加1d4点毒素伤害。如果你持握的武器是先进型或卓越型，伤害增加至两个骰子，如果武器是精英型或终极型，增加至三个骰子，如果是完美型，则增加至四个骰子。重击时，在翻倍武器伤害后骰掷这些骰子。</p>",
+      "description": "<p>你可以通过摄入更多毒素来增强你的天生毒素，使其与你的天生毒素混合。你交互以取出（如有必要）并喝下你所持握武器中的一剂毒素或一发造成毒素伤害的投射弹药。你下次用你的毒颚进行的打击增加1d4点毒素伤害。如果你持握的武器是先进型或卓越型，伤害增加至两个骰子，如果武器是菁英型或终极型，增加至三个骰子，如果是完美型，则增加至四个骰子。重击时，在翻倍武器伤害后骰掷这些骰子。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -6705,7 +6705,7 @@
     },
     "W5WkZTNWAh0cvxrz": {
       "name": "先祖学识 Ancestral Knowledge",
-      "description": "<p>选择一个族裔或传承。你学会该族裔或传承可选的一门新语言。你在社群技能上受训。如果你已经在社群技能上受训，则改为在另一项自选技能上受训。你同时在与该族裔或传承相关的学识技能上受训，例如学识或学识。</p><hr /><p><strong>特殊</strong>你可多次选取此专长，每次选择不同族裔或传承。</p>"
+      "description": "<p>选择一个族裔或传承。你学会该族裔或传承可选的一门新语言。你在社群技能上受训。如果你已经在社群技能上受训，则改为在另一项自选技能上受训。你同时在与该族裔或传承相关的学识技能上受训，例如仿生人学识或鼠族学识。</p><hr /><p><strong>特殊</strong>你可多次选取此专长，每次选择不同族裔或传承。</p>"
     },
     "W5wOmOJ5Y242UFNT": {
       "name": "撕裂洋流 Rip Current",
@@ -6858,7 +6858,7 @@
     },
     "WcDJMMPoAO2v26TN": {
       "name": "艾奥梅黛之炮 Iomedae's Barrage",
-      "description": "<p><strong>频率</strong> 每日1次</p><hr /><p>你将精神力量注入来自天界等离子炮的猛烈弹幕。艾奥梅黛之炮在@Template[type:cone|distance:15]或@Template[type:line|distance:30]内进行自动射击，造成具有神圣特征的@Damage[(floor(@actor.level/2 - 1))d6[fire], (floor(@actor.level/2 - 1))d6[spirit]|traits:holy]伤害（@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)]）。12级及之后每2级，火焰与灵魂伤害各增加1d6。此次反射豁免大失败的生物还会陷入@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}，持续1轮。</p>"
+      "description": "<p><strong>频率</strong> 每日1次</p><hr /><p>你将精神力量注入来自天界等离子炮的猛烈弹幕。艾奥梅黛之炮在@Template[type:cone|distance:15]或@Template[type:line|distance:30]内进行自动射击，造成具有圣洁特征的@Damage[(floor(@actor.level/2 - 1))d6[fire], (floor(@actor.level/2 - 1))d6[spirit]|traits:holy]伤害（@Check[type:reflex|dc:resolve(@actor.attributes.classOrSpellDC.value)]）。12级及之后每2级，火焰与精魂伤害各增加1d6。此次反射豁免大失败的生物还会陷入@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}，持续1轮。</p>"
     },
     "WiDlxCrliqxY6RUL": {
       "name": "速通 Speedrun",
@@ -8848,7 +8848,7 @@
     },
     "h3Po5sPrWAgqaq97": {
       "name": "粘稠包卷 Gooey Engulf",
-      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p>你可以行走并穿过路径上任何生物所处空间。任何你移动穿越空间的与你体型相同或更小的生物，可以尝试一次@Check[reflex|against:athletics]对抗你的运动DC，以避免被包卷。无法行动的生物在此豁免上自动大失败。如果一个生物成功通过其豁免，它可以选择被推到侧面或是在你移动结束时被推到你的前方。你每回合只能尝试粘稠包卷同一生物一次。你能够容纳尽可能多的生物直至填满其占据空间。</p>\n<p>豁免失败的生物被拉入你体内。它@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}且@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，并且必须屏息，否则开始窒息。被吞没期间，该生物在其每个回合结束时受到@Damage[1d6[acid]]伤害（此伤害可由@UUID[Compendium.sf2e-anachronism.equipment.Item.b12tnjobe9IrphII]{硬光缠手带}改善，如同徒手攻击）。被吞没的生物可以[[/act escape dc=athletics]]{脱逃}，对抗你的运动DC，以此脱身。被吞没的生物可以攻击你，但只能用徒手攻击或轻量及更轻的武器。你对这些攻击@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。如果你在单次攻击或法术中受到的穿刺或挥砍伤害达到或超过你剩余生命值的四分之一，被吞没的生物就会切开你的身体脱身。以任一方式脱身的生物都可以立即呼吸，并离开你的空间。如果你入睡、被打至@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}或死亡，你吞没的所有生物都会自动获释。</p>",
+      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p>你可以行走并穿过路径上任何生物所处空间。任何你移动穿越空间的与你体型相同或更小的生物，可以尝试一次@Check[reflex|against:athletics]对抗你的运动DC，以避免被包卷。无法行动的生物在此豁免上自动大失败。如果一个生物成功通过其豁免，它可以选择被推到侧面或是在你移动结束时被推到你的前方。你每回合只能尝试粘稠包卷同一生物一次。你能够容纳尽可能多的生物直至填满其占据空间。</p>\n<p>豁免失败的生物被拉入你体内。它@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}且@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，并且必须屏息，否则开始窒息。被吞没期间，该生物在其每个回合结束时受到@Damage[1d6[acid]]伤害（此伤害可由@UUID[Compendium.sf2e-anachronism.equipment.Item.b12tnjobe9IrphII]{硬光缠手带}改善，如同徒手攻击）。被吞没的生物可以[[/act escape dc=athletics]]{逃脱}，对抗你的运动DC，以此脱身。被吞没的生物可以攻击你，但只能用徒手攻击或轻量及更轻的武器。你对这些攻击@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。如果你在单次攻击或法术中受到的穿刺或挥砍伤害达到或超过你剩余生命值的四分之一，被吞没的生物就会切开你的身体脱身。以任一方式脱身的生物都可以立即呼吸，并离开你的空间。如果你入睡、被打至@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}或死亡，你吞没的所有生物都会自动获释。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -9238,7 +9238,7 @@
     },
     "itNu1sa1RfmmykkC": {
       "name": "坚固废料 Sturdy Scrap",
-      "description": "<p>你构建出更耐久的临时外壳。你用碎@UUID[Compendium.sf2e-anachronism.feats.Item.JeGhKyXLpV99DxEP]制作的盾牌为战术型品质。你在9级时可以制作先进型盾牌，13级为卓越型盾牌，17级为精英型盾牌。此外，你可以使用废料盾牌来制作一面@UUID[Compendium.sf2e-anachronism.equipment.Item.n7My3cvLdfygf9xp]。</p>",
+      "description": "<p>你构建出更耐久的临时外壳。你用@UUID[Compendium.sf2e-anachronism.feats.Item.JeGhKyXLpV99DxEP]制作的盾牌为战术型品质。你在9级时可以制作先进型盾牌，13级为卓越型盾牌，17级为菁英型盾牌。此外，你可以使用废料盾牌来制作一面@UUID[Compendium.sf2e-anachronism.equipment.Item.n7My3cvLdfygf9xp]。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -11090,7 +11090,7 @@
     },
     "tNhDIAP90tt3XOPW": {
       "name": "飞扑卧倒 Dive for Cover",
-      "description": "<p>当受到威胁时，你可以迅速@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]并找到一个地方蹲下。你跳跃（Leap），着陆时@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]，并立即采@UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]（Take Cover）动作压低身形，获得对远程攻击的高等掩蔽。</p>",
+      "description": "<p>当受到威胁时，你可以迅速飞扑，找到可以伏身的地方。你@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}，着陆时@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}，随后立即@UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{寻找掩蔽}，从而压低身形，获得对远程攻击的高等掩蔽。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -11647,7 +11647,7 @@
     },
     "wMWu5PgKVYqJlvKG": {
       "name": "剧毒径流 Toxic Runoff",
-      "description": "<p>你分泌的有毒化学物质足以侵害其他生物。每日准备时，你制造两剂拾荒蜗族毒素。这些毒药无法由其他生物正确使用，没有价值，并在你下次每日准备时失效。毒药的豁免DC使用你的职业DC或法术DC中较高者。</p>\n<p><strong>拾荒蜗族毒素</strong>（伤口，毒素）</p>\n<p><strong>豁免检定</strong> @Check[type:fortitude|against:class-spell]</p>\n<p><strong>最大持续时间</strong> 6轮</p>\n<p><strong>阶段1</strong> @Damage[1d6[poison]]伤害，且@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}（1轮）</p>\n<p><strong>阶段2</strong> 1d6毒素伤害，衰弱1，且@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}（1轮）</p>\n<p><strong>阶段3</strong> @Damage[2d6[poison]]伤害、衰弱1和笨拙1（1轮）</p>"
+      "description": "<p>你分泌的有毒化学物质足以侵害其他生物。每日准备时，你制造两剂拾荒蜗族毒素。这些毒药无法由其他生物正确使用，没有价值，并在你下次每日准备时失效。毒药的豁免DC使用你的职业DC或法术DC中较高者。</p>\n<p><strong>拾荒蜗族毒素</strong>（伤口，毒素）</p>\n<p><strong>豁免检定</strong> @Check[type:fortitude|against:class-spell]</p>\n<p><strong>最大持续时间</strong> 6轮</p>\n<p><strong>阶段1</strong> @Damage[1d6[poison]]伤害，且@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}（1轮）</p>\n<p><strong>阶段2</strong> 1d6毒素伤害，力竭1，且@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}（1轮）</p>\n<p><strong>阶段3</strong> @Damage[2d6[poison]]伤害、力竭1和笨拙1（1轮）</p>"
     },
     "wMtr1tpaWvX2dCbg": {
       "name": "表亲成群 Dozens of Cousins",
@@ -12423,7 +12423,7 @@
     },
     "0z6N6876SD83JfgY": {
       "name": "黏附擒握 Adhesive Grip",
-      "description": "<p>你的黏液让你能顽强地抓牢敌人。当你对一个目标进行[[/act grapple]]检定并取得大失败时，改为获得失败结果。此外，被你@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{擒拿}的生物进行脱逃检定时，若失败则改为大失败，若大成功则改为成功。</p>"
+      "description": "<p>你的黏液让你能顽强地抓牢敌人。当你对一个目标进行[[/act grapple]]检定并取得大失败时，改为获得失败结果。此外，因你而@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}的生物进行逃脱检定时，若失败则改为大失败，若大成功则改为成功。</p>"
     },
     "15v6nXEIi10i0CNI": {
       "name": "干得好！ Got 'Em",
@@ -14854,7 +14854,7 @@
     },
     "q5wpA72zrimqgAXW": {
       "name": "人肉炮弹 Cannonball",
-      "description": "<p>多年玩轻灵狂欢球（skitterspree）的经历让你练就了特殊招式。你紧紧蜷缩成球，一个与你相邻、有一只空闲手且体型至少比你大一级的盟友，可以使用一个反应动作，以你的身体作为无武装攻击尝试一次远程打击；在此次打击期间，该攻击造成1d10钝击伤害。此无武装攻击属于搏击武器组，具有灵巧、模拟、凶暴和投掷（20尺）特征。此无武装攻击会获得你穿戴的@UUID[Compendium.sf2e-anachronism.equipment.Item.b12tnjobe9IrphII]{硬光缠手带}的好处。你在目标相邻处落地，但如果此次打击大失败，你会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}着地。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.hi8MzgUdx532I1Gt]{效果：人肉炮弹}</p>",
+      "description": "<p>多年玩轻灵狂欢球（skitterspree）的经历让你练就了特殊招式。你紧紧蜷缩成球，一个与你相邻、有一只空闲手且体型至少比你大一级的盟友，可以使用一个反应动作，以你的身体作为无武装攻击尝试一次远程打击；在此次打击期间，该攻击造成1d10钝击伤害。此无武装攻击属于搏击武器组，具有灵巧、非电子、凶暴和投掷（20尺）特征。此无武装攻击会获得你穿戴的@UUID[Compendium.sf2e-anachronism.equipment.Item.b12tnjobe9IrphII]{硬光缠手带}的好处。你在目标相邻处落地，但如果此次打击大失败，你会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}着地。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.hi8MzgUdx532I1Gt]{效果：人肉炮弹}</p>",
       "cnPrerequisites": [
         {
           "index": 0,

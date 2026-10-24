@@ -1,11 +1,11 @@
 {
-  "version": "0.3.6",
+  "version": "0.3.7",
   "babeleVersion": "2.9.1",
   "babeleSourceCommit": "49c42edc3f2939934ed1d7105600914b3c8d58a2",
   "babeleSource": "https://gitlab.com/riccisi/foundryvtt-babele/-/tree/2.9.1",
   "objectsChecked": 5616,
   "matchedTranslations": 5616,
-  "nativeMappedFields": 14152,
+  "nativeMappedFields": 14292,
   "embeddedArraysChecked": 698,
   "nativeEntryMatching": true,
   "nativeFieldMapping": true,
@@ -72,8 +72,8 @@
   ],
   "translationOutputHashes": {
     "sf2e-anachronism._packs-folders.json": "cf965dc4d1e569ca9dd1e8b435369a63f7994d8deecfb2345b824353894aaed3",
-    "sf2e-anachronism.actions.json": "09107fb1eaceb3ea33eec3642370456fc89f2ba7e17c0921b2e10dd15bd730f1",
-    "sf2e-anachronism.alien-core-bestiary.json": "e4e18a7942dcc947b1bd4e58b7b76afc7612c345553525dde4bd28b07f53aa1c",
+    "sf2e-anachronism.actions.json": "87fcad5412cc06fcac0b75a05d6b9d0b153532f28027b24a7cd2bd19849521b3",
+    "sf2e-anachronism.alien-core-bestiary.json": "858eb10bd68646cce2ab62dbae052681c4bd792c4ed7a3abb234ce2dbd6b9bfe",
     "sf2e-anachronism.ancestries.json": "106d9d602a3143ffb7850a77e613600b2689ea53ea852ef453ff5991bae6ac38",
     "sf2e-anachronism.ancestry-features.json": "f79e5bba8328eb453bdec3db97e7fd22ceae364c4dca0fa0b4a09c18274b2e2c",
     "sf2e-anachronism.backgrounds.json": "66a32e94529914c6adc7e98ec96510897e3be693f7417ac5796931839bc2b867",
@@ -84,24 +84,24 @@
     "sf2e-anachronism.conditions.json": "192cbeaff4fca48b5bcbcc944350b93b9bdd10702d95ba6b573cd5be9843010c",
     "sf2e-anachronism.deities.json": "c8319d15984eb9bdfe6a1da3c9bde5fa162dc44495161be1247d85027bb31c1a",
     "sf2e-anachronism.equipment-effects.json": "16ea8af2cf629e5f3f480099e71ced1a8690c946222707dc58fab7690e94fe9a",
-    "sf2e-anachronism.equipment.json": "e5d395c2a1a2a04109e4cd7bffcfb5d440063464cce6af03b34f23d0c9565dd0",
-    "sf2e-anachronism.feat-effects.json": "cd0388a4d4df134f6a1a5c88dd8a1dedbd45f571029a1091057d7ae6576d2b9e",
-    "sf2e-anachronism.feats.json": "2265d6cc41671bd98a714fc036b418f6e4448ef508d65f6a5f5e28528b72f0ca",
-    "sf2e-anachronism.guilt-of-the-grave-world-bestiary.json": "89f126fddb424c6d491e21f865f059cf021972ec5edfce9ee02054d048f5797a",
+    "sf2e-anachronism.equipment.json": "bbde34ed0a420e4caef63f27db88f57b961be62dd4a336e20f8dd6cf9b1b243a",
+    "sf2e-anachronism.feat-effects.json": "b04a4ad3e24ff2e54666301ca2432696144bf86f22ce0497f7bde1107f80223f",
+    "sf2e-anachronism.feats.json": "de5808c9da8dae4245ad6b9859fdec283153abbf4686173245258d8efff154a3",
+    "sf2e-anachronism.guilt-of-the-grave-world-bestiary.json": "5e2c2cabe3966f5a4890abd6866b5f8c6f7ae39b417988eefb331dcbeec5bb0b",
     "sf2e-anachronism.heritages.json": "5d31e3eedb1e86c6fa4d18d8c271ba6dd1ac94d9312ac4cf492d443a0fdabfa1",
-    "sf2e-anachronism.iconics.json": "39f203577b6191beb86cda0f6df9e533844292b7e875986d858014ad94e0638f",
-    "sf2e-anachronism.journals.json": "3555d9da49d904398d3e3255c07fc0fd46e4f5b105a08dde123bf10249bae828",
-    "sf2e-anachronism.paizo-pregens.json": "8f59a70d99b9de91e7843357cade4aa132150cf93debf686ff4eb8c223130db7",
-    "sf2e-anachronism.rulebook-bestiaries.json": "6efef803cae852756e190efaf1f318fb1c91bc33222da39cb8dc498763dc6cc9",
-    "sf2e-anachronism.secrets-of-the-swarm-bestiary.json": "b5c51347fc8f6afaf9651d275a5b19a93d2ac765c0fbff44fde0367cb13f2f44",
+    "sf2e-anachronism.iconics.json": "1ca3d7d60254029e48751633b955a10bed134c8ef97a7af28189a5f527d520ab",
+    "sf2e-anachronism.journals.json": "4a162c3d1971a4e34c8bd0092a77c81090849d45b9ee46e4ba34d6b0c5d762cb",
+    "sf2e-anachronism.paizo-pregens.json": "dd3714921575521ec1cb9f07a2675a63a6dfed34dff96467333b18c418a63821",
+    "sf2e-anachronism.rulebook-bestiaries.json": "8c1c0f3f40b2df64396d6e9911e59d008d6ce36c68e79b02211af1ec836dbcb1",
+    "sf2e-anachronism.secrets-of-the-swarm-bestiary.json": "64dc398d977991b66bae02eadecfd0dd5878dd1163672a6240a90a16e8753555",
     "sf2e-anachronism.spell-effects.json": "3b66907c98d89a3bb79c91ec177ce56a6c08757dc4390ab3e7ba48aed75557d0",
-    "sf2e-anachronism.spells.json": "2c39aba111e778119ac1245fc4f4cec7f9cf6850cdc3a38d16885535e23fd8a1",
-    "sf2e-anachronism.standalone-adventure-bestiary.json": "69185bb4dc7294892096a9cb14b4a9664be2181f3b81fa7be2c5509b421b7ade",
-    "sf2e-anachronism.starfinder-society-bestiary.json": "fde5a1a65551dafb7af854587372b34d2e9b07c04030212ab6821b5f6a7b39b8",
+    "sf2e-anachronism.spells.json": "08a63f1c309b457bf419a9649506e6d1c9282f68b3fc4b6d1b6173c0fef2fdf7",
+    "sf2e-anachronism.standalone-adventure-bestiary.json": "ba7f77678794d3c369a16b6a47f3f4ae180ff0fa7d6140820e3487efc15c4ce9",
+    "sf2e-anachronism.starfinder-society-bestiary.json": "9426991825be3a11ba24dd7f029a8d0d30959ae941c7218bde95336918d40f7c",
     "sf2e-anachronism.starfinder-society-boons.json": "f46a7989cc51beb03e922ea53df17e746d26b50b3a54b6a0b4f1d62c4fbceb78",
-    "sf2e-anachronism.tales-from-the-vast-bestiary.json": "0a0db2fe8da2a203177559984168a68faa22d8bf116f6d6d0dc2aad7f68d4aab"
+    "sf2e-anachronism.tales-from-the-vast-bestiary.json": "282143297fc039bc13db88832bc63cee402558186a3dc4141639c309a4759b9d"
   },
-  "runtimeScriptSha256": "73a6ad9c7b7ea0d5880331c9b4e8efb6d7215f34ff825975890655a0a6c9f464",
+  "runtimeScriptSha256": "76dc78ab44b5f0fe407a0928fa526f03f4d33c2fb6aa60e5ce9454a3fe9d6e70",
   "otherTranslationFilesByteIdenticalTo031": 28,
   "sourceOriginalFilesUnchanged": true,
   "existingWorldDocumentsUpdated": false,
@@ -231,11 +231,11 @@
     "scope": "User confirmed usable; exact build and test scenarios not specified"
   },
   "searchIndexOutputHashes": {
-    "titles.json": "f367c9a74ac51dbff7d63cd3c9cdd4e42b664e061b7ec202175f44c66dc7b01f",
+    "titles.json": "ea2a112e8da45991da84e944d1fbf0ce007448660821f76cd7afedd2df1c0c6a",
     "labels.json": "21a88b31620798d321a038b340ba12567f316d20f5a92c34100afca7dfe26e35"
   },
   "searchIndexCompatibility": {
-    "version": "0.3.6",
+    "version": "0.3.7",
     "reproducedMissingIndex": true,
     "lightIndexNamesChecked": 5613,
     "nativeIndexNamesChecked": 5613,
@@ -251,19 +251,9 @@
     "liveFoundryTested": false,
     "referenceCommit": "11aa2358f1373ec1228871e0db93c20a5680abf6"
   },
-  "completedThisRelease": {
-    "actorPacks": [
-      "alien-core-bestiary",
-      "iconics",
-      "paizo-pregens"
-    ],
-    "actors": 282,
-    "embeddedItems": 4280,
-    "embeddedDescriptions": 3403,
-    "publicNotes": 234,
-    "displayStrings": 456,
-    "bilingualDisplayNames": 241
-  },
-  "displayScriptSha256": "24ccb1c89f61f2a31aa9afa705ee02229f7e53f091de233fe642cc55f98ec9c7",
-  "displayStringsSha256": "496a3c6a026defeeaf7531ceaded3def133c78722194778f0522e4df062a0cca"
+  "displayScriptSha256": "3caa944ea76ccfc5cd3ee1522e4e1e1d7307a1db8315484ddeaeb9b2023b4ced",
+  "displayStringsSha256": "b4f0b59fcc6d379ac33b9dcfbedaeb4934c43a9839ea28b13f566dbe033318fa",
+  "subitemArraysChecked": 10,
+  "subitemAndPrerequisiteRegressions": true,
+  "auditReport": "reports/audit-0.3.7.json"
 }

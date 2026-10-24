@@ -56,7 +56,14 @@
           "expectedName": "Phreaker",
           "name": "电话黑客",
           "expectedDescription": "<p>You've learned how to hack using alternative methods. You can use Computers to Disable a Device or Hack a system using any computer, comm unit, or terminal instead of a hacking toolkit. If you're an expert in Computers and the equipment you use is at least 3rd level, you gain a +1 item bonus to Disable a Device or Hack.</p><hr /><p><strong>Special</strong> If you have the @UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4] or @UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf] skill feat, you can use this feat to Combat Hack or @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion} without a hacking toolkit.</p>",
-          "description": "<p>你学会了以其他方法骇入。你可以用任意计算机、通讯器或终端，使用计算机技能解除装置或骇入系统，无需骇客工具包。如果你在计算机达到专家，且所用设备至少为3级，则你解除装置或骇入的检定获得+1物品加值。</p><hr /><p><strong>特殊</strong>如果你具有@UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4]或@UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf]技能专长，就可以使用此专长，在没有骇客工具包的情况下进行战斗骇入或@UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}。</p>"
+          "description": "<p>你学会了以其他方法骇入。你可以用任意计算机、通讯器或终端，使用计算机技能解除装置或骇入系统，无需骇客工具包。如果你在计算机达到专家，且所用设备至少为3级，则你解除装置或骇入的检定获得+1物品加值。</p><hr /><p><strong>特殊</strong>如果你具有@UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4]或@UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf]技能专长，就可以使用此专长，在没有骇客工具包的情况下进行战斗骇入或@UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Computers",
+              "text": "计算机技能受训"
+            }
+          ]
         },
         {
           "id": "7svFbL0sjmIJn1Dw",
@@ -264,14 +271,28 @@
           "expectedName": "Feather Step",
           "name": "轻羽步",
           "expectedDescription": "<p>You step carefully and quickly. You can Step into difficult terrain.</p>",
-          "description": "<p>你的步伐谨慎而迅捷。你可以用快步进入困难地形。</p>"
+          "description": "<p>你的步伐谨慎而迅捷。你可以用快步进入困难地形。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "Dexterity +2",
+              "text": "敏捷+2"
+            }
+          ]
         },
         {
           "id": "pGbTtGlRsXAVTHq2",
           "expectedName": "Digital Diversion",
           "name": "数码干扰",
           "expectedDescription": "<p><strong>Requirements</strong> You are holding or wearing a hacking toolkit and have a free hand.</p><hr /><p>Whether it's a sudden comm unit ping or a warning alarm on an equipment display, you can @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{Create a Diversion} by using Computers instead of Deception on an adjacent target carrying, wearing, or wielding a tech item.</p>\n<p>[[/act create-a-diversion variant=distracting-words skill=computers]]</p>\n<p>[[/act create-a-diversion variant=gesture skill=computers]]</p>\n<p>[[/act create-a-diversion variant=trick skill=computers]]</p>",
-          "description": "<p><strong>需求</strong>持用或穿戴黑客工具包且有一只手空闲</p><hr /><p>无论是突然响起的通讯单元提示音，还是装备显示屏上的警报，你都可以对一个与你邻接、携带、穿戴或持用科技物品的目标使用计算机代替欺骗来@UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}。</p>\n<p>[[/act create-a-diversion variant=distracting-words skill=computers]]</p>\n<p>[[/act create-a-diversion variant=gesture skill=computers]]</p>\n<p>[[/act create-a-diversion variant=trick skill=computers]]</p>"
+          "description": "<p><strong>需求</strong>持用或穿戴黑客工具包且有一只手空闲</p><hr /><p>无论是突然响起的通讯单元提示音，还是装备显示屏上的警报，你都可以对一个与你邻接、携带、穿戴或持用科技物品的目标使用计算机代替欺骗来@UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{分神}。</p>\n<p>[[/act create-a-diversion variant=distracting-words skill=computers]]</p>\n<p>[[/act create-a-diversion variant=gesture skill=computers]]</p>\n<p>[[/act create-a-diversion variant=trick skill=computers]]</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Computers",
+              "text": "计算机技能受训"
+            }
+          ]
         },
         {
           "id": "hxn4MqdoPKGbrGJi",
@@ -586,7 +607,14 @@
           "expectedName": "Quick Squeeze",
           "name": "迅速挤入",
           "expectedDescription": "<p>You Squeeze 5 feet per round (10 feet on a critical success). If you're legendary in Acrobatics, you Squeeze at full Speed.</p>",
-          "description": "<p>你每轮可以在挤入（Squeeze）狭窄空间时移动5尺（大成功10尺）。若你在特技技能上的熟练度达到传奇，你可以在挤入狭窄空间时全速移动。</p>"
+          "description": "<p>你每轮可以在挤入（Squeeze）狭窄空间时移动5尺（大成功10尺）。若你在特技技能上的熟练度达到传奇，你可以在挤入狭窄空间时全速移动。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Acrobatics",
+              "text": "特技技能受训"
+            }
+          ]
         },
         {
           "id": "I5zeeprj8bWCtDFU",
@@ -600,7 +628,14 @@
           "expectedName": "Face in the Crowd",
           "name": "混入人群",
           "expectedDescription": "<p>You know how to get lost in a crowd. You can use cover from crowds to Hide and @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}, gaining a +2 circumstance bonus to your Stealth checks when in a crowd of at least 10 creatures and a +4 circumstance bonus to your Stealth checks when in a crowd of at least 100 creatures. Hidden creatures don't count as members of a crowd. If you're a master in Deception you only need 5 creatures to get these bonuses.</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.IaICLG7zwOV4OKgM]</p>",
-          "description": "<p>你知道如何在人群中消失。你可以利用人群的掩护进行躲藏和@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]，当在至少10个生物的人群中时，你的隐秘检定获得+2环境加值，当在至少100个生物的人群中时，你的隐秘检定获得+4环境加值。藏匿的生物不计入人群数量。如果你在欺骗技能上有大师熟练，则只需要5个生物就能获得上述好处。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.IaICLG7zwOV4OKgM]</p>"
+          "description": "<p>你知道如何在人群中消失。你可以利用人群的掩护进行躲藏和@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]，当在至少10个生物的人群中时，你的隐秘检定获得+2环境加值，当在至少100个生物的人群中时，你的隐秘检定获得+4环境加值。藏匿的生物不计入人群数量。如果你在欺骗技能上有大师熟练，则只需要5个生物就能获得上述好处。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.IaICLG7zwOV4OKgM]</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Deception",
+              "text": "欺骗技能受训"
+            }
+          ]
         },
         {
           "id": "8o33rpqGgwtMeZzG",
@@ -797,7 +832,14 @@
           "expectedName": "Express Driver",
           "name": "特快司机",
           "expectedDescription": "<p>You know how to get there fast. When calculating your travel Speed for the day while piloting a vehicle, you can attempt a Piloting check to increase your vehicle's travel Speed for long-term overland or aerial travel. The DC is determined by the GM but is typically based on the vehicle's piloting DC or a difficulty based on the environment, whichever is harder. On a success, double your vehicle's travel Speed for the day. This has no effect on your vehicle's movement in encounters or on starships traveling through the Drift.</p>",
-          "description": "<p>你懂得如何迅速抵达目的地。驾驶载具并计算当天的旅行速度时，你可以尝试驾驶检定，提高载具在长期陆路或空中旅行时的旅行速度。DC由GM决定，通常采用载具驾驶DC或基于环境的难度，取较高者。成功时，载具当天的旅行速度翻倍。这不影响载具在遭遇中的移动，也不影响通过漂流域航行的星舰。</p>"
+          "description": "<p>你懂得如何迅速抵达目的地。驾驶载具并计算当天的旅行速度时，你可以尝试驾驶检定，提高载具在长期陆路或空中旅行时的旅行速度。DC由GM决定，通常采用载具驾驶DC或基于环境的难度，取较高者。成功时，载具当天的旅行速度翻倍。这不影响载具在遭遇中的移动，也不影响通过漂流域航行的星舰。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Piloting",
+              "text": "驾驶技能受训"
+            }
+          ]
         },
         {
           "id": "iQPOQy4vRsOdSb92",
@@ -939,7 +981,14 @@
           "expectedName": "Intimidating Shot",
           "name": "威吓射击",
           "expectedDescription": "<p>You attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} a foe with your ranged weapon by firing it into the air, using ammo equal to the weapon's expend and the weapon's maximum range rather than the usual range of 30 feet. This check doesn't take a –4 circumstance penalty if the target doesn't share a language with you.</p>",
-          "description": "<p>你尝试通过向空中开枪来对一个在你远程武器射程内的敌人@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]，使用的弹药数量等于武器的耗弹量，使用武器的最大射程替代挫败士气通常的30尺范围。即便目标与你语言不通，此检定也不会受到-4环境减值。</p>"
+          "description": "<p>你尝试通过向空中开枪来对一个在你远程武器射程内的敌人@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]，使用的弹药数量等于武器的耗弹量，使用武器的最大射程替代挫败士气通常的30尺范围。即便目标与你语言不通，此检定也不会受到-4环境减值。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Intimidation",
+              "text": "威吓技能受训"
+            }
+          ]
         },
         {
           "id": "tcbubfwjyb5Ddu6p",
@@ -1088,7 +1137,14 @@
           "expectedName": "Dubious Knowledge",
           "name": "可疑知识",
           "expectedDescription": "<p>You're a treasure trove of information, but not all of it comes from reputable sources. When you fail (but don't critically fail) a Recall Knowledge check using any skill, you learn the correct answer and an erroneous answer, but you don't have any way to differentiate which is which. This can occur as knowing something is significant, but not whether it's good or bad.</p>",
-          "description": "<p>你是信息的宝库，但它们的来源并非全都可靠。当你使用任何技能进行的回忆知识检定失败（但没有大失败）时，你会得到一个正确的答案和一个错误的答案，但你不会知道哪个是正确的。也可能是知道某件事情非常重要，但不知道它是好是坏。</p>"
+          "description": "<p>你是信息的宝库，但它们的来源并非全都可靠。当你使用任何技能进行的回忆知识检定失败（但没有大失败）时，你会得到一个正确的答案和一个错误的答案，但你不会知道哪个是正确的。也可能是知道某件事情非常重要，但不知道它是好是坏。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in a skill with the Recall Knowledge action",
+              "text": "一项具有回忆知识动作的技能受训"
+            }
+          ]
         },
         {
           "id": "m15foCnAPTnLTiiB",
@@ -1199,7 +1255,14 @@
           "expectedName": "Deadlift",
           "name": "硬举",
           "expectedDescription": "<p><strong>Requirements</strong> You aren't @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued}.</p><hr /><p>For 1 minute, you can carry 4 more Bulk than normal before becoming encumbered. The amount you can carry increases to 6 at expert, 8 at master, and 10 at legendary. When the benefits of this feat end, you become @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} for 10 minutes.</p>",
-          "description": "<p><strong>需求</strong>你没有@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]状态</p><hr /><p>在1分钟内，你可以携带比正常多4B的物品而不受超载影响。额外的负载在运动专家时提升至6，大师时提升至8，传奇时提升至10。当此专长带来的好处结束时，你陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]10分钟。</p>"
+          "description": "<p><strong>需求</strong>你没有@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]状态</p><hr /><p>在1分钟内，你可以携带比正常多4B的物品而不受超载影响。额外的负载在运动专家时提升至6，大师时提升至8，传奇时提升至10。当此专长带来的好处结束时，你陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]10分钟。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Athletics",
+              "text": "运动技能受训"
+            }
+          ]
         },
         {
           "id": "QHG70gcwM0lhZWrm",
@@ -1382,7 +1445,14 @@
           "expectedName": "Impressive Performance",
           "name": "动人表演",
           "expectedDescription": "<p>Your performances inspire admiration and win you fans. You can [[/act make-an-impression skill=performance]] using Performance instead of Diplomacy. If you spend at least 10 minutes performing in front of an audience, you can Make an Impression targeting up to 10 members of the audience who were there for the whole performance, without taking the normal penalty. The number of targets increases to 20 for a 1-hour performance and 50 for a 2-hour performance.</p>",
-          "description": "<p>你的表演广受追捧，为你赢得拥趸。你可以用表演技能替代交涉技能[[/act make-an-impression skill=performance]]{改善印象}。若你在观众面前表演至少10分钟，就能够以至多10个观看了整段表演的观众为改善印象的目标，无需承受通常情况的减值。若表演1小时，目标数量提高到20个；若表演2小时，提高到50个。</p>"
+          "description": "<p>你的表演广受追捧，为你赢得拥趸。你可以用表演技能替代交涉技能[[/act make-an-impression skill=performance]]{改善印象}。若你在观众面前表演至少10分钟，就能够以至多10个观看了整段表演的观众为改善印象的目标，无需承受通常情况的减值。若表演1小时，目标数量提高到20个；若表演2小时，提高到50个。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Performance",
+              "text": "表演技能受训"
+            }
+          ]
         },
         {
           "id": "nuIUVBH9lHk5ix4N",
@@ -1600,7 +1670,14 @@
           "expectedName": "Streetwise",
           "name": "人情练达",
           "expectedDescription": "<p>You know about life on the streets and feel the pulse of your local settlement. You can use your Society modifier instead of your Diplomacy modifier to [[/act gather-information skill=society]]{Gather Information}. In any settlement you frequent regularly, you can use the Recall Knowledge action with Society to know the same sorts of information that you could discover with Diplomacy to Gather Information. The DC is usually significantly higher, but you know the information without spending time gathering it. If you fail to recall the information, you can still subsequently attempt to Gather Information normally.</p>",
-          "description": "<p>你熟悉街头生活，掌握当地聚居地的脉动。你可以使用社群调整值代替交涉调整值来[[/act gather-information skill=society]]{收集信息}。在经常造访的聚居地，你可以用社群进行回忆知识，获知通常能够通过交涉收集信息得到的同类情报。DC通常高得多，但你不需要花费收集信息的时间，就能知道这些情报。如果未能回忆起信息，你之后仍可正常尝试收集信息。</p>"
+          "description": "<p>你熟悉街头生活，掌握当地聚居地的脉动。你可以使用社群调整值代替交涉调整值来[[/act gather-information skill=society]]{搜集信息}。在经常造访的聚居地，你可以用社群进行回忆知识，获知通常能够通过交涉收集信息得到的同类情报。DC通常高得多，但你不需要花费收集信息的时间，就能知道这些情报。如果未能回忆起信息，你之后仍可正常尝试收集信息。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Society",
+              "text": "社群技能受训"
+            }
+          ]
         },
         {
           "id": "eupbShwQx36kPZu4",
@@ -1711,7 +1788,14 @@
           "expectedName": "Group Impression",
           "name": "集体印象",
           "expectedDescription": "<p>When you @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression}, you can compare your Diplomacy check result to the Will DCs of up to 10 targets you conversed with, with no penalty. The number of targets increases to 20 if you're an expert, 50 if you're a master, and 100 if you're legendary.</p>",
-          "description": "<p>在@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{改善印象}时，你可以将交涉检定结果与跟你交流的至多10个目标的意志DC相比较，且无需承受减值。若你在交涉技能上的熟练度达到专家，目标数量提高到20个；若达到大师，提高到50个；若达到传奇，提高到100个。</p>"
+          "description": "<p>在@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}时，你可以将交涉检定结果与跟你交流的至多10个目标的意志DC相比较，且无需承受减值。若你在交涉技能上的熟练度达到专家，目标数量提高到20个；若达到大师，提高到50个；若达到传奇，提高到100个。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Diplomacy",
+              "text": "交涉技能受训"
+            }
+          ]
         },
         {
           "id": "u0WNmpn0FeNkjAB3",
@@ -1760,7 +1844,14 @@
           "expectedName": "Impressive Performance",
           "name": "动人表演",
           "expectedDescription": "<p>Your performances inspire admiration and win you fans. You can [[/act make-an-impression skill=performance]] using Performance instead of Diplomacy. If you spend at least 10 minutes performing in front of an audience, you can Make an Impression targeting up to 10 members of the audience who were there for the whole performance, without taking the normal penalty. The number of targets increases to 20 for a 1-hour performance and 50 for a 2-hour performance.</p>",
-          "description": "<p>你的表演广受追捧，为你赢得拥趸。你可以用表演技能替代交涉技能[[/act make-an-impression skill=performance]]{改善印象}。若你在观众面前表演至少10分钟，就能够以至多10个观看了整段表演的观众为改善印象的目标，无需承受通常情况的减值。若表演1小时，目标数量提高到20个；若表演2小时，提高到50个。</p>"
+          "description": "<p>你的表演广受追捧，为你赢得拥趸。你可以用表演技能替代交涉技能[[/act make-an-impression skill=performance]]{改善印象}。若你在观众面前表演至少10分钟，就能够以至多10个观看了整段表演的观众为改善印象的目标，无需承受通常情况的减值。若表演1小时，目标数量提高到20个；若表演2小时，提高到50个。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Performance",
+              "text": "表演技能受训"
+            }
+          ]
         },
         {
           "id": "gwEPQcQTD8oManwH",
@@ -1809,7 +1900,14 @@
           "expectedName": "Intimidating Shot",
           "name": "威吓射击",
           "expectedDescription": "<p>You attempt to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize} a foe with your ranged weapon by firing it into the air, using ammo equal to the weapon's expend and the weapon's maximum range rather than the usual range of 30 feet. This check doesn't take a –4 circumstance penalty if the target doesn't share a language with you.</p>",
-          "description": "<p>你尝试通过向空中开枪来对一个在你远程武器射程内的敌人@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]，使用的弹药数量等于武器的耗弹量，使用武器的最大射程替代挫败士气通常的30尺范围。即便目标与你语言不通，此检定也不会受到-4环境减值。</p>"
+          "description": "<p>你尝试通过向空中开枪来对一个在你远程武器射程内的敌人@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]，使用的弹药数量等于武器的耗弹量，使用武器的最大射程替代挫败士气通常的30尺范围。即便目标与你语言不通，此检定也不会受到-4环境减值。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Intimidation",
+              "text": "威吓技能受训"
+            }
+          ]
         },
         {
           "id": "VLi07pHHQBD4JxrD",
@@ -1823,7 +1921,14 @@
           "expectedName": "Multilingual",
           "name": "多语言",
           "expectedDescription": "<p>You easily pick up new languages. You learn two new languages, chosen from common languages, uncommon languages, and any others you have access to. You learn an additional language if you are or become a master in Society and again if you are or become legendary.</p>\n<hr />\n<p><strong>Special</strong> You can select this feat multiple times. Each time, you learn additional languages.</p>",
-          "description": "<p>你可以轻松掌握新的语言。学习两种新语言，从常见语言、罕见语言和其它你有许可的语言中选取。若你已在社群上达到大师或之后达到大师，额外学会一种语言；已达到传奇或之后达到传奇时，再额外学会一种语言。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选取本专长。每次都可学习额外的语言。</p>"
+          "description": "<p>你可以轻松掌握新的语言。学习两种新语言，从常见语言、罕见语言和其它你有许可的语言中选取。若你已在社群上达到大师或之后达到大师，额外学会一种语言；已达到传奇或之后达到传奇时，再额外学会一种语言。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选取本专长。每次都可学习额外的语言。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Society",
+              "text": "社群技能受训"
+            }
+          ]
         },
         {
           "id": "5lS8nj20P9r9uzsU",
@@ -1985,7 +2090,7 @@
         {
           "id": "9nTdsMIkb7Y8jvUX",
           "expectedName": "Next-Gen Raxilite",
-          "name": "新生代拉西利特族",
+          "name": "次世代拉西利特族",
           "expectedDescription": "<p>You come from a family that has adopted the most avant-garde tech. They were always trying out the latest augmentations, undaunted by the potential risks of using untested models. They involved you in this process from the earliest days of your life, installing a new IMAS prototype inside your body when you were a baby. Fortunately, this experiment proved successful. Your cutting-edge IMAS lets you move faster than most other raxilites.</p>\n<p>Your Speed is 30 feet.</p>",
           "description": "<p>你的家族接受了最前卫的科技，总是尝试最新的殖装，不惧怕未经测试型号的潜在风险。他们在你生命的最初阶段就让你参与这一过程，在你还是婴儿时，便向体内安装了一套新的IMAS原型。幸运的是，这次实验成功了。尖端IMAS使你的移动速度比大多数其他拉西利特族更快。</p>\n<p>你的速度为30尺。</p>"
         },
@@ -2001,7 +2106,14 @@
           "expectedName": "Assurance",
           "name": "驾轻就熟",
           "expectedDescription": "<p>Even in the worst circumstances, you can perform basic tasks. Choose a skill you're trained in. You can forgo rolling a skill check for that skill to instead receive a result of 10 + your proficiency bonus (do not apply any other bonuses, penalties, or modifiers).</p>\n<hr />\n<p><strong>Special</strong> You can select this feat multiple times. Each time, choose a different skill and gain the benefits for that skill.</p>",
-          "description": "<p>即使在最恶劣的条件下，你也能完成基本的任务。选择一项你受训的技能，你可以放弃为该技能的技能检定掷骰，改为获得等于10+你的熟练度加值的结果（不应用任何其它加值、减值或调整值）。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选取本专长。每次选择不同的技能获得专长效果。</p>"
+          "description": "<p>即使在最恶劣的条件下，你也能完成基本的任务。选择一项你受训的技能，你可以放弃为该技能的技能检定掷骰，改为获得等于10+你的熟练度加值的结果（不应用任何其它加值、减值或调整值）。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选取本专长。每次选择不同的技能获得专长效果。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in at least one skill",
+              "text": "至少一项技能受训"
+            }
+          ]
         },
         {
           "id": "Gos4hnCIif4vW5XR",
@@ -2226,7 +2338,14 @@
           "expectedName": "Battle Medicine",
           "name": "战地医疗",
           "expectedDescription": "<p><strong>Requirements</strong> You're holding or wearing a medkit.</p><hr /><p>You can patch up wounds, even in combat. Attempt a Medicine check with the same DC as for @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} and restore the corresponding amount of HP; this doesn't remove the wounded condition. As with Treat Wounds, you can attempt checks against higher DCs if you have the minimum proficiency rank. The target is then @UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{immune} to your Battle Medicine for 1 day. This does not make them immune to, or otherwise count as, Treat Wounds.</p>",
-          "description": "<p><strong>需求</strong> 你正持握或穿戴医疗包。</p><hr /><p>你即使在战斗中也能包扎伤口。尝试一次医疗检定，其DC与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}相同，并恢复相应数目的生命值；这不会移除受伤状态。如同治疗伤势，只要达到最低熟练度等级要求，你就可以尝试更高DC的检定。此后，目标对你的战地医疗@UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{免疫}1天。这不会使目标免疫治疗伤势，也不会以其他方式算作治疗伤势。</p>"
+          "description": "<p><strong>需求</strong> 你正持握或穿戴医疗包。</p><hr /><p>你即使在战斗中也能包扎伤口。尝试一次医疗检定，其DC与@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}相同，并恢复相应数目的生命值；这不会移除受伤状态。如同治疗伤势，只要达到最低熟练度等级要求，你就可以尝试更高DC的检定。此后，目标对你的战地医疗@UUID[Compendium.pf2e.feat-effects.Item.2XEYQNZTCGpdkyR6]{免疫}1天。这不会使目标免疫治疗伤势，也不会以其他方式算作治疗伤势。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Medicine",
+              "text": "医疗技能受训"
+            }
+          ]
         },
         {
           "id": "dVLjRdKe5ljfY8TR",
@@ -2387,14 +2506,14 @@
         {
           "id": "v2FTSG3XNfQQW9W3",
           "expectedName": "Notched Ears",
-          "name": "缺口耳",
+          "name": "缺刻耳",
           "expectedDescription": "<p>Your ears are feathery and notched for finely tuned detection of sound and changes in pressure, often surprising those who thought they were hiding themselves or their machinations. You gain a +2 circumstance bonus to your Perception checks to [[/act seek]] or for initiative rolls when opposed by @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} creatures, or to [[/act sense-motive]] to determine if a creature is verbally Lying. This benefit doesn't apply if you can't hear, or if the other creatures involved are incapable of making sound (for example, if it's affected by a @UUID[Compendium.pf2e.spells-srd.Item.gIdDLrbswTV3OBJy]{Silence} spell).</p>",
           "description": "<p>你的耳朵呈羽毛状并带有缺口，能够敏锐察觉声音和气压变化，常让那些自以为藏好了身形或阴谋的人大吃一惊。你用于[[/act seek]]的察觉检定，对抗@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}或@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{无踪}生物的先攻检定，以及用于[[/act sense-motive]]以判断一个生物是否正在口头说谎的察觉检定，都获得+2环境加值。如果你无法听见，或相关的其他生物无法发声，例如受到@UUID[Compendium.pf2e.spells-srd.Item.gIdDLrbswTV3OBJy]{沉默术}法术影响，则此益处不适用。</p>"
         },
         {
           "id": "Ouf01NWxfyPchPQ7",
           "expectedName": "Winterborn Ryphorian",
-          "name": "冬裔雷弗瑞亚人",
+          "name": "冬生雷弗瑞亚人",
           "expectedDescription": "<p>You have thicker skin than your summerborn cousins, topped with layers of white fur. In addition, your eyes are noticeably narrower so to avoid becoming snow-blind. Winterborn ryphorians are traditionally known to be gruff but loyal to a fault, especially when it comes to promises and oaths sworn to others. Some of these stereotypes are just that, and just as many winterborn progressives dye their fur out of artistic expression rather than to exist solely in a stodgy, stark-white state.</p>\n<p>You gain cold resistance equal to half your level (minimum 1). You treat environmental cold effects as if they were one step less extreme (incredible cold becomes extreme, extreme cold becomes severe, and so on).</p>",
           "description": "<p>相比夏裔同族，你的皮肤更厚，覆有层层白色毛发。此外，你的双眼明显更狭窄，以避免雪盲。冬裔雷弗瑞亚人传统上以粗犷却忠诚得近乎过头著称，尤其重视向他人许下的承诺和誓言。其中有些刻板印象仅仅是刻板印象，也有同样多的进步派冬裔会为艺术表达而给毛发染色，不愿始终保持一本正经的纯白模样。</p>\n<p>你获得等于自身等级一半的寒冷抗力，最低为1。你将环境寒冷效果的严重程度视为降低一级，例如酷寒变为极寒，极寒变为严寒，依此类推。</p>"
         },
@@ -2410,7 +2529,14 @@
           "expectedName": "Express Driver",
           "name": "特快司机",
           "expectedDescription": "<p>You know how to get there fast. When calculating your travel Speed for the day while piloting a vehicle, you can attempt a Piloting check to increase your vehicle's travel Speed for long-term overland or aerial travel. The DC is determined by the GM but is typically based on the vehicle's piloting DC or a difficulty based on the environment, whichever is harder. On a success, double your vehicle's travel Speed for the day. This has no effect on your vehicle's movement in encounters or on starships traveling through the Drift.</p>",
-          "description": "<p>你懂得如何迅速抵达目的地。驾驶载具并计算当天的旅行速度时，你可以尝试驾驶检定，提高载具在长期陆路或空中旅行时的旅行速度。DC由GM决定，通常采用载具驾驶DC或基于环境的难度，取较高者。成功时，载具当天的旅行速度翻倍。这不影响载具在遭遇中的移动，也不影响通过漂流域航行的星舰。</p>"
+          "description": "<p>你懂得如何迅速抵达目的地。驾驶载具并计算当天的旅行速度时，你可以尝试驾驶检定，提高载具在长期陆路或空中旅行时的旅行速度。DC由GM决定，通常采用载具驾驶DC或基于环境的难度，取较高者。成功时，载具当天的旅行速度翻倍。这不影响载具在遭遇中的移动，也不影响通过漂流域航行的星舰。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Piloting",
+              "text": "驾驶技能受训"
+            }
+          ]
         },
         {
           "id": "pgBFpcLDZLMQ1aIL",
@@ -2452,7 +2578,14 @@
           "expectedName": "Steady Balance",
           "name": "四平八稳",
           "expectedDescription": "<p>You can keep your balance easily, even in adverse conditions. Whenever you roll a success using the @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance} action, you get a critical success instead. You're not @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while attempting to Balance on narrow surfaces and uneven ground.</p>",
-          "description": "<p>即使在恶劣的条件下，你也能轻易保持平衡。每当你检定成功地使用@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}动作时，改为大成功。你在狭窄平面和不稳地面尝试保持平衡时不会陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>"
+          "description": "<p>即使在恶劣的条件下，你也能轻易保持平衡。每当你检定成功地使用@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}动作时，改为大成功。你在狭窄平面和不稳地面尝试保持平衡时不会陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Acrobatics",
+              "text": "特技技能受训"
+            }
+          ]
         },
         {
           "id": "bLIb1pStZHVaNhYo",
@@ -2576,14 +2709,28 @@
           "expectedName": "Dive for Cover",
           "name": "飞扑卧倒",
           "expectedDescription": "<p>When threatened, you can quickly take a dive and find somewhere to hunker down. You @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}, land @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}, and immediately @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{Take Cover}, which allows you to hunker down and gain greater cover against ranged attacks.</p>",
-          "description": "<p>当受到威胁时，你可以迅速@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]并找到一个地方蹲下。你跳跃（Leap），着陆时@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]，并立即采@UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]（Take Cover）动作压低身形，获得对远程攻击的高等掩蔽。</p>"
+          "description": "<p>当受到威胁时，你可以迅速飞扑，找到可以伏身的地方。你@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}，着陆时@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}，随后立即@UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{寻找掩蔽}，从而压低身形，获得对远程攻击的高等掩蔽。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "expert in Acrobatics",
+              "text": "特技技能专家"
+            }
+          ]
         },
         {
           "id": "JNnsRaeVkJxp9kVt",
           "expectedName": "Terrain Stalker (Underbrush)",
           "name": "地形潜伏（灌木丛）",
           "expectedDescription": "<p>Select one type of difficult terrain from the following list: rubble, snow, or underbrush. While @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} by all non-allies in that type of terrain, you can @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} without attempting a Stealth check as long as you move no more than 5 feet and do not pass within 10 feet of an enemy during your movement.</p>\n<p>During exploration, this also allows you to automatically approach within 15 feet of other creatures while @UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{Avoiding their Notice}, as long as they aren't actively @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{Searching} or on guard.</p><hr /><p><strong>Special</strong> You can select this feat multiple times. Each time, choose a different type of terrain.</p>",
-          "description": "<p>从下列困难地形中选择一项：石堆、雪地、灌木丛。当你在该地形中对所有非盟友处于@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{无踪}状态时，只要移动距离不超过5尺，也未在移动过程中进入敌人10尺范围内，你无需尝试隐秘检定就可以@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}。</p>\n<p>在探索期采取@UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{避免被察觉}行动期间，本专长还令你能够自动接近其他生物15尺内，前提是他们未在主动@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{搜索}或保持警戒。</p><hr /><p><strong>特殊</strong> 你可以多次选取本专长。每次选择不同类型的地形。</p>"
+          "description": "<p>从下列困难地形中选择一项：石堆、雪地、灌木丛。当你在该地形中对所有非盟友处于@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{无踪}状态时，只要移动距离不超过5尺，也未在移动过程中进入敌人10尺范围内，你无需尝试隐秘检定就可以@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{潜行}。</p>\n<p>在探索期采取@UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{避免被察觉}行动期间，本专长还令你能够自动接近其他生物15尺内，前提是他们未在主动@UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{搜索}或保持警戒。</p><hr /><p><strong>特殊</strong> 你可以多次选取本专长。每次选择不同类型的地形。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Stealth",
+              "text": "隐秘技能受训"
+            }
+          ]
         }
       ],
       "name": "塔卡尔（Takkar）",
@@ -2689,7 +2836,14 @@
           "expectedName": "Group Impression",
           "name": "集体印象",
           "expectedDescription": "<p>When you @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression}, you can compare your Diplomacy check result to the Will DCs of up to 10 targets you conversed with, with no penalty. The number of targets increases to 20 if you're an expert, 50 if you're a master, and 100 if you're legendary.</p>",
-          "description": "<p>在@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{改善印象}时，你可以将交涉检定结果与跟你交流的至多10个目标的意志DC相比较，且无需承受减值。若你在交涉技能上的熟练度达到专家，目标数量提高到20个；若达到大师，提高到50个；若达到传奇，提高到100个。</p>"
+          "description": "<p>在@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}时，你可以将交涉检定结果与跟你交流的至多10个目标的意志DC相比较，且无需承受减值。若你在交涉技能上的熟练度达到专家，目标数量提高到20个；若达到大师，提高到50个；若达到传奇，提高到100个。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Diplomacy",
+              "text": "交涉技能受训"
+            }
+          ]
         },
         {
           "id": "JbD2eZBzA6M7eZv0",
@@ -2703,7 +2857,14 @@
           "expectedName": "Charming Liar",
           "name": "蛊惑人心",
           "expectedDescription": "<p>Your charm allows you to win over those you lie to. When you get a critical success using the @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie} action, the target's attitude toward you improves by one step, as though you'd succeeded at using Diplomacy to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression}. This works only once per conversation, and if you critically succeed against multiple targets using the same result, you choose one creature's attitude to improve. You must be lying to impart seemingly important information, inflate your status, or ingratiate yourself, which trivial or irrelevant lies can't achieve.</p>",
-          "description": "<p>凭借魅力，你能够将欺骗对象笼络为你的支持者。当你用@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}动作取得大成功时，目标对你的态度改善一级，如同你用交涉技能@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{改善印象}成功。每次交流，这个效果只会生效一次，如果你用相同结果对多个目标取得大成功，则选择一个生物的态度得到改善。你的谎言必须要透露看似重要的信息、鼓吹自己的地位、或巴结奉承对方，无关紧要的谎言无法起到作用。</p>"
+          "description": "<p>凭借魅力，你能够将欺骗对象笼络为你的支持者。当你用@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}动作取得大成功时，目标对你的态度改善一级，如同你用交涉技能@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{建立印象}成功。每次交流，这个效果只会生效一次，如果你用相同结果对多个目标取得大成功，则选择一个生物的态度得到改善。你的谎言必须要透露看似重要的信息、鼓吹自己的地位、或巴结奉承对方，无关紧要的谎言无法起到作用。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in Deception",
+              "text": "欺骗技能受训"
+            }
+          ]
         },
         {
           "id": "vF6zYcNdE3nqXyVh",
@@ -2752,7 +2913,14 @@
           "expectedName": "Assurance (Stealth)",
           "name": "保底（隐秘）",
           "expectedDescription": "<p>Even in the worst circumstances, you can perform basic tasks. Choose a skill you're trained in. You can forgo rolling a skill check for that skill to instead receive a result of 10 + your proficiency bonus (do not apply any other bonuses, penalties, or modifiers).</p>\n<hr />\n<p><strong>Special</strong> You can select this feat multiple times. Each time, choose a different skill and gain the benefits for that skill.</p>",
-          "description": "<p>即使在最恶劣的条件下，你也能完成基本的任务。选择一项你受训的技能，你可以放弃为该技能的技能检定掷骰，改为获得等于10+你的熟练度加值的结果（不应用任何其它加值、减值或调整值）。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选取本专长。每次选择不同的技能获得专长效果。</p>"
+          "description": "<p>即使在最恶劣的条件下，你也能完成基本的任务。选择一项你受训的技能，你可以放弃为该技能的技能检定掷骰，改为获得等于10+你的熟练度加值的结果（不应用任何其它加值、减值或调整值）。</p>\n<hr />\n<p><strong>特殊</strong> 你可以多次选取本专长。每次选择不同的技能获得专长效果。</p>",
+          "extraFields": [
+            {
+              "path": "system.prerequisites.value.0.value",
+              "expected": "trained in at least one skill",
+              "text": "至少一项技能受训"
+            }
+          ]
         },
         {
           "id": "kFPAKMdWjqNZbRyO",

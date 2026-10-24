@@ -161,7 +161,7 @@
         {
           "id": "AXnyJWY0QRsaYKQO",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "mdIGB9kjmEzFiA0k",
@@ -524,7 +524,7 @@
           "expectedName": "Tempweave",
           "name": "保温织服",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Tempweave suits are reinforced hooded garments woven with thermal fabric and venting wires, popularly worn for trips to humid climates like the jungles of Castrovel or Pulonis.</p>",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普罗尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>"
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普洛尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>"
         },
         {
           "id": "boNJgzYxRfGqz7K9",
@@ -1556,7 +1556,7 @@
           "expectedName": "Doom Scroll",
           "name": "末日刷屏",
           "expectedDescription": "<p>You magically broadcast grim news onto nearby devices, holo projectors, screens, and other displays (including comm units on armor). Creatures in the area who can see one or more displays must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the display.</p>\n<p><strong>Failure</strong> The creature is fascinated by the display and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (even if the fascination ends).</p>\n<p><strong>Critical Failure</strong> The creature is fascinated by the display, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}, and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (even if the fascination ends).</p>",
-          "description": "<p>你以魔法在附近的设备、全息投影仪、屏幕及其他显示装置（包括护甲上的通讯装置）上播出噩耗。区域内能看见至少一个显示装置的生物必须进行意志豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物被显示装置@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}。</p>\n<p><strong>失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧2}（即使迷魂结束，恐惧仍然生效）。</p>\n<p><strong>大失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧3}和@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭1}（即使迷魂结束，后两者仍然生效）。</p>"
+          "description": "<p>你以魔法在附近的设备、全息投影仪、屏幕及其他显示装置（包括护甲上的通讯装置）上播出噩耗。区域内能看见至少一个显示装置的生物必须进行意志豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物被显示装置@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}。</p>\n<p><strong>失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}（即使迷魂结束，惊惧仍然生效）。</p>\n<p><strong>大失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧3}和@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭1}（即使迷魂结束，后两者仍然生效）。</p>"
         },
         {
           "id": "sQZ0gXHB1NXfcuMY",
@@ -1661,7 +1661,7 @@
         {
           "id": "9kO4PNT648NmGJQk",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "wayQPOVoZ5ZDeUnh",
@@ -1860,7 +1860,7 @@
           "expectedName": "Arc Rifle",
           "name": "电弧步枪",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This rifle's oversized body contains a larger version of an arc pistol capacitor, with a short barrel and polycarbon stock designed to insulate the wielder from high voltage. The arc rifle's larger capacitor allows it to produce a charge with enough power to subdue a rampaging renkroda.</p>",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这把步枪宽大的枪身中装有电弧手枪电容器的放大版本，短枪管和聚碳枪托则能使持用者与高压电绝缘。电弧步枪更大的电容器能够产生足以制服狂暴伦克罗达兽（renkroda）的强力电荷。</p>"
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这把步枪宽大的枪身中装有电弧手枪电容器的放大版本，短枪管和聚碳枪托则能使持用者与高压电绝缘。电弧步枪更大的电容器能够产生足以制服狂暴掠吼龙（renkroda）的强力电荷。</p>"
         },
         {
           "id": "WcMBUKcA5emYxbds",
@@ -1911,7 +1911,7 @@
         {
           "id": "n4TXMOWOZ3kcsppX",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "C5LCy81UkBzRtPyY",
@@ -2604,7 +2604,7 @@
         {
           "id": "edoHFP4JBlJz6B6M",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "fH4UXGOZjDE9Z0xv",
@@ -2769,7 +2769,7 @@
         {
           "id": "qQxBcN1FL8qDg9yF",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "qNjqbfVBcyD3CaSa",
@@ -3044,7 +3044,7 @@
           "expectedName": "Arc Rifle",
           "name": "电弧步枪",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This rifle's oversized body contains a larger version of an arc pistol capacitor, with a short barrel and polycarbon stock designed to insulate the wielder from high voltage. The arc rifle's larger capacitor allows it to produce a charge with enough power to subdue a rampaging renkroda.</p>",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这把步枪宽大的枪身中装有电弧手枪电容器的放大版本，短枪管和聚碳枪托则能使持用者与高压电绝缘。电弧步枪更大的电容器能够产生足以制服狂暴伦克罗达兽（renkroda）的强力电荷。</p>"
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这把步枪宽大的枪身中装有电弧手枪电容器的放大版本，短枪管和聚碳枪托则能使持用者与高压电绝缘。电弧步枪更大的电容器能够产生足以制服狂暴掠吼龙（renkroda）的强力电荷。</p>"
         },
         {
           "id": "eLH2GxmU2pxjR7JM",
@@ -3079,6 +3079,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Tool Rat",
         "text": "工具鼠"
+      },
+      "cnText_system_details_languages_details": {
+        "expected": "(cannot speak any language)",
+        "text": "（无法说任何语言）"
       }
     },
     "8QaS2cq1Wl8YZlPr": {
@@ -3424,7 +3428,7 @@
         {
           "id": "6fjqRKLfUAsf3ikh",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "TMTA9QLyhICRuspQ",
@@ -3672,7 +3676,7 @@
         {
           "id": "hfLzBvHZ7PdnaaO2",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "58TUd3eGPqDSzlBO",
@@ -4034,7 +4038,7 @@
         {
           "id": "AXnyJWY0QRsaYKQO",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "mdIGB9kjmEzFiA0k",
@@ -4477,7 +4481,7 @@
         {
           "id": "IcnSIka8N9HLDZ2j",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "iwsf02hS1Tq4lF6r",
@@ -4649,7 +4653,7 @@
         {
           "id": "OW9G0TOPz0LZ4uxV",
           "expectedName": "Hardlight Series",
-          "name": "实光套装",
+          "name": "硬光套装",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>A projector fastened to a belt or lapel encases the wearer's body in this shimmering hardlight shell. Military-issue hardlight armor follows a predictable standard, but private users enjoy a range of customizable fashion options.</p>",
           "description": "<p><strong>强化：</strong> 1</p><hr /><p>固定在腰带或翻领上的投影器，用这层闪耀的硬光外壳包裹穿戴者的身体。军用制式硬光护甲遵循固定标准，而私人用户则能享用一系列可定制的时尚款式。</p>"
         },
@@ -4885,7 +4889,7 @@
           "expectedName": "Doom Scroll",
           "name": "末日刷屏",
           "expectedDescription": "<p>You magically broadcast grim news onto nearby devices, holo projectors, screens, and other displays (including comm units on armor). Creatures in the area who can see one or more displays must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the display.</p>\n<p><strong>Failure</strong> The creature is fascinated by the display and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (even if the fascination ends).</p>\n<p><strong>Critical Failure</strong> The creature is fascinated by the display, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}, and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (even if the fascination ends).</p>",
-          "description": "<p>你以魔法在附近的设备、全息投影仪、屏幕及其他显示装置（包括护甲上的通讯装置）上播出噩耗。区域内能看见至少一个显示装置的生物必须进行意志豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物被显示装置@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}。</p>\n<p><strong>失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧2}（即使迷魂结束，恐惧仍然生效）。</p>\n<p><strong>大失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧3}和@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭1}（即使迷魂结束，后两者仍然生效）。</p>"
+          "description": "<p>你以魔法在附近的设备、全息投影仪、屏幕及其他显示装置（包括护甲上的通讯装置）上播出噩耗。区域内能看见至少一个显示装置的生物必须进行意志豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物被显示装置@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}。</p>\n<p><strong>失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}（即使迷魂结束，惊惧仍然生效）。</p>\n<p><strong>大失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧3}和@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭1}（即使迷魂结束，后两者仍然生效）。</p>"
         },
         {
           "id": "1AjqOerqeoHxEl4k",
@@ -5163,7 +5167,7 @@
         {
           "id": "PgLUH1wOc3vQMohd",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "AM6Vv67yaSiub6l3",
@@ -5396,7 +5400,7 @@
         {
           "id": "UychpYFA1JCzX5kN",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "YeLRNo8qdJca4Hsq",
@@ -5635,7 +5639,7 @@
           "id": "oaHRIhX1FIPkn6ih",
           "expectedName": "Doom Scroll (At Will)",
           "expectedDescription": "<p>You magically broadcast grim news onto nearby devices, holo projectors, screens, and other displays (including comm units on armor). Creatures in the area who can see one or more displays must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the display.</p>\n<p><strong>Failure</strong> The creature is fascinated by the display and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (even if the fascination ends).</p>\n<p><strong>Critical Failure</strong> The creature is fascinated by the display, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}, and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (even if the fascination ends).</p>",
-          "description": "<p>你以魔法在附近的设备、全息投影仪、屏幕及其他显示装置（包括护甲上的通讯装置）上播出噩耗。区域内能看见至少一个显示装置的生物必须进行意志豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物被显示装置@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}。</p>\n<p><strong>失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧2}（即使迷魂结束，恐惧仍然生效）。</p>\n<p><strong>大失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧3}和@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭1}（即使迷魂结束，后两者仍然生效）。</p>",
+          "description": "<p>你以魔法在附近的设备、全息投影仪、屏幕及其他显示装置（包括护甲上的通讯装置）上播出噩耗。区域内能看见至少一个显示装置的生物必须进行意志豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物被显示装置@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}。</p>\n<p><strong>失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}（即使迷魂结束，惊惧仍然生效）。</p>\n<p><strong>大失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧3}和@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭1}（即使迷魂结束，后两者仍然生效）。</p>",
           "name": "末日刷屏（随意）"
         },
         {
@@ -6185,7 +6189,7 @@
         {
           "id": "dFrLPJgRWddbM40G",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "1ZoyzWJuCNJTinkV",
@@ -6362,7 +6366,7 @@
         {
           "id": "RtoHLpSKEigiZ7KC",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "hRm8CCLR18oz5I9d",
@@ -6404,7 +6408,7 @@
           "expectedName": "Singularity Seed",
           "name": "播种奇点",
           "expectedDescription": "<p>A tiny particle of incredibly dense mass magically blossoms into a gravitational singularity that pulls creatures toward it and spatially compresses any creatures that are moved into it. You create a singularity in a 5-foot square that is unoccupied by any creatures. All creatures and unsecured objects in a @Template[type:emanation|distance:50] around the singularity are moved toward the singularity when the spell is cast, depending on their Reflex save (see below). Creatures and objects are moved starting with those closest to the singularity, so they might block the path of other creatures and objects that are pulled in later.</p>\n<p>Creatures' spaces can overlap in the square that contains the singularity. A creature or object that enters the singularity or ends its turn there takes 10d10 bludgeoning damage with no saving throw. While in the singularity, a creature can take no actions except to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} against your Spell DC. When the spell ends, the singularity disappears, and overlapping creatures are moved to the closest unoccupied space, as determined by the GM.</p>\n<p>Squares in the emanation are difficult terrain for creatures moving away from the singularity, and creatures moving toward the singularity can move 10 feet for each 5 feet of movement they spend.</p>\n<p>A creature needs to attempt a Reflex save if it's in the area when the spell is cast and when it ends its turn in the area.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is pulled 10 feet toward the singularity.</p>\n<p><strong>Failure</strong> The creature is pulled 20 feet toward the singularity.</p>\n<p><strong>Critical Failure</strong> The creature is pulled 30 feet toward the singularity.</p>",
-          "description": "<p>一粒质量极其密集的微小粒子在魔法作用下扩展为引力奇点，将生物拉向自身，并在空间上压缩被移入其中的生物。你在一个未被任何生物占据的5尺方格内创造一个奇点。法术施放时，奇点周围@Template[type:emanation|distance:50]内的所有生物和未被固定的物体，根据其反射豁免结果向奇点移动（见下文）。生物和物体从距离奇点最近者开始移动，因此它们可能挡住随后被拉入的其他生物和物体的路径。</p>\n<p>生物的空间可以在包含奇点的方格内重叠。进入奇点或在其中结束其回合的生物或物体受到10d10钝击伤害，无法豁免。在奇点内，生物除了对抗你的法术DC尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱逃}之外，无法采取任何动作。法术结束时，奇点消失，重叠的生物被移至最近的未占用空间，具体由GM决定。</p>\n<p>对于向远离奇点方向移动的生物，弥漫区域内的方格是困难地形；向奇点靠近的生物每花费5尺移动距离，便可移动10尺。</p>\n<p>施放法术时位于区域内，以及在区域内结束其回合的生物，需要尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物被拉向奇点10尺。</p>\n<p><strong>失败</strong>该生物被拉向奇点20尺。</p>\n<p><strong>大失败</strong>该生被拉向奇点30尺。</p>"
+          "description": "<p>一粒质量极其密集的微小粒子在魔法作用下扩展为引力奇点，将生物拉向自身，并在空间上压缩被移入其中的生物。你在一个未被任何生物占据的5尺方格内创造一个奇点。法术施放时，奇点周围@Template[type:emanation|distance:50]内的所有生物和未被固定的物体，根据其反射豁免结果向奇点移动（见下文）。生物和物体从距离奇点最近者开始移动，因此它们可能挡住随后被拉入的其他生物和物体的路径。</p>\n<p>生物的空间可以在包含奇点的方格内重叠。进入奇点或在其中结束其回合的生物或物体受到10d10钝击伤害，无法豁免。在奇点内，生物除了对抗你的法术DC尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}之外，无法采取任何动作。法术结束时，奇点消失，重叠的生物被移至最近的未占用空间，具体由GM决定。</p>\n<p>对于向远离奇点方向移动的生物，弥漫区域内的方格是困难地形；向奇点靠近的生物每花费5尺移动距离，便可移动10尺。</p>\n<p>施放法术时位于区域内，以及在区域内结束其回合的生物，需要尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物被拉向奇点10尺。</p>\n<p><strong>失败</strong>该生物被拉向奇点20尺。</p>\n<p><strong>大失败</strong>该生被拉向奇点30尺。</p>"
         },
         {
           "id": "yIMu1ZyoStZPETE7",
@@ -7160,7 +7164,7 @@
         {
           "id": "n47CqLLN4i28kxBx",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "Al6w7o6MWANMEPuB",
@@ -7479,6 +7483,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Malevolent AI",
         "text": "恶意AI"
+      },
+      "cnText_system_attributes_ac_details": {
+        "expected": "(33 when broken)",
+        "text": "（破损时为33）"
       }
     },
     "MnOrSqYS5w8tAPXM": {
@@ -7568,7 +7576,7 @@
         {
           "id": "7LZ11jo3AikI35Xr",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "OhTRrNh4NukS0ZVd",
@@ -7846,7 +7854,7 @@
         {
           "id": "zypCrWx7PBeqVBN0",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "dutyysAFRTB2d2Q6",
@@ -8374,7 +8382,7 @@
           "expectedName": "Aeon Stone (Uplifting)",
           "name": "抬升万古石",
           "expectedDescription": "<p>Staple items within the Azlanti Star Empire, these gemstones are popular status symbols for adventurers and wealthy collectors. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to build the Universe in ancient times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head (or another visible part of your anatomy if you don't have a head) instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} action against you. A stowed or removed stone remains invested, but its effects are @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into specific items, such as weapons with the aeon trait or antique magical devices called <em>wayfinders</em>.</p><hr /><p>This deep-blue prism with cloudy inclusions is light as a feather. Its resonant power gives you a +1 item bonus to Acrobatics checks.</p>\n<p><strong>Activate—Fly Free</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain a fly Speed for 1 minute equal to your Speed or 20 feet, whichever is greater.</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.xZ5XMY55S42aGyjg]</p>",
-          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{缴械} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这块含有云雾状杂质的深蓝色棱柱轻如羽毛。其共鸣能力为你的特技检定提供+1物品加值。</p>\n<p><strong>启动—自由飞翔</strong> <span class=\"action-glyph\">1</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得等于自身速度或20尺（取较高者）的飞行速度，持续1分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.xZ5XMY55S42aGyjg]</p>"
+          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这块含有云雾状杂质的深蓝色棱柱轻如羽毛。其共鸣能力为你的特技检定提供+1物品加值。</p>\n<p><strong>启动—自由飞翔</strong> <span class=\"action-glyph\">1</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得等于自身速度或20尺（取较高者）的飞行速度，持续1分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.xZ5XMY55S42aGyjg]</p>"
         },
         {
           "id": "0WehVWuky4urM09p",
@@ -8443,7 +8451,7 @@
         {
           "id": "P16c07OPLnhkywD2",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "NcuIW0E4bEr0WkaM",
@@ -8585,7 +8593,7 @@
         {
           "id": "hRc1hub8cuXbD0N5",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "brXYNPxug3STVkEk",
@@ -8725,7 +8733,7 @@
           "expectedName": "Aucturnite Chakram",
           "name": "奥克腾岩飞轮",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This bladed hoop is carved from a chunk of aucturnite and sculpted to resemble a planet's ring. The material has mysteriously appeared light-years from Aucturn's original orbit.</p>",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这个带刃圆环由一块奥克顿矿（aucturnite）雕刻而成，造型仿照行星环。此材料神秘地出现在距离奥克顿（Aucturn）原轨道数光年之外的地方。</p>"
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这个带刃圆环由一块奥克腾岩（aucturnite）雕刻而成，造型仿照行星环。此材料神秘地出现在距离奥克腾（Aucturn）原轨道数光年之外的地方。</p>"
         },
         {
           "id": "U6R21M7C8hsjzXgq",
@@ -9123,7 +9131,7 @@
         {
           "id": "8kxE1i7Yr7a1uIuY",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "OYKZ1Xo9bardj20w",
@@ -9574,7 +9582,7 @@
             {
               "path": "system.subitems.0.system.description.value",
               "expected": "<p>Boosters attached to your armor allow you to fly.</p>\n<p><strong>Activate—Fly</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> You activate a jetpack to gain a fly Speed of 20 feet. This effect lasts for 1 minute or until you Dismiss it. You can use an action to Fly 0 feet to hover in place, but you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while doing so. A jetpack can't lift you if you're encumbered.</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
-              "text": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷气背包，获得20尺飞行速度。此效应持续1分钟，或直到你将其解除。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷气背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
+              "text": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷射背包，获得20尺飞行速度。此效应持续1分钟，或直到你将其解消。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷射背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
               "guards": [
                 {
                   "path": "system.subitems.0._id",
@@ -9648,6 +9656,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Sihedron Guard Thunderstriker",
         "text": "七芒星卫队雷霆战士"
+      },
+      "cnText_system_attributes_speed_details": {
+        "expected": "(jetpack)",
+        "text": "（喷射背包）"
       }
     },
     "SQk1n2QaJWwBiSGW": {
@@ -10637,7 +10649,7 @@
         {
           "id": "uYh8HOAplAC4Zau2",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "fEED8GsMP4StKnlu",
@@ -11193,7 +11205,7 @@
           "expectedName": "Doom Scroll",
           "name": "末日刷屏",
           "expectedDescription": "<p>You magically broadcast grim news onto nearby devices, holo projectors, screens, and other displays (including comm units on armor). Creatures in the area who can see one or more displays must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the display.</p>\n<p><strong>Failure</strong> The creature is fascinated by the display and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (even if the fascination ends).</p>\n<p><strong>Critical Failure</strong> The creature is fascinated by the display, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}, and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (even if the fascination ends).</p>",
-          "description": "<p>你以魔法在附近的设备、全息投影仪、屏幕及其他显示装置（包括护甲上的通讯装置）上播出噩耗。区域内能看见至少一个显示装置的生物必须进行意志豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物被显示装置@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}。</p>\n<p><strong>失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧2}（即使迷魂结束，恐惧仍然生效）。</p>\n<p><strong>大失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧3}和@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭1}（即使迷魂结束，后两者仍然生效）。</p>"
+          "description": "<p>你以魔法在附近的设备、全息投影仪、屏幕及其他显示装置（包括护甲上的通讯装置）上播出噩耗。区域内能看见至少一个显示装置的生物必须进行意志豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物被显示装置@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}。</p>\n<p><strong>失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}（即使迷魂结束，惊惧仍然生效）。</p>\n<p><strong>大失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧3}和@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭1}（即使迷魂结束，后两者仍然生效）。</p>"
         },
         {
           "id": "4prUUDjag2sLdl70",
@@ -11304,7 +11316,7 @@
         {
           "id": "r2lxJLtjKSLpjZdo",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "JbmDKuZC15yvzyQh",
@@ -11441,7 +11453,7 @@
           "description": "<p>奥斯克瑞斯用相对论锯进行六次打击。</p>"
         }
       ],
-      "publicNotes": "<p>名为奥斯克瑞斯的恐怖战争机器，仅见于与先驱者相关的古老遗迹之中。其形态如两座叠置的金字塔，内部蕴藏着成分未知的白色能量核心。这些战争机器惯常在战场上瞬移穿梭，令敌人怒火中烧。这些战争机器最初被发现独自游荡于阿巴隆的先驱者城市中，后来在协约世界之外的地点被辨认出来，这为先驱者在宇宙中的扩张活动的理论提供了佐证。</p>\n<p>奥斯克瑞斯拒绝正面交锋，始终与敌人保持距离，释放出耀眼的能量光束，将那些不幸与之交战者的肢体切断。它们以极远距离的精准攻击，将敌人一点点肢解。若被迫近身作战，它们能释放时间能量冲击波减缓攻击者，从而争取时间重新调整位置，继续实施肢解轰炸。</p>\n<p>如同其他先驱者的构装体，这些守卫拒绝交流，并抵御着几乎所有试图覆盖或破解其程序的尝试。星系中部分顶尖智者曾成功暂时突破奥斯克瑞斯内部的精密程序，但此类入侵行为总会被迅速探测并击退，表明每台这种奇怪机器内部都栖息着不断进化的智能。</p>\n<p>当从多个角度发起攻击时，便能轻易压倒奥斯克瑞斯的探测网格与反应机制。新械族学者认为，这些构装体原本是为对抗仅擅长二维作战的敌人而打造的，尽管奥斯克瑞斯自身具备卓越的三维作战能力，它们却始终以敌人仅能二维作战的方式进行战斗。</p>\n<p>据推测，奥斯克瑞斯采用的独特战术与武器，旨在应对一种特定威胁：来自平面国度（Planashar Dominion）的平面族（planashars）。平面族来自名为“无限循环”（Infinite Loop）的仅有二维的不同现实。近期他们悄然入侵星系，自称“聚合派”（Those Who Converge），袭击阿巴隆的先驱者城市及太阳聚居地诺玛（Noma）。奥斯克瑞斯专为对抗平面族而生，这一事实更印证了先驱者与平面族之间存在某种关联。</p>\n<p>由于奥斯克瑞斯习惯于对抗仅存在于二维空间的生物，它对涉及三维空间的战术显得格外脆弱——例如多角度攻击。尽管奥斯克瑞斯无法完全理解此类战术，但它能感知到自己正被三维思维所牵制，并会利用强大的瞬移能力，在每次机会出现时迅速转移至更安全的位置。</p>",
+      "publicNotes": "<p>名为奥斯克瑞斯的恐怖战争机器，仅见于与先驱者相关的古老遗迹之中。其形态如两座叠置的金字塔，内部蕴藏着成分未知的白色能量核心。这些战争机器惯常在战场上瞬移穿梭，令敌人怒火中烧。这些战争机器最初被发现独自游荡于阿巴隆的先驱者城市中，后来在协约世界之外的地点被辨认出来，这为先驱者在宇宙中的扩张活动的理论提供了佐证。</p>\n<p>奥斯克瑞斯拒绝正面交锋，始终与敌人保持距离，释放出耀眼的能量光束，将那些不幸与之交战者的肢体切断。它们以极远距离的精准攻击，将敌人一点点肢解。若被迫近身作战，它们能释放时间能量冲击波减缓攻击者，从而争取时间重新调整位置，继续实施肢解轰炸。</p>\n<p>如同其他先驱者的构装体，这些守卫拒绝交流，并抵御着几乎所有试图覆盖或破解其程序的尝试。星系中部分顶尖智者曾成功暂时突破奥斯克瑞斯内部的精密程序，但此类入侵行为总会被迅速探测并击退，表明每台这种奇怪机器内部都栖息着不断进化的智能。</p>\n<p>当从多个角度发起攻击时，便能轻易压倒奥斯克瑞斯的探测网格与反应机制。新械族学者认为，这些构装体原本是为对抗仅擅长二维作战的敌人而打造的，尽管奥斯克瑞斯自身具备卓越的三维作战能力，它们却始终以敌人仅能二维作战的方式进行战斗。</p>\n<p>据推测，奥斯克瑞斯采用的独特战术与武器，旨在应对一种特定威胁：来自位面碎片主宰（Planashar Dominion）的平面族（planashars）。平面族来自名为“无限循环”（Infinite Loop）的仅有二维的不同现实。近期他们悄然入侵星系，自称“聚合派”（Those Who Converge），袭击阿巴隆的先驱者城市及太阳聚居地诺玛（Noma）。奥斯克瑞斯专为对抗平面族而生，这一事实更印证了先驱者与平面族之间存在某种关联。</p>\n<p>由于奥斯克瑞斯习惯于对抗仅存在于二维空间的生物，它对涉及三维空间的战术显得格外脆弱——例如多角度攻击。尽管奥斯克瑞斯无法完全理解此类战术，但它能感知到自己正被三维思维所牵制，并会利用强大的瞬移能力，在每次机会出现时迅速转移至更安全的位置。</p>",
       "cnText_system_attributes_allSaves_value": {
         "expected": "+1 status to all saves vs. magic",
         "text": "对抗魔法的所有豁免获得+1状态加值"
@@ -11661,7 +11673,7 @@
         {
           "id": "AwcA2MWWkYBYG3yS",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "Sz7zVPSiqrEdeR1M",
@@ -11830,7 +11842,7 @@
         {
           "id": "V6iu3EGjElJFmqCo",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "fJQBb8RgRHpdI0MJ",
@@ -12240,7 +12252,7 @@
         {
           "id": "7PIVDJYXyZ5ZY60T",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "thFEQZ6z2qqCmghl",
@@ -12682,7 +12694,7 @@
         {
           "id": "iWkSh1sfrLRRWgqM",
           "expectedName": "Phasic Flurry",
-          "name": "相位连斩",
+          "name": "相位乱舞",
           "expectedDescription": "<p>The nyssholora Strides up to its Speed then makes a phasic blade Strike against each creature within reach. Each attack counts toward the nyssholora's multiple attack penalty, but the penalty doesn't increase until after all the attacks.</p>",
           "description": "<p>相位兽行走至多等于自身速度的距离，然后对触及范围内的每个生物各进行一次相位刃打击。每次攻击都计入相位兽的多重攻击减值，但该减值直到所有攻击完成后才会增加。</p>"
         },
@@ -12971,6 +12983,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Void Zombie",
         "text": "虚空丧尸"
+      },
+      "cnText_system_attributes_hp_details": {
+        "expected": "(void healing)",
+        "text": "（虚能治疗）"
       }
     },
     "ZDNakdcXH86fTWbA": {
@@ -13413,7 +13429,7 @@
         {
           "id": "AXnyJWY0QRsaYKQO",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "mdIGB9kjmEzFiA0k",
@@ -14063,7 +14079,7 @@
         {
           "id": "IqHVc9kJi2Gu2WlK",
           "expectedName": "Techsense (Imprecise) 30 feet",
-          "name": "科技感知（不精确）30尺",
+          "name": "科技感知（模糊）30尺",
           "expectedDescription": "<p>A digital ghost senses creatures and items with the tech trait at the listed range.</p>",
           "description": "<p>数字幽灵可以在所列范围内感知具有科技特征的生物和物品。</p>"
         },
@@ -14126,7 +14142,7 @@
         {
           "id": "8b3i4vSza8ZngadQ",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "pQSJPWty1nqQXxiZ",
@@ -14249,7 +14265,7 @@
         {
           "id": "INiGFglEGjz18c3R",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "eYSNACkAPlsgVxkS",
@@ -14909,7 +14925,7 @@
         {
           "id": "tbYdo7NpsfoFRyZz",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "C0EZvOHzCJ4LkBi0",
@@ -15139,7 +15155,7 @@
         {
           "id": "9JVH4KvmVnldBcj4",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "gzFe9m1McoQ3n47k",
@@ -15687,7 +15703,7 @@
           "expectedName": "Aeon Stone (Uplifting)",
           "name": "抬升万古石",
           "expectedDescription": "<p>Staple items within the Azlanti Star Empire, these gemstones are popular status symbols for adventurers and wealthy collectors. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to build the Universe in ancient times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head (or another visible part of your anatomy if you don't have a head) instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} action against you. A stowed or removed stone remains invested, but its effects are @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into specific items, such as weapons with the aeon trait or antique magical devices called <em>wayfinders</em>.</p><hr /><p>This deep-blue prism with cloudy inclusions is light as a feather. Its resonant power gives you a +1 item bonus to Acrobatics checks.</p>\n<p><strong>Activate—Fly Free</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain a fly Speed for 1 minute equal to your Speed or 20 feet, whichever is greater.</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.xZ5XMY55S42aGyjg]</p>",
-          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{缴械} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这块含有云雾状杂质的深蓝色棱柱轻如羽毛。其共鸣能力为你的特技检定提供+1物品加值。</p>\n<p><strong>启动—自由飞翔</strong> <span class=\"action-glyph\">1</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得等于自身速度或20尺（取较高者）的飞行速度，持续1分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.xZ5XMY55S42aGyjg]</p>"
+          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这块含有云雾状杂质的深蓝色棱柱轻如羽毛。其共鸣能力为你的特技检定提供+1物品加值。</p>\n<p><strong>启动—自由飞翔</strong> <span class=\"action-glyph\">1</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得等于自身速度或20尺（取较高者）的飞行速度，持续1分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.xZ5XMY55S42aGyjg]</p>"
         },
         {
           "id": "iWIntVepzLdvZE5A",
@@ -15954,7 +15970,7 @@
         {
           "id": "AXnyJWY0QRsaYKQO",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "mdIGB9kjmEzFiA0k",
@@ -16745,7 +16761,7 @@
           "expectedName": "Tempweave",
           "name": "保温织服",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Tempweave suits are reinforced hooded garments woven with thermal fabric and venting wires, popularly worn for trips to humid climates like the jungles of Castrovel or Pulonis.</p>",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普罗尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>"
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普洛尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>"
         },
         {
           "id": "DnjFSJVXDM330gPn",
@@ -17013,7 +17029,7 @@
         {
           "id": "XI2tz8UTr5KPnMPY",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "6s9kr17VBUjxUyc7",
@@ -17227,7 +17243,7 @@
           "expectedName": "Singularity Seed",
           "name": "播种奇点",
           "expectedDescription": "<p>A tiny particle of incredibly dense mass magically blossoms into a gravitational singularity that pulls creatures toward it and spatially compresses any creatures that are moved into it. You create a singularity in a 5-foot square that is unoccupied by any creatures. All creatures and unsecured objects in a @Template[type:emanation|distance:50] around the singularity are moved toward the singularity when the spell is cast, depending on their Reflex save (see below). Creatures and objects are moved starting with those closest to the singularity, so they might block the path of other creatures and objects that are pulled in later.</p>\n<p>Creatures' spaces can overlap in the square that contains the singularity. A creature or object that enters the singularity or ends its turn there takes 10d10 bludgeoning damage with no saving throw. While in the singularity, a creature can take no actions except to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} against your Spell DC. When the spell ends, the singularity disappears, and overlapping creatures are moved to the closest unoccupied space, as determined by the GM.</p>\n<p>Squares in the emanation are difficult terrain for creatures moving away from the singularity, and creatures moving toward the singularity can move 10 feet for each 5 feet of movement they spend.</p>\n<p>A creature needs to attempt a Reflex save if it's in the area when the spell is cast and when it ends its turn in the area.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is pulled 10 feet toward the singularity.</p>\n<p><strong>Failure</strong> The creature is pulled 20 feet toward the singularity.</p>\n<p><strong>Critical Failure</strong> The creature is pulled 30 feet toward the singularity.</p>",
-          "description": "<p>一粒质量极其密集的微小粒子在魔法作用下扩展为引力奇点，将生物拉向自身，并在空间上压缩被移入其中的生物。你在一个未被任何生物占据的5尺方格内创造一个奇点。法术施放时，奇点周围@Template[type:emanation|distance:50]内的所有生物和未被固定的物体，根据其反射豁免结果向奇点移动（见下文）。生物和物体从距离奇点最近者开始移动，因此它们可能挡住随后被拉入的其他生物和物体的路径。</p>\n<p>生物的空间可以在包含奇点的方格内重叠。进入奇点或在其中结束其回合的生物或物体受到10d10钝击伤害，无法豁免。在奇点内，生物除了对抗你的法术DC尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱逃}之外，无法采取任何动作。法术结束时，奇点消失，重叠的生物被移至最近的未占用空间，具体由GM决定。</p>\n<p>对于向远离奇点方向移动的生物，弥漫区域内的方格是困难地形；向奇点靠近的生物每花费5尺移动距离，便可移动10尺。</p>\n<p>施放法术时位于区域内，以及在区域内结束其回合的生物，需要尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物被拉向奇点10尺。</p>\n<p><strong>失败</strong>该生物被拉向奇点20尺。</p>\n<p><strong>大失败</strong>该生被拉向奇点30尺。</p>"
+          "description": "<p>一粒质量极其密集的微小粒子在魔法作用下扩展为引力奇点，将生物拉向自身，并在空间上压缩被移入其中的生物。你在一个未被任何生物占据的5尺方格内创造一个奇点。法术施放时，奇点周围@Template[type:emanation|distance:50]内的所有生物和未被固定的物体，根据其反射豁免结果向奇点移动（见下文）。生物和物体从距离奇点最近者开始移动，因此它们可能挡住随后被拉入的其他生物和物体的路径。</p>\n<p>生物的空间可以在包含奇点的方格内重叠。进入奇点或在其中结束其回合的生物或物体受到10d10钝击伤害，无法豁免。在奇点内，生物除了对抗你的法术DC尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}之外，无法采取任何动作。法术结束时，奇点消失，重叠的生物被移至最近的未占用空间，具体由GM决定。</p>\n<p>对于向远离奇点方向移动的生物，弥漫区域内的方格是困难地形；向奇点靠近的生物每花费5尺移动距离，便可移动10尺。</p>\n<p>施放法术时位于区域内，以及在区域内结束其回合的生物，需要尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物被拉向奇点10尺。</p>\n<p><strong>失败</strong>该生物被拉向奇点20尺。</p>\n<p><strong>大失败</strong>该生被拉向奇点30尺。</p>"
         },
         {
           "id": "ImHPje7uuTyH88N8",
@@ -17568,7 +17584,7 @@
         {
           "id": "VLYb90mymFyRE0da",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "kKB5nmWouTFKoSJR",
@@ -17704,7 +17720,7 @@
         {
           "id": "pYKJnYjy23HOSprg",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "bsxTtaZUXkhHt30d",
@@ -18143,7 +18159,7 @@
         {
           "id": "BizxVqDlI41wEJ2V",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "H9nQRaG6Qpk6oDvS",
@@ -18157,7 +18173,7 @@
           "expectedName": "Adhere",
           "name": "附着术",
           "expectedDescription": "<p>You create a molecular bond between an unattended object you touch (or an object you're holding) and another object or surface that object is touching. Pulling the object free of that surface requires a successful [[/act force-open]]{Athletics} check against your spell DC to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open}.</p>\n<p>If you instead touch one unoccupied 5-foot square, that surface becomes charged with adhering magic. That space becomes greater difficult terrain.</p>",
-          "description": "<p>你在触碰的一件无人持有的物体（或你正持有的物体），与该物体接触的另一件物体或表面之间建立分子键。要将物体从该表面拉开，需要成功通过一次对抗你法术DC的[[/act force-open]]{运动}检定，以@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{破开}。</p>\n<p>如果你选择接触一个没被占据的五尺方格，则该表面会充满黏附的魔法。该空间将变成高等困难地形。</p>"
+          "description": "<p>你在触碰的一件无人持有的物体（或你正持有的物体），与该物体接触的另一件物体或表面之间建立分子键。要将物体从该表面拉开，需要成功通过一次对抗你法术DC的[[/act force-open]]{运动}检定，以@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{破拆}。</p>\n<p>如果你选择接触一个没被占据的五尺方格，则该表面会充满黏附的魔法。该空间将变成高等困难地形。</p>"
         },
         {
           "id": "yDqDQFdaigEBYfYJ",
@@ -18478,7 +18494,7 @@
         {
           "id": "Np2x6qgescz01B4T",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "sax1p9lfULaGvMql",
@@ -18798,7 +18814,7 @@
         {
           "id": "jbyvMYeH8FKay2bW",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "fJUm3HBbj0HbJWY6",
@@ -19534,6 +19550,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Ravenous Drake",
         "text": "贪食龙兽"
+      },
+      "cnText_system_details_languages_details": {
+        "expected": "(cannot speak)",
+        "text": "（无法说话）"
       }
     },
     "qYZZKDbdJmmolGh7": {
@@ -19546,7 +19566,7 @@
         {
           "id": "AXnyJWY0QRsaYKQO",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "kHlIt8T1DkNyhi88",
@@ -20183,7 +20203,7 @@
         {
           "id": "tw2jaNsLtLu457px",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "kdCRn1cxL4csIXrl",
@@ -20261,7 +20281,7 @@
           "expectedName": "Dutiful Moderator",
           "name": "尽职管理员",
           "expectedDescription": "<p>An online community moderated by an emvermod never experiences random bugs or downtime. Any checks to @UUID[Compendium.sf2e-anachronism.actions.Item.Yn4jLPVWVE1vtAaF], @UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{Craft} virtual items, @UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{Earn Income}, or @UUID[Compendium.sf2e-anachronism.actions.Item.RF8xNJ8QsMwogerB] using the community as a tool receive a +2 circumstance bonus. If the emvermod is unfriendly, such checks take a –2 circumstance penalty instead. An emvermod must spend a week in an online space to become a moderator.</p>",
-          "description": "<p>由网管精管理的网络社区永远不会出现随机程序错误或停机。任何以该社区为工具进行的@UUID[Compendium.sf2e-anachronism.actions.Item.Yn4jLPVWVE1vtAaF]、@UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{制造}虚拟物品、@UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{赚取收入}或@UUID[Compendium.sf2e-anachronism.actions.Item.RF8xNJ8QsMwogerB]检定获得+2环境加值。如果网管精不友善，这些检定改为受到–2环境减值。网管精必须在一个网络空间中待上一周，才能成为管理员。</p>\n"
+          "description": "<p>由网管精管理的网络社区永远不会出现随机程序错误或停机。任何以该社区为工具进行的@UUID[Compendium.sf2e-anachronism.actions.Item.Yn4jLPVWVE1vtAaF]、@UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{制作}虚拟物品、@UUID[Compendium.pf2e.actionspf2e.Item.QyzlsLrqM0EEwd7j]{赚取收入}或@UUID[Compendium.sf2e-anachronism.actions.Item.RF8xNJ8QsMwogerB]检定获得+2环境加值。如果网管精不友善，这些检定改为受到–2环境减值。网管精必须在一个网络空间中待上一周，才能成为管理员。</p>\n"
         },
         {
           "id": "DnTmUydEMQUuQJsM",
@@ -20793,7 +20813,7 @@
         {
           "id": "AXnyJWY0QRsaYKQO",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "kHlIt8T1DkNyhi88",
@@ -21283,7 +21303,7 @@
         {
           "id": "KsApwLLNvP18hlFR",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "snZo4qYzIv0RBY7E",
@@ -21318,7 +21338,7 @@
           "expectedName": "Singularity Seed",
           "name": "播种奇点",
           "expectedDescription": "<p>A tiny particle of incredibly dense mass magically blossoms into a gravitational singularity that pulls creatures toward it and spatially compresses any creatures that are moved into it. You create a singularity in a 5-foot square that is unoccupied by any creatures. All creatures and unsecured objects in a @Template[type:emanation|distance:50] around the singularity are moved toward the singularity when the spell is cast, depending on their Reflex save (see below). Creatures and objects are moved starting with those closest to the singularity, so they might block the path of other creatures and objects that are pulled in later.</p>\n<p>Creatures' spaces can overlap in the square that contains the singularity. A creature or object that enters the singularity or ends its turn there takes 10d10 bludgeoning damage with no saving throw. While in the singularity, a creature can take no actions except to attempt to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} against your Spell DC. When the spell ends, the singularity disappears, and overlapping creatures are moved to the closest unoccupied space, as determined by the GM.</p>\n<p>Squares in the emanation are difficult terrain for creatures moving away from the singularity, and creatures moving toward the singularity can move 10 feet for each 5 feet of movement they spend.</p>\n<p>A creature needs to attempt a Reflex save if it's in the area when the spell is cast and when it ends its turn in the area.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is pulled 10 feet toward the singularity.</p>\n<p><strong>Failure</strong> The creature is pulled 20 feet toward the singularity.</p>\n<p><strong>Critical Failure</strong> The creature is pulled 30 feet toward the singularity.</p>",
-          "description": "<p>一粒质量极其密集的微小粒子在魔法作用下扩展为引力奇点，将生物拉向自身，并在空间上压缩被移入其中的生物。你在一个未被任何生物占据的5尺方格内创造一个奇点。法术施放时，奇点周围@Template[type:emanation|distance:50]内的所有生物和未被固定的物体，根据其反射豁免结果向奇点移动（见下文）。生物和物体从距离奇点最近者开始移动，因此它们可能挡住随后被拉入的其他生物和物体的路径。</p>\n<p>生物的空间可以在包含奇点的方格内重叠。进入奇点或在其中结束其回合的生物或物体受到10d10钝击伤害，无法豁免。在奇点内，生物除了对抗你的法术DC尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱逃}之外，无法采取任何动作。法术结束时，奇点消失，重叠的生物被移至最近的未占用空间，具体由GM决定。</p>\n<p>对于向远离奇点方向移动的生物，弥漫区域内的方格是困难地形；向奇点靠近的生物每花费5尺移动距离，便可移动10尺。</p>\n<p>施放法术时位于区域内，以及在区域内结束其回合的生物，需要尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物被拉向奇点10尺。</p>\n<p><strong>失败</strong>该生物被拉向奇点20尺。</p>\n<p><strong>大失败</strong>该生被拉向奇点30尺。</p>"
+          "description": "<p>一粒质量极其密集的微小粒子在魔法作用下扩展为引力奇点，将生物拉向自身，并在空间上压缩被移入其中的生物。你在一个未被任何生物占据的5尺方格内创造一个奇点。法术施放时，奇点周围@Template[type:emanation|distance:50]内的所有生物和未被固定的物体，根据其反射豁免结果向奇点移动（见下文）。生物和物体从距离奇点最近者开始移动，因此它们可能挡住随后被拉入的其他生物和物体的路径。</p>\n<p>生物的空间可以在包含奇点的方格内重叠。进入奇点或在其中结束其回合的生物或物体受到10d10钝击伤害，无法豁免。在奇点内，生物除了对抗你的法术DC尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}之外，无法采取任何动作。法术结束时，奇点消失，重叠的生物被移至最近的未占用空间，具体由GM决定。</p>\n<p>对于向远离奇点方向移动的生物，弥漫区域内的方格是困难地形；向奇点靠近的生物每花费5尺移动距离，便可移动10尺。</p>\n<p>施放法术时位于区域内，以及在区域内结束其回合的生物，需要尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物被拉向奇点10尺。</p>\n<p><strong>失败</strong>该生物被拉向奇点20尺。</p>\n<p><strong>大失败</strong>该生被拉向奇点30尺。</p>"
         },
         {
           "id": "s5jdvyz7QAJ2Ve8g",
@@ -21540,7 +21560,7 @@
           "expectedName": "Integrated Advanced Seeker Rifle",
           "name": "内置先进型追猎者步枪",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This single-shot sniper rifle is one of the most popular weapons in the Vast thanks to its stability and reliability with minimal upkeep.</p>",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种单发狙击步枪稳定、可靠、维护要求极低，因此是广袤星域（Vast）最受欢迎的武器之一。</p>"
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种单发狙击步枪稳定、可靠、维护要求极低，因此是浩界（Vast）最受欢迎的武器之一。</p>"
         },
         {
           "id": "q1pZRD2zNEmCe1uH",
@@ -22267,7 +22287,7 @@
           "expectedName": "Arc Rifle",
           "name": "电弧步枪",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This rifle's oversized body contains a larger version of an arc pistol capacitor, with a short barrel and polycarbon stock designed to insulate the wielder from high voltage. The arc rifle's larger capacitor allows it to produce a charge with enough power to subdue a rampaging renkroda.</p>",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这把步枪宽大的枪身中装有电弧手枪电容器的放大版本，短枪管和聚碳枪托则能使持用者与高压电绝缘。电弧步枪更大的电容器能够产生足以制服狂暴伦克罗达兽（renkroda）的强力电荷。</p>"
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这把步枪宽大的枪身中装有电弧手枪电容器的放大版本，短枪管和聚碳枪托则能使持用者与高压电绝缘。电弧步枪更大的电容器能够产生足以制服狂暴掠吼龙（renkroda）的强力电荷。</p>"
         },
         {
           "id": "tetvejA1XvEJXTqc",
@@ -22332,6 +22352,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Scavenger Slime",
         "text": "拾荒粘怪"
+      },
+      "cnText_system_attributes_ac_details": {
+        "expected": "(22 when broken)",
+        "text": "（破损时为22）"
       }
     },
     "xbbJZjrTn2PET9Dk": {
@@ -22374,7 +22398,7 @@
         {
           "id": "Bpas6XYnflXY5mkj",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "hSMtIQk6750f3gkJ",

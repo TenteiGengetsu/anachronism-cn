@@ -59,6 +59,10 @@
     "cnText_system_skills_athletics_special_0_label": {
       "path": "system.skills.athletics.special.0.label",
       "converter": "sf2eAnachronismCnText"
+    },
+    "cnText_system_attributes_speed_details": {
+      "path": "system.attributes.speed.details",
+      "converter": "sf2eAnachronismCnText"
     }
   },
   "entries": {
@@ -150,6 +154,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Rejuvenating Projector",
         "text": "复原投影仪"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "4XHrKB4GP5e6I9uH": {
@@ -189,6 +197,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Necroturret",
         "text": "死灵炮塔"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "6CBtaIhJZdAgAqVf": {
@@ -217,6 +229,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Spinning Treadmill",
         "text": "旋转跑步机"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "6r1fVn61okoxeQ1Q": {
@@ -435,6 +451,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Soufflé Surprise",
         "text": "舒芙蕾惊喜"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "HOgqslwrHCeXlYp8": {
@@ -541,6 +561,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Plot Twist",
         "text": "剧情转折"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "IsuQst3MOBDEspty": {
@@ -573,6 +597,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Mortar Shells",
         "text": "迫击炮弹"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "J4QXF8oJlSMru16n": {
@@ -804,7 +832,7 @@
         {
           "id": "rs20lgRWEaR8cAjs",
           "expectedName": "Occult Innate Spells",
-          "name": "异能天生法术"
+          "name": "异能内在法术"
         },
         {
           "id": "UL7kvMqQrgI2TElq",
@@ -1016,7 +1044,7 @@
         {
           "id": "LebunvH85R2kh57v",
           "expectedName": "Primal Innate Spells",
-          "name": "原能天生法术"
+          "name": "原能内在法术"
         },
         {
           "id": "dbynQ5aPTMFZD7oL",
@@ -1044,7 +1072,7 @@
           "expectedName": "Adhere",
           "name": "附着术",
           "expectedDescription": "<p>You create a molecular bond between an unattended object you touch (or an object you're holding) and another object or surface that object is touching. Pulling the object free of that surface requires a successful [[/act force-open]]{Athletics} check against your spell DC to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open}.</p>\n<p>If you instead touch one unoccupied 5-foot square, that surface becomes charged with adhering magic. That space becomes greater difficult terrain.</p>",
-          "description": "<p>你在触碰的一件无人持有的物体（或你正持有的物体），与该物体接触的另一件物体或表面之间建立分子键。要将物体从该表面拉开，需要成功通过一次对抗你法术DC的[[/act force-open]]{运动}检定，以@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{破开}。</p>\n<p>如果你选择接触一个没被占据的五尺方格，则该表面会充满黏附的魔法。该空间将变成高等困难地形。</p>"
+          "description": "<p>你在触碰的一件无人持有的物体（或你正持有的物体），与该物体接触的另一件物体或表面之间建立分子键。要将物体从该表面拉开，需要成功通过一次对抗你法术DC的[[/act force-open]]{运动}检定，以@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{破拆}。</p>\n<p>如果你选择接触一个没被占据的五尺方格，则该表面会充满黏附的魔法。该空间将变成高等困难地形。</p>"
         },
         {
           "id": "wIxJa34fJq43ImXR",
@@ -1176,7 +1204,7 @@
           "description": "<p>集群空间内的每个生物受到@Damage[2d10[void]]伤害（@Check[reflex|dc:24|basic]豁免）。豁免失败的生物额外受到@Damage[2d6[persistent,void]]伤害（大失败时此伤害翻倍）。</p>"
         }
       ],
-      "publicNotes": "<p>尸骸舰队最公开的长期目标，是确立不死生物在协约世界恒星系中的至高地位，让这个星系新的不朽统治者随心所欲地消灭或奴役生者。最终，辉煌的尸骸舰队希望征服整个黛丝娜之径，甚至可能扩张到其他星系。</p>\n<p>在规模较小的行动中，尸骸舰队的研究员会试验各种死灵武器，包括木乃伊黄蜂这类不生生物武器。</p>\n<p>制造木乃伊黄蜂时，先在蜂巢中熏杀整群黄蜂，再煞费苦心地用神圣纸张逐一包裹，将每只黄蜂制成木乃伊，最后通过邪秽仪式埋葬并重新活化整个蜂巢。</p>\n<p>部署后，木乃伊黄蜂会凶残地袭击活物，却忽略不死生物，因此是控制区域和压制敌人的理想武器。</p>\n<p>它们还极具攻击性和入侵性。许多地方已经发现木乃伊黄蜂的踪迹，远离位于浩界、制造出它们的尸骸舰队设施。</p>\n<p>木乃伊黄蜂巢已部署在古冢及其他尸骸舰队设施。它们也被用作弹药，由破障炮发射或从载具中投出。</p><h2>危险的研究</h2><p>木乃伊黄蜂和冻骸的成功研制，使阴险的尸骸舰队科学家更加大胆，试图进一步突破界限，造出更强大的不生武器。少数打入尸骸舰队的理事军间谍传回情报，海军统帅部已准备启动“墓心计划”，试图将虫群组件转化为不死士兵。无论成功与否，这项实验的后果都可能给协约世界带来灾难。</p>",
+      "publicNotes": "<p>尸骸舰队最公开的长期目标，是确立不死生物在协约世界恒星系中的至高地位，让这个星系新的不朽统治者随心所欲地消灭或奴役生者。最终，辉煌的尸骸舰队希望征服整个黛丝娜之径，甚至可能扩张到其他星系。</p>\n<p>在规模较小的行动中，尸骸舰队的研究员会试验各种死灵武器，包括木乃伊黄蜂这类不生生物武器。</p>\n<p>制造木乃伊黄蜂时，先在蜂巢中熏杀整群黄蜂，再煞费苦心地用神圣纸张逐一包裹，将每只黄蜂制成木乃伊，最后通过邪秽仪式埋葬并重新活化整个蜂巢。</p>\n<p>部署后，木乃伊黄蜂会凶残地袭击活物，却忽略不死生物，因此是控制区域和压制敌人的理想武器。</p>\n<p>它们还极具攻击性和入侵性。许多地方已经发现木乃伊黄蜂的踪迹，远离位于浩界、制造出它们的尸骸舰队设施。</p>\n<p>木乃伊黄蜂巢已部署在古冢及其他尸骸舰队设施。它们也被用作弹药，由破障炮发射或从载具中投出。</p><h2>危险的研究</h2><p>木乃伊黄蜂和冻骸的成功研制，使阴险的尸骸舰队科学家更加大胆，试图进一步突破界限，造出更强大的不生武器。少数打入尸骸舰队的理事军间谍传回情报，海军统帅部已准备启动“坟墓心智计划”（Project Gravemind），试图将虫群组件转化为不死士兵。无论成功与否，这项实验的后果都可能给协约世界带来灾难。</p>",
       "cnText_system_attributes_hp_details": {
         "expected": "void healing",
         "text": "虚能治疗"
@@ -1410,7 +1438,7 @@
           "expectedName": "Doom Scroll",
           "name": "末日刷屏",
           "expectedDescription": "<p>You magically broadcast grim news onto nearby devices, holo projectors, screens, and other displays (including comm units on armor). Creatures in the area who can see one or more displays must attempt a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the display.</p>\n<p><strong>Failure</strong> The creature is fascinated by the display and @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} (even if the fascination ends).</p>\n<p><strong>Critical Failure</strong> The creature is fascinated by the display, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}, and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (even if the fascination ends).</p>",
-          "description": "<p>你以魔法在附近的设备、全息投影仪、屏幕及其他显示装置（包括护甲上的通讯装置）上播出噩耗。区域内能看见至少一个显示装置的生物必须进行意志豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物被显示装置@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}。</p>\n<p><strong>失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧2}（即使迷魂结束，恐惧仍然生效）。</p>\n<p><strong>大失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{恐惧3}和@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭1}（即使迷魂结束，后两者仍然生效）。</p>"
+          "description": "<p>你以魔法在附近的设备、全息投影仪、屏幕及其他显示装置（包括护甲上的通讯装置）上播出噩耗。区域内能看见至少一个显示装置的生物必须进行意志豁免。</p><hr /><p><strong>大成功</strong> 该生物不受影响。</p>\n<p><strong>成功</strong> 该生物被显示装置@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}。</p>\n<p><strong>失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}（即使迷魂结束，惊惧仍然生效）。</p>\n<p><strong>大失败</strong> 该生物被显示装置迷魂，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧3}和@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭1}（即使迷魂结束，后两者仍然生效）。</p>"
         },
         {
           "id": "re3ZmGmp4UUXbntj",
@@ -1548,7 +1576,7 @@
             {
               "path": "system.subitems.0.system.description.value",
               "expected": "<p>Boosters attached to your armor allow you to fly.</p>\n<p><strong>Activate—Fly</strong> <span class=\"action-glyph\">1</span> (manipulate)</p><hr /><p><strong>Effect</strong> You activate a jetpack to gain a fly Speed of 40 feet. This effect lasts for 1 minute or until you Dismiss it. You can use an action to Fly 0 feet to hover in place, but you're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while doing so. A jetpack can't lift you if you're encumbered.</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
-              "text": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷气背包，获得40尺飞行速度。此效应持续1分钟，或直到你将其解除。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷气背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
+              "text": "<p>附着在你护甲上的推进器使你能够飞行。</p>\n<p><strong>启动—飞行</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 你启动喷射背包，获得40尺飞行速度。此效应持续1分钟，或直到你将其解消。你可以用一个动作飞行0尺来悬停原处，但你会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} （仅在悬停期间）。若你超载，喷射背包无法将你抬起。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0kP4P73w0PykYkPY]</p>",
               "guards": [
                 {
                   "path": "system.subitems.0._id",
@@ -1570,7 +1598,7 @@
             {
               "path": "system.subitems.1.system.description.value",
               "expected": "<p>This armor is specially treated with insulation to protect against a specific type of damage. You gain resistance 15 to acid, cold, electricity, or fire. The crafter chooses the damage type when creating the upgrade. Multiple energy shielding upgrades can be placed into a suit of armor, but each must provide resistance to a different damage type.</p>",
-              "text": "<p>此护甲经过特殊的隔绝处理，以防护特定类型的伤害。你获得对酸蚀、寒冷、电击或火焰的抗力15。制造者在制作此强化模块时选择伤害类型。一套护甲可以安装多个能量护盾强化模块，但每个模块必须提供对不同伤害类型的抗力。</p>",
+              "text": "<p>此护甲经过特殊的隔绝处理，以防护特定类型的伤害。你获得对酸蚀、寒冷、电击或火焰的抗力15。制造者在制作此强化模块时选择伤害类型。一套护甲可以安装多个能量屏障强化模块，但每个模块必须提供对不同伤害类型的抗力。</p>",
               "guards": [
                 {
                   "path": "system.subitems.1._id",
@@ -1585,7 +1613,7 @@
           "expectedName": "Holoskin (Tactical)",
           "name": "战术型全息皮肤",
           "expectedDescription": "<p>A holographic projector mounted to a belt or limb strap can be activated as an Interact action. It can be programmed to project the appearance of another creature of the same size category as yourself, hiding your true appearance. A holoskin doesn't change your voice, scent, or mannerisms. The appearance of held and worn items aren't affected. You usually need a holoskin to set up a disguise in order to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} someone using the Deception skill. A tactical holoskin adds a +1 item bonus to relevant checks.</p>",
-          "description": "<p>安装在腰带或肢体绑带上的全息投影器可以用一个交互动作启动。你可将其设定为投射出与你体型类别相同的另一生物的外观，以隐藏自己的真实外貌。全息皮肤不会改变你的声音、气味或举止。持握和穿戴物品的外观也不受影响。通常你需要用全息皮肤准备伪装，才能 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{假扮} 他人（使用欺骗技能）。战术型全息皮肤为相关检定提供+1物品加值。</p>"
+          "description": "<p>安装在腰带或肢体绑带上的全息投影器可以用一个交互动作启动。你可将其设定为投射出与你体型类别相同的另一生物的外观，以隐藏自己的真实外貌。全息皮肤不会改变你的声音、气味或举止。持握和穿戴物品的外观也不受影响。通常你需要用全息皮肤准备伪装，才能 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装} 他人（使用欺骗技能）。战术型全息皮肤为相关检定提供+1物品加值。</p>"
         },
         {
           "id": "n0dwDIs2tYRS7wzF",
@@ -1721,10 +1749,10 @@
           "name": "战争学识"
         }
       ],
-      "name": "维斯克帝国伞兵 Veskarium Paratrooper",
+      "name": "维斯卡里姆伞兵 Veskarium Paratrooper",
       "cnText_prototypeToken_name": {
         "expected": "Veskarium Paratrooper",
-        "text": "维斯克帝国伞兵"
+        "text": "维斯卡里姆伞兵"
       }
     },
     "YtPDtjmBQq10pRl4": {
@@ -1767,6 +1795,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Exploding Panels",
         "text": "爆炸面板"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "ZK6J3OIVvJVMBEDu": {
@@ -1940,6 +1972,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Shock Grid",
         "text": "电击网格"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "iWP43xPPy9JVLhFr": {
@@ -2024,7 +2060,7 @@
           "expectedName": "Tempweave",
           "name": "保温织服",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Tempweave suits are reinforced hooded garments woven with thermal fabric and venting wires, popularly worn for trips to humid climates like the jungles of Castrovel or Pulonis.</p>",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普罗尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>"
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普洛尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>"
         },
         {
           "id": "hI0y34zfhI7p9w8c",
@@ -2116,7 +2152,7 @@
           "expectedName": "Jaws",
           "name": "颚击",
           "expectedDescription": "<p><strong>Requirements</strong> The zombie has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}.</p>",
-          "description": "<p><strong>条件</strong> 僵尸已使一个生物被@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{擒抱}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}。</p>"
+          "description": "<p><strong>条件</strong> 僵尸已使一个生物处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}。</p>"
         },
         {
           "id": "eulyI60JHNUYs39w",
@@ -2172,6 +2208,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Micrometeor Shower",
         "text": "微陨石雨"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "mxxkISfJoQJ8i8ms": {
@@ -2211,6 +2251,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Faltering Sapient Green Orb",
         "text": "衰弱的智慧绿色球体"
+      },
+      "cnText_system_attributes_speed_details": {
+        "expected": "(hover)",
+        "text": "（悬停）"
       }
     },
     "nPSciVswzRhnBCCZ": {
@@ -2268,6 +2312,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Burning Rockslide",
         "text": "燃烧落石"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "qSJT92ktGSjVvuAS": {

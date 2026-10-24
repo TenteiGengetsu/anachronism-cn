@@ -207,7 +207,7 @@
           "id": "zofLPu7cg9aBOrXC",
           "expectedName": "Aeon Stone (Life-Giving)",
           "name": "赋生万古石",
-          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{缴械} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术天生法术。</p>",
+          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>",
           "expectedDescription": "<p>Staple items within the Azlanti Star Empire, these gemstones are popular status symbols for adventurers and wealthy collectors. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to build the Universe in ancient times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head (or another visible part of your anatomy if you don't have a head) instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} action against you. A stowed or removed stone remains invested, but its effects are @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into specific items, such as weapons with the aeon trait or antique magical devices called <em>wayfinders</em>.</p><hr /><p>This nacreous, tapered cylinder provides a breath of air when you need it most. You can hold your breath for twice as long, and you gain a +1 item bonus to saves against inhaled poisons. The resonant power allows you to cast @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] as a divine innate spell once per day.</p>"
         },
         {
@@ -357,7 +357,7 @@
         {
           "id": "OTjL2yD2siG8lshI",
           "expectedName": "Guidance",
-          "name": "指引者",
+          "name": "神导术",
           "description": "<p>你请求超自然存在指引，给予目标一次攻击检定、察觉检定、豁免检定或技能检定+1状态加值，该检定须在持续时间结束前进行。目标在掷骰前决定将加值用于哪次检定。如果目标使用了加值，法术便会结束。无论法术以哪种方式结束，目标随后都暂时免疫此效果1小时。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{法术效果：神导术}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3LyOkV25p7wA181H]{效果：神导术免疫}</p>",
           "expectedDescription": "<p>You ask for the guidance of supernatural entities, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{Spell Effect: Guidance}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3LyOkV25p7wA181H]{Effect: Guidance Immunity}</p>"
         },
@@ -949,6 +949,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Grabzit",
         "text": "格拉布齐特（Grabzit）"
+      },
+      "cnText_system_attributes_speed_details": {
+        "expected": "(hover)",
+        "text": "（悬停）"
       }
     },
     "9CqhC4cNKMKVcmw5": {
@@ -1353,7 +1357,7 @@
           "id": "zofLPu7cg9aBOrXC",
           "expectedName": "Aeon Stone (Life-Giving)",
           "name": "赋生万古石",
-          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{缴械} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术天生法术。</p>",
+          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>",
           "expectedDescription": "<p>Staple items within the Azlanti Star Empire, these gemstones are popular status symbols for adventurers and wealthy collectors. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to build the Universe in ancient times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head (or another visible part of your anatomy if you don't have a head) instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} action against you. A stowed or removed stone remains invested, but its effects are @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into specific items, such as weapons with the aeon trait or antique magical devices called <em>wayfinders</em>.</p><hr /><p>This nacreous, tapered cylinder provides a breath of air when you need it most. You can hold your breath for twice as long, and you gain a +1 item bonus to saves against inhaled poisons. The resonant power allows you to cast @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] as a divine innate spell once per day.</p>"
         },
         {
@@ -1445,7 +1449,7 @@
           "id": "MNaTwLPkvpNH2hYB",
           "expectedName": "Sure Strike",
           "name": "料敌机先",
-          "description": "<p>在本回合结束前，你下次进行攻击检定时掷两次，并采用较好结果。此次攻击忽略攻击检定的环境减值，以及因目标处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}或@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{躲藏}状态而需要进行的任何纯骰检定。之后，你暂时免疫<em>料敌机先</em>10分钟。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.fpGDAz2v5PG0zUSl]{法术效果：料敌机先}</p>",
+          "description": "<p>在本回合结束前，你下次进行攻击检定时掷两次，并采用较好结果。此次攻击忽略攻击检定的环境减值，以及因目标处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}或@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}状态而需要进行的任何纯骰检定。之后，你暂时免疫<em>料敌机先</em>10分钟。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.fpGDAz2v5PG0zUSl]{法术效果：料敌机先}</p>",
           "expectedDescription": "<p>The next time you make an attack roll before the end of your turn, roll it twice and use the better result. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}. You are then temporarily immune to <em>sure strike</em> for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.fpGDAz2v5PG0zUSl]{Spell Effect: Sure Strike}</p>"
         },
         {
@@ -1475,6 +1479,10 @@
       "cnText_prototypeToken_name": {
         "expected": "NPC",
         "text": "非玩家角色"
+      },
+      "cnText_system_details_languages_details": {
+        "expected": "(can't speak)",
+        "text": "（无法说话）"
       }
     },
     "Mq6JdLWdUL6NI01r": {
@@ -1877,7 +1885,7 @@
           "id": "kBTyMD7k9HcU1koM",
           "expectedName": "Invisibility (At Will) (Self Only)",
           "name": "隐形术（随意）（仅限自身）",
-          "description": "<p>幻术使光线绕过目标，令其处于@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}状态。因此，目标对所有生物处于@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{未被察觉}状态，但生物可以尝试寻找目标，使其对自己改为@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{躲藏}状态。如果目标使用敌对动作，法术会在该敌对动作完成后结束。</p>\n<hr />\n<p><strong>升阶（4环）</strong>法术持续1分钟，但目标使用敌对动作时不会结束。</p>",
+          "description": "<p>幻术使光线绕过目标，令其处于@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}状态。因此，目标对所有生物处于@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{无踪}状态，但生物可以尝试寻找目标，使其对自己改为@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}状态。如果目标使用敌对动作，法术会在该敌对动作完成后结束。</p>\n<hr />\n<p><strong>升阶（4环）</strong>法术持续1分钟，但目标使用敌对动作时不会结束。</p>",
           "expectedDescription": "<p>Illusions bend light around the target, rendering it @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. This makes it @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} to all creatures, though the creatures can attempt to find the target, making it @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
         },
         {
@@ -2009,6 +2017,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Pyroclastic Flow",
         "text": "火山碎屑流"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "a9mnXJ2URQkqLSqe": {
@@ -2217,7 +2229,7 @@
           "id": "a7abIGUPx0swWrkJ",
           "expectedName": "Integrated Aeon Stone (Life-Giving)",
           "name": "集成赋生万古石",
-          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{缴械} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术天生法术。</p>",
+          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>",
           "expectedDescription": "<p>Staple items within the Azlanti Star Empire, these gemstones are popular status symbols for adventurers and wealthy collectors. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to build the Universe in ancient times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head (or another visible part of your anatomy if you don't have a head) instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} action against you. A stowed or removed stone remains invested, but its effects are @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into specific items, such as weapons with the aeon trait or antique magical devices called <em>wayfinders</em>.</p><hr /><p>This nacreous, tapered cylinder provides a breath of air when you need it most. You can hold your breath for twice as long, and you gain a +1 item bonus to saves against inhaled poisons. The resonant power allows you to cast @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] as a divine innate spell once per day.</p>"
         },
         {
@@ -2727,7 +2739,7 @@
           "id": "afGcjujkco629SZm",
           "expectedName": "Aeon Stone (Life-Giving)",
           "name": "赋生万古石",
-          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{缴械} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术天生法术。</p>",
+          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>",
           "expectedDescription": "<p>Staple items within the Azlanti Star Empire, these gemstones are popular status symbols for adventurers and wealthy collectors. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to build the Universe in ancient times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head (or another visible part of your anatomy if you don't have a head) instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} action against you. A stowed or removed stone remains invested, but its effects are @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into specific items, such as weapons with the aeon trait or antique magical devices called <em>wayfinders</em>.</p><hr /><p>This nacreous, tapered cylinder provides a breath of air when you need it most. You can hold your breath for twice as long, and you gain a +1 item bonus to saves against inhaled poisons. The resonant power allows you to cast @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] as a divine innate spell once per day.</p>"
         },
         {
@@ -2840,7 +2852,7 @@
           "id": "ILfyTSxltdfWr15Y",
           "expectedName": "Aeon Stone (Uplifting)",
           "name": "抬升万古石",
-          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{缴械} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这块含有云雾状杂质的深蓝色棱柱轻如羽毛。其共鸣能力为你的特技检定提供+1物品加值。</p>\n<p><strong>启动—自由飞翔</strong> <span class=\"action-glyph\">1</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得等于自身速度或20尺（取较高者）的飞行速度，持续1分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.xZ5XMY55S42aGyjg]</p>",
+          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这块含有云雾状杂质的深蓝色棱柱轻如羽毛。其共鸣能力为你的特技检定提供+1物品加值。</p>\n<p><strong>启动—自由飞翔</strong> <span class=\"action-glyph\">1</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得等于自身速度或20尺（取较高者）的飞行速度，持续1分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.xZ5XMY55S42aGyjg]</p>",
           "expectedDescription": "<p>Staple items within the Azlanti Star Empire, these gemstones are popular status symbols for adventurers and wealthy collectors. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to build the Universe in ancient times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head (or another visible part of your anatomy if you don't have a head) instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} action against you. A stowed or removed stone remains invested, but its effects are @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into specific items, such as weapons with the aeon trait or antique magical devices called <em>wayfinders</em>.</p><hr /><p>This deep-blue prism with cloudy inclusions is light as a feather. Its resonant power gives you a +1 item bonus to Acrobatics checks.</p>\n<p><strong>Activate—Fly Free</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain a fly Speed for 1 minute equal to your Speed or 20 feet, whichever is greater.</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.xZ5XMY55S42aGyjg]</p>"
         },
         {
@@ -3150,7 +3162,7 @@
           "id": "a7abIGUPx0swWrkJ",
           "expectedName": "Integrated Aeon Stone (Life-Giving)",
           "name": "集成赋生万古石",
-          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{缴械} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术天生法术。</p>",
+          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>",
           "expectedDescription": "<p>Staple items within the Azlanti Star Empire, these gemstones are popular status symbols for adventurers and wealthy collectors. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to build the Universe in ancient times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head (or another visible part of your anatomy if you don't have a head) instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} action against you. A stowed or removed stone remains invested, but its effects are @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into specific items, such as weapons with the aeon trait or antique magical devices called <em>wayfinders</em>.</p><hr /><p>This nacreous, tapered cylinder provides a breath of air when you need it most. You can hold your breath for twice as long, and you gain a +1 item bonus to saves against inhaled poisons. The resonant power allows you to cast @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] as a divine innate spell once per day.</p>"
         },
         {
@@ -3660,6 +3672,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Jixjem",
         "text": "吉克斯杰姆（Jixjem）"
+      },
+      "cnText_system_attributes_speed_details": {
+        "expected": "(hover)",
+        "text": "（悬停）"
       }
     },
     "vtUGiHqXCVOclyYV": {
@@ -3819,6 +3835,10 @@
       "cnText_prototypeToken_name": {
         "expected": "The Harvest",
         "text": "收割者"
+      },
+      "cnText_system_details_languages_details": {
+        "expected": "(can't speak any languages)",
+        "text": "（无法说任何语言）"
       }
     },
     "ynIk8SHVRjC2NdTz": {
@@ -3986,6 +4006,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Missy Moon",
         "text": "月亮小姐"
+      },
+      "cnText_system_attributes_speed_details": {
+        "expected": "(hover)",
+        "text": "（悬停）"
       }
     },
     "4TVXA3DkwKlKGO6r": {
@@ -4059,6 +4083,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Boiling Rivers",
         "text": "沸腾河流"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "7TRt5gMQR2CNofyF": {
@@ -4096,6 +4124,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Hazard",
         "text": "危害"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "8mrbCW1egVL4Jg40": {
@@ -4188,6 +4220,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Jolting Latch",
         "text": "电击锁扣"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "AwWFBOHmBRyeLtsW": {
@@ -4212,6 +4248,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Cracked Earth",
         "text": "龟裂地面"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "CmwfvxFCmr7Ga3Eo": {
@@ -4243,6 +4283,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Repulsing Barrier",
         "text": "排斥屏障"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "DY9tPOD2TS9hhpMP": {
@@ -4304,6 +4348,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Rail Gun Turret",
         "text": "轨道炮炮塔"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "FLnsps36KbyIPUP0": {
@@ -4456,6 +4504,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Ravaging Windstorm",
         "text": "肆虐风暴"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "NcCzuhhR6bE18n2c": {
@@ -4480,6 +4532,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Chemical Booby-Trap",
         "text": "化学诱杀陷阱"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "O96L4EmgcoL8ysrc": {
@@ -4566,6 +4622,14 @@
       "cnText_prototypeToken_name": {
         "expected": "Missy Moon Mannequins",
         "text": "月亮小姐人体模型"
+      },
+      "cnText_system_attributes_hp_details": {
+        "expected": "(per mannequin)",
+        "text": "（每个人偶）"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "RdEGNBFPFuXaUeQJ": {
@@ -4624,6 +4688,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Explosive Gas",
         "text": "爆炸性气体"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "T7AFTkLqUWshU1cE": {
@@ -4661,6 +4729,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Meteorfall",
         "text": "陨石坠落"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "ZZ4Vz6LU2CIGiRCi": {
@@ -4689,6 +4761,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Hidden Mine Shaft",
         "text": "隐蔽矿井"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(or 0 if the trapdoor is disabled or broken)</p>",
+        "text": "<p>（活板门被解除或已破损时为0）</p>"
       }
     },
     "a1sE7bci1Tv2ef8h": {
@@ -4749,6 +4825,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Psychotropic Spores",
         "text": "致幻孢子"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "gkF1d4L2HsCQGWoe": {
@@ -4781,6 +4861,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Poison Fog",
         "text": "毒雾"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "gv6aCLOQMl1UIur4": {
@@ -4805,6 +4889,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Jolting Console",
         "text": "电震控制台"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "itkbvvYqMxaURlTo": {
@@ -4910,6 +4998,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Well of Roqorolos",
         "text": "罗科罗洛斯之井（Well of Roqorolos）"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained) (or –10 and no minimum proficiency if the surface is disturbed)</p>",
+        "text": "<p>（受训；若表面受到扰动，则改为–10，且无最低熟练度要求）</p>"
       }
     },
     "nJ4G7oMV4MTsm6iA": {
@@ -4958,6 +5050,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Ravenous Scrolls",
         "text": "饥饿卷轴"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "nRGCPmAuogfp7Ub3": {
@@ -5117,6 +5213,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Hazard",
         "text": "危害"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(expert)</p>",
+        "text": "<p>（专家）</p>"
       }
     },
     "pwMBy4djQ789fm6C": {
@@ -5141,6 +5241,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Oscillating Pyramid",
         "text": "振荡金字塔"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "q9W9OJuFV6MZrmd9": {
@@ -5193,6 +5297,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Sucking Mud",
         "text": "吸陷淤泥"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "rA6ZwEATCgbw45Yc": {
@@ -5246,6 +5354,14 @@
       "cnText_prototypeToken_name": {
         "expected": "Anesthetic Dart Launcher",
         "text": "麻醉飞针发射器"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
+      },
+      "cnText_system_details_disable": {
+        "expected": "<p>@Check[thievery|dc:18] (trained)</p>",
+        "text": "<p>@Check[thievery|dc:18]（受训）</p>"
       }
     },
     "vUXrP3bBLMN7sndD": {
@@ -5278,6 +5394,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Delightful Agony in Nourishing the Meek",
         "text": "滋养弱者的愉悦苦痛"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "wBBqKmb7hA8gLiDD": {
@@ -5310,6 +5430,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Electronic Figment",
         "text": "电子幻影"
+      },
+      "cnText_system_attributes_speed_details": {
+        "expected": "(hover)",
+        "text": "（悬停）"
       }
     },
     "wSrnxi2Uw1wqGByq": {
@@ -5338,6 +5462,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Hazard",
         "text": "危害"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(expert)</p>",
+        "text": "<p>（专家）</p>"
       }
     },
     "xSoS4hcxbJQ3LHfv": {
@@ -5362,6 +5490,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Cave-In",
         "text": "坍塌"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "zfWzxaQJA4d7vM8k": {
@@ -5418,6 +5550,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Suffering Miasma",
         "text": "苦难瘴气"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     }
   }

@@ -71,6 +71,10 @@
     "cnText_prototypeToken_name": {
       "path": "prototypeToken.name",
       "converter": "sf2eAnachronismCnText"
+    },
+    "cnText_system_attributes_ac_details": {
+      "path": "system.attributes.ac.details",
+      "converter": "sf2eAnachronismCnText"
     }
   },
   "entries": {
@@ -292,6 +296,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Officer Kanren",
         "text": "坎伦军官"
+      },
+      "cnText_system_attributes_ac_details": {
+        "expected": "(19 with shield raised)",
+        "text": "（举盾时为19）"
       }
     },
     "4miww4pZSgjTMMIw": {
@@ -454,7 +462,7 @@
           "id": "zUKvP7t0f4n2OGir",
           "expectedName": "Invisibility",
           "name": "隐形术",
-          "description": "<p>幻术使光线绕过目标，令其处于@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}状态。因此，目标对所有生物处于@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{未被察觉}状态，但生物可以尝试寻找目标，使其对自己改为@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{躲藏}状态。如果目标使用敌对动作，法术会在该敌对动作完成后结束。</p>\n<hr />\n<p><strong>升阶（4环）</strong>法术持续1分钟，但目标使用敌对动作时不会结束。</p>",
+          "description": "<p>幻术使光线绕过目标，令其处于@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}状态。因此，目标对所有生物处于@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{无踪}状态，但生物可以尝试寻找目标，使其对自己改为@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}状态。如果目标使用敌对动作，法术会在该敌对动作完成后结束。</p>\n<hr />\n<p><strong>升阶（4环）</strong>法术持续1分钟，但目标使用敌对动作时不会结束。</p>",
           "expectedDescription": "<p>Illusions bend light around the target, rendering it @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible}. This makes it @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} to all creatures, though the creatures can attempt to find the target, making it @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to them instead. If the target uses a hostile action, the spell ends after that hostile action is completed.</p>\n<hr />\n<p><strong>Heightened (4th)</strong> The spell lasts 1 minute, but it doesn't end if the target uses a hostile action.</p>"
         },
         {
@@ -516,7 +524,7 @@
         {
           "id": "70FMGyGKFvCfRDYW",
           "expectedName": "Guidance",
-          "name": "指引者",
+          "name": "神导术",
           "description": "<p>你请求超自然存在指引，给予目标一次攻击检定、察觉检定、豁免检定或技能检定+1状态加值，该检定须在持续时间结束前进行。目标在掷骰前决定将加值用于哪次检定。如果目标使用了加值，法术便会结束。无论法术以哪种方式结束，目标随后都暂时免疫此效果1小时。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{法术效果：神导术}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3LyOkV25p7wA181H]{效果：神导术免疫}</p>",
           "expectedDescription": "<p>You ask for the guidance of supernatural entities, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration ends. The target chooses which roll to use the bonus on before rolling. If the target uses the bonus, the spell ends. Either way, the target is then temporarily immune for 1 hour.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{Spell Effect: Guidance}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3LyOkV25p7wA181H]{Effect: Guidance Immunity}</p>"
         },
@@ -1132,7 +1140,7 @@
           "expectedName": "Elemental Weapon",
           "name": "元素武器",
           "expectedDescription": "<p>You create an advanced, martial, or simple weapon out of elemental energy that materializes in the hands of a bonded creature. Select an elemental trait for the created weapon: air, earth, fire, metal, water, or wood. The weapon is tactical grade and comes fully charged and loaded with basic ammunition. It cannot be made of any special materials.</p>\n<p>The weapon has one fewer upgrade slot but can be upgraded with any upgrades you hold in your hands as a locus when casting this spell, which become inert until the spell ends. The weapon deals damage as normal plus 1d4 additional damage based on the chosen trait: electricity for air, bludgeoning for earth, fire for fire, acid for metal, cold for water, or poison for wood.</p><hr /><p><strong>Heightened (2nd)</strong> You can create an advanced weapon.</p>\n<p><strong>Heightened (5th)</strong> You can create a superior weapon.</p>\n<p><strong>Heightened (6th)</strong> You can create an elite weapon.</p>\n<p><strong>Heightened (8th)</strong> You can create an ultimate weapon.</p>\n<p><strong>Heightened (9th)</strong> You can create a paragon weapon.</p>",
-          "description": "<p>你用元素能量制造出一件进阶、军用或简易武器，并将其实体化于一名纽带中的生物的手中。为制造的武器选择一个元素特征：气、土、火、金、水或木。该武器是一件战术型装备，并且已经完全充能并装填有基础弹药。它不能由任何特殊材料制成。</p>\n<p>该武器有一个次等强化槽位，但可以用你在施放该法术时手中持握的强化模块进行强化，你将强化模块用作法器，这些强化模组在法术结束前变为惰性。武器在造成正常伤害以外，还会额外造成1d4基于所选特征的伤害：气为电击，土为钝击，火为火焰，金为酸蚀，水为寒冷，木为毒素。</p><hr /><p><strong>升阶（2环）</strong>你可以制造先进型武器。</p>\n<p><strong>升阶（5环）</strong>你可以制造卓越型武器。</p>\n<p><strong>升阶（6环）</strong>你可以制造精英型武器。</p>\n<p><strong>升阶（8环）</strong>你可以制造终极型武器。</p>\n<p><strong>升阶（9环）</strong>你可以制造完美型武器。</p>"
+          "description": "<p>你用元素能量制造出一件进阶、军用或简易武器，并将其实体化于一名结绊生物的手中。为制造的武器选择一个元素特征：气、土、火、金、水或木。该武器是一件战术型装备，并且已经完全充能并装填有基础弹药。它不能由任何特殊材料制成。</p>\n<p>该武器的强化槽位比通常少一个，但可以用你在施放该法术时手中持握的强化模块进行强化，你将强化模块用作施法载体，这些强化模块在法术结束前变为惰性。武器在造成正常伤害以外，还会额外造成1d4基于所选特征的伤害：气为电击，土为钝击，火为火焰，金为酸蚀，水为寒冷，木为毒素。</p><hr /><p><strong>升阶（2环）</strong>你可以制造先进型武器。</p>\n<p><strong>升阶（5环）</strong>你可以制造卓越型武器。</p>\n<p><strong>升阶（6环）</strong>你可以制造菁英型武器。</p>\n<p><strong>升阶（8环）</strong>你可以制造终极型武器。</p>\n<p><strong>升阶（9环）</strong>你可以制造完美型武器。</p>"
         },
         {
           "id": "XumK1TK55d7vNXo0",
@@ -1489,7 +1497,7 @@
           "id": "E5OOI3MOxq44xYgf",
           "expectedName": "Sure Strike",
           "name": "料敌机先",
-          "description": "<p>在本回合结束前，你下次进行攻击检定时掷两次，并采用较好结果。此次攻击忽略攻击检定的环境减值，以及因目标处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}或@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{躲藏}状态而需要进行的任何纯骰检定。之后，你暂时免疫<em>料敌机先</em>10分钟。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.fpGDAz2v5PG0zUSl]{法术效果：料敌机先}</p>",
+          "description": "<p>在本回合结束前，你下次进行攻击检定时掷两次，并采用较好结果。此次攻击忽略攻击检定的环境减值，以及因目标处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}或@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}状态而需要进行的任何纯骰检定。之后，你暂时免疫<em>料敌机先</em>10分钟。</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.fpGDAz2v5PG0zUSl]{法术效果：料敌机先}</p>",
           "expectedDescription": "<p>The next time you make an attack roll before the end of your turn, roll it twice and use the better result. The attack ignores circumstance penalties to the attack roll and any flat check required due to the target being @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} or @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}. You are then temporarily immune to <em>sure strike</em> for 10 minutes.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.fpGDAz2v5PG0zUSl]{Spell Effect: Sure Strike}</p>"
         },
         {
@@ -1821,6 +1829,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Warped Weather",
         "text": "扭曲天气"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "NdqOLPOwZ1YweqII": {
@@ -2245,7 +2257,7 @@
           "id": "KNukzFLiRRv1nQIO",
           "expectedName": "Aucturnite Chakram",
           "name": "奥克腾岩飞轮",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这个带刃圆环由一块奥克顿矿（aucturnite）雕刻而成，造型仿照行星环。此材料神秘地出现在距离奥克顿（Aucturn）原轨道数光年之外的地方。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这个带刃圆环由一块奥克腾岩（aucturnite）雕刻而成，造型仿照行星环。此材料神秘地出现在距离奥克腾（Aucturn）原轨道数光年之外的地方。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This bladed hoop is carved from a chunk of aucturnite and sculpted to resemble a planet's ring. The material has mysteriously appeared light-years from Aucturn's original orbit.</p>"
         },
         {
@@ -2409,7 +2421,7 @@
           "id": "IAjZADvjyRPmMvEL",
           "expectedName": "Tempweave",
           "name": "保温织服",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普罗尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普洛尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Tempweave suits are reinforced hooded garments woven with thermal fabric and venting wires, popularly worn for trips to humid climates like the jungles of Castrovel or Pulonis.</p>",
           "extraFields": [
             {
@@ -2746,7 +2758,7 @@
           "id": "ffUqJ0JOfKJrj7S8",
           "expectedName": "Tempweave",
           "name": "保温织服",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普罗尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>温控编织服以保温面料和散热导线织成，是一种经过加固的兜帽服饰，前往卡斯卓韦或普洛尼斯（Pulonis）的丛林等潮湿气候地区旅行时，穿戴它很流行。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Tempweave suits are reinforced hooded garments woven with thermal fabric and venting wires, popularly worn for trips to humid climates like the jungles of Castrovel or Pulonis.</p>"
         },
         {
@@ -3042,6 +3054,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Elovai",
         "text": "埃洛维"
+      },
+      "cnText_system_attributes_speed_details": {
+        "expected": "(hover)",
+        "text": "（悬停）"
       }
     },
     "hlGdpDtynomGpD4P": {
@@ -3523,7 +3539,7 @@
           "id": "Fn74BbTYa46ber0b",
           "expectedName": "Arc Rifle",
           "name": "电弧步枪",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这把步枪宽大的枪身中装有电弧手枪电容器的放大版本，短枪管和聚碳枪托则能使持用者与高压电绝缘。电弧步枪更大的电容器能够产生足以制服狂暴伦克罗达兽（renkroda）的强力电荷。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这把步枪宽大的枪身中装有电弧手枪电容器的放大版本，短枪管和聚碳枪托则能使持用者与高压电绝缘。电弧步枪更大的电容器能够产生足以制服狂暴掠吼龙（renkroda）的强力电荷。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This rifle's oversized body contains a larger version of an arc pistol capacitor, with a short barrel and polycarbon stock designed to insulate the wielder from high voltage. The arc rifle's larger capacitor allows it to produce a charge with enough power to subdue a rampaging renkroda.</p>",
           "extraFields": [
             {
@@ -4222,6 +4238,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Despair Cannon",
         "text": "绝望炮"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "0erlpsiBZZv8Dg1u": {
@@ -4357,6 +4377,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Bumper Bridge",
         "text": "撞人桥"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "46JDWaJs5nhrQHuO": {
@@ -4483,6 +4507,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Heat Vents",
         "text": "热气排放口"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "6F4yHswg6zj0WlAy": {
@@ -4622,6 +4650,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Shobhad Indignation",
         "text": "绍贝德人的愤慨"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "CPscv2uLsixHSB3n": {
@@ -4650,6 +4682,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Tenderizer Pit",
         "text": "嫩肉陷坑"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(or 0 if the trap door is open)</p>",
+        "text": "<p>（活板门打开时为0）</p>"
       }
     },
     "EqQuzg5CEWRDekrj": {
@@ -4704,6 +4740,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Holographic Display",
         "text": "全息显示器"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "Fast9FOOLm7DB9KO": {
@@ -4801,6 +4841,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Laser Turret",
         "text": "激光炮塔"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "JgNhb5TnOEFs6RKF": {
@@ -4928,6 +4972,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Elovai's Interference",
         "text": "埃洛维的干扰"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(expert)</p>",
+        "text": "<p>（专家）</p>"
       }
     },
     "RGpcMznWR60wmvxU": {
@@ -5062,6 +5110,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Matter Reaper",
         "text": "物质收割者"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "aOFfe1DmZz4DVgie": {
@@ -5099,6 +5151,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Reconnection Subroutine",
         "text": "重连子程序"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(expert)</p>",
+        "text": "<p>（专家）</p>"
       }
     },
     "am2B0JJoDq9fqm2r": {
@@ -5403,7 +5459,7 @@
           "id": "Y01ffBbvPGnx8EsC",
           "expectedName": "Pounce",
           "name": "扑击",
-          "description": "<p>凯利克斯行走，并在移动结束时进行一次打击。如果它开始此动作时@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{躲藏}，则会保持躲藏直到攻击结束。</p>",
+          "description": "<p>凯利克斯行走，并在移动结束时进行一次打击。如果它开始此动作时@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{藏匿}，则会保持藏匿直到攻击结束。</p>",
           "expectedDescription": "<p>The kaylix Strides and makes a Strike at the end of that movement. If the kaylix began this action @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, it remains hidden until after the attack.</p>"
         },
         {
@@ -5479,6 +5535,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Sterilization Protocol",
         "text": "灭菌协议"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "wTNA31V4cZNUu78t": {
@@ -5549,6 +5609,10 @@
       "cnText_prototypeToken_name": {
         "expected": "Junkslug Turret",
         "text": "废弹炮塔"
+      },
+      "cnText_system_attributes_stealth_details": {
+        "expected": "<p>(trained)</p>",
+        "text": "<p>（受训）</p>"
       }
     },
     "yX2tAtqo5zOEjJBe": {

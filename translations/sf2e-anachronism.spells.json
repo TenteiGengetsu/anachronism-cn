@@ -372,7 +372,7 @@
     },
     "aPZMapuunaNpxubp": {
       "name": "播种奇点 Singularity Seed",
-      "description": "<p>一粒质量极其密集的微小粒子在魔法作用下扩展为引力奇点，将生物拉向自身，并在空间上压缩被移入其中的生物。你在一个未被任何生物占据的5尺方格内创造一个奇点。法术施放时，奇点周围@Template[type:emanation|distance:50]内的所有生物和未被固定的物体，根据其反射豁免结果向奇点移动（见下文）。生物和物体从距离奇点最近者开始移动，因此它们可能挡住随后被拉入的其他生物和物体的路径。</p>\n<p>生物的空间可以在包含奇点的方格内重叠。进入奇点或在其中结束其回合的生物或物体受到10d10钝击伤害，无法豁免。在奇点内，生物除了对抗你的法术DC尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{脱逃}之外，无法采取任何动作。法术结束时，奇点消失，重叠的生物被移至最近的未占用空间，具体由GM决定。</p>\n<p>对于向远离奇点方向移动的生物，弥漫区域内的方格是困难地形；向奇点靠近的生物每花费5尺移动距离，便可移动10尺。</p>\n<p>施放法术时位于区域内，以及在区域内结束其回合的生物，需要尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物被拉向奇点10尺。</p>\n<p><strong>失败</strong>该生物被拉向奇点20尺。</p>\n<p><strong>大失败</strong>该生被拉向奇点30尺。</p>"
+      "description": "<p>一粒质量极其密集的微小粒子在魔法作用下扩展为引力奇点，将生物拉向自身，并在空间上压缩被移入其中的生物。你在一个未被任何生物占据的5尺方格内创造一个奇点。法术施放时，奇点周围@Template[type:emanation|distance:50]内的所有生物和未被固定的物体，根据其反射豁免结果向奇点移动（见下文）。生物和物体从距离奇点最近者开始移动，因此它们可能挡住随后被拉入的其他生物和物体的路径。</p>\n<p>生物的空间可以在包含奇点的方格内重叠。进入奇点或在其中结束其回合的生物或物体受到10d10钝击伤害，无法豁免。在奇点内，生物除了对抗你的法术DC尝试@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}之外，无法采取任何动作。法术结束时，奇点消失，重叠的生物被移至最近的未占用空间，具体由GM决定。</p>\n<p>对于向远离奇点方向移动的生物，弥漫区域内的方格是困难地形；向奇点靠近的生物每花费5尺移动距离，便可移动10尺。</p>\n<p>施放法术时位于区域内，以及在区域内结束其回合的生物，需要尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物被拉向奇点10尺。</p>\n<p><strong>失败</strong>该生物被拉向奇点20尺。</p>\n<p><strong>大失败</strong>该生被拉向奇点30尺。</p>"
     },
     "ahXTkKpQtOTAQOFm": {
       "name": "强化武器 Enhance Weapon",
@@ -432,7 +432,7 @@
     },
     "h7IhypLwItepwhou": {
       "name": "附着术 Adhere",
-      "description": "<p>你在触碰的一件无人持有的物体（或你正持有的物体），与该物体接触的另一件物体或表面之间建立分子键。要将物体从该表面拉开，需要成功通过一次对抗你法术DC的[[/act force-open]]{运动}检定，以@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{破开}。</p>\n<p>如果你选择接触一个没被占据的五尺方格，则该表面会充满黏附的魔法。该空间将变成高等困难地形。</p>"
+      "description": "<p>你在触碰的一件无人持有的物体（或你正持有的物体），与该物体接触的另一件物体或表面之间建立分子键。要将物体从该表面拉开，需要成功通过一次对抗你法术DC的[[/act force-open]]{运动}检定，以@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{破拆}。</p>\n<p>如果你选择接触一个没被占据的五尺方格，则该表面会充满黏附的魔法。该空间将变成高等困难地形。</p>"
     },
     "hk2mTLH9DIvNqDuS": {
       "name": "绿色代码 Verdant Code",
@@ -780,7 +780,7 @@
     },
     "WzROOMfaK77OMgjB": {
       "name": "神圣防火墙 Divine Firewall",
-      "description": "<p>你用神圣火焰充满周围的空间，保护其中的盟友，焚烧意图伤害你的敌人，尤其防范亵渎与科技威胁。你与区域内的盟友处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态。由于此效果仍使目标的位置显而易见，目标不能利用这种隐蔽来[[/act hide]]或[[/act sneak]]。</p>\n<p>在区域内开始其回合的敌人受到10点火焰伤害；若具有科技特征，则陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 1}；若具有亵渎特征，则陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮。</p>"
+      "description": "<p>你用神圣火焰充满周围的空间，保护其中的盟友，焚烧意图伤害你的敌人，尤其防范邪秽与科技威胁。你与区域内的盟友处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态。由于此效果仍使目标的位置显而易见，目标不能利用这种隐蔽来[[/act hide]]或[[/act sneak]]。</p>\n<p>在区域内开始其回合的敌人受到10点火焰伤害；若具有科技特征，则陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障 1}；若具有邪秽特征，则陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮。</p>"
     },
     "X7HA6V2phMsaFce3": {
       "name": "废料机器人 Junkbot",
@@ -856,7 +856,7 @@
     },
     "iE2Zih3Uyq87oHjH": {
       "name": "亵渎机械 Corrupt Machine",
-      "description": "<p>你将一道亵渎灵体融入目标，使其外观扭曲为骇人的形态。该武器获得亵渎特征，命中时额外造成1d4火焰伤害。被此武器重击的生物还会陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p><hr /><p><strong>升阶（4环）</strong>伤害增加至2d4。</p>\n<p><strong>升阶（6环）</strong>伤害增加至3d4。</p>\n<p><strong>升阶（8环）</strong>伤害增加至4d4。</p>"
+      "description": "<p>你将一道亵渎灵体融入目标，使其外观扭曲为骇人的形态。该武器获得邪秽特征，命中时额外造成1d4火焰伤害。被此武器重击的生物还会陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p><hr /><p><strong>升阶（4环）</strong>伤害增加至2d4。</p>\n<p><strong>升阶（6环）</strong>伤害增加至3d4。</p>\n<p><strong>升阶（8环）</strong>伤害增加至4d4。</p>"
     },
     "iIub6uEavnMJEN4z": {
       "name": "召来废料载具 Conjure Junkrod",

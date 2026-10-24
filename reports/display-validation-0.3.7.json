@@ -1,0 +1,210 @@
+{
+  "status": "completed; actual literal source short-field candidates classified and identified display defects fixed",
+  "scope": {
+    "source": "all repo-original-export packs, all top-level and embedded system string leaves outside long description/publication/slug fields",
+    "latinSystemLeaves": 113831,
+    "normalizedPathGroups": 5155,
+    "templatesInspected": 119,
+    "officialSystemSourceRef": "v14-dev 46f7c3cf48e776eef89e4fe843e72e3c9bc721a0",
+    "installedVersionCaveat": "Source mirror is not claimed to be exact PF2e8.6.1; real browser DOM regression is not a live Foundry client integration."
+  },
+  "finalCounts": {
+    "dictionary": 494,
+    "newDisplayEntries": 38,
+    "bilingualNameKeys": 268,
+    "grantedNames": {
+      "occurrences": 1120,
+      "uniqueSourceUuids": 254,
+      "moduleSameIdTargets": 207,
+      "pf2ExpectedEnglishInExactPackTargets": 47,
+      "unresolved": 0
+    },
+    "subitemScope": {
+      "parentUuids": 78,
+      "originalChildIds": 85
+    },
+    "domPassed": 32,
+    "domTotal": 32
+  },
+  "fieldCoverage": {
+    "trait-enum": {
+      "occurrences": 20149,
+      "uniqueValues": 376,
+      "dictionaryUnique": 0,
+      "notDictionaryUnique": 376
+    },
+    "self-effect-name": {
+      "occurrences": 125,
+      "uniqueValues": 101,
+      "dictionaryUnique": 101,
+      "notDictionaryUnique": 0
+    },
+    "rule-display": {
+      "occurrences": 1067,
+      "uniqueValues": 340,
+      "dictionaryUnique": 9,
+      "notDictionaryUnique": 331
+    },
+    "range-target-time-duration-cost": {
+      "occurrences": 4140,
+      "uniqueValues": 183,
+      "dictionaryUnique": 183,
+      "notDictionaryUnique": 0
+    },
+    "requirements": {
+      "occurrences": 42,
+      "uniqueValues": 20,
+      "dictionaryUnique": 20,
+      "notDictionaryUnique": 0
+    },
+    "ritual-checks": {
+      "occurrences": 19,
+      "uniqueValues": 14,
+      "dictionaryUnique": 14,
+      "notDictionaryUnique": 0
+    },
+    "variant-name": {
+      "occurrences": 243,
+      "uniqueValues": 52,
+      "dictionaryUnique": 52,
+      "notDictionaryUnique": 0
+    },
+    "area-details": {
+      "occurrences": 5,
+      "uniqueValues": 1,
+      "dictionaryUnique": 0,
+      "notDictionaryUnique": 1
+    },
+    "granted-name": {
+      "occurrences": 1120,
+      "uniqueValues": 254,
+      "dictionaryUnique": 0,
+      "notDictionaryUnique": 254
+    },
+    "trained-lore": {
+      "occurrences": 137,
+      "uniqueValues": 53,
+      "dictionaryUnique": 53,
+      "notDictionaryUnique": 0
+    }
+  },
+  "findings": [
+    {
+      "id": "async-summary",
+      "severity": "visible omission",
+      "cause": "PF2 ItemSummaryRenderer inserts summary innerHTML after full render; original render hooks had already run.",
+      "fix": "Bounded source-application MutationObserver, text changes only on difference, native batch handling and takeRecords avoid self-loop. Re-render replaces observer; close hooks and disabled module disconnect. Personal Actors require a permitted source item/strike row.",
+      "evidence": [
+        "src/module/actor/sheet/item-summary-renderer.ts:25-39,97-134"
+      ],
+      "tests": [
+        "single mutation batch = 1 callback",
+        "old root and closed application disconnected = 2",
+        "foreign/editor descendants unchanged",
+        "unrelated Actor creates 0 observers"
+      ]
+    },
+    {
+      "id": "summary-field-punctuation",
+      "severity": "visible omission",
+      "cause": "spell-description-prepend.hbs merges raw range/target with localized terminal semicolon in one text node, defeating exact dictionary lookup.",
+      "fix": "Only .item-block-line > span with direct strong label accepts a terminal ;/； separator around an otherwise exact reviewed field value; punctuation preserved.",
+      "evidence": [
+        "templates/static/templates/items/partials/spell-description-prepend.hbs"
+      ]
+    },
+    {
+      "id": "sustained-duration",
+      "severity": "visible omission",
+      "cause": "PF2 helper interpolates raw English maximum into a localized sustained-duration sentence.",
+      "fix": "Format the five actual source sustained-duration values through the same i18n key using reviewed Chinese maximum; apply only inside verified spell field container. No parser/source changes. Use locale-less case conversion so cn.foundry_chn cannot throw RangeError.",
+      "evidence": [
+        "src/module/item/spell/helpers.ts:40-49",
+        "sustained-duration-values.json"
+      ]
+    },
+    {
+      "id": "ritual-variants-fallbacks",
+      "severity": "missing literal display phrases",
+      "cause": "Original dictionary omitted embedded PF2 ritual checks, PF2 spell variants and some source effect fallback names.",
+      "fix": "38 reviewed display entries: ritual checks and same-source name/variant fallbacks, plus rendered Form/Limb and formal Blowhole. Underlying Strike labels/slugs unchanged.",
+      "evidence": [
+        "additional-display-review.json"
+      ]
+    },
+    {
+      "id": "granted-ref-names",
+      "severity": "visible omission",
+      "cause": "ABCSheet.getData reads raw system.items refs and templates render ref.name, not freshly resolved target name.",
+      "fix": "At a.name inside data-item-uuid row only, require exact source UUID and expected English name; display current formal bilingual target. Existing split bilingual names and hidden fields preserved.",
+      "evidence": [
+        "src/module/item/abc/sheet.ts:18-29",
+        "templates/static/templates/items/class-details.hbs:173-181",
+        "templates/static/templates/items/background-details.hbs:65-74",
+        "templates/static/templates/items/ancestry-details.hbs:85-94",
+        "grant-name-reviewed.json"
+      ]
+    },
+    {
+      "id": "foreign-attachments",
+      "severity": "source boundary",
+      "cause": "Previous closest data-item-id inherited the allowed parent scope for later foreign data-subitem-id attachment rows.",
+      "fix": "Resolve child source independently or require original parent-source UUID + child-ID allowlist. Includes standalone physical-item sidebar.",
+      "evidence": [
+        "templates/static/templates/items/physical-sidebar.hbs:80-101",
+        "templates/static/templates/actors/partials/item-line.hbs:1-6",
+        "subitem-allowlist.json"
+      ]
+    }
+  ],
+  "notFalsePositive": [
+    {
+      "field": "requirements",
+      "result": "All literal source requirements covered (42 occurrences/20 unique strings; source main spell occurrences21). Matching spell-details text inputs retain original English with Chinese sibling hints. No data converter change needed."
+    },
+    {
+      "field": "range/time/duration/target/cost including fixed-heightening and variants",
+      "result": "4140 Latin literal occurrences,183 unique exact strings,all dictionary-covered; parsed raw values unchanged."
+    },
+    {
+      "field": "selfEffect.name",
+      "result": "125 occurrences/101 unique source names all dictionary-covered; PF2 summary first attempts current target effect.name, dictionary supplies fallback."
+    },
+    {
+      "field": "system.area.details",
+      "result": "Five source occurrences/one phrase; matched Spell.area/helper/template render value/type label, not this details field. Classified unused in inspected source, not incorrectly labeled missing UI."
+    },
+    {
+      "field": "IWR raw label grabbed/prone/restrained",
+      "result": "IWR constructor ignores stored label; getter regenerates localized label from type/customLabel. Raw enums are not translated."
+    },
+    {
+      "field": "trait enums",
+      "result": "20149 occurrences/376 slugs. Official config maps enum slugs to PF2E.Trait* keys; templates render localized trait.label. Keep identifiers unchanged; verify installed PF2 Chinese language coverage in live client."
+    },
+    {
+      "field": "rule macros/keys",
+      "result": "Remaining non-dictionary rule strings classified as localization/injected references, exact guarded existing Actor display patches, or existing Prayermoji DOM handler; source macro parameters/glyphs preserved."
+    }
+  ],
+  "verification": {
+    "syntax": "Both modules node --check passed",
+    "pure": "268 names retain exact English and Chinese; dictionary own-property/prototype safety, immutable original Actor whitelist and document boundary assertions passed.",
+    "realBrowser": "Installed Chrome headless using temporary 127.0.0.1 server;32/32 actual DOM tests passed. No running Foundry client available.",
+    "files": {
+      "anachronism-cn\\scripts\\display.mjs": "3caa944ea76ccfc5cd3ee1522e4e1e1d7307a1db8315484ddeaeb9b2023b4ced",
+      "anachronism-cn\\scripts\\display-strings.mjs": "b4f0b59fcc6d379ac33b9dcfbedaeb4934c43a9839ea28b13f566dbe033318fa",
+      "037-audit-display\\dom-test-results.json": "c6c75d6db88fc4cbb8a025599cab9d219177ef0f28089a25539734f9a7f011fc",
+      "037-audit-display\\additional-display-review.json": "ee5c29dd9ef1deda5ab769b610aac1d06ca89c6662b50457728bfd72ce1de0ca"
+    },
+    "testEvidence": "dom-test-results.json"
+  },
+  "limits": [
+    "No document/input/hidden field values, source UUIDs, predicates, roll formulas or rules are changed by this UI layer.",
+    "Editors, script/style/code/textarea, implicit-value option labels remain untouched.",
+    "Different third-party sheet structure, unusual prose fragments or regenerated original embedded IDs can remain English.",
+    "System-controlled trait/rule localization keys require the installed PF2 Chinese language package; the audit did not claim to verify that live package.",
+    "No manifest/version/publication changes performed by this agent."
+  ],
+  "newTerms": "All added names reuse existing formal module/PF2-reference names or ordinary composite variant/ritual labels; no newly coined independent proper/rule names."
+}

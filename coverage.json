@@ -1,5 +1,5 @@
 {
-  "version": "0.3.6",
+  "version": "0.3.7",
   "sourceSha256": "a0930bc5b32fbf533630128b11bd893b4bd0aedd18709e975302efd543fd5e1a",
   "glossarySha256": "868394c0ec129f215af1525d86814aaa78ae07fb95298f215b055e67c5bc680f",
   "wiki": {
@@ -17,7 +17,9 @@
     "changedDescriptions": 4898,
     "changedPublicNotes": 292,
     "embeddedNames": 6718,
-    "embeddedDescriptions": 4955,
+    "embeddedDescriptions": 4956,
+    "subitemNames": 85,
+    "subitemDescriptions": 54,
     "pageNames": 157,
     "changedPageContents": 148
   },
@@ -36,7 +38,9 @@
       "translatedNames": 247,
       "changedPublicNotes": 234,
       "embeddedNames": 2995,
-      "embeddedDescriptions": 2124
+      "embeddedDescriptions": 2124,
+      "subitemNames": 6,
+      "subitemDescriptions": 6
     },
     "sf2e-anachronism.ancestries.json": {
       "objects": 50,
@@ -113,7 +117,9 @@
       "changedObjects": 1161,
       "translatedNames": 1161,
       "objectsWithDescriptions": 1149,
-      "changedDescriptions": 1149
+      "changedDescriptions": 1149,
+      "subitemNames": 13,
+      "subitemDescriptions": 13
     },
     "sf2e-anachronism.feat-effects.json": {
       "objects": 204,
@@ -135,7 +141,9 @@
       "translatedNames": 39,
       "embeddedNames": 258,
       "embeddedDescriptions": 161,
-      "changedPublicNotes": 6
+      "changedPublicNotes": 6,
+      "subitemNames": 3,
+      "subitemDescriptions": 3
     },
     "sf2e-anachronism.heritages.json": {
       "objects": 338,
@@ -149,7 +157,9 @@
       "changedObjects": 24,
       "translatedNames": 24,
       "embeddedNames": 924,
-      "embeddedDescriptions": 855
+      "embeddedDescriptions": 855,
+      "subitemNames": 36,
+      "subitemDescriptions": 9
     },
     "sf2e-anachronism.journals.json": {
       "objects": 4,
@@ -163,15 +173,19 @@
       "changedObjects": 11,
       "translatedNames": 10,
       "embeddedNames": 360,
-      "embeddedDescriptions": 331
+      "embeddedDescriptions": 331,
+      "subitemNames": 6,
+      "subitemDescriptions": 2
     },
     "sf2e-anachronism.rulebook-bestiaries.json": {
       "objects": 128,
       "changedObjects": 128,
       "translatedNames": 128,
       "embeddedNames": 488,
-      "embeddedDescriptions": 388,
-      "changedPublicNotes": 21
+      "embeddedDescriptions": 389,
+      "changedPublicNotes": 21,
+      "subitemNames": 3,
+      "subitemDescriptions": 3
     },
     "sf2e-anachronism.secrets-of-the-swarm-bestiary.json": {
       "objects": 36,
@@ -201,7 +215,9 @@
       "translatedNames": 25,
       "embeddedNames": 188,
       "embeddedDescriptions": 123,
-      "changedPublicNotes": 11
+      "changedPublicNotes": 11,
+      "subitemNames": 4,
+      "subitemDescriptions": 4
     },
     "sf2e-anachronism.starfinder-society-bestiary.json": {
       "objects": 93,
@@ -209,7 +225,9 @@
       "translatedNames": 93,
       "embeddedNames": 643,
       "embeddedDescriptions": 384,
-      "changedPublicNotes": 4
+      "changedPublicNotes": 4,
+      "subitemNames": 3,
+      "subitemDescriptions": 3
     },
     "sf2e-anachronism.starfinder-society-boons.json": {
       "objects": 15,
@@ -223,7 +241,9 @@
       "changedObjects": 95,
       "translatedNames": 95,
       "embeddedNames": 559,
-      "embeddedDescriptions": 382
+      "embeddedDescriptions": 382,
+      "subitemNames": 11,
+      "subitemDescriptions": 11
     }
   },
   "changedStringFields": 15536,
@@ -629,7 +649,7 @@
     "holyCorrectionSourceVersion": "2.4.0",
     "futureSourceContentVerified": false
   },
-  "stage": "actor-and-display-localization-completed",
+  "stage": "full-field-audit",
   "measurementNote": "本轮三个角色包的映射正文完成；字段变化数量不等于逐字译文质量。解析字段保留英文数据，由显示层补中文，边界详见进度报告。",
   "progressReport": "reports/progress-0.3.6.json",
   "searchIndexes": {
@@ -640,5 +660,12 @@
     "packs": 28,
     "entries": 5613,
     "chineseAndEnglishSearch": true
+  },
+  "auditReport": "reports/audit-0.3.7.json",
+  "display": {
+    "strings": 494,
+    "grantedReferenceUuids": 254,
+    "originalSubitemIds": 85,
+    "asyncExpansion": true
   }
 }
