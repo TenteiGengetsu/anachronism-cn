@@ -22,7 +22,7 @@
     },
     "1tWQuMj6l5FdTOvl": {
       "name": "电工 Electrician",
-      "description": "<p>比大多数人更了解电的威力——你自己就曾多次险些触电，也亲身体验过故障时的电击有多可怕。无论你是通过安装发电站还是修理短路电路学到的本事，你都熟悉电的正负两极特性。</p>\n<p>选择两项属性提升。一项必须是<strong>体质</strong>或<strong>智力</strong>，另一项为自选属性提升。</p>\n<p>你的手艺技能和物理科学识（Physical Science Lore）识受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.VxmkzyDr4ShmJnNZ]技能专长。</p>"
+      "description": "<p>比大多数人更了解电的威力——你自己就曾多次险些触电，也亲身体验过故障时的电击有多可怕。无论你是通过安装发电站还是修理短路电路学到的本事，你都熟悉电的正负两极特性。</p>\n<p>选择两项属性提升。一项必须是<strong>体质</strong>或<strong>智力</strong>，另一项为自选属性提升。</p>\n<p>你的手艺技能和物理科学学识（Physical Science Lore）受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.VxmkzyDr4ShmJnNZ]技能专长。</p>"
     },
     "36cNp7LY8RmbFPRV": {
       "name": "异常现象猎手 Anomaly Hunter",
@@ -178,7 +178,7 @@
     },
     "KeTuBS1LUAb0USEg": {
       "name": "墓界医师 Grave Medic",
-      "description": "<p>你是一位不以维系生命为目的的治疗者。你的专业是治疗不死患者。或许你本身就是不死生物，是亡者的慈悲盟友，又或许你被迫研习诡异医术，只为将挚友缝合复原。无论如何，你专精于治疗不死生物的身心。</p>\n<p>选择两项属性提升。其中一项必须是<strong>智力</strong>或<strong>感知</strong>，另一项自选。</p>\n<p>你在医疗技能和不死学识技能上受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.QShgLWlfKYJO750P]技能专长。</p>"
+      "description": "<p>你是一位不以维系生命为目的的治疗者。你的专业是治疗亡灵患者。或许你本身就是亡灵生物，是亡者的慈悲盟友，又或许你被迫研习诡异医术，只为将挚友缝合复原。无论如何，你专精于治疗亡灵生物的身心。</p>\n<p>选择两项属性提升。其中一项必须是<strong>智力</strong>或<strong>感知</strong>，另一项自选。</p>\n<p>你在医疗技能和亡灵学识技能上受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.QShgLWlfKYJO750P]技能专长。</p>"
     },
     "LpHSR7OmHhzyZyO0": {
       "name": "反抗军 Rebel",
@@ -666,7 +666,7 @@
     },
     "yJay9Xp7h3RU1ql3": {
       "name": "秘学博识者 Esoteric Erudite",
-      "description": "<p>你痴迷于奇异现象、神秘仪式、危险魔法和位面生物。你毕生致力于解开这些谜团，研究常与它们有关的邪恶魔法与危险生物。最近，你在艾巴萨罗姆空间站各处发现了一些以鲜血绘制的奇怪符号，并怀疑它们与邪魔有关。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>智力</strong>或<strong>感知</strong>，另一项为自由属性提升。</p>\n<p>你受训于神秘技能和魔族学识技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.lEgYzFHransLkSvI]{知晓秘印}技能专长。</p>"
+      "description": "<p>你痴迷于奇异现象、神秘仪式、危险魔法和位面生物。你毕生致力于解开这些谜团，研究常与它们有关的邪恶魔法与危险生物。最近，你在艾巴萨罗姆空间站各处发现了一些以鲜血绘制的奇怪符号，并怀疑它们与魔族有关。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>智力</strong>或<strong>感知</strong>，另一项为自由属性提升。</p>\n<p>你受训于神秘技能和魔族学识技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.lEgYzFHransLkSvI]{知晓秘印}技能专长。</p>"
     }
   }
 }

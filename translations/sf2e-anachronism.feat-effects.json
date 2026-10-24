@@ -642,7 +642,7 @@
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.1lkfbLoteDlzoqxb]通过以身作则赋予。</p>\n<p>你对其他生物的攻击承受–1环境减值。</p>"
     },
     "NNBc9roYRnFmB3dF": {
-      "name": "效果：叛逆抗争 Effect: Rebellious Defiance",
+      "name": "效果：叛逆反抗 Effect: Rebellious Defiance",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.nAJeT29ZJvqeg98h]赋予</p>\n<p>你对被标记生物的攻击检定获得+1环境加值。对抗该生物的攻击、法术和效果的豁免也获得此加值。</p>"
     },
     "NSGtb7a9NrcwIpcu": {

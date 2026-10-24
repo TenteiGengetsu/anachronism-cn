@@ -1,0 +1,30 @@
+{
+  "version": "0.3.6",
+  "sourceModuleVersion": "2.4.0",
+  "baseline": "v0.3.5",
+  "status": "本轮三个角色包正文与已审界面显示字段完成",
+  "completedThisRelease": {
+    "actorPacks": [
+      "alien-core-bestiary",
+      "iconics",
+      "paizo-pregens"
+    ],
+    "actors": 282,
+    "embeddedItems": 4280,
+    "embeddedDescriptions": 3403,
+    "publicNotes": 234,
+    "displayStrings": 456,
+    "bilingualDisplayNames": 241
+  },
+  "allActorPackDocuments": 698,
+  "mechanics": "保留原自动化、UUID、HTML标签、宏本体与顺序；仅沿用此前Holy Module (Commercial) 3d4→2d4授权修正。",
+  "remainingLimitations": [
+    "No live installed Foundry/PF2e session was available; tested real browser DOM fixtures and official-source structures, not a running game.",
+    "Exact whole-text-node lookup only. Different casing, punctuation, mixed fragments, or alternate sheet markup can remain English. No fuzzy general translation.",
+    "Raw source rule Note strings and unexpected/enriched alternate Note DOM shapes remain unchanged. Special damage sentence requires exact source effect UUID, original Note rule, damage-received selector, item ID, and one known direct damage-roll anchor.",
+    "Imported Actors whose embedded IDs are regenerated cannot use the original-ID allowlist; independently module-origin items still qualify. User-modified original items keep their identity and can receive exact dictionary matches.",
+    "Input/select values remain English; text inputs show a sibling Chinese reading. Numeric inputs, textarea, editors, placeholders/tooltips/ARIA labels and unsupported custom widgets are not translated.",
+    "Only the 456 reviewed exact phrases are provided; unrelated PF2 source items outside original source Actors are intentionally excluded."
+  ],
+  "liveFoundryTestedByAgent": false
+}

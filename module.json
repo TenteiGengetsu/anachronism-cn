@@ -1,18 +1,19 @@
 {
   "id": "sf2e-anachronism-zh-cn",
   "title": "SF2e Anachronism 中文汉化",
-  "description": "独立Babele中文补丁，支持按需加载的中英双语合集名称及搜索。正文汉化沿用0.3.4阶段成果；保留自动化与链接，商用型圣洁模组按授权修正为2d4。",
-  "version": "0.3.5",
+  "description": "独立Babele中文补丁，补齐异星核心怪物、标志角色、Paizo预设角色与界面显示字段；保留中英双语名称、中文搜索、自动化和链接，沿用商用型圣洁模组2d4授权修正。",
+  "version": "0.3.6",
   "compatibility": {
     "minimum": "14.360",
     "verified": "14",
     "maximum": "14"
   },
   "manifest": "https://raw.githubusercontent.com/TenteiGengetsu/anachronism-cn/main/module.json",
-  "download": "https://github.com/TenteiGengetsu/anachronism-cn/releases/download/v0.3.5/anachronism-cn.zip",
+  "download": "https://github.com/TenteiGengetsu/anachronism-cn/releases/download/v0.3.6/anachronism-cn.zip",
   "url": "https://github.com/TenteiGengetsu/anachronism-cn",
   "esmodules": [
-    "scripts/register.mjs"
+    "scripts/register.mjs",
+    "scripts/display.mjs"
   ],
   "relationships": {
     "systems": [

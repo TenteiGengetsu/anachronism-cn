@@ -608,7 +608,7 @@
       "description": "<p><strong>触发</strong>你受到所选类型的伤害</p><hr /><p><strong>效果</strong>你的护甲板进一步硬化，将伤害反射回去。对造成触发伤害的生物进行法术攻击检定。</p><hr /><p><strong>大成功</strong>该生物受到相当于两倍触发伤害或两倍你对触发伤害抗力值的伤害，取较低者。</p>\n<p><strong>成功</strong>如同大成功，但伤害不翻倍。</p>\n<p><strong>失败</strong>法术结束。</p>"
     },
     "nAJeT29ZJvqeg98h": {
-      "name": "叛逆抗争 Rebellious Defiance",
+      "name": "叛逆反抗 Rebellious Defiance",
       "description": "<p><strong>频率</strong>每天一次</p><hr /><p><strong>效果</strong>你谴责100尺内一个你能看见的敌人是暴君或恶徒，并决意反抗它，即使付出生命也在所不惜。你对该敌人的攻击检定获得+1环境加值，且对抗该敌人的攻击、法术和效果的豁免获得+1环境加值。这些增益持续1分钟。</p>"
     },
     "nPn7rGTTao4cFYDr": {

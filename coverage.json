@@ -1,5 +1,5 @@
 {
-  "version": "0.3.5",
+  "version": "0.3.6",
   "sourceSha256": "a0930bc5b32fbf533630128b11bd893b4bd0aedd18709e975302efd543fd5e1a",
   "glossarySha256": "868394c0ec129f215af1525d86814aaa78ae07fb95298f215b055e67c5bc680f",
   "wiki": {
@@ -11,13 +11,13 @@
   "translationFiles": 29,
   "totals": {
     "objects": 5616,
-    "changedObjects": 5611,
-    "translatedNames": 5539,
+    "changedObjects": 5616,
+    "translatedNames": 5607,
     "objectsWithDescriptions": 4900,
     "changedDescriptions": 4898,
-    "changedPublicNotes": 183,
-    "embeddedNames": 5288,
-    "embeddedDescriptions": 2512,
+    "changedPublicNotes": 292,
+    "embeddedNames": 6718,
+    "embeddedDescriptions": 4955,
     "pageNames": 157,
     "changedPageContents": 148
   },
@@ -32,11 +32,11 @@
     },
     "sf2e-anachronism.alien-core-bestiary.json": {
       "objects": 247,
-      "changedObjects": 242,
-      "translatedNames": 213,
-      "changedPublicNotes": 125,
-      "embeddedNames": 1757,
-      "embeddedDescriptions": 575
+      "changedObjects": 247,
+      "translatedNames": 247,
+      "changedPublicNotes": 234,
+      "embeddedNames": 2995,
+      "embeddedDescriptions": 2124
     },
     "sf2e-anachronism.ancestries.json": {
       "objects": 50,
@@ -147,9 +147,9 @@
     "sf2e-anachronism.iconics.json": {
       "objects": 24,
       "changedObjects": 24,
-      "translatedNames": 0,
-      "embeddedNames": 783,
-      "embeddedDescriptions": 114
+      "translatedNames": 24,
+      "embeddedNames": 924,
+      "embeddedDescriptions": 855
     },
     "sf2e-anachronism.journals.json": {
       "objects": 4,
@@ -161,9 +161,9 @@
     "sf2e-anachronism.paizo-pregens.json": {
       "objects": 11,
       "changedObjects": 11,
-      "translatedNames": 0,
-      "embeddedNames": 309,
-      "embeddedDescriptions": 178
+      "translatedNames": 10,
+      "embeddedNames": 360,
+      "embeddedDescriptions": 331
     },
     "sf2e-anachronism.rulebook-bestiaries.json": {
       "objects": 128,
@@ -629,17 +629,16 @@
     "holyCorrectionSourceVersion": "2.4.0",
     "futureSourceContentVerified": false
   },
-  "stage": "partial-full-module-localization",
-  "measurementNote": "字段变化/中文出现统计不等于逐字全译完成；阶段范围与剩余工作见reports/progress-0.3.4.json。",
-  "progressReport": "reports/progress-0.3.4.json",
+  "stage": "actor-and-display-localization-completed",
+  "measurementNote": "本轮三个角色包的映射正文完成；字段变化数量不等于逐字译文质量。解析字段保留英文数据，由显示层补中文，边界详见进度报告。",
+  "progressReport": "reports/progress-0.3.6.json",
   "searchIndexes": {
     "files": [
       "titles.json",
       "labels.json"
     ],
     "packs": 28,
-    "entries": 5544,
-    "nameOnlyChangeFrom034": true,
-    "newTranslatedProse": 0
+    "entries": 5613,
+    "chineseAndEnglishSearch": true
   }
 }

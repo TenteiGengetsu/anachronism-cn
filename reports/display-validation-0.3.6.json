@@ -1,0 +1,84 @@
+{
+  "status": "included in 0.3.6 manifest; real DOM tested; no live Foundry test",
+  "files": {
+    "anachronism-cn\\scripts\\display.mjs": "24ccb1c89f61f2a31aa9afa705ee02229f7e53f091de233fe642cc55f98ec9c7",
+    "anachronism-cn\\scripts\\display-strings.mjs": "496a3c6a026defeeaf7531ceaded3def133c78722194778f0522e4df062a0cca"
+  },
+  "inputs": {
+    "034-root/display-extra-reviewed.json": "99fae0e35a3a37327e688e5e13e0fbbaf5776f87f411ca0f49a1bbfead0b665b",
+    "034-display/extra-reviewed.json": "96ee1021e633e8eb06421b64d8c7c0c5480d52dd64380aad76c296e567e9c44f",
+    "034-display/core-review-overrides.json": "12e76958eeecd15511984023d7b82c174c72fea925eb6820b128fb7782f5039c",
+    "036-ui/additional-display-reviewed.json": "194068f0277a3344db4e8bc54197f187fa74d80e20fc8288bdedc2f47fdac174",
+    "034-display/extra-source-rows.json": "9ba46eeb4b5ca1b07c4ebe9fd06992b14af706443493427e189c98cdb85dbf72",
+    "repo-original-export.json": "2316cc43daf253113adfc72c6dd2a56bdc12f55d786d95ab1d76a43172be1961",
+    "036-ui/name-effect-review.json": "c13e05989817bfc17e6fdc97cf74b1511b31eaf853497668e92665be45fe1b2b"
+  },
+  "coverage": {
+    "strings": 456,
+    "nameKeys": 241,
+    "sourceActors": 694,
+    "originalEmbeddedItems": 6719,
+    "nameCollisions": [],
+    "inputs": [
+      "034-root/display-extra-reviewed.json",
+      "034-display/extra-reviewed.json",
+      "034-display/core-review-overrides.json",
+      "036-ui/additional-display-reviewed.json"
+    ],
+    "bilingualNamePolicy": "Use formal current translation for exact linked UUID; otherwise retain reviewed Chinese plus exact English source name."
+  },
+  "validation": {
+    "syntax": "node --check passed for both modules",
+    "pureTests": "Node assertions passed: own-property prototype safety, frozen dictionaries, every one of 241 names retains original English and has Chinese, UUID boundary and allowlist",
+    "realDom": {
+      "browser": "installed Google Chrome headless, actual DOM via temporary 127.0.0.1 server",
+      "passed": 21,
+      "total": 21,
+      "details": "dom-test-results.json"
+    },
+    "sourceEvidence": {
+      "pf2e": "local official-source mirror v14-dev commit 46f7c3cf48e776eef89e4fe843e72e3c9bc721a0; source does not claim installed 8.6.1 identity",
+      "notes": [
+        "src/module/notes.ts: Note creates li.roll-note with data-item-id",
+        "src/module/actor/base.ts: damage-received chat speaker identifies recipient Actor",
+        "src/module/system/text-editor.ts: enriched Damage anchors have inline-roll, data-formula and data-damage-roll"
+      ],
+      "hooks": [
+        "https://foundryvtt.com/api/v14/functions/hookEvents.renderApplicationV2.html",
+        "https://foundryvtt.com/api/v14/functions/hookEvents.renderChatMessageHTML.html"
+      ]
+    }
+  },
+  "review": {
+    "englishComparison1": "Input short-field translations previously reviewed; generated linked names rechecked against current same-UUID formal translations. Additional 85 delegated reviewed phrases merged without changing source values.",
+    "englishComparison2": "All 241 name strings programmatically checked for exact English retention; source row categories and variant base names inspected; exact Prayermoji source rule and PF2e enrichment code compared before adding bounded DOM handling.",
+    "chineseRead": "Existing reviewed Chinese strings retained; compound bilingual variants checked, redundant Kill Dash Nine English parenthesis removed before appending original complete English variant."
+  },
+  "boundaries": [
+    "No Document.update/setFlag, no source field changes, no input.value/defaultValue assignments, no attribute/UUID/formula changes.",
+    "Only PF2e Chinese locales with active sf2e-anachronism.",
+    "Source Actor plus original embedded IDs allow PF2-origin original embedded items, while later foreign items and nested foreign rows stay untouched.",
+    "Personal Actors permit module-origin item/strike rows only.",
+    "Whole and supported split bilingual name titles are preserved; English names remain searchable.",
+    "All contenteditable regions including inherited or explicitly false descendants are excluded conservatively.",
+    "Options without explicit value are unchanged. Chat sender/header metadata excluded."
+  ],
+  "knownLimitations": [
+    "No live installed Foundry/PF2e session was available; tested real browser DOM fixtures and official-source structures, not a running game.",
+    "Exact whole-text-node lookup only. Different casing, punctuation, mixed fragments, or alternate sheet markup can remain English. No fuzzy general translation.",
+    "Raw source rule Note strings and unexpected/enriched alternate Note DOM shapes remain unchanged. Special damage sentence requires exact source effect UUID, original Note rule, damage-received selector, item ID, and one known direct damage-roll anchor.",
+    "Imported Actors whose embedded IDs are regenerated cannot use the original-ID allowlist; independently module-origin items still qualify. User-modified original items keep their identity and can receive exact dictionary matches.",
+    "Input/select values remain English; text inputs show a sibling Chinese reading. Numeric inputs, textarea, editors, placeholders/tooltips/ARIA labels and unsupported custom widgets are not translated.",
+    "Only the 456 reviewed exact phrases are provided; unrelated PF2 source items outside original source Actors are intentionally excluded."
+  ],
+  "nameConsistencyUpdate": {
+    "matched": {
+      "Effect: Rebellious Defiance": "效果：叛逆反抗 Effect: Rebellious Defiance"
+    },
+    "notInDictionary": [
+      "Rebellious Defiance",
+      "Effect: Armament of the Archons"
+    ],
+    "tests": "Added targeted real-DOM idempotence and Node exact-name assertion; all 21 DOM tests and pure/syntax checks passed."
+  }
+}
