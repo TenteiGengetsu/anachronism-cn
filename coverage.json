@@ -1,5 +1,5 @@
 {
-  "version": "0.3.7",
+  "version": "0.3.8",
   "sourceSha256": "a0930bc5b32fbf533630128b11bd893b4bd0aedd18709e975302efd543fd5e1a",
   "glossarySha256": "868394c0ec129f215af1525d86814aaa78ae07fb95298f215b055e67c5bc680f",
   "wiki": {
@@ -651,7 +651,6 @@
   },
   "stage": "full-field-audit",
   "measurementNote": "本轮三个角色包的映射正文完成；字段变化数量不等于逐字译文质量。解析字段保留英文数据，由显示层补中文，边界详见进度报告。",
-  "progressReport": "reports/progress-0.3.6.json",
   "searchIndexes": {
     "files": [
       "titles.json",
@@ -667,5 +666,6 @@
     "grantedReferenceUuids": 254,
     "originalSubitemIds": 85,
     "asyncExpansion": true
-  }
+  },
+  "terminologyFile": "reports/terms.tsv"
 }

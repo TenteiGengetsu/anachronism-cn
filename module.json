@@ -2,14 +2,14 @@
   "id": "sf2e-anachronism-zh-cn",
   "title": "SF2e Anachronism 中文汉化",
   "description": "独立Babele中文补丁；全量复查角色卡与界面，补齐内嵌前置条件、角色短注及装备配件，修复异步展开显示；保留双语名称、中文搜索、自动化和链接。",
-  "version": "0.3.7",
+  "version": "0.3.8",
   "compatibility": {
     "minimum": "14.360",
     "verified": "14",
     "maximum": "14"
   },
   "manifest": "https://raw.githubusercontent.com/TenteiGengetsu/anachronism-cn/main/module.json",
-  "download": "https://github.com/TenteiGengetsu/anachronism-cn/releases/download/v0.3.7/anachronism-cn.zip",
+  "download": "https://github.com/TenteiGengetsu/anachronism-cn/releases/download/v0.3.8/anachronism-cn.zip",
   "url": "https://github.com/TenteiGengetsu/anachronism-cn",
   "esmodules": [
     "scripts/register.mjs",

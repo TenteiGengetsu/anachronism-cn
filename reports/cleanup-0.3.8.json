@@ -1,0 +1,44 @@
+{
+  "version": "0.3.8",
+  "scope": "project cleanup and consolidated terminology; functional content inherited unchanged from0.3.7",
+  "terms": {
+    "file": "reports/terms.tsv",
+    "pairs": 946,
+    "format": "Chinese TAB English;no heading/notes/status columns",
+    "sources": "released additions/corrections0.3.0–0.3.7;retracted programming-language translations excluded",
+    "sha256": "960d328b71dbc820df20e0fd8d19379c6f78b14007bebbb98e6c8e5604aa5c5b"
+  },
+  "runtimeScriptsTranslationsIndexesAndToolsByteIdenticalTo037": true,
+  "olderRootReportCopiesArchived": [
+    "display-validation-0.3.6.json",
+    "module-source-notes-0.3.4.json",
+    "module-source-notes-0.3.6.json",
+    "new-terms-0.3.4.tsv",
+    "new-terms-0.3.6.tsv",
+    "progress-0.3.4.json",
+    "progress-0.3.6.json",
+    "review-conflicts.json",
+    "search-index-validation-0.3.5.json",
+    "search-index-validation-0.3.6.json",
+    "term-corrections-0.3.7.tsv"
+  ],
+  "workspaceCleanup": {
+    "verifiedFiles": 3357,
+    "removedDuplicateTargets": 293,
+    "removedDuplicateBytes": 934244472,
+    "completeRecoveryArchivePreservedLocally": true,
+    "localArchive": "archives/work-history-through-0.3.7.zip",
+    "archiveBytes": 365640689,
+    "archiveSha256": "ca717e26482692066844d17764d9dbe48661e2feaa4fe28973b104f6cef3c8fb",
+    "originalSourceCachesPreserved": 8,
+    "originalUserAttachmentsOutsideWorkspaceUnchanged": true
+  },
+  "reviewEvidence": "reports/localization-audit.zip;priorfunctionalvalidationinreports/validation.json",
+  "checks": {
+    "bilingualRowsAndDeduplication": true,
+    "originalSourceHashes": true,
+    "translationJson": true,
+    "readmeLinks": true,
+    "functionalBytesUnchanged": true
+  }
+}

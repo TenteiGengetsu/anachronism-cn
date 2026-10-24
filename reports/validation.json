@@ -1,5 +1,5 @@
 {
-  "version": "0.3.7",
+  "version": "0.3.8",
   "babeleVersion": "2.9.1",
   "babeleSourceCommit": "49c42edc3f2939934ed1d7105600914b3c8d58a2",
   "babeleSource": "https://gitlab.com/riccisi/foundryvtt-babele/-/tree/2.9.1",
@@ -255,5 +255,14 @@
   "displayStringsSha256": "b4f0b59fcc6d379ac33b9dcfbedaeb4934c43a9839ea28b13f566dbe033318fa",
   "subitemArraysChecked": 10,
   "subitemAndPrerequisiteRegressions": true,
-  "auditReport": "reports/audit-0.3.7.json"
+  "auditReport": "reports/audit-0.3.7.json",
+  "maintenanceUpdate": {
+    "baseVersion": "0.3.7",
+    "scope": "cleanup and consolidated terminology only",
+    "termPairs": 946,
+    "runtimeAndTranslationsUnchanged": true,
+    "consolidatedTermsSha256": "960d328b71dbc820df20e0fd8d19379c6f78b14007bebbb98e6c8e5604aa5c5b",
+    "checksInheritedFrom": "0.3.7",
+    "byteIdentityVerified": true
+  }
 }
