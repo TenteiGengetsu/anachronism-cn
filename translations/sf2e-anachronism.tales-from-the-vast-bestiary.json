@@ -2235,7 +2235,7 @@
         {
           "id": "wVU3fCGLIaaDNg7G",
           "expectedName": "+1 Weapon Potency Crystal (Solar Flare)",
-          "name": "+1武器威能水晶（恒星耀斑）",
+          "name": "+1武器潜能水晶（恒星耀斑）",
           "description": "<p>此物品将模拟恒星活动所需的专注凝为晶体。恒星武器或恒星耀斑的攻击检定获得+1物品加值，且该武器或耀斑可以从一颗轨道水晶中受益。</p>",
           "expectedDescription": "<p>This item crystallizes the focus needed to replicate the actions of a star. Attack rolls with the solar weapon or flare gain a +1 item bonus, and the weapon or flare can benefit from one orbital crystal.</p>"
         },
@@ -3168,7 +3168,7 @@
         {
           "id": "wVU3fCGLIaaDNg7G",
           "expectedName": "+1 Weapon Potency Crystal (Solar Flare)",
-          "name": "+1武器威能水晶（恒星耀斑）",
+          "name": "+1武器潜能水晶（恒星耀斑）",
           "description": "<p>此物品将模拟恒星活动所需的专注凝为晶体。恒星武器或恒星耀斑的攻击检定获得+1物品加值，且该武器或耀斑可以从一颗轨道水晶中受益。</p>",
           "expectedDescription": "<p>This item crystallizes the focus needed to replicate the actions of a star. Attack rolls with the solar weapon or flare gain a +1 item bonus, and the weapon or flare can benefit from one orbital crystal.</p>"
         },

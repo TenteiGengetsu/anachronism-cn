@@ -1,0 +1,43 @@
+{
+  "version": "0.3.9",
+  "equipmentFamilies": 7,
+  "crystalsChecked": 16,
+  "ChineseQueries": {
+    "循环子水晶": [
+      "FtXDw1QyZz3CJoKX"
+    ],
+    "光量子水晶": [
+      "HRpZtAdpSg12N9n0",
+      "WZgjjY3FrWG7p8B7"
+    ],
+    "类星子水晶": [
+      "ZzdJKzOrz6i5WuAp"
+    ],
+    "武器潜能水晶": [
+      "AYZ8VGXirdelFqBb",
+      "JdBYoPRqFhVWoJFi",
+      "U746WCfdSOJs0qwd"
+    ],
+    "胶子水晶": [
+      "KZhgAm5kmlv5KWIQ",
+      "LgJrTVo1rReh9H5m",
+      "icgDHyiDNUspNcR7",
+      "sZcqNfSvls2rI8xU"
+    ],
+    "引力子水晶": [
+      "0KN1ZsFpc7ks9eB7",
+      "uj6raatkNE6E9nFA"
+    ],
+    "强击水晶": [
+      "AmF4ApGgYVhwU04Z",
+      "hLQlFY3NpdZ67uWE",
+      "nZVTCMNdBmbNBQmb"
+    ]
+  },
+  "allEnglishAliasesPreserved": true,
+  "allStableIdAliasesPreserved": true,
+  "allMainDocumentNamesBilingual": true,
+  "checkedTitleRows": 5616,
+  "fullIndexGeneratedByExistingBuilder": true,
+  "runtimeUnchanged": true
+}

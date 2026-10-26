@@ -3533,7 +3533,7 @@
       "description": "<p>这对盾牌成对持用时，利用力场释放的腐蚀剂扰乱敌人。</p>"
     },
     "AYZ8VGXirdelFqBb": {
-      "name": "+2武器威能水晶 +2 Weapon Potency Crystal",
+      "name": "+2武器潜能水晶 +2 Weapon Potency Crystal",
       "description": "<p>此物品将模拟恒星活动所需的专注凝为晶体。恒星武器或恒星耀斑的攻击检定获得+2物品加值，且该武器或耀斑可以从两颗轨道水晶中受益。</p>"
     },
     "AaKJebglS91fIk5F": {
@@ -3693,8 +3693,8 @@
       "description": "<p>这个发生器将你的移动转化为电能，为连接的电池充电。动能发电机产生1充能需要你移动10分钟；通常的日常活动提供的移动量就足以为发生器充能，但睡觉或静坐时不会产生充能。动能发电机一次可以容纳一块电池，安装或取下电池各需要一个交互动作。</p><hr /><p><strong>启动—短路</strong> <span class=\"action-glyph\">r</span> （电击）</p>\n<p><strong>触发</strong> 你被一个生物的近战攻击命中</p>\n<p><strong>需求</strong> 动能发电机上装有一块至少剩余10充能的电池</p>\n<p><strong>效果</strong> 你耗尽所装电池的全部充能，造成 @Damage[14d6[electricity]] 伤害，对触发生物（@Check[reflex|dc:41|basic] 豁免）。</p>"
     },
     "FtXDw1QyZz3CJoKX": {
-      "name": "循环水晶 Cycling Crystal",
-      "description": "<p>循环水晶让你更精确地控制流经恒星显象的能量循环。</p><hr /><p><strong>启动—暂停循环</strong> <span class=\"action-glyph\">f</span> （专注）</p>\n<p><strong>频率</strong> 每10分钟一次</p>\n<p><strong>触发</strong> 你以具有循环特征的动作，用恒星武器或恒星耀斑取得重击</p>\n<p><strong>效果</strong> 你可以选择改变调谐状态，或保持当前调谐状态。</p>"
+      "name": "循环子水晶 Cycling Crystal",
+      "description": "<p>循环子水晶让你更精确地控制流经恒星显象的能量循环。</p><hr /><p><strong>启动—静止循环</strong> <span class=\"action-glyph\">f</span> （专注）</p>\n<p><strong>频率</strong> 每10分钟一次</p>\n<p><strong>触发</strong> 你以具有循环特征的动作，用恒星武器或恒星耀斑取得重击</p>\n<p><strong>效果</strong> 你可以选择改变调谐状态，或保持当前调谐状态。</p>"
     },
     "Fx3Ct0aBpeIdMgZ8": {
       "name": "商用型动能发电机 Kinetic Generator (Commercial)",
@@ -3725,8 +3725,8 @@
       "description": "<p><strong>强化：</strong> 1</p><hr /><p>悍将破城甲旨在提供个人防护的巅峰，将穿戴者变成行走的坦克。其设计足以经受极端猛烈的攻击，并从中安然走出。这种防护以牺牲机动性为代价，因此穿戴破城甲的士兵通常直接空投至前线，以尽量减小这一限制。</p>"
     },
     "HRpZtAdpSg12N9n0": {
-      "name": "商用型光子水晶 Photon Crystal (Commercial)",
-      "description": "<p>光子水晶增强流入恒星显象的光子流，灼烧并致盲你的敌人。处于光子调谐时，你的恒星武器或恒星耀斑额外造成 @Damage[1d6[fire]] 伤害。光子调谐期间取得重击时，目标必须成功通过 @Check[fortitude|dc:23] 豁免，否则会 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} 持续1轮。</p>"
+      "name": "商用型光量子水晶 Photon Crystal (Commercial)",
+      "description": "<p>光量子水晶增强流入恒星显象的光量子流，灼烧并致盲你的敌人。处于光量子调谐时，你的恒星武器或恒星耀斑额外造成 @Damage[1d6[fire]] 伤害。光量子调谐期间取得重击时，目标必须成功通过 @Check[fortitude|dc:23] 豁免，否则会 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} 持续1轮。</p>"
     },
     "HTVWcutHX9THYB99": {
       "name": "商用型焕发光彩法术安瓿 Glow Up Spell Amp (Commercial)",
@@ -3792,7 +3792,7 @@
       "description": "<p>这台环绕用户运行的微型机器人会保护其用户。你可以在没有空手的情况下使用独立阻挡机器人举盾（AC+2，硬度7，生命值74，破损阈值37）。这台微型机器人的控制装置必须安装在你的护甲中，并占用一个护甲强化槽。</p>\n<p><strong>启动—重构力场</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>频率</strong> 每轮一次</p><hr /><p><strong>效果</strong> 你举盾，并从钝击、穿刺和挥砍中选择两种。盾牌获得针对这些伤害类型的偏转特征，持续10分钟，或直到你再次重构力场，以先发生者为准。</p>"
     },
     "JdBYoPRqFhVWoJFi": {
-      "name": "+1武器威能水晶 +1 Weapon Potency Crystal",
+      "name": "+1武器潜能水晶 +1 Weapon Potency Crystal",
       "description": "<p>此物品将模拟恒星活动所需的专注凝为晶体。恒星武器或恒星耀斑的攻击检定获得+1物品加值，且该武器或耀斑可以从一颗轨道水晶中受益。</p>"
     },
     "JgvLQeWK45OxFrx0": {
@@ -4089,7 +4089,7 @@
       "description": "<p><strong>用法</strong> 已安装于计算机或通讯单元中；</p><hr /><p>这些芯片可以安装在通讯单元和其他计算机中，使设备能够施放法术。每台设备只能安装一枚法术芯片。从法术芯片施法时，你必须用一只手持握计算机或通讯单元，并用施法行动启动它，消耗该法术通常所需的动作数。该法术必须在你的法术列表中。由于施法者是你，因此使用你的法术攻击调整值和法术DC。该法术必须属于你的施法根源。如果法术需要施法载体（locus），从法术芯片施放时你仍然必须拥有该施法载体。法术芯片不能容纳戏法或仪式。此物品的特征随其中容纳的法术而变化。</p>\n<p>除了施法所消耗的充能，短时间内连续使用也可能毁坏法术芯片核心晶格中的精密组件。一天内尝试使用法术芯片超过一次，就必须将其超频。再次施放该法术，然后进行一次 @Check[flat|dc:10]。成功时，法术芯片破损。失败时，法术芯片被摧毁。如果任何人试图超频一枚在当天已经被超频过的法术芯片，该芯片都会自动被摧毁（即使已经修复），而且不会施放任何法术。</p>\n<p><strong>启动</strong> 施法</p>\n<p><strong>频率</strong> 每天一次，另可超频</p>\n<p><strong>效果</strong> 你以指定环阶施放该法术。</p>"
     },
     "U746WCfdSOJs0qwd": {
-      "name": "+3武器威能水晶 +3 Weapon Potency Crystal",
+      "name": "+3武器潜能水晶 +3 Weapon Potency Crystal",
       "description": "<p>此物品将模拟恒星活动所需的专注凝为晶体。恒星武器或恒星耀斑的攻击检定获得+3物品加值，且该武器或耀斑可以从三颗轨道水晶中受益。</p>"
     },
     "U9wfttEwaL3mbpHk": {
@@ -4137,8 +4137,8 @@
       "description": "<p>这些晶格状宝石悬置于硅制外壳内，编码着施放一个特定法术所需的魔法文字。从法术宝石施法时，你必须用一只手持握宝石，并用施法行动启动它，消耗该法术通常所需的动作数。该法术必须在你的法术列表中。由于施法者是你，因此使用你的法术攻击调整值和法术DC。该法术必须属于你的施法根源。法术宝石中的法术只能施放一次，且法术宝石会在施法过程中被摧毁。法术宝石不能容纳戏法或仪式。此物品的特征随其中容纳的法术而变化。</p>\n<p><strong>启动</strong> 施法</p>\n<p><strong>效果</strong> 你以指定环阶施放该法术。</p>"
     },
     "WZgjjY3FrWG7p8B7": {
-      "name": "战术型光子水晶 Photon Crystal (Tactical)",
-      "description": "<p>光子水晶增强流入恒星显象的光子流，灼烧并致盲你的敌人。处于光子调谐时，你的恒星武器或恒星耀斑额外造成 @Damage[1d6[fire]] 伤害。光子调谐期间取得重击时，目标必须成功通过 @Check[fortitude|dc:31] 豁免，否则会 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} 持续2轮。</p>\n<p>光子调谐期间，恒星武器或耀斑造成的伤害忽略目标的火焰抗力。</p>"
+      "name": "战术型光量子水晶 Photon Crystal (Tactical)",
+      "description": "<p>光量子水晶增强流入恒星显象的光量子流，灼烧并致盲你的敌人。处于光量子调谐时，你的恒星武器或恒星耀斑额外造成 @Damage[1d6[fire]] 伤害。光量子调谐期间取得重击时，目标必须成功通过 @Check[fortitude|dc:31] 豁免，否则会 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} 持续2轮。</p>\n<p>光量子调谐期间，恒星武器或耀斑造成的伤害忽略目标的火焰抗力。</p>"
     },
     "Wn8GEmCG24QIM1wt": {
       "name": "法术芯片（3环法术） Spell Chip (3rd-Rank Spell)",
@@ -4208,8 +4208,8 @@
       "description": "<p>你被注入了死灵化血液与虚能，使你的身体能从通常足以杀死你的能量中获益。</p>\n<p><strong>启动—死灵化血液</strong> <span class=\"action-glyph\">r</span> （虚能）</p>\n<p><strong>频率</strong> 每分钟一次</p>\n<p><strong>触发</strong> 你将受到虚能伤害</p><hr /><p><strong>效果</strong> 直到你的下个回合开始，你获得等于你等级两倍的虚能伤害抗力和命能伤害弱点。如果触发伤害能够治疗不死生物，你就不受到伤害，改为如同不死生物一样受到治疗。</p>"
     },
     "ZzdJKzOrz6i5WuAp": {
-      "name": "类星体水晶 Quasar Crystal",
-      "description": "<p>类星体水晶将你的恒星能量凝聚为一点，等待在命中时释放。用此武器攻击时，如果骰面为19且结果为成功，则该次攻击成为重击。如果骰面为19时结果原本是失败，此属性就不会生效。</p>"
+      "name": "类星子水晶 Quasar Crystal",
+      "description": "<p>类星子水晶将你的恒星能量凝聚为一点，等待在命中时释放。用此武器攻击时，如果骰面为19且结果为成功，则该次攻击成为重击。如果骰面为19时结果原本是失败，此属性就不会生效。</p>"
     },
     "a4ODFr6CWP2RgSGY": {
       "name": "把戏装置（污秽） Gimmick (Foul)",

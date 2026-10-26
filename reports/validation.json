@@ -1,5 +1,5 @@
 {
-  "version": "0.3.8",
+  "version": "0.3.9",
   "babeleVersion": "2.9.1",
   "babeleSourceCommit": "49c42edc3f2939934ed1d7105600914b3c8d58a2",
   "babeleSource": "https://gitlab.com/riccisi/foundryvtt-babele/-/tree/2.9.1",
@@ -84,14 +84,14 @@
     "sf2e-anachronism.conditions.json": "192cbeaff4fca48b5bcbcc944350b93b9bdd10702d95ba6b573cd5be9843010c",
     "sf2e-anachronism.deities.json": "c8319d15984eb9bdfe6a1da3c9bde5fa162dc44495161be1247d85027bb31c1a",
     "sf2e-anachronism.equipment-effects.json": "16ea8af2cf629e5f3f480099e71ced1a8690c946222707dc58fab7690e94fe9a",
-    "sf2e-anachronism.equipment.json": "bbde34ed0a420e4caef63f27db88f57b961be62dd4a336e20f8dd6cf9b1b243a",
+    "sf2e-anachronism.equipment.json": "37094880a24c2053d42d07cdb613096776b1ec74134bb146d0f5075a5888feb6",
     "sf2e-anachronism.feat-effects.json": "b04a4ad3e24ff2e54666301ca2432696144bf86f22ce0497f7bde1107f80223f",
-    "sf2e-anachronism.feats.json": "de5808c9da8dae4245ad6b9859fdec283153abbf4686173245258d8efff154a3",
+    "sf2e-anachronism.feats.json": "e2e41d24a80fa53f3813d81bc6c65ca0f2a726096b27db583e0c34d7a8690034",
     "sf2e-anachronism.guilt-of-the-grave-world-bestiary.json": "5e2c2cabe3966f5a4890abd6866b5f8c6f7ae39b417988eefb331dcbeec5bb0b",
     "sf2e-anachronism.heritages.json": "5d31e3eedb1e86c6fa4d18d8c271ba6dd1ac94d9312ac4cf492d443a0fdabfa1",
-    "sf2e-anachronism.iconics.json": "1ca3d7d60254029e48751633b955a10bed134c8ef97a7af28189a5f527d520ab",
+    "sf2e-anachronism.iconics.json": "c2783cc16a189dbec594b9cf4f5c4b3c50f950ae096a22025f6345dcaed36f41",
     "sf2e-anachronism.journals.json": "4a162c3d1971a4e34c8bd0092a77c81090849d45b9ee46e4ba34d6b0c5d762cb",
-    "sf2e-anachronism.paizo-pregens.json": "dd3714921575521ec1cb9f07a2675a63a6dfed34dff96467333b18c418a63821",
+    "sf2e-anachronism.paizo-pregens.json": "e418c41e986f42b8a26ee051f8f6ee8a57050687dcd11436bbe85cc4e5acf21c",
     "sf2e-anachronism.rulebook-bestiaries.json": "8c1c0f3f40b2df64396d6e9911e59d008d6ce36c68e79b02211af1ec836dbcb1",
     "sf2e-anachronism.secrets-of-the-swarm-bestiary.json": "64dc398d977991b66bae02eadecfd0dd5878dd1163672a6240a90a16e8753555",
     "sf2e-anachronism.spell-effects.json": "3b66907c98d89a3bb79c91ec177ce56a6c08757dc4390ab3e7ba48aed75557d0",
@@ -99,10 +99,9 @@
     "sf2e-anachronism.standalone-adventure-bestiary.json": "ba7f77678794d3c369a16b6a47f3f4ae180ff0fa7d6140820e3487efc15c4ce9",
     "sf2e-anachronism.starfinder-society-bestiary.json": "9426991825be3a11ba24dd7f029a8d0d30959ae941c7218bde95336918d40f7c",
     "sf2e-anachronism.starfinder-society-boons.json": "f46a7989cc51beb03e922ea53df17e746d26b50b3a54b6a0b4f1d62c4fbceb78",
-    "sf2e-anachronism.tales-from-the-vast-bestiary.json": "282143297fc039bc13db88832bc63cee402558186a3dc4141639c309a4759b9d"
+    "sf2e-anachronism.tales-from-the-vast-bestiary.json": "068d177d73306ce2fa633dbc8360f3ea8a169b9a3ce6d62671e56e146fdc6b1d"
   },
   "runtimeScriptSha256": "76dc78ab44b5f0fe407a0928fa526f03f4d33c2fb6aa60e5ce9454a3fe9d6e70",
-  "otherTranslationFilesByteIdenticalTo031": 28,
   "sourceOriginalFilesUnchanged": true,
   "existingWorldDocumentsUpdated": false,
   "holyCommercialRegressionTests": {
@@ -231,7 +230,7 @@
     "scope": "User confirmed usable; exact build and test scenarios not specified"
   },
   "searchIndexOutputHashes": {
-    "titles.json": "ea2a112e8da45991da84e944d1fbf0ce007448660821f76cd7afedd2df1c0c6a",
+    "titles.json": "fc829b1410e33dbb727fb86b3bfc28eabc2913e0a9eba276bf3b31f9cf7ae832",
     "labels.json": "21a88b31620798d321a038b340ba12567f316d20f5a92c34100afca7dfe26e35"
   },
   "searchIndexCompatibility": {
@@ -256,13 +255,32 @@
   "subitemArraysChecked": 10,
   "subitemAndPrerequisiteRegressions": true,
   "auditReport": "reports/audit-0.3.7.json",
+  "previousMaintenanceUpdate": {
+    "version": "0.3.8",
+    "record": {
+      "baseVersion": "0.3.7",
+      "scope": "cleanup and consolidated terminology only",
+      "termPairs": 946,
+      "runtimeAndTranslationsUnchanged": true,
+      "consolidatedTermsSha256": "960d328b71dbc820df20e0fd8d19379c6f78b14007bebbb98e6c8e5604aa5c5b",
+      "checksInheritedFrom": "0.3.7",
+      "byteIdentityVerified": true
+    }
+  },
+  "historicalValidationSnapshot": "reports/localization-audit.zip:0.3.9/baseline-validation-0.3.8.json",
   "maintenanceUpdate": {
-    "baseVersion": "0.3.7",
-    "scope": "cleanup and consolidated terminology only",
-    "termPairs": 946,
-    "runtimeAndTranslationsUnchanged": true,
-    "consolidatedTermsSha256": "960d328b71dbc820df20e0fd8d19379c6f78b14007bebbb98e6c8e5604aa5c5b",
-    "checksInheritedFrom": "0.3.7",
-    "byteIdentityVerified": true
+    "baseVersion": "0.3.8",
+    "scope": "Solarian crystal terminology and matching display references",
+    "changedDisplayFields": 34,
+    "crystalsAudited": 16,
+    "runtimeScriptsUnchanged": true,
+    "mechanicalDataUnchangedFromBaseline": true,
+    "termPairs": 773,
+    "glossaryBasePairs": 765,
+    "newTermPairs": 701,
+    "actualCorrectionTermPairs": 72,
+    "consolidatedTermsSha256": "0aaa5bc824762771ec0ef9f66d0d17d564743f916566e2ac83e37102ebe74561",
+    "report": "reports/crystal-terminology-0.3.9.json",
+    "searchReport": "reports/search-index-validation-0.3.9.json"
   }
 }

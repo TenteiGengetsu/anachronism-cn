@@ -1729,7 +1729,7 @@
     },
     "7nogykxuNzdaRfnf": {
       "name": "星辰冲刺 Stellar Rush",
-      "description": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光子场。直至你的下个回合开始，光子场外部的生物对光子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>"
+      "description": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光量子场。直至你的下个回合开始，光量子场外部的生物对光量子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>"
     },
     "7oChczYtNoWFII3r": {
       "name": "基础领导力 Basic Leadership",
@@ -6475,7 +6475,7 @@
     },
     "Uz6dTsSRif8UYWLN": {
       "name": "星辰动量 Momentum",
-      "description": "<p><strong>需求</strong>你上个动作是一次成功的恒星武器打击。</p><hr /><p>你利用上一次攻击所余下的动量穿梭在战场之中，或是留下光子残影，或是借助引力大步跨越。你快步两次。</p>\n<p><strong>引力子调谐</strong>你每次快步移动10尺，而非5尺。</p>\n<p><strong>光量子调谐</strong>你在起始方格留下一道残影。这道影像持续至你的下回合结束，但如果另一个生物进入该空间，就提前结束。在夹击方面，残影视为你和盟友的一名盟友。</p>"
+      "description": "<p><strong>需求</strong>你上个动作是一次成功的恒星武器打击。</p><hr /><p>你利用上一次攻击所余下的动量穿梭在战场之中，或是留下光量子残影，或是借助引力大步跨越。你快步两次。</p>\n<p><strong>引力子调谐</strong>你每次快步移动10尺，而非5尺。</p>\n<p><strong>光量子调谐</strong>你在起始方格留下一道残影。这道影像持续至你的下回合结束，但如果另一个生物进入该空间，就提前结束。在夹击方面，残影视为你和盟友的一名盟友。</p>"
     },
     "V0DOtouvggNs58Hm": {
       "name": "虚空潜猎者 Void Stalker",
@@ -8301,7 +8301,7 @@
     },
     "eTefuy0BRvwAcqbQ": {
       "name": "调谐结界 Attuned Wards",
-      "description": "<p>你将对恒星力量的掌控延伸至惩戒敌人。攻击命中你的生物将根据你的调谐承受不同后果。</p>\n<p><strong>引力子调谐</strong>该生物@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}且@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮。如果这是它在本回合第二次命中你，前者提高为@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}。</p>\n<p><strong>光子调谐</strong>该生物受到等于你等级一半的持续火焰伤害。</p>"
+      "description": "<p>你将对恒星力量的掌控延伸至惩戒敌人。攻击命中你的生物将根据你的调谐承受不同后果。</p>\n<p><strong>引力子调谐</strong>该生物@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}且@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮。如果这是它在本回合第二次命中你，前者提高为@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}。</p>\n<p><strong>光量子调谐</strong>该生物受到等于你等级一半的持续火焰伤害。</p>"
     },
     "eVpE7gotiKAbgQkm": {
       "name": "熟练保镖 Skilled Bodyguard",
@@ -8867,7 +8867,7 @@
     },
     "hAOjYvcgTbWQffbT": {
       "name": "光晕结界 Nimbus Ward",
-      "description": "<p><strong>触发</strong>你将要被一次攻击，法术或其他效果伤害。</p>\n<p><strong>需求</strong>你能够意识到触发效果且没有措手不及。</p><hr /><p>你驾驭恒星光晕保护自身免受伤害。你获得等同于你等级一半（向上取整）的抗力，直到你的下个回合开始。你在使用此动作时，根据你当前的调谐状态选择抗力的类型。</p>\n<p>你只能在需求与触发满足时，以反应动作使用光晕结界，但你可以将其作为1动作行动使用，而无需满足需求与触发。</p>\n<p><strong>引力子调谐</strong>你的抗力可以是下列伤害类型之一：钝击、力场、穿刺或挥砍。</p>\n<p><strong>光子调谐</strong>你的抗力可以是下列能量伤害类型之一：酸蚀、寒冷、电击、火焰或音波。</p>"
+      "description": "<p><strong>触发</strong>你将要被一次攻击，法术或其他效果伤害。</p>\n<p><strong>需求</strong>你能够意识到触发效果且没有措手不及。</p><hr /><p>你驾驭恒星光晕保护自身免受伤害。你获得等同于你等级一半（向上取整）的抗力，直到你的下个回合开始。你在使用此动作时，根据你当前的调谐状态选择抗力的类型。</p>\n<p>你只能在需求与触发满足时，以反应动作使用光晕结界，但你可以将其作为1动作行动使用，而无需满足需求与触发。</p>\n<p><strong>引力子调谐</strong>你的抗力可以是下列伤害类型之一：钝击、力场、穿刺或挥砍。</p>\n<p><strong>光量子调谐</strong>你的抗力可以是下列能量伤害类型之一：酸蚀、寒冷、电击、火焰或音波。</p>"
     },
     "hE7UxbuJvB1PsB6x": {
       "name": "双重瞄准 Dual Aim",
@@ -10498,7 +10498,7 @@
     },
     "r5FD2LZ9kWOhDPby": {
       "name": "星盾坍缩 Stellar Shield Collapse",
-      "description": "<p><strong>触发</strong>你的恒星护盾在被举起时被摧毁。</p>\n<p><strong>需求</strong>你在最近10分钟内未使用黑洞或超新星。</p><hr /><p>你的恒星护盾自行坍缩。</p>\n<p><strong>引力子调谐</strong> 立即以自由动作使用@UUID[Compendium.sf2e-anachronism.feats.Item.51dFA09erqAeMt39]（如果你拥有黑洞专长）。</p>\n<p><strong>光子调谐</strong> 立即以自由动作使用@UUID[Compendium.sf2e-anachronism.feats.Item.71DtcZirJ9bbKMTY]（如果你拥有超新星专长）。</p>",
+      "description": "<p><strong>触发</strong>你的恒星护盾在被举起时被摧毁。</p>\n<p><strong>需求</strong>你在最近10分钟内未使用黑洞或超新星。</p><hr /><p>你的恒星护盾自行坍缩。</p>\n<p><strong>引力子调谐</strong> 立即以自由动作使用@UUID[Compendium.sf2e-anachronism.feats.Item.51dFA09erqAeMt39]（如果你拥有黑洞专长）。</p>\n<p><strong>光量子调谐</strong> 立即以自由动作使用@UUID[Compendium.sf2e-anachronism.feats.Item.71DtcZirJ9bbKMTY]（如果你拥有超新星专长）。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -10750,7 +10750,7 @@
     },
     "s3AFgP78spcJGBt0": {
       "name": "日冕 Corona",
-      "description": "<p>你在@Template[type:emanation|distance:10]内释放恒星能量构成的日冕，持续至你的下个回合结束。你可以维持日冕至多1分钟。如果你的调谐改变，日冕的调谐效果也随之改变。引力子调谐时，日冕具有黑暗特征。光子调谐时，日冕具有光亮特征。</p>\n<p><strong>引力子调谐</strong> 你的日冕是阻止光线穿透该区域的黑暗。其作用如同@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{黑暗术}法术，法术环级等于你等级的一半。</p>\n<p><strong>光子调谐</strong> 你的日冕是恒星光芒，在区域内提供明亮光照（以及更外20尺的昏暗光照）。在日冕的明亮光照内，@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}生物变为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，原本已隐蔽的生物则不再隐蔽。</p>"
+      "description": "<p>你在@Template[type:emanation|distance:10]内释放恒星能量构成的日冕，持续至你的下个回合结束。你可以维持日冕至多1分钟。如果你的调谐改变，日冕的调谐效果也随之改变。引力子调谐时，日冕具有黑暗特征。光量子调谐时，日冕具有光亮特征。</p>\n<p><strong>引力子调谐</strong> 你的日冕是阻止光线穿透该区域的黑暗。其作用如同@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{黑暗术}法术，法术环级等于你等级的一半。</p>\n<p><strong>光量子调谐</strong> 你的日冕是恒星光芒，在区域内提供明亮光照（以及更外20尺的昏暗光照）。在日冕的明亮光照内，@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}生物变为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，原本已隐蔽的生物则不再隐蔽。</p>"
     },
     "s4Rr5vmMCN5DC0vf": {
       "name": "无影遁形 Shy",
@@ -11559,7 +11559,7 @@
     },
     "vrYm2kc7lnwE2Hqo": {
       "name": "闪烁打击 Flicker Strike",
-      "description": "<p>你使用你的恒星武器攻击一个目标，并驾驭碰撞能量以光速攻击另一个敌人。使用你的恒星武器进行一次打击。命中时，你传送至多你速度的距离到一个不同生物触及范围内未被占据的方格，然后立即对其进行一次恒星武器打击。如果你初始的打击失手，你不会传送，且该动作结束。</p>\n<p><strong>引力子调谐</strong> 距离提高至你速度的两倍。</p>\n<p><strong>光子调谐</strong> 如果此动作包含的一次打击大成功，被命中的目标会@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，直到其下个回合结束。</p>"
+      "description": "<p>你使用你的恒星武器攻击一个目标，并驾驭碰撞能量以光速攻击另一个敌人。使用你的恒星武器进行一次打击。命中时，你传送至多你速度的距离到一个不同生物触及范围内未被占据的方格，然后立即对其进行一次恒星武器打击。如果你初始的打击失手，你不会传送，且该动作结束。</p>\n<p><strong>引力子调谐</strong> 距离提高至你速度的两倍。</p>\n<p><strong>光量子调谐</strong> 如果此动作包含的一次打击大成功，被命中的目标会@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，直到其下个回合结束。</p>"
     },
     "vteEdAxMrIEjV5Sn": {
       "name": "粗壮根足 Stout Roots",
@@ -11798,7 +11798,7 @@
     },
     "xCeTKPGMrwK2tWKX": {
       "name": "星座涡旋 Constellation Vortex",
-      "description": "<p>你显现一把恒星武器的复制品，使其在涡旋中绕你盘旋，沿途留下星座图案。在与你相邻处开始回合的生物，会受到伤害，其数值与类型等同于你恒星武器的武器伤害，并以@Check[reflex|against:solarian|basic]豁免对抗你的职业DC。使用星座涡旋时，如果已有一个正在生效的涡旋，则改为向其中加入另一把武器，任何时候最多3把。每增加一把武器，涡旋伤害便提高1。你可以维持涡旋至多1分钟。</p>\n<p>涡旋结束时会碎裂，对所有相邻生物造成等于你等级的伤害，每把涡旋中的武器再加1。伤害类型与你的恒星武器相同。</p>\n<p><strong>引力子调谐</strong> 涡旋中的每把武器（包括第一把）使涡旋伤害提高2。</p>\n<p><strong>光子调谐</strong> 每把武器（包括第一把）增加@Damage[1[fire]]伤害。</p><hr /><p><strong>等级（+3）</strong> 每把额外武器带来的伤害提高2，调谐效果带来的额外伤害提高1。</p>"
+      "description": "<p>你显现一把恒星武器的复制品，使其在涡旋中绕你盘旋，沿途留下星座图案。在与你相邻处开始回合的生物，会受到伤害，其数值与类型等同于你恒星武器的武器伤害，并以@Check[reflex|against:solarian|basic]豁免对抗你的职业DC。使用星座涡旋时，如果已有一个正在生效的涡旋，则改为向其中加入另一把武器，任何时候最多3把。每增加一把武器，涡旋伤害便提高1。你可以维持涡旋至多1分钟。</p>\n<p>涡旋结束时会碎裂，对所有相邻生物造成等于你等级的伤害，每把涡旋中的武器再加1。伤害类型与你的恒星武器相同。</p>\n<p><strong>引力子调谐</strong> 涡旋中的每把武器（包括第一把）使涡旋伤害提高2。</p>\n<p><strong>光量子调谐</strong> 每把武器（包括第一把）增加@Damage[1[fire]]伤害。</p><hr /><p><strong>等级（+3）</strong> 每把额外武器带来的伤害提高2，调谐效果带来的额外伤害提高1。</p>"
     },
     "xF4Vse5IwmWveqxI": {
       "name": "防御阵型 Defensive Formation",

@@ -712,7 +712,7 @@
           "expectedName": "Stellar Rush",
           "name": "星辰冲刺",
           "expectedDescription": "<p>You rush forward with a blast of stellar energy, getting into the thick of combat with ease. Stride twice. You gain a +10-foot circumstance bonus to your Speed during these moves.</p>\n<p><strong>Graviton-Attuned</strong> When you finish your Strides, enemies within 15 feet of you must attempt a @Check[fortitude|against:solarian|options:area-effect,forced-movement] save against your class DC. On a failure, they're pulled directly toward you, ending in an adjacent square if possible. You select the order these enemies are moved.</p>\n<p><strong>Photon-Attuned</strong> When you finish your Strides, you create a photon field in a @Template[type:burst|distance:15] centered on you. Until the start of your next turn, creatures outside the photon field are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to creatures inside the field.</p>",
-          "description": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光子场。直至你的下个回合开始，光子场外部的生物对光子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>"
+          "description": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光量子场。直至你的下个回合开始，光量子场外部的生物对光量子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>"
         },
         {
           "id": "tGQAHTHmVb973z2N",
@@ -4652,7 +4652,7 @@
           "expectedName": "Stellar Rush",
           "name": "星辰冲刺",
           "expectedDescription": "<p>You rush forward with a blast of stellar energy, getting into the thick of combat with ease. Stride twice. You gain a +10-foot circumstance bonus to your Speed during these moves.</p>\n<p><strong>Graviton-Attuned</strong> When you finish your Strides, enemies within 15 feet of you must attempt a @Check[fortitude|against:solarian|options:area-effect,forced-movement] save against your class DC. On a failure, they're pulled directly toward you, ending in an adjacent square if possible. You select the order these enemies are moved.</p>\n<p><strong>Photon-Attuned</strong> When you finish your Strides, you create a photon field in a @Template[type:burst|distance:15] centered on you. Until the start of your next turn, creatures outside the photon field are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to creatures inside the field.</p>",
-          "description": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光子场。直至你的下个回合开始，光子场外部的生物对光子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>"
+          "description": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光量子场。直至你的下个回合开始，光量子场外部的生物对光量子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>"
         },
         {
           "id": "tGQAHTHmVb973z2N",
@@ -4727,14 +4727,14 @@
         {
           "id": "AV2DHvH1z8GwlUAF",
           "expectedName": "+1 Weapon Potency Crystal (Solar Flare)",
-          "name": "+1武器威能水晶（恒星耀斑）",
+          "name": "+1武器潜能水晶（恒星耀斑）",
           "expectedDescription": "<p>This item crystallizes the focus needed to replicate the actions of a star. Attack rolls with the solar weapon or flare gain a +1 item bonus, and the weapon or flare can benefit from one orbital crystal.</p>",
           "description": "<p>此物品将模拟恒星活动所需的专注凝为晶体。恒星武器或恒星耀斑的攻击检定获得+1物品加值，且该武器或耀斑可以从一颗轨道水晶中受益。</p>"
         },
         {
           "id": "PvOohkAXkqEi8IkB",
           "expectedName": "+1 Weapon Potency Crystal (Solar Weapon)",
-          "name": "+1武器威能水晶（恒星武器）",
+          "name": "+1武器潜能水晶（恒星武器）",
           "expectedDescription": "<p>This item crystallizes the focus needed to replicate the actions of a star. Attack rolls with the solar weapon or flare gain a +1 item bonus, and the weapon or flare can benefit from one orbital crystal.</p>",
           "description": "<p>此物品将模拟恒星活动所需的专注凝为晶体。恒星武器或恒星耀斑的攻击检定获得+1物品加值，且该武器或耀斑可以从一颗轨道水晶中受益。</p>"
         },
@@ -4750,7 +4750,7 @@
           "expectedName": "Nimbus Ward",
           "name": "光晕结界",
           "expectedDescription": "<p><strong>Trigger</strong> You would be damage by an attack, spell, or other effect.</p>\n<p><strong>Requirements</strong> You're aware of the triggering effect and not offguard.</p><hr /><p>You harness your solar nimbus to protect yourself from harm. You gain resistance equal to half your level (rounded up) until the start of your next turn. You choose the type of resistance when you use this action, depending on your current attunement.</p>\n<p>You can use Nimbus Ward as a reaction only when the requirements and trigger are met, but you can use it as a 1-action activity without the requirements or trigger being met.</p>\n<p><strong>Graviton-Attuned</strong> Your resistance can be one of the following types of damage: bludgeoning, force, piercing, or slashing.</p>\n<p><strong>Photon-Attuned</strong> Your resistance can be one of the following types of energy damage: acid, cold, electricity, fire, or sonic.</p>",
-          "description": "<p><strong>触发</strong>你将要被一次攻击，法术或其他效果伤害。</p>\n<p><strong>需求</strong>你能够意识到触发效果且没有措手不及。</p><hr /><p>你驾驭恒星光晕保护自身免受伤害。你获得等同于你等级一半（向上取整）的抗力，直到你的下个回合开始。你在使用此动作时，根据你当前的调谐状态选择抗力的类型。</p>\n<p>你只能在需求与触发满足时，以反应动作使用光晕结界，但你可以将其作为1动作行动使用，而无需满足需求与触发。</p>\n<p><strong>引力子调谐</strong>你的抗力可以是下列伤害类型之一：钝击、力场、穿刺或挥砍。</p>\n<p><strong>光子调谐</strong>你的抗力可以是下列能量伤害类型之一：酸蚀、寒冷、电击、火焰或音波。</p>"
+          "description": "<p><strong>触发</strong>你将要被一次攻击，法术或其他效果伤害。</p>\n<p><strong>需求</strong>你能够意识到触发效果且没有措手不及。</p><hr /><p>你驾驭恒星光晕保护自身免受伤害。你获得等同于你等级一半（向上取整）的抗力，直到你的下个回合开始。你在使用此动作时，根据你当前的调谐状态选择抗力的类型。</p>\n<p>你只能在需求与触发满足时，以反应动作使用光晕结界，但你可以将其作为1动作行动使用，而无需满足需求与触发。</p>\n<p><strong>引力子调谐</strong>你的抗力可以是下列伤害类型之一：钝击、力场、穿刺或挥砍。</p>\n<p><strong>光量子调谐</strong>你的抗力可以是下列能量伤害类型之一：酸蚀、寒冷、电击、火焰或音波。</p>"
         },
         {
           "id": "TNTsiFr9o3wFmde5",
@@ -6386,7 +6386,7 @@
           "expectedName": "Stellar Rush",
           "name": "星辰冲刺",
           "expectedDescription": "<p>You rush forward with a blast of stellar energy, getting into the thick of combat with ease. Stride twice. You gain a +10-foot circumstance bonus to your Speed during these moves.</p>\n<p><strong>Graviton-Attuned</strong> When you finish your Strides, enemies within 15 feet of you must attempt a @Check[fortitude|against:solarian|options:area-effect,forced-movement] save against your class DC. On a failure, they're pulled directly toward you, ending in an adjacent square if possible. You select the order these enemies are moved.</p>\n<p><strong>Photon-Attuned</strong> When you finish your Strides, you create a photon field in a @Template[type:burst|distance:15] centered on you. Until the start of your next turn, creatures outside the photon field are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to creatures inside the field.</p>",
-          "description": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光子场。直至你的下个回合开始，光子场外部的生物对光子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>"
+          "description": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光量子场。直至你的下个回合开始，光量子场外部的生物对光量子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>"
         },
         {
           "id": "tGQAHTHmVb973z2N",
@@ -7440,7 +7440,7 @@
           "expectedName": "Stellar Rush",
           "name": "星辰冲刺",
           "expectedDescription": "<p>You rush forward with a blast of stellar energy, getting into the thick of combat with ease. Stride twice. You gain a +10-foot circumstance bonus to your Speed during these moves.</p>\n<p><strong>Graviton-Attuned</strong> When you finish your Strides, enemies within 15 feet of you must attempt a @Check[fortitude|against:solarian|options:area-effect,forced-movement] save against your class DC. On a failure, they're pulled directly toward you, ending in an adjacent square if possible. You select the order these enemies are moved.</p>\n<p><strong>Photon-Attuned</strong> When you finish your Strides, you create a photon field in a @Template[type:burst|distance:15] centered on you. Until the start of your next turn, creatures outside the photon field are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} to creatures inside the field.</p>",
-          "description": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光子场。直至你的下个回合开始，光子场外部的生物对光子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>"
+          "description": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光量子场。直至你的下个回合开始，光量子场外部的生物对光量子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>"
         },
         {
           "id": "tGQAHTHmVb973z2N",
@@ -7515,14 +7515,14 @@
         {
           "id": "AV2DHvH1z8GwlUAF",
           "expectedName": "+1 Weapon Potency Crystal (Solar Flare)",
-          "name": "+1武器威能水晶（恒星耀斑）",
+          "name": "+1武器潜能水晶（恒星耀斑）",
           "expectedDescription": "<p>This item crystallizes the focus needed to replicate the actions of a star. Attack rolls with the solar weapon or flare gain a +1 item bonus, and the weapon or flare can benefit from one orbital crystal.</p>",
           "description": "<p>此物品将模拟恒星活动所需的专注凝为晶体。恒星武器或恒星耀斑的攻击检定获得+1物品加值，且该武器或耀斑可以从一颗轨道水晶中受益。</p>"
         },
         {
           "id": "PvOohkAXkqEi8IkB",
           "expectedName": "+1 Weapon Potency Crystal (Solar Weapon)",
-          "name": "+1武器威能水晶（恒星武器）",
+          "name": "+1武器潜能水晶（恒星武器）",
           "expectedDescription": "<p>This item crystallizes the focus needed to replicate the actions of a star. Attack rolls with the solar weapon or flare gain a +1 item bonus, and the weapon or flare can benefit from one orbital crystal.</p>",
           "description": "<p>此物品将模拟恒星活动所需的专注凝为晶体。恒星武器或恒星耀斑的攻击检定获得+1物品加值，且该武器或耀斑可以从一颗轨道水晶中受益。</p>"
         },
@@ -7538,7 +7538,7 @@
           "expectedName": "Nimbus Ward",
           "name": "光晕结界",
           "expectedDescription": "<p><strong>Trigger</strong> You would be damage by an attack, spell, or other effect.</p>\n<p><strong>Requirements</strong> You're aware of the triggering effect and not offguard.</p><hr /><p>You harness your solar nimbus to protect yourself from harm. You gain resistance equal to half your level (rounded up) until the start of your next turn. You choose the type of resistance when you use this action, depending on your current attunement.</p>\n<p>You can use Nimbus Ward as a reaction only when the requirements and trigger are met, but you can use it as a 1-action activity without the requirements or trigger being met.</p>\n<p><strong>Graviton-Attuned</strong> Your resistance can be one of the following types of damage: bludgeoning, force, piercing, or slashing.</p>\n<p><strong>Photon-Attuned</strong> Your resistance can be one of the following types of energy damage: acid, cold, electricity, fire, or sonic.</p>",
-          "description": "<p><strong>触发</strong>你将要被一次攻击，法术或其他效果伤害。</p>\n<p><strong>需求</strong>你能够意识到触发效果且没有措手不及。</p><hr /><p>你驾驭恒星光晕保护自身免受伤害。你获得等同于你等级一半（向上取整）的抗力，直到你的下个回合开始。你在使用此动作时，根据你当前的调谐状态选择抗力的类型。</p>\n<p>你只能在需求与触发满足时，以反应动作使用光晕结界，但你可以将其作为1动作行动使用，而无需满足需求与触发。</p>\n<p><strong>引力子调谐</strong>你的抗力可以是下列伤害类型之一：钝击、力场、穿刺或挥砍。</p>\n<p><strong>光子调谐</strong>你的抗力可以是下列能量伤害类型之一：酸蚀、寒冷、电击、火焰或音波。</p>"
+          "description": "<p><strong>触发</strong>你将要被一次攻击，法术或其他效果伤害。</p>\n<p><strong>需求</strong>你能够意识到触发效果且没有措手不及。</p><hr /><p>你驾驭恒星光晕保护自身免受伤害。你获得等同于你等级一半（向上取整）的抗力，直到你的下个回合开始。你在使用此动作时，根据你当前的调谐状态选择抗力的类型。</p>\n<p>你只能在需求与触发满足时，以反应动作使用光晕结界，但你可以将其作为1动作行动使用，而无需满足需求与触发。</p>\n<p><strong>引力子调谐</strong>你的抗力可以是下列伤害类型之一：钝击、力场、穿刺或挥砍。</p>\n<p><strong>光量子调谐</strong>你的抗力可以是下列能量伤害类型之一：酸蚀、寒冷、电击、火焰或音波。</p>"
         },
         {
           "id": "TNTsiFr9o3wFmde5",

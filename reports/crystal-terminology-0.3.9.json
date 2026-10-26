@@ -1,0 +1,797 @@
+{
+  "version": "0.3.9",
+  "date": "2026-10-26",
+  "scope": "恒星武士水晶、同语境显示引用及译名汇总",
+  "cause": [
+    "旧匹配按含Crystal的完整英文标题查找，未安全关联Wiki不带Crystal的条目与类型数据。",
+    "按英文另拟的循环、光子、类星体、武器威能没有与Wiki已确认译名统一。",
+    "上轮仅筛选了译名表，未修改这些运行时译文字段。"
+  ],
+  "namingPolicy": "沿用Wiki中文词干；保留模组英文Crystal对应的水晶字样及原英文双语名称。",
+  "authorities": [
+    {
+      "title": "Data:Items-Cycling.json",
+      "revid": 12792,
+      "chinese": "循环子"
+    },
+    {
+      "title": "Data:Items-Gluon.json",
+      "revid": 12824,
+      "chinese": "胶子"
+    },
+    {
+      "title": "Data:Items-Graviton.json",
+      "revid": 18815,
+      "chinese": "引力子"
+    },
+    {
+      "title": "Data:Items-Photon.json",
+      "revid": 18816,
+      "chinese": "光量子"
+    },
+    {
+      "title": "Data:Items-Quasar.json",
+      "revid": 12864,
+      "chinese": "类星子"
+    },
+    {
+      "title": "Data:Items-Striking.json",
+      "revid": 12894,
+      "chinese": "强击"
+    },
+    {
+      "title": "Data:Items-Weapon Potency.json",
+      "revid": 12906,
+      "chinese": "武器潜能"
+    }
+  ],
+  "familyAudit": {
+    "familiesChecked": 7,
+    "equipmentDocumentsChecked": 16,
+    "changedFamilies": [
+      "Cycling",
+      "Photon",
+      "Quasar",
+      "Weapon Potency"
+    ],
+    "alreadyConsistentFamilies": [
+      "Gluon",
+      "Graviton",
+      "Striking"
+    ],
+    "items": [
+      {
+        "id": "0KN1ZsFpc7ks9eB7",
+        "English": "Graviton Crystal (Tactical)",
+        "Chinese": "战术型引力子水晶",
+        "authority": "Data:Items-Graviton.json",
+        "revid": 18815
+      },
+      {
+        "id": "AYZ8VGXirdelFqBb",
+        "English": "+2 Weapon Potency Crystal",
+        "Chinese": "+2武器潜能水晶",
+        "authority": "Data:Items-Weapon Potency.json",
+        "revid": 12906
+      },
+      {
+        "id": "AmF4ApGgYVhwU04Z",
+        "English": "Striking Crystal (Commercial)",
+        "Chinese": "商用型强击水晶",
+        "authority": "Data:Items-Striking.json",
+        "revid": 12894
+      },
+      {
+        "id": "FtXDw1QyZz3CJoKX",
+        "English": "Cycling Crystal",
+        "Chinese": "循环子水晶",
+        "authority": "Data:Items-Cycling.json",
+        "revid": 12792
+      },
+      {
+        "id": "HRpZtAdpSg12N9n0",
+        "English": "Photon Crystal (Commercial)",
+        "Chinese": "商用型光量子水晶",
+        "authority": "Data:Items-Photon.json",
+        "revid": 18816
+      },
+      {
+        "id": "JdBYoPRqFhVWoJFi",
+        "English": "+1 Weapon Potency Crystal",
+        "Chinese": "+1武器潜能水晶",
+        "authority": "Data:Items-Weapon Potency.json",
+        "revid": 12906
+      },
+      {
+        "id": "KZhgAm5kmlv5KWIQ",
+        "English": "Gluon Crystal (Advanced)",
+        "Chinese": "先进型胶子水晶",
+        "authority": "Data:Items-Gluon.json",
+        "revid": 12824
+      },
+      {
+        "id": "LgJrTVo1rReh9H5m",
+        "English": "Gluon Crystal (Superior)",
+        "Chinese": "卓越型胶子水晶",
+        "authority": "Data:Items-Gluon.json",
+        "revid": 12824
+      },
+      {
+        "id": "U746WCfdSOJs0qwd",
+        "English": "+3 Weapon Potency Crystal",
+        "Chinese": "+3武器潜能水晶",
+        "authority": "Data:Items-Weapon Potency.json",
+        "revid": 12906
+      },
+      {
+        "id": "WZgjjY3FrWG7p8B7",
+        "English": "Photon Crystal (Tactical)",
+        "Chinese": "战术型光量子水晶",
+        "authority": "Data:Items-Photon.json",
+        "revid": 18816
+      },
+      {
+        "id": "ZzdJKzOrz6i5WuAp",
+        "English": "Quasar Crystal",
+        "Chinese": "类星子水晶",
+        "authority": "Data:Items-Quasar.json",
+        "revid": 12864
+      },
+      {
+        "id": "hLQlFY3NpdZ67uWE",
+        "English": "Striking Crystal (Tactical)",
+        "Chinese": "战术型强击水晶",
+        "authority": "Data:Items-Striking.json",
+        "revid": 12894
+      },
+      {
+        "id": "icgDHyiDNUspNcR7",
+        "English": "Gluon Crystal (Commercial)",
+        "Chinese": "商用型胶子水晶",
+        "authority": "Data:Items-Gluon.json",
+        "revid": 12824
+      },
+      {
+        "id": "nZVTCMNdBmbNBQmb",
+        "English": "Striking Crystal (Advanced)",
+        "Chinese": "先进型强击水晶",
+        "authority": "Data:Items-Striking.json",
+        "revid": 12894
+      },
+      {
+        "id": "sZcqNfSvls2rI8xU",
+        "English": "Gluon Crystal (Tactical)",
+        "Chinese": "战术型胶子水晶",
+        "authority": "Data:Items-Gluon.json",
+        "revid": 12824
+      },
+      {
+        "id": "uj6raatkNE6E9nFA",
+        "English": "Graviton Crystal (Commercial)",
+        "Chinese": "商用型引力子水晶",
+        "authority": "Data:Items-Graviton.json",
+        "revid": 18815
+      }
+    ]
+  },
+  "reviewScope": "只对本次名称、术语及所在原文上下文完成双轮英文对照与独立中文顺读；未重译未改正文。",
+  "changedFields": 34,
+  "changedPacks": {
+    "sf2e-anachronism.equipment.json": 11,
+    "sf2e-anachronism.feats.json": 8,
+    "sf2e-anachronism.iconics.json": 10,
+    "sf2e-anachronism.paizo-pregens.json": 3,
+    "sf2e-anachronism.tales-from-the-vast-bestiary.json": 2
+  },
+  "unchanged": [
+    "英文名称及源文保护字段",
+    "条目和内嵌ID",
+    "UUID及宏本体",
+    "HTML标签与属性",
+    "规则/谓词/公式/全部数值",
+    "注册与显示脚本"
+  ],
+  "glossary": {
+    "rows": 773,
+    "newRows": 701,
+    "actualCorrectionRows": 72,
+    "thisCorrectionPairs": [
+      [
+        "循环子水晶",
+        "Cycling Crystal"
+      ],
+      [
+        "光量子水晶",
+        "Photon Crystal"
+      ],
+      [
+        "类星子水晶",
+        "Quasar Crystal"
+      ],
+      [
+        "+1武器潜能水晶",
+        "+1 Weapon Potency Crystal"
+      ],
+      [
+        "+2武器潜能水晶",
+        "+2 Weapon Potency Crystal"
+      ],
+      [
+        "+3武器潜能水晶",
+        "+3 Weapon Potency Crystal"
+      ],
+      [
+        "光量子",
+        "Photon"
+      ],
+      [
+        "光量子调谐",
+        "Photon-Attuned"
+      ],
+      [
+        "静止循环",
+        "Halt Cycle"
+      ]
+    ]
+  },
+  "changes": [
+    {
+      "file": "sf2e-anachronism.equipment.json",
+      "path": [
+        "entries",
+        "AYZ8VGXirdelFqBb",
+        "name"
+      ],
+      "old": "+2武器威能水晶 +2 Weapon Potency Crystal",
+      "new": "+2武器潜能水晶 +2 Weapon Potency Crystal",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.equipment.json",
+      "path": [
+        "entries",
+        "FtXDw1QyZz3CJoKX",
+        "name"
+      ],
+      "old": "循环水晶 Cycling Crystal",
+      "new": "循环子水晶 Cycling Crystal",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.equipment.json",
+      "path": [
+        "entries",
+        "FtXDw1QyZz3CJoKX",
+        "description"
+      ],
+      "old": "<p>循环水晶让你更精确地控制流经恒星显象的能量循环。</p><hr /><p><strong>启动—暂停循环</strong> <span class=\"action-glyph\">f</span> （专注）</p>\n<p><strong>频率</strong> 每10分钟一次</p>\n<p><strong>触发</strong> 你以具有循环特征的动作，用恒星武器或恒星耀斑取得重击</p>\n<p><strong>效果</strong> 你可以选择改变调谐状态，或保持当前调谐状态。</p>",
+      "new": "<p>循环子水晶让你更精确地控制流经恒星显象的能量循环。</p><hr /><p><strong>启动—静止循环</strong> <span class=\"action-glyph\">f</span> （专注）</p>\n<p><strong>频率</strong> 每10分钟一次</p>\n<p><strong>触发</strong> 你以具有循环特征的动作，用恒星武器或恒星耀斑取得重击</p>\n<p><strong>效果</strong> 你可以选择改变调谐状态，或保持当前调谐状态。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.equipment.json",
+      "path": [
+        "entries",
+        "HRpZtAdpSg12N9n0",
+        "name"
+      ],
+      "old": "商用型光子水晶 Photon Crystal (Commercial)",
+      "new": "商用型光量子水晶 Photon Crystal (Commercial)",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.equipment.json",
+      "path": [
+        "entries",
+        "HRpZtAdpSg12N9n0",
+        "description"
+      ],
+      "old": "<p>光子水晶增强流入恒星显象的光子流，灼烧并致盲你的敌人。处于光子调谐时，你的恒星武器或恒星耀斑额外造成 @Damage[1d6[fire]] 伤害。光子调谐期间取得重击时，目标必须成功通过 @Check[fortitude|dc:23] 豁免，否则会 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} 持续1轮。</p>",
+      "new": "<p>光量子水晶增强流入恒星显象的光量子流，灼烧并致盲你的敌人。处于光量子调谐时，你的恒星武器或恒星耀斑额外造成 @Damage[1d6[fire]] 伤害。光量子调谐期间取得重击时，目标必须成功通过 @Check[fortitude|dc:23] 豁免，否则会 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} 持续1轮。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.equipment.json",
+      "path": [
+        "entries",
+        "JdBYoPRqFhVWoJFi",
+        "name"
+      ],
+      "old": "+1武器威能水晶 +1 Weapon Potency Crystal",
+      "new": "+1武器潜能水晶 +1 Weapon Potency Crystal",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.equipment.json",
+      "path": [
+        "entries",
+        "U746WCfdSOJs0qwd",
+        "name"
+      ],
+      "old": "+3武器威能水晶 +3 Weapon Potency Crystal",
+      "new": "+3武器潜能水晶 +3 Weapon Potency Crystal",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.equipment.json",
+      "path": [
+        "entries",
+        "WZgjjY3FrWG7p8B7",
+        "name"
+      ],
+      "old": "战术型光子水晶 Photon Crystal (Tactical)",
+      "new": "战术型光量子水晶 Photon Crystal (Tactical)",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.equipment.json",
+      "path": [
+        "entries",
+        "WZgjjY3FrWG7p8B7",
+        "description"
+      ],
+      "old": "<p>光子水晶增强流入恒星显象的光子流，灼烧并致盲你的敌人。处于光子调谐时，你的恒星武器或恒星耀斑额外造成 @Damage[1d6[fire]] 伤害。光子调谐期间取得重击时，目标必须成功通过 @Check[fortitude|dc:31] 豁免，否则会 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} 持续2轮。</p>\n<p>光子调谐期间，恒星武器或耀斑造成的伤害忽略目标的火焰抗力。</p>",
+      "new": "<p>光量子水晶增强流入恒星显象的光量子流，灼烧并致盲你的敌人。处于光量子调谐时，你的恒星武器或恒星耀斑额外造成 @Damage[1d6[fire]] 伤害。光量子调谐期间取得重击时，目标必须成功通过 @Check[fortitude|dc:31] 豁免，否则会 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} 持续2轮。</p>\n<p>光量子调谐期间，恒星武器或耀斑造成的伤害忽略目标的火焰抗力。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.equipment.json",
+      "path": [
+        "entries",
+        "ZzdJKzOrz6i5WuAp",
+        "name"
+      ],
+      "old": "类星体水晶 Quasar Crystal",
+      "new": "类星子水晶 Quasar Crystal",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.equipment.json",
+      "path": [
+        "entries",
+        "ZzdJKzOrz6i5WuAp",
+        "description"
+      ],
+      "old": "<p>类星体水晶将你的恒星能量凝聚为一点，等待在命中时释放。用此武器攻击时，如果骰面为19且结果为成功，则该次攻击成为重击。如果骰面为19时结果原本是失败，此属性就不会生效。</p>",
+      "new": "<p>类星子水晶将你的恒星能量凝聚为一点，等待在命中时释放。用此武器攻击时，如果骰面为19且结果为成功，则该次攻击成为重击。如果骰面为19时结果原本是失败，此属性就不会生效。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.feats.json",
+      "path": [
+        "entries",
+        "7nogykxuNzdaRfnf",
+        "description"
+      ],
+      "old": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光子场。直至你的下个回合开始，光子场外部的生物对光子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>",
+      "new": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光量子场。直至你的下个回合开始，光量子场外部的生物对光量子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.feats.json",
+      "path": [
+        "entries",
+        "Uz6dTsSRif8UYWLN",
+        "description"
+      ],
+      "old": "<p><strong>需求</strong>你上个动作是一次成功的恒星武器打击。</p><hr /><p>你利用上一次攻击所余下的动量穿梭在战场之中，或是留下光子残影，或是借助引力大步跨越。你快步两次。</p>\n<p><strong>引力子调谐</strong>你每次快步移动10尺，而非5尺。</p>\n<p><strong>光量子调谐</strong>你在起始方格留下一道残影。这道影像持续至你的下回合结束，但如果另一个生物进入该空间，就提前结束。在夹击方面，残影视为你和盟友的一名盟友。</p>",
+      "new": "<p><strong>需求</strong>你上个动作是一次成功的恒星武器打击。</p><hr /><p>你利用上一次攻击所余下的动量穿梭在战场之中，或是留下光量子残影，或是借助引力大步跨越。你快步两次。</p>\n<p><strong>引力子调谐</strong>你每次快步移动10尺，而非5尺。</p>\n<p><strong>光量子调谐</strong>你在起始方格留下一道残影。这道影像持续至你的下回合结束，但如果另一个生物进入该空间，就提前结束。在夹击方面，残影视为你和盟友的一名盟友。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.feats.json",
+      "path": [
+        "entries",
+        "eTefuy0BRvwAcqbQ",
+        "description"
+      ],
+      "old": "<p>你将对恒星力量的掌控延伸至惩戒敌人。攻击命中你的生物将根据你的调谐承受不同后果。</p>\n<p><strong>引力子调谐</strong>该生物@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}且@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮。如果这是它在本回合第二次命中你，前者提高为@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}。</p>\n<p><strong>光子调谐</strong>该生物受到等于你等级一半的持续火焰伤害。</p>",
+      "new": "<p>你将对恒星力量的掌控延伸至惩戒敌人。攻击命中你的生物将根据你的调谐承受不同后果。</p>\n<p><strong>引力子调谐</strong>该生物@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}且@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，持续1轮。如果这是它在本回合第二次命中你，前者提高为@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}。</p>\n<p><strong>光量子调谐</strong>该生物受到等于你等级一半的持续火焰伤害。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.feats.json",
+      "path": [
+        "entries",
+        "hAOjYvcgTbWQffbT",
+        "description"
+      ],
+      "old": "<p><strong>触发</strong>你将要被一次攻击，法术或其他效果伤害。</p>\n<p><strong>需求</strong>你能够意识到触发效果且没有措手不及。</p><hr /><p>你驾驭恒星光晕保护自身免受伤害。你获得等同于你等级一半（向上取整）的抗力，直到你的下个回合开始。你在使用此动作时，根据你当前的调谐状态选择抗力的类型。</p>\n<p>你只能在需求与触发满足时，以反应动作使用光晕结界，但你可以将其作为1动作行动使用，而无需满足需求与触发。</p>\n<p><strong>引力子调谐</strong>你的抗力可以是下列伤害类型之一：钝击、力场、穿刺或挥砍。</p>\n<p><strong>光子调谐</strong>你的抗力可以是下列能量伤害类型之一：酸蚀、寒冷、电击、火焰或音波。</p>",
+      "new": "<p><strong>触发</strong>你将要被一次攻击，法术或其他效果伤害。</p>\n<p><strong>需求</strong>你能够意识到触发效果且没有措手不及。</p><hr /><p>你驾驭恒星光晕保护自身免受伤害。你获得等同于你等级一半（向上取整）的抗力，直到你的下个回合开始。你在使用此动作时，根据你当前的调谐状态选择抗力的类型。</p>\n<p>你只能在需求与触发满足时，以反应动作使用光晕结界，但你可以将其作为1动作行动使用，而无需满足需求与触发。</p>\n<p><strong>引力子调谐</strong>你的抗力可以是下列伤害类型之一：钝击、力场、穿刺或挥砍。</p>\n<p><strong>光量子调谐</strong>你的抗力可以是下列能量伤害类型之一：酸蚀、寒冷、电击、火焰或音波。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.feats.json",
+      "path": [
+        "entries",
+        "r5FD2LZ9kWOhDPby",
+        "description"
+      ],
+      "old": "<p><strong>触发</strong>你的恒星护盾在被举起时被摧毁。</p>\n<p><strong>需求</strong>你在最近10分钟内未使用黑洞或超新星。</p><hr /><p>你的恒星护盾自行坍缩。</p>\n<p><strong>引力子调谐</strong> 立即以自由动作使用@UUID[Compendium.sf2e-anachronism.feats.Item.51dFA09erqAeMt39]（如果你拥有黑洞专长）。</p>\n<p><strong>光子调谐</strong> 立即以自由动作使用@UUID[Compendium.sf2e-anachronism.feats.Item.71DtcZirJ9bbKMTY]（如果你拥有超新星专长）。</p>",
+      "new": "<p><strong>触发</strong>你的恒星护盾在被举起时被摧毁。</p>\n<p><strong>需求</strong>你在最近10分钟内未使用黑洞或超新星。</p><hr /><p>你的恒星护盾自行坍缩。</p>\n<p><strong>引力子调谐</strong> 立即以自由动作使用@UUID[Compendium.sf2e-anachronism.feats.Item.51dFA09erqAeMt39]（如果你拥有黑洞专长）。</p>\n<p><strong>光量子调谐</strong> 立即以自由动作使用@UUID[Compendium.sf2e-anachronism.feats.Item.71DtcZirJ9bbKMTY]（如果你拥有超新星专长）。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.feats.json",
+      "path": [
+        "entries",
+        "s3AFgP78spcJGBt0",
+        "description"
+      ],
+      "old": "<p>你在@Template[type:emanation|distance:10]内释放恒星能量构成的日冕，持续至你的下个回合结束。你可以维持日冕至多1分钟。如果你的调谐改变，日冕的调谐效果也随之改变。引力子调谐时，日冕具有黑暗特征。光子调谐时，日冕具有光亮特征。</p>\n<p><strong>引力子调谐</strong> 你的日冕是阻止光线穿透该区域的黑暗。其作用如同@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{黑暗术}法术，法术环级等于你等级的一半。</p>\n<p><strong>光子调谐</strong> 你的日冕是恒星光芒，在区域内提供明亮光照（以及更外20尺的昏暗光照）。在日冕的明亮光照内，@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}生物变为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，原本已隐蔽的生物则不再隐蔽。</p>",
+      "new": "<p>你在@Template[type:emanation|distance:10]内释放恒星能量构成的日冕，持续至你的下个回合结束。你可以维持日冕至多1分钟。如果你的调谐改变，日冕的调谐效果也随之改变。引力子调谐时，日冕具有黑暗特征。光量子调谐时，日冕具有光亮特征。</p>\n<p><strong>引力子调谐</strong> 你的日冕是阻止光线穿透该区域的黑暗。其作用如同@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{黑暗术}法术，法术环级等于你等级的一半。</p>\n<p><strong>光量子调谐</strong> 你的日冕是恒星光芒，在区域内提供明亮光照（以及更外20尺的昏暗光照）。在日冕的明亮光照内，@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}生物变为@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，原本已隐蔽的生物则不再隐蔽。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.feats.json",
+      "path": [
+        "entries",
+        "vrYm2kc7lnwE2Hqo",
+        "description"
+      ],
+      "old": "<p>你使用你的恒星武器攻击一个目标，并驾驭碰撞能量以光速攻击另一个敌人。使用你的恒星武器进行一次打击。命中时，你传送至多你速度的距离到一个不同生物触及范围内未被占据的方格，然后立即对其进行一次恒星武器打击。如果你初始的打击失手，你不会传送，且该动作结束。</p>\n<p><strong>引力子调谐</strong> 距离提高至你速度的两倍。</p>\n<p><strong>光子调谐</strong> 如果此动作包含的一次打击大成功，被命中的目标会@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，直到其下个回合结束。</p>",
+      "new": "<p>你使用你的恒星武器攻击一个目标，并驾驭碰撞能量以光速攻击另一个敌人。使用你的恒星武器进行一次打击。命中时，你传送至多你速度的距离到一个不同生物触及范围内未被占据的方格，然后立即对其进行一次恒星武器打击。如果你初始的打击失手，你不会传送，且该动作结束。</p>\n<p><strong>引力子调谐</strong> 距离提高至你速度的两倍。</p>\n<p><strong>光量子调谐</strong> 如果此动作包含的一次打击大成功，被命中的目标会@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，直到其下个回合结束。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.feats.json",
+      "path": [
+        "entries",
+        "xCeTKPGMrwK2tWKX",
+        "description"
+      ],
+      "old": "<p>你显现一把恒星武器的复制品，使其在涡旋中绕你盘旋，沿途留下星座图案。在与你相邻处开始回合的生物，会受到伤害，其数值与类型等同于你恒星武器的武器伤害，并以@Check[reflex|against:solarian|basic]豁免对抗你的职业DC。使用星座涡旋时，如果已有一个正在生效的涡旋，则改为向其中加入另一把武器，任何时候最多3把。每增加一把武器，涡旋伤害便提高1。你可以维持涡旋至多1分钟。</p>\n<p>涡旋结束时会碎裂，对所有相邻生物造成等于你等级的伤害，每把涡旋中的武器再加1。伤害类型与你的恒星武器相同。</p>\n<p><strong>引力子调谐</strong> 涡旋中的每把武器（包括第一把）使涡旋伤害提高2。</p>\n<p><strong>光子调谐</strong> 每把武器（包括第一把）增加@Damage[1[fire]]伤害。</p><hr /><p><strong>等级（+3）</strong> 每把额外武器带来的伤害提高2，调谐效果带来的额外伤害提高1。</p>",
+      "new": "<p>你显现一把恒星武器的复制品，使其在涡旋中绕你盘旋，沿途留下星座图案。在与你相邻处开始回合的生物，会受到伤害，其数值与类型等同于你恒星武器的武器伤害，并以@Check[reflex|against:solarian|basic]豁免对抗你的职业DC。使用星座涡旋时，如果已有一个正在生效的涡旋，则改为向其中加入另一把武器，任何时候最多3把。每增加一把武器，涡旋伤害便提高1。你可以维持涡旋至多1分钟。</p>\n<p>涡旋结束时会碎裂，对所有相邻生物造成等于你等级的伤害，每把涡旋中的武器再加1。伤害类型与你的恒星武器相同。</p>\n<p><strong>引力子调谐</strong> 涡旋中的每把武器（包括第一把）使涡旋伤害提高2。</p>\n<p><strong>光量子调谐</strong> 每把武器（包括第一把）增加@Damage[1[fire]]伤害。</p><hr /><p><strong>等级（+3）</strong> 每把额外武器带来的伤害提高2，调谐效果带来的额外伤害提高1。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.iconics.json",
+      "path": [
+        "entries",
+        "5ZlwxuRvhvl3Yguw",
+        "items",
+        16,
+        "description"
+      ],
+      "old": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光子场。直至你的下个回合开始，光子场外部的生物对光子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>",
+      "new": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光量子场。直至你的下个回合开始，光量子场外部的生物对光量子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.iconics.json",
+      "path": [
+        "entries",
+        "hRooHG2gQG745sdM",
+        "items",
+        16,
+        "description"
+      ],
+      "old": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光子场。直至你的下个回合开始，光子场外部的生物对光子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>",
+      "new": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光量子场。直至你的下个回合开始，光量子场外部的生物对光量子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.iconics.json",
+      "path": [
+        "entries",
+        "hRooHG2gQG745sdM",
+        "items",
+        26,
+        "name"
+      ],
+      "old": "+1武器威能水晶（恒星耀斑）",
+      "new": "+1武器潜能水晶（恒星耀斑）",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.iconics.json",
+      "path": [
+        "entries",
+        "hRooHG2gQG745sdM",
+        "items",
+        27,
+        "name"
+      ],
+      "old": "+1武器威能水晶（恒星武器）",
+      "new": "+1武器潜能水晶（恒星武器）",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.iconics.json",
+      "path": [
+        "entries",
+        "hRooHG2gQG745sdM",
+        "items",
+        29,
+        "description"
+      ],
+      "old": "<p><strong>触发</strong>你将要被一次攻击，法术或其他效果伤害。</p>\n<p><strong>需求</strong>你能够意识到触发效果且没有措手不及。</p><hr /><p>你驾驭恒星光晕保护自身免受伤害。你获得等同于你等级一半（向上取整）的抗力，直到你的下个回合开始。你在使用此动作时，根据你当前的调谐状态选择抗力的类型。</p>\n<p>你只能在需求与触发满足时，以反应动作使用光晕结界，但你可以将其作为1动作行动使用，而无需满足需求与触发。</p>\n<p><strong>引力子调谐</strong>你的抗力可以是下列伤害类型之一：钝击、力场、穿刺或挥砍。</p>\n<p><strong>光子调谐</strong>你的抗力可以是下列能量伤害类型之一：酸蚀、寒冷、电击、火焰或音波。</p>",
+      "new": "<p><strong>触发</strong>你将要被一次攻击，法术或其他效果伤害。</p>\n<p><strong>需求</strong>你能够意识到触发效果且没有措手不及。</p><hr /><p>你驾驭恒星光晕保护自身免受伤害。你获得等同于你等级一半（向上取整）的抗力，直到你的下个回合开始。你在使用此动作时，根据你当前的调谐状态选择抗力的类型。</p>\n<p>你只能在需求与触发满足时，以反应动作使用光晕结界，但你可以将其作为1动作行动使用，而无需满足需求与触发。</p>\n<p><strong>引力子调谐</strong>你的抗力可以是下列伤害类型之一：钝击、力场、穿刺或挥砍。</p>\n<p><strong>光量子调谐</strong>你的抗力可以是下列能量伤害类型之一：酸蚀、寒冷、电击、火焰或音波。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.iconics.json",
+      "path": [
+        "entries",
+        "p6mNgTqCRpyqfCJ5",
+        "items",
+        16,
+        "description"
+      ],
+      "old": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光子场。直至你的下个回合开始，光子场外部的生物对光子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>",
+      "new": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光量子场。直至你的下个回合开始，光量子场外部的生物对光量子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.iconics.json",
+      "path": [
+        "entries",
+        "uvlJLnGK22jqGbEO",
+        "items",
+        16,
+        "description"
+      ],
+      "old": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光子场。直至你的下个回合开始，光子场外部的生物对光子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>",
+      "new": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光量子场。直至你的下个回合开始，光量子场外部的生物对光量子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.iconics.json",
+      "path": [
+        "entries",
+        "uvlJLnGK22jqGbEO",
+        "items",
+        26,
+        "name"
+      ],
+      "old": "+1武器威能水晶（恒星耀斑）",
+      "new": "+1武器潜能水晶（恒星耀斑）",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.iconics.json",
+      "path": [
+        "entries",
+        "uvlJLnGK22jqGbEO",
+        "items",
+        27,
+        "name"
+      ],
+      "old": "+1武器威能水晶（恒星武器）",
+      "new": "+1武器潜能水晶（恒星武器）",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.iconics.json",
+      "path": [
+        "entries",
+        "uvlJLnGK22jqGbEO",
+        "items",
+        29,
+        "description"
+      ],
+      "old": "<p><strong>触发</strong>你将要被一次攻击，法术或其他效果伤害。</p>\n<p><strong>需求</strong>你能够意识到触发效果且没有措手不及。</p><hr /><p>你驾驭恒星光晕保护自身免受伤害。你获得等同于你等级一半（向上取整）的抗力，直到你的下个回合开始。你在使用此动作时，根据你当前的调谐状态选择抗力的类型。</p>\n<p>你只能在需求与触发满足时，以反应动作使用光晕结界，但你可以将其作为1动作行动使用，而无需满足需求与触发。</p>\n<p><strong>引力子调谐</strong>你的抗力可以是下列伤害类型之一：钝击、力场、穿刺或挥砍。</p>\n<p><strong>光子调谐</strong>你的抗力可以是下列能量伤害类型之一：酸蚀、寒冷、电击、火焰或音波。</p>",
+      "new": "<p><strong>触发</strong>你将要被一次攻击，法术或其他效果伤害。</p>\n<p><strong>需求</strong>你能够意识到触发效果且没有措手不及。</p><hr /><p>你驾驭恒星光晕保护自身免受伤害。你获得等同于你等级一半（向上取整）的抗力，直到你的下个回合开始。你在使用此动作时，根据你当前的调谐状态选择抗力的类型。</p>\n<p>你只能在需求与触发满足时，以反应动作使用光晕结界，但你可以将其作为1动作行动使用，而无需满足需求与触发。</p>\n<p><strong>引力子调谐</strong>你的抗力可以是下列伤害类型之一：钝击、力场、穿刺或挥砍。</p>\n<p><strong>光量子调谐</strong>你的抗力可以是下列能量伤害类型之一：酸蚀、寒冷、电击、火焰或音波。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.paizo-pregens.json",
+      "path": [
+        "entries",
+        "8RHRzMp1SvMlIyLF",
+        "items",
+        18,
+        "description"
+      ],
+      "old": "<p>你开发出一种新的恒星显象——一个环绕你旋转的星辰能量小护盾。该能量护盾具有调谐和恒星武士特征，不需要手来使用。你可以举起盾牌，在AC上获得+1环境加值，直到你的下个回合开始。你获得盾牌格挡通用专长。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.q5W7fV1wXvqBFxt8]</p>\n<p>当盾牌被举起时，你可以使用你的护盾来进行盾牌格挡反应动作。护盾具有5加上两倍你等级的生命值，以及等同于你等级一半的硬度，向上取整。你的护盾不会破损，如果它被摧毁，你在10分钟内无法再次显现一面新护盾。如果你的护盾因为你失去调谐而消失，那么当你使用调和重塑它时，护盾会以之前拥有的生命值回归。在每日准备期间或你休息至少10分钟时，护盾会恢复所有已损失生命值，即便其已被摧毁。</p>\n<p><strong>引力子调谐</strong>如果你的盾牌被摧毁，它会释放一道冲击波。相邻敌人必须成功通过@Check[fortitude|against:solarian]豁免，对抗你的职业DC，否则@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]1轮（大失败则为2轮）。</p>\n<p><strong>光子调谐</strong>如果你的盾牌被摧毁，它会释放一道闪光。相邻敌人必须成功通过@Check[fortitude|against:solarian]豁免，对抗你的职业DC，否则@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮（大失败则@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}1轮）。</p>",
+      "new": "<p>你开发出一种新的恒星显象——一个环绕你旋转的星辰能量小护盾。该能量护盾具有调谐和恒星武士特征，不需要手来使用。你可以举起盾牌，在AC上获得+1环境加值，直到你的下个回合开始。你获得盾牌格挡通用专长。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.q5W7fV1wXvqBFxt8]</p>\n<p>当盾牌被举起时，你可以使用你的护盾来进行盾牌格挡反应动作。护盾具有5加上两倍你等级的生命值，以及等同于你等级一半的硬度，向上取整。你的护盾不会破损，如果它被摧毁，你在10分钟内无法再次显现一面新护盾。如果你的护盾因为你失去调谐而消失，那么当你使用调和重塑它时，护盾会以之前拥有的生命值回归。在每日准备期间或你休息至少10分钟时，护盾会恢复所有已损失生命值，即便其已被摧毁。</p>\n<p><strong>引力子调谐</strong>如果你的盾牌被摧毁，它会释放一道冲击波。相邻敌人必须成功通过@Check[fortitude|against:solarian]豁免，对抗你的职业DC，否则@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]1轮（大失败则为2轮）。</p>\n<p><strong>光量子调谐</strong>如果你的盾牌被摧毁，它会释放一道闪光。相邻敌人必须成功通过@Check[fortitude|against:solarian]豁免，对抗你的职业DC，否则@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮（大失败则@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}1轮）。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.paizo-pregens.json",
+      "path": [
+        "entries",
+        "QcLTW72prcBrjXeu",
+        "items",
+        24,
+        "description"
+      ],
+      "old": "<p>你开发出一种新的恒星显象——一个环绕你旋转的星辰能量小护盾。该能量护盾具有调谐和恒星武士特征，不需要手来使用。你可以举起盾牌，在AC上获得+1环境加值，直到你的下个回合开始。你获得盾牌格挡通用专长。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.q5W7fV1wXvqBFxt8]</p>\n<p>当盾牌被举起时，你可以使用你的护盾来进行盾牌格挡反应动作。护盾具有5加上两倍你等级的生命值，以及等同于你等级一半的硬度，向上取整。你的护盾不会破损，如果它被摧毁，你在10分钟内无法再次显现一面新护盾。如果你的护盾因为你失去调谐而消失，那么当你使用调和重塑它时，护盾会以之前拥有的生命值回归。在每日准备期间或你休息至少10分钟时，护盾会恢复所有已损失生命值，即便其已被摧毁。</p>\n<p><strong>引力子调谐</strong>如果你的盾牌被摧毁，它会释放一道冲击波。相邻敌人必须成功通过@Check[fortitude|against:solarian]豁免，对抗你的职业DC，否则@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]1轮（大失败则为2轮）。</p>\n<p><strong>光子调谐</strong>如果你的盾牌被摧毁，它会释放一道闪光。相邻敌人必须成功通过@Check[fortitude|against:solarian]豁免，对抗你的职业DC，否则@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮（大失败则@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}1轮）。</p>",
+      "new": "<p>你开发出一种新的恒星显象——一个环绕你旋转的星辰能量小护盾。该能量护盾具有调谐和恒星武士特征，不需要手来使用。你可以举起盾牌，在AC上获得+1环境加值，直到你的下个回合开始。你获得盾牌格挡通用专长。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.q5W7fV1wXvqBFxt8]</p>\n<p>当盾牌被举起时，你可以使用你的护盾来进行盾牌格挡反应动作。护盾具有5加上两倍你等级的生命值，以及等同于你等级一半的硬度，向上取整。你的护盾不会破损，如果它被摧毁，你在10分钟内无法再次显现一面新护盾。如果你的护盾因为你失去调谐而消失，那么当你使用调和重塑它时，护盾会以之前拥有的生命值回归。在每日准备期间或你休息至少10分钟时，护盾会恢复所有已损失生命值，即便其已被摧毁。</p>\n<p><strong>引力子调谐</strong>如果你的盾牌被摧毁，它会释放一道冲击波。相邻敌人必须成功通过@Check[fortitude|against:solarian]豁免，对抗你的职业DC，否则@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]1轮（大失败则为2轮）。</p>\n<p><strong>光量子调谐</strong>如果你的盾牌被摧毁，它会释放一道闪光。相邻敌人必须成功通过@Check[fortitude|against:solarian]豁免，对抗你的职业DC，否则@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮（大失败则@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}1轮）。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.paizo-pregens.json",
+      "path": [
+        "entries",
+        "QcLTW72prcBrjXeu",
+        "items",
+        28,
+        "description"
+      ],
+      "old": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光子场。直至你的下个回合开始，光子场外部的生物对光子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>",
+      "new": "<p>你在星辰能量的加持下冲刺向前，轻而易举地深入战场的中心。行走两次。在此次移动期间，你的速度获得+10尺环境加值。</p>\n<p><strong>引力子调谐</strong>当你完成行走时，你15尺内的敌人必须尝试一次@Check[fortitude|against:solarian|options:area-effect,forced-movement]以对抗你的职业DC。失败时，敌人会被直线拉向你，直至其到达与你相邻范围内的一个方格（如果可能的话）。你可以选择敌人被拉向你的先后顺序。</p>\n<p><strong>光量子调谐</strong>当你完成行走时，你在以自身为中心的@Template[type:burst|distance:15]创造一个光量子场。直至你的下个回合开始，光量子场外部的生物对光量子场内的生物视作@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]。</p>",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.tales-from-the-vast-bestiary.json",
+      "path": [
+        "entries",
+        "fu3Dex1YlMmZL8oE",
+        "items",
+        16,
+        "name"
+      ],
+      "old": "+1武器威能水晶（恒星耀斑）",
+      "new": "+1武器潜能水晶（恒星耀斑）",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    },
+    {
+      "file": "sf2e-anachronism.tales-from-the-vast-bestiary.json",
+      "path": [
+        "entries",
+        "ppXLVjsdWMYW5UeG",
+        "items",
+        8,
+        "name"
+      ],
+      "old": "+1武器威能水晶（恒星耀斑）",
+      "new": "+1武器潜能水晶（恒星耀斑）",
+      "review": {
+        "firstEnglishComparison": true,
+        "secondEnglishComparison": true,
+        "independentChineseRead": true
+      }
+    }
+  ],
+  "liveFoundryTestedThisRound": false,
+  "validation": {
+    "materializedDisplayFieldsChanged": 34,
+    "runtimeScriptsByteIdentical": true,
+    "allOtherMaterializedDataByteEquivalent": true,
+    "idsRulesPredicatesFormulasAndNumbersUnchanged": true,
+    "orderedMacroBodiesAndHtmlUnchanged": true,
+    "nativeBabeleObjectsChecked": 5616,
+    "originalTextIdentityAndReorderGuardsPassed": true,
+    "ChineseAndEnglishSearchPassed": true
+  },
+  "review": {
+    "uniqueSourceTargetUnits": 22,
+    "firstEnglishComparison": true,
+    "secondEnglishComparison": true,
+    "independentChineseRead": true,
+    "note": "依序复核本次名称、术语及所在句；同英文同译文副本按身份匹配确认，不扩大为未改正文全面校对。"
+  }
+}
