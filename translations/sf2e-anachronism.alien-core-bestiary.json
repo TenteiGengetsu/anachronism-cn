@@ -4653,7 +4653,7 @@
         {
           "id": "OW9G0TOPz0LZ4uxV",
           "expectedName": "Hardlight Series",
-          "name": "硬光套装",
+          "name": "实光套装",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>A projector fastened to a belt or lapel encases the wearer's body in this shimmering hardlight shell. Military-issue hardlight armor follows a predictable standard, but private users enjoy a range of customizable fashion options.</p>",
           "description": "<p><strong>强化：</strong> 1</p><hr /><p>固定在腰带或翻领上的投影器，用这层闪耀的硬光外壳包裹穿戴者的身体。军用制式硬光护甲遵循固定标准，而私人用户则能享用一系列可定制的时尚款式。</p>"
         },
@@ -13791,7 +13791,7 @@
           "expectedName": "Enhance Weapon",
           "name": "强化武器",
           "expectedDescription": "<p>You infuse the weapon with magic allowing it to safely operate beyond its normal parameters. If the target is a commercial or tactical weapon, it becomes an advanced weapon, gaining a +1 item bonus to attack rolls and increasing the number of weapon damage dice to two.</p><hr /><p><strong>Heightened (6th)</strong> If the target is a commercial, tactical, advanced, or superior weapon, it becomes an elite weapon, gaining a +2 item bonus to attack rolls and increasing the number of weapon damage dice to three.</p>\n<p><strong>Heightened (9th)</strong> The target becomes a paragon weapon, gaining a +3 to item bonus to attack rolls and increasing the number of weapon damage dice to four.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.yopd0S7smKU5eB07]</p>",
-          "description": "<p>你将魔力灌注至武器中，使其能安全突破常规运作极限。如果目标是商用型或战术型武器，它变为先进型武器，在攻击骰上获得+1物品价值，并且伤害骰增加到2个。</p><hr /><p><strong>升阶（6环）</strong>如果目标是商用型、战术型、先进型或卓越型武器，它变为菁英型武器，攻击掷骰获得+2物品加值，武器伤害骰数量增加至三个。</p>\n<p><strong>升阶（9环）</strong>目标变为完美型武器，攻击掷骰获得+3物品加值，武器伤害骰数量增加至四个。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.yopd0S7smKU5eB07]</p>"
+          "description": "<p>你将魔力灌注至武器中，使其能安全突破常规运作极限。如果目标是商用型或战术型武器，它变为先进型武器，在攻击骰上获得+1物品价值，并且伤害骰增加到2个。</p><hr /><p><strong>升阶（6环）</strong>如果目标是商用型、战术型、先进型或卓越型武器，它变为精英型武器，攻击掷骰获得+2物品加值，武器伤害骰数量增加至三个。</p>\n<p><strong>升阶（9环）</strong>目标变为完美型武器，攻击掷骰获得+3物品加值，武器伤害骰数量增加至四个。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.yopd0S7smKU5eB07]</p>"
         },
         {
           "id": "bGqOWjoTbnaKf9tp",

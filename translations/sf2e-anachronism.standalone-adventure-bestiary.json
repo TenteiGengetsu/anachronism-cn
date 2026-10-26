@@ -566,7 +566,7 @@
         {
           "id": "jnWsuuJyg6seZKQx",
           "expectedName": "Hardlight Handwraps (Tactical)",
-          "name": "战术型硬光缠手带",
+          "name": "战术型实光缠手带",
           "description": "<p><strong>强化模块</strong> 1</p><hr /><p>这些缠手带可以定制为在使用时发出可见光谱中的任意颜色，一些制造商还提供定制固件，使其外观变为爪、巨拳或锤头。它们甚至可以用其他方式穿戴在身体别的部位。这些缠手带会如同强化人造武器一样强化你的无武装攻击，让你能为无武装攻击添加一个强化模块。为此目的，将缠手带视为负载为轻的搏击武器组近战武器。</p>\n<p>你的无武装攻击获得追踪+1特征。</p>",
           "expectedDescription": "<p><strong>Upgrades</strong> 1</p><hr /><p>These handwraps can be customized to shine in any color in the visible spectrum when used, and some manufacturers offer custom firmware that modifies their appearance to manifest as a claw, oversized fist, or hammerhead. They can even be worn in alternate ways on other parts of the body. These handwraps enhance your unarmed attacks as if they were manufactured weapons, allowing you to add an upgrade to your unarmed attacks. Treat the handwraps as melee weapons in the brawling group with light Bulk for these purposes.</p>\n<p>Your unarmed attacks gain the tracking +1 trait.</p>"
         },

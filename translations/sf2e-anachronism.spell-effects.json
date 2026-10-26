@@ -107,7 +107,7 @@
     },
     "yopd0S7smKU5eB07": {
       "name": "法术效果: 强化武器 Spell Effect: Enhance Weapon",
-      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.ahXTkKpQtOTAQOFm]赋予</p>\n<p>目标武器变为先进型武器，攻击检定获得+1物品加值，武器伤害骰数量增加至两个。</p><hr /><p><strong>升阶（6环）</strong> 如果目标是商用型、战术型、先进型或卓越型武器，则变为菁英型武器，攻击检定获得+2物品加值，武器伤害骰数量增加至三个。</p>\n<p><strong>升阶（9环）</strong> 目标变为完美型武器，攻击检定获得+3物品加值，武器伤害骰数量增加至四个。</p>"
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.spells.Item.ahXTkKpQtOTAQOFm]赋予</p>\n<p>目标武器变为先进型武器，攻击检定获得+1物品加值，武器伤害骰数量增加至两个。</p><hr /><p><strong>升阶（6环）</strong> 如果目标是商用型、战术型、先进型或卓越型武器，则变为精英型武器，攻击检定获得+2物品加值，武器伤害骰数量增加至三个。</p>\n<p><strong>升阶（9环）</strong> 目标变为完美型武器，攻击检定获得+3物品加值，武器伤害骰数量增加至四个。</p>"
     },
     "zzOekbiIKePQDQKy": {
       "name": "法术效果: 超载武器 Spell Effect: Supercharge Weapon",

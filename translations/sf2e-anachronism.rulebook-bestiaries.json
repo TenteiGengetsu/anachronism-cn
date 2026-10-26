@@ -2741,7 +2741,7 @@
         {
           "id": "E9v874yIX5cKlbgp",
           "expectedName": "Chem Tank (Tactical)",
-          "name": "战术型化学储罐"
+          "name": "战术型化学罐"
         },
         {
           "id": "Uwt7HOdah5mGlLod",
@@ -5044,7 +5044,7 @@
       }
     },
     "SBKIdzyEghJyQfgr": {
-      "name": "失控自动驾驶仪 Haywire Autopilot",
+      "name": "失控自动驾驶 Haywire Autopilot",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -5068,7 +5068,7 @@
       },
       "cnText_prototypeToken_name": {
         "expected": "Haywire Autopilot",
-        "text": "失控自动驾驶仪"
+        "text": "失控自动驾驶"
       },
       "cnText_system_attributes_stealth_details": {
         "expected": "<p>(expert)</p>",

@@ -915,7 +915,7 @@
         {
           "id": "3BHgdKTOvJdklGj3",
           "expectedName": "Chem Tank (Commercial)",
-          "name": "商用型化学储罐"
+          "name": "商用型化学罐"
         }
       ],
       "name": "冰冻宝库野外科学家 Frozen Trove Field Scientist",
@@ -929,7 +929,7 @@
         {
           "id": "8LATEmuvePYpn6lh",
           "expectedName": "Hardlight Handwraps (Advanced)",
-          "name": "先进型硬光缠手带",
+          "name": "先进型实光缠手带",
           "expectedDescription": "<p><strong>Upgrades</strong> 2</p><hr /><p>These handwraps can be customized to shine in any color in the visible spectrum when used, and some manufacturers offer custom firmware that modifies their appearance to manifest as a claw, oversized fist, or hammerhead. They can even be worn in alternate ways on other parts of the body. These handwraps enhance your unarmed attacks as if they were manufactured weapons, allowing you to add an upgrade to your unarmed attacks. Treat the handwraps as melee weapons in the brawling group with light Bulk for these purposes.</p>\n<p>Your unarmed attacks gain the tracking +1 trait and increase the damage to two dice.</p>",
           "description": "<p><strong>强化模块</strong> 2</p><hr /><p>这些缠手带可以定制为在使用时发出可见光谱中的任意颜色，一些制造商还提供定制固件，使其外观变为爪、巨拳或锤头。它们甚至可以用其他方式穿戴在身体别的部位。这些缠手带会如同强化人造武器一样强化你的无武装攻击，让你能为无武装攻击添加一个强化模块。为此目的，将缠手带视为负载为轻的搏击武器组近战武器。</p>\n<p>你的无武装攻击获得追踪+1特征，伤害提高至两颗伤害骰。</p>"
         },
@@ -1140,7 +1140,7 @@
           "expectedName": "Elemental Weapon",
           "name": "元素武器",
           "expectedDescription": "<p>You create an advanced, martial, or simple weapon out of elemental energy that materializes in the hands of a bonded creature. Select an elemental trait for the created weapon: air, earth, fire, metal, water, or wood. The weapon is tactical grade and comes fully charged and loaded with basic ammunition. It cannot be made of any special materials.</p>\n<p>The weapon has one fewer upgrade slot but can be upgraded with any upgrades you hold in your hands as a locus when casting this spell, which become inert until the spell ends. The weapon deals damage as normal plus 1d4 additional damage based on the chosen trait: electricity for air, bludgeoning for earth, fire for fire, acid for metal, cold for water, or poison for wood.</p><hr /><p><strong>Heightened (2nd)</strong> You can create an advanced weapon.</p>\n<p><strong>Heightened (5th)</strong> You can create a superior weapon.</p>\n<p><strong>Heightened (6th)</strong> You can create an elite weapon.</p>\n<p><strong>Heightened (8th)</strong> You can create an ultimate weapon.</p>\n<p><strong>Heightened (9th)</strong> You can create a paragon weapon.</p>",
-          "description": "<p>你用元素能量制造出一件进阶、军用或简易武器，并将其实体化于一名结绊生物的手中。为制造的武器选择一个元素特征：气、土、火、金、水或木。该武器是一件战术型装备，并且已经完全充能并装填有基础弹药。它不能由任何特殊材料制成。</p>\n<p>该武器的强化槽位比通常少一个，但可以用你在施放该法术时手中持握的强化模块进行强化，你将强化模块用作施法载体，这些强化模块在法术结束前变为惰性。武器在造成正常伤害以外，还会额外造成1d4基于所选特征的伤害：气为电击，土为钝击，火为火焰，金为酸蚀，水为寒冷，木为毒素。</p><hr /><p><strong>升阶（2环）</strong>你可以制造先进型武器。</p>\n<p><strong>升阶（5环）</strong>你可以制造卓越型武器。</p>\n<p><strong>升阶（6环）</strong>你可以制造菁英型武器。</p>\n<p><strong>升阶（8环）</strong>你可以制造终极型武器。</p>\n<p><strong>升阶（9环）</strong>你可以制造完美型武器。</p>"
+          "description": "<p>你用元素能量制造出一件进阶、军用或简易武器，并将其实体化于一名结绊生物的手中。为制造的武器选择一个元素特征：气、土、火、金、水或木。该武器是一件战术型装备，并且已经完全充能并装填有基础弹药。它不能由任何特殊材料制成。</p>\n<p>该武器的强化槽位比通常少一个，但可以用你在施放该法术时手中持握的强化模块进行强化，你将强化模块用作施法载体，这些强化模块在法术结束前变为惰性。武器在造成正常伤害以外，还会额外造成1d4基于所选特征的伤害：气为电击，土为钝击，火为火焰，金为酸蚀，水为寒冷，木为毒素。</p><hr /><p><strong>升阶（2环）</strong>你可以制造先进型武器。</p>\n<p><strong>升阶（5环）</strong>你可以制造卓越型武器。</p>\n<p><strong>升阶（6环）</strong>你可以制造精英型武器。</p>\n<p><strong>升阶（8环）</strong>你可以制造终极型武器。</p>\n<p><strong>升阶（9环）</strong>你可以制造完美型武器。</p>"
         },
         {
           "id": "XumK1TK55d7vNXo0",
@@ -1603,7 +1603,7 @@
         {
           "id": "FigCHmNiTyzuwxqD",
           "expectedName": "Chem Tank (Commercial)",
-          "name": "商用型化学储罐"
+          "name": "商用型化学罐"
         },
         {
           "id": "kgzdV0BoX6UMmtmH",
@@ -1903,7 +1903,7 @@
         {
           "id": "svJL32cVgOOq6ilZ",
           "expectedName": "Hardlight Series",
-          "name": "硬光套装",
+          "name": "实光套装",
           "description": "<p><strong>强化：</strong> 1</p><hr /><p>固定在腰带或翻领上的投影器，用这层闪耀的硬光外壳包裹穿戴者的身体。军用制式硬光护甲遵循固定标准，而私人用户则能享用一系列可定制的时尚款式。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>A projector fastened to a belt or lapel encases the wearer's body in this shimmering hardlight shell. Military-issue hardlight armor follows a predictable standard, but private users enjoy a range of customizable fashion options.</p>"
         },
@@ -4158,7 +4158,7 @@
         {
           "id": "S1Mvd1AVftLPP6bV",
           "expectedName": "Chem Tank (Commercial)",
-          "name": "商用型化学储罐"
+          "name": "商用型化学罐"
         },
         {
           "id": "NBAppLw402Zrow3X",

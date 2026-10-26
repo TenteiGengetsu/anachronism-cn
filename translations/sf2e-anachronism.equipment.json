@@ -31,7 +31,7 @@
   },
   "entries": {
     "05fb97mQM2HkKCxD": {
-      "name": "菁英型骨化手雷 Ossifying Grenade (Elite)",
+      "name": "精英型骨化手雷 Ossifying Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}，持续1分钟</p><hr /><p>这种手雷由伊奥克斯海军发明，其设计后来被早期尸骸舰队窃取。爆炸时，手雷迅速释放钙化剂，将活体血肉转化为骨骼，造成10d8虚能伤害。以下范围内的活物： @Template[burst|distance:15] 必须尝试一次基础反射豁免。如果你可以使用手雷的重击专精效果，豁免大失败的生物会陷入笨拙。</p>"
     },
     "0Hdg9aWMIYVGjvj0": {
@@ -63,7 +63,7 @@
       "description": "<p>太阳镜让任何人都显得更酷。</p>"
     },
     "0fCtNDWpCpuR0AtI": {
-      "name": "菁英型内爆手雷 Implosion grenade (Elite)",
+      "name": "精英型内爆手雷 Implosion grenade (Elite)",
       "description": "<p>启动<span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1d6[bleed]]</p><hr /><p>内爆手雷利用吞噬者（Devourer）的一小部分力量，产生留下血淋淋伤口的内爆。手雷爆炸时造成10d8点钝击伤害，范围为 @Template[type:burst|distance:15] 并进行 @Check[reflex|against:class|basic] 豁免。</p>"
     },
     "0fZ9jBVvpljgAZC8": {
@@ -187,7 +187,7 @@
       "description": "<p><strong>强化：</strong> 0</p><hr /><p>这套骇人的骸骨护甲垂挂着电线和生物科技网织材料，通常还配有时髦的披风。多年来，伊奥克斯（Eox）的国家元首和骨贤者们穿戴骨罩护甲（bonecowl armor），既能为政治集会增添戏剧性，也能保护自己免遭刺客袭击。</p>"
     },
     "2dVw2sMcrrw8GBDB": {
-      "name": "菁英型纤丝网 Filament Mesh (Elite)",
+      "name": "精英型纤丝网 Filament Mesh (Elite)",
       "description": "<p>以塔什塔里兽（tashtari）毛发制成的细丝网络植入你的皮肤下，使你能够吸收和释放太阳辐射。在明亮光照下，细丝网会在你的皮肤下呈现为隐约可见的反光纹路。如果你至少有4小时处于明亮光照或直射阳光下，且这些时间位于过去24小时内，你的细丝网便会充能。如果你的皮肤完全被防护装备覆盖，细丝网就无法吸收或释放光线；不过，你可以调整护甲或衣物以适配此殖装，无需额外费用。</p><hr /><p><strong>启动—日光闪耀</strong> <span class=\"action-glyph\">2</span> （视觉）</p>\n<p><strong>需求</strong> 你的纤维网已充能</p>\n<p><strong>效果</strong> 你释放纤维网中储存的太阳能，产生强烈闪光。位于以下区域内的生物： @Template[type:emanation|distance:20] 必须成功通过 @Check[fortitude|dc:41] 豁免，否则会 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲} 和 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩} 持续2轮。</p>"
     },
     "2gIo208O7zxPTL5J": {
@@ -236,7 +236,7 @@
     },
     "3pptlSCHkO6d1NeU": {
       "name": "战术型灭火器 Fire Extinguisher (Tactical)",
-      "description": "<p>灭火器喷出泡沫，范围为 @Template[type:cone|distance:15]，自动扑灭非魔法火焰，并尝试以4环反制所有魔法火焰效果，使用以下反制调整值： [[/r 1d20+14 #Counteract]]{+14}。灭火器每次使用消耗1份化学制剂，所用化学储罐的品质至多为战术型。</p>"
+      "description": "<p>灭火器喷出泡沫，范围为 @Template[type:cone|distance:15]，自动扑灭非魔法火焰，并尝试以4环反制所有魔法火焰效果，使用以下反制调整值： [[/r 1d20+14 #Counteract]]{+14}。灭火器每次使用消耗1份化学制剂，所用化学罐的品质至多为战术型。</p>"
     },
     "3sTFk0Qxt656QpuU": {
       "name": "卓越型下挂式榴弹发射器 Undermounted Grenade Launcher (Superior)",
@@ -319,7 +319,7 @@
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>医疗贴加速身体的自然愈合。你恢复 @Damage[(5d6+12)[healing]] 生命值，并在对抗疾病和毒素的豁免中获得+2物品加值，持续10分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.VKSOvJQMwUby4fba]</p>"
     },
     "58dqj75KPYcyrQIb": {
-      "name": "菁英型死灵皮层 Necrocortex (Elite)",
+      "name": "精英型死灵皮层 Necrocortex (Elite)",
       "description": "<p>你的大脑被死灵能量和部分坏死组织强化，使你更擅长与仆从交流并控制它们，尤其是不死仆从。这些殖装附有多层防护魔法，避免使用者像不死生物一样遭到控制，不过制造商总会迅速声明，迄今尚无此类情况的已证实案例。对你召唤或永久控制的不死仆从发出命令时，如果你能看见它或正在共享它的感官，就可以通过心灵感应发出命令；此时，命令失去听觉特征。</p>\n<p><strong>启动—感官投射</strong> <span class=\"action-glyph\">2</span> （专注）你将感官投射至同一星系内一个具有仆从特征的不死生物。目标必须是由你召唤或永久控制的生物。投射感官期间，你可以看见并听见不死仆从所感知的事物，但无法听见、看见、闻到或尝到自己身体经历的事物，触觉和痛觉则依然保留。你可以用一个单动作将感官移回自己的身体。</p>\n<p>此外，你可以将死灵皮层与5个自愿的不死生物绑定（需要专注1小时），从而能如同控制该生物一样，对其使用感官投射。</p>"
     },
     "5GeONzHSxmn3uvtw": {
@@ -480,19 +480,19 @@
     },
     "7WmbBICS2aEV4a6s": {
       "name": "感官增幅套装 Sensory Amplification Suit",
-      "description": "<p><strong>强化：</strong> 1</p><hr /><p>大多数护甲为了更强的防护而削弱感官，但某些任务既需要出色的感知能力，也需要免受伤害。这套装甲束具配有完整的感官设备组，尤其受间谍和斥候欢迎。感官增幅服始终装有 @UUID[Compendium.sf2e-anachronism.equipment.Item.55elqx7N7Upze3lR]{商用型全频谱传感器组} ，无需额外费用，且不占用强化槽。</p>",
+      "description": "<p><strong>强化：</strong> 1</p><hr /><p>大多数护甲为了更强的防护而削弱感官，但某些任务既需要出色的感知能力，也需要免受伤害。这套装甲束具配有完整的感官设备组，尤其受间谍和斥候欢迎。感官增幅服始终装有 @UUID[Compendium.sf2e-anachronism.equipment.Item.55elqx7N7Upze3lR]{商用型全光谱传感器套件} ，无需额外费用，且不占用强化槽。</p>",
       "subitems": [
         {
           "id": "Cz96YepLaJsXvZlh",
           "expectedName": "Full-Spectrum Sensor Suite (Commercial)",
-          "name": "商用型全频谱传感器组 Full-Spectrum Sensor Suite (Commercial)",
+          "name": "商用型全光谱传感器套件 Full-Spectrum Sensor Suite (Commercial)",
           "expectedDescription": "<p>This set of sensors use a helmet-mounted, heads-up display to provide detailed information about your surroundings.</p>\n<p><strong>Activate—Scan</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain tremorsense as an imprecise sense with a range of 30 feet for 10 minutes.</p>",
           "description": "<p>这组传感器通过安装在头盔上的抬头显示器，提供周围环境的详细信息。</p>\n<p><strong>启动—扫描</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得30尺范围的震颤感知作为模糊感官，持续10分钟。</p>"
         }
       ]
     },
     "7YWd7JZA47NMkrKH": {
-      "name": "菁英型突击公文包 Assault Briefcase (Elite)",
+      "name": "精英型突击公文包 Assault Briefcase (Elite)",
       "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>你可以在突击公文包中安装一件不超过1负载的单手远程武器。你在@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]安装在突击公文包中武器的隐秘检定和DC上获得+2物品加值（如果武器拥有易藏特征则为+4）。你可以用一个交互动作来部署已安装的武器，让你在持握公文包时能以单手持用它。</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
     },
     "7aGluzZ4bjfXbygG": {
@@ -565,7 +565,7 @@
     },
     "8CgzoVKwSX9TiAaM": {
       "name": "先进型灭火器 Fire Extinguisher (Advanced)",
-      "description": "<p>灭火器喷出泡沫，范围为 @Template[type:cone|distance:15]，自动扑灭非魔法火焰，并尝试以6环反制所有魔法火焰效果，使用以下反制调整值： [[/r 1d20+19 #Counteract]]{+19}。灭火器每次使用消耗1份化学制剂，所用化学储罐的品质至多为先进型。</p>"
+      "description": "<p>灭火器喷出泡沫，范围为 @Template[type:cone|distance:15]，自动扑灭非魔法火焰，并尝试以6环反制所有魔法火焰效果，使用以下反制调整值： [[/r 1d20+19 #Counteract]]{+19}。灭火器每次使用消耗1份化学制剂，所用化学罐的品质至多为先进型。</p>"
     },
     "8KG8cSg4tDinndlN": {
       "name": "卓越型食尸鬼胃 Ghoul Stomach (Superior)",
@@ -692,7 +692,7 @@
       "description": "<p>坚硬的甲片保护你的皮肤，帮助你偏转物理打击。具有真皮镀层的肢体可以作为盾牌使用。你可以用该肢体举盾，获得+1AC环境加值，直到你的下个回合开始，而且使用它不需要占用手。你可以用该肢体使用盾牌格挡反应动作。真皮镀层具有硬度30。使用盾牌格挡后，你的真皮镀层会受损，在纳米机器人修复这些坚固甲片的24小时内无法使用。</p>"
     },
     "AuVmRnuuo6gQbIQM": {
-      "name": "菁英型虫群酸液移植 Swarm Acid Splice (Elite)",
+      "name": "精英型虫群酸液移植 Swarm Acid Splice (Elite)",
       "description": "<p>这个腺体能让你吐出许多虫群物种武器化的酸液，但并不能保护你免受喷吐物的伤害。</p>\n<p><strong>启动—酸液喷吐</strong> <span class=\"action-glyph\">A</span> （操作）</p>\n<p><strong>需求</strong> 你没有恶心</p>\n<p><strong>频率</strong>每10分钟一次</p><hr /><p><strong>效果</strong> 以下区域内的每个生物： @Template[type:cone|distance:15] 受到 @Damage[8d8[acid]|options:area-damage] 伤害，并进行 @Check[reflex|dc:34|basic|options:area-effect] 豁免。你受到 @Damage[8[acid]] 伤害并陷入 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}.</p>"
     },
     "AupC6W7aSI3Sszg7": {
@@ -732,8 +732,8 @@
       "description": "<p>这件带兜帽的罩衣会在穿戴者身体上投下一片微小的遮蔽阴影，其采用的光学编织工艺会在特定角度下闪烁并变换色调。至多L负载的物品，在收纳于罩衣内或穿在罩衣下时，获得易藏特征。穿戴者可通过交互动作拉起或放下兜帽，遮住头部和面部能隐藏身份。</p>"
     },
     "BkV5PnZNfccQ7VNU": {
-      "name": "菁英型快充手 Quick-Charge Hand (Elite)",
-      "description": "<p>你的指尖表面编织有电容垫，能在一整天中积聚并储存电荷，让你快速地为其他电池和设备无线充电。</p>\n<p><strong>启动—快速电磁场充能</strong> <span class=\"action-glyph\">f</span></p>\n<p><strong>频率</strong> 每天三次</p>\n<p><strong>需求</strong> 你正接触、持握或持用菁英型或更低品质的电池，或装有这种电池的物品</p><hr /><p><strong>效果</strong> 你将所需电池完全充满。</p>"
+      "name": "精英型快充手 Quick-Charge Hand (Elite)",
+      "description": "<p>你的指尖表面编织有电容垫，能在一整天中积聚并储存电荷，让你快速地为其他电池和设备无线充电。</p>\n<p><strong>启动—快速电磁场充能</strong> <span class=\"action-glyph\">f</span></p>\n<p><strong>频率</strong> 每天三次</p>\n<p><strong>需求</strong> 你正接触、持握或持用精英型或更低品质的电池，或装有这种电池的物品</p><hr /><p><strong>效果</strong> 你将所需电池完全充满。</p>"
     },
     "BkuST2BKPUKvAqLe": {
       "name": "商用型虫群酸液移植 Swarm Acid Splice (Commercial)",
@@ -856,8 +856,8 @@
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>击退5尺</p><hr /><p>这类手雷点燃化学物质，引发炽热的爆炸，造成1d8点火焰伤害，并进行 @Check[reflex|against:class|basic] 豁免（@Template[burst|distance:5]）。如果你可以使用手雷的重击专精效果，对抗燃烧手雷的豁免检定大失败的生物会被推离手雷。</p>"
     },
     "EjjBj2kwhHxVisqR": {
-      "name": "菁英型锁 Lock (Elite)",
-      "description": "<p>撬开菁英型锁需要六次成功的 [[/act pick-a-lock dc=40]]{DC 40贼活} 检定。</p>"
+      "name": "精英型锁 Lock (Elite)",
+      "description": "<p>撬开精英型锁需要六次成功的 [[/act pick-a-lock dc=40]]{DC 40贼活} 检定。</p>"
     },
     "ElDjApS0gmItATq4": {
       "name": "天火护甲 Skyfire Armor",
@@ -1037,7 +1037,7 @@
       "description": "<p>这枚虹彩蛋始终模糊不清，还叠有两道残影，看着令人失去方向感。该 <em>三元蛋</em> 蕴含着一种并不存在于此现实的能量，但它与生和死共同构成三元体系。这种能量取自三元体系构成自然秩序的另一个现实，而 <em>三元蛋</em> 能产生魔法共鸣，让施法者能够利用 <em>三元蛋的</em> 力量，平衡生死之间的力量。</p>\n<p><strong>启动—三元共振</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 若你的下一个动作是施放具有命能或虚能特征、造成伤害或恢复生命值的法术，该 <em>三元蛋</em> 与该法术共鸣，平衡生死之间的天平。若法术造成伤害，该 <em>三元蛋</em> 为你恢复等于法术环阶两倍的生命值。若该法术恢复生命值，选择30尺内一个目标。该 <em>三元蛋</em> 对目标造成等于法术环阶的持续力场伤害。裂纹出现在 <em>三元蛋的</em> 表面。</p>"
     },
     "IOiDCepKBcAvTUml": {
-      "name": "菁英型快干泡沫手雷 Stickybomb Grenade (Elite)",
+      "name": "精英型快干泡沫手雷 Stickybomb Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放迅速膨胀的泡沫，黏在生物身上，阻止其移动。@Template[burst|distance:25]内的生物若@Check[reflex|against:class]豁免失败，便会陷入@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}，持续1分钟，届时泡沫干燥；若生物在此之前成功对抗原反射豁免DC逃脱，也能结束此状态。</p>"
     },
     "IjmO1DY00eygOvCO": {
@@ -1045,7 +1045,7 @@
       "description": "<p>特制纳米机器人强化了你的体表细胞使之将太阳辐射转化为你身体所须要的养分。你不需要进食，而且只要每天花1小时照射直射的阳光，你就不会因为饥饿或挨饿而@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]。你可以将照射阳光视为正常8小时休息周期的一部分。</p>"
     },
     "In8gl8jvdZttRA8n": {
-      "name": "菁英型霜冻手雷 Frost Grenade (Elite)",
+      "name": "精英型霜冻手雷 Frost Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> 基础速度承受15尺环境减值，持续1轮</p><hr /><p>霜冻手雷爆裂为冰屑，造成寒冷伤害，范围为 @Template[burst|distance:15] 并进行 @Check[reflex|against:class|basic] 豁免。如果你拥有手雷的武器重击专精效果，对霜冻手雷豁免大失败的生物会承受基本速度–15尺的环境减值，持续1轮。</p>"
     },
     "Iq4dAtyGFtboJZHL": {
@@ -1053,7 +1053,7 @@
       "description": "<p>一个大容量存储器植入你的大脑皮层，其中配有有机体至数字设备的通信总线，让你能获得某一狭窄主题的额外信息。安装此记忆扩展装置期间，你在一项学识技能上成为大师，在安装或提升此殖装时选择。由于此熟练度是临时的，你不能将其用作技能提升或专长等永久性角色选项的先决条件。</p><hr /><p><strong>启动—固态记忆</strong> <span class=\"action-glyph\">1</span> （专注、幸运）</p>\n<p><strong>频率</strong> 每天一次</p>\n<p><strong>效果</strong> 你 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识} ，使用此殖装授予的学识技能，将技能检定掷骰两次并取较高结果。问题必须与所选技能有关。</p><hr /><p><strong>特殊</strong> 如果你拥有数据插口殖装，那么你安装的一件内存扩展不计入植入物上限。其他内存扩展仍然计入。</p>"
     },
     "Ix4mqtmib554dQxl": {
-      "name": "菁英型光尘炸弹 Glitterbomb (Elite)",
+      "name": "精英型光尘炸弹 Glitterbomb (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷爆裂为一片闪粉云。位于以下区域内的所有生物： @Template[burst|distance:40] 必须进行一次 @Check[reflex|against:class] 豁免。闪粉对大多数生物而言只是烦扰，却会干扰处于以下状态的生物： @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形} （或后来变为隐形的生物）。闪粉持续1小时。</p>\n<p><strong>大成功</strong> 该生物完全避开闪粉。</p>\n<p><strong>成功</strong> 该生物避开了大部分闪粉，并且 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽} ，替代隐形。</p>\n<p><strong>失败</strong> 该生物被闪粉覆盖，指定它为目标时无需因其隐形而进行纯骰检定。</p>\n<p><strong>大失败</strong> 如同失败，且该生物还会陷入 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩} ，持续1分钟，因为闪粉进入了眼睛，不过它们可以用一个交互动作结束目眩状态。</p>"
     },
     "J3xiaG76kjpUYaTx": {
@@ -1109,7 +1109,7 @@
       "description": "<p>商用型攀爬工具包包括50尺缆绳、抓钩、安全带、滑轮、岩钉、锤子和冰爪。攀爬工具包让你能将自己固定在正在攀爬的墙面上，移动速度减半（最低5尺），但在防止坠落的检定大失败时，可以尝试一次 @Check[flat|dc:5]。</p>\n<p>一套工具包的材料只够一名攀爬者使用；每名攀爬者都需要自己的工具包。</p>"
     },
     "KFjPEG7kw733splu": {
-      "name": "菁英型医疗贴片 Medpatch (Elite)",
+      "name": "精英型医疗贴片 Medpatch (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>医疗贴加速身体的自然愈合。你恢复 @Damage[(8d6+21)[healing]] 生命值，并在对抗疾病和毒素的豁免中获得+3物品加值，持续10分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.VKSOvJQMwUby4fba]</p>"
     },
     "KQbCnL5sIN1J5pGL": {
@@ -1125,7 +1125,7 @@
       "description": "<p><em>悬浮飞轮</em>将悬浮摩托车技术微型化，并附着在任何一双鞋子（或类似的服装和附件）底部，在突然的动作中提供额外的动量。你在特技检定上获得+1物品加值。启动时，一对类似轮子的磁共振装置会从鞋子中伸出，将穿戴者推离地面。</p>\n<p><strong>启动—疾速前进</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong> 你蹬地而起，立即快步。在1分钟内，你的速度获得+5尺状态加值，且陆地速度获得悬浮特征。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.kUSHgMCK1Uvyhkx0]</p>"
     },
     "KaUapB2WwBE6wnzd": {
-      "name": "菁英型破片手雷 Frag Grenade (Elite)",
+      "name": "精英型破片手雷 Frag Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1d6[bleed]]</p><hr /><p>这类破片手雷爆炸时喷出大片弹片，造成10d8点穿刺伤害，范围为 @Template[burst|distance:15] 并进行 @Check[reflex|against:class|basic] 豁免。</p>"
     },
     "KbVBdUXq1kOcC2vI": {
@@ -1225,7 +1225,7 @@
       "description": "<p>你的眼睛经过强化，可以看见周围生物的生命能量，但黑色巩膜暴露了你强化身体的不死本质。你在医疗检定中获得+2物品加值。</p>\n<p><strong>启动—观察命能</strong> <span class=\"action-glyph\">1</span> （专注）</p>\n<p><strong>频率</strong> 每小时一次</p><hr /><p><strong>效果</strong> 接下来一分钟内，你获得10尺范围的生命感知，作为精确感官，让你能够感知并区分活物与不死生物的生命力。</p>"
     },
     "MeV8qRq6cMlSBC2E": {
-      "name": "卓越型硬光缠手带 Hardlight Handwraps (Superior)",
+      "name": "卓越型实光缠手带 Hardlight Handwraps (Superior)",
       "description": "<p><strong>强化模块</strong> 2</p><hr /><p>这些缠手带可以定制为在使用时发出可见光谱中的任意颜色，一些制造商还提供定制固件，使其外观变为爪、巨拳或锤头。它们甚至可以用其他方式穿戴在身体别的部位。这些缠手带会如同强化人造武器一样强化你的无武装攻击，让你能为无武装攻击添加一个强化模块。为此目的，将缠手带视为负载为轻的搏击武器组近战武器。</p>\n<p>你的无武装攻击获得追踪+2特征，伤害提高至两颗伤害骰。</p>"
     },
     "MkwX3GcRvFXCBHGp": {
@@ -1233,7 +1233,7 @@
       "description": "<p>这个微型金属圆盘蚀刻着复杂的魔法回路，并已调谐用于远程观察。你必须将自己的心灵与<em>遥感信标</em>的心灵频率同步，才能接收来自它的信息；此过程需要10分钟，且全程必须由你持有该信标。你一次只能调谐一个信标；完成调谐后，你会一直与其保持调谐，直到你调谐另一个信标、另一个生物调谐此信标，或信标被摧毁。你用于@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]{藏匿}一枚<em>遥感信标</em>于身上或某个地点的隐秘检定，获得+2物品加值。你也可以将一枚<em>遥感信标</em>放在非自愿生物身上，尝试一次@Check[thievery|against:perception]检定；其作用如同从该生物身上@UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{偷窃}一件物品，但成功时，目标不会注意到身上被放置了信标。</p>\n<p><strong>启动—遥视（专注、探知）</strong> 1分钟</p>\n<p><strong>频率</strong> 每天一次</p>\n<p><strong>需求</strong> 你位于所调谐<em>遥感信标</em>的1英里范围内</p><hr /><p><strong>效果</strong> 10分钟内，你可以通过 <em>遥感信标</em> 听见声音，如同使用你正常的听觉感官。如果信标被放入目标的口袋或衣褶里，布料不会妨碍你接收任何信息。</p>"
     },
     "MozoKkEBcU8BGHTF": {
-      "name": "菁英型硬化泡沫手雷 Hardening Foam Grenade (Elite)",
+      "name": "精英型硬化泡沫手雷 Hardening Foam Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]，持续2轮</p><hr /><p>手雷爆裂后，迅速扩张的硬化泡沫限制区域内生物的移动；区域内的生物进行@Check[reflex|against:class|basic]豁免。如果你拥有手雷的重击专精效果，对硬化泡沫手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，以你的职业DC作为逃脱DC。</p>\n<p>爆发半径为 @Template[burst|distance:15]，失败时该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚} 和 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} 持续1轮。</p>"
     },
     "MyP7tzmpyYHjhm9b": {
@@ -1273,7 +1273,7 @@
       "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>你可以在突击公文包中安装一件不超过1负载的单手远程武器。你在@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]安装在突击公文包中武器的隐秘检定和DC上获得+2物品加值（如果武器拥有易藏特征则为+4）。你可以用一个交互动作来部署已安装的武器，让你在持握公文包时能以单手持用它。</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
     },
     "NrP9WazrcBuJfjxR": {
-      "name": "菁英型水晶电震碎片 Crystallized Shockshard (Elite)",
+      "name": "精英型水晶电震碎片 Crystallized Shockshard (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">f</span> （专注）</p>\n<p><strong>触发</strong> 你用该武器对一个生物造成伤害。</p><hr /><p>这枚电蓝色水晶上能量噼啪作响。启动电震碎片时，目标必须成功通过 @Check[fortitude|dc:29] 豁免，否则会陷入 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 2} ，持续1分钟。若目标具有科技特征，则改为陷入 @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障2}.</p>"
     },
     "NrfdGDD1TOuR7yfg": {
@@ -1305,7 +1305,7 @@
       "description": "<p>你的指尖表面编织有电容垫，能在一整天中积聚并储存电荷，让你快速地为其他电池和设备无线充电。</p>\n<p><strong>启动—快速电磁场充能</strong> <span class=\"action-glyph\">f</span></p>\n<p><strong>频率</strong> 每天两次</p>\n<p><strong>需求</strong> 你正接触、持握或持用卓越型或更低品质的电池，或装有这种电池的物品</p><hr /><p><strong>效果</strong> 你将所需电池完全充满。</p>"
     },
     "OCdIvH35ibjWLrjc": {
-      "name": "菁英型反魔法手雷 Antimagic Grenade (Elite)",
+      "name": "精英型反魔法手雷 Antimagic Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}</p><hr /><p>此手雷形似一枚大硬币，使用时迅速旋转。爆炸时，手雷创造一个反魔法区域，持续1分钟。位于以下区域内的生物： @Template[burst|distance:25] ，当手雷引爆时，必须进行一次 @Check[fortitude|against:class] 豁免。豁免失败的生物在接下来一分钟内施法变得困难：期间，1动作和2动作法术都需要额外一个动作才能施放。如果你拥有手雷的武器重击专精效果，豁免大失败的生物还会 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1} 持续1分钟。</p>"
     },
     "OCqs5ZRBmqsGmKfr": {
@@ -1333,7 +1333,7 @@
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>一瓶发光的紫色浆液中，黑色与绿色的条纹盘旋交织。饮下这瓶血清后，你的意识将漂浮游移，捕捉来自新诞者的心灵印记，从而获得玄奥知识与异界智慧，代价是暂时丧失现实感知。你在神秘和宗教检定上获得+2物品加值，持续10分钟。在此持续期间内限一次，你可以为@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]检定掷骰两次，并采用较好的结果（这是一个幸运效果）；如果使用此幸运效果时掷骰出1或20两次，你将在眼角的余光中瞥见神秘身影的轮廓，并陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧 1}。</p>"
     },
     "OesDcmqYJV7OGJ1F": {
-      "name": "菁英型真皮镀层 Dermal Plating (Elite)",
+      "name": "精英型真皮镀层 Dermal Plating (Elite)",
       "description": "<p>坚硬的甲片保护你的皮肤，帮助你偏转物理打击。具有真皮镀层的肢体可以作为盾牌使用。你可以用该肢体举盾，获得+1AC环境加值，直到你的下个回合开始，而且使用它不需要占用手。你可以用该肢体使用盾牌格挡反应动作。真皮镀层具有硬度25。使用盾牌格挡后，你的真皮镀层会受损，在纳米机器人修复这些坚固甲片的24小时内无法使用。</p>"
     },
     "OkjJf28XxlAbD77o": {
@@ -1373,7 +1373,7 @@
       "description": "<p><strong>强化模块</strong> 3</p>\n<p><strong>启动</strong> <span class=\"action-glyph\">2</span>区域射击</p><hr /><p>这台自动后膛装填发射器的旋转弹膛采用智能装填技术，最多可以容纳六枚任意种类的手雷，使持用者每次发射时都能选择不同的手雷。榴弹发射器是军用远程武器，装填为2，射程为490尺。</p>"
     },
     "P90ZbakrM3UPJsZQ": {
-      "name": "菁英型全息手雷 Hologrenade (Elite)",
+      "name": "精英型全息手雷 Hologrenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足} 持续1轮</p><hr /><p>这枚棒球大小的金属手雷上贴着标签，标示它会产生的全息影像。引爆时，数百个小型全息影像迸发而出，围绕以下范围内的所有人飞舞： @Template[burst|distance:25] ，持续1分钟。区域内未能通过以下检定的生物： @Check[will|against:class] 豁免失败者会 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及} ，只要它们仍位于此区域内；不过它们可以在每个自己的回合开始时重新进行一次豁免，以结束此效果。初次豁免大失败的生物不能重新豁免，而且还会 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足} 持续1轮。</p>"
     },
     "P9NcNYdqiSXA6hg3": {
@@ -1417,7 +1417,7 @@
       "description": "<p>硬光投影器利用随环境变化的色彩和图案改变护甲的外观。穿戴此护甲时，你在隐秘检定中获得+2物品加值。</p>"
     },
     "Q2wVgoS7y1JlciTV": {
-      "name": "菁英型硬光缠手带 Hardlight Handwraps (Elite)",
+      "name": "精英型实光缠手带 Hardlight Handwraps (Elite)",
       "description": "<p><strong>强化模块</strong> 3</p><hr /><p>这些缠手带可以定制为在使用时发出可见光谱中的任意颜色，一些制造商还提供定制固件，使其外观变为爪、巨拳或锤头。它们甚至可以用其他方式穿戴在身体别的部位。这些缠手带会如同强化人造武器一样强化你的无武装攻击，让你能为无武装攻击添加一个强化模块。为此目的，将缠手带视为负载为轻的搏击武器组近战武器。</p>\n<p>你的无武装攻击获得追踪+2特征，伤害提高至三颗伤害骰。</p>"
     },
     "Q65y4LVV2DAf8Hef": {
@@ -1445,12 +1445,12 @@
       "description": "<p>你的心脏与一个带自动开关的微型漂流域（Drift）传送门相连，心率高涨时就会立即将你经由漂流域传送，以远离危险。此殖装的灵感来自棱彩裔（prismeni）与漂流域的紧密联系，不过其效果要有限得多。</p>\n<p><strong>启动—漂流充能</strong> <span class=\"action-glyph\">r</span> （魔法、传送）</p>\n<p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 你受到伤害</p><hr /><p><strong>效果</strong> 你传送至多30尺。目的地必须同时在你的视线与效应线内。</p>\n<p>当你漂流充能时，可以尝试与30尺内的另一生物交换位置，而非传送至空闲空间。目标必须进行一次 @Check[will|dc:37] 豁免。</p>\n<p><strong>成功</strong> 目标留在原处，你传送至与其相邻的一个空闲空间。</p>\n<p><strong>失败</strong> 你与目标交换位置，目标与你一同受到触发的伤害。</p>\n<p><strong>大失败</strong> 你与目标交换位置，目标替你受到触发的伤害。</p>"
     },
     "QKC6mFBzruml847Y": {
-      "name": "菁英型尸皮 Corpseskin (Elite)",
+      "name": "精英型尸皮 Corpseskin (Elite)",
       "description": "<p>你将一种或多种不死生物的皮肤移植到自己身上，触感变得冰冷。你在扮演实体不死生物的欺骗检定中获得+3物品加值，并获得虚能伤害抗力15。能将你识别为活物的生物，例如具有生命感知的生物，会自动识别失败，反而将你视为不死生物。</p>"
     },
     "QTc6Z2G5G3PORbcB": {
       "name": "商用型灭火器 Fire Extinguisher (Commercial)",
-      "description": "<p>灭火器喷出泡沫，范围为 @Template[type:cone|distance:15]，自动扑灭非魔法火焰，并尝试以2环反制区域内任何魔法火焰效应，使用 [[/r 1d20+7 #Counteract]]{+7}。灭火器每次使用消耗一单位化学弹药，并使用商用型化学储罐。</p>"
+      "description": "<p>灭火器喷出泡沫，范围为 @Template[type:cone|distance:15]，自动扑灭非魔法火焰，并尝试以2环反制区域内任何魔法火焰效应，使用 [[/r 1d20+7 #Counteract]]{+7}。灭火器每次使用消耗一单位化学弹药，并使用商用型化学罐。</p>"
     },
     "QWWg91KgMFSqK6lv": {
       "name": "多什斧 Doshko",
@@ -1485,7 +1485,7 @@
       "description": "<p>这件殖装由一群亲历过虫群（Swarm）袭击的科学家开发，灵感源于虫群掠夺各个世界资源的方式。掠夺者巨口植入喉咙后部，让你能喷吐浓稠的有害强酸，然后收集受害者残留的烟雾，转化为原材料。</p>\n<p><strong>启动—喷吐强酸</strong> <span class=\"action-glyph\">2</span> （强酸、魔法）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你吐出一道强酸洪流，范围为 @Template[type:cone|distance:15]。区域内的生物和物体受到 @Damage[4d6[acid]|options:area-damage] 伤害（@Check[reflex|dc:23|basic] 豁免）。每以此方式伤害一个活物，你就会生成一管无味的营养糊，其营养足以充当一天的口粮。若你至少伤害了一个物体或非活体生物，可以花费1分钟，收集数量等于所造成伤害的通用聚合物（UPB）。</p>"
     },
     "R8dEureCA93msBsa": {
-      "name": "菁英型爆燃手雷 Incendiary Grenade (Elite)",
+      "name": "精英型爆燃手雷 Incendiary Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>击退10尺</p><hr /><p>这类手雷点燃化学物质，引发炽热的爆炸，造成10d8点火焰伤害，并进行 @Check[reflex|against:class|basic] 豁免（@Template[burst|distance:15]）。如果你可以使用手雷的重击专精效果，对抗燃烧手雷的豁免检定大失败的生物会被推离手雷。</p>"
     },
     "RAeyWxgTEoOwP2xV": {
@@ -1609,7 +1609,7 @@
       "description": "<p>这种光滑的盾牌是特工和其他灵活战斗者的最爱。它最常被设计成一块形状紧紧贴合前臂或其他类似的肢体的聚碳材料盾板。</p>"
     },
     "T3QeQ51KwNyJdkLb": {
-      "name": "菁英型龙喉腺体 Dragon Gland (Elite)",
+      "name": "精英型龙喉腺体 Dragon Gland (Elite)",
       "description": "<p>通过尖端手术，你的喉咙深处被植入了一个适配你所属族裔的生理结构的魔法性腺体。当该器官为生体构造时，从以下列表中选择你的殖装伤害类型：强酸、寒冷、电击、火焰或音波。你获得以下启动效果。</p>\n<p><strong>启动—吐息</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong>每10分钟一次</p><hr /><p><strong>效果</strong> 以下区域内的每个生物： @Template[type:cone|distance:15] 受到 @Damage[(10d6)[untyped]] 伤害，并进行 @Check[reflex|dc:37|basic] 豁免。伤害取决于殖装的型号。</p>"
     },
     "T47VmZ4ct24GYGVB": {
@@ -1637,7 +1637,7 @@
       "description": "<p>在多数世界被称为“法术安瓿”的法术安瓿瓶，是一种即用型魔法注射剂，可赋予使用者特定环阶法术的好处</p>\n<p><strong>启动—注射</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p><strong>效果</strong> 3环 @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{加速术} 法术</p>"
     },
     "TTWzhSdn1RlBVJ2D": {
-      "name": "菁英型电磁手雷 Electromag Grenade (Elite)",
+      "name": "精英型电磁手雷 Electromag Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]</p><hr /><p>这类手雷释放电场，造成10d8点电击伤害，范围为 @Template[burst|distance:15] 并进行 @Check[reflex|against:class|basic] 豁免。如果你拥有手雷的重击专精效果，对电磁手雷豁免大失败的科技生物和无人照管的科技物品会陷入故障。</p>"
     },
     "Tb1048IAUFAtCu30": {
@@ -1765,11 +1765,11 @@
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> 基础速度承受10尺环境减值，持续1轮</p><hr /><p>霜冻手雷爆裂为冰屑，造成寒冷伤害，范围为 @Template[burst|distance:15] 并进行 @Check[reflex|against:class|basic] 豁免。如果你拥有手雷的武器重击专精效果，对霜冻手雷豁免大失败的生物会承受基本速度–10尺的环境减值，持续1轮。</p>"
     },
     "Vp7O4NTBJ5OZwGMG": {
-      "name": "终极型硬光缠手带 Hardlight Handwraps (Ultimate)",
+      "name": "终极型实光缠手带 Hardlight Handwraps (Ultimate)",
       "description": "<p><strong>强化模块</strong> 3</p><hr /><p>这些缠手带可以定制为在使用时发出可见光谱中的任意颜色，一些制造商还提供定制固件，使其外观变为爪、巨拳或锤头。它们甚至可以用其他方式穿戴在身体别的部位。这些缠手带会如同强化人造武器一样强化你的无武装攻击，让你能为无武装攻击添加一个强化模块。为此目的，将缠手带视为负载为轻的搏击武器组近战武器。</p>\n<p>你的无武装攻击获得追踪+3特征，伤害提高至三颗伤害骰。</p>"
     },
     "VqijQYqNCEb4c8uL": {
-      "name": "菁英型抑法手雷 Magefoil Grenade (Elite)",
+      "name": "精英型抑法手雷 Magefoil Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>失败</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2} 持续1轮</p>\n<p><strong>重击</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 3} ，持续2轮，然后呆滞2，持续2轮</p><hr /><p>这些手雷释放灵能波动，造成心灵伤害，进行 @Check[will|against:class|basic|showDC:all|options:area-effect,inflicts:stupefied] 豁免。</p>\n<p>爆发半径为 @Template[burst|distance:15]，且心灵伤害为10d8。</p>"
     },
     "VqqxwnjFeCNmHSe0": {
@@ -1838,14 +1838,14 @@
     },
     "XJt2RsKwIwdXC6ep": {
       "name": "回收背带 Retrieval Harness",
-      "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种最初由寻星者科学家研发的护甲配有大量芳纶口袋、绑带和精密导轨系统，让整套装备与消耗品都能随时取用。取物挽具始终配有一个 @UUID[Compendium.sf2e-anachronism.equipment.Item.hH1vCb2EJyqMo8ac]{商用型便捷修补器} ，无需额外费用，且不占用强化槽。</p>",
+      "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种最初由寻星者科学家研发的护甲配有大量芳纶口袋、绑带和精密导轨系统，让整套装备与消耗品都能随时取用。取物挽具始终配有一个 @UUID[Compendium.sf2e-anachronism.equipment.Item.hH1vCb2EJyqMo8ac]{商用型便捷贴片} ，无需额外费用，且不占用强化槽。</p>",
       "subitems": [
         {
           "id": "4hROr9QwftkmUEPW",
           "expectedName": "Easypatcher (Commercial)",
-          "name": "商用型便捷修补器 Easypatcher (Commercial)",
+          "name": "商用型便捷贴片 Easypatcher (Commercial)",
           "expectedDescription": "<p>This upgrade contains tiny robotic arms and sensors to detect injuries. The easy patcher can hold up to two medpatches, which you can install as a 10-minute activity. The medpatch's level must be equal to or less than the easypatcher's level or the armor's level, if it's higher.</p>\n<p><strong>Activate—Patch Up</strong> <span class=\"action-glyph\">1</span> (manipulate)</p>\n<p><strong>Requirements</strong> A medpatch is installed in the easypatcher's compartment</p><hr /><p><strong>Effect</strong> The robotic arms hiss and unfold from the compartment, applying the medpatch to your injuries and replicating the consumed medpatch's effect. The medpatch is consumed.</p>",
-          "description": "<p>此强化模块装有微型机械臂和探测伤势的传感器。便捷修补器至多可装两张医疗贴，你可以用一个10分钟的活动将其装入。医疗贴的等级不能高于便捷修补器的等级，或护甲的等级，取二者中较高者。</p>\n<p><strong>启动—修补</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>需求</strong> 便捷修补器的隔舱中装有一张医疗贴</p><hr /><p><strong>效果</strong> 机械臂嘶鸣着从隔间中展开，将医疗贴敷在你的伤处，重现所消耗医疗贴的效果。医疗贴被消耗。</p>"
+          "description": "<p>此强化模块装有微型机械臂和探测伤势的传感器。便捷贴片至多可装两张医疗贴，你可以用一个10分钟的活动将其装入。医疗贴的等级不能高于便捷贴片的等级，或护甲的等级，取二者中较高者。</p>\n<p><strong>启动—修补</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>需求</strong> 便捷贴片的隔舱中装有一张医疗贴</p><hr /><p><strong>效果</strong> 机械臂嘶鸣着从隔间中展开，将医疗贴敷在你的伤处，重现所消耗医疗贴的效果。医疗贴被消耗。</p>"
         }
       ]
     },
@@ -1886,7 +1886,7 @@
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}</p><hr /><p>此手雷形似一枚大硬币，使用时迅速旋转。爆炸时，手雷创造一个反魔法区域，持续1分钟。位于以下区域内的生物： @Template[burst|distance:30] ，当手雷引爆时，必须进行一次 @Check[fortitude|against:class] 豁免。豁免失败的生物在接下来一分钟内施法变得困难：期间，1动作和2动作法术都需要额外一个动作才能施放。如果你拥有手雷的武器重击专精效果，豁免大失败的生物还会 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1} 持续1分钟。</p>"
     },
     "YZjmnoJD64oLMQ7q": {
-      "name": "菁英型力场护盾 Force Field (Elite)",
+      "name": "精英型力场护盾 Force Field (Elite)",
       "description": "<p>力场护盾会吸收伤害。力场护盾的生命值取决于其型号。力场护盾激活期间，你将受到的任何物理或能量伤害都会先扣除力场护盾的生命值，再扣除你的生命值（包括临时生命值）。如果你举着盾牌，你的力场护盾和盾牌都会受到伤害。如果一次攻击或效果造成的伤害使力场护盾降至0生命值，你承受溢出的伤害，力场护盾随之关闭，并在10分钟内无法再次启动。力场护盾激活期间，每轮在你的回合开始时恢复所列数值的生命值。</p>\n<p>如果你的力场护盾为战术型或更高品质，它还会保护你免受致命打击。每当你在力场护盾激活期间被重击时，尝试一次对抗所列DC的纯骰检定。成功时，此次重击变为普通命中。</p>\n<p>该力场具有32生命值，并在你的回合恢复6生命值，且 @Check[flat|dc:17].</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.7CtHz1DQcMXLafOS]{效果：力场护盾32}</p>\n<p><strong>启动—升起力场</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天三次</p><hr /><p><strong>效果</strong> 你的力场启动，持续1分钟，或直到其生命值降至0。</p><hr /><p><em>SFS说明：</em> 若一名PC同时启动力场并举着盾牌而受到伤害，力场先受到伤害。 @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{盾牌格挡} 只有在此后仍有剩余伤害时才会触发，此时盾牌才可能受损。</p>"
     },
     "YbJkZEbHPFKAinhO": {
@@ -2026,7 +2026,7 @@
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}</p><hr /><p>马拉塔头痛弹（Maratan headache）以装满恶臭浆液的脆薄空心葫芦制成，造成2d8点非致命毒素伤害，范围为 @Template[burst|distance:10] 并进行 @Check[fortitude|against:class|basic] 豁免。</p>"
     },
     "b12tnjobe9IrphII": {
-      "name": "商用型硬光缠手带 Hardlight Handwraps (Commercial)",
+      "name": "商用型实光缠手带 Hardlight Handwraps (Commercial)",
       "description": "<p><strong>强化模块</strong> 1</p><hr /><p>这些缠手带可以定制为在使用时发出可见光谱中的任意颜色，一些制造商还提供定制固件，使其外观变为爪、巨拳或锤头。它们甚至可以用其他方式穿戴在身体别的部位。这些缠手带会如同强化人造武器一样强化你的无武装攻击，让你能为无武装攻击添加一个强化模块。为此目的，将缠手带视为负载为轻的搏击武器组近战武器。</p>"
     },
     "bHHFXS2nmfOQFQyu": {
@@ -2292,7 +2292,7 @@
       "description": "<p><strong>强化：</strong> 0</p><hr /><p>凭借惯性阻尼器和宽广的活动范围，这种轻甲成为协约世界（Pact Worlds）军人与冒险者公认的标杆。其胸甲由相互咬合的聚合物六边形组成，平时如织物般柔软，受到冲击时却会硬如钢铁。</p>"
     },
     "gRZxPwfmz3O0bgOt": {
-      "name": "菁英型皮下注射剂 Hypopen (Elite)",
+      "name": "精英型皮下注射剂 Hypopen (Elite)",
       "description": "<p>这根细微的圆柱体容纳着特种纳米机器人。不同类型有着不同的效果。</p><ul><li>移除 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏} 或 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹} 状态</li><li>降低其状态值： @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙} 或 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心} 状态值减少1。</li><li>对影响目标的一种毒素或疾病进行反制检定。使用你的 @Check[medicine] 调整值作为反制调整值，反制环级为6。</li><li>尝试一次纯骰检定来结束持续毒素或流血伤害。由于这属于特别有效的援助，此次纯骰检定的DC从15降低至10。</li><li><p>让你能够变为 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷} ，持续1分钟。额外动作可以用于快步、行走或打击。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.NqP5f6IChp8XNCrJ]{效果：皮下注射剂（迅捷）}</p></li></ul>"
     },
     "gZmmlNszibwt5y0f": {
@@ -2324,7 +2324,7 @@
       "description": "<p>可折叠的翅膀安装在你的肩胛骨或身体上的类似位置，能够托起你的重量并协助飞行。你可以用一个交互动作展开翅膀，但如果你穿戴的护甲重于轻甲，就无法展开或使用它们。翅膀展开且你未处于超载状态时，你获得30尺飞行速度，并在用于空中机动的特技检定上获得+1物品加值。</p>"
     },
     "hFU8q6aCS6bq89oW": {
-      "name": "菁英型过滤式循环呼吸器 Filtered Rebreather (Elite)",
+      "name": "精英型过滤式循环呼吸器 Filtered Rebreather (Elite)",
       "description": "<p>此护甲强化模块提升了护甲的环境防护和过滤常见有害物质的能力，包括对多数有毒大气层的防护。</p>\n<p>你在对抗吸入效应的强韧豁免中获得+4状态加值。</p>"
     },
     "hGcLyCanlhHkXjLD": {
@@ -2387,7 +2387,7 @@
       "description": "<p>这件殖装由一群亲历过虫群（Swarm）袭击的科学家开发，灵感源于虫群掠夺各个世界资源的方式。掠夺者巨口植入喉咙后部，让你能喷吐浓稠的有害强酸，然后收集受害者残留的烟雾，转化为原材料。</p>\n<p><strong>启动—喷吐强酸</strong> <span class=\"action-glyph\">2</span> （强酸、魔法）</p>\n<p><strong>频率</strong> 每天两次</p><hr /><p><strong>效果</strong> 你吐出一道强酸洪流，范围为 @Template[type:cone|distance:15]。区域内的生物和物体受到 @Damage[10d6[acid]|options:area-damage] 伤害（@Check[reflex|dc:37|basic] 豁免）。每以此方式伤害一个活物，你就会生成一管无味的营养糊，其营养足以充当一天的口粮。若你至少伤害了一个物体或非活体生物，可以花费1分钟，收集数量等于所造成伤害的通用聚合物（UPB）。</p>"
     },
     "iayCU2A9X5rIYvsm": {
-      "name": "菁英型心能软呢帽 Psychic Fedora (Elite)",
+      "name": "精英型心能软呢帽 Psychic Fedora (Elite)",
       "description": "<p>这顶不起眼的软呢帽能增强穿戴者的心能力量。如果你具有有限心灵感应，在其范围内且你能向其发送讯息的生物，对抗心灵飞镖、@UUID[Compendium.sf2e-anachronism.feats.Item.sOPJdbmdO9LPj9Ku]、@UUID[Compendium.sf2e-anachronism.feats.Item.rv6hhsxfZwI7vfyR]，以及@UUID[Compendium.sf2e-anachronism.equipment.Item.DJJ4hlQLN0iTFP9N]{拦截耳}的心能窃听能力时，意志豁免承受–1环境减值。</p>\n<p><strong>启动—心灵飞镖</strong> <span class=\"action-glyph\">2</span> （专注，操作，心灵）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你的手拂过软呢帽的帽檐，将思想推入30尺内一个生物的心中。该目标受到 @Damage[10d6[mental]|traits:nonlethal|shortLabel] 非致命心灵伤害（@Check[will|dc:39|basic] 豁免）。</p>"
     },
     "ib7UwlCqzgOlC4wK": {
@@ -2475,7 +2475,7 @@
       "description": "<p>你的心脏与一个带自动开关的微型漂流域（Drift）传送门相连，心率高涨时就会立即将你经由漂流域传送，以远离危险。此殖装的灵感来自棱彩裔（prismeni）与漂流域的紧密联系，不过其效果要有限得多。</p>\n<p><strong>启动—漂流充能</strong> <span class=\"action-glyph\">r</span> （魔法、传送）</p>\n<p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 你受到伤害</p><hr /><p><strong>效果</strong> 你传送至多30尺。目的地必须同时在你的视线与效应线内。</p>"
     },
     "kUfQvnJzmB1GO1Lh": {
-      "name": "菁英型马拉塔头痛 Maratan Headache (Elite)",
+      "name": "精英型马拉塔头痛 Maratan Headache (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}</p><hr /><p>马拉塔头痛弹（Maratan headache）以装满恶臭浆液的脆薄空心葫芦制成，造成10d8点非致命毒素伤害，范围为 @Template[burst|distance:15] 并进行 @Check[fortitude|against:class|basic] 豁免。</p>"
     },
     "keOgvGTouQardZ5f": {
@@ -2507,7 +2507,7 @@
       "description": "<p>该望远瞄准装置有助于观察远处目标。</p>\n<p>此瞄准镜为视觉察觉检定提供+1物品加值，用于 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索} 生物，通过此瞄准镜观察。</p><hr /><p><strong>启动—调整准心</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>效果</strong> 装有此瞄准镜的武器射程增量增加10尺。如果武器的基础射程增量至少为50尺，则改为增加20尺。此效果持续至你的下个回合开始，或直到你不再持用装有此瞄准镜的武器，以先发生者为准。这不会扩大区域攻击的范围。</p>"
     },
     "kzc2sa3DulMUTx3m": {
-      "name": "菁英型烟雾手雷 Smoke Grenade (Elite)",
+      "name": "精英型烟雾手雷 Smoke Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>此手雷释放出一片能够遮蔽视线的烟雾，范围为 @Template[burst|distance:40]。区域内的生物具有 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽} 状态，且对它们而言所有其他生物都具有隐蔽。烟雾持续1分钟，或直到被强风或类似效应驱散。</p>"
     },
     "l4yre1br3yCOeciB": {
@@ -2531,7 +2531,7 @@
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> 基础速度承受5尺环境减值，持续1轮</p><hr /><p>霜冻手雷爆裂为冰屑，造成寒冷伤害，范围为 @Template[burst|distance:5] 并进行 @Check[reflex|against:class|basic] 豁免。如果你拥有手雷的武器重击专精效果，对霜冻手雷豁免大失败的生物会承受基本速度–5尺的环境减值，持续1轮。</p>"
     },
     "lDFEQetYGVyvtP0u": {
-      "name": "菁英型劫掠之喉 Despoiler Maw (Elite)",
+      "name": "精英型劫掠之喉 Despoiler Maw (Elite)",
       "description": "<p>这件殖装由一群亲历过虫群（Swarm）袭击的科学家开发，灵感源于虫群掠夺各个世界资源的方式。掠夺者巨口植入喉咙后部，让你能喷吐浓稠的有害强酸，然后收集受害者残留的烟雾，转化为原材料。</p>\n<p><strong>启动—喷吐强酸</strong> <span class=\"action-glyph\">2</span> （强酸、魔法）</p>\n<p><strong>频率</strong> 每天三次</p><hr /><p><strong>效果</strong> 你吐出一道强酸洪流，范围为 @Template[type:cone|distance:15]。区域内的生物和物体受到 @Damage[14d6[acid]|options:area-damage] 伤害（@Check[reflex|dc:43|basic] 豁免）。每以此方式伤害一个活物，你就会生成一管无味的营养糊，其营养足以充当一天的口粮。若你至少伤害了一个物体或非活体生物，可以花费1分钟，收集数量等于所造成伤害的通用聚合物（UPB）。</p>"
     },
     "lKUct3YKy7eDqxvl": {
@@ -2740,7 +2740,7 @@
       "description": "<p>骨质鳍片被移植到你的手臂、腿部或其他合适的附肢上。这些鳍片可以紧贴你的天然附肢无缝折叠收起，尽管带有褶边的“旧格拉利昂”型号也依然存在。你可以用一个交互动作展开鳍片，但如果你穿戴的护甲重于轻甲，就无法展开或使用它们，因为它们需要足够的空间展开。鳍片展开且你未处于超载状态时，你获得30尺游泳速度。</p>"
     },
     "pcPU3BjbNclch4lS": {
-      "name": "硬光套装 Hardlight Series",
+      "name": "实光套装 Hardlight Series",
       "description": "<p><strong>强化：</strong> 1</p><hr /><p>固定在腰带或翻领上的投影器，用这层闪耀的硬光外壳包裹穿戴者的身体。军用制式硬光护甲遵循固定标准，而私人用户则能享用一系列可定制的时尚款式。</p>"
     },
     "phawrsDiMhj06BlZ": {
@@ -2760,7 +2760,7 @@
       "description": "<p>这个硬壳公文包可以容纳至多1负载的文件和装备。你可以在突击公文包中安装盾牌和武器，但它们的品质必须不高于公文包。</p>\n<p>你可以在突击公文包中安装一件不超过1负载的单手远程武器。你在@UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]安装在突击公文包中武器的隐秘检定和DC上获得+2物品加值（如果武器拥有易藏特征则为+4）。你可以用一个交互动作来部署已安装的武器，让你在持握公文包时能以单手持用它。</p>\n<p>你可以在突击公文包中安装一个@UUID[Compendium.sf2e-anachronism.equipment.Item.ZIIEmh2nAnST6vGk]，并能如同它被安装在护甲上般使用它。如果你在举起盾牌时使用公文包中集成的武器，盾牌将不再被举起，你也不再获得AC加值。</p>"
     },
     "pwN8Bh8amBjBPka4": {
-      "name": "先进型硬光缠手带 Hardlight Handwraps (Advanced)",
+      "name": "先进型实光缠手带 Hardlight Handwraps (Advanced)",
       "description": "<p><strong>强化模块</strong> 2</p><hr /><p>这些缠手带可以定制为在使用时发出可见光谱中的任意颜色，一些制造商还提供定制固件，使其外观变为爪、巨拳或锤头。它们甚至可以用其他方式穿戴在身体别的部位。这些缠手带会如同强化人造武器一样强化你的无武装攻击，让你能为无武装攻击添加一个强化模块。为此目的，将缠手带视为负载为轻的搏击武器组近战武器。</p>\n<p>你的无武装攻击获得追踪+1特征，伤害提高至两颗伤害骰。</p>"
     },
     "q0qabDaBo7MPOBy3": {
@@ -2844,11 +2844,11 @@
       "description": "<p>自动支架帮助你在厚重护甲中移动得更快。你护甲对各项速度的减值减少10尺。</p>"
     },
     "rG3i7wIEu6YOAcPO": {
-      "name": "菁英型电击棍 Stun Stick (Elite)",
-      "description": "<p><strong>强化：</strong> 3</p><hr /><p>炬眼侦探社的侦探使用这种菁英型@UUID[Compendium.sf2e-anachronism.equipment.Item.D4KuxPi9gqFkvZ3h]，以非致命手段制服不守规矩的违法者。每次拿起或拔出时，握柄都会给持用者一下极轻微的电击，所以探员在认为<em>电击棍</em>可能在案件中派上用场时，通常会戴上绝缘手套。</p>\n<p><strong>启动—短促强烈电击</strong> <span class=\"action-glyph\">A</span></p>\n<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong> 电击棍的棒身被电能包裹，能够暂时严重扰乱生物的运动能力。你用电击棍进行一次近战打击。命中时，你造成电击伤害而非钝击伤害，而且目标必须成功通过一次 @Check[fortitude|dc:31|options:inflicts:stunned|traits:incapacitation] 豁免，否则会陷入 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1} ，持续1轮；这是失能效应。</p>"
+      "name": "精英型电击棍 Stun Stick (Elite)",
+      "description": "<p><strong>强化：</strong> 3</p><hr /><p>炬眼侦探社的侦探使用这种精英型@UUID[Compendium.sf2e-anachronism.equipment.Item.D4KuxPi9gqFkvZ3h]，以非致命手段制服不守规矩的违法者。每次拿起或拔出时，握柄都会给持用者一下极轻微的电击，所以探员在认为<em>电击棍</em>可能在案件中派上用场时，通常会戴上绝缘手套。</p>\n<p><strong>启动—短促强烈电击</strong> <span class=\"action-glyph\">A</span></p>\n<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong> 电击棍的棒身被电能包裹，能够暂时严重扰乱生物的运动能力。你用电击棍进行一次近战打击。命中时，你造成电击伤害而非钝击伤害，而且目标必须成功通过一次 @Check[fortitude|dc:31|options:inflicts:stunned|traits:incapacitation] 豁免，否则会陷入 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑 1} ，持续1轮；这是失能效应。</p>"
     },
     "rIcsfhrhP23RUYzx": {
-      "name": "菁英型衰退手雷 Degradation Grenade (Elite)",
+      "name": "精英型衰退手雷 Degradation Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1d6[persistent,acid]]伤害</p><hr /><p>降解手雷引发猛烈的魔法爆炸，将物质撕入不同现实，留下逐渐消散为虚无的焦黑残块。手雷爆炸时造成10d8点酸蚀伤害，范围为 @Template[burst|distance:15] 并进行 @Check[reflex|against:class|basic] 豁免。</p>"
     },
     "rOtCdylPWiIiswbP": {
@@ -2864,7 +2864,7 @@
       "description": "<p>附着在你护甲上的推进器增进你的跳跃。</p><hr /><p><strong>启动—跳跃</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong>每轮一次</p>\n<p><strong>效果</strong> 你启动弹跳喷射器，获得短暂的推进力。你飞行至多20尺，最大高度为10尺；也可以改为垂直向上飞行至多20尺。你必须在移动结束时落地，否则就会坠落。如果你处于超载状态，弹跳喷射器就无法将你举起。</p>"
     },
     "re5z8UAVuxwSIQlt": {
-      "name": "菁英型干扰手雷 Szynegation Grenade (Elite)",
+      "name": "精英型干扰手雷 Szynegation Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p><hr /><p>无论由真正的泽奈鳄（szynegator）部件制成，还是使用合成仿制品，这些手雷都会模仿这种虫群生物的部分效果，同时造成如同其酸性血液的伤害。泽奈手雷造成所列数值的持续酸蚀伤害，进行一次 @Check[reflex|against:class|basic] 豁免。如果你拥有手雷的重击专精效果，对合相否决手雷豁免大失败的生物无法使用电子或心灵感应通信，并陷入 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}。只要受影响的生物仍承受该手雷造成的持续酸蚀伤害，这些效果就持续。</p>\n<p>爆发半径为 @Template[burst|distance:15]，持续酸蚀伤害为5d8。</p>"
     },
     "rgprAOXrCIFtwfpr": {
@@ -3049,12 +3049,12 @@
     },
     "vpKblQ6BGB63DG6v": {
       "name": "适水护甲 Aquavarius Armor",
-      "description": "<p><strong>强化：</strong> 1</p><hr /><p>此护甲装有坚固的背鳍和带蹼的肢端，便于水下探索和移动。适水护甲（Aquavarius armor）深受海洋生物学家、异星守望者和海洋爱好者喜爱。阿巴达尔集团（AbadarCorp）将其宣传为寻找沉没宝藏的冒险者不可或缺的沙滩服装。适水护甲始终装有 @UUID[Compendium.sf2e-anachronism.equipment.Item.CYNZnduBJCF6XCFs]{商用型水下喷射器} ，无需额外费用，且不占用强化槽。</p>",
+      "description": "<p><strong>强化：</strong> 1</p><hr /><p>此护甲装有坚固的背鳍和带蹼的肢端，便于水下探索和移动。适水护甲（Aquavarius armor）深受海洋生物学家、异星守望者和海洋爱好者喜爱。阿巴达尔集团（AbadarCorp）将其宣传为寻找沉没宝藏的冒险者不可或缺的沙滩服装。适水护甲始终装有 @UUID[Compendium.sf2e-anachronism.equipment.Item.CYNZnduBJCF6XCFs]{商用型喷水推进器} ，无需额外费用，且不占用强化槽。</p>",
       "subitems": [
         {
           "id": "o0jdabufs9JzQgHw",
           "expectedName": "Aqua Jets (Commercial)",
-          "name": "商用型水下喷射器 Aqua Jets (Commercial)",
+          "name": "商用型喷水推进器 Aqua Jets (Commercial)",
           "expectedDescription": "<p>Propellers, underwater jets, and other hydrodynamic propulsion systems enhance your aquatic mobility.</p>\n<p><strong>Activate—Propel</strong> <span class=\"action-glyph\">1</span></p><hr /><p><strong>Effect</strong> You activate the propulsion system to gain a swim Speed of 20 feet. This effect lasts for 1 minute or until you Dismiss it.</p>",
           "description": "<p>螺旋桨、水下喷射器和其他水动力推进系统，增强你的水下机动性。</p>\n<p><strong>启动—推进</strong> <span class=\"action-glyph\">1</span></p><hr /><p><strong>效果</strong> 你启动推进系统，获得20尺游泳速度。此效果持续1分钟，或直到你将其解消。</p>"
         }
@@ -3121,7 +3121,7 @@
       "description": "<p><strong>强化：</strong> 1</p><hr /><p>这套重甲的头盔只有一道狭缝，仅露出穿戴者的眼睛。这套高科技陶瓷护甲由胸甲、肩甲、护臂和胫甲组成，会随身体动作灵活活动。</p>"
     },
     "wwkN5Sra5lde1KS7": {
-      "name": "菁英型声波手雷 Aural Grenade (Elite)",
+      "name": "精英型声波手雷 Aural Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1d6[bleed]]</p><hr /><p>音波手雷内有扬声器，触发时发出刺耳的不谐音，使距离最近的生物虚弱。</p>\n<p>爆发半径为 @Template[burst|distance:15]，非致命音波伤害为10d8。</p>"
     },
     "x01nc9rre7YOOWF2": {
@@ -3153,11 +3153,11 @@
       "description": "<p><strong>强化：</strong> 0</p><hr /><p>这种由维斯卡里姆大量生产的护甲，其厚重甲片中嵌有神秘的金属丝饰纹，会在穿戴者引导魔法时发光。每套法师板甲的核心都有一片附魔树皮，能弯折磁场，将其转化为防御性法术能量。</p>"
     },
     "xIyau4fBsCcoLB9x": {
-      "name": "完美型硬光缠手带 Hardlight Handwraps (Paragon)",
+      "name": "完美型实光缠手带 Hardlight Handwraps (Paragon)",
       "description": "<p><strong>强化模块</strong> 4</p><hr /><p>这些缠手带可以定制为在使用时发出可见光谱中的任意颜色，一些制造商还提供定制固件，使其外观变为爪、巨拳或锤头。它们甚至可以用其他方式穿戴在身体别的部位。这些缠手带会如同强化人造武器一样强化你的无武装攻击，让你能为无武装攻击添加一个强化模块。为此目的，将缠手带视为负载为轻的搏击武器组近战武器。</p>\n<p>你的无武装攻击获得追踪+3特征，伤害骰增加至四枚。</p>"
     },
     "xJBRvJHRz7KHAlpj": {
-      "name": "战术型硬光缠手带 Hardlight Handwraps (Tactical)",
+      "name": "战术型实光缠手带 Hardlight Handwraps (Tactical)",
       "description": "<p><strong>强化模块</strong> 1</p><hr /><p>这些缠手带可以定制为在使用时发出可见光谱中的任意颜色，一些制造商还提供定制固件，使其外观变为爪、巨拳或锤头。它们甚至可以用其他方式穿戴在身体别的部位。这些缠手带会如同强化人造武器一样强化你的无武装攻击，让你能为无武装攻击添加一个强化模块。为此目的，将缠手带视为负载为轻的搏击武器组近战武器。</p>\n<p>你的无武装攻击获得追踪+1特征。</p>"
     },
     "xKa81R2YkJwdgLPb": {
@@ -3257,7 +3257,7 @@
       "description": "<p><strong>强化：</strong> 1</p><hr /><p>这只手套配有数十种用于制造或修理计算机和其他科技物品的精巧工具，需要用整只手或合适的附肢操作。将多用手套的组件超频后，会在持用者的指尖之间产生电压。</p>"
     },
     "zQlnRRTdC4pdwCvi": {
-      "name": "菁英型闪光手雷 Flash Grenade (Elite)",
+      "name": "精英型闪光手雷 Flash Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]2轮</p><hr /><p>闪光手雷会释放出一阵刺眼的光芒，要求@Template[burst|distance:15]范围内的生物进行@Check[fortitude|against:class]豁免。豁免失败时，该生物@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]1轮，然后@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]1轮。</p>"
     },
     "zZfvCl6hcRMAiJQB": {
@@ -3300,7 +3300,7 @@
       "description": "<p>这种尖端符文网织物可以吸收并重定向生死的根本能量。</p>\n<p><strong>启动—吸收</strong> <span class=\"action-glyph\">r</span> （操作）</p>\n<p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 你将受到命能或虚能效应的伤害，或被其治疗</p>\n<p><strong>效果</strong> 你获得对触发伤害的抗力，数值等于你等级的四倍，或将你恢复的生命值减少同样数值。</p><hr /><p><strong>启动—重定向</strong> <span class=\"action-glyph\">1</span> 至 <span class=\"action-glyph\">3</span> （操作）</p>\n<p><strong>需求</strong> 自你上个回合结束以来，你使用过吸收反应</p>\n<p><strong>效果</strong> 你将吸收的能量反转并重新导向。你施放一个7环的 @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{伤害术} 或 @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{治疗术} 法术，所用动作数与你为此次启动花费的动作数相同。如果你吸收了虚能效果，就施放治疗术；如果吸收了命能效应，就施放伤害术。</p>"
     },
     "1HlR2Ec1ljuszoXg": {
-      "name": "菁英型抗毒剂 Antitoxin (Elite)",
+      "name": "精英型抗毒剂 Antitoxin (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>这种特制药物能够吸收并中和你血液中的毒素。你在对抗毒素的强韧豁免中获得+4物品加值，持续6小时。</p>\n<p>你对一个至多14级的毒素进行豁免。成功时，该毒素被中和。</p>"
     },
     "1MXxZIEWlvHKVbit": {
@@ -3336,16 +3336,16 @@
       "description": "<p>这根符文柱集成在你护甲上方便使用的位置。该 <em>法术重构矩阵</em> 内部捕获被浪费的魔法粒子，保持其能量，以备再次齐射。</p>\n<p><strong>启动—重构魔素</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 你使用法术位施放了一个升阶法术，而且所有法术攻击掷骰都失败或大失败，或者所有受影响生物对抗该法术的豁免检定都大成功</p>\n<p><strong>效果</strong> 矩阵捕获了部分被浪费的法术。你可以再次施放同一法术，环阶比原先施放的环阶低两环，且不消耗法术位。若该法术不能以此环阶施放，或你没有在下个回合结束前施放它，捕获的法术便会浪费。</p>"
     },
     "2mYm0yHiwJwcw3zg": {
-      "name": "菁英型造物胶囊 Creator Capsule (Elite)",
-      "description": "<p>造物胶囊是一台带可编程界面的小型3D打印机，让你能快速制作物品，使用 @UUID[Compendium.sf2e-anachronism.feats.Item.jiNuKNa9NcU27Bh2] 技能专长。与通常的制作不同，准备并完成此过程需要1分钟的工作，但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于造物胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个造物胶囊，但你仍然只进行一次制作检定。</p>"
+      "name": "精英型创造胶囊 Creator Capsule (Elite)",
+      "description": "<p>创造胶囊是一台带可编程界面的小型3D打印机，让你能快速制作物品，使用 @UUID[Compendium.sf2e-anachronism.feats.Item.jiNuKNa9NcU27Bh2] 技能专长。与通常的制作不同，准备并完成此过程需要1分钟的工作，但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于创造胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个创造胶囊，但你仍然只进行一次制作检定。</p>"
     },
     "2nsB5ELugA0gBy9b": {
-      "name": "完美型造物胶囊 Creator Capsule (Paragon)",
-      "description": "<p>造物胶囊是一台带可编程界面的小型3D打印机，让你能快速制作物品，使用 @UUID[Compendium.sf2e-anachronism.feats.Item.jiNuKNa9NcU27Bh2] 技能专长。与通常的制作不同，准备并完成此过程需要1分钟，而4级或更低等级的物品可以用一个1动作行动制作完成；但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于造物胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个造物胶囊，但你仍然只进行一次制作检定。</p>"
+      "name": "完美型创造胶囊 Creator Capsule (Paragon)",
+      "description": "<p>创造胶囊是一台带可编程界面的小型3D打印机，让你能快速制作物品，使用 @UUID[Compendium.sf2e-anachronism.feats.Item.jiNuKNa9NcU27Bh2] 技能专长。与通常的制作不同，准备并完成此过程需要1分钟，而4级或更低等级的物品可以用一个1动作行动制作完成；但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于创造胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个创造胶囊，但你仍然只进行一次制作检定。</p>"
     },
     "3NkggN0DKQbONvuU": {
-      "name": "菁英型自动驾驶仪 Autopilot (Elite)",
-      "description": "<p>自动驾驶仪广泛用于协约世界的各类载具。将自动驾驶仪安装到载具中需要10分钟；在此期间，它会自行校准并进行全面诊断，因此载具内不能有乘员。安装完成后，你可以使用通讯单元在20英里内远程操控载具。商用型自动驾驶仪的驾驶调整值为+20，进行驾驶技能检定时可以选择不掷骰，改为取得10加上其调整值的结果。</p>\n<p><strong>启动—自动驾驶</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>需求</strong> 自动驾驶仪已连接至一辆载具</p><hr /><p><strong>效果</strong> 自动驾驶仪对所连接的载具进行驾驶、加速或停车。</p>"
+      "name": "精英型自动驾驶程序 Autopilot (Elite)",
+      "description": "<p>自动驾驶程序广泛用于协约世界的各类载具。将自动驾驶程序安装到载具中需要10分钟；在此期间，它会自行校准并进行全面诊断，因此载具内不能有乘员。安装完成后，你可以使用通讯单元在20英里内远程操控载具。商用型自动驾驶程序的驾驶调整值为+20，进行驾驶技能检定时可以选择不掷骰，改为取得10加上其调整值的结果。</p>\n<p><strong>启动—自动驾驶</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>需求</strong> 自动驾驶程序已连接至一辆载具</p><hr /><p><strong>效果</strong> 自动驾驶程序对所连接的载具进行驾驶、加速或停车。</p>"
     },
     "3tFGGVRz7pU3cL3s": {
       "name": "零空间枪套 Null-Space Holster",
@@ -3360,7 +3360,7 @@
       "description": "<p>此护臂配有微型制造器，能够瞬间锻造临时武器。</p>\n<p><strong>启动—熔融终曲</strong> <span class=\"action-glyph\">1</span> （火焰、金属）</p>\n<p><strong>频率</strong> 每分钟一次</p>\n<p><strong>需求</strong> 你有一只空闲的手，且一个相邻生物在上一轮被重击</p>\n<p><strong>效果</strong> 你的护臂制造一件 @UUID[Compendium.sf2e-anachronism.equipment.Item.133i2CJObrpd3oHW]{先进型熔融刃} ，进入你的空闲手中，然后你使用它打击所需的生物。</p>"
     },
     "49Qja6ALTUaQuVIb": {
-      "name": "商用型化学储罐 Chem Tank (Commercial)"
+      "name": "商用型化学罐 Chem Tank (Commercial)"
     },
     "4C4X8J1VqATULgAy": {
       "name": "先进型独立阻挡机器人 Independent Obstructobot (Advanced)",
@@ -3379,7 +3379,7 @@
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 区域射击</p>\n<p><strong>重击</strong> @Damage[1d8[persistent,acid]]</p><hr /><p>此手雷爆炸时，其 @Template[burst|distance:20] 被一层腐蚀性强酸喷雾覆盖，造成酸蚀伤害，进行 @Check[reflex|against:class|basic] 豁免。</p>"
     },
     "55elqx7N7Upze3lR": {
-      "name": "商用型全频谱传感器组 Full-Spectrum Sensor Suite (Commercial)",
+      "name": "商用型全光谱传感器套件 Full-Spectrum Sensor Suite (Commercial)",
       "description": "<p>这组传感器通过安装在头盔上的抬头显示器，提供周围环境的详细信息。</p>\n<p><strong>启动—扫描</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得30尺范围的震颤感知作为模糊感官，持续10分钟。</p>"
     },
     "5HGhm21b38Tnxcj7": {
@@ -3414,7 +3414,7 @@
       "description": "<p>这种魔法网织物将残余魔力提炼为弹药。</p><hr /><p><strong>启动—传导弹药</strong> <span class=\"action-glyph\">f</span> （操作）</p>\n<p><strong>触发</strong> 你本回合上一个非戏法法术具有强酸、寒冷、电击、火焰、毒素或音波特征</p>\n<p><strong>效果</strong> 所安装武器的电池恢复2充能。若这会超出其弹匣的充能上限，该武器改为额外造成 @Damage[2[untyped]] 伤害，类型与触发伤害相同，持续至你下个回合结束。</p>"
     },
     "6Ac3Vkyp7V0xxRnr": {
-      "name": "菁英型电池 Battery (Elite)"
+      "name": "精英型电池 Battery (Elite)"
     },
     "6EZIKvgBVCuVsbCo": {
       "name": "飞盘发射器 Disc Thrower",
@@ -3429,12 +3429,12 @@
       "description": "<p>这面弧形盾牌呈阶梯状，仿照古典圆形剧场的层叠座席，使声波攻击被抬升并偏离盾牌持用者。</p>"
     },
     "76HBY71IRnDBt2xm": {
-      "name": "生物识别锁（语音识别） Biometric Lock (Voice Recognition)",
+      "name": "生物识别锁（声纹识别） Biometric Lock (Voice Recognition)",
       "description": "<p>生物识别锁用独特的身体特征作为通行钥匙。如果尝试绕过锁的生物有作为钥匙的特征样本或仿制品，需要进行的贼活检定次数可以减少；剩下的贼活检定代表正确使用这些伪造样本所需的技巧。</p>\n<p>绕过它需要四次成功的 @Check[computers|dc:26] 或 @Check[thievery|dc:30] 次检定；语音样本使所需的贼活检定次数减少2。</p>"
     },
     "770rM91qLlzblzXF": {
-      "name": "商用型键盘密码锁 Keypad Lock (Commercial)",
-      "description": "<p>门禁卡锁与键盘密码锁兼顾安全和便利，分别以芯片读卡器和数字密码取代商用型锁的钥匙。门禁卡锁所用的门禁卡是0级物品，价格为1信用点。</p>\n<p>绕过它需要两次成功的 @Check[computers|dc:20] 次检定，或一次成功的 @Check[thievery|dc:25] 检定。</p>"
+      "name": "商用型键盘锁 Keypad Lock (Commercial)",
+      "description": "<p>门禁卡锁与键盘锁兼顾安全和便利，分别以芯片读卡器和数字密码取代商用型锁的钥匙。门禁卡锁所用的门禁卡是0级物品，价格为1信用点。</p>\n<p>绕过它需要两次成功的 @Check[computers|dc:20] 次检定，或一次成功的 @Check[thievery|dc:25] 检定。</p>"
     },
     "7Rlz9ZmhAaGY2k0c": {
       "name": "战术型万古传送器 Aeon Transmitter (Tactical)",
@@ -3461,7 +3461,7 @@
       "description": "<p><strong>用法</strong> 已安装于计算机或通讯单元中；</p><hr /><p>这些芯片可以安装在通讯单元和其他计算机中，使设备能够施放法术。每台设备只能安装一枚法术芯片。从法术芯片施法时，你必须用一只手持握计算机或通讯单元，并用施法行动启动它，消耗该法术通常所需的动作数。该法术必须在你的法术列表中。由于施法者是你，因此使用你的法术攻击调整值和法术DC。该法术必须属于你的施法根源。如果法术需要施法载体（locus），从法术芯片施放时你仍然必须拥有该施法载体。法术芯片不能容纳戏法或仪式。此物品的特征随其中容纳的法术而变化。</p>\n<p>除了施法所消耗的充能，短时间内连续使用也可能毁坏法术芯片核心晶格中的精密组件。一天内尝试使用法术芯片超过一次，就必须将其超频。再次施放该法术，然后进行一次 @Check[flat|dc:10]。成功时，法术芯片破损。失败时，法术芯片被摧毁。如果任何人试图超频一枚在当天已经被超频过的法术芯片，该芯片都会自动被摧毁（即使已经修复），而且不会施放任何法术。</p>\n<p><strong>启动</strong> 施法</p>\n<p><strong>频率</strong> 每天一次，另可超频</p>\n<p><strong>效果</strong> 你以指定环阶施放该法术。</p>"
     },
     "8BvS0Cc9xoMQtNQh": {
-      "name": "商用型肾上腺抑制血清 Adrenosuppressant Serum (Commercial)",
+      "name": "商用型肾上腺素抑制血清 Adrenosuppressant Serum (Commercial)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>这种鲜粉色血清深受军队和佣兵公司的新兵青睐。使用血清后的一小时内，你在意志豁免中获得+1物品加值，对抗恐惧效应的意志豁免则获得+2物品加值。</p>"
     },
     "8Fk7Zhf7xdrrzun3": {
@@ -3513,7 +3513,7 @@
       "description": "<p>这种尖端符文网织物可以吸收并重定向生死的根本能量。</p>\n<p><strong>启动—吸收</strong> <span class=\"action-glyph\">r</span> （操作）</p>\n<p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 你将受到命能或虚能效应的伤害，或被其治疗</p>\n<p><strong>效果</strong> 你获得对触发伤害的抗力，数值等于你等级的四倍，或将你恢复的生命值减少同样数值。</p><hr /><p><strong>启动—重定向</strong> <span class=\"action-glyph\">1</span> 至 <span class=\"action-glyph\">3</span> （操作）</p>\n<p><strong>需求</strong> 自你上个回合结束以来，你使用过吸收反应</p>\n<p><strong>效果</strong> 你将吸收的能量反转并重新导向。你施放一个6环的 @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{伤害术} 或 @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{治疗术} 法术，所用动作数与你为此次启动花费的动作数相同。如果你吸收了虚能效果，就施放治疗术；如果吸收了命能效应，就施放伤害术。</p>"
     },
     "9y5C3x4r3AHbLRqt": {
-      "name": "菁英型抗生素 Antibiotic (Elite)",
+      "name": "精英型抗生素 Antibiotic (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>抗生素的配方有助于身体抵抗疾病。你在对抗疾病的强韧豁免中获得+4物品加值，持续24小时；此加值也适用于每天对抗疾病进展的豁免。</p>\n<p>你对一个至多14级的毒素进行豁免。成功时，该毒素被中和。</p>"
     },
     "A7dWszL0YjMnI4ru": {
@@ -3549,8 +3549,8 @@
       "description": "<p>这个发生器将你的移动转化为电能，为连接的电池充电。动能发电机产生1充能需要你移动10分钟；通常的日常活动提供的移动量就足以为发生器充能，但睡觉或静坐时不会产生充能。动能发电机一次可以容纳一块电池，安装或取下电池各需要一个交互动作。</p><hr /><p><strong>启动—短路</strong> <span class=\"action-glyph\">r</span> （电击）</p>\n<p><strong>触发</strong> 你被一个生物的近战攻击命中</p>\n<p><strong>需求</strong> 动能发电机上装有一块至少剩余10充能的电池</p>\n<p><strong>效果</strong> 你耗尽所装电池的全部充能，造成 @Damage[10d6[electricity]] 伤害，对触发生物（@Check[reflex|dc:34|basic] 豁免）。</p>"
     },
     "Akb28v1hvTgFWjeg": {
-      "name": "气溶胶喷嘴 Aerosol Spray Nozzle",
-      "description": "<p>这个雾化喷嘴利用气体压缩机将化学制剂喷成细雾。气溶胶喷雾器需要一个商用型化学储罐，必须另行购买。你可以消耗1份化学制剂，用一个交互动作将其喷入相邻方格。如果该方格中有隐形的生物、物体或光源，它会暂时变为可见，直到你的回合结束，不过该对象仍因隐形而处于隐蔽状态。</p>"
+      "name": "气雾喷嘴 Aerosol Spray Nozzle",
+      "description": "<p>这个雾化喷嘴利用气体压缩机将化学制剂喷成细雾。气溶胶喷雾器需要一个商用型化学罐，必须另行购买。你可以消耗1份化学制剂，用一个交互动作将其喷入相邻方格。如果该方格中有隐形的生物、物体或光源，它会暂时变为可见，直到你的回合结束，不过该对象仍因隐形而处于隐蔽状态。</p>"
     },
     "AmF4ApGgYVhwU04Z": {
       "name": "商用型强击水晶 Striking Crystal (Commercial)",
@@ -3565,8 +3565,8 @@
       "description": "<p>这些弹丸内置旋转喷射装置，飞行距离越远，速度就越快。攻击距离超过60尺的目标时，伤害获得等于武器伤害骰数量的环境加值（使用狙击武器时为武器伤害骰数量的两倍）。攻击距离超过120尺的目标时，伤害改为获得等于武器伤害骰数量两倍的环境加值（使用狙击武器时为武器伤害骰数量的三倍）。</p>"
     },
     "BJsogI1a5WSUHudq": {
-      "name": "狱锻板甲 Hellforged Plates",
-      "description": "<p>由以下授予 @UUID[Compendium.sf2e-anachronism.heritages.Item.fq0LdrPloPz63YBh].</p>\n<p>狱锻板甲是属于板甲组的中甲，提供AC的+5物品加值，敏捷上限为+0，检定减值为–3，速度减值为–10尺，力量值为+3。它具有舒适特征，你在自己的狱锻板甲上具有受训熟练度。你永远不能穿戴其他护甲，也不能移除狱锻板甲。你可以在狱锻板甲上蚀刻护甲符文。</p>"
+      "name": "狱铸板甲 Hellforged Plates",
+      "description": "<p>由以下授予 @UUID[Compendium.sf2e-anachronism.heritages.Item.fq0LdrPloPz63YBh].</p>\n<p>狱铸板甲是属于板甲组的中甲，提供AC的+5物品加值，敏捷上限为+0，检定减值为–3，速度减值为–10尺，力量值为+3。它具有舒适特征，你在自己的狱铸板甲上具有受训熟练度。你永远不能穿戴其他护甲，也不能移除狱铸板甲。你可以在狱铸板甲上蚀刻护甲符文。</p>"
     },
     "BPNh8roBSnuKXqYb": {
       "name": "巫洛格外壳 Urog Shell",
@@ -3585,7 +3585,7 @@
       "description": "<p>这些晶格状宝石悬置于硅制外壳内，编码着施放一个特定法术所需的魔法文字。从法术宝石施法时，你必须用一只手持握宝石，并用施法行动启动它，消耗该法术通常所需的动作数。该法术必须在你的法术列表中。由于施法者是你，因此使用你的法术攻击调整值和法术DC。该法术必须属于你的施法根源。法术宝石中的法术只能施放一次，且法术宝石会在施法过程中被摧毁。法术宝石不能容纳戏法或仪式。此物品的特征随其中容纳的法术而变化。</p>\n<p><strong>启动</strong> 施法</p>\n<p><strong>效果</strong> 你以指定环阶施放该法术。</p>"
     },
     "BZuMzxSN1Qg0vFPB": {
-      "name": "菁英型空腔耳膜 Hollowed Eardrums (Elite)",
+      "name": "精英型空腔耳膜 Hollowed Eardrums (Elite)",
       "description": "<p>你的耳膜填入了中空的死灵组织，能够开合，以保护你免受巨响伤害。</p>\n<p><strong>启动—闭合耳膜</strong> <span class=\"action-glyph\">1</span> 在1分钟内，你的耳膜闭合，使周围声音变得低沉。你获得音波伤害抗力15，并在对抗听觉效应的豁免中获得+1环境加值。即使处于以下状态，你也不会笨拙： @UUID[Compendium.sf2e-anachronism.conditions.Item.z1ucw4CLwLqHoAp3].</p>"
     },
     "BsWWpX7EvbSmcRt8": {
@@ -3617,16 +3617,16 @@
       "description": "<p>此模块为武器添加具有破坏性的纳米机器人。武器额外造成1d6酸蚀伤害。重击时，除非目标成功通过一次以下豁免，否则其AC还会承受–1状态减值，直到你的下个回合结束： @Check[fortitude|dc:24] 豁免。</p>"
     },
     "CUAwX0Fj5mVSX7ke": {
-      "name": "菁英型二元回路 Duality Circuit (Elite)",
+      "name": "精英型二元回路 Duality Circuit (Elite)",
       "description": "<p>这种尖端符文网织物可以吸收并重定向生死的根本能量。</p>\n<p><strong>启动—吸收</strong> <span class=\"action-glyph\">r</span> （操作）</p>\n<p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 你将受到命能或虚能效应的伤害，或被其治疗</p>\n<p><strong>效果</strong> 你获得对触发伤害的抗力，数值等于你等级的四倍，或将你恢复的生命值减少同样数值。</p><hr /><p><strong>启动—重定向</strong> <span class=\"action-glyph\">1</span> 至 <span class=\"action-glyph\">3</span> （操作）</p>\n<p><strong>需求</strong> 自你上个回合结束以来，你使用过吸收反应</p>\n<p><strong>效果</strong> 你将吸收的能量反转并重新导向。你施放一个5环的 @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{伤害术} 或 @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{治疗术} 法术，所用动作数与你为此次启动花费的动作数相同。如果你吸收了虚能效果，就施放治疗术；如果吸收了命能效应，就施放伤害术。</p>"
     },
     "CYNZnduBJCF6XCFs": {
-      "name": "商用型水下喷射器 Aqua Jets (Commercial)",
+      "name": "商用型喷水推进器 Aqua Jets (Commercial)",
       "description": "<p>螺旋桨、水下喷射器和其他水动力推进系统，增强你的水下机动性。</p>\n<p><strong>启动—推进</strong> <span class=\"action-glyph\">1</span></p><hr /><p><strong>效果</strong> 你启动推进系统，获得20尺游泳速度。此效果持续1分钟，或直到你将其解消。</p>"
     },
     "DMnQqPRDROpx9Nvj": {
-      "name": "战术型便捷修补器 Easypatcher (Tactical)",
-      "description": "<p>此强化模块装有微型机械臂和探测伤势的传感器。便捷修补器至多可装四张医疗贴，你可以用一个10分钟的活动将其装入。医疗贴的等级不能高于便捷修补器的等级，或护甲的等级，取二者中较高者。</p>\n<p><strong>启动—修补</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>需求</strong> 便捷修补器的隔舱中装有一张医疗贴</p><hr /><p><strong>效果</strong> 机械臂嘶鸣着从隔间中展开，将医疗贴敷在你的伤处，重现所消耗医疗贴的效果。医疗贴被消耗。</p>"
+      "name": "战术型便捷贴片 Easypatcher (Tactical)",
+      "description": "<p>此强化模块装有微型机械臂和探测伤势的传感器。便捷贴片至多可装四张医疗贴，你可以用一个10分钟的活动将其装入。医疗贴的等级不能高于便捷贴片的等级，或护甲的等级，取二者中较高者。</p>\n<p><strong>启动—修补</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>需求</strong> 便捷贴片的隔舱中装有一张医疗贴</p><hr /><p><strong>效果</strong> 机械臂嘶鸣着从隔间中展开，将医疗贴敷在你的伤处，重现所消耗医疗贴的效果。医疗贴被消耗。</p>"
     },
     "DVF8oy3d7qgPEAmw": {
       "name": "先进型残余能量导体 Residual Energy Conductor (Advanced)",
@@ -3645,12 +3645,12 @@
       "description": "<p><em>记忆编辑器</em> 由一系列复杂的虚拟现实程序、异能符文、脑植入注射器和电子肌肉刺激器组成，能够在梦中改写经历，并改变肌肉记忆以学习新技能。你知道新记忆是虚假的，但它们比仍可模糊回忆的旧记忆更加鲜明。如果你佩戴记忆编辑器并连续睡满8小时，醒来时就视同已经花费一个月休整期进行重训。其精密的魔法科技结构会在使用后损坏；一些都市传说声称，未被妥善处置的记忆编辑器中，被替换的记忆仍有可能被找回。</p>"
     },
     "ETagvhKrOu2Pe36x": {
-      "name": "先进型激光栅格 Laser Grid (Advanced)",
-      "description": "<p>这些栅格以明亮的激光网围护重要物品或保卫走廊。花费10分钟，可以安装一道激光栅格，覆盖至多30尺宽、30尺高的区域。可以将更多同型激光栅格组合起来扩大覆盖范围。激光栅格可以设为发射不可见光束，需要成功通过 @Check[perception|dc:30] 检定，才能在尚未察觉激光的情况下发现它们。进行 [[/act seek]] 以发现不可见激光栅格时，若有雾、薄雾、烟尘或其他悬浮颗粒，其察觉DC降低5。若没有外部电源，每道激光栅格需要一块同品质或更高品质的电池，触发时消耗5充能（若只发出警报则消耗1充能）。</p>\n<p><strong>启动—破坏光束</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>触发</strong> 一个生物或物体穿过两个发射器之间的激光束，使其被阻断</p><hr /><p><strong>效果</strong> 警报信号启动，造成 @Damage[(2d8+3)[slashing],(3d8+3)[fire]] 伤害， @Check[reflex|dc:28|basic] 豁免；</p>\n<p><strong>解除</strong>@Check[thievery|dc:32].</p>"
+      "name": "先进型激光网 Laser Grid (Advanced)",
+      "description": "<p>这些栅格以明亮的激光网围护重要物品或保卫走廊。花费10分钟，可以安装一道激光网，覆盖至多30尺宽、30尺高的区域。可以将更多同型激光网组合起来扩大覆盖范围。激光网可以设为发射不可见光束，需要成功通过 @Check[perception|dc:30] 检定，才能在尚未察觉激光的情况下发现它们。进行 [[/act seek]] 以发现不可见激光网时，若有雾、薄雾、烟尘或其他悬浮颗粒，其察觉DC降低5。若没有外部电源，每道激光网需要一块同品质或更高品质的电池，触发时消耗5充能（若只发出警报则消耗1充能）。</p>\n<p><strong>启动—破坏光束</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>触发</strong> 一个生物或物体穿过两个发射器之间的激光束，使其被阻断</p><hr /><p><strong>效果</strong> 警报信号启动，造成 @Damage[(2d8+3)[slashing],(3d8+3)[fire]] 伤害， @Check[reflex|dc:28|basic] 豁免；</p>\n<p><strong>解除</strong>@Check[thievery|dc:32].</p>"
     },
     "EffooqsdGkmoagnQ": {
-      "name": "战术型自动驾驶仪 Autopilot (Tactical)",
-      "description": "<p>自动驾驶仪广泛用于协约世界的各类载具。将自动驾驶仪安装到载具中需要10分钟；在此期间，它会自行校准并进行全面诊断，因此载具内不能有乘员。安装完成后，你可以使用通讯单元在20英里内远程操控载具。商用型自动驾驶仪的驾驶调整值为+6，进行驾驶技能检定时可以选择不掷骰，改为取得10加上其调整值的结果。</p>\n<p><strong>启动—自动驾驶</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>需求</strong> 自动驾驶仪已连接至一辆载具</p><hr /><p><strong>效果</strong> 自动驾驶仪对所连接的载具进行驾驶、加速或停车。</p>"
+      "name": "战术型自动驾驶程序 Autopilot (Tactical)",
+      "description": "<p>自动驾驶程序广泛用于协约世界的各类载具。将自动驾驶程序安装到载具中需要10分钟；在此期间，它会自行校准并进行全面诊断，因此载具内不能有乘员。安装完成后，你可以使用通讯单元在20英里内远程操控载具。商用型自动驾驶程序的驾驶调整值为+6，进行驾驶技能检定时可以选择不掷骰，改为取得10加上其调整值的结果。</p>\n<p><strong>启动—自动驾驶</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>需求</strong> 自动驾驶程序已连接至一辆载具</p><hr /><p><strong>效果</strong> 自动驾驶程序对所连接的载具进行驾驶、加速或停车。</p>"
     },
     "EgZovDyIWDHaho5S": {
       "name": "商用型二元回路 Duality Circuit (Commercial)",
@@ -3677,7 +3677,7 @@
       "description": "<p>这些是替换开锁工具，用于 @UUID[Compendium.sf2e-anachronism.equipment.Item.coJUVZGcuVg3FoYh].</p>"
     },
     "FFIH71vn6P2Hpqye": {
-      "name": "菁英型腐蚀手雷 Corossive Grenade (Elite)",
+      "name": "精英型腐蚀手雷 Corossive Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 区域射击</p>\n<p><strong>重击</strong> @Damage[1d6[persistent,acid]]</p><hr /><p>此手雷爆炸时，其 @Template[burst|distance:15] 被一层腐蚀性强酸喷雾覆盖，造成酸蚀伤害，进行 @Check[reflex|against:class|basic] 豁免。</p>"
     },
     "FJ7EOlmjgYSRWZMv": {
@@ -3685,11 +3685,11 @@
       "description": "<p><strong>强化：</strong> 1</p><hr /><p>这只爪形手套的指尖是锋利钢刺，其中微量星金合金的过热脉络使其发出鲜红光芒。</p>"
     },
     "FM97Pfj6jWJSSiK0": {
-      "name": "生命服 Lifesuit",
-      "description": "<p>这件全身服装提供基本的环境防护。生命服的环境防护持续10天，并可加装一块电池，每点充能额外提供1天防护。</p>"
+      "name": "维生服 Lifesuit",
+      "description": "<p>这件全身服装提供基本的环境防护。维生服的环境防护持续10天，并可加装一块电池，每点充能额外提供1天防护。</p>"
     },
     "FoA5xELBKc7zeRH5": {
-      "name": "菁英型动能发电机 Kinetic Generator (Elite)",
+      "name": "精英型动能发电机 Kinetic Generator (Elite)",
       "description": "<p>这个发生器将你的移动转化为电能，为连接的电池充电。动能发电机产生1充能需要你移动10分钟；通常的日常活动提供的移动量就足以为发生器充能，但睡觉或静坐时不会产生充能。动能发电机一次可以容纳一块电池，安装或取下电池各需要一个交互动作。</p><hr /><p><strong>启动—短路</strong> <span class=\"action-glyph\">r</span> （电击）</p>\n<p><strong>触发</strong> 你被一个生物的近战攻击命中</p>\n<p><strong>需求</strong> 动能发电机上装有一块至少剩余10充能的电池</p>\n<p><strong>效果</strong> 你耗尽所装电池的全部充能，造成 @Damage[14d6[electricity]] 伤害，对触发生物（@Check[reflex|dc:41|basic] 豁免）。</p>"
     },
     "FtXDw1QyZz3CJoKX": {
@@ -3721,8 +3721,8 @@
       "description": "<p>此强化模块将一个能量护盾发生器嵌入武器中。武器获得格挡特征。以此武器摆出防御架势时获得的AC环境加值提高至+2。</p>"
     },
     "GoOXgHhuGVz5HCwM": {
-      "name": "悍将破城甲 Myrmidon Siegebreaker",
-      "description": "<p><strong>强化：</strong> 1</p><hr /><p>悍将破城甲旨在提供个人防护的巅峰，将穿戴者变成行走的坦克。其设计足以经受极端猛烈的攻击，并从中安然走出。这种防护以牺牲机动性为代价，因此穿戴破城甲的士兵通常直接空投至前线，以尽量减小这一限制。</p>"
+      "name": "密耳弥多涅破城板甲 Myrmidon Siegebreaker",
+      "description": "<p><strong>强化：</strong> 1</p><hr /><p>密耳弥多涅破城板甲旨在提供个人防护的巅峰，将穿戴者变成行走的坦克。其设计足以经受极端猛烈的攻击，并从中安然走出。这种防护以牺牲机动性为代价，因此穿戴破城甲的士兵通常直接空投至前线，以尽量减小这一限制。</p>"
     },
     "HRpZtAdpSg12N9n0": {
       "name": "商用型光量子水晶 Photon Crystal (Commercial)",
@@ -3761,15 +3761,15 @@
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 区域射击</p>\n<p><strong>重击</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1} ，当 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心} ，由瘴气手雷造成</p><hr /><p>这种手雷装满非致命化学混合物，释放后会散发难闻的有毒气味。治安人员用它们在人口密集的城区安全地平息骚乱和解救人质。如果你拥有手雷的重击专精效果，对瘴气手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙}.</p>\n<p>爆发半径为 @Template[burst|distance:10]，失败时该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 2}.</p>"
     },
     "IUiv47RR3WsYW5jM": {
-      "name": "先进型造物胶囊 Creator Capsule (Advanced)",
-      "description": "<p>造物胶囊是一台带可编程界面的小型3D打印机，让你能快速制作物品，使用 @UUID[Compendium.sf2e-anachronism.feats.Item.jiNuKNa9NcU27Bh2] 技能专长。与通常的制作不同，准备并完成此过程需要1小时的工作，但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于造物胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个造物胶囊，但你仍然只进行一次制作检定。</p>"
+      "name": "先进型创造胶囊 Creator Capsule (Advanced)",
+      "description": "<p>创造胶囊是一台带可编程界面的小型3D打印机，让你能快速制作物品，使用 @UUID[Compendium.sf2e-anachronism.feats.Item.jiNuKNa9NcU27Bh2] 技能专长。与通常的制作不同，准备并完成此过程需要1小时的工作，但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于创造胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个创造胶囊，但你仍然只进行一次制作检定。</p>"
     },
     "IYuiqL9eyIh6lZyg": {
-      "name": "卓越型自动驾驶仪 Autopilot (Superior)",
-      "description": "<p>自动驾驶仪广泛用于协约世界的各类载具。将自动驾驶仪安装到载具中需要10分钟；在此期间，它会自行校准并进行全面诊断，因此载具内不能有乘员。安装完成后，你可以使用通讯单元在20英里内远程操控载具。商用型自动驾驶仪的驾驶调整值为+17，进行驾驶技能检定时可以选择不掷骰，改为取得10加上其调整值的结果。</p>\n<p><strong>启动—自动驾驶</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>需求</strong> 自动驾驶仪已连接至一辆载具</p><hr /><p><strong>效果</strong> 自动驾驶仪对所连接的载具进行驾驶、加速或停车。</p>"
+      "name": "卓越型自动驾驶程序 Autopilot (Superior)",
+      "description": "<p>自动驾驶程序广泛用于协约世界的各类载具。将自动驾驶程序安装到载具中需要10分钟；在此期间，它会自行校准并进行全面诊断，因此载具内不能有乘员。安装完成后，你可以使用通讯单元在20英里内远程操控载具。商用型自动驾驶程序的驾驶调整值为+17，进行驾驶技能检定时可以选择不掷骰，改为取得10加上其调整值的结果。</p>\n<p><strong>启动—自动驾驶</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>需求</strong> 自动驾驶程序已连接至一辆载具</p><hr /><p><strong>效果</strong> 自动驾驶程序对所连接的载具进行驾驶、加速或停车。</p>"
     },
     "IlVMNMvaAA5eiZes": {
-      "name": "先进型肾上腺抑制血清 Adrenosuppressant Serum (Advanced)",
+      "name": "先进型肾上腺素抑制血清 Adrenosuppressant Serum (Advanced)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>这种鲜粉色血清深受军队和佣兵公司的新兵青睐。使用血清后的一小时内，你在意志豁免中获得+3物品加值，对抗恐惧效应的意志豁免则获得+4物品加值。</p>"
     },
     "J3ygsy3ZyOMfo6bo": {
@@ -3788,7 +3788,7 @@
       "name": "实弹弹药 Projectile Ammo"
     },
     "JXhEqbM57RQmwYvq": {
-      "name": "菁英型独立阻挡机器人 Independent Obstructobot (Elite)",
+      "name": "精英型独立阻挡机器人 Independent Obstructobot (Elite)",
       "description": "<p>这台环绕用户运行的微型机器人会保护其用户。你可以在没有空手的情况下使用独立阻挡机器人举盾（AC+2，硬度7，生命值74，破损阈值37）。这台微型机器人的控制装置必须安装在你的护甲中，并占用一个护甲强化槽。</p>\n<p><strong>启动—重构力场</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>频率</strong> 每轮一次</p><hr /><p><strong>效果</strong> 你举盾，并从钝击、穿刺和挥砍中选择两种。盾牌获得针对这些伤害类型的偏转特征，持续10分钟，或直到你再次重构力场，以先发生者为准。</p>"
     },
     "JdBYoPRqFhVWoJFi": {
@@ -3824,8 +3824,8 @@
       "description": "<p>安装在腰带或肢体绑带上的全息投影器可以用一个交互动作启动。你可将其设定为投射出与你体型类别相同的另一生物的外观，以隐藏自己的真实外貌。全息皮肤不会改变你的声音、气味或举止。持握和穿戴物品的外观也不受影响。通常你需要用全息皮肤准备伪装，才能 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装} 他人（使用欺骗技能）。</p>"
     },
     "K9M8bBNL1ygWgm07": {
-      "name": "终极型造物胶囊 Creator Capsule (Ultimate)",
-      "description": "<p>造物胶囊是一台带有可编程界面的3D小型打印机，让你能使用制造者技能专长快速制作物品。与通常的制作不同，准备并完成此过程需要1分钟，而1级或更低等级的物品可以用一个3动作行动制作完成；但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于造物胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个造物胶囊，但你仍然只进行一次制作检定。</p>"
+      "name": "终极型创造胶囊 Creator Capsule (Ultimate)",
+      "description": "<p>创造胶囊是一台带有可编程界面的3D小型打印机，让你能使用制造者技能专长快速制作物品。与通常的制作不同，准备并完成此过程需要1分钟，而1级或更低等级的物品可以用一个3动作行动制作完成；但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于创造胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个创造胶囊，但你仍然只进行一次制作检定。</p>"
     },
     "KDLa7VIQJfE74bHK": {
       "name": "战术生物扫描仪 Tactical Bioscanner",
@@ -3836,8 +3836,8 @@
       "description": "<p>这种先进温湿度调节技术在卡萨斯（Kasath）开发。你受到防护，不受炎热影响；在缺水环境中，你能坚持正常时间的四倍才开始受到伤害。</p>\n<p><strong>启动—排气</strong> <span class=\"action-glyph\">2</span> （操作、水）</p>\n<p><strong>频率</strong> 每天一次</p>\n<p><strong>效果</strong> 你释放储存的热量和蒸汽，范围为 @Template[type:cone|distance:15]，使区域内充满薄雾，持续1分钟。雾中的所有生物获得 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，且雾内生物会将雾外所有生物视为隐蔽。</p>"
     },
     "KV9G6sAR1xshdV1w": {
-      "name": "神经摄像机 Neurocam",
-      "description": "<p><strong>启动</strong> 10分钟</p><hr /><p>这顶古怪的头盔上布满闪光灯和可调节绑带，并配有遮住双眼的眼罩。启动时，设备会扫描你的大脑，将其数字副本存入一张特制记忆卡。该记忆卡可以配合记忆编辑器使用，将你的大脑恢复到记录时的状态。这会追溯恢复所有因重训而改变的选项；但如果你在使用神经摄像机后提升了角色等级，并选择了如今已不再符合条件的选项，记忆编辑器就会调整你的记忆以进行补偿，而你可以立即选择新的选项。</p>\n<p>某些施法者将神经摄像机用作@UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{复活术}仪式的组件，让亲爱之人以活体全息影像或SRO的形式归来，尤其是在目标的死因涉及格外痛苦的记忆时。</p>"
+      "name": "神经记录仪 Neurocam",
+      "description": "<p><strong>启动</strong> 10分钟</p><hr /><p>这顶古怪的头盔上布满闪光灯和可调节绑带，并配有遮住双眼的眼罩。启动时，设备会扫描你的大脑，将其数字副本存入一张特制记忆卡。该记忆卡可以配合记忆编辑器使用，将你的大脑恢复到记录时的状态。这会追溯恢复所有因重训而改变的选项；但如果你在使用神经记录仪后提升了角色等级，并选择了如今已不再符合条件的选项，记忆编辑器就会调整你的记忆以进行补偿，而你可以立即选择新的选项。</p>\n<p>某些施法者将神经记录仪用作@UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{复活术}仪式的组件，让亲爱之人以活体全息影像或SRO的形式归来，尤其是在目标的死因涉及格外痛苦的记忆时。</p>"
     },
     "KXiAqRbBoj26LmAB": {
       "name": "美貌屏障 Beauty Barrier",
@@ -3853,17 +3853,17 @@
     },
     "KbBhl5IEb91IVN8b": {
       "name": "先进型熔融护臂 Molten Vambrace (Advanced)",
-      "description": "<p>此护臂配有微型制造器，能够瞬间锻造临时武器。</p>\n<p><strong>启动—熔融终曲</strong> <span class=\"action-glyph\">1</span> （火焰、金属）</p>\n<p><strong>频率</strong> 每分钟一次</p>\n<p><strong>需求</strong> 你有一只空闲的手，且一个相邻生物在上一轮被重击</p>\n<p><strong>效果</strong> 你的护臂制造一件 @UUID[Compendium.sf2e-anachronism.equipment.Item.133i2CJObrpd3oHW]{菁英型熔融刃} ，进入你的空闲手中，然后你使用它打击所需的生物。</p>"
+      "description": "<p>此护臂配有微型制造器，能够瞬间锻造临时武器。</p>\n<p><strong>启动—熔融终曲</strong> <span class=\"action-glyph\">1</span> （火焰、金属）</p>\n<p><strong>频率</strong> 每分钟一次</p>\n<p><strong>需求</strong> 你有一只空闲的手，且一个相邻生物在上一轮被重击</p>\n<p><strong>效果</strong> 你的护臂制造一件 @UUID[Compendium.sf2e-anachronism.equipment.Item.133i2CJObrpd3oHW]{精英型熔融刃} ，进入你的空闲手中，然后你使用它打击所需的生物。</p>"
     },
     "LDwvJyV0tSiHDJjW": {
       "name": "商用型灵能屏蔽 Psychic Shielding (Commercial)",
       "description": "<p>这套护甲具有精心附魔的内衬，可以阻止灵能侵入和心灵伤害。你获得心灵伤害抗力5。</p>\n<p><strong>启动—净化心灵</strong> <span class=\"action-glyph\">r</span> （专注、操作）</p>\n<p><strong>频率</strong> 每天一次</p>\n<p><strong>触发</strong> 你获得 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞} 状态</p><hr /><p><strong>效果</strong> 触发的呆滞状态值降低1；若因此降至0，你便不再呆滞。</p>"
     },
     "LMBwav4NYaXPDvxF": {
-      "name": "卓越型化学储罐 Chem Tank (Superior)"
+      "name": "卓越型化学罐 Chem Tank (Superior)"
     },
     "LSSDx7G6gSdadCbQ": {
-      "name": "菁英型恶臭手雷 Miasmatic Grenade (Elite)",
+      "name": "精英型恶臭手雷 Miasmatic Grenade (Elite)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 区域射击</p>\n<p><strong>重击</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 2} ，当 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心} ，由瘴气手雷造成</p><hr /><p>这种手雷装满非致命化学混合物，释放后会散发难闻的有毒气味。治安人员用它们在人口密集的城区安全地平息骚乱和解救人质。如果你拥有手雷的重击专精效果，对瘴气手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙}.</p>\n<p>爆发半径为 @Template[burst|distance:20]，失败时该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 3}.</p>"
     },
     "LaJJ1yQ7GKzK5bCi": {
@@ -3883,7 +3883,7 @@
       "description": "<p><strong>强化：</strong> 1</p><hr /><p>此圆盘经过改装，投出时会生成锋利无比的环形硬光刃。异星考古学家发现了一些证据，显示某些古董激光圆盘可能曾是一种简陋的数据存储媒介，不过要找到能读取这些数据的设备恐怕很困难。</p>"
     },
     "M3L1Y9RdyCUYQ9nR": {
-      "name": "菁英型镖弹发射器 Flechette Launcher (Elite)",
+      "name": "精英型镖弹发射器 Flechette Launcher (Elite)",
       "description": "<p>这台通常安装在肩部的弹出式发射器能够发射箭形弹。镖弹发射器可以容纳十五发标准射弹弹药。重新装填十分费工，只能在每日准备期间进行。</p><hr /><p><strong>启动—弹幕</strong> <span class=\"action-glyph\">3</span> （操作）</p>\n<p><strong>需求</strong> 镖弹发射器中至少装有一发弹筒</p>\n<p><strong>效果</strong> 你发射任意数量的弹筒。每发弹筒自动命中120尺内的一个生物，造成 @Damage[(1d4+1)[piercing]] 伤害。若多枚镖弹命中同一目标，先合并伤害，再应用抗力、弱点等。</p>"
     },
     "MAiM3mhqcM9cu4Su": {
@@ -3911,8 +3911,8 @@
       "description": "<p>这辆精细的压铸金属卡车能放在掌心，看起来不过是高档玩具或收藏模型。然而，只需一句命令词，它就能瞬间展开为全尺寸、功能齐全的载具。火箱卡车款式繁多，但数据完全相同。</p><hr /><p><strong>启动—展开</strong> <span class=\"action-glyph\">2</span> （专注、操作）</p>\n<p><strong>频率</strong> 每天一次</p>\n<p><strong>需求</strong> 卡车处于微型形态，且有足够空间容纳其载具形态</p>\n<p><strong>效果</strong> 火箱卡车立即在你身旁展开为正常大小。载具形态下，火箱卡车使用全地形沙丘车的数据。</p><hr /><p><strong>启动—收缩</strong> <span class=\"action-glyph\">1</span> （专注、操作）</p>\n<p><strong>需求</strong> 卡车处于载具形态</p>\n<p><strong>效果</strong> 火箱卡车立即缩为微型，出现在你手中。任何乘客都出现在与你相邻的空间。</p>"
     },
     "NALcDAMUKlqdj8oG": {
-      "name": "商用型自动驾驶仪 Autopilot (Commercial)",
-      "description": "<p>自动驾驶仪广泛用于协约世界的各类载具。将自动驾驶仪安装到载具中需要10分钟；在此期间，它会自行校准并进行全面诊断，因此载具内不能有乘员。安装完成后，你可以使用通讯单元在20英里内远程操控载具。商用型自动驾驶仪的驾驶调整值为+4，进行驾驶技能检定时可以选择不掷骰，改为取得10加上其调整值的结果。</p>\n<p><strong>启动—自动驾驶</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>需求</strong> 自动驾驶仪已连接至一辆载具</p><hr /><p><strong>效果</strong> 自动驾驶仪对所连接的载具进行驾驶、加速或停车。</p>"
+      "name": "商用型自动驾驶程序 Autopilot (Commercial)",
+      "description": "<p>自动驾驶程序广泛用于协约世界的各类载具。将自动驾驶程序安装到载具中需要10分钟；在此期间，它会自行校准并进行全面诊断，因此载具内不能有乘员。安装完成后，你可以使用通讯单元在20英里内远程操控载具。商用型自动驾驶程序的驾驶调整值为+4，进行驾驶技能检定时可以选择不掷骰，改为取得10加上其调整值的结果。</p>\n<p><strong>启动—自动驾驶</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>需求</strong> 自动驾驶程序已连接至一辆载具</p><hr /><p><strong>效果</strong> 自动驾驶程序对所连接的载具进行驾驶、加速或停车。</p>"
     },
     "NLunWP4dHcxInQ9x": {
       "name": "先进型示踪矩阵投影器 Tracer Matrix Projector (Advanced)",
@@ -3935,8 +3935,8 @@
       "description": "<p>这个不起眼的小型适配器装有硬光投影器，可呈现盾牌形态（AC+1、硬度8、生命值98、破损阈值49）。</p>\n<p><strong>启动—系统维护</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每10分钟一次</p><hr /><p><strong>效果</strong> 防火墙投影器使其自身或其所安装装备的@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]状态数值降低3。</p>"
     },
     "OFbPeVL84spTiJWV": {
-      "name": "卓越型造物胶囊 Creator Capsule (Superior)",
-      "description": "<p>造物胶囊是一台带可编程界面的小型3D打印机，让你能快速制作物品，所用能力为 @UUID[Compendium.sf2e-anachronism.feats.Item.jiNuKNa9NcU27Bh2] 技能专长。与通常的制作不同，准备并完成此过程需要10分钟的工作，但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于造物胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个造物胶囊，但你仍然只进行一次制作检定。</p>"
+      "name": "卓越型创造胶囊 Creator Capsule (Superior)",
+      "description": "<p>创造胶囊是一台带可编程界面的小型3D打印机，让你能快速制作物品，所用能力为 @UUID[Compendium.sf2e-anachronism.feats.Item.jiNuKNa9NcU27Bh2] 技能专长。与通常的制作不同，准备并完成此过程需要10分钟的工作，但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于创造胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个创造胶囊，但你仍然只进行一次制作检定。</p>"
     },
     "OQVB8NClF4GxYnlp": {
       "name": "霜喉 Frostmaw",
@@ -3955,7 +3955,7 @@
       "description": "<p><strong>强化：</strong> 1</p><hr /><p>这把精金匕首的底部折叠着一片可燃材料，可以使用刀鞘内的遥控器远程引爆。当你成功打击一个生物，且所用武器是一把<em>爆破刀</em>时，你可以花费一个反应动作松开刀，使其嵌入目标体内。生物必须花费一个交互动作，才能移除嵌入体内的<em>爆破刀</em>。</p>\n<p><strong>启动—遥控引爆</strong> <span class=\"action-glyph\">1</span> （火焰、操作）</p>\n<p><strong>频率</strong> 每10分钟一次</p>\n<p><strong>效果</strong> 你的爆破刀爆炸，造成@Damage[1d6[fire]|options:area-damage]伤害，影响@Template[type:emanation|distance:10]内的所有生物；如果刀嵌在一个目标体内，则改为每颗武器伤害骰造成@Damage[2d6[fire]|options:area-damage]伤害。生物以基础反射豁免对抗你的职业DC。随后，刀会灵巧地返回刀鞘，安全避开沿途的生物与障碍物。</p>"
     },
     "OypV6fQRmh5bS7aN": {
-      "name": "商用型行动力增强器（殖装） Mobility Enhancer (Augmentation, Commercial)",
+      "name": "商用型移动强化器（殖装） Mobility Enhancer (Augmentation, Commercial)",
       "description": "<p>你的鳍片、翅膀或挖掘臂各处都安装了电控机械强化装置和合成纳米肌肉纤维。安装此殖装时，从你的掘地、攀爬、飞行或游泳速度中选择一项，使其获得+5尺物品加值。你不能选择自己没有的速度，也不能选择来自另一种殖装等临时来源的速度。</p>"
     },
     "OzQR0yvCRu7S1QPE": {
@@ -3990,8 +3990,8 @@
       "description": "<p>此强化模块为武器充能，制造冲击波。当你用此武器取得重击时，会创造一道冲击波，范围为 @Template[type:burst|distance:20] ，以打击目标所占空间上由你选择的一角为起点；或者，若你使用主要目标职业能力取得重击，冲击波改用你区域射击的区域。区域内的生物受到 @Damage[4d6[bludgeoning]|options:area-damage] 伤害（@Check[reflex|dc:30|basic] 豁免），豁免大失败的生物被从区域中心向外推开10尺。这是强制移动。</p>"
     },
     "QXTjS9nzozhGekz4": {
-      "name": "战术型键盘密码锁 Keypad Lock (Tactical)",
-      "description": "<p>门禁卡锁与键盘密码锁兼顾安全和便利，分别以芯片读卡器和数字密码取代商用型锁的钥匙。门禁卡锁所用的门禁卡是0级物品，价格为1信用点。</p>\n<p>绕过它需要四次成功的 @Check[computers|dc:25] 检定，或两次成功的 @Check[thievery|dc:30] 检定。</p>"
+      "name": "战术型键盘锁 Keypad Lock (Tactical)",
+      "description": "<p>门禁卡锁与键盘锁兼顾安全和便利，分别以芯片读卡器和数字密码取代商用型锁的钥匙。门禁卡锁所用的门禁卡是0级物品，价格为1信用点。</p>\n<p>绕过它需要四次成功的 @Check[computers|dc:25] 检定，或两次成功的 @Check[thievery|dc:30] 检定。</p>"
     },
     "Qar4Grvi2yscqeKT": {
       "name": "战术型防火墙投影器 Firewall Projector (Tactical)",
@@ -4030,7 +4030,7 @@
       "description": "<p>生物识别锁用独特的身体特征作为通行钥匙。如果尝试绕过锁的生物有作为钥匙的特征样本或仿制品，需要进行的贼活检定次数可以减少；剩下的贼活检定代表正确使用这些伪造样本所需的技巧。</p>\n<p>绕过它需要三次成功的 @Check[computers|dc:24] 或 @Check[thievery|dc:27] 检定；视网膜仿制品使所需的贼活检定次数减少2。</p>"
     },
     "RvFZOeBEmug8Asbw": {
-      "name": "菁英型残余能量导体 Residual Energy Conductor (Elite)",
+      "name": "精英型残余能量导体 Residual Energy Conductor (Elite)",
       "description": "<p>这种魔法网织物将残余魔力提炼为弹药。</p><hr /><p><strong>启动—传导弹药</strong> <span class=\"action-glyph\">f</span> （操作）</p>\n<p><strong>触发</strong> 你本回合上一个非戏法法术具有强酸、寒冷、电击、火焰、毒素或音波特征</p>\n<p><strong>效果</strong> 所安装武器的电池恢复5充能。若这会超出其弹匣的充能上限，该武器改为额外造成 @Damage[5[untyped]] 伤害，类型与触发伤害相同，持续至你下个回合结束。</p>"
     },
     "SABSMZF33dAH1SRy": {
@@ -4066,10 +4066,10 @@
       "description": "<p><strong>用法</strong> 已安装于计算机或通讯单元中；</p><hr /><p>这些芯片可以安装在通讯单元和其他计算机中，使设备能够施放法术。每台设备只能安装一枚法术芯片。从法术芯片施法时，你必须用一只手持握计算机或通讯单元，并用施法行动启动它，消耗该法术通常所需的动作数。该法术必须在你的法术列表中。由于施法者是你，因此使用你的法术攻击调整值和法术DC。该法术必须属于你的施法根源。如果法术需要施法载体（locus），从法术芯片施放时你仍然必须拥有该施法载体。法术芯片不能容纳戏法或仪式。此物品的特征随其中容纳的法术而变化。</p>\n<p>除了施法所消耗的充能，短时间内连续使用也可能毁坏法术芯片核心晶格中的精密组件。一天内尝试使用法术芯片超过一次，就必须将其超频。再次施放该法术，然后进行一次 @Check[flat|dc:10]。成功时，法术芯片破损。失败时，法术芯片被摧毁。如果任何人试图超频一枚在当天已经被超频过的法术芯片，该芯片都会自动被摧毁（即使已经修复），而且不会施放任何法术。</p>\n<p><strong>启动</strong> 施法</p>\n<p><strong>频率</strong> 每天一次，另可超频</p>\n<p><strong>效果</strong> 你以指定环阶施放该法术。</p>"
     },
     "TGmKOBG0V73uensD": {
-      "name": "菁英型化学储罐 Chem Tank (Elite)"
+      "name": "精英型化学罐 Chem Tank (Elite)"
     },
     "TrFdbXpE4BQsxQ3T": {
-      "name": "战术型行动力增强器（殖装） Mobility Enhancer (Augmentation, Tactical)",
+      "name": "战术型移动强化器（殖装） Mobility Enhancer (Augmentation, Tactical)",
       "description": "<p>你的鳍片、翅膀或挖掘臂各处都安装了电控机械强化装置和合成纳米肌肉纤维。安装此殖装时，从你的掘地、攀爬、飞行或游泳速度中选择一项，使其获得+10尺物品加值。你不能选择自己没有的速度，也不能选择来自另一种殖装等临时来源的速度。</p>"
     },
     "Tsdd09IhpCtZDTkv": {
@@ -4077,7 +4077,7 @@
       "description": "<p>这个先进约束单元储存并引导纠缠的漂流粒子，让你移动时能短暂闪入漂流域。当你成功 [[/act tumble-through]] 一个生物的空间时，不将其方格视为困难地形。</p>\n<p>你可以用一个10分钟活动，将此护甲强化模块调谐至一台你能实体接触的漂流引擎，进一步增强中继器的能力。</p>\n<p><strong>启动—跃迁</strong> <span class=\"action-glyph\">2</span></p>\n<p><strong>频率</strong> 每天一次</p>\n<p><strong>需求</strong> 你位于一台已调谐、正常运作的漂流引擎的行星范围内</p><hr /><p><strong>效果</strong> 你穿越空间，获得5环 @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{次元移位} 法术。</p>"
     },
     "TwnyjvE7ZX35lCrj": {
-      "name": "战术型乐器（手持） Musical Instrument (Handheld, Tactical)",
+      "name": "战术型手持乐器 Musical Instrument (Handheld, Tactical)",
       "description": "<p>除了最传统的乐器，其他乐器都会使用现代技术来放大声音、提供伴奏，或以无线方式连接其他乐器。手持乐器包括自动号、吉他、精神活性波片、数字合成音轨台、全息笛等。GM可以裁定特别大的手持乐器具有更高负载。某些乐器具有科技特征。</p>\n<p>战术型乐器为使用它进行的表演检定提供+1物品加值。</p>"
     },
     "U1XBNrPfBA1G87XB": {
@@ -4097,7 +4097,7 @@
       "description": "<p>魔法符文增加了从武器枪管中射出的弹体质量。当你用所安装的武器取得重击时，目标必须进行一次 @Check[fortitude|dc:34] 豁免。</p>\n<p><strong>失败</strong> 目标被向后推10尺。如果撞上障碍物或另一生物，它会被击 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}.</p>\n<p><strong>大失败</strong> 如同失败，但目标被向后推15尺。</p>"
     },
     "UVUWVxSbkL3xTj0L": {
-      "name": "先进型全频谱传感器组 Full-Spectrum Sensor Suite (Advanced)",
+      "name": "先进型全光谱传感器套件 Full-Spectrum Sensor Suite (Advanced)",
       "description": "<p>这组传感器通过安装在头盔上的抬头显示器，提供周围环境的详细信息。</p>\n<p>你还获得30尺范围的灵敏嗅觉作为模糊感官，且启动频率变为每天两次。</p>\n<p>你的听觉还变为30尺范围的精确感官。</p>\n<p><strong>启动—扫描</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天三次</p><hr /><p><strong>效果</strong> 你获得30尺范围的震颤感知作为模糊感官，持续10分钟。</p>"
     },
     "UXEZCHFWwvNS43ug": {
@@ -4153,7 +4153,7 @@
       "description": "<p>这些突出的尖刺使护甲显得咄咄逼人。当你受到能量伤害时，尖刺会充入该类型的能量，直到下一次被启动（即使伤害已被抗力完全抵消，也一样）。</p>\n<p><strong>启动—穿刺</strong> <span class=\"action-glyph\">f</span></p>\n<p><strong>频率</strong> 每轮一次</p>\n<p><strong>触发</strong> 你的回合开始</p>\n<p><strong>需求</strong> 你处于 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}，或被生物吞咽，或你已擒住或束缚了一个生物</p><hr /><p><strong>效果</strong> 你造成 @Damage[8d4[untyped]] 伤害，施加给规定的生物。此伤害为穿刺伤害，除非尖刺已充入某种类型的能量；在这种情况下，你可以改为让它们造成该类型的伤害。</p>"
     },
     "XPwiBjnQgSyb6uZ4": {
-      "name": "战术型化学储罐 Chem Tank (Tactical)"
+      "name": "战术型化学罐 Chem Tank (Tactical)"
     },
     "XRgcX29Z9obKHoVR": {
       "name": "黄蜂切割者 Waspslicer",
@@ -4168,7 +4168,7 @@
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 区域射击</p>\n<p><strong>重击</strong> @Damage[1d6[persistent,acid]]</p><hr /><p>此手雷爆炸时，其 @Template[burst|distance:15] 被一层腐蚀性强酸喷雾覆盖，造成酸蚀伤害，进行 @Check[reflex|against:class|basic] 豁免。</p>"
     },
     "Y29T9xXByIpAynzp": {
-      "name": "战术型全频谱传感器组 Full-Spectrum Sensor Suite (Tactical)",
+      "name": "战术型全光谱传感器套件 Full-Spectrum Sensor Suite (Tactical)",
       "description": "<p>这组传感器通过安装在头盔上的抬头显示器，提供周围环境的详细信息。</p>\n<p>你还获得30尺范围的灵敏嗅觉作为模糊感官，且启动频率变为每天两次。</p>\n<p><strong>启动—扫描</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得30尺范围的震颤感知作为模糊感官，持续10分钟。</p>"
     },
     "YM7RbKOpF7LBjJme": {
@@ -4184,7 +4184,7 @@
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>将这种古怪的绿色黏液涂在胸口后，它会渗入心脏，增强你的勇气。涂抹石油勇气后的1小时内，你获得对心灵和精魂伤害的抗力2。一罐石油勇气可以使用六次，随后便会用尽。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.0mm60d3wjB5pdXiN]{效果：石油勇气}</p><hr /><p><em>注：</em> 物品的启动、负载、价格和用法依据SFS裁定与澄清列出。</p>"
     },
     "Yezn94CFX6lxzZc9": {
-      "name": "菁英型远程锁控应用 Remote Lock App (Elite)",
+      "name": "精英型远程锁控应用 Remote Lock App (Elite)",
       "description": "<p>远程锁控应用让你能用通讯单元控制锁。尝试以贼活检定撬开智能锁之前，若尚未先成功 @UUID[Compendium.sf2e-anachronism.actions.Item.RF8xNJ8QsMwogerB]{骇入} （四 [[/act hack dc=30]] 次检定），它会自动通知锁的所有者（通常也包括当地当局），告知有人正在闯入。</p>"
     },
     "YxxnN68bFZGvPjuX": {
@@ -4196,12 +4196,12 @@
       "description": "<p>这面盾牌看起来像一只带搭扣的皮手套，直到其搭扣展开为一片坚固的碳钢板；它还利用注入式肾上腺反应来抵御心灵入侵。</p>"
     },
     "Z5x9VVWsRMG86Px0": {
-      "name": "菁英型激光栅格 Laser Grid (Elite)",
-      "description": "<p>这些栅格以明亮的激光网围护重要物品或保卫走廊。花费10分钟，可以安装一道激光栅格，覆盖至多30尺宽、30尺高的区域。可以将更多同型激光栅格组合起来扩大覆盖范围。激光栅格可以设为发射不可见光束，需要成功通过 @Check[perception|dc:38] 检定，才能在尚未察觉激光的情况下发现它们。进行 [[/act seek]] 以发现不可见激光栅格时，若有雾、薄雾、烟尘或其他悬浮颗粒，其察觉DC降低5。若没有外部电源，每道激光栅格需要一块同品质或更高品质的电池，触发时消耗5充能（若只发出警报则消耗1充能）。</p>\n<p><strong>启动—破坏光束</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>触发</strong> 一个生物或物体穿过两个发射器之间的激光束，使其被阻断</p><hr /><p><strong>效果</strong> 警报信号启动，造成 @Damage[(4d10+10)[slashing],(5d10+10)[fire]] 伤害， @Check[reflex|dc:36|basic] 豁免；</p>\n<p><strong>解除</strong>@Check[thievery|dc:40].</p>"
+      "name": "精英型激光网 Laser Grid (Elite)",
+      "description": "<p>这些栅格以明亮的激光网围护重要物品或保卫走廊。花费10分钟，可以安装一道激光网，覆盖至多30尺宽、30尺高的区域。可以将更多同型激光网组合起来扩大覆盖范围。激光网可以设为发射不可见光束，需要成功通过 @Check[perception|dc:38] 检定，才能在尚未察觉激光的情况下发现它们。进行 [[/act seek]] 以发现不可见激光网时，若有雾、薄雾、烟尘或其他悬浮颗粒，其察觉DC降低5。若没有外部电源，每道激光网需要一块同品质或更高品质的电池，触发时消耗5充能（若只发出警报则消耗1充能）。</p>\n<p><strong>启动—破坏光束</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>触发</strong> 一个生物或物体穿过两个发射器之间的激光束，使其被阻断</p><hr /><p><strong>效果</strong> 警报信号启动，造成 @Damage[(4d10+10)[slashing],(5d10+10)[fire]] 伤害， @Check[reflex|dc:36|basic] 豁免；</p>\n<p><strong>解除</strong>@Check[thievery|dc:40].</p>"
     },
     "Z99pKPTdAgTaU5Nr": {
-      "name": "运动传感器（超声波） Motion Sensors (Ultrasonic)",
-      "description": "<p>动作传感器的标准侦测范围为30尺，可以用来发出警报、向手机发送提醒，甚至触发另一个科技危害或物品。生物可以像发现其他陷阱或危害一样，发现自己尚未察觉的动作传感器；其DC使用安装者的手艺DC或生存DC，以较高者为准。如果没有外部电源，每个动作传感器都需要一块同品质或更高品质的电池，每天消耗1充能。</p><hr /><p>超声波传感器会对周围环境中的突然扰动产生反应，例如脚步声或玻璃破碎声。它们的灵敏度使其 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{容易} 误报，且无法探测悬浮生物，也会受到沉默术等效应克制。</p><hr /><p><strong>回避</strong> @Check[deception|dc:25] ，用于 [[/act create-a-diversion]] 或 @Check[stealth|dc:26]</p>\n<p><strong>解除</strong> @Check[computers|dc:28] 或 @Check[thievery|dc:28]，或任何会使探测器观察区域内声音消失的效应</p>"
+      "name": "运动传感器（超声） Motion Sensors (Ultrasonic)",
+      "description": "<p>动作传感器的标准侦测范围为30尺，可以用来发出警报、向手机发送提醒，甚至触发另一个科技危害或物品。生物可以像发现其他陷阱或危害一样，发现自己尚未察觉的动作传感器；其DC使用安装者的手艺DC或生存DC，以较高者为准。如果没有外部电源，每个动作传感器都需要一块同品质或更高品质的电池，每天消耗1充能。</p><hr /><p>超声传感器会对周围环境中的突然扰动产生反应，例如脚步声或玻璃破碎声。它们的灵敏度使其 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{容易} 误报，且无法探测悬浮生物，也会受到沉默术等效应克制。</p><hr /><p><strong>回避</strong> @Check[deception|dc:25] ，用于 [[/act create-a-diversion]] 或 @Check[stealth|dc:26]</p>\n<p><strong>解除</strong> @Check[computers|dc:28] 或 @Check[thievery|dc:28]，或任何会使探测器观察区域内声音消失的效应</p>"
     },
     "ZRliouT8FZfYQ1I2": {
       "name": "死灵注能（副本） Necrotic Infusion (Copy)",
@@ -4232,16 +4232,16 @@
       "description": "<p>此弹药装有磷光化学物质，命中时发出耀眼闪光。被此弹药命中的生物必须成功通过 @Check[fortitude|dc:27] 豁免，否则会 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩} 持续1轮。</p>"
     },
     "aip709rH9LNp4LqZ": {
-      "name": "战术型激光栅格 Laser Grid (Tactical)",
-      "description": "<p>这些栅格以明亮的激光网围护重要物品或保卫走廊。花费10分钟，可以安装一道激光栅格，覆盖至多30尺宽、30尺高的区域。可以将更多同型激光栅格组合起来扩大覆盖范围。激光栅格可以设为发射不可见光束，需要成功通过 @Check[perception|dc:26] 检定，才能在尚未察觉激光的情况下发现它们。进行 [[/act seek]] 以发现不可见激光栅格时，若有雾、薄雾、烟尘或其他悬浮颗粒，其察觉DC降低5。若没有外部电源，每道激光栅格需要一块同品质或更高品质的电池，触发时消耗5充能（若只发出警报则消耗1充能）。</p>\n<p><strong>启动—破坏光束</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>触发</strong> 一个生物或物体穿过两个发射器之间的激光束，使其被阻断</p><hr /><p><strong>效果</strong> 警报信号启动，造成 @Damage[2d6[slashing],3d6[fire]] 伤害， @Check[reflex|dc:24|basic] 豁免；</p>\n<p><strong>解除</strong>@Check[thievery|dc:28].</p>"
+      "name": "战术型激光网 Laser Grid (Tactical)",
+      "description": "<p>这些栅格以明亮的激光网围护重要物品或保卫走廊。花费10分钟，可以安装一道激光网，覆盖至多30尺宽、30尺高的区域。可以将更多同型激光网组合起来扩大覆盖范围。激光网可以设为发射不可见光束，需要成功通过 @Check[perception|dc:26] 检定，才能在尚未察觉激光的情况下发现它们。进行 [[/act seek]] 以发现不可见激光网时，若有雾、薄雾、烟尘或其他悬浮颗粒，其察觉DC降低5。若没有外部电源，每道激光网需要一块同品质或更高品质的电池，触发时消耗5充能（若只发出警报则消耗1充能）。</p>\n<p><strong>启动—破坏光束</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>触发</strong> 一个生物或物体穿过两个发射器之间的激光束，使其被阻断</p><hr /><p><strong>效果</strong> 警报信号启动，造成 @Damage[2d6[slashing],3d6[fire]] 伤害， @Check[reflex|dc:24|basic] 豁免；</p>\n<p><strong>解除</strong>@Check[thievery|dc:28].</p>"
     },
     "bC2PbbYwPLMTESWG": {
       "name": "商用型安抚弹药 Pacifier Ammunition (Commercial)",
       "description": "<p>这些色彩斑斓的弹丸同时受到暴君、心能使用者和执法人员的喜爱，能够使目标更容易受心灵效果影响。以此弹药重击时，目标的意志豁免承受–1状态减值，持续1分钟。</p>"
     },
     "bDWEfL3m6Fjx3DTo": {
-      "name": "卓越型激光栅格 Laser Grid (Superior)",
-      "description": "<p>这些栅格以明亮的激光网围护重要物品或保卫走廊。花费10分钟，可以安装一道激光栅格，覆盖至多30尺宽、30尺高的区域。可以将更多同型激光栅格组合起来扩大覆盖范围。激光栅格可以设为发射不可见光束，需要成功通过 @Check[perception|dc:34] 检定，才能在尚未察觉激光的情况下发现它们。进行 [[/act seek]] 以发现不可见激光栅格时，若有雾、薄雾、烟尘或其他悬浮颗粒，其察觉DC降低5。若没有外部电源，每道激光栅格需要一块同品质或更高品质的电池，触发时消耗5充能（若只发出警报则消耗1充能）。</p>\n<p><strong>启动—破坏光束</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>触发</strong> 一个生物或物体穿过两个发射器之间的激光束，使其被阻断</p><hr /><p><strong>效果</strong> 警报信号启动，造成 @Damage[(3d10+6)[slashing],(4d10+6)[fire]] 伤害， @Check[reflex|dc:32|basic] 豁免；</p>\n<p><strong>解除</strong>@Check[thievery|dc:36].</p>"
+      "name": "卓越型激光网 Laser Grid (Superior)",
+      "description": "<p>这些栅格以明亮的激光网围护重要物品或保卫走廊。花费10分钟，可以安装一道激光网，覆盖至多30尺宽、30尺高的区域。可以将更多同型激光网组合起来扩大覆盖范围。激光网可以设为发射不可见光束，需要成功通过 @Check[perception|dc:34] 检定，才能在尚未察觉激光的情况下发现它们。进行 [[/act seek]] 以发现不可见激光网时，若有雾、薄雾、烟尘或其他悬浮颗粒，其察觉DC降低5。若没有外部电源，每道激光网需要一块同品质或更高品质的电池，触发时消耗5充能（若只发出警报则消耗1充能）。</p>\n<p><strong>启动—破坏光束</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>触发</strong> 一个生物或物体穿过两个发射器之间的激光束，使其被阻断</p><hr /><p><strong>效果</strong> 警报信号启动，造成 @Damage[(3d10+6)[slashing],(4d10+6)[fire]] 伤害， @Check[reflex|dc:32|basic] 豁免；</p>\n<p><strong>解除</strong>@Check[thievery|dc:36].</p>"
     },
     "bETDhx1kN7S5qf2h": {
       "name": "反生命弩 Anti-Life Crossbow",
@@ -4342,8 +4342,8 @@
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> 区域射击</p>\n<p><strong>重击</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 3} ，当 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心} ，由瘴气手雷造成</p><hr /><p>这种手雷装满非致命化学混合物，释放后会散发难闻的有毒气味。治安人员用它们在人口密集的城区安全地平息骚乱和解救人质。如果你拥有手雷的重击专精效果，对瘴气手雷豁免大失败的生物会 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙}.</p>\n<p>爆发半径为 @Template[burst|distance:30]，失败时该生物陷入 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 3}.</p>"
     },
     "hH1vCb2EJyqMo8ac": {
-      "name": "商用型便捷修补器 Easypatcher (Commercial)",
-      "description": "<p>此强化模块装有微型机械臂和探测伤势的传感器。便捷修补器至多可装两张医疗贴，你可以用一个10分钟的活动将其装入。医疗贴的等级不能高于便捷修补器的等级，或护甲的等级，取二者中较高者。</p>\n<p><strong>启动—修补</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>需求</strong> 便捷修补器的隔舱中装有一张医疗贴</p><hr /><p><strong>效果</strong> 机械臂嘶鸣着从隔间中展开，将医疗贴敷在你的伤处，重现所消耗医疗贴的效果。医疗贴被消耗。</p>"
+      "name": "商用型便捷贴片 Easypatcher (Commercial)",
+      "description": "<p>此强化模块装有微型机械臂和探测伤势的传感器。便捷贴片至多可装两张医疗贴，你可以用一个10分钟的活动将其装入。医疗贴的等级不能高于便捷贴片的等级，或护甲的等级，取二者中较高者。</p>\n<p><strong>启动—修补</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>需求</strong> 便捷贴片的隔舱中装有一张医疗贴</p><hr /><p><strong>效果</strong> 机械臂嘶鸣着从隔间中展开，将医疗贴敷在你的伤处，重现所消耗医疗贴的效果。医疗贴被消耗。</p>"
     },
     "hLQlFY3NpdZ67uWE": {
       "name": "战术型强击水晶 Striking Crystal (Tactical)",
@@ -4358,8 +4358,8 @@
       "description": "<p>这个不规则的灰色环体布满凹坑与疤痕，在至少有低强度辐射的环境中会发出绿光，辐射越强，光芒越亮。除了充当简单的辐射探测器，这块石头还会吸收穿戴者周围的辐射。你获得对辐射效应造成的毒素伤害的抗力8，并在对抗辐射的强韧豁免中获得+3状态加值。</p>\n<p>其共鸣能力让你可以每天一次，将防护术作为1环异能内在法术施放。</p>\n<p><strong>启动—辐射脉冲</strong> <span class=\"action-glyph\">2</span> （专注、魔法、操作、辐射）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你释放一道 @Template[type:burst|distance:10] ，以你为中心，使该区域受到辐射，持续1小时。进入区域的生物必须进行一次 @Check[fortitude|dc:22] 豁免，对抗严重放射病。此魔法辐射立即发作，各阶段之间的间隔为1轮。</p>"
     },
     "hhHRdWCHmQjOTIAZ": {
-      "name": "先进型自动驾驶仪 Autopilot (Advanced)",
-      "description": "<p>自动驾驶仪广泛用于协约世界的各类载具。将自动驾驶仪安装到载具中需要10分钟；在此期间，它会自行校准并进行全面诊断，因此载具内不能有乘员。安装完成后，你可以使用通讯单元在20英里内远程操控载具。商用型自动驾驶仪的驾驶调整值为+9，进行驾驶技能检定时可以选择不掷骰，改为取得10加上其调整值的结果。</p>\n<p><strong>启动—自动驾驶</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>需求</strong> 自动驾驶仪已连接至一辆载具</p><hr /><p><strong>效果</strong> 自动驾驶仪对所连接的载具进行驾驶、加速或停车。</p>"
+      "name": "先进型自动驾驶程序 Autopilot (Advanced)",
+      "description": "<p>自动驾驶程序广泛用于协约世界的各类载具。将自动驾驶程序安装到载具中需要10分钟；在此期间，它会自行校准并进行全面诊断，因此载具内不能有乘员。安装完成后，你可以使用通讯单元在20英里内远程操控载具。商用型自动驾驶程序的驾驶调整值为+9，进行驾驶技能检定时可以选择不掷骰，改为取得10加上其调整值的结果。</p>\n<p><strong>启动—自动驾驶</strong> <span class=\"action-glyph\">1</span></p>\n<p><strong>需求</strong> 自动驾驶程序已连接至一辆载具</p><hr /><p><strong>效果</strong> 自动驾驶程序对所连接的载具进行驾驶、加速或停车。</p>"
     },
     "hsk3weQS9I7LyGkn": {
       "name": "渗透者工具包（战术型开锁工具） Infiltrator's Toolkit (Tactical Picks)",
@@ -4374,7 +4374,7 @@
       "description": "<p><strong>强化：</strong> 1</p><hr /><p>这把步枪受到追猎顽强猎物的大型猎物猎手的青睐，让他们能够从安全距离使用镇静剂乃至更致命的注射剂制服敌人。</p>"
     },
     "iQUNB0IdVkSH4hds": {
-      "name": "格纳雷弗甲壳 Gnarefuroid Carapace",
+      "name": "拾荒蜗族甲壳 Gnarefuroid Carapace",
       "description": "<p>你的甲壳提供+3AC物品加值，具有+2敏捷上限、–2检定减值、+2力量阈值和一个强化槽。你永远不能穿戴其他护甲，也不能脱下甲壳。此甲壳具有非电子和舒适特征，而且可以像普通护甲一样花费信用点提升品质。就能力和安装强化模块而言，你的甲壳属于陶瓷组中甲。</p>"
     },
     "iWJ3IXRyrv9tvOIo": {
@@ -4402,8 +4402,8 @@
       "description": "<p>此弹药装有磷光化学物质，命中时发出耀眼闪光。被此弹药命中的生物必须成功通过 @Check[fortitude|dc:23] 豁免，否则会 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩} 持续1轮。</p>"
     },
     "iyGcRLTCRThFdg7d": {
-      "name": "先进型便捷修补器 Easypatcher (Advanced)",
-      "description": "<p>此强化模块装有微型机械臂和探测伤势的传感器。便捷修补器至多可装四张医疗贴，你可以用一个10分钟的活动将其装入。医疗贴的等级不能高于便捷修补器的等级，或护甲的等级，取二者中较高者。</p>\n<p><strong>启动—修补</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>需求</strong> 便捷修补器的隔舱中装有一张医疗贴</p><hr /><p><strong>效果</strong> 机械臂嘶鸣着从隔间中展开，将医疗贴敷在你的伤处，重现所消耗医疗贴的效果。医疗贴被消耗。</p>\n<p>你可以将消耗的医疗贴效果复制到10尺内一个生物身上，代替对自己生效</p>"
+      "name": "先进型便捷贴片 Easypatcher (Advanced)",
+      "description": "<p>此强化模块装有微型机械臂和探测伤势的传感器。便捷贴片至多可装四张医疗贴，你可以用一个10分钟的活动将其装入。医疗贴的等级不能高于便捷贴片的等级，或护甲的等级，取二者中较高者。</p>\n<p><strong>启动—修补</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>需求</strong> 便捷贴片的隔舱中装有一张医疗贴</p><hr /><p><strong>效果</strong> 机械臂嘶鸣着从隔间中展开，将医疗贴敷在你的伤处，重现所消耗医疗贴的效果。医疗贴被消耗。</p>\n<p>你可以将消耗的医疗贴效果复制到10尺内一个生物身上，代替对自己生效</p>"
     },
     "jSKHCIYJNlxeOzJ3": {
       "name": "卓越型日冕血清 Corona Serum (Superior)",
@@ -4422,11 +4422,11 @@
       "description": "<p>动作传感器的标准侦测范围为30尺，可以用来发出警报、向手机发送提醒，甚至触发另一个科技危害或物品。生物可以像发现其他陷阱或危害一样，发现自己尚未察觉的动作传感器；其DC使用安装者的手艺DC或生存DC，以较高者为准。如果没有外部电源，每个动作传感器都需要一块同品质或更高品质的电池，每天消耗1充能。</p><hr /><p>红外传感器会对恒温生物作出反应，但无法探测变温生物或人造生物。</p>\n<p><strong>回避</strong> @Check[stealth|dc:20]</p>\n<p><strong>解除</strong> @Check[computers|dc:23] 或 @Check[thievery|dc:23]</p>"
     },
     "kaoerU0s3ONkB3Ez": {
-      "name": "战术型造物胶囊 Creator Capsule (Tactical)",
-      "description": "<p>造物胶囊是一台带可编程界面的小型3D打印机，让你能快速制作物品，使用 @UUID[Compendium.sf2e-anachronism.feats.Item.jiNuKNa9NcU27Bh2] 技能专长。与通常的制作不同，准备并完成此过程需要12小时的工作，但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于造物胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个造物胶囊，但你仍然只进行一次制作检定。</p>"
+      "name": "战术型创造胶囊 Creator Capsule (Tactical)",
+      "description": "<p>创造胶囊是一台带可编程界面的小型3D打印机，让你能快速制作物品，使用 @UUID[Compendium.sf2e-anachronism.feats.Item.jiNuKNa9NcU27Bh2] 技能专长。与通常的制作不同，准备并完成此过程需要12小时的工作，但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于创造胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个创造胶囊，但你仍然只进行一次制作检定。</p>"
     },
     "lg5WEPodc5soVdpd": {
-      "name": "战术型肾上腺抑制血清 Adrenosuppressant Serum (Tactical)",
+      "name": "战术型肾上腺素抑制血清 Adrenosuppressant Serum (Tactical)",
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>这种鲜粉色血清深受军队和佣兵公司的新兵青睐。使用血清后的一小时内，你在意志豁免中获得+2物品加值，对抗恐惧效应的意志豁免则获得+3物品加值。</p>"
     },
     "ltTSxl5YcbKphDeY": {
@@ -4446,7 +4446,7 @@
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>你获得火焰抗力10和寒冷弱点5，并将环境高温效果视为比实际情况低两个严重程度等级。</p>"
     },
     "nPWa6a9jHVHdcNeo": {
-      "name": "先进型行动力增强器（殖装） Mobility Enhancer (Augmentation, Advanced)",
+      "name": "先进型移动强化器（殖装） Mobility Enhancer (Augmentation, Advanced)",
       "description": "<p>你的鳍片、翅膀或挖掘臂各处都安装了电控机械强化装置和合成纳米肌肉纤维。安装此殖装时，从你的掘地、攀爬、飞行或游泳速度中选择一项，使其获得+15尺物品加值。你不能选择自己没有的速度，也不能选择来自另一种殖装等临时来源的速度。</p>"
     },
     "nRNsR4m114L6NwMw": {
@@ -4454,8 +4454,8 @@
       "description": "<p>此弹药装有磷光化学物质，命中时发出耀眼闪光。被此弹药命中的生物必须成功通过 @Check[fortitude|dc:16] 豁免，否则会 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩} 持续1轮。</p>"
     },
     "nUx56sGJq1GwzaMD": {
-      "name": "运动传感器（断层扫描） Motion Sensors (Tomographic)",
-      "description": "<p>动作传感器的标准侦测范围为30尺，可以用来发出警报、向手机发送提醒，甚至触发另一个科技危害或物品。生物可以像发现其他陷阱或危害一样，发现自己尚未察觉的动作传感器；其DC使用安装者的手艺DC或生存DC，以较高者为准。如果没有外部电源，每个动作传感器都需要一块同品质或更高品质的电池，每天消耗1充能。</p><hr /><p>断层扫描传感器能透过固体物体探测扰动。</p><hr /><p><strong>回避</strong> @Check[stealth|dc:32]</p>\n<p><strong>解除</strong> @Check[computers|dc:35] 或 @Check[thievery|dc:35]</p>"
+      "name": "运动传感器（断层成像） Motion Sensors (Tomographic)",
+      "description": "<p>动作传感器的标准侦测范围为30尺，可以用来发出警报、向手机发送提醒，甚至触发另一个科技危害或物品。生物可以像发现其他陷阱或危害一样，发现自己尚未察觉的动作传感器；其DC使用安装者的手艺DC或生存DC，以较高者为准。如果没有外部电源，每个动作传感器都需要一块同品质或更高品质的电池，每天消耗1充能。</p><hr /><p>断层成像传感器能透过固体物体探测扰动。</p><hr /><p><strong>回避</strong> @Check[stealth|dc:32]</p>\n<p><strong>解除</strong> @Check[computers|dc:35] 或 @Check[thievery|dc:35]</p>"
     },
     "nZVTCMNdBmbNBQmb": {
       "name": "先进型强击水晶 Striking Crystal (Advanced)",
@@ -4482,10 +4482,10 @@
       "description": "<p><strong>用法</strong> 已安装于计算机或通讯单元中；</p><hr /><p>这些芯片可以安装在通讯单元和其他计算机中，使设备能够施放法术。每台设备只能安装一枚法术芯片。从法术芯片施法时，你必须用一只手持握计算机或通讯单元，并用施法行动启动它，消耗该法术通常所需的动作数。该法术必须在你的法术列表中。由于施法者是你，因此使用你的法术攻击调整值和法术DC。该法术必须属于你的施法根源。如果法术需要施法载体（locus），从法术芯片施放时你仍然必须拥有该施法载体。法术芯片不能容纳戏法或仪式。此物品的特征随其中容纳的法术而变化。</p>\n<p>除了施法所消耗的充能，短时间内连续使用也可能毁坏法术芯片核心晶格中的精密组件。一天内尝试使用法术芯片超过一次，就必须将其超频。再次施放该法术，然后进行一次 @Check[flat|dc:10]。成功时，法术芯片破损。失败时，法术芯片被摧毁。如果任何人试图超频一枚在当天已经被超频过的法术芯片，该芯片都会自动被摧毁（即使已经修复），而且不会施放任何法术。</p>\n<p><strong>启动</strong> 施法</p>\n<p><strong>频率</strong> 每天一次，另可超频</p>\n<p><strong>效果</strong> 你以指定环阶施放该法术。</p>"
     },
     "oOFi3NRGW1w1O3PD": {
-      "name": "先进型化学储罐 Chem Tank (Advanced)"
+      "name": "先进型化学罐 Chem Tank (Advanced)"
     },
     "oRuWi8EhgBiS3cbh": {
-      "name": "商用型乐器（手持） Musical Instrument (Handheld, Commercial)",
+      "name": "商用型手持乐器 Musical Instrument (Handheld, Commercial)",
       "description": "<p>除了最传统的乐器，其他乐器都会使用现代技术来放大声音、提供伴奏，或以无线方式连接其他乐器。手持乐器包括自动号、吉他、精神活性波片、数字合成音轨台、全息笛等。GM可以裁定特别大的手持乐器具有更高负载。某些乐器具有科技特征。</p>"
     },
     "oY475DZHPB78o0TC": {
@@ -4509,8 +4509,8 @@
       "description": "<p>这些晶格状宝石悬置于硅制外壳内，编码着施放一个特定法术所需的魔法文字。从法术宝石施法时，你必须用一只手持握宝石，并用施法行动启动它，消耗该法术通常所需的动作数。该法术必须在你的法术列表中。由于施法者是你，因此使用你的法术攻击调整值和法术DC。该法术必须属于你的施法根源。法术宝石中的法术只能施放一次，且法术宝石会在施法过程中被摧毁。法术宝石不能容纳戏法或仪式。此物品的特征随其中容纳的法术而变化。</p>\n<p><strong>启动</strong> 施法</p>\n<p><strong>效果</strong> 你以指定环阶施放该法术。</p>"
     },
     "p7sfuJqulO2vM75s": {
-      "name": "商用型激光栅格 Laser Grid (Commercial)",
-      "description": "<p>这些栅格以明亮的激光网围护重要物品或保卫走廊。花费10分钟，可以安装一道激光栅格，覆盖至多30尺宽、30尺高的区域。可以将更多同型激光栅格组合起来扩大覆盖范围。激光栅格可以设为发射不可见光束，需要成功通过 @Check[perception|dc:22] 检定，才能在尚未察觉激光的情况下发现它们。进行 [[/act seek]] 以发现不可见激光栅格时，若有雾、薄雾、烟尘或其他悬浮颗粒，其察觉DC降低5。若没有外部电源，每道激光栅格需要一块同品质或更高品质的电池，触发时消耗5充能（若只发出警报则消耗1充能）。</p>\n<p><strong>启动—破坏光束</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>触发</strong> 一个生物或物体穿过两个发射器之间的激光束，使其被阻断</p><hr /><p><strong>效果</strong> 警报信号启动。</p>\n<p><strong>解除</strong>@Check[thievery|dc:24]</p>"
+      "name": "商用型激光网 Laser Grid (Commercial)",
+      "description": "<p>这些栅格以明亮的激光网围护重要物品或保卫走廊。花费10分钟，可以安装一道激光网，覆盖至多30尺宽、30尺高的区域。可以将更多同型激光网组合起来扩大覆盖范围。激光网可以设为发射不可见光束，需要成功通过 @Check[perception|dc:22] 检定，才能在尚未察觉激光的情况下发现它们。进行 [[/act seek]] 以发现不可见激光网时，若有雾、薄雾、烟尘或其他悬浮颗粒，其察觉DC降低5。若没有外部电源，每道激光网需要一块同品质或更高品质的电池，触发时消耗5充能（若只发出警报则消耗1充能）。</p>\n<p><strong>启动—破坏光束</strong> <span class=\"action-glyph\">r</span></p>\n<p><strong>触发</strong> 一个生物或物体穿过两个发射器之间的激光束，使其被阻断</p><hr /><p><strong>效果</strong> 警报信号启动。</p>\n<p><strong>解除</strong>@Check[thievery|dc:24]</p>"
     },
     "pIQolofaGlQpoyja": {
       "name": "商用型防护网格 Protection Grid (Commercial)",
@@ -4529,8 +4529,8 @@
       "description": "<p>此魔法通信阵列能传递以下物品的增益： <em>万古石</em>。你的护甲获得万古特征。若它已有万古特征，就可以容纳第二颗 <em>万古石</em> 或 <em>法术宝石</em>.</p><hr /><p><strong>启动—传输</strong> <span class=\"action-glyph\">f</span></p>\n<p><strong>需求</strong> 你的护甲具有 <em>万古石</em> 已安装，且具有一种并非反应的启动方式</p>\n<p><strong>效果</strong> 若你的下一个动作是启动所安装的 <em>万古石</em>，效果改为施加于30尺内另一个自愿生物，视为由它启动。</p>"
     },
     "pm5cjJotmQRlJ0pZ": {
-      "name": "商用型乐器（重型） Musical Instrument (Heavy, Commercial)",
-      "description": "<p>除了最传统的乐器，其他乐器都会使用现代技术来放大声音、提供伴奏，或以无线方式连接其他乐器。鼓台和特雷门琴等重型乐器不易携带，演奏时通常需要保持静止。某些乐器具有科技特征。</p>"
+      "name": "商用型大型乐器 Musical Instrument (Heavy, Commercial)",
+      "description": "<p>除了最传统的乐器，其他乐器都会使用现代技术来放大声音、提供伴奏，或以无线方式连接其他乐器。鼓台和特雷门琴等大型乐器不易携带，演奏时通常需要保持静止。某些乐器具有科技特征。</p>"
     },
     "poAcHnUcPh7GY3aH": {
       "name": "法术护手 Spell Gauntlet",
@@ -4621,8 +4621,8 @@
       "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span> （操作）</p><hr /><p>你获得火焰抗力15和寒冷弱点8，并将环境高温效果视为比实际情况低两个严重程度等级。</p>"
     },
     "suvVsy5oA4WjgetD": {
-      "name": "战术型乐器（重型） Musical Instrument (Heavy, Tactical)",
-      "description": "<p>除了最传统的乐器，其他乐器都会使用现代技术来放大声音、提供伴奏，或以无线方式连接其他乐器。鼓台和特雷门琴等重型乐器不易携带，演奏时通常需要保持静止。某些乐器具有科技特征。</p>\n<p>战术型乐器为使用它进行的表演检定提供+1物品加值。</p>"
+      "name": "战术型大型乐器 Musical Instrument (Heavy, Tactical)",
+      "description": "<p>除了最传统的乐器，其他乐器都会使用现代技术来放大声音、提供伴奏，或以无线方式连接其他乐器。鼓台和特雷门琴等大型乐器不易携带，演奏时通常需要保持静止。某些乐器具有科技特征。</p>\n<p>战术型乐器为使用它进行的表演检定提供+1物品加值。</p>"
     },
     "svVf0omcrf3rv63C": {
       "name": "商用型漂流引擎中继器 Drift Drive Relay (Commercial)",
@@ -4661,8 +4661,8 @@
       "description": "<p>这些晶格状宝石悬置于硅制外壳内，编码着施放一个特定法术所需的魔法文字。从法术宝石施法时，你必须用一只手持握宝石，并用施法行动启动它，消耗该法术通常所需的动作数。该法术必须在你的法术列表中。由于施法者是你，因此使用你的法术攻击调整值和法术DC。该法术必须属于你的施法根源。法术宝石中的法术只能施放一次，且法术宝石会在施法过程中被摧毁。法术宝石不能容纳戏法或仪式。此物品的特征随其中容纳的法术而变化。</p>\n<p><strong>启动</strong> 施法</p>\n<p><strong>效果</strong> 你以指定环阶施放该法术。</p>"
     },
     "urGZmltJAPTPDtcr": {
-      "name": "商用型造物胶囊 Creator Capsule (Commercial)",
-      "description": "<p>造物胶囊是一台带可编程界面的小型3D打印机，让你能快速制作物品，使用 @UUID[Compendium.sf2e-anachronism.feats.Item.jiNuKNa9NcU27Bh2] 技能专长。与通常的制作不同，准备并完成此过程需要24小时的工作，但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于造物胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个造物胶囊，但你仍然只进行一次制作检定。</p>"
+      "name": "商用型创造胶囊 Creator Capsule (Commercial)",
+      "description": "<p>创造胶囊是一台带可编程界面的小型3D打印机，让你能快速制作物品，使用 @UUID[Compendium.sf2e-anachronism.feats.Item.jiNuKNa9NcU27Bh2] 技能专长。与通常的制作不同，准备并完成此过程需要24小时的工作，但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于创造胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个创造胶囊，但你仍然只进行一次制作检定。</p>"
     },
     "urSu39gh0Cz3Eqok": {
       "name": "魔法混音带 Magical Mixtape",
@@ -4721,7 +4721,7 @@
       "description": "<p><strong>强化：</strong> 1</p><hr /><p>这件流线型护腕安装在手腕上，能发射硬光弹体。持用者可以编程设定弹体的形状和外观，轻松切换伤害类型。</p>"
     },
     "wg0YiODNpygNeiiA": {
-      "name": "战术型水下喷射器 Aqua Jets (Tactical)",
+      "name": "战术型喷水推进器 Aqua Jets (Tactical)",
       "description": "<p>螺旋桨、水下喷射器和其他水动力推进系统，增强你的水下机动性。</p>\n<p>你在水下进行造成钝击或挥砍伤害的打击时，不承受通常的减值。</p>\n<p><strong>启动—推进</strong> <span class=\"action-glyph\">1</span></p><hr /><p><strong>效果</strong> 你启动推进系统，获得40尺游泳速度。此效果持续1分钟，或直到你将其解消。</p>"
     },
     "x5Y3a4ZScVHpsIyO": {

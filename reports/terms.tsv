@@ -16,10 +16,12 @@
 急救	Administer First Aid
 可爱面容	Adorable Face
 肾上腺素自动注射器	Adrenal Autoinjectors
+肾上腺素抑制血清	Adrenosuppressant Serum
 万古风暴	Aeon Storm
 万古传送器	Aeon Transmitter
 万古之心活体全息	aeonheart living hologram
 空中全息影像	Aerial Hologram
+气雾喷嘴	Aerosol Spray Nozzle
 炫目张扬	Aggressively Ostentatious
 阿卡西备份	Akashic Backup
 阿基顿电池改造	Akiton Battery Hack
@@ -33,6 +35,7 @@
 抗故障响应	Anti-Glitch Response
 反生命弩	Anti-Life Crossbow
 抗神意志	Anti-Theist Resistance
+喷水推进器	Aqua Jets
 奥术适配器	Arcane Adapter
 奥术吞噬	Arcane Consumption
 区域防御者	Area Defender
@@ -50,6 +53,7 @@
 殖装谐和	Augmented Harmony
 完美殖装	Augmented Perfection
 金血威权	Aurum Authority
+自动驾驶程序	Autopilot
 阿瓦尔	Avar
 苏醒梦魇	Awakened Nightmare
 背靠背联结	Back to Back Bond
@@ -62,6 +66,7 @@
 彼岸惧魔	Beyond Terror
 二元爆能枪	Binary Blaster
 生物机械共生	Biomechanical Symbiosis
+生物识别锁（声纹识别）	Biometric Lock (Voice Recognition)
 生物识别窃取器	Biometric Thief
 生机均衡器	Biotic Equalizer
 比兰·斯穆克斯	Biran Smux
@@ -112,6 +117,7 @@ EBS之花	Bloom EBS
 改变姿势	Change Posture
 充电端口	Charging Port
 弹幕，救我！	Chat, Help!
+化学罐	Chem Tank
 钱德蕾	Chendre
 几丁质甲片	Chitinous Plates
 齐克齐克	Chk Chk
@@ -147,6 +153,7 @@ EBS之花	Bloom EBS
 歌谣之庭莫伊舒人	Court of Song Moyishuu
 制作	Craft
 分神	Create A Diversion
+创造胶囊	Creator Capsule
 猩红爪	Crimson Claw
 精准护理	Critical Care
 哭泣表情	Crymoji
@@ -208,12 +215,14 @@ EBS之花	Bloom EBS
 恪尽职守	Dutiful Adherence
 科技尝鲜者	Early Adopter
 易于改造	Easily Augmented
+便捷贴片	Easypatcher
 效果：人肉炮弹	Effect: Cannonball
 星辉埃格维里克	Egveric Brilliance of Stars
 电击链枷	Electroflail
 电磁操纵	Electromagnetic Manipulation
 电磁脉冲	Electromagnetic Pulse
 元素眷顾	Elemental Favor
+精英型	Elite
 表情兵装	Emoji Armament
 表情爆裂	Emoji Burst
 表情盾牌	Emoji Shield
@@ -266,6 +275,7 @@ EBS之花	Bloom EBS
 惊惧	Frightened
 霜喉	Frostmaw
 灼技步枪	Frytech Rifle
+全光谱传感器套件	Full-Spectrum Sensor Suite
 银河旅人	Galactic Traveler
 奔驰持握	Galloping Grip
 强撑精神	Game Face
@@ -280,7 +290,7 @@ EBS之花	Bloom EBS
 故障补偿器	Glitch Compensator
 闪粉飞扬	Glitter Everywhere
 幽暮地带	Gloaming
-格纳雷弗甲壳	Gnarefuroid Carapace
+拾荒蜗族甲壳	Gnarefuroid Carapace
 干得好！	Got 'Em
 受擒	Grabbed
 格拉布齐特	Grabzit
@@ -296,12 +306,15 @@ EBS之花	Bloom EBS
 坚持住，新朋友！	Hang in There (Nu)Friend!
 沃尔拉斯之库的淬炼	Hardened in the Vault
 硬光身体	Hardlight Body
+实光缠手带	Hardlight Handwraps
 硬光治疗	Hardlight Healing
 硬光发射器	Hardlight Launcher
 硬光折射	Hardlight Refraction
-硬光套装	Hardlight Series
+实光套装	Hardlight Series
 硬光武器	Hardlight Weapon
+失控自动驾驶	Haywire Autopilot
 治疗回路	Healing Circuits
+狱铸板甲	Hellforged Plates
 赫斯特拉莫	Hestramo
 藏匿	Hidden
 隐藏身份	Hidden Identity
@@ -370,6 +383,7 @@ EBS之花	Bloom EBS
 坎伦	Kanren
 凯利克斯	Kaylix
 传统守护者	Keeper of Traditions
+键盘锁	Keypad Lock
 科勒特	Khorlet
 强制终止	Kill Dash Nine
 动能发电机	Kinetic Generator
@@ -380,6 +394,7 @@ EBS之花	Bloom EBS
 指节弹炮	Knuckle Sheller
 库里亚库	Kuriaku
 克瓦什	kvash
+激光网	Laser Grid
 激光圆盘	Laserdisc
 咬住不放	Latch On
 起身腾跃	Launching Jump
@@ -389,6 +404,7 @@ EBS之花	Bloom EBS
 巧思妙用	Leverage Ingenuity
 LFAN改装师	LFAN Modder
 保命魔法	Life Preserver
+维生服	Lifesuit
 抬举花簇激活网络（LFAN）	Lifting Floret Activation Network (LFAN)
 光跃	Light Hop
 光束跃迁	Light Shift
@@ -428,6 +444,7 @@ LFAN改装师	LFAN Modder
 泥沼追踪者	Mire Tracker
 镜盾	Mirror Shield
 月亮小姐	Missy Moon
+移动强化器（殖装）	Mobility Enhancer (Augmentation)
 改造同步	Modification Synchronization
 水分采集器	Moisture Harvester
 熔融刃	Molten Edge
@@ -435,10 +452,14 @@ LFAN改装师	LFAN Modder
 单分子鞭	Monowhip
 月滴温泉	Moondrop Springs
 母语	Mother Tongue
+运动传感器（断层成像）	Motion Sensors (Tomographic)
+运动传感器（超声）	Motion Sensors (Ultrasonic)
 泥沼跋涉者	Muck Trawler
 黏液喷涌	Mucous Spurt
 多臂擒握	Multi-Armed Grab
+大型乐器	Musical Instrument (Heavy)
 菌根支配	Mycorrhizal Supremacy
+密耳弥多涅破城板甲	Myrmidon Siegebreaker
 纳克尔	Nacle
 纳尔凡特	Nalfant
 纳米狙击	Nanite Snipe
@@ -446,6 +467,7 @@ LFAN改装师	LFAN Modder
 纳佐尔·拉夫尼克	Narzor Ravnik
 天生飞车手	Natural Born Speedster
 纳瓦西	Navasi
+神经记录仪	Neurocam
 绝不再受制	Never Again
 次世代拉西利特族	Next-Gen Raxilite
 失落世界的乡愁	Nostalgia for Worlds Lost

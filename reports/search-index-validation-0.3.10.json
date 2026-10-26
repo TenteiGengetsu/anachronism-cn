@@ -1,0 +1,330 @@
+{
+  "version": "0.3.10",
+  "primaryEquipmentNamesChecked": 1161,
+  "correctedChineseQueries": {
+    "精英型骨化手雷": [
+      "05fb97mQM2HkKCxD"
+    ],
+    "精英型内爆手雷": [
+      "0fCtNDWpCpuR0AtI"
+    ],
+    "精英型抗毒剂": [
+      "1HlR2Ec1ljuszoXg"
+    ],
+    "精英型纤丝网": [
+      "2dVw2sMcrrw8GBDB"
+    ],
+    "精英型创造胶囊": [
+      "2mYm0yHiwJwcw3zg"
+    ],
+    "完美型创造胶囊": [
+      "2nsB5ELugA0gBy9b"
+    ],
+    "精英型自动驾驶程序": [
+      "3NkggN0DKQbONvuU"
+    ],
+    "商用型化学罐": [
+      "49Qja6ALTUaQuVIb"
+    ],
+    "商用型全光谱传感器套件": [
+      "55elqx7N7Upze3lR"
+    ],
+    "精英型死灵皮层": [
+      "58dqj75KPYcyrQIb"
+    ],
+    "生物识别锁（声纹识别）": [
+      "76HBY71IRnDBt2xm"
+    ],
+    "商用型键盘锁": [
+      "770rM91qLlzblzXF"
+    ],
+    "精英型突击公文包": [
+      "7YWd7JZA47NMkrKH"
+    ],
+    "商用型肾上腺素抑制血清": [
+      "8BvS0Cc9xoMQtNQh"
+    ],
+    "精英型抗生素": [
+      "9y5C3x4r3AHbLRqt"
+    ],
+    "气雾喷嘴": [
+      "Akb28v1hvTgFWjeg"
+    ],
+    "精英型虫群酸液移植": [
+      "AuVmRnuuo6gQbIQM"
+    ],
+    "狱铸板甲": [
+      "BJsogI1a5WSUHudq"
+    ],
+    "精英型空腔耳膜": [
+      "BZuMzxSN1Qg0vFPB"
+    ],
+    "精英型快充手": [
+      "BkV5PnZNfccQ7VNU"
+    ],
+    "商用型喷水推进器": [
+      "CYNZnduBJCF6XCFs"
+    ],
+    "战术型便捷贴片": [
+      "DMnQqPRDROpx9Nvj"
+    ],
+    "先进型激光网": [
+      "ETagvhKrOu2Pe36x"
+    ],
+    "战术型自动驾驶程序": [
+      "EffooqsdGkmoagnQ"
+    ],
+    "精英型锁": [
+      "EjjBj2kwhHxVisqR"
+    ],
+    "精英型腐蚀手雷": [
+      "FFIH71vn6P2Hpqye"
+    ],
+    "维生服": [
+      "FM97Pfj6jWJSSiK0"
+    ],
+    "密耳弥多涅破城板甲": [
+      "GoOXgHhuGVz5HCwM"
+    ],
+    "精英型快干泡沫手雷": [
+      "IOiDCepKBcAvTUml"
+    ],
+    "先进型创造胶囊": [
+      "IUiv47RR3WsYW5jM"
+    ],
+    "卓越型自动驾驶程序": [
+      "IYuiqL9eyIh6lZyg"
+    ],
+    "先进型肾上腺素抑制血清": [
+      "IlVMNMvaAA5eiZes"
+    ],
+    "精英型霜冻手雷": [
+      "In8gl8jvdZttRA8n"
+    ],
+    "精英型光尘炸弹": [
+      "Ix4mqtmib554dQxl"
+    ],
+    "终极型创造胶囊": [
+      "K9M8bBNL1ygWgm07"
+    ],
+    "精英型医疗贴片": [
+      "KFjPEG7kw733splu"
+    ],
+    "神经记录仪": [
+      "KV9G6sAR1xshdV1w"
+    ],
+    "精英型破片手雷": [
+      "KaUapB2WwBE6wnzd"
+    ],
+    "卓越型化学罐": [
+      "LMBwav4NYaXPDvxF"
+    ],
+    "精英型恶臭手雷": [
+      "LSSDx7G6gSdadCbQ"
+    ],
+    "卓越型实光缠手带": [
+      "MeV8qRq6cMlSBC2E"
+    ],
+    "精英型硬化泡沫手雷": [
+      "MozoKkEBcU8BGHTF"
+    ],
+    "商用型自动驾驶程序": [
+      "NALcDAMUKlqdj8oG"
+    ],
+    "精英型水晶电震碎片": [
+      "NrP9WazrcBuJfjxR"
+    ],
+    "精英型反魔法手雷": [
+      "OCdIvH35ibjWLrjc"
+    ],
+    "卓越型创造胶囊": [
+      "OFbPeVL84spTiJWV"
+    ],
+    "精英型真皮镀层": [
+      "OesDcmqYJV7OGJ1F"
+    ],
+    "商用型移动强化器（殖装）": [
+      "OypV6fQRmh5bS7aN"
+    ],
+    "精英型全息手雷": [
+      "P90ZbakrM3UPJsZQ"
+    ],
+    "精英型实光缠手带": [
+      "Q2wVgoS7y1JlciTV"
+    ],
+    "精英型尸皮": [
+      "QKC6mFBzruml847Y"
+    ],
+    "战术型键盘锁": [
+      "QXTjS9nzozhGekz4"
+    ],
+    "精英型爆燃手雷": [
+      "R8dEureCA93msBsa"
+    ],
+    "精英型龙喉腺体": [
+      "T3QeQ51KwNyJdkLb"
+    ],
+    "精英型化学罐": [
+      "TGmKOBG0V73uensD"
+    ],
+    "精英型电磁手雷": [
+      "TTWzhSdn1RlBVJ2D"
+    ],
+    "战术型移动强化器（殖装）": [
+      "TrFdbXpE4BQsxQ3T"
+    ],
+    "战术型手持乐器": [
+      "TwnyjvE7ZX35lCrj"
+    ],
+    "先进型全光谱传感器套件": [
+      "UVUWVxSbkL3xTj0L"
+    ],
+    "终极型实光缠手带": [
+      "Vp7O4NTBJ5OZwGMG"
+    ],
+    "精英型抑法手雷": [
+      "VqijQYqNCEb4c8uL"
+    ],
+    "战术型化学罐": [
+      "XPwiBjnQgSyb6uZ4"
+    ],
+    "战术型全光谱传感器套件": [
+      "Y29T9xXByIpAynzp"
+    ],
+    "精英型力场护盾": [
+      "YZjmnoJD64oLMQ7q"
+    ],
+    "精英型远程锁控应用": [
+      "Yezn94CFX6lxzZc9"
+    ],
+    "精英型激光网": [
+      "Z5x9VVWsRMG86Px0"
+    ],
+    "运动传感器（超声）": [
+      "Z99pKPTdAgTaU5Nr"
+    ],
+    "战术型激光网": [
+      "aip709rH9LNp4LqZ"
+    ],
+    "商用型实光缠手带": [
+      "b12tnjobe9IrphII"
+    ],
+    "卓越型激光网": [
+      "bDWEfL3m6Fjx3DTo"
+    ],
+    "精英型皮下注射剂": [
+      "gRZxPwfmz3O0bgOt"
+    ],
+    "精英型过滤式循环呼吸器": [
+      "hFU8q6aCS6bq89oW"
+    ],
+    "商用型便捷贴片": [
+      "hH1vCb2EJyqMo8ac"
+    ],
+    "先进型自动驾驶程序": [
+      "hhHRdWCHmQjOTIAZ"
+    ],
+    "拾荒蜗族甲壳": [
+      "iQUNB0IdVkSH4hds"
+    ],
+    "精英型心能软呢帽": [
+      "iayCU2A9X5rIYvsm"
+    ],
+    "先进型便捷贴片": [
+      "iyGcRLTCRThFdg7d"
+    ],
+    "精英型马拉塔头痛": [
+      "kUfQvnJzmB1GO1Lh"
+    ],
+    "战术型创造胶囊": [
+      "kaoerU0s3ONkB3Ez"
+    ],
+    "精英型烟雾手雷": [
+      "kzc2sa3DulMUTx3m"
+    ],
+    "精英型劫掠之喉": [
+      "lDFEQetYGVyvtP0u"
+    ],
+    "战术型肾上腺素抑制血清": [
+      "lg5WEPodc5soVdpd"
+    ],
+    "先进型移动强化器（殖装）": [
+      "nPWa6a9jHVHdcNeo"
+    ],
+    "运动传感器（断层成像）": [
+      "nUx56sGJq1GwzaMD"
+    ],
+    "先进型化学罐": [
+      "oOFi3NRGW1w1O3PD"
+    ],
+    "商用型手持乐器": [
+      "oRuWi8EhgBiS3cbh"
+    ],
+    "商用型激光网": [
+      "p7sfuJqulO2vM75s"
+    ],
+    "实光套装": [
+      "pcPU3BjbNclch4lS"
+    ],
+    "商用型大型乐器": [
+      "pm5cjJotmQRlJ0pZ"
+    ],
+    "先进型实光缠手带": [
+      "pwN8Bh8amBjBPka4"
+    ],
+    "精英型电击棍": [
+      "rG3i7wIEu6YOAcPO"
+    ],
+    "精英型衰退手雷": [
+      "rIcsfhrhP23RUYzx"
+    ],
+    "精英型干扰手雷": [
+      "re5z8UAVuxwSIQlt"
+    ],
+    "战术型大型乐器": [
+      "suvVsy5oA4WjgetD"
+    ],
+    "商用型创造胶囊": [
+      "urGZmltJAPTPDtcr"
+    ],
+    "战术型喷水推进器": [
+      "wg0YiODNpygNeiiA"
+    ],
+    "精英型声波手雷": [
+      "wwkN5Sra5lde1KS7"
+    ],
+    "完美型实光缠手带": [
+      "xIyau4fBsCcoLB9x"
+    ],
+    "战术型实光缠手带": [
+      "xJBRvJHRz7KHAlpj"
+    ],
+    "精英型闪光手雷": [
+      "zQlnRRTdC4pdwCvi"
+    ],
+    "精英型电池": [
+      "6Ac3Vkyp7V0xxRnr"
+    ],
+    "精英型二元回路": [
+      "CUAwX0Fj5mVSX7ke"
+    ],
+    "精英型动能发电机": [
+      "FoA5xELBKc7zeRH5"
+    ],
+    "精英型独立阻挡机器人": [
+      "JXhEqbM57RQmwYvq"
+    ],
+    "精英型镖弹发射器": [
+      "M3L1Y9RdyCUYQ9nR"
+    ],
+    "精英型残余能量导体": [
+      "RvFZOeBEmug8Asbw"
+    ]
+  },
+  "correctedNamesChecked": 106,
+  "all52EliteGradesCorrect": true,
+  "allStableIdsAndEnglishAliasesPreserved": true,
+  "allMainNamesBilingual": true,
+  "builderIdempotent": true,
+  "liveFoundryTested": false
+}

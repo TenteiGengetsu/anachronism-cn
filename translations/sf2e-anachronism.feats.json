@@ -410,7 +410,7 @@
     },
     "0xhVTQwPdlwFljzj": {
       "name": "士兵特性同步化 Soldier Synchronization",
-      "description": "<p>在判断所有士兵专长和职业特性时，你将手雷视为具有区域（爆发）特征的区域武器，包括主目标和压制火力。若你正持握1个手雷，那么你就能满足那些需要你持用区域武器的士兵专长的需求。</p>\n<p>当你以手雷使用主目标时，该手雷被视同为简易投掷武器，具有耗弹0和区域（爆发）特征，70尺射程（若具有长距离掷弹专长则为140尺）。打击对手雷的主目标造成1个伤害骰的伤害，该伤害骰与手雷具有相同的骰子大小以及伤害类型。若手雷为先进型或卓越型，该伤害会增加至2个伤害骰，菁英型或终极型手雷为3个伤害骰，完美型手雷为4个伤害骰。若手雷本身不会造成伤害，那么使用主目标时它也不会造成伤害。</p>",
+      "description": "<p>在判断所有士兵专长和职业特性时，你将手雷视为具有区域（爆发）特征的区域武器，包括主目标和压制火力。若你正持握1个手雷，那么你就能满足那些需要你持用区域武器的士兵专长的需求。</p>\n<p>当你以手雷使用主目标时，该手雷被视同为简易投掷武器，具有耗弹0和区域（爆发）特征，70尺射程（若具有长距离掷弹专长则为140尺）。打击对手雷的主目标造成1个伤害骰的伤害，该伤害骰与手雷具有相同的骰子大小以及伤害类型。若手雷为先进型或卓越型，该伤害会增加至2个伤害骰，精英型或终极型手雷为3个伤害骰，完美型手雷为4个伤害骰。若手雷本身不会造成伤害，那么使用主目标时它也不会造成伤害。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -1990,7 +1990,7 @@
     },
     "9BiW7yzDpWkj7hnv": {
       "name": "攻性防御 Offensive Defense",
-      "description": "<p><strong>需求</strong>你的护甲具有力场护盾（force field）升级或者持握一件具有科技特征的盾牌。</p><hr /><p>你使盾牌过载，制造冲击波击退附近敌人。你使用力场或盾牌@UUID[Compendium.sf2e-anachronism.actions.Item.oc0ZKnk5zD0GXqZi]，造成@Damage[2d10[bludgeoning]|options:area-damage,forced-movement]伤害，影响以你所占一个方格的一角为中心的@Template[burst|distance:5]{半径5尺爆发}，但不影响你自身。此次攻击具有追踪+1特征，属于盾牌武器组。豁免失败的生物被击退5尺。如果你具有主目标职业能力，主目标的打击使用你的力场或盾牌。</p><hr /><p><strong>特殊</strong>如果你使用卓越型或更高级的力场护盾或者盾牌，此次攻击具有追踪+2特征,如果是终极型或更高级的，具有追踪+3特征,相似的，如果是菁英型或更高级的，伤害提升至@Damage[3d10[bludgeoning]|options:area-damage,forced-movement|shortLabel]伤害,如果是完美型提升至@Damage[4d10[bludgeoning]|options:area-damage,forced-movement|shortLabel]。</p>"
+      "description": "<p><strong>需求</strong>你的护甲具有力场护盾（force field）升级或者持握一件具有科技特征的盾牌。</p><hr /><p>你使盾牌过载，制造冲击波击退附近敌人。你使用力场或盾牌@UUID[Compendium.sf2e-anachronism.actions.Item.oc0ZKnk5zD0GXqZi]，造成@Damage[2d10[bludgeoning]|options:area-damage,forced-movement]伤害，影响以你所占一个方格的一角为中心的@Template[burst|distance:5]{半径5尺爆发}，但不影响你自身。此次攻击具有追踪+1特征，属于盾牌武器组。豁免失败的生物被击退5尺。如果你具有主目标职业能力，主目标的打击使用你的力场或盾牌。</p><hr /><p><strong>特殊</strong>如果你使用卓越型或更高级的力场护盾或者盾牌，此次攻击具有追踪+2特征,如果是终极型或更高级的，具有追踪+3特征,相似的，如果是精英型或更高级的，伤害提升至@Damage[3d10[bludgeoning]|options:area-damage,forced-movement|shortLabel]伤害,如果是完美型提升至@Damage[4d10[bludgeoning]|options:area-damage,forced-movement|shortLabel]。</p>"
     },
     "9CIKxLVRVKWnnn5o": {
       "name": "燃烧殆尽 Burn Up",
@@ -4388,7 +4388,7 @@
     },
     "L1xoJKmFcGtw2hRD": {
       "name": "残缺尸族 Partial Corpsefolk",
-      "description": "<p>你因严重创伤性损伤导致肢体缺失而死亡，或在被唤回为不死生物前长期腐烂。除非完全伪装，否则你无法向旁观者隐藏你的不死本质，但你能以创造性方式操控残缺的碎片。你减少的质量赋予你的陆地速度+5尺状态加值。此外，你可以消耗1个具有操作特征的动作，来折断自身身体上的一块锯齿状碎片，以制成一件商用型@UUID[Compendium.sf2e-anachronism.equipment.Item.V0LgOSOvkNvs2i0x]（knife）。你每次可制造的短刀数量等同于你的体质调整值。它们不可被出售且他人无法使用。增强你天生攻击的效果（如硬光缠手带）在你持用短刀时会作用于以此方式制造的商用型短刀。</p>"
+      "description": "<p>你因严重创伤性损伤导致肢体缺失而死亡，或在被唤回为不死生物前长期腐烂。除非完全伪装，否则你无法向旁观者隐藏你的不死本质，但你能以创造性方式操控残缺的碎片。你减少的质量赋予你的陆地速度+5尺状态加值。此外，你可以消耗1个具有操作特征的动作，来折断自身身体上的一块锯齿状碎片，以制成一件商用型@UUID[Compendium.sf2e-anachronism.equipment.Item.V0LgOSOvkNvs2i0x]（knife）。你每次可制造的短刀数量等同于你的体质调整值。它们不可被出售且他人无法使用。增强你天生攻击的效果（如实光缠手带）在你持用短刀时会作用于以此方式制造的商用型短刀。</p>"
     },
     "L2bJ86Pkp9JFsd8E": {
       "name": "族裔生长 Ancestral Growth",
@@ -5235,7 +5235,7 @@
     },
     "OwA77XLPXE9UD1m8": {
       "name": "向恢复之水低语 Whisper to the Restoring Waters",
-      "description": "<p><strong>频率</strong>每天一次</p><hr /><p>你带着一句神圣的感恩之言喝下一些水，让水将活力导入你的身体。这些水的作用等同于你选择的先进型医疗贴片或皮下注射器。在13级时，其作用等同于卓越型医疗贴片或皮下注射器。在17级时，其作用等同于菁英型医疗贴片或皮下注射器。</p>"
+      "description": "<p><strong>频率</strong>每天一次</p><hr /><p>你带着一句神圣的感恩之言喝下一些水，让水将活力导入你的身体。这些水的作用等同于你选择的先进型医疗贴片或皮下注射器。在13级时，其作用等同于卓越型医疗贴片或皮下注射器。在17级时，其作用等同于精英型医疗贴片或皮下注射器。</p>"
     },
     "OwKhWs0Qk0DCFHSM": {
       "name": "心灵感应通道 Telepathic Conduit",
@@ -5975,7 +5975,7 @@
     },
     "SuzoBwGsO1myKR8w": {
       "name": "毒性鸡尾酒 Venomous Cocktail",
-      "description": "<p>你可以通过摄入更多毒素来增强你的天生毒素，使其与你的天生毒素混合。你交互以取出（如有必要）并喝下你所持握武器中的一剂毒素或一发造成毒素伤害的投射弹药。你下次用你的毒颚进行的打击增加1d4点毒素伤害。如果你持握的武器是先进型或卓越型，伤害增加至两个骰子，如果武器是菁英型或终极型，增加至三个骰子，如果是完美型，则增加至四个骰子。重击时，在翻倍武器伤害后骰掷这些骰子。</p>",
+      "description": "<p>你可以通过摄入更多毒素来增强你的天生毒素，使其与你的天生毒素混合。你交互以取出（如有必要）并喝下你所持握武器中的一剂毒素或一发造成毒素伤害的投射弹药。你下次用你的毒颚进行的打击增加1d4点毒素伤害。如果你持握的武器是先进型或卓越型，伤害增加至两个骰子，如果武器是精英型或终极型，增加至三个骰子，如果是完美型，则增加至四个骰子。重击时，在翻倍武器伤害后骰掷这些骰子。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -8848,7 +8848,7 @@
     },
     "h3Po5sPrWAgqaq97": {
       "name": "粘稠包卷 Gooey Engulf",
-      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p>你可以行走并穿过路径上任何生物所处空间。任何你移动穿越空间的与你体型相同或更小的生物，可以尝试一次@Check[reflex|against:athletics]对抗你的运动DC，以避免被包卷。无法行动的生物在此豁免上自动大失败。如果一个生物成功通过其豁免，它可以选择被推到侧面或是在你移动结束时被推到你的前方。你每回合只能尝试粘稠包卷同一生物一次。你能够容纳尽可能多的生物直至填满其占据空间。</p>\n<p>豁免失败的生物被拉入你体内。它@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}且@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，并且必须屏息，否则开始窒息。被吞没期间，该生物在其每个回合结束时受到@Damage[1d6[acid]]伤害（此伤害可由@UUID[Compendium.sf2e-anachronism.equipment.Item.b12tnjobe9IrphII]{硬光缠手带}改善，如同徒手攻击）。被吞没的生物可以[[/act escape dc=athletics]]{逃脱}，对抗你的运动DC，以此脱身。被吞没的生物可以攻击你，但只能用徒手攻击或轻量及更轻的武器。你对这些攻击@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。如果你在单次攻击或法术中受到的穿刺或挥砍伤害达到或超过你剩余生命值的四分之一，被吞没的生物就会切开你的身体脱身。以任一方式脱身的生物都可以立即呼吸，并离开你的空间。如果你入睡、被打至@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}或死亡，你吞没的所有生物都会自动获释。</p>",
+      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p>你可以行走并穿过路径上任何生物所处空间。任何你移动穿越空间的与你体型相同或更小的生物，可以尝试一次@Check[reflex|against:athletics]对抗你的运动DC，以避免被包卷。无法行动的生物在此豁免上自动大失败。如果一个生物成功通过其豁免，它可以选择被推到侧面或是在你移动结束时被推到你的前方。你每回合只能尝试粘稠包卷同一生物一次。你能够容纳尽可能多的生物直至填满其占据空间。</p>\n<p>豁免失败的生物被拉入你体内。它@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}且@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}，并且必须屏息，否则开始窒息。被吞没期间，该生物在其每个回合结束时受到@Damage[1d6[acid]]伤害（此伤害可由@UUID[Compendium.sf2e-anachronism.equipment.Item.b12tnjobe9IrphII]{实光缠手带}改善，如同徒手攻击）。被吞没的生物可以[[/act escape dc=athletics]]{逃脱}，对抗你的运动DC，以此脱身。被吞没的生物可以攻击你，但只能用徒手攻击或轻量及更轻的武器。你对这些攻击@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}。如果你在单次攻击或法术中受到的穿刺或挥砍伤害达到或超过你剩余生命值的四分之一，被吞没的生物就会切开你的身体脱身。以任一方式脱身的生物都可以立即呼吸，并离开你的空间。如果你入睡、被打至@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}或死亡，你吞没的所有生物都会自动获释。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -9238,7 +9238,7 @@
     },
     "itNu1sa1RfmmykkC": {
       "name": "坚固废料 Sturdy Scrap",
-      "description": "<p>你构建出更耐久的临时外壳。你用@UUID[Compendium.sf2e-anachronism.feats.Item.JeGhKyXLpV99DxEP]制作的盾牌为战术型品质。你在9级时可以制作先进型盾牌，13级为卓越型盾牌，17级为菁英型盾牌。此外，你可以使用废料盾牌来制作一面@UUID[Compendium.sf2e-anachronism.equipment.Item.n7My3cvLdfygf9xp]。</p>",
+      "description": "<p>你构建出更耐久的临时外壳。你用@UUID[Compendium.sf2e-anachronism.feats.Item.JeGhKyXLpV99DxEP]制作的盾牌为战术型品质。你在9级时可以制作先进型盾牌，13级为卓越型盾牌，17级为精英型盾牌。此外，你可以使用废料盾牌来制作一面@UUID[Compendium.sf2e-anachronism.equipment.Item.n7My3cvLdfygf9xp]。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -13288,7 +13288,7 @@
     },
     "J0ixJT6pf8K5mmR6": {
       "name": "潜力新药 Promising Pharmaceutical",
-      "description": "<p>你学会了将血液提炼为强效药物。在每日准备期间，你可以制造一剂这样的药物；它是一种独特的消耗品血清，同时具有@UUID[Compendium.sf2e-anachronism.equipment.Item.HWHdAQArhRauTpm6]{战术型医疗贴片}与@UUID[Compendium.sf2e-anachronism.equipment.Item.sOnw25eL6RJuc5rE]{先进型皮下注射剂}的效果。此药物保持效力至你的下次每日准备，届时便会分解失效。你绝不能出售以此方式制造的药物。13级时，药物改为同时具有@UUID[Compendium.sf2e-anachronism.equipment.Item.55nSLw1aQ0K0rK2L]{先进型医疗贴片}与@UUID[Compendium.sf2e-anachronism.equipment.Item.kJmAAmnck30kNx2X]{卓越型皮下注射剂}的效果。17级时，改为同时具有@UUID[Compendium.sf2e-anachronism.equipment.Item.6VDHl7xkSp8Sc8yy]{卓越型医疗贴片}与@UUID[Compendium.sf2e-anachronism.equipment.Item.gRZxPwfmz3O0bgOt]{菁英型皮下注射剂}的效果。</p>",
+      "description": "<p>你学会了将血液提炼为强效药物。在每日准备期间，你可以制造一剂这样的药物；它是一种独特的消耗品血清，同时具有@UUID[Compendium.sf2e-anachronism.equipment.Item.HWHdAQArhRauTpm6]{战术型医疗贴片}与@UUID[Compendium.sf2e-anachronism.equipment.Item.sOnw25eL6RJuc5rE]{先进型皮下注射剂}的效果。此药物保持效力至你的下次每日准备，届时便会分解失效。你绝不能出售以此方式制造的药物。13级时，药物改为同时具有@UUID[Compendium.sf2e-anachronism.equipment.Item.55nSLw1aQ0K0rK2L]{先进型医疗贴片}与@UUID[Compendium.sf2e-anachronism.equipment.Item.kJmAAmnck30kNx2X]{卓越型皮下注射剂}的效果。17级时，改为同时具有@UUID[Compendium.sf2e-anachronism.equipment.Item.6VDHl7xkSp8Sc8yy]{卓越型医疗贴片}与@UUID[Compendium.sf2e-anachronism.equipment.Item.gRZxPwfmz3O0bgOt]{精英型皮下注射剂}的效果。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -13770,7 +13770,7 @@
     },
     "Rsc02LGMUbp6Rx84": {
       "name": "黏体包覆（因图菌群） Gooey Engulf (Entu)",
-      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p>你可以行走，穿过路径上任意生物的空间。你穿过空间的任何体型不大于你的生物，都可以尝试进行@Check[reflex|against:athletics]豁免，对抗你的运动DC，避免被包覆。无法行动的生物自动在此豁免中大失败。如果豁免成功，它可以选择在你移动结束时被推向一旁，或被推到你前方。你每回合只能对同一生物尝试黏体包覆一次。你能容纳的生物数量，仅受你空间能容纳多少生物的限制。</p>\n<p>豁免失败的生物被拉入你的身体，处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}与@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}状态，必须屏息，否则开始窒息。被包覆期间，该生物在自己的每个回合结束时受到@Damage[1d6[acid]]伤害；此伤害可以通过@UUID[Compendium.sf2e-anachronism.equipment.Item.b12tnjobe9IrphII]{硬光缠手带}提高，如同它是无武装攻击。被包覆的生物可以通过[[/act escape dc=athletics]]{脱逃}对抗你的运动DC，来挣脱。它可以攻击你，但只能使用无武装攻击，或轻负载及更轻的武器。你面对这些攻击时处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态。如果你从一次攻击或法术受到的穿刺或挥砍伤害，达到或超过你剩余生命值的四分之一，该生物便割开你的身体逃脱。以任一方式挣脱的生物都能立即呼吸，并离开你的空间。如果你睡着、被击至@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}或死亡，所有被你包覆的生物都会自动获释。</p>"
+      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p>你可以行走，穿过路径上任意生物的空间。你穿过空间的任何体型不大于你的生物，都可以尝试进行@Check[reflex|against:athletics]豁免，对抗你的运动DC，避免被包覆。无法行动的生物自动在此豁免中大失败。如果豁免成功，它可以选择在你移动结束时被推向一旁，或被推到你前方。你每回合只能对同一生物尝试黏体包覆一次。你能容纳的生物数量，仅受你空间能容纳多少生物的限制。</p>\n<p>豁免失败的生物被拉入你的身体，处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}与@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}状态，必须屏息，否则开始窒息。被包覆期间，该生物在自己的每个回合结束时受到@Damage[1d6[acid]]伤害；此伤害可以通过@UUID[Compendium.sf2e-anachronism.equipment.Item.b12tnjobe9IrphII]{实光缠手带}提高，如同它是无武装攻击。被包覆的生物可以通过[[/act escape dc=athletics]]{脱逃}对抗你的运动DC，来挣脱。它可以攻击你，但只能使用无武装攻击，或轻负载及更轻的武器。你面对这些攻击时处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态。如果你从一次攻击或法术受到的穿刺或挥砍伤害，达到或超过你剩余生命值的四分之一，该生物便割开你的身体逃脱。以任一方式挣脱的生物都能立即呼吸，并离开你的空间。如果你睡着、被击至@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}或死亡，所有被你包覆的生物都会自动获释。</p>"
     },
     "RxFBsK5PQy3UvMIZ": {
       "name": "载具凶煞 Vehicular Menace",
@@ -14586,7 +14586,7 @@
     },
     "jiNuKNa9NcU27Bh2": {
       "name": "快速制造者 Fabricator",
-      "description": "<p>你知道如何将通用聚合物放入造物胶囊，配置并打印出科技物品。你必须拥有该物品的配方，才能在造物胶囊中制造它，并支付等于物品材料价格的通用聚合物；根据工艺检定结果，减少所用材料。与通常的制造不同，此过程以分钟而非天计时（取决于所用造物胶囊的品级），但你无法花费额外时间继续制作物品。成功制造物品时，造物胶囊会被消耗，但检定失败或大失败时不会。你无需@UUID[Compendium.sf2e-anachronism.feats.Item.mX0Xl6wY1WmhyuVO]技能专长，就能使用快速制造者制作科技物品；但除非你具有@UUID[Compendium.pf2e.feats-srd.Item.xWY5omyIcILNR7y1]{魔法手艺}，否则无法使用快速制造者制造魔法装备。</p>",
+      "description": "<p>你知道如何将通用聚合物放入创造胶囊，配置并打印出科技物品。你必须拥有该物品的配方，才能在创造胶囊中制造它，并支付等于物品材料价格的通用聚合物；根据工艺检定结果，减少所用材料。与通常的制造不同，此过程以分钟而非天计时（取决于所用创造胶囊的品级），但你无法花费额外时间继续制作物品。成功制造物品时，创造胶囊会被消耗，但检定失败或大失败时不会。你无需@UUID[Compendium.sf2e-anachronism.feats.Item.mX0Xl6wY1WmhyuVO]技能专长，就能使用快速制造者制作科技物品；但除非你具有@UUID[Compendium.pf2e.feats-srd.Item.xWY5omyIcILNR7y1]{魔法手艺}，否则无法使用快速制造者制造魔法装备。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -14854,7 +14854,7 @@
     },
     "q5wpA72zrimqgAXW": {
       "name": "人肉炮弹 Cannonball",
-      "description": "<p>多年玩轻灵狂欢球（skitterspree）的经历让你练就了特殊招式。你紧紧蜷缩成球，一个与你相邻、有一只空闲手且体型至少比你大一级的盟友，可以使用一个反应动作，以你的身体作为无武装攻击尝试一次远程打击；在此次打击期间，该攻击造成1d10钝击伤害。此无武装攻击属于搏击武器组，具有灵巧、非电子、凶暴和投掷（20尺）特征。此无武装攻击会获得你穿戴的@UUID[Compendium.sf2e-anachronism.equipment.Item.b12tnjobe9IrphII]{硬光缠手带}的好处。你在目标相邻处落地，但如果此次打击大失败，你会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}着地。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.hi8MzgUdx532I1Gt]{效果：人肉炮弹}</p>",
+      "description": "<p>多年玩轻灵狂欢球（skitterspree）的经历让你练就了特殊招式。你紧紧蜷缩成球，一个与你相邻、有一只空闲手且体型至少比你大一级的盟友，可以使用一个反应动作，以你的身体作为无武装攻击尝试一次远程打击；在此次打击期间，该攻击造成1d10钝击伤害。此无武装攻击属于搏击武器组，具有灵巧、非电子、凶暴和投掷（20尺）特征。此无武装攻击会获得你穿戴的@UUID[Compendium.sf2e-anachronism.equipment.Item.b12tnjobe9IrphII]{实光缠手带}的好处。你在目标相邻处落地，但如果此次打击大失败，你会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}着地。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.hi8MzgUdx532I1Gt]{效果：人肉炮弹}</p>",
       "cnPrerequisites": [
         {
           "index": 0,
