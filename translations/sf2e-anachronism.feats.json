@@ -8053,7 +8053,7 @@
     },
     "dMIij0rQ3Z0bErDY": {
       "name": "重返交界河 Return to the River",
-      "description": "<p>你与星间之河（River Between）的联系深入灵魂。身临死境时，星间之河呼唤你回家，投入它的怀抱。你将会死亡时，不会死亡。你改为被金色太阳能量组成的茧包裹，消失并传送穿越星系，抵达星间之河。[[/r 2d6 #days]]{2d6天}之后，茧破开，你以完全恢复的状态，在流散带内星间之河沿岸的随机位置出现。</p>"
+      "description": "<p>你与交界河（River Between）的联系深入灵魂。身临死境时，交界河呼唤你回家，投入它的怀抱。你将会死亡时，不会死亡。你改为被金色太阳能量组成的茧包裹，消失并传送穿越星系，抵达交界河。[[/r 2d6 #days]]{2d6天}之后，茧破开，你以完全恢复的状态，在流散带内交界河沿岸的随机位置出现。</p>"
     },
     "dMvoXCZRjCItHRB6": {
       "name": "狭缝居民 Crevice Dweller",
@@ -8897,8 +8897,8 @@
       "description": "<p>感召将你带到了一颗遥远的星球。你获得@UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]通用专长，且你还会从你在异族情谊中选择的族裔中获得一个1级族裔专长或则获得@UUID[Compendium.sf2e-anachronism.feats.Item.mcl1efgOfMJK1UU9]标准族裔专长。</p>"
     },
     "hPmYo6zCElcukFWV": {
-      "name": "乘骑星间之河 Ride the River Between",
-      "description": "<p>你跨越太空，与星间之河相连，攫取其中一缕太阳流，以金光与太阳能量淹没战场。这股星间之河的细流充满一个直径10尺、起于你所在方格的@Template[type:line|distance:100]，持续1分钟。河流形成后，你可以移动到河流内的任何方格（此移动不触发反应）。此区域为明亮光照，且就萨瑟蝶人使用能量翼而言，视为真空。你使用乘骑星间之河时处于区域内的非萨瑟蝶人生物，以及之后进入区域的非萨瑟蝶人生物，必须成功通过@Check[fortitude|against:class-spell]豁免，否则@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮（大失败则为1分钟）。受此能力影响的生物暂时免疫24小时。此豁免DC等于你的法术DC或职业DC中较高者。</p>"
+      "name": "乘骑交界河 Ride the River Between",
+      "description": "<p>你跨越太空，与交界河相连，攫取其中一缕太阳流，以金光与太阳能量淹没战场。这股交界河的细流充满一个直径10尺、起于你所在方格的@Template[type:line|distance:100]，持续1分钟。河流形成后，你可以移动到河流内的任何方格（此移动不触发反应）。此区域为明亮光照，且就萨瑟蝶人使用能量翼而言，视为真空。你使用乘骑交界河时处于区域内的非萨瑟蝶人生物，以及之后进入区域的非萨瑟蝶人生物，必须成功通过@Check[fortitude|against:class-spell]豁免，否则@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}1轮（大失败则为1分钟）。受此能力影响的生物暂时免疫24小时。此豁免DC等于你的法术DC或职业DC中较高者。</p>"
     },
     "hQ6s9YekCTexSaId": {
       "name": "种荚诱饵 Seedpod Lure",
@@ -9511,7 +9511,7 @@
       ]
     },
     "kQZa9Vfl7qRRSJAX": {
-      "name": "抓握尾 Prehensile Tail",
+      "name": "盘卷尾巴 Prehensile Tail",
       "description": "<p>你的尾巴有如额外的肢体，足以胜任各种细活儿。你可以用尾巴如同一只额外的手一样持握装备，并且你可以使用尾巴执行交互动作。在使用@UUID[Compendium.sf2e-anachronism.actions.Item.oW81CfM9ebxXnrw3]动作指定你的主动手时，你的尾巴被视作一双手。</p>"
     },
     "kTXp7QPeIlNfl5CN": {
@@ -9708,7 +9708,7 @@
     },
     "m1nUqHjAIL5pDtaY": {
       "name": "粗制护甲 Roughcast Armor",
-      "description": "<p>你是用废料打造护甲的能手。每日准备期间，你可以查阅配方册中一个不高于你等级的护甲升级配方。直到你的下一次每日准备，每当你施放<em>废料护甲</em>时，你都可以安装此升级，即使没有空闲的升级槽。如果你在工艺达到大师，你会获得所穿戴的任何<em>废料护甲</em>的护甲专精效果。</p>",
+      "description": "<p>你是用废料打造护甲的能手。每日准备期间，你可以查阅配方册中一个不高于你等级的护甲升级配方。直到你的下一次每日准备，每当你施放<em>废品护甲</em>时，你都可以安装此升级，即使没有空闲的升级槽。如果你在工艺达到大师，你会获得所穿戴的任何<em>废品护甲</em>的护甲专精效果。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -9718,7 +9718,7 @@
         {
           "index": 1,
           "expected": "able to cast junk armor",
-          "text": "能够施放废料护甲"
+          "text": "能够施放废品护甲"
         },
         {
           "index": 2,
@@ -10637,7 +10637,7 @@
     },
     "rhxjzSS4g9SQbJl9": {
       "name": "粗制武器 Roughcast Weapons",
-      "description": "<p>你拼凑的武器更大、更凶猛，也更破烂。在每日准备期间，你可以查阅配方书中一个等级不高于你的武器强化模块配方。直到下次每日准备，每当你施放<em>废料武器</em>时，你都可以装设此强化模块，即使没有空闲强化插槽。如果你的手艺为大师，你便可使用通过<em>废料武器</em>创造的武器的重击专精效果。</p>",
+      "description": "<p>你拼凑的武器更大、更凶猛，也更破烂。在每日准备期间，你可以查阅配方书中一个等级不高于你的武器强化模块配方。直到下次每日准备，每当你施放<em>废品武器</em>时，你都可以装设此强化模块，即使没有空闲强化插槽。如果你的手艺为大师，你便可使用通过<em>废品武器</em>创造的武器的重击专精效果。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -10647,7 +10647,7 @@
         {
           "index": 1,
           "expected": "able to cast junk weapon",
-          "text": "能够施放废料武器"
+          "text": "能够施放废品武器"
         },
         {
           "index": 2,
@@ -11451,7 +11451,7 @@
       "description": "<p><strong>需求</strong>你持用一把枪械</p><hr /><p>你向前冲刺，同时在移动中对敌人进行精准射击。@UUID[Compendium.sf2e-anachronism.actions.Item.sLikawnrJJzHMYeC]，然后行走至多等同于你的速度。在此移动过程中的任何时点，你可以用持用的枪械进行一次远程打击。</p>"
     },
     "vKV9KJ397Bf1fBdD": {
-      "name": "鼠眼抬头显示器 Rat Retinal HUD",
+      "name": "鼠眼HUD Rat Retinal HUD",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -12369,7 +12369,7 @@
       ]
     },
     "0IZcIdwkVArBV1G9": {
-      "name": "最广视野（伊扎尔贡人） Widest Field of View (Izalguun)",
+      "name": "极宽视野（伊扎尔贡人） Widest Field of View (Izalguun)",
       "description": "<p>你能处理足够多的视觉信息，同时观察所有方向。你永久获得全方位视觉，因此不会被夹击。此外，你可以同时向两个方向[[/act seek]]。</p>",
       "cnPrerequisites": [
         {
@@ -12414,11 +12414,11 @@
       "description": "<p>你与第一世界的联系十分紧密。在社交情境中遇到精类生物时，你可以立即对其尝试进行交涉检定来[[/act make-an-impression]]，无需先交谈1分钟。此次检定承受–4环境减值。如果失败，你可以与其交谈1分钟，并在交谈结束时重新检定，而不必接受失败或大失败的结果。此外，你对抗精类的察觉检定和豁免检定均获得+2环境加值。</p>"
     },
     "0iPdHYk4m62am4Pf": {
-      "name": "硬光折射 Hardlight Refraction",
+      "name": "折光实光 Hardlight Refraction",
       "description": "<p>你安装了一种算法，利用硬光的折射，让你在没有其他光源时也能看见。你获得昏暗视觉。</p><hr /><p><strong>特殊</strong>你可以第二次选择此专长。如此做时，你获得黑暗视觉。</p>"
     },
     "0vwBTQbzgOWQ3b9w": {
-      "name": "哲思诘难 Philosophical Damnation",
+      "name": "哲学天谴 Philosophical Damnation",
       "description": "<p>你对多元宇宙根本性质的理解，让你能够质疑其他存在的存在本身。你可以每天一次以8环神术内在法术的形式施放@UUID[Compendium.sf2e-anachronism.spells.Item.zdzeVZlKHkMAt2Rf]。</p>"
     },
     "0z6N6876SD83JfgY": {
@@ -12450,7 +12450,7 @@
       "description": "<p><strong>频率</strong>每10分钟一次</p>\n<p><strong>触发</strong>敌人对你的近战打击取得大失败。</p><hr /><p>你以诡异动作避开来袭的打击，令袭击者困惑分心。在你的下个回合开始前，触发此反应的生物面对任何盟友对它进行的下一次打击时，处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态。</p><hr /><p><strong>特殊</strong>只要你的魂感调谐于惊奇，诡奇身法的频率便为每分钟一次。</p>"
     },
     "1tBVxuuKKyrwndTk": {
-      "name": "长尾鲨KO-1机体 Thresher KO-1 Frame",
+      "name": "收割者KO-1框架 Thresher KO-1 Frame",
       "description": "<p>长尾鲨（Thresher）型号以耐用为设计宗旨，结构坚固、力量强大，并配有大量防御附件。你的机体可能为战斗、打捞、回收作业或重型建筑工程而造。更加结实的结构让你获得其他机体所没有的防护。在满足护甲力量需求方面，你的力量调整值视为提高2。</p>\n<p>此外，你获得一件整合于身体的商用型真皮镀层殖装，不计入你的植入物总数上限，也无需花费信用点。你可以正常支付当前品级与目标品级之间的信用点差价，提升此殖装的品级。</p>"
     },
     "22WvGhXGe9Jmc4pP": {
@@ -12495,13 +12495,13 @@
       "description": "<p>无论源于生物进化、科学实验还是有意的改造，你的身体都能自然地整合殖装。你的植入物上限增加1。</p><hr /><p><strong>特殊</strong>如果你具有维萨尼的合成血肉传承，植入物上限改为增加2，而非1。</p>"
     },
     "2ZMV4KzfCZQPRxBa": {
-      "name": "镜盾 Mirror Shield",
+      "name": "镜反之盾 Mirror Shield",
       "description": "<p><strong>触发</strong>对手施放以你为目标的法术，其对抗你AC的法术攻击检定取得大失败。</p>\n<p><strong>需求</strong>你已举起盾牌。</p><hr /><p>使用你在远程武器中的最高熟练度，对攻击者进行一次远程攻击检定。如果你能施法，也可以改为进行法术攻击检定。如果成功，对手受到其自身法术的法术攻击检定成功效果；若你的攻击检定大成功，则受到大成功效果。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
           "expected": "Shield Ace Dedication",
-          "text": "盾牌王牌入门"
+          "text": "盾牌精英入门"
         }
       ]
     },
@@ -12519,12 +12519,12 @@
     },
     "2veDSsZhDdP5qmFQ": {
       "name": "快捷键 Hotkey",
-      "description": "<p>你有一套喜欢反复执行的程序，并已学会如何高效而安全地执行它。从以下动作中选择一个：故障应对、让我听见你们的欢呼或光跃。所选动作的频率改为每10分钟一次，而非每天一次。</p><hr /><p><strong>特殊</strong>你可以多次选择此专长，每次必须选择不同的动作。</p>",
+      "description": "<p>你有一套喜欢反复执行的程序，并已学会如何高效而安全地执行它。从以下动作中选择一个：防故障响应、让我听见你们的欢呼或光束跃进。所选动作的频率改为每10分钟一次，而非每天一次。</p><hr /><p><strong>特殊</strong>你可以多次选择此专长，每次必须选择不同的动作。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
           "expected": "Anti-Glitch Response, Light Hop, or mascot living hologram heritage",
-          "text": "故障应对、光跃，或活体全息影像的吉祥物传承"
+          "text": "防故障响应、光束跃进，或活体全息影像的吉祥物传承"
         }
       ]
     },
@@ -12537,16 +12537,16 @@
       "description": "<p>你在敌人的双腿间穿梭急转，横穿战场时将他们绊倒。行走两次，每次均须沿直线移动。你可以穿过体型至少比你大一级的生物的空间，并对你进入其空间的每个生物尝试[[/act trip]]。所有攻击都计入你的多重攻击减值，但直到完成全部攻击后，减值才会增加。在一次足下奔袭中，你只能对同一生物尝试摔绊一次。</p>"
     },
     "3RZpzA9vZWiUlLYD": {
-      "name": "光中见微 See Light Through You",
+      "name": "见光识人 See Light Through You",
       "description": "<p><strong>频率</strong>每天一次</p><hr /><p>作为活体全息影像，你知道如何融入其他形式的光，也懂得如何用光分散或误导不善操纵光的人。这些亲身经历让你能注意到细微线索，发现试图避人耳目的家伙所在的位置。你强化感官，获得@UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]{真景术}法术的效果。</p>"
     },
     "3Z9dFDnOxyuZhREY": {
-      "name": "X-Hat火行者机体 X-Hat Firewalker Frame",
+      "name": "X-HAT火行者框架 X-Hat Firewalker Frame",
       "description": "<p>X-Hat机体的加密蓝图被匿名发布到信息圈上，供目光敏锐的人破解和修改。一些信息圈侦探追溯发现，其设计的不同部分分别源自从事数字间谍活动的组织。你的计算机技能变为受训。如果你会自动在计算机技能上受训，例如来自背景或职业，则改为使你选择的另一项技能变为受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.ifQiKhl0Gt2CM7i9]技能专长。</p>"
     },
     "3ZvfDQHhRHUGKG2M": {
-      "name": "传感伪装 Sensor Mask",
-      "description": "<p><strong>频率</strong>每天一次</p><hr /><p>你启动体内安装的传感伪装程序，使关于你的数字记录发生失真。选择以下一种效果。</p><ul><li><p>你成为一个3环@UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{幻象伪装}法术的目标，但此<em>幻象伪装</em>仅对科技生物、科技危害，以及科技视觉传感器和记录设备（例如监控摄像头）可见。</p></li><li><p>你对科技生物、科技危害，以及科技视觉传感器和记录设备（例如监控摄像头）处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态，持续10分钟。你不能利用此隐蔽来[[/act hide]]或[[/act sneak]]。</p>\n</li></ul>"
+      "name": "传感器面具 Sensor Mask",
+      "description": "<p><strong>频率</strong>每天一次</p><hr /><p>你启动体内安装的传感器面具程序，使关于你的数字记录发生失真。选择以下一种效果。</p><ul><li><p>你成为一个3环@UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{幻象伪装}法术的目标，但此<em>幻象伪装</em>仅对科技生物、科技危害，以及科技视觉传感器和记录设备（例如监控摄像头）可见。</p></li><li><p>你对科技生物、科技危害，以及科技视觉传感器和记录设备（例如监控摄像头）处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}状态，持续10分钟。你不能利用此隐蔽来[[/act hide]]或[[/act sneak]]。</p>\n</li></ul>"
     },
     "3ahX6ykhR0eUbvGX": {
       "name": "狠狠干掉他！ Really Get Em!",
@@ -12560,7 +12560,7 @@
       ]
     },
     "3dDS1JRIas8Mk9D5": {
-      "name": "超级伸展 Extra Stretchy",
+      "name": "附加弹性 Extra Stretchy",
       "description": "<p>你的手臂能够伸得格外远！当你使用卡通式伸展时，触及范围增加10尺，而非5尺。</p><hr /><p><strong>特殊</strong>你可以选择此专长三次。第二次选择后，使用卡通式伸展时触及范围增加15尺，而非5尺。第三次选择后，使用卡通式伸展时触及范围增加20尺，而非5尺。</p>",
       "cnPrerequisites": [
         {
@@ -12633,7 +12633,7 @@
       "description": "<p>在当代的飞龙栖地，对抗龙族势力的战斗发生在有律师出席的董事会会议室中，而非堆满宝藏的古老巢穴里。你精通这种新式企业战争，并且至少曾与一家崔阿克斯企业交锋。你的企业学识、劳工学识和法律学识变为受训。你还获得这三项技能之一的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}技能专长。</p>"
     },
     "61t9vizmGbuISXxo": {
-      "name": "冒险天性 Daredevil",
+      "name": "亡命徒 Daredevil",
       "description": "<p>极限特技与狂放举动让你兴奋不已。你的特技技能变为受训。如果你已在特技技能上受训，则改为使你选择的另一项技能变为受训。此外，你获得@UUID[Compendium.sf2e-anachronism.actions.Item.9MaexGGEFV3tw5ea]{蜷身翻滚}反应。</p>"
     },
     "64rwZGS8fKt8P5Ae": {
@@ -12717,7 +12717,7 @@
       "description": "<p>你全速绕过敌人。</p>\n<p>你的特技技能变为受训。如果你会自动在特技技能上受训，例如来自背景或职业，则改为使你选择的另一项技能变为受训。你可以对任意数量的敌人[[/act tumble-through]]，而非只能对一个敌人。只有在穿越敌人空间的翻滚穿越特技检定大失败时，或剩余速度不足以完全穿过其空间时，你的移动才会结束。翻滚穿越失败仍会触发反应。</p>"
     },
     "86s64k7sH45Sr6Lh": {
-      "name": "和平卫士武库 Peacekeeper’s Armory",
+      "name": "和平卫士军械 Peacekeeper’s Armory",
       "description": "<p>你操练过无数武器。你在所有军用武器上变为受训。如果你已在军用武器上受训，则在你已受训的一种武器上变为专家。</p><hr /><p><strong>特殊</strong>你可以多次选择此专长。每次选择时，你在你已受训的一种武器上变为专家。</p>",
       "cnPrerequisites": [
         {
@@ -12767,7 +12767,7 @@
       "description": "<p>与生俱来的防护魔法源泉保护你免受突发环境危险。你可以每天一次以3环原能内在法术的形式施放@UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE]。你只能以自身为目标，但持续时间增加至10分钟。</p>"
     },
     "8aNP2zwc132PhkWF": {
-      "name": "心灵迷宫 Labyrinthine Mind",
+      "name": "迷宫心智 Labyrinthine Mind",
       "description": "<p>你真实的情绪和思想深藏在心灵蜿蜒的走廊中，就连你自己也难以触及，更不用说他人。当你对抗情绪效果或@UUID[Compendium.pf2e.spells-srd.Item.KHnhPHL4x1AQHfbC]{读心术}法术的豁免检定取得成功时，改为获得大成功。</p>"
     },
     "8j6Zv5xqn4ZG105l": {
@@ -12827,22 +12827,22 @@
       "description": "<p><strong>触发</strong>你即将尝试对抗一个心灵效果的豁免检定，但尚未掷骰。</p><hr /><p>你紧握一件前世的纪念物，那是你获得自我意识、以如今的自己觉醒之前的岁月。面对不公时，它助你抗争；心生怀疑时，它坚定你的信心，也提醒你，独立自主本身便是奇迹。直到你的下个回合开始，你对抗心灵效果的豁免检定获得+1环境加值。此加值同样适用于触发此次反应的豁免。</p>"
     },
     "A1s0AASv6uK4PJLg": {
-      "name": "排障核心 Troubleshooting Core",
+      "name": "检修核心 Troubleshooting Core",
       "description": "<p><strong>频率</strong>每小时一次</p><hr /><p>你的整合工具组维修一件接触到的常见科技物品；其等级不能高于你的等级，并且必须处于破损或故障状态。该物品失去破损状态，持续至你的回合结束，使你可以正常使用它。你还将所接触物品的故障状态值降低1。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
           "expected": "Plugged In",
-          "text": "接入连接"
+          "text": "联网"
         }
       ]
     },
     "AG89ueOMKDvBDGBk": {
-      "name": "明光遁形 Hide in Plain Light",
+      "name": "匿于光中 Hide in Plain Light",
       "description": "<p>你利用硬光身体的优势，在核心周围弯曲光线，当着旁人的面隐藏自己。你可以每天两次以2环奥术内在法术的形式施放@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{隐形术}。</p>"
     },
     "AHTk5YkcV3lzm094": {
-      "name": "进阶大气层飞行 Advanced Atmospheric Flight",
+      "name": "高等大气层飞行 Advanced Atmospheric Flight",
       "description": "<p>你更善于在大气中使用能量双翼。@UUID[Compendium.sf2e-anachronism.feats.Item.wZyBTTRM2BjC93gg]不再有频率限制，你可以任意使用。使用大气层飞行时，双翼会保持显现，直到你花费一个单动作主动将其消除。</p>",
       "cnPrerequisites": [
         {
@@ -12895,8 +12895,8 @@
       "description": "<p>巨大的球状眼睛赋予你出色的视觉。你使用[[/act seek]]动作寻找30尺内藏匿或无踪的生物时，检定获得+2环境加值。以对你处于@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}或藏匿状态的对手为目标时，隐蔽目标的纯骰检定DC降至3，藏匿目标则降至9。</p>"
     },
     "AytE84e6pU6Achc3": {
-      "name": "破浪跃击 Breach",
-      "description": "<p>你像跃出海面的鲸鱼般向上冲起，再以雷霆之势砸落。@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}。你落地时，10尺内所有对手必须成功通过一次@Check[fortitude|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者，否则被击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><hr /><p><strong>特殊</strong>如果你拥有迅速跳跃专长，可以在使用破浪跃击时@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}或@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}。</p>"
+      "name": "跃浪击 Breach",
+      "description": "<p>你像跃出海面的鲸鱼般向上冲起，再以雷霆之势砸落。@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}。你落地时，10尺内所有对手必须成功通过一次@Check[fortitude|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者，否则被击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p><hr /><p><strong>特殊</strong>如果你拥有迅速跳跃专长，可以在使用跃浪击时@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}或@UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{跳远}。</p>"
     },
     "B4G0t6jBP7YkRS8j": {
       "name": "都市居民 Urbanite",
@@ -12917,7 +12917,7 @@
         {
           "index": 0,
           "expected": "Shield Ace Dedication",
-          "text": "盾牌王牌入门"
+          "text": "盾牌精英入门"
         }
       ]
     },
@@ -13062,7 +13062,7 @@
       "description": "<p><strong>频率</strong>每10分钟一次</p>\n<p><strong>需求</strong>你处于@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧}状态，或正在受到持续心灵伤害。</p><hr /><p>你对人生充满无穷的希望。你的惊惧状态值降低1。如果你正在受到持续心灵伤害，进行一次@Check[flat|dc:15|showDC:all]，判断是否结束该持续心灵伤害。</p><hr /><p><strong>特殊</strong>只要你的魂感调谐于喜悦，不息喜悦的频率便为每分钟一次。</p>"
     },
     "EfDkXkKyFZZTaLui": {
-      "name": "如同排练 Just Like Rehearsal",
+      "name": "宛如彩排 Just Like Rehearsal",
       "description": "<p>生活常常模仿艺术，而你已经学会在危险情境中运用戏剧训练，无论是用假摔技艺缓冲真正的坠落，还是用即兴表演骗过敌人。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.Q6vXNDmTwDom59GV]专长，忽略前置条件。此外，你可以使用表演代替欺骗来[[/act create-a-diversion skill=performance]]。</p>"
     },
     "EgclcqDiOi0CvNse": {
@@ -13167,7 +13167,7 @@
       ]
     },
     "HFRa8uF2rZeoblQL": {
-      "name": "备用动力源 Secondary Power Source",
+      "name": "备用能源 Secondary Power Source",
       "description": "<p>你可以从身体其他部分汲取能量，为使用次数有限的殖装供能。在每日准备期间，从你体内已安装的殖装中选择至多两个，其启动频率必须为每天一次。直到下次每日准备，所选殖装的频率增加至每天两次。</p>"
     },
     "HLqyYRygNkF4KjeY": {
@@ -13220,7 +13220,7 @@
       "description": "<p><strong>需求</strong>你处于四足姿态。</p><hr /><p>你向前疾驰，将敌人踏在脚下！你行走至多两倍速度，可以穿过体型至少比你小一级的生物的空间，并践踏进入其空间的每个生物。在一次践踏行走中，你只能对同一生物尝试践踏一次。你对这些生物造成等于拳无武装攻击的钝击伤害，并进行@Check[reflex|against:class-spell|basic]豁免，对抗你的职业DC或法术DC中较高者。</p>"
     },
     "ICzoR3Mm5diqAq7S": {
-      "name": "延展触及（牛尔人） Stretching Reach (Nuar)",
+      "name": "延长触及（牛尔人） Stretching Reach (Nuar)",
       "description": "<p>你能够利用体型延长触及范围。持用需要双手且没有触及的近战武器时，你可以通过一个交互动作，在通常的双手持握与延伸的双手伸展之间切换。以伸展方式持用的武器获得10尺触及范围。</p>",
       "cnPrerequisites": [
         {
@@ -13379,8 +13379,8 @@
       "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>敌人对你的打击造成重击。</p><hr /><p>你调整强化过的晶体头发，吸收原本可能致命的一击的部分冲击。触发此次反应的攻击仅造成通常命中的伤害量，一般为全额伤害而非双倍伤害。重击引起的其他效果仍会发生。破碎的头发需要一天才能重新长出；在那之前，你与其他莫伊舒人（moyishuu）进行交涉检定时承受–2环境减值。</p>"
     },
     "LnY0TKWaKDvm23fy": {
-      "name": "惊人疾奔 Uncanny Dash",
-      "description": "<p><span class=\"action-glyph\">1 </span>至<span class=\"action-glyph\"> 2</span></p>\n<p><strong>频率</strong>每小时一次</p><hr /><p>大部分由机械构成的身体让你能以惊人速度移动，转瞬穿越长距离。行走两次。你可以将此活动的动作数增加至2，改为行走至多四次。</p><hr /><p><strong>特殊</strong>如果你具有GG-OS机体血统专长，在惊人疾奔的持续时间内，各项速度还会获得+10尺状态加值。</p>"
+      "name": "诡速冲刺 Uncanny Dash",
+      "description": "<p><span class=\"action-glyph\">1 </span>至<span class=\"action-glyph\"> 2</span></p>\n<p><strong>频率</strong>每小时一次</p><hr /><p>大部分由机械构成的身体让你能以惊人速度移动，转瞬穿越长距离。行走两次。你可以将此活动的动作数增加至2，改为行走至多四次。</p><hr /><p><strong>特殊</strong>如果你具有GG-OS框架血统专长，在诡速冲刺的持续时间内，各项速度还会获得+10尺状态加值。</p>"
     },
     "LnfT5dKyaBoslLpj": {
       "name": "根权限（自主机器人） Root Access (SRO)",
@@ -13468,7 +13468,7 @@
         {
           "index": 0,
           "expected": "Shield Ace Dedication",
-          "text": "盾牌王牌入门"
+          "text": "盾牌精英入门"
         }
       ]
     },
@@ -13571,13 +13571,13 @@
       ]
     },
     "Pg7ypM5Hg4UhPNy0": {
-      "name": "盾牌守卫 Shield Warden",
+      "name": "盾牌戒卫 Shield Warden",
       "description": "<p>举起盾牌时，如果一个与你邻接的盟友遭到攻击，你可以使用@UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{盾牌格挡}反应。如此做时，盾牌遵循盾牌格挡的通常规则，为该盟友阻止伤害，而非为你自己阻止伤害。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
           "expected": "Shield Ace Dedication",
-          "text": "盾牌王牌入门"
+          "text": "盾牌精英入门"
         },
         {
           "index": 1,
@@ -13591,7 +13591,7 @@
       "description": "<p>你在机体上额外安装一对手臂。</p><hr /><p><strong>特殊</strong>你可以多次选择此专长，每次额外获得一对手臂。</p>"
     },
     "PnmOoZgPaEUZiPlc": {
-      "name": "闪粉飞扬 Glitter Everywhere",
+      "name": "闪粉四散 Glitter Everywhere",
       "description": "<p>你学会更充分地利用心爱的闪粉，在适当时机将其抖落，热心地与敌人分享。你成功对一个生物[[/act feint]]时，它陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}状态，持续至你的回合结束。大成功时，该生物目眩至你的下个回合开始。该生物可以用一个交互动作移除目眩状态。</p>",
       "cnPrerequisites": [
         {
@@ -13641,7 +13641,7 @@
         {
           "index": 0,
           "expected": "Augmented Dedication",
-          "text": "改造者入门"
+          "text": "殖装狂入门"
         }
       ]
     },
@@ -13658,7 +13658,7 @@
     },
     "QQI5h2C4YPoIOreo": {
       "name": "平衡尾 Balancing Tail",
-      "description": "<p>你已经充分认识到抓握尾的价值，难以想象没有它的生活，恐怕会整天摔倒。幸好，即使在最棘手的情况下，它也能帮助你保持平衡。你进行@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}的特技检定获得+1环境加值，用来抵抗@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}尝试的反射DC也获得+1环境加值。只要尾巴没有持握物品，你身处狭窄表面或不平地面时便不会处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态。</p>"
+      "description": "<p>你已经充分认识到盘卷尾巴的价值，难以想象没有它的生活，恐怕会整天摔倒。幸好，即使在最棘手的情况下，它也能帮助你保持平衡。你进行@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}的特技检定获得+1环境加值，用来抵抗@UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{摔绊}尝试的反射DC也获得+1环境加值。只要尾巴没有持握物品，你身处狭窄表面或不平地面时便不会处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态。</p>"
     },
     "Qd4qYF4Lzi7dNsU6": {
       "name": "凶棘臂甲 Dire Armplates",
@@ -13719,11 +13719,11 @@
       "description": "<p><strong>频率</strong>每天一次</p><hr /><p>你不再只是模仿龙人的能量吐息，如今已能引导真正巨龙的力量，喷出强大能量。选择一种与特定巨龙对应的伤害类型。你可以将此能量喷成@Template[cone|distance:15]或@Template[line|distance:30]，造成所选类型的@Damage[14d6[untyped],4d6[persistent,untyped]|options:area-damage]{14d6伤害加上4d6持续伤害}，并进行基础@Check[reflex|against:class-spell|basic|options:area-effect,inflicts:frightened]豁免，使用你的职业DC或法术DC中较高者。大失败时，目标还陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧2}状态。</p>"
     },
     "RSkp1CPNemSqoEUx": {
-      "name": "隐蔽武器挂点 Hardpoint",
-      "description": "<p>你的一条手臂内部暗格中藏有一个武器挂点，能容纳一件武器。你免费获得一个不计入植入物总数上限的战术型藏物肢体，但它只能容纳一件武器，且必须是轻负载或更轻的单手武器。拔出此武器时，它会与你的身体整合，不能被卸武、丢弃或偷走。这些效果持续至你将武器收回暗格。</p><hr /><p><strong>特殊</strong>如果你具有长尾鲨KO-1机体血统专长，武器可以改为负载至多为1的单手武器。</p>"
+      "name": "挂载点 Hardpoint",
+      "description": "<p>你的一条手臂内部暗格中藏有一个武器挂点，能容纳一件武器。你免费获得一个不计入植入物总数上限的战术型藏物肢体，但它只能容纳一件武器，且必须是轻负载或更轻的单手武器。拔出此武器时，它会与你的身体整合，不能被卸武、丢弃或偷走。这些效果持续至你将武器收回暗格。</p><hr /><p><strong>特殊</strong>如果你具有收割者KO-1框架血统专长，武器可以改为负载至多为1的单手武器。</p>"
     },
     "RWVJY1IMhXP6YIUl": {
-      "name": "威吓之形 Menacing Men",
+      "name": "恫吓姿态 Menacing Men",
       "description": "<p>许多人觉得你的体型与异怪般的外貌十分骇人。你学会利用这点，不必开口就能吓唬较小的敌人。你获得金刚怒目技能专长。你对体型小于你的目标[[/act demoralize]]时获得+1环境加值。</p>",
       "cnPrerequisites": [
         {
@@ -13734,7 +13734,7 @@
       ]
     },
     "RYu4iCHGFUJBG2Av": {
-      "name": "勋饰和平卫士 Decorated Peacekeeper",
+      "name": "受勋和平卫士 Decorated Peacekeeper",
       "description": "<p>你标志性的披甲轮廓，已成为受你保护之人的希望灯塔。只要穿戴具有和平卫士装饰的护甲，你便可以每小时一次将@UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{命令术}作为神术内在法术施放，升阶至你等级的一半。</p>",
       "cnPrerequisites": [
         {
@@ -13745,7 +13745,7 @@
       ]
     },
     "RhUUd2NGcRw1aZqK": {
-      "name": "生物工程操作系统升级 Biotech Os Upgrade",
+      "name": "生物科技系统升级 Biotech Os Upgrade",
       "description": "<p>你全面升级了机体操作系统，以自身遗传标记克隆出的生物工程部件，系统地替换电控机械部件。你失去科技特征，获得生物科技特征。你已植入体内及未来植入自身的所有电控机械殖装，都失去科技特征，并获得生物科技特征。</p>"
     },
     "RlReZVLpheq1bdfk": {
@@ -13754,12 +13754,12 @@
     },
     "Rrl2NPYekwkurnwZ": {
       "name": "区域防御者 Area Defender",
-      "description": "<p>你能用盾牌保护自己免受爆炸和其他区域攻击。除了通常的触发条件，只要你已举盾，即将受到区域效果的物理伤害时，也能使用盾牌格挡反应，即使该效果不是攻击。如此做时，如果你处于任何盟友与伤害来源之间，便为这些盟友阻止至多等于盾牌硬度的伤害。伤害来源指线形或锥形的起点，或爆发或弥漫的中心。</p>\n<p>如果你能够在即将受到一次攻击的能量伤害时盾牌格挡，例如具有能量防卫者专长，或持有带格挡特征的盾牌，便可以使用区域防御者，对造成能量伤害的区域效果进行盾牌格挡。</p>",
+      "description": "<p>你能用盾牌保护自己免受爆炸和其他区域攻击。除了通常的触发条件，只要你已举盾，即将受到区域效果的物理伤害时，也能使用盾牌格挡反应，即使该效果不是攻击。如此做时，如果你处于任何盟友与伤害来源之间，便为这些盟友阻止至多等于盾牌硬度的伤害。伤害来源指线形或锥形的起点，或爆发或弥漫的中心。</p>\n<p>如果你能够在即将受到一次攻击的能量伤害时盾牌格挡，例如具有能量防御者专长，或持有带格挡特征的盾牌，便可以使用区域防御者，对造成能量伤害的区域效果进行盾牌格挡。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
           "expected": "Shield Ace Dedication",
-          "text": "盾牌王牌入门"
+          "text": "盾牌精英入门"
         },
         {
           "index": 1,
@@ -13769,8 +13769,8 @@
       ]
     },
     "Rsc02LGMUbp6Rx84": {
-      "name": "黏体包覆（因图菌群） Gooey Engulf (Entu)",
-      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p>你可以行走，穿过路径上任意生物的空间。你穿过空间的任何体型不大于你的生物，都可以尝试进行@Check[reflex|against:athletics]豁免，对抗你的运动DC，避免被包覆。无法行动的生物自动在此豁免中大失败。如果豁免成功，它可以选择在你移动结束时被推向一旁，或被推到你前方。你每回合只能对同一生物尝试黏体包覆一次。你能容纳的生物数量，仅受你空间能容纳多少生物的限制。</p>\n<p>豁免失败的生物被拉入你的身体，处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}与@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}状态，必须屏息，否则开始窒息。被包覆期间，该生物在自己的每个回合结束时受到@Damage[1d6[acid]]伤害；此伤害可以通过@UUID[Compendium.sf2e-anachronism.equipment.Item.b12tnjobe9IrphII]{实光缠手带}提高，如同它是无武装攻击。被包覆的生物可以通过[[/act escape dc=athletics]]{脱逃}对抗你的运动DC，来挣脱。它可以攻击你，但只能使用无武装攻击，或轻负载及更轻的武器。你面对这些攻击时处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态。如果你从一次攻击或法术受到的穿刺或挥砍伤害，达到或超过你剩余生命值的四分之一，该生物便割开你的身体逃脱。以任一方式挣脱的生物都能立即呼吸，并离开你的空间。如果你睡着、被击至@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}或死亡，所有被你包覆的生物都会自动获释。</p>"
+      "name": "粘稠包卷（因图菌群） Gooey Engulf (Entu)",
+      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p>你可以行走，穿过路径上任意生物的空间。你穿过空间的任何体型不大于你的生物，都可以尝试进行@Check[reflex|against:athletics]豁免，对抗你的运动DC，避免被包覆。无法行动的生物自动在此豁免中大失败。如果豁免成功，它可以选择在你移动结束时被推向一旁，或被推到你前方。你每回合只能对同一生物尝试粘稠包卷一次。你能容纳的生物数量，仅受你空间能容纳多少生物的限制。</p>\n<p>豁免失败的生物被拉入你的身体，处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}与@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}状态，必须屏息，否则开始窒息。被包覆期间，该生物在自己的每个回合结束时受到@Damage[1d6[acid]]伤害；此伤害可以通过@UUID[Compendium.sf2e-anachronism.equipment.Item.b12tnjobe9IrphII]{实光缠手带}提高，如同它是无武装攻击。被包覆的生物可以通过[[/act escape dc=athletics]]{脱逃}对抗你的运动DC，来挣脱。它可以攻击你，但只能使用无武装攻击，或轻负载及更轻的武器。你面对这些攻击时处于@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态。如果你从一次攻击或法术受到的穿刺或挥砍伤害，达到或超过你剩余生命值的四分之一，该生物便割开你的身体逃脱。以任一方式挣脱的生物都能立即呼吸，并离开你的空间。如果你睡着、被击至@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}或死亡，所有被你包覆的生物都会自动获释。</p>"
     },
     "RxFBsK5PQy3UvMIZ": {
       "name": "载具凶煞 Vehicular Menace",
@@ -13799,7 +13799,7 @@
       ]
     },
     "SZn6QoviYWXwVwvm": {
-      "name": "防御驾驶 Defensive Driving",
+      "name": "防御性驾驶 Defensive Driving",
       "description": "<p>人们说，任何载具最薄弱的部分都是驾驶员，因此你学会了在战场上机动时保护自己这个关键部件。驾驶载具时，你具有次等掩蔽。如果本就具有次等掩蔽，改为获得标准掩蔽；如果本就具有标准掩蔽，改为获得强效掩蔽。</p>",
       "cnPrerequisites": [
         {
@@ -13822,7 +13822,7 @@
       "description": "<p>你在机体中安装了强力电磁铁，能够远程移动和操纵物品。你可以用一个具有专注特征的单动作，将30尺内一个无人照管、负载不超过1，且具有科技特征或由金属制成的物体，移动到30尺内任意位置。</p>\n<p>此外，如果你尝试对具有科技特征或由金属制成的物品[[/act disarm]]，你无需空手，并且可以在30尺外尝试卸武。</p><hr /><p><strong>特殊</strong>如果你具有自主机器人的战斗员或工人传承，你移动此类物体及对其卸武的范围增加至60尺。</p>"
     },
     "TDphpBKl58Yj0iMV": {
-      "name": "死者漠然 Death's Indifference",
+      "name": "死亡默然 Death's Indifference",
       "description": "<p>你的皮肉与骨骼已磨损至某些伤害类型不再像你生前那样对它们有效。你获得对特定伤害类型的抗力，等于你等级的一半。噬咬尸族获得挥砍抗力，残缺尸族获得穿刺抗力，蹒跚尸族获得钝击抗力。</p>"
     },
     "TY7Jtspbyg5ALLgS": {
@@ -13846,8 +13846,8 @@
       "description": "<p><strong>频率</strong>每10分钟一次</p>\n<p><strong>触发</strong>你将陷入@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}、@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}、@UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹}、@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢}或@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]。</p><hr /><p>你拒绝停下脚步，迫使自己突破足以阻止大多数生物的效果。你将触发状态的效果延迟至你的下回合结束。状态被延迟期间，每次你使用移动类动作，都会使该状态再延迟1轮，至多6轮。如果状态具有持续时间，直到延迟结束后才开始计算。此能力结束后，你不能进一步延迟或阻止该状态。</p>"
     },
     "U9AtNbpmav4v6ZPh": {
-      "name": "咬住不放 Latch On",
-      "description": "<p><strong>需求</strong>你正用颚咬使一个生物@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}。</p><hr /><p>据说要喂饱两张嘴需要更多能量，你也不例外。你对受擒生物进行一次颚咬打击。命中时，你获得等于自身等级一半的临时生命值，持续1分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.iOkzEDtx1953uD26]{效果：咬住不放}</p>",
+      "name": "死咬 Latch On",
+      "description": "<p><strong>需求</strong>你正用颚咬使一个生物@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}。</p><hr /><p>据说要喂饱两张嘴需要更多能量，你也不例外。你对受擒生物进行一次颚咬打击。命中时，你获得等于自身等级一半的临时生命值，持续1分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.iOkzEDtx1953uD26]{效果：死咬}</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -13861,16 +13861,16 @@
       "description": "<p><strong>频率</strong>每10分钟一次</p>\n<p><strong>触发</strong>一个敌人使你陷入惊惧，或受到持续心灵伤害。</p><hr /><p>你深重的悲伤使来自他人的负面情绪反扑回去。触发生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{惊惧1}，且该敌人的惊惧状态值不能降至1以下，直到你的下回合开始。</p><hr /><p><strong>特殊</strong>只要你的魂感调谐于悲伤，深不可测的悲伤的频率就变为每分钟一次。</p>"
     },
     "UxnOyz4dOECDaEv9": {
-      "name": "祸中得福 Unlucky for Some",
-      "description": "<p><strong>触发</strong>你的一次豁免大失败，或敌人对你的打击重击。</p>\n<p><strong>需求</strong>你不具有@UUID[Compendium.pf2e.actionspf2e.Item.RxIPBjodIRm7Pd6W]{好运来临}反应。</p><hr /><p>你获得@UUID[Compendium.pf2e.actionspf2e.Item.RxIPBjodIRm7Pd6W]{好运来临}反应，持续24小时或直到下次使用它，以先发生者为准；你对祸中得福免疫24小时。</p>"
+      "name": "灾厄转嫁 Unlucky for Some",
+      "description": "<p><strong>触发</strong>你的一次豁免大失败，或敌人对你的打击重击。</p>\n<p><strong>需求</strong>你不具有@UUID[Compendium.pf2e.actionspf2e.Item.RxIPBjodIRm7Pd6W]{好运来临}反应。</p><hr /><p>你获得@UUID[Compendium.pf2e.actionspf2e.Item.RxIPBjodIRm7Pd6W]{好运来临}反应，持续24小时或直到下次使用它，以先发生者为准；你对灾厄转嫁免疫24小时。</p>"
     },
     "V0BbHW8wQA0jcrRV": {
       "name": "见习医师 Doctor in Training",
       "description": "<p>你相信健康的身心是美好生活不可或缺的一环，因而致力于帮助他人迅速摆脱病痛。你在医疗上受训。如果你本会自动在医疗上受训（例如通过背景或职业），你改为在另一项自选技能上受训。此外，你用于[[/act administer-first-aid]]、[[/act treat-disease]]和[[/act treat-poison]]的医疗检定获得+1环境加值，且这些检定若获得大失败，改为失败。</p>"
     },
     "V0kSqDgWxRfjNNCZ": {
-      "name": "硬光武器 Hardlight Weapon",
-      "description": "<p>你的硬光躯体中整合了一件独特武器，可能是刀刃手臂、肩装冷冻炮，或发射闪亮卡通爱心的飞吻攻击。选取此专长时，你获得以下一种自选的无武装攻击。每种攻击均具有无武装特征。</p><ul><li><p>一种造成1d8伤害的近战无武装攻击。</p></li><li><p>一种造成1d6伤害、具有灵巧和娴熟特征的近战无武装攻击。</p></li><li><p>一种造成1d6伤害、射程增量为30尺的远程无武装攻击。</p></li><li><p>一种造成1d4伤害、射程增量为60尺的远程无武装攻击。</p></li></ul><p>做出上述决定后，从以下选项中选择武器造成的伤害类型及对应的武器组：酸蚀（腐蚀武器组）、钝击（斗殴、棒或锤武器组）、寒冷（冷冻武器组）、电击（电击武器组）、火焰（喷焰或激光武器组）、穿刺（斗殴、刀或矛武器组）、挥砍（斗殴、刀或剑武器组），或音波（音波武器组）。</p>\n<p>5级时，每当你用硬光武器重击，便获得其重击专精效果。</p>"
+      "name": "实光武器 Hardlight Weapon",
+      "description": "<p>你的硬光躯体中整合了一件独特武器，可能是刀刃手臂、肩装冷冻炮，或发射闪亮卡通爱心的飞吻攻击。选取此专长时，你获得以下一种自选的无武装攻击。每种攻击均具有无武装特征。</p><ul><li><p>一种造成1d8伤害的近战无武装攻击。</p></li><li><p>一种造成1d6伤害、具有灵巧和娴熟特征的近战无武装攻击。</p></li><li><p>一种造成1d6伤害、射程增量为30尺的远程无武装攻击。</p></li><li><p>一种造成1d4伤害、射程增量为60尺的远程无武装攻击。</p></li></ul><p>做出上述决定后，从以下选项中选择武器造成的伤害类型及对应的武器组：酸蚀（腐蚀武器组）、钝击（斗殴、棒或锤武器组）、寒冷（冷冻武器组）、电击（电击武器组）、火焰（喷焰或激光武器组）、穿刺（斗殴、刀或矛武器组）、挥砍（斗殴、刀或剑武器组），或音波（音波武器组）。</p>\n<p>5级时，每当你用实光武器重击，便获得其重击专精效果。</p>"
     },
     "VjTrdYPBcKEYMMh8": {
       "name": "多疑哨兵 Paranoid Lookout",
@@ -13907,7 +13907,7 @@
       "description": "<p>你或许不记得过去，但内心的某个部分天生理解大断层（Gap）之前古代科技的基本布局与用户界面。选择计算机或手艺之一成为受训。如果你已在两项技能上受训，则改为在一项与科技有关的学识技能上受训。你使用计算机、手艺或驾驶进行@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}检定，以辨识大断层之前设计的古代科技时，获得+2环境加值。</p>"
     },
     "Wc0MPfCQkXe8FWZV": {
-      "name": "甩掉他们 Shake 'Em Off",
+      "name": "甩脱 Shake 'Em Off",
       "description": "<p><strong>需求</strong>你正在驾驶载具。</p><hr /><p>你毫无规律地驾驶，左右急转或忽快忽慢。对抗你所驾载具上一个生物的强韧DC，尝试一次驾驶检定。</p><hr /><p><strong>大成功</strong>你将该生物向自选方向移动至多5尺，且它会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。如果它正在攀爬载具外部，你改为将它甩下载具。</p>\n<p><strong>成功</strong>该生物倒地；如果它正在攀爬载具外部，则被甩下载具。</p>\n<p><strong>大失败</strong>载具上的随机一位盟友倒地。</p>",
       "cnPrerequisites": [
         {
@@ -13959,13 +13959,13 @@
       "description": "<p>如同许多自主机器人（SRO），你珍视生命的奇迹，相信所有造物都值得尊重。你在手艺和自然上受训。如果你本会自动在其中一项技能上受训（例如通过背景或职业），你改为在一项自选技能上受训。</p>\n<p>你还获得针对自主机器人学识的@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{额外学识}通用专长。</p>"
     },
     "YOGXzGaGwOmx10dx": {
-      "name": "炫目光辉 Blinding Light",
-      "description": "<p>你不再把硬光指向单个敌人，而是令它在周身爆发出耀眼至极的闪光。每当你使用光影把戏时，你可以选择使其影响@Template[type:emanation|distance:15]内的每个生物，而非单个目标。</p>",
+      "name": "耀眼闪光 Blinding Light",
+      "description": "<p>你不再把硬光指向单个敌人，而是令它在周身爆发出耀眼至极的闪光。每当你使用光线诡计时，你可以选择使其影响@Template[type:emanation|distance:15]内的每个生物，而非单个目标。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
           "expected": "Trick of the Light",
-          "text": "光影把戏"
+          "text": "光线诡计"
         }
       ]
     },
@@ -14004,7 +14004,7 @@
       "description": "<p>你在躯体中安装了先进的光学感应器，经过校准，可在欠佳光照下运作。你获得昏暗视觉。</p><hr /><p><strong>特殊</strong>你可以第二次选择此专长。如此做时，你获得黑暗视觉。</p>"
     },
     "YrbIMQp0BTMdK1Jk": {
-      "name": "密织肌群 Dense Weave Musculature",
+      "name": "密织肌肉 Dense Weave Musculature",
       "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong>你的一次特技检定、运动检定或反射豁免失败。</p><hr /><p>你的许多肌肉已替换为纳米机强化的密织纤维，你可以在急需之际迫使这些肌肉远远突破平常的极限。重掷触发的检定或豁免，使用较好结果。</p>"
     },
     "Z0lKny0VVq0zf3UY": {
@@ -14023,13 +14023,13 @@
       "description": "<p>你可以四肢着地飞快奔跑。只要你有两只空闲的手，你的速度便为30尺。</p>"
     },
     "ZA6noZkUIWyoRM4o": {
-      "name": "镜头推拉 Zoom In, Zoom Out",
-      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p>你迅速改变体型，变为小型、中型或大型。如果变小，你可以将制造分心或[[/act hide]]作为此动作的一部分。如果变大，你可以将[[/act demoralize]]作为此动作的一部分。你保持此体型，直到下次使用重编外貌或镜头推拉。</p>",
+      "name": "缩放自如 Zoom In, Zoom Out",
+      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p>你迅速改变体型，变为小型、中型或大型。如果变小，你可以将制造分心或[[/act hide]]作为此动作的一部分。如果变大，你可以将[[/act demoralize]]作为此动作的一部分。你保持此体型，直到下次使用编辑外貌或缩放自如。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
           "expected": "Reprogram Appearance",
-          "text": "重编外貌"
+          "text": "编辑外貌"
         }
       ]
     },
@@ -14057,15 +14057,15 @@
       ]
     },
     "ZdNgvFzNIbkitCNI": {
-      "name": "闲聊疗愈 Restorative Chatter",
-      "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>需求</strong>30尺内必须有至少三位你能与之交流的盟友。</p><hr /><p>能与盟友交流时，你的肉体会得到疗愈。你可以选择以听觉或视觉形式与盟友交流，此动作使用时便获得相应特征。你获得等于等级一半的快速回复，持续1分钟。闲聊疗愈生效期间，如果你不再满足需求，快速回复便结束。</p>"
+      "name": "疗愈闲谈 Restorative Chatter",
+      "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>需求</strong>30尺内必须有至少三位你能与之交流的盟友。</p><hr /><p>能与盟友交流时，你的肉体会得到疗愈。你可以选择以听觉或视觉形式与盟友交流，此动作使用时便获得相应特征。你获得等于等级一半的快速回复，持续1分钟。疗愈闲谈生效期间，如果你不再满足需求，快速回复便结束。</p>"
     },
     "ZtTTYNlIV1u2Hepe": {
-      "name": "坚持住，新朋友！ Hang in There (Nu)Friend!",
+      "name": "撑住啊，（新）朋友！ Hang in There (Nu)Friend!",
       "description": "<p>你对朋友的全心奉献，让你能够在他们最黑暗的时刻祈求某种星系力量来保护他们。你可以每日一次以5环神术内在法术施放@UUID[Compendium.pf2e.spells-srd.Item.Hnc7eGi7vyZenAIm]{生命之息}；不过，你只恢复@Damage[5[healing]]生命值，而非5d8。</p>"
     },
     "a94ZPHt2O6in4EHk": {
-      "name": "悬浮滑板高手 Hover Pro",
+      "name": "悬浮高手 Hover Pro",
       "description": "<p>每当你使用具有穿梭特征的动作时，如果你正驾驶悬浮滑板，可以用驾驶动作替代行走动作。此外，驾驶悬浮滑板期间，你可以使用滑板的速度代替自身速度进行[[/act leap]]，并在[[/act high-jump]]或[[/act long-jump]]时，用驾驶检定代替运动检定。如果你大失败且将会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}，你还会被甩下滑板。</p>",
       "cnPrerequisites": [
         {
@@ -14089,7 +14089,7 @@
       "description": "<p><strong>频率</strong>每天一次</p>\n<p>你的LFAN中有一套初级人工智能，可以启动它来加快基于LFAN的活动。你获得@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}，持续1分钟。你只能将额外动作用于以LFAN持有的武器进行打击、通过LFAN与物体交互，或执行具有LFAN特征的动作。</p><hr /><p><strong>特殊</strong>如果你具有@UUID[Compendium.sf2e-anachronism.feats.Item.HMrxQvSTPSbaUmUd]专长，可以将额外动作用于[[/act disarm]]、[[/act grapple]]、[[/act reposition]]、[[/act shove]]或[[/act trip]]。</p>"
     },
     "aRYbvlWhIpnMUZVJ": {
-      "name": "改造者入门 Augmented Dedication",
+      "name": "殖装狂入门 Augmented Dedication",
       "description": "<p>你每为身体增添一项定制改造，都会加深与自身肉体的联系。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.sEb6KmjQVdWNTqiu]通用专长。你的植入上限增加两个。</p>"
     },
     "adDVh2HLP9Msx8zI": {
@@ -14138,7 +14138,7 @@
       "description": "<p>尽管你与第一世界（First World）的先祖渊源可能已相隔甚远，其中的某点火花依然在你体内跃动，使你与生命产生超自然的强大联系。你行走两次，可以穿过其他生物的空间而无需[[/act tumble-through]]。你穿过其空间的生物中，由你选择的生物恢复@Damage[@actor.level[healing]]生命值，等于你的等级。具有虚能治疗的生物将此视作虚能效果。移动结束时，你获得等于自身等级的临时生命值，持续1分钟。</p>"
     },
     "beddIQRraCn5ZDJv": {
-      "name": "发射水晶光束 Fire Crystal Beam",
+      "name": "火晶射线 Fire Crystal Beam",
       "description": "<p><strong>频率</strong>每天一次</p><hr /><p>你启动整合在体内的魔法科技水晶，使其射出一道120尺长的异界能量线，撕裂时空结构。你对线形区域内的生物造成@Damage[10d6[force]]伤害。区域内每个生物必须尝试一次@Check[fortitude|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害，且你将其传送至线形区域内自选的未占用空间，距离至多15尺。</p>\n<p><strong>失败</strong>该生物受到全额伤害，且你将其传送至线形区域内自选的未占用空间，距离至多30尺。</p>\n<p><strong>大失败</strong>该生物受到双倍伤害，陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}，且你将其传送至线形区域内任意自选的未占用空间。</p>"
     },
     "bhs6rPptJgMDZ9X0": {
@@ -14153,8 +14153,8 @@
       ]
     },
     "bovfLCEE0ZzoSQwZ": {
-      "name": "巨蜗形态 Gigafuroid Form",
-      "description": "<p>你激发沉睡的生存本能，暂时变为自身物种的终极进化形态。你可以每日一次以5环原能内在法术施放@UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{动物形态}，但并非选择动物，而是变为一种异怪战斗形态，具有30尺速度和30尺攀爬速度、对酸蚀与毒素伤害的抗力10、黑暗视觉、60尺精确嗅觉，以及触须无武装打击（触及15尺），造成2d10钝击伤害加2d6酸蚀伤害。以触须命中生物后，你可以花费一个动作来@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{攫抓}目标。处于此战斗形态时，你还获得@UUID[Compendium.sf2e-anachronism.actions.Item.Wt3PzHoo3BauvifP]能力。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.FqUokahAJwpV6lbE]{效果：巨蜗形态}</p>"
+      "name": "拾荒巨蜗形态 Gigafuroid Form",
+      "description": "<p>你激发沉睡的生存本能，暂时变为自身物种的终极进化形态。你可以每日一次以5环原能内在法术施放@UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{动物形态}，但并非选择动物，而是变为一种异怪战斗形态，具有30尺速度和30尺攀爬速度、对酸蚀与毒素伤害的抗力10、黑暗视觉、60尺精确嗅觉，以及触须无武装打击（触及15尺），造成2d10钝击伤害加2d6酸蚀伤害。以触须命中生物后，你可以花费一个动作来@UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{攫抓}目标。处于此战斗形态时，你还获得@UUID[Compendium.sf2e-anachronism.actions.Item.Wt3PzHoo3BauvifP]能力。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.FqUokahAJwpV6lbE]{效果：拾荒巨蜗形态}</p>"
     },
     "brur2xO8fQIBWmas": {
       "name": "阿卡西备份 Akashic Backup",
@@ -14165,7 +14165,7 @@
       "description": "<p><strong>频率</strong>每10分钟一次</p>\n<p><strong>需求</strong>你的上一个动作是一项失败的技能检定。</p><hr /><p>你全心拥抱新生活带来的挑战，即使面对失败也绝不放弃。你在使用需求所指技能进行的技能检定上获得+1环境加值，持续10分钟。</p>"
     },
     "bw08tJhH52SDt6lB": {
-      "name": "信息素联系 Pheromone Connection",
+      "name": "信息素联结 Pheromone Connection",
       "description": "<p>你学会操纵信息素，以弥补心灵感应的缺失。你可以用信息素来[[/act make-an-impression traits=olfactory]]，使该尝试失去听觉和语言特征，改为获得嗅觉特征。如果你用信息素强化言语（保留听觉和语言特征，同时为动作加上嗅觉特征），该检定获得+2环境加值。以此方式调整后，留下印象检定的失败改为大失败。</p>",
       "cnPrerequisites": [
         {
@@ -14330,7 +14330,7 @@
       ]
     },
     "eITDfVEtJIpienZW": {
-      "name": "光影把戏 Trick of the Light",
+      "name": "光线诡计 Trick of the Light",
       "description": "<p><strong>频率</strong>每小时一次</p><hr /><p>你将部分硬光转向一个生物的眼睛，试图使其目眩。你选择的一个30尺内生物必须进行@Check[fortitude|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者。</p>\n<p><strong>失败</strong>该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}状态，持续1轮。</p>\n<p><strong>大失败</strong>该生物目眩3轮。</p>"
     },
     "ejdm893xxpz5Aulz": {
@@ -14345,7 +14345,7 @@
       ]
     },
     "ejtNqTLVqhGzEqMy": {
-      "name": "抗故障响应 Anti-Glitch Response",
+      "name": "防故障响应 Anti-Glitch Response",
       "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>你因故障状态而进行的一次纯骰检定失败或大失败。</p><hr /><p>经过反复试错，你将核心编程为能够诊断并修复故障系统。重骰触发的纯骰检定，并使用较好的结果。</p>"
     },
     "ewMWv9hHpQosX1cl": {
@@ -14353,13 +14353,13 @@
       "description": "<p>你将自己的足部滚珠打造成一件活生生的时装艺术品，成为年轻班特里德人口中的滚行潮人。无论你作为名角将其融入惊艳的表演，还是用它打动那些可能从未见过班特里德人的人，旁人总会忍不住赞赏你的品味与风格。</p>\n<p>你可以选择在交涉受训并获得@UUID[Compendium.pf2e.feats-srd.Item.KpFetnUqTiweypZk]{集体印象}技能专长，或在表演受训并获得@UUID[Compendium.pf2e.feats-srd.Item.xqAdXRd2gSQcqp5E]{动人表演}技能专长。如果你已经在其中一项技能受训，就必须选择另一项技能，但可以从这两个技能专长中任选一个。如果你已经在两项技能均受训，则改为在另一项自选技能受训，并可以从这两个技能专长中任选一个。</p>"
     },
     "fRxIpJltFrK4qgm0": {
-      "name": "殖装谐和 Augmented Harmony",
+      "name": "殖装调和 Augmented Harmony",
       "description": "<p>你的身体已经适应，与殖装完美协调。你永久处于@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}，但只能将此额外动作用于启动殖装。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
           "expected": "Augmented Dedication",
-          "text": "改造者入门"
+          "text": "殖装狂入门"
         }
       ]
     },
@@ -14379,7 +14379,7 @@
       ]
     },
     "g6vEKuiatFDTH2H5": {
-      "name": "宽阔肩膀 Broad Shoulders",
+      "name": "宽厚肩膀 Broad Shoulders",
       "description": "<p>你宽阔的体型能承受沉重的负荷。你的最大负重上限与超重阈值各增加4。你在忽略具有反冲特征的武器的攻击检定减值时，视为具有+2力量，无论你的实际调整值是多少。</p>"
     },
     "gEzRzxUUdYQY6aio": {
@@ -14387,8 +14387,8 @@
       "description": "<p>你的水晶以共振抵御某些效果，但这往往会扰乱你的魂感。你获得音波抗力5。此外，如果你对造成伤害的音波效果的豁免大失败，你可以用一个自由动作，将魂感改为另一种情绪。</p>"
     },
     "gGlbqs4gEOLrQLwT": {
-      "name": "逼真外貌 Realistic Appearance",
-      "description": "<p>你的核心投射出无比逼真的全息影像。你的全息身体不再半透明，看起来也不像全息影像。</p><hr /><p><strong>特殊</strong>如果你具有重编外貌专长，则无需全息皮肤就能@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}，且你假扮的欺骗检定大失败时，改为获得失败。</p>"
+      "name": "写实外貌 Realistic Appearance",
+      "description": "<p>你的核心投射出无比逼真的全息影像。你的全息身体不再半透明，看起来也不像全息影像。</p><hr /><p><strong>特殊</strong>如果你具有编辑外貌专长，则无需全息皮肤就能@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{乔装}，且你假扮的欺骗检定大失败时，改为获得失败。</p>"
     },
     "gL7QwV7dZ0tXXBZw": {
       "name": "狂野魂感 Wild Soulfeel",
@@ -14428,7 +14428,7 @@
       ]
     },
     "gfvi2JVXeEfHrVIa": {
-      "name": "舱外活动模块 EVA Module",
+      "name": "EVA模块 EVA Module",
       "description": "<p>你的机架更适合应对太空真空，使你成为理想的星舰驾驶员或太空探索者。你在@UUID[Compendium.sf2e-anachronism.conditions.Item.z1ucw4CLwLqHoAp3]时不会笨拙。此外，你获得宇宙特征，这意味着你在太空或真空中无需呼吸，且免疫身处太空的有害环境效果。</p>"
     },
     "gsQR0v3cIlqRocXt": {
@@ -14446,7 +14446,7 @@
         {
           "index": 0,
           "expected": "Augmented Dedication",
-          "text": "改造者入门"
+          "text": "殖装狂入门"
         }
       ]
     },
@@ -14460,7 +14460,7 @@
     },
     "hq4wOrVYcfIamZzi": {
       "name": "快进 Fast Forward",
-      "description": "<p><strong>频率</strong>每天一次</p><hr /><p>你超频核心与其移动子程序，使自己快到仿佛一切都慢了下来。1分钟内，你的速度获得+10尺状态加值，且你@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。你每轮的额外动作只能用于行走。</p><hr /><p><strong>特殊</strong>如果你具有光跃专长，你可以用快进获得的额外动作进行光跃或行走；以此方式光跃时，不计入光跃的使用频率。</p>"
+      "description": "<p><strong>频率</strong>每天一次</p><hr /><p>你超频核心与其移动子程序，使自己快到仿佛一切都慢了下来。1分钟内，你的速度获得+10尺状态加值，且你@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。你每轮的额外动作只能用于行走。</p><hr /><p><strong>特殊</strong>如果你具有光束跃进专长，你可以用快进获得的额外动作进行光束跃进或行走；以此方式光束跃进时，不计入光束跃进的使用频率。</p>"
     },
     "hwLr68PBz4akXGtt": {
       "name": "磁力清扫者 Magnetic Sweeper",
@@ -14527,15 +14527,15 @@
       "description": "<p>尖端科技虽然最近才传入你的母星，但你初次拿到新玩意和新设备时，就已展现出驾轻就熟的天赋。你在工艺受训。如果你会自动在工艺受训（例如来自背景或职业），则改为在另一项自选技能受训。你对科技物品[[/act recall-knowledge skill=crafting]]的工艺检定获得+1环境加值。</p>"
     },
     "jDlSj1ff2wfs8zpS": {
-      "name": "GG-OS机架 GG-OS Frame",
-      "description": "<p>GG-OS机架原本为军事与企业间谍活动设计，社会阴暗角落的半机械人也自然而然地偏爱这种构型。其中少数人还投身竞技赛事。你的殖装精巧而隐蔽，且机架使用轻质材料建造，天生比大多数其他机架更快。你获得@UUID[Compendium.pf2e.feats-srd.Item.Ux73dmoF8KnavyUD]{飞跑}通用专长。</p>"
+      "name": "GG-OS框架 GG-OS Frame",
+      "description": "<p>GG-OS框架原本为军事与企业间谍活动设计，社会阴暗角落的半机械人也自然而然地偏爱这种构型。其中少数人还投身竞技赛事。你的殖装精巧而隐蔽，且机架使用轻质材料建造，天生比大多数其他机架更快。你获得@UUID[Compendium.pf2e.feats-srd.Item.Ux73dmoF8KnavyUD]{飞跑}通用专长。</p>"
     },
     "jGoacSlRk8afEqkj": {
-      "name": "族裔武器熟悉（星蛸族） Ancestral Weapon Familiarity (Astrazoan)",
+      "name": "族裔武器熟稔（星蛸族） Ancestral Weapon Familiarity (Astrazoan)",
       "description": "<p>你学会了使用另一个族裔的传统武器。你获得一个与所选族裔或传承相关的武器熟悉专长，即使你并不属于该族裔或传承。你可以如同该族裔或传承的成员一样，选择以该专长为先决条件的族裔专长。选择任何专长时，除族裔或传承外，你必须满足其所有先决条件。</p><hr /><p><strong>特殊</strong>你可以多次选择此专长，每次选择不同的族裔或专长。</p>"
     },
     "jIj3KE8wntiJB2Y6": {
-      "name": "空中全息影像 Aerial Hologram",
+      "name": "航空全息 Aerial Hologram",
       "description": "<p>你的核心能够悬浮，使你的硬光身体得以飞行。你获得等于自身速度的飞行速度。当你关闭硬光投影仪时，你的核心悬浮在离地3尺处，而非掉落地面。</p><hr /><p><strong>特殊</strong>如果你是悬浮广告活体全息影像，则改为获得等于自身速度+10尺的飞行速度。</p>"
     },
     "jLcgJnDgWMkD2HF3": {
@@ -14547,7 +14547,7 @@
       "description": "<p><strong>触发</strong>一名盟友即将使用一个需要技能检定或攻击检定的动作。</p><hr /><p>你总是愿意上前帮忙，即使根本不知道自己在做什么。你@UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{协助}一名自愿的盟友，即使你并未事先准备帮助对方。你协助的检定获得+4环境加值，但在触发检定后，该盟友@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}，持续至其当前回合结束。</p>"
     },
     "jS9F8FWNzySe6EUS": {
-      "name": "隐秘半机械人 Subtle Cyborg",
+      "name": "隐蔽改造人 Subtle Cyborg",
       "description": "<p>你的殖装隐藏在实验室培育的皮肉或合成替代品下，让你能不引起怀疑地装作未经改造的生物。你在欺骗受训。如果你已经在欺骗受训（例如来自背景或职业），则改为在一项自选技能受训。此外，其他生物会将你视为未安装殖装的本族裔成员，不会意识到你是半机械人或具有科技特征。生物若以察觉检定[[/act seek dc=deception]]，成功对抗你的欺骗DC，就会注意到科技部件；但除非它大成功或专门在寻找半机械人，否则它多半会认为你只是安装了殖装。</p>"
     },
     "jUJLVRsEVLVXEIh0": {
@@ -14574,7 +14574,7 @@
       ]
     },
     "jhrKPErQ8iykrNMk": {
-      "name": "盾牌王牌入门 Shield Ace Dedication",
+      "name": "盾牌精英入门 Shield Ace Dedication",
       "description": "<p>无论为了保护自己还是盟友，你的训练都强调有效使用和维护盾牌。你获得盾牌格挡通用专长与快速修理技能专长。每当你成功修理盾牌时，额外为该盾牌恢复等于你等级的生命值。</p>",
       "cnPrerequisites": [
         {
@@ -14585,8 +14585,8 @@
       ]
     },
     "jiNuKNa9NcU27Bh2": {
-      "name": "快速制造者 Fabricator",
-      "description": "<p>你知道如何将通用聚合物放入创造胶囊，配置并打印出科技物品。你必须拥有该物品的配方，才能在创造胶囊中制造它，并支付等于物品材料价格的通用聚合物；根据工艺检定结果，减少所用材料。与通常的制造不同，此过程以分钟而非天计时（取决于所用创造胶囊的品级），但你无法花费额外时间继续制作物品。成功制造物品时，创造胶囊会被消耗，但检定失败或大失败时不会。你无需@UUID[Compendium.sf2e-anachronism.feats.Item.mX0Xl6wY1WmhyuVO]技能专长，就能使用快速制造者制作科技物品；但除非你具有@UUID[Compendium.pf2e.feats-srd.Item.xWY5omyIcILNR7y1]{魔法手艺}，否则无法使用快速制造者制造魔法装备。</p>",
+      "name": "制造师 Fabricator",
+      "description": "<p>你知道如何将通用聚合物放入创造胶囊，配置并打印出科技物品。你必须拥有该物品的配方，才能在创造胶囊中制造它，并支付等于物品材料价格的通用聚合物；根据工艺检定结果，减少所用材料。与通常的制造不同，此过程以分钟而非天计时（取决于所用创造胶囊的品级），但你无法花费额外时间继续制作物品。成功制造物品时，创造胶囊会被消耗，但检定失败或大失败时不会。你无需@UUID[Compendium.sf2e-anachronism.feats.Item.mX0Xl6wY1WmhyuVO]技能专长，就能使用制造师制作科技物品；但除非你具有@UUID[Compendium.pf2e.feats-srd.Item.xWY5omyIcILNR7y1]{魔法手艺}，否则无法使用制造师制造魔法装备。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -14652,13 +14652,13 @@
       ]
     },
     "kt1yaRw12tUXMWqF": {
-      "name": "殖装能量涌动 Augmentation Power Surge",
+      "name": "殖装加力 Augmentation Power Surge",
       "description": "<p>你同步并调校了殖装，使其能互相供能。如果你的一件殖装已经用尽有限的使用次数，你可以从尚未用尽次数或没有次数限制的其他殖装汲取能量，使其再使用一次。用于供能的殖装，其物品等级必须等于或高于以此方式获得能量的殖装。超过受能殖装的等级不会提供其他好处。例如，你可以用5级殖装为3级殖装供能，但它仍视为3级物品产生的效果。用于供能的殖装，以及以此方式获得能量的殖装，随后都会失去功能，直到你的下一次每日准备。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
           "expected": "Augmented Dedication",
-          "text": "改造者入门"
+          "text": "殖装狂入门"
         }
       ]
     },
@@ -14667,15 +14667,15 @@
       "description": "<p><strong>触发</strong>你受到伤害，且有一个生物与你相邻。</p><hr /><p>受伤时，你的肤色剧烈闪烁。选择一个相邻生物；该生物必须进行@Check[fortitude|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者。无论豁免结果如何，该生物随后暂时免疫炫目涌动1小时。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物的察觉检定受到–1环境减值，持续至你的下一回合开始。</p>\n<p><strong>失败</strong>该生物@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续至你的下一回合结束。</p>\n<p><strong>大失败</strong>该生物目眩2轮。</p>"
     },
     "lF7jiPvpLTOAPOzk": {
-      "name": "表情投手 Emoticon Slinger",
-      "description": "<p>你触及了表情符号引人入胜的魔力。你可以随意施放<em>表情冲击</em>，作为异能内在戏法。戏法会升阶至等于你等级一半（向上取整）的法术环阶。</p>"
+      "name": "颜文字投手 Emoticon Slinger",
+      "description": "<p>你触及了表情符号引人入胜的魔力。你可以随意施放<em>颜文字</em>，作为异能内在戏法。戏法会升阶至等于你等级一半（向上取整）的法术环阶。</p>"
     },
     "mD36216cjxV6n6aO": {
       "name": "老练旅人 Veteran Traveler",
       "description": "<p>你旅行多年，比大多数人更清楚道路不总是铺好的，也未必畅通，甚至可能尚未修建。你在自然或生存受训。如果你已在这两项技能均受训，则改为在另一项自选技能受训。从下列类型中选择一种地形：泥泞、岩石、沙地、斜坡或灌丛。你忽略此类困难地形或不平地面。</p>"
     },
     "mJGZQ0U74omYjXxO": {
-      "name": "护身翻板 Shielding Kickflip",
+      "name": "护身尖翻 Shielding Kickflip",
       "description": "<p><strong>需求</strong>你正驾驶一块悬浮滑板。</p><hr /><p>你精心调整角度，将悬浮滑板用作临时盾牌。你可以用悬浮滑板举盾与盾牌格挡，且只要你正驾驶它，就视为正持用它。你的悬浮滑板是一面提供+1AC环境加值的商用级盾牌，可以进行改良。</p>",
       "cnPrerequisites": [
         {
@@ -14761,7 +14761,7 @@
       "description": "<p><strong>频率</strong>每天两次</p>\n<p><strong>触发</strong>你或一个你能看见的15尺内盟友，在豁免检定或技能检定中掷出大失败。</p><hr /><p>即使你或盟友仿佛已经耗尽好运，情况也没看起来那么糟。触发的大失败改为失败。</p>"
     },
     "nkQ1LJzshyVvausv": {
-      "name": "光跃 Light Hop",
+      "name": "光束跃进 Light Hop",
       "description": "<p><strong>频率</strong>每天一次</p><hr /><p>在最短暂的一瞬，你能化作一束光移动。你将自己（及所有穿戴和握持的物品）传送至60尺内一个你能看见、未被占据的空间。</p>"
     },
     "o8BH5yV2GOd2e57e": {
@@ -14837,13 +14837,13 @@
       "description": "<p>你以四足姿态睡觉，身体其余部分大体保持直立，让你能轻松穿着护甲入睡。你可以穿着护甲睡过一夜，而不会在次日@UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏}。如果睡前已处于疲乏状态，护甲也不会妨碍你从疲乏状态恢复。</p>"
     },
     "pmVWQPZMjHdwix7g": {
-      "name": "减量再用再循环 Reduce Reuse Recycle",
+      "name": "节约·重用·回收 Reduce Reuse Recycle",
       "description": "<p>所有市售殖装都是为接受安装的人量身定制的。不过，你已对身体作出诸多调整，自信可以接受任何殖装，即使它并非为你制造。你获得@UUID[Compendium.pf2e.feats-srd.Item.kajI2r9RmtW5xYL7]{怪物取材}专长，并可以使用它收集制造殖装所需的材料，安装到自己身上。殖装必须与被回收生物的类型相符，例如构装体对应电控机械、龙对应魔法科技、不死生物对应死灵植入。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
           "expected": "Augmented Dedication",
-          "text": "改造者入门"
+          "text": "殖装狂入门"
         },
         {
           "index": 1,
@@ -14859,13 +14859,13 @@
         {
           "index": 0,
           "expected": "Daredevil",
-          "text": "冒险天性"
+          "text": "亡命徒"
         }
       ]
     },
     "q8SsDqC3ZiqeKvZK": {
-      "name": "杂讯遮蔽 Shroud in Static",
-      "description": "<p><strong>触发</strong> 你使一个科技生物、危害或配有摄像头的科技装备获得故障状态。</p><hr /><p>你知道如何利用科技故障与失灵掩饰自己的存在。只要触发的生物、危害或科技物品仍处于故障状态，你就会对触发的生物、危害，或使用该故障科技物品感知你的生物@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}。</p><hr /><p><strong>特殊</strong> 如果你拥有X-Hat火行者机体血统专长，你会改为@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}，而非隐蔽。</p>"
+      "name": "静电掩蔽 Shroud in Static",
+      "description": "<p><strong>触发</strong> 你使一个科技生物、危害或配有摄像头的科技装备获得故障状态。</p><hr /><p>你知道如何利用科技故障与失灵掩饰自己的存在。只要触发的生物、危害或科技物品仍处于故障状态，你就会对触发的生物、危害，或使用该故障科技物品感知你的生物@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}。</p><hr /><p><strong>特殊</strong> 如果你拥有X-HAT火行者框架血统专长，你会改为@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{隐形}，而非隐蔽。</p>"
     },
     "qA0OKTUcfQjaF0vS": {
       "name": "永恒献身 Eternal Devotion",
@@ -14989,24 +14989,24 @@
       "description": "<p><strong>触发</strong> 你获得@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{困惑}、受控、@UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{迷魂}、惊惧或呆滞状态。</p><hr /><p>你创造了一个虚拟沙盒，即你心智程序的数字副本，其中包含你的全部记忆，以及除意识以外的其他心智要素。尝试一次@Check[flat|dc:15]。成功或大成功时，你将该状态隔离并转移至虚拟沙盒中，不会获得该状态，但你会对虚拟沙盒免疫10分钟。</p>"
     },
     "sZLRG34lTLSSdKOx": {
-      "name": "殖装机动性 Augmented Mobility",
+      "name": "殖装机动 Augmented Mobility",
       "description": "<p>你明白，要将殖装推至极限，首先必须改造自己的身体。通过尝试新食物、使用补充剂或进行玄奥的锻炼，你提高身体为某些殖装提供的能量。如果你拥有赋予一种移动方式的殖装，则该移动方式的速度提高5尺。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
           "expected": "Augmented Dedication",
-          "text": "改造者入门"
+          "text": "殖装狂入门"
         }
       ]
     },
     "se9TxluLwAWMGbsc": {
-      "name": "能量防卫者 Energetic Defender",
+      "name": "能量防御者 Energetic Defender",
       "description": "<p>你的盾牌能阻挡的不止弹体。除通常的触发外，在你已举盾，且将受到一次攻击的能量伤害时，也可以使用盾牌格挡反应。每当你使用盾牌格挡，且盾牌具有针对你将受到的伤害类型的阻挡特征时，该盾牌还会对触发攻击获得针对该伤害类型的偏转特征。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
           "expected": "Shield Ace Dedication",
-          "text": "盾牌王牌入门"
+          "text": "盾牌精英入门"
         },
         {
           "index": 1,
@@ -15031,8 +15031,8 @@
       ]
     },
     "skLxNaXgrn7g7wgW": {
-      "name": "颤动感知 Termorsense",
-      "description": "<p>没有眼睛穿透黑暗，你便发展出新颖而富有创意的方式追踪敌人。你通过地面振动感知其他生物移动的能力极为敏锐。你获得30尺范围的颤动感知，作为模糊感官。</p>"
+      "name": "震颤感知 Termorsense",
+      "description": "<p>没有眼睛穿透黑暗，你便发展出新颖而富有创意的方式追踪敌人。你通过地面振动感知其他生物移动的能力极为敏锐。你获得30尺范围的震颤感知，作为模糊感官。</p>"
     },
     "t07TTsegeAMBCf8w": {
       "name": "淘气照明灯 Rascal-Light",
@@ -15050,7 +15050,7 @@
       "description": "<p>持用需要双手且不具有长触及的近战武器时，你可以用一个交互动作，在通常的双手握持方式与延伸的双手伸展握法之间切换。以延伸的双手伸展握法持用的武器获得10尺触及。</p>"
     },
     "tUd3gsnUKaIRhZ10": {
-      "name": "滚滚多边形 Roly-Polygon",
+      "name": "滚球核心 Roly-Polygon",
       "description": "<p>你能让自己的核心灵活地四处滚动，即使不投射身体也能移动。将快步和行走加入未投射硬光身体时可采取的动作列表。</p>"
     },
     "tcKDias6YeWkkUhz": {
@@ -15076,7 +15076,7 @@
       ]
     },
     "toFRqct2plT6wjsd": {
-      "name": "最广阔视野（双相人） Widest Field of View (Phasorq)",
+      "name": "极宽视野（双相人） Widest Field of View (Phasorq)",
       "description": "<p>你的每颗头颅都为另一颗留意周围。你获得全域视觉，意味着你无法被夹击。</p>",
       "cnPrerequisites": [
         {
@@ -15151,7 +15151,7 @@
       "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong> 你受到酸蚀、寒冷、电击、火焰、毒素、音波或虚能伤害。</p><hr /><p>你最近产生了一种新变异：血肉能迅速适应危险环境，但只能维持一段时间。你获得对触发伤害类型的抗力5，持续1小时。</p>"
     },
     "v7Ni71lOloqYTlQ9": {
-      "name": "接入连接 Plugged In",
+      "name": "联网 Plugged In",
       "description": "<p>你永远在线，畅游信息圈、与朋友聊天、浏览社交动态。你的核心内置一台通讯单元，只需心念便能操作，甚至无须出声就能通话。5级时，它还可作为@UUID[Compendium.sf2e-anachronism.equipment.Item.qqjDcCW118ySAlAS]{商用型骇客工具组}使用，8级时则作为@UUID[Compendium.sf2e-anachronism.equipment.Item.dk4qkf4BF7wCPV4u]{先进型骇客工具组}。这不算殖装，并且免疫故障状态。</p>"
     },
     "vCDJybbGPmPErHQV": {
@@ -15170,7 +15170,7 @@
       ]
     },
     "vO2eMj2gE1GvIP4Y": {
-      "name": "碰撞准备 Crash Ready",
+      "name": "防撞预备 Crash Ready",
       "description": "<p>你精通减轻碰撞伤害的方法。每当你@UUID[Compendium.pf2e.actionspf2e.Item.lID4rJHAVZB6tavf]{冲撞}，或你驾驶的载具被碾过时，你和载具受到的碰撞伤害都降低等于你角色等级的数值。</p>",
       "cnPrerequisites": [
         {
@@ -15208,8 +15208,8 @@
       ]
     },
     "w5M92EQZUYV5QagM": {
-      "name": "重编外貌 Reprogram Appearance",
-      "description": "<p>你花费10分钟，重新编程设定硬光身体的外貌。作为此活动的一部分，你可以从小型、中型或大型中，自选一项作为新体型。你维持该体型与外貌，直到下次重编外貌。</p>",
+      "name": "编辑外貌 Reprogram Appearance",
+      "description": "<p>你花费10分钟，重新编程设定硬光身体的外貌。作为此活动的一部分，你可以从小型、中型或大型中，自选一项作为新体型。你维持该体型与外貌，直到下次编辑外貌。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -15345,12 +15345,12 @@
       ]
     },
     "zF3wylGsw8ow3f5i": {
-      "name": "三维世界中的二维身 2D in a 3D World",
+      "name": "平面闪避术 2D in a 3D World",
       "description": "<p><strong>频率</strong> 每日三次</p>\n<p><strong>触发</strong> 你的一次反射豁免失败。</p><hr /><p>你利用硬光身体的可塑性与形状，转向侧面或压扁身体，尝试避开迎面而来的危险。你重掷触发的豁免，并采用较好的结果。</p>"
     },
     "zHoMWc287C6cpVJi": {
       "name": "震颤调谐 Tremor-Tuned",
-      "description": "<p>你能在风天听见一根针落地，甚至能通过三角定位，粗略判断它是从哪里来的。你的颤动感知变为30尺范围的精确感官。</p>",
+      "description": "<p>你能在风天听见一根针落地，甚至能通过三角定位，粗略判断它是从哪里来的。你的震颤感知变为30尺范围的精确感官。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -15386,11 +15386,11 @@
       "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong> 你受到电击伤害。</p><hr /><p>你将涌过系统的部分多余电能转化为动能，加速内部马达与处理器，以应对更迅捷的动作。你@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}2轮。每轮的额外动作只能用于行走。</p>"
     },
     "zl9f1lwuKOqWuIgk": {
-      "name": "飞行火箭拳 Flying Rocket Punch",
+      "name": "火箭飞拳 Flying Rocket Punch",
       "description": "<p><strong>频率</strong>每小时一次</p><hr /><p>你将能量重新导向肢体，使自己如火箭般冲向空中。你[[/act leap]]至60尺内一处自选、未被占据的空间。落地时，冲击震碎地面，使所有相邻空间成为困难地形；你可以对触及内的一个自选生物进行一次近战打击。命中时，打击的力道还会将目标击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>"
     },
     "zmTE8mPnU2xRBTIh": {
-      "name": "适应性视觉感受器 Adaptive Visual Receptors",
+      "name": "适应性视觉受体 Adaptive Visual Receptors",
       "description": "<p>无论是从事间谍工作，还是厌倦了在夜里找不到通讯单元，你的视觉感受器都经过升级，能在光照不足的条件下看清。你获得昏暗视觉。如果已有昏暗视觉，则改为获得黑暗视觉。</p><hr /><p><strong>特殊</strong> 你可以选取此专长两次。</p>"
     }
   }

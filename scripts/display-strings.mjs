@@ -966,7 +966,7 @@ export const DISPLAY_STRINGS = Object.freeze(Object.fromEntries([
   ],
   [
     "Effect: Restorative Chatter",
-    "效果：闲聊疗愈 Effect: Restorative Chatter"
+    "效果：疗愈闲谈 Effect: Restorative Chatter"
   ],
   [
     "Effect: Heroic Last Stand",
@@ -1330,11 +1330,11 @@ export const DISPLAY_STRINGS = Object.freeze(Object.fromEntries([
   ],
   [
     "Emoticon (Force)",
-    "表情冲击（力场） Emoticon (Force)"
+    "颜文字（力场） Emoticon (Force)"
   ],
   [
     "Emoticon (Bludgeoning)",
-    "表情冲击（钝击） Emoticon (Bludgeoning)"
+    "颜文字（钝击） Emoticon (Bludgeoning)"
   ],
   [
     "Warp World (Inferno)",
@@ -1434,27 +1434,27 @@ export const DISPLAY_STRINGS = Object.freeze(Object.fromEntries([
   ],
   [
     "Scrap Spray (Slashing)",
-    "废铁喷射（挥砍） Scrap Spray (Slashing)"
+    "碎片喷射（挥砍） Scrap Spray (Slashing)"
   ],
   [
     "Scrap Spray (Piercing)",
-    "废铁喷射（穿刺） Scrap Spray (Piercing)"
+    "碎片喷射（穿刺） Scrap Spray (Piercing)"
   ],
   [
     "Scrap Spray (Bludgeoning)",
-    "废铁喷射（钝击） Scrap Spray (Bludgeoning)"
+    "碎片喷射（钝击） Scrap Spray (Bludgeoning)"
   ],
   [
     "Turbulent Toys (Strobe Rave)",
-    "躁动玩具（频闪狂欢） Turbulent Toys (Strobe Rave)"
+    "骚动玩具（频闪狂欢） Turbulent Toys (Strobe Rave)"
   ],
   [
     "Turbulent Toys (Battery Hogs)",
-    "躁动玩具（耗电大户） Turbulent Toys (Battery Hogs)"
+    "骚动玩具（耗电大户） Turbulent Toys (Battery Hogs)"
   ],
   [
     "Turbulent Toys (Ankle Bumpers)",
-    "躁动玩具（脚踝碰撞） Turbulent Toys (Ankle Bumpers)"
+    "骚动玩具（脚踝碰撞） Turbulent Toys (Ankle Bumpers)"
   ],
   [
     "Entropy Strike (Non-Tech)",
@@ -2518,7 +2518,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Prehensile Tail"
       ],
-      "name": "抓握尾 Prehensile Tail"
+      "name": "盘卷尾巴 Prehensile Tail"
     }
   ],
   [
@@ -3427,7 +3427,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Fabricator"
       ],
-      "name": "快速制造者 Fabricator"
+      "name": "制造师 Fabricator"
     }
   ],
   [

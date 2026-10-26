@@ -2665,7 +2665,7 @@
     },
     "noPK2RzngTyp0n7Q": {
       "name": "战术型震颤足底 Tremor Soles (Tactical)",
-      "description": "<p>这些高度灵敏的陀螺仪安装在你的脚底，放大你所站表面上的微小振动。你获得30尺范围的颤动感知，作为精确感官。</p>"
+      "description": "<p>这些高度灵敏的陀螺仪安装在你的脚底，放大你所站表面上的微小振动。你获得30尺范围的震颤感知，作为精确感官。</p>"
     },
     "oBIUI95iuUisM7fZ": {
       "name": "卓越型电磁手雷 Electromag Grenade (Superior)",
@@ -2973,7 +2973,7 @@
     },
     "uLClojocGd90z7zQ": {
       "name": "商用型震颤足底 Tremor Soles (Commercial)",
-      "description": "<p>这些高度灵敏的陀螺仪安装在你的脚底，放大你所站表面上的微小振动。你获得30尺范围的颤动感知，作为模糊感官。</p>"
+      "description": "<p>这些高度灵敏的陀螺仪安装在你的脚底，放大你所站表面上的微小振动。你获得30尺范围的震颤感知，作为模糊感官。</p>"
     },
     "uNx2TvNYhS9tzwQn": {
       "name": "强制进化 Forceful Evolution",
@@ -3321,7 +3321,7 @@
     },
     "2SlMHaMMoUYmkWex": {
       "name": "战术型主播法术服务器 Spell Server of the Streamer (Tactical)",
-      "description": "<p>这根可折叠长杆的四周连接着屏幕和摄像头，顶部有一个超大的硬光表情符号。它配有摄像设备，让你能同时在多个平台向本地信息圈直播，并在过程中显得格外讨喜。使用法术服务器直播并直接询问观众时，你用于@UUID[Compendium.sf2e-anachronism.actions.Item.Yn4jLPVWVE1vtAaF]的技能检定获得+2物品加值，并可以使用[[/act access-infosphere skill=perfomance]]代替计算机进行此检定。</p><ul><li><p><strong>戏法</strong> 表情冲击</p></li><li><p><strong>1环</strong> 表情喷射、 @UUID[Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8]{激励铃声、} 视觉直播</p></li><li><p><strong>2环</strong> 表情盾牌、 @UUID[Compendium.sf2e-anachronism.spells.Item.tVTJS07cKDA5rNgc], @UUID[Compendium.sf2e-anachronism.spells.Item.wRNRWwCEbmSxbHDl]</p></li><li><p><strong>3环</strong> 表情轰炸、 @UUID[Compendium.sf2e-anachronism.spells.Item.eHiWtMiXoI1d48A7], @UUID[Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8]</p></li><li><p><strong>4环</strong> 表情炮击、爆炸表情、视觉直播</p></li></ul>"
+      "description": "<p>这根可折叠长杆的四周连接着屏幕和摄像头，顶部有一个超大的硬光表情符号。它配有摄像设备，让你能同时在多个平台向本地信息圈直播，并在过程中显得格外讨喜。使用法术服务器直播并直接询问观众时，你用于@UUID[Compendium.sf2e-anachronism.actions.Item.Yn4jLPVWVE1vtAaF]的技能检定获得+2物品加值，并可以使用[[/act access-infosphere skill=perfomance]]代替计算机进行此检定。</p><ul><li><p><strong>戏法</strong> 颜文字</p></li><li><p><strong>1环</strong> 表情喷射、 @UUID[Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8]{激励铃声、} 光学画面</p></li><li><p><strong>2环</strong> 表情护盾、 @UUID[Compendium.sf2e-anachronism.spells.Item.tVTJS07cKDA5rNgc], @UUID[Compendium.sf2e-anachronism.spells.Item.wRNRWwCEbmSxbHDl]</p></li><li><p><strong>3环</strong> 表情刷屏、 @UUID[Compendium.sf2e-anachronism.spells.Item.eHiWtMiXoI1d48A7], @UUID[Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8]</p></li><li><p><strong>4环</strong> 表情轰炸、爆炸表情、光学画面</p></li></ul>"
     },
     "2Z24iMonB5ulPUFv": {
       "name": "冷冻枪 Cryolizer",
@@ -3825,7 +3825,7 @@
     },
     "K9M8bBNL1ygWgm07": {
       "name": "终极型创造胶囊 Creator Capsule (Ultimate)",
-      "description": "<p>创造胶囊是一台带有可编程界面的3D小型打印机，让你能使用制造者技能专长快速制作物品。与通常的制作不同，准备并完成此过程需要1分钟，而1级或更低等级的物品可以用一个3动作行动制作完成；但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于创造胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个创造胶囊，但你仍然只进行一次制作检定。</p>"
+      "description": "<p>创造胶囊是一台带有可编程界面的3D小型打印机，让你能使用制造师技能专长快速制作物品。与通常的制作不同，准备并完成此过程需要1分钟，而1级或更低等级的物品可以用一个3动作行动制作完成；但你不能花费额外的休整期天数来降低完成物品所需消耗的材料价值。你必须拥有该物品的配方，而且不能制作等级高于创造胶囊等级的物品。制作负载超过1的物品时，每额外一负载都需要额外使用一个创造胶囊，但你仍然只进行一次制作检定。</p>"
     },
     "KDLa7VIQJfE74bHK": {
       "name": "战术生物扫描仪 Tactical Bioscanner",
@@ -3888,7 +3888,7 @@
     },
     "MAiM3mhqcM9cu4Su": {
       "name": "先进型主播法术服务器 Spell Server of the Streamer (Advanced)",
-      "description": "<p>这根可折叠长杆的四周连接着屏幕和摄像头，顶部有一个超大的硬光表情符号。它配有摄像设备，让你能同时在多个平台向本地信息圈直播，并在过程中显得格外讨喜。使用法术服务器直播并直接询问观众时，你用于@UUID[Compendium.sf2e-anachronism.actions.Item.Yn4jLPVWVE1vtAaF]的技能检定获得+3物品加值，并可以使用[[/act access-infosphere skill=perfomance]]代替计算机进行此检定。</p><ul><li><p><strong>戏法</strong> 表情冲击</p></li><li><p><strong>1环</strong> 表情喷射、 @UUID[Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8]{激励铃声、} 视觉直播</p></li><li><p><strong>2环</strong> 表情盾牌、 @UUID[Compendium.sf2e-anachronism.spells.Item.tVTJS07cKDA5rNgc], @UUID[Compendium.sf2e-anachronism.spells.Item.wRNRWwCEbmSxbHDl]</p></li><li><p><strong>3环</strong> 表情轰炸、 @UUID[Compendium.sf2e-anachronism.spells.Item.eHiWtMiXoI1d48A7], @UUID[Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8]</p></li><li><p><strong>4环</strong> 表情炮击、爆炸表情、视觉直播</p></li><li><p><strong>5环</strong> 审查表情、祷告表情、 @UUID[Compendium.sf2e-anachronism.spells.Item.Nf6GqoHkNbfWJDQT]</p></li><li><p><strong>6环</strong> 表情轰炸、 @UUID[Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8]</p></li></ul>"
+      "description": "<p>这根可折叠长杆的四周连接着屏幕和摄像头，顶部有一个超大的硬光表情符号。它配有摄像设备，让你能同时在多个平台向本地信息圈直播，并在过程中显得格外讨喜。使用法术服务器直播并直接询问观众时，你用于@UUID[Compendium.sf2e-anachronism.actions.Item.Yn4jLPVWVE1vtAaF]的技能检定获得+3物品加值，并可以使用[[/act access-infosphere skill=perfomance]]代替计算机进行此检定。</p><ul><li><p><strong>戏法</strong> 颜文字</p></li><li><p><strong>1环</strong> 表情喷射、 @UUID[Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8]{激励铃声、} 光学画面</p></li><li><p><strong>2环</strong> 表情护盾、 @UUID[Compendium.sf2e-anachronism.spells.Item.tVTJS07cKDA5rNgc], @UUID[Compendium.sf2e-anachronism.spells.Item.wRNRWwCEbmSxbHDl]</p></li><li><p><strong>3环</strong> 表情刷屏、 @UUID[Compendium.sf2e-anachronism.spells.Item.eHiWtMiXoI1d48A7], @UUID[Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8]</p></li><li><p><strong>4环</strong> 表情轰炸、爆炸表情、光学画面</p></li><li><p><strong>5环</strong> 审查表情、祷告表情、 @UUID[Compendium.sf2e-anachronism.spells.Item.Nf6GqoHkNbfWJDQT]</p></li><li><p><strong>6环</strong> 表情刷屏、 @UUID[Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8]</p></li></ul>"
     },
     "MEDdZ8gUF9ineoCM": {
       "name": "卓越型止吐剂 Antiemetic (Superior)",
@@ -3979,7 +3979,7 @@
     },
     "PoSITC5ItPFObdHF": {
       "name": "先进型机器主宰法术服务器 Spell Server of the Robot Master (Advanced)",
-      "description": "<p>这个钢盒配有色彩缤纷、依次闪烁的LED灯、方便的提手，以及侧面一个带有通用充电接口的深凹槽。凹槽可以容纳一台迷你机器人，并将其连接到机器人主宰的法术服务器。</p>\n<p><strong>启动—指挥迷你机器人</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每小时一次</p><hr /><p><strong>效果</strong> 你旋转转盘、扳动控制杆，启动相连的迷你机器人。你对相连的迷你机器人使用启动迷你机器人。</p><ul><li><p><strong>戏法</strong> @UUID[Compendium.sf2e-anachronism.spells.Item.NkvRoN33RbDg3fl9]</p></li><li><p><strong>1环</strong> @UUID[Compendium.pf2e.spells-srd.Item.dINQzhqGmIsqGMUY]{修复术}, @UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{讯息传递}</p></li><li><p><strong>2环</strong> @UUID[Compendium.sf2e-anachronism.spells.Item.ZofLZ5Zs8NN5yDPJ], @UUID[Compendium.sf2e-anachronism.spells.Item.ijlB3l9IBnpppfK0]</p></li><li><p><strong>3环</strong> @UUID[Compendium.pf2e.spells-srd.Item.dINQzhqGmIsqGMUY]{修复术}、升级构装体</p></li><li><p><strong>4环</strong> 电缆管理、视觉直播</p></li><li><p><strong>5环</strong> 故障修复、修复纳米机</p></li><li><p><strong>6环</strong> 正电子头盔、升级构装体</p></li></ul>"
+      "description": "<p>这个钢盒配有色彩缤纷、依次闪烁的LED灯、方便的提手，以及侧面一个带有通用充电接口的深凹槽。凹槽可以容纳一台迷你机器人，并将其连接到机器人主宰的法术服务器。</p>\n<p><strong>启动—指挥迷你机器人</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每小时一次</p><hr /><p><strong>效果</strong> 你旋转转盘、扳动控制杆，启动相连的迷你机器人。你对相连的迷你机器人使用启动迷你机器人。</p><ul><li><p><strong>戏法</strong> @UUID[Compendium.sf2e-anachronism.spells.Item.NkvRoN33RbDg3fl9]</p></li><li><p><strong>1环</strong> @UUID[Compendium.pf2e.spells-srd.Item.dINQzhqGmIsqGMUY]{修复术}, @UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{讯息传递}</p></li><li><p><strong>2环</strong> @UUID[Compendium.sf2e-anachronism.spells.Item.ZofLZ5Zs8NN5yDPJ], @UUID[Compendium.sf2e-anachronism.spells.Item.ijlB3l9IBnpppfK0]</p></li><li><p><strong>3环</strong> @UUID[Compendium.pf2e.spells-srd.Item.dINQzhqGmIsqGMUY]{修复术}、升级构装体</p></li><li><p><strong>4环</strong> 线缆管理、光学画面</p></li><li><p><strong>5环</strong> 修复漏洞、修复纳米虫</p></li><li><p><strong>6环</strong> 正电子头盔、升级构装体</p></li></ul>"
     },
     "QA6oL6Or7ujqBm9M": {
       "name": "商用型恶臭手雷 Miasmatic Grenade (Commercial)",
@@ -4003,7 +4003,7 @@
     },
     "QuDmojkKGAlOw50v": {
       "name": "商用型主播法术服务器 Spell Server of the Streamer (Commercial)",
-      "description": "<p>这根可折叠长杆的四周连接着屏幕和摄像头，顶部有一个超大的硬光表情符号。它配有摄像设备，让你能同时在多个平台向本地信息圈直播，并在过程中显得格外讨喜。使用法术服务器直播并直接询问观众时，你用于@UUID[Compendium.sf2e-anachronism.actions.Item.Yn4jLPVWVE1vtAaF]的技能检定获得+1物品加值，并可以使用[[/act access-infosphere skill=perfomance]]代替计算机进行此检定。</p><ul><li><p><strong>戏法</strong> 表情冲击</p></li><li><p><strong>1环</strong> 表情喷射、 @UUID[Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8]{激励铃声、} 视觉直播</p></li><li><p><strong>2环</strong> 表情盾牌、 @UUID[Compendium.sf2e-anachronism.spells.Item.tVTJS07cKDA5rNgc], @UUID[Compendium.sf2e-anachronism.spells.Item.wRNRWwCEbmSxbHDl]</p></li></ul>"
+      "description": "<p>这根可折叠长杆的四周连接着屏幕和摄像头，顶部有一个超大的硬光表情符号。它配有摄像设备，让你能同时在多个平台向本地信息圈直播，并在过程中显得格外讨喜。使用法术服务器直播并直接询问观众时，你用于@UUID[Compendium.sf2e-anachronism.actions.Item.Yn4jLPVWVE1vtAaF]的技能检定获得+1物品加值，并可以使用[[/act access-infosphere skill=perfomance]]代替计算机进行此检定。</p><ul><li><p><strong>戏法</strong> 颜文字</p></li><li><p><strong>1环</strong> 表情喷射、 @UUID[Compendium.sf2e-anachronism.spells.Item.5ZZca1GGJs44OxC8]{激励铃声、} 光学画面</p></li><li><p><strong>2环</strong> 表情护盾、 @UUID[Compendium.sf2e-anachronism.spells.Item.tVTJS07cKDA5rNgc], @UUID[Compendium.sf2e-anachronism.spells.Item.wRNRWwCEbmSxbHDl]</p></li></ul>"
     },
     "R52nISb4cpI517oW": {
       "name": "超充动力扇 Supercharged Dynafan",
@@ -4758,7 +4758,7 @@
     },
     "z2y15eJ4cQ6KrKUW": {
       "name": "战术型机器主宰法术服务器 Spell Server of the Robot Master (Tactical)",
-      "description": "<p>这个钢盒配有色彩缤纷、依次闪烁的LED灯、方便的提手，以及侧面一个带有通用充电接口的深凹槽。凹槽可以容纳一台迷你机器人，并将其连接到机器人主宰的法术服务器。</p>\n<p><strong>启动—指挥迷你机器人</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每小时一次</p><hr /><p><strong>效果</strong> 你旋转转盘、扳动控制杆，启动相连的迷你机器人。你对相连的迷你机器人使用启动迷你机器人。</p><ul><li><p><strong>戏法</strong> @UUID[Compendium.sf2e-anachronism.spells.Item.NkvRoN33RbDg3fl9]</p></li><li><p><strong>1环</strong> @UUID[Compendium.pf2e.spells-srd.Item.dINQzhqGmIsqGMUY]{修复术}, @UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{讯息传递}</p></li><li><p><strong>2环</strong> @UUID[Compendium.sf2e-anachronism.spells.Item.ZofLZ5Zs8NN5yDPJ], @UUID[Compendium.sf2e-anachronism.spells.Item.ijlB3l9IBnpppfK0]</p></li><li><p><strong>3环</strong> @UUID[Compendium.pf2e.spells-srd.Item.dINQzhqGmIsqGMUY]{修复术}、升级构装体</p></li><li><p><strong>4环</strong> 电缆管理、视觉直播</p></li></ul>"
+      "description": "<p>这个钢盒配有色彩缤纷、依次闪烁的LED灯、方便的提手，以及侧面一个带有通用充电接口的深凹槽。凹槽可以容纳一台迷你机器人，并将其连接到机器人主宰的法术服务器。</p>\n<p><strong>启动—指挥迷你机器人</strong> <span class=\"action-glyph\">1</span> （操作）</p>\n<p><strong>频率</strong> 每小时一次</p><hr /><p><strong>效果</strong> 你旋转转盘、扳动控制杆，启动相连的迷你机器人。你对相连的迷你机器人使用启动迷你机器人。</p><ul><li><p><strong>戏法</strong> @UUID[Compendium.sf2e-anachronism.spells.Item.NkvRoN33RbDg3fl9]</p></li><li><p><strong>1环</strong> @UUID[Compendium.pf2e.spells-srd.Item.dINQzhqGmIsqGMUY]{修复术}, @UUID[Compendium.pf2e.spells-srd.Item.D442XMADp01qJ7Cs]{讯息传递}</p></li><li><p><strong>2环</strong> @UUID[Compendium.sf2e-anachronism.spells.Item.ZofLZ5Zs8NN5yDPJ], @UUID[Compendium.sf2e-anachronism.spells.Item.ijlB3l9IBnpppfK0]</p></li><li><p><strong>3环</strong> @UUID[Compendium.pf2e.spells-srd.Item.dINQzhqGmIsqGMUY]{修复术}、升级构装体</p></li><li><p><strong>4环</strong> 线缆管理、光学画面</p></li></ul>"
     },
     "ziVBiaYkD1Kmbal4": {
       "name": "悬滞射击调制器 Suspended Fire Modulator",

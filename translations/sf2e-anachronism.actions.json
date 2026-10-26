@@ -557,7 +557,7 @@
     },
     "bjsgzOPyKf0V8siE": {
       "name": "交换 Swap",
-      "description": "<p><strong>需求</strong>一个生物正持用另一件武器，且位于你100尺内</p><hr /><p><strong>效果</strong>你立即交换两件目标武器的位置。若热交换的剩余持续时间超过10分钟，则将其缩短为10分钟。</p>"
+      "description": "<p><strong>需求</strong>一个生物正持用另一件武器，且位于你100尺内</p><hr /><p><strong>效果</strong>你立即交换两件目标武器的位置。若热插拔的剩余持续时间超过10分钟，则将其缩短为10分钟。</p>"
     },
     "cShf7HifoNI7XzKd": {
       "name": "毒性撕扯 Toxic Tear",

@@ -1,0 +1,838 @@
+{
+  "version": "0.3.11",
+  "primaryNamesAudited": 2430,
+  "changedNamesChecked": 135,
+  "allChineseQueriesAndEnglishAliasesPassed": true,
+  "allStableIdsPreserved": true,
+  "queries": {
+    "Rewire Flesh": {
+      "Chinese": "重接血肉",
+      "ids": [
+        "0LQLmBrjK5B4mYQP"
+      ]
+    },
+    "Infuse Ammo": {
+      "Chinese": "灌注弹药",
+      "ids": [
+        "0Ut3WWGJP2dpjSwY"
+      ]
+    },
+    "Infectious Virus": {
+      "Chinese": "传染性病毒",
+      "ids": [
+        "2Ln6XZujQYZK95Mv"
+      ]
+    },
+    "Reparative Nanites": {
+      "Chinese": "修复纳米虫",
+      "ids": [
+        "327oTvddhYQ012QG"
+      ]
+    },
+    "Hot Swap": {
+      "Chinese": "热插拔",
+      "ids": [
+        "32rKBaTBCJ33qixz"
+      ]
+    },
+    "Reflective Paneling": {
+      "Chinese": "反射装甲板",
+      "ids": [
+        "3iJb9h4yRGyIRzJd"
+      ]
+    },
+    "Read Memory": {
+      "Chinese": "读取内存",
+      "ids": [
+        "5ZG4T2nGy1g2RJvA"
+      ]
+    },
+    "Explosive Recall": {
+      "Chinese": "爆炸回放",
+      "ids": [
+        "7o0Fbp7CsocbKSab"
+      ]
+    },
+    "Exhale Toxins": {
+      "Chinese": "呼出毒气",
+      "ids": [
+        "9jZ8lah3VMO7iYW8"
+      ]
+    },
+    "Emoticon": {
+      "Chinese": "颜文字",
+      "ids": [
+        "9nSqaEG9HQB7hMZe"
+      ]
+    },
+    "Robo-Fist": {
+      "Chinese": "机器铁拳",
+      "ids": [
+        "DwAvbUFR5LID5ebL"
+      ]
+    },
+    "Bugfix": {
+      "Chinese": "修复漏洞",
+      "ids": [
+        "DyWL7idKpvy3IK5J"
+      ]
+    },
+    "Optics Feed": {
+      "Chinese": "光学画面",
+      "ids": [
+        "FhcGSV1rbFWHiXJD"
+      ]
+    },
+    "Bolster Weapon": {
+      "Chinese": "增强武器",
+      "ids": [
+        "GdvESca5RRPKA2Ji"
+      ]
+    },
+    "One with Junk": {
+      "Chinese": "融身废品",
+      "ids": [
+        "HT4nqVPlQKKi2jdV"
+      ]
+    },
+    "Summon Drift Prophet": {
+      "Chinese": "召唤漂流域先知",
+      "ids": [
+        "IKzuw8XgMMw7ErSJ"
+      ]
+    },
+    "Emoji Spam": {
+      "Chinese": "表情刷屏",
+      "ids": [
+        "J0uCmkZq1uLAun94"
+      ]
+    },
+    "Mycorrhizal Supremacy": {
+      "Chinese": "菌根霸权",
+      "ids": [
+        "LcAzycyG5Tqk92Bx"
+      ]
+    },
+    "Linked Sight": {
+      "Chinese": "链接视野",
+      "ids": [
+        "MdtOuzzLWcG0CD60"
+      ]
+    },
+    "Wishborne Shot": {
+      "Chinese": "祈愿射击",
+      "ids": [
+        "NjsSsNlo2H0Duj7A"
+      ]
+    },
+    "Singlemind": {
+      "Chinese": "同心",
+      "ids": [
+        "NpsEhi5m9SUm0zqV"
+      ]
+    },
+    "Emoji Shield": {
+      "Chinese": "表情护盾",
+      "ids": [
+        "ONyatkj2Ds1laXLO"
+      ]
+    },
+    "Light Shift": {
+      "Chinese": "光移",
+      "ids": [
+        "Py97Kb5H6vrgELDa"
+      ]
+    },
+    "Emoji Armament": {
+      "Chinese": "表情武装",
+      "ids": [
+        "QnVLetx8Ajiu5XVk"
+      ]
+    },
+    "Spark of the Spirit": {
+      "Chinese": "灵魂火花",
+      "ids": [
+        "S1nvwfmweG4AEGGW"
+      ]
+    },
+    "Kill Dash Nine": {
+      "Chinese": "九号杀令",
+      "ids": [
+        "SrgvGhssLCzzhiNo"
+      ]
+    },
+    "Junkify": {
+      "Chinese": "废品化",
+      "ids": [
+        "WYzRscCSsB8wT6Aq"
+      ]
+    },
+    "Divine Firewall": {
+      "Chinese": "神圣火墙",
+      "ids": [
+        "WzROOMfaK77OMgjB"
+      ]
+    },
+    "Junkbot": {
+      "Chinese": "废品机器人",
+      "ids": [
+        "X7HA6V2phMsaFce3"
+      ]
+    },
+    "Blinding Emoji": {
+      "Chinese": "刺目表情",
+      "ids": [
+        "ZSlXevjqvcApnO36"
+      ]
+    },
+    "Biomechanical Symbiosis": {
+      "Chinese": "生化共生",
+      "ids": [
+        "a8t4GpinUPJE0oLO"
+      ]
+    },
+    "Junk Weapon": {
+      "Chinese": "废品武器",
+      "ids": [
+        "amWAlEKTNuBAgj5m"
+      ]
+    },
+    "Wall of Junk": {
+      "Chinese": "废品墙",
+      "ids": [
+        "bTTakzdSo2S8fX92"
+      ]
+    },
+    "Surveillance Vision": {
+      "Chinese": "监控视野",
+      "ids": [
+        "cn0QFZOBORN9mwr0"
+      ]
+    },
+    "Scrap Spray": {
+      "Chinese": "碎片喷射",
+      "ids": [
+        "dO7QnIrHTwmCzKQB"
+      ]
+    },
+    "Technological Combustion": {
+      "Chinese": "科技爆燃",
+      "ids": [
+        "e65BnxbVVAMZ3Kqt"
+      ]
+    },
+    "Crymoji": {
+      "Chinese": "哭哭表情",
+      "ids": [
+        "eChIzJ8Zvcmd6HWs"
+      ]
+    },
+    "Build Bulkhead Stronghold": {
+      "Chinese": "建造舱壁堡垒",
+      "ids": [
+        "fD644qK2ftpFhebf"
+      ]
+    },
+    "Angelic Signal": {
+      "Chinese": "天使讯号",
+      "ids": [
+        "ftPpuRM57GD3SDBQ"
+      ]
+    },
+    "Cosmic Radiation Rods": {
+      "Chinese": "宇宙辐射棒",
+      "ids": [
+        "hMYeUxTRfjSDhSRL"
+      ]
+    },
+    "Cosmic Eddy": {
+      "Chinese": "宇宙漩涡",
+      "ids": [
+        "hY6HnTzr97uUqI2V"
+      ]
+    },
+    "Corrupt Machine": {
+      "Chinese": "腐化机器",
+      "ids": [
+        "iE2Zih3Uyq87oHjH"
+      ]
+    },
+    "Conjure Junkrod": {
+      "Chinese": "召唤废品车",
+      "ids": [
+        "iIub6uEavnMJEN4z"
+      ]
+    },
+    "Transfer Consciousness": {
+      "Chinese": "意识转移",
+      "ids": [
+        "iPfHkWGAwocCqU1E"
+      ]
+    },
+    "Turbulent Toys": {
+      "Chinese": "骚动玩具",
+      "ids": [
+        "jAPEfvqa62jUPuL6"
+      ]
+    },
+    "Comfortmoji": {
+      "Chinese": "舒缓表情",
+      "ids": [
+        "jChXPibVLmIC9QaE"
+      ]
+    },
+    "Circuit Trace": {
+      "Chinese": "电路走线",
+      "ids": [
+        "jqnRZasqIRUAP2Uy"
+      ]
+    },
+    "Junk Restraints": {
+      "Chinese": "废品拘束具",
+      "ids": [
+        "kPp8vbT1R5afbOux"
+      ]
+    },
+    "Censormoji": {
+      "Chinese": "屏蔽表情",
+      "ids": [
+        "kmhaxRaiLMJM6DOg"
+      ]
+    },
+    "Cable Management": {
+      "Chinese": "线缆管理",
+      "ids": [
+        "nam1metCZqYItFck"
+      ]
+    },
+    "Junk Armor": {
+      "Chinese": "废品护甲",
+      "ids": [
+        "oSFO8npwL2vKDdxm"
+      ]
+    },
+    "Judgment Cannon": {
+      "Chinese": "审判大炮",
+      "ids": [
+        "onJigrID4TH48kag"
+      ]
+    },
+    "Build Shield Generator": {
+      "Chinese": "建造护盾发生器",
+      "ids": [
+        "q0JMsrMuk19oLzXY"
+      ]
+    },
+    "Boot Loop": {
+      "Chinese": "无限重启",
+      "ids": [
+        "qwVddukwlfbtm1Ti"
+      ]
+    },
+    "Scrap Shell": {
+      "Chinese": "碎片护壳",
+      "ids": [
+        "rBlHYUZH1anYD4cg"
+      ]
+    },
+    "Build Sentries": {
+      "Chinese": "建造哨戒炮",
+      "ids": [
+        "tlGugw7XE5xYUsxZ"
+      ]
+    },
+    "Wall of Coiling Lightning": {
+      "Chinese": "线圈电墙",
+      "ids": [
+        "vgagfjqR9N572poC"
+      ]
+    },
+    "Bombarding Emojis": {
+      "Chinese": "表情轰炸",
+      "ids": [
+        "vuiUvfh3ptO9gnDI"
+      ]
+    },
+    "Build Healing Station": {
+      "Chinese": "建造治疗站",
+      "ids": [
+        "yG9AUj9Krcrx7U87"
+      ]
+    },
+    "Build Booster Ring": {
+      "Chinese": "建造助推环",
+      "ids": [
+        "yIRR3rgI0gtNrKQf"
+      ]
+    },
+    "Widest Field of View (Izalguun)": {
+      "Chinese": "极宽视野（伊扎尔贡人）",
+      "ids": [
+        "0IZcIdwkVArBV1G9"
+      ]
+    },
+    "Hardlight Refraction": {
+      "Chinese": "折光实光",
+      "ids": [
+        "0iPdHYk4m62am4Pf"
+      ]
+    },
+    "Philosophical Damnation": {
+      "Chinese": "哲学天谴",
+      "ids": [
+        "0vwBTQbzgOWQ3b9w"
+      ]
+    },
+    "Thresher KO-1 Frame": {
+      "Chinese": "收割者KO-1框架",
+      "ids": [
+        "1tBVxuuKKyrwndTk"
+      ]
+    },
+    "Mirror Shield": {
+      "Chinese": "镜反之盾",
+      "ids": [
+        "2ZMV4KzfCZQPRxBa"
+      ]
+    },
+    "See Light Through You": {
+      "Chinese": "见光识人",
+      "ids": [
+        "3RZpzA9vZWiUlLYD"
+      ]
+    },
+    "X-Hat Firewalker Frame": {
+      "Chinese": "X-HAT火行者框架",
+      "ids": [
+        "3Z9dFDnOxyuZhREY"
+      ]
+    },
+    "Sensor Mask": {
+      "Chinese": "传感器面具",
+      "ids": [
+        "3ZvfDQHhRHUGKG2M"
+      ]
+    },
+    "Extra Stretchy": {
+      "Chinese": "附加弹性",
+      "ids": [
+        "3dDS1JRIas8Mk9D5"
+      ]
+    },
+    "Daredevil": {
+      "Chinese": "亡命徒",
+      "ids": [
+        "61t9vizmGbuISXxo"
+      ]
+    },
+    "Peacekeeper’s Armory": {
+      "Chinese": "和平卫士军械",
+      "ids": [
+        "86s64k7sH45Sr6Lh"
+      ]
+    },
+    "Labyrinthine Mind": {
+      "Chinese": "迷宫心智",
+      "ids": [
+        "8aNP2zwc132PhkWF"
+      ]
+    },
+    "Troubleshooting Core": {
+      "Chinese": "检修核心",
+      "ids": [
+        "A1s0AASv6uK4PJLg"
+      ]
+    },
+    "Hide in Plain Light": {
+      "Chinese": "匿于光中",
+      "ids": [
+        "AG89ueOMKDvBDGBk"
+      ]
+    },
+    "Advanced Atmospheric Flight": {
+      "Chinese": "高等大气层飞行",
+      "ids": [
+        "AHTk5YkcV3lzm094"
+      ]
+    },
+    "Breach": {
+      "Chinese": "跃浪击",
+      "ids": [
+        "AytE84e6pU6Achc3"
+      ]
+    },
+    "Just Like Rehearsal": {
+      "Chinese": "宛如彩排",
+      "ids": [
+        "EfDkXkKyFZZTaLui"
+      ]
+    },
+    "Secondary Power Source": {
+      "Chinese": "备用能源",
+      "ids": [
+        "HFRa8uF2rZeoblQL"
+      ]
+    },
+    "Stretching Reach (Nuar)": {
+      "Chinese": "延长触及（牛尔人）",
+      "ids": [
+        "ICzoR3Mm5diqAq7S"
+      ]
+    },
+    "Uncanny Dash": {
+      "Chinese": "诡速冲刺",
+      "ids": [
+        "LnY0TKWaKDvm23fy"
+      ]
+    },
+    "Shield Warden": {
+      "Chinese": "盾牌戒卫",
+      "ids": [
+        "Pg7ypM5Hg4UhPNy0"
+      ]
+    },
+    "Glitter Everywhere": {
+      "Chinese": "闪粉四散",
+      "ids": [
+        "PnmOoZgPaEUZiPlc"
+      ]
+    },
+    "Hardpoint": {
+      "Chinese": "挂载点",
+      "ids": [
+        "RSkp1CPNemSqoEUx"
+      ]
+    },
+    "Menacing Men": {
+      "Chinese": "恫吓姿态",
+      "ids": [
+        "RWVJY1IMhXP6YIUl"
+      ]
+    },
+    "Decorated Peacekeeper": {
+      "Chinese": "受勋和平卫士",
+      "ids": [
+        "RYu4iCHGFUJBG2Av"
+      ]
+    },
+    "Biotech Os Upgrade": {
+      "Chinese": "生物科技系统升级",
+      "ids": [
+        "RhUUd2NGcRw1aZqK"
+      ]
+    },
+    "Gooey Engulf (Entu)": {
+      "Chinese": "粘稠包卷（因图菌群）",
+      "ids": [
+        "Rsc02LGMUbp6Rx84"
+      ]
+    },
+    "Defensive Driving": {
+      "Chinese": "防御性驾驶",
+      "ids": [
+        "SZn6QoviYWXwVwvm"
+      ]
+    },
+    "Death's Indifference": {
+      "Chinese": "死亡默然",
+      "ids": [
+        "TDphpBKl58Yj0iMV"
+      ]
+    },
+    "Latch On": {
+      "Chinese": "死咬",
+      "ids": [
+        "U9AtNbpmav4v6ZPh"
+      ]
+    },
+    "Unlucky for Some": {
+      "Chinese": "灾厄转嫁",
+      "ids": [
+        "UxnOyz4dOECDaEv9"
+      ]
+    },
+    "Hardlight Weapon": {
+      "Chinese": "实光武器",
+      "ids": [
+        "V0kSqDgWxRfjNNCZ"
+      ]
+    },
+    "Shake 'Em Off": {
+      "Chinese": "甩脱",
+      "ids": [
+        "Wc0MPfCQkXe8FWZV"
+      ]
+    },
+    "Blinding Light": {
+      "Chinese": "耀眼闪光",
+      "ids": [
+        "YOGXzGaGwOmx10dx"
+      ]
+    },
+    "Dense Weave Musculature": {
+      "Chinese": "密织肌肉",
+      "ids": [
+        "YrbIMQp0BTMdK1Jk"
+      ]
+    },
+    "Zoom In, Zoom Out": {
+      "Chinese": "缩放自如",
+      "ids": [
+        "ZA6noZkUIWyoRM4o"
+      ]
+    },
+    "Restorative Chatter": {
+      "Chinese": "疗愈闲谈",
+      "ids": [
+        "ZdNgvFzNIbkitCNI"
+      ]
+    },
+    "Hang in There (Nu)Friend!": {
+      "Chinese": "撑住啊，（新）朋友！",
+      "ids": [
+        "ZtTTYNlIV1u2Hepe"
+      ]
+    },
+    "Hover Pro": {
+      "Chinese": "悬浮高手",
+      "ids": [
+        "a94ZPHt2O6in4EHk"
+      ]
+    },
+    "Augmented Dedication": {
+      "Chinese": "殖装狂入门",
+      "ids": [
+        "aRYbvlWhIpnMUZVJ"
+      ]
+    },
+    "Fire Crystal Beam": {
+      "Chinese": "火晶射线",
+      "ids": [
+        "beddIQRraCn5ZDJv"
+      ]
+    },
+    "Gigafuroid Form": {
+      "Chinese": "拾荒巨蜗形态",
+      "ids": [
+        "bovfLCEE0ZzoSQwZ"
+      ]
+    },
+    "Pheromone Connection": {
+      "Chinese": "信息素联结",
+      "ids": [
+        "bw08tJhH52SDt6lB"
+      ]
+    },
+    "Trick of the Light": {
+      "Chinese": "光线诡计",
+      "ids": [
+        "eITDfVEtJIpienZW"
+      ]
+    },
+    "Anti-Glitch Response": {
+      "Chinese": "防故障响应",
+      "ids": [
+        "ejtNqTLVqhGzEqMy"
+      ]
+    },
+    "Augmented Harmony": {
+      "Chinese": "殖装调和",
+      "ids": [
+        "fRxIpJltFrK4qgm0"
+      ]
+    },
+    "Broad Shoulders": {
+      "Chinese": "宽厚肩膀",
+      "ids": [
+        "g6vEKuiatFDTH2H5"
+      ]
+    },
+    "Realistic Appearance": {
+      "Chinese": "写实外貌",
+      "ids": [
+        "gGlbqs4gEOLrQLwT"
+      ]
+    },
+    "EVA Module": {
+      "Chinese": "EVA模块",
+      "ids": [
+        "gfvi2JVXeEfHrVIa"
+      ]
+    },
+    "Ride the River Between": {
+      "Chinese": "乘骑交界河",
+      "ids": [
+        "hPmYo6zCElcukFWV"
+      ]
+    },
+    "GG-OS Frame": {
+      "Chinese": "GG-OS框架",
+      "ids": [
+        "jDlSj1ff2wfs8zpS"
+      ]
+    },
+    "Ancestral Weapon Familiarity (Astrazoan)": {
+      "Chinese": "族裔武器熟稔（星蛸族）",
+      "ids": [
+        "jGoacSlRk8afEqkj"
+      ]
+    },
+    "Aerial Hologram": {
+      "Chinese": "航空全息",
+      "ids": [
+        "jIj3KE8wntiJB2Y6"
+      ]
+    },
+    "Subtle Cyborg": {
+      "Chinese": "隐蔽改造人",
+      "ids": [
+        "jS9F8FWNzySe6EUS"
+      ]
+    },
+    "Shield Ace Dedication": {
+      "Chinese": "盾牌精英入门",
+      "ids": [
+        "jhrKPErQ8iykrNMk"
+      ]
+    },
+    "Fabricator": {
+      "Chinese": "制造师",
+      "ids": [
+        "jiNuKNa9NcU27Bh2"
+      ]
+    },
+    "Prehensile Tail": {
+      "Chinese": "盘卷尾巴",
+      "ids": [
+        "kQZa9Vfl7qRRSJAX"
+      ]
+    },
+    "Augmentation Power Surge": {
+      "Chinese": "殖装加力",
+      "ids": [
+        "kt1yaRw12tUXMWqF"
+      ]
+    },
+    "Emoticon Slinger": {
+      "Chinese": "颜文字投手",
+      "ids": [
+        "lF7jiPvpLTOAPOzk"
+      ]
+    },
+    "Shielding Kickflip": {
+      "Chinese": "护身尖翻",
+      "ids": [
+        "mJGZQ0U74omYjXxO"
+      ]
+    },
+    "Light Hop": {
+      "Chinese": "光束跃进",
+      "ids": [
+        "nkQ1LJzshyVvausv"
+      ]
+    },
+    "Reduce Reuse Recycle": {
+      "Chinese": "节约·重用·回收",
+      "ids": [
+        "pmVWQPZMjHdwix7g"
+      ]
+    },
+    "Shroud in Static": {
+      "Chinese": "静电掩蔽",
+      "ids": [
+        "q8SsDqC3ZiqeKvZK"
+      ]
+    },
+    "Augmented Mobility": {
+      "Chinese": "殖装机动",
+      "ids": [
+        "sZLRG34lTLSSdKOx"
+      ]
+    },
+    "Energetic Defender": {
+      "Chinese": "能量防御者",
+      "ids": [
+        "se9TxluLwAWMGbsc"
+      ]
+    },
+    "Termorsense": {
+      "Chinese": "震颤感知",
+      "ids": [
+        "awUH6rMKU3p65Nzd",
+        "skLxNaXgrn7g7wgW"
+      ]
+    },
+    "Roly-Polygon": {
+      "Chinese": "滚球核心",
+      "ids": [
+        "tUd3gsnUKaIRhZ10"
+      ]
+    },
+    "Widest Field of View (Phasorq)": {
+      "Chinese": "极宽视野（双相人）",
+      "ids": [
+        "toFRqct2plT6wjsd"
+      ]
+    },
+    "Plugged In": {
+      "Chinese": "联网",
+      "ids": [
+        "v7Ni71lOloqYTlQ9"
+      ]
+    },
+    "Rat Retinal HUD": {
+      "Chinese": "鼠眼HUD",
+      "ids": [
+        "vKV9KJ397Bf1fBdD"
+      ]
+    },
+    "Crash Ready": {
+      "Chinese": "防撞预备",
+      "ids": [
+        "vO2eMj2gE1GvIP4Y"
+      ]
+    },
+    "Reprogram Appearance": {
+      "Chinese": "编辑外貌",
+      "ids": [
+        "w5M92EQZUYV5QagM"
+      ]
+    },
+    "2D in a 3D World": {
+      "Chinese": "平面闪避术",
+      "ids": [
+        "zF3wylGsw8ow3f5i"
+      ]
+    },
+    "Flying Rocket Punch": {
+      "Chinese": "火箭飞拳",
+      "ids": [
+        "zl9f1lwuKOqWuIgk"
+      ]
+    },
+    "Adaptive Visual Receptors": {
+      "Chinese": "适应性视觉受体",
+      "ids": [
+        "zmTE8mPnU2xRBTIh"
+      ]
+    }
+  },
+  "nativeAndOndemandIndex": {
+    "version": "0.3.11",
+    "reproducedMissingIndex": true,
+    "lightIndexNamesChecked": 5613,
+    "nativeIndexNamesChecked": 5613,
+    "packsChecked": 28,
+    "chineseAndEnglishSearch": true,
+    "gmAndPlayerIndexPaths": true,
+    "noFullPackFetchRequired": true,
+    "idAndNameLookup": true,
+    "idempotent": true,
+    "unrelatedPackUnchanged": true,
+    "unknownEntryUnchanged": true,
+    "indexRowsNonNameFieldsUnchanged": true,
+    "liveFoundryTested": false,
+    "referenceCommit": "11aa2358f1373ec1228871e0db93c20a5680abf6"
+  },
+  "liveFoundryTested": false
+}

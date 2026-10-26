@@ -594,7 +594,7 @@
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.PbGi8qVbMWTqq3Bd]赋予</p>\n<p>当你的敌对动作以来源生物为目标，或将其包含在区域内时，该动作的攻击检定和豁免DC获得+1环境加值。</p>"
     },
     "FqUokahAJwpV6lbE": {
-      "name": "效果：巨蜗形态 Effect: Gigafuroid Form",
+      "name": "效果：拾荒巨蜗形态 Effect: Gigafuroid Form",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.bovfLCEE0ZzoSQwZ]赋予</p>\n<p>你的战斗形态是一只异怪，具有30尺速度和30尺攀爬速度、酸蚀和毒素伤害抗力10、黑暗视觉、60尺精确嗅觉，以及一种触手无武装打击（长触及15尺），造成2d10钝击伤害外加2d6酸蚀伤害。你用触手命中一个生物后，可以花费一个动作攫抓目标。处于此战斗形态时，你还获得@UUID[Compendium.sf2e-anachronism.actions.Item.Wt3PzHoo3BauvifP]能力。</p>"
     },
     "GsiH3fTqaDRkR52l": {
@@ -758,12 +758,12 @@
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.v6wKk4pHYdaH7Ubj]赋予</p>\n<p>你对所选伤害类型获得抗力5。</p>"
     },
     "iOkzEDtx1953uD26": {
-      "name": "效果：咬住不放 Effect: Latch On",
+      "name": "效果：死咬 Effect: Latch On",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.U9AtNbpmav4v6ZPh]赋予</p>\n<p>你获得等于自身等级一半的临时生命值。</p>"
     },
     "j8PdZa8f0ekkdIYw": {
-      "name": "效果：闲聊疗愈 Effect: Restorative Chatter",
-      "description": "<p>当你能与盟友交流时，你的身体会得到实际的治疗。你可以选择与盟友进行听觉或视觉交流，使用此动作时，它获得对应特征。你获得等于自身等级一半的快速治疗，持续1分钟。在闲聊疗愈生效期间，如果你不再满足需求，此快速治疗便会结束。</p>"
+      "name": "效果：疗愈闲谈 Effect: Restorative Chatter",
+      "description": "<p>当你能与盟友交流时，你的身体会得到实际的治疗。你可以选择与盟友进行听觉或视觉交流，使用此动作时，它获得对应特征。你获得等于自身等级一半的快速治疗，持续1分钟。在疗愈闲谈生效期间，如果你不再满足需求，此快速治疗便会结束。</p>"
     },
     "jp73xHXJgb5GwQtP": {
       "name": "效果：蠕动尾巴（减值） Effect: Wriggling Tail (Penalty)",

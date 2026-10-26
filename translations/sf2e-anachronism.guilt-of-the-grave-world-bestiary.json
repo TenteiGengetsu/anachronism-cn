@@ -1020,7 +1020,7 @@
         {
           "id": "2PxaTrCDdcuj7Uhq",
           "expectedName": "Scrap Spray",
-          "name": "废铁喷射",
+          "name": "碎片喷射",
           "expectedDescription": "<p>The scrap rat visionary fires jagged junk shards at multiple enemies. All creatures in a @Template[type:cone|distance:20] must attempt a @Check[reflex|dc:18|basic|options:area-effect] save or take @Damage[3d6[piercing]|options:area-damage] damage. On a critical failure, the creature is @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until the end of the scrap rat visionary's next turn.</p>",
           "description": "<p>废料鼠先知向多个敌人射出锯齿状废料碎片。@Template[type:cone|distance:20]内的所有生物必须尝试@Check[reflex|dc:18|basic|options:area-effect]豁免，否则受到@Damage[3d6[piercing]|options:area-damage]伤害。大失败时，生物会@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{被压制}，直至废料鼠先知下回合结束。</p>"
         }
