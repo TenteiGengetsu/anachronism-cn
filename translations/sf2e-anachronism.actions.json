@@ -97,7 +97,7 @@
     },
     "7KMyRISNqp7JTzMn": {
       "name": "特技驾驶 Stunt",
-      "description": "<p>你在驾驶车辆时进行特技驾驶，暂时提高其有效能力，但有失去控制的风险。驱动（Drive）你的车辆并选择一个特技驾驶动作。所有作为特技驾驶一部分尝试的驾驶检定都会受到列出的惩罚，包括进行鲁莽行动的驾驶检定。如果驾驶行动和特技驾驶都是鲁莽的，你必须尝试两次驾驶检定来保持对车辆的控制。</p>\n<table><thead><tr><th>特技</th><th>减值</th><th>好处</th></tr></thead><tbody><tr><td>后退</td><td>–1</td><td>以半速向后移动。</td></tr><tr><td>闪避</td><td>–1</td><td>以半速移动，获得 AC+1 状态加值。</td></tr><tr><td>翻滚推进</td><td>–1</td><td>以半速移动，然后转向。</td></tr><tr><td>滚筒</td><td>–2</td><td>以一半速度移动，获得 AC+2 状态加值。</td></tr><tr><td>飞越</td><td>–2</td><td>以一半速度穿过敌人所在的格子。</td></tr><tr><td>漂移</td><td>–2</td><td>以一半速度侧向移动而不转弯</td></tr><tr><td>原地转向</td><td>–2</td><td>转向，然后以全速移动。</td></tr></tbody></table>"
+      "description": "<p>你在驾驶车辆时进行特技驾驶，暂时提高其有效能力，但有失去控制的风险。驱动（Drive）你的车辆并选择一个特技驾驶动作。所有作为特技驾驶一部分尝试的驾驶检定都会受到列出的惩罚，包括进行鲁莽行动的驾驶检定。如果驾驶行动和特技驾驶都是鲁莽的，你必须尝试两次驾驶检定来保持对车辆的控制。</p>\n<table><thead><tr><th>特技驾驶</th><th>减值</th><th>好处</th></tr></thead><tbody><tr><td>后退</td><td>–1</td><td>以半速向后移动。</td></tr><tr><td>闪避</td><td>–1</td><td>以半速移动，获得 AC+1 状态加值。</td></tr><tr><td>翻滚推进</td><td>–1</td><td>以半速移动，然后转向。</td></tr><tr><td>滚筒</td><td>–2</td><td>以一半速度移动，获得 AC+2 状态加值。</td></tr><tr><td>飞越</td><td>–2</td><td>以一半速度穿过敌人所在的格子。</td></tr><tr><td>漂移</td><td>–2</td><td>以一半速度侧向移动而不转弯</td></tr><tr><td>原地转向</td><td>–2</td><td>转向，然后以全速移动。</td></tr></tbody></table>"
     },
     "8zWFGKRXg1SxIwFH": {
       "name": "全息威吓 Holo-Roger",
@@ -156,7 +156,7 @@
       "description": "<p><strong>需求</strong>你拥有护甲环境防护或@UUID[Compendium.sf2e-anachronism.equipment.Item.pEob2HYKeFtToeeC]</p><hr /><p>你通过检查护甲或你手持的野外科学工具包上的仪表和传感器来分析环境，以确定其是否安全。你以半速或更慢的速度移动。你自动侦测到任何你的护甲能够防护的环境危害，包括环境条件的严重程度（例如温度、辐射水平、空气的存在与否等）。</p>"
     },
     "QMxO5Y1b9ORvlogx": {
-      "name": "借过 Pardon Me",
+      "name": "失礼了 Pardon Me",
       "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>你的大使搭档用于[[/act make-an-impression]]的交涉检定失败，但未大失败</p><hr /><p><strong>效果</strong>你进行一次交涉检定来建立印象。你的大使搭档改用你的结果作为触发的交涉检定结果，即使该结果更低。</p>"
     },
     "RF8xNJ8QsMwogerB": {
@@ -192,7 +192,7 @@
       "description": "<p><strong>频率</strong> 每轮一次</p>\n<p><strong>触发</strong> 你施放来自法术位的法术。</p><hr /><p>你汲取残留魔力，释放装备的全部潜能。你持有、持用或穿戴的一件科技物品，或你正在指挥的一个科技仆从（由你的编程语言决定），进入超频状态，持续1分钟。你同时只能有一个超频装备；若使另一个目标超频，当前装备的超频状态便结束。装备超频期间，你获得编程语言所赋予的超频增幅，并能使用其独有的超频脉冲动作。</p>"
     },
     "Yn4jLPVWVE1vtAaF": {
-      "name": "接入信息圈 Access Infosphere",
+      "name": "访问信息圈 Access Infosphere",
       "description": "<p><strong>需求</strong>你正在使用一台能够接入信息圈的设备。</p><hr /><p>你尝试接入本地信息网络（通称信息圈）以获取特定主题的情报。这通常需要10分钟的研究时间来查找信息，结果类似于对某个主题回忆知识。更大规模的研究或主题可能需要数小时，而常见于该聚居地信息圈的简单答案可能只需一分钟，具体由GM决定。重大且长期的研究应使用研究子系统（见《主持人核心》）。GM根据你研究的主题确定DC。这可能受到当地信息圈质量、它可能拥有的关于该主题的信息以及其组织程度的影响。</p><hr /><p><strong>大成功</strong> 你查找到了你正在搜寻的信息。若该主题的信息本可以通过@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]来获取，则你查找信息的时间缩短至1分钟。</p>\n<p><strong>成功</strong> 你查找到了你正在搜寻的信息。</p>\n<p><strong>大失败</strong> 由于错误数据或网络恶作剧，你查找到了误导性信息。GM会向你提供关于调查主题的错误信息（或者决定不给你任何信息，如同失败一样）。</p>"
     },
     "Z8GMkB50OfXBX67a": {
@@ -212,7 +212,7 @@
       "description": "<p><strong>需求</strong>你必须使用@UUID[Compendium.sf2e-anachronism.equipment.Item.vLGDUFrg4yGzpTQX]{修理工具包}。</p><hr /><p>你花费10分钟，将一个升级部件安装到一套护甲或一件武器的空升级槽中。你也可以用此活动卸下升级部件。安装的升级部件数量不能超过升级槽数量。安装或卸下升级部件都需要用双手使用修理工具包。</p>"
     },
     "eBxEPfTafaJaK4Kf": {
-      "name": "反应快步 Reactive Step",
+      "name": "反应迈步 Reactive Step",
       "description": "<p><strong>触发</strong> 一个在你触及内的生物在使用移动动作时离开一个方格。</p><hr /><p>你能灵巧地绕过敌人，摆脱困境或移动到占据优势的位置。你径直朝触发生物的方向至多快步两次。</p>"
     },
     "g9ZIUSXrLNGhS5Lh": {
@@ -420,7 +420,7 @@
       "description": "<p><strong>频率</strong>每分钟一次</p>\n<p><strong>触发</strong>你受到寒冷或火焰伤害</p><hr /><p><strong>效果</strong>你的血肉立即适应温度，你获得对触发伤害类型的抗力，数值等于你等级的一半。此抗力持续到你下次使用温度适应。</p>"
     },
     "3In9EAqKoYiCDmz4": {
-      "name": "佯装倒地 Feign Prone",
+      "name": "假摔 Feign Prone",
       "description": "\n<p><strong>触发</strong>敌人对你[[/act trip]]时失败或大失败，或你摔绊敌人时失败但未大失败</p><hr /><p><strong>效果</strong>你假装被摔绊，陷入@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}并对触发生物[[/act feint]]。你可以在下个回合以自由动作起身，且不会触发反应。</p>"
     },
     "3Zlu3WSRHqS32mlr": {
@@ -428,7 +428,7 @@
       "description": "<p>你改变全身或部分皮肤的颜色、花纹和图案。当你的肤色与周围环境的颜色大致相符时，你用于[[/act hide]]和[[/act sneak]]的隐秘检定获得+1环境加值。</p>"
     },
     "4yWUVp205mJWuqNI": {
-      "name": "聆听 Listen",
+      "name": "倾听 Listen",
       "description": "<p><strong>频率</strong>每天一次</p><hr /><p><strong>效果</strong>你敞开心灵，接纳幽影界的幽暗秘密。针对任意主题@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}，以[[/act recall-knowledge skill=occultism]]{神秘}代替通常所用的技能。若检定成功，则改为大成功；若检定失败，则改为大失败。</p>"
     },
     "4yr6PSebbNdw9ofY": {
@@ -440,7 +440,7 @@
       "description": "<p><strong>频率</strong>每轮一次</p>\n<p><strong>需求</strong>你正在驾驶载具</p><hr /><p><strong>效果</strong>你的载具速度增加10尺。直到你的下个回合开始，所有用于操纵该载具或以其他方式与其互动的驾驶检定DC增加1。</p>"
     },
     "6fsMvO0jXtK8gYkH": {
-      "name": "鼓胀身体 Puff Up",
+      "name": "膨胀 Puff Up",
       "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong>一个生物@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}你、以无武装打击命中你，或以不具备长触及的近战武器命中你</p><hr /><p><strong>效果</strong>你深吸一口气，迅速鼓起身体，将带刺的鳞片和棱脊刺入攻击者体内。你对触发生物造成@Damage[(ceil(@actor.level/2))d6[piercing]]伤害（@Check[reflex|basic|against:class-spell]）。大失败时，该生物还会被你的突然变化扰乱，陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你的下个回合结束。在3级以及此后每2级，此伤害增加1d6。</p>"
     },
     "7yLIUg2fqyn1GPYt": {
@@ -464,7 +464,7 @@
       "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>你用于@UUID[Compendium.sf2e-anachronism.actions.Item.RF8xNJ8QsMwogerB]的计算机检定失败或大失败</p><hr /><p><strong>效果</strong>你在最后一刻意识到自己犯下的错误，并在不良后果发生前迅速将其撤销。重掷触发的检定，你必须采用第二次结果。</p>"
     },
     "CPO4LgkZPHIHQEB4": {
-      "name": "末日预言者祷文 Doomsayer's Litany",
+      "name": "预言者祷言 Doomsayer's Litany",
       "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong>30尺内的一个盟友尝试恢复检定</p><hr /><p><strong>效果</strong>你对病弱的盟友吟诵古老祷文。该盟友在触发的恢复检定中获得+2状态加值。</p>"
     },
     "DQSW4YEotxrLJIEl": {
@@ -476,7 +476,7 @@
       "description": "<p>你以数字手段搜索与渗透目标有关的各种信息。进行一次普通、困难或极难的计算机检定。</p><hr /><p><strong>大成功</strong>你找到罕见的信息，并获得1点需要使用科技物品才能利用的优势点（EP）。若你分享此信息，获知信息的人都能使用该优势点，但只要有人用过，这条信息就不再有效。</p>\n<p><strong>成功</strong>如同大成功，但此信息广为人知，尝试利用它可能引人怀疑，使本次渗透增加1警戒点（AP）。</p>\n<p><strong>失败</strong>如同成功，但此信息夸大、过时或完全错误，所得优势点不会为渗透提供任何帮助。GM可以在渗透过程中的任意时刻，根据剧情需要揭示这一点。</p>\n<p><strong>大失败</strong>如同失败，但本次渗透增加2警戒点（AP）。</p>"
     },
     "Hq7duW66un55uGoA": {
-      "name": "偏斜力场 Deflect Force",
+      "name": "偏折力场 Deflect Force",
       "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong>你成为@UUID[Compendium.pf2e.spells-srd.Item.gKKqvLohtrSJj3BM]{力场飞弹}法术的目标</p><hr /><p><strong>效果</strong>你偏转射向自己的魔法力场碎片。进行一次@Check[reflex]豁免，对抗施法者的法术DC。成功时，你不受伤害。若有多枚力场碎片以你为目标，你只能偏转第一枚。</p>"
     },
     "IiZ5mIM3AG77E09x": {
@@ -484,15 +484,15 @@
       "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你进行生命科学学识或物质科学学识检定来@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}。掷骰两次并采用较好的结果。</p>"
     },
     "JdLNIaTM4eyI9Luo": {
-      "name": "吸收光线 Absorb Light",
+      "name": "吸收光照 Absorb Light",
       "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你吸收周围的光线，熄灭普通光源。以你为中心的@Template[type:burst|distance:10]内，非魔法光源自动熄灭。</p>"
     },
     "K37N5t6v7kgImnDN": {
-      "name": "聚集光线 Concentrate Light",
+      "name": "集中光照 Concentrate Light",
       "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你将光线集中到一片魔法黑暗区域，使用@Check[fortitude|options:counteract]豁免或@Check[nature|options:counteract]调整值进行反制检定，对抗目标DC。你的反制环阶等于你等级的一半，向上取整。成功反制后，该魔法黑暗阻止光线穿过的能力被压制1分钟，其余效果不受影响。</p>"
     },
     "KhX0FDMxGVgHjXdU": {
-      "name": "微型新星 Mini-Nova",
+      "name": "迷你新星 Mini-Nova",
       "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>你的生命值降至0</p><hr /><p><strong>效果</strong>你释放出一阵恒星能量，在陷入@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}时焚烧周围的一切。你造成1d6加上你等级的火焰伤害（@Damage[(ceil(@actor.level/2)d6+@actor.level)[fire]|options:area-damage]），影响@Template[type:emanation|distance:10]内的所有其他生物（进行@Check[reflex|against:class-spell|basic|options:area-effect]豁免，对抗你的职业DC或法术DC，取较高者）。在3级以及此后每2级，此伤害增加1d6。</p>"
     },
     "L0MLZNUoJ6lTlBZu": {
@@ -520,7 +520,7 @@
       "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你将光线汇聚成柔和的光束，笼罩60尺内一个濒死的生物。目标失去@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{濒死}状态（仍处于@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}状态，生命值为0）。你还可以选择将自身的一部分生命火花转移给目标，牺牲至多等于你等级的生命值，为目标恢复等量生命值。若如此做，目标不会获得@UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{受伤}状态。</p>"
     },
     "OST8EbXzznPoGw9g": {
-      "name": "迅速投掷 Quick Toss",
+      "name": "快速掷弹 Quick Toss",
       "description": "<p>你以交互动作拔出一枚手雷，然后用它进行区域射击。在5级，你的手雷熟练等级提升至专家，并且可以使用所有手雷的重击专精效果。</p>"
     },
     "Pdam8vyOw6KSQvRe": {
@@ -532,11 +532,11 @@
       "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你回想失落故乡的景色来安抚心灵：不断蠕动、满是脓液的肉丘，毒液汇成的湖泊，以及笼罩着有害绿色气体的天空。若你的下一个动作是尝试一次耗费至多2动作的技能检定，你掷骰两次并采用较好的结果。</p>"
     },
     "VPUwqRHwijGcMVOH": {
-      "name": "水汪汪的大眼睛 Big Wet Eye Blink",
+      "name": "水汪汪的大眼睛闪烁 Big Wet Eye Blink",
       "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>一个你已察觉的生物对你打击大成功，且将对你造成伤害</p><hr /><p><strong>效果</strong>你冲触发生物眨动水汪汪的大眼睛，迫使它收敛攻势。攻击者触发打击的伤害受到等于你等级+2的环境减值。此减值在重击伤害翻倍之后应用。随后，攻击者对此能力免疫24小时。</p>"
     },
     "XYLK5aZ2WAMJGRAc": {
-      "name": "活体潜水艇 Living Submersible",
+      "name": "活体潜水器 Living Submersible",
       "description": "<p><strong>需求</strong>你处于水下</p><hr /><p><strong>效果</strong>你膨胀身体，并在体内充满可供呼吸的含氧液体。如此做时，你的体型增至巨型，速度变为0。此形态下，你能搭载至多六个自愿的中型或更小生物。只要仍在水中，你就能保持此形态，或选择以单动作恢复正常形态；除此之外，此能力持续时间为每等级一小时。</p>"
     },
     "aswV37TglbLLXmAA": {
@@ -548,7 +548,7 @@
       "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你使推进器过载，在其关闭冷却前推动自己腾空飞行。你获得等于自身速度的飞行速度，持续2轮。持续时间结束后，推进器完全关闭，你的陆地速度失去悬浮特征，持续1小时。</p>"
     },
     "bWD4NpW0NB8aDwZF": {
-      "name": "喷焰开关 Pickle Switch",
+      "name": "腌菜开关 Pickle Switch",
       "description": "<p>驾驶员扳动开关，使载具排气口喷出火焰。所有其他载具的乘员陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续1分钟，具体效果取决于@Check[fortitude|against:class|options:inflicts:dazzled]豁免对抗你职业DC的结果。</p>"
     },
     "bXLJtouJRWQXxLUP": {
@@ -556,47 +556,47 @@
       "description": "<p>你使毛发如色彩鲜艳的宝石般闪闪发光，持续1小时。闪耀时，你对能看见你的生物进行[[/act make-an-impression]]和表演检定时获得+2状态加值，但你的[[/act demoralize]]、[[/act hide]]和[[/act sneak]]受到–1状态减值。</p>\n<p>每天一次，你可以用单次交互动作抖落多余的闪粉，使所有邻接生物获得闪耀的效果，持续10分钟。任何生物都能以具有操作特征的一个动作拂去身上的闪粉，以解消这些效果。</p>"
     },
     "bjsgzOPyKf0V8siE": {
-      "name": "交换 Swap",
+      "name": "换位 Swap",
       "description": "<p><strong>需求</strong>一个生物正持用另一件武器，且位于你100尺内</p><hr /><p><strong>效果</strong>你立即交换两件目标武器的位置。若热插拔的剩余持续时间超过10分钟，则将其缩短为10分钟。</p>"
     },
     "cShf7HifoNI7XzKd": {
-      "name": "毒性撕扯 Toxic Tear",
+      "name": "毒性撕裂 Toxic Tear",
       "description": "<p><strong>频率</strong>每轮一次</p><hr /><p><strong>效果</strong>对一个@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}、无助、@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{（被）束缚}的生物进行喙部打击。若命中，持续毒素伤害提升为每个武器伤害骰1d4持续毒素伤害。</p>"
     },
     "e2lugcxHnxTkQeMc": {
-      "name": "耀目甲壳 Dazzling Shell",
+      "name": "眩目甲壳 Dazzling Shell",
       "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong>一个生物以造成能量伤害的武器打击命中你</p><hr /><p><strong>效果</strong>你的甲壳迸发光芒，使攻击者失明。所有邻接生物以及命中你的生物都必须进行@Check[fortitude|against:class-spell|options:inflicts:blinded,inflicts:dazzled]豁免，对抗你的职业DC或法术DC，取较高者。失败时，生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续1轮。大失败时，改为@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{目盲}1轮，随后目眩1轮。</p>"
     },
     "fz1XOiQr3FJYRxJh": {
-      "name": "战斗吐唾 Battle Gobbing",
+      "name": "战斗搞不灵 Battle Gobbing",
       "description": "<p>你骇入30尺内一个生物的科技物品，以烦人的弹窗和其他麻烦妨碍它。进行一次@Check[computers|against:will]检定，对抗目标的意志DC。</p><hr /><p><strong>大成功</strong>目标陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 2}，持续1轮。</p>\n<p><strong>成功</strong>目标陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，持续1轮。</p>\n<p><strong>大失败</strong>你陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞 1}，直到你的下个回合结束。</p>"
     },
     "gNTUSvR7Rnbz2qEW": {
-      "name": "卡通伸展 Cartoonish Stretch",
+      "name": "卡通弹性 Cartoonish Stretch",
       "description": "<p><strong>频率</strong>每轮一次</p><hr /><p><strong>效果</strong>你伸出双臂，使其像橡皮筋一样延长。你的触及增加5尺，直到你的回合结束。</p>"
     },
     "gS62Drm7DuTrc9Y3": {
-      "name": "坐立不安 Fidget",
+      "name": "乱动 Fidget",
       "description": "<p><strong>触发</strong>一个生物移动至与你邻接</p><hr /><p><strong>效果</strong>你快步远离触发生物。</p>"
     },
     "ixBOSnRNcdfDVygI": {
-      "name": "让我听见你们的欢呼 Let Me Hear You Cheer",
+      "name": "让我听到你欢呼 Let Me Hear You Cheer",
       "description": "<p><strong>频率</strong>每天一次</p><hr /><p><strong>效果</strong>你以夸张的动作和过度的热情为自己造势，试图说服观众为你鼓掌。你获得1d4临时生命值，持续1分钟。60尺内的每个盟友都可以选择以反应为你鼓掌。每有一个盟友鼓掌，你获得的临时生命值便增加1。在9级以及此后每5级，初始临时生命值增加1d4，且每位盟友鼓掌所增加的临时生命值增加1。</p>"
     },
     "j1FsKMy7CTtrp3Fu": {
-      "name": "不羁心灵 Unbound Mind",
+      "name": "无羁心智 Unbound Mind",
       "description": "<p><strong>触发</strong>你尝试对抗心灵效果的豁免，但尚未掷骰</p><hr /><p><strong>效果</strong>你拒绝屈从于他人的意志，以坚定决心摆脱控制。直到你的下个回合开始，你在触发的豁免以及其他对抗心灵效果的豁免中获得+1环境加值。</p>"
     },
     "lDfffQX5QYWnNVA6": {
-      "name": "相位乱舞 Phasic Flurry",
+      "name": "相位连斩 Phasic Flurry",
       "description": "<p>你行走至多等于自身速度的距离，然后对触及内的每个生物各进行一次相位刃打击。每次攻击都计入多重攻击减值，但只有在完成所有这些攻击后才提高减值。</p>"
     },
     "lIZ9DhrkzM3AEQmX": {
-      "name": "迷幻闪光 Shimmering Dazzle",
+      "name": "闪光眩目 Shimmering Dazzle",
       "description": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>你的几丁质甲壳闪耀着变幻的色彩，配合柔和的动作，呈现出催眠般的景象。选择30尺内的一个生物。该生物必须在@Check[fortitude|against:class]豁免中成功对抗你的职业DC，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}，持续1轮。</p>"
     },
     "lizh6clVUQm76uvK": {
-      "name": "辐射污染 Contaminate",
+      "name": "污染 Contaminate",
       "description": "<p><strong>频率</strong>每天一次</p>\n<p><strong>触发</strong>一个生物以无武装攻击对你打击</p><hr /><p><strong>效果</strong>你使该生物暴露于辐射。触发生物必须进行@Check[fortitude|against:class-spell|options:damaging-effect,inflicts:sickened]豁免，对抗你的职业DC或法术DC，取较高者。失败时，该生物受到@Damage[1d6[poison]]伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心 1}，持续1分钟。</p>"
     },
     "mbRH3JIu44z8nxXj": {
@@ -604,7 +604,7 @@
       "description": "<p>你对所有与你共处同一空间的生物造成@Damage[10d6[acid]]伤害（进行@Check[type:reflex|basic:true|dc:resolve(@actor.attributes.classOrSpellDC.value)]豁免，DC为你的职业DC或法术DC，取较高者）。</p>"
     },
     "mlWK8VSSJm3iumy6": {
-      "name": "反射伤害 Reflect Damage",
+      "name": "反弹伤害 Reflect Damage",
       "description": "<p><strong>触发</strong>你受到所选类型的伤害</p><hr /><p><strong>效果</strong>你的护甲板进一步硬化，将伤害反射回去。对造成触发伤害的生物进行法术攻击检定。</p><hr /><p><strong>大成功</strong>该生物受到相当于两倍触发伤害或两倍你对触发伤害抗力值的伤害，取较低者。</p>\n<p><strong>成功</strong>如同大成功，但伤害不翻倍。</p>\n<p><strong>失败</strong>法术结束。</p>"
     },
     "nAJeT29ZJvqeg98h": {
@@ -616,19 +616,19 @@
       "description": "<p><strong>需求</strong>你处于零重力环境</p><hr /><p><strong>效果</strong>你膨胀身体，并用储存压缩氧气的特殊器官为体内充满可供呼吸的空气。如此做时，你的体型增至巨型，速度变为0。此形态下，你能搭载至多六个自愿的中型或更小生物，并使其完全免受太空真空的危害。</p>\n<p>只要仍处于真空中，你就能保持此形态，或选择以单动作恢复正常形态；除此之外，此能力持续时间为每等级一小时。</p>"
     },
     "ntmBjxw7Hw81Fogq": {
-      "name": "共情协助 Empathic Assistance",
-      "description": "<p><strong>需求</strong>你与你群体中的一个自愿成员邻接，该成员当前处于惊惧状态，或受到具有情绪或心灵特征的有害效果影响</p><hr /><p><strong>效果</strong>你握住受影响的群体成员的手，安慰对方。若其惊惧，将其惊惧状态值降低1。若其正受到持续的情绪或心灵效果影响，则尝试反制触发的效果，反制环阶为你等级的一半（向上取整），反制调整值为你的察觉调整值。成功时，你承受该效果，持续其剩余持续时间，而该成员对共情协助免疫1小时。</p>"
+      "name": "共情援助 Empathic Assistance",
+      "description": "<p><strong>需求</strong>你与你群体中的一个自愿成员邻接，该成员当前处于惊惧状态，或受到具有情绪或心灵特征的有害效果影响</p><hr /><p><strong>效果</strong>你握住受影响的群体成员的手，安慰对方。若其惊惧，将其惊惧状态值降低1。若其正受到持续的情绪或心灵效果影响，则尝试反制触发的效果，反制环阶为你等级的一半（向上取整），反制调整值为你的察觉调整值。成功时，你承受该效果，持续其剩余持续时间，而该成员对共情援助免疫1小时。</p>"
     },
     "oKLA4xGqOkugw45C": {
       "name": "滑溜皮肤 Slitherskin",
       "description": "<p><strong>频率</strong>每小时一次</p>\n<p><strong>触发</strong>一个生物触碰你，例如@UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{擒拿}你、以无武装攻击成功命中你，或对你使用接触法术</p><hr /><p><strong>效果</strong>你从皮肤中分泌毒素，对触发生物造成@Damage[ceil(@actor.level/2)d4[poison]]伤害，其进行@Check[fortitude|against:class-spell|basic]豁免，对抗你的职业DC或法术DC，取较高者。在3级以及此后每2级，此伤害增加1d4。</p>"
     },
     "ojicKYAURtjCsFbD": {
-      "name": "关闭硬光投影器 Disable Hardlight Projector",
-      "description": "<p><strong>需求</strong>你的核心正在投射硬光躯体</p><hr /><p><strong>效果</strong>你的硬光躯体消失，核心安全落到地面。你可以选择将任意数量的携带或穿戴物品存入核心的虚拟储物空间，但不能超过其最大容量；其余物品安全落在你所在的空间中。你的体型变为超小型，重量为1负载，且除了@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}、投射硬光躯体以及只需要动用心智的动作（由GM判断）外，无法行动。不投射躯体时，你的感官仍正常运作。</p>"
+      "name": "禁用实光投影 Disable Hardlight Projector",
+      "description": "<p><strong>需求</strong>你的核心正在投射实光躯体</p><hr /><p><strong>效果</strong>你的实光躯体消失，核心安全落到地面。你可以选择将任意数量的携带或穿戴物品存入核心的虚拟存储器，但不能超过其最大容量；其余物品安全落在你所在的空间中。你的体型变为超小型，重量为1负载，且除了@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{回忆知识}、投影实光躯体以及只需要动用心智的动作（由GM判断）外，无法行动。不投射躯体时，你的感官仍正常运作。</p>"
     },
     "pO1wkgklxp9j1taY": {
-      "name": "化为软泥 Become Ooze",
+      "name": "化作泥怪 Become Ooze",
       "description": "<p><strong>频率</strong>每天一次</p><hr /><p><strong>效果</strong>你融化成一摊黏液，持续10分钟或直到你解消它。软泥形态下，你对挥砍和穿刺伤害具有等于等级一半的抗力。但在此形态下，你无法使用任何具有操作特征的动作或任何物品，不过仍能携带物品。</p>"
     },
     "pWMwGj8lnOpkU3Hr": {
@@ -644,11 +644,11 @@
       "description": "<p><strong>触发</strong>你尝试对抗心灵效果的豁免，但尚未掷骰</p><hr /><p><strong>效果</strong>你释放心中的杂波，以其构成抵御心灵入侵的心能护盾。直到本回合结束，你在对抗心灵效果的豁免中获得+2环境加值，包括触发的豁免。</p>"
     },
     "sO7Jd4scwpQdTcgy": {
-      "name": "投射硬光躯体 Project Hardlight Body",
-      "description": "<p><strong>需求</strong>你的核心处于足以容纳硬光躯体体型的空间内，且当前未投射硬光躯体</p><hr /><p><strong>效果</strong>你的核心在其所在空间内投射出站立的硬光躯体，并安全地包裹在躯体中。作为此动作的一部分，你可以穿上所在空间内或核心虚拟储物空间中的护甲及任意数量的穿戴物品，也可以取出这些位置的物品。</p>"
+      "name": "投影实光躯体 Project Hardlight Body",
+      "description": "<p><strong>需求</strong>你的核心处于足以容纳实光躯体体型的空间内，且当前未投射实光躯体</p><hr /><p><strong>效果</strong>你的核心在其所在空间内投射出站立的实光躯体，并安全地包裹在躯体中。作为此动作的一部分，你可以穿上所在空间内或核心虚拟存储器中的护甲及任意数量的穿戴物品，也可以取出这些位置的物品。</p>"
     },
     "u9NU2bULHg3S5FaP": {
-      "name": "幽影步 Umbral Stride",
+      "name": "暗影步法 Umbral Stride",
       "description": "<p><strong>频率</strong>每轮一次</p>\n<p><strong>需求</strong>你处于昏暗光照或黑暗中。</p><hr /><p>你如同正常迈步一样在阴影间穿行。你传送至多30尺，目的地必须处于昏暗光照或黑暗中，且位于你的视线与效应线内。</p>"
     },
     "v6ITmtsDt1ZvGmK6": {

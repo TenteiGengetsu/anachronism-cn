@@ -546,7 +546,7 @@
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.15v6nXEIi10i0CNI]赋予</p>\n<p>你的伤害获得等于来源生物魅力调整值的状态加值。</p>"
     },
     "81igjVgKBDXMomwb": {
-      "name": "效果：显现能量之翼 Effect: Manifest Energy Wings",
+      "name": "效果：显化能量翼 Effect: Manifest Energy Wings",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.NEYVJWYtgl0rRSwg]赋予</p>\n<p>你获得等于陆地速度加10尺的飞行速度。</p>"
     },
     "8HDUnGy6hfvj6p37": {
@@ -606,7 +606,7 @@
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.lTxbKyZoxEJWqHjX]赋予</p>\n<p>你获得等于来源生物等级的临时生命值。</p>"
     },
     "HK97RHpmtXVCpRKr": {
-      "name": "效果：受控狂暴 Effect: Controlled Rage",
+      "name": "效果：可控狂暴 Effect: Controlled Rage",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.Mfih4GjatO1sw2Ug]赋予</p>\n<p>你获得等于自身等级的临时生命值。你的近战打击伤害还获得+1状态加值。</p>"
     },
     "INAjtUZaCtApbpfe": {
@@ -650,11 +650,11 @@
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.4DEjy5LsbZQWl892]赋予</p>\n<p>你下一次回忆与目标具有相同特征的生物信息的回忆知识检定，获得+2状态加值。</p>"
     },
     "NoHJfHeFdbn0FaDv": {
-      "name": "效果：压抑情绪 Effect: Contained Emotions",
+      "name": "效果：情绪内敛 Effect: Contained Emotions",
       "description": "<p>用于@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.NGInnZ5bj0dF1fo7]的临时效果</p>\n<p>你的察言观色检定承受–2环境减值。</p>"
     },
     "Ojy9y4WYGjQJjUwj": {
-      "name": "效果：不羁心灵 Effect: Unbound Mind",
+      "name": "效果：无羁心智 Effect: Unbound Mind",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.j1FsKMy7CTtrp3Fu]赋予</p>\n<p>你对抗心灵效果的豁免获得+1环境加值。</p>"
     },
     "P17W2LiaziPOkT8f": {
@@ -662,7 +662,7 @@
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.PbGi8qVbMWTqq3Bd]赋予</p>\n<p>当你的敌对动作以来源生物为目标，或将其包含在区域内时，该动作的攻击检定和豁免DC承受–2环境减值。</p>"
     },
     "P5r9ZR5tOvzQnTyb": {
-      "name": "效果：化为软泥 Effect: Become Ooze",
+      "name": "效果：化作泥怪 Effect: Become Ooze",
       "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.pO1wkgklxp9j1taY]赋予</p>\n<p>你获得对挥砍和穿刺伤害的抗力，数值等于自身等级的一半。</p>"
     },
     "UaDoTYe6CamzrAKh": {

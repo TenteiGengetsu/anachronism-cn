@@ -430,7 +430,7 @@
     },
     "12BUPDiWlvLD4TBo": {
       "name": "精硬嗨客 1337 H@Xx0R",
-      "description": "<p>你的地精式骇入在银河各处的信息圈中闻名，使你成为某种都市传说。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4]技能专长。若你对黑客或经常使用信息圈的生物进行@UUID[Compendium.sf2e-anachronism.actions.Item.fz1XOiQr3FJYRxJh]{战斗吐唾}或战斗骇入检定并成功，它们便会认出你的手法；在随后1分钟内，你对这些生物进行@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}、[[/act create-a-diversion]]或@UUID[Compendium.sf2e-anachronism.feats.Item.01qv8QiKM7S6hHt7]的欺骗检定获得+1状态加值。</p>",
+      "description": "<p>你的地精式骇入在银河各处的信息圈中闻名，使你成为某种都市传说。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.abcKcLvAGE5AKig4]技能专长。若你对黑客或经常使用信息圈的生物进行@UUID[Compendium.sf2e-anachronism.actions.Item.fz1XOiQr3FJYRxJh]{战斗搞不灵}或战斗骇入检定并成功，它们便会认出你的手法；在随后1分钟内，你对这些生物进行@UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{说谎}、[[/act create-a-diversion]]或@UUID[Compendium.sf2e-anachronism.feats.Item.01qv8QiKM7S6hHt7]的欺骗检定获得+1状态加值。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -1032,7 +1032,7 @@
         {
           "index": 0,
           "expected": "wild astrazoan",
-          "text": "荒野星蛸族传承"
+          "text": "荒野星蛸族"
         }
       ]
     },
@@ -1358,7 +1358,7 @@
           "text": "垃圾佬地精传承"
         }
       ],
-      "description": "<p>在地精崽子眼里的废铜烂铁，正是你燥热拉风的坐骑。你习得4种等级不高于你的科技载具配方。你@UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]的载具可获得@UUID[Compendium.sf2e-anachronism.actions.Item.bWD4NpW0NB8aDwZF]{腌菜切换}。</p>"
+      "description": "<p>在地精崽子眼里的废铜烂铁，正是你燥热拉风的坐骑。你习得4种等级不高于你的科技载具配方。你@UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]的载具可获得@UUID[Compendium.sf2e-anachronism.actions.Item.bWD4NpW0NB8aDwZF]{腌菜开关}。</p>"
     },
     "5snnXHrqo5NSfQ4k": {
       "name": "不被操控 Uncontrollable",
@@ -4421,7 +4421,7 @@
       ]
     },
     "L9sq9ROk0QFil5wl": {
-      "name": "借过 Pardon Me",
+      "name": "失礼了 Pardon Me",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -4603,7 +4603,7 @@
           "text": "末日预言者卡萨斯传承"
         }
       ],
-      "description": "<p>你与死亡的关系愈发紧密，察觉死亡临近时反而会获得力量。你可以任意使用@UUID[Compendium.sf2e-anachronism.actions.Item.CPO4LgkZPHIHQEB4]{末日预言者祷文}反应。</p>\n<p>除了通常的触发条件，每当一个盟友的@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{濒死}状态值增加时，你也可以使用末日预言者祷文。使用此反应时，+2状态加值适用于该盟友在其下个回合结束前进行的任何复苏检定或豁免检定，而不仅是触发此次反应的复苏检定。</p>\n<p>每当你使用末日预言者祷文反应时，你的攻击检定与豁免检定获得等于你@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭}状态值或触发此次反应的盟友的毁灭状态值的状态加值，持续至你的下个回合结束。</p>"
+      "description": "<p>你与死亡的关系愈发紧密，察觉死亡临近时反而会获得力量。你可以任意使用@UUID[Compendium.sf2e-anachronism.actions.Item.CPO4LgkZPHIHQEB4]{预言者祷言}反应。</p>\n<p>除了通常的触发条件，每当一个盟友的@UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{濒死}状态值增加时，你也可以使用预言者祷言。使用此反应时，+2状态加值适用于该盟友在其下个回合结束前进行的任何复苏检定或豁免检定，而不仅是触发此次反应的复苏检定。</p>\n<p>每当你使用预言者祷言反应时，你的攻击检定与豁免检定获得等于你@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{毁灭}状态值或触发此次反应的盟友的毁灭状态值的状态加值，持续至你的下个回合结束。</p>"
     },
     "M8FE9jj4lSsZSNYy": {
       "name": "主花适应 Primafloral Adaptation",
@@ -4645,7 +4645,7 @@
           "text": "膨胀，蜕皮或喷射血液"
         }
       ],
-      "description": "<p>你学会了哪些生存战术最适合自己，并经常依靠它们。从你拥有的以下专长或能力中选择一项：@UUID[Compendium.sf2e-anachronism.actions.Item.6fsMvO0jXtK8gYkH]{鼓胀身体}、@UUID[Compendium.sf2e-anachronism.feats.Item.Wb4vtGqg2Cl2FF1k]、@UUID[Compendium.sf2e-anachronism.feats.Item.32W1Pnex4xbhx5Bj]。你可以每10分钟一次使用所选能力，而非每小时一次。</p><hr /><p><strong>特殊</strong>你可以多次选择此专长，每次选择不同的能力。</p>"
+      "description": "<p>你学会了哪些生存战术最适合自己，并经常依靠它们。从你拥有的以下专长或能力中选择一项：@UUID[Compendium.sf2e-anachronism.actions.Item.6fsMvO0jXtK8gYkH]{膨胀}、@UUID[Compendium.sf2e-anachronism.feats.Item.Wb4vtGqg2Cl2FF1k]、@UUID[Compendium.sf2e-anachronism.feats.Item.32W1Pnex4xbhx5Bj]。你可以每10分钟一次使用所选能力，而非每小时一次。</p><hr /><p><strong>特殊</strong>你可以多次选择此专长，每次选择不同的能力。</p>"
     },
     "MKNbEWBOT91pwRob": {
       "name": "绍贝德精魂祝福 Shobhad Spirit-Blessed",
@@ -4770,7 +4770,7 @@
     },
     "MlArjE4FjkYHNMCe": {
       "name": "掷弹狂徒入门 Grenadier Dedication",
-      "description": "<p>你擅长投掷威力强大的便携爆炸军械。你在手雷上变为受训。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.OST8EbXzznPoGw9g]{快速投掷}动作。</p><hr /><p><strong>特殊</strong> 若你具有士兵变体入门专长（《玩家核心》179页），那么即便你还没有选择另外2个士兵变体专长，也可以选取该专长。在判断是否完成某个变体的专长选取时，士兵变体专长会被视同为掷弹狂徒变体专长，反之亦然。</p>"
+      "description": "<p>你擅长投掷威力强大的便携爆炸军械。你在手雷上变为受训。你获得@UUID[Compendium.sf2e-anachronism.actions.Item.OST8EbXzznPoGw9g]{快速掷弹}动作。</p><hr /><p><strong>特殊</strong> 若你具有士兵变体入门专长（《玩家核心》179页），那么即便你还没有选择另外2个士兵变体专长，也可以选取该专长。在判断是否完成某个变体的专长选取时，士兵变体专长会被视同为掷弹狂徒变体专长，反之亦然。</p>"
     },
     "Mlz4rcLzi4HDxCuv": {
       "name": "利用规格 Leverage Specs",
@@ -6106,7 +6106,7 @@
     },
     "TUAv1ri2nVtdKdmE": {
       "name": "双重掷弹 Double Toss",
-      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p>你进行两次@UUID[Compendium.sf2e-anachronism.actions.Item.OST8EbXzznPoGw9g]{快速投掷}。处于第一枚手雷区域内的任何生物，对抗第二枚手雷的豁免获得+2环境加值。</p><hr /><p><strong>特殊</strong>若你具有主目标职业特性，则仅能为你投掷的两个手雷中的其中一个选择主目标，而不是选择两个。</p>",
+      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p>你进行两次@UUID[Compendium.sf2e-anachronism.actions.Item.OST8EbXzznPoGw9g]{快速掷弹}。处于第一枚手雷区域内的任何生物，对抗第二枚手雷的豁免获得+2环境加值。</p><hr /><p><strong>特殊</strong>若你具有主目标职业特性，则仅能为你投掷的两个手雷中的其中一个选择主目标，而不是选择两个。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -8125,7 +8125,7 @@
           "text": "小巧掠食者，膨胀，或喷射血液"
         }
       ],
-      "description": "<p>你用体内积累的毒素强化天生攻击，使其带毒。每当你以从@UUID[Compendium.sf2e-anachronism.feats.Item.iac0qVH4SDzCXOyc]获得的无武装打击造成伤害，每个武器伤害骰额外造成1点毒素伤害。每当你@UUID[Compendium.sf2e-anachronism.actions.Item.6fsMvO0jXtK8gYkH]{鼓胀身体}或@UUID[Compendium.sf2e-anachronism.feats.Item.32W1Pnex4xbhx5Bj]时，还会额外造成等于你等级一半的毒素伤害。</p>"
+      "description": "<p>你用体内积累的毒素强化天生攻击，使其带毒。每当你以从@UUID[Compendium.sf2e-anachronism.feats.Item.iac0qVH4SDzCXOyc]获得的无武装打击造成伤害，每个武器伤害骰额外造成1点毒素伤害。每当你@UUID[Compendium.sf2e-anachronism.actions.Item.6fsMvO0jXtK8gYkH]{膨胀}或@UUID[Compendium.sf2e-anachronism.feats.Item.32W1Pnex4xbhx5Bj]时，还会额外造成等于你等级一半的毒素伤害。</p>"
     },
     "dfbgBVXd3B9enbvV": {
       "name": "科技施法者 Tech Caster",
@@ -8944,7 +8944,7 @@
           "text": "基因嬗变飞螅族传承"
         }
       ],
-      "description": "<p>你学会了维持自己的泥怪形态，能够更频繁地体验原初形态的荣光。你可以每10分钟一次使用@UUID[Compendium.sf2e-anachronism.actions.Item.pO1wkgklxp9j1taY]{化为泥怪}，而非每天一次。如果你以泥怪形态入睡，你会保持该形态直到醒来。</p>"
+      "description": "<p>你学会了维持自己的泥怪形态，能够更频繁地体验原初形态的荣光。你可以每10分钟一次使用@UUID[Compendium.sf2e-anachronism.actions.Item.pO1wkgklxp9j1taY]{化作泥怪}，而非每天一次。如果你以泥怪形态入睡，你会保持该形态直到醒来。</p>"
     },
     "hfICrKOU1m8UChoi": {
       "name": "沟通世界之核 Channel the World's Core",
@@ -9452,7 +9452,7 @@
     },
     "k6nITfPqPA04zc6K": {
       "name": "星耀继承者 Inheritor of Star's Glory",
-      "description": "<p><strong>频率</strong>每日一次</p><hr /><p>你是祖星力量的首要继承者，可以将这颗星辰失落的遗产戴作冠冕，增大体型、增强力量，绽放璀璨荣光。你变为小型（如果你是@UUID[Compendium.sf2e-anachronism.heritages.Item.nvo8D4JLaIoE1ti7]，则变为中型）。你的装备随你增大，但取下后便恢复正常大小。你的近战伤害与威吓检定获得+2状态加值，且你的@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.GSBkiEHvnSidFxvz]区域加倍（@UUID[Compendium.sf2e-anachronism.actions.Item.JdLNIaTM4eyI9Luo]{吸收光线}的区域也加倍，如果你是@UUID[Compendium.sf2e-anachronism.heritages.Item.B6Of6VTr8l5oZS6U]）。此变化持续1分钟。你可以用一个具有专注特征的单动作，提前结束此荣耀变化。</p>"
+      "description": "<p><strong>频率</strong>每日一次</p><hr /><p>你是祖星力量的首要继承者，可以将这颗星辰失落的遗产戴作冠冕，增大体型、增强力量，绽放璀璨荣光。你变为小型（如果你是@UUID[Compendium.sf2e-anachronism.heritages.Item.nvo8D4JLaIoE1ti7]，则变为中型）。你的装备随你增大，但取下后便恢复正常大小。你的近战伤害与威吓检定获得+2状态加值，且你的@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.GSBkiEHvnSidFxvz]区域加倍（@UUID[Compendium.sf2e-anachronism.actions.Item.JdLNIaTM4eyI9Luo]{吸收光照}的区域也加倍，如果你是@UUID[Compendium.sf2e-anachronism.heritages.Item.B6Of6VTr8l5oZS6U]）。此变化持续1分钟。你可以用一个具有专注特征的单动作，提前结束此荣耀变化。</p>"
     },
     "k8qCwHmafxrDBrW5": {
       "name": "反应式防火墙 Reactive Firewall",
@@ -9942,7 +9942,7 @@
           "text": "剪切喙"
         }
       ],
-      "description": "<p>嘴旁的毒腺可以使你的唾液带毒。你的喙徒手打击额外造成1点持续毒素伤害。如果你的喙造成至少三颗武器伤害骰，则此伤害增加至2点持续毒素伤害。此外，你获得@UUID[Compendium.sf2e-anachronism.actions.Item.cShf7HifoNI7XzKd]{有毒撕裂}动作。</p>"
+      "description": "<p>嘴旁的毒腺可以使你的唾液带毒。你的喙徒手打击额外造成1点持续毒素伤害。如果你的喙造成至少三颗武器伤害骰，则此伤害增加至2点持续毒素伤害。此外，你获得@UUID[Compendium.sf2e-anachronism.actions.Item.cShf7HifoNI7XzKd]{毒性撕裂}动作。</p>"
     },
     "nH8j68JCBvrQX8tp": {
       "name": "真实领袖 True Leader",
@@ -11742,7 +11742,7 @@
     },
     "wqZskSzuG9Pege6u": {
       "name": "发射等离子 Launch Plasma",
-      "description": "<p><strong>频率</strong>每日一次</p><hr /><p>你向战场另一端发射一团等离子体与恒星喷出物，命中时爆炸，在一片小区域降下等离子体与火焰。发射等离子造成@Damage[ceil(@actor.level/2)d6[fire]|options:area-damage]伤害，区域为60尺内的一个@Template[burst|distance:5]。区域内的每个生物都必须尝试一次@Check[reflex|against:class-spell|basic|options:area-effect]豁免，对抗你的职业DC或法术DC中较高者。大失败时，生物还受到@Damage[(ceil(@actor.level/2))[persistent,electricity]]伤害。</p>\n<p>在7级以及之后每2级，火焰伤害增加1d6，持续电击伤害增加1。17级时，区域增大为@Template[burst|distance:10]。</p><hr /><p><strong>特殊</strong> 如果你是@UUID[Compendium.sf2e-anachronism.heritages.Item.RkL11sNqvXcpa6UL]，发射等离子与@UUID[Compendium.sf2e-anachronism.actions.Item.KhX0FDMxGVgHjXdU]{微型新星}的伤害骰都提高为d8。</p>"
+      "description": "<p><strong>频率</strong>每日一次</p><hr /><p>你向战场另一端发射一团等离子体与恒星喷出物，命中时爆炸，在一片小区域降下等离子体与火焰。发射等离子造成@Damage[ceil(@actor.level/2)d6[fire]|options:area-damage]伤害，区域为60尺内的一个@Template[burst|distance:5]。区域内的每个生物都必须尝试一次@Check[reflex|against:class-spell|basic|options:area-effect]豁免，对抗你的职业DC或法术DC中较高者。大失败时，生物还受到@Damage[(ceil(@actor.level/2))[persistent,electricity]]伤害。</p>\n<p>在7级以及之后每2级，火焰伤害增加1d6，持续电击伤害增加1。17级时，区域增大为@Template[burst|distance:10]。</p><hr /><p><strong>特殊</strong> 如果你是@UUID[Compendium.sf2e-anachronism.heritages.Item.RkL11sNqvXcpa6UL]，发射等离子与@UUID[Compendium.sf2e-anachronism.actions.Item.KhX0FDMxGVgHjXdU]{迷你新星}的伤害骰都提高为d8。</p>"
     },
     "wrbNmwV9cGWZ6Mxb": {
       "name": "熠熠生辉 Shiny",
@@ -11824,7 +11824,7 @@
           "text": "黑洞新星族传承"
         }
       ],
-      "description": "<p>你将黑暗披作斗篷，仿佛继承了诞生你的黑洞所留下的王冠，并能消失于黑暗深处。每当你@UUID[Compendium.sf2e-anachronism.actions.Item.JdLNIaTM4eyI9Luo]{吸收光线}，你便会@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，直到你的下个回合开始。你无法利用此隐蔽来[[/act hide]]或[[/act sneak]]。</p>"
+      "description": "<p>你将黑暗披作斗篷，仿佛继承了诞生你的黑洞所留下的王冠，并能消失于黑暗深处。每当你@UUID[Compendium.sf2e-anachronism.actions.Item.JdLNIaTM4eyI9Luo]{吸收光照}，你便会@UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽}，直到你的下个回合开始。你无法利用此隐蔽来[[/act hide]]或[[/act sneak]]。</p>"
     },
     "xND8wnEdnGSq84kn": {
       "name": "旋转重击 Whirling Swipe",
@@ -11979,7 +11979,7 @@
         {
           "index": 1,
           "expected": "thoughtsense",
-          "text": "思想感知"
+          "text": "思维感知"
         }
       ]
     },
@@ -12443,7 +12443,7 @@
     },
     "1cXEcZndyYCzKIr8": {
       "name": "隐藏身份 Hidden Identity",
-      "description": "<p>与其他拥有歌声力量者不同，你喜欢在有需要时保持低调，并因此建立了第二个身份。你的欺骗技能变为受训。如果你已在欺骗技能上受训，则改为使你选择的另一项技能变为受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.XeL6uygxW4u2vMkF]技能专长与@UUID[Compendium.sf2e-anachronism.actions.Item.9moYuimhiXJTkkkc]{轻灵兽偶像变身}活动。</p>"
+      "description": "<p>与其他拥有歌声力量者不同，你喜欢在有需要时保持低调，并因此建立了第二个身份。你的欺骗技能变为受训。如果你已在欺骗技能上受训，则改为使你选择的另一项技能变为受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.XeL6uygxW4u2vMkF]技能专长与@UUID[Compendium.sf2e-anachronism.actions.Item.9moYuimhiXJTkkkc]{轻灵偶像变身}活动。</p>"
     },
     "1gqUuNJYTrihbqzM": {
       "name": "诡奇身法 Uncanny Wonder",
@@ -12519,7 +12519,7 @@
     },
     "2veDSsZhDdP5qmFQ": {
       "name": "快捷键 Hotkey",
-      "description": "<p>你有一套喜欢反复执行的程序，并已学会如何高效而安全地执行它。从以下动作中选择一个：防故障响应、让我听见你们的欢呼或光束跃进。所选动作的频率改为每10分钟一次，而非每天一次。</p><hr /><p><strong>特殊</strong>你可以多次选择此专长，每次必须选择不同的动作。</p>",
+      "description": "<p>你有一套喜欢反复执行的程序，并已学会如何高效而安全地执行它。从以下动作中选择一个：防故障响应、让我听到你欢呼或光束跃进。所选动作的频率改为每10分钟一次，而非每天一次。</p><hr /><p><strong>特殊</strong>你可以多次选择此专长，每次必须选择不同的动作。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -12738,7 +12738,7 @@
         {
           "index": 0,
           "expected": "Shift Skin",
-          "text": "变换皮肤"
+          "text": "变换肤色"
         }
       ]
     },
@@ -12839,7 +12839,7 @@
     },
     "AG89ueOMKDvBDGBk": {
       "name": "匿于光中 Hide in Plain Light",
-      "description": "<p>你利用硬光身体的优势，在核心周围弯曲光线，当着旁人的面隐藏自己。你可以每天两次以2环奥术内在法术的形式施放@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{隐形术}。</p>"
+      "description": "<p>你利用实光躯体的优势，在核心周围弯曲光线，当着旁人的面隐藏自己。你可以每天两次以2环奥术内在法术的形式施放@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{隐形术}。</p>"
     },
     "AHTk5YkcV3lzm094": {
       "name": "高等大气层飞行 Advanced Atmospheric Flight",
@@ -12859,7 +12859,7 @@
         {
           "index": 0,
           "expected": "Shift Skin",
-          "text": "变换皮肤"
+          "text": "变换肤色"
         }
       ]
     },
@@ -12908,7 +12908,7 @@
     },
     "BB8y8vhZMeDPxG4h": {
       "name": "额外肢体 Additional Limbs",
-      "description": "<p>你改进了核心的操纵程序，使更多全息肢体能够发挥作用。你的硬光身体额外获得一对手臂。</p><hr /><p><strong>特殊</strong>你可以多次选择此专长，每次额外获得一对手臂。</p>"
+      "description": "<p>你改进了核心的操纵程序，使更多全息肢体能够发挥作用。你的实光躯体额外获得一对手臂。</p><hr /><p><strong>特殊</strong>你可以多次选择此专长，每次额外获得一对手臂。</p>"
     },
     "BHd1h174wmq9VWXu": {
       "name": "戒备移位 Guarded Repositioning",
@@ -12923,11 +12923,11 @@
     },
     "BSi9B7rwMqDVSChR": {
       "name": "俯身疾行 Drop and Move",
-      "description": "<p><strong>需求</strong>你处于双足姿态。</p><hr /><p>你能借助转换姿态的动量，迅速奔入战斗。你@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{切换姿态}，从双足变为四足，并行走至多你的速度。</p>"
+      "description": "<p><strong>需求</strong>你处于双足姿态。</p><hr /><p>你能借助转换姿态的动量，迅速奔入战斗。你@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{改变姿势}，从双足变为四足，并行走至多你的速度。</p>"
     },
     "BbKZPeqBRo7w4Zer": {
       "name": "多黏液奥沙鲁人 Slimy Osharu",
-      "description": "<p>你分泌的黏液比大多数奥沙鲁人更多。@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.F7aBUHwgBVRdyZJe]{喷射黏液}不再有频率限制。此外，你可以以自由动作使用黏液喷射，但以自由动作使用后，1分钟内不能再次使用黏液喷射。</p>"
+      "description": "<p>你分泌的黏液比大多数奥沙鲁人更多。@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.F7aBUHwgBVRdyZJe]{黏液喷射}不再有频率限制。此外，你可以以自由动作使用黏液喷射，但以自由动作使用后，1分钟内不能再次使用黏液喷射。</p>"
     },
     "BdAAZgzwcNwjNmML": {
       "name": "吸血 Drain Blood",
@@ -12981,7 +12981,7 @@
     },
     "DEuIMGGhC8p10OpN": {
       "name": "奔驰持握 Galloping Grip",
-      "description": "<p>你已经掌握以四肢移动、同时用中间的双手握住物品或武器的技巧。处于四足姿态时，中间的每条肢体仍可持握一件轻负载物品或武器。在你用@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{切换姿态}恢复双足姿态前，不能将这些手指定为当前使用的双手。</p>",
+      "description": "<p>你已经掌握以四肢移动、同时用中间的双手握住物品或武器的技巧。处于四足姿态时，中间的每条肢体仍可持握一件轻负载物品或武器。在你用@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{改变姿势}恢复双足姿态前，不能将这些手指定为当前使用的双手。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -12992,7 +12992,7 @@
     },
     "DIF3A518afXDU2lt": {
       "name": "惊人毅力 Incredible Tenacity",
-      "description": "<p>随着人生历练增长，你认真肩负起坚毅劳动者的职责，而血脉涌动，为你履行职责提供支持。你使用@UUID[Compendium.sf2e-anachronism.actions.Item.NAqdTW3tC0eqGiIq]{马德罗萨莱人的坚韧}的频率改为每小时一次，而非每天一次。</p>",
+      "description": "<p>随着人生历练增长，你认真肩负起坚毅劳动者的职责，而血脉涌动，为你履行职责提供支持。你使用@UUID[Compendium.sf2e-anachronism.actions.Item.NAqdTW3tC0eqGiIq]{马德罗萨莱坚韧}的频率改为每小时一次，而非每天一次。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -13048,7 +13048,7 @@
     },
     "EQ0LOA1TTAv82qsJ": {
       "name": "快速启动 Quick Starter",
-      "description": "<p>你驾驶载具时，仿佛正急着把它偷走。对未受控载具进行掌控所需的动作数减少一。如果动作数因此降为零，你可以以自由动作掌控。此外，你获得@UUID[Compendium.sf2e-anachronism.actions.Item.5q9ueI3PtkhSJBRz]{全速推进！}动作。</p>",
+      "description": "<p>你驾驶载具时，仿佛正急着把它偷走。对未受控载具进行掌控所需的动作数减少一。如果动作数因此降为零，你可以以自由动作掌控。此外，你获得@UUID[Compendium.sf2e-anachronism.actions.Item.5q9ueI3PtkhSJBRz]{全速前进！}动作。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -13157,7 +13157,7 @@
     },
     "HCfKdpPdCHe6hZ3m": {
       "name": "出其不意地起身 Surprising Pop-Up",
-      "description": "<p><strong>需求</strong>你处于四足姿态。</p><hr /><p>你熟练地在两种姿态下使用中间的肢体，转换时便能立即发挥它们的作用。你@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{切换姿态}，从四足变为双足姿态，再@UUID[Compendium.sf2e-anachronism.actions.Item.oW81CfM9ebxXnrw3]，将上方双手的物品转到中间双手，并可以使用中间双手的武器或一次无武装攻击进行打击。</p>",
+      "description": "<p><strong>需求</strong>你处于四足姿态。</p><hr /><p>你熟练地在两种姿态下使用中间的肢体，转换时便能立即发挥它们的作用。你@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{改变姿势}，从四足变为双足姿态，再@UUID[Compendium.sf2e-anachronism.actions.Item.oW81CfM9ebxXnrw3]，将上方双手的物品转到中间双手，并可以使用中间双手的武器或一次无武装攻击进行打击。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -13191,7 +13191,7 @@
     },
     "HUoJ6VRcLkY88Tk2": {
       "name": "起身腾跃 Launching Jump",
-      "description": "<p><strong>需求</strong>你处于四足姿态。</p><hr /><p>你借助起身变为双足姿态的动量，推动自己高高跃起。你@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{切换姿态}，从四足变为双足姿态，并@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}或@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}，运动检定获得+2环境加值。即使没有在该活动中行走，你也不会自动失败。落地时，你仍处于双足姿态。</p><hr /><p><strong>特殊</strong>如果你具有@UUID[Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq]{迅速跳跃}技能专长，此活动也减少为1个动作。</p>",
+      "description": "<p><strong>需求</strong>你处于四足姿态。</p><hr /><p>你借助起身变为双足姿态的动量，推动自己高高跃起。你@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{改变姿势}，从四足变为双足姿态，并@UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{跳高}或@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{跳跃}，运动检定获得+2环境加值。即使没有在该活动中行走，你也不会自动失败。落地时，你仍处于双足姿态。</p><hr /><p><strong>特殊</strong>如果你具有@UUID[Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq]{迅速跳跃}技能专长，此活动也减少为1个动作。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -13202,7 +13202,7 @@
     },
     "HnM11MrcZbiomlKY": {
       "name": "腐蚀生物毒素 Caustic Biotoxins",
-      "description": "<p>受到威胁时，你的身体会在黏液中分泌腐蚀性化学物质。你使用@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.F7aBUHwgBVRdyZJe]{喷射黏液}或@UUID[Compendium.sf2e-anachronism.feats.Item.64rwZGS8fKt8P5Ae]时，区域内的生物受到@Damage[floor(@item.level/3)d4[persistent,acid]]伤害，并进行基础@Check[reflex|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者。12级及此后每三级，持续酸蚀伤害增加1d4。</p>"
+      "description": "<p>受到威胁时，你的身体会在黏液中分泌腐蚀性化学物质。你使用@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.F7aBUHwgBVRdyZJe]{黏液喷射}或@UUID[Compendium.sf2e-anachronism.feats.Item.64rwZGS8fKt8P5Ae]时，区域内的生物受到@Damage[floor(@item.level/3)d4[persistent,acid]]伤害，并进行基础@Check[reflex|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者。12级及此后每三级，持续酸蚀伤害增加1d4。</p>"
     },
     "I32QIsNQhioRMmjt": {
       "name": "厚实臂甲 Bulky Armplates",
@@ -13437,7 +13437,7 @@
     },
     "MxDwiosYgMNaANZC": {
       "name": "专用四足 Exclusively Quadrupedal",
-      "description": "<p>你长期将中间的手臂当作脚使用，已经失去将其当作手臂的能力。你失去@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{切换姿态}动作，不能再处于双足姿态。你的陆地速度增加至40尺。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.u8Fd0gMjCu24MBSd]专长。如果你已经具有稳固架势专长，选择本专长时可以将其重训为另一个族裔专长。</p>",
+      "description": "<p>你长期将中间的手臂当作脚使用，已经失去将其当作手臂的能力。你失去@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{改变姿势}动作，不能再处于双足姿态。你的陆地速度增加至40尺。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.u8Fd0gMjCu24MBSd]专长。如果你已经具有稳固架势专长，选择本专长时可以将其重训为另一个族裔专长。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -13553,7 +13553,7 @@
     },
     "P7RFvoUU2kssme4q": {
       "name": "多臂擒握 Multi-Armed Grab",
-      "description": "<p><strong>需求</strong>你正使用一条或多条当前使用的肢体，使一个生物处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}状态。</p><hr /><p>你动用所有可用肢体牢牢抓紧。你用第二对手臂抓住受擒或束缚的目标。如果处于四足姿态，你会在此动作中自动@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{切换姿态}，转为双足。直到你的下个回合结束，该受擒生物为摆脱你的擒拿而进行的@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}承受–2环境减值。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.5KDHxCnc923wtc9M]{效果：多臂擒握}</p>"
+      "description": "<p><strong>需求</strong>你正使用一条或多条当前使用的肢体，使一个生物处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}状态。</p><hr /><p>你动用所有可用肢体牢牢抓紧。你用第二对手臂抓住受擒或束缚的目标。如果处于四足姿态，你会在此动作中自动@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{改变姿势}，转为双足。直到你的下个回合结束，该受擒生物为摆脱你的擒拿而进行的@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}承受–2环境减值。</p>\n<p>@UUID[Compendium.sf2e-anachronism.feat-effects.Item.5KDHxCnc923wtc9M]{效果：多臂擒握}</p>"
     },
     "PMq10P743yGXv2a1": {
       "name": "搜罗食材 Scrounge for Food",
@@ -13684,7 +13684,7 @@
     },
     "QqUYiPypN4T6eVnD": {
       "name": "黏液牢缚 Thoroughly Slimed",
-      "description": "<p>喷出的黏液一接触空气便会变稠，具有强大的阻滞能力，甚至可能将敌人困在原地。你使用@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.F7aBUHwgBVRdyZJe]{喷射黏液}或@UUID[Compendium.sf2e-anachronism.feats.Item.64rwZGS8fKt8P5Ae]时，区域内生物必须尝试进行@Check[reflex|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者。失败时，它们陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}状态，持续1轮。大失败时，它们陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}与@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}状态，持续1轮。</p>"
+      "description": "<p>喷出的黏液一接触空气便会变稠，具有强大的阻滞能力，甚至可能将敌人困在原地。你使用@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.F7aBUHwgBVRdyZJe]{黏液喷射}或@UUID[Compendium.sf2e-anachronism.feats.Item.64rwZGS8fKt8P5Ae]时，区域内生物必须尝试进行@Check[reflex|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者。失败时，它们陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}状态，持续1轮。大失败时，它们陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}与@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}状态，持续1轮。</p>"
     },
     "QyNx2OpuB69ULaYw": {
       "name": "临阵速学 Quick Study",
@@ -13785,11 +13785,11 @@
     },
     "SAkw1zr6z8PKV3ZF": {
       "name": "怒意释放 Unleashed Anger",
-      "description": "<p>你释放对局势压抑已久的怒火。你的体型增加至大型，并陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}状态。近战伤害获得+1状态加值。除本段所述外，这不会改变你的速度、触及范围或其他数据。穿戴的装备自动调整大小，适应新形态，但一旦离开你便立即恢复原尺寸。效果持续1轮。你可以维持至多10分钟，但之后必须在通常形态中度过至少10分钟，才能再次使用怒意释放。</p><hr /><p><strong>特殊</strong>如果你是@UUID[Compendium.sf2e-anachronism.heritages.Item.EkcXZdHjO9nDhMRk]{马德罗萨莱人的红血传承}，可以在使用怒意释放后立即以自由动作使用@UUID[Compendium.sf2e-anachronism.actions.Item.Mfih4GjatO1sw2Ug]{受控狂怒}。如此做时，你的近战伤害获得+2状态加值。</p>"
+      "description": "<p>你释放对局势压抑已久的怒火。你的体型增加至大型，并陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}状态。近战伤害获得+1状态加值。除本段所述外，这不会改变你的速度、触及范围或其他数据。穿戴的装备自动调整大小，适应新形态，但一旦离开你便立即恢复原尺寸。效果持续1轮。你可以维持至多10分钟，但之后必须在通常形态中度过至少10分钟，才能再次使用怒意释放。</p><hr /><p><strong>特殊</strong>如果你是@UUID[Compendium.sf2e-anachronism.heritages.Item.EkcXZdHjO9nDhMRk]{赤血马德罗萨莱人}，可以在使用怒意释放后立即以自由动作使用@UUID[Compendium.sf2e-anachronism.actions.Item.Mfih4GjatO1sw2Ug]{可控狂暴}。如此做时，你的近战伤害获得+2状态加值。</p>"
     },
     "SH4dIRXZtdS7LMIY": {
       "name": "强化口器 Enlarged Proboscis",
-      "description": "<p>你的口器变得更长、更强壮或更灵活，对周围生物尤其致命。口器获得以下两项特征：背刺、回摆、强力、触及10尺（算作两项特征）、横扫、摔绊、多型挥砍。</p><hr /><p><strong>特殊</strong>如果选择触及，你可以在至多10尺外使用@UUID[Compendium.sf2e-anachronism.feats.Item.BdAAZgzwcNwjNmML]族裔专长，或奥罗科兰人的滤血传承的@UUID[Compendium.sf2e-anachronism.actions.Item.L0MLZNUoJ6lTlBZu]{汲取毒素}动作。</p>",
+      "description": "<p>你的口器变得更长、更强壮或更灵活，对周围生物尤其致命。口器获得以下两项特征：背刺、回摆、强力、触及10尺（算作两项特征）、横扫、摔绊、多型挥砍。</p><hr /><p><strong>特殊</strong>如果选择触及，你可以在至多10尺外使用@UUID[Compendium.sf2e-anachronism.feats.Item.BdAAZgzwcNwjNmML]族裔专长，或奥罗科兰人的滤血传承的@UUID[Compendium.sf2e-anachronism.actions.Item.L0MLZNUoJ6lTlBZu]{吸取毒素}动作。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -13831,7 +13831,7 @@
     },
     "TilhFOG89jo02XsE": {
       "name": "滑溜黏液 Slick Mucus",
-      "description": "<p><strong>频率</strong>每10分钟一次</p><hr /><p>当速度至关重要时，你分泌出滑溜的黏液。直到你的回合结束，每当你离开一个方格，便在该方格内使用@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.F7aBUHwgBVRdyZJe]{喷射黏液}。如果你处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}、@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}状态，你可以尝试脱逃，并获得+2环境加值。然后你可以行走。这次行走期间，你的速度获得+10尺环境加值。</p>"
+      "description": "<p><strong>频率</strong>每10分钟一次</p><hr /><p>当速度至关重要时，你分泌出滑溜的黏液。直到你的回合结束，每当你离开一个方格，便在该方格内使用@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.F7aBUHwgBVRdyZJe]{黏液喷射}。如果你处于@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{受擒}、@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}或@UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{束缚}状态，你可以尝试脱逃，并获得+2环境加值。然后你可以行走。这次行走期间，你的速度获得+10尺环境加值。</p>"
     },
     "TvbKI0xTXy6trfRx": {
       "name": "传统守护者 Keeper of Traditions",
@@ -13870,7 +13870,7 @@
     },
     "V0kSqDgWxRfjNNCZ": {
       "name": "实光武器 Hardlight Weapon",
-      "description": "<p>你的硬光躯体中整合了一件独特武器，可能是刀刃手臂、肩装冷冻炮，或发射闪亮卡通爱心的飞吻攻击。选取此专长时，你获得以下一种自选的无武装攻击。每种攻击均具有无武装特征。</p><ul><li><p>一种造成1d8伤害的近战无武装攻击。</p></li><li><p>一种造成1d6伤害、具有灵巧和娴熟特征的近战无武装攻击。</p></li><li><p>一种造成1d6伤害、射程增量为30尺的远程无武装攻击。</p></li><li><p>一种造成1d4伤害、射程增量为60尺的远程无武装攻击。</p></li></ul><p>做出上述决定后，从以下选项中选择武器造成的伤害类型及对应的武器组：酸蚀（腐蚀武器组）、钝击（斗殴、棒或锤武器组）、寒冷（冷冻武器组）、电击（电击武器组）、火焰（喷焰或激光武器组）、穿刺（斗殴、刀或矛武器组）、挥砍（斗殴、刀或剑武器组），或音波（音波武器组）。</p>\n<p>5级时，每当你用实光武器重击，便获得其重击专精效果。</p>"
+      "description": "<p>你的实光躯体中整合了一件独特武器，可能是刀刃手臂、肩装冷冻炮，或发射闪亮卡通爱心的飞吻攻击。选取此专长时，你获得以下一种自选的无武装攻击。每种攻击均具有无武装特征。</p><ul><li><p>一种造成1d8伤害的近战无武装攻击。</p></li><li><p>一种造成1d6伤害、具有灵巧和娴熟特征的近战无武装攻击。</p></li><li><p>一种造成1d6伤害、射程增量为30尺的远程无武装攻击。</p></li><li><p>一种造成1d4伤害、射程增量为60尺的远程无武装攻击。</p></li></ul><p>做出上述决定后，从以下选项中选择武器造成的伤害类型及对应的武器组：酸蚀（腐蚀武器组）、钝击（斗殴、棒或锤武器组）、寒冷（冷冻武器组）、电击（电击武器组）、火焰（喷焰或激光武器组）、穿刺（斗殴、刀或矛武器组）、挥砍（斗殴、刀或剑武器组），或音波（音波武器组）。</p>\n<p>5级时，每当你用实光武器重击，便获得其重击专精效果。</p>"
     },
     "VjTrdYPBcKEYMMh8": {
       "name": "多疑哨兵 Paranoid Lookout",
@@ -13883,7 +13883,7 @@
         {
           "index": 0,
           "expected": "Shift Skin",
-          "text": "变换皮肤"
+          "text": "变换肤色"
         }
       ]
     },
@@ -14240,7 +14240,7 @@
     },
     "d4QnZCis80KgMNX1": {
       "name": "失落世界的乡愁 Nostalgia for Worlds Lost",
-      "description": "<p>你思念故乡奥克腾（Aucturn）；即使不想回到在那里生活的岁月，一想到它奇异的景色，你心中仍充满美好回忆。如果你对抗情绪效果的豁免将会大失败，改为失败。此外，你获得@UUID[Compendium.sf2e-anachronism.actions.Item.QYBx5xYENl3hXZPB]{失落家园之思}动作。</p>"
+      "description": "<p>你思念故乡奥克腾（Aucturn）；即使不想回到在那里生活的岁月，一想到它奇异的景色，你心中仍充满美好回忆。如果你对抗情绪效果的豁免将会大失败，改为失败。此外，你获得@UUID[Compendium.sf2e-anachronism.actions.Item.QYBx5xYENl3hXZPB]{失落故乡的回忆}动作。</p>"
     },
     "dCy7xJnN4B1jm6t8": {
       "name": "手雷赠礼 Gift Grenade",
@@ -14301,7 +14301,7 @@
     },
     "dfiRSyOigkzGjy39": {
       "name": "启动修复模式 Activate Repair Mode",
-      "description": "<p><strong>频率</strong>每天一次</p><hr /><p>你在核心中加入了自动修复子程序，以应对严重损伤。你关闭硬光投影仪，并获得快速回复10，持续1分钟或直到你投射硬光躯体，以先发生者为准。</p>"
+      "description": "<p><strong>频率</strong>每天一次</p><hr /><p>你在核心中加入了自动修复子程序，以应对严重损伤。你禁用实光投影，并获得快速回复10，持续1分钟或直到你投影实光躯体，以先发生者为准。</p>"
     },
     "dmaqP4LrdCoXNzvc": {
       "name": "伊扎尔贡独奏乐团 One-Izalguun Band",
@@ -14528,7 +14528,7 @@
     },
     "jDlSj1ff2wfs8zpS": {
       "name": "GG-OS框架 GG-OS Frame",
-      "description": "<p>GG-OS框架原本为军事与企业间谍活动设计，社会阴暗角落的半机械人也自然而然地偏爱这种构型。其中少数人还投身竞技赛事。你的殖装精巧而隐蔽，且机架使用轻质材料建造，天生比大多数其他机架更快。你获得@UUID[Compendium.pf2e.feats-srd.Item.Ux73dmoF8KnavyUD]{飞跑}通用专长。</p>"
+      "description": "<p>GG-OS框架原本为军事与企业间谍活动设计，社会阴暗角落的改造人也自然而然地偏爱这种构型。其中少数人还投身竞技赛事。你的殖装精巧而隐蔽，且机架使用轻质材料建造，天生比大多数其他机架更快。你获得@UUID[Compendium.pf2e.feats-srd.Item.Ux73dmoF8KnavyUD]{飞跑}通用专长。</p>"
     },
     "jGoacSlRk8afEqkj": {
       "name": "族裔武器熟稔（星蛸族） Ancestral Weapon Familiarity (Astrazoan)",
@@ -14536,7 +14536,7 @@
     },
     "jIj3KE8wntiJB2Y6": {
       "name": "航空全息 Aerial Hologram",
-      "description": "<p>你的核心能够悬浮，使你的硬光身体得以飞行。你获得等于自身速度的飞行速度。当你关闭硬光投影仪时，你的核心悬浮在离地3尺处，而非掉落地面。</p><hr /><p><strong>特殊</strong>如果你是悬浮广告活体全息影像，则改为获得等于自身速度+10尺的飞行速度。</p>"
+      "description": "<p>你的核心能够悬浮，使你的实光躯体得以飞行。你获得等于自身速度的飞行速度。当你禁用实光投影时，你的核心悬浮在离地3尺处，而非掉落地面。</p><hr /><p><strong>特殊</strong>如果你是悬浮广告活体全息影像，则改为获得等于自身速度+10尺的飞行速度。</p>"
     },
     "jLcgJnDgWMkD2HF3": {
       "name": "老练领袖 Practiced Leader",
@@ -14548,11 +14548,11 @@
     },
     "jS9F8FWNzySe6EUS": {
       "name": "隐蔽改造人 Subtle Cyborg",
-      "description": "<p>你的殖装隐藏在实验室培育的皮肉或合成替代品下，让你能不引起怀疑地装作未经改造的生物。你在欺骗受训。如果你已经在欺骗受训（例如来自背景或职业），则改为在一项自选技能受训。此外，其他生物会将你视为未安装殖装的本族裔成员，不会意识到你是半机械人或具有科技特征。生物若以察觉检定[[/act seek dc=deception]]，成功对抗你的欺骗DC，就会注意到科技部件；但除非它大成功或专门在寻找半机械人，否则它多半会认为你只是安装了殖装。</p>"
+      "description": "<p>你的殖装隐藏在实验室培育的皮肉或合成替代品下，让你能不引起怀疑地装作未经改造的生物。你在欺骗受训。如果你已经在欺骗受训（例如来自背景或职业），则改为在一项自选技能受训。此外，其他生物会将你视为未安装殖装的本族裔成员，不会意识到你是改造人或具有科技特征。生物若以察觉检定[[/act seek dc=deception]]，成功对抗你的欺骗DC，就会注意到科技部件；但除非它大成功或专门在寻找改造人，否则它多半会认为你只是安装了殖装。</p>"
     },
     "jUJLVRsEVLVXEIh0": {
       "name": "四手杂耍 Quad Juggle",
-      "description": "<p>当你使用@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{切换姿态}动作时，你可以@UUID[Compendium.sf2e-anachronism.actions.Item.oW81CfM9ebxXnrw3]，并将任意数量的物品收起或在各手之间交换。</p>"
+      "description": "<p>当你使用@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{改变姿势}动作时，你可以@UUID[Compendium.sf2e-anachronism.actions.Item.oW81CfM9ebxXnrw3]，并将任意数量的物品收起或在各手之间交换。</p>"
     },
     "jVVdDiHZiozKOwzv": {
       "name": "喷气推进器 Jet Thrusters",
@@ -14628,7 +14628,7 @@
         {
           "index": 0,
           "expected": "Shift Skin",
-          "text": "变换皮肤"
+          "text": "变换肤色"
         }
       ]
     },
@@ -14933,7 +14933,7 @@
     },
     "rWwYSS1CnYNWPxor": {
       "name": "雷霆震地 Thunderous Slam",
-      "description": "<p><strong>需求</strong>你处于双足姿态。</p><hr /><p>你从双足姿态猛然蹲为四足姿态，力道足以震动周围地面。你@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{切换姿态}，从双足姿态转为四足姿态。你周围@Template[emanation|distance:10]{10尺}内的每个生物都必须尝试一次@Check[reflex|against:class-spell|options:area-effect,damaging-effect,inflicts:off-guard,inflicts:prone]豁免检定，对抗你的职业DC或法术DC中较高者。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你的回合结束。</p>\n<p><strong>失败</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>\n<p><strong>大失败</strong> 该生物倒地，并受到@Damage[1d6[bludgeoning]|options:area-damage]伤害。</p>"
+      "description": "<p><strong>需求</strong>你处于双足姿态。</p><hr /><p>你从双足姿态猛然蹲为四足姿态，力道足以震动周围地面。你@UUID[Compendium.sf2e-anachronism.actions.Item.L2k363LraGLUZIgM]{改变姿势}，从双足姿态转为四足姿态。你周围@Template[emanation|distance:10]{10尺}内的每个生物都必须尝试一次@Check[reflex|against:class-spell|options:area-effect,damaging-effect,inflicts:off-guard,inflicts:prone]豁免检定，对抗你的职业DC或法术DC中较高者。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到你的回合结束。</p>\n<p><strong>失败</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>\n<p><strong>大失败</strong> 该生物倒地，并受到@Damage[1d6[bludgeoning]|options:area-damage]伤害。</p>"
     },
     "rjZdhOFWm7JMUw4t": {
       "name": "虔信者之盾 Devotional's Shield",
@@ -14963,7 +14963,7 @@
     },
     "s5x9DRHy3RSw0BxP": {
       "name": "平复情绪 Center Your Emotions",
-      "description": "<p><strong>频率</strong>每10分钟一次</p><hr /><p>你稍作停顿，迅速吸一口气，稳定情绪。为你的魂感（soulfeel）选择任意一种情绪状态。</p><hr /><p><strong>特殊</strong> 如果你是选择喜悦的@UUID[Compendium.sf2e-anachronism.heritages.Item.7wp6pQc0ZLbShHgl]{莫伊舒人的舞蹈庭传承}、选择惊奇的@UUID[Compendium.sf2e-anachronism.heritages.Item.2zafLaWFZJJ1Lcln]{莫伊舒人的田野庭传承}、选择愤怒的@UUID[Compendium.sf2e-anachronism.heritages.Item.n7PPMZNz1x1UxXNt]{莫伊舒人的火焰庭传承}，或选择悲伤的@UUID[Compendium.sf2e-anachronism.heritages.Item.5ClxThmv7Plakmee]{莫伊舒人的歌唱庭传承}，你可以用自由动作平复情绪。</p>"
+      "description": "<p><strong>频率</strong>每10分钟一次</p><hr /><p>你稍作停顿，迅速吸一口气，稳定情绪。为你的魂感（soulfeel）选择任意一种情绪状态。</p><hr /><p><strong>特殊</strong> 如果你是选择喜悦的@UUID[Compendium.sf2e-anachronism.heritages.Item.7wp6pQc0ZLbShHgl]{舞蹈之庭莫伊舒人}、选择惊奇的@UUID[Compendium.sf2e-anachronism.heritages.Item.2zafLaWFZJJ1Lcln]{田野之庭莫伊舒人}、选择愤怒的@UUID[Compendium.sf2e-anachronism.heritages.Item.n7PPMZNz1x1UxXNt]{烈焰之庭莫伊舒人}，或选择悲伤的@UUID[Compendium.sf2e-anachronism.heritages.Item.5ClxThmv7Plakmee]{歌谣之庭莫伊舒人}，你可以用自由动作平复情绪。</p>"
     },
     "sDt3LZm2hw1SKex9": {
       "name": "猎手之跃 Hunter's Leap",
@@ -15051,7 +15051,7 @@
     },
     "tUd3gsnUKaIRhZ10": {
       "name": "滚球核心 Roly-Polygon",
-      "description": "<p>你能让自己的核心灵活地四处滚动，即使不投射身体也能移动。将快步和行走加入未投射硬光身体时可采取的动作列表。</p>"
+      "description": "<p>你能让自己的核心灵活地四处滚动，即使不投射身体也能移动。将快步和行走加入未投射实光躯体时可采取的动作列表。</p>"
     },
     "tcKDias6YeWkkUhz": {
       "name": "条理打包者 Principled Packer",
@@ -15103,7 +15103,7 @@
     },
     "u1YOj7YhX8dOQxtF": {
       "name": "恶臭黏液 Stinking Slime",
-      "description": "<p>你的黏液冲击嗅觉感受器。奥沙鲁人（osharu）以外的生物在开始回合时，如果与受到@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.F7aBUHwgBVRdyZJe]{喷射黏液}或@UUID[Compendium.sf2e-anachronism.feats.Item.64rwZGS8fKt8P5Ae]影响的任意一格相邻，就必须尝试一次@Check[fortitude|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者。失败时，它们会@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}（大失败时为@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}）。</p>"
+      "description": "<p>你的黏液冲击嗅觉感受器。奥沙鲁人（osharu）以外的生物在开始回合时，如果与受到@UUID[Compendium.sf2e-anachronism.ancestry-features.Item.F7aBUHwgBVRdyZJe]{黏液喷射}或@UUID[Compendium.sf2e-anachronism.feats.Item.64rwZGS8fKt8P5Ae]影响的任意一格相邻，就必须尝试一次@Check[fortitude|against:class-spell]豁免，对抗你的职业DC或法术DC中较高者。失败时，它们会@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}（大失败时为@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}）。</p>"
     },
     "u8Fd0gMjCu24MBSd": {
       "name": "稳固架势 Solid Stance",
@@ -15120,7 +15120,7 @@
         {
           "index": 0,
           "expected": "Shift Skin",
-          "text": "变换皮肤"
+          "text": "变换肤色"
         }
       ]
     },
@@ -15209,7 +15209,7 @@
     },
     "w5M92EQZUYV5QagM": {
       "name": "编辑外貌 Reprogram Appearance",
-      "description": "<p>你花费10分钟，重新编程设定硬光身体的外貌。作为此活动的一部分，你可以从小型、中型或大型中，自选一项作为新体型。你维持该体型与外貌，直到下次编辑外貌。</p>",
+      "description": "<p>你花费10分钟，重新编程设定实光躯体的外貌。作为此活动的一部分，你可以从小型、中型或大型中，自选一项作为新体型。你维持该体型与外貌，直到下次编辑外貌。</p>",
       "cnPrerequisites": [
         {
           "index": 0,
@@ -15327,7 +15327,7 @@
     },
     "yeHzKXQZwfjT12Vi": {
       "name": "绝不当冤大头 Never the Sucker",
-      "description": "<p>别人或许会沦为不祥征兆或厄运预兆的受害者，你却连最黑暗的消息也能置之不理。运气也许会暂时衰退，让你陷入险境，但你始终可以相信它会帮你扳回局面。每当你的劫数状态将降低1时，改为降低2。你还获得@UUID[Compendium.sf2e-anachronism.actions.Item.4yr6PSebbNdw9ofY]{决胜面孔}反应。</p>"
+      "description": "<p>别人或许会沦为不祥征兆或厄运预兆的受害者，你却连最黑暗的消息也能置之不理。运气也许会暂时衰退，让你陷入险境，但你始终可以相信它会帮你扳回局面。每当你的劫数状态将降低1时，改为降低2。你还获得@UUID[Compendium.sf2e-anachronism.actions.Item.4yr6PSebbNdw9ofY]{强撑精神}反应。</p>"
     },
     "ywE5tzUac8c0WiJK": {
       "name": "与新诞者合一 One with the Newborn",
@@ -15346,7 +15346,7 @@
     },
     "zF3wylGsw8ow3f5i": {
       "name": "平面闪避术 2D in a 3D World",
-      "description": "<p><strong>频率</strong> 每日三次</p>\n<p><strong>触发</strong> 你的一次反射豁免失败。</p><hr /><p>你利用硬光身体的可塑性与形状，转向侧面或压扁身体，尝试避开迎面而来的危险。你重掷触发的豁免，并采用较好的结果。</p>"
+      "description": "<p><strong>频率</strong> 每日三次</p>\n<p><strong>触发</strong> 你的一次反射豁免失败。</p><hr /><p>你利用实光躯体的可塑性与形状，转向侧面或压扁身体，尝试避开迎面而来的危险。你重掷触发的豁免，并采用较好的结果。</p>"
     },
     "zHoMWc287C6cpVJi": {
       "name": "震颤调谐 Tremor-Tuned",

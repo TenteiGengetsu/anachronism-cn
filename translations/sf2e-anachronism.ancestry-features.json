@@ -60,7 +60,7 @@
       "description": "<p>你的大脑拥有一个能感知魔法能量的特殊器官。你能够以奥术内在法术的形式随意施放@UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]戏法。戏法升阶至等同于你等级一半的环级，向上取整。</p>"
     },
     "6P6aYbBM60Utfpvb": {
-      "name": "直接了当 Direct Approach",
+      "name": "直截了当 Direct Approach",
       "description": "<p>高效的沟通没有时间用华丽的辞藻去绕弯子。你在欺骗和交涉检定中具有-1环境减值。</p>"
     },
     "6o7O13zkqKE1kvgQ": {
@@ -212,7 +212,7 @@
       "description": "<p>你没有嗅觉，对嗅觉效果免疫。若你获得灵敏嗅觉，就失去此免疫。</p>"
     },
     "47SUzVIpL72TPLTs": {
-      "name": "硬光治疗 Hardlight Healing",
+      "name": "实光痊愈 Hardlight Healing",
       "description": "<p>作为活体全息，你既是构装体，也是活物。你不具有构装体通常的免疫能力，会受到以活物为目标的效果影响，能通过休息自然治疗，也能通过命能正常恢复生命值。你可以通过@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{治疗伤势}和修理恢复生命值。生命值降至0时，你不会被摧毁，而是陷入@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}并开始濒死。</p>"
     },
     "5KNuFBPzyGiicXWt": {
@@ -268,8 +268,8 @@
       "description": "<p>你获得情绪感知，作为范围20尺的模糊感官。你能感知不具有无心智特征的生物的情绪。</p>"
     },
     "WE5XZOI2GDJjtLIH": {
-      "name": "虚拟储存 Virtual Storage",
-      "description": "<p>你可以暂时将实体物品转化为数字数据，储存在核心内。你可以交互，从核心的虚拟储存中取用、存入或移出物品。核心至多储存10负载物品，不会增加核心的负载。物品存于核心时，除已注能物品与殖装的恒定效果外，不提供任何益处。</p>"
+      "name": "虚拟存储器 Virtual Storage",
+      "description": "<p>你可以暂时将实体物品转化为数字数据，储存在核心内。你可以交互，从核心的虚拟存储器中取用、存入或移出物品。核心至多储存10负载物品，不会增加核心的负载。物品存于核心时，除已注能物品与殖装的恒定效果外，不提供任何益处。</p>"
     },
     "WFqV4kP1Kw7Uy8BQ": {
       "name": "机器人身躯 Robotic Body",
@@ -288,8 +288,8 @@
       "description": "<p>从下列列表中选择一种变异。</p><ul><li><strong>生物电</strong> 你获得生物电击无武装攻击，造成1d4电击伤害。此攻击属于电击武器组，具有娴熟、非致命和无武装特征。</li><li><strong>色素细胞</strong> 你的隐秘技能受训。若隐秘本应自动受训（例如来自背景或职业），则改为一项自选技能受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.beyw5bdA5hkQbmaG]{地形潜伏}技能专长，但可以在明亮人工光源的邻接处或区域内使用，例如大型霓虹招牌旁或夜店内，取代该专长通常所选的困难地形。</li><li><strong>额外肢体</strong> 你长出第二双手臂。你可以选择@UUID[Compendium.sf2e-anachronism.feats.Item.EPeo604ByeeAx3AL]和@UUID[Compendium.sf2e-anachronism.feats.Item.61txGmMLr22B93cU]标准族裔专长。</li><li><strong>飞行</strong> 你获得20尺飞行速度。</li><li><strong>鳃</strong> 你获得25尺游泳速度，每次可在水下呼吸1分钟。</li><li><strong>有限心灵感应</strong> 你可以与15尺内的生物进行心灵交流，但只能与至少与你有一种共同语言的生物沟通。这不会让你读取其思想，传递的信息也不会多于正常言语。</li><li><strong>突变魔法</strong> 你获得@UUID[Compendium.sf2e-anachronism.feats.Item.IEQmMRA1uMPb0rJo]（原能；@UUID[Compendium.pf2e.spells-srd.Item.thAHF1zxNplLCJPO]{酸液喷溅}）标准族裔专长，但由于你从口中咳出酸液团，此法术不具有操作特征。</li><li><p><strong>吸盘</strong> 你获得20尺攀爬速度。</p></li></ul>"
     },
     "nURQYDhvY8VrIaAD": {
-      "name": "硬光身体 Hardlight Body",
-      "description": "<p>你的中央处理核心包含心智与灵魂，能在周围发射、投射或以其他方式显现一个小型、中型或大型硬光身体。选择活体全息族裔时，你决定其体型与外貌。身体可以具有任何符合所选体型类别的外形，但你只有两只手，无论看上去有几只。硬光身体半透明，却完全具有实体，正常提供掩蔽。你可以分别用@UUID[Compendium.sf2e-anachronism.actions.Item.sO7Jd4scwpQdTcgy]和@UUID[Compendium.sf2e-anachronism.actions.Item.ojicKYAURtjCsFbD]动作，投射硬光身体或停止投射。</p>\n<p>你的生理需求与生物有机体不同。你无需进食、饮水、呼吸或睡眠，但每天仍需一段休息时间。在此期间，你关闭硬光投影器，随后进入待机模式2小时。这类似睡眠，但你仍能察觉周围环境，且不因@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}而承受减值。</p>"
+      "name": "实光躯体 Hardlight Body",
+      "description": "<p>你的中央处理核心包含心智与灵魂，能在周围发射、投射或以其他方式显现一个小型、中型或大型实光躯体。选择活体全息族裔时，你决定其体型与外貌。身体可以具有任何符合所选体型类别的外形，但你只有两只手，无论看上去有几只。实光躯体半透明，却完全具有实体，正常提供掩蔽。你可以分别用@UUID[Compendium.sf2e-anachronism.actions.Item.sO7Jd4scwpQdTcgy]和@UUID[Compendium.sf2e-anachronism.actions.Item.ojicKYAURtjCsFbD]动作，投射实光躯体或停止投射。</p>\n<p>你的生理需求与生物有机体不同。你无需进食、饮水、呼吸或睡眠，但每天仍需一段休息时间。在此期间，你禁用实光投影，随后进入待机模式2小时。这类似睡眠，但你仍能察觉周围环境，且不因@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{失去意识}而承受减值。</p>"
     },
     "wFsHA4FdzLfOx5gM": {
       "name": "植物营养（坚叶族） Plant Nourishment (Hardor)",

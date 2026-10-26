@@ -636,11 +636,11 @@
     },
     "32rKBaTBCJ33qixz": {
       "name": "热插拔 Hot Swap",
-      "description": "<p>你在目标之间建立神秘联结，使其能够交换位置。持续时间内，持握任一武器的生物获得交换动作。</p>"
+      "description": "<p>你在目标之间建立神秘联结，使其能够交换位置。持续时间内，持握任一武器的生物获得换位动作。</p>"
     },
     "3iJb9h4yRGyIRzJd": {
       "name": "反射装甲板 Reflective Paneling",
-      "description": "<p>防御魔法强化你的护甲，使甲片变硬并更善于反射。施放此法术时，选择电击、火焰、穿刺或挥砍伤害。持续时间内，你获得对该伤害类型的抗力10，并获得@UUID[Compendium.sf2e-anachronism.actions.Item.mlWK8VSSJm3iumy6]{反射伤害}反应。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.JBadWKFEv0Zvic9g]{法术效果：反射装甲板}</p><hr /><p><strong>升阶（8环）</strong>你可以选择两种伤害类型，且抗力增加至15。你每次只能反射一种类型的伤害。</p>\n<p><strong>升阶（10环）</strong>如同8环，但此法术保护你抵御全部四种伤害类型，且抗力增加至20。</p>"
+      "description": "<p>防御魔法强化你的护甲，使甲片变硬并更善于反射。施放此法术时，选择电击、火焰、穿刺或挥砍伤害。持续时间内，你获得对该伤害类型的抗力10，并获得@UUID[Compendium.sf2e-anachronism.actions.Item.mlWK8VSSJm3iumy6]{反弹伤害}反应。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.JBadWKFEv0Zvic9g]{法术效果：反射装甲板}</p><hr /><p><strong>升阶（8环）</strong>你可以选择两种伤害类型，且抗力增加至15。你每次只能反射一种类型的伤害。</p>\n<p><strong>升阶（10环）</strong>如同8环，但此法术保护你抵御全部四种伤害类型，且抗力增加至20。</p>"
     },
     "4yllv8kIihHNb2xj": {
       "name": "全息替身 Holographic Stand-In",
@@ -744,7 +744,7 @@
     },
     "ONyatkj2Ds1laXLO": {
       "name": "表情护盾 Emoji Shield",
-      "description": "<p>你创造出一个保护你免受伤害的盾牌表情，当它破碎为魔法代码时，会爆发出令人目盲的光芒。你的AC获得+1状态加值，并获得@UUID[Compendium.sf2e-anachronism.actions.Item.v6ITmtsDt1ZvGmK6]{表情爆发}反应。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.L69VsN5o0r2HoBx0]{法术效果：表情护盾}</p>"
+      "description": "<p>你创造出一个保护你免受伤害的盾牌表情，当它破碎为魔法代码时，会爆发出令人目盲的光芒。你的AC获得+1状态加值，并获得@UUID[Compendium.sf2e-anachronism.actions.Item.v6ITmtsDt1ZvGmK6]{表情爆裂}反应。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.L69VsN5o0r2HoBx0]{法术效果：表情护盾}</p>"
     },
     "Py97Kb5H6vrgELDa": {
       "name": "光移 Light Shift",

@@ -1,0 +1,29 @@
+本轮核对8个职业、153个职业能力、50个族裔、62个族裔能力、338个传承、164个背景，以及151个相关动作，共926个主条目名称。检查同时覆盖其它包中的关联显示引用，并非完整规则正文的逐句重译。
+
+实际修订67个主条目名称：4个族裔能力、15个传承、16个背景、32个动作。8个职业和153个职业能力主名称已对齐；保留了必要的共享条目别名与编程语言原名。另统一23个已有名称在效果、前置条件、族裔介绍和链接显示中的异译；本轮中英文对照90行，累计去重907行。效果前缀和重复引用不重复计入译名。
+
+处理原则：名称优先SF2 Wiki，核实同一条目与上下文；规则正文差异保留模组版本，不据Wiki覆盖数值和自动化。以下“模组原文”专指Anachronism 2.4.0数据，并非声称是官方最终规则。尚未确认原因的差异不归类为Wiki错译。
+
+保留的正文差异：
+1. Gap-Touched（大断层接触者）：模组原文对抗心灵效果豁免为+1 circumstance bonus（环境加值）；Wiki“大断层接触者传承”正文为+1状态加值。保留模组的环境加值与自动化。
+2. Acquistive（功利主义者背景）：模组原文给Media Lore（媒体学识）；Wiki“Data:Backgrounds-Acquisitive.json”为医疗学识。只改名称，保留媒体学识及原自动授予内容。
+3. Shimmering Dazzle（闪光眩目）：模组原文频率每小时一次；Wiki“希伦虫人族裔”写每日一次。保留模组频率。
+4. Living Submersible（活体潜水器）：模组原文“your Speed becomes 0”；Wiki“飞螅族族裔”写只能使用游泳速度移动。保留模组的速度限制与规则。
+5. Pickle Switch（腌菜开关）：模组原文影响“occupants of all other vehicles”（所有其它载具的乘员）；Wiki“Data:Feats-Hot Ride.json”写所有其它载具内的乘员需豁免、失败则目眩。保留模组目标范围与其现有结果表述，不自行补写失败条件。
+6. Passionate Naturalist（热忱博物学家）：模组原文为Life Science Lore（生命科学学识），Wiki背景正文写科学学识。保留模组的生命科学学识。
+7. Toxic Tear（毒性撕裂）：模组原文列出helpless（无助）；Wiki正文也列出无助并以译注推测可能应为禁足。未将该推测写入模组规则、状态或谓词。
+
+身份、别名和文字核对说明：
+1. Change Shape：星蛸族能力对应Wiki“星蛸族族裔”的形态变换；松鼠狐人的同名能力采用变身，不能跨族裔覆盖。保留形态变换及星蛸族原有规则。
+2. Nuar：Wiki“牛尔人族裔”正确对应牛尔人；“拾荒蜗族族裔”的信息框原文误填NUAR，但正文标题为GNAREFUROID。已排除误填，不把两个族裔互换。
+3. Resolve、Incredible Senses是共享职业能力，Wiki使节/特工分别出现决心/决意、惊人感官/超凡感官。保留共享主条目现有且有Wiki依据的决心、惊人感官。Legendary Armor同页有传奇装甲/护甲大师，保留传奇装甲。
+4. Skirmisher、Sniper按特工专精采用游击兵、狙击手；不套用无人机或武器组的同名译法。SRO词表列“自主机器人/自律机器人”，保留允许的别名，不将斜杠列表当作名称。
+5. FORTRUN、Viper、Servoshell、DPS++是编程语言名，按用户已确认的约定保留英文；LFAN缩写也不重复添加英文。
+6. 名称以Wiki为主，显然用字错误作最小修正：夜行维斯客蜥人统一为夜行维斯克蜥人（同页族裔名维斯克蜥人）；直接了当规范为直截了当。
+7. Mechanical Expertise / Wiki Mechanic Expertise；Solar Weapon Expertise / Solarian Weapon Expertise；Soldier Weapon Mastery / Soldier Mastery；Inscrutable / Indiscernible；Runha / Runja；Fire Flood / Fire Floud；Cataclyst / Catalyst；Acquistive / Acquisitive；Umbral Stride / Umbral Strid等，经所属条目和规则上下文确认对应。运行条目英文拼写、ID、slug和链接保持模组原样，本轮对照表同样保留模组英文以便定位。
+8. “扒手 Pickpocket”背景改为街头扒手；同名PF2技能专长仍为扒手。普通句子中的交换、聆听、吸收光线等也不会因与能力同词而被强行改名。
+
+132个主条目尚未确认可靠的完整Wiki标题对应，保留当前译名（包含已有补译），不据近似名称跨规则归并；这不表示Wiki绝对没有中文。已补查主/Data命名空间当前目录、正文双语引用、标题拼写变体、同族裔无英文能力栏及关联页面。完整逐条定位、页面修订号与保留理由见character-option-name-audit-0.3.12.json及localization-audit.zip。
+
+资料访问：配置中的灰机MCP指向PF2；本轮使用已有SF2只读API客户端刷新834页，结合当前9191页目录及近期修订记录复用未变化缓存。没有修改Wiki或用户原始译名表。
+验证：Babele 2.9.1原生转换5616条、按需/原生索引5613个名称通过。相对0.3.11，仅154处已复核显示字段及6个界面字典值变化；数值、规则条件、公式、UUID、ID、slug和链接目标保持。原有商用型圣洁模组2d4授权修正继续沿用。没有新增真实Foundry会话测试。

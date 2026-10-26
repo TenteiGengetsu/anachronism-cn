@@ -766,7 +766,7 @@ export const DISPLAY_STRINGS = Object.freeze(Object.fromEntries([
   ],
   [
     "Effect: Unbound Mind",
-    "效果：不羁心灵 Effect: Unbound Mind"
+    "效果：无羁心智 Effect: Unbound Mind"
   ],
   [
     "Effect: Rebellious Defiance",
@@ -774,7 +774,7 @@ export const DISPLAY_STRINGS = Object.freeze(Object.fromEntries([
   ],
   [
     "Effect: Become Ooze",
-    "效果：化为软泥 Effect: Become Ooze"
+    "效果：化作泥怪 Effect: Become Ooze"
   ],
   [
     "Effect: Shifthide Camouflage",
@@ -2293,7 +2293,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Direct Approach"
       ],
-      "name": "直接了当 Direct Approach"
+      "name": "直截了当 Direct Approach"
     }
   ],
   [
@@ -2554,7 +2554,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Hardlight Healing"
       ],
-      "name": "硬光治疗 Hardlight Healing"
+      "name": "实光痊愈 Hardlight Healing"
     }
   ],
   [
@@ -2563,7 +2563,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Virtual Storage"
       ],
-      "name": "虚拟储存 Virtual Storage"
+      "name": "虚拟存储器 Virtual Storage"
     }
   ],
   [
@@ -2572,7 +2572,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Hardlight Body"
       ],
-      "name": "硬光身体 Hardlight Body"
+      "name": "实光躯体 Hardlight Body"
     }
   ],
   [

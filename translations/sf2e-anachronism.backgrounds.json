@@ -310,7 +310,7 @@
     },
     "a0R3L7P9JnB4PssO": {
       "description": "<p>你佩戴着一副恩布洛伊（Embroi）面具来隐藏面容，这标志着你与魔鬼有所勾结。你可能因一份恶魔鬼约而受困，或是自愿成为魔族大君的仆从。</p>\n<p>选择两项属性提升。一项必须为<strong>感知</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的宗教技能和魔鬼学识（Devil Lore）技能受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.NY2R5hNgdkSRPkTV]（Holy Talisman）技能专长。</p>",
-      "name": "蒙面 Masked"
+      "name": "蒙面者 Masked"
     },
     "a3egX6gDtlW4vRYK": {
       "name": "知识尖塔档案员 Lorespire Archivist",
@@ -529,15 +529,15 @@
       "description": "<p>你在一个大城市中生活得够久，知道如何保持低调，避免直接目光接触，并在日常生活中不引起任何注意。无论你是一个跟踪嫌疑犯的侦探，还是仅仅生活在一个犯罪猖獗的街区，你总能巧妙地融入人群，以避免惹麻烦。</p>\n<p>选择两项属性提升。一项必须是<strong>敏捷</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的欺骗技能和特定聚居地学识受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.N68CjcvYmLF35KrD]（Face in the Crowd）技能专长。</p>"
     },
     "2LI0zYz9t5CNL7BN": {
-      "name": "密室占卜师 Vault Diviner",
+      "name": "密库占卜师 Vault Diviner",
       "description": "<p>你经常待在知识尖塔综合体的通灵密室，为寻星者协会进行魔法占卜或实验。你或许师从神秘的寻星者尼基提·兰帕德弗罗斯，也可能负责记录沉睡的利亚瓦拉梦者“太阳风之低语”的梦境。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>智力</strong>或<strong>感知</strong>，另一项为自由属性提升。</p>\n<p>你受训于奥法技能和占卜学识技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.blMeVamjGz4ODWxq]{奥术感知}技能专长。</p>"
     },
     "590TX9JlV80VSUUk": {
-      "name": "出风头者 Showboater",
+      "name": "好出风头者 Showboater",
       "description": "<p>你立志成为著名的寻星者，并将名声转化为自己的经济收益。你的目标是取得多家企业赞助和品牌代言；眼下，你正努力抓住每一个成为焦点的机会，尽情享受众人的关注。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>智力</strong>或<strong>魅力</strong>，另一项为自由属性提升。</p>\n<p>你受训于表演技能和媒体学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.dTuDmdfeax9B6kIk]技能专长。</p>"
     },
     "95Mc2rQfhmKHZzvo": {
-      "name": "尖峰区窃贼 Spike Larcenist",
+      "name": "尖锥区窃贼 Spike Larcenist",
       "description": "<p>你在艾巴萨罗姆空间站底层的尖峰区深处长大。尽管生活有时艰难，你也常常违反有关个人财产的法律，你还是逐渐爱上了尖峰区和那里紧密团结的社群。如今，你是一名寻星者——报酬丰厚，结交了身居高位的朋友，最富裕的街区和最豪华的场所也向你敞开大门。你再也不必靠扒窃、顺手牵羊或策划盗窃来糊口，但积习难改！好在，你的这些技能有着广泛的职业用途……</p>\n<p>选择两项属性提升。其中一项必须用于<strong>敏捷</strong>或<strong>魅力</strong>，另一项为自由属性提升。</p>\n<p>你受训于贼活技能，以及艾巴萨罗姆空间站学识或黑社会学识技能中的一项。你获得@UUID[Compendium.pf2e.feats-srd.Item.hVZbnsDuXihggylt]{妙手空空}技能专长。</p>"
     },
     "9JIR9SAAvp0Oj0SW": {
@@ -577,23 +577,23 @@
       "description": "<p>你曾有一项简单的工作：以最快的速度，让同伴尽可能远离危险。无论你是保护要人的安保队员，还是等待其他成员归来的劫案司机，你都知道怎样迅速、安全地与仍在事发中的犯罪现场拉开尽可能远的距离，即使这意味着途中必须弃车换乘。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>敏捷</strong>或<strong>智力</strong>，另一项为自由属性提升。</p>\n<p>你受训于手艺技能和载具学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.EQ0LOA1TTAv82qsJ]技能专长。</p>"
     },
     "S9Y8W5pjNCutGxTE": {
-      "name": "不屈的胜者 Defiant Victor",
+      "name": "不屈胜者 Defiant Victor",
       "description": "<p>你一再听人说，寻星者需要学识渊博、身怀绝技、待人讨喜——而这些特质你向来都不突出。但你没有因此放弃成为寻星者！你具备自己心目中最重要的品质：不服输的坚持！你不会让唱反调的人、大人物或自身的缺点阻止你实现目标，正如你不会因一点血、汗或眼泪便一蹶不振。你知道，到了紧要关头，你能承受打击，继续前进。你的词典里没有失败！</p>\n<p>选择两项属性提升。其中一项必须用于<strong>力量</strong>或<strong>体质</strong>，另一项为自由属性提升。</p>\n<p>你受训于运动技能和劳工学识技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.AmP0qu7c5dlBSath]{健壮}专长。</p>"
     },
     "SKIsAlEhnRIapzqw": {
-      "name": "宗教学者 Religious Scholar",
+      "name": "宗教研究学者 Religious Scholar",
       "description": "<p>你是一位热忱的神学研究者，尤其关注那些已经失落、遭人遗忘、随着岁月流逝而式微，或在神祇逝去后仍然存续的宗教与信仰。你加入寻星者协会，是为了获得研究并记录这些宗教的机会，也希望在旅途中接触尚不为人知的信仰。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>智力</strong>或<strong>感知</strong>，另一项为自由属性提升。</p>\n<p>你受训于宗教技能，以及一项对应自选神祇或宗教的学识技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]{可疑知识}技能专长。</p>"
     },
     "W5lpy7i9eqpz5nG5": {
-      "name": "逐利者 Acquistive",
+      "name": "功利主义者 Acquistive",
       "description": "<p>大多数寻星者加入协会，是为了探索银河或揭开古代历史，而你的理由要实际得多：财富、名声和权力！你打算利用寻星者的身份建立人脉、把握机遇、成为媒体焦点，当然，还要大发一笔。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>感知</strong>或<strong>魅力</strong>，另一项为自由属性提升。</p>\n<p>你受训于欺骗技能和媒体学识技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.B6HbYsLBWb1RR6Fx]{蛊惑人心}技能专长。</p>"
     },
     "X6yI3l13rvTUq53Y": {
-      "name": "变电站维护员 Substation Custodian",
+      "name": "变电站养护者 Substation Custodian",
       "description": "<p>你的一位祖先曾是一名维护员。他们是无数默默无闻的工程师，负责维护艾巴萨罗姆空间站的基础设施，包括将星石反应堆的电力输送至全站的七座变电站。你曾立志继承这份工作，甚至可能当过一段时间的维护员学徒，尽管最终你选择了另一条道路。好在，这一路学到的技能，至今仍能派上用场。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>体质</strong>或<strong>智力</strong>，另一项为自由属性提升。</p>\n<p>你受训于手艺技能和星石反应堆学识技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.ASy9AKEIRxPYUi5o]{迅速修理}技能专长。</p>"
     },
     "YAhNVHYn14Kczbno": {
-      "name": "成长中的英雄 Hero in the Making",
+      "name": "见习英雄 Hero in the Making",
       "description": "<p>你一直梦想着成为英雄——击退邪恶的反派、挫败阴险的诡计，拯救陷于危难的无辜者。事实上，你加入寻星者协会，就是希望实现这个梦想。如今你逐渐意识到，英雄壮举固然重要，但催生英雄的事件与处境绝不是儿戏。眼下，人命关天，无论面对何种危险，你都决心坚守阵地，为正义而战，保护艾巴萨罗姆空间站的居民。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>力量</strong>或<strong>敏捷</strong>，另一项为自由属性提升。</p>\n<p>你受训于威吓技能和艾巴萨罗姆空间站学识技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]{金刚怒目}技能专长。</p>"
     },
     "YNO1wXURzLUuy8bg": {
@@ -601,7 +601,7 @@
       "description": "<p>你是艾巴萨罗姆空间站的公民，并且十分认真地履行公民义务。你对空间站的政府制度、政客、权势人物和主要组织了如指掌（或其他类似附肢！），始终努力关注时事，并为积极的改变而游说。你甚至亲自见过几位执政理事会的成员，包括理事阿洛·达罗斯和首席理事坎托尔。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>智力</strong>或<strong>魅力</strong>，另一项为自由属性提升。</p>\n<p>你受训于社群技能和艾巴萨罗姆空间站学识技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.X2jGFfLU5qI5XVot]{人情练达}技能专长。</p>"
     },
     "YZNkCpn5DCzjTRJ0": {
-      "name": "权益倡导者 Advocate",
+      "name": "倡导者 Advocate",
       "description": "<p>你热爱寻星者协会成员的身份，并深深珍视与其他寻星者结下的情谊。受这份情谊、自己的道德准则、正义感，或同伴齐格维吉克斯的公开行动所鼓舞，你为改善所有寻星者的处境而奔走。有时，你会游说改善工作条件与支持体系；有时，你会志愿投身自己认为能带来积极影响的事业和服务；有时，你会为有需要的寻星者治疗伤势、协助康复，或让他们靠在自己充满关怀的肩膀上。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>感知</strong>或<strong>魅力</strong>，另一项为自由属性提升。</p>\n<p>你受训于交涉或医疗技能中的一项，以及法律学识技能。如果选择交涉，你获得@UUID[Compendium.pf2e.feats-srd.Item.6ON8DjFXSMITZleX]{无需惊慌}技能专长。如果选择医疗，你获得@UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{战地医疗}技能专长。</p>"
     },
     "ZvqUMBfHubnm6d71": {
@@ -609,7 +609,7 @@
       "description": "<p>你是一名受过训练的士兵，负责让机械装备和合成同伴保持完好、正常运作。你在战斗中保持冷静，以便更好地完成目标。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>力量</strong>或<strong>智力</strong>，另一项为自由属性提升。</p>\n<p>你受训于手艺技能和战争学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.pQOZBfwofLcFdZwx]技能专长。</p>"
     },
     "cKWwz7IvcwLxHhGF": {
-      "name": "寻星者新秀 Starfinder Hopeful",
+      "name": "寻星者候补生 Starfinder Hopeful",
       "description": "<p>你曾是寻星者的超级粉丝，如今成了新兵，在知识尖塔综合体接受训练，努力准备最后的考试——启程试炼！你从小看寻星者影像节目、玩寻星者电子游戏长大，是《寻星者编年史》播客的忠实订阅者，还痴迷地追踪协会壮举的新闻。你把寻星者视为明星，希望见到自己喜爱的每一位！</p>\n<p>选择两项属性提升。其中一项必须用于<strong>力量</strong>或<strong>敏捷</strong>，另一项为自由属性提升。</p>\n<p>你受训于特技或运动技能中的一项，以及寻星者协会学识技能。如果选择特技，你获得@UUID[Compendium.pf2e.feats-srd.Item.CnqMJR8e9jqJR7MM]{四平八稳}技能专长。如果选择运动，你获得@UUID[Compendium.pf2e.feats-srd.Item.09PurtIanNUPfNRq]{战斗攀爬}技能专长。</p>"
     },
     "hMzoe6KUF3YeNOqC": {
@@ -617,7 +617,7 @@
       "description": "<p>无论你在漂流危机抗议期间身处阿基顿，还是受到了那些勇敢活动家的鼓舞，你都已认识到，经济不平等会使灾难迅速演变为人道主义危机。你知道，依赖剥削的政府与巨型企业终将受到正义的审判，而你愿意采取一切必要手段，教育民众、帮助他们做好准备，并保护他们。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>智力</strong>或<strong>魅力</strong>，另一项为自由属性提升。</p>\n<p>你受训于手艺技能和法律学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.L3PnS3CDaWxpZlDG]技能专长，即使你不满足其先决条件。</p>"
     },
     "kAAQrZVNYldEBlMZ": {
-      "name": "模拟程序员 Simulation Programmer",
+      "name": "模拟程序师 Simulation Programmer",
       "description": "<p>你是知识尖塔综合体的计算机程序员，负责制作全息与虚拟现实训练模拟程序。这些训练模拟通常可供普遍使用，让探员在毫无风险的环境中，亲身体验勘察未探索行星、处理珍贵遗物和参与战斗。有些模拟更有针对性，也更难制作，通常是塞莉塔、菲奇、冒险队长阿尔文、冒险队长奈亚吉，甚至首席探索者萨玛克等知名寻星者提出的要求。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>敏捷</strong>或<strong>智力</strong>，另一项为自由属性提升。</p>\n<p>你受训于计算机技能和电子游戏学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf]或@UUID[Compendium.sf2e-anachronism.feats.Item.GBGvxPo6rnlEXFMg]技能专长中的一项，由你选择。</p>"
     },
     "kLfB1MbiXwp1vdI6": {
@@ -625,7 +625,7 @@
       "description": "<p>出于某些个人原因，你曾以咄咄逼人、蓄意挑衅信息圈上的陌生人为乐。你通过煽动性的消息和帖子激怒他人，让他们难受，甚至可能试图伤害他们。你或许已经走过了这个阶段，但那些本领仍留了下来。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>体质</strong>或<strong>魅力</strong>，另一项为自由属性提升。</p>\n<p>你受训于威吓技能和信息圈学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.QEmNN2i5RCzhP8Db]技能专长。</p>"
     },
     "kahsYeyhX7eXdlQ8": {
-      "name": "扒手 Pickpocket",
+      "name": "街头扒手 Pickpocket",
       "description": "<p>你早已学会在一里之外认出游客，并灵巧地替他们卸下累赘的身外之物——毕竟，轻装上路才好！</p>\n<p>选择两项属性提升。其中一项必须用于<strong>敏捷</strong>或<strong>智力</strong>，另一项为自由属性提升。</p>\n<p>你受训于贼活技能和黑社会学识技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.jDdOqFmZLwE4dblQ]{扒手}技能专长。</p>"
     },
     "mz8tXtcGFPmZDMg5": {
@@ -641,7 +641,7 @@
       "description": "<p>你热爱汽车。诚然，许多人都喜爱自己的那辆车，但对你而言，这份热爱远不止于此。汽车是你一生的挚爱，而你的专业知识可能已让你成为职业车手、维修站工程师，或深受当地人信赖的机械师。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>敏捷</strong>或<strong>智力</strong>，另一项为自由属性提升。</p>\n<p>你受训于手艺技能和载具学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.Mq9lERNh4htB5qi6]技能专长。</p>"
     },
     "rWIhwo44IIJ7x1Py": {
-      "name": "热忱的博物学家 Passionate Naturalist",
+      "name": "热忱博物学家 Passionate Naturalist",
       "description": "<p>你最钟爱自然界形形色色的生命，从最简单的单细胞生物，到最葱郁的植物与最精巧的动物，你都希望尽可能多地亲眼见识。为了满足探索生命的热情，你常常自愿参加异星勘察，也许与菲奇一同在寻星者旗舰群星之主号上工作，或帮助赫尔丁·塞维尔博士，为他不断扩充的<em>《自然世界图录》</em>增添条目。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>智力</strong>或<strong>感知</strong>，另一项为自由属性提升。</p>\n<p>你受训于自然技能和生命科学学识技能。你获得用于自然技能的@UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{驾轻就熟}技能专长。</p>"
     },
     "vi0sZmhrdDJnPabs": {
@@ -653,11 +653,11 @@
       "description": "<p>你是一位数字创作者，利用编程、建模和自己的创意，将原始的通用聚合物基材（也称UPB）变成有价值的装备。你或许用高科技设备取代手工工具，但过程并无不同：构想、设计、制作。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>敏捷</strong>或<strong>智力</strong>，另一项为自由属性提升。</p>\n<p>你受训于计算机技能和科技学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.jiNuKNa9NcU27Bh2]技能专长。</p>"
     },
     "wNZdy3qf9Cr2nNY0": {
-      "name": "邪教逃离者 Cult Escapee",
+      "name": "邪教逃亡者 Cult Escapee",
       "description": "<p>虽然你不愿谈起，但你与宇宙中最危险的邪教之一——吞噬者教团——有过关联。也许你曾是这个虚无主义宗教团体的一员，也许有亲友加入其中，又或许你曾是他们的受害者。无论这段关联是什么，你都已悄然脱身，此后一直低调行事。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>敏捷</strong>或<strong>魅力</strong>，另一项为自由属性提升。</p>\n<p>你受训于欺骗技能和吞噬者学识技能。你获得以下技能专长中自选的一项：@UUID[Compendium.sf2e-anachronism.feats.Item.N68CjcvYmLF35KrD]或@UUID[Compendium.pf2e.feats-srd.Item.HEBXaS656MZTiWFu]{持久分神}。</p>"
     },
     "wORZynym83NfBxvB": {
-      "name": "寻星者探听客 Starfinder Snoop",
+      "name": "寻星者包打听 Starfinder Snoop",
       "description": "<p>大多数寻星者都很好奇，但你将这点发挥到了另一个境界！你总是多管闲事，偷听重要会议、潜入限制进入的区域，并设法拿到机密数据和文件。失败的代价很高，但你认为值得冒险！</p>\n<p>选择两项属性提升。其中一项必须用于<strong>敏捷</strong>或<strong>感知</strong>，另一项为自由属性提升。</p>\n<p>你受训于隐秘技能，以及信息圈学识或黑社会学识技能中的一项。你获得@UUID[Compendium.pf2e.feats-srd.Item.t3btih0O5RUwWynt]{走私老手}技能专长。</p>"
     },
     "wbieibFpCWCvrioR": {

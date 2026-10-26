@@ -12694,7 +12694,7 @@
         {
           "id": "iWkSh1sfrLRRWgqM",
           "expectedName": "Phasic Flurry",
-          "name": "相位乱舞",
+          "name": "相位连斩",
           "expectedDescription": "<p>The nyssholora Strides up to its Speed then makes a phasic blade Strike against each creature within reach. Each attack counts toward the nyssholora's multiple attack penalty, but the penalty doesn't increase until after all the attacks.</p>",
           "description": "<p>相位兽行走至多等于自身速度的距离，然后对触及范围内的每个生物各进行一次相位刃打击。每次攻击都计入相位兽的多重攻击减值，但该减值直到所有攻击完成后才会增加。</p>"
         },

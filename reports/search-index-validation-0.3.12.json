@@ -1,0 +1,429 @@
+{
+  "version": "0.3.12",
+  "primaryNamesAudited": 926,
+  "changedNamesChecked": 67,
+  "allChineseQueriesAndEnglishAliasesPassed": true,
+  "allStableIdsPreserved": true,
+  "queries": {
+    "Hardlight Healing": {
+      "Chinese": "实光痊愈",
+      "ids": [
+        "47SUzVIpL72TPLTs"
+      ]
+    },
+    "Direct Approach": {
+      "Chinese": "直截了当",
+      "ids": [
+        "6P6aYbBM60Utfpvb"
+      ]
+    },
+    "Virtual Storage": {
+      "Chinese": "虚拟存储器",
+      "ids": [
+        "WE5XZOI2GDJjtLIH"
+      ]
+    },
+    "Hardlight Body": {
+      "Chinese": "实光躯体",
+      "ids": [
+        "nURQYDhvY8VrIaAD"
+      ]
+    },
+    "Educator Living Hologram": {
+      "Chinese": "教育者活体全息",
+      "ids": [
+        "7tvoaj5hI1qtZcU3"
+      ]
+    },
+    "Shiny Skittermander": {
+      "Chinese": "闪光轻灵兽",
+      "ids": [
+        "8fOLeyM613JqabRu"
+      ]
+    },
+    "Runha Mechanic Hardor": {
+      "Chinese": "伦贾机械师坚叶族",
+      "ids": [
+        "9v2WwPR8f49W2WoW"
+      ]
+    },
+    "Emojiborn Living Hologram": {
+      "Chinese": "表情裔活体全息",
+      "ids": [
+        "BFMyN1e4xTscpsSA"
+      ]
+    },
+    "Crèche-Raised Sarcesian": {
+      "Chinese": "孵生萨瑟蝶人",
+      "ids": [
+        "DkMIxqmsFTrebsmd"
+      ]
+    },
+    "Xenometric Android": {
+      "Chinese": "异种仿生人",
+      "ids": [
+        "EI7E0QBPW6IqMDPV"
+      ]
+    },
+    "Nightstalker Vesk": {
+      "Chinese": "夜行维斯克蜥人",
+      "ids": [
+        "GhfhQjc0Id58xm8E"
+      ]
+    },
+    "Cyborg": {
+      "Chinese": "改造人",
+      "ids": [
+        "HqE06aTlBlKUUs7A"
+      ]
+    },
+    "Fire Flood Fonqugon": {
+      "Chinese": "焰涝方贡族",
+      "ids": [
+        "I8SDKbuK7RQDnT8s"
+      ]
+    },
+    "Gap-Touched": {
+      "Chinese": "大断层接触者",
+      "ids": [
+        "QcbrI0l9nnC92sOm"
+      ]
+    },
+    "Sand Roamer": {
+      "Chinese": "游沙趴爪",
+      "ids": [
+        "RafHOA55opMBMtiZ"
+      ]
+    },
+    "Gallant Skittermander": {
+      "Chinese": "侠义轻灵兽",
+      "ids": [
+        "hyRCVl3W8iAQZqHi"
+      ]
+    },
+    "Fluffy Skittermander": {
+      "Chinese": "毛绒轻灵兽",
+      "ids": [
+        "itVWSleeetAd1BWB"
+      ]
+    },
+    "Song of Ice Ord": {
+      "Chinese": "寒冰之歌奥德",
+      "ids": [
+        "ovd3OeznRfR6Kf8n"
+      ]
+    },
+    "Cataclyst Human": {
+      "Chinese": "浩劫遗孤人类",
+      "ids": [
+        "t4Tq3fnDqou4slBY"
+      ]
+    },
+    "Vault Diviner": {
+      "Chinese": "密库占卜师",
+      "ids": [
+        "2LI0zYz9t5CNL7BN"
+      ]
+    },
+    "Showboater": {
+      "Chinese": "好出风头者",
+      "ids": [
+        "590TX9JlV80VSUUk"
+      ]
+    },
+    "Spike Larcenist": {
+      "Chinese": "尖锥区窃贼",
+      "ids": [
+        "95Mc2rQfhmKHZzvo"
+      ]
+    },
+    "Defiant Victor": {
+      "Chinese": "不屈胜者",
+      "ids": [
+        "S9Y8W5pjNCutGxTE"
+      ]
+    },
+    "Religious Scholar": {
+      "Chinese": "宗教研究学者",
+      "ids": [
+        "SKIsAlEhnRIapzqw"
+      ]
+    },
+    "Acquistive": {
+      "Chinese": "功利主义者",
+      "ids": [
+        "W5lpy7i9eqpz5nG5"
+      ]
+    },
+    "Substation Custodian": {
+      "Chinese": "变电站养护者",
+      "ids": [
+        "X6yI3l13rvTUq53Y"
+      ]
+    },
+    "Hero in the Making": {
+      "Chinese": "见习英雄",
+      "ids": [
+        "YAhNVHYn14Kczbno"
+      ]
+    },
+    "Advocate": {
+      "Chinese": "倡导者",
+      "ids": [
+        "YZNkCpn5DCzjTRJ0"
+      ]
+    },
+    "Masked": {
+      "Chinese": "蒙面者",
+      "ids": [
+        "a0R3L7P9JnB4PssO"
+      ]
+    },
+    "Starfinder Hopeful": {
+      "Chinese": "寻星者候补生",
+      "ids": [
+        "cKWwz7IvcwLxHhGF"
+      ]
+    },
+    "Simulation Programmer": {
+      "Chinese": "模拟程序师",
+      "ids": [
+        "kAAQrZVNYldEBlMZ"
+      ]
+    },
+    "Pickpocket": {
+      "Chinese": "街头扒手",
+      "ids": [
+        "kahsYeyhX7eXdlQ8"
+      ]
+    },
+    "Passionate Naturalist": {
+      "Chinese": "热忱博物学家",
+      "ids": [
+        "rWIhwo44IIJ7x1Py"
+      ]
+    },
+    "Cult Escapee": {
+      "Chinese": "邪教逃亡者",
+      "ids": [
+        "wNZdy3qf9Cr2nNY0"
+      ]
+    },
+    "Starfinder Snoop": {
+      "Chinese": "寻星者包打听",
+      "ids": [
+        "wORZynym83NfBxvB"
+      ]
+    },
+    "Feign Prone": {
+      "Chinese": "假摔",
+      "ids": [
+        "3In9EAqKoYiCDmz4"
+      ]
+    },
+    "Listen": {
+      "Chinese": "倾听",
+      "ids": [
+        "4yWUVp205mJWuqNI"
+      ]
+    },
+    "Puff Up": {
+      "Chinese": "膨胀",
+      "ids": [
+        "6fsMvO0jXtK8gYkH"
+      ]
+    },
+    "Doomsayer's Litany": {
+      "Chinese": "预言者祷言",
+      "ids": [
+        "CPO4LgkZPHIHQEB4"
+      ]
+    },
+    "Deflect Force": {
+      "Chinese": "偏折力场",
+      "ids": [
+        "Hq7duW66un55uGoA"
+      ]
+    },
+    "Absorb Light": {
+      "Chinese": "吸收光照",
+      "ids": [
+        "JdLNIaTM4eyI9Luo"
+      ]
+    },
+    "Concentrate Light": {
+      "Chinese": "集中光照",
+      "ids": [
+        "K37N5t6v7kgImnDN"
+      ]
+    },
+    "Mini-Nova": {
+      "Chinese": "迷你新星",
+      "ids": [
+        "KhX0FDMxGVgHjXdU"
+      ]
+    },
+    "Quick Toss": {
+      "Chinese": "快速掷弹",
+      "ids": [
+        "OST8EbXzznPoGw9g"
+      ]
+    },
+    "Pardon Me": {
+      "Chinese": "失礼了",
+      "ids": [
+        "QMxO5Y1b9ORvlogx"
+      ]
+    },
+    "Big Wet Eye Blink": {
+      "Chinese": "水汪汪的大眼睛闪烁",
+      "ids": [
+        "VPUwqRHwijGcMVOH"
+      ]
+    },
+    "Living Submersible": {
+      "Chinese": "活体潜水器",
+      "ids": [
+        "XYLK5aZ2WAMJGRAc"
+      ]
+    },
+    "Access Infosphere": {
+      "Chinese": "访问信息圈",
+      "ids": [
+        "Yn4jLPVWVE1vtAaF"
+      ]
+    },
+    "Pickle Switch": {
+      "Chinese": "腌菜开关",
+      "ids": [
+        "bWD4NpW0NB8aDwZF"
+      ]
+    },
+    "Swap": {
+      "Chinese": "换位",
+      "ids": [
+        "bjsgzOPyKf0V8siE"
+      ]
+    },
+    "Toxic Tear": {
+      "Chinese": "毒性撕裂",
+      "ids": [
+        "cShf7HifoNI7XzKd"
+      ]
+    },
+    "Dazzling Shell": {
+      "Chinese": "眩目甲壳",
+      "ids": [
+        "e2lugcxHnxTkQeMc"
+      ]
+    },
+    "Reactive Step": {
+      "Chinese": "反应迈步",
+      "ids": [
+        "eBxEPfTafaJaK4Kf"
+      ]
+    },
+    "Battle Gobbing": {
+      "Chinese": "战斗搞不灵",
+      "ids": [
+        "fz1XOiQr3FJYRxJh"
+      ]
+    },
+    "Cartoonish Stretch": {
+      "Chinese": "卡通弹性",
+      "ids": [
+        "gNTUSvR7Rnbz2qEW"
+      ]
+    },
+    "Fidget": {
+      "Chinese": "乱动",
+      "ids": [
+        "gS62Drm7DuTrc9Y3"
+      ]
+    },
+    "Let Me Hear You Cheer": {
+      "Chinese": "让我听到你欢呼",
+      "ids": [
+        "ixBOSnRNcdfDVygI"
+      ]
+    },
+    "Unbound Mind": {
+      "Chinese": "无羁心智",
+      "ids": [
+        "j1FsKMy7CTtrp3Fu"
+      ]
+    },
+    "Phasic Flurry": {
+      "Chinese": "相位连斩",
+      "ids": [
+        "lDfffQX5QYWnNVA6"
+      ]
+    },
+    "Shimmering Dazzle": {
+      "Chinese": "闪光眩目",
+      "ids": [
+        "lIZ9DhrkzM3AEQmX"
+      ]
+    },
+    "Contaminate": {
+      "Chinese": "污染",
+      "ids": [
+        "lizh6clVUQm76uvK"
+      ]
+    },
+    "Reflect Damage": {
+      "Chinese": "反弹伤害",
+      "ids": [
+        "mlWK8VSSJm3iumy6"
+      ]
+    },
+    "Empathic Assistance": {
+      "Chinese": "共情援助",
+      "ids": [
+        "ntmBjxw7Hw81Fogq"
+      ]
+    },
+    "Disable Hardlight Projector": {
+      "Chinese": "禁用实光投影",
+      "ids": [
+        "ojicKYAURtjCsFbD"
+      ]
+    },
+    "Become Ooze": {
+      "Chinese": "化作泥怪",
+      "ids": [
+        "pO1wkgklxp9j1taY"
+      ]
+    },
+    "Project Hardlight Body": {
+      "Chinese": "投影实光躯体",
+      "ids": [
+        "sO7Jd4scwpQdTcgy"
+      ]
+    },
+    "Umbral Stride": {
+      "Chinese": "暗影步法",
+      "ids": [
+        "u9NU2bULHg3S5FaP"
+      ]
+    }
+  },
+  "nativeAndOndemandIndex": {
+    "version": "0.3.12",
+    "reproducedMissingIndex": true,
+    "lightIndexNamesChecked": 5613,
+    "nativeIndexNamesChecked": 5613,
+    "packsChecked": 28,
+    "chineseAndEnglishSearch": true,
+    "gmAndPlayerIndexPaths": true,
+    "noFullPackFetchRequired": true,
+    "idAndNameLookup": true,
+    "idempotent": true,
+    "unrelatedPackUnchanged": true,
+    "unknownEntryUnchanged": true,
+    "indexRowsNonNameFieldsUnchanged": true,
+    "liveFoundryTested": false,
+    "referenceCommit": "11aa2358f1373ec1228871e0db93c20a5680abf6"
+  },
+  "liveFoundryTested": false
+}

@@ -98,7 +98,7 @@
       "description": "<p>你获得临时生命值。</p>"
     },
     "bx5WXjFyU9nu4UyE": {
-      "name": "效果：虹吸毒素 Effect: Siphon Poison",
+      "name": "效果：吸取毒素 Effect: Siphon Poison",
       "description": "<p>你的颚部和酸液喷吐打击，以及恶心之死能力的酸蚀伤害骰大小提高一级。</p>"
     },
     "c3Y1xZ6IIxbsnPk1": {
@@ -154,7 +154,7 @@
       "description": "<p>你使用任何不具有区域特征的远程武器，对标记目标进行的远程打击额外造成2d4精准伤害，并将标记目标从掩蔽获得的AC环境加值降低1。</p>"
     },
     "mprZBMDC5a4U2STA": {
-      "name": "效果：神枪手 Effect: Sharpshooter",
+      "name": "效果：神射手 Effect: Sharpshooter",
       "description": "<p>你从轻度或标准掩蔽获得的AC加值降低1。</p>"
     },
     "ncmWr1EPq7nGErQf": {
