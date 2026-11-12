@@ -46,7 +46,7 @@
     },
     "4Yxr3P6cUCxTyOEE": {
       "name": "保镖 Bouncer",
-      "description": "<p>你懂得如何用强健体魄赚取酬劳。无论是守卫银行金库、夜店入口，还是地下黑市，你都是团队中的武力担当。</p>\n<p>选择两项属性提升。一项必须为<strong>力量</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的威吓技能和一项跟你工作地点相关的学识受训；例如，如果你在赌场工作，则可能拥有赌博学识。你获得@UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]（Intimidating Glare）技能专长。</p>"
+      "description": "<p>你懂得如何用强健体魄赚取酬劳。无论是守卫银行或私人金库、华丽的夜店，还是破败的小酒馆，你都是团队中的武力担当。</p>\n<p>选择两项属性提升。一项必须为<strong>力量</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的威吓技能和一项跟你工作地点相关的学识受训；例如，如果你在赌场工作，则可能拥有赌博学识。你获得@UUID[Compendium.pf2e.feats-srd.Item.xQMz6eDgX75WX2ce]（Intimidating Glare）技能专长。</p>"
     },
     "4xyPaBDI3fpcDCM7": {
       "name": "先驱者学者 First Ones Scholar",
@@ -58,7 +58,7 @@
     },
     "5SNQkE3fOqJeDJNL": {
       "name": "隐居者 Recluse",
-      "description": "<p>你曾是个有头有脸的人物，但那已是前世之事。如今你离群索居，要么在荒野中当个隐士，要么在破败街区做个独行客。原以为往事早已翻篇，却未料——新收的门徒或宿敌，又将你拽回了冒险生涯。</p>\n<p>选择两项属性提升。一项必须是<strong>体质</strong>或<strong>感知</strong>，另一项为自选属性提升。</p>\n<p>你的生存技能和与你过去生活相关的学识受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]（Dubious Knowledge）技能专长。</p>"
+      "description": "<p>你曾是个有头有脸的人物，但那已是过去的生活。如今你离群索居，要么在荒野中当个隐士，要么在破败街区做个独行客。原以为往事早已翻篇，却未料——新收的门徒或宿敌，又将你拽回了冒险生涯。</p>\n<p>选择两项属性提升。一项必须是<strong>体质</strong>或<strong>感知</strong>，另一项为自选属性提升。</p>\n<p>你的生存技能和与你过去生活相关的学识受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]（Dubious Knowledge）技能专长。</p>"
     },
     "5ebdjaDVJSIskU9P": {
       "name": "历战英雄 War-Hardened Hero",
@@ -82,7 +82,7 @@
     },
     "8M8ocSvx6hKMg19k": {
       "name": "基因修剪者 Gene Splicer",
-      "description": "<p>你是生物科技、基因学和营养学方面的专家，经常在自己的身体上进行实验。你可能曾与需要基因疗法的患者合作，从事实验室研究寻找生物科技领域的下一个突破，甚至为个人用途调制血清。</p>\n<p>选择两项属性提升。一项必须是<strong>力量</strong>或<strong>智力</strong>，另一项为自选属性提升。</p>\n<p>你的手艺技能受训，且在殖装学识和生命科学学识（Augmentation or Life Science Lore）中选择一项受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.VRLHQPDkjy0gbxBY]（Serum Crafting）技能专长。</p>"
+      "description": "<p>你是生物科技和基因学方面的专家，经常在自己的身体上进行实验。你可能曾与需要基因疗法的患者合作，从事实验室研究寻找生物科技领域的下一个突破，甚至为个人用途调制血清。</p>\n<p>选择两项属性提升。一项必须是<strong>力量</strong>或<strong>智力</strong>，另一项为自选属性提升。</p>\n<p>你的手艺技能受训，且在殖装学识和生命科学学识（Augmentation or Life Science Lore）中选择一项受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.VRLHQPDkjy0gbxBY]（Serum Crafting）技能专长。</p>"
     },
     "9QjJzNIma16vB9CX": {
       "name": "指引者的眷顾 Guidance's Favored",
@@ -106,7 +106,7 @@
     },
     "Cclf3GeZGsxzxWDA": {
       "name": "新兵蛋子 Recruit",
-      "description": "<p>你是满怀憧憬的菜鸟新兵，可能是维斯卡里姆帝国士兵、万古卫队或理事军成员。</p>\n<p>选择两项属性提升。一项必须为体<strong>力量</strong>或<strong>体质</strong>，另一项为自选属性提升。</p>\n<p>你的生存技能与战争学识（Warfare Lore）技能受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.4tTkRyOQ0VuRBac3]（Terrain Expertise）技能专长。</p>"
+      "description": "<p>你是满怀憧憬的菜鸟新兵，可能是维斯卡里姆帝国士兵、万古卫队或理事军成员。</p>\n<p>选择两项属性提升。一项必须为<strong>力量</strong>或<strong>体质</strong>，另一项为自选属性提升。</p>\n<p>你的生存技能与战争学识（Warfare Lore）技能受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.4tTkRyOQ0VuRBac3]（Terrain Expertise）技能专长。</p>"
     },
     "CdIygfqF5KSSvKkj": {
       "name": "寻星者陷阱大师 Starfinder Trapsmith",
@@ -182,7 +182,7 @@
     },
     "LpHSR7OmHhzyZyO0": {
       "name": "反抗军 Rebel",
-      "description": "<p>你曾在普洛尼斯（Pulonis）等星球对抗星际政权，或从内部瓦解阿兹兰特星际帝国（Azlanti Star Empire）。</p>\n<p>选择两项属性提升。一项必须为体<strong>体质</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的欺骗技能与战争学识（Warfare Lore）技能受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.Dvz54d6aPhjsmUux]（Lie to Me）技能专长。</p>"
+      "description": "<p>你曾在普洛尼斯（Pulonis）等星球对抗星际政权，或从内部瓦解阿兹兰特星际帝国（Azlanti Star Empire）。</p>\n<p>选择两项属性提升。一项必须为<strong>体质</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的欺骗技能与战争学识（Warfare Lore）技能受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.Dvz54d6aPhjsmUux]（Lie to Me）技能专长。</p>"
     },
     "M5yXdlH3A8e8ooA8": {
       "name": "帷幕裹身 Shrouded",
@@ -194,7 +194,7 @@
     },
     "ML8vXoxCP0hEi4dr": {
       "name": "企业代理人 Corporate Agent",
-      "description": "<p>你是企业世界中众多专业人士中的一员，但你并不只是一个普通的西装革履者。你是一名谈判者、交易者，甚至可能是一名间谍，致力于推进特定公司的议程。你可能是某个巨型企业机器中的一颗螺丝钉，或者是一个尚未被人知晓的崭露头角的推销员......</p>\n<p>选择两项属性提升。一项必须是<strong>智力</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的社群技能和企业学识受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.eR73a0yWba7clUyC]（Management Material）技能专长。</p>"
+      "description": "<p>你是企业世界中众多专业人士中的一员，但你并不只是一个普通的西装革履者。你是一名谈判者、交易者，甚至可能是一名间谍，致力于推进特定公司的议程。你可能是某个巨型企业机器中的一颗螺丝钉，或者替一位尚无人知晓、正崭露头角的企业家充当托儿......</p>\n<p>选择两项属性提升。一项必须是<strong>智力</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的社群技能和企业学识受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.eR73a0yWba7clUyC]（Management Material）技能专长。</p>"
     },
     "MY8ZnGBRtfjRRH83": {
       "name": "育婴世界出生 Crèche Born",
@@ -218,7 +218,7 @@
     },
     "PQrVuUxSORum5C5s": {
       "name": "船难幸存者 Shipwrecked",
-      "description": "<p>你因飞船失事被困在偏远星球，凭借生存训练或险境中的摸索挣扎求生。</p>\n<p>选择两项属性提升。一项必须为<strong>体质</strong>或<strong>感知</strong>，另一项为自选属性提升。</p>\n<p>你的生存技能和某项和你飞船失事地点相关的地形学识受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.tGIXuk0XeWmG04CX]（Survey Wildlife）技能专长。</p>"
+      "description": "<p>你曾被困在远离家园的偏远星球，物资匮乏。你凭借生存训练才活了下来，也可能是向同伴学习，或通过危险的试错掌握了生存技巧。</p>\n<p>选择两项属性提升。一项必须为<strong>体质</strong>或<strong>感知</strong>，另一项为自选属性提升。</p>\n<p>你的生存技能和某项和你飞船失事地点相关的地形学识受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.tGIXuk0XeWmG04CX]（Survey Wildlife）技能专长。</p>"
     },
     "QNLyqefno1BWBqfe": {
       "name": "领航者 Wayfinder",
@@ -309,7 +309,7 @@
       "description": "<p><strong>使用权限</strong> 你在《寻星者》第二版试玩测试期间游玩过<em>《寻星者》</em><em>试玩模组第1号《玻璃行星碎片》</em></p><hr /><p>尽管来自太空的力场碎片不断落下，你仍与韦丹教会合作，保护比尔南之泡行星上的遗迹。这段经历让你接触到了名为阿利泽石人的外星族群，他们帮助你稳定了行星的力场护盾，挽救了这颗行星。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>智力</strong>或<strong>魅力</strong>，另一项为自由属性提升。</p>\n<p>你受训于社群技能和物理科学学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.Bi0wdUuHsLxvSqrJ]技能专长。</p>"
     },
     "a0R3L7P9JnB4PssO": {
-      "description": "<p>你佩戴着一副恩布洛伊（Embroi）面具来隐藏面容，这标志着你与魔鬼有所勾结。你可能因一份恶魔鬼约而受困，或是自愿成为魔族大君的仆从。</p>\n<p>选择两项属性提升。一项必须为<strong>感知</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的宗教技能和魔鬼学识（Devil Lore）技能受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.NY2R5hNgdkSRPkTV]（Holy Talisman）技能专长。</p>",
+      "description": "<p>你佩戴着一副恩布洛伊（Embroi）面具来隐藏面容，这标志着你与魔鬼有所勾结。你可能因一份魔鬼契约而受困，或是自愿成为魔族大君的仆从。</p>\n<p>选择两项属性提升。一项必须为<strong>感知</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的宗教技能和魔鬼学识（Devil Lore）技能受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.NY2R5hNgdkSRPkTV]（Holy Talisman）技能专长。</p>",
       "name": "蒙面者 Masked"
     },
     "a3egX6gDtlW4vRYK": {
@@ -318,7 +318,7 @@
     },
     "a9Q4iIiAZryVWN27": {
       "name": "赏金猎人 Bounty Hunter",
-      "description": "<p>你靠捉拿不法之徒获利。也许你是为大义着想，希望通过逮捕罪犯来保护街巷的安宁，也许单纯只是为了赚钱。你追捕罪犯的技术可以轻易地用到冒险者的生涯中。</p>\n<p>选择两项属性提升。一项必须是<strong>力量</strong>或<strong>体质</strong>，另一项为自选属性提升。</p>\n<p>你在生存技能和法律学识技能上受训。你获得追迹老手（Experienced Tracker）技能专长。</p>"
+      "description": "<p>你追捕他人以赚取信用点。你可能为企业、军队或其他组织工作。</p>\n<p>选择两项属性提升。一项必须是<strong>力量</strong>或<strong>体质</strong>，另一项为自选属性提升。</p>\n<p>你在生存技能和黑街学识技能上受训。你获得追迹老手（Experienced Tracker）技能专长。</p>"
     },
     "aIWJ3q8C3laoCMRK": {
       "name": "阿基顿探险家 Akitonian Explorer",
@@ -342,7 +342,7 @@
     },
     "dVRDDjT4FOu6uLDR": {
       "name": "侦探 Detective",
-      "description": "<p>你以警务督察的身份解决案件，或是被富有的客户雇佣为私家侦探。成为冒险者或许是你要解决的下一个大谜团的一部分，但很可能是由于前一个案件带来的余波。</p>\n<p>选择两项属性提升。一项必须是<strong>智力</strong>或<strong>感知</strong>，另一项为自选属性提升。</p>\n<p>你在社群技能和黑社会学识技能上受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.X2jGFfLU5qI5XVot]（Streetwise）技能专长。</p>"
+      "description": "<p>你以警务督察的身份解决案件，或是作为私家侦探为各类客户承接秘密委托。成为冒险者或许是你要解决的下一个大谜团的一部分，但很可能是由于前一个案件带来的余波。</p>\n<p>选择两项属性提升。一项必须是<strong>智力</strong>或<strong>感知</strong>，另一项为自选属性提升。</p>\n<p>你在社群技能和黑社会学识技能上受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.X2jGFfLU5qI5XVot]（Streetwise）技能专长。</p>"
     },
     "dgrdnhtgFNn1IHgT": {
       "name": "狱铸侍从 Hellforged Squire",
@@ -350,7 +350,7 @@
     },
     "fJLv5UVXJKRWU22V": {
       "name": "梦境预言者 Dream Prophet",
-      "description": "<p>一个神秘的实体在你的梦中徘徊，给予你超越的瞬间。这些超自然的经历激励你寻求与这种力量更深的联系。你可能在利亚瓦拉织梦者（Liavaran Dreamers）的歌曲中找到意义，在新诞者（Newborn）的诞生找到中潜藏的宇宙变化的可能性，或拥抱其他某种宇宙之谜。</p>\n<p>选择两项属性提升。一项必须是<strong>感知</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的神秘技能和一项与你选择的形而上学主题相关的学识受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.lEgYzFHransLkSvI]（Schooled in Secrets）技能专长。</p>"
+      "description": "<p>一个神秘的实体在你的梦中徘徊，让你窥见超凡境界。这些超自然的经历激励你寻求与这种力量更深的联系。你可能在利亚瓦拉织梦者（Liavaran Dreamers）的歌曲中找到意义，在新诞者（Newborn）的诞生中发现潜藏的宇宙变化的可能性，或拥抱其他某种宇宙之谜。</p>\n<p>选择两项属性提升。一项必须是<strong>感知</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的神秘技能和一项与你选择的形而上学主题相关的学识受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.lEgYzFHransLkSvI]（Schooled in Secrets）技能专长。</p>"
     },
     "fQPesPjg4kIjw8dW": {
       "name": "诈骗者 Grifter",
@@ -410,11 +410,11 @@
     },
     "mbHpGR4qWdTvZI3u": {
       "name": "社交达人 Chatty",
-      "description": "<p>你在信息圈中如鱼得水，你的足迹遍布银河系各个角落，虚拟身份对你而言与现实身份同等重要。</p>\n<p>选择两项属性提升。一项必须为<strong>智力</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的社群技能和科技学识（Technology Lore）受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.Bi0wdUuHsLxvSqrJ]（Digital Ambassador）技能专长。</p>"
+      "description": "<p>你在信息圈中如鱼得水，你结识了来自银河各地的人，虚拟身份对你而言与现实身份同等重要。</p>\n<p>选择两项属性提升。一项必须为<strong>智力</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的社群技能和科技学识（Technology Lore）受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.Bi0wdUuHsLxvSqrJ]（Digital Ambassador）技能专长。</p>"
     },
     "nFOwTBLZmripsnj4": {
       "name": "代码携带者 Code Carrier",
-      "description": "<p>你或你的科技设备曾感染了无害但恼人的技术病毒，学会将其作为干扰手段传播给他人。</p>\n<p>选择两项属性提升。一项必须为<strong>体质</strong>或<strong>智力</strong>，另一项为自选属性提升。</p>\n<p>你的计算机技能和欺骗技能受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf]（Digital Diversion）技能专长。</p>"
+      "description": "<p>你或你的科技设备曾感染了无害但恼人的技术病毒，你已学会忽略它的影响，并将其传播给他人，以暂时分散注意力。</p>\n<p>选择两项属性提升。一项必须为<strong>体质</strong>或<strong>智力</strong>，另一项为自选属性提升。</p>\n<p>你的计算机技能和欺骗技能受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.0ZNErs9RICfOw1Nf]（Digital Diversion）技能专长。</p>"
     },
     "nMv0r7KVvNbEf652": {
       "name": "出租车司机 Taxi Driver",
@@ -426,7 +426,7 @@
     },
     "nUGvZ0Qz4907pzVd": {
       "name": "科技探秘者 Tech Delver",
-      "description": "<p>你参与过多次远古遗迹考察行动——可能是在阿巴隆的先驱者之城废墟，或是阿基顿星的归航者残骸，又或是阿沙林的世界碎片，抑或其他魔法科技复合体。你可能是受过专业训练的外星考古学家，也可能只是个走运的盗墓者。</p>\n<p>选择两项属性提升。一项必须为<strong>敏捷</strong>或<strong>智力</strong>，另一项为自选属性提升。</p>\n<p>你的计算机技能和某项和探险内容相关的学识（如异星遗迹学识）技能受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]通用专长，内容为和你探险内容相关的另一项。</p>"
+      "description": "<p>你是一支遗迹探险队的成员——可能是在阿巴隆的先驱者之城废墟，或是阿基顿星的归航者残骸，又或是阿沙林的世界碎片，抑或其他魔法科技复合体。你可能是受过专业训练的外星考古学家，也可能只是个走运的盗墓者。</p>\n<p>选择两项属性提升。一项必须为<strong>敏捷</strong>或<strong>智力</strong>，另一项为自选属性提升。</p>\n<p>你的计算机技能和某项和探险内容相关的学识（如异星遗迹学识）技能受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]通用专长，内容为一项与你探险内容相关的学识。</p>"
     },
     "nlNvfX6dt0Hk5uwo": {
       "name": "艾巴萨罗姆本地人 Absalom Local",
@@ -438,7 +438,7 @@
     },
     "nyqLruVq5fyZAzwF": {
       "name": "伊奥克斯土著 Eoxian Local",
-      "description": "<p>你成长于伊奥克斯，或曾在此地长居，深入了解这个坟墓世界的诡异习俗与颓靡文化。或许你是生者大厅的幸存者，亦或是奥秘馆的交换生，在协约港学习死灵魔法，又或是某个志愿死灵妖的学徒。</p>\n<p>选择两项属性提升。其中一项必须是<strong>魅力</strong>或<strong>体质</strong>，另一项自选。</p>\n<p>你在社群技能和伊奥克斯人（Eoxian）学识技能上受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.X2jGFfLU5qI5XVot]技能专长。</p>"
+      "description": "<p>你成长于伊奥克斯，或曾在此地长居，深入了解这个坟墓世界的诡异习俗与颓靡文化。或许你是生者大厅的幸存者，亦或是奥秘馆的交换生，在协约港学习死灵魔法，又或是一位怀抱抱负的死灵妖学徒，希望获得永生的机会。</p>\n<p>选择两项属性提升。其中一项必须是<strong>魅力</strong>或<strong>体质</strong>，另一项自选。</p>\n<p>你在社群技能和伊奥克斯人（Eoxian）学识技能上受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.X2jGFfLU5qI5XVot]技能专长。</p>"
     },
     "oRys6HIxqrpVORT4": {
       "name": "时尚达人 Fashionista",
@@ -478,7 +478,7 @@
     },
     "rxFc5d1lN2wHO6m2": {
       "name": "清道夫 Cleaner",
-      "description": "<p>你知道如何在任何旁观者有机会成为证人之前，彻底清除犯罪的所有痕迹。无论你是为正规企业如阿巴达尔集团（Abadar Corp）在打过黑工，还是替帮派或犯罪头目卖命起家，你都深谙如何将犯罪现场收拾得不留痕迹。</p>\n<p>选择两项属性提升。一项必须是<strong>敏捷</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的欺骗技能和黑道学识受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.oVSrZDRpHZUoiXIy]技能专长。</p>"
+      "description": "<p>你知道如何彻底清除犯罪的所有痕迹。无论你是为正规企业如阿巴达尔集团（Abadar Corp）打过黑工，还是替帮派或犯罪头目卖命起家，你都深谙如何将犯罪现场收拾得不留痕迹。</p>\n<p>选择两项属性提升。一项必须是<strong>敏捷</strong>或<strong>魅力</strong>，另一项为自选属性提升。</p>\n<p>你的欺骗技能和黑道学识受训。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.oVSrZDRpHZUoiXIy]技能专长。</p>"
     },
     "tWyb6ii74p8TpjLJ": {
       "name": "协会斥候 Society Scout",
@@ -494,7 +494,7 @@
     },
     "wE9FNBorVHtua3xD": {
       "name": "时空难民 Timelost",
-      "description": "<p>你并非属于当前的时间线。或许是因为某种原因，你从时间的连续性中脱离了出来；又或者你曾尝试进行时间旅行，却最终被困在了一个本不应存在的时空节点。这种异常的时空错位使你获得了独特的视角与能力。</p>\n<p>选择两项自选属性提升。</p>\n<p>你的社群技能和历史学识（History Lore）受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]（Dubious Knowledge）技能专长。</p>"
+      "description": "<p>你并非属于当前的时间线。或许是因为某种原因，你从时间的连续性中脱离了出来；又或者你曾尝试进行时间旅行，却最终被困在了一个不属于你的时代。</p>\n<p>选择两项自选属性提升。</p>\n<p>你的社群技能和历史学识（History Lore）受训。你获得@UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]（Dubious Knowledge）技能专长。</p>"
     },
     "xHRLGLF04QDmVbdr": {
       "name": "法外狂徒 Outlaw",
@@ -506,7 +506,7 @@
     },
     "xqAkHXzSTBSXvUmK": {
       "name": "机体天敌 Robot Adversary",
-      "description": "<p>你从寻星者协会在永恒城发现的数据库中认出了令人胆寒的\"辉耀狼蛛（illumantula）\"，并深知它以及创造它的先驱者文明对协约世界构成的威胁。尽管你自知无法独自击败如此可怕的造物（也但愿永远不必尝试！），但你已受训专精对抗机体及其他著名的先驱者的科技生物。</p>\n<p>选择两项属性提升。一项必须是<strong>力量</strong>或<strong>敏捷</strong>，另一项为自选属性提升。</p>\n<p>你选择计算机或手艺技能之一，以及机器人学识（Robot Lore）技能受训。如果你选择计算机，则获得@UUID[Compendium.sf2e-anachronism.feats.Item.ifQiKhl0Gt2CM7i9]（Phreaker）技能专长。如果你选择手艺，则获得@UUID[Compendium.pf2e.feats-srd.Item.ASy9AKEIRxPYUi5o]（Quick Repair）技能专长。</p>"
+      "description": "<p>你从寻星者协会在永恒城发现的数据库中认出了令人胆寒的\"辉耀狼蛛（illumantula）\"，并深知它以及创造它的先驱者文明对协约世界构成的威胁。尽管你自知无法独自击败如此可怕的造物（也但愿永远不必尝试！），但你已受训专精对抗机器人及其他已知由先驱者创造的科技生物。</p>\n<p>选择两项属性提升。一项必须是<strong>力量</strong>或<strong>敏捷</strong>，另一项为自选属性提升。</p>\n<p>你选择计算机或手艺技能之一，以及机器人学识（Robot Lore）技能受训。如果你选择计算机，则获得@UUID[Compendium.sf2e-anachronism.feats.Item.ifQiKhl0Gt2CM7i9]（Phreaker）技能专长。如果你选择手艺，则获得@UUID[Compendium.pf2e.feats-srd.Item.ASy9AKEIRxPYUi5o]（Quick Repair）技能专长。</p>"
     },
     "xrnataVvswQRI0Uw": {
       "name": "闪晶石救星 Shimmerstone Savior",
@@ -541,7 +541,7 @@
       "description": "<p>你在艾巴萨罗姆空间站底层的尖峰区深处长大。尽管生活有时艰难，你也常常违反有关个人财产的法律，你还是逐渐爱上了尖峰区和那里紧密团结的社群。如今，你是一名寻星者——报酬丰厚，结交了身居高位的朋友，最富裕的街区和最豪华的场所也向你敞开大门。你再也不必靠扒窃、顺手牵羊或策划盗窃来糊口，但积习难改！好在，你的这些技能有着广泛的职业用途……</p>\n<p>选择两项属性提升。其中一项必须用于<strong>敏捷</strong>或<strong>魅力</strong>，另一项为自由属性提升。</p>\n<p>你受训于贼活技能，以及艾巴萨罗姆空间站学识或黑社会学识技能中的一项。你获得@UUID[Compendium.pf2e.feats-srd.Item.hVZbnsDuXihggylt]{妙手空空}技能专长。</p>"
     },
     "9JIR9SAAvp0Oj0SW": {
-      "name": "纪录片制作者 Documentarian",
+      "name": "纪录片工作者 Documentarian",
       "description": "<p>一幅图片胜过千言万语，而一段影像则能讲述史诗般的故事。你总是在寻找能够呈现宏大故事的细微瞬间，无论是拍下完美的镜头，还是在剪辑室里提炼意义。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>感知</strong>或<strong>魅力</strong>，另一项为自由属性提升。</p>\n<p>你受训于表演技能，以及一项由你选择、与你研究对象有关的学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.XqF4tIIUWvWI00cC]技能专长。</p>"
     },
     "C31476Mc8HXz5m9L": {
@@ -561,11 +561,11 @@
       "description": "<p>无论你是使用喷气背包的天才，还是空降战场的老兵，你都已习惯在空中战斗，并利用喷气推进取得优势。即使你还在攒钱购买自己的喷气背包，你也已有足够的经验，能像王牌驾驶员操纵的星舰一样翱翔。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>敏捷</strong>或<strong>智力</strong>，另一项为自由属性提升。</p>\n<p>你受训于特技技能和科技学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.bE6Xd0d2319oUpOE]技能专长。</p>"
     },
     "FUuRaAtFG61NhG6g": {
-      "name": "开源支持者 Open-Sourcer",
+      "name": "开源派 Open-Sourcer",
       "description": "<p>你相信信息应当自由流通。无论你为此不遗余力地编写或支持开源软件，还是参与非法盗版，你都坚信资本主义设置的门槛有悖于技术进步。无论你的动机来自反资本主义理想、三贤一的慷慨精神，还是单纯无力购买价格虚高的软件套装，你都磨练了在信息圈中搜寻实用工具和信息数据库的本领。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>智力</strong>或<strong>感知</strong>，另一项为自由属性提升。</p>\n<p>你受训于计算机技能和信息圈学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.6ijYGQdQHCdFaDmL]技能专长。</p>"
     },
     "J65srCx61CiaWaAs": {
-      "name": "野战军需官 Field Quartermaster",
+      "name": "战地军需官 Field Quartermaster",
       "description": "<p>你负责让偏远或危险地区的装备随时可用、运转正常。在恶劣条件来袭时，能否将自身事务与装备安排妥当，可能决定生死。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>力量</strong>或<strong>智力</strong>，另一项为自由属性提升。</p>\n<p>你受训于生存技能和工程学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.tcKDias6YeWkkUhz]技能专长。</p>"
     },
     "LpsKVCJXBSVKALBO": {
@@ -573,7 +573,7 @@
       "description": "<p>你靠向危险人物提供危险物品谋生。将一批批昂贵军火运到需要它们的地方，往往意味着一旦第三方介入，你就得抓起能带走的东西赶紧逃跑。你已经熟练掌握了成为现场最大威胁这门毫不含蓄的技巧，而这通常只需让人明白：紧要关头，你并不怕亲自使用自己卖的东西。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>力量</strong>或<strong>魅力</strong>，另一项为自由属性提升。</p>\n<p>你受训于威吓技能和战争学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.zdycsO9Z0wHBZ17k]技能专长。</p>"
     },
     "ODd1z1afGoqryDpt": {
-      "name": "脱身司机 Getaway Driver",
+      "name": "接应车手 Getaway Driver",
       "description": "<p>你曾有一项简单的工作：以最快的速度，让同伴尽可能远离危险。无论你是保护要人的安保队员，还是等待其他成员归来的劫案司机，你都知道怎样迅速、安全地与仍在事发中的犯罪现场拉开尽可能远的距离，即使这意味着途中必须弃车换乘。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>敏捷</strong>或<strong>智力</strong>，另一项为自由属性提升。</p>\n<p>你受训于手艺技能和载具学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.EQ0LOA1TTAv82qsJ]技能专长。</p>"
     },
     "S9Y8W5pjNCutGxTE": {
@@ -605,7 +605,7 @@
       "description": "<p>你热爱寻星者协会成员的身份，并深深珍视与其他寻星者结下的情谊。受这份情谊、自己的道德准则、正义感，或同伴齐格维吉克斯的公开行动所鼓舞，你为改善所有寻星者的处境而奔走。有时，你会游说改善工作条件与支持体系；有时，你会志愿投身自己认为能带来积极影响的事业和服务；有时，你会为有需要的寻星者治疗伤势、协助康复，或让他们靠在自己充满关怀的肩膀上。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>感知</strong>或<strong>魅力</strong>，另一项为自由属性提升。</p>\n<p>你受训于交涉或医疗技能中的一项，以及法律学识技能。如果选择交涉，你获得@UUID[Compendium.pf2e.feats-srd.Item.6ON8DjFXSMITZleX]{无需惊慌}技能专长。如果选择医疗，你获得@UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{战地医疗}技能专长。</p>"
     },
     "ZvqUMBfHubnm6d71": {
-      "name": "战斗工程兵 Combat Engineer",
+      "name": "战斗工程师 Combat Engineer",
       "description": "<p>你是一名受过训练的士兵，负责让机械装备和合成同伴保持完好、正常运作。你在战斗中保持冷静，以便更好地完成目标。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>力量</strong>或<strong>智力</strong>，另一项为自由属性提升。</p>\n<p>你受训于手艺技能和战争学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.pQOZBfwofLcFdZwx]技能专长。</p>"
     },
     "cKWwz7IvcwLxHhGF": {
@@ -629,15 +629,15 @@
       "description": "<p>你早已学会在一里之外认出游客，并灵巧地替他们卸下累赘的身外之物——毕竟，轻装上路才好！</p>\n<p>选择两项属性提升。其中一项必须用于<strong>敏捷</strong>或<strong>智力</strong>，另一项为自由属性提升。</p>\n<p>你受训于贼活技能和黑社会学识技能。你获得@UUID[Compendium.pf2e.feats-srd.Item.jDdOqFmZLwE4dblQ]{扒手}技能专长。</p>"
     },
     "mz8tXtcGFPmZDMg5": {
-      "name": "编程员 Coder",
+      "name": "编程师 Coder",
       "description": "<p>你精通计算机语言，编写程序对你而言就像他人写文章一样自然。当别人还只能使用或操作现有应用程序时，你已经能够从空白的终端开始创造它们。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>智力</strong>或<strong>感知</strong>，另一项为自由属性提升。</p>\n<p>你受训于计算机技能和科技学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.8tgfcqoK69RYv9gh]技能专长。</p>"
     },
     "n606pocS6pApDoJs": {
-      "name": "废料场拾荒者 Junkyard Picker",
+      "name": "废品场拾荒者 Junkyard Picker",
       "description": "<p>看到别人扔掉还大有用处的废品，总让你难受得胃里翻腾，甚至比你常去翻找宝贝的垃圾箱散发的恶臭还要难以忍受。你正是用这些宝贝，拼装出自己的再利用科技设备。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>力量</strong>或<strong>智力</strong>，另一项为自由属性提升。</p>\n<p>你受训于手艺技能和废品学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.yWXeUnosRKOKkPLU]技能专长。</p>"
     },
     "q0ZL3w9IrpiLQMe8": {
-      "name": "汽车迷 Gearhead",
+      "name": "机械迷 Gearhead",
       "description": "<p>你热爱汽车。诚然，许多人都喜爱自己的那辆车，但对你而言，这份热爱远不止于此。汽车是你一生的挚爱，而你的专业知识可能已让你成为职业车手、维修站工程师，或深受当地人信赖的机械师。</p>\n<p>选择两项属性提升。其中一项必须用于<strong>敏捷</strong>或<strong>智力</strong>，另一项为自由属性提升。</p>\n<p>你受训于手艺技能和载具学识技能。你获得@UUID[Compendium.sf2e-anachronism.feats.Item.Mq9lERNh4htB5qi6]技能专长。</p>"
     },
     "rWIhwo44IIJ7x1Py": {

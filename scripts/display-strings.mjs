@@ -82,7 +82,7 @@ export const DISPLAY_STRINGS = Object.freeze(Object.fromEntries([
   ],
   [
     "within your quantum field",
-    "你的量子场内"
+    "你的量子场域内"
   ],
   [
     "special (see description)",
@@ -166,7 +166,7 @@ export const DISPLAY_STRINGS = Object.freeze(Object.fromEntries([
   ],
   [
     "1 creature or object in your quantum field",
-    "你的量子场内1个生物或物体"
+    "你的量子场域内1个生物或物体"
   ],
   [
     "1 creature or object with the tech trait",
@@ -1754,7 +1754,7 @@ export const DISPLAY_STRINGS = Object.freeze(Object.fromEntries([
   ],
   [
     "1 creature that is undead or otherwise has void healing",
-    "1个亡灵生物，或以其他方式具有虚空治疗的生物"
+    "1个亡灵生物，或以其他方式具有虚能治疗的生物"
   ],
   [
     "1 or more rounds (see below)",
@@ -1834,7 +1834,7 @@ export const DISPLAY_STRINGS = Object.freeze(Object.fromEntries([
   ],
   [
     "Arcana (expert), Occultism (expert), or Religion (expert)",
-    "奥秘（专家）、神秘（专家）或宗教（专家）"
+    "奥法（专家）、神秘（专家）或宗教（专家）"
   ],
   [
     "Religion",
@@ -1858,7 +1858,7 @@ export const DISPLAY_STRINGS = Object.freeze(Object.fromEntries([
   ],
   [
     "Medicine, Society",
-    "医药、社群"
+    "医疗、社群"
   ],
   [
     "Blowhole",
@@ -1898,7 +1898,7 @@ export const DISPLAY_STRINGS = Object.freeze(Object.fromEntries([
   ],
   [
     "Execute (Vitality)",
-    "处死一指（活力） Execute (Vitality)"
+    "处死一指（命能） Execute (Vitality)"
   ],
   [
     "Telekinetic Projectile (Bludgeoning)",
@@ -1942,7 +1942,7 @@ export const DISPLAY_STRINGS = Object.freeze(Object.fromEntries([
   ],
   [
     "Effect: Raise a Shield",
-    "效果：举起盾牌 Raise a Shield Effect: Raise a Shield"
+    "效果：举起盾牌 Effect: Raise a Shield"
   ],
   [
     "Effect: Sandstorm Veil",
@@ -2923,7 +2923,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Hit Record"
       ],
-      "name": "开始录制 Hit Record"
+      "name": "录制达人 Hit Record"
     }
   ],
   [
@@ -3013,7 +3013,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Living Missile"
       ],
-      "name": "活体导弹 Living Missile"
+      "name": "活体飞弹 Living Missile"
     }
   ],
   [
@@ -3022,7 +3022,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Open-Source Research"
       ],
-      "name": "开源检索 Open-Source Research"
+      "name": "开源研究 Open-Source Research"
     }
   ],
   [
@@ -3094,7 +3094,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Principled Packer"
       ],
-      "name": "条理打包者 Principled Packer"
+      "name": "规整打包 Principled Packer"
     }
   ],
   [
@@ -3148,7 +3148,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Quick Starter"
       ],
-      "name": "快速启动 Quick Starter"
+      "name": "快速点火 Quick Starter"
     }
   ],
   [
@@ -3301,7 +3301,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Akiton Battery Hack"
       ],
-      "name": "阿基顿电池改造 Akiton Battery Hack"
+      "name": "阿基顿电池骇入 Akiton Battery Hack"
     }
   ],
   [
@@ -3337,7 +3337,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Cyberbully"
       ],
-      "name": "网络霸凌者 Cyberbully"
+      "name": "网络霸凌 Cyberbully"
     }
   ],
   [
@@ -3382,7 +3382,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Junk Cobbler"
       ],
-      "name": "废料拼装者 Junk Cobbler"
+      "name": "废品匠人 Junk Cobbler"
     }
   ],
   [
@@ -3400,7 +3400,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Pit Stop"
       ],
-      "name": "行进维修 Pit Stop"
+      "name": "进站维修 Pit Stop"
     }
   ],
   [
@@ -3427,7 +3427,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Fabricator"
       ],
-      "name": "制造师 Fabricator"
+      "name": "制造者 Fabricator"
     }
   ],
   [
@@ -4156,7 +4156,7 @@ export const DISPLAY_GRANTED_NAMES = Object.freeze(Object.fromEntries([
       "expectedNames": [
         "Programming Languages"
       ],
-      "name": "编程语言 Programming Language Programming Languages"
+      "name": "编程语言 Programming Language"
     }
   ],
   [

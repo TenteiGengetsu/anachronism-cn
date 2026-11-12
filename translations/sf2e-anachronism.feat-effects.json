@@ -19,7 +19,7 @@
     },
     "1RrwaWFGv4yI0T07": {
       "name": "效果: 强化甲壳 Effect: Intensify Shell",
-      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.i3g1VSl1fnDgZLUH]赋予</p>\n<p>你的AC获得+2状态加值，并获得物理伤害抗力10，但你的速度承受–10尺状态减值。</p>"
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.i3g1VSl1fnDgZLUH]赋予</p>\n<p>你的AC获得+2状态加值，并获得物理伤害抗力10，但你的各项速度承受–10尺状态减值。</p>"
     },
     "22BLEySiAaQwoO6f": {
       "name": "效果: 细胞再生 Effect: Cellular Regeneration",
@@ -551,7 +551,7 @@
     },
     "8HDUnGy6hfvj6p37": {
       "name": "效果：念动冲刺 Effect: Telekinetic Sprint",
-      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.r1bUsyDwcwuN3MUG]赋予</p>\n<p>你的速度获得+5尺状态加值。</p>"
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.actions.Item.r1bUsyDwcwuN3MUG]赋予</p>\n<p>你的各项速度获得+5尺状态加值。</p>"
     },
     "Ac1PiEOOGQQu8DrW": {
       "name": "效果：决心不减 Effect: Determination Undimmed",
@@ -779,7 +779,7 @@
     },
     "mKWPyxaEKvO5RrZx": {
       "name": "效果：腌菜核音乐（大成功） Effect: Picklecore Music (Critical Success)",
-      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.7Lfk5mDqLNQYhROJ]赋予</p>\n<p>你的速度获得+5尺状态加值。</p>"
+      "description": "<p>由@UUID[Compendium.sf2e-anachronism.feats.Item.7Lfk5mDqLNQYhROJ]赋予</p>\n<p>你的各项速度获得+5尺状态加值。</p>"
     },
     "mmT4wCspLVjiGnND": {
       "name": "效果：启示录斩击 Effect: Apocalypse Smite",

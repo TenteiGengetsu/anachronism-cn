@@ -305,7 +305,7 @@
     },
     "5OYZcNFkfTO8lGca": {
       "name": "炸弹藤 String-of-Bombs",
-      "publicNotes": "<p>炸弹藤是一种美丽但具有爆炸性的多肉植物，在协约世界的许多星舰上作为危险的乘客被发现。原产于卡斯卓韦的热带雨林，炸弹藤的爆炸性名称来源于其藤蔓上悬挂的微微发光的橙色豆荚。这些豆荚是为了防御卡斯卓韦的巨型掠食者而进化出来的防御机制，因为刺和藤蔓被证明是不够的威慑。由于植物的爆炸性豆荚直到完全成熟才会发育，炸弹藤看起来像其他无害的多肉植物（包括与之密切相关且无害的太阳藤），可能会被误认为是低维护的飞船绿化植物。许多园丁在它真正在他们面前爆炸之前，都没有意识到他们正在培育的危险。</p>\n<p>炸弹藤要到完全成熟才会长出爆炸豆荚，因此看上去与其他无害多肉植物相似，包括与其亲缘相近且无害的太阳藤（string-of-suns），有时会被当作无需太多照料的船上绿植。许多园丁一直没意识到自己养的是何等危险之物，直到它真的在自己面前炸开。</p><hr /><h2>侵扰生物</h2><p>入侵生物困扰着艾巴萨罗姆空间站，就算投入最专注的清剿行动，也难以将其消灭。无论是藏身于幽灵层，还是偷渡上星舰，这些顽强的侵扰生物始终是这座庞大而多元的空间站面临的问题。</p>",
+      "publicNotes": "<p>炸弹藤是一种美丽但具有爆炸性的多肉植物，在协约世界的许多星舰上作为危险的乘客被发现。原产于卡斯卓韦的热带雨林，炸弹藤的爆炸性名称来源于其藤蔓上悬挂的微微发光的橙色豆荚。这些豆荚是为了防御卡斯卓韦的巨型掠食者而进化出来的防御机制，因为刺和藤蔓被证明是不够的威慑。</p>\n<p>炸弹藤要到完全成熟才会长出爆炸豆荚，因此看上去与其他无害多肉植物相似，包括与其亲缘相近且无害的太阳藤（string-of-suns），有时会被当作无需太多照料的船上绿植。许多园丁一直没意识到自己养的是何等危险之物，直到它真的在自己面前炸开。</p><hr /><h2>侵扰生物</h2><p>入侵生物困扰着艾巴萨罗姆空间站，就算投入最专注的清剿行动，也难以将其消灭。无论是藏身于幽灵层，还是偷渡上星舰，这些顽强的侵扰生物始终是这座庞大而多元的空间站面临的问题。</p>",
       "items": [
         {
           "id": "eB4iFiBzOjlQyOoI",
@@ -457,7 +457,7 @@
           "id": "QlJDOOaTeuyQVxIn",
           "expectedName": "Assault Attaché Case",
           "expectedDescription": "<p>A phase shield is an intricate but durable technological device often worn strapped to a limb or belt that projects a protective hardlight barrier when deployed. Phase shields are translucent and tinted, with a wide variety of fully customizable colors and image projectors. Many wielders choose an image of a favorite celebrity, loved one, or pleasant scenery to bolster their fighting spirit in a dire situation.</p>",
-          "description": "<p>绑在肢体上的相位盾是一种复杂但可靠的科技装置，他们在展开时会投射出保护性的光盾屏障。相位盾半透明且可以着色，拥有可以高度定制的色彩选项和图像投影。许多人会选择名人、爱人或者美景的图像投影，以在山穷水尽之时鼓舞士气。</p>",
+          "description": "<p>相位盾是一种复杂但耐用的科技装置，通常绑在肢体或腰带上，展开时会投射出保护性的硬光屏障。相位盾半透明且可以着色，拥有可以高度定制的色彩选项和图像投影。许多人会选择名人、爱人或者美景的图像投影，以在山穷水尽之时鼓舞士气。</p>",
           "name": "突击公文包"
         },
         {
@@ -718,7 +718,7 @@
     },
     "CdetzaXWMajYsFaM": {
       "name": "败蚁猎蚁 Terminite Hunter",
-      "publicNotes": "<p>当败蚁的故事开始流传时，它们最初被视作阴森鬼祟的食腐者。待到寻求刺激的人开始为了取乐或研究而猎杀这些生物时，一种新型败蚁几乎在一夜之间出现了：败蚁猎蚁。与败蚁一群中体型较小的工蚁构件相比，猎蚁远为嗜血。它们不会从物件和地形中采撷微粒，而是强到足以从活物身上撕裂下大块的现实。</p><hr /><h2>侵扰生物</h2><p>入侵生物困扰着艾巴萨罗姆空间站，就算投入最专注的清剿行动，也难以将其消灭。无论是藏身于幽灵层，还是偷渡上星舰，这些顽强的侵扰生物始终是这座庞大而多元的空间站面临的问题。</p>",
+      "publicNotes": "<p>当败蚁的故事开始流传时，它们最初被视作阴森鬼祟的食腐者。待到寻求刺激的人开始为了取乐或研究而猎杀这些生物时，一种新型败蚁几乎在一夜之间出现了：败蚁猎蚁。与败蚁蚁群中体型较小的工蚁相比，猎蚁远为嗜血。它们不会从物件和地形中采撷微粒，而是强到足以从活物身上撕裂下大块的现实。</p><hr /><h2>侵扰生物</h2><p>入侵生物困扰着艾巴萨罗姆空间站，就算投入最专注的清剿行动，也难以将其消灭。无论是藏身于幽灵层，还是偷渡上星舰，这些顽强的侵扰生物始终是这座庞大而多元的空间站面临的问题。</p>",
       "items": [
         {
           "id": "G2xLmJcEg4Z61FSW",
@@ -812,7 +812,7 @@
       },
       "cnText_system_details_reset": {
         "expected": "<p>The force field deactivates and the trap resets after 1 minute.</p>",
-        "text": "<p>力场停用，陷阱在1分钟后重置。</p>"
+        "text": "<p>1分钟后，力场停用且陷阱重置。</p>"
       },
       "cnText_prototypeToken_name": {
         "expected": "Repulsing Force Field",
@@ -1013,7 +1013,7 @@
           "expectedDescription": "<p><strong>Trigger</strong> A creature within the room ends its turn</p><hr /><p><strong>Effect</strong> The trap makes a nanite Strike against the triggering creature.</p>"
         }
       ],
-      "name": "解离室 Disintegration Chamber",
+      "name": "解离密室 Disintegration Chamber",
       "cnText_system_details_description": {
         "expected": "<p>When sensors detect movement in the trapped room, the doors seal shut, and four wall apertures open, releasing disintegrating nanites into the room.</p>",
         "text": "<p>传感器侦测到陷阱房间内的移动时，房门密封，墙上四个开孔打开，向房内释放解离纳米机器。</p>"
@@ -1036,7 +1036,7 @@
       },
       "cnText_prototypeToken_name": {
         "expected": "Disintegration Chamber",
-        "text": "解离室"
+        "text": "解离密室"
       }
     },
     "OqnB7YdmnVn8sAJo": {
@@ -1087,20 +1087,20 @@
           "expectedName": "Analyze Target",
           "name": "分析目标",
           "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
-          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能察觉这种情况。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以将至多10个生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以将任意数量的生物作为目标。</p>"
         },
         {
           "id": "W1SY3suyXYJ6YoE5",
           "expectedName": "Detect Magic",
           "name": "侦测魔法",
-          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同不精确感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
+          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同模糊感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
           "expectedDescription": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         {
           "id": "rP8KJvouXJK3R25J",
           "expectedName": "Heal",
           "name": "治疗术",
-          "description": "<p>你引导命能来治疗活物或伤害不死生物。如果目标是自愿的活物，便为其恢复1d8生命值。如果目标是不死生物，便对其造成等量命能伤害，且其可以进行基础强韧豁免。施放本法术时花费的动作数，决定目标、射程、区域及其他参数。</p>\n<p><span class=\"action-glyph\">1</span>该法术的射程为接触。</p>\n<p><span class=\"action-glyph\">2</span>（专注）法术射程为30尺。如果治疗活物，恢复的生命值增加8。</p>\n<p><span class=\"action-glyph\">3</span>（专注）你在@Template[emanation|distance:30]内释放命能，以爆发范围内所有活物与不死生物为目标。</p>\n<hr />\n<p><strong>升阶（+1）</strong>治疗量或伤害增加1d8，且两动作版本的额外治疗量增加8。</p>",
+          "description": "<p>你引导命能来治疗活物或伤害不死生物。如果目标是自愿的活物，便为其恢复1d8生命值。如果目标是不死生物，便对其造成等量命能伤害，且其可以进行基础强韧豁免。施放本法术时花费的动作数，决定目标、射程、区域及其他参数。</p>\n<p><span class=\"action-glyph\">1</span>该法术的射程为接触。</p>\n<p><span class=\"action-glyph\">2</span>（专注）法术射程为30尺。如果治疗活物，恢复的生命值增加8。</p>\n<p><span class=\"action-glyph\">3</span>（专注）你在@Template[emanation|distance:30]内释放命能，以该弥漫范围内所有活物与不死生物为目标。</p>\n<hr />\n<p><strong>升阶（+1）</strong>治疗量或伤害增加1d8，且两动作版本的额外治疗量增加8。</p>",
           "expectedDescription": "<p>You channel vital energy to heal the living or damage the undead. If the target is a willing living creature, you restore 1d8 Hit Points. If the target is undead, you deal that amount of vitality damage to it, and it gets a basic Fortitude save. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.</p>\n<p><span class=\"action-glyph\">1</span> The spell has a range of touch.</p>\n<p><span class=\"action-glyph\">2</span> (concentrate) The spell has a range of 30 feet. If you're healing a living creature, increase the Hit Points restored by 8.</p>\n<p><span class=\"action-glyph\">3</span> (concentrate) You disperse vital energy in a @Template[emanation|distance:30]. This targets all living and undead creatures in the burst.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.</p>",
           "extraFields": [
             {
@@ -1126,7 +1126,7 @@
           "id": "E5TOf71hDj3HvHds",
           "expectedName": "Prestidigitation",
           "name": "魔法伎俩",
-          "description": "<p>最简单的魔法听从你的指令。只要持续维持法术，你就能产生简单的魔法效应。每次维持时，你可以选择以下四个选项之一。</p><ul><li><strong>烹饪</strong>冷却、加热或调味1磅非活体材料。</li><li><strong>抬升</strong>将一件无人持有、负载为轻型或更低的物体缓缓抬离地面1尺。</li><li><strong>制造</strong>以凝结的魔法物质创造一个临时物体，其负载可忽略不计。该物体外观粗糙、不自然，且极其脆弱，不能用作工具、武器、施法载体或法术开销。</li><li><strong>整理</strong>为一件负载为轻型或更低的物体染色、清洁或弄脏。专注10轮可以影响一个1负载的物体；对于更大的物体，每负载需要1分钟。</li></ul><p><em>魔法伎俩</em>不能造成伤害或不利状态。对物体的任何实际改变（上述说明以外的改变），都只在你持续维持法术期间存在。</p>",
+          "description": "<p>最简单的魔法听从你的指令。只要持续维持法术，你就能产生简单的魔法效应。每次维持时，你可以选择以下四个选项之一。</p><ul><li><strong>烹饪</strong>冷却、加热或调味1磅非活体材料。</li><li><strong>抬升</strong>将一件无人照管、负载为轻型或更低的物体缓缓抬离地面1尺。</li><li><strong>制造</strong>以凝结的魔法物质创造一个临时物体，其负载可忽略不计。该物体外观粗糙、不自然，且极其脆弱，不能用作工具、武器、施法载体或法术开销。</li><li><strong>整理</strong>为一件负载为轻型或更低的物体染色、清洁或弄脏。专注10轮可以影响一个1负载的物体；对于更大的物体，每负载需要1分钟。</li></ul><p><em>魔法伎俩</em>不能造成伤害或不利状态。对物体的任何实际改变（上述说明以外的改变），都只在你持续维持法术期间存在。</p>",
           "expectedDescription": "<p>The simplest magic does your bidding. You can perform simple magical effects for as long as you Sustain the spell. Each time you Sustain the spell, you can choose one of four options.</p><ul><li><strong>Cook</strong> Cool, warm, or flavor 1 pound of nonliving material.</li><li><strong>Lift</strong> Slowly lift an unattended object of light Bulk or less 1 foot off the ground.</li><li><strong>Make</strong> Create a temporary object of negligible Bulk, made of congealed magical substance. The object looks crude and artificial and is extremely fragile-it can't be used as a tool, weapon, or locus or cost for a spell.</li><li><strong>Tidy</strong> Color, clean, or soil an object of light Bulk or less. You can affect an object of 1 Bulk with 10 rounds of concentration, and a larger object at 1 minute per Bulk.</li></ul><p><em>Prestidigitation</em> can't deal damage or cause adverse conditions. Any actual change to an object (beyond what is noted above) persists only as long as you Sustain the spell.</p>"
         },
         {
@@ -1309,7 +1309,7 @@
           "expectedName": "Motion Sense",
           "name": "运动感知",
           "expectedDescription": "<p>A thaumacyte can sense nearby creatures through vibration and air or water movement.</p>",
-          "description": "<p>奇术胞能在所列范围内以模糊感官通过空气或水中因生物移动产生的震动感知附近生物。</p>"
+          "description": "<p>奇术胞能通过振动以及空气或水的流动感知附近生物。</p>"
         },
         {
           "id": "yCTFlxWU7BE6aGwU",
@@ -1398,14 +1398,14 @@
     },
     "UoHLshDZHt3RacNq": {
       "name": "赏金猎人 Bounty Hunter",
-      "publicNotes": "<p>无论是追捕逃犯、逃跑的债务人还是浪子继承人，赏金猎人只要钱到位就会无情地追逐猎物。虽然许多目标被通缉“不论死活”，或者干脆就是“死”，但下方的猎人擅长使用其磁力绳球和电击武器将目标活捉回来。</p><h2>雇佣兵</h2><p>只要万能的信用点能买到权力、安全和舒适，它就同样能从走投无路、不讲道理、冷酷无情的人那里买到暴力。艾巴萨罗姆空间站中有数不清的佣兵公司和自由雇佣兵，他们都热切地向出价最高者提供服务。</p>\n<p>有些佣兵拥有道德准则或荣誉感，限制了他们能够接受的合同，而艾巴萨罗姆的法律也严格限制准军事公司可以向成员分派的工作。当然，如果知道该去哪里寻找，仍能在空间站阴暗的角落发现滋生的暗杀勾当，以及更恶劣的行径。</p>\n<p>雇佣兵并非总是特工或士兵。有时，他们是狡猾的施法者、强大的恒星武士或阴险的使节。赏金猎人是在空间站出没的最常见佣兵类别之一。下方的赏金猎人是追捕危险亡命徒的菁英敌人示例，而帮派分子的数据也能用来代表较低等级的佣兵。</p>",
+      "publicNotes": "<p>无论是追捕逃犯、逃跑的债务人还是浪子继承人，赏金猎人只要钱到位就会无情地追逐猎物。虽然许多目标被通缉“不论死活”，或者干脆就是“死”，但下方的猎人擅长使用其磁力流星索和电击武器将目标活捉回来。</p><h2>雇佣兵</h2><p>只要万能的信用点能买到权力、安全和舒适，它就同样能从走投无路、不讲道理、冷酷无情的人那里买到暴力。艾巴萨罗姆空间站中有数不清的佣兵公司和自由雇佣兵，他们都热切地向出价最高者提供服务。</p>\n<p>有些佣兵拥有道德准则或荣誉感，限制了他们能够接受的合同，而艾巴萨罗姆的法律也严格限制准军事公司可以向成员分派的工作。当然，如果知道该去哪里寻找，仍能在空间站阴暗的角落发现滋生的暗杀勾当，以及更恶劣的行径。</p>\n<p>雇佣兵并非总是特工或士兵。有时，他们是狡猾的施法者、强大的恒星武士或阴险的使节。赏金猎人是在空间站出没的最常见佣兵类别之一。下方的赏金猎人是追捕危险亡命徒的菁英敌人示例，而帮派分子的数据也能用来代表较低等级的佣兵。</p>",
       "items": [
         {
           "id": "VEwjzuxCgeYJUHeo",
           "expectedName": "Flash Grenade (Tactical)",
           "name": "战术型闪光手雷",
           "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 2 rounds</p><hr /><p>A flash grenade unleashes a blast of bright light that requires creatures in a @Template[burst|distance:10] to attempt a @Check[fortitude|against:class] save. On a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]2轮</p><hr /><p>闪光手雷会释放出一阵刺眼的光芒，要求@Template[burst|distance:10]范围内的生物进行@Check[fortitude|against:class]豁免。豁免失败时，该生物@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]1轮。</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]，持续2轮</p><hr /><p>闪光手雷会释放出一阵刺眼的光芒，要求@Template[burst|distance:10]范围内的生物进行@Check[fortitude|against:class]豁免。豁免失败时，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]，持续1轮。</p>"
         },
         {
           "id": "hvakJgGyLeRqxAu9",
@@ -1426,7 +1426,7 @@
           "expectedName": "Deflecting Field",
           "name": "偏斜力场",
           "expectedDescription": "<p>This shield isn't held—instead, it's installed as an armor or weapon upgrade. A deflecting field appears as a translucent panel integrated into the upgraded item and creates a temporary protective hardlight barrier when activated.</p>",
-          "description": "<p>这种盾牌并非需要持握——它会作为升级模块被安装在护甲或武器内。偏斜力场看起来如同一个集成到被升级的物品中的半透明面板，并在激活时创造出一个临时的保护性光盾。</p>"
+          "description": "<p>这种盾牌并非需要持握——它会作为升级模块被安装在护甲或武器内。偏斜力场看起来如同一个集成到被升级的物品中的半透明面板，并在激活时创造出一个临时的保护性硬光屏障。</p>"
         },
         {
           "id": "QXkrfWEXzhXJBLtO",
@@ -1480,7 +1480,7 @@
           "id": "DSKLDbuJc2B4i9DG",
           "expectedName": "Not So Fast",
           "name": "别那么快",
-          "description": "<p><strong>触发</strong>赏金猎人触及内的一个生物使用交互动作、进行远程打击、使用移动动作，或在使用的移动动作中离开一个方格</p><hr /><p><strong>效果</strong>赏金猎人对触发生物进行脉冲护手打击。如果此次攻击重击，且触发动作是移动动作，则打断该动作。</p>",
+          "description": "<p><strong>触发</strong>赏金猎人触及内的一个生物使用操作动作、进行远程打击、使用移动动作，或在使用的移动动作中离开一个方格</p><hr /><p><strong>效果</strong>赏金猎人对触发生物进行脉冲护手打击。如果此次攻击重击，且触发动作是移动动作，则打断该动作。</p>",
           "expectedDescription": "<p><strong>Trigger</strong> A creature within the bounty hunter's reach uses a manipulate action, makes a ranged Strike, uses a move action, or leaves a square during a move action it's using</p><hr /><p><strong>Effect</strong> The bounty hunter makes a pulse gauntlet Strike against the triggering creature. If the attack is a critical hit and the trigger was a move action, that action is disrupted.</p>"
         },
         {
@@ -1610,7 +1610,7 @@
           "expectedName": "Control Machine",
           "name": "控制机器",
           "expectedDescription": "<p>You take control of a technological creature or object and command it telepathically. If you issue an obviously self-destructive order to a sapient target, the target doesn't act until you issue a new order. The effect depends on its Will save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} as it fights off your commands.</p>\n<p><strong>Failure</strong> You control the target. It gains the controlled condition, but it can attempt a Will save at the end of each of its turns. On a success, the spell ends.</p>\n<p><strong>Critical Failure</strong> As a failure, but the target receives a new save only if it's sapient and you give it a new order that's against its nature, such as killing its allies.</p><hr /><p><strong>Heightened (10th)</strong> The duration is unlimited.</p>",
-          "description": "<p>你可以控制一个科技特征的生物或物体，并以心灵感应的方式命令它。如果你向有生命的目标发出明显的自毁命令，该目标在你发出新命令之前不会行动。效果取决于其意志豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标因为要抵抗你的命令而@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong>你控制了目标。目标将获得被控制状态，但可以在每个回合结束时尝试意志豁免。成功后，法术结束。</p>\n<p><strong>大失败</strong>与失败相同，但只有智慧目标，并且你给它下达了违背其本性的新命令（例如杀死它的盟友）时，才能进行新的意志豁免。</p><hr /><p><strong>升阶（10阶）</strong>持续时间不受限制。</p>"
+          "description": "<p>你可以控制一个科技特征的生物或物体，并以心灵感应的方式命令它。如果你向有智慧的目标发出明显的自毁命令，该目标在你发出新命令之前不会行动。效果取决于其意志豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标因为要抵抗你的命令而@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>失败</strong>你控制了目标。目标将获得被控制状态，但可以在自身每个回合结束时尝试意志豁免。成功后，法术结束。</p>\n<p><strong>大失败</strong>与失败相同，但只有智慧目标，并且你给它下达了违背其本性的新命令（例如杀死它的盟友）时，才能进行新的意志豁免。</p><hr /><p><strong>升阶（10环）</strong>持续时间不受限制。</p>"
         },
         {
           "id": "JvXJWLd4eZeeOnzA",
@@ -1687,7 +1687,7 @@
           "expectedName": "Selective Invisibility",
           "name": "选择性隐形",
           "expectedDescription": "<p>A willing creature you touch becomes @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} to everyone except a second target within the spell's range. If the invisible creature uses a hostile action against anyone who isn't the target that can see them, the spell ends after that hostile action is completed.</p><hr /><p><strong>Heightened (5th)</strong> You can make up to 6 willing creatures within 30 feet invisible, but they all must have the same target.</p>",
-          "description": "<p>一个你接触的自愿生物对除射程内第二目标以外的人@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]。如果隐形生物对目标以外的任何人使用敌对行动，该敌对行动结束后，法术也随之结束。</p><hr /><p><strong>升阶（5环）</strong>你可以让30尺内最多6个自愿生物隐形，但他们的目标必须是同一人。</p>"
+          "description": "<p>一个你接触的自愿生物对除射程内第二目标以外的人@UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]。如果隐形生物对能看见它的那个目标以外的任何人使用敌对行动，该敌对行动结束后，法术也随之结束。</p><hr /><p><strong>升阶（5环）</strong>你可以让30尺内最多6个自愿生物隐形，但他们的目标必须是同一人。</p>"
         },
         {
           "id": "rdSkJE7AJcM9gv9L",
@@ -1736,13 +1736,13 @@
           "expectedName": "Analyze Target",
           "name": "分析目标",
           "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
-          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能察觉这种情况。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以将至多10个生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以将任意数量的生物作为目标。</p>"
         },
         {
           "id": "oTCaU8g8uO9exijn",
           "expectedName": "Detect Magic",
           "name": "侦测魔法",
-          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同不精确感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
+          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同模糊感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
           "expectedDescription": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         {
@@ -1820,7 +1820,7 @@
           "expectedName": "Darkvision Capacitors (Tactical)",
           "name": "战术型黑视电容义眼",
           "expectedDescription": "<p>These replacement cybernetic eyes grant you darkvision. Darkvision capacitors operate by emitting low-powered ultraviolet lasers that receptors in the capacitors can detect. These lasers are visible to creatures that can see on the ultraviolet light spectrum.</p>\n<p>These upgraded capacitors include a wide-spectrum ocular implant that allows you to see infrared and ultraviolet light, including the lasers from other darkvision capacitors. You gain darkvision and a +2 item bonus to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} if they involve sight.</p>",
-          "description": "<p>这种替换的机械眼能给予你黑暗视觉。黑视电容型义眼的运作原理是发射低功率的紫外光激光，并透过义眼中的感受器来侦测这些雷射。能看见紫外光的生物可以侦测到这些激光。</p>\n<p>这些经过升级的电容器配有广谱眼部植入物，让你能看见红外光与紫外光，包括其他黑暗视觉电容器发出的激光。你获得黑暗视觉，且在用于以下用途的察觉检定上获得+2物品加值： @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索} ，若涉及视觉。</p>"
+          "description": "<p>这种替换的机械眼能给予你黑暗视觉。黑视电容型义眼的运作原理是发射低功率的紫外光激光，并透过义眼中的感受器来侦测这些雷射。能看见紫外光的生物可以侦测到这些激光。</p>\n<p>这种升级版本的电容型义眼内含宽光谱的眼部植入物，能让你看到红外线与紫外线，包括其他黑视电容义眼发出的激光。你获得黑暗视觉，并且在进行涉及视觉的@UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{搜索}时，察觉检定获得+2物品加值。</p>"
         },
         {
           "id": "npKerVDSt7HFERgb",
@@ -1834,7 +1834,7 @@
           "expectedName": "Nano-Optics Node",
           "name": "纳米光学节点",
           "expectedDescription": "<p>A crystalline nanocarbon node implanted in your occipital lobe connects to optic nerves by microscopic fibers. You can activate the node to overlay your normal vision with X-ray data. You can deactivate the overlay as a single action, which has the concentrate trait.</p>\n<p><strong>Activate—X-Ray Overlay</strong> <span class=\"action-glyph\">1</span> (concentrate)</p><hr /><p><strong>Effect</strong> Your nano-optics node relays collected X-ray data directly to your eyes, overlaying your normal vision. You can see through most materials and walls within 60 feet. Your sight is blocked by 2 feet of wood or plastic, 1 foot of stone, 2 inches of common metal, or any amount of lead or any starmetal, and you can only see in black and white. Due to the distracting amount of visual information, you take a –2 circumstance penalty to Perception checks while the overlay is active.</p>",
-          "description": "<p>植入枕叶中的纳米碳结晶节点透过极细的光学纤维与你的视神经相连。你可以启动此节点，用X光数据覆盖你的正常视觉。你可以用单动作解除此视觉覆盖，此动作带有专注特征。</p>\n<p><strong>启动—X光覆盖</strong> <span class=\"action-glyph\">1</span> （专注）</p><hr /><p><strong>效果</strong> 你的纳米视觉节点将收集到的X射线数据直接传送至双眼，叠加在你的通常视觉上。你可以看穿60尺内的大多数材料和墙壁。2尺厚的木材或塑料、1尺厚的石材、2英寸厚的普通金属，以及任意厚度的铅或星金属都会阻挡你的视线，而且你只能看见黑白影像。由于大量视觉信息令人分心，此叠加视觉激活期间，你在察觉检定上承受–2环境减值。</p>"
+          "description": "<p>植入枕叶中的纳米碳结晶节点透过极细的光学纤维与你的视神经相连。你可以启动此节点，用X光数据覆盖你的正常视觉。你可以用单动作解除此视觉覆盖，此动作带有专注特征。</p>\n<p><strong>启动—X光覆盖</strong> <span class=\"action-glyph\">1</span> （专注）</p><hr /><p><strong>效果</strong> 你的纳米光学节点将收集到的X射线数据直接传送至双眼，叠加在你的通常视觉上。你可以看穿60尺内的大多数材料和墙壁。2尺厚的木材或塑料、1尺厚的石材、2英寸厚的普通金属，以及任意厚度的铅或星金都会阻挡你的视线，而且你只能看见黑白影像。由于大量视觉信息令人分心，此叠加视觉激活期间，你在察觉检定上承受–2环境减值。</p>"
         },
         {
           "id": "EzGUfSFRVQrOdJBX",
@@ -1871,7 +1871,7 @@
           "id": "kQW66R85mxYCfoAB",
           "expectedName": "There You Are!",
           "name": "你在这儿！",
-          "description": "<p><strong>触发</strong>监视法师观察到一个此前对它处于未被察觉或躲藏状态的生物</p><hr /><p><strong>效果</strong>法师对触发生物使用盯上你了。</p>",
+          "description": "<p><strong>触发</strong>监视法师观察到一个此前对它处于无踪或藏匿状态的生物</p><hr /><p><strong>效果</strong>法师对触发生物使用盯上你了。</p>",
           "expectedDescription": "<p><strong>Trigger</strong> The surveillance mage observes a creatures that was undetected by or hidden from the mage</p><hr /><p><strong>Effect</strong> The mage uses Eyes on You on the triggering creature.</p>"
         },
         {
@@ -2034,7 +2034,7 @@
           "id": "6Vp7sgZJCFVtVlMP",
           "expectedName": "Dogslicer",
           "name": "屠狗刀",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>地精珍视被称为砍狗刀和斩马刀的祖传近战武器，尽管大多数人并不理解原因。地精武器容易制造，却容易损坏。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>地精珍视被称为屠狗刀和斩马刀的祖传近战武器，尽管大多数人并不理解原因。地精武器容易制造，却容易损坏。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Goblins cherish ancestral melee weapons called dogslicers and horsechoppers, but most people don't understand why. Goblin weapons are easy to make but prone to breakage.</p>"
         },
         {
@@ -2072,7 +2072,7 @@
           "id": "h5TdSBw2ba7AFjq7",
           "expectedName": "Goblin Scuttle",
           "name": "地精疾走",
-          "description": "<p><strong>触发</strong>一名地精盟友在与该恶徒相邻的位置结束一个移动动作</p><hr /><p><strong>效果</strong>垃圾佬快步。</p>",
+          "description": "<p><strong>触发</strong>一名地精盟友在与该垃圾佬相邻的位置结束一个移动动作</p><hr /><p><strong>效果</strong>垃圾佬快步。</p>",
           "expectedDescription": "<p><strong>Trigger</strong> A goblin ally ends a move action adjacent to the miscreant</p><hr /><p><strong>Effect</strong> The junker Steps.</p>"
         },
         {
@@ -2136,20 +2136,20 @@
           "expectedName": "Analyze Target",
           "name": "分析目标",
           "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
-          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能察觉这种情况。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以将至多10个生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以将任意数量的生物作为目标。</p>"
         },
         {
           "id": "CySv9JlON0Frt32T",
           "expectedName": "Detect Magic",
           "name": "侦测魔法",
-          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同不精确感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
+          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同模糊感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
           "expectedDescription": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         {
           "id": "oKXTDiS0TgUpijXa",
           "expectedName": "Heal",
           "name": "治疗术",
-          "description": "<p>你引导命能来治疗活物或伤害不死生物。如果目标是自愿的活物，便为其恢复1d8生命值。如果目标是不死生物，便对其造成等量命能伤害，且其可以进行基础强韧豁免。施放本法术时花费的动作数，决定目标、射程、区域及其他参数。</p>\n<p><span class=\"action-glyph\">1</span>该法术的射程为接触。</p>\n<p><span class=\"action-glyph\">2</span>（专注）法术射程为30尺。如果治疗活物，恢复的生命值增加8。</p>\n<p><span class=\"action-glyph\">3</span>（专注）你在@Template[emanation|distance:30]内释放命能，以爆发范围内所有活物与不死生物为目标。</p>\n<hr />\n<p><strong>升阶（+1）</strong>治疗量或伤害增加1d8，且两动作版本的额外治疗量增加8。</p>",
+          "description": "<p>你引导命能来治疗活物或伤害不死生物。如果目标是自愿的活物，便为其恢复1d8生命值。如果目标是不死生物，便对其造成等量命能伤害，且其可以进行基础强韧豁免。施放本法术时花费的动作数，决定目标、射程、区域及其他参数。</p>\n<p><span class=\"action-glyph\">1</span>该法术的射程为接触。</p>\n<p><span class=\"action-glyph\">2</span>（专注）法术射程为30尺。如果治疗活物，恢复的生命值增加8。</p>\n<p><span class=\"action-glyph\">3</span>（专注）你在@Template[emanation|distance:30]内释放命能，以该弥漫范围内所有活物与不死生物为目标。</p>\n<hr />\n<p><strong>升阶（+1）</strong>治疗量或伤害增加1d8，且两动作版本的额外治疗量增加8。</p>",
           "expectedDescription": "<p>You channel vital energy to heal the living or damage the undead. If the target is a willing living creature, you restore 1d8 Hit Points. If the target is undead, you deal that amount of vitality damage to it, and it gets a basic Fortitude save. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.</p>\n<p><span class=\"action-glyph\">1</span> The spell has a range of touch.</p>\n<p><span class=\"action-glyph\">2</span> (concentrate) The spell has a range of 30 feet. If you're healing a living creature, increase the Hit Points restored by 8.</p>\n<p><span class=\"action-glyph\">3</span> (concentrate) You disperse vital energy in a @Template[emanation|distance:30]. This targets all living and undead creatures in the burst.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.</p>",
           "extraFields": [
             {
@@ -2175,7 +2175,7 @@
           "id": "zvCcuaRStQX3S5GI",
           "expectedName": "Prestidigitation",
           "name": "魔法伎俩",
-          "description": "<p>最简单的魔法听从你的指令。只要持续维持法术，你就能产生简单的魔法效应。每次维持时，你可以选择以下四个选项之一。</p><ul><li><strong>烹饪</strong>冷却、加热或调味1磅非活体材料。</li><li><strong>抬升</strong>将一件无人持有、负载为轻型或更低的物体缓缓抬离地面1尺。</li><li><strong>制造</strong>以凝结的魔法物质创造一个临时物体，其负载可忽略不计。该物体外观粗糙、不自然，且极其脆弱，不能用作工具、武器、施法载体或法术开销。</li><li><strong>整理</strong>为一件负载为轻型或更低的物体染色、清洁或弄脏。专注10轮可以影响一个1负载的物体；对于更大的物体，每负载需要1分钟。</li></ul><p><em>魔法伎俩</em>不能造成伤害或不利状态。对物体的任何实际改变（上述说明以外的改变），都只在你持续维持法术期间存在。</p>",
+          "description": "<p>最简单的魔法听从你的指令。只要持续维持法术，你就能产生简单的魔法效应。每次维持时，你可以选择以下四个选项之一。</p><ul><li><strong>烹饪</strong>冷却、加热或调味1磅非活体材料。</li><li><strong>抬升</strong>将一件无人照管、负载为轻型或更低的物体缓缓抬离地面1尺。</li><li><strong>制造</strong>以凝结的魔法物质创造一个临时物体，其负载可忽略不计。该物体外观粗糙、不自然，且极其脆弱，不能用作工具、武器、施法载体或法术开销。</li><li><strong>整理</strong>为一件负载为轻型或更低的物体染色、清洁或弄脏。专注10轮可以影响一个1负载的物体；对于更大的物体，每负载需要1分钟。</li></ul><p><em>魔法伎俩</em>不能造成伤害或不利状态。对物体的任何实际改变（上述说明以外的改变），都只在你持续维持法术期间存在。</p>",
           "expectedDescription": "<p>The simplest magic does your bidding. You can perform simple magical effects for as long as you Sustain the spell. Each time you Sustain the spell, you can choose one of four options.</p><ul><li><strong>Cook</strong> Cool, warm, or flavor 1 pound of nonliving material.</li><li><strong>Lift</strong> Slowly lift an unattended object of light Bulk or less 1 foot off the ground.</li><li><strong>Make</strong> Create a temporary object of negligible Bulk, made of congealed magical substance. The object looks crude and artificial and is extremely fragile-it can't be used as a tool, weapon, or locus or cost for a spell.</li><li><strong>Tidy</strong> Color, clean, or soil an object of light Bulk or less. You can affect an object of 1 Bulk with 10 rounds of concentration, and a larger object at 1 minute per Bulk.</li></ul><p><em>Prestidigitation</em> can't deal damage or cause adverse conditions. Any actual change to an object (beyond what is noted above) persists only as long as you Sustain the spell.</p>"
         },
         {
@@ -2197,7 +2197,7 @@
           "expectedName": "Aura of Stability",
           "name": "稳定灵光",
           "expectedDescription": "<p>60 feet. Any creatures or objects within the aura, chosen by the Starstone sentry, reduce the DC the flat check for the @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd] condition by 4.</p>",
-          "description": "<p>（灵光，神术）60尺。同星石哨兵，但@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]纯骰检定DC降低4。</p>"
+          "description": "<p>（灵光，神术）60尺。灵光内由星石守卫选定的任意生物或物体，其@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]状态纯骰检定的DC降低4。</p>"
         },
         {
           "id": "jlFjQ7akXHD7yUWS",
@@ -2209,7 +2209,7 @@
           "expectedName": "Farstep Assault",
           "name": "远步突袭",
           "expectedDescription": "<p>The Starstone guardian teleports to an unoccupied space within 60 feet. It can make a projected blade or crystal laser Strike before or after teleporting.</p>",
-          "description": "<p>（传送） 星石守卫传送至60尺内一处未被占据的空间。它在传送前或传送后进行一次投射刀刃或水晶激光打击。</p>"
+          "description": "<p>（传送） 星石守卫传送至60尺内一处未被占据的空间。它可以在传送前或传送后进行一次投射刀刃或水晶激光打击。</p>"
         },
         {
           "id": "KFsy64ovlAfUfuiN",
@@ -2266,7 +2266,7 @@
           "id": "vTMEH30isbuHsSqr",
           "expectedName": "Discharge",
           "name": "断电术",
-          "description": "<p>你引发一道突如其来的电火花，涌入一个科技生物或物体。你耗尽一件具有科技特征物品的能量，或扰乱一个具有科技特征的生物，具体效应取决于目标是生物还是物体。</p><ul><li><strong>生物</strong>如果目标是具有科技特征的生物，它进行意志豁免。失败时，该生物处于@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障1}状态；大失败时，该生物处于@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障2}状态。</li><li><strong>物体</strong>如果你以有人持有的物体为目标，持有该物体的生物进行意志豁免。成功时，物体失去其最大充能的一半。失败时，或你以无人持有的物体为目标时，物体失去其所有剩余充能。</li></ul>",
+          "description": "<p>你引发一道突如其来的电火花，涌入一个科技生物或物体。你耗尽一件具有科技特征物品的能量，或扰乱一个具有科技特征的生物，具体效应取决于目标是生物还是物体。</p><ul><li><strong>生物</strong>如果目标是具有科技特征的生物，它进行意志豁免。失败时，该生物处于@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障1}状态；大失败时，该生物处于@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障2}状态。</li><li><strong>物体</strong>如果你以有人照管的物体为目标，照管该物体的生物进行意志豁免。成功时，物体失去其最大充能的一半。失败时，或你以无人照管的物体为目标时，物体失去其所有剩余充能。</li></ul>",
           "expectedDescription": "<p>You ignite a sudden spark of electricity that surges into a technological creature or object. You de-energize an item with the tech trait or disrupt a creature with the tech trait, with effects based on the target being a creature or object.</p><ul><li><strong>Creature</strong> If your target is a creature with the tech trait, it attempts a Will save. On a failure, the creature is @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}; on a critical failure, the creature is @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2}.</li><li><strong>Object</strong> If you target an attended object, the creature with the object attempts a Will save. On a success, the object loses half of its maximum charges. On a failure, or if you target an unattended object, the object loses all its remaining charges.</li></ul>"
         },
         {
@@ -2274,7 +2274,7 @@
           "expectedName": "Electrotether",
           "name": "闪电枷锁",
           "expectedDescription": "<p>You supercharge the targets' electromagnetism and pull them with a tether of lightning. Make a ranged spell attack against each target. If you attack two targets, both attacks count toward your multiple attack penalty, but it doesn't increase until after both attacks. The targets each take 4d8 electricity damage and are pulled 5 feet closer to you, or 10 feet closer on a critical hit. If both attacks hit, you can choose to move the creatures closer to one another instead of closer to you. Moving a target into a barrier, creature, or obstacle causes the target to stop before entering that space.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d8.</p>",
-          "description": "<p>你使目标的电磁场过载，并以闪电锁链将其拽向自己。对每个目标进行一次远程法术攻击。若攻击两个目标，两次攻击均计入多重攻击减值，但该减值仅在两次攻击完成后生效。每个目标受到4d8电击伤害并且向着你的方向被拉拽5尺（大成功10尺）。如果两次攻击都命中，你可以选择让两个生物彼此靠近而不是被拉向你。如果目标在位移过程中碰到街垒、生物或障碍，目标会在进入那个方格之前停下。</p><hr /><p><strong>升阶（+1）</strong>该伤害增加1d8。</p>"
+          "description": "<p>你使目标的电磁场过载，并以闪电锁链将其拽向自己。对每个目标进行一次远程法术攻击。若攻击两个目标，两次攻击均计入多重攻击减值，但该减值直到两次攻击都完成后才增加。每个目标受到4d8电击伤害并且向着你的方向被拉拽5尺（大成功10尺）。如果两次攻击都命中，你可以选择让两个生物彼此靠近而不是被拉向你。如果目标在位移过程中碰到街垒、生物或障碍，目标会在进入那个方格之前停下。</p><hr /><p><strong>升阶（+1）</strong>该伤害增加1d8。</p>"
         },
         {
           "id": "LOd8rLJxLtbNyE8e",
@@ -2302,7 +2302,7 @@
           "expectedName": "Instant Virus",
           "name": "瞬效病毒",
           "expectedDescription": "<p>Your touch installs a dangerous self-replicating virus that disrupts a technological creature's programming. The target must attempt a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}.</p>\n<p><strong>Failure</strong> The target is glitching 1 and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Critical Failure</strong> The target is @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2} and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p>",
-          "description": "<p>你通过接触安装一种危险的自增殖病毒，会扰乱科技生物的程序。目标必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]。</p>\n<p><strong>失败</strong>目标陷入故障1和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>大失败</strong>目标陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑2}。</p>"
+          "description": "<p>你通过接触安装一种危险的自增殖病毒，会扰乱科技生物的程序。目标必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]1。</p>\n<p><strong>失败</strong>目标陷入故障1和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}。</p>\n<p><strong>大失败</strong>目标陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]2和@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑2}。</p>"
         },
         {
           "id": "ZpVDp9RF1zwiPzUL",
@@ -2330,14 +2330,14 @@
           "expectedName": "Analyze Target",
           "name": "分析目标",
           "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
-          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能察觉这种情况。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以将至多10个生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以将任意数量的生物作为目标。</p>"
         },
         {
           "id": "Iy056WpiTtj75cJ2",
           "expectedName": "Delete",
           "name": "删除术",
           "expectedDescription": "<p>You delete data from a device or object with a flamboyant magical gesture. This data might be handwritten, printed, or digital. You delete up to 1,500 words' worth of text, one page of content, or one display screen worth of text or other visual information. Non-magical writing in or on an unattended or held object is automatically deleted. Attempt a counteract check to delete digital or magical writing. If you fail to delete writing that's part of a hazard, you trigger the hazard. This can't be used to delete the contents of a spellbook or similar means of storing magical formulas or spells.</p>\n<p>If you target an attended tech item with the tracking trait, attempt a counteract check. On a success, the item becomes glitching 1. A creature holding the item can Interact to restart the software, reducing the glitching value by 1.</p><hr /><p><strong>Heightened (7th)</strong> You can delete all the data stored locally on a single device or book, or all the data on a device or book related to a specific name, topic, or category.</p>",
-          "description": "<p>你以华丽的魔法手势删除设备或物品中的数据。这些数据可以是手写的、打印的或电子的。你最多可以删除 1,500字的文本、一页内容或一显示屏的文本或其他视觉信息。无主物品或手持物品上的非魔法文字会自动删除。尝试反制检定删除数据或魔法文字。如果你尝试删除的文字是危害的一部分，且你失败，就会触发危害。这不能用于删除魔法书或类似的存储魔法公式或法术的内容。</p>\n<p>如果目标是具有追踪特征的科技物品，尝试一次反制检定。如果成功，该物品就会获得故障1。持有该物品的生物可以花费一个交互动作来重启用户界面，并将故障值降低1。</p><hr /><p><strong>升阶（7环）</strong>你可以删除单个设备或书籍中本地存储的所有数据，或者删除设备或书籍中与特定名称、主题或类别相关的所有数据。</p>"
+          "description": "<p>你以华丽的魔法手势删除设备或物品中的数据。这些数据可以是手写的、打印的或电子的。你最多可以删除 1,500字的文本、一页内容或一显示屏的文本或其他视觉信息。无人携带的物品或手持物品上的非魔法文字会自动删除。尝试反制检定删除电子文字或魔法文字。如果你尝试删除的文字是危害的一部分，且你失败，就会触发危害。这不能用于删除魔法书或类似的存储魔法公式或法术的内容。</p>\n<p>如果目标是由生物携带且具有追踪特征的科技物品，尝试一次反制检定。如果成功，该物品就会获得故障1。持有该物品的生物可以花费一个交互动作来重启软件，并将故障值降低1。</p><hr /><p><strong>升阶（7环）</strong>你可以删除单个设备或书籍中本地存储的所有数据，或者删除设备或书籍中与特定名称、主题或类别相关的所有数据。</p>"
         },
         {
           "id": "1ZaSRnfNh5BJpcIP",
@@ -2364,14 +2364,14 @@
           "id": "gX2xz2HuODDhBtt1",
           "expectedName": "Telekinetic Hand",
           "name": "念动之手",
-          "description": "<p>你创造一只悬浮的魔法手掌，它可以隐形或呈幽灵状，抓住目标物体，使其缓缓向任意方向浮动至多20尺。维持法术时，你能将物体再移动20尺。如果法术结束时物体仍在空中，它便会坠落。</p>\n<hr />\n<p><strong>升阶（3环）</strong>你能以一件无人持有且负载不超过1的物体为目标。</p>\n<p><strong>升阶（5环）</strong>射程提高至60尺，且你能以一件无人持有、负载不超过1的物体为目标。</p>\n<p><strong>升阶（7环）</strong>射程提高至60尺，且你能以一件无人持有、负载不超过2的物体为目标。</p>",
+          "description": "<p>你创造一只悬浮的魔法手掌，它可以隐形或呈幽灵状，抓住目标物体，使其缓缓向任意方向浮动至多20尺。维持法术时，你能将物体再移动20尺。如果法术结束时物体仍在空中，它便会坠落。</p>\n<hr />\n<p><strong>升阶（3环）</strong>你能以一件无人照管且负载不超过1的物体为目标。</p>\n<p><strong>升阶（5环）</strong>射程提高至60尺，且你能以一件无人照管、负载不超过1的物体为目标。</p>\n<p><strong>升阶（7环）</strong>射程提高至60尺，且你能以一件无人照管、负载不超过2的物体为目标。</p>",
           "expectedDescription": "<p>You create a floating, magical hand, either invisible or ghostlike, that grasps the target object and levitates it slowly up to 20 feet in any direction. When you Sustain the spell, you can move the object an additional 20 feet. If the object is in the air when the spell ends, the object falls.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (5th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (7th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 2 or less.</p>"
         },
         {
           "id": "IiWk1gYFnhYJ93Km",
           "expectedName": "Telekinetic Projectile",
           "name": "念动射弹",
-          "description": "<p>你将射程内一件未固定、无人持有且负载不超过1的物体掷向目标。对目标进行法术攻击检定。命中时，你造成2d6钝击、穿刺或挥砍伤害，取决于所掷物体。被掷物品的任何特殊特征或魔法属性，都不会影响此次攻击或伤害。</p>\n<hr />\n<p><strong>大成功</strong>你造成双倍伤害。</p>\n<p><strong>成功</strong>你造成完整伤害。</p>\n<hr />\n<p><strong>升阶（+1）</strong>伤害增加1d6。</p>",
+          "description": "<p>你将射程内一件未固定、无人照管且负载不超过1的物体掷向目标。对目标进行法术攻击检定。命中时，你造成2d6钝击、穿刺或挥砍伤害，取决于所掷物体。被掷物品的任何特殊特征或魔法属性，都不会影响此次攻击或伤害。</p>\n<hr />\n<p><strong>大成功</strong>你造成双倍伤害。</p>\n<p><strong>成功</strong>你造成完整伤害。</p>\n<hr />\n<p><strong>升阶（+1）</strong>伤害增加1d6。</p>",
           "expectedDescription": "<p>You hurl a loose, unattended object that is within range and that has 1 Bulk or less at the target. Make a spell attack roll against the target. If you hit, you deal 2d6 bludgeoning, piercing, or slashing damage—as appropriate for the object you hurled. No specific traits or magic properties of the hurled item affect the attack or the damage.</p>\n<hr />\n<p><strong>Critical Success</strong> You deal double damage.</p>\n<p><strong>Success</strong> You deal full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>",
           "extraFields": [
             {
@@ -2557,7 +2557,7 @@
           "id": "bzf6qrjzyMwdVq2i",
           "expectedName": "Discharge",
           "name": "断电术",
-          "description": "<p>你引发一道突如其来的电火花，涌入一个科技生物或物体。你耗尽一件具有科技特征物品的能量，或扰乱一个具有科技特征的生物，具体效应取决于目标是生物还是物体。</p><ul><li><strong>生物</strong>如果目标是具有科技特征的生物，它进行意志豁免。失败时，该生物处于@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障1}状态；大失败时，该生物处于@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障2}状态。</li><li><strong>物体</strong>如果你以有人持有的物体为目标，持有该物体的生物进行意志豁免。成功时，物体失去其最大充能的一半。失败时，或你以无人持有的物体为目标时，物体失去其所有剩余充能。</li></ul>",
+          "description": "<p>你引发一道突如其来的电火花，涌入一个科技生物或物体。你耗尽一件具有科技特征物品的能量，或扰乱一个具有科技特征的生物，具体效应取决于目标是生物还是物体。</p><ul><li><strong>生物</strong>如果目标是具有科技特征的生物，它进行意志豁免。失败时，该生物处于@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障1}状态；大失败时，该生物处于@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障2}状态。</li><li><strong>物体</strong>如果你以有人照管的物体为目标，照管该物体的生物进行意志豁免。成功时，物体失去其最大充能的一半。失败时，或你以无人照管的物体为目标时，物体失去其所有剩余充能。</li></ul>",
           "expectedDescription": "<p>You ignite a sudden spark of electricity that surges into a technological creature or object. You de-energize an item with the tech trait or disrupt a creature with the tech trait, with effects based on the target being a creature or object.</p><ul><li><strong>Creature</strong> If your target is a creature with the tech trait, it attempts a Will save. On a failure, the creature is @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}; on a critical failure, the creature is @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 2}.</li><li><strong>Object</strong> If you target an attended object, the creature with the object attempts a Will save. On a success, the object loses half of its maximum charges. On a failure, or if you target an unattended object, the object loses all its remaining charges.</li></ul>"
         },
         {
@@ -2586,7 +2586,7 @@
           "expectedName": "Analyze Target",
           "name": "分析目标",
           "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
-          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能察觉这种情况。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以将至多10个生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以将任意数量的生物作为目标。</p>"
         },
         {
           "id": "koGFP0cH5vYcxeLU",
@@ -2600,7 +2600,7 @@
           "expectedName": "Measure",
           "name": "测量术",
           "expectedDescription": "<p>You learn the approximate measurements (length, width, depth, height, and weight) of creatures and objects you can observe in the area. If an object or creature extends out of the area, you learn only the measurements within the area, but nothing about what you can't observe. For example, you can't determine the thickness or weight of a wall you can observe only one side of, or the depth of water that extends beyond the spell's range. Each time you Sustain the spell, you learn the exact measurements of one creature or object in the area, including imprecisions or anomalies that might indicate structural weakness. Magically altered targets give you information that reflects what you observe rather than accurate measurements.</p><hr /><p><strong>Heightened (+1)</strong> Extend the range of measure by 100 feet.</p>",
-          "description": "<p>你可以了解周围生物和物体的大致尺寸（长度、宽度、深度、高度和重量）。如果物体或生物延伸出了该射程，你只能了解该区域内的测量值，而无法观察到的东西则无法了解。例如，你无法确定只能观察到一面的墙壁的厚度或重量，也无法确定超出法术射程的水深。每次维持法术时，你都会了解该区域内一种生物或物体的精确测量结果，包括可能揭示结构弱点的不精确或异常现象。被魔法改变的目标所提供的信息反映的是你所观察到的情况，而不是精确测量值。</p><hr /><p><strong>升阶（+1）</strong>延展测量距离100尺。</p>"
+          "description": "<p>你可以了解区域内你能观察到的生物和物体的大致尺寸（长度、宽度、深度、高度和重量）。如果物体或生物延伸出了该区域，你只能了解该区域内的测量值，而无法观察到的东西则无法了解。例如，你无法确定只能观察到一面的墙壁的厚度或重量，也无法确定超出法术射程的水深。每次维持法术时，你都会了解该区域内一个生物或物体的精确测量结果，包括可能揭示结构弱点的不精确或异常现象。被魔法改变的目标所提供的信息反映的是你所观察到的情况，而不是精确测量值。</p><hr /><p><strong>升阶（+1）</strong>延展测量距离100尺。</p>"
         },
         {
           "id": "cXBi3DuLd9C2fvYW",
@@ -2613,7 +2613,7 @@
           "id": "OmK2BeqUToyqHSMT",
           "expectedName": "Telekinetic Hand",
           "name": "念动之手",
-          "description": "<p>你创造一只悬浮的魔法手掌，它可以隐形或呈幽灵状，抓住目标物体，使其缓缓向任意方向浮动至多20尺。维持法术时，你能将物体再移动20尺。如果法术结束时物体仍在空中，它便会坠落。</p>\n<hr />\n<p><strong>升阶（3环）</strong>你能以一件无人持有且负载不超过1的物体为目标。</p>\n<p><strong>升阶（5环）</strong>射程提高至60尺，且你能以一件无人持有、负载不超过1的物体为目标。</p>\n<p><strong>升阶（7环）</strong>射程提高至60尺，且你能以一件无人持有、负载不超过2的物体为目标。</p>",
+          "description": "<p>你创造一只悬浮的魔法手掌，它可以隐形或呈幽灵状，抓住目标物体，使其缓缓向任意方向浮动至多20尺。维持法术时，你能将物体再移动20尺。如果法术结束时物体仍在空中，它便会坠落。</p>\n<hr />\n<p><strong>升阶（3环）</strong>你能以一件无人照管且负载不超过1的物体为目标。</p>\n<p><strong>升阶（5环）</strong>射程提高至60尺，且你能以一件无人照管、负载不超过1的物体为目标。</p>\n<p><strong>升阶（7环）</strong>射程提高至60尺，且你能以一件无人照管、负载不超过2的物体为目标。</p>",
           "expectedDescription": "<p>You create a floating, magical hand, either invisible or ghostlike, that grasps the target object and levitates it slowly up to 20 feet in any direction. When you Sustain the spell, you can move the object an additional 20 feet. If the object is in the air when the spell ends, the object falls.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (5th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (7th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 2 or less.</p>"
         },
         {
@@ -2651,7 +2651,7 @@
             {
               "path": "system.subitems.0.system.description.value",
               "expected": "<p>This armor upgrade supplements your armor's environmental protections and filters out common contaminants, including protection from most toxic atmospheres.</p>",
-              "text": "<p>此护甲强化模块提升了护甲的环境防护和过滤常见有害物质的能力，包括对多数有毒大气层的防护。</p>",
+              "text": "<p>此护甲强化模块提升了护甲的环境防护和过滤常见有害物质的能力，包括对多数有毒大气的防护。</p>",
               "guards": [
                 {
                   "path": "system.subitems.0._id",
@@ -2862,7 +2862,7 @@
           "expectedName": "Slice Reality",
           "name": "切割现实",
           "expectedDescription": "<p>You slice through reality, forming a chasm of life-draining entropy in a straight line 20 feet high, 120 feet long, and 2 inches thick. The chasm provides cover. The chasm deals 7d8 void damage to each creature that's in the chasm's space when it's created, that attempts to pass through the chasm, or that ends its turn inside the chasm, with a basic Reflex save. A creature that succeeds at this save when the chasm is created is pushed to the nearest space on the side of its choice. Creatures trying to move through the chasm fail to do so if they critically fail the save, ending their movement next to the chasm.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d8.</p>",
-          "description": "<p>你划破现实，在一条20尺高、120尺长、2英寸厚的直线上形成一道能使生命流失的熵裂隙。裂隙提供掩蔽。裂隙会对在形成时位于其空间内、试图穿过裂隙或在裂隙内结束回合的每个生物造成7d8虚能伤害，具有一次基础反射豁免。如果生物在裂隙形成时豁免成功，则会被推到其选择的一侧最近的空间。试图穿过裂隙的生物如果豁免失败，就会在裂隙旁结束移动。</p><hr /><p><strong>升阶（+1）</strong>伤害增加 1d8。</p>"
+          "description": "<p>你划破现实，在一条20尺高、120尺长、2英寸厚的直线上形成一道能使生命流失的熵裂隙。裂隙提供掩蔽。裂隙会对在形成时位于其空间内、试图穿过裂隙或在裂隙内结束回合的每个生物造成7d8虚能伤害，具有一次基础反射豁免。如果生物在裂隙形成时豁免成功，则会被推到其选择的一侧最近的空间。试图穿过裂隙的生物若豁免大失败，便无法穿过，并在裂隙旁结束移动。</p><hr /><p><strong>升阶（+1）</strong>伤害增加 1d8。</p>"
         },
         {
           "id": "BGI5jq3BV0TSs4xg",
@@ -2957,7 +2957,7 @@
           "id": "5LqQzxlO9uwgrl6C",
           "expectedName": "Detect Magic",
           "name": "侦测魔法",
-          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同不精确感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
+          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同模糊感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
           "expectedDescription": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         {
@@ -2978,7 +2978,7 @@
           "id": "0o2vMqbyGvkbBeTQ",
           "expectedName": "Telekinetic Projectile",
           "name": "念动射弹",
-          "description": "<p>你将射程内一件未固定、无人持有且负载不超过1的物体掷向目标。对目标进行法术攻击检定。命中时，你造成2d6钝击、穿刺或挥砍伤害，取决于所掷物体。被掷物品的任何特殊特征或魔法属性，都不会影响此次攻击或伤害。</p>\n<hr />\n<p><strong>大成功</strong>你造成双倍伤害。</p>\n<p><strong>成功</strong>你造成完整伤害。</p>\n<hr />\n<p><strong>升阶（+1）</strong>伤害增加1d6。</p>",
+          "description": "<p>你将射程内一件未固定、无人照管且负载不超过1的物体掷向目标。对目标进行法术攻击检定。命中时，你造成2d6钝击、穿刺或挥砍伤害，取决于所掷物体。被掷物品的任何特殊特征或魔法属性，都不会影响此次攻击或伤害。</p>\n<hr />\n<p><strong>大成功</strong>你造成双倍伤害。</p>\n<p><strong>成功</strong>你造成完整伤害。</p>\n<hr />\n<p><strong>升阶（+1）</strong>伤害增加1d6。</p>",
           "expectedDescription": "<p>You hurl a loose, unattended object that is within range and that has 1 Bulk or less at the target. Make a spell attack roll against the target. If you hit, you deal 2d6 bludgeoning, piercing, or slashing damage—as appropriate for the object you hurled. No specific traits or magic properties of the hurled item affect the attack or the damage.</p>\n<hr />\n<p><strong>Critical Success</strong> You deal double damage.</p>\n<p><strong>Success</strong> You deal full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>",
           "extraFields": [
             {
@@ -3048,7 +3048,7 @@
           "id": "6zpYnGLped5mf3Z0",
           "expectedName": "Dogslicer",
           "name": "屠狗刀",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>地精珍视被称为砍狗刀和斩马刀的祖传近战武器，尽管大多数人并不理解原因。地精武器容易制造，却容易损坏。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>地精珍视被称为屠狗刀和斩马刀的祖传近战武器，尽管大多数人并不理解原因。地精武器容易制造，却容易损坏。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Goblins cherish ancestral melee weapons called dogslicers and horsechoppers, but most people don't understand why. Goblin weapons are easy to make but prone to breakage.</p>"
         },
         {
@@ -3149,7 +3149,7 @@
           "name": "颚"
         }
       ],
-      "publicNotes": "<p>在艾巴萨罗姆的城市探险者之间流传的都市传说和恐怖故事里，几乎没有哪个能像“虚空虫”那样无处不在。具体的外形描述众说纷纭，甚至连摄影机拍到的画面都彼此矛盾，但所有故事都提到从不可能存在的空间中探出的细长附肢、机器上仿佛被完美切割后消失的部件，以及沿着视野外的走廊如怪异瘦长波浪般涌动的多足暗影。一些幽灵信使特意对这些被他们称作“败蚁”的生物做了更多了解。</p>\n<p>败蚁之所以难以研究，是因为它们的巢穴建在宇宙背后奇异空间的褶皱之中，只能经由幽灵层进入。一些幽灵信使将败蚁比作某种真社会性昆虫；毕竟，这些异常存在就像凡俗建筑里的普通害虫侵扰墙壁一样，侵扰着现实之墙。然而，用自然主义的语言来描述它们，反倒是小看了这些生物。败蚁是受蚁后奴役的映象：那位隐秘的集体意识永久安居在幽灵层中现实背后的巢穴里。只有极少数探险者曾进入这片巢穴现实，且至今无人生还，仅留下支离破碎的录音或旅行日志。蚁后在巢穴中似乎无所不在；在其中，她的后代呈现出无穷无尽的梦魇般特化形态。幸运的是，至少就目前而言，蚁后似乎还满足于等待时机。</p>\n<p>最常见到的败蚁是工蚁，它们是蚁后意志的碎片，充当斥候与回收者的角色。败蚁工蚁专注于分解物体，通常是那些带有晦涩异能共振的物体，并将其带回巢穴，供蚁后用于难以揣测的目的。</p><hr /><h2>侵扰生物</h2><p>入侵生物困扰着艾巴萨罗姆空间站，就算投入最专注的清剿行动，也难以将其消灭。无论是藏身于幽灵层，还是偷渡上星舰，这些顽强的侵扰生物始终是这座庞大而多元的空间站面临的问题。</p>",
+      "publicNotes": "<p>在艾巴萨罗姆的城市探险者之间流传的都市传说和恐怖故事里，几乎没有哪个能像“虚空虫”那样无处不在。具体的外形描述众说纷纭，甚至连摄影机拍到的画面都彼此矛盾，但所有故事都提到从不可能存在的空间中探出的细长附肢、机器上仿佛被完美切割后消失的部件，以及沿着视野外的走廊如怪异瘦长波浪般涌动的多足暗影。一些幽灵信使特意对这些被他们称作“败蚁”的生物做了更多了解。</p>\n<p>败蚁之所以难以研究，是因为它们的巢穴建在宇宙背后奇异空间的褶皱之中，只能经由幽灵层进入。一些幽灵信使将败蚁比作某种真社会性昆虫；毕竟，这些异常存在就像凡俗建筑里的普通害虫侵扰墙壁一样，侵扰着现实之墙。然而，用自然主义的语言来描述它们，反倒是小看了这些生物。败蚁是受蚁后奴役的映象：那位隐秘的集体意识永久安居在幽灵层中现实背后的巢穴里。只有极少数探险者曾进入这片巢穴现实，且至今无人返回，仅留下支离破碎的录音或旅行日志。蚁后在巢穴中似乎无所不在；在其中，她的后代呈现出无穷无尽的梦魇般特化形态。幸运的是，至少就目前而言，蚁后似乎还满足于等待时机。</p>\n<p>最常见到的败蚁是工蚁，它们是蚁后意志的碎片，充当斥候与回收者的角色。败蚁工蚁专注于分解物体，通常是那些带有晦涩异能共振的物体，并将其带回巢穴，供蚁后用于难以揣测的目的。</p><hr /><h2>侵扰生物</h2><p>入侵生物困扰着艾巴萨罗姆空间站，就算投入最专注的清剿行动，也难以将其消灭。无论是藏身于幽灵层，还是偷渡上星舰，这些顽强的侵扰生物始终是这座庞大而多元的空间站面临的问题。</p>",
       "cnText_prototypeToken_name": {
         "expected": "Terminite Worker",
         "text": "败蚁工蚁"
@@ -3218,7 +3218,7 @@
       },
       "cnText_system_details_pilotingCheck": {
         "expected": "Piloting (DC 31) or Arcana (DC 33)",
-        "text": "驾驶（DC 31）或奥秘（DC 33）"
+        "text": "驾驶（DC 31）或奥法（DC 33）"
       },
       "cnText_system_details_speed": {
         "expected": "fly 50 feet (magic or motorized)",
@@ -3245,7 +3245,7 @@
           "expectedName": "Deflecting Field",
           "name": "偏斜力场",
           "expectedDescription": "<p>This shield isn't held—instead, it's installed as an armor or weapon upgrade. A deflecting field appears as a translucent panel integrated into the upgraded item and creates a temporary protective hardlight barrier when activated.</p>",
-          "description": "<p>这种盾牌并非需要持握——它会作为升级模块被安装在护甲或武器内。偏斜力场看起来如同一个集成到被升级的物品中的半透明面板，并在激活时创造出一个临时的保护性光盾。</p>"
+          "description": "<p>这种盾牌并非需要持握——它会作为升级模块被安装在护甲或武器内。偏斜力场看起来如同一个集成到被升级的物品中的半透明面板，并在激活时创造出一个临时的保护性硬光屏障。</p>"
         },
         {
           "id": "YDUEMyc5DUGv6oUQ",
@@ -3381,7 +3381,7 @@
       },
       "cnText_system_details_pilotingCheck": {
         "expected": "Piloting (DC 26) or Arcana (DC 28)",
-        "text": "驾驶（DC 26）或奥秘（DC 28）"
+        "text": "驾驶（DC 26）或奥法（DC 28）"
       },
       "cnText_system_details_speed": {
         "expected": "60 feet (motorized), swim 50 feet (magical)",
@@ -3512,7 +3512,7 @@
       },
       "cnText_system_details_disable": {
         "expected": "<p>@Check[computers|dc:35], Crafting, or Thievery (expert) to disarm the probe, or @Check[arcana|dc:37] or any Science Lore (expert) to solve the equation</p>",
-        "text": "<p>@Check[computers|dc:35]、工艺或贼活（专家）以解除探测器；或@Check[arcana|dc:37]或任意科学学识（专家）以解开方程</p>"
+        "text": "<p>@Check[computers|dc:35]、手艺或贼活（专家）以解除探测器；或@Check[arcana|dc:37]或任意科学学识（专家）以解开方程</p>"
       },
       "cnText_prototypeToken_name": {
         "expected": "Logic Crucible",
@@ -3524,12 +3524,12 @@
       }
     },
     "4wc5qtMrvsUotufG": {
-      "name": "电围栏 Electric Fence",
+      "name": "电网 Electric Fence",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
           "expectedName": "Buy! Buy! Buy!",
-          "name": "买！买！买！",
+          "name": "电击",
           "description": "<p><strong>触发</strong>一个生物直接或用工具接触围栏</p><hr /><p><strong>效果</strong>陷阱对触发生物造成@Damage[1d10[electricity]]伤害。如果陷阱尚未掷先攻，它便掷先攻。</p>",
           "expectedDescription": "<p><strong>Trigger</strong> A creature touches the fence directly or with a tool</p><hr /><p><strong>Effect</strong> The trap deals @Damage[1d10[electricity]] damage to the triggering creature. The trap rolls initiative if it hasn't already.</p>"
         }
@@ -3548,7 +3548,7 @@
       },
       "cnText_prototypeToken_name": {
         "expected": "Electric Fence",
-        "text": "电围栏"
+        "text": "电网"
       },
       "cnText_system_attributes_stealth_details": {
         "expected": "<p>(trained)</p>",
@@ -3556,7 +3556,7 @@
       }
     },
     "5JUU4xVIgip5Y8Kz": {
-      "name": "突变迷雾 Mutation Fog",
+      "name": "变异迷雾 Mutation Fog",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3576,7 +3576,7 @@
       },
       "cnText_prototypeToken_name": {
         "expected": "Mutation Fog",
-        "text": "突变迷雾"
+        "text": "变异迷雾"
       }
     },
     "5TGgljErrluk0gTb": {
@@ -3760,7 +3760,7 @@
       }
     },
     "7APVXcfPeZcLdkYG": {
-      "name": "骇客的愚行 Hacker's Folly",
+      "name": "黑客的愚举 Hacker's Folly",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3788,7 +3788,7 @@
       },
       "cnText_prototypeToken_name": {
         "expected": "Hacker's Folly",
-        "text": "骇客的愚行"
+        "text": "黑客的愚举"
       },
       "cnText_system_attributes_stealth_details": {
         "expected": "<p>(trained)</p>",
@@ -3812,7 +3812,7 @@
       },
       "cnText_system_details_disable": {
         "expected": "<p>@Check[arcana|dc:28] (expert; magic conduit), Nature (expert; magic conduit), Occultism (expert; magic conduit), or Religion (expert; magic conduit) to magically purify the station, or @Check[athletics|dc:28] (expert; gunnery) or Intimidation (expert; gunnery) to overpower the spirit, or @Check[computers|dc:28] (expert; scanners) to ban the spirit from the data matrix, or @Check[computers|dc:28] (expert; drone console) or Crafting (expert; drone console) to force reset the possessed drones, or @Check[computers|dc:34] (expert; magic conduit, scanners) to delete a spirit's soul code, or @Check[crafting|dc:28] (expert; generator) to execute emergency countermeasures, or @Check[piloting|dc:28] (expert; pilot's console) to disorient the spirit with ace maneuvers, or @Check[religion|dc:31] (expert; magic conduit) to exorcise a battle station; a success purges one battle station, and a number of successes equal to the number of battle stations on board the starship are required to disable the haunt</p>",
-        "text": "<p>@Check[arcana|dc:28]（专家；魔法导管）、自然（专家；魔法导管）、神秘（专家；魔法导管）或宗教（专家；魔法导管），以魔法净化站位；或@Check[athletics|dc:28]（专家；炮术）或威吓（专家；炮术），以压倒精魂；或@Check[computers|dc:28]（专家；扫描仪）以将精魂逐出数据矩阵；或@Check[computers|dc:28]（专家；无人机控制台）或工艺（专家；无人机控制台），以强制重置被附身的无人机；或@Check[computers|dc:34]（专家；魔法导管、扫描仪）以删除精魂的灵魂代码；或@Check[crafting|dc:28]（专家；发电机）以执行紧急应对措施；或@Check[piloting|dc:28]（专家；驾驶控制台）以高超机动使精魂迷失方向；或@Check[religion|dc:31]（专家；魔法导管）以驱除一个作战站位中的精魂；一次成功净化一个作战站位，解除作祟所需成功次数等于星舰上的作战站位数量</p>"
+        "text": "<p>@Check[arcana|dc:28]（专家；魔法导管）、自然（专家；魔法导管）、神秘（专家；魔法导管）或宗教（专家；魔法导管），以魔法净化站位；或@Check[athletics|dc:28]（专家；炮术）或威吓（专家；炮术），以压倒精魂；或@Check[computers|dc:28]（专家；扫描仪）以将精魂逐出数据矩阵；或@Check[computers|dc:28]（专家；无人机控制台）或手艺（专家；无人机控制台），以强制重置被附身的无人机；或@Check[computers|dc:34]（专家；魔法导管、扫描仪）以删除精魂的灵魂代码；或@Check[crafting|dc:28]（专家；发电机）以执行紧急应对措施；或@Check[piloting|dc:28]（专家；驾驶控制台）以高超机动使精魂迷失方向；或@Check[religion|dc:31]（专家；魔法导管）以驱除一个作战站位中的精魂；一次成功净化一个作战站位，解除作祟所需成功次数等于星舰上的作战站位数量</p>"
       },
       "cnText_system_details_routine": {
         "expected": "<p>(6 actions) The haunt uses its actions to helm any battle stations it controls, prioritizing piloting console station actions to move the starship closer to danger. The haunt always takes harmful or useless actions, such as leaving cover or changing the starship's heading in battle, putting the starship on a collision course, firing on allies, or neglecting the shields.</p><p>After 6 rounds, if the haunt hasn't been disabled, all creatures on board the starship experience a reenactment of the spirit crew's annihilation and take @Damage[(2d12+15)[spirit]] damage (@Check[will|dc:30|basic] save). On a critical failure, a creature is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}. The haunt ends once the reenactment occurs.</p>",
@@ -3909,7 +3909,7 @@
       }
     },
     "8OtqctKRZZ5zRzDY": {
-      "name": "爆炸过载 Explosive Overload",
+      "name": "过载爆炸 Explosive Overload",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3929,11 +3929,11 @@
       },
       "cnText_prototypeToken_name": {
         "expected": "Explosive Overload",
-        "text": "爆炸过载"
+        "text": "过载爆炸"
       }
     },
     "8xsVlHYPJKuOjOU1": {
-      "name": "冰寒迷雾 Cryo Mist",
+      "name": "极寒雾气 Cryo Mist",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -3957,7 +3957,7 @@
       },
       "cnText_prototypeToken_name": {
         "expected": "Cryo Mist",
-        "text": "冰寒迷雾"
+        "text": "极寒雾气"
       },
       "cnText_system_attributes_stealth_details": {
         "expected": "<p>(master)</p>",
@@ -4465,7 +4465,7 @@
       }
     },
     "IE9KmxzAscgUAxjL": {
-      "name": "电震控制台 Jolting Console",
+      "name": "电击控制台 Jolting Console",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -4485,7 +4485,7 @@
       },
       "cnText_prototypeToken_name": {
         "expected": "Jolting Console",
-        "text": "电震控制台"
+        "text": "电击控制台"
       },
       "cnText_system_attributes_stealth_details": {
         "expected": "<p>(trained)</p>",
@@ -4545,7 +4545,7 @@
       },
       "cnText_system_details_routine": {
         "expected": "<p>(1 action) As an action, the trap manifests mind-rending visions of eldritch creatures from another reality. Each creature inside the reality breach takes @Damage[(3d10+16)[mental]] damage (@Check[will|dc:35|basic] save). A creature can attempt an Arcana or Occultism check in place of their saving throw, if desired.</p>",
-        "text": "<p>（1个动作）陷阱用一个动作呈现来自另一现实的诡异生物幻象，撕裂心智。现实裂口内的每个生物受到@Damage[(3d10+16)[mental]]伤害，并进行@Check[will|dc:35|basic]豁免。如果愿意，生物可以用奥秘或神秘检定代替豁免。</p>"
+        "text": "<p>（1个动作）陷阱用一个动作呈现来自另一现实的诡异生物幻象，撕裂心智。现实裂口内的每个生物受到@Damage[(3d10+16)[mental]]伤害，并进行@Check[will|dc:35|basic]豁免。如果愿意，生物可以用奥法或神秘检定代替豁免。</p>"
       },
       "cnText_system_details_reset": {
         "expected": "<p>The trap resets after 1 hour.</p>",
@@ -4677,7 +4677,7 @@
           "id": "RPLFvFsUyPPCafPr",
           "expectedName": "Detonate",
           "name": "引爆",
-          "description": "<p><strong>触发</strong>引爆值达到5，有人解除或重新编程爆炸物的检定失败，或一艘星舰离开陷阱所在的区域</p><hr /><p><strong>效果</strong>陷阱爆炸，对1个区域范围内的所有星舰造成@Damage[(6d12+37)[fire]]伤害（@Check[reflex|dc:38|basic]豁免），并使舰上所有生物暴露于严酷辐射。距离不超过2个区域的星舰受到@Damage[(4d12+26)[fire]]伤害，这些星舰上的生物暴露于严重辐射。</p>",
+          "description": "<p><strong>触发</strong>引爆值达到5，有人解除或重新编程爆炸物的检定失败，或一艘星舰离开陷阱所在的区域</p><hr /><p><strong>效果</strong>陷阱爆炸，对1个区域范围内的所有星舰造成@Damage[(6d12+37)[fire]]伤害（@Check[reflex|dc:38|basic]豁免），并使舰上所有生物暴露于超强辐射。距离不超过2个区域的星舰受到@Damage[(4d12+26)[fire]]伤害，这些星舰上的生物暴露于重度辐射。</p>",
           "expectedDescription": "<p><strong>Trigger</strong> The detonation value reaches 5, someone fails a check to disarm or reprogram the explosive, or a starship leaves the trap's zone</p><hr /><p><strong>Effect</strong> The trap explodes, dealing @Damage[(6d12+37)[fire]] damage to all starships within 1 zone (@Check[reflex|dc:38|basic] save) and exposing all creatures on board to incredible radiation. Starships up to 2 zones away take @Damage[(4d12+26)[fire]] damage, and creatures on board those starships are exposed to severe radiation.</p>"
         }
       ],
@@ -4703,7 +4703,7 @@
       }
     },
     "L5NtWCCJdmkrD2d2": {
-      "name": "爆裂卵囊 Exploding Egg Sac",
+      "name": "爆炸卵囊 Exploding Egg Sac",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -4734,7 +4734,7 @@
       },
       "cnText_prototypeToken_name": {
         "expected": "Exploding Egg Sac",
-        "text": "爆裂卵囊"
+        "text": "爆炸卵囊"
       }
     },
     "Li6xCK5eIbvq8lNY": {
@@ -4882,7 +4882,7 @@
           "id": "HX5xhvB4dzVRflzA",
           "expectedName": "Thermal Shielding",
           "name": "隔热防护",
-          "description": "<p>岩浆巡航车的防火屏障也会保护船员。岩浆巡航车上的生物免疫严重或更低程度环境高温的效应。此外，它们会将严酷环境高温的效应降低至极度高温的效应。</p>",
+          "description": "<p>岩浆巡航船的防火屏障也会保护船员。岩浆巡航船上的生物免疫炎热或更低程度环境高温的效应。此外，它们会将酷热环境的效应降低至极热的效应。</p>",
           "expectedDescription": "<p>A magma cruiser's fire shielding protects its crew as well. Creatures on board a magma cruiser are immune to the effects of severe environmental heat or less. In addition, they reduce the effects of incredible environmental heat to those of extreme heat.</p>"
         }
       ],
@@ -5164,7 +5164,7 @@
           "id": "a54azmq4TW5K2qaY",
           "expectedName": "Mega Suspension Wheels",
           "name": "巨型悬挂车轮",
-          "description": "<p>终点巨轮卡车忽略非魔法困难地形和极度困难地形。此外，卡车的悬挂系统能吸收部分冲击，使其将坠落距离视为缩短15尺。</p>",
+          "description": "<p>终点巨轮卡车忽略非魔法困难地形和非魔法高等困难地形。此外，卡车的悬挂系统能吸收部分冲击，使其将坠落距离视为缩短15尺。</p>",
           "expectedDescription": "<p>A terminus monster truck ignores non-magical difficult terrain and greater difficult terrain. In addition, it treats falls as 15 feet shorter as the truck's suspension absorbs some of the impact.</p>"
         }
       ],
@@ -5481,7 +5481,7 @@
       }
     },
     "YDkCn9Oxw78AMhr9": {
-      "name": "毁灭性车祸 Devastating Collision",
+      "name": "毁灭性撞击 Devastating Collision",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -5509,7 +5509,7 @@
       },
       "cnText_prototypeToken_name": {
         "expected": "Devastating Collision",
-        "text": "毁灭性车祸"
+        "text": "毁灭性撞击"
       }
     },
     "YUNntTLCeITOXCOh": {
@@ -5694,7 +5694,7 @@
           "id": "cYAbLwK9F723lrr8",
           "expectedName": "Weapon Mount",
           "name": "武器挂架",
-          "description": "<p>巨人运输艇设有一个武器架炮位，能以两个互动动作安装或移除任意远程武器。运输艇的船员能使用以此方式安装的武器进行打击。以这种方式安装且需要电池的武器能直接从引擎供能，因此开火时不消耗任何充能。</p>",
+          "description": "<p>巨人运输艇设有一个武器架炮位，能以两个交互动作安装或移除任意远程武器。运输艇的船员能使用以此方式安装的武器进行打击。以这种方式安装且需要电池的武器能直接从引擎供能，因此开火时不消耗任何充能。</p>",
           "expectedDescription": "<p>A jotuncraft has a weapon mount emplacement, which can have any ranged weapon installed or removed with two Interact actions. The craft's crew can make Strikes with weapons installed this way. Weapons installed this way that require batteries don't consume any charges when fired, as they can draw power directly from the ray's engine.</p>"
         }
       ],
@@ -5875,7 +5875,7 @@
       }
     },
     "iG8SEFXxuErIlG05": {
-      "name": "泄气气闸 Venting Airlock",
+      "name": "泄压气闸 Venting Airlock",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -5895,7 +5895,7 @@
       },
       "cnText_prototypeToken_name": {
         "expected": "Venting Airlock",
-        "text": "泄气气闸"
+        "text": "泄压气闸"
       },
       "cnText_system_attributes_stealth_details": {
         "expected": "<p>(trained)</p>",
@@ -5903,7 +5903,7 @@
       }
     },
     "jUMdmldBVHb1PmRR": {
-      "name": "万千现实幻景 Vision of Manifold Realities",
+      "name": "万象现实幻景 Vision of Manifold Realities",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -5931,7 +5931,7 @@
       },
       "cnText_prototypeToken_name": {
         "expected": "Vision of Manifold Realities",
-        "text": "万千现实幻景"
+        "text": "万象现实幻景"
       }
     },
     "jn95HMXltrnHisIR": {
@@ -6034,14 +6034,14 @@
           "id": "HUevG60qrY45gPjx",
           "expectedName": "Radiation Leak",
           "name": "辐射泄漏",
-          "description": "<p><strong>触发</strong>一个生物查看反应堆的传感器或控制台</p><hr /><p><strong>效果</strong>反应堆周围60尺内的生物暴露于严酷辐射（@Check[fortitude|dc:32]；第91页）。陷阱投掷先攻。</p>",
+          "description": "<p><strong>触发</strong>一个生物查看反应堆的传感器或控制台</p><hr /><p><strong>效果</strong>反应堆周围60尺内的生物暴露于超强辐射（@Check[fortitude|dc:32]；第91页）。陷阱投掷先攻。</p>",
           "expectedDescription": "<p><strong>Trigger</strong> A creature views the reactor's sensors or console</p><hr /><p><strong>Effect</strong> Creatures within 60 feet of the reactor are exposed to incredible radiation (@Check[fortitude|dc:32]; page 91). The trap rolls initiative.</p>"
         },
         {
           "id": "OYhL6lbsHtlJSMDW",
           "expectedName": "Nuclear Explosion",
           "name": "核爆炸",
-          "description": "<p><strong>触发</strong>陷阱完成半径达到100尺的例行行动</p><hr /><p><strong>效果</strong>反应堆爆炸，在500尺半径内造成@Damage[(4d10+20)[fire]]伤害，无视爆炸区域内任何物品的硬度（@Check[fortitude|dc:46|basic]豁免）。区域内的一切都暴露于严酷辐射。核爆炸区域受到辐射污染，持续泄漏严重辐射50年。</p>",
+          "description": "<p><strong>触发</strong>陷阱完成半径达到100尺的例行行动</p><hr /><p><strong>效果</strong>反应堆爆炸，在500尺半径内造成@Damage[(4d10+20)[fire]]伤害，无视爆炸区域内任何物品的硬度（@Check[fortitude|dc:46|basic]豁免）。区域内的一切都暴露于超强辐射。核爆炸区域受到辐射污染，持续泄漏重度辐射50年。</p>",
           "expectedDescription": "<p><strong>Trigger</strong> The trap completed its routine with a radius of 100 feet</p><hr /><p><strong>Effect</strong> The reactor explodes, dealing @Damage[(4d10+20)[fire]] damage in a 500 foot radius, bypassing the hardness of any items in the blast zone (@Check[fortitude|dc:46|basic] save). Everything in the area is exposed to incredible radiation. The area of the nuclear explosion becomes irradiated, leaking severe radiation for 50 years.</p>"
         }
       ],
@@ -6051,11 +6051,11 @@
       },
       "cnText_system_details_disable": {
         "expected": "<p>@Check[computers|dc:45] (master) or Crafting (master) to initiate shutdown procedures, or @Check[thievery|dc:47] (master) to vent the reactor; three total successes are required to disable the trap</p>",
-        "text": "<p>@Check[computers|dc:45]（大师）或工艺（大师）以启动关闭程序；或@Check[thievery|dc:47]（大师）以为反应堆排气；解除陷阱总计需要三次成功</p>"
+        "text": "<p>@Check[computers|dc:45]（大师）或手艺（大师）以启动关闭程序；或@Check[thievery|dc:47]（大师）以为反应堆排气；解除陷阱总计需要三次成功</p>"
       },
       "cnText_system_details_routine": {
         "expected": "<p>(1 action) As the reactor overheats, the trap deals @Damage[(4d10+20)[fire]] damage to creatures within 60 feet (@Check[fortitude|dc:42|basic] save). All creatures in the area are exposed to incredible radiation. Each time the trap uses this routine, the area increases by 10 feet. When the routine's radius equals 100 feet, resolve the routine. Then, the reactor immediately explodes, using Nuclear Explosion.</p>",
-        "text": "<p>（1个动作）反应堆过热，陷阱对60尺内生物造成@Damage[(4d10+20)[fire]]伤害，目标进行@Check[fortitude|dc:42|basic]豁免。区域内所有生物都暴露于严酷辐射。陷阱每次使用此流程，区域都扩大10尺。流程半径达到100尺时，先结算流程，随后反应堆立即爆炸，使用核爆炸。</p>"
+        "text": "<p>（1个动作）反应堆过热，陷阱对60尺内生物造成@Damage[(4d10+20)[fire]]伤害，目标进行@Check[fortitude|dc:42|basic]豁免。区域内所有生物都暴露于超强辐射。陷阱每次使用此流程，区域都扩大10尺。流程半径达到100尺时，先结算流程，随后反应堆立即爆炸，使用核爆炸。</p>"
       },
       "cnText_prototypeToken_name": {
         "expected": "Reactor Meltdown",
@@ -6136,7 +6136,7 @@
       }
     },
     "pntBaxg4SUg56TxP": {
-      "name": "倒塌建筑 Collapsing Building",
+      "name": "坍塌建筑 Collapsing Building",
       "items": [
         {
           "id": "HUevG60qrY45gPjx",
@@ -6160,7 +6160,7 @@
       },
       "cnText_prototypeToken_name": {
         "expected": "Collapsing Building",
-        "text": "倒塌建筑"
+        "text": "坍塌建筑"
       },
       "cnText_system_attributes_stealth_details": {
         "expected": "<p>(expert)</p>",

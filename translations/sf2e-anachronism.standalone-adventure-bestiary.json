@@ -77,7 +77,7 @@
           "expectedName": "Pounce",
           "name": "扑击",
           "expectedDescription": "<p>The shroomclaw Strides and makes a Strike at the end of that movement. If the shroomclaw began this action @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, it remains hidden until after its Strike.</p>",
-          "description": "<p>蕈爪兽行走并在此次移动结束时进行一次抓打击。如果蕈爪兽在此动作开始时处于@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]状态，则它保持藏匿直到打击结束。</p>"
+          "description": "<p>蕈爪兽行走并在此次移动结束时进行一次打击。如果蕈爪兽在此动作开始时处于@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]状态，则它保持藏匿直到打击结束。</p>"
         },
         {
           "id": "FLaVpQZc5e83Hvyd",
@@ -114,7 +114,7 @@
           "id": "CQs8rMQBAQgCoRIS",
           "expectedName": "Adhere",
           "name": "附着术",
-          "description": "<p>你在触碰的一件无人持有物体（或自己持握的物体），与其接触的另一物体或表面之间创造分子键。要将该物体从该表面拉开，必须对抗你的法术DC，成功通过[[/act force-open]]{运动}检定进行@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{破拆}。</p>\n<p>如果你改为触碰一个无人占据的5尺方格，该表面便会充满黏附魔法。该空间变为极度困难地形。</p>",
+          "description": "<p>你在触碰的一件无人携带物体（或自己持握的物体），与其接触的另一物体或表面之间创造分子键。要将该物体从该表面拉开，必须对抗你的法术DC，成功通过[[/act force-open]]{运动}检定进行@UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{破拆}。</p>\n<p>如果你改为触碰一个无人占据的5尺方格，该表面便会充满黏附魔法。该空间变为高等困难地形。</p>",
           "expectedDescription": "<p>You create a molecular bond between an unattended object you touch (or an object you're holding) and another object or surface that object is touching. Pulling the object free of that surface requires a successful [[/act force-open]]{Athletics} check against your spell DC to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open}.</p>\n<p>If you instead touch one unoccupied 5-foot square, that surface becomes charged with adhering magic. That space becomes greater difficult terrain.</p>"
         },
         {
@@ -136,20 +136,20 @@
           "expectedName": "Analyze Target",
           "name": "分析目标",
           "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
-          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能察觉这种情况。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以将至多10个生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以将任意数量的生物作为目标。</p>"
         },
         {
           "id": "N2yYKIQmdifvWBor",
           "expectedName": "Delete",
           "name": "删除术",
           "expectedDescription": "<p>You delete data from a device or object with a flamboyant magical gesture. This data might be handwritten, printed, or digital. You delete up to 1,500 words' worth of text, one page of content, or one display screen worth of text or other visual information. Non-magical writing in or on an unattended or held object is automatically deleted. Attempt a counteract check to delete digital or magical writing. If you fail to delete writing that's part of a hazard, you trigger the hazard. This can't be used to delete the contents of a spellbook or similar means of storing magical formulas or spells.</p>\n<p>If you target an attended tech item with the tracking trait, attempt a counteract check. On a success, the item becomes glitching 1. A creature holding the item can Interact to restart the software, reducing the glitching value by 1.</p><hr /><p><strong>Heightened (7th)</strong> You can delete all the data stored locally on a single device or book, or all the data on a device or book related to a specific name, topic, or category.</p>",
-          "description": "<p>你以华丽的魔法手势删除设备或物品中的数据。这些数据可以是手写的、打印的或电子的。你最多可以删除 1,500字的文本、一页内容或一显示屏的文本或其他视觉信息。无主物品或手持物品上的非魔法文字会自动删除。尝试反制检定删除数据或魔法文字。如果你尝试删除的文字是危害的一部分，且你失败，就会触发危害。这不能用于删除魔法书或类似的存储魔法公式或法术的内容。</p>\n<p>如果目标是具有追踪特征的科技物品，尝试一次反制检定。如果成功，该物品就会获得故障1。持有该物品的生物可以花费一个交互动作来重启用户界面，并将故障值降低1。</p><hr /><p><strong>升阶（7环）</strong>你可以删除单个设备或书籍中本地存储的所有数据，或者删除设备或书籍中与特定名称、主题或类别相关的所有数据。</p>"
+          "description": "<p>你以华丽的魔法手势删除设备或物品中的数据。这些数据可以是手写的、打印的或电子的。你最多可以删除 1,500字的文本、一页内容或一显示屏的文本或其他视觉信息。无人携带的物品或手持物品上的非魔法文字会自动删除。尝试反制检定删除电子文字或魔法文字。如果你尝试删除的文字是危害的一部分，且你失败，就会触发危害。这不能用于删除魔法书或类似的存储魔法公式或法术的内容。</p>\n<p>如果目标是由生物携带且具有追踪特征的科技物品，尝试一次反制检定。如果成功，该物品就会获得故障1。持有该物品的生物可以花费一个交互动作来重启软件，并将故障值降低1。</p><hr /><p><strong>升阶（7环）</strong>你可以删除单个设备或书籍中本地存储的所有数据，或者删除设备或书籍中与特定名称、主题或类别相关的所有数据。</p>"
         },
         {
           "id": "9eZYIETe6KZmDXkk",
           "expectedName": "Detect Magic",
           "name": "侦测魔法",
-          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同不精确感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
+          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同模糊感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
           "expectedDescription": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         {
@@ -157,14 +157,14 @@
           "expectedName": "Measure",
           "name": "测量术",
           "expectedDescription": "<p>You learn the approximate measurements (length, width, depth, height, and weight) of creatures and objects you can observe in the area. If an object or creature extends out of the area, you learn only the measurements within the area, but nothing about what you can't observe. For example, you can't determine the thickness or weight of a wall you can observe only one side of, or the depth of water that extends beyond the spell's range. Each time you Sustain the spell, you learn the exact measurements of one creature or object in the area, including imprecisions or anomalies that might indicate structural weakness. Magically altered targets give you information that reflects what you observe rather than accurate measurements.</p><hr /><p><strong>Heightened (+1)</strong> Extend the range of measure by 100 feet.</p>",
-          "description": "<p>你可以了解周围生物和物体的大致尺寸（长度、宽度、深度、高度和重量）。如果物体或生物延伸出了该射程，你只能了解该区域内的测量值，而无法观察到的东西则无法了解。例如，你无法确定只能观察到一面的墙壁的厚度或重量，也无法确定超出法术射程的水深。每次维持法术时，你都会了解该区域内一种生物或物体的精确测量结果，包括可能揭示结构弱点的不精确或异常现象。被魔法改变的目标所提供的信息反映的是你所观察到的情况，而不是精确测量值。</p><hr /><p><strong>升阶（+1）</strong>延展测量距离100尺。</p>"
+          "description": "<p>你可以了解区域内你能观察到的生物和物体的大致尺寸（长度、宽度、深度、高度和重量）。如果物体或生物延伸出了该区域，你只能了解该区域内的测量值，而无法观察到的东西则无法了解。例如，你无法确定只能观察到一面的墙壁的厚度或重量，也无法确定超出法术射程的水深。每次维持法术时，你都会了解该区域内一个生物或物体的精确测量结果，包括可能揭示结构弱点的不精确或异常现象。被魔法改变的目标所提供的信息反映的是你所观察到的情况，而不是精确测量值。</p><hr /><p><strong>升阶（+1）</strong>延展测量距离100尺。</p>"
         },
         {
           "id": "cGyV7dam9ImFfvrd",
           "expectedName": "Summon Robot",
           "name": "召唤机器人",
           "expectedDescription": "<p>You summon a creature that has the tech trait and whose level is –1 to fight for you.</p><hr /><p><strong>Heightened</strong> As listed in the @UUID[Compendium.sf2e-anachronism.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.8gcp880pEWZ9VPnF]{summon} trait.</p>",
-          "description": "<p>你可以召唤一个拥有科技特征并且等级为-1的常见生物为你而战。</p><hr /><p><strong>升阶</strong>如@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.8gcp880pEWZ9VPnF]{召唤}特征所述。</p>"
+          "description": "<p>你可以召唤一个拥有科技特征并且等级为-1的生物为你而战。</p><hr /><p><strong>升阶</strong>如@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.8gcp880pEWZ9VPnF]{召唤}特征所述。</p>"
         },
         {
           "id": "Prvm65tnduY9LSvZ",
@@ -225,7 +225,7 @@
     },
     "CMsLlMOHgoEzaVkt": {
       "name": "烬蛛族哨兵 Jinsul Lookout",
-      "publicNotes": "<p>哨兵是在漂流危机中首次登上军阀战舰的新手船员。</p><hr /><p>少数分散的烬蛛族群体在阿巴隆建立了孤立基地。大多是隶属一名军官的小队，军官通常是全队尊敬或畏惧，并自愿效忠的秘术师或战术领袖。</p><h2>泪滴冰井的烬蛛族</h2><p>本冒险中的烬蛛族追随一名叫作胡拉军阀的指挥官。胡拉原本即将武力吞并一个由较弱军阀控制的邻近星系，大幅扩张其在近宇的领地；然而，漂流危机却将胡拉及忠诚船员抛入阿巴隆上方的协约世界宙域。坠毁在敌后深处一个环境恶劣的世界后，胡拉及其追随者逃入地下，躲避酷烈的阳光。烬蛛族逐渐在岩层中挖出隧道，有些甚至将腿刃磨至光滑，最终抵达一处地下洞穴——泪滴冰井。</p><h2>兵变暗流</h2><p>随着时间流逝，胡拉及其追随者身处冰井的压抑环境，面对自然与超自然的种种危害，逐渐比其他同族更加虚弱、孤立、绝望。胡拉的誓约刃卫自出生起便受训保护胡拉，但他们迟早会抛弃自己信仰的一切，杀死领袖，逃往别处寻找救赎和战利品。</p>",
+      "publicNotes": "<p>胡拉的哨兵都是新手船员，漂流崩溃发生时，他们正在军阀的舰船上执行首次航行任务。</p><hr /><p>少数分散的烬蛛族群体在阿巴隆建立了孤立基地。大多是隶属一名军官的小队，军官通常是全队尊敬或畏惧，并自愿效忠的秘术师或战术领袖。</p><h2>泪滴冰井的烬蛛族</h2><p>本冒险中的烬蛛族追随一名叫作胡拉军阀的指挥官。胡拉原本即将武力吞并一个由较弱军阀控制的邻近星系，大幅扩张其在近宇的领地；然而，漂流危机却将胡拉及忠诚船员抛入阿巴隆上方的协约世界宙域。坠毁在敌后深处一个环境恶劣的世界后，胡拉及其追随者逃入地下，躲避酷烈的阳光。烬蛛族逐渐在岩层中挖出隧道，有些甚至将腿刃磨至光滑，最终抵达一处地下洞穴——泪滴冰井。</p><h2>兵变暗流</h2><p>随着时间流逝，胡拉及其追随者身处冰井的压抑环境，面对自然与超自然的种种危害，逐渐比其他同族更加虚弱、孤立、绝望。胡拉的誓约刃卫自出生起便受训保护胡拉，但他们迟早会抛弃自己信仰的一切，杀死领袖，逃往别处寻找救赎和战利品。</p>",
       "items": [
         {
           "id": "ZHNSEyCmBqaFUFrI",
@@ -298,7 +298,7 @@
     },
     "G1d564VXPDPdsoTp": {
       "name": "恐蕈爪兽 Dire Shroomclaw",
-      "publicNotes": "<p>恐蕈爪兽，它们有时被如此戏称，对准备不足的探险者来说非常危险。它们是机会主义的掠食者，虽然它们可以击败最经验丰富、装备精良的队伍，但也会考验新手，或追击虚弱或无助的生物。</p><hr /><p>最早遇见这些掠食者的探险者将其称作蕈爪兽。它们演化得适于在阿巴隆冰井寒冷的深处繁衍生息。每年春天，蕈爪兽都会在幽暮地带深处扎根繁殖。数周后，毛皮间蠕动着奇异孢子状赘生物、微微发光的幼兽会从深处出现，漫游至营地。那些未被掠食者捕食，也未被偷猎去供利润丰厚的出口买卖的幸存者，会以植物和昆虫为食，迅速成长。</p>",
+      "publicNotes": "<p>恐蕈爪兽，它们有时被如此戏称，对准备不足的探险者来说非常危险。它们是机会主义的掠食者，虽然它们会避开大多数经验丰富、装备精良的队伍，但可能会试探新手，或追击虚弱或无助的生物。</p><hr /><p>最早遇见这些掠食者的探险者将其称作蕈爪兽。它们演化得适于在阿巴隆冰井寒冷的深处繁衍生息。每年春天，蕈爪兽都会在幽暮地带深处扎根繁殖。数周后，毛皮间蠕动着奇异孢子状赘生物、微微发光的幼兽会从深处出现，漫游至营地。那些未被掠食者捕食，也未被偷猎去供利润丰厚的出口买卖的幸存者，会以植物和昆虫为食，迅速成长。</p>",
       "items": [
         {
           "id": "xtKxxWGlYegmmFbd",
@@ -312,7 +312,7 @@
           "expectedName": "Pounce",
           "name": "扑击",
           "expectedDescription": "<p>The shroomclaw Strides and makes a Strike at the end of that movement. If the shroomclaw began this action @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, it remains hidden until after its Strike.</p>",
-          "description": "<p>蕈爪兽行走并在此次移动结束时进行一次抓打击。如果蕈爪兽在此动作开始时处于@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]状态，则它保持藏匿直到打击结束。</p>"
+          "description": "<p>蕈爪兽行走并在此次移动结束时进行一次打击。如果蕈爪兽在此动作开始时处于@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]状态，则它保持藏匿直到打击结束。</p>"
         },
         {
           "id": "uEbT0LAakdeIaitB",
@@ -435,7 +435,7 @@
           "id": "wrXkJdzwCOlLTUhe",
           "expectedName": "Trill",
           "name": "颤鸣",
-          "description": "<p>飞翼机发出尖锐的颤鸣，伴随着微弱而令人不安的振动及电磁脉冲，专门用于扰乱非新械族生物。30尺内每个非新械族生物都必须进行@Check[fortitude|dc:13]豁免。之后，目标暂时免疫该飞翼机的颤鸣24小时。</p><hr /><p><strong>失败</strong>具有科技特征的生物陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障1}状态，非科技生物则陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}状态。</p>\n<p><strong>大失败</strong>如同失败，但改为故障或@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}。</p>",
+          "description": "<p>飞翼机发出尖锐的颤鸣，伴随着微弱而令人不安的振动及电磁脉冲，专门用于扰乱非新械族生物。30尺内每个非新械族生物都必须进行@Check[fortitude|dc:13]豁免。之后，目标暂时免疫该飞翼机的颤鸣24小时。</p><hr /><p><strong>失败</strong>具有科技特征的生物陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障1}状态，非科技生物则陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}状态。</p>\n<p><strong>大失败</strong>如同失败，但改为故障2或@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}。</p>",
           "expectedDescription": "<p>The wingbot creates a shrill trilling noise accompanied by disturbing low-level vibrations and electromagnetic pulses tuned to disrupt non-anacite creatures. Each non-anacite creature within 30 feet must attempt a @Check[fortitude|dc:13] save. The targets then become temporarily immune to the wingbot's Trill for 24 hours.</p><hr /><p><strong>Failure</strong> Creatures with the tech trait become @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}, while non-tech creatures become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> As failure, but glitching or @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>"
         }
       ],
@@ -515,7 +515,7 @@
           "expectedName": "Jump",
           "name": "跳跃",
           "expectedDescription": "<p>The Mechanizer saboteur activates jump jets installed in their body to Fly up to 20 feet with a maximum height of 10 feet, or up to 20 feet straight up. They must land at the end of this movement or fall. The jump jets don't function if removed from the Mechanizer's body.</p>",
-          "description": "<p>（操作） 机械教破坏者激活安装在身体上的跳跃喷射器，可以飞行至多20尺，最高高度为10尺，或则至多直线向上飞行20尺。他们必须在动作结束时着陆，否则将会坠落。跳跃喷射器从机械教徒的身体上拆下后无法使用。</p>"
+          "description": "<p>（操作） 机械教破坏者激活安装在身体上的跳跃喷射器，可以飞行至多20尺，最高高度为10尺，或者至多直线向上飞行20尺。他们必须在此次移动结束时着陆，否则将会坠落。跳跃喷射器从机械教徒的身体上拆下后无法使用。</p>"
         },
         {
           "id": "0TmGdxWh7avrBWq0",
@@ -865,7 +865,7 @@
     },
     "cr8v2eWjcarLwjFY": {
       "name": "铁翼兽 Cyberwing",
-      "publicNotes": "<p>异星卫士谴责将动物的身体与机器部件融合的做法，声称这些实验原型是对自然的残酷嘲弄。爱好者们则认为，利用技术增强野生动物与通过魔法启蒙它们并无区别。争议愈演愈烈，但《协约法》对这一骇人听闻的实践仍迟迟未予认可。铁翼兽是一种被设计为侦察无人机的简易信号，能够自我防护并保护所携带的敏感信息或货物。</p><hr /><p>锐翼兽聚集于阿巴隆寒冷的冰井中，成百乃至上千只共同栖息，在黎明和黄昏时出现，到上层台地猎食。</p><h2>罕见目击</h2><p>锐翼兽不常离开冰井，因此在奋进城等超级综合体附近出现时，可能引发骚动。单只锐翼兽的威胁不大，但大群锐翼兽凶猛袭击的恐怖故事，以及鲁莽探险者拍到的骇人视频，使许多游客一见到这些生物就开枪。</p>",
+      "publicNotes": "<p>异星卫士谴责将动物的身体与机器部件融合的做法，声称这些实验原型是对自然的残酷嘲弄。爱好者们则认为，利用技术增强野生动物与通过魔法启蒙它们并无区别。争议愈演愈烈，但《协约法》对这一骇人听闻的实践仍迟迟未予认可。铁翼兽是一种被设计为侦察无人机的简易型号，能够自我防护并保护所携带的敏感信息或货物。</p><hr /><p>锐翼兽聚集于阿巴隆寒冷的冰井中，成百乃至上千只共同栖息，在黎明和黄昏时出现，到上层台地猎食。</p><h2>罕见目击</h2><p>锐翼兽不常离开冰井，因此在奋进城等超级综合体附近出现时，可能引发骚动。单只锐翼兽的威胁不大，但大群锐翼兽凶猛袭击的恐怖故事，以及鲁莽探险者拍到的骇人视频，使许多游客一见到这些生物就开枪。</p>",
       "items": [
         {
           "id": "FKvCGjSKc97te6Ff",
@@ -1118,7 +1118,7 @@
           "id": "lEvPcgS0UkyHf2JE",
           "expectedName": "Detect Magic",
           "name": "侦测魔法",
-          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同不精确感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
+          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同模糊感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
           "expectedDescription": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         {
@@ -1256,7 +1256,7 @@
           "expectedName": "Time's Edge",
           "name": "时间尖锋",
           "expectedDescription": "<p>You refract latent energy from the Dimension of Time into your current plane in the form of a massive blade. The blade deals 5d6 slashing damage to all creatures in the area as it causes time to pass rapidly in a thin slice of their bodies. Creatures in the area must attempt a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
-          "description": "<p>你将时间维度上的巨大能量折射入当前位面，化为巨大的刀锋。刀锋对区域内所有生物造成5d6挥砍伤害，这表示刀锋令其身体的一小部分迅速流逝时间。该区域内的生物必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到完整伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}状态。</p>\n<p><strong>大失败</strong>目标受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}状态。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
+          "description": "<p>你将时间维度中潜藏的能量折射入当前位面，化为巨大的刀锋。刀锋对区域内所有生物造成5d6挥砍伤害，因为刀锋使其身体薄薄一层中的时间迅速流逝。该区域内的生物必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到完整伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}状态。</p>\n<p><strong>大失败</strong>目标受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}状态。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
         },
         {
           "id": "10tZONmHG9iClklS",
@@ -1291,13 +1291,13 @@
           "expectedName": "Analyze Target",
           "name": "分析目标",
           "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
-          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能察觉这种情况。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以将至多10个生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以将任意数量的生物作为目标。</p>"
         },
         {
           "id": "G55xB4DQnVUspe4Z",
           "expectedName": "Detect Magic",
           "name": "侦测魔法",
-          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同不精确感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
+          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同模糊感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
           "expectedDescription": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         {
@@ -1356,7 +1356,7 @@
           "id": "t1EqMzRO2Eq0I3d0",
           "expectedName": "Battleglove",
           "name": "战斗手套",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这些耐用手套套在持用者的手上（或其他附肢上），指节处装有配重甲板或尖刺。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这些耐用手套套在持用者的手上（或其他附肢上），指节处装有配重板或尖刺。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>These durable gloves fit over a wielder's hands (or other appendages) and feature weighted plates or spikes over the knuckles.</p>"
         },
         {
@@ -1445,7 +1445,7 @@
           "expectedName": "Hypopen (Tactical)",
           "name": "战术型皮下注射剂",
           "expectedDescription": "<p>This tiny cylinder contains specialized nanites that either</p><ul><li>Remove the @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} or @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} condition</li><li>Decrease the value of the @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy} or @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened} condition by 1.</li></ul>",
-          "description": "<p>这根细微的圆柱体容纳着特种纳米机器人。不同类型有着不同的效果。</p><ul><li>移除 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏} 或 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹} 状态</li><li>降低其状态值： @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙} 或 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心} 状态值减少1。</li></ul>"
+          "description": "<p>这个微小的圆柱体内装有特种纳米机器人，能够产生下列效果之一：</p><ul><li>移除 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{疲乏} 或 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{麻痹} 状态</li><li>使@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙} 或 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心}的状态值减少1。</li></ul>"
         },
         {
           "id": "8neFNaoxWpcrr3Q1",
@@ -1622,7 +1622,7 @@
     },
     "zzMAFBbKstYwWGDf": {
       "name": "新械族防卫机 Anacite Protector",
-      "publicNotes": "<p>这些威严的新械族，被钢城的大多数居民亲切地称为“卫兵机器人”，是维护和平的守护者。洞悉阵列通常会迅速派遣它们以2的倍数（例如 2、4、8、16 或更多）组成小组，前往城市中的任何麻烦现场。新械族防卫机还可以充当哨兵、护卫或私人保安，但使用它们作为私人保安的人应该知道，奋进城的大多数新械族防卫机首先是为洞悉阵列（以及整个新械族）服务的。</p><hr /><p>自创造者遗弃新械族以来，漫长岁月中产生的无数形态和升级根本无法尽数记录；这个勤劳的物种几乎囊括了一切能够想象的外形与功能。</p>\n<p>许多新械族具有共同的设计原则，例如银色金属身体、多条腿，以及类似节肢动物的外形。它们通常有用于执行通用任务的抓握爪，但有些的肢体或附肢适于极为专门的用途。飞翼机等最基础、没有独立心智的新械族，外观最可能显得“标准化”，但大多数新械族都独一无二。具体职责可能要求某个新械族能举起重物，于是它的外观可能更像叉车而非虫子，也可能兼具两者特征。新械族文化崇尚创新，大多数新械族认为自己的身体与程序也不例外，总愿意尝试新的零件和构型，或下载技能模块来拓宽视野。</p>\n<p>奋进城中最常见的其他新械族类型，包括笨重的劳工、细长的官僚，以及各种公务人员。在主要服务外星来客和有机生物的街区，一些新械族会承担专门职责，使这里对非新械族生命更具吸引力。这些新械族可能接到洞悉阵列的任务，例如“探访本区域每家俱乐部和餐馆”“在公共空间与陌生人聊天”或“定期请游客帮忙过街”。这些被选中的新械族对这些职责，同样像对待其他职责一样认真。</p><h2>新械族殖装</h2><p>几乎所有新械族都会以某种方式增强自身，或直接提高履行社会特定职责的能力，或以独特特征区别于其他新械族。在阿巴隆，这类殖装很容易获得；如果新械族能证明该殖装有益于社会，往往还能完全免费获得。一些新械族利用这种便利，定期更换殖装。</p><h2>新械族编程</h2><p>作为机器人，新械族被编程得具有专门的任务和能力，但每个个体都有自由意志和复杂的内心生活。每个新械族在制造时也被赋予一个目标，大多数都极为认真地对待它。一生之中，新械族很可能会遵从洞悉阵列的安排，从事不同种类的工作。遵循程序、服务算法，几乎是所有新械族的律令。遵守这些律令会带来满足和愉悦，而违背自身程序的新械族可能感到内疚，甚至身体不适，</p>",
+      "publicNotes": "<p>这些威严的新械族，被钢城的大多数居民亲切地称为“卫兵机器人”，是维护和平的守护者。洞悉阵列通常会将它们编成每组数量为2的幂（例如2、4、8、16或更多）的小队，迅速派遣它们前往城市中的任何麻烦现场。新械族防卫机还可以充当哨兵、护卫或私人保安，但使用它们作为私人保安的人应该知道，奋进城的大多数新械族防卫机首先是为洞悉阵列（以及整个新械族）服务的。</p><hr /><p>自创造者遗弃新械族以来，漫长岁月中产生的无数形态和升级根本无法尽数记录；这个勤劳的物种几乎囊括了一切能够想象的外形与功能。</p>\n<p>许多新械族具有共同的设计原则，例如银色金属身体、多条腿，以及类似节肢动物的外形。它们通常有用于执行通用任务的抓握爪，但有些的肢体或附肢适于极为专门的用途。飞翼机等最基础、没有独立心智的新械族，外观最可能显得“标准化”，但大多数新械族都独一无二。具体职责可能要求某个新械族能举起重物，于是它的外观可能更像叉车而非虫子，也可能兼具两者特征。新械族文化崇尚创新，大多数新械族认为自己的身体与程序也不例外，总愿意尝试新的零件和构型，或下载技能模块来拓宽视野。</p>\n<p>奋进城中最常见的其他新械族类型，包括笨重的劳工、细长的官僚，以及各种公务人员。在主要服务外星来客和有机生物的街区，一些新械族会承担专门职责，使这里对非新械族生命更具吸引力。这些新械族可能接到洞悉阵列的任务，例如“探访本区域每家俱乐部和餐馆”“在公共空间与陌生人聊天”或“定期请游客帮忙过街”。这些被选中的新械族对这些职责，同样像对待其他职责一样认真。</p><h2>新械族殖装</h2><p>几乎所有新械族都会以某种方式增强自身，或直接提高履行社会特定职责的能力，或以独特特征区别于其他新械族。在阿巴隆，这类殖装很容易获得；如果新械族能证明该殖装有益于社会，往往还能完全免费获得。一些新械族利用这种便利，定期更换殖装。</p><h2>新械族编程</h2><p>作为机器人，新械族被编程得具有专门的任务和能力，但每个个体都有自由意志和复杂的内心生活。每个新械族在制造时也被赋予一个目标，大多数都极为认真地对待它。一生之中，新械族很可能会遵从洞悉阵列的安排，从事不同种类的工作。遵循程序、服务算法，几乎是所有新械族的律令。遵守这些律令会带来满足和愉悦，而违背自身程序的新械族可能感到内疚，甚至身体不适，</p>",
       "items": [
         {
           "id": "Neb8lC0VhoPJ6JpK",
@@ -1848,7 +1848,7 @@
           "id": "SxIDKG3zaVFCFjgW",
           "expectedName": "Fog Vision",
           "name": "云雾视觉",
-          "description": "<p>烟霾魔蝠忽略烟雾和薄雾造成的隐蔽状态。</p>",
+          "description": "<p>烟霾魔蝠忽略浓雾和薄雾造成的隐蔽状态。</p>",
           "expectedDescription": "<p>The smog scamp ignores the concealed condition from fog and mist.</p>"
         },
         {

@@ -1,0 +1,231 @@
+{
+  "unresolved": [
+    {
+      "group": "怪物与危害",
+      "index": 1735,
+      "id": "09606f51f1050857",
+      "source": "<p>The oscriss releases a pulse of temporal energy in a @Template[type:burst|distance:30] that deals @Damage[10d8[force]|options:area-damage] damage to creatures in the area with a @Check[reflex|dc:44] save. The oscriss can't use Pause Pulse again for [[/gmr 1d4 #Recharge Pause Pulse]]{1d4 rounds}.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}.</p>\n<p><strong>Failure</strong> The creature takes full damage and is slowed 1 for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is slowed 1 for 1 minute and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}.</p>",
+      "target": "<p>奥斯克瑞斯在@Template[type:burst|distance:30]内释放时间能量脉冲，造成@Damage[10d8[force]|options:area-damage]伤害，区域内生物进行一次@Check[reflex|dc:44]豁免。奥斯克瑞斯在[[/gmr 1d4 #Recharge Pause Pulse]]{1d4轮}内无法再次使用暂停脉冲。</p><hr /><p><strong>大成功</strong> 生物不受影响。</p>\n<p><strong>成功</strong> 生物受到一半伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢1}。</p>\n<p><strong>失败</strong> 生物受到全额伤害，并陷入缓慢1，持续1分钟。</p>\n<p><strong>大失败</strong> 生物受到双倍伤害，陷入缓慢1，持续1分钟，并陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑2}。</p>\n",
+      "reason": "Pause Pulse成功结果缓慢1未列持续时间，失败/大失败列1分钟，暂按原文",
+      "follow_up": "Wiki7068 rev15221同样未列成功时缓慢持续时间，不能推定。",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "怪物与危害",
+      "index": 1941,
+      "id": "921e9c3f752f5ada",
+      "source": "<p>When an akata bites a humanoid, it infests them with microscopic, parasitic larvae. Those who perish from this parasitization, a condition known as void death, rise again as void zombies. While they resemble a typical rotting corpse, an elongated bluish-gray feeding tendril extends from their shattered lower jaw. When the immature akata within the body senses potential prey, this tendril often undulates and writhes with nauseating eagerness.</p>\n<p>Once the host body dies, the larvae feed on each other until the strongest makes its way to the victim's brain. After several hours of rapid gestation, it attaches to the brain and infuses it with a mote of necromantic energy. This process leaves the larva ravenous, driving it to consume the blood of living creatures. Void zombies tend to last several weeks as the larva grows, but eventually its host compels it to seek out a safe, secluded place where it can disgorge the larva for one last surge of growth before the host body goes inert. Several hours later, a fully formed akata emerges from the frothing puddle, typically consuming the corpse as its first meal.</p>\n<p>In general, akatas leave void zombies alone, and the larval parasites attempt to spread out to avoid competing for food. In a confined and undisturbed space, void zombies stand completely still to conserve energy. The juvenile akatas within become dormant and feed on the host body's tissue until they either reach maturity or sense a viable food source. Given the void zombie's relatively short existence, those who stumble upon a previous attack might find the void zombies already devoured or discarded and an eerie colony of silent, glassy cocoons full of ravenous hibernating akatas instead.</p>\n<p>Void zombies tend to ignore other undead, but they become inexplicably aggressive when confronted with other creatures that are infested by parasites or otherwise controlled or influenced by external forces. Many have tried experimenting with void zombie behavior by forcing them to confront, for example, a rendworm host or a creature under the thrall of a spellcaster. Most such experiments end inconclusively at best, and many have ended in disaster.</p>",
+      "target": "<p>当阿卡塔咬伤类人生物时，会向其体内植入微小的寄生幼虫。死于这种寄生（即“虚空之死”）的受害者将作为虚空丧尸复苏。它们虽形似普通腐尸，但其碎裂的下颌会伸出一条蓝灰色的细长摄食管。当体内的未成熟阿卡塔感知到潜在猎物时，此触须常会因令人作呕的急切感而扭动蜷伸。</p>\n<p>一旦宿主死亡，幼虫便会互相吞噬，直到最强壮的一只钻入受害者的脑部。经过数小时的快速孕育后，它附着在大脑上，并注入一缕死灵能量。这一过程会让幼虫变得极度饥渴，驱使它去吸食活物的血液。虚空丧尸通常能维持数周时间，期间幼虫不断生长。但最终，它的宿主会驱使它寻找一个安全且隐蔽的地方，在那里宿主会将幼虫呕吐出来，以便幼虫在宿主身体陷入静止状态前，进行最后一次的爆发式成长。几小时后，一只完全成型的阿卡塔会从冒着泡沫的水洼中爬出，并通常以这具尸体作为它的第一餐。</p>\n<p>一般而言，阿卡塔会放任虚空丧尸自主行动，幼虫也会分散以避免食物竞争。在密闭无扰空间内，虚空丧尸会完全静止以保存能量。其体内的幼体阿卡塔进入休眠状态，以宿主体组织为食，直至成熟或感知到可用食物源。由于虚空丧尸的存在时间相对较短，后来者若发现先前的袭击现场，往往只能见到已被吞噬殆尽的残骸，或是取代之的诡异景象——一群寂静无声、布满玻璃般光泽的茧，里面蛰伏着饥肠辘辘的休眠期阿卡塔。</p>\n<p>虚空丧尸通常无视其他不死生物，但若遭遇被寄生虫感染、或受外力操控的其他生物时，它们会表现出莫名的强烈敌意。许多人曾试图通过强迫虚空丧尸与例如撕裂蠕虫宿主、或受施法者控制的生物对抗来研究其行为模式。这类实验大多至多得出模棱两可的结论，更有不少以灾难收场。</p>",
+      "reason": "原文第二段eventually its host compels it疑似寄生虫/宿主主语倒置，暂按原文",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "怪物与危害",
+      "index": 2122,
+      "id": "8a52b5e6893b85aa",
+      "source": "<p>The irradiated undead flyer Strides twice up to its Speed in a straight line, making a single wing slash Strike against all creatures whose spaces it flies adjacent to. All creatures damaged by the Strafing Snap are considered to be within the flyer's aura at the start of their next turn. The flyer can't use Strafing Snap again for [[/gmr 1d4 #Recharge Strafing Snap]]{1d4 rounds}.</p>",
+      "target": "<p>辐照不死飞行者沿直线行走两次，每次至多移动其速度的距离，对它飞行经过的相邻空间内的所有生物进行一次翼斩打击。所有受到俯冲撕咬伤害的生物，在其下个回合开始时都被视为位于飞行者的灵光内。飞行者在[[/gmr 1d4 #Recharge Strafing Snap]]{1d4轮}内不能再次使用俯冲撕咬。</p>",
+      "reason": "原文Strides twice但后文flies adjacent，行走/飞行矛盾，暂按原文",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "怪物与危害",
+      "index": 2238,
+      "id": "2e9e9c1ed3faaad8",
+      "source": "<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The security robot restores @Damage[24[healing]] Hit Points per the robot's level to one technological creature or item.</p>",
+      "target": "<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 安保机器人为一个科技生物或物品恢复生命值，每机器人等级恢复@Damage[24[healing]]生命值。</p>",
+      "reason": "英文已写固定治疗24却另有per robot level，疑似把总量与每级量重复；宏与原文暂保留",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "怪物与危害",
+      "index": 2774,
+      "id": "8e978087187d2da7",
+      "source": "<p><strong>Trigger</strong> A creature interacts with or moves through a sunbeam containing a sleeping flarysca</p><hr /><p><strong>Effect</strong> The flarysca startles awake, letting out a burst of fire as their body reconstitutes within the sunlight. The triggering creature and any other creature within 30 feet of the flarysca must succeed at a @Check[reflex|dc:25|basic] save or take @Damage[8d6[fire]] damage.</p>",
+      "target": "<p><strong>触发</strong>一个生物与一束包含沉睡烁光尘的阳光互动，或穿过该束阳光</p><hr /><p><strong>效果</strong>烁光尘惊醒，其身体在阳光中重新凝聚的同时爆发出一团火焰。触发生物及烁光尘30尺内的任何其他生物都必须成功通过@Check[reflex|dc:25|basic]豁免，否则受到@Damage[8d6[fire]]伤害。</p>",
+      "reason": "英文must succeed or damage与basic宏存在伤害结算歧义；暂保留原文与宏",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "怪物与危害",
+      "index": 3299,
+      "id": "ae7ed6387c050a60",
+      "source": "<p>The scrap rat visionary fires jagged junk shards at multiple enemies. All creatures in a @Template[type:cone|distance:20] must attempt a @Check[reflex|dc:18|basic|options:area-effect] save or take @Damage[3d6[piercing]|options:area-damage] damage. On a critical failure, the creature is @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until the end of the scrap rat visionary's next turn.</p>",
+      "target": "<p>废料鼠先知向多个敌人射出锯齿状废料碎片。@Template[type:cone|distance:20]内的所有生物必须尝试@Check[reflex|dc:18|basic|options:area-effect]豁免，否则受到@Damage[3d6[piercing]|options:area-damage]伤害。大失败时，生物会@UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF]{被压制}，直至废料鼠先知下回合结束。</p>",
+      "reason": "must attempt ... or take damage与basic宏可能不一致，暂保留",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "怪物与危害",
+      "index": 2871,
+      "id": "fa6a4671108461d7",
+      "source": "<p>The Free Captain gunner Switches Hands, then Raises a Shield or Reloads, in any order.</p>",
+      "target": "<p>自由船长枪手使用换手，然后以任意顺序使用举起盾牌或装填。</p>",
+      "reason": "原文then与in any order并列有歧义；中文照译，动作顺序待主审",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "怪物与危害",
+      "index": 4610,
+      "id": "435b34dd25c14a9d",
+      "source": "<p><strong>Trigger</strong> A creature moves within 10 feet of the rift</p><hr /><p><strong>Effect</strong> The triggering creature takes 6d10+20 damage as its body rapidly ages. It must attempt a @Check[will|dc:33] save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage and becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1}.</p>\n<p><strong>Failure</strong> The creature takes full damage, and becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage, becomes clumsy 2 and enfeebled 2, and becomes slowed for 1 minute.</p>",
+      "target": "<p><strong>触发</strong>一个生物移动至裂隙10尺内</p><hr /><p><strong>效果</strong>触发生物的身体急速衰老，受到6d10+20伤害。它必须尝试一次@Check[will|dc:33]豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物受到一半伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}和@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}。</p>\n<p><strong>失败</strong>该生物受到全额伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙2}和@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}。</p>\n<p><strong>大失败</strong>该生物受到双倍伤害，陷入笨拙2和力竭2，并陷入缓慢状态1分钟。</p>",
+      "reason": "大失败英文仅写slowed缺状态值；中文同样未擅加数值，待裁定",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "怪物与危害",
+      "index": 5178,
+      "id": "a9967908c6a12649",
+      "source": "<p><strong>Trigger</strong> A Mechanizer is the target of an attack from an item or creature with the tech trait</p>\n<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p><strong>Effect</strong> The Mechanizer taps into the universal code, causing the triggering item to become @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1} (@Check[will|dc:13] save negates); if both the item and creature wielding it have the tech trait, this affects the item.</p>",
+      "target": "<p><strong>触发</strong>一名机械教徒成为具有科技特征的物品或生物所发起攻击的目标</p>\n<p><strong>频率</strong>每10分钟一次</p><hr /><p><strong>效果</strong>机械教徒接入宇宙代码，使触发物品陷入@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障1}状态（@Check[will|dc:13]豁免可免除）；如果物品及其持用者都具有科技特征，此效应影响物品。</p>",
+      "reason": "触发包括科技生物攻击，但效果只写triggering item，英文适用对象不全，暂不擅补",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "怪物与危害",
+      "index": 5189,
+      "id": "aa8f2431f4898c28",
+      "source": "<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> Feskagazar injects themselves with breath recharger, which activates their breath gland. They immediately recover their boreal breath, but they take @Damage[2d8[untyped]] damage as a side effect.</p>",
+      "target": "<p><strong>频率</strong>每天一次</p><hr /><p><strong>效果</strong>费斯卡加扎尔给自己注射吐息充能剂，启动吐息腺体。其立即恢复寒地吐息，但副作用使其受到@Damage[2d8[untyped]]伤害。</p>",
+      "reason": "Feskagazar能力写恢复boreal breath，但其吐息为Breathe Nanites，疑源文复制名称；暂按原文保留",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "怪物与危害",
+      "index": 5307,
+      "id": "050b428e8d9b2197",
+      "source": "<p>Creatures Swallowed Whole by the beyond terror are subjected to the constant mental assault of an entire world's collective, crushing existential fear. They have 2 fewer rounds before they begin suffocating, and after their escape, they are @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} for 1 round as their mind struggles to readjust after the ordeal.</p>",
+      "target": "<p>被彼岸惧魔整个吞下的生物，持续承受一整个世界集体、压倒性的存在恐惧所造成的心灵侵袭。它们开始窒息前的轮数减少2轮；逃出后，心智仍艰难地从这场折磨中重新适应，使它们陷入@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{震慑1}状态1轮。</p>",
+      "reason": "英文同时写Stunned 1和for 1 round，状态值与持续时长并用，中文照录待主审",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "怪物与危害",
+      "index": 5434,
+      "id": "fb9bde1180972290",
+      "source": "<p><strong>Trigger</strong> The gliding bear is dealt damage</p><hr /><p><strong>Effect</strong> One of the gliding bear's pustules pops, spraying putrid fluid in a @Template[type:emanation|distance:5]. All creatures in the area become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} unless they succeed at a @Check[fortitude|dc:15|basic] save.</p>",
+      "target": "<p><strong>触发</strong>滑翔熊受到伤害</p><hr /><p><strong>效果</strong>滑翔熊的一个脓疱破裂，喷出@Template[type:emanation|distance:5]的腐臭液体。区域内所有生物陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}状态，除非成功通过@Check[fortitude|dc:15|basic]豁免。</p>",
+      "reason": "英文basic Fortitude但效果仅状态无伤害，中文照录宏不能更改",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "怪物与危害",
+      "index": 5504,
+      "id": "b914c33e12686134",
+      "source": "<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> The nodocite guardian bends reality to trap one Medium or smaller creature within 60 feet in a cage of warped reality. The target must attempt a @Check[reflex|dc:20] save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected, and the reality cage fails to form.</p>\n<p><strong>Success</strong> The target is hindered by reality shards, becoming @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round; the reality cage fails to form.</p>\n<p><strong>Failure</strong> The target is trapped in a reality cage that lasts [[/gmr 1d4 #rounds]]{1d4 rounds}.</p>\n<p><strong>Critical Failure</strong> The target is trapped in a reality cage that lasts 1 minute. A reality cage has AC 10, Hardness 5, and 10 Hit Points (BT 5). A creature trapped in a reality cage is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 20). A reality cage provides lesser cover.</p>",
+      "target": "<p><strong>频率</strong>每小时一次</p><hr /><p><strong>效果</strong>节点体守卫弯曲现实，将60尺内一个中型或更小生物困在扭曲现实形成的牢笼中。目标必须进行@Check[reflex|dc:20]豁免。</p><hr /><p><strong>大成功</strong>目标不受影响，现实牢笼未能成形。</p>\n<p><strong>成功</strong>目标受到现实碎片阻碍，陷入@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}状态1轮；现实牢笼未能成形。</p>\n<p><strong>失败</strong>目标被困在现实牢笼中，持续[[/gmr 1d4 #rounds]]{1d4轮}。</p>\n<p><strong>大失败</strong>目标被困在现实牢笼中，持续1分钟。现实牢笼具有AC 10、硬度5、10生命值（破损阈值5）。被困在现实牢笼中的生物处于@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{禁足}状态（@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{逃脱}DC 20）。现实牢笼提供次级掩蔽。</p>",
+      "reason": "nodocite gunner宿主下正文guardian，疑复制名称，需Wiki宿主核实",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "怪物与危害",
+      "index": 6257,
+      "id": "e3ede0312e4c1df6",
+      "source": "<p>The vent viper can't see via vision but can detect creatures that emit heat warmer than 60 degrees as a precise sense. When environmental protections are active on a creature's armor, they block the vent viper's ability to sense the wearer.</p>",
+      "target": "<p>通风管毒蛇无法以视觉观察，但能以精确感官侦测散发高于60度热量的生物。生物护甲的环境防护启用时，会阻断通风管毒蛇对穿戴者的感知。</p>",
+      "reason": "英文60 degrees未说明温标，按原文保留60度，需原出处确认是否华氏",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "怪物与危害",
+      "index": 6358,
+      "id": "4820a40c6a63316b",
+      "source": "<p><strong>Trigger</strong> Two creatures enter area <strong>C7</strong></p><hr /><p><strong>Effect</strong> The creatures must succeed at a @Check[will|dc:26] save or become controlled, performing someone else's medical routine on autopilot. One creature is designated the doctor, one is designated the patient. The patient Strides 15 feet toward a bed within the haunt and then lies down. The haunt then rolls initiative, though it isn't obvious that a haunt is influencing them. Creatures that fail their save against the haunt are immune for 24 hours. The haunt can only affect two creatures at a time.</p>",
+      "target": "<p><strong>触发</strong>两个生物进入区域<strong>C7</strong></p><hr /><p><strong>效果</strong>这些生物必须通过@Check[will|dc:26]豁免，否则受到控制，不假思索地执行他人的医疗流程。其中一个生物被指定为医生，另一个为病人。病人向作祟范围内的一张床行走15尺，随后躺下。作祟接着投掷先攻，不过其影响并不明显。对抗此作祟豁免失败的生物免疫此作祟24小时。作祟同一时间只能影响两个生物。</p>",
+      "reason": "源文豁免失败受控同时立即免疫24小时，疑fail/succeed笔误，当前照录待Wiki确认",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "怪物与危害",
+      "index": 7514,
+      "id": "cd1d3be49c779a39",
+      "source": "<p>(1 action) The security system activates a lethal defense mechanism from the table below; either choose a mechanism or roll a [[/r 1d6]] to determine the effect. All creatures in the area must attempt a basic DC 21 saving throw, with the saving throw type and damage listed. Some defenses have an additional effect listed that occurs on a failed save.</p><table border=\"1\" class=\"pf2e\"><thead><tr style=\"text-align: right;\"><th><p>D6</p></th><th><p>Mechanism</p></th><th><p>Description</p></th><th><p>Save</p></th><th><p>Damage</p></th><th><p>Failure Effect</p></th></tr></thead><tbody><tr><td><p>1–2</p></td><td><p>Dragonfreeze Turret</p></td><td><p>Turrets whose barrels look like the heads of iridescent dragons pop out of holes in the walls</p></td><td><p>@Check[reflex|dc:21|basic]</p></td><td><p>@Damage[2d8[cold]]</p></td><td><p>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} for 1 hour</p></td></tr><tr><td><p>3–4</p></td><td><p>Laser Bats</p></td><td><p>Furry blue bats with laser eyes swoop down and shoot searing eye beams at the intruders</p></td><td><p>@Check[reflex|dc:21|basic]</p></td><td><p>@Damage[(2d8+5)[fire]]</p></td><td><p>–</p></td></tr><tr><td><p>5–6</p></td><td><p>Sonic Boom</p></td><td><p>An explosion of sound overwhelms the senses</p></td><td><p>@Check[fortitude|dc:21|basic]</p></td><td><p>@Damage[2d8[cold]]</p></td><td><p>@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 hour</p></td></tr><tr><td><p>4</p></td><td><p>Fungal Cloud</p></td><td><p>The air fills with a cloud of poison derived from fungal spores</p></td><td><p>@Check[fortitude|dc:21|basic]</p></td><td><p>@Damage[2d8[poison]]</p></td><td><p>@Damage[1d6[persistent,poison]] damage</p></td></tr><tr><td><p>5</p></td><td><p>Mindscreech</p></td><td><p>A psychic screech assaults the minds of all creatures in the room</p></td><td><p>@Check[will|dc:21|basic]</p></td><td><p>@Damage[2d8[mental]]</p></td><td><p>@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}</p></td></tr><tr><td><p>6</p></td><td><p>Electrified Floors</p></td><td><p>Electricity surges through the metal floor, jolting all creatures on the ground</p></td><td><p>@Check[reflex|dc:21|basic]</p></td><td><p>@Damage[2d12[electricity]]</p></td><td><p>–</p></td></tr></tbody></table>",
+      "target": "<p>（1个动作）安保系统激活下表中的一个致命防御机构，可以自行选择，或掷[[/r 1d6]]决定效果。区域内所有生物都必须进行DC 21基础豁免，豁免类型和伤害如表所示。部分防御措施还列有豁免失败时发生的额外效果。</p><table border=\"1\" class=\"pf2e\"><thead><tr style=\"text-align: right;\"><th><p>D6</p></th><th><p>机构</p></th><th><p>描述</p></th><th><p>豁免</p></th><th><p>伤害</p></th><th><p>失败效果</p></th></tr></thead><tbody><tr><td><p>1–2</p></td><td><p>龙冻炮塔</p></td><td><p>炮管形似虹彩龙头的炮塔从墙洞中弹出</p></td><td><p>@Check[reflex|dc:21|basic]</p></td><td><p>@Damage[2d8[cold]]</p></td><td><p>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}，持续1小时</p></td></tr><tr><td><p>3–4</p></td><td><p>激光蝙蝠</p></td><td><p>长着毛茸茸蓝色皮毛、双眼发射激光的蝙蝠俯冲而下，向入侵者射出灼热眼束</p></td><td><p>@Check[reflex|dc:21|basic]</p></td><td><p>@Damage[(2d8+5)[fire]]</p></td><td><p>–</p></td></tr><tr><td><p>5–6</p></td><td><p>音爆</p></td><td><p>爆发的声浪淹没感官</p></td><td><p>@Check[fortitude|dc:21|basic]</p></td><td><p>@Damage[2d8[cold]]</p></td><td><p>@UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{耳聋}，持续1小时</p></td></tr><tr><td><p>4</p></td><td><p>真菌云</p></td><td><p>源自真菌孢子的毒云充满空气</p></td><td><p>@Check[fortitude|dc:21|basic]</p></td><td><p>@Damage[2d8[poison]]</p></td><td><p>@Damage[1d6[persistent,poison]]伤害</p></td></tr><tr><td><p>5</p></td><td><p>心灵尖啸</p></td><td><p>一道心灵尖啸袭击房内所有生物的心智</p></td><td><p>@Check[will|dc:21|basic]</p></td><td><p>@Damage[2d8[mental]]</p></td><td><p>@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}</p></td></tr><tr><td><p>6</p></td><td><p>通电地板</p></td><td><p>电流涌过金属地板，电击地面上的所有生物</p></td><td><p>@Check[reflex|dc:21|basic]</p></td><td><p>@Damage[2d12[electricity]]</p></td><td><p>–</p></td></tr></tbody></table>",
+      "reason": "源表D6的1–2/3–4/5–6与后续4/5/6重叠，且Sonic Boom宏cold疑错；冻结宏原样保留报上游",
+      "status": "upstream_or_parent_review"
+    },
+    {
+      "group": "日志与法术",
+      "index": 664,
+      "name": "Cloying Shadows",
+      "issue": "English says writhe and write; Chinese follows 扭动、书写. Potential source typo, not silently rewritten."
+    },
+    {
+      "group": "日志与法术",
+      "index": 778,
+      "name": "Light Shift",
+      "issue": "English and Wiki rev21790 both specify occupied space. Kept 已被占据, not silently changed to unoccupied."
+    },
+    {
+      "group": "日志与法术",
+      "index": 698,
+      "name": "Void Scour",
+      "issue": "Critical-failure damage macro increments 1d6/rank while Heightened prose says 2d6. Macro and source preserved; automation not altered."
+    },
+    {
+      "group": "日志与法术",
+      "index": 870,
+      "name": "Bombarding Emojis",
+      "issue": "English repeats 6d8 initial damage sentence and cast trigger sentence; Chinese follows source. Potential redundant original sentence retained."
+    },
+    {
+      "group": "日志与法术",
+      "index": 192,
+      "name": "Conditions",
+      "issue": "English Dazzled embeds concealed.rules instead of dazzled.rules. Source localization macro preserved; wrong key requires upstream fix."
+    },
+    {
+      "group": "日志与法术",
+      "index": 238,
+      "name": "Cinematic Starship Combat",
+      "issue": "Source XP table party+3=100,+4=120 conflicts with same-level monster XP guidance. Translation retains source numbers."
+    },
+    {
+      "group": "日志与法术",
+      "index": 248,
+      "name": "Temperature",
+      "issue": "Source severe-cold range –21 to 12 overlaps extreme-cold –79 to –20. Source temperatures preserved."
+    },
+    {
+      "group": "日志与法术",
+      "index": 269,
+      "name": "Spellcasting Archetypes",
+      "issue": "Source says mystic prepares spells despite spontaneous repertoire; Chinese follows source. Needs authoritative rules clarification."
+    },
+    {
+      "group": "装备",
+      "name": "Chronowatch",
+      "issue": "英文与旧中文均在最后一次Rewind相关句子处截断，SF2 Wiki缓存未找到完整对应条目；未猜补缺失效果。"
+    },
+    {
+      "group": "族裔日志",
+      "name": "Bantrid",
+      "issue": "英文典范与禁忌疑复制Novian，未找到可核实完整替代文字，保留源文规则并列明。"
+    },
+    {
+      "group": "族裔日志",
+      "name": "Phasorq",
+      "issue": "英文同篇半日11年与一昼一夜11年相互矛盾；中文保留原文数值，待上游明确。"
+    },
+    {
+      "group": "角色选项",
+      "id": "1b1e3e008353de27",
+      "issue": "英文持续穿刺与固定伤害宏persistent bleed不一致；中文规则文本依英文，伤害宏保留。"
+    }
+  ],
+  "resolved_examples": [
+    {
+      "name": "Biomechanical Symbiosis",
+      "resolution": "原文first time each round缺少触发说明，采用SF2 Wiki rev21741的每轮开始时完成中文句子。"
+    },
+    {
+      "name": "Electric Fence",
+      "resolution": "仅电网宿主的误植Buy! Buy! Buy!名称改为Wiki电击；广告宿主保留买！买！买！。"
+    },
+    {
+      "name": "Necrotized",
+      "resolution": "英文dying decrease疑误；保留现有中文濒死增长，SF2 Wiki5573 rev11844支持。"
+    }
+  ]
+}

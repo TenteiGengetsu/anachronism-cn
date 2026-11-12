@@ -80,7 +80,7 @@
     },
     "MiwWwUdUbDDegnmp": {
       "name": "（环境适应）温度适应 (Environmental Adaptation) Temperature Adaptation",
-      "description": "<p>该生物将环境温度效果视为严酷程度降低一级（不可思议的高温变为极端高温，极端高温变为酷热，依此类推）。</p>"
+      "description": "<p>该生物将环境温度效果视为严酷程度降低一级（酷热变为极热，极热变为炎热，依此类推）。</p>"
     },
     "Ni7Febqv9Dm1EgK9": {
       "name": "（机械化战争机器）超视距交战 (Robotic War Machine) BVR Engagement",
@@ -104,7 +104,7 @@
     },
     "YxUr6jj3CcUPhXjg": {
       "name": "（死灵妖）分解 (Necrovite) Decompose",
-      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p><strong>效果</strong> 死灵妖对一个生物进行一次破坏之杖打击。如果此次攻击命中并造成伤害，该生物受到@Damage[3d6[persistent,void]]伤害。</p>"
+      "description": "<p><strong>频率</strong>每轮一次</p><hr /><p><strong>效果</strong> 死灵妖对一个生物进行一次折磨杖打击。如果此次攻击命中并造成伤害，该生物受到@Damage[3d6[persistent,void]]伤害。</p>"
     },
     "ZiIpvgdaCHotJoQk": {
       "name": "（纳米机械）压缩 (Nanite) Compression",

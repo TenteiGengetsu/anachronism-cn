@@ -207,7 +207,7 @@
           "id": "zofLPu7cg9aBOrXC",
           "expectedName": "Aeon Stone (Life-Giving)",
           "name": "赋生万古石",
-          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>",
+          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为 <em>寻路石</em>的古老魔法装置。</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>",
           "expectedDescription": "<p>Staple items within the Azlanti Star Empire, these gemstones are popular status symbols for adventurers and wealthy collectors. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to build the Universe in ancient times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head (or another visible part of your anatomy if you don't have a head) instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} action against you. A stowed or removed stone remains invested, but its effects are @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into specific items, such as weapons with the aeon trait or antique magical devices called <em>wayfinders</em>.</p><hr /><p>This nacreous, tapered cylinder provides a breath of air when you need it most. You can hold your breath for twice as long, and you gain a +1 item bonus to saves against inhaled poisons. The resonant power allows you to cast @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] as a divine innate spell once per day.</p>"
         },
         {
@@ -303,7 +303,7 @@
           "expectedName": "Electrotether",
           "name": "闪电枷锁",
           "expectedDescription": "<p>You supercharge the targets' electromagnetism and pull them with a tether of lightning. Make a ranged spell attack against each target. If you attack two targets, both attacks count toward your multiple attack penalty, but it doesn't increase until after both attacks. The targets each take 4d8 electricity damage and are pulled 5 feet closer to you, or 10 feet closer on a critical hit. If both attacks hit, you can choose to move the creatures closer to one another instead of closer to you. Moving a target into a barrier, creature, or obstacle causes the target to stop before entering that space.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d8.</p>",
-          "description": "<p>你使目标的电磁场过载，并以闪电锁链将其拽向自己。对每个目标进行一次远程法术攻击。若攻击两个目标，两次攻击均计入多重攻击减值，但该减值仅在两次攻击完成后生效。每个目标受到4d8电击伤害并且向着你的方向被拉拽5尺（大成功10尺）。如果两次攻击都命中，你可以选择让两个生物彼此靠近而不是被拉向你。如果目标在位移过程中碰到街垒、生物或障碍，目标会在进入那个方格之前停下。</p><hr /><p><strong>升阶（+1）</strong>该伤害增加1d8。</p>"
+          "description": "<p>你使目标的电磁场过载，并以闪电锁链将其拽向自己。对每个目标进行一次远程法术攻击。若攻击两个目标，两次攻击均计入多重攻击减值，但该减值直到两次攻击都完成后才增加。每个目标受到4d8电击伤害并且向着你的方向被拉拽5尺（大成功10尺）。如果两次攻击都命中，你可以选择让两个生物彼此靠近而不是被拉向你。如果目标在位移过程中碰到街垒、生物或障碍，目标会在进入那个方格之前停下。</p><hr /><p><strong>升阶（+1）</strong>该伤害增加1d8。</p>"
         },
         {
           "id": "R6wffc1xSkhRyKCj",
@@ -747,7 +747,7 @@
           "expectedName": "Void Whispers",
           "name": "虚空低语",
           "expectedDescription": "<p>The target hears ominous sounds containing unspeakable mysteries from beyond the stars that disorient its mind. The target attempts a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The target hears the strange whispers, becoming @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</p>\n<p><strong>Failure</strong> The target begins to wander aimlessly, using each action to Step in a random direction. When it moves, the target takes the safest route and doesn't enter hazardous terrain. The spell has a duration of 1 minute or until a creature uses a hostile action against the target.</p>\n<p><strong>Critical Failure</strong> As failure, except the target babbles incoherently. Any creature that begins its turn within 20 feet of the target must attempt a Will saving throw. On a failure, it must use its first action on its next turn to Step in a random direction and becomes immune to this spell for 24 hours. This is an incapacitation effect.</p>",
-          "description": "<p>目标耳边响起蕴含星辰之外不可名状奥秘的不祥之音，使其神智混乱。目标需要尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>目标听到了诡异的低语，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续1轮。</p>\n<p><strong>失败</strong>目标开始漫无目的地游荡，使用每个动作来快步（方向随机）。当其移动时，其会采取最安全的路线并且不会进入有害地形。法术会持续1分钟或者直到目标被敌对动作瞄准。</p>\n<p><strong>大失败</strong>类似失败，除了目标还会语无伦次地喋喋不休。任何在其20尺内开始回合的生物也需要尝试一次意志豁免。在失败时，这些生物也需要在下回合开始时花费第一个动作来进行快步（随机方向），随后临时免疫此法术24小时。这是一个失能效果。</p>"
+          "description": "<p>目标耳边响起蕴含星辰之外不可名状奥秘的不祥之音，使其神智混乱。目标需要尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>目标听到了诡异的低语，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续1轮。</p>\n<p><strong>失败</strong>目标开始漫无目的地游荡，使用每个动作来快步（方向随机）。当其移动时，其会采取最安全的路线并且不会进入有害地形。法术会持续1分钟或者直到有生物对目标使用敌对动作。</p>\n<p><strong>大失败</strong>类似失败，除了目标还会语无伦次地喋喋不休。任何在其20尺内开始回合的生物也需要尝试一次意志豁免。在失败时，这些生物也需要在下回合开始时花费第一个动作来进行快步（随机方向），随后临时免疫此法术24小时。这是一个失能效果。</p>"
         },
         {
           "id": "qQuRbOwMM3Z2UB5l",
@@ -775,7 +775,7 @@
           "expectedName": "Analyze Target",
           "name": "分析目标",
           "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
-          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能察觉这种情况。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以将至多10个生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以将任意数量的生物作为目标。</p>"
         },
         {
           "id": "yjGgFogIcfIsHo8g",
@@ -809,7 +809,7 @@
           "id": "Xypp8r1EkyBJPTRN",
           "expectedName": "Prestidigitation",
           "name": "魔法伎俩",
-          "description": "<p>最简单的魔法听从你的指令。只要持续维持法术，你就能产生简单的魔法效应。每次维持时，你可以选择以下四个选项之一。</p><ul><li><strong>烹饪</strong>冷却、加热或调味1磅非活体材料。</li><li><strong>抬升</strong>将一件无人持有、负载为轻型或更低的物体缓缓抬离地面1尺。</li><li><strong>制造</strong>以凝结的魔法物质创造一个临时物体，其负载可忽略不计。该物体外观粗糙、不自然，且极其脆弱，不能用作工具、武器、施法载体或法术开销。</li><li><strong>整理</strong>为一件负载为轻型或更低的物体染色、清洁或弄脏。专注10轮可以影响一个1负载的物体；对于更大的物体，每负载需要1分钟。</li></ul><p><em>魔法伎俩</em>不能造成伤害或不利状态。对物体的任何实际改变（上述说明以外的改变），都只在你持续维持法术期间存在。</p>",
+          "description": "<p>最简单的魔法听从你的指令。只要持续维持法术，你就能产生简单的魔法效应。每次维持时，你可以选择以下四个选项之一。</p><ul><li><strong>烹饪</strong>冷却、加热或调味1磅非活体材料。</li><li><strong>抬升</strong>将一件无人照管、负载为轻型或更低的物体缓缓抬离地面1尺。</li><li><strong>制造</strong>以凝结的魔法物质创造一个临时物体，其负载可忽略不计。该物体外观粗糙、不自然，且极其脆弱，不能用作工具、武器、施法载体或法术开销。</li><li><strong>整理</strong>为一件负载为轻型或更低的物体染色、清洁或弄脏。专注10轮可以影响一个1负载的物体；对于更大的物体，每负载需要1分钟。</li></ul><p><em>魔法伎俩</em>不能造成伤害或不利状态。对物体的任何实际改变（上述说明以外的改变），都只在你持续维持法术期间存在。</p>",
           "expectedDescription": "<p>The simplest magic does your bidding. You can perform simple magical effects for as long as you Sustain the spell. Each time you Sustain the spell, you can choose one of four options.</p><ul><li><strong>Cook</strong> Cool, warm, or flavor 1 pound of nonliving material.</li><li><strong>Lift</strong> Slowly lift an unattended object of light Bulk or less 1 foot off the ground.</li><li><strong>Make</strong> Create a temporary object of negligible Bulk, made of congealed magical substance. The object looks crude and artificial and is extremely fragile-it can't be used as a tool, weapon, or locus or cost for a spell.</li><li><strong>Tidy</strong> Color, clean, or soil an object of light Bulk or less. You can affect an object of 1 Bulk with 10 rounds of concentration, and a larger object at 1 minute per Bulk.</li></ul><p><em>Prestidigitation</em> can't deal damage or cause adverse conditions. Any actual change to an object (beyond what is noted above) persists only as long as you Sustain the spell.</p>"
         },
         {
@@ -823,7 +823,7 @@
           "id": "75CTF4AuOZWGV9kP",
           "expectedName": "Telekinetic Hand",
           "name": "念动之手",
-          "description": "<p>你创造一只悬浮的魔法手掌，它可以隐形或呈幽灵状，抓住目标物体，使其缓缓向任意方向浮动至多20尺。维持法术时，你能将物体再移动20尺。如果法术结束时物体仍在空中，它便会坠落。</p>\n<hr />\n<p><strong>升阶（3环）</strong>你能以一件无人持有且负载不超过1的物体为目标。</p>\n<p><strong>升阶（5环）</strong>射程提高至60尺，且你能以一件无人持有、负载不超过1的物体为目标。</p>\n<p><strong>升阶（7环）</strong>射程提高至60尺，且你能以一件无人持有、负载不超过2的物体为目标。</p>",
+          "description": "<p>你创造一只悬浮的魔法手掌，它可以隐形或呈幽灵状，抓住目标物体，使其缓缓向任意方向浮动至多20尺。维持法术时，你能将物体再移动20尺。如果法术结束时物体仍在空中，它便会坠落。</p>\n<hr />\n<p><strong>升阶（3环）</strong>你能以一件无人照管且负载不超过1的物体为目标。</p>\n<p><strong>升阶（5环）</strong>射程提高至60尺，且你能以一件无人照管、负载不超过1的物体为目标。</p>\n<p><strong>升阶（7环）</strong>射程提高至60尺，且你能以一件无人照管、负载不超过2的物体为目标。</p>",
           "expectedDescription": "<p>You create a floating, magical hand, either invisible or ghostlike, that grasps the target object and levitates it slowly up to 20 feet in any direction. When you Sustain the spell, you can move the object an additional 20 feet. If the object is in the air when the spell ends, the object falls.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (5th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (7th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 2 or less.</p>"
         },
         {
@@ -871,7 +871,7 @@
           "expectedName": "Delete",
           "name": "删除术",
           "expectedDescription": "<p>You delete data from a device or object with a flamboyant magical gesture. This data might be handwritten, printed, or digital. You delete up to 1,500 words' worth of text, one page of content, or one display screen worth of text or other visual information. Non-magical writing in or on an unattended or held object is automatically deleted. Attempt a counteract check to delete digital or magical writing. If you fail to delete writing that's part of a hazard, you trigger the hazard. This can't be used to delete the contents of a spellbook or similar means of storing magical formulas or spells.</p>\n<p>If you target an attended tech item with the tracking trait, attempt a counteract check. On a success, the item becomes glitching 1. A creature holding the item can Interact to restart the software, reducing the glitching value by 1.</p><hr /><p><strong>Heightened (7th)</strong> You can delete all the data stored locally on a single device or book, or all the data on a device or book related to a specific name, topic, or category.</p>",
-          "description": "<p>你以华丽的魔法手势删除设备或物品中的数据。这些数据可以是手写的、打印的或电子的。你最多可以删除 1,500字的文本、一页内容或一显示屏的文本或其他视觉信息。无主物品或手持物品上的非魔法文字会自动删除。尝试反制检定删除数据或魔法文字。如果你尝试删除的文字是危害的一部分，且你失败，就会触发危害。这不能用于删除魔法书或类似的存储魔法公式或法术的内容。</p>\n<p>如果目标是具有追踪特征的科技物品，尝试一次反制检定。如果成功，该物品就会获得故障1。持有该物品的生物可以花费一个交互动作来重启用户界面，并将故障值降低1。</p><hr /><p><strong>升阶（7环）</strong>你可以删除单个设备或书籍中本地存储的所有数据，或者删除设备或书籍中与特定名称、主题或类别相关的所有数据。</p>"
+          "description": "<p>你以华丽的魔法手势删除设备或物品中的数据。这些数据可以是手写的、打印的或电子的。你最多可以删除 1,500字的文本、一页内容或一显示屏的文本或其他视觉信息。无人携带的物品或手持物品上的非魔法文字会自动删除。尝试反制检定删除电子文字或魔法文字。如果你尝试删除的文字是危害的一部分，且你失败，就会触发危害。这不能用于删除魔法书或类似的存储魔法公式或法术的内容。</p>\n<p>如果目标是由生物携带且具有追踪特征的科技物品，尝试一次反制检定。如果成功，该物品就会获得故障1。持有该物品的生物可以花费一个交互动作来重启软件，并将故障值降低1。</p><hr /><p><strong>升阶（7环）</strong>你可以删除单个设备或书籍中本地存储的所有数据，或者删除设备或书籍中与特定名称、主题或类别相关的所有数据。</p>"
         },
         {
           "id": "PKyEa8Q3xiAdKADT",
@@ -898,7 +898,7 @@
           "id": "Qw65Tf5FapoH0KUy",
           "expectedName": "Telekinetic Hand",
           "name": "念动之手",
-          "description": "<p>你创造一只悬浮的魔法手掌，它可以隐形或呈幽灵状，抓住目标物体，使其缓缓向任意方向浮动至多20尺。维持法术时，你能将物体再移动20尺。如果法术结束时物体仍在空中，它便会坠落。</p>\n<hr />\n<p><strong>升阶（3环）</strong>你能以一件无人持有且负载不超过1的物体为目标。</p>\n<p><strong>升阶（5环）</strong>射程提高至60尺，且你能以一件无人持有、负载不超过1的物体为目标。</p>\n<p><strong>升阶（7环）</strong>射程提高至60尺，且你能以一件无人持有、负载不超过2的物体为目标。</p>",
+          "description": "<p>你创造一只悬浮的魔法手掌，它可以隐形或呈幽灵状，抓住目标物体，使其缓缓向任意方向浮动至多20尺。维持法术时，你能将物体再移动20尺。如果法术结束时物体仍在空中，它便会坠落。</p>\n<hr />\n<p><strong>升阶（3环）</strong>你能以一件无人照管且负载不超过1的物体为目标。</p>\n<p><strong>升阶（5环）</strong>射程提高至60尺，且你能以一件无人照管、负载不超过1的物体为目标。</p>\n<p><strong>升阶（7环）</strong>射程提高至60尺，且你能以一件无人照管、负载不超过2的物体为目标。</p>",
           "expectedDescription": "<p>You create a floating, magical hand, either invisible or ghostlike, that grasps the target object and levitates it slowly up to 20 feet in any direction. When you Sustain the spell, you can move the object an additional 20 feet. If the object is in the air when the spell ends, the object falls.</p>\n<hr />\n<p><strong>Heightened (3rd)</strong> You can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (5th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 1 or less.</p>\n<p><strong>Heightened (7th)</strong> The range increases to 60 feet, and you can target an unattended object with a Bulk of 2 or less.</p>"
         },
         {
@@ -1220,7 +1220,7 @@
           "id": "mi4CLGngWm67yiuj",
           "expectedName": "Shooting Starknife",
           "name": "弹射星刃",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种失落的格拉利昂传统星形刀刃，通常以强化碳钢锻造，并经过化学处理，泛着虹彩光泽。经过正确的配重和打磨后，射星刀划破空气时会发出鸣响。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种失落的格拉利昂传统星形刀刃，通常以强化碳钢锻造，并经过化学处理，泛着虹彩光泽。经过正确的配重和打磨后，弹射星刃划破空气时会发出鸣响。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>This traditional star-shaped blade design of lost Golarion is often forged from reinforced carbon steel and treated with chemicals that create an iridescent sheen. When properly balanced and honed, a shooting starknife sings as it slices through the air.</p>",
           "extraFields": [
             {
@@ -1305,7 +1305,7 @@
         {
           "id": "S1w4hEgzSVG6xDcn",
           "expectedName": "Construct Armor",
-          "name": "构装盾牌",
+          "name": "构装护甲",
           "description": "<p>阿克塞执法者如同普通物体一样具有硬度，可使其受到的任何伤害减少等于硬度的数值。一旦执法者的生命值降至最大生命值的一半以下，或受到重击伤害，其构装护甲就会立即破裂，失去硬度，AC降至15。</p>",
           "expectedDescription": "<p>Like normal objects, an Acsie enforcer has Hardness. This Hardness reduces any damage it takes by an amount equal to the Hardness. Once an enforcer is reduced to less than half its Hit Points, or immediately upon being damaged by a critical hit, its construct armor breaks, removing the Hardness and reducing its Armor Class to 15.</p>"
         },
@@ -1337,7 +1337,7 @@
           "expectedName": "Flash Grenade (Advanced)",
           "name": "先进型闪光手雷",
           "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round</p><hr /><p>A flash grenade unleashes a blast of bright light that requires creatures in a @Template[burst|distance:10] to attempt a @Check[fortitude|against:class] save. On a failure, the creature is @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 2 rounds.</p>",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]1轮</p><hr /><p>闪光手雷会释放出一阵刺眼的光芒，要求@Template[burst|distance:10]范围内的生物进行@Check[fortitude|against:class]豁免。豁免失败时，该生物@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]2轮。</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]，持续1轮</p><hr /><p>闪光手雷会释放出一阵刺眼的光芒，要求@Template[burst|distance:10]范围内的生物进行@Check[fortitude|against:class]豁免。豁免失败时，该生物陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]，持续2轮。</p>"
         },
         {
           "id": "Z03HioOws1ShYwfp",
@@ -1350,14 +1350,14 @@
           "id": "6Qo694t86kXO6E8U",
           "expectedName": "Battleglove",
           "name": "战斗手套",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这些耐用手套套在持用者的手上（或其他附肢上），指节处装有配重甲板或尖刺。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这些耐用手套套在持用者的手上（或其他附肢上），指节处装有配重板或尖刺。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>These durable gloves fit over a wielder's hands (or other appendages) and feature weighted plates or spikes over the knuckles.</p>"
         },
         {
           "id": "zofLPu7cg9aBOrXC",
           "expectedName": "Aeon Stone (Life-Giving)",
           "name": "赋生万古石",
-          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>",
+          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为 <em>寻路石</em>的古老魔法装置。</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>",
           "expectedDescription": "<p>Staple items within the Azlanti Star Empire, these gemstones are popular status symbols for adventurers and wealthy collectors. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to build the Universe in ancient times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head (or another visible part of your anatomy if you don't have a head) instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} action against you. A stowed or removed stone remains invested, but its effects are @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into specific items, such as weapons with the aeon trait or antique magical devices called <em>wayfinders</em>.</p><hr /><p>This nacreous, tapered cylinder provides a breath of air when you need it most. You can hold your breath for twice as long, and you gain a +1 item bonus to saves against inhaled poisons. The resonant power allows you to cast @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] as a divine innate spell once per day.</p>"
         },
         {
@@ -1506,14 +1506,14 @@
           "expectedName": "Time's Edge",
           "name": "时间尖锋",
           "expectedDescription": "<p>You refract latent energy from the Dimension of Time into your current plane in the form of a massive blade. The blade deals 5d6 slashing damage to all creatures in the area as it causes time to pass rapidly in a thin slice of their bodies. Creatures in the area must attempt a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
-          "description": "<p>你将时间维度上的巨大能量折射入当前位面，化为巨大的刀锋。刀锋对区域内所有生物造成5d6挥砍伤害，这表示刀锋令其身体的一小部分迅速流逝时间。该区域内的生物必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到完整伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}状态。</p>\n<p><strong>大失败</strong>目标受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}状态。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
+          "description": "<p>你将时间维度中潜藏的能量折射入当前位面，化为巨大的刀锋。刀锋对区域内所有生物造成5d6挥砍伤害，因为刀锋使其身体薄薄一层中的时间迅速流逝。该区域内的生物必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到完整伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}状态。</p>\n<p><strong>大失败</strong>目标受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}状态。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
         },
         {
           "id": "TmHbOKVBtrndWPfq",
           "expectedName": "Void Whispers",
           "name": "虚空低语",
           "expectedDescription": "<p>The target hears ominous sounds containing unspeakable mysteries from beyond the stars that disorient its mind. The target attempts a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The target hears the strange whispers, becoming @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</p>\n<p><strong>Failure</strong> The target begins to wander aimlessly, using each action to Step in a random direction. When it moves, the target takes the safest route and doesn't enter hazardous terrain. The spell has a duration of 1 minute or until a creature uses a hostile action against the target.</p>\n<p><strong>Critical Failure</strong> As failure, except the target babbles incoherently. Any creature that begins its turn within 20 feet of the target must attempt a Will saving throw. On a failure, it must use its first action on its next turn to Step in a random direction and becomes immune to this spell for 24 hours. This is an incapacitation effect.</p>",
-          "description": "<p>目标耳边响起蕴含星辰之外不可名状奥秘的不祥之音，使其神智混乱。目标需要尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>目标听到了诡异的低语，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续1轮。</p>\n<p><strong>失败</strong>目标开始漫无目的地游荡，使用每个动作来快步（方向随机）。当其移动时，其会采取最安全的路线并且不会进入有害地形。法术会持续1分钟或者直到目标被敌对动作瞄准。</p>\n<p><strong>大失败</strong>类似失败，除了目标还会语无伦次地喋喋不休。任何在其20尺内开始回合的生物也需要尝试一次意志豁免。在失败时，这些生物也需要在下回合开始时花费第一个动作来进行快步（随机方向），随后临时免疫此法术24小时。这是一个失能效果。</p>"
+          "description": "<p>目标耳边响起蕴含星辰之外不可名状奥秘的不祥之音，使其神智混乱。目标需要尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>目标听到了诡异的低语，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续1轮。</p>\n<p><strong>失败</strong>目标开始漫无目的地游荡，使用每个动作来快步（方向随机）。当其移动时，其会采取最安全的路线并且不会进入有害地形。法术会持续1分钟或者直到有生物对目标使用敌对动作。</p>\n<p><strong>大失败</strong>类似失败，除了目标还会语无伦次地喋喋不休。任何在其20尺内开始回合的生物也需要尝试一次意志豁免。在失败时，这些生物也需要在下回合开始时花费第一个动作来进行快步（随机方向），随后临时免疫此法术24小时。这是一个失能效果。</p>"
         },
         {
           "id": "e8pEvQT6FMienG2i",
@@ -1541,7 +1541,7 @@
           "expectedName": "Analyze Target",
           "name": "分析目标",
           "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
-          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能察觉这种情况。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以将至多10个生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以将任意数量的生物作为目标。</p>"
         },
         {
           "id": "qkE8pzCp4kGIfltO",
@@ -1608,7 +1608,7 @@
         {
           "id": "kdkpWZPZni6bfZks",
           "expectedName": "Integrated Advanced Fangblade",
-          "name": "集成先进型獠牙刃",
+          "name": "集成先进型链锯剑",
           "description": "<p><strong>强化：</strong> 1</p><hr /><p>这种动力剑边缘排列着耐用锯齿，以工业电锯般的力道旋转。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>Durable teeth line the edges of this motorized sword and spin with the force of an industrial chainsaw.</p>"
         },
@@ -1802,7 +1802,7 @@
           "id": "jh8E2PvulZc7RakS",
           "expectedName": "Destructive Whirlwind",
           "name": "毁灭旋风",
-          "description": "<p>吞噬者邪教徒行走，并以獠牙刃打击两次。这些打击可以针对其移动途中经过的任何相邻生物。命中时，该生物@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到邪教徒的下一回合开始。</p>",
+          "description": "<p>吞噬者邪教徒行走，并以链锯剑打击两次。这些打击可以针对其移动途中经过的任何相邻生物。命中时，该生物@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{措手不及}，直到邪教徒的下一回合开始。</p>",
           "expectedDescription": "<p>The Devourer cultist Strides and Strikes twice with their fangblade. These Strikes can be against any creatures the cultist passes adjacent to during their movement. On a hit, the creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the beginning of the cultist's next turn.</p>"
         },
         {
@@ -1868,7 +1868,7 @@
           "id": "hiO1AjbiGHheC7Aq",
           "expectedName": "Detect Magic",
           "name": "侦测魔法",
-          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同不精确感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
+          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同模糊感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
           "expectedDescription": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         {
@@ -2036,14 +2036,14 @@
           "id": "yXuc22WtxkVO0KLb",
           "expectedName": "Detect Magic",
           "name": "侦测魔法",
-          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同不精确感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
+          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同模糊感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
           "expectedDescription": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         {
           "id": "jqyUkEgFKTidrWUw",
           "expectedName": "Grease",
           "name": "油腻术",
-          "description": "<p>你创造油脂，选择一个区域或目标。</p>\n<ul>\n<li><strong>区域</strong><strong>[4个连续的5尺方格]</strong>区域内所有坚实地面都覆上油脂。站在油滑表面上的生物必须通过对抗你法术DC的反射豁免或特技检定，否则就会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。在法术持续时间内，用动作移动到油滑表面的生物必须尝试反射豁免，或尝试特技检定来@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}。快步或爬行的生物无需检定或豁免。</li>\n<li><strong>目标</strong><strong>[1个负载为1或更低的物体]</strong>如果对无人持有的物体施放该法术，任何尝试捡起它的生物都必须通过对抗你法术DC的特技检定或反射豁免。如果以有人持有的物体为目标，持有者必须尝试特技检定或反射豁免。失败时，持有者或持用者在涉及使用该物体的所有检定中受到–2环境减值；大失败时，它会放开物品。物品落在由GM选择的相邻方格。如果对穿戴的物体施放该法术，穿戴者对抗擒拿尝试的强韧豁免获得+2环境加值。</li>\n</ul>",
+          "description": "<p>你创造油脂，选择一个区域或目标。</p>\n<ul>\n<li><strong>区域</strong><strong>[4个连续的5尺方格]</strong>区域内所有坚实地面都覆上油脂。站在油滑表面上的生物必须通过对抗你法术DC的反射豁免或特技检定，否则就会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。在法术持续时间内，用动作移动到油滑表面的生物必须尝试反射豁免，或尝试特技检定来@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}。快步或爬行的生物无需检定或豁免。</li>\n<li><strong>目标</strong><strong>[1个负载为1或更低的物体]</strong>如果对无人携带的物体施放该法术，任何尝试捡起它的生物都必须通过对抗你法术DC的特技检定或反射豁免。如果以由生物携带的物体为目标，持有者必须尝试特技检定或反射豁免。失败时，持有者或持用者在涉及使用该物体的所有检定中受到–2环境减值；大失败时，它会放开物品。物品落在由GM选择的相邻方格。如果对穿戴的物体施放该法术，穿戴者对抗擒拿尝试的强韧豁免获得+2环境加值。</li>\n</ul>",
           "expectedDescription": "<p>You conjure grease, choosing an area or target.</p>\n<ul>\n<li><strong>Area</strong> <strong>[4 contiguous 5-foot squares]</strong> All solid ground in the area is covered with grease. Each creature standing on the greasy surface must succeed at a Reflex save or an Acrobatics check against your spell DC or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. Creatures using an action to move onto the greasy surface during the spell's duration must attempt either a Reflex save or an Acrobatics check to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance}. A creature that Steps or Crawls doesn't have to attempt a check or save.</li>\n<li><strong>Target</strong> <strong>[1 object of Bulk 1 or less]</strong> If you Cast the Spell on an unattended object, anyone trying to pick up the object must succeed at an Acrobatics check or Reflex save against your spell DC to do so. If you target an attended object, the creature that has the object must attempt an Acrobatics check or Reflex save. On a failure, the holder or wielder takes a –2 circumstance penalty to all checks that involve using the object; on a critical failure, the holder or wielder releases the item. The object lands in an adjacent square of the GM's choice. If you Cast this Spell on a worn object, the wearer gains a +2 circumstance bonus to Fortitude saves against attempts to grapple them.</li>\n</ul>"
         },
         {
@@ -2128,7 +2128,7 @@
           "expectedName": "Explosion of Rot",
           "name": "腐朽激爆",
           "expectedDescription": "<p>A giant pustule swells and explodes, coating everything around it in life-draining rot. Creatures and plants in the area take 6d6 poison damage and must attempt a Reflex save. Foliage and plant matter in the area damaged by the spell no longer provide cover.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1}.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, @Damage[(floor((@item.rank - 2)/2))d6[persistent,poison]] damage, and is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}.</p><hr /><p><strong>Heightened (+2)</strong> The initial damage increases by 2d6, and the persistent damage on a critical failure increases by 1d6.</p>",
-          "description": "<p>一个巨大的脓庖膨胀爆裂，为其周围的一切事物覆上一层汲取生命的朽物。在区域内的生物和植物受到6d6毒素伤害并必须尝试一次反射豁免。该区域内受到法术伤害的叶子和植物不再能够提供掩蔽。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全部伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}。</p>\n<p><strong>大失败</strong>目标受到双倍伤害、@Damage[(floor((@item.rank - 2)/2))d6[persistent,poison]]伤害，并@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}。</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加2d6，大失败时的持续伤害增加1d6。</p>"
+          "description": "<p>一个巨大的脓疱膨胀爆裂，为其周围的一切事物覆上一层汲取生命的朽物。在区域内的生物和植物受到6d6毒素伤害并必须尝试一次反射豁免。该区域内受到法术伤害的叶子和植物不再能够提供掩蔽。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全部伤害并陷入@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭1}。</p>\n<p><strong>大失败</strong>目标受到双倍伤害、@Damage[(floor((@item.rank - 2)/2))d6[persistent,poison]]伤害，并@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{力竭2}。</p><hr /><p><strong>升阶（+2）</strong>初始伤害增加2d6，大失败时的持续伤害增加1d6。</p>"
         },
         {
           "id": "p0npap4YXvQvog4r",
@@ -2141,7 +2141,7 @@
           "id": "VtXBRGDzk92AgI1k",
           "expectedName": "Detect Magic",
           "name": "侦测魔法",
-          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同不精确感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
+          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同模糊感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
           "expectedDescription": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         {
@@ -2229,7 +2229,7 @@
           "id": "a7abIGUPx0swWrkJ",
           "expectedName": "Integrated Aeon Stone (Life-Giving)",
           "name": "集成赋生万古石",
-          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>",
+          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为 <em>寻路石</em>的古老魔法装置。</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>",
           "expectedDescription": "<p>Staple items within the Azlanti Star Empire, these gemstones are popular status symbols for adventurers and wealthy collectors. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to build the Universe in ancient times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head (or another visible part of your anatomy if you don't have a head) instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} action against you. A stowed or removed stone remains invested, but its effects are @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into specific items, such as weapons with the aeon trait or antique magical devices called <em>wayfinders</em>.</p><hr /><p>This nacreous, tapered cylinder provides a breath of air when you need it most. You can hold your breath for twice as long, and you gain a +1 item bonus to saves against inhaled poisons. The resonant power allows you to cast @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] as a divine innate spell once per day.</p>"
         },
         {
@@ -2508,7 +2508,7 @@
           "id": "140O0MywtzlXnv2B",
           "expectedName": "Detect Magic",
           "name": "侦测魔法",
-          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同不精确感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
+          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同模糊感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
           "expectedDescription": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         {
@@ -2570,7 +2570,7 @@
             {
               "path": "system.subitems.0.system.description.value",
               "expected": "<p>This module overheats the weapon's striking edge and ammunition. The weapon deals an additional 1d6 fire damage on a successful Strike, plus 1d10 persistent fire damage on a critical hit.</p>",
-              "text": "<p>此模组会让武器的打击面与弹药过热。武器成功进行打击时造成额外1d6火焰伤害，重击时造成1d10持续火焰伤害。</p>",
+              "text": "<p>此模组会让武器的打击面与弹药过热。武器成功进行打击时造成额外1d6火焰伤害，重击时还造成1d10持续火焰伤害。</p>",
               "guards": [
                 {
                   "path": "system.subitems.0._id",
@@ -2636,7 +2636,7 @@
           "expectedName": "Overload Systems",
           "name": "系统超荷",
           "expectedDescription": "<p>You flood the area with a wave of electrical interference. You deal 7d8 electricity damage to creatures in the area. Each creature in the area must attempt a Reflex save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage, and any of its items with the tech trait become glitching 1 for 1 minute or until the condition is removed.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, and any of its items with the tech trait become glitching 2 for 1 minute or until the condition is removed.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 1d8.</p>",
-          "description": "<p>你用电磁干涉淹没区域。对区域内所有其他生物造成7d8电击伤害。每个区域内的生物都必须尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全部伤害并且所有具有科技特征的物品会陷入故障1持续1分钟或者被移除。</p>\n<p><strong>大失败</strong>目标受到两倍伤害并且所有具有科技特征的物品会陷入故障2持续1分钟或者被移除。</p><hr /><p><strong>升阶（+1） </strong>伤害增加 1d8。</p>"
+          "description": "<p>你用电磁干涉淹没区域。对区域内所有生物造成7d8电击伤害。每个区域内的生物都必须尝试一次反射豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全部伤害，且其所有具有科技特征的物品陷入故障1，持续1分钟或直到该状态被移除。</p>\n<p><strong>大失败</strong>目标受到两倍伤害，且其所有具有科技特征的物品陷入故障2，持续1分钟或直到该状态被移除。</p><hr /><p><strong>升阶（+1） </strong>伤害增加 1d8。</p>"
         },
         {
           "id": "F1uVr1I6kUeKfiQS",
@@ -2650,13 +2650,13 @@
           "expectedName": "Analyze Target",
           "name": "分析目标",
           "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
-          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能察觉这种情况。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以将至多10个生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以将任意数量的生物作为目标。</p>"
         },
         {
           "id": "NDLSj346hrDFrGpd",
           "expectedName": "Detect Magic",
           "name": "侦测魔法",
-          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同不精确感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
+          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同模糊感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
           "expectedDescription": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         {
@@ -2732,14 +2732,14 @@
           "id": "euttb2Z4lQEAHx1p",
           "expectedName": "Battleglove",
           "name": "战斗手套",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这些耐用手套套在持用者的手上（或其他附肢上），指节处装有配重甲板或尖刺。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这些耐用手套套在持用者的手上（或其他附肢上），指节处装有配重板或尖刺。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>These durable gloves fit over a wielder's hands (or other appendages) and feature weighted plates or spikes over the knuckles.</p>"
         },
         {
           "id": "afGcjujkco629SZm",
           "expectedName": "Aeon Stone (Life-Giving)",
           "name": "赋生万古石",
-          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>",
+          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为 <em>寻路石</em>的古老魔法装置。</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>",
           "expectedDescription": "<p>Staple items within the Azlanti Star Empire, these gemstones are popular status symbols for adventurers and wealthy collectors. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to build the Universe in ancient times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head (or another visible part of your anatomy if you don't have a head) instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} action against you. A stowed or removed stone remains invested, but its effects are @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into specific items, such as weapons with the aeon trait or antique magical devices called <em>wayfinders</em>.</p><hr /><p>This nacreous, tapered cylinder provides a breath of air when you need it most. You can hold your breath for twice as long, and you gain a +1 item bonus to saves against inhaled poisons. The resonant power allows you to cast @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] as a divine innate spell once per day.</p>"
         },
         {
@@ -2852,7 +2852,7 @@
           "id": "ILfyTSxltdfWr15Y",
           "expectedName": "Aeon Stone (Uplifting)",
           "name": "抬升万古石",
-          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这块含有云雾状杂质的深蓝色棱柱轻如羽毛。其共鸣能力为你的特技检定提供+1物品加值。</p>\n<p><strong>启动—自由飞翔</strong> <span class=\"action-glyph\">1</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得等于自身速度或20尺（取较高者）的飞行速度，持续1分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.xZ5XMY55S42aGyjg]</p>",
+          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为 <em>寻路石</em>的古老魔法装置。</p><hr /><p>这块含有云雾状杂质的深蓝色棱柱轻如羽毛。其共鸣能力为你的特技检定提供+1物品加值。</p>\n<p><strong>启动—自由飞翔</strong> <span class=\"action-glyph\">1</span> （专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你获得等于自身速度或20尺（取较高者）的飞行速度，持续1分钟。</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.xZ5XMY55S42aGyjg]</p>",
           "expectedDescription": "<p>Staple items within the Azlanti Star Empire, these gemstones are popular status symbols for adventurers and wealthy collectors. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to build the Universe in ancient times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head (or another visible part of your anatomy if you don't have a head) instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} action against you. A stowed or removed stone remains invested, but its effects are @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into specific items, such as weapons with the aeon trait or antique magical devices called <em>wayfinders</em>.</p><hr /><p>This deep-blue prism with cloudy inclusions is light as a feather. Its resonant power gives you a +1 item bonus to Acrobatics checks.</p>\n<p><strong>Activate—Fly Free</strong> <span class=\"action-glyph\">1</span> (concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You gain a fly Speed for 1 minute equal to your Speed or 20 feet, whichever is greater.</p>\n<p>@UUID[Compendium.sf2e-anachronism.equipment-effects.Item.xZ5XMY55S42aGyjg]</p>"
         },
         {
@@ -3162,7 +3162,7 @@
           "id": "a7abIGUPx0swWrkJ",
           "expectedName": "Integrated Aeon Stone (Life-Giving)",
           "name": "集成赋生万古石",
-          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为以下名称的古老魔法装置： <em>寻路石</em>.</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>",
+          "description": "<p>这些宝石是阿兹兰特星际帝国（Azlanti Star Empire）的常见物品，也是冒险者和富裕收藏家青睐的身份象征。尽管外形和功能多种多样，据说这些石头全都是异界存在在远古时代建造物质宇宙（Universe）时使用的水晶工具的碎片。</p>\n<p>当你绑定其中一颗精确切割的水晶时，石头不会戴在身上，而会环绕头部运转（若你没有头部，则环绕身体另一处可见部位）。你可以收起一颗 <em>万古石</em> ，使用一个交互动作；正在环绕的石头也能被从空中夺走，只需成功进行一次 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{卸武} 动作，以你为目标。收起或取下的石头仍保持绑定，但其效果 @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] ，直到你让它再次环绕头部。</p>\n<p>有多种类型的 <em>万古石</em>，每种都有不同外观和魔法效果。每个 <em>万古石</em> 插入特定物品后还会获得共鸣能力，例如具有万古特征的武器，或名为 <em>寻路石</em>的古老魔法装置。</p><hr /><p>这个带有珍珠光泽、末端渐细的圆筒，会在你最需要时提供一口空气。你的屏息时间延长为两倍，且在对抗吸入型毒素的豁免上获得+1物品加值。其共鸣之力让你能够施放 @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] ，作为每天一次的神术内在法术。</p>",
           "expectedDescription": "<p>Staple items within the Azlanti Star Empire, these gemstones are popular status symbols for adventurers and wealthy collectors. Despite their myriad forms and functions, these stones are purportedly all fragments of crystal tools used by otherworldly entities to build the Universe in ancient times.</p>\n<p>When you invest one of these precisely shaped crystals, the stone orbits your head (or another visible part of your anatomy if you don't have a head) instead of being worn on your body. You can stow an <em>aeon stone</em> with an Interact action, and an orbiting stone can be snatched out of the air with a successful @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} action against you. A stowed or removed stone remains invested, but its effects are @UUID[Compendium.sf2e-anachronism.conditions.Item.enA7BxAjBb7ns1iF] until you return it to orbit your head again.</p>\n<p>There are various types of <em>aeon stones</em>, each with a different appearance and magical effect. Each <em>aeon stone</em> also gains a resonant power when slotted into specific items, such as weapons with the aeon trait or antique magical devices called <em>wayfinders</em>.</p><hr /><p>This nacreous, tapered cylinder provides a breath of air when you need it most. You can hold your breath for twice as long, and you gain a +1 item bonus to saves against inhaled poisons. The resonant power allows you to cast @UUID[Compendium.sf2e-anachronism.spells.Item.ShwUELLERVMtdjwE] as a divine innate spell once per day.</p>"
         },
         {
@@ -3374,28 +3374,28 @@
           "expectedName": "Analyze Target",
           "name": "分析目标",
           "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
-          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能察觉这种情况。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以将至多10个生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以将任意数量的生物作为目标。</p>"
         },
         {
           "id": "ELfRVMq6LM6EToHj",
           "expectedName": "Measure",
           "name": "测量术",
           "expectedDescription": "<p>You learn the approximate measurements (length, width, depth, height, and weight) of creatures and objects you can observe in the area. If an object or creature extends out of the area, you learn only the measurements within the area, but nothing about what you can't observe. For example, you can't determine the thickness or weight of a wall you can observe only one side of, or the depth of water that extends beyond the spell's range. Each time you Sustain the spell, you learn the exact measurements of one creature or object in the area, including imprecisions or anomalies that might indicate structural weakness. Magically altered targets give you information that reflects what you observe rather than accurate measurements.</p><hr /><p><strong>Heightened (+1)</strong> Extend the range of measure by 100 feet.</p>",
-          "description": "<p>你可以了解周围生物和物体的大致尺寸（长度、宽度、深度、高度和重量）。如果物体或生物延伸出了该射程，你只能了解该区域内的测量值，而无法观察到的东西则无法了解。例如，你无法确定只能观察到一面的墙壁的厚度或重量，也无法确定超出法术射程的水深。每次维持法术时，你都会了解该区域内一种生物或物体的精确测量结果，包括可能揭示结构弱点的不精确或异常现象。被魔法改变的目标所提供的信息反映的是你所观察到的情况，而不是精确测量值。</p><hr /><p><strong>升阶（+1）</strong>延展测量距离100尺。</p>"
+          "description": "<p>你可以了解区域内你能观察到的生物和物体的大致尺寸（长度、宽度、深度、高度和重量）。如果物体或生物延伸出了该区域，你只能了解该区域内的测量值，而无法观察到的东西则无法了解。例如，你无法确定只能观察到一面的墙壁的厚度或重量，也无法确定超出法术射程的水深。每次维持法术时，你都会了解该区域内一个生物或物体的精确测量结果，包括可能揭示结构弱点的不精确或异常现象。被魔法改变的目标所提供的信息反映的是你所观察到的情况，而不是精确测量值。</p><hr /><p><strong>升阶（+1）</strong>延展测量距离100尺。</p>"
         },
         {
           "id": "dA5hXC4twqetZ5i6",
           "expectedName": "Scan Environment",
           "name": "扫描环境",
           "expectedDescription": "<p>You analyze the natural environment in the area within 1 mile, learning general information about the atmosphere, biomes, and gravity. You forecast the weather for the next hour, including the direction it will come from; learn which atmospheres, biomes, and gravity are in the area, as well as the direction and distance to those elements; and learn if anything in the area presents an environmental hazard, including cold or heat dangers (at what temperature range), radiation (at what severity), smoke effects, and underwater conditions. This is enough to detect large effects that span spaces over 30 feet in diameter only. You gain a general sense of where and how far away these dangers are.</p><hr /><p><strong>Heightened (+1)</strong> The scanned area increases in radius by 1 mile.</p>",
-          "description": "<p>你分析1英里范围内的自然环境，了解大气层、生物群落和重力的一般信息。预测未来一小时的天气，包括天气自哪而来；了解该区域有哪些大气、生物群落和重力，以及与这些元素的方向和距离；了解该区域是否存在环境危害，包括冷热危险（在什么温度范围）、辐射（严重程度）、烟雾效果和水下条件。这足以探测到直径超过30英尺的大型效果。你可以大致了解这些危险的位置和距离。</p><hr /><p><strong>升阶（+1）</strong>扫描范围增加1英里。</p>"
+          "description": "<p>你分析1英里范围内的自然环境，了解大气层、生物群落和重力的一般信息。预测未来一小时的天气，包括天气自哪而来；了解该区域有哪些大气、生物群落和重力，以及与这些元素的方向和距离；了解该区域是否存在环境危害，包括冷热危险（在什么温度范围）、辐射（严重程度）、烟雾效果和水下条件。这只能探测到覆盖空间直径超过30尺的大型效果。你可以大致了解这些危险的位置和距离。</p><hr /><p><strong>升阶（+1）</strong>扫描区域的半径增加1英里。</p>"
         },
         {
           "id": "6RDQsXNqNnEjYZiu",
           "expectedName": "Seek the Stars",
           "name": "寻觅星辰",
           "expectedDescription": "<p>In your mind's eye, you chart a path through the cosmos. If you're in Pact Worlds space, you immediately know which direction to travel in order to reach the Starstone on Absalom Station. If you're outside the Pact System, you know the direction to the nearest Drift beacon or the Starstone.</p><hr /><p><strong>Heightened (7th)</strong> You can instead know the direction to a familiar location, such as a world or way station you've visited.</p>",
-          "description": "<p>在你的脑海中，你绘制了一条穿越宇宙的路径。如果你在协约世界的空间中，你就能立刻知道前往星石和艾巴萨罗姆空间站的方向。如果你在协约世界以外的空间，你会知道前往最近的漂流信标或星石的方向。</p><hr /><p><strong>升阶（7环）</strong>你可以知道前往熟悉地点的方向，例如你曾经去过的世界或中转站。</p>"
+          "description": "<p>在你的脑海中，你绘制了一条穿越宇宙的路径。如果你在协约世界的空间中，你就能立刻知道前往位于艾巴萨罗姆空间站的星石的方向。如果你在协约星系之外，你会知道前往最近的漂流信标或星石的方向。</p><hr /><p><strong>升阶（7环）</strong>你可以改为得知前往熟悉地点的方向，例如你曾经去过的世界或中转站。</p>"
         },
         {
           "id": "pISGlIi3L9hmhaFb",
@@ -3512,7 +3512,7 @@
           "id": "vFIurAInqp3GyBPZ",
           "expectedName": "Head Regrowth",
           "name": "头部重生",
-          "description": "<p>布朗科有五个头。生物可以专门瞄准多头蛇的一个头，造成等于该头生命值的伤害，尝试将其斩断。未被完全斩断的头在任何生物的回合结束时都会恢复全部生命值。</p>\n<p>布朗科可以用多头蛇再生重新长出被斩断的头。生物可以对断颈造成酸蚀或火焰伤害，将其灼封以阻止重生。单目标酸蚀或火焰效果必须指定一处断颈；如果溅射或区域效果覆盖多头蛇的整个空间并造成酸蚀或火焰伤害，就会灼封全部断颈。如果斩断头部的攻击造成任何酸蚀或火焰伤害，断颈会立即灼封。如果五个头全部被斩断并灼封，布朗科死亡。</p>",
+          "description": "<p>布朗科有五个头。生物可以专门瞄准多头蛇的一个头，造成等于该头生命值的伤害，尝试将其斩断。未被完全斩断的头在任何生物的回合结束时都会恢复全部生命值。</p>\n<p>布朗科可以用多头蛇再生重新长出被斩断的头。生物可以对断颈造成酸蚀或火焰伤害，将其灼封以阻止重生。单目标酸蚀或火焰效果必须指定一处断颈；如果效果造成溅射伤害，或其区域覆盖多头蛇的整个空间，且造成酸蚀或火焰伤害，就会灼封全部断颈。如果斩断头部的攻击造成任何酸蚀或火焰伤害，断颈会立即灼封。如果五个头全部被斩断并灼封，布朗科死亡。</p>",
           "expectedDescription": "<p>Bronco has five heads. A creature can attempt to sever one of the hydra's heads by specifically targeting it and dealing damage equal to the head's Hit Points. A head that isn't completely severed returns to full Hit Points at the end of any creature's turn.</p>\n<p>Bronco can regrow a severed head using hydra regeneration. A creature can prevent this regrowth by dealing acid or fire damage to the stump, cauterizing it. Single-target acid or fire effects need to be targeted at a specific stump, but effects that deal splash damage or affect areas covering the hydra's whole space cauterize all stumps if they deal acid or fire damage. If the attack that severs a head deals any acid or fire damage, the stump is cauterized instantly. If all five heads are severed and cauterized, Bronco dies.</p>"
         },
         {
@@ -3683,7 +3683,7 @@
         {
           "id": "6IFGDrQsFvVHC2h0",
           "expectedName": "Spike",
-          "name": "尖峰区"
+          "name": "尖刺"
         },
         {
           "id": "9o5hR4AXZXDGvSId",
@@ -3708,7 +3708,7 @@
           "id": "pDL6WdZd5IzP6TVT",
           "expectedName": "Foraging Constituents",
           "name": "觅食巢群",
-          "description": "<p>伪聚生巢群分散组成个体，扫描大片区域来搜寻，尝试寻找30尺内未探明或躲藏的生物。</p>",
+          "description": "<p>伪聚生巢群分散组成个体，扫描大片区域来搜索，尝试寻找30尺内处于无踪或藏匿状态的生物。</p>",
           "expectedDescription": "<p>The false apari Seeks by dispersing constituents to scan a wide area, attempting to find undetected or hidden creatures within 30 feet.</p>"
         }
       ],
@@ -3816,7 +3816,7 @@
           "id": "Q1o6iYzyw87a4QeG",
           "expectedName": "Moonside Cleaner",
           "name": "月侧清洁工",
-          "description": "<p>收割者始终将清洁指令放在首位。看见有人弄乱环境时，它必须通过@Check[will|dc:23]豁免，否则花费一个动作清洁。</p>",
+          "description": "<p>收割者始终将清洁指令放在首位。看见环境被弄乱时，它必须通过@Check[will|dc:23]豁免，否则花费一个动作清洁。</p>",
           "expectedDescription": "<p>The Harvest's command to clean is always its first priority. When it sees a mess being created, it must succeed at a @Check[will|dc:23] save or spend an action cleaning.</p>"
         },
         {
@@ -3855,7 +3855,7 @@
           "expectedName": "Weight of Ages",
           "name": "岁月重担",
           "expectedDescription": "<p>You burden a creature's body and mind with the pains and sorrows of a lifetime. The target takes 3d8 bludgeoning damage and 3d8 mental damage and must attempt a Will saving throw.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Encumbered} for 1 round.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and is encumbered for 1 minute.</p><hr /><p><strong>Heightened (+1)</strong> The mental damage increases by 2d8.</p>",
-          "description": "<p>你将目标毕生的苦痛与哀伤化作沉重枷锁，压垮目标的身心。尝试一次远程法术攻击骰。目标受到3d8钝击伤害和3d8心灵，并且必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全伤害并且@UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]1轮。</p>\n<p><strong>大失败</strong>目标受到全伤害并且超载1分钟。</p><hr /><p><strong>升阶（+1）</strong>心灵伤害增加2d8</p>"
+          "description": "<p>你将目标毕生的苦痛与哀伤化作沉重枷锁，压垮目标的身心。目标受到3d8钝击伤害和3d8心灵伤害，并且必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全额伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]，持续1轮。</p>\n<p><strong>大失败</strong>目标受到双倍伤害，并陷入超载，持续1分钟。</p><hr /><p><strong>升阶（+1）</strong>心灵伤害增加2d8</p>"
         },
         {
           "id": "9wwnnoISKrx6SvDj",
@@ -3881,14 +3881,14 @@
           "expectedName": "Void Whispers",
           "name": "虚空低语",
           "expectedDescription": "<p>The target hears ominous sounds containing unspeakable mysteries from beyond the stars that disorient its mind. The target attempts a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The target hears the strange whispers, becoming @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</p>\n<p><strong>Failure</strong> The target begins to wander aimlessly, using each action to Step in a random direction. When it moves, the target takes the safest route and doesn't enter hazardous terrain. The spell has a duration of 1 minute or until a creature uses a hostile action against the target.</p>\n<p><strong>Critical Failure</strong> As failure, except the target babbles incoherently. Any creature that begins its turn within 20 feet of the target must attempt a Will saving throw. On a failure, it must use its first action on its next turn to Step in a random direction and becomes immune to this spell for 24 hours. This is an incapacitation effect.</p>",
-          "description": "<p>目标耳边响起蕴含星辰之外不可名状奥秘的不祥之音，使其神智混乱。目标需要尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>目标听到了诡异的低语，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续1轮。</p>\n<p><strong>失败</strong>目标开始漫无目的地游荡，使用每个动作来快步（方向随机）。当其移动时，其会采取最安全的路线并且不会进入有害地形。法术会持续1分钟或者直到目标被敌对动作瞄准。</p>\n<p><strong>大失败</strong>类似失败，除了目标还会语无伦次地喋喋不休。任何在其20尺内开始回合的生物也需要尝试一次意志豁免。在失败时，这些生物也需要在下回合开始时花费第一个动作来进行快步（随机方向），随后临时免疫此法术24小时。这是一个失能效果。</p>"
+          "description": "<p>目标耳边响起蕴含星辰之外不可名状奥秘的不祥之音，使其神智混乱。目标需要尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>目标听到了诡异的低语，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续1轮。</p>\n<p><strong>失败</strong>目标开始漫无目的地游荡，使用每个动作来快步（方向随机）。当其移动时，其会采取最安全的路线并且不会进入有害地形。法术会持续1分钟或者直到有生物对目标使用敌对动作。</p>\n<p><strong>大失败</strong>类似失败，除了目标还会语无伦次地喋喋不休。任何在其20尺内开始回合的生物也需要尝试一次意志豁免。在失败时，这些生物也需要在下回合开始时花费第一个动作来进行快步（随机方向），随后临时免疫此法术24小时。这是一个失能效果。</p>"
         },
         {
           "id": "mqnLM4QVHQHwpcDS",
           "expectedName": "Detect Thoughts",
           "name": "侦测思想",
           "expectedDescription": "<p>You sense the presence of thinking creatures around you. You detect the presence or absence of thoughts from conscious creatures that have Intelligence modifiers of –3 or higher. You can choose to ignore the thoughts of creatures you're familiar with so they don't interfere with your detection of other thoughts. The spell can penetrate some barriers, but 3 feet of dirt or wood, 1 foot of stone, 1 inch of metal, a thin sheet of lead, or any force barrier blocks it. Creatures who are immune to mental effects are immune to detection by this spell.</p><hr /><p><strong>Heightened (4th)</strong> You detect the number of thinking minds and whether or not the creatures are telepathic. Creatures with telepathy have louder thoughts than creatures who don't have telepathy and might be able to sense your intrusion, at the GM's discretion.</p>",
-          "description": "<p>你能感知周围生物的想法。你可以侦测周围是否存在智力调整值不低于-3的清醒生物的思维。可选择忽略熟悉生物的思维，避免干扰其他目标的侦测。该法术可以穿透一些障碍，但3尺的泥土或木头、1尺的石头、1英寸的金属、薄薄的铅片或任何立场障碍都会阻挡它。对心灵效果免疫的生物对该法术的侦测免疫。</p><hr /><p><strong>升阶（4环）</strong>你侦测到具有思维的心智数量，并知晓这些生物是否具有心灵感应。具有心灵感应的生物，其思维比不具备心灵感应者更响亮，也可能察觉你的侵入，具体由GM决定。</p>"
+          "description": "<p>你能感知周围有思维的生物是否存在。你可以侦测周围是否存在智力调整值不低于-3的清醒生物的思维。可选择忽略熟悉生物的思维，避免干扰其他目标的侦测。该法术可以穿透一些障碍，但3尺的泥土或木头、1尺的石头、1英寸的金属、薄薄的铅片或任何力场屏障都会阻挡它。对心灵效果免疫的生物对该法术的侦测免疫。</p><hr /><p><strong>升阶（4环）</strong>你侦测到具有思维的心智数量，并知晓这些生物是否具有心灵感应。具有心灵感应的生物，其思维比不具备心灵感应者更响亮，也可能察觉你的侵入，具体由GM决定。</p>"
         },
         {
           "id": "Sa5lVXHCYGKInC8N",
@@ -3909,7 +3909,7 @@
           "expectedName": "Analyze Target",
           "name": "分析目标",
           "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
-          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能察觉这种情况。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以将至多10个生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以将任意数量的生物作为目标。</p>"
         },
         {
           "id": "50WscMYcYmxRoN2J",
@@ -4029,7 +4029,7 @@
           "id": "A1OUXzg0vwUaQwrd",
           "expectedName": "Feed on Radiation",
           "name": "吞食辐射",
-          "description": "<p>暴露于轻度辐射时，辐射爬行者获得快速治疗2。在严重辐射中，该能力增至快速治疗5；在极度辐射中变为再生10；在严酷辐射中，辐射爬行者还会@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。</p>",
+          "description": "<p>暴露于轻度辐射时，辐射爬行者获得快速治疗2。在重度辐射中，该能力增至快速治疗5；在极度辐射中变为再生10；在超强辐射中，辐射爬行者还会@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{迅捷}。</p>",
           "expectedDescription": "<p>While exposed to mild radiation, a radiation crawler gains fast healing 2. In severe radiation, this increases to fast healing 5; in extreme radiation, it becomes regeneration 10; and in incredible radiation, the radiation crawler is additionally @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}.</p>"
         },
         {
@@ -4868,7 +4868,7 @@
       }
     },
     "gv6aCLOQMl1UIur4": {
-      "name": "电震控制台 Jolting Console",
+      "name": "电击控制台 Jolting Console",
       "items": [
         {
           "id": "FhDv1FwUFKELR12r",
@@ -4888,7 +4888,7 @@
       },
       "cnText_prototypeToken_name": {
         "expected": "Jolting Console",
-        "text": "电震控制台"
+        "text": "电击控制台"
       },
       "cnText_system_attributes_stealth_details": {
         "expected": "<p>(trained)</p>",
@@ -5063,7 +5063,7 @@
           "id": "8H1b609Mu9BVNJmv",
           "expectedName": "System Overload",
           "name": "系统过载",
-          "description": "<p><strong>触发</strong>引导智能激活该危害</p><hr /><p><strong>效果</strong>灌溉系统开始故障，释放一道干扰性杂讯脉冲。100尺内的生物必须尝试@Check[fortitude|dc:18]豁免。失败时，生物持有的科技物品@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障1}；如果该生物具有科技特征，还会故障1。灌溉器随后投掷先攻。</p>",
+          "description": "<p><strong>触发</strong>引导智能激活该危害</p><hr /><p><strong>效果</strong>灌溉系统开始故障，释放一道干扰性杂讯脉冲。100尺内的生物必须尝试@Check[fortitude|dc:18]豁免。失败时，生物携带的科技物品@UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{故障1}；如果该生物具有科技特征，还会故障1。灌溉器随后投掷先攻。</p>",
           "expectedDescription": "<p><strong>Trigger</strong> The Guiding Intelligence activates the hazard</p><hr /><p><strong>Effect</strong> The irrigation system begins to malfunction, releasing a pulse of disrupting static. Creatures within 100 feet must attempt a @Check[fortitude|dc:18] save. On a failure, tech items in a creature's possession become @UUID[Compendium.sf2e-anachronism.conditions.Item.6A2QDy8wRGCVQsSd]{Glitching 1}, and if the creature has the tech trait, they become glitching 1. Then, the irrigator rolls initiative.</p>"
         },
         {
@@ -5254,7 +5254,7 @@
           "id": "1vfUhu3Z8Jtid0Rx",
           "expectedName": "Hungry Maw",
           "name": "饥饿巨口",
-          "description": "<p><strong>触发</strong>一个生物进入巨口前方的@Template[type:cone|distance:15]区域</p><hr /><p><strong>效果</strong>巨口将影响区域内的一切吸向处理机构，随后投掷先攻。受影响区域内的生物必须尝试@Check[reflex|dc:26]豁免。在巨口内部开始自己回合的生物受到@Damage[(1d10+9)[bludgeoning],(1d10+9)[piercing],(1d10+9)[slashing]|options:area-damage]{1d10+9钝击伤害、1d10+9穿刺伤害及1d10+9挥砍伤害}伤害。在巨口中死亡的生物会与全部装备一同被彻底摧毁。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物被向吸入巨口拖拽5尺。</p>\n<p><strong>失败</strong>该生物被向巨口拖拽10尺，并被击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>\n<p><strong>大失败</strong>该生物被拖拽20尺并拉入巨口，倒地且受到@Damage[(2d10+9)[bludgeoning]|options:area-damage]伤害。</p>",
+          "description": "<p><strong>触发</strong>一个生物进入巨口前方的@Template[type:cone|distance:15]区域</p><hr /><p><strong>效果</strong>巨口将影响区域内的一切吸向处理机构，随后投掷先攻。受影响区域内的生物必须尝试@Check[reflex|dc:26]豁免。在巨口内部开始自己回合的生物受到@Damage[(1d10+9)[bludgeoning],(1d10+9)[piercing],(1d10+9)[slashing]|options:area-damage]{1d10+9钝击伤害、1d10+9穿刺伤害及1d10+9挥砍伤害}。在巨口中死亡的生物会与全部装备一同被彻底摧毁。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>该生物被向吸入巨口拖拽5尺。</p>\n<p><strong>失败</strong>该生物被向巨口拖拽10尺，并被击至@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。</p>\n<p><strong>大失败</strong>该生物被拖拽20尺并拉入巨口，倒地且受到@Damage[(2d10+9)[bludgeoning]|options:area-damage]伤害。</p>",
           "expectedDescription": "<p><strong>Trigger</strong> A creature enters the @Template[type:cone|distance:15] area in front of the maw</p><hr /><p><strong>Effect</strong> The maw draws everything within the area of effect toward its processing mechanisms and then rolls initiative. Creatures in the affected area must attempt a @Check[reflex|dc:26] save. Any creature that starts its turn within the maw itself takes @Damage[(1d10+9)[bludgeoning],(1d10+9)[piercing],(1d10+9)[slashing]|options:area-damage]{1d10+9 bludgeoning damage, 1d10+9 piercing damage, and 1d10+9 slashing} damage. A creature that dies within the maw is destroyed completely, along with all of their gear.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is dragged 5 feet toward the intake maw.</p>\n<p><strong>Failure</strong> The creature is dragged 10 feet toward the maw and knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>\n<p><strong>Critical Failure</strong> The creature is dragged 20 feet and pulled into the maw, knocked prone, and takes @Damage[(2d10+9)[bludgeoning]|options:area-damage] damage.</p>"
         }
       ],
@@ -5343,7 +5343,7 @@
           "id": "8Sghv4LNCrNDTLVn",
           "expectedName": "Dart Volley",
           "name": "飞镖齐射",
-          "description": "<p><strong>触发</strong>地砖受到压力</p><hr /><p><strong>效果</strong>陷阱将整个区域视为一次攻击的目标，射出一波飞针。受影响区域内的生物受到@Damage[(4d8+10)[poison]|traits:nonlethal]{4d8+10非致命毒素}毒素伤害，必须尝试@Check[reflex|dc:21]豁免。陷阱同时触发可听见的警报。</p><hr /><p><strong>大成功</strong>该生物不受伤害。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全额伤害，并@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢2}。</p>\n<p><strong>大失败</strong>该生物受到双倍伤害，并@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢3}。</p>",
+          "description": "<p><strong>触发</strong>地砖受到压力</p><hr /><p><strong>效果</strong>陷阱将整个区域视为一次攻击的目标，射出一波飞针。受影响区域内的生物受到@Damage[(4d8+10)[poison]|traits:nonlethal]{4d8+10非致命毒素}伤害，必须尝试@Check[reflex|dc:21]豁免。陷阱同时触发可听见的警报。</p><hr /><p><strong>大成功</strong>该生物不受伤害。</p>\n<p><strong>成功</strong>该生物受到一半伤害。</p>\n<p><strong>失败</strong>该生物受到全额伤害，并@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢2}。</p>\n<p><strong>大失败</strong>该生物受到双倍伤害，并@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{缓慢3}。</p>",
           "expectedDescription": "<p><strong>Trigger</strong> Pressure is applied to the floor tiles</p><hr /><p><strong>Effect</strong> The trap shoots a wave of darts targeting the entire area as a single attack. Creatures in the affected area take @Damage[(4d8+10)[poison]|traits:nonlethal]{4d8+10 nonlethal poison} poison damage and must attempt a @Check[reflex|dc:21] save. The trap also triggers an audible alarm.</p><hr /><p><strong>Critical Success</strong> The creature takes no damage.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{slowed 2}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{slowed 3}.</p>"
         }
       ],

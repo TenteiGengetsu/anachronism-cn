@@ -1,0 +1,87 @@
+{
+  "baseline_commit": "ac000cb87661c27ae005ef5a7375e43d4eaf5d7e",
+  "module_version": "0.3.12",
+  "wiki_pages_fetched": 9896,
+  "semantic_review_complete": true,
+  "translation_fields_reviewed": 26111,
+  "unique_english_chinese_pairs_reviewed": 17986,
+  "additional_custom_chinese_fields_reviewed": 1,
+  "runtime_strings_reviewed": 494,
+  "coverage": {
+    "equipment": {
+      "total": 2720,
+      "reviewed": 2720,
+      "pending": 0
+    },
+    "character": {
+      "total": 6920,
+      "reviewed": 6920,
+      "pending": 0
+    },
+    "actors": {
+      "total": 7923,
+      "reviewed": 7923,
+      "pending": 0
+    },
+    "root": {
+      "total": 875,
+      "reviewed": 875,
+      "pending": 0
+    }
+  },
+  "translation_files_changed": 25,
+  "translation_fields_changed": 1733,
+  "top_level_objects_changed": 1194,
+  "name_fields_changed": 148,
+  "runtime_display_fields_changed": 7,
+  "granted_names_changed": 11,
+  "all_changed_files": [
+    "scripts/display-strings.mjs",
+    "translations/sf2e-anachronism.actions.json",
+    "translations/sf2e-anachronism.alien-core-bestiary.json",
+    "translations/sf2e-anachronism.ancestries.json",
+    "translations/sf2e-anachronism.ancestry-features.json",
+    "translations/sf2e-anachronism.backgrounds.json",
+    "translations/sf2e-anachronism.bestiary-ability-glossary-srd.json",
+    "translations/sf2e-anachronism.bestiary-effects.json",
+    "translations/sf2e-anachronism.class-features.json",
+    "translations/sf2e-anachronism.conditions.json",
+    "translations/sf2e-anachronism.deities.json",
+    "translations/sf2e-anachronism.equipment.json",
+    "translations/sf2e-anachronism.feat-effects.json",
+    "translations/sf2e-anachronism.feats.json",
+    "translations/sf2e-anachronism.guilt-of-the-grave-world-bestiary.json",
+    "translations/sf2e-anachronism.heritages.json",
+    "translations/sf2e-anachronism.iconics.json",
+    "translations/sf2e-anachronism.journals.json",
+    "translations/sf2e-anachronism.paizo-pregens.json",
+    "translations/sf2e-anachronism.rulebook-bestiaries.json",
+    "translations/sf2e-anachronism.secrets-of-the-swarm-bestiary.json",
+    "translations/sf2e-anachronism.spell-effects.json",
+    "translations/sf2e-anachronism.spells.json",
+    "translations/sf2e-anachronism.standalone-adventure-bestiary.json",
+    "translations/sf2e-anachronism.starfinder-society-bestiary.json",
+    "translations/sf2e-anachronism.tales-from-the-vast-bestiary.json",
+    "translations/titles.json"
+  ],
+  "source_issue_count": 28,
+  "non_text_data_changed": false,
+  "english_sources_and_identity_guards_unchanged": true,
+  "changed_html_tags_preserved": true,
+  "changed_macro_bodies_and_order_preserved": true,
+  "search_indexes_rebuilt": true,
+  "native_validation": {
+    "objects": 5616,
+    "matched": 5616,
+    "descriptions": 4897,
+    "embedded": 6876,
+    "nativeBabeleMapping": true,
+    "sourceInputUnchanged": true,
+    "liveFoundryTested": false
+  },
+  "foundry_inline_label_validation": "13项原有骰子链接中文显示标签被通用校验器误识别为占位符；使用窄范围适配器，确认显示标签及全部宏均未发生新增改变。",
+  "archive_sha256": "607c198dbfbf0b728b1d6dba058cdbc9b74e7ff10c4987817010a73c5c5cd70f",
+  "archive_bytes": 4169978,
+  "patch_apply_check_passed": true,
+  "publication_note": "Repository source update; no release is created by this commit."
+}

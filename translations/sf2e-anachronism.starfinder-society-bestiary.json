@@ -552,7 +552,7 @@
           "expectedName": "Shadow Snap",
           "name": "阴影弹指",
           "expectedDescription": "<p>With a snap of your fingers, you beckon the target's shadow to obey you. When you Cast this Spell and the first time you Sustain it each turn on subsequent rounds, you can choose to either attack or stalk the target with its shadow. If you choose to attack, attempt a spell attack roll against the target's AC, dealing 1d10 cold damage on a hit (or double damage on a critical hit). This attack uses and contributes to your multiple attack penalty.</p>\n<p>If you stalk, attempt a spell attack roll against the target's AC the first time the target uses a manipulate action or a move action, makes a ranged attack, or leaves a square during a move action it's using until the end of your next turn; dealing 1d10 cold damage on a hit. If the attack is a critical hit, the shadow disrupts that action.</p>\n<p>Each time you Sustain the spell, you can choose to either attack the target or command the shadow to stalk the target until the end of your next turn.</p><hr /><p><strong>Heightened (+1)</strong> The cold damage increases by 1d10.</p>",
-          "description": "<p>你打个响指，召唤目标的影子服从自己。施放本法术时，以及随后各轮中每回合首次维持法术时，你可以选择用影子攻击或潜伏跟踪目标。如果选择攻击，对抗目标的AC进行法术攻击检定，命中造成1d10寒冷伤害（重击时伤害翻倍）。此攻击适用并增加你的多次攻击减值。</p>\n<p>如果选择潜伏跟踪，在你下一回合结束前，目标首次使用交互动作或移动动作、进行远程攻击，或在其使用的移动动作中离开一个方格时，对抗目标的AC进行法术攻击检定，命中造成1d10寒冷伤害。攻击重击时，影子打断该动作。</p>\n<p>每次维持该法术时，你都可以选择攻击目标，或命令影子潜伏跟踪目标，持续至你下一回合结束。</p><hr /><p><strong>升阶（+1）</strong>寒冷伤害增加1d10。</p>"
+          "description": "<p>你打个响指，召唤目标的影子服从自己。施放本法术时，以及随后各轮中每回合首次维持法术时，你可以选择用影子攻击或潜伏跟踪目标。如果选择攻击，对抗目标的AC进行法术攻击检定，命中造成1d10寒冷伤害（重击时伤害翻倍）。此攻击适用并增加你的多次攻击减值。</p>\n<p>如果选择潜伏跟踪，在你下一回合结束前，目标首次使用操作动作或移动动作、进行远程攻击，或在其使用的移动动作中离开一个方格时，对抗目标的AC进行法术攻击检定，命中造成1d10寒冷伤害。攻击重击时，影子打断该动作。</p>\n<p>每次维持该法术时，你都可以选择攻击目标，或命令影子潜伏跟踪目标，持续至你下一回合结束。</p><hr /><p><strong>升阶（+1）</strong>寒冷伤害增加1d10。</p>"
         },
         {
           "id": "rKgIj9CXuk2KgnCn",
@@ -809,7 +809,7 @@
           "id": "rSvWkQEsZCk1xuwa",
           "expectedName": "Heal",
           "name": "治疗术",
-          "description": "<p>你引导命能来治疗活物或伤害不死生物。如果目标是自愿的活物，便为其恢复1d8生命值。如果目标是不死生物，便对其造成等量命能伤害，且其可以进行基础强韧豁免。施放本法术时花费的动作数，决定目标、射程、区域及其他参数。</p>\n<p><span class=\"action-glyph\">1</span>该法术的射程为接触。</p>\n<p><span class=\"action-glyph\">2</span>（专注）法术射程为30尺。如果治疗活物，恢复的生命值增加8。</p>\n<p><span class=\"action-glyph\">3</span>（专注）你在@Template[emanation|distance:30]内释放命能，以爆发范围内所有活物与不死生物为目标。</p>\n<hr />\n<p><strong>升阶（+1）</strong>治疗量或伤害增加1d8，且两动作版本的额外治疗量增加8。</p>",
+          "description": "<p>你引导命能来治疗活物或伤害不死生物。如果目标是自愿的活物，便为其恢复1d8生命值。如果目标是不死生物，便对其造成等量命能伤害，且其可以进行基础强韧豁免。施放本法术时花费的动作数，决定目标、射程、区域及其他参数。</p>\n<p><span class=\"action-glyph\">1</span>该法术的射程为接触。</p>\n<p><span class=\"action-glyph\">2</span>（专注）法术射程为30尺。如果治疗活物，恢复的生命值增加8。</p>\n<p><span class=\"action-glyph\">3</span>（专注）你在@Template[emanation|distance:30]内释放命能，以该弥漫范围内所有活物与不死生物为目标。</p>\n<hr />\n<p><strong>升阶（+1）</strong>治疗量或伤害增加1d8，且两动作版本的额外治疗量增加8。</p>",
           "expectedDescription": "<p>You channel vital energy to heal the living or damage the undead. If the target is a willing living creature, you restore 1d8 Hit Points. If the target is undead, you deal that amount of vitality damage to it, and it gets a basic Fortitude save. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.</p>\n<p><span class=\"action-glyph\">1</span> The spell has a range of touch.</p>\n<p><span class=\"action-glyph\">2</span> (concentrate) The spell has a range of 30 feet. If you're healing a living creature, increase the Hit Points restored by 8.</p>\n<p><span class=\"action-glyph\">3</span> (concentrate) You disperse vital energy in a @Template[emanation|distance:30]. This targets all living and undead creatures in the burst.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.</p>",
           "extraFields": [
             {
@@ -835,7 +835,7 @@
           "id": "X3x8nTOvunjQZRMW",
           "expectedName": "Thunderstrike",
           "name": "雷击术",
-          "description": "<p>你唤下一道伴随雷鸣的闪电，对目标造成1d12电击伤害和1d4音波伤害，目标进行基础反射豁免。穿戴金属护甲或由金属构成的目标，其豁免获得–1环境加值；如果受到该法术伤害，还会@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}1轮。</p>\n<hr />\n<p><strong>升阶（+1）</strong> 伤害增加1d12点电击以及1d4点音波。</p>",
+          "description": "<p>你唤下一道伴随雷鸣的闪电，对目标造成1d12电击伤害和1d4音波伤害，目标进行基础反射豁免。穿戴金属护甲或由金属构成的目标，其豁免承受–1环境减值；如果受到该法术伤害，还会陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}，持续1轮。</p>\n<hr />\n<p><strong>升阶（+1）</strong> 伤害增加1d12点电击以及1d4点音波。</p>",
           "expectedDescription": "<p>You call down a tendril of lightning that cracks with thunder, dealing 1d12 electricity damage and 1d4 sonic damage to the target with a basic Reflex save. A target wearing metal armor or made of metal takes a –1 circumstance bonus to its save, and if damaged by the spell is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d12 electricity and 1d4 sonic.</p>"
         },
         {
@@ -902,7 +902,7 @@
             {
               "path": "system.spell.system.description.value",
               "expected": "<p>You call down a tendril of lightning that cracks with thunder, dealing 1d12 electricity damage and 1d4 sonic damage to the target with a basic Reflex save. A target wearing metal armor or made of metal takes a –1 circumstance bonus to its save, and if damaged by the spell is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d12 electricity and 1d4 sonic.</p>",
-              "text": "<p>你唤下一道伴随雷鸣的闪电，对目标造成1d12电击伤害和1d4音波伤害，目标进行基础反射豁免。穿戴金属护甲或由金属构成的目标，其豁免获得–1环境加值；如果受到该法术伤害，还会@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}1轮。</p>\n<hr />\n<p><strong>升阶（+1）</strong> 伤害增加1d12点电击以及1d4点音波。</p>",
+              "text": "<p>你唤下一道伴随雷鸣的闪电，对目标造成1d12电击伤害和1d4音波伤害，目标进行基础反射豁免。穿戴金属护甲或由金属构成的目标，其豁免承受–1环境减值；如果受到该法术伤害，还会陷入@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙1}，持续1轮。</p>\n<hr />\n<p><strong>升阶（+1）</strong> 伤害增加1d12点电击以及1d4点音波。</p>",
               "guards": [
                 {
                   "path": "system.spell._id",
@@ -975,7 +975,7 @@
             {
               "path": "system.subitems.0.system.description.value",
               "expected": "<p>A layer of treated lead lines your armor with integrated radiation sensors networked into your comm unit. While you're wearing armor with this upgrade, you gain resistance 2 to poison damage from radiation effects and a +1 status bonus to Fortitude saves against radiation.</p>",
-              "text": "<p>此护甲强化模块是在你的护甲内部镀上一层处理过的铅。当你穿上安装此强化模块的护甲时，你再对抗来自辐射效果的伤害时获得2点毒素抗力，并且在对抗辐射的的强韧豁免上获得+1状态加值。</p>",
+              "text": "<p>一层经过处理的铅衬覆盖在你的护甲内部，集成的辐射传感器则接入你的通讯单元。穿戴装有此强化模块的护甲时，你获得对辐射效果造成的毒素伤害的抗力2，并在对抗辐射的强韧豁免上获得+1状态加值。</p>",
               "guards": [
                 {
                   "path": "system.subitems.0._id",
@@ -1028,7 +1028,7 @@
           "id": "vNh0i1Py2NNHXKae",
           "expectedName": "Supercharged Swing",
           "name": "超充能挥击",
-          "description": "<p>如果波谢克在苦痛大砍刀被增幅时以其对一个生物造成伤害，还会将目标击退10尺，重击时则为20尺。</p>",
+          "description": "<p>如果波谢克在苦痛大砍刀被过充能时以其对一个生物造成伤害，还会将目标击退10尺，重击时则为20尺。</p>",
           "expectedDescription": "<p>If Bo-Shek dealt damage to a creature with his painglaive while it was boosted, he additionally knocks the target back 10 feet, or 20 feet on a critical hit.</p>"
         }
       ],
@@ -1132,7 +1132,7 @@
           "id": "yFn98NwmwnXQlqZv",
           "expectedName": "Detect Magic",
           "name": "侦测魔法",
-          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同不精确感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
+          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同模糊感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
           "expectedDescription": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         {
@@ -1146,14 +1146,14 @@
           "id": "XumK1TK55d7vNXo0",
           "expectedName": "Gust of Wind",
           "name": "造风术",
-          "description": "<p>一团暴风从你的掌中喷出，从你施放法术时所在位置直吹到线形终点。这团风吹灭所有小的非魔法火焰，吹散云和雾，吹起负载轻或者更低的物体，并且会推动更大的物体。区域中大型或者更小的生物必须尝试一次强韧豁免。在之后进入风中的大型或者更小的生物也必须在进入时尝试该豁免。</p>\n<hr />\n<p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong> 该生物无法顶风移动。</p>\n<p><strong>失败</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。如果它在飞行，它改为承受大失败效果。</p>\n<p><strong>大失败</strong> 该生物被沿风向推离30尺，倒地，并且承受2d6钝击伤害。</p>",
+          "description": "<p>一团暴风从你的掌中喷出，从你施放法术时所在位置直吹到线形终点。这团风吹灭所有小的非魔法火焰，吹散浓雾和薄雾，吹起负载轻或者更低的物体，并且会推动更大的物体。区域中大型或者更小的生物必须尝试一次强韧豁免。在之后进入风中的大型或者更小的生物也必须在进入时尝试该豁免。</p>\n<hr />\n<p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong> 该生物无法顶风移动。</p>\n<p><strong>失败</strong> 该生物@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。如果它在飞行，它改为承受大失败效果。</p>\n<p><strong>大失败</strong> 该生物被沿风向推离30尺，倒地，并且承受2d6钝击伤害。</p>",
           "expectedDescription": "<p>A violent wind issues forth from your palm, blowing from the point where you are when you Cast the Spell to the line's opposite end. The wind extinguishes small non-magical fires, disperses fog and mist, blows objects of light Bulk or less around, and pushes larger objects. Large or smaller creatures in the area must attempt a Fortitude save. Large or smaller creatures that later move into the gust must attempt the save on entering.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature can't move against the wind.</p>\n<p><strong>Failure</strong> The creature is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. If it was flying, it takes the effects of critical failure instead.</p>\n<p><strong>Critical Failure</strong> The creature is pushed 30 feet in the wind's direction, knocked prone, and takes 2d6 bludgeoning damage.</p>"
         },
         {
           "id": "x7PrJtTn7BY3pow2",
           "expectedName": "Heal",
           "name": "治疗术",
-          "description": "<p>你引导命能来治疗活物或伤害不死生物。如果目标是自愿的活物，便为其恢复1d8生命值。如果目标是不死生物，便对其造成等量命能伤害，且其可以进行基础强韧豁免。施放本法术时花费的动作数，决定目标、射程、区域及其他参数。</p>\n<p><span class=\"action-glyph\">1</span>该法术的射程为接触。</p>\n<p><span class=\"action-glyph\">2</span>（专注）法术射程为30尺。如果治疗活物，恢复的生命值增加8。</p>\n<p><span class=\"action-glyph\">3</span>（专注）你在@Template[emanation|distance:30]内释放命能，以爆发范围内所有活物与不死生物为目标。</p>\n<hr />\n<p><strong>升阶（+1）</strong>治疗量或伤害增加1d8，且两动作版本的额外治疗量增加8。</p>",
+          "description": "<p>你引导命能来治疗活物或伤害不死生物。如果目标是自愿的活物，便为其恢复1d8生命值。如果目标是不死生物，便对其造成等量命能伤害，且其可以进行基础强韧豁免。施放本法术时花费的动作数，决定目标、射程、区域及其他参数。</p>\n<p><span class=\"action-glyph\">1</span>该法术的射程为接触。</p>\n<p><span class=\"action-glyph\">2</span>（专注）法术射程为30尺。如果治疗活物，恢复的生命值增加8。</p>\n<p><span class=\"action-glyph\">3</span>（专注）你在@Template[emanation|distance:30]内释放命能，以该弥漫范围内所有活物与不死生物为目标。</p>\n<hr />\n<p><strong>升阶（+1）</strong>治疗量或伤害增加1d8，且两动作版本的额外治疗量增加8。</p>",
           "expectedDescription": "<p>You channel vital energy to heal the living or damage the undead. If the target is a willing living creature, you restore 1d8 Hit Points. If the target is undead, you deal that amount of vitality damage to it, and it gets a basic Fortitude save. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.</p>\n<p><span class=\"action-glyph\">1</span> The spell has a range of touch.</p>\n<p><span class=\"action-glyph\">2</span> (concentrate) The spell has a range of 30 feet. If you're healing a living creature, increase the Hit Points restored by 8.</p>\n<p><span class=\"action-glyph\">3</span> (concentrate) You disperse vital energy in a @Template[emanation|distance:30]. This targets all living and undead creatures in the burst.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The amount of healing or damage increases by 1d8, and the extra healing for the 2-action version increases by 8.</p>",
           "extraFields": [
             {
@@ -1180,7 +1180,7 @@
           "expectedName": "Scan Environment",
           "name": "扫描环境",
           "expectedDescription": "<p>You analyze the natural environment in the area within 1 mile, learning general information about the atmosphere, biomes, and gravity. You forecast the weather for the next hour, including the direction it will come from; learn which atmospheres, biomes, and gravity are in the area, as well as the direction and distance to those elements; and learn if anything in the area presents an environmental hazard, including cold or heat dangers (at what temperature range), radiation (at what severity), smoke effects, and underwater conditions. This is enough to detect large effects that span spaces over 30 feet in diameter only. You gain a general sense of where and how far away these dangers are.</p><hr /><p><strong>Heightened (+1)</strong> The scanned area increases in radius by 1 mile.</p>",
-          "description": "<p>你分析1英里范围内的自然环境，了解大气层、生物群落和重力的一般信息。预测未来一小时的天气，包括天气自哪而来；了解该区域有哪些大气、生物群落和重力，以及与这些元素的方向和距离；了解该区域是否存在环境危害，包括冷热危险（在什么温度范围）、辐射（严重程度）、烟雾效果和水下条件。这足以探测到直径超过30英尺的大型效果。你可以大致了解这些危险的位置和距离。</p><hr /><p><strong>升阶（+1）</strong>扫描范围增加1英里。</p>"
+          "description": "<p>你分析1英里范围内的自然环境，了解大气层、生物群落和重力的一般信息。预测未来一小时的天气，包括天气自哪而来；了解该区域有哪些大气、生物群落和重力，以及与这些元素的方向和距离；了解该区域是否存在环境危害，包括冷热危险（在什么温度范围）、辐射（严重程度）、烟雾效果和水下条件。这只能探测到覆盖空间直径超过30尺的大型效果。你可以大致了解这些危险的位置和距离。</p><hr /><p><strong>升阶（+1）</strong>扫描区域的半径增加1英里。</p>"
         },
         {
           "id": "lott5AJpc4q8urIz",
@@ -1432,7 +1432,7 @@
           "expectedName": "Analyze Target",
           "name": "分析目标",
           "expectedDescription": "<p>You focus on the target, gathering data as magical holograms display information. When the casting is complete, you learn biometric information about the target, including its fingerprints, medical conditions, and other basic physiological information. You or anyone you advise about the analysis gains a +1 status bonus to checks to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} the creature, to @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{Treat Wounds} on the creature, and to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} about it. If the target is illusory or under the effects of illusion magic, you detect this only if the effect's rank is lower than the rank of your analyze target spell.</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>Heightened (3rd)</strong> The status bonus increases to +2, and you can target up to 10 creatures.</p>\n<p><strong>Heightened (6th)</strong> The status bonus increases to +3, and you can target any number of creatures.</p>",
-          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的所有生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能够探测到结果。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以至多10名生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以任意名生物作为目标。</p>"
+          "description": "<p>你专注在目标身上，收集数据并以魔法全息图像显示。当施法完成，你会获得目标的生物特征信息，包括指纹、医疗状况和其他基本生理信息。你或任何得到你基于分析建议的人，在@UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]为该生物、对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]、以及对该生物@UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]的检定上获得+1状态加值。如果目标是幻觉或者处于幻术魔法效果下，仅当效果的环级低于你分析目标的法术环级，你才能察觉这种情况。</p>\n<p>@UUID[Compendium.sf2e-anachronism.spell-effects.Item.7r6mw8H87SUaj9Tq]</p><hr /><p><strong>升阶（3环）</strong>状态加值提升到+2，并且你可以将至多10个生物作为目标。</p>\n<p><strong>升阶（6环）</strong>状态加值提升到+3，并且你可以将任意数量的生物作为目标。</p>"
         },
         {
           "id": "gnAne2lDKenmHAEG",
@@ -1445,7 +1445,7 @@
           "id": "KVAZOvLNQvmGn3Cv",
           "expectedName": "Detect Magic",
           "name": "侦测魔法",
-          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同不精确感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
+          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同模糊感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
           "expectedDescription": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         {
@@ -1504,7 +1504,7 @@
           "id": "7yYtI9QE3axs436R",
           "expectedName": "Telekinetic Projectile",
           "name": "念动射弹",
-          "description": "<p>你将射程内一件未固定、无人持有且负载不超过1的物体掷向目标。对目标进行法术攻击检定。命中时，你造成2d6钝击、穿刺或挥砍伤害，取决于所掷物体。被掷物品的任何特殊特征或魔法属性，都不会影响此次攻击或伤害。</p>\n<hr />\n<p><strong>大成功</strong>你造成双倍伤害。</p>\n<p><strong>成功</strong>你造成完整伤害。</p>\n<hr />\n<p><strong>升阶（+1）</strong>伤害增加1d6。</p>",
+          "description": "<p>你将射程内一件未固定、无人照管且负载不超过1的物体掷向目标。对目标进行法术攻击检定。命中时，你造成2d6钝击、穿刺或挥砍伤害，取决于所掷物体。被掷物品的任何特殊特征或魔法属性，都不会影响此次攻击或伤害。</p>\n<hr />\n<p><strong>大成功</strong>你造成双倍伤害。</p>\n<p><strong>成功</strong>你造成完整伤害。</p>\n<hr />\n<p><strong>升阶（+1）</strong>伤害增加1d6。</p>",
           "expectedDescription": "<p>You hurl a loose, unattended object that is within range and that has 1 Bulk or less at the target. Make a spell attack roll against the target. If you hit, you deal 2d6 bludgeoning, piercing, or slashing damage—as appropriate for the object you hurled. No specific traits or magic properties of the hurled item affect the attack or the damage.</p>\n<hr />\n<p><strong>Critical Success</strong> You deal double damage.</p>\n<p><strong>Success</strong> You deal full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>",
           "extraFields": [
             {
@@ -1550,7 +1550,7 @@
           "expectedName": "Parallel Accord",
           "name": "平行协定",
           "expectedDescription": "<p>A parallel accord is a small metallic disk ringed with magical runes that transcend reality, serving as a nexus for a number of your parallel selves. When invested, a parallel accord hovers over your head like a crown.</p>\n<p><strong>Activate—Parallel Positioning</strong> <span class=\"action-glyph\">r</span> (concentration, teleportation)</p>\n<p><strong>Trigger</strong> You succeed at a saving throw against a spell or a Strike misses you</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You tap into one of the alternate realities linked to your parallel accord, repositioning yourself into a location you occupy in another reality. You teleport to any unoccupied square you can see within 20 feet. If you critically succeeded at the triggering saving throw or were critically missed by the triggering Strike, you additionally become @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} until the beginning of your next turn, as your body is shrouded in fragmented reflections of other realities.</p>",
-          "description": "<p>平行协定是一张镶嵌着跨现实魔法符文的金属圆盘，作为你的多个平行自我的枢纽。当被启动时，它会如王冠般悬浮于你头顶。</p>\n<p><strong>启动—平行定位</strong> <span class=\"action-glyph\">r</span> （专注，传送）</p>\n<p><strong>触发</strong> 你对一个法术豁免成功，或一次打击未命中你</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你借用平行协定所连接的某个替代现实，将自己转移到另一个现实中自己所处的位置。你传送至20尺内一个你能看见的未占据方格。如果触发的豁免是你大成功，或触发的打击大失败，则你还会 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽} ，持续至你下个回合开始，因为你的身体被其他现实的破碎映像笼罩。</p>"
+          "description": "<p>平行协定是一张镶嵌着跨现实魔法符文的金属圆盘，作为你的多个平行自我的枢纽。绑定后，它会如王冠般悬浮于你头顶。</p>\n<p><strong>启动—平行定位</strong> <span class=\"action-glyph\">r</span> （专注，传送）</p>\n<p><strong>触发</strong> 你对一个法术豁免成功，或一次打击未命中你</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你借用平行协定所连接的某个替代现实，将自己转移到另一个现实中自己所处的位置。你传送至20尺内一个你能看见的未占据方格。如果触发的豁免是你大成功，或触发的打击大失败，则你还会 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{隐蔽} ，持续至你下个回合开始，因为你的身体被其他现实的破碎映像笼罩。</p>"
         },
         {
           "id": "JumKak78IX3gkD7u",
@@ -1855,7 +1855,7 @@
           "id": "ZLJ9GzBw89ieEVAZ",
           "expectedName": "Detect Magic",
           "name": "侦测魔法",
-          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同不精确感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
+          "description": "<p>你发出一道感应魔法存在的脉冲。除魔法是否存在外，你不会获得其他信息。你可以选择忽略自己完全知晓的魔法，例如你与盟友的魔法物品和持续中的法术。只有幻术魔法效应的环阶低于你的<em>侦测魔法</em>法术环阶时，你才能侦测到它。不过，具有幻术灵光、但外观并不具有欺骗性的物品（例如<em>隐形药水</em>），通常仍能正常侦测。</p><hr /><p><strong>升阶（3环）</strong>你得知此法术侦测到的最强魔法效应的环阶或等级，由GM决定。</p>\n<p><strong>升阶（4环）</strong>如同3环，但你还能定位最高环阶魔法的来源。如同模糊感官，你不会得知确切位置，但能将来源缩小至一个5尺立方空间内（若来源更大，则为最近的该大小空间）。</p>",
           "expectedDescription": "<p>You send out a pulse that registers the presence of magic. You receive no information beyond the presence or absence of magic. You can choose to ignore magic you're fully aware of, such as the magic items and ongoing spells of you and your allies. You detect illusion magic only if that magic's effect has a lower rank than the rank of your <em>detect magic</em> spell. However, items that have an illusion aura but aren't deceptive in appearance (such as an <em>invisibility potion</em>) typically are detected normally.</p><hr /><p><strong>Heightened (3rd)</strong> You learn the rank or level of the most powerful magical effect the spell detects, as determined by the GM.</p>\n<p><strong>Heightened (4th)</strong> As 3rd rank, but you also pinpoint the source of the highest-rank magic. Like for an imprecise sense, you don't learn the exact location, but can narrow down the source to within a 5-foot cube (or the nearest if larger than that).</p>"
         },
         {
@@ -1926,7 +1926,7 @@
           "expectedName": "Repair Toolkit (Commercial)",
           "name": "商用型修理工具包",
           "expectedDescription": "<p>A repair toolkit contains a variety of delicate tools and supplies that allows you to perform simple repairs while traveling. You can use a repair toolkit to Repair items using the Crafting skill. You can draw and replace a worn repair toolkit as part of the action that uses it.</p>",
-          "description": "<p>修理工具包包含各种各样的允许你在旅行途中进行简单修理的精密工具和供应品。你可以用修理工具包使用手艺技能修理物品。如果你穿戴着修理工具包，你可以抽出和替换一个穿戴在身上的修理工具包，作为使用动作的一部分。</p>"
+          "description": "<p>修理工具包包含各种各样的允许你在旅行途中进行简单修理的精密工具和供应品。你可以用修理工具包使用手艺技能修理物品。如果你穿戴着修理工具包，你可以作为使用它的动作的一部分，取出并放回这个穿戴着的修理工具包。</p>"
         },
         {
           "id": "AYtPIzAx02z4Tu5h",
@@ -2251,7 +2251,7 @@
           "expectedName": "Stumble",
           "name": "跌绊术",
           "expectedDescription": "<p>A burst of microgravity causes a tremor around the target, pulling it toward the ground. The target must attempt a Reflex save.</p><hr /><p><strong>Failure</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round. If the target was flying, swimming, or floating, it falls 10 feet downward.</p>\n<p><strong>Critical Failure</strong> The target falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. If the target was flying, swimming, or floating, it falls 20 feet downward.</p><hr /><p><strong>Heightened (+1)</strong> If the target falls, it falls an additional 5 feet on a failure and 10 feet on a critical failure.</p>",
-          "description": "<p>一阵微弱重力会在目标周围造成震颤，将其拉向地面。目标尝试反射豁免。</p><hr /><p><strong>失败</strong>目标会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]1轮。如果目标是在飞行、游泳或漂浮，则会向下坠落10尺。</p>\n<p><strong>大失败</strong>目标@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]。如果目标正在飞行、游泳或漂浮，则会向下坠落20尺。</p><hr /><p><strong>升阶（+1） </strong>如果目标在飞行，失败时会额外向下坠落5尺，大失败时会额外向下坠落10尺。</p>"
+          "description": "<p>一阵微弱重力会在目标周围造成震颤，将其拉向地面。目标尝试反射豁免。</p><hr /><p><strong>失败</strong>目标会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]1轮。如果目标是在飞行、游泳或漂浮，则会向下坠落10尺。</p>\n<p><strong>大失败</strong>目标@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]。如果目标正在飞行、游泳或漂浮，则会向下坠落20尺。</p><hr /><p><strong>升阶（+1） </strong>如果目标坠落，失败时会额外向下坠落5尺，大失败时会额外向下坠落10尺。</p>"
         },
         {
           "id": "KNukzFLiRRv1nQIO",
@@ -2326,7 +2326,7 @@
           "id": "zD0PtqI0SMu9TIvt",
           "expectedName": "Battleglove",
           "name": "战斗手套",
-          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这些耐用手套套在持用者的手上（或其他附肢上），指节处装有配重甲板或尖刺。</p>",
+          "description": "<p><strong>强化：</strong> 1</p><hr /><p>这些耐用手套套在持用者的手上（或其他附肢上），指节处装有配重板或尖刺。</p>",
           "expectedDescription": "<p><strong>Upgrades:</strong> 1</p><hr /><p>These durable gloves fit over a wielder's hands (or other appendages) and feature weighted plates or spikes over the knuckles.</p>"
         },
         {
@@ -2334,7 +2334,7 @@
           "expectedName": "Ossifying Grenade (Tactical)",
           "name": "战术型骨化手雷",
           "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round</p><hr /><p>This grenade was invented by the Eoxian navy, its designs later stolen by the early Corpse Fleet. When it explodes, the grenade rapidly releases calcifying agents which transform living flesh to bone, dealing 2d8 void damage. Living creatures in a @Template[burst|distance:10] must attempt a basic Reflex save. If you have access to the critical specialization effect of grenades, creatures who critically fail their saving throw become clumsy.</p>",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}，持续1轮</p><hr /><p>这种手雷由伊奥克斯海军发明，其设计后来被早期尸骸舰队窃取。爆炸时，手雷迅速释放钙化剂，将活体血肉转化为骨骼，造成2d8虚能伤害。以下范围内的活物： @Template[burst|distance:10] 必须尝试一次基础反射豁免。如果你可以使用手雷的重击专精效果，豁免大失败的生物会陷入笨拙。</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{笨拙 1}，持续1轮</p><hr /><p>这种手雷由伊奥克斯海军发明，其设计后来被早期尸骸舰队窃取。爆炸时，手雷迅速释放钙化剂，将活体血肉转化为骨骼，造成2d8虚能伤害。@Template[burst|distance:10]范围内的活物必须进行一次基础反射豁免。如果你可以使用手雷的重击专精效果，豁免大失败的生物会陷入笨拙。</p>"
         },
         {
           "id": "Z1wjPvhe6nO17eHP",
@@ -2568,7 +2568,7 @@
           "id": "wq5SfvOgvExZmzYa",
           "expectedName": "Gnaw Scrap",
           "name": "啃食废料",
-          "description": "<p>刻法克虫咀嚼一件无人持有的物体进食，每10分钟对该物体造成@Damage[4[piercing]]伤害。此伤害忽略10点硬度。如果刻法克虫每天没有花费至少1小时啃噬废料，便开始饥饿，直到花费10分钟啃噬废料。</p>",
+          "description": "<p>刻法克虫咀嚼一件无人携带的物体进食，每10分钟对该物体造成@Damage[4[piercing]]伤害。此伤害忽略10点硬度。如果刻法克虫每天没有花费至少1小时啃噬废料，便开始饥饿，直到花费10分钟啃噬废料。</p>",
           "expectedDescription": "<p>A khefak chews on an unattended object to feed, dealing @Damage[4[piercing]] damage every 10 minutes to the object. This damage ignores 10 points of Hardness. If a khefak doesn't spend at least 1 hour Gnawing Scrap per day, it begins to starve until it spends 10 minutes Gnawing Scrap.</p>"
         },
         {
@@ -2825,7 +2825,7 @@
           "expectedName": "Weight of Ages",
           "name": "岁月重担",
           "expectedDescription": "<p>You burden a creature's body and mind with the pains and sorrows of a lifetime. The target takes 3d8 bludgeoning damage and 3d8 mental damage and must attempt a Will saving throw.</p><hr /><p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> The target takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Encumbered} for 1 round.</p>\n<p><strong>Critical Failure</strong> The target takes double damage and is encumbered for 1 minute.</p><hr /><p><strong>Heightened (+1)</strong> The mental damage increases by 2d8.</p>",
-          "description": "<p>你将目标毕生的苦痛与哀伤化作沉重枷锁，压垮目标的身心。尝试一次远程法术攻击骰。目标受到3d8钝击伤害和3d8心灵，并且必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全伤害并且@UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]1轮。</p>\n<p><strong>大失败</strong>目标受到全伤害并且超载1分钟。</p><hr /><p><strong>升阶（+1）</strong>心灵伤害增加2d8</p>"
+          "description": "<p>你将目标毕生的苦痛与哀伤化作沉重枷锁，压垮目标的身心。目标受到3d8钝击伤害和3d8心灵伤害，并且必须尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到全额伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]，持续1轮。</p>\n<p><strong>大失败</strong>目标受到双倍伤害，并陷入超载，持续1分钟。</p><hr /><p><strong>升阶（+1）</strong>心灵伤害增加2d8</p>"
         },
         {
           "id": "dbiZ1yOA4vQedDHu",
@@ -2851,14 +2851,14 @@
           "expectedName": "Time's Edge",
           "name": "时间尖锋",
           "expectedDescription": "<p>You refract latent energy from the Dimension of Time into your current plane in the form of a massive blade. The blade deals 5d6 slashing damage to all creatures in the area as it causes time to pass rapidly in a thin slice of their bodies. Creatures in the area must attempt a Fortitude save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p><hr /><p><strong>Heightened (+1)</strong> The damage increases by 2d6.</p>",
-          "description": "<p>你将时间维度上的巨大能量折射入当前位面，化为巨大的刀锋。刀锋对区域内所有生物造成5d6挥砍伤害，这表示刀锋令其身体的一小部分迅速流逝时间。该区域内的生物必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到完整伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}状态。</p>\n<p><strong>大失败</strong>目标受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}状态。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
+          "description": "<p>你将时间维度中潜藏的能量折射入当前位面，化为巨大的刀锋。刀锋对区域内所有生物造成5d6挥砍伤害，因为刀锋使其身体薄薄一层中的时间迅速流逝。该区域内的生物必须尝试一次强韧豁免。</p><hr /><p><strong>大成功</strong>目标不受影响。</p>\n<p><strong>成功</strong>目标受到一半伤害。</p>\n<p><strong>失败</strong>目标受到完整伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心1}状态。</p>\n<p><strong>大失败</strong>目标受到双倍伤害，并陷入@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{恶心2}状态。</p><hr /><p><strong>升阶（+1）</strong>伤害增加2d6。</p>"
         },
         {
           "id": "6bWrWoZfto2OekZL",
           "expectedName": "Void Whispers",
           "name": "虚空低语",
           "expectedDescription": "<p>The target hears ominous sounds containing unspeakable mysteries from beyond the stars that disorient its mind. The target attempts a Will save.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The target hears the strange whispers, becoming @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 round.</p>\n<p><strong>Failure</strong> The target begins to wander aimlessly, using each action to Step in a random direction. When it moves, the target takes the safest route and doesn't enter hazardous terrain. The spell has a duration of 1 minute or until a creature uses a hostile action against the target.</p>\n<p><strong>Critical Failure</strong> As failure, except the target babbles incoherently. Any creature that begins its turn within 20 feet of the target must attempt a Will saving throw. On a failure, it must use its first action on its next turn to Step in a random direction and becomes immune to this spell for 24 hours. This is an incapacitation effect.</p>",
-          "description": "<p>目标耳边响起蕴含星辰之外不可名状奥秘的不祥之音，使其神智混乱。目标需要尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>目标听到了诡异的低语，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续1轮。</p>\n<p><strong>失败</strong>目标开始漫无目的地游荡，使用每个动作来快步（方向随机）。当其移动时，其会采取最安全的路线并且不会进入有害地形。法术会持续1分钟或者直到目标被敌对动作瞄准。</p>\n<p><strong>大失败</strong>类似失败，除了目标还会语无伦次地喋喋不休。任何在其20尺内开始回合的生物也需要尝试一次意志豁免。在失败时，这些生物也需要在下回合开始时花费第一个动作来进行快步（随机方向），随后临时免疫此法术24小时。这是一个失能效果。</p>"
+          "description": "<p>目标耳边响起蕴含星辰之外不可名状奥秘的不祥之音，使其神智混乱。目标需要尝试一次意志豁免。</p><hr /><p><strong>大成功</strong>该生物不受影响。</p>\n<p><strong>成功</strong>目标听到了诡异的低语，陷入@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}，持续1轮。</p>\n<p><strong>失败</strong>目标开始漫无目的地游荡，使用每个动作来快步（方向随机）。当其移动时，其会采取最安全的路线并且不会进入有害地形。法术会持续1分钟或者直到有生物对目标使用敌对动作。</p>\n<p><strong>大失败</strong>类似失败，除了目标还会语无伦次地喋喋不休。任何在其20尺内开始回合的生物也需要尝试一次意志豁免。在失败时，这些生物也需要在下回合开始时花费第一个动作来进行快步（随机方向），随后临时免疫此法术24小时。这是一个失能效果。</p>"
         },
         {
           "id": "2buBPGvZDVOMvQqm",
@@ -2958,7 +2958,7 @@
           "id": "6ebinvURnGgOn6bA",
           "expectedName": "Telekinetic Projectile",
           "name": "念动射弹",
-          "description": "<p>你将射程内一件未固定、无人持有且负载不超过1的物体掷向目标。对目标进行法术攻击检定。命中时，你造成2d6钝击、穿刺或挥砍伤害，取决于所掷物体。被掷物品的任何特殊特征或魔法属性，都不会影响此次攻击或伤害。</p>\n<hr />\n<p><strong>大成功</strong>你造成双倍伤害。</p>\n<p><strong>成功</strong>你造成完整伤害。</p>\n<hr />\n<p><strong>升阶（+1）</strong>伤害增加1d6。</p>",
+          "description": "<p>你将射程内一件未固定、无人照管且负载不超过1的物体掷向目标。对目标进行法术攻击检定。命中时，你造成2d6钝击、穿刺或挥砍伤害，取决于所掷物体。被掷物品的任何特殊特征或魔法属性，都不会影响此次攻击或伤害。</p>\n<hr />\n<p><strong>大成功</strong>你造成双倍伤害。</p>\n<p><strong>成功</strong>你造成完整伤害。</p>\n<hr />\n<p><strong>升阶（+1）</strong>伤害增加1d6。</p>",
           "expectedDescription": "<p>You hurl a loose, unattended object that is within range and that has 1 Bulk or less at the target. Make a spell attack roll against the target. If you hit, you deal 2d6 bludgeoning, piercing, or slashing damage—as appropriate for the object you hurled. No specific traits or magic properties of the hurled item affect the attack or the damage.</p>\n<hr />\n<p><strong>Critical Success</strong> You deal double damage.</p>\n<p><strong>Success</strong> You deal full damage.</p>\n<hr />\n<p><strong>Heightened (+1)</strong> The damage increases by 1d6.</p>",
           "extraFields": [
             {
@@ -3117,8 +3117,8 @@
         {
           "id": "kKRoUSRntvm2YUQR",
           "expectedName": "Boosted Assault",
-          "name": "增幅突袭",
-          "description": "<p>缇尔跳跃或行走，随后交互以增幅她的獠牙刃。如果移动结束时有敌人在她的触及范围内，她会以獠牙刃对该生物进行一次打击。</p>",
+          "name": "过充能突袭",
+          "description": "<p>缇尔跳跃或行走，随后交互以过充能她的链锯剑。如果移动结束时有敌人在她的触及范围内，她会以链锯剑对该生物进行一次打击。</p>",
           "expectedDescription": "<p>Tear Leaps or Strides, then Interacts to boost her fangblade. If she ends her movement within reach of an enemy, she makes a fangblade Strike against that creature.</p>"
         }
       ],
@@ -3410,7 +3410,7 @@
           "expectedName": "Stumble",
           "name": "跌绊术",
           "expectedDescription": "<p>A burst of microgravity causes a tremor around the target, pulling it toward the ground. The target must attempt a Reflex save.</p><hr /><p><strong>Failure</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} for 1 round. If the target was flying, swimming, or floating, it falls 10 feet downward.</p>\n<p><strong>Critical Failure</strong> The target falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. If the target was flying, swimming, or floating, it falls 20 feet downward.</p><hr /><p><strong>Heightened (+1)</strong> If the target falls, it falls an additional 5 feet on a failure and 10 feet on a critical failure.</p>",
-          "description": "<p>一阵微弱重力会在目标周围造成震颤，将其拉向地面。目标尝试反射豁免。</p><hr /><p><strong>失败</strong>目标会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]1轮。如果目标是在飞行、游泳或漂浮，则会向下坠落10尺。</p>\n<p><strong>大失败</strong>目标@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]。如果目标正在飞行、游泳或漂浮，则会向下坠落20尺。</p><hr /><p><strong>升阶（+1） </strong>如果目标在飞行，失败时会额外向下坠落5尺，大失败时会额外向下坠落10尺。</p>"
+          "description": "<p>一阵微弱重力会在目标周围造成震颤，将其拉向地面。目标尝试反射豁免。</p><hr /><p><strong>失败</strong>目标会@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]1轮。如果目标是在飞行、游泳或漂浮，则会向下坠落10尺。</p>\n<p><strong>大失败</strong>目标@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]。如果目标正在飞行、游泳或漂浮，则会向下坠落20尺。</p><hr /><p><strong>升阶（+1） </strong>如果目标坠落，失败时会额外向下坠落5尺，大失败时会额外向下坠落10尺。</p>"
         },
         {
           "id": "u0CYkKRRzkuBjCpH",
@@ -3591,7 +3591,7 @@
           "id": "mQDYhNfvyPwDgMuf",
           "expectedName": "Functionary's Mask",
           "name": "官员的面具",
-          "description": "<p>这张带着角度的半面具由一种未知的金属合金制成，表面带有钢铁般的灰色光泽。从它那四个发光的眼状斑点到尖角，面具的外观显得冷酷且充满人工痕迹。尽管覆盖了脸部上半部分，<em>官员的面具</em>并不会妨碍视觉或其他感官。佩戴<em>官员的面具</em>时，你具有黑暗视觉，并且能够与60尺内的机器人进行无线通讯。</p>\n<p><strong>启动—强制覆写</strong> <span class=\"action-glyph\">2</span> （命令、专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你施放1环 @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{命令} (@Check[will|dc:19|traits:auditory,concentrate,linguistic,manipulate,mental|options:item:spell]），目标为具有科技特征的生物，忽略它对心灵效应的任何免疫。</p>",
+          "description": "<p>这张棱角分明的半面具由一种未知的金属合金制成，表面带有钢铁般的灰色光泽。从它那四个发光的眼状斑点到尖角，面具的外观显得冷酷且充满人工痕迹。尽管覆盖了脸部上半部分，<em>官员的面具</em>并不会妨碍视觉或其他感官。佩戴<em>官员的面具</em>时，你具有黑暗视觉，并且能够与60尺内的机器人进行无线通讯。</p>\n<p><strong>启动—强制覆写</strong> <span class=\"action-glyph\">2</span> （命令、专注）</p>\n<p><strong>频率</strong> 每天一次</p><hr /><p><strong>效果</strong> 你施放1环 @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{命令} (@Check[will|dc:19|traits:auditory,concentrate,linguistic,manipulate,mental|options:item:spell]），目标为具有科技特征的生物，忽略它对心灵效应的任何免疫。</p>",
           "expectedDescription": "<p>This angular half-mask is crafted from an unknown metal alloy with a steely gray sheen. From its four glowing eyespots to its pointed horns, the mask's appearance is harsh and synthetic. Despite covering the entire top half of the face, the <em>Functionary's mask</em> doesn't hinder vision or other senses. While wearing the <em>Functionary's mask</em>, you have darkvision and can communicate wirelessly with robots within 60 feet.</p>\n<p><strong>Activate—Override</strong> <span class=\"action-glyph\">2</span> (command, concentrate)</p>\n<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> You cast 1st-rank @UUID[Compendium.pf2e.spells-srd.Item.aIHY2DArKFweIrpf]{Command} (@Check[will|dc:19|traits:auditory,concentrate,linguistic,manipulate,mental|options:item:spell]) on a creature with the tech trait, ignoring any immunity it may have to mental effects.</p>"
         },
         {
@@ -3821,7 +3821,7 @@
           "id": "NDxk3Wu8AsfLA6fG",
           "expectedName": "Grease",
           "name": "油腻术",
-          "description": "<p>你创造油脂，选择一个区域或目标。</p>\n<ul>\n<li><strong>区域</strong><strong>[4个连续的5尺方格]</strong>区域内所有坚实地面都覆上油脂。站在油滑表面上的生物必须通过对抗你法术DC的反射豁免或特技检定，否则就会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。在法术持续时间内，用动作移动到油滑表面的生物必须尝试反射豁免，或尝试特技检定来@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}。快步或爬行的生物无需检定或豁免。</li>\n<li><strong>目标</strong><strong>[1个负载为1或更低的物体]</strong>如果对无人持有的物体施放该法术，任何尝试捡起它的生物都必须通过对抗你法术DC的特技检定或反射豁免。如果以有人持有的物体为目标，持有者必须尝试特技检定或反射豁免。失败时，持有者或持用者在涉及使用该物体的所有检定中受到–2环境减值；大失败时，它会放开物品。物品落在由GM选择的相邻方格。如果对穿戴的物体施放该法术，穿戴者对抗擒拿尝试的强韧豁免获得+2环境加值。</li>\n</ul>",
+          "description": "<p>你创造油脂，选择一个区域或目标。</p>\n<ul>\n<li><strong>区域</strong><strong>[4个连续的5尺方格]</strong>区域内所有坚实地面都覆上油脂。站在油滑表面上的生物必须通过对抗你法术DC的反射豁免或特技检定，否则就会@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{倒地}。在法术持续时间内，用动作移动到油滑表面的生物必须尝试反射豁免，或尝试特技检定来@UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{保持平衡}。快步或爬行的生物无需检定或豁免。</li>\n<li><strong>目标</strong><strong>[1个负载为1或更低的物体]</strong>如果对无人携带的物体施放该法术，任何尝试捡起它的生物都必须通过对抗你法术DC的特技检定或反射豁免。如果以由生物携带的物体为目标，持有者必须尝试特技检定或反射豁免。失败时，持有者或持用者在涉及使用该物体的所有检定中受到–2环境减值；大失败时，它会放开物品。物品落在由GM选择的相邻方格。如果对穿戴的物体施放该法术，穿戴者对抗擒拿尝试的强韧豁免获得+2环境加值。</li>\n</ul>",
           "expectedDescription": "<p>You conjure grease, choosing an area or target.</p>\n<ul>\n<li><strong>Area</strong> <strong>[4 contiguous 5-foot squares]</strong> All solid ground in the area is covered with grease. Each creature standing on the greasy surface must succeed at a Reflex save or an Acrobatics check against your spell DC or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}. Creatures using an action to move onto the greasy surface during the spell's duration must attempt either a Reflex save or an Acrobatics check to @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{Balance}. A creature that Steps or Crawls doesn't have to attempt a check or save.</li>\n<li><strong>Target</strong> <strong>[1 object of Bulk 1 or less]</strong> If you Cast the Spell on an unattended object, anyone trying to pick up the object must succeed at an Acrobatics check or Reflex save against your spell DC to do so. If you target an attended object, the creature that has the object must attempt an Acrobatics check or Reflex save. On a failure, the holder or wielder takes a –2 circumstance penalty to all checks that involve using the object; on a critical failure, the holder or wielder releases the item. The object lands in an adjacent square of the GM's choice. If you Cast this Spell on a worn object, the wearer gains a +2 circumstance bonus to Fortitude saves against attempts to grapple them.</li>\n</ul>"
         },
         {
@@ -3947,7 +3947,7 @@
           "expectedName": "Degradation Grenade (Commercial)",
           "name": "商用型衰退手雷",
           "expectedDescription": "<p><strong>Activate</strong> <span class=\"action-glyph\">1</span> Area Fire</p>\n<p><strong>Critical</strong> @Damage[1[persistent,acid]] damage</p><hr /><p>Degradation grenades create violent blasts of magic that rip matter into different realities, leaving behind blackened hunks of matter that dissipate into nothingness. When the grenade explodes, it deals 1d8 acid damage in a @Template[burst|distance:5] with a @Check[reflex|against:class|basic] save.</p>",
-          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1[persistent,acid]]伤害</p><hr /><p>降解手雷引发猛烈的魔法爆炸，将物质撕入不同现实，留下逐渐消散为虚无的焦黑残块。手雷爆炸时造成1d8点酸蚀伤害，范围为 @Template[burst|distance:5] 并进行 @Check[reflex|against:class|basic] 豁免。</p>"
+          "description": "<p><strong>启动</strong> <span class=\"action-glyph\">1</span>区域射击</p>\n<p><strong>重击</strong> @Damage[1[persistent,acid]]伤害</p><hr /><p>衰退手雷引发猛烈的魔法爆炸，将物质撕入不同现实，留下逐渐消散为虚无的焦黑残块。手雷爆炸时造成1d8点酸蚀伤害，范围为 @Template[burst|distance:5] 并进行 @Check[reflex|against:class|basic] 豁免。</p>"
         },
         {
           "id": "vTu7ETaPBxKAm9CU",
@@ -4426,7 +4426,7 @@
           "id": "q16OblRvKM0acYsj",
           "expectedName": "Bloodsense",
           "name": "血液感知",
-          "description": "<p>血生猎犬能在列出的距离内，以不精确感官侦测生物体内的血液。对正在流血的生物而言，这是精确感官。</p>",
+          "description": "<p>血生猎犬能在列出的距离内，以模糊感官侦测生物体内的血液。对正在流血的生物而言，这是精确感官。</p>",
           "expectedDescription": "<p>A bloodspawned hound can detect blood inside creatures' bodies as an imprecise sense at the listed range. This is a precise sense against creatures actively bleeding.</p>"
         },
         {
@@ -4758,7 +4758,7 @@
           "id": "OSdoAIG8NnhtYD48",
           "expectedName": "Bloodsense",
           "name": "血液感知",
-          "description": "<p>血生尖啸者能在列出的距离内，以不精确感官侦测生物体内的血液。对正在流血的生物而言，这是精确感官。</p>",
+          "description": "<p>血生尖啸者能在列出的距离内，以模糊感官侦测生物体内的血液。对正在流血的生物而言，这是精确感官。</p>",
           "expectedDescription": "<p>A bloodspawned screecher can detect blood inside creatures' bodies as an imprecise sense at the listed range. This is a precise sense against creatures actively bleeding.</p>"
         },
         {
@@ -4902,14 +4902,14 @@
           "id": "iLSbvA4ySWv2JmxZ",
           "expectedName": "Dazzling Reflection",
           "name": "炫目反射",
-          "description": "<p>棱面守卫的聚焦反射打击大成功时，目标必须进行@Check[fortitude|dc:18]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}状态，持续1轮。</p>",
+          "description": "<p>棱面守卫的聚焦反射打击大成功时，目标必须成功通过@Check[fortitude|dc:18]豁免，否则陷入@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{目眩}状态，持续1轮。</p>",
           "expectedDescription": "<p>When the facet guardian critically succeeds on a focused reflection Strike, the target must attempt a @Check[fortitude|dc:18] save or be @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 1 round.</p>"
         },
         {
           "id": "jERkiSsIUnQegewH",
           "expectedName": "Edge Skate",
           "name": "刃缘滑行",
-          "description": "<p>棱面守卫以一个棱面刀刃般的边缘滑行，快速向前冲刺。它移动至多相当于其速度的距离，并对移动途中经过其相邻空间的任意数量生物，各进行一次镜刃打击。这些攻击计入棱面守卫的多次攻击减值，但减值在所有攻击完成后才增加。</p>",
+          "description": "<p>棱面守卫以一个棱面刀刃般的边缘滑行，快速向前冲刺。它移动至多相当于其速度的距离，并对它在移动途中经过的任意数量相邻生物，各进行一次镜刃打击。这些攻击计入棱面守卫的多次攻击减值，但减值在所有攻击完成后才增加。</p>",
           "expectedDescription": "<p>The facet guardian dashes forward quickly, sliding on the knife-edge of one of its facets. It moves up to its Speed and makes one mirror's edge Strike against any number of creatures it passes adjacent to during its movement. These attacks contribute to the facet guardian's multiple attack penalty, but the penalty does not increase until all attacks are complete.</p>"
         },
         {
@@ -4939,7 +4939,7 @@
           "id": "Lva9Kxnd62PH8gVm",
           "expectedName": "False Manifestation",
           "name": "虚假显现",
-          "description": "<p>埃洛维使一个真实、未被占据的平台隐形，或让一个虚假的幻象平台出现。与虚假平台，或隐形平台所在空间进行互动的生物，可以立即尝试@Check[will|dc:22]豁免以识破此变化。此识破检定大成功的生物，还会获得一次解除成功。</p>",
+          "description": "<p>埃洛维使一个真实、未被占据的平台隐形，或让一个虚假的幻象平台出现。与虚假平台，或隐形平台所在空间进行交互的生物，可以立即尝试@Check[will|dc:22]豁免以识破此变化。此识破检定大成功的生物，还会获得一次解除成功。</p>",
           "expectedDescription": "<p>Elovai either causes a real, unoccupied platform to become invisible, or she causes a false, illusory platform to appear. A creature who Interacts with the false platform or with the space where the invisible platform is may immediately attempt a @Check[will|dc:22] save to disbelieve the change. A creature who critically succeeds on this check to disbelieve also earns one Disable success.</p>"
         },
         {
@@ -5019,7 +5019,7 @@
           "id": "FDF0FjAyDJl6YVDO",
           "expectedName": "Radiation Sense",
           "name": "辐射感知",
-          "description": "<p>光簇体能在60尺内以不精确感官感知辐射，包括活物产生的微量辐射</p>",
+          "description": "<p>光簇体能在60尺内以模糊感官感知辐射，包括活物产生的微量辐射</p>",
           "expectedDescription": "<p>A phosimplex can sense radiation within 60 feet as an imprecise sense, including minute traces of radiation generated by living creatures</p>"
         },
         {
@@ -5558,7 +5558,7 @@
           "id": "Ok35vLXn9cDcowo5",
           "expectedName": "Gnaw Scrap",
           "name": "啃食废料",
-          "description": "<p>刻法克虫咀嚼一件无人持有的物体进食，每10分钟对该物体造成@Damage[4[piercing]]伤害。此伤害忽略10点硬度。如果刻法克虫每天没有花费至少1小时啃噬废料，便开始饥饿，直到花费10分钟啃噬废料。</p>",
+          "description": "<p>刻法克虫咀嚼一件无人携带的物体进食，每10分钟对该物体造成@Damage[4[piercing]]伤害。此伤害忽略10点硬度。如果刻法克虫每天没有花费至少1小时啃噬废料，便开始饥饿，直到花费10分钟啃噬废料。</p>",
           "expectedDescription": "<p>A khefak chews on an unattended object to feed, dealing @Damage[4[piercing]] damage every 10 minutes to the object. This damage ignores 10 points of Hardness. If a khefak doesn't spend at least 1 hour Gnawing Scrap per day, it begins to starve until it spends 10 minutes Gnawing Scrap.</p>"
         },
         {
@@ -5711,7 +5711,7 @@
       },
       "cnText_system_details_routine": {
         "expected": "<p>(1 action) On each of its turns, the hazard targets one of the PCs at random, dealing @Damage[2d4[mental]] damage with a @Check[will|dc:16|basic] save. On a failure, the target also becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}; on a critical failure, they become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}.</p>",
-        "text": "<p>（1个动作）危害在自己的每回合随机指定一名PC为目标，造成@Damage[2d4[mental]]伤害，并进行@Check[will|dc:16|basic]豁免。失败时，目标还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}；大失败时，则@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}。</p>"
+        "text": "<p>（1个动作）危害在自己的每回合随机指定一名PC为目标，造成@Damage[2d4[mental]]伤害，目标进行@Check[will|dc:16|basic]豁免。失败时，目标还会@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞1}；大失败时，则@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{呆滞2}。</p>"
       },
       "cnText_system_details_reset": {
         "expected": "<p>The hazard remains active as long as the beyond terror is alive and doesn't reset once it's disabled or the beyond terror is defeated.</p>",

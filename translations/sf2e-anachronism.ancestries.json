@@ -75,7 +75,7 @@
     },
     "H6dkr1GtoQhuQqJm": {
       "name": "卡萨斯人 Kasatha",
-      "description": "<p><em>卡萨斯人承袭着遥远家园星球的古老传统，那是一颗环绕着垂死恒星的星球，他们是一种乘坐者名为伊达里号的巨型世界舰抵达协约世界的四臂类人生物。卡萨斯人追求万物间的宇宙平衡，以祖先的智慧淬炼科技进步为荣。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.PKGmC9bntc0F90mY]{卡萨斯人}</p>"
+      "description": "<p><em>卡萨斯人承袭着遥远家园星球的古老传统，那是一颗环绕着垂死恒星的星球，他们是一种乘坐着名为伊达里号的巨型世界舰抵达协约世界的四臂类人生物。卡萨斯人追求万物间的宇宙平衡，以祖先的智慧淬炼科技进步为荣。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.PKGmC9bntc0F90mY]{卡萨斯人}</p>"
     },
     "HFVQhUxBt6UTtuny": {
       "name": "异客蜥人 Ikeshti",
@@ -139,7 +139,7 @@
     },
     "jNE2Zq46a9kQj7bi": {
       "name": "龙人 Dragonkin",
-      "description": "<p><em>龙人外貌与龙类似，相当忠诚，他们具有深刻的共情能力，能与其他生物形成几乎牢不可破的精神纽带，外显为心灵感应和战术协同。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.EybiktinX2zD2k45]{龙人}</p>"
+      "description": "<p><em>龙人外貌与龙类似，相当忠诚，他们具有深刻的共情能力，能与另一个生物形成几乎牢不可破的精神纽带，外显为心灵感应和战术协同。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.EybiktinX2zD2k45]{龙人}</p>"
     },
     "lU4TJFs95esViIHI": {
       "name": "拉西利特族 Raxilite",
@@ -151,7 +151,7 @@
     },
     "mvomk7uS0Gfh72sg": {
       "name": "卓克斯虫人 Trox",
-      "description": "<p><em>卓克斯虫人是高大的双足虫形生物，与希伦虫人共同生活在利亚瓦拉的卫星恩查克上。他们由先祖神祇“永恒女王”海拉丝的活体化身统治。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.SJRGbEwS6KkIAYol]{卓克斯虫人}</p>"
+      "description": "<p><em>卓克斯虫人是高大的双足虫形生物，与希伦虫人共同生活在利亚瓦拉的卫星恩查克上。他们由先祖神祇“永恒女王”海菈丝的活体化身统治。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.SJRGbEwS6KkIAYol]{卓克斯虫人}</p>"
     },
     "oHnxW7Wgf0EaGK14": {
       "name": "纺蛛人 Atraxid",
@@ -171,11 +171,11 @@
     },
     "waaL4y6dUPzy8Emb": {
       "name": "新星族 Novian",
-      "description": "<p><em>新星族是迷你的太阳——由恒星死亡诞生，超热的等离子和火焰构成超小型飞行粒子。尽管体型微小，星族密度极高，散发着强大的引力场，使他们能够移动和操作物体，以及对他人施加自己的力量。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.2cRNeCylPnF0g5mT]{新星族}</p>"
+      "description": "<p><em>新星族是迷你的太阳——由恒星死亡诞生，超热的等离子和火焰构成超小型飞行粒子。尽管体型微小，新星族密度极高，散发着强大的引力场，使他们能够移动和操作物体，以及对他人施加自己的力量。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.2cRNeCylPnF0g5mT]{新星族}</p>"
     },
     "yOnW818fHTfnwg2k": {
       "name": "弗米蚁族 Formian",
-      "description": "<p><em>弗米蚁族是形似巨型蚂蚁的心能昆虫类人生物。他们与拉申塔人和精灵共同生活在卡斯卓韦，但弗米蚁群和拉申塔城邦之间残酷的世代战争仍然在生者的记忆中挥之不去。尽管弗米蚁族是巢群意识的一部分，但他们的社会性和心能联系仍然是他们身份的核心体现。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.fYn4p1tmavPS6Q7B]{弗米蚁族}</p>"
+      "description": "<p><em>弗米蚁族是形似巨型蚂蚁的心能昆虫类人生物。他们与拉申塔人和精灵共同生活在卡斯卓韦，但弗米蚁群和拉申塔城邦之间残酷的世代战争仍然在生者的记忆中挥之不去。弗米蚁族不仅仅是巢群意识的组成部分，但他们的社会性和心能联系是他们身份的核心体现。</em></p>\n<p>@UUID[Compendium.sf2e-anachronism.journals.JournalEntry.Cf6Ej0OgFpqg2VoF.JournalEntryPage.fYn4p1tmavPS6Q7B]{弗米蚁族}</p>"
     },
     "62AMzNlZzxTG0oxE": {
       "name": "莫伊舒人 Moyishuu",
